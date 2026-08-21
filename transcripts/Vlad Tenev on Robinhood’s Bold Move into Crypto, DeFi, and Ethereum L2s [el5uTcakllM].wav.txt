@@ -1,0 +1,404 @@
+ How can you get people in the US excited about putting stocks on blockchains?
+ You get these questions like why is it better than traditional stocks that are off-chain?
+ You already have things like Robinhood. It's easy. Robinhood has close to 26 million customers.
+ You can trade 24/5. Maybe it's not 24/7, but it's pretty close.
+ But I think where the possibilities really start to multiply is if you can get these
+ illiquid assets and you can construct the mechanism for all of them to be put on chain.
+ You get that liquidity in the real-time trading that has been historically reserved only for
+ cryptos and public stocks.
+ I'm thrilled to be here with Vlad Tenev, the co-founder and CEO of Robinhood, on the defined
+ podcast. Vlad, welcome. It's great to have you here. Thanks for having me. And you're probably the
+ only person who's ever said my last name correctly. Oh, I'm amazing. I'm proud of that.
+ So Robinhood obviously is at the top 10 brokerage. It has over $250 billion in assets under administration.
+ And it's going all in on crypto. Yesterday, you made a series of big announcements. I'll
+ summarize the three most important to, at least to me and my audience, and then we'll kind of
+ dive deeper into them. So you announced tokenized US stocks for European users. You announced tokenized
+ private company stocks for European users. And you said you are planning to launch your own
+ blockchain. I'll run down the other announcements, taking for Solan ETH, for US users for crypto
+ futures, for EU, 2% boost for crypto deposit, credit card rewards, smart exchange routing,
+ tax slots, advanced charts, and an AI trading assistant named Cortex. So that was a lot. And in
+ this beautiful backdrop. And USDG being approved the first Mika, one of the first Mika compliant
+ stablecoins. Too many announcements to keep track of. I know Johan just threw that out there,
+ like a little sardine at the end, you know, even though I think it was quite a big announcement.
+ Totally. Yeah, that would have been like big on its own. But let's get into the tokenized US
+ stocks for Europe. So currently European investors can already get access to US stocks
+ to Revolut and other FinTechs and brokers. What's so special about having stocks be tokenized?
+ Yeah, I mean, I think that I would think about the EU launch as serving two purposes. Number one,
+ actually EU customers wanted exposure to stocks. We've been live in Europe with our crypto business
+ for a little bit over a year. And while they love crypto, they want exposure to the US assets as well.
+ And we actually sharpen our pencils because we have both these businesses, right? And we figured
+ out that the time to market and the speed for launching a blockchain based offering was actually
+ significantly faster than going the traditional route. And that got us thinking that in Europe,
+ what we have the ability to do is actually demonstrate what Robinhood itself could look
+ like built entirely on blockchain technology. So I think phase one from a user standpoint,
+ it will look very similar to traditional US stocks. The blockchain technology and the plumbing will
+ be under the hood with some minor differences from what typical competitors offer. In particular,
+ it's 24/5. So 24 hours a day, five days a week, which not many competitors have been able to figure
+ out how to do. Or it starts to get really interesting is when we start plugging it into BitStamp,
+ which is when 24/7 trading becomes possible. And at that point, the stock tokens start to behave
+ like other cryptos, Bitcoin and Ethereum. And then what I called phase three, which is full
+ blockchain non-custodial integration, is when you get all the integrations to DeFi. So you could
+ imagine swapping collateralized lending and borrowing and really self custody, which I think would be
+ very powerful for stocks because it would untether your stock tokens from any individual brokerage
+ or crypto provider. So you explained very colorfully on the top word yesterday how stocks are held
+ one-to-one with the token custody by Robinhood. So how does that work legally? Like who actually
+ is who has rights to the company? The Robinhood has kind of the holder of shares or the token
+ holder? Does the token actually carry rights? Yeah, so the way it works is the token is actually a
+ derivative and the underlying is sort of like held by Robinhood. So what the user is getting
+ is a derivative that's backed by the real share. Okay. And so when that is
+ ported to DeFi, say, and say it's useless collateral in lending markets, what happens if
+ that's liquidated? So the intent would be that it would be sort of like a stable coin, right?
+ Similar structure where the shares are held in custody and then the only time where a share
+ that's custody, the traditional share, would be liquidated is if a corresponding token was actually
+ burned. Okay. So yeah, I think my understanding is, and of course, these edge cases, I think
+ probably are a little bit more complicated, but if it was liquidated in a DeFi protocol,
+ the token itself wouldn't actually be burned. Oh, so, okay, I guess like then it would have to,
+ like Robinhood would have to burn it to also like... The mechanism for minting and burning
+ tokens would go through Robinhood, at least for the time being. Okay. Okay. Now let's get into the
+ private tokenized shares. So this market is like famously opaque and hard to get to. Can you walk
+ me through how Robinhood can make this accessible? Yeah. I mean, really, it's the same underlying
+ technology that powers the public shares. Now I wrote an op-ed in the Washington Post in the US,
+ in January of this year, and the lead was really that you have these companies that aren't going
+ public. Some of them have essentially made the decision that they would never go public unless
+ they were forced, and they're basically able to raise tens of billions, maybe hundreds of billions
+ of dollars from the private markets, and that wasn't possible before. So they have no corporate
+ need to go public, but what happens is retail investors are left out of those gains, which keep
+ accruing to a smaller and smaller selection of wealthy insiders. The days of being able to invest
+ in an IPO like Microsoft and Apple and get a huge appreciation in the public markets
+ seem more difficult to come by. I mean, it happens from time to time, but if you want to invest in
+ the AI economy as a retail investor, your options are quite limited. And you see gigantic companies
+ that are already quite big, Tesla, for example, Nvidia, and that's kind of the exposure to the
+ AI industry. So using the same technology that powers tokenized public stocks, we're able to
+ tokenize pretty much anything as long as we can acquire the traditional shares. And I think this
+ is going to be particularly interesting for the US. So the question we had is, okay,
+ how can you get people in the US excited about putting stocks on blockchains? You get these
+ questions like, why is it better than traditional stocks that are off chain? You already have
+ things like Robinhood. It's easy. Robinhood has close to 26 million customers. You can trade 24/5.
+ Maybe it's not 24/7, but it's pretty close. But I think where the possibilities really start to
+ multiply is if you can get these illiquid assets, and you can kind of construct the mechanism
+ for all of them to be put on chain, and you get that liquidity and the real-time trading that
+ has been historically reserved only for cryptos and public stocks. So you would have to,
+ Robinhood has access to these OTC markets for private companies, and that's what you're
+ unlocking for anyone really. Yeah, that's basically it. And I should clarify that the private shares
+ we gave out were essentially a gift. So this is a way to demonstrate the technology. They're not
+ yet able to be traded. So customers will have to hold on to them. But actually, since we've
+ announced last night, lots of private companies have been reaching out to me and asking,
+ yeah, you would think not a lot of private companies would actually be interested in this,
+ but I've had reachouts, and I've had people asking me, when can we get our own private stock
+ tokenized? So yeah, I think we'd like to open this up much wider, figure out how to allow trading
+ in the near future, and also make it available to lots and lots of private companies so that
+ people can invest in the most innovative and invaluable private companies. And I think over time,
+ what I get really excited about since the initial private stocks will be, the transactions will be
+ on a secondary basis. So this is buying stock from existing shareholders of a company. But I think
+ over time, this can migrate to being a tool for companies to raise primary capital. So you imagine
+ an entrepreneur who's starting a business, and this becomes a mechanism for them to get quick
+ and easy capital. So they wouldn't need to go and do the dog and pony show where they pitch
+ venture capitalists and go around Sand Hill Road. If they could just go on Robinhood or any other
+ platform really, push a button and maybe submit some information about what their business is
+ and what their venture is. And they get immediate access to a global pool of investors that want to
+ back in and get the exposure to that new startup technology. I think if we can deliver that,
+ we'll just have more startups. The costs and the friction to creating startups will dramatically
+ decrease. I was an entrepreneur early stage, and you have to do two very difficult things,
+ simultaneously. One is build a product that people want, take it to market. You also have
+ to fund the business. And early stage funding the business takes a lot of time. So you almost
+ have these like two full time jobs that you have to simultaneously do. So I think if we make that
+ easier, we'll have more startups. That'd be really interesting to have a primary market on Robinhood.
+ Don't you envision this as startups racing via both equity and tokens?
+ Yeah, I mean, I think that it's a good question. There are existing mechanisms where
+ startups can issue tokens. They can have ICOs. Historically, that has been a completely separate
+ process from actually raising a normal fundraising round. And you've had to make sure in the U.S.
+ at least that U.S. persons don't participate in those. It's typically been used only for
+ largely by it's accredited. It's crypto companies have been doing this for like token launches.
+ But what I'm envisioning is these processes merge somewhat. So if you want to go the crypto
+ native token route, you could. But also you could just have something like a traditional financing and
+ traditional shares, traditional documentation, you're dealing with the same lawyers. And we can
+ just be a utility that helps tokenize those shares. Super interesting. Okay, before going to deep
+ there, let's switch to the other big announcement and want to cover your own chain. So this will be,
+ as I understand, a theorem layer two on arbitrum, right? It's going to be similar to
+ the arbitrum chain, but it's not going to be a roll up on arbitrum. So it's a layer two.
+ So it's it's own separate layer two using arbitrum technology, exactly. And it'll it'll launched
+ directly like that. Or will you start as a roll up in in arbitrum? Well, at first the stock tokens
+ are on arbitrum. But yeah, it'll it'll begin as the intent is for it to begin as a layer two.
+ Yeah, immediately upon launch. Wow, that's that's huge. What if sending crypto felt more human?
+ Pulse just launched red packets, a new way to give tokens with meaning. It's gasless,
+ gamified, and claimable inside group chats only. Think air drops meet social cues on chain.
+ Backed by smart wallet tech and live across major L2s, red packets turned communities into
+ microeconomies of gratitude and growth. No seed phrases, no friction, just connection with value.
+ Check it out at pulse dot social. Can you can you go through why you you went with both arbitrum
+ instead of other Ethereum layer twos and what you went with Ethereum instead of other layer ones.
+ Yeah, I think that at the end of the day, what it came down to was I don't think there was a
+ layer two out there that had the same specific goals as ours. So what we want to do is build
+ the first chain that's optimized for real world assets. So we have stocks. Eventually,
+ you can imagine all things that you can find on Robinhood in the US. Perhaps we find a way to get
+ options there futures. It's funny. Tokenize futures when you have perpetual futures. So it's
+ going to go both ways. Tokenize traditional instruments and then traditional versions of
+ the native crypto assets as well. So I think there will be a lot of convergence.
+ But yeah, we would like to tokenize a wide range of real world assets. I think that's how we can
+ distinguish ourselves. I talked to a lot of these chain developers and they all have some variant
+ of our chain is the best chain for de-gens. And I think there's enough chains for de-gens out there.
+ I think that market is fully served. But I don't think there's anyone building
+ chains that are optimized for real world assets. And you think and you thought that
+ arbitrum was the best place or like that technology was the best to do that.
+ Well, the great thing about it is we have control over the chain. We can we can develop it and make
+ customizations as necessary. And so we thought that that was a nice benefit because we don't want to
+ be dependent on any third party for when we need something. So if we have the ability to have control
+ over the development of the chain, of course, while maintaining decentralization, that was very
+ attractive for us. Yeah. And a lot of the other layer ones don't have as robust of an ecosystem for
+ having your own chain, having your own layer two on top. Okay. So on the theorem side, it was the
+ ecosystem that really the ecosystem, the ability to create a layer two and have control over
+ how how everything works. And also the fact that interoperability is important to us. And
+ there's a lot of assets already on the Ethereum chain. And there's a significant network effect.
+ And, you know, we, I think over time, we'd like these tokens to be on all chains. So it's really
+ where is there going to be a first class experience where perhaps, you know, you'll get the early
+ features first, and you'll get great support. So we will have the chain, we have the wallet as well,
+ Robinhood wallet, which we're, we're going to build a really, really nice experience for the
+ tokens. And, you know, since it's crypto, customers will be able to switch to another wallet. And
+ over time, I'm sure there'll be robust bridges and interoperability. And people will be able to
+ move their tokens to all sorts of chains. But at least the parts that we have control over,
+ we can ensure that there's a first class experience. Perfect. Are you, are you planning on having
+ your own token on the chain? No plans at this point. I mean, we haven't thought much about it.
+ The focus has really been on how to make sure stock tokens work really, really nicely.
+ I wouldn't be opposed to it. I mean, if there's some specific problem that that would help us
+ solve, I think we would look at it, but we're no, no imminent plans, I should say.
+ What, what about like having your own chain improves, you think, just like overall experience
+ for your users? Yeah, that's a good question. I think right now for what we've offered, I mean,
+ the, the stock tokens are available on arbitrum. You saw the transactions are quite fast.
+ But I think there's going to be a lot of new things that we'll have to unlock in particular
+ DeFi swapping. If we get into the DeFi stuff, if we want to offer some products that we also have
+ to enable, you know, KYC or some of these, some of these more unique features than having,
+ having our own chain, I think would be, would be important.
+ And so for, for the, going back to the US, the US token stocks in Europe and
+ Perpetuals went on, well, the token is private market, but those are all available in, in Europe.
+ But what, from the regulatory side in the US, are you expecting before you can roll those out in the US?
+ Yeah, actually, since we've rolled this out, I think there has been some excitement from,
+ from policymakers in the US, they saw the launch over here. And I think one of the goals was also
+ to show what's possible if, you know, we, we unleash crypto technology and let it fully merge
+ with traditional financial services. I think we've been talking about this in crypto for quite a while,
+ but there hasn't been too much in the way of actual product that people can use in a,
+ in a nice form. So I, I think that's compelling. If you can actually see real product, you know,
+ Europeans enjoying access to US stocks, us making it very easy to use. And really with an experience
+ that has no compromises. Then, then I think, you know, the US will, will follow along quite quickly.
+ We've already had been having a lot of conversations on tokenization. And it's something that we believe
+ the SEC has the mandate and the power to do without additional legislation by Congress.
+ And there is a crypto task force at the SEC. They had a tokenization roundtable,
+ Johan, our crypto GM was actually a participant in that. So I think they're excited about tokenization.
+ They'd like to make it happen. The problem, of course, is, you know, US is a mature market.
+ And we have infrastructure that's already there. So you have two problems with that.
+ One is, you know, the incentive to upgrade is perhaps less big than in a market that has
+ nothing. It's sort of like how China went from no trains to high speed rail. They, they sort of
+ went to the technology frontier or how, you know, in the US, we, we went gradually to mobile and
+ broadband. But in some of these developing countries, they're just putting up the fastest,
+ most capable broadband and mobile towers possible because they can just get the new thing.
+ And in the US, we've got medium speed rail. And maybe it's not as good as high speed rail,
+ but the delta in cost to upgrade it is probably not worth the incremental benefit. So I think you
+ have that to some degree with the traditional financial system. You also have a lot of stakeholders
+ that have to be satisfied. And, you know, these stakeholders are worried. If stocks go on block
+ chains, what's going to happen to my business? I have a pretty big business here. I employ thousands
+ of people that rely on it being done this this other way. So I think you're seeing some of that
+ with stablecoin as well. You know, there's the banks are a little bit nervous about it, as you can
+ imagine. And I think that's the trap of being at the frontier for some period of time. You know,
+ there's, there's entrenched interests. It's difficult to navigate. And that, that keeps you from,
+ if you're not careful, that can keep you from innovating. But you're, you're not worried about,
+ about those same issues, because you also have, you know, all your infrastructure in the US is
+ geared for traditional stocks. But you're okay with making that move. Yeah, we're okay with that,
+ because I think that if there's better infrastructure, then I think people will have to embrace it.
+ I'm very interested in being at the, at the frontier technologically. I mean, we were the first that
+ really popularized investing on a mobile device. And that to some degree was another example of
+ this, right? There were entrenched companies that relied, that had built out web interfaces. So you
+ can trade tethered to your desk. And they didn't really want to, they didn't really want a world
+ where people were trading on their phones to exist, threaten the status quo. And that was an
+ opportunity for us to come in. So besides just the building an exciting future, I think there's a
+ real risk to getting stuck with what's working now. Because if we don't, if we don't embrace it,
+ someone else is going to figure it out, right? And we don't want them to eat our lunch. We'd
+ like to eat our own lunch. Totally. Okay. So that, that took a good segue to what I wanted to ask
+ next, which is you're speaking of like being first to these innovations. You are the first major
+ fintech to announce that you're building your own public blockchain. I'd like to understand how
+ this kind of, all these crypto announcements fit into the longer term bigger vision for Robinhood.
+ Yeah. Yeah, that's a great question. So we had an investor day in New York actually last December,
+ where I talked through the three arcs behind Robinhood. And you can imagine these arcs as being active
+ for a period of time and kind of building up off of each other. So we have our one year arc,
+ which is being number one in the active trader market. You know, active trainings are bread and
+ butter. We innovated a lot there. We have some of the lowest pricing in the industry across all
+ traded assets. So we should be number one in market share across all assets that we trade,
+ including crypto, equities and options in the US futures as well. So, and I think we're doing
+ very well there, but not everyone actively trades. And so the ultimate size of that market is
+ relatively small. You know, it's probably tens of billions in annual revenue, maybe hundreds of
+ billions, but still much smaller than the other longer term arcs. Then we have our, our, our sort
+ of medium term arc. I call it our five year arc, although these numbers are approximate. And that
+ is being number one in wallet share for the next generation. So we want to go beyond trading to
+ being the place where you keep all of your money, your assets, and the platform that you process all
+ of your financial transactions through. That's where credit card business comes in, retirement,
+ advisory in the US, a recent acquisition of trade PMR, which is a human advisor platform. So it's,
+ it's really, how can I put my paycheck into Robinhood? How can I have my savings there,
+ my banking, do all my spending, and then have all of my investing ranging from, you know, buying
+ some stock all the way through to family office style private wealth management. That's the goal.
+ And so you should never actually have to take money out of Robinhood to just be a place where you
+ custody your assets, you put money in and we help you with everything else. And now building off
+ these first two arcs, we have our long term arc, which I call number one global financial ecosystem.
+ And that's taking what we're doing for the US and for retail and expanding it across
+ two linearly independent vectors. It's a math term. One is from US only to fully global. And the other
+ is from retail only to business and institutional. And so to answer your question, that third arc,
+ that long term arc, we actually expect that to be the majority of the business in a period of
+ roughly 10 years. We think that's how long it's going to take for international or at least
+ x US to comprise half of our half of our revenue. And also how long it'll take for business and
+ institutional to surpass retail consumer. And I think the chain plays into both of those. You
+ know, blockchain technology is global by default. So that's a path to expanding internationally.
+ It's also a path to onboarding developers, you know, many of whom were in the audience there.
+ And institutions. I think that as the institutions see the power of this technology,
+ they're already very interested. We'll make it easy to integrate and we can get all of them to
+ be using these real world assets on chain. Okay, so you're thinking of the Robinhood chain
+ as an enabler for kind of your three art vision. Yeah, I think that it could be an
+ accelerant to both global expansion and also institutional and developer adoption.
+ Over time, how much of like Robinhood volume or, you know, whatever kind of metric is most relevant,
+ do you think will happen on your chain? I think over time, traditional financial services and
+ crypto will fully merge. So I think there won't be a distinction. Now this may take a little bit
+ of time, but I don't think there will be a distinction between traditional volume and
+ our crypto volume. I think more and more will be on chain. And, you know, maybe at some point,
+ the entire US equities system will go on chain. It will be powered by technology. I don't know
+ if it'll all necessarily be on our chain or if it'll be some consortium or maybe it will be our
+ chain, but you know, it gets decentralized to a degree where everyone runs their own sequencers.
+ But I think the end state of this is that public blockchain technology powers
+ a significant portion of the critical financial infrastructure in the US in the same way that
+ it used to all run on mainframe, right? And mainframe then got replaced by on-premise data centers.
+ And now they're trying to figure out how to go on cloud. The cloud transition hasn't
+ fully finished yet, but blockchain sort of the next in line after that. It's more and more of
+ the business logic now is being handled by public infrastructure. So, okay, so you kind of answered
+ another question I had for you that, you know, I think there's a question among
+ traditional finance and even people in FinTech about whether crypto will,
+ like how big crypto will actually be? Will it remain a niche asset class within finance
+ or will it actually become the backbone for financial activity and the settlement layer
+ for all assets in the future? Because as you mentioned, you already have trillions of dollars
+ in this old system that would have to migrate onto this new system. So, it's like a huge
+ undertaking. How do you see that transition happening? Like, do you think eventually like
+ all new assets will be issued on chain, but will still have this kind of old financial system running?
+ Or do you see like actually migrating to blockchain? Yeah, I mean, if you think about
+ what happens right now with a company being formed in the US, for instance,
+ you know, a company has a seed stage financing and there's formation documents and financing
+ documents which are being passed back and forth by lawyers essentially. And then you have your cap
+ table, which is usually managed by, you know, some software, CARTA, I think, is the dominant
+ player there. And then when you go public, there's a migration process, right? It goes from CARTA
+ to whoever accussities your stock and manages the employee stock purchase plans and the stock
+ rewards for public companies. So it's already a little bit of a mess and there's migrations
+ involved throughout. I think the first instance of this will be blockchain coming in there as
+ sort of an adjunct and much of these pieces being the same. Although you see them kind of
+ being optimized independently by different forces, you've got AI in there, you've got, you know,
+ standardized documents and legal processes. There's a lot of folks in CARTA themselves as well
+ innovating on the on the cap table side. So I think there will be reconfigurations and transitions
+ across the board issuing natively on the blockchain. I think is just another form of this process,
+ like you're still dealing with lawyers. There's still paper documents. I don't know if anyone
+ is actually just writing code and distributing tokens at any significant scale without some of
+ these other components. So I don't actually anticipate that will change unless other forces sort of
+ streamline that over time. So yeah, gradually it should just be an unorganic kind of natural process
+ for for blockchain to just be, you know, a part of the progression of being in capital markets.
+ Yeah, I mean, if you think about what a physical, traditional share is, there's not like a thing
+ that you can hold, you know, we're kind of past the days where there are stock certificates and
+ that was a share. Even that was a representation of a legal contract that, you know, is somewhere
+ in in the ether, right? So the token's just the evolution of that.
+ The PR Genius is a top crypto PR and growth marketing agency, helping brands globally with
+ expert PR and strategic growth marketing. They've worked with 300 plus projects like movement labs
+ and IO.net. Unlike traditional agencies, they charge only on performance. Their services include
+ earned PR opportunities and marketing services to help boost wallet holders and organic ex followers.
+ Learn more at www.prgenius.com. So I think among kind of the like fintech ecosystem,
+ probably the only company that is similar to your vision is Coinbase.
+ Do you view them as a competitor and how do you think both company visions differ?
+ Yeah, I mean, I think in some sense, all companies in our space collaborate in some ways and compete
+ in others. I mean, you look at the big banks, for example, all the big banks are trying to serve
+ all their customers' financial needs, not just checking and savings accounts, but also credit
+ cards, investing products. But, you know, Robinhood has bank accounts. We're partnering with many of
+ them. So I think the actual answer is somewhat complicated. Like we compete for market share
+ in some ways, but we also have opportunities to partner. And at this point, we're both still
+ a fraction of the total assets that are out there. You know, we've got hundreds of billions of assets.
+ I think they have a similar scale, but you look at how many assets are just going to be transferred
+ from baby boomers and silent generation down to Gen X and millennials over the next few decades.
+ The number is something like 124 trillion. So yeah, I think the real opportunity is making
+ sure that Robinhood has a good chunk of those. So we're capable of serving that. And we continue
+ to build great products and roll them out to customers, deliver them over time. I really try
+ not to spend too much time thinking about what competitors are doing. I think it tends to
+ take you away from the customer and get you into this like competitive benchmarking
+ mode of running your business, where you're just kind of looking at what everyone else is doing,
+ trying to see what to copy. And you're not really thinking critically from first principles.
+ In DeFi, we love to talk about the DeFi mullet. Have you heard of that term?
+ You mean like this one? Yes, your gentleman's mullet.
+ So I think Robinhood can be kind of the perfect embodiment of that. It's like the idea that
+ DeFi is consumed with kind of a slick familiar front end with like a mainstream app like Robinhood,
+ but on the back end, it's all DeFi. And you're able to offer not just token swaps and trading,
+ but more sophisticated DeFi operations like landing and borrowing. Is that something that you
+ envisioned? That's appealing to me. So I particularly am a fan of mullets, as you can imagine.
+ The problem is most people are not. I think if you went to a person on the street and you're like,
+ what do you think of your financial app being in the form of a mullet? I don't think they'd be
+ very, very happy. Maybe you'll need a different marketing term. Yeah, I think we have to move
+ away from this whole mullet thing. So it might be hindering mass adoption. Okay.
+ Okay, but about the actual, the only hairstyle. What do you think about offering DeFi products?
+ I'm pro. Yeah, I'm happy to offer DeFi products. I mean, we have our wallet. I think the real
+ question is, can you make it easy to use in lower friction than the alternatives? And I think we're
+ about to find out that it is possible to do so. The friction for traditional financial services is
+ actually quite high in a lot of cases. And DeFi streamlines that. It introduces a new layer friction
+ that is not there in traditional finance, which is sort of like key management and cross asset
+ bridging and sort of like the whole gas token thing, which I think there's good solutions to
+ remove. So I view it as it's just that the technology and the user experience has not been figured out
+ yet. But that's one thing we really care about. Actually, can we streamline it? Can we do a lot
+ of work on the user experience to make it understandable? And sometimes that's sort of like
+ dismissed as front end innovation, like, Oh, that that's very easy. You know, that's it's not real
+ technology. But yeah, it can be quite complex. And we spend a lot of time working on these things
+ and trying to improve them. No, definitely key. I mean, from using DeFi, I can definitely tell
+ you front end innovation is where it's at. Yeah, I mean, when we introduced our wallet, a Robinhood
+ wallet, one of the big things was gasless swapping. So I think the problem was the gasless swapping
+ was on polygon. And you know, people wanted to see it across everywhere. So we've expanded it
+ over time. But yeah, that that was at the time the very bleeding edge. You know, nobody had spent
+ much time trying to figure out how to get gasless swapping to work. And we were able to work with
+ some some of our counter parties to make that happen. So it'll be it'll be things like that. And
+ you'd be surprised a lot of folks in crypto don't really talk to customers that much. They're just
+ talking they're going to conferences and speaking to other developers. Yeah, no, I'm not surprised.
+ And so they hadn't really heard that this was a problem. They're just like, why is my protocol?
+ Why does my protocol stop growing when I stop giving rewards? Well, you know, if you if you
+ stop giving rewards, you get the you the people that are really, really motivated, maybe a little
+ bit less motivated. So you actually have to make the thing work pretty well. Exactly. Yeah, so I
+ mean, if people are already going to be using your token, I stocks as collateral in Ave, for example,
+ maybe it'll just at some point, it'll make sense for you to just offer people to do that through
+ ramen hood directly. Yeah, absolutely. Yeah. And I think also there's benefits to I mean,
+ some things that are very easy with DeFi swapping between different assets, you can go from, you know,
+ wrapped Bitcoin to a stock token. And I think particularly in the EU, I know there's tax benefits
+ to doing those things. So those are things that might be very difficult for us to do in the
+ traditional sense, but become easier with with DeFi. To start wrapping up, I would love to just
+ understand your motivation behind all these changes. What do you think is there was there
+ something about your upbringing or your career? Or why do you think is it that has made you such a
+ strong believer in crypto? I mean, I think that it's just there's two technological shifts that
+ affect our industry. And you know, we're in the center of both of them crypto and AI. And
+ you know, I grew up as a I wanted to be a scientist, I became interested in theoretical physics
+ and mathematics. And really what motivated me is creating new things, new theories.
+ I'm not as motivated by improving upon things incrementally, even though that's very, very
+ valuable. So for me personally, I like new things and just like figuring things out. And I think
+ in the realm of business, that's just working on the frontier technologies, crypto and AI.
+ So just your drive to innovate is what's behind all of this move to crypto.
+ I think so. Yeah. Yeah, I think the drive to innovate and to work on new things,
+ new things that challenge the status quo and unlock possibilities that just didn't exist before.
+ I think that's ultimately what drives progress. So if we can be a part of that,
+ I think that not only helps us stay relevant as a company, but also just pushes the entire
+ frontier forward. I think it's important to understand because, you know, like right now crypto is
+ starting to be trendy again. And I think we'll get into a phase where we'll see lots of announcements
+ from many different big companies who are, you know, like launching crypto experiments on products.
+ But I think it's those products that come from companies where like leadership is actually
+ emotionally kind of invested, actually believes in the technology or the ones that are going to
+ succeed. So I think it's key that, you know, you actually believe in this technology. And
+ I think that's a huge step to see rambi how it's kind of crypto initiatives actually take off and
+ not remain kind of like science experiments within the company. Yeah, I think believing the
+ technology in the technology is an interesting question because it has with it almost a
+ religious element. Yeah, yeah, there's right. But yeah, I think I think my
+ my belief in it is more on a practical level. Like if it can solve real customer problems
+ and it can do it at a lower cost and with a nicer experience than the alternative,
+ then I believe in the technology. But you know, if something else comes along that solves it 100
+ times better. And, you know, with 100 times better user experience. And everyone coalesces on
+ calling it something other than crypto, then I would believe in that as well. Because at the end
+ of the day, the difference between things that don't work and things that work very, very well
+ is not so much the belief in the technology. It's it's maybe a belief in yourself that you can
+ iterate your way to something that works. But it's it's just the understanding that you have to have
+ real customers paying real money in a way that sustains the the future development of the product.
+ That's what it comes down to. So I think there's a lot of people that believe that haven't been
+ able to figure that out. And also a lot of people that maybe just like have built great businesses
+ that perhaps say they believe but and maybe over time they believe but at the first they they saw
+ an amazing business opportunity. That I think that's a great place to to wrap up.
+ It's, you know, not just about believing religiously but also just seeing obviously how practically
+ the technology can help your users. And so, you know, we'll see how all all these crypto
+ initiatives will start helping Robinhood users. So thank you so much for joining me.
+ Thanks for your time. Yeah. Yeah. Thank you for joining us here in the French Riviera.
+ Oh, my absolute pleasure.

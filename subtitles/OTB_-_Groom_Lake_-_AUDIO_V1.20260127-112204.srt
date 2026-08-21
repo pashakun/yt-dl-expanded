@@ -1,0 +1,1208 @@
+1
+00:00:00,000 --> 00:00:04,800
+On today's episode, I sat down with Cupid and Hercules of the Groom Lake team.
+
+2
+00:00:04,800 --> 00:00:09,280
+Groom Lake is a security firm focused on both protecting companies in the crypto space from
+
+3
+00:00:09,280 --> 00:00:14,800
+exploits and recovering funds when exploits do occur. Today's guests' true identities remain
+
+4
+00:00:14,800 --> 00:00:19,520
+redacted for security purposes given their field of work, but they were generous enough to join me
+
+5
+00:00:19,520 --> 00:00:24,400
+for a discussion on cybersecurity and crypto and how today's attackers are looking to carry out
+
+6
+00:00:24,400 --> 00:00:30,560
+cybercrime. In the episode, we discuss the threat posed by nation-state-level threat actors,
+
+7
+00:00:30,560 --> 00:00:34,880
+what companies should be doing to enhance their own security, and how the security landscape
+
+8
+00:00:34,880 --> 00:00:38,480
+in crypto stands to evolve. I hope you enjoy our conversation.
+
+9
+00:00:54,400 --> 00:01:10,880
+The federal government loans American international group AIG 85 billion dollars. This is a different
+
+10
+00:01:10,880 --> 00:01:15,520
+kind of market and the Fed is asleep. The federal government is stepping in to stabilize Fannie Mae
+
+11
+00:01:15,520 --> 00:01:19,920
+and Freddie Mac, the two mortgage giants that have been threatened by the housing crisis. The Bank of
+
+12
+00:01:19,920 --> 00:01:24,080
+England has pumped 75 billion pounds more into Britain's ailing economy with a new round of
+
+13
+00:01:24,080 --> 00:01:28,160
+quantitative easing. You print a couple trillion dollars and all of a sudden people start to worry.
+
+14
+00:01:28,160 --> 00:01:31,680
+So out of this worry, we have something called the Bitcoin. Bitcoin.
+
+15
+00:01:32,880 --> 00:01:37,600
+Cupid and Hercules from Groom Lake. Appreciate you guys joining us. I want to dive right in.
+
+16
+00:01:38,160 --> 00:01:42,640
+My understanding of Groom Lake and what people in the industry might be vaguely familiar with
+
+17
+00:01:42,640 --> 00:01:47,840
+is that it's a private military organization combating cybercrime and crypto specifically.
+
+18
+00:01:48,480 --> 00:01:51,520
+What does that mean and what happens when you guys are called into action?
+
+19
+00:01:52,080 --> 00:01:58,720
+So Groom Lake, well, we don't own any tanks or things like that. On top of the retained approach
+
+20
+00:01:58,720 --> 00:02:03,680
+to security and intelligence that we do, that military aspect really comes in when you're
+
+21
+00:02:03,680 --> 00:02:09,360
+looking at not just the intelligence work to do some very strategic campaigns to find out
+
+22
+00:02:09,360 --> 00:02:14,880
+information, but also the incident response aspect because we can deploy to physically go
+
+23
+00:02:14,880 --> 00:02:19,840
+after hackers as well. So that's where that military aspect really comes to play.
+
+24
+00:02:19,840 --> 00:02:25,120
+Cool. Understood. And can you talk about what engagements will look like or how you'll engage
+
+25
+00:02:25,120 --> 00:02:32,000
+with firms in this space? Typically firms come and engage with us because they want to have this
+
+26
+00:02:32,000 --> 00:02:38,800
+security and intelligence attachment to their team so that nothing happens. So we come in and we
+
+27
+00:02:38,800 --> 00:02:44,800
+layer in security and intelligence over time, and we have this close concierge relationship with
+
+28
+00:02:44,800 --> 00:02:50,160
+them. And what does that look like? What that looks like is where you're layering in Web2
+
+29
+00:02:50,160 --> 00:02:55,600
+security fundamentals. That's where we really focus because that's where over half of the hacks
+
+30
+00:02:55,600 --> 00:03:00,240
+that occur are happening, especially as the landscape has shifted and nation states are
+
+31
+00:03:00,240 --> 00:03:04,800
+seeing that. They're happening via Web2 vulnerabilities is what you're saying?
+
+32
+00:03:04,800 --> 00:03:08,160
+Yeah, I would say her. Do you want to jump in on that?
+
+33
+00:03:08,160 --> 00:03:12,400
+Most definitely. Specific to a lot of the exploits and issues that we face in crypto,
+
+34
+00:03:12,400 --> 00:03:15,600
+a lot of people tend to believe that the main focus needs to be on chain,
+
+35
+00:03:15,600 --> 00:03:19,440
+auditing your code and so forth. But the hard truth is the human element and the
+
+36
+00:03:19,440 --> 00:03:23,920
+misconfiguration side of the house is truly the weakest link that we see in the industry.
+
+37
+00:03:23,920 --> 00:03:29,280
+A lot of the whales and these protocols tend to try to build very, very quickly. And in doing so,
+
+38
+00:03:29,280 --> 00:03:32,960
+they actually are very stressed out and they skip a lot of the fundamental things that they
+
+39
+00:03:32,960 --> 00:03:38,400
+should put in place to prevent a successful hack of an account. Zoom is a great example,
+
+40
+00:03:38,400 --> 00:03:41,680
+which we'll get into a little bit later, I assume. But there's a lot of people in the
+
+41
+00:03:41,680 --> 00:03:46,000
+space that are unfortunately being targeted quite heavily by North Koreans to actually be
+
+42
+00:03:46,000 --> 00:03:49,840
+social engineered by posing as a friend, which will eventually lead to them getting hacked.
+
+43
+00:03:49,840 --> 00:03:54,240
+And then of course, funds being drained. Is that a vulnerability in particular that's
+
+44
+00:03:54,240 --> 00:03:57,120
+top of mind for you guys at the moment? Would you say it's one of the more common ones?
+
+45
+00:03:57,680 --> 00:04:01,680
+I would say so. Right now, there's been a major shift in the industry, mainly because a lot of
+
+46
+00:04:01,680 --> 00:04:06,960
+the advanced threats like nation state and even very young people that are just being degen hackers
+
+47
+00:04:06,960 --> 00:04:11,040
+are starting to go after crypto just because it's becoming more popular. So if you look at
+
+48
+00:04:11,040 --> 00:04:15,360
+the adoption curve of crypto as a whole, I would say it's near one to one of what the threat actors
+
+49
+00:04:15,360 --> 00:04:20,000
+are actually going after as well. And they are starting to realize that social engineering
+
+50
+00:04:20,000 --> 00:04:24,480
+of people is the biggest link. So yeah, it's definitely becoming the biggest thing in the
+
+51
+00:04:24,480 --> 00:04:29,040
+space. And with that, we've actually geared a lot of our security schedule, if you will,
+
+52
+00:04:29,040 --> 00:04:33,440
+with these clients and onboarding specific to operational security. So actually getting them
+
+53
+00:04:33,440 --> 00:04:37,520
+into a room, educating them on these issues in the space, and as well as how to prevent them
+
+54
+00:04:37,520 --> 00:04:43,520
+if they do occur. And I think the other thing to hone in on on this topic is that you have
+
+55
+00:04:43,520 --> 00:04:48,640
+different people who have different security concerns based off of the business vertical
+
+56
+00:04:48,640 --> 00:04:54,640
+that they work at a company. So a developer is going to have very different security concerns
+
+57
+00:04:54,640 --> 00:05:00,080
+than a head of marketing or someone in BD. And these people who want to socially engineer
+
+58
+00:05:00,080 --> 00:05:06,000
+companies know this and they're going to go after you accordingly. So they'll approach them as maybe
+
+59
+00:05:06,000 --> 00:05:11,680
+a fake investor, that's been a common one, maybe come with job offers for a dev, all these different
+
+60
+00:05:11,680 --> 00:05:17,440
+ways to just get people to click that link, have that conversation, and then they start to exploit
+
+61
+00:05:17,440 --> 00:05:21,840
+them and pivot through the company. So by understanding the social engineering, these
+
+62
+00:05:21,840 --> 00:05:27,120
+social exploit attempts, they'll pretend to be some sort of actor that would do business with a
+
+63
+00:05:27,120 --> 00:05:31,680
+firm, for example, and exploit them via that direction. What are the workflows that you guys
+
+64
+00:05:31,680 --> 00:05:36,880
+will put in place for partners when they're under this vulnerability? I'll dive into the first part
+
+65
+00:05:36,880 --> 00:05:40,960
+of the question and then transition to that. But not just investors and stuff that we're seeing
+
+66
+00:05:40,960 --> 00:05:44,640
+with social engineering. At this point, we've actually seen that a lot of the threat actors
+
+67
+00:05:44,640 --> 00:05:49,600
+will actually do their research on people who they're targeting. On individuals, you're saying?
+
+68
+00:05:50,160 --> 00:05:54,400
+Correct. So let's say friends, family, people they haven't spoken to in years that they might
+
+69
+00:05:54,400 --> 00:05:58,400
+just have a random connection with on even LinkedIn, for example, that's one we saw not
+
+70
+00:05:58,400 --> 00:06:02,640
+too long ago. And they'll go ahead and duplicate the telegram and so forth, and then actually
+
+71
+00:06:02,640 --> 00:06:06,880
+attack. But in terms of workflow for preventing it, there's a couple of ways that we do it.
+
+72
+00:06:06,880 --> 00:06:12,000
+So of course, education, in my opinion, is the number one factor with things. Actually educate
+
+73
+00:06:12,000 --> 00:06:17,200
+them, show them one-to-one of what these attacks look like. So actually bringing up visuals,
+
+74
+00:06:17,200 --> 00:06:21,120
+explaining these things in depth and so forth, and doing it in a repetitive way
+
+75
+00:06:21,120 --> 00:06:26,320
+toward they actually obtain the information. The second half of that is taking the preventative
+
+76
+00:06:26,320 --> 00:06:31,520
+steps from the organizational side of actually working with them as a virtual CISO, as you will,
+
+77
+00:06:31,520 --> 00:06:36,800
+and turning the culture within the organization to where people are security minded in general.
+
+78
+00:06:36,800 --> 00:06:41,440
+And then unfortunately, if somebody is targeted, we tend to get them to a point through education
+
+79
+00:06:41,440 --> 00:06:46,320
+to where they actually know the steps to take immediately to reduce the likelihood of a
+
+80
+00:06:46,320 --> 00:06:51,280
+successful exploit. And if they get to a point where they are unfortunately exploited, we will
+
+81
+00:06:51,280 --> 00:06:55,920
+go ahead and be activated. We will join within five minutes and we will work to contain the threat
+
+82
+00:06:55,920 --> 00:07:01,200
+and then remediate anything that comes from that. And to add on there, it's a balancing act. It's
+
+83
+00:07:01,200 --> 00:07:06,400
+between advisement and implementation. And so when you're advising things, you're looking at
+
+84
+00:07:06,400 --> 00:07:12,080
+a company's onboarding and offboarding practices and identifying gaps that you need to implement
+
+85
+00:07:12,160 --> 00:07:18,080
+new strategies to make it more secure. It could be how they're accessing certain sensitive systems
+
+86
+00:07:18,080 --> 00:07:23,120
+and then implementing solutions to make sure that's more secure. But I think the other big
+
+87
+00:07:23,120 --> 00:07:29,440
+thing to this, and it's why we have intelligence as a core offering, is that intelligence really
+
+88
+00:07:29,440 --> 00:07:34,640
+complements the security aspect. That's where we can really start to dig in on what would a threat
+
+89
+00:07:34,640 --> 00:07:41,760
+actor be able to find on this executive team or on the entire company to different people in general.
+
+90
+00:07:42,240 --> 00:07:49,200
+And what data is newly surfacing as well. Because if you can have that knowledge, you can, one,
+
+91
+00:07:49,200 --> 00:07:54,160
+know what kind of things you could be approached with from a socially engineered perspective.
+
+92
+00:07:54,160 --> 00:08:00,240
+But two, work to then mitigate that data footprint that you have. I think a good example is the other
+
+93
+00:08:00,240 --> 00:08:06,480
+day we had found there was a telegram number being leaked. And we had looked into the source of that
+
+94
+00:08:06,480 --> 00:08:13,360
+leak and then we had made sure that that was taken down. So now people couldn't come in and
+
+95
+00:08:13,360 --> 00:08:19,200
+socially engineer them on that front as easily. Understood. And a lot of the workflows that we
+
+96
+00:08:19,200 --> 00:08:25,200
+talked about, you guys touched on this briefly, are non-crypto specific ways that exploiters are
+
+97
+00:08:25,200 --> 00:08:31,520
+using to attack crypto companies or organizations. Are they choosing to attack crypto organizations
+
+98
+00:08:31,520 --> 00:08:37,200
+because of the perceived ability to exploit funds, maybe as opposed to other organizations?
+
+99
+00:08:37,200 --> 00:08:41,280
+Or why does it seem like the crypto industry in particular is being targeted?
+
+100
+00:08:41,280 --> 00:08:46,160
+I would say specifically in my experience, I came from a very traditional financial background,
+
+101
+00:08:46,160 --> 00:08:50,160
+doing traditional boring security engineering. And a lot of the threat actor groups that actually
+
+102
+00:08:50,160 --> 00:08:56,400
+go after just traditional institutions, normally there isn't a magical honeypot of funds that they
+
+103
+00:08:56,400 --> 00:09:00,480
+can just take. Whereas crypto, it differs. In the traditional world, a lot of the time they will
+
+104
+00:09:00,480 --> 00:09:05,040
+either steal information or deploy something like ransomware. And then if they steal the
+
+105
+00:09:05,040 --> 00:09:09,040
+information, attempt to sell it. So that's how they gain the funds. In crypto, it's much easier
+
+106
+00:09:09,040 --> 00:09:12,240
+because you have those gold bars that are locked behind the safe. You just have to get into the
+
+107
+00:09:12,240 --> 00:09:18,320
+safe. And unfortunately, because the industry is still relatively new, obviously it's a very easy
+
+108
+00:09:18,320 --> 00:09:23,440
+space to attack, unfortunately, just given the nature of how people operate within the industry.
+
+109
+00:09:23,440 --> 00:09:28,080
+And are most of the threat actors that you're talking about, are they nation state affiliated?
+
+110
+00:09:28,080 --> 00:09:33,200
+I would say in the beginning, yes, a mass majority of them, I'd probably say near 80%. But at this
+
+111
+00:09:33,200 --> 00:09:38,320
+point, I'm seeing a relation between both the nation state actors, as well as just traditional
+
+112
+00:09:38,320 --> 00:09:44,400
+normie hackers, and even the youth. Recently, we did an investigation on a website that was cloned
+
+113
+00:09:44,400 --> 00:09:48,640
+and everything. And we actually saw that the person that was stealing these funds was 17 years of age,
+
+114
+00:09:48,640 --> 00:09:52,480
+which is quite young, obviously. But yeah, we're seeing still, of course, that the nation states,
+
+115
+00:09:52,480 --> 00:09:56,000
+for obvious reasons, but even the adoption of the youth in Gen Z today.
+
+116
+00:09:56,480 --> 00:10:00,960
+How are you able to detect the age of that attacker if you're able to share something like that?
+
+117
+00:10:01,600 --> 00:10:07,440
+Well, I was going to say prior to that, I mean, in terms of the age of the attacker, that can be
+
+118
+00:10:07,440 --> 00:10:13,040
+tipped off from if it's an insider threat, or even some of those intelligence threads that you can
+
+119
+00:10:13,040 --> 00:10:18,880
+pull can allow you to identify exactly who it is. And so that's how you find out. But what we see
+
+120
+00:10:18,880 --> 00:10:23,600
+from an insider perspective is, yeah, while it is nation state sometimes, I think I was telling
+
+121
+00:10:23,600 --> 00:10:28,720
+you last time we spoke, Wyatt, through the intelligence work have found the Lazarus Group
+
+122
+00:10:28,720 --> 00:10:34,160
+plant working at a company for two years as a principal debt when the company was in stealth
+
+123
+00:10:34,160 --> 00:10:40,480
+mode. But we've also found lots of risks where people are hiring folks who have these
+
+124
+00:10:40,480 --> 00:10:45,680
+obscured backgrounds. There isn't a nice thing to the anonymous nature of crypto that people
+
+125
+00:10:45,680 --> 00:10:50,720
+really value. But sometimes if you have a multi-billion dollar company, you may want to
+
+126
+00:10:50,720 --> 00:10:54,720
+know a bit more about the people that you're bringing on the team, because we have seen
+
+127
+00:10:54,720 --> 00:11:01,120
+rogue actors who aren't connected to nation states even exploit a company, steal funds,
+
+128
+00:11:01,120 --> 00:11:06,560
+because it was a crime of opportunity. They were given so much trust and so much access that
+
+129
+00:11:06,560 --> 00:11:12,160
+eventually over time, they made that decision. And that's where we then come in and hunt them down.
+
+130
+00:11:12,160 --> 00:11:18,240
+From your perspective, are countries like the US making adequate efforts to try and combat these
+
+131
+00:11:18,240 --> 00:11:22,480
+sorts of threat actors? The United States specifically and even the world as a whole,
+
+132
+00:11:22,480 --> 00:11:27,200
+I would say no, in all honesty. Just given how the industry operates as a whole,
+
+133
+00:11:27,200 --> 00:11:32,240
+people are very anti-regulation in a lot of ways. I think unfortunately, but fortunately,
+
+134
+00:11:32,240 --> 00:11:37,840
+it is really up to the protocols and VCs and so forth to actually become security minded and
+
+135
+00:11:37,840 --> 00:11:44,640
+start adopting security minded policies within the work. It's always a cat and mouse game with crime
+
+136
+00:11:44,640 --> 00:11:51,600
+and regulation is always catching up to the new attack vectors and the things that folks are
+
+137
+00:11:51,600 --> 00:11:58,880
+being exploited by. So since consulting and working in crypto, I have seen a shift
+
+138
+00:11:58,880 --> 00:12:04,480
+that more and more teams are becoming security minded where the history of the space, it really
+
+139
+00:12:04,480 --> 00:12:11,360
+started from this perspective of if you have a smart contract audit, you are good. That is the
+
+140
+00:12:11,360 --> 00:12:16,960
+trust signal for the investors. That's the trust signal for the users and all the stakeholders
+
+141
+00:12:16,960 --> 00:12:23,440
+that this is a safe protocol to use. But now that we've seen this ever increasing shift into these
+
+142
+00:12:23,440 --> 00:12:30,320
+web two fundamentals, the human side of things, that's really woken people up to, I need to
+
+143
+00:12:30,880 --> 00:12:35,600
+start to implement my own security solutions. And then I think we're going to see more and
+
+144
+00:12:35,600 --> 00:12:41,440
+more regulation come in on top of that, like Satu clients and things like that. So the US,
+
+145
+00:12:41,440 --> 00:12:48,160
+I would say does have a good signal of trust, but we still come across many, many companies,
+
+146
+00:12:48,160 --> 00:12:54,000
+large corporations who don't even have two FA on some iris environments. And so that's why it's
+
+147
+00:12:54,000 --> 00:12:58,240
+easy to think this won't happen to me because everyone's so focused on building and just
+
+148
+00:12:58,240 --> 00:13:03,280
+shipping and getting out there. But I think teams have to have this mindset that engaging, whether
+
+149
+00:13:03,280 --> 00:13:09,360
+it's an outside entity like Groom Lake or whether it's bringing on someone that will handle that
+
+150
+00:13:09,360 --> 00:13:15,680
+internally, you're taking things off your plate to give to an important subject, which is security,
+
+151
+00:13:15,680 --> 00:13:21,120
+so that you can use your time in a higher leveraged way, which is building the thing,
+
+152
+00:13:21,120 --> 00:13:26,400
+making that the main thing. Makes sense. You mentioned two FA, which I think a lot of people
+
+153
+00:13:26,400 --> 00:13:32,320
+are familiar with. Are there any blanket suggestions you guys would have for organizations that want to
+
+154
+00:13:32,320 --> 00:13:36,960
+tighten operational security and security generally? Oh yeah, most definitely. I think
+
+155
+00:13:36,960 --> 00:13:42,560
+the first one is obviously MFA. It should be enabled and actually enforced across the organization
+
+156
+00:13:42,560 --> 00:13:46,720
+because it is extremely easy for a threat actor if they have your password to authenticate into your
+
+157
+00:13:46,720 --> 00:13:51,760
+account and then issues arise. But on top of that, if you really want to go the full length, I would
+
+158
+00:13:51,760 --> 00:13:57,360
+recommend UB keys as a whole. So it kind of looks like a USB, but it is a very, very more strengthened
+
+159
+00:13:57,440 --> 00:14:02,880
+version of MFA, if you will, for your accounts. I also think companies as a whole need to at least
+
+160
+00:14:02,880 --> 00:14:08,240
+be doing, let's say like a quarterly audit across all environments as a whole. We commonly find that
+
+161
+00:14:08,240 --> 00:14:13,120
+people genuinely don't know who has, let's say, administrator access or even access to a lot of
+
+162
+00:14:13,120 --> 00:14:18,480
+their systems. So actually putting an operational procedure on even something as a quarterly basis
+
+163
+00:14:18,480 --> 00:14:23,200
+to actually go into the systems, verify who is in them and who has access to what can really make
+
+164
+00:14:23,200 --> 00:14:27,280
+the difference. Understood. And then those are great suggestions from everything that I've heard
+
+165
+00:14:27,280 --> 00:14:32,960
+in the crypto industry thus far. I think unfortunately we also touch on individual safety and I'd say in
+
+166
+00:14:32,960 --> 00:14:37,600
+today's day and age, I have my real name here I guess, I think of being in the crypto industry
+
+167
+00:14:37,600 --> 00:14:41,920
+as there being a slight additional risk when it comes to your individual safety. How would you
+
+168
+00:14:41,920 --> 00:14:48,640
+suggest people look at their individual safety in light of some of these threat actors? I would say
+
+169
+00:14:48,640 --> 00:14:53,040
+the first and biggest one is when it comes to individual safety, obviously you need to operate
+
+170
+00:14:53,040 --> 00:14:58,320
+with a general sense of operational security. So if you're going out, going to a club, doing whatever,
+
+171
+00:14:58,320 --> 00:15:02,960
+don't post on your public Instagram that you're sitting here, you have a million dollar watch on
+
+172
+00:15:02,960 --> 00:15:06,880
+and so forth. But yeah, I think in general the biggest thing is the operational security side
+
+173
+00:15:06,880 --> 00:15:12,320
+of the house. Trying to not put your name fully out there if you can, but obviously for some people
+
+174
+00:15:12,320 --> 00:15:16,640
+it is required. Just try to operate in a more smart way in your day-to-day operations, but
+
+175
+00:15:16,640 --> 00:15:22,560
+Kupa definitely left some comments on that as well. We've been thinking deeply about this for a while
+
+176
+00:15:22,560 --> 00:15:28,880
+because individuals have their own concerns and threat vectors to consider, even individuals within
+
+177
+00:15:28,880 --> 00:15:34,080
+a company. But there's lots of traders who don't operate with a company. So a simple answer will
+
+178
+00:15:34,080 --> 00:15:39,760
+be that those individuals will be able to in a sense hire Groom Lake as we go and launch one of
+
+179
+00:15:39,760 --> 00:15:45,040
+these tools that we have coming up. It's a platform that's going to be really focused on data leak
+
+180
+00:15:45,040 --> 00:15:50,960
+monitoring and operational security and things like that to really lower the risks here. But I
+
+181
+00:15:50,960 --> 00:15:58,320
+would say that it is certainly a mindset where most of the people that come to us, you will see
+
+182
+00:15:58,320 --> 00:16:05,360
+that there's this common thread of how they got exploited and it's typically that they were tired,
+
+183
+00:16:05,360 --> 00:16:11,280
+they were rushed, they weren't getting through because whenever we talk to them, 80-90% of the
+
+184
+00:16:11,280 --> 00:16:17,840
+time it's 20-20 hindsight. Oh, I should have known that. And these are people who take a huge
+
+185
+00:16:17,840 --> 00:16:23,920
+thoughtful approach to their security and they've taken to X to say, oh, I'm so secure,
+
+186
+00:16:23,920 --> 00:16:29,920
+I have so many layers to my security and that's great. But we have to recognize that there's this
+
+187
+00:16:29,920 --> 00:16:35,360
+mental aspect to it as well. And that if you're moving a lot of funds and you're trying to move
+
+188
+00:16:35,360 --> 00:16:41,680
+quickly or somebody's trying to rush you for some reason, a big example would be these folks who
+
+189
+00:16:41,680 --> 00:16:49,440
+poses VCs trying to get people in a call and say, oh, you know, we have a group of VCs or we have
+
+190
+00:16:49,440 --> 00:16:55,760
+all the advisors in here, jump in the call, oh, sorry, that link didn't work, use this one. And
+
+191
+00:16:55,760 --> 00:17:01,920
+they're trying to make it so you're not thinking. So slowing down and really thinking that it could
+
+192
+00:17:01,920 --> 00:17:08,640
+be me that they're going after this time, that will go so far in someone's personal protection
+
+193
+00:17:08,640 --> 00:17:14,960
+and security. The pushed sense of urgency seems to be a really recurring theme. And I've heard
+
+194
+00:17:14,960 --> 00:17:19,520
+people where they'll get five phone calls and two emails immediately about their Coinbase account
+
+195
+00:17:19,520 --> 00:17:23,840
+being compromised or about the fact that their transaction last week didn't go through for some
+
+196
+00:17:23,840 --> 00:17:29,280
+reason. And they create this head rush almost of, I don't know what to do now. Yeah. And crypto is
+
+197
+00:17:29,280 --> 00:17:36,240
+such a collaborative space that it's okay to reach out to a friend, to someone else who's security
+
+198
+00:17:36,240 --> 00:17:42,400
+minded and say, hey, does this sound right? Or have you heard of this? That will help be a third
+
+199
+00:17:42,400 --> 00:17:48,320
+sounding board to just help you slow down as well. Because yeah, at Coinbase, one where people were
+
+200
+00:17:48,320 --> 00:17:52,720
+being rushed with, oh, we're seeing your funds being moved, that was huge. And we dealt with
+
+201
+00:17:52,720 --> 00:17:57,360
+new cases in that regard. Yeah. And I've heard stories of people who've talked to others off a
+
+202
+00:17:57,360 --> 00:18:01,280
+cliff, like you're saying, where you're like, you're about to do something, but thankfully we're here
+
+203
+00:18:01,280 --> 00:18:06,320
+before. Do you guys work with individuals in any capacity to experience individual fund loss?
+
+204
+00:18:06,880 --> 00:18:13,360
+So in the fund loss scenario, yes. It's never just companies that come to us when it comes to a
+
+205
+00:18:13,360 --> 00:18:20,160
+crypto theft. We've even worked with individuals who have some intelligence need or something that
+
+206
+00:18:20,160 --> 00:18:24,400
+was very personal to them and private that they needed support with and they didn't know where
+
+207
+00:18:24,400 --> 00:18:30,080
+else to go. So we've worked with people in that regard. And in terms of the proactive stuff,
+
+208
+00:18:30,080 --> 00:18:36,560
+yeah, we've worked with individuals and whales, folks like that. I think with the advent of this
+
+209
+00:18:36,560 --> 00:18:42,800
+platform Reaper, that's going to be that opportunity where many individuals can break down that barrier
+
+210
+00:18:42,800 --> 00:18:47,840
+to entry and get help. And can you speak about Reaper while we're on this subject and what that
+
+211
+00:18:47,840 --> 00:18:54,720
+does more precisely? Maybe relatedly, I'd love to hear how you think software offerings for proactive
+
+212
+00:18:54,720 --> 00:19:00,000
+defense in crypto will evolve. Oh, interesting. Okay. I'm interested to hear your take on the
+
+213
+00:19:00,000 --> 00:19:06,160
+second part, Hercules, but let me give a little low down on Reaper. So Reaper is a tool that we've
+
+214
+00:19:06,160 --> 00:19:12,160
+developed over time through our folks who have been trained on the intelligence aspect of our
+
+215
+00:19:12,160 --> 00:19:19,600
+work and capabilities. And it's this 24 seven data leak monitoring tool that allows us to very deeply
+
+216
+00:19:19,600 --> 00:19:26,480
+find all of the threads that exist on an individual. And we can do that just from getting an email and
+
+217
+00:19:26,480 --> 00:19:34,400
+a phone number. And people are very surprised when these data points pop up on what exists on them,
+
+218
+00:19:34,400 --> 00:19:40,320
+because it's even coming up with some account that they made seven years ago that they totally forgot
+
+219
+00:19:40,320 --> 00:19:46,560
+about is out there and it's leaking some little nuanced piece of their information, which then
+
+220
+00:19:46,560 --> 00:19:53,040
+allows it to lead to something else. And that gives people this big bird's eye view of everything
+
+221
+00:19:53,040 --> 00:19:59,360
+that's out there on them. Future versions of this will allow us to do things like scrubbing this data.
+
+222
+00:19:59,360 --> 00:20:05,280
+It will allow us to do sim swap detection so that people can know if they're being actively
+
+223
+00:20:05,280 --> 00:20:12,480
+compromised. So we really see Reaper as this ability for individuals in the space to have this
+
+224
+00:20:12,480 --> 00:20:16,880
+mindful approach to their own operational security, because that's what the space has
+
+225
+00:20:16,880 --> 00:20:23,520
+really been craving in a big way. And on top of that, from a business perspective, how nice would
+
+226
+00:20:23,520 --> 00:20:29,040
+it be for an executive or CISO to be able to see the entire data leak footprint of their whole
+
+227
+00:20:29,040 --> 00:20:34,880
+company and be alerted if anything new comes up on one of their employees? So the second part
+
+228
+00:20:34,880 --> 00:20:40,080
+of your question though, could you rephrase that? What do you think cybersecurity software looks
+
+229
+00:20:40,080 --> 00:20:44,960
+like for crypto in a few years time? Oh yeah, most definitely. That's one I get quite excited
+
+230
+00:20:44,960 --> 00:20:50,080
+about. So I'll answer this in a web two context and transition it over into our world. So in the web
+
+231
+00:20:50,080 --> 00:20:56,240
+two space, we have a ridiculous amount of security tooling that's SAS based. It's from every single
+
+232
+00:20:56,240 --> 00:21:01,680
+category that you can imagine from compliance, which is amazing all the way over to pen testing.
+
+233
+00:21:01,680 --> 00:21:06,320
+But specific to web three in crypto in general, I think we're going to see a massive adoption
+
+234
+00:21:06,320 --> 00:21:10,800
+of these web two tools, which we already do in development, but there definitely will be a lot
+
+235
+00:21:10,800 --> 00:21:15,360
+of new tooling that I think talented engineers will create over the next couple of years that
+
+236
+00:21:15,360 --> 00:21:20,720
+are definitely security focused, but also take core components of web two to introduce them into the
+
+237
+00:21:20,720 --> 00:21:27,200
+industry and security ways. But I personally think that there is a mindset that a lot of people have
+
+238
+00:21:27,200 --> 00:21:32,960
+specific to SAS solutions as a whole in regards to web two security is that they are a all in one
+
+239
+00:21:32,960 --> 00:21:38,880
+solution for everything. But the truth is these solutions supplement your primary efforts. So I
+
+240
+00:21:38,880 --> 00:21:43,040
+think there will be a lot of software that is adopted across the industry, but I think having
+
+241
+00:21:43,040 --> 00:21:48,240
+somebody like Groom Lake, for example, is able to lead the efforts and software exists to supplement
+
+242
+00:21:48,240 --> 00:21:53,200
+the other avenues. Makes sense. That's very helpful. Is this cybercrime that you guys are
+
+243
+00:21:53,200 --> 00:21:58,080
+dealing with? Is it trending up? Is it trending down or which way do you see it moving? It's
+
+244
+00:21:58,080 --> 00:22:03,760
+definitely trending up, but I would say personally, the increase in social engineering attempts is
+
+245
+00:22:03,760 --> 00:22:09,200
+becoming more and more crazy. And the tactics that are being leveraged are becoming different every
+
+246
+00:22:09,200 --> 00:22:15,840
+day. Very sophisticated. Very sophisticated. Yes. And there's this thing called TTPs, which are
+
+247
+00:22:15,840 --> 00:22:20,800
+tactics, techniques and procedures. And whenever we investigate a hack, those TTPs will allow us
+
+248
+00:22:20,800 --> 00:22:24,880
+to do some association of who may have been responsible behind us. And we're seeing the
+
+249
+00:22:24,880 --> 00:22:30,640
+social engineering specifically is heavily coming through the nation state groups and they wait
+
+250
+00:22:30,640 --> 00:22:34,720
+quite a while to actually execute and they are using some robust tooling to actually complete
+
+251
+00:22:34,720 --> 00:22:38,880
+this. They're using custom malware as well as deepfakes, which I had made a post on Twitter not
+
+252
+00:22:38,880 --> 00:22:43,680
+too long ago about it. Deepfake technology now as a whole is extremely, extremely good. So I even
+
+253
+00:22:43,680 --> 00:22:47,280
+thought before this meeting, throwing your face on mine and doing a little thing, but didn't have
+
+254
+00:22:47,280 --> 00:22:52,720
+enough time, but it's quite crazy at this point. To that point, I'd be amiss not to mention AI as
+
+255
+00:22:52,720 --> 00:22:57,760
+an added attack vector. You hit the nail on the head, I think, with deepfakes. A lot of companies
+
+256
+00:22:57,760 --> 00:23:03,280
+in this space, to my knowledge, also employ audio verification. You'll respond with your voice or
+
+257
+00:23:03,280 --> 00:23:08,240
+find who you are. Something like that to me seems like a mechanism that will come under threat in
+
+258
+00:23:08,240 --> 00:23:15,120
+coming years. So how can you be a couple steps ahead of threat vectors related to deepfakes,
+
+259
+00:23:15,120 --> 00:23:20,880
+AI mechanisms, et cetera? I think the voice one is something that is often overlooked because you
+
+260
+00:23:20,880 --> 00:23:25,680
+just think the video, you go to the face. Even as of a year ago, the technology got quite good.
+
+261
+00:23:25,680 --> 00:23:32,000
+I even, in my experimentation days, took a podcast that FDR did a very long time ago and threw it in
+
+262
+00:23:32,000 --> 00:23:36,720
+and was able to actually recreate his voice very, very similarly. Just think, if it's good on a
+
+263
+00:23:36,720 --> 00:23:41,840
+computer, imagine a cell phone doing a call. It would be near spot on. But I think as a whole,
+
+264
+00:23:41,840 --> 00:23:46,080
+we're going to get to a point with AI and these deepfake technologies as a whole that to actually
+
+265
+00:23:46,080 --> 00:23:51,280
+prevent them, you have to employ a little bit of true identification if you're onboarding somebody,
+
+266
+00:23:51,280 --> 00:23:56,080
+for example. But also doing things as simple as telling the person with their hands to simply put
+
+267
+00:23:56,080 --> 00:24:00,800
+it over their face. Because with the tech today, it is quite hard to actually map over the fingers
+
+268
+00:24:00,800 --> 00:24:06,000
+and all. But I also think if it's a friend or a colleague or somebody similar, I always recommend
+
+269
+00:24:06,000 --> 00:24:11,280
+if things get suspicious, hanging up the phone and the call and contact them through another means
+
+270
+00:24:11,280 --> 00:24:15,200
+that you believe is safe. So that could be returning a phone call, right? Unless they're
+
+271
+00:24:15,200 --> 00:24:19,760
+SIM swapped because it is true. You can only spoof outbound unless they're SIM swapped or reach out
+
+272
+00:24:19,760 --> 00:24:24,400
+to them on signal, reach out to them on telegram, or if they're in another room or a friend of a
+
+273
+00:24:24,400 --> 00:24:28,480
+friend, call that friend and have them speak to them individually. Yeah, those are great suggestions.
+
+274
+00:24:29,120 --> 00:24:34,400
+In the wake of all of the concerns that we'll collectively face, when should people reach out
+
+275
+00:24:34,400 --> 00:24:41,280
+to you guys, Groom Lake and how should they get in contact? Reaching out to Groom Lake from a
+
+276
+00:24:41,280 --> 00:24:49,680
+company perspective, typically we see people reach out at all phases. But the most common would be
+
+277
+00:24:49,680 --> 00:24:55,600
+when there's some big milestone approaching that's about three months out. And that could be TGE,
+
+278
+00:24:55,600 --> 00:25:00,800
+could be Maynet launch, anything like that, any major inflection point in a company.
+
+279
+00:25:00,800 --> 00:25:05,680
+For individuals, when you're thinking about something like Reaper, this is an opportunity to
+
+280
+00:25:05,680 --> 00:25:10,720
+front run social engineering attempts. So the sooner the better, because then you can have,
+
+281
+00:25:10,960 --> 00:25:16,080
+we're talking about the AI and the implications of that. But from a defensive perspective,
+
+282
+00:25:16,080 --> 00:25:21,760
+having something that is your personal hunter killer drone that can just take two pieces of
+
+283
+00:25:21,760 --> 00:25:27,520
+information and look for a hundred plus different attack vectors on you is going to be really big.
+
+284
+00:25:27,520 --> 00:25:32,320
+So the sooner you go and implement security, whether you're an individual or a company,
+
+285
+00:25:32,320 --> 00:25:38,640
+it's always the better because security is this act of layering things over time. And the more
+
+286
+00:25:38,640 --> 00:25:42,640
+time you have to layer countermeasures, the better off you're going to be.
+
+287
+00:25:43,280 --> 00:25:48,000
+Definitely. And I'll reinforce that point as well. Doing things early from the beginning is great
+
+288
+00:25:48,000 --> 00:25:53,360
+from an organizational perspective, because you tend to build a cultural idea around security as
+
+289
+00:25:53,360 --> 00:25:58,880
+a whole. And going into an organization and reviewing their operational security procedures,
+
+290
+00:25:58,880 --> 00:26:03,680
+their current tech stack, what their configurations look like across the whole, any change you make
+
+291
+00:26:03,680 --> 00:26:08,560
+tends to introduce a little bit of friction. It's unfortunately how security works, but with
+
+292
+00:26:08,560 --> 00:26:13,360
+our packages and the way that we tailor things, we tend to get friction that's very, very minimal.
+
+293
+00:26:13,360 --> 00:26:18,000
+But going into an organization that has existed for quite a long time and it has been doing things
+
+294
+00:26:18,000 --> 00:26:22,960
+that they might have thought is right, but it truly is not up to par. It's harder to go backwards
+
+295
+00:26:22,960 --> 00:26:26,800
+when it will take more time, but we have ways to do it and we are more than happy to do it.
+
+296
+00:26:26,800 --> 00:26:30,640
+Yeah. It sounds harder to rebuild something that's been around for some time already.
+
+297
+00:26:30,640 --> 00:26:35,440
+Definitely. Hercules and Cupid, I appreciate you coming on and having a conversation with us and
+
+298
+00:26:35,440 --> 00:26:39,600
+thank you for the work you continue to do in this space. Yeah. Thank you, Wyatt.
+
+299
+00:26:39,600 --> 00:26:41,760
+Yeah, man. It's been a pleasure. Thanks for having us on.
+
+300
+00:26:42,960 --> 00:26:47,840
+Thanks for listening to another episode of On the Brink with Castle Island. To find out more about
+
+301
+00:26:47,840 --> 00:26:54,480
+Castle Island, visit castleisland.vc. To listen to all of our podcast episodes, please go to
+
+302
+00:26:54,480 --> 00:27:00,480
+onthebrink-podcast.com or just click on the tab in our website. Thanks for listening.
+

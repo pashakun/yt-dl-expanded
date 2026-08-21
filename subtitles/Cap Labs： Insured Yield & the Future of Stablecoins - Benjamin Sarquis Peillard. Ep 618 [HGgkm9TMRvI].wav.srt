@@ -1,0 +1,3488 @@
+1
+00:00:00,000 --> 00:00:05,500
+ This episode is brought to you by Gnosis, building the open internet one block at a time.
+
+2
+00:00:05,500 --> 00:00:10,000
+ Gnosis was founded in 2015 and it's grown from one of Ethereum's earliest projects
+
+3
+00:00:10,000 --> 00:00:13,900
+ into a powerful ecosystem for open user-owned finance.
+
+4
+00:00:13,900 --> 00:00:17,580
+ Gnosis is also the team behind products that had become core to my business and that of
+
+5
+00:00:17,580 --> 00:00:20,820
+ so many others like Safe and CowSwap.
+
+6
+00:00:20,820 --> 00:00:22,800
+ At the center is Gnosis Chain.
+
+7
+00:00:22,800 --> 00:00:28,560
+ It's a low fee layer one with zero downtime in seven years and is secured by over 300,000
+
+8
+00:00:28,560 --> 00:00:29,560
+ validators.
+
+9
+00:00:29,560 --> 00:00:34,600
+ It's the foundation for real-world financial applications like Gnosis Pay and Circles.
+
+10
+00:00:34,600 --> 00:00:40,120
+ All of this is governed by Gnosis Dow, a community-run organization where anyone with a GNO token
+
+11
+00:00:40,120 --> 00:00:45,400
+ can vote on updates, fun new projects, and even run a validator from home.
+
+12
+00:00:45,400 --> 00:00:49,160
+ So if you're building a Web3 or you're just curious about what financial freedom can look
+
+13
+00:00:49,160 --> 00:00:54,120
+ like, start exploring at gnosis.io.
+
+14
+00:00:54,120 --> 00:00:55,120
+ Welcome to Epicenter.
+
+15
+00:00:55,120 --> 00:00:59,160
+ The show which talks about the technologies, projects, and people driving decentralization
+
+16
+00:00:59,160 --> 00:01:01,020
+ and the blockchain revolution.
+
+17
+00:01:01,020 --> 00:01:05,560
+ I'm Sebastian Cuccio and I'm here today with Ben Benjamin who's the founder of CAP and
+
+18
+00:01:05,560 --> 00:01:10,480
+ CAP is a stablecoin protocol that has insured yield.
+
+19
+00:01:10,480 --> 00:01:16,360
+ I know insurance can trigger some people, but we'll get into all of that and how the
+
+20
+00:01:16,360 --> 00:01:21,200
+ protocol actually ensures it's deposits and how it generates yields.
+
+21
+00:01:21,200 --> 00:01:28,680
+ We'll talk about the restaking component here, how it uses symbiotic to secure the
+
+22
+00:01:28,680 --> 00:01:32,720
+ deposits and a whole bunch of other stuff.
+
+23
+00:01:32,720 --> 00:01:35,040
+ Hey Benjamin, thanks for joining.
+
+24
+00:01:35,040 --> 00:01:36,040
+ Thanks for having me, man.
+
+25
+00:01:36,040 --> 00:01:38,640
+ Super excited about this.
+
+26
+00:01:38,640 --> 00:01:45,800
+ So you're currently in China.
+
+27
+00:01:45,800 --> 00:01:51,320
+ I'm curious just what's your impression of, yeah, what's your high level of impression
+
+28
+00:01:51,320 --> 00:01:52,320
+ in China?
+
+29
+00:01:52,320 --> 00:01:54,120
+ Is it the first time you've been there?
+
+30
+00:01:54,120 --> 00:01:58,120
+ No, I've been to China many times.
+
+31
+00:01:58,120 --> 00:02:04,560
+ I speak Chinese, so I come every year to practice Chinese actually.
+
+32
+00:02:04,560 --> 00:02:12,040
+ And so this year I kind of combined my language practice with meeting some crypto people, but
+
+33
+00:02:12,040 --> 00:02:15,440
+ yeah, I love China, it's a wonderful place.
+
+34
+00:02:15,440 --> 00:02:17,680
+ Did you live there for a while?
+
+35
+00:02:17,680 --> 00:02:24,360
+ I studied here for a year in Beijing during college, yeah.
+
+36
+00:02:24,360 --> 00:02:28,800
+ And what's your sense of, because I think for a lot of people in the West, it's kind
+
+37
+00:02:28,800 --> 00:02:33,560
+ of hard to put a finger on what Chinese life is like.
+
+38
+00:02:33,560 --> 00:02:40,760
+ I recently listened to this Lex Readme episode, but this woman who was Chinese and sort of
+
+39
+00:02:40,760 --> 00:02:44,560
+ like a Chinese economic and policy expert.
+
+40
+00:02:44,560 --> 00:02:53,000
+ And she gave a really sort of like, she gave me sort of an eye-opening look on what life
+
+41
+00:02:53,000 --> 00:02:59,680
+ in China is like, what people's aspirations are like, how people sort of deal with the
+
+42
+00:02:59,680 --> 00:03:04,500
+ things that sort of in the West, we see as like state control and sort of bad, right?
+
+43
+00:03:04,500 --> 00:03:09,320
+ But people actually thrive in these conditions, like, what's your sense of like, what life
+
+44
+00:03:09,320 --> 00:03:13,520
+ is like in China and what are the biggest kind of misconceptions that people have about
+
+45
+00:03:13,520 --> 00:03:14,520
+ China?
+
+46
+00:03:14,520 --> 00:03:20,200
+ Yeah, I mean, I think there's like the people that have been to China and the people that
+
+47
+00:03:20,200 --> 00:03:21,200
+ haven't.
+
+48
+00:03:21,200 --> 00:03:23,880
+ And I love you that haven't have a very macro view of China.
+
+49
+00:03:23,880 --> 00:03:29,680
+ So like politics, economics, world power, like struggles, right?
+
+50
+00:03:29,680 --> 00:03:31,000
+ But I'm from a small country.
+
+51
+00:03:31,000 --> 00:03:32,000
+ I'm from Chile.
+
+52
+00:03:32,000 --> 00:03:35,560
+ From my point of view, China is the same as the US, right?
+
+53
+00:03:35,560 --> 00:03:42,960
+ They remind me very much of the US, like big country type of culture with a lot of diversity,
+
+54
+00:03:42,960 --> 00:03:49,600
+ obviously big economy, you know, I was just in the rural China last week or like early
+
+55
+00:03:49,600 --> 00:03:55,920
+ this week, which is, you know, very different from Shanghai where I am right now.
+
+56
+00:03:55,920 --> 00:03:59,120
+ But they're miles ahead of everywhere else, man.
+
+57
+00:03:59,120 --> 00:04:05,960
+ Like all the cars are electric, super clean, it's very safe.
+
+58
+00:04:05,960 --> 00:04:11,080
+ You know, the absorption of technology or the adoption of technology in everyday life,
+
+59
+00:04:11,080 --> 00:04:18,720
+ I think it's higher, at least consumer technology compared to the West, especially Europe, right?
+
+60
+00:04:18,720 --> 00:04:23,480
+ Like it's not even close, they don't use cash, they didn't use cards.
+
+61
+00:04:23,480 --> 00:04:27,400
+ It's all like we chatter, Alipay.
+
+62
+00:04:27,400 --> 00:04:31,640
+ So it's the digitalization of the countries, it's already there, it's been there for many
+
+63
+00:04:31,640 --> 00:04:32,640
+ years.
+
+64
+00:04:32,640 --> 00:04:34,120
+ Yeah, it's super impressive.
+
+65
+00:04:34,120 --> 00:04:38,840
+ I think like that's probably one of the things that I've not been to mainland China, like
+
+66
+00:04:38,840 --> 00:04:41,880
+ I'm in the Hong Kong, but like adoption of technology, I think like in Asia, it's just
+
+67
+00:04:41,880 --> 00:04:42,880
+ like.
+
+68
+00:04:42,880 --> 00:04:43,880
+ Oh, it's very different.
+
+69
+00:04:43,880 --> 00:04:45,840
+ I think Hong Kong is like, it's amazing.
+
+70
+00:04:45,840 --> 00:04:46,840
+ I love Hong Kong.
+
+71
+00:04:46,840 --> 00:04:53,720
+ I like to start up with the Hong Kong, but mainland China, it's a different thing.
+
+72
+00:04:53,720 --> 00:04:58,160
+ It's a different, completely different place, in my opinion.
+
+73
+00:04:58,160 --> 00:05:02,720
+ From a living standard, obviously not from a political point of view.
+
+74
+00:05:02,720 --> 00:05:06,480
+ Yeah, it's crazy how like, you know, being in Europe, and I don't want to make this all
+
+75
+00:05:06,480 --> 00:05:10,760
+ about this, but it's just interesting to kind of get your perspective on this.
+
+76
+00:05:10,760 --> 00:05:15,320
+ How like in recent years, there's been kind of a reversal in like rejection of technology
+
+77
+00:05:15,320 --> 00:05:20,800
+ almost in Europe, and I wonder if that has to do with the fact that like a lot of technology
+
+78
+00:05:20,800 --> 00:05:27,640
+ in Europe is owned and operated by US companies, if it's more of a kind of geopolitical rejection
+
+79
+00:05:27,640 --> 00:05:32,480
+ than an actual technology rejection, but it is worrying to see like European people and
+
+80
+00:05:32,480 --> 00:05:38,600
+ European kind of political discourse be like super anti-technology.
+
+81
+00:05:38,600 --> 00:05:40,520
+ It's like, it's just so weird.
+
+82
+00:05:40,520 --> 00:05:49,520
+ It's at least 40 years behind China, at least, like if you compare Berlin, oh my god, they're
+
+83
+00:05:49,520 --> 00:05:56,440
+ used to use cash, you don't know what elevators are, like what's like all the ACs, not in most
+
+84
+00:05:56,440 --> 00:06:03,360
+ places, and then you come to like Shanghai, I just shared an elevator ride with a robot,
+
+85
+00:06:03,360 --> 00:06:06,520
+ you know, that was delivering something to me in the hotel.
+
+86
+00:06:06,520 --> 00:06:11,920
+ So it's just like, you really can't compare, I mean love Germany, I actually came up with
+
+87
+00:06:11,920 --> 00:06:18,600
+ the idea of cap in Berlin, but no man, it's just like crazy how different, and people
+
+88
+00:06:18,600 --> 00:06:22,920
+ really don't think about that, because again, people's idea of China is very like a macro
+
+89
+00:06:22,920 --> 00:06:26,040
+ about politics, about economics.
+
+90
+00:06:26,040 --> 00:06:35,400
+ Cool, well, let's set that topic aside, but it's funny, like fighting Germany is fine.
+
+91
+00:06:35,400 --> 00:06:42,560
+ Yeah, yeah, we'll use that as a hot take clip, but yeah, like we know you studied in Germany,
+
+92
+00:06:42,560 --> 00:06:48,920
+ sorry, you studied in China, and you came up with the idea for cap in Germany, but what's
+
+93
+00:06:48,920 --> 00:06:52,680
+ your journey, and how did you end up here, like how did you end up in a podcast talking
+
+94
+00:06:52,680 --> 00:07:00,840
+ about your talking about your China journey and your founding of this company?
+
+95
+00:07:00,840 --> 00:07:06,440
+ You know, life is crazy, right, who knew we would be here together talking about cryptocurrencies
+
+96
+00:07:06,440 --> 00:07:07,840
+ in a podcast?
+
+97
+00:07:07,840 --> 00:07:15,240
+ No, so I mean, I've been in crypto for quite some time, I started in the Hedera Hashcraft
+
+98
+00:07:15,240 --> 00:07:24,320
+ space doing some infrastructure there, I started a stablecoin four or five years ago on Polygon,
+
+99
+00:07:24,320 --> 00:07:29,760
+ so been in the stablecoin space for a while, and then obviously most recently, I started
+
+100
+00:07:29,760 --> 00:07:36,340
+ a cap about a year ago, a little over a year ago, and yeah, that's kind of my little short
+
+101
+00:07:36,340 --> 00:07:38,680
+ spiel about crypto.
+
+102
+00:07:38,680 --> 00:07:41,040
+ What was the stablecoin project you were doing before?
+
+103
+00:07:41,040 --> 00:07:47,680
+ Cheetahou, QIDEO, it was like very different, right, it's like at the height of the five
+
+104
+00:07:47,680 --> 00:07:56,640
+ summer type of project, no fundraising, you know, max aloe to the community, air dropping
+
+105
+00:07:56,640 --> 00:08:02,760
+ strangers, I don't even know who owns the token, like the largest whales, it's like
+
+106
+00:08:02,760 --> 00:08:08,600
+ random people, but yeah, it was a wonderful project, it was the first cross-chain stablecoin.
+
+107
+00:08:08,600 --> 00:08:11,000
+ Okay, and this is what I'm polygon.
+
+108
+00:08:11,000 --> 00:08:18,720
+ Yeah, well, polygon started then Phantom, Avalanche, before you had OFT or ERXRC, we invented this
+
+109
+00:08:18,720 --> 00:08:24,560
+ idea that the token when you bridge it from different chains should remain the same, it
+
+110
+00:08:24,560 --> 00:08:25,960
+ should be fungible.
+
+111
+00:08:25,960 --> 00:08:32,640
+ For us, that wasn't the case, right, you would have Wormhole, Avalanche, USDC, or, you know,
+
+112
+00:08:32,640 --> 00:08:37,200
+ Layer Zero, Wormhole, Avalanche, USDC, Ethereum, like some long string like that.
+
+113
+00:08:37,200 --> 00:08:42,640
+ And so you had some crazy pools on Solana, for example, with all the different versions.
+
+114
+00:08:42,640 --> 00:08:49,720
+ So before the show, I was asking you about your hot take, and you said that you think
+
+115
+00:08:49,720 --> 00:08:55,200
+ that stablecoins are less safe than what people think they are.
+
+116
+00:08:55,200 --> 00:08:58,060
+ Can you expand on that?
+
+117
+00:08:58,060 --> 00:09:00,040
+ Why should people be worried about their stablecoins?
+
+118
+00:09:00,040 --> 00:09:06,400
+ I mean, I don't, I want to say you should be worried, but I do think you should be cautious
+
+119
+00:09:06,400 --> 00:09:10,960
+ about, you know, where you put your money, because what happens every cycle is that,
+
+120
+00:09:10,960 --> 00:09:15,960
+ you know, we learn certain lessons about, you know, what is safe and it's not safe.
+
+121
+00:09:15,960 --> 00:09:20,720
+ But it's usually the people that get burned that actually retain the lessons, because if
+
+122
+00:09:20,720 --> 00:09:25,440
+ you lose money, you really remember, you know, these kind of lessons.
+
+123
+00:09:25,440 --> 00:09:29,520
+ If you don't lose money, or if you weren't there, then you don't know what to look for.
+
+124
+00:09:29,520 --> 00:09:34,520
+ And so there are a few things that, you know, are kind of being done again in this cycle
+
+125
+00:09:34,520 --> 00:09:39,400
+ that I'm worried about that have been done in the past, for example, over trusting third
+
+126
+00:09:39,400 --> 00:09:44,000
+ party bridges, right, even though we have these token standards that's supposed to have
+
+127
+00:09:44,000 --> 00:09:45,000
+ minting limits.
+
+128
+00:09:45,000 --> 00:09:48,200
+ The minting limits are the size of the market capital of the tokens, right?
+
+129
+00:09:48,200 --> 00:09:52,340
+ So there's like not really any like, you know, protections there.
+
+130
+00:09:52,340 --> 00:10:00,160
+ When it comes to, you know, DeFi, we're, we're rebuilding Celsius and have, and all these
+
+131
+00:10:00,160 --> 00:10:05,440
+ different, like, what's it called, like CD5 lending platforms that we're building them
+
+132
+00:10:05,440 --> 00:10:06,800
+ on chain.
+
+133
+00:10:06,800 --> 00:10:09,440
+ And they didn't suddenly become safe, right?
+
+134
+00:10:09,440 --> 00:10:14,560
+ It's the same issue of unsecured lending to teams, but now we're doing it on chain.
+
+135
+00:10:14,560 --> 00:10:18,360
+ And I think that's very unsafe and I'm worried about how that's going to end up.
+
+136
+00:10:18,360 --> 00:10:23,440
+ So yeah, in general, I just think we should be very cautious about money because it's
+
+137
+00:10:23,440 --> 00:10:24,640
+ money in the end of the day.
+
+138
+00:10:24,640 --> 00:10:29,400
+ It's not a game and people can, you know, get hurt.
+
+139
+00:10:29,400 --> 00:10:34,600
+ So you know, we used to talk about stablecoins in three buckets, or at least, you know, I
+
+140
+00:10:34,600 --> 00:10:42,280
+ think like around 2021, people would talk about stablecoins as like there was the algorithmic,
+
+141
+00:10:42,280 --> 00:10:50,000
+ you know, the likes of overall, you know, and then you had like sort of CDP, you know,
+
+142
+00:10:50,000 --> 00:10:56,240
+ over collateralized and then, and then centralized, like USD C or something like that.
+
+143
+00:10:56,240 --> 00:11:01,560
+ Do you think those categories still stand today and, or, or do you think that we're sort
+
+144
+00:11:01,560 --> 00:11:05,560
+ of finding new types of stablecoins?
+
+145
+00:11:05,560 --> 00:11:13,000
+ Yeah, I think that definitely one of those kind of died or it's like not very big anymore.
+
+146
+00:11:13,000 --> 00:11:14,680
+ CDPs are not big anymore.
+
+147
+00:11:14,680 --> 00:11:20,840
+ I think in general synthetic stablecoins, at least in number, they're not that big, right?
+
+148
+00:11:20,840 --> 00:11:24,200
+ Like there's one big synthetic stablecoin right now that's extremely successful and
+
+149
+00:11:24,200 --> 00:11:26,240
+ it's Athena, right?
+
+150
+00:11:26,240 --> 00:11:28,520
+ Synthetic meaning is not fully backed by dollars.
+
+151
+00:11:28,520 --> 00:11:31,800
+ It's partially backed by other things that are not dollars.
+
+152
+00:11:31,800 --> 00:11:37,440
+ By and large, more stable, most stablecoins today are eventually redeemable for the dollar,
+
+153
+00:11:37,440 --> 00:11:39,320
+ whether it be TBOs, etc.
+
+154
+00:11:39,320 --> 00:11:43,720
+ So yeah, CDPs have definitely gone down in size.
+
+155
+00:11:43,720 --> 00:11:47,160
+ Obviously, algorithmic ones are gone.
+
+156
+00:11:47,160 --> 00:11:52,960
+ So really, now we find ourselves in, you know, world where there's two main buckets, I think,
+
+157
+00:11:52,960 --> 00:11:56,120
+ where you have yield bearing stablecoins and there's many different kinds of yield bearing
+
+158
+00:11:56,120 --> 00:12:01,400
+ stablecoins and you have these like non yield bearing stablecoins that are, you know, backed
+
+159
+00:12:01,400 --> 00:12:09,240
+ by bank deposits and they're, you know, a genius at compliant like PYUSD, like USDC,
+
+160
+00:12:09,240 --> 00:12:10,760
+ etc.
+
+161
+00:12:10,760 --> 00:12:15,120
+ Why do you think the over collateralized model didn't work so well, right?
+
+162
+00:12:15,120 --> 00:12:22,560
+ Because I mean, like, I think the starting principle of say something like MakerDAO was
+
+163
+00:12:22,560 --> 00:12:32,120
+ to have a highly decentralized stablecoin with no kind of like, no USD collateral or
+
+164
+00:12:32,120 --> 00:12:36,560
+ at least no reliance on centralized stablecoins as collateral.
+
+165
+00:12:36,560 --> 00:12:40,600
+ And I think for people, a lot of people in crypto that got into crypto as a rejection
+
+166
+00:12:40,600 --> 00:12:48,240
+ of the fiat system, that's like a very powerful idea, you know, today, like size, maybe, you
+
+167
+00:12:48,240 --> 00:12:53,680
+ know, in the top five, but certainly a lot in the top two, which is dominated by USDC
+
+168
+00:12:53,680 --> 00:12:54,680
+ and UST.
+
+169
+00:12:54,680 --> 00:12:59,120
+ And then we have projects like FX, right, that claim to be super decentralized.
+
+170
+00:12:59,120 --> 00:13:03,440
+ But, you know, I talked to them on last episode and it turns out that, you know, the dollar
+
+171
+00:13:03,440 --> 00:13:07,240
+ peg is actually based on sort of relies on USDC.
+
+172
+00:13:07,240 --> 00:13:13,240
+ Yeah, why do you think those like haven't really taken off and would you think they should?
+
+173
+00:13:13,240 --> 00:13:18,200
+ Like, do you think there's a space for highly decentralized stablecoins that are over collateralized?
+
+174
+00:13:18,200 --> 00:13:23,460
+ I mean, we have to acknowledge what the discourse is today in DeFi, right?
+
+175
+00:13:23,460 --> 00:13:26,260
+ In the last cycle, it was decentralization, right?
+
+176
+00:13:26,260 --> 00:13:30,680
+ How can we stay away from the traditional banking system?
+
+177
+00:13:30,680 --> 00:13:34,080
+ And this is largely due to how regulators viewed crypto.
+
+178
+00:13:34,080 --> 00:13:38,920
+ They did not want to engage with us, you know, they were going after teams.
+
+179
+00:13:38,920 --> 00:13:44,280
+ And so you saw the rights of projects like liquidity, which is arguably the only decentralized
+
+180
+00:13:44,280 --> 00:13:46,760
+ stablecoin, right, in crypto.
+
+181
+00:13:46,760 --> 00:13:48,880
+ Now it's different.
+
+182
+00:13:48,880 --> 00:13:53,620
+ What everybody cares about now, institutions, institutions, institutions, right?
+
+183
+00:13:53,620 --> 00:13:55,440
+ How can we partner with banks?
+
+184
+00:13:55,440 --> 00:13:59,440
+ How can we connect to the traditional finance system?
+
+185
+00:13:59,440 --> 00:14:02,640
+ And these traffic guys don't want to play any games, right?
+
+186
+00:14:02,640 --> 00:14:08,920
+ They don't want a stablecoin that's not backed by dollars, because that is risky.
+
+187
+00:14:08,920 --> 00:14:13,120
+ Objectively is very risky, right, because we're not the US government.
+
+188
+00:14:13,120 --> 00:14:21,840
+ We can't print dollars, and so this kind of push to be compliant or at least adjacent
+
+189
+00:14:21,840 --> 00:14:28,120
+ to tradfi has pushed our whole industry to forget about decentralization and focus more
+
+190
+00:14:28,120 --> 00:14:31,120
+ on scalability.
+
+191
+00:14:31,120 --> 00:14:34,680
+ You think the industry is really forgetting about decentralization?
+
+192
+00:14:34,680 --> 00:14:35,680
+ Yeah.
+
+193
+00:14:35,680 --> 00:14:40,160
+ Yeah, I mean, yeah, I mean, I don't sound like a Debbie Downer, but like for real, I think
+
+194
+00:14:40,160 --> 00:14:46,120
+ like people just don't, they don't value it as much as they care about scalability, right?
+
+195
+00:14:46,120 --> 00:14:51,800
+ If you're looking at, you know, centralized L2s, if you're looking at every single stablecoin
+
+196
+00:14:51,800 --> 00:14:56,920
+ that's coming out, right, is centralizing nature either because of their collateral or
+
+197
+00:14:56,920 --> 00:15:02,040
+ because of the team's administrative power over, you know, the protocols, you know, we're
+
+198
+00:15:02,040 --> 00:15:08,360
+ no longer counting how many multi-six signers there are on these multi-six.
+
+199
+00:15:08,360 --> 00:15:14,000
+ We're no longer worrying about time logs, right, the idea of fully open sourcing your
+
+200
+00:15:14,000 --> 00:15:17,640
+ code base is no longer the standard.
+
+201
+00:15:17,640 --> 00:15:23,040
+ So just as like a review of where we are as an industry, it's just factual to say that
+
+202
+00:15:23,040 --> 00:15:29,880
+ decentralization for D5 protocols in general is not at all at the top of mind.
+
+203
+00:15:29,880 --> 00:15:31,320
+ Hmm.
+
+204
+00:15:31,320 --> 00:15:37,680
+ Do you think that's a positive development and if that's the case, then why do we still,
+
+205
+00:15:37,680 --> 00:15:39,280
+ why would we still call it D5?
+
+206
+00:15:39,280 --> 00:15:45,040
+ Like, what is the distinction that like, I mean, is it just like, is it just FinTech
+
+207
+00:15:45,040 --> 00:15:46,920
+ with better tech?
+
+208
+00:15:46,920 --> 00:15:52,480
+ Is that like the direction we're going in or like, is there still some viability in
+
+209
+00:15:52,480 --> 00:15:54,800
+ the D part of I?
+
+210
+00:15:54,800 --> 00:15:57,240
+ Well, I think blockchain is not just decentralization, right?
+
+211
+00:15:57,240 --> 00:16:02,760
+ There are many things about the blockchain that are good for finance.
+
+212
+00:16:02,760 --> 00:16:07,680
+ Possibility is one that really comes to mind, right?
+
+213
+00:16:07,680 --> 00:16:10,520
+ Like a lot of people talk about rebuilding Swift.
+
+214
+00:16:10,520 --> 00:16:11,520
+ We already have it.
+
+215
+00:16:11,520 --> 00:16:17,200
+ You know, literally any chain in the world with tokens can just, can be Swift, right?
+
+216
+00:16:17,200 --> 00:16:21,320
+ It's just send and receive between wallets and there you go, it's done.
+
+217
+00:16:21,320 --> 00:16:25,320
+ And so, you know, that's very powerful.
+
+218
+00:16:25,320 --> 00:16:26,320
+ That's interesting.
+
+219
+00:16:26,320 --> 00:16:27,320
+ I've never heard it.
+
+220
+00:16:27,320 --> 00:16:28,320
+ I don't think it's negative.
+
+221
+00:16:28,320 --> 00:16:31,760
+ I just think it's like, it's part of any industry, right?
+
+222
+00:16:31,760 --> 00:16:40,280
+ You know, like right now AI probably is in a, like a moment of high, uh, romanticization
+
+223
+00:16:40,280 --> 00:16:45,240
+ of what you can do with, with AI, whereas crypto, we've definitely gone through this
+
+224
+00:16:45,240 --> 00:16:46,240
+ solution then.
+
+225
+00:16:46,240 --> 00:16:48,600
+ And now we're looking at mass adoption.
+
+226
+00:16:48,600 --> 00:16:51,400
+ And when you look at mass adoption, you have to get rid of the things that most people
+
+227
+00:16:51,400 --> 00:16:52,400
+ don't care about.
+
+228
+00:16:52,400 --> 00:16:55,400
+ You have to focus on the things that most people care about.
+
+229
+00:16:55,400 --> 00:17:02,400
+ And for us, you know, boomers in crypto, that, you know, maybe we cared a lot about max decentralization
+
+230
+00:17:02,400 --> 00:17:03,400
+ in the past.
+
+231
+00:17:03,400 --> 00:17:08,120
+ You know, if we want the world to use crypto, maybe we need to think about what everybody
+
+232
+00:17:08,120 --> 00:17:11,920
+ else cares about too.
+
+233
+00:17:11,920 --> 00:17:20,600
+ What do you think is like, if there's one thing that the industry needs to kind of maintain
+
+234
+00:17:20,600 --> 00:17:27,440
+ as a core principle, um, when interacting with the tradfi world or like traditional finance
+
+235
+00:17:27,440 --> 00:17:32,640
+ kind of regulated world, like what is, what is the one property or the one thing that
+
+236
+00:17:32,640 --> 00:17:38,960
+ like we can't deviate from in order to remain successful and like have a future where, you
+
+237
+00:17:38,960 --> 00:17:42,200
+ know, this whole project has not been in vain.
+
+238
+00:17:42,200 --> 00:17:49,080
+ Well, part of us maturing us in this sheet mean that means that we're no longer, um, sort
+
+239
+00:17:49,080 --> 00:17:50,960
+ of unified in values.
+
+240
+00:17:50,960 --> 00:17:58,120
+ We're definitely in a multipolar world, um, within crypto, where different groups have
+
+241
+00:17:58,120 --> 00:18:00,040
+ different values, right?
+
+242
+00:18:00,040 --> 00:18:02,560
+ Things that they think we should keep.
+
+243
+00:18:02,560 --> 00:18:07,440
+ Personally, um, the group that I find myself in is, uh, that of safety.
+
+244
+00:18:07,440 --> 00:18:13,920
+ I really think that, um, the transparency of smart contracts, the immutability of smart
+
+245
+00:18:13,920 --> 00:18:20,000
+ contracts can provide a lot of safety, um, and if we can maintain that, um, then we can
+
+246
+00:18:20,000 --> 00:18:22,520
+ make finance better than it is today.
+
+247
+00:18:22,520 --> 00:18:30,000
+ I want to kind of come back to what you said earlier where decentralization is, uh, less
+
+248
+00:18:30,000 --> 00:18:37,920
+ of a, is a value that is like sort of, um, not, not as coveted as it was perhaps previously,
+
+249
+00:18:37,920 --> 00:18:38,920
+ right?
+
+250
+00:18:38,920 --> 00:18:45,900
+ Or towards, um, we're moving away from, from the decentralized aspect of crypto.
+
+251
+00:18:45,900 --> 00:18:52,120
+ Do you think that like, isn't, isn't it true that the infrastructure layers need to remain
+
+252
+00:18:52,120 --> 00:18:53,120
+ decentralized?
+
+253
+00:18:53,120 --> 00:18:55,760
+ Otherwise, they just kind of like, there's just databases, right?
+
+254
+00:18:55,760 --> 00:18:58,600
+ And I like this entire project has been kind of useless.
+
+255
+00:18:58,600 --> 00:19:02,600
+ We could have just built new data, we could just like done this on databases.
+
+256
+00:19:02,600 --> 00:19:04,800
+ Is there some amount of value, right?
+
+257
+00:19:04,800 --> 00:19:09,960
+ Like is it, is it like that maybe the higher layers of the stack are less decentralized?
+
+258
+00:19:09,960 --> 00:19:14,240
+ Um, but the lower end of the stack are still like DeFi, I'm talking about like DeFi.
+
+259
+00:19:14,240 --> 00:19:16,720
+ I'm talking about stable coins, right?
+
+260
+00:19:16,720 --> 00:19:20,840
+ Stable coins DeFi people don't care about decentralization as much as they used to.
+
+261
+00:19:20,840 --> 00:19:26,820
+ Um, for base layers, they do and, and the writing saw on the wall, who has the most stable
+
+262
+00:19:26,820 --> 00:19:31,800
+ coins in crypto, it's Ethereum and nobody comes close, right?
+
+263
+00:19:31,800 --> 00:19:36,360
+ We've seen so many people try to make their own stable coin chains for many years, there
+
+264
+00:19:36,360 --> 00:19:39,640
+ have been many and they really haven't kicked off, right?
+
+265
+00:19:39,640 --> 00:19:42,640
+ The L2s don't have a lot of stable coins at all.
+
+266
+00:19:42,640 --> 00:19:46,080
+ And it's because at scale, money's not dumb, right?
+
+267
+00:19:46,080 --> 00:19:49,720
+ At scale, people care about principal protection.
+
+268
+00:19:49,720 --> 00:19:52,760
+ And so that's why they're on Ethereum, using the applications on Ethereum.
+
+269
+00:19:52,760 --> 00:19:56,120
+ And some of those applications might be, you know, less central, decentralized that we
+
+270
+00:19:56,120 --> 00:19:57,680
+ would want them to be.
+
+271
+00:19:57,680 --> 00:20:03,000
+ But at least as you said, people care about the base infrastructure being decentralized.
+
+272
+00:20:03,000 --> 00:20:04,000
+ Hmm.
+
+273
+00:20:04,000 --> 00:20:09,280
+ Well, I think we'll come back to this maybe a little bit later, but, um, let's talk about
+
+274
+00:20:09,280 --> 00:20:11,380
+ caps design.
+
+275
+00:20:11,380 --> 00:20:19,080
+ And so, you know, broadly speaking, there's different participants within the protocol.
+
+276
+00:20:19,080 --> 00:20:23,760
+ We have also sort of like different technical modules, different smart contract modules.
+
+277
+00:20:23,760 --> 00:20:30,200
+ And, um, and cap utilizes restaking to ensure its deposits.
+
+278
+00:20:30,200 --> 00:20:34,400
+ So give us a high level and maybe we can kind of drill down into the different parts.
+
+279
+00:20:34,400 --> 00:20:35,400
+ Yeah.
+
+280
+00:20:35,400 --> 00:20:41,760
+ So cap is a stable coin protocol to generate yield for users in a way that, um, we can
+
+281
+00:20:41,760 --> 00:20:47,440
+ one, ensure the peg at all times and two, we can protect, um, users from the activities
+
+282
+00:20:47,440 --> 00:20:50,480
+ that must be done to generate yield, right?
+
+283
+00:20:50,480 --> 00:20:54,200
+ Uh, and the way that we do that is by two products.
+
+284
+00:20:54,200 --> 00:20:57,120
+ One is CUSD, which is a digital dollar.
+
+285
+00:20:57,120 --> 00:21:01,520
+ And this digital dollar you can mint it with others, stable coins, like USDC or money market
+
+286
+00:21:01,520 --> 00:21:05,800
+ funds, like Benji and Biddle, um, what's great about that is one, you don't need liquidity,
+
+287
+00:21:05,800 --> 00:21:06,800
+ right?
+
+288
+00:21:06,800 --> 00:21:11,800
+ Cause at any point you can just redeem a hundred percent of the market cap, no slippage and,
+
+289
+00:21:11,800 --> 00:21:12,880
+ and then you're good.
+
+290
+00:21:12,880 --> 00:21:18,080
+ So you don't need to spend money on curve or, or any sort of, uh, AMMs, uh, which is quite
+
+291
+00:21:18,080 --> 00:21:19,080
+ nice for us.
+
+292
+00:21:19,080 --> 00:21:23,280
+ Um, and it also means for users, they can leave whenever they want, right?
+
+293
+00:21:23,280 --> 00:21:26,100
+ They don't need to be worried about, uh, about the peg.
+
+294
+00:21:26,100 --> 00:21:30,800
+ The other product that we build is, uh, you know, the staked version of it, which generates
+
+295
+00:21:30,800 --> 00:21:37,280
+ yield and this yield comes from two sources, primarily at the beginning from the base yield
+
+296
+00:21:37,280 --> 00:21:38,440
+ of each asset.
+
+297
+00:21:38,440 --> 00:21:43,280
+ So for example, all the money market funds earned the US Treasury's yield, uh, and then
+
+298
+00:21:43,280 --> 00:21:47,480
+ the stable coins, which are not allowed to share the yield because of Genius Act, um,
+
+299
+00:21:47,480 --> 00:21:53,720
+ we use some, um, different strategy for each of them, depending on their circumstance.
+
+300
+00:21:53,720 --> 00:21:58,400
+ For example, USDC, you would put it on Ave, um, because it's an over collateralized lending
+
+301
+00:21:58,400 --> 00:21:59,400
+ market.
+
+302
+00:21:59,400 --> 00:22:02,120
+ Uh, but that's, that's not the exciting part.
+
+303
+00:22:02,120 --> 00:22:04,600
+ The exciting part is the other kind of source of yield.
+
+304
+00:22:04,600 --> 00:22:11,120
+ Uh, and we've built this sort of allocation engine where third parties, uh, like regulated
+
+305
+00:22:11,120 --> 00:22:15,760
+ financial institutions or DeFi protocols can compete with each other to generate yield
+
+306
+00:22:15,760 --> 00:22:17,440
+ for our protocol.
+
+307
+00:22:17,440 --> 00:22:22,600
+ And the way they do that is that they provisioned loans from our reserve, um, and pay some sort
+
+308
+00:22:22,600 --> 00:22:27,240
+ of fee right in exchange for the loan, uh, and they go off and they all execute their
+
+309
+00:22:27,240 --> 00:22:28,240
+ own strategy.
+
+310
+00:22:28,240 --> 00:22:32,720
+ So there could be a thousand, 10,000 of these kind of yield generators competing at one
+
+311
+00:22:32,720 --> 00:22:37,840
+ time to generate yield on the stable coin, um, but we don't trust any of them.
+
+312
+00:22:37,840 --> 00:22:42,360
+ And so before they can come to our protocol and generate yield, they need to convince
+
+313
+00:22:42,360 --> 00:22:47,840
+ a restaker on symbiotic or eigenlayer to vouch for them with their cryptocurrencies.
+
+314
+00:22:47,840 --> 00:22:54,000
+ Um, and if the yield generator were to default and not pay back, we can slash whoever vouched
+
+315
+00:22:54,000 --> 00:22:55,000
+ for them.
+
+316
+00:22:55,000 --> 00:22:56,000
+ Yeah.
+
+317
+00:22:56,000 --> 00:22:57,000
+ I'll stop there.
+
+318
+00:22:57,000 --> 00:22:58,000
+ There's a lot you can go into.
+
+319
+00:22:58,000 --> 00:22:59,000
+ But that's the high level.
+
+320
+00:22:59,000 --> 00:23:00,000
+ Yeah.
+
+321
+00:23:00,000 --> 00:23:01,320
+ It's, that's, that's great thing.
+
+322
+00:23:01,320 --> 00:23:03,240
+ So, so there's two products.
+
+323
+00:23:03,240 --> 00:23:08,720
+ There's the CUSD, which is the non-year yield bearing stable coin and then you have SDC
+
+324
+00:23:08,720 --> 00:23:15,640
+ USD, uh, which, which generates yield, like why would someone hold CUSD over USDC?
+
+325
+00:23:15,640 --> 00:23:18,540
+ What's, what's fundamentally the difference?
+
+326
+00:23:18,540 --> 00:23:20,120
+ What's all about integrations, right?
+
+327
+00:23:20,120 --> 00:23:27,080
+ In, in a lot of integrations in DeFi, like perp, Texas or, um, you know, pools, et cetera,
+
+328
+00:23:27,080 --> 00:23:29,320
+ you can't use, uh, yield bearing assets.
+
+329
+00:23:29,320 --> 00:23:31,120
+ You need a pegged asset.
+
+330
+00:23:31,120 --> 00:23:37,360
+ And so, um, if you look at some of the larger, um, yield bearing stable coins today that have
+
+331
+00:23:37,360 --> 00:23:43,400
+ a staking, uh, module, um, they all have lower than 70% staking rates.
+
+332
+00:23:43,400 --> 00:23:45,360
+ And that's because of these integrations.
+
+333
+00:23:45,360 --> 00:23:46,360
+ Yeah.
+
+334
+00:23:46,360 --> 00:23:47,360
+ Okay.
+
+335
+00:23:47,360 --> 00:23:48,360
+ That makes sense.
+
+336
+00:23:48,360 --> 00:23:55,120
+ And so, like, so if we just kind of recap here, so the, the user deposits some, some
+
+337
+00:23:55,120 --> 00:23:56,120
+ collateral.
+
+338
+00:23:56,120 --> 00:23:58,000
+ And in this case, it's, it's a stable point.
+
+339
+00:23:58,000 --> 00:24:08,600
+ So USDC or USDT, um, that goes into the protocol, um, and then you have the operators that
+
+340
+00:24:08,600 --> 00:24:18,800
+ are hedge funds, um, primarily institutions that will use those, those coins to go and
+
+341
+00:24:18,800 --> 00:24:20,160
+ generate yield.
+
+342
+00:24:20,160 --> 00:24:23,760
+ So they're implementing their own strategy and some of those, some of those might be
+
+343
+00:24:23,760 --> 00:24:28,120
+ implementing like super high risk strategies, others may be implementing like lower risk
+
+344
+00:24:28,120 --> 00:24:30,960
+ strategies, but there's like a basket of strategies there.
+
+345
+00:24:30,960 --> 00:24:36,680
+ And then we have restakers that are acting essentially as the backstop as the insurance
+
+346
+00:24:36,680 --> 00:24:42,880
+ fund for, uh, against those USDCs, like against those deposits.
+
+347
+00:24:42,880 --> 00:24:45,520
+ Insurance fund is a very passive term.
+
+348
+00:24:45,520 --> 00:24:48,480
+ I would say there's sort of, uh, the decision makers.
+
+349
+00:24:48,480 --> 00:24:52,280
+ So instead of having a Dow, say, you know, we're going to put our money here, we're going
+
+350
+00:24:52,280 --> 00:24:57,720
+ to put our money there, restakers say, you know, Susquehana, you get to generate yield
+
+351
+00:24:57,720 --> 00:25:03,160
+ for cap on $10 million or amber group you get to, you get to borrow $20 million to generate
+
+352
+00:25:03,160 --> 00:25:04,320
+ yield.
+
+353
+00:25:04,320 --> 00:25:09,720
+ And so they decide who gets to make yield, but in order to do that, they need to vouch
+
+354
+00:25:09,720 --> 00:25:10,720
+ for them.
+
+355
+00:25:10,720 --> 00:25:12,160
+ And so it's a bilateral relationship.
+
+356
+00:25:12,160 --> 00:25:15,080
+ It's not like I as a restaker, I vouch for winter mute.
+
+357
+00:25:15,080 --> 00:25:18,200
+ And now with amber group defaults, uh, I'm, I'm getting slashed.
+
+358
+00:25:18,200 --> 00:25:21,320
+ I, I'm only exposed to whoever I vouch for.
+
+359
+00:25:21,320 --> 00:25:23,320
+ And why is that important?
+
+360
+00:25:23,320 --> 00:25:27,040
+ Because these, um, yield generators, what do they want to do?
+
+361
+00:25:27,040 --> 00:25:28,040
+ It's not their money.
+
+362
+00:25:28,040 --> 00:25:32,560
+ So they want to generate as much yield as possible so that their spread is very high.
+
+363
+00:25:32,560 --> 00:25:33,920
+ Restakers, what do they want?
+
+364
+00:25:33,920 --> 00:25:35,280
+ Well, they want yield, right?
+
+365
+00:25:35,280 --> 00:25:39,960
+ Because, um, Bitcoin and ETH don't make yield compared to the dollars, not even close.
+
+366
+00:25:39,960 --> 00:25:44,120
+ You know, the cryptocurrencies are not productive assets like the dollar.
+
+367
+00:25:44,120 --> 00:25:46,920
+ And so they come to restaking land to get some sort of yield.
+
+368
+00:25:46,920 --> 00:25:49,800
+ They don't want to get slashed above all else.
+
+369
+00:25:49,800 --> 00:25:55,200
+ And so they're never going to underwrite extremely risky strategies or extremely risky, um,
+
+370
+00:25:55,200 --> 00:25:56,360
+ third parties.
+
+371
+00:25:56,360 --> 00:25:58,400
+ And so that kind of balances out the system.
+
+372
+00:25:58,400 --> 00:26:02,800
+ So I don't know if you're familiar with this protocol.
+
+373
+00:26:02,800 --> 00:26:07,080
+ I mean, it's, it's still like in the early phases of develop developments.
+
+374
+00:26:07,080 --> 00:26:08,080
+ It's not released yet.
+
+375
+00:26:08,080 --> 00:26:13,680
+ They have like a website, but, um, mezzanine where they have like kind of risk tranching.
+
+376
+00:26:13,680 --> 00:26:15,640
+ Yeah, the tranching stuff.
+
+377
+00:26:15,640 --> 00:26:16,640
+ Yeah.
+
+378
+00:26:16,640 --> 00:26:19,680
+ I mean, there's, yeah, so it makes sense to have like risk tranching here.
+
+379
+00:26:19,680 --> 00:26:23,560
+ So where, you know, you might have like low risk right where you're getting kind of like
+
+380
+00:26:23,560 --> 00:26:28,680
+ the treasury yield and then maybe some higher risk and then like some very high risk.
+
+381
+00:26:28,680 --> 00:26:33,760
+ And then that, all those different sort of yield sources are, um, are being combined
+
+382
+00:26:33,760 --> 00:26:35,480
+ to provide the yield to the end user.
+
+383
+00:26:35,480 --> 00:26:42,880
+ But there is some amount of like kind of backstop where the higher tranches are protecting the
+
+384
+00:26:42,880 --> 00:26:43,880
+ lower tranches.
+
+385
+00:26:43,880 --> 00:26:44,880
+ Yeah.
+
+386
+00:26:44,880 --> 00:26:45,880
+ So here's the thing.
+
+387
+00:26:45,880 --> 00:26:49,760
+ Retail has the mind to be making these decisions.
+
+388
+00:26:49,760 --> 00:26:54,640
+ And so we abstracted away, um, you're right to say, you know, we have all these strategies,
+
+389
+00:26:54,640 --> 00:26:58,760
+ but the dollar holders don't get any exposure to the risk, right?
+
+390
+00:26:58,760 --> 00:27:03,080
+ If you're holding Stake CUSD, you are not exposed to the risk of the strategies.
+
+391
+00:27:03,080 --> 00:27:06,480
+ Who is exposed is the restakers, right?
+
+392
+00:27:06,480 --> 00:27:07,760
+ And so it doesn't really matter.
+
+393
+00:27:07,760 --> 00:27:08,760
+ You don't have to tranch it.
+
+394
+00:27:08,760 --> 00:27:09,880
+ Cause what would you tranch?
+
+395
+00:27:09,880 --> 00:27:14,360
+ There's no risk to tranch, um, the tranching is on the other side where restakers can
+
+396
+00:27:14,360 --> 00:27:17,120
+ choose like, Hey, I am super risk-averse.
+
+397
+00:27:17,120 --> 00:27:18,440
+ I'm either fine.
+
+398
+00:27:18,440 --> 00:27:22,540
+ So I'm only going to delegate to Bank of America, just to give you a random example.
+
+399
+00:27:22,540 --> 00:27:26,720
+ Or maybe I'm risk taker XYZ and I want to get as much yield as possible.
+
+400
+00:27:26,720 --> 00:27:30,040
+ Let me delegate to a crypto native market maker, right?
+
+401
+00:27:30,040 --> 00:27:34,200
+ And so you'll, you'll have these different tranching on the other side and it's important
+
+402
+00:27:34,200 --> 00:27:40,840
+ to keep it on the, you know, protocol or B to B side always tranching because, uh, there's
+
+403
+00:27:40,840 --> 00:27:45,840
+ a lot of complexities, right, when either five delegates to, uh, institution, they're
+
+404
+00:27:45,840 --> 00:27:47,200
+ not just trusting them, right?
+
+405
+00:27:47,200 --> 00:27:51,840
+ They're signing some legal paperwork on the side to arrange what will happen if they get
+
+406
+00:27:51,840 --> 00:27:54,000
+ sludge, et cetera, et cetera.
+
+407
+00:27:54,000 --> 00:27:58,200
+ Who is in a good position to sue Bank of America, right?
+
+408
+00:27:58,200 --> 00:28:01,880
+ It's not some, you know, uh, small farmer at all, right?
+
+409
+00:28:01,880 --> 00:28:05,320
+ It's, um, these big projects that have raised millions of dollars.
+
+410
+00:28:05,320 --> 00:28:07,120
+ They're in a good position to sue.
+
+411
+00:28:07,120 --> 00:28:12,320
+ And so we're kind of shifting a lot of the burden of these, um, decisions and management
+
+412
+00:28:12,320 --> 00:28:16,240
+ to the restakers, um, obviously not for nothing, right?
+
+413
+00:28:16,240 --> 00:28:19,840
+ They get more yield than Ethan, Bitcoin have ever seen.
+
+414
+00:28:19,840 --> 00:28:20,840
+ Okay.
+
+415
+00:28:20,840 --> 00:28:21,840
+ Right.
+
+416
+00:28:21,840 --> 00:28:27,600
+ So, so the restakers have legal agreements with the operators, the market makers, the
+
+417
+00:28:27,600 --> 00:28:30,440
+ crypto, the crypto, private equity funds, et cetera.
+
+418
+00:28:30,440 --> 00:28:38,760
+ Um, and those agreements lay out the types of strategies will have kind of like wrist
+
+419
+00:28:38,760 --> 00:28:42,120
+ management, uh, provisions, et cetera.
+
+420
+00:28:42,120 --> 00:28:49,360
+ And the restakers are on the hook for those operators doing their job right.
+
+421
+00:28:49,360 --> 00:28:50,360
+ Exactly.
+
+422
+00:28:50,360 --> 00:28:53,120
+ And the operators are on the hook to the restakers.
+
+423
+00:28:53,120 --> 00:28:57,680
+ So you could put it like this, the stable coin holders are protected by smart contracts.
+
+424
+00:28:57,680 --> 00:28:59,400
+ They don't need to trust anybody.
+
+425
+00:28:59,400 --> 00:29:01,960
+ The restakers are protected by the law.
+
+426
+00:29:01,960 --> 00:29:06,680
+ And so then, um, they should only delegate to good counterparties, right?
+
+427
+00:29:06,680 --> 00:29:10,000
+ Uh, so scrijana may lose money sometimes.
+
+428
+00:29:10,000 --> 00:29:14,640
+ Like everybody can lose money, but they are, are a good counterparty, right?
+
+429
+00:29:14,640 --> 00:29:17,040
+ If they owe you money, they'll pay you back, right?
+
+430
+00:29:17,040 --> 00:29:20,960
+ And so, um, that reduces the risk for the restakers.
+
+431
+00:29:20,960 --> 00:29:26,800
+ So what, what constitutes the slashing event then and how are like, what's the flow of
+
+432
+00:29:26,800 --> 00:29:31,940
+ capital for end users to be made whole if like one of the operators, you know, loses
+
+433
+00:29:31,940 --> 00:29:38,480
+ all the money, you know, like, yeah, so we are a completely on chain platform.
+
+434
+00:29:38,480 --> 00:29:40,040
+ Everything's smart contracts.
+
+435
+00:29:40,040 --> 00:29:45,020
+ And so we don't really know if the borrower lost the money or not, right?
+
+436
+00:29:45,020 --> 00:29:46,200
+ What do we know?
+
+437
+00:29:46,200 --> 00:29:50,680
+ We know how much money they borrowed and we know how much money they've been delegated.
+
+438
+00:29:50,680 --> 00:29:53,760
+ And so we track the collateral to debt ratio.
+
+439
+00:29:53,760 --> 00:29:58,680
+ So how much delegated value is compared to the amount of loans and if that ratio falls
+
+440
+00:29:58,680 --> 00:30:04,640
+ below a certain threshold, then that's when we liquidate sort of how over collateralized
+
+441
+00:30:04,640 --> 00:30:08,480
+ lending markets track loads, like Avi and more full.
+
+442
+00:30:08,480 --> 00:30:09,480
+ Right.
+
+443
+00:30:09,480 --> 00:30:10,480
+ Okay.
+
+444
+00:30:10,480 --> 00:30:22,400
+ So I guess one way to look at it would be that it's under collateralized lending where
+
+445
+00:30:22,400 --> 00:30:29,560
+ the trenching happens between the operator and the restaker.
+
+446
+00:30:29,560 --> 00:30:32,800
+ And it's kind of like abstracted away from the end user.
+
+447
+00:30:32,800 --> 00:30:33,800
+ Sort of.
+
+448
+00:30:33,800 --> 00:30:34,800
+ Yeah.
+
+449
+00:30:34,800 --> 00:30:39,560
+ I mean, it's like, it's a three set of marketplace, which allows for, you know, three different
+
+450
+00:30:39,560 --> 00:30:43,960
+ interpretations of the model, right, depending on where you're looking at it from.
+
+451
+00:30:43,960 --> 00:30:47,600
+ From the point of view of the stable conholder, it's a miracle, right?
+
+452
+00:30:47,600 --> 00:30:51,280
+ You're having an over collateralized lending market that's giving you three times the
+
+453
+00:30:51,280 --> 00:30:52,800
+ rate of lava, right?
+
+454
+00:30:52,800 --> 00:30:55,160
+ And you're like, what's what's going on, right?
+
+455
+00:30:55,160 --> 00:30:59,320
+ And it's because you have this coincidence of once and needs of these three different
+
+456
+00:30:59,320 --> 00:31:00,840
+ parties coming together.
+
+457
+00:31:00,840 --> 00:31:01,840
+ Yeah.
+
+458
+00:31:01,840 --> 00:31:05,600
+ I love a good cow coincidence of once.
+
+459
+00:31:05,600 --> 00:31:06,600
+ Yeah.
+
+460
+00:31:06,600 --> 00:31:07,600
+ Cool.
+
+461
+00:31:07,600 --> 00:31:08,600
+ Okay.
+
+462
+00:31:08,600 --> 00:31:13,480
+ So, and so who are the operators, like practically speaking, who are you working with and like,
+
+463
+00:31:13,480 --> 00:31:15,520
+ what kind of strategies are they implementing?
+
+464
+00:31:15,520 --> 00:31:19,280
+ I mean, if you, I guess like you don't know unless you're talking to them, which I suspect
+
+465
+00:31:19,280 --> 00:31:20,280
+ you are.
+
+466
+00:31:20,280 --> 00:31:21,280
+ Yeah.
+
+467
+00:31:21,280 --> 00:31:24,800
+ We know, because they tell us things, which is nice.
+
+468
+00:31:24,800 --> 00:31:27,720
+ So we launched a month ago.
+
+469
+00:31:27,720 --> 00:31:32,520
+ And for the first two weeks, we focus purely on setting up the reserve, right, bootstrapping
+
+470
+00:31:32,520 --> 00:31:34,000
+ it with USTC.
+
+471
+00:31:34,000 --> 00:31:40,720
+ We got just over a hundred million in organic user deposits from in USTC.
+
+472
+00:31:40,720 --> 00:31:45,360
+ And recently we started onboarding the restakers and the operators.
+
+473
+00:31:45,360 --> 00:31:50,120
+ Now in terms of the operators, there's ample demand for liquidity.
+
+474
+00:31:50,120 --> 00:31:53,040
+ Right now there's, there's a lot of market volatility.
+
+475
+00:31:53,040 --> 00:31:55,280
+ There are a lot of opportunities to make yield.
+
+476
+00:31:55,280 --> 00:32:00,160
+ And so demand for loans is pretty high.
+
+477
+00:32:00,160 --> 00:32:07,920
+ We have operators like Amber Group or like GSR who are blue chip market makers in crypto.
+
+478
+00:32:07,920 --> 00:32:13,680
+ We also have Susquehana, IMC and flow traders, which are their counter parties in the track
+
+479
+00:32:13,680 --> 00:32:15,680
+ five world.
+
+480
+00:32:15,680 --> 00:32:18,400
+ You know, these are huge enterprises over 200 billion in AUM.
+
+481
+00:32:18,400 --> 00:32:22,880
+ So it's not just some random, you know, companies that we've put together.
+
+482
+00:32:22,880 --> 00:32:27,760
+ And then finally, we also have some, um, define native names, right?
+
+483
+00:32:27,760 --> 00:32:31,600
+ Like gauntlet soon to have RE7 as well.
+
+484
+00:32:31,600 --> 00:32:34,040
+ So there's definitely a mix.
+
+485
+00:32:34,040 --> 00:32:36,000
+ And that's the, that's the goal, right?
+
+486
+00:32:36,000 --> 00:32:40,080
+ Because right now you have all these stable coins that are just making yields from treasuries
+
+487
+00:32:40,080 --> 00:32:42,120
+ or maybe basis trade.
+
+488
+00:32:42,120 --> 00:32:45,720
+ I can come to you and say, well, we're going to make yields from anything that the dollar
+
+489
+00:32:45,720 --> 00:32:51,280
+ can touch because we can have a theoretically unlimited amount of operators to the extent
+
+490
+00:32:51,280 --> 00:32:56,720
+ that restakers are willing to on the right, a theoretically unlimited amount of operators.
+
+491
+00:32:56,720 --> 00:32:57,920
+ Okay.
+
+492
+00:32:57,920 --> 00:33:07,760
+ So this is kind of like where that kind of like insured or covered loan, um, component
+
+493
+00:33:07,760 --> 00:33:10,640
+ comes in where like the restakers are covering the loan.
+
+494
+00:33:10,640 --> 00:33:13,440
+ We look at it as guarantees.
+
+495
+00:33:13,440 --> 00:33:14,440
+ Right.
+
+496
+00:33:14,440 --> 00:33:15,440
+ Right.
+
+497
+00:33:15,440 --> 00:33:16,440
+ Okay.
+
+498
+00:33:16,440 --> 00:33:17,440
+ Um, has there been a slashing event?
+
+499
+00:33:17,440 --> 00:33:20,360
+ I mean, as you like, you launched a month ago, but, um, that's what I suspect now.
+
+500
+00:33:20,360 --> 00:33:21,360
+ No.
+
+501
+00:33:21,360 --> 00:33:24,600
+ And you know, we're, we're going through great pains to make sure that there's no slashing
+
+502
+00:33:24,600 --> 00:33:28,640
+ events within at least the first year, um, because that would, that would be bad.
+
+503
+00:33:28,640 --> 00:33:29,640
+ Right.
+
+504
+00:33:29,640 --> 00:33:32,680
+ You know, people get spooked for all sorts of reasons in crypto.
+
+505
+00:33:32,680 --> 00:33:37,280
+ Um, and so at the beginning, we are whitelisting who gets to borrow.
+
+506
+00:33:37,280 --> 00:33:43,180
+ So even though the final say is actually at the restaker level, cap as a team is, can
+
+507
+00:33:43,180 --> 00:33:47,600
+ can block certain people from borrowing, even if they have delegations.
+
+508
+00:33:47,600 --> 00:33:53,560
+ And this is because the last thing we want is for somebody to start up a restaking protocol
+
+509
+00:33:53,560 --> 00:33:57,880
+ and delegate to a meme coin trader and lose all their money and get slashed because then
+
+510
+00:33:57,880 --> 00:34:01,320
+ all the other restakers are going to look really bad and their users are going to start
+
+511
+00:34:01,320 --> 00:34:02,320
+ getting scared.
+
+512
+00:34:02,320 --> 00:34:06,320
+ Like, or we next, even though, um, you know, a meme coin trader has nothing to do with
+
+513
+00:34:06,320 --> 00:34:07,320
+ us.
+
+514
+00:34:07,320 --> 00:34:09,600
+ It's completely different risk profile.
+
+515
+00:34:09,600 --> 00:34:15,160
+ So which restaking protocols are you integrated with?
+
+516
+00:34:15,160 --> 00:34:20,920
+ Right now every single major restaking protocol is either delegating or is in the process
+
+517
+00:34:20,920 --> 00:34:23,920
+ of delegating to cap.
+
+518
+00:34:23,920 --> 00:34:26,040
+ Some of them are faster than others.
+
+519
+00:34:26,040 --> 00:34:31,780
+ We're very happy with, you know, Renzo as our first, uh, delegator on symbiotic and
+
+520
+00:34:31,780 --> 00:34:36,240
+ concrete, the next one, but then sticks to an, a hyper rhythm, I've already delegated
+
+521
+00:34:36,240 --> 00:34:37,580
+ this week as well.
+
+522
+00:34:37,580 --> 00:34:41,600
+ So very happy with them, uh, and obviously excited to work with all the other ones that
+
+523
+00:34:41,600 --> 00:34:42,600
+ are on the way.
+
+524
+00:34:42,600 --> 00:34:43,600
+ Yeah.
+
+525
+00:34:43,600 --> 00:34:45,720
+ I know you guys are working with symbiotic.
+
+526
+00:34:45,720 --> 00:34:51,520
+ We're like, what's, what's unique about symbiotic that kind of like, um, makes this all work
+
+527
+00:34:51,520 --> 00:34:56,840
+ as opposed to say, like other protocols, like, I can layer have to be political here.
+
+528
+00:34:56,840 --> 00:35:00,920
+ Um, you know, they're both great projects with great teams.
+
+529
+00:35:00,920 --> 00:35:03,280
+ And we are integrating both eventually right now.
+
+530
+00:35:03,280 --> 00:35:07,480
+ We're in audit for, for I can layer, but we started with symbiotic, we actually finished
+
+531
+00:35:07,480 --> 00:35:13,840
+ the coding fab and we've audited five times with like trail of bits, spear bit, um, recon
+
+532
+00:35:13,840 --> 00:35:17,600
+ share like a bunch of, uh, top tier auditors.
+
+533
+00:35:17,600 --> 00:35:20,920
+ Um, what do I like about symbiotic?
+
+534
+00:35:20,920 --> 00:35:21,920
+ Well, it works.
+
+535
+00:35:21,920 --> 00:35:22,920
+ Right.
+
+536
+00:35:22,920 --> 00:35:29,320
+ All the, uh, all the kind of, uh, um, features that we needed are, we're live when we needed
+
+537
+00:35:29,320 --> 00:35:30,320
+ them.
+
+538
+00:35:30,320 --> 00:35:35,680
+ And so we were able to launch their, um, the team is very, um, you know, high quality.
+
+539
+00:35:35,680 --> 00:35:36,880
+ They know how to ship.
+
+540
+00:35:36,880 --> 00:35:40,120
+ And so everything kind of worked the way we wanted it to work.
+
+541
+00:35:40,120 --> 00:35:44,440
+ Uh, and then finally obviously the modularity is actually pretty interesting, uh, because
+
+542
+00:35:44,440 --> 00:35:48,000
+ obviously cap is not the original intended use of restaking, right?
+
+543
+00:35:48,000 --> 00:35:53,480
+ It's not the original intended use case of, of, um, shared security as a whole.
+
+544
+00:35:53,480 --> 00:35:59,300
+ Um, what could argue is one of the best, in my opinion, uh, but we can go into, uh, what
+
+545
+00:35:59,300 --> 00:36:01,040
+ I think about shared security later.
+
+546
+00:36:01,040 --> 00:36:04,240
+ Um, but yeah, that's, that's why I like symbiotic.
+
+547
+00:36:04,240 --> 00:36:05,240
+ Yeah.
+
+548
+00:36:05,240 --> 00:36:09,440
+ What, what do you think about shared security, like what are the really valid use cases for
+
+549
+00:36:09,440 --> 00:36:15,200
+ shared security other than like this guarantee, this, this loan guarantee, which I agree.
+
+550
+00:36:15,200 --> 00:36:19,840
+ I think it's like a really cool implementation and like, uh, use case for restaking.
+
+551
+00:36:19,840 --> 00:36:20,840
+ Yeah.
+
+552
+00:36:20,840 --> 00:36:26,040
+ I mean, I think it's, it's interesting that, you know, when I read eigen layers white paper,
+
+553
+00:36:26,040 --> 00:36:32,760
+ I saw universal marketplace of trust, which I interpreted as, you know, you have people
+
+554
+00:36:32,760 --> 00:36:35,600
+ with money, which is ETH, right?
+
+555
+00:36:35,600 --> 00:36:40,000
+ And they have nothing to do with it because ETH doesn't have as many use cases as the
+
+556
+00:36:40,000 --> 00:36:41,000
+ dollar.
+
+557
+00:36:41,000 --> 00:36:43,440
+ And then you have people with skills, right?
+
+558
+00:36:43,440 --> 00:36:48,560
+ And there's some sort of trust economy where the people with money can guarantee the actions
+
+559
+00:36:48,560 --> 00:36:50,680
+ of the people with skills.
+
+560
+00:36:50,680 --> 00:36:57,240
+ And then in practice, everybody was starting to build these POS, uh, like networks where,
+
+561
+00:36:57,240 --> 00:37:00,920
+ um, they were just validating off chain data.
+
+562
+00:37:00,920 --> 00:37:07,720
+ And I thought to myself, why are we limiting, um, this technology to just validating off
+
+563
+00:37:07,720 --> 00:37:09,080
+ chain data?
+
+564
+00:37:09,080 --> 00:37:15,120
+ If you think about it, validating data is not a very high margin business, right?
+
+565
+00:37:15,120 --> 00:37:23,080
+ So can you really pay, um, the high cost of shared security just to validate data?
+
+566
+00:37:23,080 --> 00:37:24,880
+ And the answer is no, right?
+
+567
+00:37:24,880 --> 00:37:30,880
+ Right now these, um, validation systems are generating zero dollars in fee, not a cent,
+
+568
+00:37:30,880 --> 00:37:31,880
+ not 10 cents.
+
+569
+00:37:31,880 --> 00:37:33,600
+ They're generating zero.
+
+570
+00:37:33,600 --> 00:37:37,440
+ And that's because, you know, you have to constantly validate a state, but you don't
+
+571
+00:37:37,440 --> 00:37:39,280
+ constantly generate fees.
+
+572
+00:37:39,280 --> 00:37:44,720
+ And the only way to make up for that, um, in balance in the accounting is to issue incentives.
+
+573
+00:37:44,720 --> 00:37:47,200
+ And that's why Ethereum has inflation.
+
+574
+00:37:47,200 --> 00:37:50,840
+ Sometimes that's why, you know, Bitcoin gives the token, right?
+
+575
+00:37:50,840 --> 00:37:55,160
+ At the whole point of Eigen layer and symbiotic is that you don't need to have another token
+
+576
+00:37:55,160 --> 00:37:58,800
+ and you just reuse the value of these tokens to have real value.
+
+577
+00:37:58,800 --> 00:38:03,480
+ But if you, if you don't generate yield, then how do you pay?
+
+578
+00:38:03,480 --> 00:38:04,480
+ Right?
+
+579
+00:38:04,480 --> 00:38:10,800
+ Um, anyways, so I was not very happy with most folks focusing on validating data.
+
+580
+00:38:10,800 --> 00:38:15,760
+ And I thought that we should really expand the use case of these guarantees to any sort
+
+581
+00:38:15,760 --> 00:38:16,760
+ of activity.
+
+582
+00:38:16,760 --> 00:38:21,920
+ It's just so happened that I'm using it to allocate funds of the stable coins collateral
+
+583
+00:38:21,920 --> 00:38:25,200
+ to generate yield, but it really can be anything.
+
+584
+00:38:25,200 --> 00:38:32,140
+ You know, earlier where we're talking about kind of like decentralization and, um, whether
+
+585
+00:38:32,140 --> 00:38:37,960
+ or not, like, you know, it continues to be relevant, do you think that this particular
+
+586
+00:38:37,960 --> 00:38:46,520
+ use case for restaking that is using a decentralized validator set and the, um, the assets that
+
+587
+00:38:46,520 --> 00:38:54,400
+ gain value due to that decentralization to secure or act as kind of like on chain insurance,
+
+588
+00:38:54,400 --> 00:39:00,040
+ do you think that that's a use case that can grow and kind of scale and become, you know,
+
+589
+00:39:00,040 --> 00:39:03,320
+ the, the reasonable debts for, for restaking?
+
+590
+00:39:03,320 --> 00:39:08,120
+ Cause like, I, I agree this whole like data validation, like doesn't seem like a really
+
+591
+00:39:08,120 --> 00:39:09,520
+ good business long term.
+
+592
+00:39:09,520 --> 00:39:10,520
+ Yeah.
+
+593
+00:39:10,520 --> 00:39:16,640
+ I, I think guarantees in general, um, are definitely the way that restaking will survive
+
+594
+00:39:16,640 --> 00:39:17,960
+ and will thrive.
+
+595
+00:39:17,960 --> 00:39:25,120
+ Um, if you look at a lot of, um, you know, asset managers, both, both bracket banks,
+
+596
+00:39:25,120 --> 00:39:29,600
+ um, one thing that they really like about crypto is obviously the composability.
+
+597
+00:39:29,600 --> 00:39:34,320
+ The other part is smart contracts, right, because a big problem in tradFi is having
+
+598
+00:39:34,320 --> 00:39:38,360
+ to trust other people trust is the biggest issue with finance.
+
+599
+00:39:38,360 --> 00:39:43,080
+ And so smart contracts can alleviate that and organization systems like symbiotic can
+
+600
+00:39:43,080 --> 00:39:44,480
+ alleviate that.
+
+601
+00:39:44,480 --> 00:39:46,520
+ And so I think there's ample PMF for it.
+
+602
+00:39:46,520 --> 00:39:53,040
+ Uh, and that's one, like the demand side on the supply side in terms of like ETH and,
+
+603
+00:39:53,040 --> 00:39:59,000
+ and Bitcoin, these assets have a lot of value and I don't think we're paying taxes in Bitcoin
+
+604
+00:39:59,000 --> 00:40:00,000
+ anytime soon.
+
+605
+00:40:00,000 --> 00:40:04,280
+ And so there's not going to be a lot of use cases for Bitcoin compared to the dollar.
+
+606
+00:40:04,280 --> 00:40:10,200
+ So this use case of restaking or using your assets to delegate to other people, I, I think
+
+607
+00:40:10,200 --> 00:40:14,760
+ it will have a lot of PMF for a long time.
+
+608
+00:40:14,760 --> 00:40:21,440
+ So we touched on this a little bit, but you mentioned the genius act, um, and, you know,
+
+609
+00:40:21,440 --> 00:40:26,040
+ that some stablecoin projects were not like genius, I compliant and others probably won't
+
+610
+00:40:26,040 --> 00:40:27,040
+ be.
+
+611
+00:40:27,040 --> 00:40:29,860
+ Um, what do you think will be the dividing line there?
+
+612
+00:40:29,860 --> 00:40:35,720
+ And, you know, for those projects that are genius, I compliant, um, is it mostly then just
+
+613
+00:40:35,720 --> 00:40:41,440
+ kind of like having access to the US traditional financial system and maybe that's the dividing
+
+614
+00:40:41,440 --> 00:40:45,640
+ line between what we consider to be kind of like the degen projects and those that are
+
+615
+00:40:45,640 --> 00:40:46,640
+ not degen.
+
+616
+00:40:46,640 --> 00:40:51,200
+ Um, yeah, what's your, what's your kind of like long term take on that?
+
+617
+00:40:51,200 --> 00:40:52,200
+ Yeah.
+
+618
+00:40:52,200 --> 00:40:56,760
+ I mean, I think we definitely live in a multipolar world outside of crypto as well.
+
+619
+00:40:56,760 --> 00:41:00,400
+ So there's, is not the case that, you know, the US says this is what we need to do and
+
+620
+00:41:00,400 --> 00:41:01,360
+ everybody does it.
+
+621
+00:41:01,360 --> 00:41:06,400
+ Um, there will be folks that are not compliant and they're just maybe, you know, putting
+
+622
+00:41:06,400 --> 00:41:11,440
+ their foundations in the payments and living in another country and, and kind of like just
+
+623
+00:41:11,440 --> 00:41:16,920
+ not paying attention to American laws at all, you know, changing their UIs to block Americans.
+
+624
+00:41:16,920 --> 00:41:19,520
+ So they can say, you know, we don't have to follow the laws.
+
+625
+00:41:19,520 --> 00:41:25,760
+ Um, cap is our first round was with Susquehanna and our last round was Franklin Templeton to
+
+626
+00:41:25,760 --> 00:41:27,620
+ great American institutions.
+
+627
+00:41:27,620 --> 00:41:30,160
+ There's no hiding from US regulations, right?
+
+628
+00:41:30,160 --> 00:41:31,960
+ We're also American.
+
+629
+00:41:31,960 --> 00:41:35,920
+ And so the way we're going is the way of compliance, right?
+
+630
+00:41:35,920 --> 00:41:40,920
+ And if regulators have a problem with us, we're, we're prepared to, um, to change things,
+
+631
+00:41:40,920 --> 00:41:41,920
+ right?
+
+632
+00:41:41,920 --> 00:41:47,240
+ And I think if you want to get big, if you want to be a large financial institution in
+
+633
+00:41:47,240 --> 00:41:54,120
+ the future from the landscape of crypto, um, complying with American regulations is key
+
+634
+00:41:54,120 --> 00:41:56,920
+ because that's where all of the world's money lives.
+
+635
+00:41:56,920 --> 00:41:57,920
+ Yeah.
+
+636
+00:41:57,920 --> 00:41:58,920
+ I agree.
+
+637
+00:41:58,920 --> 00:42:05,480
+ I think like this change, this change in the administration, um, really has opened up
+
+638
+00:42:05,480 --> 00:42:09,920
+ the gates for a lot of capital to come into the space.
+
+639
+00:42:09,920 --> 00:42:14,320
+ And I think like a lot of people see it as like, Oh, like this legitimizes crypto in the
+
+640
+00:42:14,320 --> 00:42:15,880
+ US, et cetera.
+
+641
+00:42:15,880 --> 00:42:20,640
+ But the offshoot of that is that there's just like potentially hundreds of billions of dollars
+
+642
+00:42:20,640 --> 00:42:26,960
+ that can flow into the ecosystem and, um, and that's not going to happen in probably
+
+643
+00:42:26,960 --> 00:42:31,760
+ not in places like Europe, where the political discourse is very different.
+
+644
+00:42:31,760 --> 00:42:38,240
+ Um, although I think there has been some, there has been some departure a little bit,
+
+645
+00:42:38,240 --> 00:42:42,980
+ like at the E level from the CBDCs now that they've seen kind of like what the genius
+
+646
+00:42:42,980 --> 00:42:47,960
+ act includes and what it can mean for US companies.
+
+647
+00:42:47,960 --> 00:42:51,820
+ There is a little bit, at least I've, I've, I've kind of seen on Twitter as of some back
+
+648
+00:42:51,820 --> 00:42:57,160
+ tracking, uh, to, to something that looks more like the US system.
+
+649
+00:42:57,160 --> 00:42:58,160
+ Um, yeah.
+
+650
+00:42:58,160 --> 00:43:02,420
+ What, what are your thoughts on the kind of like, yeah, you mentioned multi polarity.
+
+651
+00:43:02,420 --> 00:43:06,080
+ Um, where do you think things go from here?
+
+652
+00:43:06,080 --> 00:43:07,960
+ If we look at like, you know, the big polls, right?
+
+653
+00:43:07,960 --> 00:43:11,800
+ So like US, Europe, BRICS and China.
+
+654
+00:43:11,800 --> 00:43:17,920
+ Well, I'm not worried about Europe too much from a capital markets perspective.
+
+655
+00:43:17,920 --> 00:43:24,080
+ Um, most of these large institutions that are involved in crypto within Europe are, uh, invested
+
+656
+00:43:24,080 --> 00:43:25,080
+ in us.
+
+657
+00:43:25,080 --> 00:43:29,280
+ So I'm see flow traders, edge capital, flow desk.
+
+658
+00:43:29,280 --> 00:43:34,080
+ They're all, uh, not only investors in cap, but they're also operators, meaning they are
+
+659
+00:43:34,080 --> 00:43:37,640
+ prepared to borrow and generate yield for a stablecoin protocol.
+
+660
+00:43:37,640 --> 00:43:40,520
+ Uh, and so that's, that's all you need to see, right?
+
+661
+00:43:40,520 --> 00:43:44,160
+ The, the people that need to be involved are involved and we'll have to see what regulators
+
+662
+00:43:44,160 --> 00:43:46,080
+ do about that.
+
+663
+00:43:46,080 --> 00:43:50,280
+ Um, obviously there's nothing to say about South America, right?
+
+664
+00:43:50,280 --> 00:43:51,680
+ Because they're having fun.
+
+665
+00:43:51,680 --> 00:43:52,680
+ They use crypto.
+
+666
+00:43:52,680 --> 00:43:56,680
+ They don't care about, you know, the tokens, they, they've been using stablecoins for a
+
+667
+00:43:56,680 --> 00:44:00,720
+ while and they're continuing to use stablecoins in the future, uh, because they're a wonderful
+
+668
+00:44:00,720 --> 00:44:02,120
+ use case down there.
+
+669
+00:44:02,120 --> 00:44:08,760
+ Um, our, our job is going to be to try to tap into as many of these regions as possible.
+
+670
+00:44:08,760 --> 00:44:13,760
+ And the way that we're doing that is by accepting collateral assets that are integrated in each
+
+671
+00:44:13,760 --> 00:44:14,760
+ area.
+
+672
+00:44:14,760 --> 00:44:18,680
+ So, you know, America will have the stablecoins that are popular in America.
+
+673
+00:44:18,680 --> 00:44:22,480
+ Uh, Europe will have, you know, the money market funds and the stablecoins are, uh, are
+
+674
+00:44:22,480 --> 00:44:23,760
+ popular there.
+
+675
+00:44:23,760 --> 00:44:26,840
+ Our job for CSV side, all of that is collateral.
+
+676
+00:44:26,840 --> 00:44:32,360
+ So if you want to enter our yield system from Singapore, you can do that maybe through
+
+677
+00:44:32,360 --> 00:44:38,560
+ UOB or if you want to enter our system from Germany, maybe you can do it via Deutsche
+
+678
+00:44:38,560 --> 00:44:40,580
+ Bank's, you know, money market fund.
+
+679
+00:44:40,580 --> 00:44:44,600
+ And so no matter where you are, capital will be able to connect, uh, via these kinds of
+
+680
+00:44:44,600 --> 00:44:47,360
+ integrations with the money market funds and with the stablecoins.
+
+681
+00:44:47,360 --> 00:44:48,360
+ Yeah.
+
+682
+00:44:48,360 --> 00:44:57,040
+ I think my, my kind of high level view on the Europe, US situation, so that the US very
+
+683
+00:44:57,040 --> 00:45:02,200
+ early, I mean, even like, I think US institutions, maybe, maybe the government, uh, like the
+
+684
+00:45:02,200 --> 00:45:06,360
+ previous administration didn't see it this way, but at least like institutions saw crypto
+
+685
+00:45:06,360 --> 00:45:16,360
+ and stablecoins as a, um, as like, a technology that could, uh, improve, uh, composability,
+
+686
+00:45:16,360 --> 00:45:23,720
+ improve, um, reliability and, and, um, and security of the system as like something that
+
+687
+00:45:23,720 --> 00:45:29,160
+ needed to be adopted by the industry with the administration kind of giving that a green
+
+688
+00:45:29,160 --> 00:45:30,160
+ light.
+
+689
+00:45:30,160 --> 00:45:34,960
+ And if it feels like it's, you know, full steam ahead, I think European banks and European
+
+690
+00:45:34,960 --> 00:45:40,320
+ financial institutions, at least like the most more traditional ones, um, are more risk
+
+691
+00:45:40,320 --> 00:45:41,880
+ averse.
+
+692
+00:45:41,880 --> 00:45:50,100
+ And I think there's, um, there's like regulators and policymakers are kind of, um, sitting
+
+693
+00:45:50,100 --> 00:45:56,280
+ in this really uncomfortable position where pushing stablecoins or the advancements of
+
+694
+00:45:56,280 --> 00:46:00,680
+ stablecoins in Europe kind of undermines the power of traditional banks.
+
+695
+00:46:00,680 --> 00:46:09,600
+ Um, and probably it will take a really long time for stablecoins to be kind of fully adopted
+
+696
+00:46:09,600 --> 00:46:14,360
+ in Europe in the same way that it, you know, Europe was kind of behind the US in terms
+
+697
+00:46:14,360 --> 00:46:16,760
+ of its adoption of e-commerce.
+
+698
+00:46:16,760 --> 00:46:20,840
+ Any technology in Europe just takes a long time because institutions have so much political
+
+699
+00:46:20,840 --> 00:46:25,320
+ power and at the same time, I mean, not that they don't have political power in the US,
+
+700
+00:46:25,320 --> 00:46:26,840
+ but they're very risk averse.
+
+701
+00:46:26,840 --> 00:46:28,080
+ They're very adverse to change.
+
+702
+00:46:28,080 --> 00:46:31,120
+ They're very comfortable in their position, they're not pro-innovation.
+
+703
+00:46:31,120 --> 00:46:36,040
+ I mean, all traditional industries are true, but I think, I think in Europe, there's an
+
+704
+00:46:36,040 --> 00:46:41,720
+ even stronger sense of, uh, wanting to sort of like sit on your laurels and, uh, sit on
+
+705
+00:46:41,720 --> 00:46:50,600
+ your established, uh, uh, rule, like position as an incumbent, which, um, kind of informs
+
+706
+00:46:50,600 --> 00:46:51,600
+ policy.
+
+707
+00:46:51,600 --> 00:46:52,600
+ Yeah.
+
+708
+00:46:52,600 --> 00:46:53,760
+ I don't want to say too much about politics.
+
+709
+00:46:53,760 --> 00:46:59,760
+ I, I might, our marketing, uh, person's going to be looking at, at this interview and, you
+
+710
+00:46:59,760 --> 00:47:02,400
+ know, pulling their hair out.
+
+711
+00:47:02,400 --> 00:47:08,400
+ So I, I wanted to maybe like, let's, let's just kind of do a thought experiment here
+
+712
+00:47:08,400 --> 00:47:14,040
+ and, you know, let's kind of overlap stablecoins on the traditional finance system.
+
+713
+00:47:14,040 --> 00:47:19,880
+ Um, so, you know, if, if we look at, if we look at, you know, kind of trad fire, right?
+
+714
+00:47:19,880 --> 00:47:24,840
+ Like, let's, let's take a country like France, um, you know, the central bank, or at least
+
+715
+00:47:24,840 --> 00:47:30,000
+ the European Central Bank, like issue zeros, flows down to the French Central Bank, the,
+
+716
+00:47:30,000 --> 00:47:35,320
+ the French Central Bank, um, then lends those year, those euros out to, uh, lens out those
+
+717
+00:47:35,320 --> 00:47:42,320
+ years out to, to, to banks, right, regulated banks and, um, and then those banks then like
+
+718
+00:47:42,320 --> 00:47:44,440
+ issue their own kind of stablecoin, right?
+
+719
+00:47:44,440 --> 00:47:50,160
+ Their own, uh, version of the euro, uh, to, to depositors, right?
+
+720
+00:47:50,160 --> 00:47:54,120
+ To like their, their, um, uh, to their customers.
+
+721
+00:47:54,120 --> 00:47:58,960
+ And you know, we have like, you don't, you don't see it as a, as a user of the system,
+
+722
+00:47:58,960 --> 00:48:09,440
+ but in reality you have like a, you know, for Americans, these bank names are not going
+
+723
+00:48:09,440 --> 00:48:10,440
+ to mean anything.
+
+724
+00:48:10,440 --> 00:48:15,440
+ You have the banks, right, like that are issuing their own version of the euro, and that's
+
+725
+00:48:15,440 --> 00:48:20,880
+ kind of abstracted away, um, but it works because you have this really good interoperability
+
+726
+00:48:20,880 --> 00:48:26,120
+ between all of these systems because we have like kind of nationwide payment systems, and
+
+727
+00:48:26,120 --> 00:48:30,240
+ then, and there's the backstop and it's underwritten by the central bank, which itself is underwritten
+
+728
+00:48:30,240 --> 00:48:33,840
+ by like trust and institutions and their ability to lock people up, right?
+
+729
+00:48:33,840 --> 00:48:41,200
+ Um, in crypto, it's a little bit more complicated because, um, we don't have this kind of like
+
+730
+00:48:41,200 --> 00:48:48,520
+ institutional backstop and the interoperability is, is also there's, there's sort of complexity
+
+731
+00:48:48,520 --> 00:48:54,760
+ in the interoperability aspect as well, where like, you know, your CUSD is not, um, as fluently
+
+732
+00:48:54,760 --> 00:48:59,520
+ interoperable with any other stablecoin because the risks are kind of like different.
+
+733
+00:48:59,520 --> 00:49:06,960
+ Do you, do you kind of like see this parallel as kind of being relevant and where, how do
+
+734
+00:49:06,960 --> 00:49:11,760
+ we get to a point where anybody can just be using any stablecoin and they're, they're
+
+735
+00:49:11,760 --> 00:49:18,600
+ not kind of encumbered by this, um, uh, this problem that like the different risk profiles
+
+736
+00:49:18,600 --> 00:49:21,880
+ of the protocol introduces where these different coins are not interoperable.
+
+737
+00:49:21,880 --> 00:49:22,880
+ Yeah.
+
+738
+00:49:22,880 --> 00:49:28,040
+ I think it's a matter of, um, like the design of the mechanism, right?
+
+739
+00:49:28,040 --> 00:49:34,760
+ Cap works with every single on ramper off, ramper, every single payment provider, you
+
+740
+00:49:34,760 --> 00:49:36,720
+ know, every single bridge.
+
+741
+00:49:36,720 --> 00:49:37,720
+ Why?
+
+742
+00:49:37,720 --> 00:49:41,720
+ Because we're instantly redeemable for USDC, right?
+
+743
+00:49:41,720 --> 00:49:46,200
+ And you can, within our reserve, you can sub within all the, the tokens, right, between
+
+744
+00:49:46,200 --> 00:49:48,920
+ the money market funds, between the different stablecoins.
+
+745
+00:49:48,920 --> 00:49:54,160
+ So, you know, you tell me there's an issue of interoperability, certainly not a cap,
+
+746
+00:49:54,160 --> 00:49:55,160
+ right?
+
+747
+00:49:55,160 --> 00:49:57,440
+ Because that's how we've designed the system.
+
+748
+00:49:57,440 --> 00:50:02,020
+ And you'll see that happen, uh, with larger companies, like Coinbase, for example, you
+
+749
+00:50:02,020 --> 00:50:07,300
+ know, they take PYUSD deposits, um, as USD, just like they take USDC.
+
+750
+00:50:07,300 --> 00:50:12,480
+ And so it's just a matter of who trusts who cap trust, Franklin Templeton, and also they
+
+751
+00:50:12,480 --> 00:50:13,480
+ trust BlackRock.
+
+752
+00:50:13,480 --> 00:50:18,440
+ And so now we can act as like a bridge between them, uh, Coinbase trust circle and they trust
+
+753
+00:50:18,440 --> 00:50:19,440
+ PayPal.
+
+754
+00:50:19,440 --> 00:50:23,160
+ So now they can act as, uh, they can act as a bridge between them.
+
+755
+00:50:23,160 --> 00:50:28,120
+ And so as, uh, as long as you kind of grow this pie of trust, you can start seeing this,
+
+756
+00:50:28,120 --> 00:50:29,120
+ these connections.
+
+757
+00:50:29,120 --> 00:50:33,640
+ And it's very similar to the banking system where overseas banks can connect to each
+
+758
+00:50:33,640 --> 00:50:39,760
+ other via, you know, this wire system that we have, um, in, in TratFi with the added benefit
+
+759
+00:50:39,760 --> 00:50:47,440
+ of, uh, of how elegant crypto is right for, uh, organizing token transfers, but it's not
+
+760
+00:50:47,440 --> 00:50:48,600
+ a very difficult problem.
+
+761
+00:50:48,600 --> 00:50:54,160
+ I, I just, I just think we need, if you have a good design, then interpretability is pretty
+
+762
+00:50:54,160 --> 00:50:55,160
+ easy.
+
+763
+00:50:55,160 --> 00:50:59,160
+ I want to like kind of zoom into this trust aspect.
+
+764
+00:50:59,160 --> 00:51:01,360
+ And this kind of circles back to what we were talking about earlier.
+
+765
+00:51:01,360 --> 00:51:07,280
+ Like, you know, a lot of people in crypto got into crypto because of kind of this rejection
+
+766
+00:51:07,280 --> 00:51:09,920
+ of the fiat monetary system.
+
+767
+00:51:09,920 --> 00:51:14,000
+ So if you talked early Bitcoiners and like early Ethereum folks, like this, this, this
+
+768
+00:51:14,000 --> 00:51:20,000
+ idea that fiat, which actually, um, the etymology of that word kind of comes from the word trust,
+
+769
+00:51:20,000 --> 00:51:21,000
+ right?
+
+770
+00:51:21,000 --> 00:51:23,440
+ It's a monetary system where you, where you trust others.
+
+771
+00:51:23,440 --> 00:51:28,760
+ Um, crypto kind of felt like it was a rejection of that.
+
+772
+00:51:28,760 --> 00:51:34,000
+ I mean, it didn't feel like it was a rejection of that, um, of that, of that idea.
+
+773
+00:51:34,000 --> 00:51:39,000
+ And you know, hearing you speak now, it sounds like you're talking like we're going back
+
+774
+00:51:39,000 --> 00:51:47,960
+ into kind of a trust based system, um, but with one kind of one, uh, distinction is that
+
+775
+00:51:47,960 --> 00:51:54,680
+ because risk is now kind of spread across different, uh, restakers, uh, different,
+
+776
+00:51:54,680 --> 00:52:02,040
+ uh, kind of funds, et cetera, in the case of cap, it creates a, a more opaque central kind
+
+777
+00:52:02,040 --> 00:52:10,920
+ of like, authority to who is responsible, right?
+
+778
+00:52:10,920 --> 00:52:13,400
+ So it actually makes things more complicated for the end user, uh, who has like suffered
+
+779
+00:52:13,400 --> 00:52:16,120
+ some damages because of misconduct, right?
+
+780
+00:52:16,120 --> 00:52:17,720
+ Well, it depends on how you do it.
+
+781
+00:52:17,720 --> 00:52:23,240
+ Like, for example, like with us, you know, we take Benji, we take UCC as collateral and
+
+782
+00:52:23,240 --> 00:52:26,520
+ you can track and see, you know, these are the collaterals we take.
+
+783
+00:52:26,520 --> 00:52:32,040
+ It gets more complicated if, you know, you're, uh, backed by Eve, but then you also put money
+
+784
+00:52:32,040 --> 00:52:33,040
+ in Ave.
+
+785
+00:52:33,040 --> 00:52:36,320
+ And then who knows where I have is putting that money and, and you have like these more complicated
+
+786
+00:52:36,320 --> 00:52:37,320
+ systems.
+
+787
+00:52:37,320 --> 00:52:41,480
+ And there are such stable coins where you don't really know where the money's being put.
+
+788
+00:52:41,480 --> 00:52:47,400
+ And so I agree with you that the, the question of, okay, I lost money, who, who's fault wasn't,
+
+789
+00:52:47,400 --> 00:52:50,920
+ will become more complicated when you have these stable coins that are kind of acting
+
+790
+00:52:50,920 --> 00:52:54,200
+ like hedge funds and putting their money in all sorts of places.
+
+791
+00:52:54,200 --> 00:53:00,440
+ But it's certainly not the case of cap, because we're all DeFi PTSD, you know, survivors.
+
+792
+00:53:00,440 --> 00:53:05,600
+ And we've built cap in a way that you're able to track what you've just described, right?
+
+793
+00:53:05,600 --> 00:53:13,000
+ Who, who is responsible for maintaining the quality of the collateral?
+
+794
+00:53:13,000 --> 00:53:17,000
+ I guess it's not a reflection on cap, but just kind of like as the, uh, for the industry
+
+795
+00:53:17,000 --> 00:53:18,120
+ as a whole.
+
+796
+00:53:18,120 --> 00:53:23,440
+ So where the risk is more spread, perhaps it means that the chances of something happening
+
+797
+00:53:23,440 --> 00:53:32,160
+ that, yeah, the chance of something happening is, is reduced, but, you know, it's increased,
+
+798
+00:53:32,160 --> 00:53:36,320
+ but it's like the, the, the penalty of it happening is lower.
+
+799
+00:53:36,320 --> 00:53:37,320
+ Sorry.
+
+800
+00:53:37,320 --> 00:53:40,160
+ The penalty, the penalty may be less, right?
+
+801
+00:53:40,160 --> 00:53:44,800
+ Um, but also like the crypto world operates in a space where, you know, there is a lot
+
+802
+00:53:44,800 --> 00:53:49,520
+ of opacity around like where operators are situated and certainly like, I think regulation
+
+803
+00:53:49,520 --> 00:53:56,040
+ can kind of kind of help with that where, you know, there may be like clear, um, pass
+
+804
+00:53:56,040 --> 00:54:01,320
+ to litigation when that happens, but yeah, I mean, look at what happened to multi-chain
+
+805
+00:54:01,320 --> 00:54:02,400
+ the bridge.
+
+806
+00:54:02,400 --> 00:54:07,400
+ They got hacked by the Chinese government or like a local government and all the money
+
+807
+00:54:07,400 --> 00:54:08,400
+ got stolen.
+
+808
+00:54:08,400 --> 00:54:15,080
+ So finance, froset, circle, froset, telefroset, they haven't returned the penny to users.
+
+809
+00:54:15,080 --> 00:54:19,440
+ And the Phantom Foundation has been suing Binance and all these teams to give the money back
+
+810
+00:54:19,440 --> 00:54:21,600
+ and they've refused to do it.
+
+811
+00:54:21,600 --> 00:54:24,680
+ And, and they haven't been able to get the money back because, you know, that's just how
+
+812
+00:54:24,680 --> 00:54:26,160
+ regulations are.
+
+813
+00:54:26,160 --> 00:54:28,520
+ Um, and so you're, you're right.
+
+814
+00:54:28,520 --> 00:54:32,760
+ Um, I see, and that's kind of why we built cap the way we built it because I really just
+
+815
+00:54:32,760 --> 00:54:36,680
+ don't think that users are in a place to get any sort of recourse.
+
+816
+00:54:36,680 --> 00:54:41,420
+ If your favorite yield bearings, they will coin at the pegs, you're going to be suing
+
+817
+00:54:41,420 --> 00:54:47,240
+ some random Cayman entity, right with, um, you know, a director who is the same director
+
+818
+00:54:47,240 --> 00:54:51,680
+ for every other, uh, Cayman entity in crypto and you're going to find yourself without
+
+819
+00:54:51,680 --> 00:54:53,160
+ a nickel of recourse.
+
+820
+00:54:53,160 --> 00:55:00,040
+ Yeah, I think, I think this is where like regulation will play a huge role is where these
+
+821
+00:55:00,040 --> 00:55:05,480
+ entities need to be kind of like local in their jurisdictions where they're situated
+
+822
+00:55:05,480 --> 00:55:12,080
+ and where, um, they become highly sort of entangled with the traditional finance system, central
+
+823
+00:55:12,080 --> 00:55:13,080
+ banks, et cetera.
+
+824
+00:55:13,080 --> 00:55:17,720
+ Uh, but I think we're like really long way until that happens.
+
+825
+00:55:17,720 --> 00:55:22,840
+ Yeah, that's why you have to choose like, do you want to trust the government or do you
+
+826
+00:55:22,840 --> 00:55:24,800
+ want to start, trust more contracts?
+
+827
+00:55:24,800 --> 00:55:29,080
+ And I think any project that's in the middle where you're not trusting smart contracts,
+
+828
+00:55:29,080 --> 00:55:32,720
+ you're not trusting the government, you actually trust is some random developer team.
+
+829
+00:55:32,720 --> 00:55:37,320
+ I am very scared of those projects because I know I can trust the government somehow
+
+830
+00:55:37,320 --> 00:55:38,320
+ a little bit.
+
+831
+00:55:38,320 --> 00:55:40,840
+ And I know I can definitely trust more contracts.
+
+832
+00:55:40,840 --> 00:55:44,160
+ I know darn well, I can't trust random developer teams.
+
+833
+00:55:44,160 --> 00:55:45,160
+ Yeah.
+
+834
+00:55:45,160 --> 00:55:48,440
+ Well, some, some, some people would definitely not agree with you that you can trust the
+
+835
+00:55:48,440 --> 00:55:53,920
+ government a little bit, but that's a conversation for another trust like regulators more than
+
+836
+00:55:53,920 --> 00:56:00,360
+ I trust a random, you know, startup in general.
+
+837
+00:56:00,360 --> 00:56:01,360
+ Yeah.
+
+838
+00:56:01,360 --> 00:56:02,360
+ Yeah.
+
+839
+00:56:02,360 --> 00:56:03,360
+ Yeah.
+
+840
+00:56:03,360 --> 00:56:04,360
+ Yeah.
+
+841
+00:56:04,360 --> 00:56:05,360
+ I think some people might that agree with that.
+
+842
+00:56:05,360 --> 00:56:06,360
+ But yeah, obviously.
+
+843
+00:56:06,360 --> 00:56:15,440
+ Where the kind of proliferation of stable coins does excel is offering these different
+
+844
+00:56:15,440 --> 00:56:16,520
+ trust assumptions.
+
+845
+00:56:16,520 --> 00:56:20,880
+ So you have like stable coins that are fully centralized where you don't have to trust
+
+846
+00:56:20,880 --> 00:56:21,880
+ anyone.
+
+847
+00:56:21,880 --> 00:56:25,200
+ And then you have stable coins that are fully centralized and you have like sort of things
+
+848
+00:56:25,200 --> 00:56:30,000
+ in between where you're relying on centralized stable coin deposits, but those deposits are
+
+849
+00:56:30,000 --> 00:56:33,880
+ backed by a decentralized asset in the case of cap, right?
+
+850
+00:56:33,880 --> 00:56:37,920
+ So like you're, you're backing the, you're backing the centralized stable coin deposit
+
+851
+00:56:37,920 --> 00:56:44,720
+ in the form of USDC USDT with an insurance or a guarantee that is secured by a decentralized
+
+852
+00:56:44,720 --> 00:56:45,720
+ asset.
+
+853
+00:56:45,720 --> 00:56:50,760
+ And that might be like the, the middle ground that we need to scale, but then also remain
+
+854
+00:56:50,760 --> 00:56:51,760
+ decentralized.
+
+855
+00:56:51,760 --> 00:56:55,960
+ How could I disagree with such a beautiful explanation?
+
+856
+00:56:55,960 --> 00:56:59,400
+ Well, Benjamin, thanks for coming on.
+
+857
+00:56:59,400 --> 00:57:03,360
+ Anything you want to share before we wrap up?
+
+858
+00:57:03,360 --> 00:57:09,680
+ I would say that, you know, a lot of people have said recently that the stable coin space
+
+859
+00:57:09,680 --> 00:57:14,240
+ is extremely crowded and there are too many stable coins, but I think they're wrong.
+
+860
+00:57:14,240 --> 00:57:18,960
+ I think they're not that many stable coins that are differentiated in crypto.
+
+861
+00:57:18,960 --> 00:57:23,760
+ And so if you are, you know, a founder that's trying to make a new stable coin, make it,
+
+862
+00:57:23,760 --> 00:57:30,000
+ you know, I want there to be a hundred new stable coins, a thousand new stable coins because
+
+863
+00:57:30,000 --> 00:57:33,760
+ the more innovation that happens, the more liquidity we're going to get on chain.
+
+864
+00:57:33,760 --> 00:57:38,600
+ And that will benefit everybody because it's much easier to convince somebody that's using
+
+865
+00:57:38,600 --> 00:57:42,760
+ another stable continuous yours than it is for you to convince somebody that has money
+
+866
+00:57:42,760 --> 00:57:45,680
+ like Bank of America to use your stable coin.
+
+867
+00:57:45,680 --> 00:57:50,440
+ And so yeah, I just, I will have a call to, you know, not be discouraged by, you know,
+
+868
+00:57:50,440 --> 00:57:52,720
+ how many stable coins there are in crypto.
+
+869
+00:57:52,720 --> 00:57:53,720
+ Cool.
+
+870
+00:57:53,720 --> 00:57:55,440
+ Well, thanks for coming on.
+
+871
+00:57:55,440 --> 00:57:59,320
+ Enjoy the rest of your time in China and good luck with this.
+
+872
+00:57:59,320 --> 00:58:00,160
+ - Thank you.
+

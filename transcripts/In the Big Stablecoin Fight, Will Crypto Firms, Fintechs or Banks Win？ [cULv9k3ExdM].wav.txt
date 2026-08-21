@@ -1,0 +1,492 @@
+ Everybody wants to pick winners and losers like is it gonna be the apple or is it gonna be the potato right?
+ Like which one of these are we doing?
+ And I'm saying the future actually looks like gazpacho, right?
+ Like it's just gonna everything's gonna be in there and it's all together
+ I worry right now that to be totally honest and I've said this elsewhere
+ We're seeing a whole lot of my space and very little Facebook and the answer to who will win is none of the people currently on the field
+ Hi everyone, welcome to Unchained. You're no hype resource for all things crypto. I'm your host Laura Shin
+ The stablecoin race is heating up in a big way with both big and small players getting in
+ I had a conversation with Austin Campbell about how it might shake out and was surprised by what he said
+ When stablecoins become integrated he believes the system could end up all being a lot less decentralized and censorship resistance
+ And the ideals that crypto has long espoused
+ Austin seems to think that tech innovation will matter less
+ And financial regulation would matter more and could even prevent disruption from happening to the same extent as has happened in other industries
+ This sort of echoes what Jim Bianca was saying in the recent interview
+ I did with him that regulation will end up being the kingmakers
+ I do wish I had managed to ask Austin about one thing
+ He talks about how the fact that ethereum validators didn't censor anything related to the bibit hack
+ She was that ethereum isn't ready for prime time when it comes to real world assets
+ I suspect a number of you would find those to be fighting words
+ My main question is that it could become not just a slippery slope
+ But a full-on quagmire if ethereum were to censor in those instances, especially for less clear-cut cases
+ I was also surprised when Austin called out a couple of blockchains that are yes in the top 25
+ But not part of the hype cycle and he said that he thought they had the potential to be better solutions than ethereum for real world assets
+ At this moment in time, I'm skeptical of those claims even as I'm aware that a lot could change in the next five or ten years
+ Either way, Austin is engaging as always
+ Let us know what you think about the show by commenting on an episode or on any platform or by writing us a review
+ enjoy
+ At unchanged we believe the future should be decentralized and that includes our data
+ That's why we use walrus the fast dynamic verifiable data layer
+ Learn more about the platform that's powering our future at walrus.xyz
+ One early Bitcoiner sold 30,000 BTC to soon missing out on over a billion dollars
+ Don't want to make the same estate with Zappobank eligible members can get instant cash without selling their Bitcoin
+ Check out zappobank.com/unchained for more
+ Hands up everyone we've got exciting news bits and bits our macro meets crypto show is
+ Officially spinning off into its own podcast feed youtube channel and X account if you've been enjoying the deep dives into interest rates
+ Monetary policy and how they intersect with the crypto markets make sure to follow bits and bits wherever you get your podcasts on
+ YouTube and on X
+ You'll find the links to YouTube X and other podcast platforms in the show notes if you're watching this
+ There's a QR code on screen
+ We'll be posting here for a few more weeks, but starting in September bits and bits will launch on its own feed
+ For now, we will publish longer clips from the show on those accounts
+ Remember go to the show notes now and subscribe to bits and bits. That's bits plus sign Bips spelled B I P S on
+ YouTube X and wherever you get your podcasts
+ Welcome Austin
+ Hey Laura, thank you for having me back
+ This week we saw multiple announcements that show that the stablecoin race is heating up in a big way
+ First on Monday fortune reported that stripe in conjunction with crypto BC firm paradigm is
+ developing a layer one blockchain called tempo for stablecoin payments and on Tuesday circle announced
+ We'll be launching its own stablecoin focused blockchain arc
+ And this is on top of several other stablecoin chains are in the works like plasma stable codecs
+ Um, so before we just like go into the details on all of these different chains
+ Just explain why it is that you think we're seeing so many stablecoin focused blockchains and like why we even need
+ Chains that are focused on stablecoins
+ Yeah, so I think
+ You know to give what I will describe is called the median corporate response to many of these things
+ It's that people themselves are using stablecoins for things if you look at things like stripe if you look at circle
+ This is obviously the reason these businesses are in existence and interested is paying for things with dollars through the form of like electronic money
+ So it's not surprising they're looking at these implementations and trying to build ones where they capture the value
+ If you want to be financially nihilistic about it
+ The answer is to why they're doing it as people appear to give the money to do it, right?
+ Like many of these l ones have been very successful tokens have gone up
+ Right if you want to be financially idealistic about it
+ I think the thing you would say is that most if not all but probably most
+ Of the modern blockchain implementations are insufficient for tokenization of real-world assets
+ Because they just haven't grappled with a lot of the tension that comes with the decentralized ethos versus the
+ Fact that the real world itself is actually very centralized in many ways
+ And so people are trying to build custom solutions that can bridge that gap and be a little bit more effective
+ Now which one of those do I believe some of all of it?
+ And so
+ Um, what is it about a chain that's focused specifically on stablecoin payments that is necessary or or maybe it's not
+ Um, but that you know these players seem to think is necessary that isn't offered by existing public blockchains
+ Okay, so I would say maybe the best example of this
+ I I was back at jp morgan in the day when we were thinking about what waiter became onyx
+ And one of the things you think about with financial applications is what are the transaction preferences of the underlying people and what are they using it for?
+ So like a good example of the critique of the architecture of ethereum that I think is meaningful
+ Is if we were to try to put all payments on ethereum
+ And it's lunchtime
+ And i'm standing in line at a deli and i'm trying to buy a sandwich and i've got to tap to pay and when I do that
+ I pay some tiny gas fee and stablecoins go to the other side
+ And taylor swift decides lunchtime is a great time to drop a new album and people are buying it at the same time
+ I don't want to pay a hundred dollar gas fee to buy my sandwich
+ right and so
+ Transaction preferences are not monolithic right like the speed and level of security
+ That you need is definitely diffuse like trying to rush to buy a limited edition nft versus buying a sandwich versus
+ I don't know clearing up 50 billion dollar repo trade
+ All have very different parameters to them
+ And so it one on one level it may make sense for there to be certain very payment focused chains
+ That have very predictable and low fees so that you don't end up
+ In a situation where like nobody can buy lunch because of taylor swift not not an insult to the swifties right just a conflict on the platform
+ too
+ I think there is also the issue that you run into there of things like spam resilience and like why do you have blockchain fees to begin with
+ And very purpose oriented chains where maybe you can only do push payments eliminate a lot of that behavior because like if you want to spam me by sending me many small amounts of money
+ I guess sure thanks
+ Um, and so less features is sometimes more for some of these chains
+ The last part and this I think is very under discussed in the blockchain world
+ But like having dealt a lot with stable coins. I think about it a lot
+ Is the security component of that?
+ And the example I use to describe this we can use stable coins, but I'll use something that's hopefully a little bit funnier for the audience
+ Is if we tokenize a lot of real assets so that people can you know buy them and pay for them on chain
+ And one of the things we tokenize is title for house if somebody's grandma's house is tokenized
+ And the nft gets stolen by the north koreans. What do you do?
+ Right and by the way, there's a there's a small subset of people in krypto who will say well
+ I guess the north koreans own the house now and my answer to that is that cannot possibly be how it works
+ Right because the us military has strong views on the north koreans attempting to move into somebody's house
+ Um, and it's not going to happen. This is back to my point of like the blockchain may be decentralized, but the real world is not
+ Okay, so now the question becomes how do you get it back and to your point on blockchain architecture
+ The first answer i'm going to get from people is well issuers will have freeze and seize capability and therefore they can take the house back
+ And I say ah, yes, that's good
+ Unless it was the issuer that got hacked and compromised and if that's the case, what do we do next? And the answer there is
+ Really either
+ You need a controls framework and validator set that will individually revert transactions and keep things somewhat permissioned
+ Which is how a lot of the banks and payments companies think about this
+ So if you look at the architecture in a lot of the bank chains, there is transaction reversibility
+ Or you're going to need to drop an entirely new smart contract
+ Repugiate the old one and essentially replace all the tokens as of a point of time
+ And the problem with that is if you're doing that second approach you essentially can't have DeFi in its current form
+ Because if that happens to like usdc
+ I invite all of our listeners to think about what happens to all like the usdc eats or like usdc curve
+ Like amm pools and what happens to all the borrow end protocols when circle repudiates its old smart contract and drops new ones
+ Okay
+ Well, so
+ Then i'd be so interested to hear because like we're entering this phase where clearly there's me a ton of competition
+ And so i'd love to just go through one by one and hear what you think are kind of the advantages and disadvantages of these different chains
+ So let's start with the tempo one, which is the one that stripe is doing apparently with paradigm
+ And it's actually going to be led by matt vong portion reported
+ Who's also staying at paradigm at the same time that's sort of like
+ I know this isn't exactly apples to apples
+ But like it reminds me of like a jacked or c type of thing like i'm just gonna like lead a whole bunch of different things
+ But i'd be curious to hear you know what you think are the main advantages that stripe would have or tempo would have and disadvantages
+ So I actually think the main advantage there is literally stripe
+ And what I mean by that is the current world largely does not exist on blockchains
+ Right if we look at the amount of money flowing through blockchains blockchains people get very excited and it feels large
+ When numbers of annual settlement get into the trillions
+ But I will remind everybody that international wire transfers alone
+ Are 1.25 quadrillion annually is an estimate a number so large it sounds like my 10 year old made it up
+ And so the amount of activity on blockchains is still extremely small
+ Stripes has a large and significant payments processing business using traditional rails
+ So if stripe also has a blockchain and they could effectively do the sandwich that is to say now people can pay for things on chain
+ And if the receiving person on the other side wants dollars in a bank account
+ Stripe is going to be one of the entities that could be very good at functioning as a bridge
+ Pun intended given their acquisition
+ Between these two sort of spaces and that to me is probably the biggest advantage stripe has
+ Number two boy do they have a lot of customers and specifically customers in the merchant space if you look at who stripe deals with
+ And so if we're talking about something that could scale
+ Something that can be used by regular two legged people without being like deep technological experts and something that can exist in both worlds
+ Stripes got a pretty decent shot at it right like there may be better
+ But anybody better is probably an even more scaled financial institution like is JP morgan going to launch a public l1
+ If not stripes in pretty good shape and by the way, you know, if you're watching for
+ The areas in the coal mine of if this sort of thing is working
+ Look for what the other payments companies do in response or to evolve their own platform offerings
+ So like the visas of the world the master cards of the world pay pal who already has their own stable quick
+ Oh, okay
+ Interesting
+ Well, we'll circle back to that in a moment. Um, so now let's talk about arc, which is circles new blockchain that they announced
+ And um that one they announced, you know around like right when they did their earnings report
+ Um, I'm sure you saw like people like adam cochrin tweeted
+ This isn't an l1 and it's offensive to call it such
+ It's a consortium chain of private pre-approved validators who even have permission to refund transactions via dispute protocols
+ And he goes on
+ Um, so yeah, I'm curious to hear what you think are the advantages and disadvantages of that
+ Yeah, so I I would say adam is at war with reality
+ With his comments and what I mean by that is if you've ever worked in payments things like dispute resolution chargebacks, etc
+ Are like name of the game type stuff for two different reasons
+ One is if you don't have that functionality
+ You're going to be an open forum for like fraudsters scammers bad actors
+ And essentially provide an extremely poor experience depending on which side you come down on
+ On either to your buyers and sellers and people are just not going to use it
+ Right again back to the real world not being decentralized laura if you're a vendor and i'm your customer and I buy something from you
+ It's broken and I want to get a refund now what right? This is the kind of thing payment processors have to deal with two
+ In many jurisdictions there are legal obligations around this
+ So if you say well your blockchain shouldn't have this functionality somebody's sitting in a payments role
+ Just here's a giant sucking sound knowing all the money that they're going to be paying people without the ability to get it back
+ Right, so again, the real world is not decentralized either. I got the product or I didn't it's a binary state of a physical object
+ That is what it is
+ Circle specific like design
+ I think they need a consortium because the reality is circle doesn't have many direct customers
+ If you look at the number of people who have circle accounts, it's not that high if you look at the distribution of usdc
+ There's mainly one source of it and that's a little company. We've probably heard of called coinbase
+ And so they do not have the advantage stripe has of tons of native on boarded customers who can use things one-to-one
+ So if you're a company like circle and you're not going to do a consortium, my next question is how the heck are you going to acquire all your customers?
+ I think they're kind of trapped into doing that, but then that becomes
+ Why is circle in particular going to win at this and
+ You know, I'll be honest and say I'm quite skeptical there
+ Right like circle having a revenue sharing agreement with coinbase and having to build a consortium model in that fashion
+ It's probably good
+ For like coinbase and coin bases distribution may work
+ But if you're trying to get like banks and merchants and payment processors on there
+ But most of the interest revenue is being shared with coinbase, they're all just going to say now
+ Yeah, yeah where I was leading to next was, you know, when I looked at tempo my immediate
+ My immediate thought was oh in a way this competes with um bases Shopify integration
+ um
+ But you know, I so I
+ Kind of I can't remember. I think I like wrote this somewhere
+ Or or at least it's just the thought that I've had and and I'm not the originator of this
+ I think I've seen other people say
+ That looking back it kind of feels like coinbase probably should have acquired to circle
+ Because like or maybe you disagree with me, but like in my head i'm a little bit like
+ You know the net like for for coinbase to own the distribution and
+ Like like in this hypothetical world if they own the distribution and usdc
+ Then I feel like they would have been better positioned to compete against stripe
+ But um, anyway, so regardless of you know, you can answer either the the real world as it exists or the hypothetical
+ But be curious for how you think this competition will go down between um
+ Stripe and coinbase slash base slash Shopify
+ I worry right now that to be totally honest and i've said this elsewhere
+ We're seeing a whole lot of my space and very little facebook and the expert who will win is none of the people currently on the field
+ Um, and the reason I say that is again having come from the very large banking world and seeing the scale of money transfers
+ You know, I kind of look at things like stripe and coinbase and spotify and i'm like, oh, that's a cute little side business
+ You've got there and I don't mean that in like a negative way
+ Right, like they've actually done an extremely good job
+ If you look at like what the leadership team at coinbase has done or like how stripe has built their business
+ I actually think the world of what they've done in that regard
+ But i'm also saying that tells you what a titan some of the largest financial entities are that they could have done so well
+ And it's like congrats your two percent of the size of jp morgan
+ and so
+ My worry is that over time
+ You're essentially going to have somebody very large come over the top
+ With a complete international payments franchise because if you look at fx volumes
+ What happens if standard chartered launches stable coins in an elwad or like doge a bag or like jp morgan and not
+ token i spec depots right but like actual proper stable coins that people can use permissionless
+ You know and then integrate into the rails of those companies
+ I would be terrified
+ As some of the current competitors that i'm just going to get trucked by those offerings
+ Because like if you think coinbase has a lot of customers go look at some of the megabags globally
+ And and so when i look at this i look at all of them and think they're in a race against time
+ Of some of the big guys either cycling out their current management for younger people or that management getting the punchline on what's going on and getting into the game
+ because
+ You know tech is used to network effects that come from like social stickiness, but that's not how network effects and finance work
+ That's largely liquidity and yield driven right like great example. It'll be trivial for me to build
+ Like a relatively significantly productive
+ You know call it asset gathering business in the money market space if i'm willing to pay
+ An above market interest rate by just burning capital on my part
+ But the problem is those companies or excuse me those customers are not sticky the moment i stop doing that
+ They'll leave and go to other options like it's a constant dynamic rebalancing
+ And what it means is the really big players who have distribution and can cross subsidize are very hard to compete against
+ That's why we can't like from 2008 on get rid of these sippy backs
+ Okay, so in a moment we're going to talk a little bit more about how this competition will play out
+ But first a quick word from the sponsor to make this show possible
+ At unshamed we care about the future of decentralization
+ So it only made sense for our media content to be decentralized. That's why we use walrus
+ It's the fast dynamic and verifiable data layer for on-chain builders
+ And it's not just data management walrus ties directly into smart contracts
+ Unlocking new possibilities for programmable content delivery subscriptions and community engagement
+ So as we imagine what decentralized media can become walrus is the tech we trust to help build it
+ Learn more at walrus.xyz
+ Selling your bitcoin just to get cash one early bitcoiner did and missed out on over a billion dollars
+ With zapobank you can access up to one million dollars instantly without selling a single set
+ Eligible zapobank members can borrow up to 40 percent of their bitcoin's value
+ No stress. No selling. No buying back in use it for what matters most
+ Your dream home your child's education a getaway or that can't miss investment with bitcoin backed loans
+ You're in control set your installments and repay in bitcoin or us dollars your choice
+ Enjoy competitive rates zero fees flexible terms and no penalties for early repayment
+ And your bitcoin stays safe. Never re-hypothecated
+ Relent or pooled it's securely held until your loan is repaid check them out at zapobank.com/unchained
+ So I want to um
+ Continue with with some of these other chains and then we'll go back to this competition question
+ Um, you know, we have in the works this plasma blockchain. We have another one stable
+ Uh, quote code. I you know, we don't have to go through all of them, but you know, some of them have like
+ Pretty heavy hitting investors or teams behind them. You know tether
+ Um is obviously involved in uh plasma so or or stable or the invested in plasma
+ And then they're they're building stable. So can you just talk a little bit about how you think about those chains and how they might compete in this environment?
+ Yeah, so one thing i'll say, you know, I said this earlier and i'll remind everybody again transaction preferences are not monolithic
+ I think what we're looking at right now is a landscape where we assume all of these people are competing against each other may be wrong
+ Right because like to give a like metaphor to make it accessible to people. I live in new york city
+ All of like the yankies and the mats and the nicks and the nets and the giants and the jets are professional sports teams here
+ But they don't all compete against each other right like there is competition within the subsets
+ But if the giants are playing the nicks something has gone terribly wrong
+ And what I mean by that is if you look at where tether is used as a good example
+ Almost all of the major usage of tethers in one of two places
+ It's either in crypto trading or in emerging markets payments
+ Right and that's the truth. Nobody is using tether on shore in the united states
+ To like pay for things with credit cards or like go to the bodega or something like that or if they are
+ It's like de minimis amounts right on the other hand
+ USDC is more frequently used for that in the united states
+ You can get literally a coin base debit card if you have a coin base account and have USDC in your account
+ Go tap to pay with things in the united states
+ They're like different segments of the payments market, which is bigger than people think and I think what you're going to find
+ with many of these efforts with the blockchains
+ Is that the user base and the core activity of the people involved are going to drive
+ Where they focus their efforts
+ So if something like what tether is doing becomes a swift replacement for euro dollar style payments, especially in the global south
+ You know, especially among merchants and consumers. I would be zero surprised
+ But does that really compete with what like stripe is trying to do honestly? No
+ In fact, they may interact with each other in a way that creates more market opportunities for them that if neither exist it
+ Right or even only one existed
+ So as I think about competition
+ The traditional space is so large
+ And many of these efforts are relatively like attached to current things that have been sort of niche expansions that I think most of them
+ You know, a little bit like the early internet laura are supportive of each other by existing because they're just drawing more attention to the space
+ I really think all of them are eating away like tiny piranhas right at the behemoth that is like visa or mastercard
+ Okay, so, you know earlier when you talked about how you felt like a big bank
+ You know, would kind of look at at any of these efforts in scoff. I mean the
+ History of technology is littered with
+ Incumbents that could not disrupt themselves or or would not
+ I mean just even in our lifetimes, you know, like
+ Blockbuster borders codac
+ You know, I mean this has happened just so many times so
+ What what makes you think that?
+ Traditional things could really, you know be competitive in this area
+ So I'm gonna point out something important about what you just said about all these disruptors. How many of those were financial companies?
+ I mean none of them but
+ Finance is different and what I mean by that is tech is usually not the driver of results, right? Like
+ I worked at a bank that on day one in training the CEO came on and said we have bailed out the us government
+ Twice in the past hundred years and I expect you to behave accordingly
+ Right and what I would say is finance is a scale game
+ Not a technology game and often the technology matters less than people think so long as it is sufficient to get the job done
+ Right like whether you get the best price or not on a bond trade
+ Often has very little to do with whether JP Morgan or gold mid-saxes or Morgan Stanley's technology is incrementally better
+ It's actually the risk management judgment of the traders
+ Right and so
+ The reason that I look at this and sort of as both a banking person and a blockchain person
+ Say sometimes I think people are missing the punchline
+ Is it's a very sort of tech thing to want to compete on the verticals that they understand without understanding the verticals that actually lead to results
+ so
+ I'm a little bit more skeptical of
+ These results from companies early on leading to massive restructuring of the total financial system
+ I think the area that's most amenable to what you just said is payments because payments right now have a lot of market structure problems that are
+ Let's be honest partially regulatory more than technology like bags if they wanted
+ They're not going to let's be clear bags are terrible at working with each other
+ But if they wanted to all of them could just put together a shared private database to do instant payments globally right now
+ Right. There's not a technological blocker out that there's a willingness blocker and so disruption there. I think is very meaningful
+ But bags are giant entities that do way more than just payments and I like one of the things I very much always caution people about is do not generalize
+ From your local circumstances as somebody who is like a retail customer or a bank to what the business of the actual bank is
+ From any of these banks the retail customers are like a small
+ Like pocket of the world and not an unimportant one
+ But like if JP morgan's entire consumer business like chase vanish tomorrow. They're still a gigantic financial institution
+ right and so
+ You know what i'm trying to drive home here is this is a very complex multi variable
+ Problem of which tech is only one pillar
+ And that's why I think I bring a little bit more skepticism on massive transformation there
+ Also because there's a coordination problem right like if somebody adopts a method of payment, but the guy on the other side hasn't
+ You you can't transact
+ And so it really is the global liquidity network that matters. So I think
+ rather than the traditional tech model of like
+ incumbents being disrupted and being completely destroyed and then a new thing rises and then they'll eventually get disrupted and destroyed
+ And then a new thing right like the sort of sharp thin
+ model of technological development
+ Finance has been significantly more iterative
+ It looks like steps where everybody gets dragged along because you need that network effect to transact with money
+ And I I really think this is an extremely important point in this l1 debate that people are having and I think a lot of investors are going to be
+ Very disappointed having invested evaluations that assume total market disruption if things go well
+ And then they find out that actually no in this space you don't eat the market the market eventually eats you
+ So okay, so I just need to understand then
+ How do you think this is actually going to play out like who are going to be the big winners and losers because it sounds like you're saying
+ We're seeing all these up starts and none of them is really going to succeed the way that people are betting
+ And it almost sounds like you're saying that the banks are going to be the big winners
+ Which like if that's the case then satoshi is rolling over in their grave if they're in a grave
+ um, so
+ That that would I don't think people would
+ I don't think people would be if that were really the outcome here. I think people in krypton would quit
+ They would be like this is not what I signed up for
+ So I'll start. I think the biggest winner will be consumers, right?
+ Let us not forget there are a lot of forms of technological development that maybe any individual company doesn't capture it
+ But the net benefit to like consumers and the economy is huge
+ So I do think the number one winner here is going to be consumers because like let me remind everybody of the current deal that you have with a bank
+ Okay, and uh, this is from the retail perspective
+ And by the way, I
+ Almost 100 odds you're getting ripped off right now because here's what they do give us deposits
+ We're going to go lend those deposits and take a ton of risk
+ If it goes well
+ We're going to say we're awesome and pay ourselves giant bonuses
+ If it goes poorly
+ The bank goes bankrupt and you might lose all of your money and by the way, we don't pay you any interest
+ Right like again
+ Like if you're a vc in this space or like you're just somebody who's in the stock market
+ Imagine I pitch you an investment that is like you give me, you know a hundred thousand dollars
+ And if it does great, I keep all the profits
+ But if it goes down you take the losses
+ That's what your bank is actually doing to you with most deposit accounts in the united states of america
+ It's deranged
+ And so I think breaking that paradigm with things like stablecoins that create better options and better networks is incredibly valuable
+ Even if any individual company does not accrue the gains
+ Consumers writ large and the economy will accrue those gains
+ And then you are taking less risk and probably getting paid interest on safer deposits
+ This is good for everybody right now
+ People using our system for payments are giving a giant subsidy to certain subtypes of borrowers
+ And by the way, since banks don't retain a lot of mortgages
+ It's not like the average person buying a home. Those go generally into the market to get securitized
+ It's like project loans commercial real estate like certain kinds of structured finance basically billionaires are getting a subsidy
+ So breaking that I think is good
+ Now number two
+ Do I think the banks are going to be winners writ large as a segment? Yes
+ Specific banks within that
+ Oh, is there a lot of danger here right like
+ I would tell you I think a lot of banks are going to consolidate
+ Or get disaggregated by the trend of crypto right like right now the modern bank is this super dense entity
+ You know a little bit like crypto exchanges where we talk about decentralization and then created the most centralized financial entities possible
+ Right like your bank is handling your lending
+ And your deposit account and your payments and selling you investment products, right? It's like the all singing all dancing thing
+ And I think one of the things crypto will do is unbundle the banks so the answer is to where the winners will emerge
+ Is who understands this unbundling effect correctly and either?
+ remains bundled by transforming their business offerings to become more modular
+ or
+ Actually picks one of those niches and dominates it and that is why i'm saying i'm skeptical blockchain natives will dominate
+ Now that's not a statement. There's not value for blockchain natives
+ But i'm saying everybody wants to pick winners and losers like is it going to be the apple or is it going to be the potato
+ Right like which one of these are reviewing and i'm saying the future actually looks like gazpacho
+ Right like it's just going to everything's going to be in there and it's all together
+ All right. Well
+ One other question is so i'm sure you know that
+ People are going on tv and saying that ethereum is the staple coin chain
+ And I was just curious what you thought this particular activity would have on
+ You know this narrative for ethereum
+ Yeah, so I I actually said this at an event yesterday put on by the ethereum foundation
+ Um, I don't think ethereum is ready for prime time for real world asset issuance
+ For the exact reasons that I just previously described
+ Like we just witnessed with the bibit hack that the ethereum validator said is currently in a place where they're not really willing to do things
+ About significant exploits and so I would ask the entire ethereum community. Let's assume a worst-case scenario happens in tether or circles private keys get compromised
+ And a hacker is now in control of the smart contract out of the area for usdc or usdt
+ Including all of their freeze and seize capabilities
+ What do you do?
+ Right like what are you doing with your hands? What is your game plan at that point because it's going to break
+ Everything on that chain and until we have
+ Significantly more mature risk management tooling around like the ethereum product it is not ready for prime time
+ And like again as a financial practitioner. I've heard so many people tell me well, this has never happened before it's not a risk and i'm like
+ This is how people blow up non-stop like you've just told me what I heard from long-term capital management
+ You've just told me what we heard from the mbs people you've just told me what I heard at jp morgan when the london will was going
+ I'm like, oh, it's fine. There can't be a problem
+ Okay, the fact that a risk has not explicitly happened yet is not a statement that it won't happen in the future
+ And so
+ There are design and functionality things that are like well known in traditional finance that could have stopped a lot of these hacks
+ And so people are going to look at them and be like if you don't build them
+ We are going to I don't know go watch it l1 that has these capabilities
+ Which may partially explain some of the trend we're seeing right now
+ Right like to give a really trivial one if people remember the mango markets hack with avi
+ Right
+ A lot of the issue there was that mango markets was lending against spot prices and illiquid tokens
+ Which is insane
+ Right if i'm on a repo desk at a major bank and I have something that just ripped a hundred
+ Percent in the past 20 minutes and somebody comes to me to borrow against it
+ I'm not using that price to loan to them. I'm going to take like a 48 hour trailing average and a bare minimum
+ And be like yeah, I'll loan you but like a 10
+ LTV on this current price like stop it right and
+ Again, these are very common things that are understood
+ So really the dialogue between both sides needs to improve because again
+ There are real technological benefits to open access consensus ledgers that is very important that it will matter
+ But if you can't build in some of these risk management frameworks, right?
+ We're just going to end up in a point where it's like we have two equally broken systems talking past each other
+ Okay
+ So this is so interesting because you know here I
+ Started the conversation by noting all all this activity
+ And and the thesis and tell me if i'm wrong your thesis
+ Is that forget about all these like upstarts?
+ It's going to be the big banks that that win the day or not just banks asset managers payments companies
+ Some of the upstarts my thesis is that people like to think of markets like
+ literal financial markets in the form of discrete winners and losers as though like it's you know
+ You know building a wins or building b wins. Okay, but okay, so then which of the upstarts you think are best positioned to capitalize?
+ Okay, so i'll say some things that I think will probably surprise people here
+ Um, especially given the tenor of some of my previous comments one bitcoin
+ Obviously there the credible neutrality is very important bitcoin has never said i'm trying to be a regulated
+ Asset used for these things i'm trying to be like extra sovereign money or you know, however you would term it
+ And they're doing a good job of that. So in bitcoin's case if the north korean steel it somebody goes
+ Yeah, they're the legal owner now that's kind of working as intended
+ Which tells you there are some things that will be very good for and some things it's unusable for but I think there's product market fit there
+ I think stablecoins have definitely been a winner
+ right like
+ How we have designed getting units of currency onto a blockchain and moving around dollar tokens is a big win
+ Now does that mean circle or tether or the long term winner? No, but stablecoins is a product
+ Definitely. Yes, they are here to stay
+ Um specific upstarts within that space look coinbase has gotten big enough that they're going to be something
+ Either they get acquired by somebody gigantic or continue growing themselves. I like their odds
+ Right circle a little bit less clear because if you look at money supply versus the size of circle
+ They're much smaller out of relative basis that coinbase
+ If we're looking at l1s that I think are credible like i'll say some things that I think people are going to be surprised by
+ Probably the best answers to this security question that I talked about from the rwa side currently come from people like avalanche
+ Right because if you look at how you can build subnets that's actually a legitimate solution to the problem that I just raised
+ Stellar and i'm sorry so a subnet can you explain just like why that is preferable over for instance like an lt on ethereum
+ You could have a subnet with a fully permission validator set that's docked
+ So the problem with the current l2 design for ethereum is you have a single sequencer
+ Right. So, you know, I if i'm base. I have to go as coinbase to pitch to buy nance
+ Hey, why don't you put your stuff on like my thing and I take all the profits? That is a hard conversation
+ Right an avalanche subnet because of the consortium model
+ Right as we think about credible neutrality
+ That's a term that is really under disgusting crypto because here's one form like bitcoin or ethereum on the base layer
+ Okay, well, let me give you another potential form of credible neutrality
+ Imagine an avalanche subnet where the validators which are permission so randos can't join are like the 500 largest financial companies globally
+ I think it's going to be hard to individually expropriate things on that chain, but that doesn't mean that any one of them can just change the rules
+ Right and so those sorts of consortium or consensus models have been very underexplored in blockchain
+ But have been incredibly successful in financial history
+ You know in advantage. I have as a business school professor is reading about that stuff
+ And so that's why I think about something like an avalanche subnet over a centralized sequencer
+ It's decentralization, but in a very different form
+ Right and then if you're looking at asset controls and like permissions and identity and authentication
+ There are people like say stellar is a good example of somebody who's actually thought about that a lot even though
+ Everybody likes to pretend they don't exist or if you're looking at just interdiction
+ Look at what mr. Mabs did with the cedus hack contra like the bibit hack on eath
+ So there there are people
+ Making very serious efforts at this and the question becomes who adopts them and where does the value occur?
+ All right, Austin. Well, it's always
+ Super interesting to chat with you. You said a number of things I didn't expect you to say
+ So thank you so much for sharing your thoughts on unchanged. Thank you
+ I I hope it was useful and maybe surprising in the good way for some
+ Yes, it was

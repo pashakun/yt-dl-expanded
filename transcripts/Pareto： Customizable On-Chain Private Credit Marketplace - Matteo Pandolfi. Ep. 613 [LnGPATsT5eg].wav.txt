@@ -1,0 +1,590 @@
+ Arbitrage opportunities are now like always available.
+ And so the funds that we were using to deploy into the arbitrage box were idle for some time.
+ So we were like, okay, we need to find a way to make that more efficient.
+ In 2022, we realized that most of the customer base for idle finance was
+ to be shown funds are locating across different strategies.
+ And one of the major feedback that we received at that time was that
+ your doctor optimization is great, but we need to take care of risk and risk diversification.
+ So at that time, we decided to introduce some yield of tranches.
+ Credit lines can be really customized from underwriting terms, covenants, to compliance requirements.
+ This is something that, like for example, maple or centrifuge is a bit limited, I would say.
+ The credit lines that we have are creation-based.
+ So we are not the only one that are underwriting these kind of credit lines,
+ but we opened up these processes also to third-party curators.
+ Welcome to Epicenter, the show which talks about the technologies, projects,
+ and people driving decentralization and the blockchain revolution.
+ I'm Frederica Anst, and today I'm speaking with Mateo Pandolfi, who is the co-founder of Pareto,
+ a credit coordination protocol that evolved out of idle Dow
+ in Anders' building on-chain markets for private credit.
+ Before I talk with Mateo, let me tell you about our sponsors this week.
+ If you're looking to stake your crypto with confidence, look no further than Chorus 1.
+ More than 150,000 delegators, including institutions like BitGo,
+ Pantera Capital, and Ledger, trust Chorus 1 with their assets.
+ They support over 50 blockchains and are leaders in governance on networks like Cosmos ensuring your stake
+ is responsibly managed.
+ Thanks to their advanced MEV research, you can also enjoy the highest-taking rewards.
+ You can stake directly from your preferred wallet, set up a white label note,
+ restake your assets on eigenneo or symbiotic, or use the SDK for multi-chain saking in your app.
+ Learn more at Chorus.1 and start staking today.
+ Hey guys, I want to tell you about Gnosis, a collective of builders creating real tools for real people on the open internet.
+ Gnosis has been around since 2015.
+ In fact, it started as one of Ethereum's very first projects.
+ And today, it's grown into a whole ecosystem designed to make open finance actually work for everyday people.
+ At the center of it all is Gnosis Chain.
+ It's a low-cost, highly decentralized layer one that's compatible with Ethereum and secured by over 300,000 validators.
+ So whether you're building a DAP, experimenting with EFI, or working on autonomous agents,
+ Gnosis Chain gives you a solid, neutral foundation to build on.
+ But Gnosis is more than just infrastructure.
+ It's also tools that people can actually use.
+ Like circles, for example, let's anyone issue their own digital currency through networks of trust, not banks.
+ And then there's Metri.
+ It's their smart contract wallet that makes it easy to access circles, manage group currencies,
+ and even spend anywhere Visa has accepted thanks to their integration with Gnosis Pay.
+ All this is governed by Gnosis Dow, where anyone can propose, vote, and help guide the network.
+ And if you want to get involved, running a validator is super easy.
+ All you need is one GNO and some basic hardware.
+ To learn more and start building on the open internet, head to Gnosis.io.
+ Gnosis, building the open internet, one block at a time.
+ Mateo, it's super nice to have you on.
+ Really excited to be here, and yep, thanks to the entire epicenter team for hosting this session to all of you for tuning in as well.
+ Mateo, tell us a little bit about yourself before we dive into Pareto.
+ What's your professional and academic background?
+ Yeah, so before founding Pareto, and as we are going to go through more into details, I do Dow back in the past.
+ So my background is in finance.
+ So my academic career was pretty much in finance and entrepreneurship.
+ So it's kind of like a good mix that brought me into DeFi, this kind of like, you know, innovative market, but still really related to finance.
+ Before actually starting with Pareto and I do Dow, I was working on financial risk analysis.
+ So I was consulting with major financial institution in Italy, like it is some power, for example, on their credit desk.
+ So essentially do helping on the writing process and due diligence process in order to create this kind of like corporate bonds instrument for these financial institutions.
+ What drew you into the blockchain space in the first place?
+ That's a really good casting, because I've been brought into the DeFi space by my other co-founder, our CTO.
+ And who made me find out about Ethereum at first?
+ At that time, I was actually still a finance student, and we were exploring Ethereum.
+ We had a background in computer science, and with my background in finance, we were thinking how we could build something on Ethereum.
+ And the first instance of something that would build on-chain was actually touching the arbitrage and arbitrage bonds.
+ So, you know, what we know right now as MED, at that time was still called PGA price gas auction, you know.
+ So we started building these kind of bonds that were looking at discrepancies between taxes and taxes and arbitrage in price across these assets.
+ And yeah, so that was kind of like the first instance and the first way where I realized that we could really create something that was completely programmable and automatic,
+ and was really like changing the way that I was used to see finance.
+ Because, you know, from the academic, but even from the professional background, I always saw finance being quite sealed.
+ So, all these kind of closed systems that were all like communicating internally and not to each other.
+ And with Ethereum, that was like the first time that it was my ha-ha moment.
+ It is like, okay, that's really composable and that's something that we can build out to mission that runs on-chain and runs 24/7.
+ So, that was the first time I really touched with my hands, Ethereum and the power of smart contracts.
+ And then, you know, I just got into the rabbit hole of that.
+ So, we started exploring land in protocols, that's how it wasn't even a hobby. It was only compound and the YDX.
+ And so, then everything evolved into what brought us into idle finance and then those are later on.
+ When did you decide to kind of discontinue the arbitrage bot?
+ That's a good point because idle finance came out from a need that we had for the arbitrage bots.
+ Because actually, you know, arbitrage opportunities are now, like, always available.
+ And so, the funds that we were using to deploy into the arbitrage bots were idle for some time.
+ So, we were like, okay, we need to find a way to make that more efficient.
+ And so, I would say that we proposed idle finance as a way to optimize the yield on idle funds
+ in 2019 on an Akatonor on Gitcoin.
+ So, I think that was in 2019 when we decided to focus completely on an idle finance and put aside the arbitrage bots.
+ So, I would say 2019, we started the arbitrage bots back in 2017-2018.
+ So, yeah, we ran that for a couple of years and then decided to focus completely on idle finance.
+ And what's the rationale for kind of moving over purely a return on investment kind of play or what were the drivers here?
+ Scalability. One of the major drivers was scalability because with the arbitrage bots, we saw that by increasing the AUM,
+ the TVL of the arbitrage bots, we were actually reducing the margin of the funds for the arbitrage opportunities.
+ So, we were really focused on building something on Ethereum that could be scalable, you know.
+ So, when we started implementing the very first version of idle finance into our arbitrage bots,
+ we realized that we could manage 1 million to 100 million and the result was pretty much the same
+ in terms of return of the capital because the kind of optimization could be applied
+ with more capital compared to arbitrage bots.
+ So, building something that was able to be scalable and to be offered also to a more broader audience,
+ I would say, because, you know, arbitrage in general is quite a niche product or in general,
+ it's a niche concept that not a lot of users grasp or understand in general.
+ Instead, like automating the yield generation optimization yield generation across different
+ protocols was really something that was clicking with DeFi users at the time.
+ So, I would say, yeah, scalability and also being able to offer this kind of product
+ to a broader audience and let them understand the product to a broader audience was the main driver
+ of us focusing completely on idle finance.
+ There were quite a few projects that kind of centered around that, right?
+ Kind of, I mean, in the very beginning, it was things like incident that kind of let you kind of
+ switch funds between make and other memories correctly and then kind of more sophisticated
+ things like come along. So, how did idle Dow kind of fit into that landscape?
+ So, I think we had the lucky and the opportunity.
+ We have been lucky and we had the opportunity also to meet like,
+ instead of team or even Andrei Kranger from Bayern, even before like them building out their products.
+ I would say, instead of being really great that they have been really great builders
+ and but never really focused on yield optimization and automation of that yield optimization.
+ They were more focused on providing great tools for borrowers that were using like,
+ for example, compound, AAVE, or even maker Dow.
+ And I would say that instead of falls more into a different category compared to idle finance.
+ Why earn an idle finance are pretty much similar. Actually, I remember a lot of
+ conversation in Telegram with Andrei Kranger at the beginning on how to solve some like initial
+ issues of yield optimization like there was this ping-pong effect that we found out at the time
+ that was affecting yield aggregators, which means that essentially, when you move a big chunk of
+ the funds into a specific lending protocol, you also influence the interest rate on that specific
+ protocol. So, if you don't have control on the funds and control on the influence that you have
+ on the interest rate, you might end up into a ping-pong effect, which means that you move
+ all the funds from protocol A to protocol B because protocol B has the higher interest rate.
+ But when you do that, you're lowering the interest rate of protocol B and might become
+ lower than the protocol A. So, the yield aggregator sees that the higher interest rate is again on
+ protocol A. And so, you move back the funds from protocol A. So, you see that you create this
+ kind of ping-pong effect between by moving a rebalancing funds. So, we have been like
+ talking a lot and understanding what was the right, you know, algorithm and optimization mechanism
+ to take all these. Also, we have hundreds of cards at the beginning. And then I think
+ why you're indeed a great job on, I would say, the positioning and narrative built around the
+ yield aggregation. At the time, we were quite, you know, for starting Idaho Finance, as I mentioned,
+ we started with Gitcoin Acciton. So, we won that Gitcoin Acciton and then we got accepted into an
+ accelerator in New York with consensus. And so, we kind of took a more professional approach,
+ I would say, or institutional approach to the product. Instead, I think at the very early phase
+ of wire and they took more a digital approach, which turned out to be the right narrative. So,
+ I would like say that they did a great job on that side of things. And, of course, then the
+ dev team and the community that formed around wire was really great. So, congrats, of course,
+ on wire and Andrei Cronzo. I'm bootstrapping these at the beginning. And I would say that
+ we kind of, at the end of the day, DeFi was a small market at the beginning. So, the way that
+ we were looking at competitors at the beginning was more like co-petition, radar, that pure
+ competition. And so, it turned out that, like, one of the major partners for idle finance was
+ wire in itself. Like, with some of these strategies and the volts that wire had at the beginning,
+ like for USDC, USDT, and I, were based on idle finance yield optimization for a big chunk of the
+ funds that they were managing. So, it turned out to be kind of like a more a partnership
+ radar than a competition with wire in finance, for example. Of course, over time, DeFi market
+ evolved, become more sectoralized, more, you know, professionalized, and of course, competition
+ came out. But I would say that early times of DeFi, I really enjoyed the early times in DeFi
+ because it was all about, like, cooperating together and trying to build, like, you know,
+ all the legal pieces that you could put together in DeFi was really about this sentiment, was really
+ about this philosophical, you know, work together to grow the market instead of competing together
+ to shrink the market to each other. What ultimately kind of drove the pivot from idle to prattle?
+ I would say that we've focused a lot in for on yield optimization from since 2019 to, I would say,
+ 2022. In 2022, we realized that most of the customer base for idle finance was
+ institutional funds. So, institutional funds are locating across different strategies.
+ And one of the major feedback that we received there at that time was that
+ yield optimization is great, but we need to take care of risk and risk diversification.
+ We need to mitigate risk for the liquidity providers. So, at that time, we decided to
+ introduce an additional product line and an additional primitive to the product suite,
+ which was yield the trenches. So, essentially, a primitive where we could
+ yield the senior and unit trenches, senior meds and unit trenches on top of potentially any DeFi
+ yield source. And so, these those are response to these kind of feedback that we received there.
+ And the continued and junior trenches in this context kind of being different rates of return
+ for different levels of risk. Do you mean something else by that? No, no, that's correct. That's correct.
+ Essentially, senior tranche is the most protected vehicle investment world that is protected by
+ the unit tranche. So, whatever there is default because of an actor or a loss of funds by the
+ borrowers or these kind of loss of funds, the unioners are first loss observation layer.
+ So, they absorb the loss on the alpha of the senior because of this risk that they bear,
+ they receive also an higher yield compared to the senior trenches. So, we introduced this primitive,
+ we started building around different kind of yield sources in DeFi over collateralized landings,
+ taking in order to understand also where was the product market fit for this kind of product line.
+ And we realized that most of the product market fit was on institution credit. At that time,
+ we were working with protocols like maple or clear pool that were doing these kind of first
+ instances of institutional credit on chain. And we saw that like liquidity providers and lenders
+ were really appreciating senior and unit tranches for institutional credit lines because
+ different credit funds, different badge funds or families offices had different views on these
+ specific institutional borrowers that they were lending to. And so, using senior or unit tranches
+ allowed them to customize the risk reward profile of their entire credit exposure of their entire
+ credit portfolio. So, we realized that most of the product market fit was there, but we received
+ also a lot of feedback from both borrowers and lenders that the credit infrastructure was not
+ ready for institutional needs. It was really kind of like mimicking a compound and have an
+ interest rate model, which was a paying for the borrower because it was a single borrower that
+ wanted to, with a variable interest rate, that operation on speaking was terrible because they
+ were looking more at the interest rate that they were paying compared to doing their own business.
+ And in general, the terms and the underwriting process for these kind of institutional credit
+ lines on chain at that time wasn't really customizable and modular, I would say.
+ And so, we realized most of the product market fit was there. There was room for improvements
+ on the credit space. So, we said, okay, we need to, we have a clear opportunity over there,
+ and we wanted to build and improve that space, that part of the DeFi sector, let's say.
+ So, that's pretty much how we transitioned to Pareto. We started working a lot with
+ institutional credit lines, and then we realized that we wanted to improve the credit lines themselves.
+ And that's how essentially Pareto came out.
+ Tell me more about the institutional borrowers. So, what kind of institutions were they that they
+ were willing to borrow in this very competitive market on chain, where you can go to your local
+ bank and probably get a more competitive loan? That's a good point because, of course, they could
+ access, you know, could originate on credit lines from a traditional bank, but the process of
+ origination takes a lot of time, especially the kind of borrowers that we're working with right
+ now are pretty much institutional funds that run delta neutral strategies or market makers or prime
+ brokerages. And the process of originating a loan and managing that loan in a traditional way
+ usually takes a lot of time and resources from their team. And usually the teams are now like
+ really huge, and so the overhead is really tangible for the final borrower. We recently actually run
+ a use case with one of our major borrowers, which is Falcon X, one of the leading market
+ and prime brokerages. And what came out of the use case is that before using on-chain credit lines,
+ so relying on traditional credit lines took around 80 hours per month from their team to make sure that
+ in order to originate, all the documentation was there, making sure that all the lenders were aware
+ of updated terms and also doing manual reconciliation. What came out of this is that now with the on-chain
+ credit line, they have to dedicate two hours per month, the same team. So operationally speaking,
+ the improvement for the borrower is really tangible. There is a streamlining process that is happening
+ on the operational side of things. On-chain credit lines are pretty much self-operating
+ compared to our traditional credit lines. So that's I would say the main advantage of operating
+ an on-chain credit line. And secondarily, I would say also being able to have a credit position that
+ is composable is a big advantage for these kind of borrowers. And a big advantage, I would say,
+ also for the lenders at the end of the day, because being able to use a credit position as a collateral
+ in a more for Euler, for example, or create an interest rate swap instrument using PENDO for the
+ same credit position, it's really powerful for the lenders. So lenders have a better, let's say, UX
+ when lending to this kind of institution. And interns borrowers are able to originate more
+ liquidity with these kind of credit lines and streamlining the process of managing these kind
+ of credit lines. Cool. There's a couple of projects kind of doing very similar things in the space,
+ so kind of the likes of Maple and Centrofuge and so on. So how is your approach different or is it
+ different from your competitors? So it is different. I think Centrofuge,
+ they started like really early, so they did a great job at pioneering on that on this kind of area.
+ And also Maple, they kind of pivoted, I remember back in, maybe it was 2020, 2021, and then they
+ focused completely on on chain credit. So both are doing great jobs on expanding this kind of space.
+ The main difference that we wanted to implement since the beginning of Orator was to make sure
+ that we have a highly customizable protocol. So credit lines can be really customized from
+ underwriting terms, covenants, to compliance requirements. And this is something that like,
+ for example, Maple or Centrofuge is a bit limited, I would say, but also more importantly,
+ the credit lines that we have are creation based. So we are not the only one that are underwriting
+ this kind of credit lines, but we opened up these processes also to third party curators.
+ It's kind of if you look at what happened with Marfo and other over collateralized lending
+ protocol in the past, where they introduced this kind of curation role, that's essentially the
+ saying that we're doing with Orator compared to other on chain credit products. These allows us
+ to have, again, more scalability for these kind of products, because we're not the only one on
+ the writing new borrowers, but we have other curators that can provide these kind of underwriting
+ capabilities. And also in our longer term vision, the the curation based model allows us to work
+ also with kind of like traditional financial institution. Instead, we see more like products
+ like Maple or Centrofuge kind of a in house underwriting company. So that's pretty much
+ like the main difference that we have. It's an open curation based model versus all in hours
+ underwriting process. So underwriting is actually really skill task, right? So kind of like what it
+ kind of takes is kind of you need to understand the books of this company, you need to understand
+ the business prospects, you need to kind of you need to calculate the default risk and the associated
+ interests you need to charge in order to kind of break even. Tell me how this process is handled
+ within Pareto and kind of like how you outsource this to others. So with Pareto, that's a really
+ good point in the sense that on the writing is, it requires a lot of skills and also a lot of
+ domain expertise, I would say. That's why also we started with institutional digital native funds.
+ So we are which are most familiar with what we have been doing in the past. So we completely
+ understand the kind of deployment and strategies that they're going to apply to the credit lines
+ that they're opening. And of course, like the first step, it's pretty much like, as you mentioned,
+ a scan and review of the creditworthiness of the borrower, which is given by analyzing the books
+ and the balance sheets of these kind of borrowers, making sure there is enough equity, for example,
+ to be able to cover for any losses to be. And I would say that like there's been some experimenting
+ underwriting in the past. I'm not talking about Pareto, but in the past, there's been
+ some experimenting underwriting small companies, for example, which turned out to be a bit too
+ much naive. And so I would say that like in order to bootstrap and grow this kind of credit space,
+ we need to start with more solid corporation and institution at the beginning, just to make sure
+ that DeFi still get a good reputation on credit side. Then it really depends on the kind of deployment,
+ for example, we work a lot with Maven 11 credit as a curator for file connects. And what they do is
+ pretty much on the underwriting side of things for the credit line that we have, there's been a
+ lot of work around the covenants that are around the credit line. So the borrower has a certain
+ kind of parameters and action that they can do. And at the moment, Maven 11 is monitoring that.
+ And we're doing the same for other borrowers like Fazanara or Boston trading, for example.
+ So it takes an initial screen of the wealthiness and the and creditworthiness of the borrowers,
+ and then it takes also monitoring tools and monitoring capabilities for making sure that
+ the alphiness of the borrower is still there. It's a bit manual at the moment, but I will
+ like goal in the next, I would say, year is to automate that process. And actually,
+ just to introduce a bit, a new concept here. But what we see as a really interesting
+ implementation into this kind of credit line is zero knowledge technology. Because what we
+ realized is that most of the information and data that we need to monitor and review to make
+ sure that there is a good creditworthiness for a borrower are sensible data for the borrower.
+ The borrower doesn't feel really comfortable in making this kind of information completely public,
+ both for compliance reason, but also for like just to be ahead of other competitors and not to
+ fall behind other competitors. And what we saw is that like ZK technology really fits well
+ in this kind of area of monitoring, creating warnings and covenants for certain credit lines.
+ So I'll give you a really really simple example of that. Let's say that a credit line for an
+ institutional borrower has a covenant that says that the borrower can only deploy files into
+ tier one exchanges, and no more than 25% of the entire loan amount can be deployed into a single
+ exchange. So the borrower doesn't want to expose all this kind of data for all the reason that they
+ have. And by using ZK technology and more precisely ZK TLS, we essentially encrypt these kind of data.
+ And what the lenders receive is a proof of the fact that the covenant is respected,
+ and so also that the creditworthiness of the borrower is still there. And in this way, we also
+ to make the process from a more traditional monthly reporting or like a certificate of collateral
+ on a specific custodian that is issued, then you need to completely rely on a single data source.
+ Two, the idea is to have the borrower being able to plug in multiple data sources from centralized
+ exchanges, custodian accounts, bank accounts, even encrypt this kind of data. So all the
+ sensible information are protected, and it's privacy preserving for your final borrower.
+ But the lenders on the other side are able to get a proof of the fact that the
+ exponents are respected, and the borrower creditworthiness is still good.
+ Is there some sort of second opinion for the underwriting? So kind of, do you have different
+ companies kind of look at the same loans, or is the underwriting in some way incentivized or penalized?
+ Do they kind of make a wrong assessment? I mean, wrong assessment, it goes a long way here,
+ right? Because kind of like everyone acknowledges from the get-go that there is some level of risk,
+ and kind of in order to kind of say whether something was calculated correctly or not,
+ kind of you would actually have to run this experiment many times, and kind of like you're
+ only running it once. So kind of, even if kind of like there's only a 2% chance of default
+ that is acknowledged, kind of like those 2% can materialize, right? So kind of how do you
+ do quality assurance on the underwriters? That's a good question, because we have been thinking
+ about this, because of course, like underwriting process is not like a mathematically something
+ that mathematically you can you can always like be right. So of course, overall, we could expect
+ the folds in the as we scale up this kind of credit protocol. So we can all like say, okay,
+ there won't be any defaults. So we need to build around mitigating also this kind of default risk.
+ And one way at the moment, essentially, each credit line can be curated by a single curator.
+ So there's a one entity that takes care of on the writing and monitoring the alphonies of the
+ borrower. But the guardrail and the essentially the protection that we embedded into it is that
+ the curator is also a legal representative for the lenders. So it doesn't take care only
+ on the under of the underwriting process and monitoring process for the borrower. But in a case
+ of a default, the curator in this case is becomes the lender represent legal representative towards
+ the borrower. So the incentive, of course, for the curator is to make sure that they are doing
+ the right calculation in order to get the default risk and also to make sure that they didn't they
+ don't underestimate this kind of default risk, because then they are responsible for any legal
+ representation for the lenders, which is actually another difference from other protocols. Other
+ protocols, essentially, if you're a lender and it happens to be a default, it's up to you to go to
+ court to to file the bankruptcy, for example, documents in order to get back in usually multiple
+ years, any proceed from the liquidation of the borrowers. Instead, in the setup that we have
+ is the curator that is also taking care of this process. So of course, because of that, the curator
+ is more incentivized to do a proper due diligence and proper monitoring of the borrower. Even if it
+ means to be more conservative than than the usual process, but that's the initial incentive. Of course,
+ there's not a final setup, I would say, over time, for example, yeah, having multiple creators
+ with kind of different roles, like one on the right in initially doing due diligence, another
+ one doing monitoring just to have like multiple parties that provides an understanding of the
+ borrowers makes completely sense. But yeah, at the current time, that would be the incentive for
+ the curator to provide a proper due diligence and provide a proper underwriting process.
+ What happens if the underwriter just doesn't do it then? So kind of like, say the borrower
+ defaulted in kind of like there are 20 lenders that kind of now I as an underwriter meant to
+ represent it. I just don't do it. And I kind of just kind of step out of my business and let it
+ default, start up a new underwriting business and kind of start from square one until because
+ kind of defaults are kind of if you if you play it in any way kind of correctly, defaults are rare,
+ right? Kind of like default should be rare. So if I kind of if I can run my business
+ until the first default unfettered, is isn't, am I not incentivized to do that?
+ Yeah, I see I see what you're saying, but actually there would be liabilities for the
+ underwriters as well. So of course, I see what you're saying that you just like close out the
+ underwriting business on that entity and you open up a new one, but you completely destroy the
+ reputation of your underwriting process. So these are known entities, you know, who they are and
+ kind of like there's kind of like a soft reputation, even if it's not on chain kind of, you know,
+ I would say, yeah, institutional, like in general, on chain credit is big given we work with a spectrum
+ of collateral, because we could we can enable borrowers putting collateral, of course, but we
+ can work with a full spectrum of collateral from kind of standard collateralization ratio to even
+ zero collateral. I think it's all about reputation, like all these kinds of lending is also reputation
+ based lending. So okay, I see a lot of also borrowers institutional borrowers at the moment
+ that are looking at this kind of under collateralized credit lines as a way to to build a credit score
+ that is like it's it's on chain and all the interest payments that they make, all the
+ repayments of the notion that they make is essentially something that builds a credit score that is
+ on chain and it's immutable on chain. So I would say that one like a big part of the of managing
+ these kind of credit lines is also making sure that the borrower but also the underwriters has
+ this kind of reputation based way of working on the credit lines. Okay, so I think we kind of cover
+ the how and the why and kind of the what maybe let's let's look at the house. So kind of like
+ if you if if you could walk me through the mechanics kind of like from the lenders deposit to kind of
+ how the credit gets allocated and how the year is paid out and how often kind of these loans are
+ novated and so on. I think kind of that that would that would go a long way.
+ No, yeah, absolutely. So what the process of lending out to to a specific credit line
+ we are from a UX perspective. I would say we made sure to make it as as much similar to the
+ normal DeFi UX as possible. So initial like you know, liquidity providers could feel it. They were
+ still like in DeFi. Of course, there are some compliance requirements that we need to respect
+ depending on the jurisdiction of the borrower. So all the credit lines at the moment have a KYC
+ process that you need to go through as a lender before being able to deposit. And so after that,
+ like you can of course you can access all the data around the borrower or all the data around
+ the performance of the vault and make sure that these respect the risk reward profile that you want
+ app for your for your credit exposure. The kind of like the duration and the interest rate models
+ of the credit lines that really depends on the borrowers because as I mentioned before, we built
+ the protocol around customizability and modularity of the credit lines. So the borrower can really
+ decide how the interest rate model behaves and what is the duration or the covenants of the of
+ the credit line. So just to give you some example just to let also the audience here understand
+ better understand how the current credit lines works. We do have usually like weekly to monthly
+ duration of these kind of credit lines. At the end of which the borrower needs to pay the interest
+ rate, the lenders can request withdrawals and borrowers have like different duration from weekly
+ to monthly to satisfy this kind of withdrawal request. And so the interest rate model for example,
+ it's decided be with the underwriter, but also the borrower. So for example, Fazanara,
+ which is one of the borrowers that we have wanted to have a flexible on-shin credit line
+ that we done interest rate that was based on an external benchmark. So Fazanara digital is
+ currently running a built delta neutral strategy doing a funding rate arbitrage strategy. And so
+ they wanted to have the on-shin credit line attached to the performance of these kind of
+ funding rate strategy. So we took up a benchmark which is the open interest rate at the BTC funding
+ rate times 1.3, which turned out to be 88% correlated to Fazanara performance. And so we integrated
+ this kind of interest rate model into the into the credit line. So that's how we can like the
+ customizability is really it's something that can be used within credit lines and really changes
+ the way the credit lines work. For example, instead with Falcon X is pretty much traditional. It's a
+ fixed rate facility with 30 days callback period. So it mimics a bit more the traditional kind of
+ credit lines that they already had. But with the advantage of now, for example, Falcon X credit
+ line is being used as a collateral in Marfo. So lenders can also perform looping strategies
+ on Marfo or even just, you know, use it as a collateral tomorrow out to USDC and deploy USDC
+ somewhere else. So you bring also more capital efficiency. So the process of deploying funds
+ is pretty similar to DeFi standard, I would say UX apart from the KYC process. Different
+ story also for USP and SUSP, which is the yield being stable kind that we we put on top of that.
+ But I'm gonna stop here and not sure if you have other questions on the on the credit lines himself.
+ Yes, you said there is compile 3 KYC. Is that just for the lender or just for the borrower or
+ also for the lender? Also for the lender, yeah. And what are the requirements on the lender here?
+ It depends on the borrower in the sense that different jurisdictions are required different
+ level of KYC. For example, Falcon X hits US based and we do let's say traditional KYC process. So
+ getting all the documentation source of funds, corporate documentation, if it's an entity that
+ is deploying funds into Falcon X. And so I would say it's more traditional kind of KYC process.
+ We introduced those in partnership with our KYC provider, which is Keering. The proof of KYC
+ way for some of the some of the borrowers are fine with it. And essentially what we do is letting
+ the user login into our application via Coinbase, Binance, OKX accounts. And these allows us to
+ hinder it the KYC level that they have on those centralized exchanges. So user doesn't have to
+ redo again all the KYC process with this kind of KYC process that we have. But they just need to
+ login with Coinbase, Binance, OKX, or even we do have Raveloot, for example, as a possibility to
+ login with. And we hinder it and we get a sort of proof of KYC. And that's for some jurisdiction
+ enough for the borrower to be respecting the compliance requirement that they have. So those
+ are the two current ways that we can allow lenders to KYC. And depends on the credit lines and the
+ jurisdiction of the borrower. And are the timelines for borrowers and vendors typically
+ different? So kind of like my naive assumption would be that as a borrower, kind of I prefer
+ longer timelines, whereas as a lender, I want to be able to kind of recall my loan kind of like
+ from week to week. Do you see this in practice? Yeah, we definitely do see that in practice.
+ I would say it's pretty much a process of finding kind of a credit market equilibrium in the sense
+ that we do receive requests from borrowers to have longer duration of these kinds of loans. And on
+ the other side, lenders ask for shorter durations in order to be able to recall funds. What we saw is
+ that using a marketplace approach to that. So the borrower can propose different duration and let
+ the lenders feel the credit line that they prefer to have makes sense. Of course, like the behavior
+ that we see is that usually borrowers prefer to have longer duration. But for longer duration,
+ they know that they have to increase the interest rate. So it's kind of like having the borrowers
+ bidding and providing these different terms to the lenders. And then the lenders find an
+ equilibrium and find a sort of like natural deployment into the volts that they respect. That
+ they respect the risk reward profile and also the duration that they want. So there is kind of a
+ process of finding the equilibrium at the beginning where the borrower proposed different duration
+ and different interest rate models. And the lenders pick and choose the one that they prefer. And
+ yeah, having this kind of like marketplace approach allows this allows us to have like multiple
+ proposals from a borrower. Lenders decide which one is better for them and naturally than the
+ borrowers keep the one with more liquidity into that it that is being allocated into it.
+ Okay, you also kind of briefly touched upon this earlier, but kind of there's also this synthetic
+ dollar product that you have. Walk us through that. Yeah, so we decided to introduce this kind of
+ synthetic yield bearing asset into built on top of the credit lines. Because well, on one side,
+ we wanted to create a sort of like index of these kind of credit lines. What we observed is that
+ some institutional allocators wants to control their credit exposure. So they want to create
+ their own credit allocation. And so they pick and choose different credit lines with different
+ allocations. And that's their own decision. But some other like institutional allocators actually
+ wants to have exposure to pretty much a diversified basket of credit lines. And they don't want to
+ really like trigger and control all and and monitor all the exposure that they have. They're just fine
+ with all the borrowers and they want to have exposure to all the borrowers. And so on one side,
+ USP and SUSP, which is the name of the synthetic dollar and yield bearing synthetic dollar that we
+ have allows to have a basket of assets to access a basket of credit lines instead of having to
+ pick and choose all the credit lines. And on the other side, actually these create some way for
+ less sophisticated investors to access these kind of credit exposure. You can see that as a sort of
+ like ETFs compared to be can choose stocks and build your own stocks portfolio. And so the way
+ that that USP and SUSP works is that you deposit USDC or in the future USDT and USDS for example.
+ And these table currents get allocated across a basket of credit lines, which currently we
+ proposed an initial allocation mechanism, which is kind of the generating rules of the expertise
+ that would build with idle finance and the yield aggregation with idle finance. But in this way,
+ in these instances, it takes the borrower creditworthiness, the duration of the loan,
+ the interest rate model, it creates a diversified allocation across these kinds of borrowers. And
+ also always keeps a reserve that is highly liquid to being able to meet the withdrawal
+ request from this table coin. And so these gives access also to a less sophisticated,
+ but also to a, I would say a permissionless kind of audience because having this kind of
+ synthetic dollar and yield bearing, synthetic dollar allows us to apply the let's call it
+ circle model. You know, if you want to have you as DC a mint or redeem you as DC, you need to
+ be KYC, do you need to go through circle onboarding process and then you're able to mint and redeem
+ USDC against dollars. But you can actually acquire or sell USDC on secondary markets,
+ on taxes, for example. And this is something that we can apply as well to USP and SUSP.
+ So permissionless user that doesn't want to go through KYC, they can acquire USP,
+ in Uniswap curve balancer, for example, stick it and then eventually sell it back into Uniswap
+ balancer or curve. So this allows also to broaden the audience and the access to this kind of
+ crediting next also to a permissionless kind of audience and not only to a permissioned
+ kind of audience. I have several follow ups here. So the first one being kind of like a mechanical
+ one. So seeing that I can kind of deposit into this pool anytime, kind of how do you make sure
+ that the size of the pool is commensurate with kind of the borrow volume that you see.
+ You're saying that since you can deposit into USP whenever you want, how do we match that with
+ borrowing requests on the other side? That's a really good question. At the current scale of
+ USP and SUSP, that's not being an issue. So we have more borrow demand.
+ Exactly. We do have more borrowing demand at the moment, but it's an aspect that we have been
+ thinking about. And I think that what fits by well is that we can also integrate blue, cheap,
+ DeFi yield sources as a way to park this kind of capital if there is not enough borrowing demand.
+ Like for example, deploying into SUSDS, the old DSR from MakerDAU or into AvaUSDC Ethereum pool,
+ which are kind of blue cheap. Exactly. Okay, second question,
+ kind of previously kind of in terms of legal defensibility. So kind of previously, I can see
+ how you say, okay, we're just kind of the matchmaker here, kind of like this is a one-to-one
+ relationship. But kind of like with USP, arguably, you're offering kind of an investment product,
+ right? Are you worried about that? So how the legal clarity around that still to be shaped, I
+ would say, but yeah, we are thinking around that. We don't want to completely be an investment
+ advisor, I would say, on this kind of thing. Because of course, yeah, like we deal with aggregators,
+ if there is a central team, a central entity that just proposed their locations,
+ you end up to be an investment advisor. And that's kind of borrowing a concept from what we build
+ also with Adul Finance, which is that we, the allocation mechanism for the USDC or USDT or
+ USDS that we that are backing USP, it's open. So essentially, Pareto, we don't have the token
+ live right now, it's going to be, it's going to be released because the governance process of
+ Aareto Dow, in this case, would be able to also elect, create a locator manager. So we're not going
+ to be the only one proposing a location, but there would be an idealistically speaking
+ and net work. Your market plays again for different investment strategies. Exactly, exactly. Okay, so
+ maybe I checked this morning and didn't seem terribly liquid, right? So kind of, what's going
+ on there? So kind of like, what's the what's the rate of return you currently offering,
+ and why is it not attractive enough for users? I would say, so we currently have around
+ four million, four or five million into into USP. I think it's still taking a bit of time to
+ bootstrap the liquidity over there because what we are missing in our opinion is the
+ additional use cases with integrations with like over collateralized protocols or pandals.
+ So I would say that currently the interest rate on USP is around 11, 12%. And it's really like
+ depending on the borrowers that we have currently, we do have like three borrowers integrated within
+ USP and we need to expand that in order to make sure that we can, on one side, diversify the
+ exposure more for this kind of index, but also being able to allocate to higher yields in order
+ to become more attractive in general for the market. I would say that the major problem that we found
+ out is to bootstrap the integrations, so being able to use as USP as a collateral in more for
+ Euler or Ava, for example, create a more liquid fixed rate facility. So, for example, in Pando,
+ being able to have this kind of fixed rate. And of course, I mean, we're still early in the
+ development of SUSP and I think we can make more, you know, we can push it more on the visibility
+ side of things, which is something that we haven't done a lot yet, but because we wanted to have
+ all the infrastructure ready and test it out and battle test it, I would say. So, I would say,
+ it's not really about the interest rate, because if you look at, I would say, Athena, for example,
+ what is right now, Athena should be around like five, six percent, if I remember correctly,
+ they are overly allocated also to like USDS, so it should be quite similar to the SSR rate.
+ So, it should be around that. So, we're kind of like, we're giving double of the interest rate
+ of that. So, I don't see the interest rate as a major problem. I see more like being able to
+ integrate the USP and SUSP across other protocols, which is something that we're doing. We started
+ with Euler a couple of weeks ago and bootstrapping that. We're gonna push it more for getting things
+ listed as collateral as it's a pain. Yeah, it is, but I mean, it makes sense, so it should be kind
+ of like a... It should be a pain, but... Exactly, exactly. Otherwise, it's hiring the risk for
+ defines, I don't know. But it was like pushing on visibility and dedication, it's something that
+ we're gonna do in the next month, which would be helpful to understand what is USP, what is SSP,
+ where the yield is coming from, and these we expect will bring also more liquidity and more
+ scale up scale to the USP and SUSP. Okay, credit in some sense is more opaque
+ than most DeFi activity, right? Because it heavily depends on off-chain books that you don't
+ necessarily have access to as a user. How do you make this compatible, or do you make this compatible,
+ with the real-time transparency that people expect from DeFi? That's a great point. So currently,
+ it's difficult to make this kind of process really comparable to the real-time automation
+ monitoring of DeFi, but we need to go there. We need to improve from traditional loan that often
+ rely on quarterly, monthly reports, to verify barwell health. And these creates also a risk
+ lag, because you might find out too late that a covenant was breached, for example.
+ So yeah, like ZKTLS, implementing ZKTLS would be the first step towards that, towards a more
+ automated monitoring process, and also being able to have a diversified access to different data
+ sources from the borrower allows us to verify from multiple data sources that the borrower
+ else is there, compared to just a single data source, or a single audit or that makes the
+ auditing process on the borrower. So I would say that one of the current implementation that we
+ have in mind to solve this is to create this kind of ZKTLS model, where the borrower can
+ attach multiple data sources with different even frequency of data, but to try to be as close to
+ the real-time monitoring process that we have in DeFi. And so monitoring and automating this
+ process for the borrower, so they don't have to provide manual reports and monthly or quarterly
+ reports. It's kind of a step towards going close to the real-time monitoring that we have in DeFi.
+ Yeah, so my worry is primarily about malicious behavior. So I do agree that kind of all kinds of
+ unfortunate business consequences and so on. I think kind of like this is where I could buy this.
+ I'm not a finance person, but kind of I know that kind of like if I needed to kind of make
+ books look good, depending on kind of like I would book things different ways or kind of like I
+ would delay the booking. I think there's different ways of kind of fudging the books, right? So that
+ kind of crisis is not immediately apparent. Do you have any guardrails against truly malicious
+ borrower behavior? Yeah, I would say not relying solely on proprietary data sources. So I would say
+ like getting financial statements, bank records, the trading activities in general to form this kind
+ of borrower reputation shouldn't be something that a borrower itself is providing. But it's
+ something that we fetch from the data sources that are third parties. And for example, it's a
+ read-only API from a checks account. So the borrower itself cannot really like
+ manipulate this kind of data. It would be checks that should be manipulate. Of course,
+ there is an assumption of trust. But they can open a second account, right? So kind of like I
+ can have one clean finance account and open a second account in the same name, right?
+ Yeah, but when you're opening this kind of credit line, you're attaching like the either like
+ like all the funds that you are borrowing out from the credit line should be verified that goes to
+ that specific checks account. And all the activity around that checks account is what we are monitoring.
+ So the collateral that you're using, the kind of trading activity that you're doing from that
+ account is what matters for the lender. So I would say these kind of like credit lines should be
+ getting a mix between other accounts, but should be related to a specific checks account
+ from the borrower side. And in general, like the way that we are also structuring from a,
+ I would say legal perspective, the credit lines is that they are SPV based. So there are also
+ some bankruptcy remotes from the, let's say, main company as well. Okay. So that that's
+ trying to ring fans as much as possible. Exactly. So if the Pareto interface and kind of like the
+ centralized entities behind it kind of disappeared this afternoon, could I still unwind my loan or
+ redeem my USP just by interacting with smart contracts? Or do I kind of rely on you guys to
+ kind of provide this service to me? No, it would be possible. The way that we made the protocol
+ itself, especially on USP and SPS side is that there can be a way for the DAO itself to change,
+ for example, the admin controls for the allocation mechanism, for example, that also allows to,
+ let's say we call back all the borrowers, all the funds from the borrowers and repay all the
+ USP token holders. So if we call it, we have been calling it in this kind of test with our legal
+ advisor, the Bahamas test. So if all the team decide to go to Bahamas and just don't be able
+ the protocol anymore, we need to have a way to let the community and the token holders to be able to
+ change the parameters and to change the admin controls, recall all the loans and repay back
+ USP and SPS. So yeah, we have been thinking about that. And since the beginning, the protocol is
+ made to be open in a way that it doesn't only rely on the core team.
+ Maybe as a closing question, if you look at the on-chain private credit market and
+ Pareto in particular, what does success for you guys look like in the next two to three years?
+ Nice, great question in the sense that of course, the main metric that we're using in DeFi is
+ TVL. So that's kind of a North Star for all the DeFi projects. And that's what we need to,
+ what we're focused on growing over time. And that comes, of course, from creating a more and more
+ diversified market marketplace. So what I see as a growth driver and potential expansion for Pareto
+ in the next two, three years, I would say, is to gradually introduce non-crypto-related
+ borrowers. We want to have a way to give away those two lenders and equity providers in general,
+ to not rely only on borrowers that are related to the crypto market, because then depending on the
+ market cycle, you're completely subject to the market cycle. And so the first driver would be
+ to expand into more corporate bonds, corporate loans kind of credit lines. So introducing kind
+ of like FinTech companies or cross-border payment facilities, credit card companies,
+ account receivable companies, still related to finance and FinTech, but that would be the first
+ expansion. And so creating this kind of more and more diversified marketplace that would allow
+ us to grow USP and SUSP diversification power, and allow us to work with a larger basket of
+ borrowers, borrowers' capabilities and loans in general, to grow to grow USP and SUSP. So I would
+ say two, three years, we are more new kind of corporate borrowers. We are more new curators
+ that in our vision are also like traditional institutions that bring their own underwriting
+ process and due diligence process on shame without having to build everything from scratch.
+ And of course that would be like meaning a TVL that goes above 1 billion to like numbers that
+ were more like, you know, credit market is a 15 trillion market all around the world. So we do
+ have a lot of room of expansion here in DeFi. So like our first like milestone is 1 billion
+ of TVL, but then we need to think bigger with like this kind of number and we need to grow from there.
+ Cool. Mateo, where do we send people to find out more about Pareto and kind of potentially
+ borrow or lend some money with you guys? I would say let's definitely direct users and the audience
+ that is interested to learn more about Pareto, to Pareto.credit. That would be the main point of
+ access where you can access the dashboard. So you can see all the both read about the borrowers
+ that we have read about the strategies that they're running and understand more also about USP
+ and SUSP. And then I would say if they want to also keep up with the announcement that we make,
+ which lately are a lot actually to follow us on Twitter @Pareto.credit. You can find all the
+ links at @Pareto.credit for Twitter as well to look at all the announcements that we're making
+ and also to read the blog posts and the articles that we made with our partners.
+ Perfect. Thank you so much for coming on Mateo. It's been a pleasure chatting with you.
+ Thank you. Likewise.

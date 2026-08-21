@@ -1,0 +1,1304 @@
+1
+00:00:00,000 --> 00:00:04,800
+This is Wyatt from Castle Island and today on the podcast, I was joined by Alex Lin,
+
+2
+00:00:04,800 --> 00:00:09,920
+founding partner of Reforge. Having launched earlier this year, Reforge is a venture capital
+
+3
+00:00:09,920 --> 00:00:14,640
+firm focused on investing in the next generation of blockchain and deep tech infrastructure.
+
+4
+00:00:14,640 --> 00:00:17,680
+Without further ado, I hope you enjoy my conversation with Alex.
+
+5
+00:00:18,400 --> 00:00:21,760
+Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these expressed by them
+
+6
+00:00:21,760 --> 00:00:25,040
+or the guests on this podcast are solely their opinions and do not reflect the opinions of Castle
+
+7
+00:00:25,040 --> 00:00:28,400
+Island Ventures. Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+8
+00:00:28,400 --> 00:00:31,760
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+9
+00:00:31,760 --> 00:00:35,440
+to make a particular investment or follow a particular strategy, but only as an expression
+
+10
+00:00:35,440 --> 00:00:38,480
+of their personal opinion. This podcast is for informational purposes only.
+
+11
+00:00:58,400 --> 00:01:15,440
+Alex, thanks for joining me. I've been excited to have you on the pod for a while.
+
+12
+00:01:16,000 --> 00:01:20,640
+I think it would probably be great to start with a personal introduction. So,
+
+13
+00:01:21,200 --> 00:01:25,040
+would love to hear more about you and what you're up to these days and your road in crypto.
+
+14
+00:01:25,680 --> 00:01:29,040
+First of all, thanks for having me on. Huge fan of the podcast.
+
+15
+00:01:29,600 --> 00:01:35,200
+I think we can kind of go back to college. I went to the Virginia Military Institute and
+
+16
+00:01:36,240 --> 00:01:39,840
+for a long time on the website, the banner would say, don't do ordinary,
+
+17
+00:01:40,720 --> 00:01:47,040
+which encapsulated a lot of my experience there. You're going to a school that requires you to
+
+18
+00:01:47,040 --> 00:01:53,440
+dress up in a uniform, requires you to go through intense, rigorous physical training.
+
+19
+00:01:54,400 --> 00:01:58,000
+But then at the end of it all, you might not commission in the military.
+
+20
+00:01:58,720 --> 00:02:02,400
+A lot of people have asked me over time, why did you go to VMI if you didn't commission as an
+
+21
+00:02:02,400 --> 00:02:08,480
+officer? And I think it just kind of brings about this idea of don't do ordinary in my life.
+
+22
+00:02:08,480 --> 00:02:12,720
+It's just been a common theme, which I can allude to in many different examples.
+
+23
+00:02:12,720 --> 00:02:17,920
+But this is also relevant because I got into crypto during my time at VMI. So I made my first
+
+24
+00:02:17,920 --> 00:02:24,000
+Bitcoin, not through mining. So this is 2012, but through a little online business that I
+
+25
+00:02:24,000 --> 00:02:28,800
+created through RuneScape bot farming. And those listeners that aren't familiar, RuneScape is a
+
+26
+00:02:28,800 --> 00:02:36,000
+very popular MMORPG game that is very rigorous and intense in and of itself when it comes to
+
+27
+00:02:36,000 --> 00:02:42,080
+grinding out stats, making gold. It's kind of like a virtual medieval Sims in a way.
+
+28
+00:02:42,080 --> 00:02:48,400
+And so I found a way to automate the play time. And it was very lucrative.
+
+29
+00:02:48,400 --> 00:02:55,360
+Gold mining and selling gold for real world cash is very popular among MMORPGs like RuneScape and
+
+30
+00:02:55,360 --> 00:03:00,000
+World of Warcraft. And I had some buyers that were interested in buying my accounts using
+
+31
+00:03:00,000 --> 00:03:06,560
+Bitcoin because the foreign exchange rate on PayPal was 4.5%. So that was my first foray into
+
+32
+00:03:07,200 --> 00:03:12,560
+Bitcoin. And that kind of started the whole idea of don't do ordinary in a more professional sense.
+
+33
+00:03:13,120 --> 00:03:20,880
+So then graduated, went into consulting for a little bit, tried to join the blockchain group
+
+34
+00:03:20,880 --> 00:03:26,720
+at Deloitte. And at the time, they were focused on hyperledger implementation. So private
+
+35
+00:03:26,720 --> 00:03:32,080
+blockchains really promoted by IBM. And a lot of the consulting firms were very on top of it back
+
+36
+00:03:32,080 --> 00:03:36,480
+then. When was this? This was 2015 at this time. And unfortunately,
+
+37
+00:03:36,480 --> 00:03:41,520
+I couldn't make the transfer classic corporate America bureaucracy than large corporate America.
+
+38
+00:03:41,520 --> 00:03:47,520
+But that was kind of my catalyst to deciding to leave Deloitte and pursue the entrepreneurial
+
+39
+00:03:47,520 --> 00:03:52,800
+spirit that I've always had with wanting to be a part of something that I could drive impact at.
+
+40
+00:03:52,800 --> 00:03:58,880
+So join an ad tech startup in New York. And that was kind of my foray into startups,
+
+41
+00:03:58,880 --> 00:04:04,240
+entrepreneurship and being an operator. So I was an engineer and then eventual product manager at
+
+42
+00:04:04,240 --> 00:04:08,720
+several Web 2 companies. Tried my hand at starting my own company called Tether Health,
+
+43
+00:04:08,720 --> 00:04:12,000
+digital healthcare company. Throughout this process, you can kind of see the theme of
+
+44
+00:04:12,000 --> 00:04:16,880
+don't do ordinary. I'm going to kind of challenge myself, go against the grain instead of taking
+
+45
+00:04:16,880 --> 00:04:21,760
+your traditional consulting path or your investment banking path. And being in New York for startups
+
+46
+00:04:21,760 --> 00:04:28,720
+versus SV. And it was around the time around 2019 that I decided, hey, crypto has been in my life
+
+47
+00:04:28,720 --> 00:04:35,200
+personally for a long time. And so how do I get into it professionally? DeFi summer comes around
+
+48
+00:04:35,200 --> 00:04:41,680
+in 2020. At this point, I decided to go back to grad school. So I wanted to do two things with
+
+49
+00:04:41,680 --> 00:04:47,760
+my career at this point. It was first go to grad school to really differentiate myself, to enter
+
+50
+00:04:47,760 --> 00:04:54,400
+the industry, and then to become an investor after years of being an operator. And the first was
+
+51
+00:04:54,400 --> 00:04:59,040
+important because I think that entering the industry as an investor, I didn't need to go
+
+52
+00:04:59,040 --> 00:05:04,480
+to grad school. But what I did was I really focused on understanding the primitives better
+
+53
+00:05:04,480 --> 00:05:10,240
+than anyone else on the investing side or wanting to. I did this technical MBA at Cornell where I
+
+54
+00:05:10,240 --> 00:05:16,720
+focused on computer engineering, distributed systems, cryptography. And that set the tone for
+
+55
+00:05:17,600 --> 00:05:23,680
+my investing career, taking my operator experience, taking this more academic rigor and
+
+56
+00:05:24,400 --> 00:05:29,440
+fundamentals approach to ensuring that, hey, as we kind of embark on the investing journey
+
+57
+00:05:29,440 --> 00:05:36,000
+within this more frontier industry, that I have a very strong foundation and understanding to
+
+58
+00:05:36,000 --> 00:05:42,800
+what drives it all. So that landed me at Schema Capital, early stage fund, generalists that
+
+59
+00:05:42,800 --> 00:05:47,520
+focused on all things. Crypto, where I was the head of research and one of the first investment
+
+60
+00:05:47,520 --> 00:05:53,600
+team hires. And once again, very non-traditional way I was tweeting my way through Twitter.
+
+61
+00:05:54,480 --> 00:06:00,640
+Writing research reports, reaching out to funds, sharing deals, getting my foot in the door,
+
+62
+00:06:00,640 --> 00:06:03,280
+just based off of the things that I was interested in writing about,
+
+63
+00:06:04,080 --> 00:06:10,480
+caught the attention of our good friend, Ida, at Schema and started investing at Schema. And so
+
+64
+00:06:11,440 --> 00:06:18,240
+through that process decided, hey, I really wanted to focus on more don't do ordinary ideas
+
+65
+00:06:18,240 --> 00:06:24,160
+and believe that there are particular areas that I wanted to really focus on alongside my partner
+
+66
+00:06:24,720 --> 00:06:32,400
+now, which brings me to where I am today, which is recently launched Reforge, an early stage
+
+67
+00:06:32,400 --> 00:06:39,280
+blockchain and frontier tech investment firm that I'm super excited to have launched to support
+
+68
+00:06:40,000 --> 00:06:45,680
+the best founders in very unique areas that I believe to really drive impact and move the
+
+69
+00:06:45,680 --> 00:06:50,800
+needle within the space. Yeah, really excited for you guys in the launch. First off, needless to say,
+
+70
+00:06:51,520 --> 00:06:56,640
+this might be a loaded question, but I'd love for you to explain in your view. What are blockchain
+
+71
+00:06:56,640 --> 00:07:03,440
+primitives? Blockchain primitives really goes back to the foundations of math, mathematics,
+
+72
+00:07:04,320 --> 00:07:10,400
+computer science, economics, and philosophy. That's why it's so interesting to me.
+
+73
+00:07:10,960 --> 00:07:14,880
+If I were to kind of highlight my degree specifically, a lot of it
+
+74
+00:07:15,520 --> 00:07:23,360
+revolved around understanding consensus, understanding distributed systems, understanding
+
+75
+00:07:23,360 --> 00:07:30,160
+operating systems, understanding how we've kind of gone through the earliest designs of the internet
+
+76
+00:07:30,720 --> 00:07:38,400
+to existing internet protocols to now web three, as we know it, and what makes up web three.
+
+77
+00:07:38,400 --> 00:07:43,840
+It's a very broad category. And so the degree specifically focused a lot on the mathematics
+
+78
+00:07:43,840 --> 00:07:48,240
+and the computer science behind blockchain networks and distributed ledger technologies.
+
+79
+00:07:48,880 --> 00:07:52,080
+But there's just so much more to that. There's the economic component
+
+80
+00:07:52,080 --> 00:07:57,760
+that makes up the primitives of incentives and the Byzantine fault tolerant problem that kind of
+
+81
+00:07:57,760 --> 00:08:03,440
+makes up the earliest forms of consensus to ensure alignment between multiple parties
+
+82
+00:08:04,080 --> 00:08:10,080
+and doing so through a monetary incentive, i.e. Bitcoin on the proof of work side.
+
+83
+00:08:10,080 --> 00:08:15,760
+And then once we shifted over to the new consensus designs, you still have that monetary
+
+84
+00:08:15,760 --> 00:08:21,520
+component that's very relevant. And then persisting on, you start to see the cyberpunk movement
+
+85
+00:08:22,080 --> 00:08:29,280
+surface, which is the core philosophies as to why Satoshi created Bitcoin and the whole idea of
+
+86
+00:08:29,280 --> 00:08:34,960
+moving intermediaries. So the philosophical piece comes in as to what motivates us,
+
+87
+00:08:35,840 --> 00:08:41,760
+the morals and ethics of us with greed and how that impacts us, I think all plays into this due
+
+88
+00:08:41,760 --> 00:08:50,080
+to this game theory that exists within our free market economy of, hey, do we do X to want to
+
+89
+00:08:50,080 --> 00:08:56,400
+achieve Y when we're introduced to Z factors? That's the philosophical piece and really
+
+90
+00:08:56,400 --> 00:09:01,680
+understanding what drives humans and wanting us to either become irrational or remain rational
+
+91
+00:09:02,160 --> 00:09:08,480
+is what makes this all crazier than it already is. So it's been a loaded question, loaded answer
+
+92
+00:09:08,480 --> 00:09:14,080
+there as well. More abstract answer, I guess. It's really difficult to pinpoint, but if I were to
+
+93
+00:09:14,080 --> 00:09:18,720
+give you something more tangible, it's a lot of the mathematics and computer science elements of
+
+94
+00:09:18,720 --> 00:09:23,360
+what makes up a blockchain and what is feasible and what's not feasible to the actual underlying
+
+95
+00:09:23,360 --> 00:09:30,480
+infrastructure. Where do you guys see innovation as being possible within that stack of primitives
+
+96
+00:09:30,480 --> 00:09:35,600
+or call it the existing stack of what runs blockchains? A simplistic way to put it would
+
+97
+00:09:35,600 --> 00:09:39,760
+be you have the execution layer, the way the transactions are settled, you have consensus,
+
+98
+00:09:39,760 --> 00:09:45,040
+like you mentioned, and you can obviously go deeper down to the physical hardware that are
+
+99
+00:09:45,680 --> 00:09:49,120
+underlying blockchain technology and other associated technologies.
+
+100
+00:09:49,680 --> 00:09:55,760
+Maybe if you could orient, where can we expect to see innovation within that and what's the end
+
+101
+00:09:55,760 --> 00:10:02,160
+that you see? I think innovation happens at all points of the stack, starting with hardware.
+
+102
+00:10:02,160 --> 00:10:07,440
+There are a lot of layer one designs that will be impacted by the type of hardware you use
+
+103
+00:10:08,240 --> 00:10:17,600
+on the validator side. You have the execution and settlement that arguably can be improved a lot.
+
+104
+00:10:17,600 --> 00:10:23,760
+Solana and their movement of increased bandwidth, reduced latency has persisted within the market
+
+105
+00:10:24,400 --> 00:10:27,520
+because I think that every part of the stack can be innovated upon.
+
+106
+00:10:28,240 --> 00:10:33,440
+I think that there are just a lot of core assumptions that might either be flawed or
+
+107
+00:10:34,720 --> 00:10:41,280
+should be revisited in that stack. One example is the virtual machine. I think that we've seen a
+
+108
+00:10:41,280 --> 00:10:48,400
+lot of innovation surface in the last 12 to 18 months with respect to, hey, is the Ethereum
+
+109
+00:10:48,400 --> 00:10:55,120
+virtual machine the most optimal form factor for smart contract execution?
+
+110
+00:10:55,120 --> 00:11:01,280
+You have the SVM surface and you have projects that believe, hey, we believe the SVM is better,
+
+111
+00:11:01,280 --> 00:11:05,280
+the Solana virtual machine is better, but we want to tap into the EVM liquidity.
+
+112
+00:11:05,280 --> 00:11:10,560
+And so you have projects like Eclipse come into the fold. You have projects like Movement,
+
+113
+00:11:10,560 --> 00:11:17,120
+or you have Aptos and SWE, native Move L1s that say, hey, the Move language will provide a better
+
+114
+00:11:17,120 --> 00:11:22,880
+virtual machine because of the EVM flaws. On the VM side, there's innovation. We're going to see
+
+115
+00:11:22,880 --> 00:11:28,160
+execution innovation. We're going to see settlement innovation. The DA, Celestia, introduced a
+
+116
+00:11:28,160 --> 00:11:34,560
+different approach to data availability. That's how modular surfaced, but we have to be very
+
+117
+00:11:34,560 --> 00:11:41,760
+careful with this because even though there's innovation opportunity at each stack or layer,
+
+118
+00:11:41,760 --> 00:11:48,160
+it doesn't necessarily mean you need to create a new protocol or a new company to address those
+
+119
+00:11:48,160 --> 00:11:55,840
+problems. We've started to see this idea or this issue where user experience is so bad
+
+120
+00:11:56,400 --> 00:12:02,240
+when it comes to crypto and blockchains. Why is that though? That's not necessarily
+
+121
+00:12:02,240 --> 00:12:08,240
+because of the infrastructure problems. I would posit. I think that's for a lot of reasons.
+
+122
+00:12:08,240 --> 00:12:12,160
+In its current state, if we specifically highlight the modular thesis,
+
+123
+00:12:12,960 --> 00:12:17,680
+we can say that the user experience has gotten so poorly. Let's look at rollups.
+
+124
+00:12:17,680 --> 00:12:25,040
+Sharding and dank sharding was a massive technical barrier that the Ethereum Foundation and
+
+125
+00:12:25,040 --> 00:12:30,160
+researchers decided to say, hey, I think rollups will be a better alternative solution. And now
+
+126
+00:12:30,160 --> 00:12:35,120
+you have many rollups and L2s that now come in and say, hey, we will help Ethereum scale.
+
+127
+00:12:35,120 --> 00:12:40,240
+And then because rollups now are introduced, we need DA for those rollups. We need ZKs.
+
+128
+00:12:40,880 --> 00:12:43,920
+So you're saying infrastructure innovation begets needs.
+
+129
+00:12:43,920 --> 00:12:49,360
+Correct. People just keep building things on top to improve and you create a new market for such
+
+130
+00:12:49,360 --> 00:12:54,800
+tools. But I would argue that that has given us a lot of misdirection over the last several years.
+
+131
+00:12:55,520 --> 00:13:00,160
+But to revert back to your point, I think there's innovation to be had on every part of the stack.
+
+132
+00:13:00,160 --> 00:13:02,240
+And I think that's what we're really excited about.
+
+133
+00:13:03,040 --> 00:13:10,560
+And do you think we'll eventually get to a fast performing blockchain that can be a universal
+
+134
+00:13:10,560 --> 00:13:13,760
+type of settlement layer? Or will we be multi-chain?
+
+135
+00:13:14,400 --> 00:13:22,800
+Our thesis is there will be an oligopoly of L1s that really promote this idea of a modular TCPIP
+
+136
+00:13:22,800 --> 00:13:28,480
+where you don't really know what chain that you're building an app on. You don't really
+
+137
+00:13:28,480 --> 00:13:35,760
+care as a user what access point. If I need to use my Metamask or Rabi to enter the EVM,
+
+138
+00:13:36,480 --> 00:13:43,360
+it doesn't matter. I should have wallets that can provide access to liquidity on any chain
+
+139
+00:13:43,360 --> 00:13:49,200
+in this modular TCPIP underlying network. And that's that completely abstracted away.
+
+140
+00:13:49,760 --> 00:13:57,040
+And when you guys are looking at the areas where you invest, which ultimately improves
+
+141
+00:13:57,040 --> 00:14:05,680
+the efficiency and usefulness of chains, is that with primarily financial use cases as the
+
+142
+00:14:05,680 --> 00:14:11,600
+end point in mind for you? Or are you thinking about other implementations at scale that people
+
+143
+00:14:11,600 --> 00:14:18,240
+might not be as aware of? Definitely financial. I think financial applications are our number one
+
+144
+00:14:18,240 --> 00:14:25,760
+use case. Everything from stable coins to payments to DeFi itself is a great use case. And what DeFi
+
+145
+00:14:25,760 --> 00:14:34,640
+has created across meme coins, lending, borrowing, perps, the list goes on. But by no means is it
+
+146
+00:14:34,640 --> 00:14:39,680
+confined to that. I just think that we've been able to identify a really great use case. And
+
+147
+00:14:39,680 --> 00:14:45,760
+we're double downing, triple downing on that. But it goes well beyond financial applications. I think
+
+148
+00:14:45,760 --> 00:14:51,360
+something that we're really interested in is consumer in general. It could be anything
+
+149
+00:14:51,440 --> 00:14:57,920
+social, it could be interest media. So this idea where attention, it's not just social media,
+
+150
+00:14:57,920 --> 00:15:04,320
+it's all about attention and how do you capture the interest of society and many other social
+
+151
+00:15:04,320 --> 00:15:08,640
+contracts that come from the benefits of composability and coordination that blockchains
+
+152
+00:15:08,640 --> 00:15:17,040
+offer. How do we understand that space? And it's very difficult right now to know exactly what
+
+153
+00:15:17,040 --> 00:15:21,920
+consumer product I want to be investing in. Because you don't really know what you don't know.
+
+154
+00:15:21,920 --> 00:15:27,120
+If a founder, a really strong founding team presents an idea, I'm willing to bet that there's
+
+155
+00:15:27,120 --> 00:15:34,000
+a high probability they will pivot. On the consumer side? Yes. So virtuals, the AI agent
+
+156
+00:15:34,000 --> 00:15:40,560
+protocol on Ethereum, or I guess specifically BASE, they used to be gamedow, building another
+
+157
+00:15:40,560 --> 00:15:46,240
+consumer product. Pumped Up Fun used to be the team that was focused on NFTs.
+
+158
+00:15:46,880 --> 00:15:51,920
+Caviar. That was not too long ago. One of the areas that I'm most excited about is, hey,
+
+159
+00:15:51,920 --> 00:15:57,520
+I want to invest in founding teams that are highly experimental, that are willing to iterate. They
+
+160
+00:15:57,520 --> 00:16:03,600
+could have no idea what they want to build. 12 months ago, Blast launched. Let's capitalize and
+
+161
+00:16:03,680 --> 00:16:12,000
+let's use this sandbox to identify and experiment what we can do from incentives, from unique
+
+162
+00:16:12,000 --> 00:16:17,600
+coordination mechanisms, NFTs, what have you. And then you have another network launch in
+
+163
+00:16:17,600 --> 00:16:23,040
+six months. And hey, I'm not promoting, let's produce GRIF, but I think it's very important
+
+164
+00:16:23,040 --> 00:16:29,680
+to experiment. Right now, when everything is moving so quickly, switching costs are incredibly low
+
+165
+00:16:29,680 --> 00:16:34,800
+for the end user. We must understand, hey, what works in this new paradigm and what doesn't?
+
+166
+00:16:35,360 --> 00:16:40,240
+And the only way to do that effectively is to take bets on really, really experienced founders and
+
+167
+00:16:40,240 --> 00:16:44,960
+founders that are willing to take risks to experiment. That's really the only way for
+
+168
+00:16:44,960 --> 00:16:49,920
+us to kind of do this at scale properly. And the areas where you're seeing innovation in
+
+169
+00:16:49,920 --> 00:16:56,640
+the consumer space, what's material there? Or what moves the needle in terms of something that
+
+170
+00:16:57,200 --> 00:17:01,280
+could be useful, widely used for society, will be around in 10 years.
+
+171
+00:17:01,920 --> 00:17:07,040
+I think virtual's protocol is cool for the sake of anyone listening. To my knowledge,
+
+172
+00:17:07,040 --> 00:17:13,600
+essentially you can buy tokens representative of these AI agents that exist across media platforms.
+
+173
+00:17:14,160 --> 00:17:19,360
+I see that as somewhat temporary and novel. Feel free to push back on that front. But
+
+174
+00:17:20,080 --> 00:17:22,320
+where do you see staying power is another way to ask that.
+
+175
+00:17:22,720 --> 00:17:27,200
+That's the biggest question. Sustainability. That's really hard to answer today. If I knew,
+
+176
+00:17:27,200 --> 00:17:30,800
+then I would be investing in it and I would be shilling at this one in time.
+
+177
+00:17:30,800 --> 00:17:36,080
+If we were to really look at the benefits of crypto, I'd be the first to tell you,
+
+178
+00:17:36,080 --> 00:17:39,120
+hey, we don't need a token for everything that we're building for.
+
+179
+00:17:39,760 --> 00:17:46,080
+And so when I think about alternatives to DeFi, and then thinking about what's sticky, crypto
+
+180
+00:17:46,080 --> 00:17:54,400
+has this incredible ability to encode and automatically enforce really complex
+
+181
+00:17:54,400 --> 00:18:00,400
+social relationships and agreements. I'm only looking at consumer and maybe we could categorize
+
+182
+00:18:01,040 --> 00:18:06,320
+deep in decentralized physical infrastructure networks within consumer because of the form
+
+183
+00:18:06,320 --> 00:18:12,000
+factor of being able to interact with one. But I'm more so thinking of true application consumer
+
+184
+00:18:12,000 --> 00:18:18,160
+that solves a problem that I experienced day to day. If crypto is able to enforce these complex
+
+185
+00:18:18,160 --> 00:18:23,360
+social relationships and agreements that were previously impossible to formalize, those problems
+
+186
+00:18:23,360 --> 00:18:28,320
+are the ones that I think crypto is really fit to solve. So examples would be reputation systems
+
+187
+00:18:28,320 --> 00:18:33,280
+that can't be gamed or centrally controlled. And so I think we have the earliest versions of that
+
+188
+00:18:33,280 --> 00:18:38,960
+and DAOs and governance mechanisms that I think can always be improved upon.
+
+189
+00:18:38,960 --> 00:18:43,520
+That's because of the accountability of blockchains. Is the unlock there?
+
+190
+00:18:43,520 --> 00:18:49,760
+The accountability and incentives, and then also composability, being able to then add on to
+
+191
+00:18:50,320 --> 00:18:56,880
+core pillars of say a use case and then improving it from say a different third party that is not
+
+192
+00:18:56,880 --> 00:19:02,400
+biased or is not centrally managed by that original core pillar or problem.
+
+193
+00:19:02,400 --> 00:19:07,440
+Then you also have your typical, hey, what are some coordination mechanisms for large groups of
+
+194
+00:19:07,440 --> 00:19:15,920
+people, large entities, large agents that doesn't have a trusted central intermediary?
+
+195
+00:19:15,920 --> 00:19:22,080
+You have commitment devices, being able to commit to certain contracts, whether it's social,
+
+196
+00:19:22,080 --> 00:19:28,480
+financial, legal, that are truly binding. You know Dunbar's number. So the number of people that we
+
+197
+00:19:28,480 --> 00:19:35,360
+as individuals can probably manage in our day to day lives. What if there are ways to enable
+
+198
+00:19:35,360 --> 00:19:40,720
+trust relationships that can scale beyond Dunbar's number and doing so in a way that
+
+199
+00:19:40,720 --> 00:19:46,320
+is both economical and technically feasible? Once again, we have good understanding from a
+
+200
+00:19:46,320 --> 00:19:51,200
+high level what can be enabled, but I think execution is everything. And we just haven't
+
+201
+00:19:51,200 --> 00:19:56,480
+seen that yet. And that's why I think from an experiment, highly iterative approach,
+
+202
+00:19:56,480 --> 00:20:02,400
+we will be able to get closer to that outcome. I really like this framework you've given of
+
+203
+00:20:03,040 --> 00:20:09,120
+blockchains as enabling contracts and social being a primary use case there.
+
+204
+00:20:09,680 --> 00:20:16,480
+At risk of wildly generalizing a lot of businesses in the world, a lot of the largest
+
+205
+00:20:16,480 --> 00:20:23,040
+businesses that we see take Uber, Facebook, advertising, like you mentioned, rely on the
+
+206
+00:20:23,040 --> 00:20:29,120
+value proposition within their closed loop systems. And if you open that up, they will lose a lot of,
+
+207
+00:20:29,120 --> 00:20:33,120
+frankly, why you use and pay for those platforms. An example being Uber relies on
+
+208
+00:20:33,680 --> 00:20:37,440
+a closed network where they maintain the relationships between you and the drivers.
+
+209
+00:20:38,080 --> 00:20:43,360
+If you open that up, they lose their value proposition. Facebook relies on being the
+
+210
+00:20:43,360 --> 00:20:48,320
+key holder of your network. And if you could port that elsewhere, they lose their value proposition.
+
+211
+00:20:49,040 --> 00:20:56,320
+Given those are the largest companies in society, do you think that contracts,
+
+212
+00:20:56,320 --> 00:21:02,000
+let's say social contracts enabled by blockchains, have the actual potential ability to
+
+213
+00:21:02,800 --> 00:21:09,040
+get around that and be adopted at scale if arguably the strongest forces are going to be,
+
+214
+00:21:09,760 --> 00:21:17,120
+in my view, probably very opposed to that? My immediate thought is individual empowerment
+
+215
+00:21:17,120 --> 00:21:24,320
+is an incredibly powerful mechanism in society, meaning how do you promote agency?
+
+216
+00:21:25,200 --> 00:21:29,920
+And I think that that's kind of the core question I ask of why does this all matter?
+
+217
+00:21:29,920 --> 00:21:35,920
+Because you can say, if you remove Uber as a centralized entity and you as an individual
+
+218
+00:21:35,920 --> 00:21:42,800
+open up an app that allows you to connect peer-to-peer to drivers, and that app is a
+
+219
+00:21:42,800 --> 00:21:48,960
+protocol that is decentralized, fully decentralized, but not managed by an organization, then the
+
+220
+00:21:48,960 --> 00:21:56,400
+transaction occurs between you and the driver. So you're empowering the driver to manage his or her
+
+221
+00:21:56,400 --> 00:22:01,600
+own book of business when it comes to driving. And then on the demand side, you have writers
+
+222
+00:22:01,600 --> 00:22:07,440
+who want to take advantage of the service for whatever purpose. And so the barrier is the
+
+223
+00:22:07,440 --> 00:22:13,360
+experience. We as individuals should live that way. And I think this is a little history lesson.
+
+224
+00:22:13,360 --> 00:22:17,600
+This goes all the way back to Athenian democracy of, hey, how do you promote individual
+
+225
+00:22:18,160 --> 00:22:22,800
+views and perspectives within the governing body? And then you have the Renaissance,
+
+226
+00:22:22,800 --> 00:22:26,640
+then you have the Enlightenment, then you have the Industrial Revolution, then you have so many of
+
+227
+00:22:26,640 --> 00:22:32,720
+these movements in history to the civil rights, to then women's rights and suffrage movements.
+
+228
+00:22:32,720 --> 00:22:39,760
+And then now we've entered the digital world. We've reverted back and said, hey, you no longer have
+
+229
+00:22:39,760 --> 00:22:46,240
+these individual rights because you have governing bodies within the digital realm that control you.
+
+230
+00:22:46,240 --> 00:22:51,440
+And so essentially we're saying, hey, how do we revert back to what has worked really,
+
+231
+00:22:51,440 --> 00:22:56,560
+really well for us in the physical world throughout history, but in the digital world?
+
+232
+00:22:56,560 --> 00:23:00,960
+And so if you're able to unlock that, because the internet itself and what it enables is a
+
+233
+00:23:00,960 --> 00:23:05,760
+beautiful thing, makes it incredibly efficient and has created billions and billions and
+
+234
+00:23:05,760 --> 00:23:10,640
+trillions upon trillions of wealth for us and innovation and technology, then I think that
+
+235
+00:23:10,880 --> 00:23:16,240
+increases exponentially once we focus on individual empowerment again, that transition
+
+236
+00:23:16,240 --> 00:23:23,440
+is only blocked by user experience. Yeah, but purely experience and the technology
+
+237
+00:23:23,440 --> 00:23:29,600
+infrastructure that will enable that to happen seamlessly. That is a big part of the categories
+
+238
+00:23:29,600 --> 00:23:34,480
+of reforge. I mean, it's in the name of the firm as to what it is that we are reforging.
+
+239
+00:23:34,480 --> 00:23:41,040
+We're fundamentally reforging human interaction digitally because of an improved internet and an
+
+240
+00:23:41,040 --> 00:23:47,840
+improved financial system. I take the stance that the platforms that thrive based off of
+
+241
+00:23:48,560 --> 00:23:54,800
+the signal or power of a smaller number of individuals, Twitter being one that comes to
+
+242
+00:23:54,800 --> 00:24:02,640
+mind, are easier to disintermediate versus those that derive value from having just a really deep
+
+243
+00:24:02,640 --> 00:24:06,080
+robust network, Uber being one that comes to mind in that sense.
+
+244
+00:24:06,080 --> 00:24:10,480
+Because if you can move the high signal individuals, the people that make Twitter a
+
+245
+00:24:10,480 --> 00:24:15,920
+place that you want to be, I think you can create a rival platform or whatever a next generation
+
+246
+00:24:15,920 --> 00:24:22,560
+would be. I do think it's very difficult to move platforms that derive their value from
+
+247
+00:24:22,560 --> 00:24:27,120
+a collective participation that they've built over a period of many years.
+
+248
+00:24:27,920 --> 00:24:31,040
+I agree. I think that's why Blue Sky and a lot of the social
+
+249
+00:24:31,040 --> 00:24:37,040
+networks have had a difficult time pushing for adoption and proper distribution.
+
+250
+00:24:38,000 --> 00:24:43,520
+In a funny way, I think that the amount that we're some would say chronically online promotes
+
+251
+00:24:43,520 --> 00:24:50,080
+individualism, which probably in a way benefits new types of social media because people are
+
+252
+00:24:50,080 --> 00:24:55,360
+tending to gravitate towards where the individuals they want to see are. I think TikTok is the living
+
+253
+00:24:55,360 --> 00:25:00,000
+breathing embodiment of that. Whereas I don't know about you, when I used Facebook in high school,
+
+254
+00:25:00,000 --> 00:25:03,520
+it was all about just connecting with your friends. You weren't following celebrities
+
+255
+00:25:03,520 --> 00:25:05,440
+or anything like that. I feel like it's changed a lot.
+
+256
+00:25:06,160 --> 00:25:12,640
+I think that there is the component of monetization and having access to content that you wouldn't
+
+257
+00:25:12,640 --> 00:25:18,240
+have with just your friends. If you could watch an Uncle Drew video and you don't have any friends
+
+258
+00:25:18,240 --> 00:25:21,840
+or basketball players, then of course you're going to want access to that. I think the
+
+259
+00:25:21,840 --> 00:25:24,560
+revolution of content has been fascinating.
+
+260
+00:25:25,360 --> 00:25:29,200
+This is something that came up in one of our conversations today. I'm curious to hear your
+
+261
+00:25:29,200 --> 00:25:34,400
+perspective on it, but I think a major unlock here from what blockchains can bring to social
+
+262
+00:25:34,400 --> 00:25:44,080
+platforms is you can arguably get unfiltered or semi-permissionless forms of social interaction
+
+263
+00:25:44,080 --> 00:25:49,120
+online when you have a governing body like Twitter or X, where yes, it's a centralized
+
+264
+00:25:49,120 --> 00:25:52,000
+governing body, but they're not going to stop you from doing essentially anything.
+
+265
+00:25:52,640 --> 00:25:57,840
+The harder part is I think our financial system is very stiff in terms of what you're able to do
+
+266
+00:25:57,840 --> 00:26:02,480
+online. An example of that has been the debanking issue that you've had with the cannabis and the
+
+267
+00:26:02,480 --> 00:26:07,680
+crypto industries. You'll have payment service providers who don't necessarily want to work
+
+268
+00:26:07,680 --> 00:26:14,720
+with certain legal activities, especially where there might be more of an element of forms of
+
+269
+00:26:14,720 --> 00:26:21,040
+identity that are non-traditional. Crypto and blockchains can be used to be the financial rail
+
+270
+00:26:21,040 --> 00:26:27,360
+of what is otherwise a fairly permissionless platform and allow for a sort of open commerce
+
+271
+00:26:27,360 --> 00:26:32,640
+experience in a way that has hopefully evolved to what we were 10 years ago, where you had this
+
+272
+00:26:32,640 --> 00:26:38,560
+use behind illicit transactions, that there's a happy medium where you have filtering in terms
+
+273
+00:26:38,560 --> 00:26:44,800
+of making sure that there's no illicit activity and movement to bad actors, but you allow for
+
+274
+00:26:45,680 --> 00:26:50,480
+an open commerce experience, buying and selling that happens in the social realm.
+
+275
+00:26:50,480 --> 00:26:56,160
+And I think if you look at the Web 2 stack, they have shortcomings that could be easily
+
+276
+00:26:56,160 --> 00:27:01,520
+mitigated with Web 3 from data modes. What's an example of that?
+
+277
+00:27:01,520 --> 00:27:07,440
+Data modes from these companies that have potential to hurt users is mitigated by
+
+278
+00:27:07,520 --> 00:27:10,960
+composability of blockchain networks and smart contracts.
+
+279
+00:27:11,520 --> 00:27:13,200
+Can you explain that further?
+
+280
+00:27:13,200 --> 00:27:20,640
+This is very top of mind, especially with the recent OFAC ruling with respect to Tornado Cash
+
+281
+00:27:20,640 --> 00:27:28,080
+not being responsible for illicit activities because Tornado Cash was wrongly accused
+
+282
+00:27:28,640 --> 00:27:34,320
+of promoting illicit activity. OFAC said, hey, we don't really have the evidence
+
+283
+00:27:34,320 --> 00:27:38,560
+or the positioning to say that this was promoted by you guys, Tornado Cash.
+
+284
+00:27:39,120 --> 00:27:44,320
+I think privacy is surfacing again as a really important component.
+
+285
+00:27:44,320 --> 00:27:49,920
+And this is relevant because Bitcoin's original vision was before Chainalysis and before a lot of
+
+286
+00:27:49,920 --> 00:27:56,480
+the existing companies, privacy was part of the cypherpunk manifesto and the whole idea is that
+
+287
+00:27:56,480 --> 00:28:02,720
+you really couldn't determine who was sending Bob by Bitcoin. And that was really the core ethos.
+
+288
+00:28:03,360 --> 00:28:10,720
+When you have this opportunity to still have an open network associated to data availability,
+
+289
+00:28:10,720 --> 00:28:15,040
+but then doing so in a private manner, wanting things to be secret versus wanting things to be
+
+290
+00:28:15,040 --> 00:28:21,920
+private is very different. Privacy still enables a data mode within products. Whereas if you look
+
+291
+00:28:21,920 --> 00:28:27,360
+at today in Web 2, the data modes that now protect institutions no longer protect the user.
+
+292
+00:28:27,360 --> 00:28:32,480
+You essentially switch that with crypto, with blockchains, where you're protecting the user
+
+293
+00:28:32,480 --> 00:28:38,560
+and the opportunity to say, hey, me as a user, I want my data to be open
+
+294
+00:28:39,440 --> 00:28:44,400
+on my own accord to benefit me. But then if it doesn't benefit me and benefits others,
+
+295
+00:28:44,400 --> 00:28:48,400
+and I don't want it to be available, that should always be in the decision of the user.
+
+296
+00:28:48,400 --> 00:28:53,280
+And so I think that crypto switches that paradigm and makes it more powerful for us.
+
+297
+00:28:53,280 --> 00:28:56,640
+So that's where the agency returns back to the user.
+
+298
+00:28:57,520 --> 00:29:01,920
+And to put a bow on a lot of the things we've hit on, do you think the industry is
+
+299
+00:29:01,920 --> 00:29:06,560
+moving in the right direction in terms of implementing these sorts of new solutions
+
+300
+00:29:06,560 --> 00:29:11,920
+you'd like to see? I think we are. I think we're at a very important inflection point
+
+301
+00:29:11,920 --> 00:29:18,720
+with what it is that we're one, allocating capital towards, and two, what founders want
+
+302
+00:29:18,720 --> 00:29:25,440
+to be building with this pool. I think we're very far from it being consensus that we're going in
+
+303
+00:29:25,440 --> 00:29:30,480
+the right direction. And I say that because you'll still have bad actors, you'll still have
+
+304
+00:29:31,360 --> 00:29:38,080
+a lot of projects, founders, investors seeking short-termism outcomes that don't really move
+
+305
+00:29:38,080 --> 00:29:44,480
+the needle. But I think that we're starting to shift both from regulatory clarity to better
+
+306
+00:29:44,480 --> 00:29:50,560
+technologies, to better incentives, to a general understanding of what it is that we're capable of
+
+307
+00:29:50,560 --> 00:29:55,440
+building. Slowly but surely, we're going to have that shift come sooner rather than later.
+
+308
+00:29:56,160 --> 00:30:00,160
+And what are you excited about in the next year broadly?
+
+309
+00:30:01,280 --> 00:30:07,520
+I'm really excited to see the changes in administration. The latest developments in
+
+310
+00:30:07,520 --> 00:30:12,960
+the macroeconomic environment will start to drive better human capital into this industry.
+
+311
+00:30:13,520 --> 00:30:19,120
+I think that human capital is probably one of the most important drivers of innovation,
+
+312
+00:30:19,680 --> 00:30:23,840
+if not the most important driver. And I think that's rather obvious, but I think we forget,
+
+313
+00:30:24,480 --> 00:30:30,960
+especially when for a long time crypto had a lot of brilliant people come in and want to build
+
+314
+00:30:30,960 --> 00:30:35,920
+and experiment new things. But a lot of that's dissipated with AI and a lot of other very
+
+315
+00:30:35,920 --> 00:30:40,880
+interesting industries. But I think because of the existing overlap that we're now seeing between
+
+316
+00:30:41,680 --> 00:30:47,840
+free market economic opportunity that crypto offers with enabling technologies like AI
+
+317
+00:30:48,480 --> 00:30:55,440
+or edge compute or other kind of physical infrastructure improvements, then we're going
+
+318
+00:30:55,440 --> 00:31:00,560
+to see an influx of individuals who are going to really look at these problems that we're
+
+319
+00:31:00,560 --> 00:31:04,800
+experiencing and saying, hey, I want to break the status quo and solve them. And I'm not doing it
+
+320
+00:31:04,800 --> 00:31:11,600
+just for the opportunity to generate wealth for myself, but because this is way bigger than
+
+321
+00:31:11,600 --> 00:31:17,360
+me as an individual. Cool. I love the human capital piece. Well, Alex, thanks for coming on.
+
+322
+00:31:17,360 --> 00:31:22,880
+I've really enjoyed chatting and excited for what's ahead for reforged. So appreciate you
+
+323
+00:31:22,880 --> 00:31:29,520
+joining us. Thank you. It was a pleasure to be on. Thanks for listening to another episode of On the
+
+324
+00:31:29,520 --> 00:31:36,080
+Brink with Castle Island. To find out more about Castle Island, visit castleisland.vc. To listen
+
+325
+00:31:36,080 --> 00:31:42,480
+to all of our podcast episodes, please go to onthebrink-podcast.com or just click on
+
+326
+00:31:42,480 --> 00:31:49,600
+the tab on our website. Thanks for listening.
+

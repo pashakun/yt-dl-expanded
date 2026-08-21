@@ -1,0 +1,1780 @@
+1
+00:00:00,000 --> 00:00:04,880
+Today on the podcast, I sat down with Yuval Roiz and Eric Saraneki, the founders of Digital
+
+2
+00:00:04,880 --> 00:00:09,760
+Asset. Digital Asset was founded in 2014 and has been a leading company in the institutional
+
+3
+00:00:09,760 --> 00:00:15,120
+blockchain market, building on the Canton Network. In this conversation, we discussed the origins of
+
+4
+00:00:15,120 --> 00:00:20,720
+Digital Asset, the age old debate of permissionless versus permission blockchains, the importance of
+
+5
+00:00:20,720 --> 00:00:25,440
+on-chain privacy, and what's ahead for the Canton Network public blockchain. I think you'll enjoy
+
+6
+00:00:25,440 --> 00:00:30,000
+this one. So without further ado, here is my conversation with Yuval and Eric.
+
+7
+00:00:55,520 --> 00:01:25,280
+Yuval and Eric, thanks
+
+8
+00:01:25,600 --> 00:01:28,880
+so much for joining us today on the podcast. Excited to talk more about Digital Asset and
+
+9
+00:01:28,880 --> 00:01:34,240
+Canton. Yeah, great to have you, man. I think a good place to start is just who are you,
+
+10
+00:01:34,240 --> 00:01:37,440
+what are you guys building? And I think a lot of people have heard your names throughout the
+
+11
+00:01:37,440 --> 00:01:41,280
+industry and would love to just get a little bit of the background. Thanks, man. Thanks for
+
+12
+00:01:41,280 --> 00:01:45,520
+having us. So I'm Eric. I'm one of the co-founders at Digital Asset. We've been at this coming up
+
+13
+00:01:45,520 --> 00:01:51,120
+in 11 years in August. It's been quite a journey. Prior to that, I spent about a decade at DRW.
+
+14
+00:01:51,120 --> 00:01:56,800
+I helped get Cumberland off the ground in 13 when I've been in the crypto space for a while.
+
+15
+00:01:56,800 --> 00:02:03,120
+I'm really focused on making sure that our network go-to-market motion is a robust motion,
+
+16
+00:02:03,120 --> 00:02:08,320
+that it's pulling in people from Treadfy and crypto-native and finding really strong utility
+
+17
+00:02:08,320 --> 00:02:13,520
+points and crossover opportunities for those participants. Similar background to Eric,
+
+18
+00:02:13,520 --> 00:02:20,800
+been close to a decade at DRW and Citadel before, and both Eric and I left DRW to start this company.
+
+19
+00:02:21,440 --> 00:02:27,280
+My job here, beyond just running the businesses, is convincing the market why we have been
+
+20
+00:02:27,280 --> 00:02:31,920
+consistently doing things different than the rest of public permissionless chains.
+
+21
+00:02:31,920 --> 00:02:35,440
+I love it. And we're definitely going to get into that. Before we get into the
+
+22
+00:02:35,440 --> 00:02:39,920
+private versus public and how that is all unfolded over the years, what was the original
+
+23
+00:02:39,920 --> 00:02:43,760
+premise for the business? You guys were just super early to blockchains and crypto,
+
+24
+00:02:43,760 --> 00:02:47,120
+and what made it exciting enough to actually start a company here for you?
+
+25
+00:02:47,600 --> 00:02:53,040
+I think it's easy probably to say it 10 years after the fact. It all got better and better
+
+26
+00:02:53,040 --> 00:02:58,800
+from a messaging perspective. But I think that if DeFi is an inspiration to anyone,
+
+27
+00:02:58,800 --> 00:03:04,960
+I think that the reason why DeFi is so exciting is that you can process financial transactions
+
+28
+00:03:05,760 --> 00:03:12,400
+at a marginal cost that effectively is zero in order to bring new products, new services,
+
+29
+00:03:13,200 --> 00:03:21,040
+where in DeFi, doing that requires strategic partnerships, really a very well thought of
+
+30
+00:03:21,040 --> 00:03:26,960
+business case. You need to calculate the costs. And really doing these types of partnerships
+
+31
+00:03:26,960 --> 00:03:32,880
+is very expensive and hard because of the costs associated with it. And the reason why I say
+
+32
+00:03:32,880 --> 00:03:38,640
+that is the inspiration is because when we started Digital Asset, a recurring theme throughout the
+
+33
+00:03:38,640 --> 00:03:47,200
+10 years have been, how can we bring commerce or financial transactions to all happen natively on
+
+34
+00:03:47,200 --> 00:03:53,120
+chain? The thesis was not just that you could reduce a lot of costs that exist today in Trefi,
+
+35
+00:03:53,680 --> 00:03:59,360
+and as a result make businesses more profitable is we believe and we can talk about a few examples
+
+36
+00:04:00,000 --> 00:04:05,200
+that once you actually bring the books and records to be natively on chain,
+
+37
+00:04:06,000 --> 00:04:12,240
+I think the marginal cost of creating new products and new business ideas effectively
+
+38
+00:04:12,240 --> 00:04:17,680
+becomes financially feasible, which today is just not. So I would say that that really was the
+
+39
+00:04:17,680 --> 00:04:23,680
+motivation to say that I could say it as clearly as I'm saying it right now 10 years ago would
+
+40
+00:04:23,680 --> 00:04:28,480
+not be true, but I would say that it is a recurring theme throughout the life of the company.
+
+41
+00:04:29,040 --> 00:04:33,520
+Bringing institutional processes and opportunities and new businesses
+
+42
+00:04:33,520 --> 00:04:37,840
+into these public networks has been a motivation for us from the very beginning.
+
+43
+00:04:37,840 --> 00:04:41,360
+In the early days, it's so funny to think back on what this looked like in
+
+44
+00:04:41,360 --> 00:04:46,320
+2015 when you guys were getting going because you had a number of competitors that don't exist
+
+45
+00:04:46,320 --> 00:04:51,360
+anymore that were selling private blockchains in the context of Bitcoin is not going to be around,
+
+46
+00:04:51,360 --> 00:04:55,840
+it's not going to be a thing, and you have this choice between public or private. And
+
+47
+00:04:55,840 --> 00:04:59,920
+there just wasn't a lot of nuance in the conversation. You guys have always been really
+
+48
+00:04:59,920 --> 00:05:03,440
+nuanced around the role of public, the role of privacy, the role of
+
+49
+00:05:03,440 --> 00:05:07,440
+how these systems need to touch institutions. So maybe you could just talk a little bit about
+
+50
+00:05:07,440 --> 00:05:12,880
+that and how you think about the narratives of privacy and private chains versus public chains.
+
+51
+00:05:12,880 --> 00:05:21,120
+First of all, this whole public versus private is a bit silly because even chains that others
+
+52
+00:05:21,120 --> 00:05:28,240
+would consider to be fully public permissionless are not truly fully permissionless in the sense that
+
+53
+00:05:28,960 --> 00:05:35,120
+you need to get agreement from the foundation to become a validator. In some of the chains,
+
+54
+00:05:35,120 --> 00:05:41,520
+you need to be a multimillionaire to be a validator. What are the lines that blur between
+
+55
+00:05:41,520 --> 00:05:47,040
+fully public permissionless to private? And really the way I think about it is when this
+
+56
+00:05:47,040 --> 00:05:53,520
+technology was introduced and people got excited about it, if you wanted to bring institutional
+
+57
+00:05:53,520 --> 00:06:03,680
+players to it, they had some concerns about are they going to be participating in illicit activity
+
+58
+00:06:03,680 --> 00:06:08,240
+or in activity that they have no control of. Which generally speaking, even if it's not illicit
+
+59
+00:06:08,240 --> 00:06:13,920
+activity, is very challenging. In my opinion, it made sense in the early days, no different than
+
+60
+00:06:13,920 --> 00:06:19,040
+the internet in the early days where you actually could share your information. You started with
+
+61
+00:06:19,040 --> 00:06:24,800
+the internet and you had a much more controlled environment in which you said, even if I leaked
+
+62
+00:06:24,800 --> 00:06:29,840
+information, I'm not necessarily okay, but it wouldn't be a disaster if it happened within
+
+63
+00:06:29,840 --> 00:06:36,640
+this closed network. I think that some of the large scale enterprises were more comfortable
+
+64
+00:06:37,280 --> 00:06:42,800
+testing the technology within something that is akin to a private network. And again, that private
+
+65
+00:06:42,800 --> 00:06:47,200
+network doesn't necessarily mean that you even have privacy. And if you use Beisu today,
+
+66
+00:06:47,200 --> 00:06:52,720
+which is a private ledger, you still don't have privacy within a Beisu network. And I still think
+
+67
+00:06:52,720 --> 00:06:58,560
+that banks are more comfortable using Beisu, because at least they know we are participating with a
+
+68
+00:06:58,560 --> 00:07:05,440
+group of peers that we do business with on a day to day basis. So I think the early days were much
+
+69
+00:07:05,440 --> 00:07:11,680
+more about controlling the environment, not necessarily having a strict definition of what
+
+70
+00:07:11,680 --> 00:07:18,480
+is public permissionless versus private. It was more about working only with peers that you had
+
+71
+00:07:18,480 --> 00:07:24,640
+control of defining that. For us, this is why I give this example of Beisu. Again, I go to the
+
+72
+00:07:24,640 --> 00:07:30,960
+previous topic of how do you have books and records on chain? For us, it didn't really matter. Are you
+
+73
+00:07:30,960 --> 00:07:38,320
+in a private network, a public network? If you want large scale institutions to participate at scale,
+
+74
+00:07:38,320 --> 00:07:44,720
+privacy to us was a must have. And it wasn't something that we could give up. We worked on
+
+75
+00:07:44,720 --> 00:07:50,720
+the technology from the ground up where we said, rather than having just a ledger that has one
+
+76
+00:07:51,360 --> 00:07:55,680
+privacy model, and you need to figure out how you work within that one privacy model,
+
+77
+00:07:56,320 --> 00:08:02,880
+we should give the application creators the flexibility to define what are the privacy
+
+78
+00:08:02,880 --> 00:08:08,160
+boundaries, what are the control boundaries, and what are the access boundaries, as you would have
+
+79
+00:08:08,160 --> 00:08:12,800
+in most applications on the internet, and then be able to deploy it on the same network as everyone
+
+80
+00:08:12,800 --> 00:08:19,120
+else. We started with a much more controlled environment. So in 2020, the first version of
+
+81
+00:08:19,120 --> 00:08:26,000
+Canton was introduced, and you could deploy it really more as a private network. And as we were
+
+82
+00:08:26,000 --> 00:08:30,000
+developing the technology and getting more and more comfortable, we will be able to have
+
+83
+00:08:30,000 --> 00:08:36,400
+some security privacy control have all the requirements needed in order to develop it or
+
+84
+00:08:36,400 --> 00:08:42,480
+launch it as a fully public permissionless network. We just went towards that in middle of last year.
+
+85
+00:08:43,040 --> 00:08:46,560
+We had the first version of fully public Canton launch.
+
+86
+00:08:47,200 --> 00:08:52,000
+I'd like to ask, in the nuance category here, what's the most successful public permissionless
+
+87
+00:08:52,000 --> 00:08:57,200
+network in the world? It may be a trick question. Your mind goes to Bitcoin, but I guess you would
+
+88
+00:08:57,200 --> 00:09:02,640
+say Linux or something. How do you answer that? I like to point to the internet. Some good answers
+
+89
+00:09:02,640 --> 00:09:07,120
+I've heard are like the US dollar. I think that that's a really nice answer too. The scale of the
+
+90
+00:09:07,120 --> 00:09:12,400
+internet dwarfs what we've been able to achieve in the Bitcoin need ecosystems. And I think it has
+
+91
+00:09:12,400 --> 00:09:17,760
+all the characteristics of what you've all just said, which is it's a public permissionless ecosystem.
+
+92
+00:09:17,760 --> 00:09:23,920
+But if you're a participant in it, you determine the terms under which you participate. Am I running
+
+93
+00:09:23,920 --> 00:09:29,040
+a NAP? I can be wide open and everything's accessible, or I can have really strong gates.
+
+94
+00:09:29,680 --> 00:09:34,480
+Am I providing some services? I can have it available to anybody, or I can determine who I
+
+95
+00:09:34,480 --> 00:09:39,920
+interact with. In the end, there wasn't one model that won everything on the internet. We have a
+
+96
+00:09:39,920 --> 00:09:46,160
+super heterogeneous ecosystem. So to pretend that everything is going to be fully public, fully
+
+97
+00:09:46,160 --> 00:09:51,840
+decentralized, and that's the only way that you'll be able to succeed, I think it just closes the
+
+98
+00:09:51,840 --> 00:09:58,000
+door on a whole area of experimentation and use cases that clearly don't benefit from that. And
+
+99
+00:09:58,000 --> 00:10:04,240
+even the things that have been runaway successes in these public networks like stablecoins,
+
+100
+00:10:04,880 --> 00:10:10,480
+you have decentralized validation of an asset that the issuer can take back at any time.
+
+101
+00:10:10,480 --> 00:10:16,160
+It's almost a contradiction in the tools versus the outcome. And so just acknowledging
+
+102
+00:10:16,160 --> 00:10:23,360
+these contradictions and dropping the pretense and the religion about what it means to use
+
+103
+00:10:23,360 --> 00:10:29,120
+public network really opens up the design space of the types of things and the tools you can give
+
+104
+00:10:29,120 --> 00:10:34,320
+to the people that would join the network to find that sweet spot that works for them. Because
+
+105
+00:10:34,320 --> 00:10:38,160
+ultimately if it's not value for them and it's not value for their investors or their counter parties
+
+106
+00:10:38,160 --> 00:10:42,640
+or their customers, none of this is going to grow. It just kind of becomes an echo chamber.
+
+107
+00:10:43,280 --> 00:10:49,680
+We wanted to make sure that we gave everybody the tools to figure out the right level of all
+
+108
+00:10:49,680 --> 00:10:53,760
+those different levers for them to solve a problem and achieve an outcome.
+
+109
+00:10:54,400 --> 00:11:00,000
+This was brought to life for me and really where I started to understand what you guys are doing at
+
+110
+00:11:00,000 --> 00:11:04,080
+a more granular level is when you started to tell me about some of the use cases around
+
+111
+00:11:04,080 --> 00:11:09,200
+collateral management and how your customers were using the network. So maybe you could talk a little
+
+112
+00:11:09,200 --> 00:11:14,480
+bit about that use case around collateral and why this setup is optimal for that use case.
+
+113
+00:11:15,280 --> 00:11:22,400
+What's really interesting about collateral is today it's a very low velocity project. It's the
+
+114
+00:11:22,400 --> 00:11:26,880
+backbone of why you can trade your leveraging assets. It's what gives you your margin ability.
+
+115
+00:11:26,880 --> 00:11:31,600
+It's what allows you to settle. It's what allows you to de-risk your counterparty risk. But then
+
+116
+00:11:31,600 --> 00:11:38,160
+we really only have the facilities to move them efficiently maybe once a day during business
+
+117
+00:11:38,160 --> 00:11:43,280
+days. And markets are increasingly 24 by 7. Markets are increasingly international. They're
+
+118
+00:11:43,280 --> 00:11:49,760
+interconnected. And the limiting factor today is really balance sheet and collateral efficiency.
+
+119
+00:11:49,760 --> 00:11:53,680
+There's somewhere in the neighborhood of 230 trillion dollars of eligible collateral in the
+
+120
+00:11:53,680 --> 00:11:57,920
+world. I think we use barely 10 percent of it in the workflows that we have today. People are
+
+121
+00:11:57,920 --> 00:12:01,840
+balance sheet constrained and simultaneously significantly underutilizing the collateral
+
+122
+00:12:01,840 --> 00:12:06,480
+that is available, not using it at a velocity that's going to actually de-risk the process.
+
+123
+00:12:06,480 --> 00:12:10,560
+You know, if I have collateral on a Friday, someone goes bankrupt on a Sunday and I walk
+
+124
+00:12:10,560 --> 00:12:14,880
+in Monday, I'm walking into fire sale risk. So just being able to take these things and say,
+
+125
+00:12:14,880 --> 00:12:19,120
+great, I want to do a variation margin cycle with my counterparty every two hours. You're
+
+126
+00:12:19,120 --> 00:12:24,320
+taking massive amounts of risk off the table. And in order to do that, you have to have a ledger
+
+127
+00:12:24,320 --> 00:12:29,440
+that allows you to move these assets in a safe and secure way with high velocity, with high
+
+128
+00:12:29,440 --> 00:12:34,880
+certainty, but also with privacy. Because when you're thinking about a derivatives position,
+
+129
+00:12:34,880 --> 00:12:41,440
+that variation margin is giving away a lot of information about, well, maybe I'm short deltas
+
+130
+00:12:41,440 --> 00:12:45,840
+or I'm short volatility, and that's why I'm net delivering on this movement. And you can start to
+
+131
+00:12:45,840 --> 00:12:50,160
+learn a lot about someone's position by just watching the money movements. And then that
+
+132
+00:12:50,160 --> 00:12:54,480
+can turn into market manipulation problems that can turn into market interference problems.
+
+133
+00:12:54,480 --> 00:13:00,160
+And ultimately, what that means is that I think that the whole crypto ecosystem is undersized
+
+134
+00:13:00,880 --> 00:13:06,080
+because when you start to get into those transactions big enough that people would want
+
+135
+00:13:06,080 --> 00:13:11,440
+to take advantage of that information, you're going off chain, you're going bilateral,
+
+136
+00:13:11,440 --> 00:13:16,640
+you're going away from these automated systems, and you're effectively just entering back into
+
+137
+00:13:16,640 --> 00:13:21,520
+the very low velocity high counterparty risk environment that we had before. Without privacy,
+
+138
+00:13:21,520 --> 00:13:28,240
+without the mobility of these assets, you can't really fundamentally change the backbone of
+
+139
+00:13:28,320 --> 00:13:34,160
+markets, which is how you settle and manage this risk. Cantons really design from the ground up to
+
+140
+00:13:34,160 --> 00:13:38,880
+support those types of capabilities. So whether it's treasuries or hero bonds or guilds or money
+
+141
+00:13:38,880 --> 00:13:44,720
+market funds or wrapped crypto or stable coins, all those things move with the same velocity
+
+142
+00:13:44,720 --> 00:13:48,080
+and getting the liquidity figured out between them and being able to post all of them and
+
+143
+00:13:48,080 --> 00:13:53,200
+substitute all of them and find the cheapest thing to deliver is a killer use case for blockchain.
+
+144
+00:13:53,200 --> 00:13:56,880
+And then without privacy, you'll just never get to the level of scale
+
+145
+00:13:56,880 --> 00:14:02,960
+and adoption to break out of the casino. That's what we're really excited about. It's just to
+
+146
+00:14:02,960 --> 00:14:07,440
+demonstrate how we can do this crossover. We can solve problems in crypto, but just as equally,
+
+147
+00:14:07,440 --> 00:14:12,960
+if not more importantly, can solve problems in Treadfy that have the same characteristics.
+
+148
+00:14:12,960 --> 00:14:20,000
+I think for those who have participated in crypto till the year of 2014-15, if you wanted to trade
+
+149
+00:14:20,000 --> 00:14:25,280
+in multiple crypto exchanges, you had to over collateralize all of your accounts because you
+
+150
+00:14:25,280 --> 00:14:30,960
+couldn't capture the opportunity fast enough by wiring money from one exchange to another.
+
+151
+00:14:31,520 --> 00:14:37,600
+And then Ethereum showed up and then Tether showed up. And voila, suddenly the efficiency in crypto
+
+152
+00:14:38,160 --> 00:14:42,320
+just blew up. And I think you could actually see that in markets from volumes,
+
+153
+00:14:42,320 --> 00:14:47,200
+that suddenly I could actually manage my capital much more efficiently because now I can move US
+
+154
+00:14:47,280 --> 00:14:54,880
+dollars all over the world 24-7. Now in crypto, they accepted that that happens without privacy.
+
+155
+00:14:54,880 --> 00:15:00,240
+That was just a given. I actually think that the same phenomena exists in Treadfy markets,
+
+156
+00:15:00,240 --> 00:15:10,480
+but at 100x the size of the markets. So imagine if a similar phenomena were to happen in Treadfy
+
+157
+00:15:10,480 --> 00:15:16,720
+by mobilizing collateral 24-7 to what you saw in crypto when stablecoins were introduced.
+
+158
+00:15:16,720 --> 00:15:23,120
+That to me is what gets me excited is I just see that paradigm shift and that definitely
+
+159
+00:15:23,120 --> 00:15:29,280
+can exist. I mean, just recently, you start seeing exchanges talking about 24-5 or 24-7.
+
+160
+00:15:29,840 --> 00:15:34,240
+Well, how are they going to do that? Currently, the solution is over collateralize all of your
+
+161
+00:15:34,240 --> 00:15:39,200
+accounts, but that's not capital efficient. If you think about interest rates where they are,
+
+162
+00:15:39,200 --> 00:15:44,560
+massive movements in the market right now, you cannot capture all of these opportunities unless
+
+163
+00:15:44,640 --> 00:15:48,800
+you have the balance sheet to do that. I think the opportunity here is dramatic,
+
+164
+00:15:48,800 --> 00:15:55,280
+and I will add to the point about privacy. I don't think that Treadfy organizations
+
+165
+00:15:55,280 --> 00:16:02,000
+would accept to do that on their Treadfy activity without privacy and crypto, they kind of accept it.
+
+166
+00:16:02,000 --> 00:16:07,200
+The interesting thing is since we introduced Canton, it's now even the crypto native players
+
+167
+00:16:07,200 --> 00:16:12,000
+that are coming and saying, hey, how do we move these assets with privacy because we don't enjoy
+
+168
+00:16:12,000 --> 00:16:16,400
+people front-running us because they keep on watching all of our wallets and all of these
+
+169
+00:16:17,040 --> 00:16:22,560
+non-privacy chains and people do front-run them. It's interesting to see that even now,
+
+170
+00:16:23,120 --> 00:16:29,280
+the institutional crypto players are very focused on privacy and figuring out how they can obfuscate
+
+171
+00:16:29,280 --> 00:16:34,000
+their activity. It's interesting because in crypto, it was almost just that the technology
+
+172
+00:16:34,000 --> 00:16:39,680
+for privacy didn't exist in the early days. There's a path dependency here, whereas if you could have
+
+173
+00:16:39,680 --> 00:16:44,080
+done this out of the gate, if Bitcoin had some privacy layer on top of it, it very well could
+
+174
+00:16:44,080 --> 00:16:49,040
+have been the way that that market evolved. It's interesting that it didn't have privacy out of
+
+175
+00:16:49,040 --> 00:16:54,240
+the gate, and so people are adapted to it. Later, entrepreneurs like yourselves come across and
+
+176
+00:16:54,240 --> 00:16:57,360
+make it better. It's interesting to watch from the outside in.
+
+177
+00:16:57,360 --> 00:17:01,920
+I really like how Zuko talks about this. In the early days, he used to always talk with Satoshi
+
+178
+00:17:01,920 --> 00:17:06,800
+about how the transparency was a major bug and a major flaw and that it was very hard for them to
+
+179
+00:17:06,800 --> 00:17:13,600
+achieve their ideal without it. Then somewhere in like 14 through 18, transparency became the
+
+180
+00:17:13,600 --> 00:17:20,400
+selling point. The bug became the feature. I think people are coming back to realization that the
+
+181
+00:17:20,400 --> 00:17:25,840
+transparency is a major flaw in design. The thing is, it's going to be very difficult for people to
+
+182
+00:17:25,840 --> 00:17:31,840
+pivot out of that because so much of the design of what they've built relies upon the full transparency
+
+183
+00:17:31,840 --> 00:17:36,640
+of the system. Everybody built their integration, assuming they have access to all the data.
+
+184
+00:17:36,640 --> 00:17:40,560
+Everybody built everything that they do in these ecosystems, the dApps. Everything is
+
+185
+00:17:41,280 --> 00:17:48,000
+more than just let's try to bolt on some privacy preservation. It really leads to a fundamental
+
+186
+00:17:48,000 --> 00:17:52,400
+rethink about what it means to be connected to these ecosystems and how you interact with them.
+
+187
+00:17:52,960 --> 00:17:59,680
+Another point that you're seeing as very popular now is the conflation between zero knowledge
+
+188
+00:17:59,680 --> 00:18:05,920
+and privacy. Maybe that's an important thing to distinguish is that we don't consider zero
+
+189
+00:18:05,920 --> 00:18:12,480
+knowledge as a privacy solution. It's an anonymity solution. It's a way to obfuscate the inputs from
+
+190
+00:18:12,480 --> 00:18:18,880
+everyone involved in the transaction. Again, if you bring it back to, I give this example, imagine
+
+191
+00:18:18,880 --> 00:18:26,240
+you had a zero knowledge algorithm called San Bankman Freed, which you just give it collateral,
+
+192
+00:18:26,320 --> 00:18:31,760
+and San Bankman Freed tells you, great, we have the collateral. It's here. It's with us. Until you
+
+193
+00:18:31,760 --> 00:18:36,320
+have the market meltdown, and you need to call on that collateral, and then you find out that there
+
+194
+00:18:36,320 --> 00:18:40,880
+was a bug into zero knowledge, and the collateral was actually never there. To us, that is not
+
+195
+00:18:40,880 --> 00:18:46,400
+privacy, that if anything opens the door for systemic risk within the system because we know
+
+196
+00:18:46,400 --> 00:18:52,320
+there's always bugs. I think one of the critical things that we've been thinking about is privacy
+
+197
+00:18:52,480 --> 00:18:58,800
+is how do you make sure that only the stakeholders to the transaction have full visibility into what's
+
+198
+00:18:58,800 --> 00:19:04,320
+on the ledger, where those that are not stakeholders to the transactions just actually don't know
+
+199
+00:19:05,040 --> 00:19:10,640
+set activity have happened on the ledger. I think that that's a very big difference. I think the
+
+200
+00:19:10,640 --> 00:19:18,160
+reason why ZKPs are now being pushed as a privacy solution is because it's a nice bolt-on
+
+201
+00:19:18,880 --> 00:19:24,640
+on ledgers that haven't thought of privacy from first principles as like an anchor tenant in
+
+202
+00:19:24,640 --> 00:19:29,920
+their design. It's much more comfortable now to add zero knowledge as an afterthought.
+
+203
+00:19:30,720 --> 00:19:36,400
+To bring this to life maybe on how this would work on the chain itself, say I am moving treasury
+
+204
+00:19:36,400 --> 00:19:42,320
+collateral over to you guys, what would the public see on the blockchain itself when I'm making that
+
+205
+00:19:42,320 --> 00:19:47,760
+collateral movement? They wouldn't. This is really the nice thing about Canton is that you could
+
+206
+00:19:47,760 --> 00:19:55,600
+actually have two different applications that have very different privacy models. Let's just imagine
+
+207
+00:19:55,600 --> 00:20:03,600
+that Matt you're my prime broker, I'm your client, and you send me variation margin calls throughout
+
+208
+00:20:03,600 --> 00:20:10,800
+the day. We decided that my activity with my prime broker is fully private to us. We don't want anyone
+
+209
+00:20:10,800 --> 00:20:16,480
+else in the world to know about the margin calls, but we do know let's just imagine that we have a
+
+210
+00:20:16,480 --> 00:20:21,760
+stable coins. In the case of Circle on Canton it will be with privacy, but let's imagine that Circle
+
+211
+00:20:21,760 --> 00:20:29,200
+wanted to issue it very similar to how stable coins have been working on other chains where
+
+212
+00:20:29,200 --> 00:20:34,320
+everybody gets to see everyone's account balances in a pseudo-anonymous manner. The nice thing in
+
+213
+00:20:34,320 --> 00:20:39,760
+Canton is that you could actually compose a transaction of two applications that have very
+
+214
+00:20:39,760 --> 00:20:45,360
+different privacy models, still compose a transaction. Imagine you gave me a transaction
+
+215
+00:20:45,360 --> 00:20:52,720
+which is you created a variation margin request and now I want to fund it with USDC. You and I, Matt,
+
+216
+00:20:52,720 --> 00:20:59,280
+will actually see an atomic transaction between me satisfying the variation margin versus the USDC
+
+217
+00:20:59,280 --> 00:21:05,680
+moving between the two wallets. Eric, who's not part of that transaction, would only see USDC
+
+218
+00:21:05,680 --> 00:21:11,520
+moving between two wallets. He wouldn't know for what reason. Why? Because he's not a stakeholder
+
+219
+00:21:11,600 --> 00:21:18,000
+to the crime brokerage transaction. And that's really, I think, the power of Canton is the world
+
+220
+00:21:18,000 --> 00:21:24,800
+is not homogeneous. It actually has the capability of composing multiple applications that have very
+
+221
+00:21:24,800 --> 00:21:31,040
+different privacy settings without leaking information between them. The way that Canton
+
+222
+00:21:31,040 --> 00:21:38,400
+works dynamically calculates who are the stakeholders to the transaction and it knows how to have
+
+223
+00:21:38,480 --> 00:21:43,760
+effectively consensus across only those stakeholders. And you can have, like I said,
+
+224
+00:21:43,760 --> 00:21:49,280
+multiple levels of privacy. I can think of so many examples where having that feature in the
+
+225
+00:21:49,280 --> 00:21:54,240
+stablecoin market would make the stablecoin market better and larger. Think about payroll
+
+226
+00:21:54,240 --> 00:21:59,440
+use cases and regular vendor payments that you wouldn't want fully disclosed. Just shocking
+
+227
+00:21:59,440 --> 00:22:04,160
+that the stablecoin market has gotten as large as it has without this. I totally agree. I mean,
+
+228
+00:22:04,160 --> 00:22:10,560
+listen, we have customers that are doing life insurance natively on chain. They actually do
+
+229
+00:22:10,560 --> 00:22:18,000
+not have any other system of record beyond Canton. And the reason why they got comfortable
+
+230
+00:22:18,000 --> 00:22:24,880
+is because of the security and privacy features of Canton. And now they are exactly talking to us,
+
+231
+00:22:24,880 --> 00:22:31,280
+hey, how can we integrate something like stablecoins to actually process some of the transactions?
+
+232
+00:22:31,280 --> 00:22:37,040
+And the reason is because they can actually do that with privacy. So they totally see the value
+
+233
+00:22:37,760 --> 00:22:44,160
+of, hey, if I have these assets natively on chain, I can securitize these products much easier.
+
+234
+00:22:44,160 --> 00:22:51,360
+I can process transactions. I can process payments related to them. But I'm not sacrificing any of
+
+235
+00:22:51,360 --> 00:22:57,200
+my fiduciary duties to my clients and customers. In the early days, I'm sure you were going to a
+
+236
+00:22:57,200 --> 00:23:02,400
+lot of institutions and they were just trying to figure out what the heck is Bitcoin and explain
+
+237
+00:23:02,400 --> 00:23:07,520
+to me blockchain technology. These days, maybe some of that's still going on. I suspect it probably
+
+238
+00:23:07,520 --> 00:23:12,560
+is at some institutions, but then you have other institutions that are mentioning Canton on earnings
+
+239
+00:23:12,560 --> 00:23:19,040
+calls. It's a very interesting market to observe from my side where the discrepancy is crazy here.
+
+240
+00:23:19,040 --> 00:23:22,960
+So what does it look like for you guys when you show up at an institution and how are you talking
+
+241
+00:23:22,960 --> 00:23:28,640
+about the various business cases? I don't know if it's because of fatigue or because I find it to be
+
+242
+00:23:28,640 --> 00:23:35,200
+more productive to not talk about blockchain. It's incredible when you explain to people, for
+
+243
+00:23:35,200 --> 00:23:42,640
+example, we do this project with iCapital, putting private equity on chain and efficiencies, the DeFi
+
+244
+00:23:42,640 --> 00:23:49,120
+opportunities that now you can effectively encumber these assets to get lending against LP holdings
+
+245
+00:23:49,120 --> 00:23:54,720
+and things like that. It's amazing when you go to customers and you understand and appreciate
+
+246
+00:23:54,720 --> 00:23:58,960
+their business and you understand where they make money and where they spend dollars.
+
+247
+00:23:59,920 --> 00:24:06,160
+And you don't come to them with a brave world kind of vision of how they need to change everything
+
+248
+00:24:06,160 --> 00:24:12,080
+that they're doing. And you're just saying, look, we've done AXYZ with these type of customers that
+
+249
+00:24:12,080 --> 00:24:18,160
+are very similar to what you do and look at the result that they have. I just find those conversations
+
+250
+00:24:18,160 --> 00:24:25,840
+to be much easier and much more productive. And it's not about my blockchain is bigger or
+
+251
+00:24:25,840 --> 00:24:32,640
+better or faster or cheaper than others. It does eventually translate into hard questions
+
+252
+00:24:32,640 --> 00:24:39,440
+about privacy. I can tell you when I had recently a meeting with a very impressive woman at a
+
+253
+00:24:39,440 --> 00:24:46,240
+clearinghouse, a very important clearinghouse, and she dismissed the whole art of the possible and
+
+254
+00:24:46,240 --> 00:24:50,880
+everything. She was like, you want to talk to me about collateral? Tell me how you perfect title.
+
+255
+00:24:50,880 --> 00:24:56,560
+And I love that because she kind of got to like, don't tell me about I can move assets
+
+256
+00:24:56,560 --> 00:25:01,520
+between wallets fast enough. If you really want to talk collateral, it means that, you know,
+
+257
+00:25:01,520 --> 00:25:05,600
+what is the meaning of perfecting a title? What does it mean to be bankruptcy remote?
+
+258
+00:25:06,320 --> 00:25:10,240
+And if you can convince me that you've thought about those things and your technology can
+
+259
+00:25:10,800 --> 00:25:17,440
+solve for that, then we'll move to the next phase. So again, it's kind of a very similar angle that
+
+260
+00:25:17,440 --> 00:25:23,760
+what has worked really well in the last few years is talking about business outcomes without having
+
+261
+00:25:23,760 --> 00:25:29,760
+to say, hey, you need to reset everything you know about your world. You need to kind of throw away
+
+262
+00:25:29,760 --> 00:25:34,720
+your 20 years of experience. And we're just going to do everything fresh from the ground up.
+
+263
+00:25:34,720 --> 00:25:38,880
+When you don't talk like that, you talk about incremental gains that are much more
+
+264
+00:25:38,880 --> 00:25:43,520
+anchored in reality. It ends up being a much more fruitful conversation.
+
+265
+00:25:44,080 --> 00:25:48,960
+They get very excited by the tale of opportunity. That's what I think has changed a lot in the
+
+266
+00:25:48,960 --> 00:25:55,760
+past five years is that some things have had good success. And so they can see how things can get
+
+267
+00:25:55,760 --> 00:26:01,680
+beyond that initial phase. So I would say that the body language is a lot more leaning forward
+
+268
+00:26:01,680 --> 00:26:08,560
+than defensive. But to Yuval's point, if it's not about how it's going to transform their
+
+269
+00:26:08,560 --> 00:26:14,400
+business to be safer, cheaper, make them more money, make their customers more money, it doesn't
+
+270
+00:26:14,400 --> 00:26:19,680
+really matter what's under the hood. So being outcome driven and focus on it and then making
+
+271
+00:26:19,680 --> 00:26:23,600
+sure that the tech doesn't run into all the reasons you're going to get vetoed. It's still a
+
+272
+00:26:23,600 --> 00:26:29,760
+process. It's still a conversation, but people are more inclined to want to find a positive outcome
+
+273
+00:26:29,760 --> 00:26:33,120
+and an answer to move forward than they were maybe five years ago. But
+
+274
+00:26:33,120 --> 00:26:36,000
+you're still going to go through the exact same vetting process.
+
+275
+00:26:36,720 --> 00:26:40,400
+It's really impressive what you guys have built from an ecosystem perspective. If you just take
+
+276
+00:26:40,400 --> 00:26:46,320
+the lens that this is not necessarily always just a technology problem. It's ultimately like a network
+
+277
+00:26:46,320 --> 00:26:52,080
+effect financial services landscape that only works if a lot of different counterparties are all
+
+278
+00:26:52,080 --> 00:26:57,200
+on the same network. So how have you guys thought about crafting that network as you've grown the
+
+279
+00:26:57,280 --> 00:27:01,680
+organization over time and trying to figure out the use cases that have what I would call a minimum
+
+280
+00:27:01,680 --> 00:27:07,680
+viable ecosystem? They don't work if just one or two firms get on board? You'd be surprised though
+
+281
+00:27:07,680 --> 00:27:12,720
+how often you can find an entry point where it is enough that there's one or two firms.
+
+282
+00:27:13,280 --> 00:27:19,040
+And so it's really useful to find those and start. I mean, as an example, the repo project that we
+
+283
+00:27:19,040 --> 00:27:24,960
+have with Broadridge, we started with Intra company. So the London versus the French versus the New
+
+284
+00:27:24,960 --> 00:27:30,320
+York part of the organization or the deposit tokens that are doing well with transfer pricing and
+
+285
+00:27:30,320 --> 00:27:35,600
+internal treasury management. Sometimes one's enough because within an organization there's
+
+286
+00:27:35,600 --> 00:27:42,320
+an ecosystem already. So finding an entry point is really important. But then to really accelerate
+
+287
+00:27:42,320 --> 00:27:47,280
+that and turn it into something meaningful, it's about finding those early connections into something
+
+288
+00:27:47,280 --> 00:27:53,120
+else. It's more important to find the connections to other applications than it is to have more
+
+289
+00:27:53,120 --> 00:27:58,160
+users in your application. My example that I like to talk a lot about is if you think about
+
+290
+00:27:58,160 --> 00:28:02,640
+capital markets, love them or hate them, they sit underneath all the crypto native products that we
+
+291
+00:28:02,640 --> 00:28:08,400
+rely on the most. When we talk about a stablecoin, where is the stable, it's sitting in treasuries,
+
+292
+00:28:08,400 --> 00:28:14,560
+it's at bony, it's in the repo and reverse repo market, it's holding money market funds.
+
+293
+00:28:14,560 --> 00:28:21,120
+So you have a fundamentally crypto native asset that is buoyed by the strength and power and
+
+294
+00:28:21,120 --> 00:28:25,600
+trustworthiness of capital markets. But it also means that if they're accessing those capital
+
+295
+00:28:25,600 --> 00:28:31,120
+markets in traditional ways, that they're held back by whatever those current shortcomings are.
+
+296
+00:28:31,120 --> 00:28:36,560
+Cool, stablecoin, you've actually only solved a portion of the problem, being able to instantly
+
+297
+00:28:36,560 --> 00:28:41,360
+create or redeem that 24 hours a day, being able to deliver treasuries, not just money through the
+
+298
+00:28:41,360 --> 00:28:47,040
+Fedwire, being able to face them in repo, 24 by seven repo, intraday repo, over the weekend repo,
+
+299
+00:28:47,120 --> 00:28:52,800
+custom tenor and term, all that sort of stuff. That's where we look for the first connections.
+
+300
+00:28:52,800 --> 00:28:57,520
+You've solved an immediate problem by issuing an asset. Now, where can you use that as collateral?
+
+301
+00:28:57,520 --> 00:29:03,440
+Or can I compose that with a cash movement? Or can I automate some of the life cycle events
+
+302
+00:29:03,440 --> 00:29:08,800
+through this other system? And that secondary app connection is where things really take off,
+
+303
+00:29:09,440 --> 00:29:14,080
+because that's where we think that blockchain really is the technological innovation is in the
+
+304
+00:29:14,080 --> 00:29:18,400
+composability area. Earlier, we were talking about private blockchains. The reason we've always
+
+305
+00:29:18,400 --> 00:29:24,720
+been allergic to getting classified as a private blockchain is because you're throwing composability
+
+306
+00:29:24,720 --> 00:29:30,080
+up the window, which is the big opportunity here. So we've always been focused on making sure that
+
+307
+00:29:30,080 --> 00:29:35,520
+no matter how we've come to market, no matter where we start, no matter how narrow that entry point is,
+
+308
+00:29:36,320 --> 00:29:41,200
+composability is a short-term goal and a technological possibility because of what's
+
+309
+00:29:41,200 --> 00:29:46,960
+built into Canton. If you go again back to the previous question about what we're talking to
+
+310
+00:29:46,960 --> 00:29:52,640
+customers, I think for us, the name of the chain Canton, why Canton? Canton is really,
+
+311
+00:29:53,200 --> 00:29:57,840
+first, our team is in Switzerland who built it, and this is more of a tribute to them. But it's
+
+312
+00:29:57,840 --> 00:30:02,960
+also, if you think about Switzerland as really a federation of cantons, they all kind of have their
+
+313
+00:30:02,960 --> 00:30:08,800
+nuance, different tax, different language, different rules, but they all interoperate under
+
+314
+00:30:08,800 --> 00:30:14,960
+Switzerland. The goal of the network is really to create user experiences if I'm connected to one
+
+315
+00:30:14,960 --> 00:30:21,360
+network, but really under the hood, it's many, many cantons that all interoperate with one another.
+
+316
+00:30:21,360 --> 00:30:27,040
+The reason I bring that up is because when you think about the beachheads that we've done,
+
+317
+00:30:27,840 --> 00:30:34,480
+in many cases, they were kind of a closed network that solved a very specific problem for that network.
+
+318
+00:30:35,120 --> 00:30:41,040
+But because they all build on the same protocol, eventually they all come together. So now
+
+319
+00:30:41,680 --> 00:30:48,080
+USDC comes to the network. Oh, wow. All of the cantons that are just doing transactions on the
+
+320
+00:30:48,080 --> 00:30:53,920
+asset side now can compose transactions to get rid of their traditional payment provider
+
+321
+00:30:53,920 --> 00:31:01,120
+to settle the cash leg using USDC. We have a life insurance company. They were solving life
+
+322
+00:31:01,120 --> 00:31:06,800
+insurance and annuities business. But now we have private assets that exist on cantons like
+
+323
+00:31:06,800 --> 00:31:14,000
+private credit, private equity. Guess what? You can encumber those assets into a whole life platform.
+
+324
+00:31:14,000 --> 00:31:19,200
+And I can keep on giving you examples, securitization of mortgages, horse racing,
+
+325
+00:31:20,000 --> 00:31:27,760
+physical mad gas, collateral, security lending. All of those beachheads were solving very specific
+
+326
+00:31:27,760 --> 00:31:35,040
+problems. But eventually the long-term strategy was as long as they can hold on their two feet
+
+327
+00:31:35,040 --> 00:31:40,960
+for long enough, eventually as the technology becomes more and more popular, you are starting
+
+328
+00:31:40,960 --> 00:31:47,520
+now to see these connections between them. We've done repo and canton. Guess what? Now when you have
+
+329
+00:31:47,520 --> 00:31:53,680
+US treasuries or Euro bonds and guilds on canton, well, now suddenly a stablecoin provider can do
+
+330
+00:31:54,240 --> 00:32:01,840
+24 by 7 repo to do a 24 by 7 create redeem of a stablecoin. The long-term view was very similar
+
+331
+00:32:01,840 --> 00:32:08,080
+to the internet, solve an immediate efficiency within a localized network. But long-term as the
+
+332
+00:32:08,080 --> 00:32:13,680
+technology becomes more and more popular, you will start seeing these composable interactions
+
+333
+00:32:14,240 --> 00:32:18,880
+throughout the network. Yeah, it's such a great example of the intranet versus internet. And you
+
+334
+00:32:18,880 --> 00:32:23,280
+can see how that evolves. It's also really clear that you must be talking to a lot of different
+
+335
+00:32:23,280 --> 00:32:27,680
+institutions that have different pain points. Some of them are probably looking at cost savings
+
+336
+00:32:27,680 --> 00:32:32,320
+and others. You can just imagine new markets getting created here, where there are just
+
+337
+00:32:32,320 --> 00:32:36,960
+things that wouldn't otherwise be possible without a technology like this. So I want to switch gears
+
+338
+00:32:36,960 --> 00:32:42,320
+here a little bit just to the token itself on the canton network. So this is not a theory. You
+
+339
+00:32:42,320 --> 00:32:46,480
+guys have this in production. It's working today. People are on it. So maybe you could talk a little
+
+340
+00:32:46,480 --> 00:32:51,440
+bit about the token itself, the public network, how it works, why it matters. First of all,
+
+341
+00:32:51,440 --> 00:32:56,960
+maybe just about generically speaking, the token, we believe that this space have had
+
+342
+00:32:56,960 --> 00:33:03,200
+too many white papers selling tokens to retail. And for us, we wanted to go back
+
+343
+00:33:03,920 --> 00:33:12,080
+to the original thinker behind this movement who said the technology needs to prove itself.
+
+344
+00:33:12,080 --> 00:33:16,640
+And as a result, the token will be earned and we'll appreciate in value. So first of all,
+
+345
+00:33:16,640 --> 00:33:22,080
+we decided with everyone else who helped us launch the network that we're going to do a fair
+
+346
+00:33:22,080 --> 00:33:29,680
+launch. We didn't do a pre-mine digital asset doesn't sit on 60, 70, 80% of the token. We wanted
+
+347
+00:33:29,680 --> 00:33:34,960
+it to be a decentralized network and we wanted the network to gain value because it proves its
+
+348
+00:33:34,960 --> 00:33:39,920
+value. A lot of people in crypto thought we were stupid for doing that, but we thought it was
+
+349
+00:33:39,920 --> 00:33:45,200
+extremely important. Second of all, we wanted to make sure that before we list the token,
+
+350
+00:33:45,200 --> 00:33:50,000
+you could trade the token today, you could do secondary trades. But before we list the token,
+
+351
+00:33:50,000 --> 00:33:55,680
+we actually show real world utility at scale running on the network. And that is still on
+
+352
+00:33:55,680 --> 00:34:02,880
+track to get listed later this year. And I think we will be hopefully top 10 from dollar utility
+
+353
+00:34:02,880 --> 00:34:08,720
+actually on chain when we get listed. And that will be exciting. I think that when you look at
+
+354
+00:34:08,720 --> 00:34:14,240
+Bitcoin, it is an asset class. It's not a blockchain. It's an asset class that has a blockchain to
+
+355
+00:34:14,240 --> 00:34:21,840
+drive that asset class. And therefore, it makes sense for those that secure that use case to earn
+
+356
+00:34:21,840 --> 00:34:27,600
+all the reward. When you start thinking of smart contract chains, it's more of a platform. And we
+
+357
+00:34:27,600 --> 00:34:34,560
+believe that this idea that miners or validators earn all of their reward is not the right incentive
+
+358
+00:34:34,560 --> 00:34:41,680
+structure. Why? Because it is the builders, it's the users that actually create the value. They
+
+359
+00:34:41,680 --> 00:34:48,640
+think about the business models, they think about new creative ideas, they do marketing,
+
+360
+00:34:48,640 --> 00:34:55,920
+they go to conferences, they have meetings, they work really hard to make their DApps or
+
+361
+00:34:55,920 --> 00:35:04,720
+DeFi protocols a success. And I think that it is pretty odd that no one in the smart contract
+
+362
+00:35:04,800 --> 00:35:11,520
+chain to economics world came and said, well, if they drive all the volume and as a result,
+
+363
+00:35:11,520 --> 00:35:17,840
+all the fees into our networks, they deserve a big chunk of their reward. And this is not
+
+364
+00:35:17,840 --> 00:35:23,840
+a new concept. You have influencers, you have interchange, you have just so many different
+
+365
+00:35:23,840 --> 00:35:29,760
+things where there should be some kind of a shared economics with those that drive the success to
+
+366
+00:35:29,760 --> 00:35:34,800
+the network. So I'll leave it at that high level to let Eric kind of explain the specifics.
+
+367
+00:35:35,440 --> 00:35:42,400
+But it's this idea that we wanted to make sure if you come to build on Canton, if you invest
+
+368
+00:35:42,400 --> 00:35:48,160
+time, effort, and you become successful, we believe that a big portion of the two economics
+
+369
+00:35:48,160 --> 00:35:53,200
+should go your way for that investment. Very similarly, people ask me all the time, like,
+
+370
+00:35:53,200 --> 00:35:57,920
+you guys have been at this for over 10 years, what was the point of the coin and why the timing
+
+371
+00:35:57,920 --> 00:36:03,360
+on it? Timing is also a question we get a lot. And so for me, it always starts from the same place
+
+372
+00:36:03,360 --> 00:36:09,280
+which is about aligned incentives. What I think the crypto ecosystem has done an excellent job of
+
+373
+00:36:09,280 --> 00:36:16,640
+doing in the past roughly 15 years is experimenting with different incentive systems and creating
+
+374
+00:36:16,640 --> 00:36:20,640
+incentive systems where there are first mover advantages where technologically there may not
+
+375
+00:36:20,640 --> 00:36:27,520
+be network effects don't necessarily have first mover advantages. And so to be able to create
+
+376
+00:36:27,520 --> 00:36:32,800
+those opportunities is very important. It helps you kind of bootstrap an ecosystem. It creates
+
+377
+00:36:32,800 --> 00:36:39,520
+the incentive to move quicker rather than slower. It entices the more risk loving early participants.
+
+378
+00:36:39,520 --> 00:36:44,480
+I used to always really respect and love these crypto networks for being a really strong filter
+
+379
+00:36:44,480 --> 00:36:49,200
+for people that want to participate in these apps. I think that that's something that gets overlooked
+
+380
+00:36:49,200 --> 00:36:54,320
+a lot is you have a very active community of people that are willing to adopt the latest decks
+
+381
+00:36:54,320 --> 00:36:59,440
+or the latest chain or the latest lending protocol or whatever it may be. And I think a big part of
+
+382
+00:36:59,440 --> 00:37:03,040
+that is that the incentive structures that have been designed around these networks have encouraged
+
+383
+00:37:03,040 --> 00:37:08,960
+and cultivated that community. It was time to do that in Canton. I've jokingly sometimes said we
+
+384
+00:37:08,960 --> 00:37:13,440
+built a network the way you might have built a strip mall in the 90s anchor tenants first and
+
+385
+00:37:13,440 --> 00:37:18,160
+then open it up and brought it into a bigger ecosystem. And part of that was about aligning
+
+386
+00:37:18,160 --> 00:37:23,040
+the incentives between all the participants that would come early. So do you all point
+
+387
+00:37:23,680 --> 00:37:30,160
+concretely in every single block there's three tranches of mining rewards one third of all the
+
+388
+00:37:30,160 --> 00:37:35,280
+rewards that will ever get minted over the first 10 years of the network go to the miners which is
+
+389
+00:37:35,280 --> 00:37:39,520
+very small percentage as compared to other networks which generally are right around 100%.
+
+390
+00:37:40,320 --> 00:37:47,200
+If not 100% like we mentioned there's no pre-mine or pre-sale. So every coin that will ever come
+
+391
+00:37:47,200 --> 00:37:52,400
+into existence gets earned by somebody doing something. And one of those categories is being
+
+392
+00:37:52,400 --> 00:37:57,520
+what we call a super validator but just think of it as mining. The second category is going to users
+
+393
+00:37:57,520 --> 00:38:02,800
+think of it as like a transaction subsidy you know it helps cover some of your expenses of using
+
+394
+00:38:02,800 --> 00:38:08,560
+the chain. So the more active you are then the more of that validator reward or user reward you'll
+
+395
+00:38:08,560 --> 00:38:14,320
+receive. And then the preponderance of the reward 50% of all the coins that will get earned by anybody
+
+396
+00:38:14,320 --> 00:38:19,360
+over the first 10 years go to applications as measured by the network fees that they generate.
+
+397
+00:38:19,920 --> 00:38:24,800
+And this is I think relatively unheard of and the other networks I haven't seen other examples
+
+398
+00:38:24,800 --> 00:38:29,760
+certainly not at the scale of the reward that we've done. And in its absence what you see is a
+
+399
+00:38:29,760 --> 00:38:35,600
+fairly large grant ecosystem and a lot of other networks makes me uneasy uncomfortable it's just
+
+400
+00:38:35,600 --> 00:38:42,480
+very transactional can build very mercenary like behaviors doesn't necessarily produce the outcomes
+
+401
+00:38:42,480 --> 00:38:48,080
+that the chains are hoping for the communities are hoping for. And it also changes a lot you bet on
+
+402
+00:38:48,080 --> 00:38:52,160
+startup A but actually startup B was the winner and they went into a different ecosystem. So
+
+403
+00:38:52,880 --> 00:38:57,840
+what you want to do is have something that's way more responsive to how fast the ecosystem is
+
+404
+00:38:57,840 --> 00:39:04,000
+moving. So in canton in block zero if this one app is responsible for 35 of the network fees
+
+405
+00:39:04,000 --> 00:39:10,000
+generated in block one they're going to take 35% of the application reward. We think that with all
+
+406
+00:39:10,000 --> 00:39:15,440
+the difficulties that come in helping foster an ecosystem around that it was important to try to
+
+407
+00:39:15,440 --> 00:39:22,320
+do that and to try to align the network outcomes with those that are putting in the equity and the
+
+408
+00:39:22,320 --> 00:39:27,760
+sweat and the tears to make it happen. Time will tell if this was a better way to do things we're
+
+409
+00:39:27,760 --> 00:39:32,400
+pretty excited about running the experiment and creating the opportunity to try a different model
+
+410
+00:39:33,120 --> 00:39:39,600
+it's resonating with people a lot you see behaviors change a lot ordinarily in other networks you
+
+411
+00:39:39,600 --> 00:39:44,560
+get paid to stake and think about what that means behaviorally you're taking things out of
+
+412
+00:39:44,560 --> 00:39:50,880
+circulation and you're doing nothing and that's how you get paid and in canton it's the opposite
+
+413
+00:39:50,880 --> 00:39:57,520
+you have to put stuff into use to work you have to do stuff on chain to get paid and so it's really
+
+414
+00:39:57,520 --> 00:40:03,600
+this behavioral economics that we're trying to engender by doing rewards this way. To me the most
+
+415
+00:40:03,600 --> 00:40:11,440
+exciting sign actually of the tokenomics is some fairly large stratify organizations sitting with
+
+416
+00:40:11,440 --> 00:40:18,160
+us doing business projections based on tokenomics. I don't think I thought I would live for that day
+
+417
+00:40:18,720 --> 00:40:25,680
+to say that I'm sitting with some very traditional clients thinking about tokenomics models of
+
+418
+00:40:25,680 --> 00:40:30,960
+saying like cool I have my business model this is kind of how I price it but if I now drive
+
+419
+00:40:31,520 --> 00:40:38,320
+x amount of volumes into canton let's simulate the price of canton coin say that we do x amount
+
+420
+00:40:38,320 --> 00:40:43,760
+of the activity this is how much would be our reward this is how much we extrapolate as revenue
+
+421
+00:40:44,320 --> 00:40:49,200
+and these are very traditional organization. To me even the exercise is worth it.
+
+422
+00:40:49,200 --> 00:40:53,440
+I think it's fascinating I think you'll even have business school case studies written about this
+
+423
+00:40:53,440 --> 00:40:58,160
+time period in this technology because you look at how the credit card networks were built or look
+
+424
+00:40:58,160 --> 00:41:03,840
+at how Swift or CLS evolved and this could just be the next generation of how community owned
+
+425
+00:41:03,840 --> 00:41:09,760
+infrastructure ends up coming together. That's exactly it Matt what you said is literally how
+
+426
+00:41:09,760 --> 00:41:18,800
+I pitch sometimes this idea is the way we need to think of public network is a network owned
+
+427
+00:41:18,800 --> 00:41:24,400
+shared infrastructure that is decentralized and therefore if you think about this if you take
+
+428
+00:41:24,400 --> 00:41:30,000
+an analogy that this is a decentralized cloud or a decentralized computer and you're saying I am
+
+429
+00:41:30,000 --> 00:41:37,120
+driving x amount of revenue towards that well guess what I want a cut of that revenue if I'm
+
+430
+00:41:37,120 --> 00:41:43,520
+creating a multiple for this community based infrastructure I want my piece of flesh as a
+
+431
+00:41:43,520 --> 00:41:48,240
+result of that. Totally I'm super impressed with what you guys have built and we're excited to be
+
+432
+00:41:48,240 --> 00:41:53,360
+a part of it where can we send people that want to learn more get involved join the community
+
+433
+00:41:53,360 --> 00:41:58,320
+start building things on canton. The fastest way to be able to join the network is if you go to
+
+434
+00:41:58,320 --> 00:42:05,360
+sync.global that's the global synchronizer foundation site there is a series of links
+
+435
+00:42:05,360 --> 00:42:10,000
+you can follow there about getting a validator or joining the ecosystem and connecting to the network
+
+436
+00:42:10,000 --> 00:42:15,040
+we have a bunch of ecosystem partners that help facilitate access as well so even for someone
+
+437
+00:42:15,040 --> 00:42:18,960
+who's not technologically savvy they can join they can come through a wall provider they can come
+
+438
+00:42:18,960 --> 00:42:24,240
+through a number of different entities that support the ecosystem and you can find a healthy
+
+439
+00:42:24,320 --> 00:42:30,800
+list of who that is at sync.global and also at canton.network. Incredible well thanks for
+
+440
+00:42:30,800 --> 00:42:35,200
+joining the podcast today guys excited to monitor what happens here going forward it sounds like
+
+441
+00:42:35,200 --> 00:42:40,720
+there's a ton of buzz on Canton and really excited to see the use cases evolve so appreciate all
+
+442
+00:42:40,720 --> 00:42:47,040
+you're doing. Thank you Matt. Thanks Brett. Thanks for listening to another episode of On the Brink
+
+443
+00:42:47,040 --> 00:42:53,520
+with Castle Island to find out more about Castle Island visit castleisland.vc to listen to all
+
+444
+00:42:53,520 --> 00:43:01,120
+of our podcast episodes please go to onthebrink-podcast.com or just click on the tab in our website
+
+445
+00:43:01,120 --> 00:43:04,000
+thanks for listening
+

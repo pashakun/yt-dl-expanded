@@ -1,0 +1,700 @@
+ Crypto sure does feel exactly like a 17 year old, right, like just nearing the end of adolescence, starting to step into adulthood, being taken seriously by the other adults in the room, but still plenty of growing up left to do.
+ Every bank I've ever spoken with wants to talk about stablecoins, every financial institution, and then small companies, merchants, they feel totally inevitable now to the mainstream.
+ Bitcoin specifically now, it's a top 10 asset in the world. Crypto certainly has become a meaningful part of the modern economy today.
+ People say people don't care about privacy, whatever. No, of course they care about privacy. People take it for granted. That's what they mean by don't care. But they have expectations.
+ Welcome to Web 3 with A16Z. I'm your host, Robert Hackett. Today we're taking you behind the scenes of A16Z Crypto's 2025 state of crypto report.
+ Each year, this report takes stock of where the industry stands, cutting through the noise to capture a snapshot of crypto's evolution across markets, technology, policy, culture, and more.
+ Now, in its fourth edition, the state of crypto report reflects how this once fringe technology has recently hit all-time highs and gone mainstream, from stablecoins and tokenized assets to rapid recent adoption by major financial firms.
+ In this episode, we'll dig into the findings and themes from this year's report with some of its authors, including lead author Darren Matzwoka, A16Z Crypto's head of data and funds strategy, and Eddie Lazarin, A16Z Crypto's chief technology officer.
+ We'll also talk about what's changed since last year, where crypto stands in its stages of development, why stablecoins are suddenly taking over, and how institutions, from fintechs to legacy banks, are embracing the technology.
+ We'll also look ahead at trends like privacy and tokenization, and what the next phase of crypto's adulthood might look like.
+ You can find the report in this episode's show notes and at A16Z Crypto dot com slash state of crypto 2025.
+ Also, be sure to check out our new state of crypto data dashboard, which you can also find on our site.
+ As always, none of the following should be taken as investment, business, legal, or tax advice. Please see A16Z dot com slash disclosures for more important information, including a link to a list of our investments.
+ All right, so before we even get into the findings of this year's report, I want to take a step back and ask, "What is the state of crypto report? Why do we do it each year?"
+ With so much happening, with so much noise, with so much at the technical level, infrastructural level, so much just beneath the surface, I think it is incredibly helpful if someone goes in and sweeps it all together, and just takes a snapshot that allows you to place yourself in the history of the unfolding
+ of some new kind of technologies, and that's why we do it. A16Z's role is to bring the periphery to the mainstream, the periphery of technology, of course.
+ And crypto is, although it is mainstreaming in very notable ways, which is a theme of the report, it still remains on the periphery, because it's inscrutability, it's infrastructure, heaviness, the subculture of its people, you know, things make it hard to understand.
+ And so the report is our attempt to try to crystallize a moment in time every year or so and share it with everyone.
+ It's like take the unevenly distributed future and distribute it more evenly.
+ It's also our fourth year doing the report, which sort of gives us a cool lens to kind of see how things have changed and evolved over the years since we started doing this.
+ And that's also something that we'd like to look at year over year to see what are the trends that are emerging and what is falling off and everything in between.
+ Yeah, I always have a lot of fun looking at past editions. It's always pretty interesting to see how things have shifted and changed, because there are lots of changes that happen.
+ Oh, yeah, there's many things unexpected in some way, sometimes unexpectedly prophetic, in other ways, a little goofy. There is goofiness.
+ But hopefully this report, as you said, it will do our signature move, which is to separate the signal from the noise.
+ And with that, I think let's dive in. Let's talk about this year's report.
+ What in your view changed this year compared to last year? I think the surprising thing is that on essentially every front, essentially every front crypto is mainstreaming.
+ The numbers are becoming clearer, more specific, larger, faster in every dimension.
+ We talked a lot last year about stablecoins finding product market fit. Well, that has kind of been one of the big themes of 2025, and people have obviously been talking about stablecoins, but I think everyone agrees they are now in a completely different place.
+ They feel totally inevitable now to the mainstream. We were saying they were inevitable a year ago, and that they had hit product market fit.
+ Now, I think I've heard the cable news talking about stablecoins. I see headlines about stablecoins. Every bank I've ever spoken with wants to talk about stablecoins, every financial institution, and then small companies, merchants, everybody's talking about them.
+ There was a great headline, by the way, it was like, there's a new cryptocurrency called stablecoin. Here's what you should know, which is unreal. That's when you really know you made it when the boomers trip over themselves trying to understand you, right? But that's just one example.
+ You know, ZK proofs have accelerated. Privacy has reached a surprising early stage of some indications of product market fit, not in the same way as stablecoins.
+ Interesting stuff with X402, AI payments, the agentic economy, as some people say, that's still very nascent in my mind.
+ But if you take each of these fronts, they're all plugging into different critical aspects of crypto and advancing, and you can see just unmistakable signs of progress and mainstreaming across the entire industry.
+ That to me is, it's almost like a perfect storm, right? You look down at a hurricane from the sky, right? From way up there, it looks a lot different than when you're in the middle of it or just beside it, right?
+ It's kind of hard to see the shape, maybe somewhat menacing. But if you see it from orbit, you see the structure, you see the order, you see the accumulation of structure in the thing.
+ And that's how you know that it's real. That's what makes it a discrete object, like our industry is reaching that point where all the sort of forces are coalescing and connecting together along with the rest of the economy in a way that, to me, underscores its inevitability and its realness.
+ I think that's a really apt analogy, too. This is an industry that has hurricane force winds, and even when it appears to be nice and pleasant and tranquil, and you're just sort of, you know, things are steady.
+ You mean when you're off line, Robert? Yeah, when you're off line, usually means it's the eye of the storm, and it's just a brief reprieve until the madness begins again.
+ Yeah. Another way I like to think about this is I use this kind of silly analogy with crypto as a 17-year-old, right? So the Bitcoin white paper was released in October 2008, actually, which means the industry is now 17 years old, right?
+ And crypto sure does feel exactly like a 17-year-old, right? Like just nearing the end of adolescence, you know, starting to step into adulthood, you know, being taken seriously by the other adults in the room, but still plenty of growing up left to do, right?
+ It's kind of right on the cusp of entering adulthood and really kind of stepping into the world.
+ I think that's right. Yeah. So crypto is moving from its adolescence into its adulthood. Maybe it's early adulthood, but it's adulthood.
+ Early adulthood. Yeah. None of the less. 17 years old. Yeah. That's right. Soon to be joining the workforce, putting its talents to use for many large financial institutions, for sure.
+ Yeah. Yeah. So let's talk about the big picture cycle that we like to look at the way the market evolves in this sort of cyclical way.
+ It undergoes various waves. It has had different periods that have defined those waves that have characterized them based on what was popular at that time.
+ Where are we now in that cycle? Looking at a price graph is always a scary thing, right? Because you can start to project all types of fantasies onto it.
+ It's like worse than far worse than tea leaves. You know, I could hear an argument from almost any direction.
+ I don't think we're in the depths, right? I don't think we're in crypto winter. That's pretty clear because we did hit a new all time high this year with market cap exceeding $4 trillion.
+ $4 trillion is a lie. So I feel confident in saying that. It also doesn't feel like we're exactly in a frenzy, though.
+ I think that that's pretty clear. I haven't been getting questions from Uber drivers and stuff like that, right?
+ I think which a lot of us know that feeling when the normies are all of a sudden curious again. I haven't quite been getting that.
+ But at the same time, I've been getting other really interesting, strong signals like the financial institution interest where we're hearing concrete, interesting plans from all types of companies who want to integrate specific,
+ which that sounds like, "Oh, why is that like a speculative thing?" Because in prior cycles, in prior cycles, the corporates got really interested around the peak because of the price action, because of the retail frenzy.
+ And I'll admit there was something very insincere about it to me. I just kind of didn't buy it. In retrospect, a lot of them did bail when things got a little bit dark.
+ And that happens. But this time, it doesn't feel like that. This time, it feels like they're actually building real tech that is going to last.
+ In many cases, not in every case, real tech doesn't always pan out, right? Not every product pans out, but it feels like something they want to follow through.
+ So that's something that gives me a little bit of a hype cycle vibe, but maybe it's a little bit different.
+ The regulatory climate has changed radically since last year. That's probably the single, starkest qualitative difference between this year and last year,
+ is that the regulatory condition has totally inverted. It has gone from near worst case scenario, really bad, to outright jubilee practically.
+ Yeah, it was not that long ago that you had senators talking about an anti-crypto army as a way to fire up their base.
+ Right, exactly. And now it's like the exact opposite.
+ We have sincere bipartisan laws being passed and laws being debated that are mature, serious, and plan for the future, right?
+ Real serious laws that are trying to structure the industry for long-term success. It's definitely a positive, exciting time.
+ Well, maybe let me add a contrasting somewhat negative point, which is that it isn't really the case that I see far more crypto developers now than I did in prior years.
+ I don't think that crypto developers are swarming at an all-time high. I think a lot of them have left to AI.
+ We have pulled them from other industries in certain cases, so it's a little bit of a wash.
+ But if we were in the peak of crypto summer, and if it was just a totally ultra-optimistic period, then I think we would be seeing a lot more there.
+ Right, so the point is there are some signals that indicate that we're not at the exact most outrageously hot, you know, a supercharged time.
+ But the fundamentals, as I hope the report shows, is maturity and strength in all the most interesting, all the most substantial areas in crypto.
+ What's very weird about this is we've often talked about this price innovation cycle. You know, the prices go up, and that causes developers to get involved.
+ That causes new products to get released, and then it sort of kicks off this flywheel, this positive feedback loop of more people getting interested and excited, and the actual tech getting better.
+ We've seen prices go up, as you mentioned. We went above a $4 trillion total market cap for crypto, which is like on par with the GDP of Japan.
+ It's come down a little bit since then. Who knows where it'll be by the time this publishes.
+ But at the same time that we've had these prices increase, the developers have not kept pace, and this is what you were getting at, Eddie.
+ We're not seeing this same kind of feedback loop as we've seen in previous cycles. At least the data's not showing that.
+ Yeah, I think this is a really important point to double click into, because it gets at really everything that we do and all of the expertise that we develop from our experience,
+ and seeding with these entrepreneurs and developers, analyzing and evaluating the kind of whole innovation aspect of the crypto space, right?
+ Like, not considering kind of the macro price view, but just looking at developers, and as you mentioned, Robert, this price innovation cycle,
+ we've always believed and invested on the thesis that there is this strong feedback loop between prices, developers, and then ultimately users.
+ And throughout crypto's history, we've seen this repeat itself, right? Like with the ICO boom, and then the DeFi Summer, and then the NFT surge.
+ All of these things really kind of generated interest. It increased the prices, and as a result, developers saw the opportunity to come in and build new products that attracted new users, right?
+ And we've seen this cycle repeat itself throughout crypto's history. I'd say the last sort of uptick in prices that we saw were more so,
+ if you just look at the kind of external events that happened around those times, it was things like the Bitcoin and Ethereum ETFs that launched.
+ It was things like the meme coin mania that we saw that brought in new users. But to me, and clearly to developers as well, these things just weren't that interesting to build on, right?
+ Like, what can you do as a developer to develop a new kind of innovative product or offering with the ETFs?
+ And by the way, caveat on the ETFs, we're calling them ETFs very casually. They are ETPs, exchange rate products, which indicates that the underlying portfolios are not securities.
+ I think all of that just kind of speaks to the fact that, you know, we saw a run up in price that was more so driven by these external factors, right?
+ Not the traditional developer driven bull market like we've seen historically. Now, with all of that said, I actually think we're extremely well positioned right now.
+ For the next developer driven bull market. And the reason is because we have the stable coin trend that is now bringing in a new type of builder that we've never seen before.
+ Whether it's from kind of more traditional finance backgrounds or fintechs or whatever. I think there's a huge reason to believe that stable coins is going to draw more developers in.
+ We also have pending market structure legislation in the US right now, which, you know, by design is meant to kind of attract the next wave of developers in the United States provide kind of the clear rules of the road,
+ which hopefully should lead to an inflow of talent. And so, yeah, I think we're really well positioned.
+ Yeah, I feel like feeling really strongly like I have been excoriated in public for being a little critical of meme coins, right?
+ If I could risk that again, I'd say that, you know, from the perspective of the average entrepreneurial person or developer, meme coins don't present a lot of opportunity except maybe a coin flip to make a bunch of money, right?
+ Maybe maybe making a launchpad could be interesting. Maybe, you know, I don't know, but in any case, it's, it just is evidently true that that's not something that most entrepreneurs, even most crypto curious entrepreneurs see and say, like, no,
+ this is this is the future of a technology that I can bet my career on that will last the test of time, right? That's just it just doesn't have those properties.
+ Whereas I think, you know, stable coins do network tokens if we get like the clarity act do a lot of the interesting ways of trying to create new decentralized marketplaces using some of the tech like we mentioned in the report.
+ Those things have those potential properties, but those things hadn't had the same type of attention as a result of the price innovation cycle that maybe other things did.
+ Right. Whereas the ETPs and meme coins and so on did so the cycle got a little bit dislocated. I think there are these exogenous factors and also it may be implicit in what we're saying.
+ The space has pluralized, right? There are now actually multiple different areas. There's people who I've talked to, which surprise genuinely surprises me.
+ People who are like experts in stable coin payment flows and exactly how they relate with, you know, payment processors and KYC requirements and these types of things.
+ And they don't know a damn thing about like what's happening in meme coin launchpad world.
+ To what extent is AI attracting or drawing people away from crypto?
+ Look, it's true. Like AI is really exciting. It's really attractive. There's huge opportunity, huge investment.
+ I think it's a greater obviously our firm is very focused on AI as an exciting productive area.
+ And I think it's natural and makes sense that a lot of people would be attracted to it, especially when they compare their opportunities in AI with opportunities in crypto.
+ If they weren't a meme coin person, they're probably more attracted to AI at the peak of AI.
+ At the same time, if you're a crypto person who doesn't care so much about the hype cycle, the hype and its popularity among certain tech circles or others,
+ then you also know that this time, the time when the regulatory is at its zenith, when the interest by other startups is maybe somewhat lower,
+ then you know that that's actually the exact best time to do it.
+ So I'm not worried because having been investing with our funds for a while now, like I just know that when something is a little bit uncool, that's kind of when it's at its best.
+ So yeah, AI has taken some attention. At the same time, and you'll see in our slides, basically an equal portion, an equal number of people came from other industries to crypto.
+ So perhaps reflecting the shift in focus, the shift in interesting thematic areas in crypto.
+ Yeah, I think the historical context is also important here. I think a lot of people actually don't remember this, but the time between the FTX collapse and the launch of chat GPT was like less than less than a month, right?
+ And if you think about this dark period, Darren, we've omitted this from history books.
+ But if you think about what that meant for, you know, a smart kid coming out of college, right?
+ You see the FTX collapse, and as a result of that, the entire crypto industry was under a full-blown regulatory attack.
+ And at the same time, there's this exciting new technology that has emerged.
+ Like, it's a pretty obvious choice, right? Even as people who are in the crypto industry, like it made a lot of sense at the time to do that.
+ And, you know, that's why we get the question all the time, how much talent have we lost to AI?
+ And I think it's definitely hard to assess the quality of talent just by looking at some of the numbers we have.
+ But I think, yeah, we did lose some talent to AI, certainly.
+ But now things are changing.
+ Now we have a much better regulatory environment that is encouraging people to come back to crypto or people who are coming out of school to build in crypto.
+ And, you know, even better to do that in the United States, it's fully kind of now supported by the regulators, which is a very positive signal.
+ And then also, you know, we talk about this a lot in our report as well, is there are very clear opportunities at the intersection of crypto and AI now, right?
+ There's lots of, you know, ideas on how crypto can solve some of AI's most pressing challenges.
+ And so, you know, we're seeing a growing number of people and startups interested in kind of the intersection of what I think are the two most important technology trends, you know, probably of our lifetime.
+ And I haven't seen this analysis done before, so I think it's really interesting that since the launch of CHAT-TPT, like you said in November 2022, there's been about 1000 net crypto jobs gained from other industries and 1000 net crypto jobs lost to AI startups.
+ So it kind of nets out.
+ I think people who don't look at the data might think that crypto has lost more to AI than it has gained from elsewhere. It's interesting to see that it's been kind of even.
+ Yeah, which like in the grand scheme of things, given how cool AI is, that's a win to me. It's a huge trend.
+ But let's finish talking about the market dynamics, the sizing it up, who's using crypto, what they're using, how many people are using it.
+ Let's talk hard numbers around these things.
+ One, you sort of talked about it, $4 trillion in market cap, you know, we've hit all time highs this year.
+ And so that's, you know, one way to measure it.
+ If you look at Bitcoin specifically now, it's a top 10 asset in the world, and all of the top 10 assets are either US tech companies or global commodities.
+ And so crypto certainly has become a meaningful part of the modern economy today.
+ You can also look more at kind of the number of people that are using crypto, and we have an updated estimate to our analysis that we put out last year,
+ which basically says we think there's somewhere between 40 to 70 million unique people using crypto on chain monthly.
+ And of course, that's a very wide range because it's very difficult to get a precise number there.
+ But we did sort of construct an analysis bottoms up based on wallet user data, on chain forensics, some discussions with some of our portfolio companies and industry partners.
+ And we came up with this range of 40 to 70 million.
+ It's about 10 million more than our estimate last year.
+ And even that in the context of the broader set of people who just own crypto for purposes of investment or speculation,
+ it's still just a very small fraction, which presents an opportunity to bring more people on chain from that larger group that owns crypto.
+ Yeah, and remember, this is transactors, right?
+ This is people who are actually kicking transactions on chain, individual people, which is the most strenuous, most difficult, you know, highest standard to reach, right?
+ I think if you ask among your normie contacts, you can validate this ratio, right, that there's many more people who own a little bit on Coinbase or whatever,
+ versus people who actually withdraw into a wallet, use a smart contract, use DeFi, transact pay for something, whatever.
+ You'll find, right, in your experience, there's this waterfall, right?
+ People who just own, people who are kind of frequent engagers, owning, buying and selling, transferring.
+ People who actually use apps and apps of some type, right, this sort of waterfall.
+ 40 to 70 million at the sharpest, most difficult point to be in in that funnel.
+ That's a pretty big number in my mind, because honestly, you know, on our team, like, we're always trying out new stuff and showing each other.
+ I'm sometimes amazed at how this is a persistent theme for me, how difficult crypto can be to use, how difficult it can be to use safely,
+ how many cognitive hazards there are in using it and like the things you can, the ways you can make mistakes and whatever.
+ And it has gotten substantially better, but it still has a long way to go.
+ You know, $300 trillion into existence by who has been printed 300 trillion back to them.
+ No, but we shouldn't be not digging anybody. There's mistakes and no harm was done, but it happens to try to buy too.
+ Yeah, it does exactly.
+ That is an impressive number to me, right? 40 to 70 million who actually use it.
+ Now, I should point out that we don't really like break down this 40 to 70.
+ It would be way too difficult into behavioral cohorts, like segments of like exactly who is doing what and that type of personality.
+ But I was just at a crypto related kind of meeting yesterday with a bunch of 40 50 really highly informed people
+ who were primarily focused on South American remittances, South American use, some gentlemen who ran like a Guatemalan bank,
+ some guys who ran Mexican banks like I was talking with.
+ They were telling me that something like a third of South Americans interact with crypto.
+ I think I forget on the frequency. Maybe it was monthly. Maybe it was yearly. But in any case, a huge number.
+ Maybe indirectly, right? Maybe through using other services, right?
+ But that is like mind-blowing to me. And that's despite what it candidly is a brutally challenging user experience.
+ So I see that. I see opportunity, right? People are using it despite its challenges.
+ And that's a good segue to what I think is one of the more interesting slides in the state of crypto report, which is our sort of geography analysis this year.
+ We looked at it through two lenses, right? One was mobile wallet usage, which we think is at least a proxy for people that are actually using crypto on chain,
+ whether it's for buying goods and services, whether it's for remittances or interacting with applications of crypto.
+ And if you look at the geographic data associated with those indicators of on-chain activity, it's largely coming from developing countries.
+ Countries like Argentina, Colombia, Pakistan. On the flip side, the other lens that we looked at this through is web traffic associated with the top tokens on on CoinGecko,
+ which we think is an indicator of interest in sort of trading these tokens that is developed nations, like South Korea, Australia,
+ which just kind of speaks to the fact that the applications where crypto is needed most today tend to be kind of more geared towards the developing countries where they have unreliable financial infrastructure or economic or political stability.
+ And I think crypto is serving them well, whereas the developed nations tend to skew more towards trading the tokens in speculation and the other side of crypto maybe.
+ So two quick things before we move on to the next section. I want to make sure we get to one thing.
+ There was a notable decline in the number of monthly active addresses this year. Last year, we had 220 million.
+ This year we have 181 million. That's a pretty notable decline. And in this year, we actually didn't do a comparison as we've done in years past of like monthly active addresses kind of lined up with a chart showing Internet adoption
+ and kind of showing how these things are playing out at a similar rate. I want to ask about that. Do we know why monthly active addresses might have dipped this year?
+ We've always been very skeptical of monthly active addresses as sort of any indicator of user activity and its progress, right? We, you know, often will anchor some analysis and assumptions around that.
+ But we've never sort of led with monthly active addresses as the be all and all for crypto adoption and activity. The short answer is that people can spin up many different addresses.
+ And there are reasons to do that at times. And, you know, particularly with the crypto industry that has different incentive structures and air drops and farming, like it does become a very gameable metric.
+ And so we've always treated it with a lot of caution. I will say, and I'd be curious to get Eddie's take here. I think this year, we've seen a little bit less of the air drop farming and kind of that specific type of activity largely because I think people
+ have caught onto this and they're not, in many cases, just going to blindly air drop to a bunch of addresses. And so I think maybe that subsided a little bit.
+ I have seen some people, in fact, I've seen even in just the last few weeks, like a little bit of a new meta emerging. I can't wait to follow, which is people saying that air drops are done.
+ Like air drops are over. They're too farmable. Instead, like whatever. Some alternative. Some people are saying selling tokens. Maybe there's some legal caveats around that.
+ Some people are saying just partnerships or giving them in partnerships. I saw someone talking about that. Like forget air drop farmers embrace partners, right? Things like that.
+ So maybe backing up and connecting this with what Dan was saying with your question, Robert.
+ In prior episodes where we've talked about active addresses and in other podcasts, like where we talked about the air drops and stuff like that, we often talk about the professionalization of air drop farming.
+ And that's not going to decline. That knowledge won't be lost. The air drop farmers have figured out how to do a great job.
+ And at the same time, people have figured out how to block or remove or undermine air drop farmers.
+ In prior years, part of our highlighting active addresses, and we still have the number in here, is because the active addresses is still a kind of a proxy for something.
+ It's a reflection to some degree of the total capacity of the system. It's a reflection of the interest and willingness of people to even perform anything, whether it's legitimate activity or whether it's farming.
+ Now that people are becoming a little bit more guarded about air drop farming, we're likely to see that number adjust maybe somewhat closer to something that reflects real usage.
+ I don't mean one-to-one parity with users and addresses. I use many addresses in my daily use. I mean something that is some kind of a proxy.
+ Interesting. Okay. So maybe some inklings of a prediction for 2026, beginning to coalesce the meta changing from air drops over to some other new sorts of ways.
+ Yeah, but as a transaction capacity, as total gas capacity or consensus capacity grows, and the cost of transactions decreases potentially, then the willingness to spin up more addresses for spam goes up because the marginal cost of the spamming declines.
+ So basically, at the limit, my belief is that the number of active addresses and transactions should converge with the capacity of the system, not only with real use. It's hard to predict.
+ I'm more willing to bet that the number of monthly active users will go up in a more consistent way.
+ And it's why we do these estimates, right? Because we recognize that there are flaws in the existing data that's out there, and so we put our heads together, we talk to a bunch of people, we approach it from a lot of different ways, and we try to throw out an estimate
+ because we think it's useful to know how many people are out there, even if it is a wide range that we're estimating. So that's why we do it.
+ Another thing I really want to get into is Bitcoin itself. So past year's reports didn't focus so much on Bitcoin, but this year, there is a number of slides on it, in fact, at the very start, because it's been such a big part of the story, the narrative in the crypto industry over the past year.
+ Over the past three years, Bitcoin has really clawed its way back into being more than 50% of the market share of crypto in aggregate, which is kind of incredible.
+ And this store of value narrative is really caught on. People are still kind of thinking about how they should regard Bitcoin.
+ Bitcoin, is it a high risk tech like product? Is it a safe haven kind of thing? Maybe just tell me a little bit about what we're seeing, what we found when it comes to Bitcoin's product market fit.
+ There's a couple cuts. One is that I don't know that it's the case that the Bitcoin store of value story has caught on as much as I'd say that the need for a store of value has increased.
+ I like that distinction. I think that that is already a well-accepted story about Bitcoin. The reason I say that, the data point to look at, which we do have a comparison with assets, including gold in the report, if you look at the trend, gold has had a spectacular last two years.
+ He's not getting a calculator. That I think is an indicator of the same phenomenon. The easiest way to think about it is that now there's gold and there's digital gold. There's track gold and there's new gold.
+ And Bitcoin has really owned that. And I think it has found a really comfortable sweet spot as this kind of digital gold at a time when people really want gold and evidently, through probably the same motivation, the same impetus, they want Bitcoin.
+ Another big theme for Bitcoin, which is emerging and interesting, is that there have been a number of attempts to technologize Bitcoin. We've talked a little bit less about Bitcoin in prior years, mostly because Bitcoin from a technological perspective has remained more or less fixed.
+ It is kind of ossified, as some people say in crypto, where not a lot of changes come. Those changes are infrequent, not huge. They don't really like change the underlying technological characteristics of it.
+ We actually see that it's attracting a lot of developers. It is like in the top five in numbers.
+ That is something that has developed a gun to change a little bit for Bitcoin. It never used to be this way. It used to be a very stagnant, don't rock the boat kind of thing with Bitcoin.
+ But now there seems to be more activity lately focusing on it.
+ There is. I think that that activity comes from the fact that because the price has done very well, people who have seen the growth and success, which is indisputable of DeFi in Ethereum, in Solana, in the other more smart contract blockchains,
+ they've seen that success, and they've said, "Look, we have this massive pool of capital, this gigantic commodity asset. How can I make that accessible to DeFi?"
+ There have been representations of Bitcoin usable in the rest of DeFi, like wrapped Bitcoin and others, but they have set a set of trust assumptions because of the way they work technologically that requires the owner of Bitcoin to maybe compromise on the sovereignty of their holdings.
+ The theory has been, for a lot of you, I've heard this story many times, the last half of last year, and a couple of times definitely this year here and there, is how can we make Bitcoin without importing new trust assumptions accessible to DeFi because of DeFi's total success?
+ DeFi has continued to grow. We have slides that allude to that. DeFi is also in a much better regulatory position than it was last year.
+ Those are serious tailwinds for entrepreneurs who want to unlock the trapped pooled capital over on Bitcoin side, despite its relative lack of programmability.
+ The store value story plus the DeFi story has led to some people to try to get over that. There have also been some interesting projects. Lightspark has done a great job of innovating on Bitcoin, lightning, and trying to make it genuinely useful for financial institutions that's created a little bit of buzz.
+ Also, there have been some interesting research projects like BitVM, which a group of people have been collaborating on, trying to find ways to make Bitcoin genuinely programmable without requiring any technological upgrades.
+ I think it's an area to track. I wouldn't say that it has turned Bitcoin into something that is robustly a tech platform again. It still is in this fixed state, but it's possible that changes. It has made it maybe a little bit more interesting for builders.
+ I don't think it will surprise anybody that Ethereum, that it sells twos like base, Solana, that these chains have attracted so much interest from builders and developers, but it is kind of interesting that Bitcoin has now gotten into the top five in terms of interest and developer activity.
+ It's not just a fad. There's real reason for that. The store value stuff that Eddie was talking about, the fact that it doesn't change very often is an interesting property, at the very least as a differentiator.
+ Exactly. The brand of Bitcoin is unmatched. There is just no other crypto that has the brand and recognition globally that Bitcoin has. There are properties that make this interesting.
+ They're also facing, because of the way that Bitcoin works, the way that it's public key cryptography works, it also is vulnerable to the eventual development of a quantum computer.
+ Whenever that happens, maybe in a decade, maybe multiple decades, I don't know, we've got a slide on this, too, where they're actually at this point, 6.7 ish million Bitcoin at risk to this threat to this quantum threat, which is like around $750 billion.
+ That's a lot. The people in that community are going to face a choice about whether to do something about this or to just sort of, you know, whoever gets the quantum computer gets the Bitcoin.
+ Or are they going to burn stuff or whatever? I don't know.
+ It's a complex challenge that I think is worth getting ahead of for sure. The good news is, is we have the tools to be able to transition to a post-quantum world.
+ We know what needs to be done. The challenge that Bitcoin will have to figure out is, you know, how do you do it? And Bitcoin's community has been resistant to change.
+ And, you know, this may end up serving as a forcing function to some extent. There are proposals out there for Bitcoin's transition to the post-quantum world.
+ There are ways to do it. And I think the community will figure it out, although I don't know exactly what the answer will be.
+ Yeah. Open question.
+ Yeah.
+ All right. Let's talk more about adoption. Another big thing that's happened is we've had a new trend of these digital asset treasury companies that are these public companies going out
+ and snatching up tokens and sort of building up a war chest, a hoard. They're kind of aligning themselves with one chain at a time.
+ You know, there's like Solana ones, there's ETH ones, there's Bitcoin ones.
+ So what are the numbers around this? What are the numbers around these digital asset treasury companies, these Dats, and also the uptick in ETPs, ETFs?
+ It's actually, you know, shocking just how much crypto today is being held in publicly traded vehicles. I think for Bitcoin and Ethereum at least between the ETFs and the Dats.
+ Now, about 10% of the total token supply is held in publicly traded entities, you know, which I think certainly has had an impact on the market.
+ I don't know how this will all end, but I think it'll be fun to watch.
+ But we've fulfilled some social issues. It's fun to watch. I'll say that. I don't know if it'll be fun.
+ Yeah, I will say I think a lot of things get conflated in the usage of the term debt, right? People often associate it with the sale or ask strategy, which I don't pretend to really understand.
+ But the issuance of debt to purchase assets and so on. Not my thing, this sort of financial engineering, I don't really totally get it candidly, but they're putting tokens inside of a equity vehicle and making them publicly accessible in some way does create
+ opportunities to give different types of entities access, like retail and people who want to buy things, but you know, just want to do it through the equity channels because those are easy to access while established.
+ There might also be types of deals that individual projects that you can make right with another company in like a partnership agreement, like a contractual relationship that you can't make a contract with Bitcoin today.
+ There's no one to make a business agreement with. There's not really for Ethereum for any and for any truly decentralized or any project that wants to be really decentralized, having a separate entity that is purpose built to make these types of deals
+ creates a natural counterparty for people who want to make productive agreements in service of the growth of an ecosystem or a token, a token ecosystem. So I think it's a creative type of tool. And I think we haven't really seen all the ways that they will be used.
+ And I certainly hope it's for more than getting leverage on tokens, but it is definitely a growing phenomenon for sure. So it should be something that we track.
+ One thing that I think is extremely interesting to note is BlackRock's ETF Bitcoin ETF their ETP product for Bitcoin is the most successful launch of any ETP or ETF product ever.
+ Like a period ever in the history of these products. Like that is kind of insane.
+ Yeah, it is. I mean, candidly, a little surprising to me. I mean, I say this with the self-awareness here, but just like, I don't know why you don't just buy the Bitcoin, to be honest, to be honest. But again, evidently I'm wrong.
+ You're a purist. Yeah, but I'm wrong. And the market is the market has spoken. So I obey.
+ The market is always right. We've talked a little bit about the market dynamics that are going on, you know, some of the trends that are happening between ETPs and Dats.
+ I want to talk about institutional adoption, because this really is the thing I think that sets apart this year. It seems like every major financial company, not every single one, but a lot of them.
+ A lot of them are really getting involved here. Actually, I have PTSD from previous cycles, where, you know, you had these various institutions, like dip in their toe in the water, getting a little interested.
+ Maybe they're, you know, going to get involved. And then they retreated, pulled back and, you know, yes, things were stalled for years.
+ But they are embracing it, you know, by every measure, they're launching products. They are getting involved, making acquisitions, striking partnership deals, it's happening.
+ And I think the big difference between what you were talking about historically and today is that these institutions are no longer just trying to chase the hottest trend.
+ They actually see the opportunity for crypto to reshape their businesses. And I think that is different than it's ever been.
+ I think stablecoins are a big reason why that's the case. I think it's very easy for financial institutions to see the stablecoin opportunity and what it could do for their business.
+ And as a result, we've seen institutions flood in with, you know, real commitments, real product launches, you know, real acquisitions, big IPOs, right, like lots of money at stake here.
+ And I think it's really, really exciting.
+ Yeah. I mean, I was around three years ago, Robert. I was around seven years ago. I was even following, like, you know, 10, 11 years ago, like I was following this stuff before I was doing crypto professionally.
+ I always remember hearing the promises from the institutions and then kind of wincing a little bit and being like, Oh, good.
+ Okay.
+ It's even funny to hear you say doing crypto professionally, by the way, just like thinking back to that, like 10 years past.
+ I think that was a thing that could happen. Yeah. It's a little cringe. I'm even saying that, but because it's so mature in a way now.
+ But, but the, I remember hearing them say that and not taking it seriously because there were just too many questions.
+ The legalities were unclear. The business opportunity was unclear.
+ The infrastructural capability to handle what they wanted was unclear. There was layer after layer after layer of unclear, you know, seven years ago, if like a major retail chain, like chain of retail shops.
+ I mean, not blockchains, but like tried to accept payments in crypto.
+ Like the reality was, and this is like the conversations I was having with people is there's just no way to do that in a scalable, affordable way, let alone in a way that had a decent user experience.
+ The scalability and affordability has been solved. The regulatory is nearly there and the UX has a way to go, but we're running out of excuses.
+ And now when I talk with some of the people like on the slide we have about some of the largest financial institutions embracing crypto, like this is the type of thing they used to say to me like three years ago, seven years ago.
+ Yeah, you know, we see all this exciting stuff. You know, the tech is really cool. We want to show that we're, you know, leaders, basically like some innovation lab, not to be critical, very nice people, but like the innovation lab wants to show that the company is not losers.
+ Right. And then they know cool stuff. That was the problem they were solving. Right.
+ Now I'm hearing people say, you know, we're cutting costs in this area and we're expanding our line of business in this area.
+ We're going to offer a whole new bunch of products here. And then in this area, we can just like move way faster while slashing costs, like, and they're being very concrete with me.
+ That's just not the same conversation. So that's why I feel differently about it.
+ I would be shocked if five years from now we look back and crypto has not advanced in institutions, whereas if you had asked me seven years from now, if the institutions have been, we'll be using it.
+ Crypto broadly, I think it would have been like, I think we got some way to go. There's some more cypherpunk stuff you shouldn't look at.
+ You know, like that's, that's what I would have said, I think so.
+ The opportunity is massive, right? Because of how much distribution these financial giants have, like, if they are serious about these commitments, if the developments continue, right?
+ Like, we could see crypto deeply embedded into the financial services that we use every day and we could see crypto, you know, seriously being used by billions of people around the world.
+ Like that is the size of the opportunity here. And I think, you know, for the first time ever, we've got, got a chance to make that happen with these institutions.
+ Yeah, I think that's right. I'd love to know which of these companies or who has been most surprising to you getting involved. I mean, if I'm reading the situation, like, casting back to when things were heating up sort of at the end of last year, I feel like the starting gun was stripe acquiring
+ bridge, which happened pre genius bill passing, pre, you know, they're being to, they're being actual rules of the road for stablecoins in the US. And after the state of crypto report last year, didn't it? And after the state of crypto. Yeah.
+ And this was after we had gone out there and said that stablecoins have found product market fit, which is kind of cool. We call that one right.
+ But no, I think stripe was the starting gun because they bought yeah, and I think this got all the other players paying instant attention. They were like, okay, this is this is a real thing we need to start to take seriously.
+ That's my read on it. I'd love to get with you guys. How do you think this has sort of shaken out among the players and who's been very surprising to you getting involved?
+ Well, I think stripe, stripe has done more than that since then, right? They have their tempo project, which could be could be interesting, could be Corpo could be crypto and we'll find out, right?
+ Yes, their own blockchain that they're building. Yeah, they acquired privy, which is a great team working on some wallet infrastructure. So they've continued to advance. I've been continuously impressed by, you know, Robinhood has really leaned into crypto in a hard way, right?
+ They got their own L2. Yeah, their own L2. They want to tokenize stocks, tokenize equities, bring them on chain, bring them into the app. Super cool plans there.
+ I've remained impressed by the Revolut team. Super interesting, like bridging plans, integrating with crypto rails plans. That's part of their plan for global domination.
+ Maybe I'll throw out one to surprise you a little bit, Robert, is that I had a great conversation with some brilliant people at Morgan Stanley not long ago who were shocking to me how thoughtful and specific they were in terms of the types of products that they want to offer to their users.
+ Not like kind of dip our toes. Yeah, we're going to flirt around with crypto a little bit. Not exactly the opposite of that is what I mean is they specifically saw the opportunity.
+ They wanted to talk about technical and regulatory challenges in offering that product in a safe and secure way to their users, but they wanted to be as on chain as possible, specifically because they saw opportunities in DeFi opportunities
+ to offer new types of products, opportunities to help manage their customers' wealth in an ideal way, which is a very interesting kind of cut on it.
+ Yeah, many of these. BlackRock's Biddle token has been an instrumental building block for a lot of people who want to expand stablecoin issuance and use that as sort of the foundation of their own stablecoin or settlement between categories of stablecoins.
+ That product is the big kahuna when it comes to tokenized assets so far.
+ And I will say that does surprise me because when you mention Revolut and Robinhood, it's not terribly surprising that these fintech upstarts are trying to explore this new terrain, but to have a stodgy old legacy incumbent big bank do so.
+ That is kind of surprising.
+ That's exactly what I mean.
+ I just wouldn't have heard a lot from them.
+ That would have impressed me in prior years.
+ And remember, you've mentioned Stripe acquiring Bridge as kind of starting all of this, but upstream of that is the stablecoin story.
+ And even upstream of that is the infrastructure story.
+ And stablecoins have been around for years now, but it wasn't until recently when we, with years of infrastructure development, improved the underlying blockchains to a point where we could actually make stablecoins a good product for payments.
+ We could do it in less than a second for less than a cent.
+ And it was at that moment, I think, that all of the pieces kind of started to come together.
+ The institutions then really saw the vision, saw the opportunity, and then started to make the bets.
+ And then they saw other people make the bets.
+ And now, you know, we're at where we're at.
+ And I think it's sort of the theme of this year's entire report is that all of the pieces are now coming together.
+ I like that.
+ It's also a different cut on the price innovation cycle where it's not number go up.
+ It's number go down.
+ Cost go down, stablecoins become usable, and now you unleash this whole wave of like new innovation that's happening.
+ All right.
+ So we've been talking a little bit about stablecoins, but let's talk a little bit more specifically about what's going on there.
+ Over the past year, there's been $46 trillion in stablecoin transaction volume.
+ Like, I can't even wrap my head around that number.
+ It's so gigantic.
+ Like, are those numbers real?
+ Where is all of this activity coming from?
+ Well, yeah, I'll let Darren clarify a little bit, but you'll notice there's an unadjusted number and then an adjusted number, right?
+ So here's one of these nuanced sort of seeming paradoxes that you need to kind of be aware of when you see these things is when it costs less than a penny to move a million, ten million, even a hundred million dollars, then it happens a lot.
+ Right, because people are rebalancing their internal institutions or rebalancing their portfolios.
+ Exchanges are recycling through different wallets, right?
+ All these things happen because they can happen cheaply, right?
+ Think about if electricity in your house costs like $10,000 per kilowatt hour, you would be incredibly sparing and careful with like every single thing that you do.
+ If energy costs less than a penny per kilowatt hour, then you don't give a shit at all.
+ Like, you leave the lights on, you know, like blow dryer ever as long as you want, crank the water heater up.
+ In other words, the apparently low cost affects these numbers for what may seem like large behaviors to people.
+ To normal people, and this is reasonable, you wouldn't move around a million dollars willy nilly.
+ But if it costs you next to nothing, then maybe you actually do.
+ So, one of the interesting consequences of extremely low gas costs, mature infrastructure, institutional adoption, et cetera, and stable coin proliferation
+ is that you get huge volume numbers, which may not necessarily reflect meaningful economic activity.
+ Rebalancing my balance is not real economic activity.
+ You know, it's like taking your wallet out of your pocket doesn't count as spending.
+ Whereas actually spending is a different behavior.
+ This 10 trillion adjusted number is our attempt to filter out many of the most obvious, sort of not economically meaningful transfers
+ to try to get something a little bit closer to, you know, someone deposited money to an exchange.
+ You know, that's meaningful.
+ Someone making a payment, that's meaningful.
+ Someone depositing into a DeFi protocol to lock it for generating yield or so someone else can lend it, someone borrowing it.
+ Like those are meaningful uses because it's actually, you know, changing hands or going into a mechanism.
+ I think we typically like to focus on the adjusted metric.
+ We reference it multiple times throughout the report because we think it's a better indicator of real genuine user driven activity
+ and it does filter out those artificially inflationary practices.
+ And we work with a data provider called Alium to come up with that methodology.
+ And I think that's maybe the better number to use in most cases.
+ But still, you know, 10 trillion dollars over the last year, you know, that rivals some of the largest global payment networks
+ that have been around for decades, right?
+ Multiple of PayPal's transaction volume right in there with Visa quickly approaching the transaction volume of ACH,
+ which plums the entire banking system.
+ So I think very impressive what we've seen in terms of growth in this category in such a short period of time.
+ Yeah, this number is growing quickly and it's going to keep growing quickly.
+ So what's happening with stablecoins is because it's programmable on this blockchain,
+ there's all types of behaviors underneath.
+ There are genuine payments.
+ We have some evidence and there have been some interesting reports that show that that is growing.
+ It's particularly growing in emerging economies.
+ But there's also things that are, you know, you might say you put $100,000 in a DeFi protocol.
+ Like, is that the same as spending 100,000 on Visa?
+ Probably not, right?
+ Because that 100,000 you spent on Visa is not coming back.
+ But that 100,000 that you deposited into a DeFi protocol, you could just pull it out the next day freely.
+ That's how they're designed.
+ You know, so it is a little bit of an apples to oranges comparison.
+ But I think you need to appreciate the breadth of the types of activities that are possible just by using stablecoins.
+ All these types of things are possible behaviors, which is what makes the network so potent, right?
+ It's so broad in its application, as opposed to other types of networks, which are so specific and narrow in their application.
+ And to your point about this growing, stablecoin transaction volume continues to increase even when we account for the adjusted numbers.
+ And that is decoupling from spot crypto trading volume, which would kind of indicate that people are actually using these things for reasons beyond trading or beyond speculation.
+ For a long time, stablecoins were criticized for only being used to settle speculative crypto trades.
+ And I think that was the case up until recently when stablecoins found product market fit.
+ They showed that they had many real organic use cases.
+ And, you know, since then we've really broken the correlation and we are no longer just going up and down relative to the trading volume.
+ Tether and circles still dominate, but we're seeing growth of other stablecoins as well. I wonder what you think of that trend, how that'll continue to pan out in the future.
+ The details there have a lot to do with regulatory conditions.
+ The passage of the Genius Act after it's had some time to cook and after some of the more specific rules have been settled by regulators will probably open up opportunities for more stablecoin issuers to issue stablecoins and to distribute them through a variety of channels, I'm sure.
+ You know, Tether and USDC have been popularized by integrations with exchanges in their early days, right? They were primarily used as a means to settle a balance to deposit and withdraw a balance from a crypto exchange.
+ But we've seen that grow since then. Tether is used globally. We mentioned specifically Ethereum and Tron. I've heard at least anecdotally and seen a little bit of evidence that there's a significant amount of payments being settled in certain countries using Tether on Tron.
+ There's a lot of data, both anecdotal and quantitative, and you can see a little bit of that in our report. The usage of stablecoins evolves like other technology. It starts for crypto to crypto exchange settlement.
+ Maybe it goes to developing country payment for certain small, medium businesses, right? Then it becomes for like some DeFi stuff. Then it maybe it becomes for payment stuff as it grows and as the technological properties change like gas fees, like liquidity, like integrations, like bridges all evolve.
+ The same thing can be reused for another purpose. That's going back to that point I was saying about the transaction volume is like there's a lot of different stuff that makes up that transaction volume.
+ It's expanding and growing and becoming more complicated, not simpler. So I see it just following the same pattern as everything else.
+ In the future, we'll probably have more stablecoins. They may be more specialized to specific applications, especially now the regulations are clear and the product market fit is far beyond obvious.
+ Speaking of expanding and growing, one slide I've got to talk about is this one about the US national debt, which is also expanding and growing at an alarming rate.
+ Probably that has contributed to the passage of genius. It's crazy. You've got the government scrounging for spare pocket change underneath the couch cushions.
+ All of a sudden, you discover like these gold bars there, which just happen to be stablecoins, this incredible source of demand for US debt.
+ You can see in the data that stablecoins now account for there are now a top 20 holder of US treasuries that puts it ahead of Saudi Arabia, South Korea, Israel, Germany, like stablecoins as a category are now holding more US debt than many, many sovereign countries.
+ Absolutely wild that there is this pent up demand.
+ I think this is such an important part of the stablecoin story.
+ On one hand, as you pointed out, we all know the US national debt is growing out of control. We know that the demand for that debt is fading.
+ For the first time in 30 years, foreign central banks hold more reserves in gold than US treasuries.
+ This is about everybody's looking for this store of value now.
+ Exactly. On the other hand, we have now the stablecoin opportunity, which as you pointed out, they are a big source of demand for US debt.
+ They're holding all of these US treasuries. The category is projected to grow into the trillions of dollars in the next few years.
+ Yes, Citibank has a really incredible prediction on this, where they say by 2030, they expect it to be growing almost an order of magnitude.
+ The idea is worth of stablecoins. More than 99% today are denominated in USD. You put those things together, stablecoins are a clear opportunity for the US to sustain dollar dominance in a very uncertain time right now.
+ Really amazing. Let's talk about privacy. I know you're a big privacy guy, Eddie. You've got a whole privacy stack that you personally use.
+ Tell us about what's going on in the privacy world. A theme whenever I talk on the pod, I feel like some of my A16 Z neurons that have grown in my brain have a very specific shape.
+ The shape is that technology develops in this sort of historical way. The best way to predict the future, even though predicting is flawed, is to kind of unfold technology like one layer at a time and try to imagine what happens.
+ What bottlenecks appear, which second-order consequences occur counterintuitively. That's the way to think about it. Privacy could not be more obvious to me.
+ It has been for years. I will scream it forever. I don't care if this uptick in privacy is a fad and it goes away. It's going to come back again later. It is inevitable.
+ The reason no one has cared is because if stuff doesn't work, if no one's using it, you don't need it to be private. At the same time, things being illegible and confusing is often a workable substitute for privacy in the short term.
+ Crypto has plenty of this illegibility and confusingness. Combine a lack of total mainstream adoption for consumer use cases like payments, which we've been saying may happen, has the signs of happening isn't happening yet.
+ Consumers don't make their payments with stable coins, but for their to-be payments of stable coins, you need stable coins and you need stable coin adoption and you need institutional acceptance of stable coins and you need transaction fees to be low, etc. All these other things that we've talked about.
+ Once that becomes the case, people will demand privacy. I know this is like a hotly... This is talked about in crypto all the time. Ad nauseam makes me crazy. People say people don't care about privacy, whatever.
+ No, of course they care about privacy. They do care about... They won't necessarily articulate it in this way, but if someone comes up and shows you Venmo from 10 years ago, someone shows you all the transactions you've paid and all the comments and it's all out in the wild, people have an adverse reaction.
+ People take it for granted. That's what they mean by don't care is that they take it for granted. They just assume they have a functional level of privacy.
+ They don't demand specific cryptography. They don't demand like incredible definitions about the distinction between privacy, anonymity, pseudo-nimity, confidentiality.
+ They don't do that, but they have expectations.
+ Once these things become popular tools, blockchains for payments, blockchains for personal finance, blockchains, neobanks, whatever, then people will demand privacy.
+ And institutions will demand privacy. A very clear theme for me over the last year or so as I've begun to have more conversations and institutions is that they consider privacy a non-negotiable property.
+ It is a table stakes property they must have. They cannot reveal their behavior to competitors, to the public. They cannot make the public uneasy.
+ They need to be able to offer this to their customers. They've made it abundantly clear to me.
+ You might say, "Why don't we have it yet in crypto?" There's two reasons. One is that the ways crypto has been popular so far hasn't really needed it.
+ If you're just moving a little bit out of an exchange, you're putting it in DeFi, you're just messing around with some meme coins, you're in an emerging economy, you want to hold some dollars.
+ These don't really demand a profound privacy, and the illegibility of crypto might be good enough for you.
+ But the minute it starts to get into more private things, salary, payments, personal finance, then people will start to do contrived things to get privacy.
+ They'll start to make tons of addresses. They'll start to use apps that offer. It's just absolutely going to happen.
+ The second is that privacy is very difficult technologically and from a compliance perspective. Technologically, we've needed a lot of advancements across different areas in cryptography to try to get closer to privacy.
+ We've learned a lot of stuff. There's some protocols we allude to in the report. We have some total flows through Railgun. We talk about some cool stuff with Zcash and the Zashi Wallet.
+ Noir developed by one of our portfolio companies Aztec. These are incredibly complex projects that, even though the products work today, Railgun is live, evidently, it's working.
+ It has a pretty challenging user experience. Despite this, it is growing. Despite this very challenging user experience that, in my mind, is not yet appropriate for retail. It is still growing.
+ This is new tech, new cryptography that they have struggled to repurpose for mainstream use.
+ As crypto starts to become useful in these other domains, where privacy is more important, there will be more demand for the applications of the new types of cryptography that we've developed to make things private.
+ This is going to happen. Everyone needs to be ready. We have this interesting wave now, and I hope it foretells a growing wave of interest.
+ I'm just marking a spot on the sand road. Based on what you're saying, and these conversations you're having with institutional players, are we getting ahead of ourselves? Is the adoption running ahead of the technological capabilities that crypto can offer?
+ It's not that they're running ahead. This is how it works. One head yanks the other as they are racing forward. No one's going to solve the privacy problem until there's a product that you want to launch that needs privacy that isn't going to work without it.
+ You need to bang your head against the wall and fix that problem. Then vice versa, some products can't take off unless they have privacy built in out the gate and people need to research and push the research ahead to do it.
+ I don't think that we're getting too far ahead. There are ways to get little cut set privacy and add incrementally more privacy, and there's a lot of people who think about it.
+ I just see it as a front that's advancing. It's not clear exactly where the bottleneck will be, or if there's one specific bottleneck in that, but I just don't see us in a future without it.
+ One year from now, Eddie, what percentage of stablecoin transfers do you think would be privacy preserving?
+ I love it. That's a tough one. That's a tough one. One year from now, less than a percent. Not much. Not because it's not going to work, but because I think people are headed that way.
+ There's some really cool projects that are doing this. I'm including confidentiality, by the way, like light kinds of privacy.
+ Basically, just Eddie and his friends. The current stablecoin growth is so strong that the private growth needs to outpace it to exceed more than a percent or ten percent.
+ I think it's less than a percent, but I think three, four years from now, it's substantial, like double digits. I don't know. I'm probably wrong.
+ No, that's great. I appreciate your view that necessity is the mother of invention, so it's not that adoption is getting ahead of itself.
+ It's that it is a prerequisite for these advances to happen. Darren, do you have a prediction on that front?
+ I'll take the over on Eddie's one-year prediction. I think we could get to more than one percent of stablecoins.
+ We also have to figure out how to measure it, if it's private. If it's adjusted or unadjusted. Yeah, well, yeah, but we'll see.
+ Okay, very interesting. That seems like it is the next frontier for people to deal with. Another thing that is quite interesting to see is the tokenization of assets.
+ We talked about this before. People call them real-world assets. I hate that term because it makes it sound like blockchain assets or fake-world assets.
+ It's very tantalizing. It's ridiculous. We need to come up with a better terminology here, but for the sake of speaking about it in the way that people do, this RWA trend.
+ We should just call them big boy assets, Robert. Big boy assets. That's great. But let's talk about this.
+ There's $30 billion worth of these "real-world assets" now on chain. Obviously, stablecoins are a whole separate kind of kettle of fish.
+ But if we're talking about these other types of assets, everything from stocks to commodities to debt of all different flavors, there's about $30 billion worth of that on-chain today, and it's growing very rapidly.
+ In 2020, there was almost nothing to now $30 billion. Rapid, rapid growth in that space. What's going on there? What's driving the growth? Why is this happening? What are the benefits of tokenizing things?
+ Tell us about this trend.
+ First of all, I think real-world assets call them that for the purposes of this conversation. I think they're the key to the long-term success of DeFi, because this is the bridge to traditional finance, which, as we know, is many trillions of dollars of size in opportunity.
+ If we want DeFi to really reach the levels and scale that I think we think it can, I do think we need to bring these real-world assets on-chain, and I think this is pretty critical to the long-term success, which is why it's exciting to see that there are already $30 billion in tokenized assets on-chain.
+ The growth that we're seeing is obviously something to keep an eye on, but I think it's incredibly early days still here, and there is so much room to grow here, just given the size of traditional assets that can be brought on-chain.
+ I think the growth that we've seen over the last couple of years benefits from a lot of the institutional adoption that we've seen, I think getting these big institutions on board, like BlackRock, which we talked about, is going to be key to the success here.
+ You've got Larry Fink out there, the CEO of BlackRock, talking about tokenizing everything. He's preaching the gospel of tokenization.
+ Yeah, so institutions, and then also, I'd say the regulatory environment is going to play an important role here as well, and I think the favorable conditions that we've seen over the last year, I think are going to work in the favor of this trend.
+ So something I'm very excited about, maybe crypto's biggest opportunity in front of us right now.
+ Yeah, I mean, this is a big stack of assets, Robert, and I think, although it's so easy to call them, just kind of bucket them all and call them real-world assets and sort of generalize over them.
+ I think that the most interesting insights are probably per category.
+ I'm far from an expert on really any of these, to be honest, but I have heard colloquially that, for example, private credit, which is not a thing that I know a lot about, is just easier to manage in a neutral layer where you can buy it, you can sell it to counter parties, and you don't have to integrate like complicated systems,
+ or any specific like third party broker, you can just trade it on chain, right? You can send them some stablecoin or pay them out of band, right?
+ It received the private credit on the blockchain, and it just becomes an easy medium, like literally just an easier medium to transact it, to hold it, to account for it, that type of thing.
+ That's, I've heard from two private credit people.
+ And by the way, when we're talking about private credit, private credit accounts for about half of all of these real-world assets.
+ Yeah, which is amazing to me, I admit it's not a thing I hear a lot about, but it's a thing that when I have heard about it, the explanation is sort of surprisingly simple to me, why they like private credit on chain.
+ It doesn't mean the off chain is done, but it means that it's something that is at least functionally useful and attractive.
+ Just to use a really concrete example, you know, one of the assets on here is like Paxos Gold, right?
+ This is like the Pax G token.
+ We talked a little bit about gold earlier in the podcast.
+ Not that long ago, I'm not like bragging about my financial acumen here, Robert, but like a while back I bought a bunch of gold, right?
+ And I thought about like how I wanted to buy that gold.
+ I actually looked into buying like gold bullion, like physical bullion, partly because it's hilarious, but also, you know,
+ maybe it's the best thing, like you can hold some in your backyard.
+ Yeah, you just hold some gold and like it doesn't have fees, right?
+ You know, it just sits there and you hold it.
+ I thought, what's the best way to get access to gold?
+ And there are some ETF-like products where you can get access to gold.
+ GLD is like the big one, I think.
+ Yeah, but you have to pay annualized fees.
+ That is a real financial innovation.
+ Take something that you can own and make you pay fees on it.
+ Yeah, and you don't have to hold it in a specific brokerage and so on, which is not so bad maybe.
+ But when I looked into it, I genuinely found like the Pax Gold, an attractive way to get gold exposure.
+ And like honest to God, not just because I'm like a crypto guy.
+ Like I thought like, wow, actually like the set of trade-offs here and owning the gold through the Pax G token is better for me.
+ So that's like that's the goal that I have.
+ Not even for crypto, obviously I'm a little biased if I want to do all the crypto stuff, but like it really is an easy way to do it.
+ Super easy to sell, super easy to buy, super easy to hold in Coinbase or in self custody if you want, right?
+ And that's and no fees.
+ And that set of trade-offs means that it's just generally really simple.
+ You know, the way I hold my assets, that's just really consistent and easy for me to tack on.
+ And so that just ended up being a natural choice.
+ I think if there were other types of assets that had similar financial and technical benefits,
+ I personally would like to hold them too. And I don't think of myself as like a representative of like a mainstream investor necessarily.
+ But that is often a sort of tell to me that those benefits are very soon going to be passed on to retail in a way that really makes a large scale difference.
+ So presumably some of those benefits are like more liquidity, the ability to trade whenever 24/7 lower fees and prices.
+ 24/7 competitive fees, venue independence, right? You can dispose of it on chain.
+ You can dispose of it like at a centralized exchange.
+ Like I think these properties are really attractive.
+ Is there an area of real world assets that you're most excited about coming on chain?
+ I think it's very cool and a net plus to bring equities or stocks, you know, company stocks on chain.
+ It's a really cool idea. I don't think it's a minus for crypto. I think it's a big plus for crypto.
+ I'll say to a lot of crypto people and I count myself among them, it's maybe like not the most exciting thing because we're trying to create new types of institutions and new types of things to own.
+ New types of networks, right? Like network tokens like that we've talked a lot about.
+ That's kind of like the most exciting thing to me.
+ Tokenizing a company and putting it on chain is maybe only incremental improvement.
+ But I still think it's exciting in so far as it creates exciting second-order consequences, like stablecoins, right?
+ Like stablecoin is just dollar on chain. It's not a new asset. It's the old asset, but on a new medium.
+ And that has profound consequences because of all the profound ways that dollars are used, right?
+ They're used for payments. They're used to collateral. They're used for settlement.
+ They're used for all these things. I think for stocks, it could be similar because if people hold a lot of their assets on chain, well, now they're on chain.
+ And that means now they're interoperable with a lot of other things, which means maybe they're useful in DeFi.
+ You can go down the whole list of the consequences of an interesting and liquid market asset being in someone's self-custodial crypto wallet.
+ Those are consequences are very, very interesting, even if we're not exactly inventing a new asset. We're just changing where it's located.
+ So we've talked a little bit about putting real assets, traditional financial assets on chain.
+ Let's talk about some of the more crypto-native applications that we've seen arise over the past year.
+ And perhaps one we could talk about where there's nothing backing it. No asset, no anything, really.
+ Just some funny meme, maybe. And that would be meme coins. This past year was really the year of meme coins.
+ And we talked a little bit about this at the start. You mentioned about how you had received some blowback for some of your meme coins.
+ Which slide is this wrong? I blocked it out of my mind. This is slide 29.
+ Okay. Go ahead. I'd like to talk about meme coins. I'd like to talk about perps and prediction markets. These three kinds of areas were really, really hot this past year.
+ But we can take each one and turn. And I'd love to start with meme coins, given that that was maybe the earliest of the three to really take off.
+ What's going on with meme coins? Are they here to stay? Yeah, they are here to stay. They've been here for 12 years now.
+ By my accounting, might be more. What has been innovated on and the reason they came back so hard last year or earlier this year was specifically because the underlying technology has improved.
+ It doesn't make sense to launch hundreds of thousands or millions as we have a meme coins if they were to cost $100 each or even $50 each, just to even have the idea.
+ If it only costs a few cents, then all of a sudden that becomes a possibility.
+ And then the same with allowing others to buy it and to speculate on them.
+ So we saw a proliferation in these launch pads, these so-called meme coin launch pads, like pump, like others.
+ Like I said earlier, I have been criticized for my being a little cynical about them.
+ It's just not the most exciting part of crypto for me other than highlighting interesting social trends.
+ I maybe would take a little bit more of a positive stance here and just say the beautiful thing about crypto is that it's this credibly neutral platform where you can build all sorts of different things on it, right?
+ Whether it's physical infrastructure networks through kind of the deep in category or real world assets or in this case some form of internet culture, right?
+ It is open to accept all types of ideas and innovations and meme coins popped up as something and a lot of it was obviously driven by speculation.
+ But I think it's very worth watching how the space evolves because as we've seen with other categories like NFTs, things can evolve, right?
+ And in the case of NFTs, we've really transitioned from speculation to more collecting and we have some data that supports that.
+ And I am unsure what will happen with the meme coin story, but it is cool that anybody can come in and build whatever they want on these blockchains.
+ And whether you like them or hate them, I think they're an important part of crypto story.
+ Yeah, I totally agree with that. And I'll say just to counterbalance myself a little bit too is that you never quite know how the most important and impactful lessons will develop.
+ Often the most interesting things start off looking really, really stupid.
+ Now, often stupid things start off looking stupid too.
+ So you have to balance that.
+ But Chris sticks in to say the next big thing starts off looking like a toy.
+ That's one of his great aphorisms.
+ So I think it's important to watch and I have actually seen a lot of interesting and important lessons to learn.
+ But it's going to come and go and we'll see.
+ Let's talk about a couple of the other applications that have found some like Perps and prediction markets, right?
+ Yeah, those two I think are un-ignorable.
+ They've really risen in the past year.
+ Perps, for one thing, it was not always clear that perpetual futures, that's what we mean by Perps.
+ It wasn't always clear that perpetual futures were going to be the product that people who want to speculate on crypto use.
+ Over the past year, it's kind of become clear that people have gravitated toward it.
+ Why is that? What about Perps has been so appealing to people looking to place bets on the price direction of crypto.
+ I kind of think it's emerged as like you said, really the ideal product for crypto speculators.
+ From a product experience standpoint, it is like the easiest and most intuitive way to open a leveraged position long or short on an asset in crypto.
+ And I think protocols like Hyper Liquid have done a very good job of building the product experience for those type of crypto speculators.
+ And we've seen the results of that, which is trillions of dollars of volume and Hyper Liquid is now on a billion dollar revenue run rate.
+ Yeah, I agree with that completely.
+ When we say Perps, of course, perp decks is also, right?
+ It's not just perpetual futures, it's perp decks.
+ So it's perps as powered by some kind of decentralized system.
+ They've been around for some time, right? I would say the first perp decks in a form that is very similar to the current form.
+ It was DY DX.
+ DY DX was definitely a popular product for its time.
+ And there have been innovations by DY DX, by Hyper Liquid, by Lighter, by these projects that are really trying to layer on incremental improvement after incremental improvement to make them into better and better products.
+ Maybe to capture what you really get out of one for the audience is that there have been a variety of ways, as Darren was talking about, to take $100 and try to get more than $100 of leverage exposure to some assets for the purposes of speculating.
+ I mean, more like gambling, speculating, right? Kind of a little bit less than value investing. Maybe not what Warren Buffett would be doing, right?
+ To do that requires composing together several types of tools.
+ It requires some mechanism for lending, for depositing collateral, and then lending some way to actually exchange and to represent some type of order and get matched with a counterparty for that order.
+ Some way to handle automatic liquidations for that, as in, your position is no longer supported by enough collateral, so we have to solve the collateral.
+ The perp decks is a highly refined product to deliver the composition of those things while maintaining as much liquidity as possible.
+ Liquidity is in counterparties who you can trade with so that you can get something as close to the fair price for that asset as possible.
+ They work really, really well for what they do. I think they work better than they've ever worked.
+ And I think maybe to connect with what we were saying about meme coins, I think maybe the falling off in meme coins has come partly because people have been able to get this wild asymmetric exposure to assets without needing to get the meme coins.
+ You don't have to go and identify some obscure brand new meme coin that you think is going to take off to get that huge asymmetric upside.
+ Now you can get a highly levered position against a blue chip asset, like an ETH or Bitcoin or something like that.
+ Which means you maybe don't need to wade too deeply into the swamp or the trenches as they say.
+ In order to get that risky exposure, you can do that in a more orderly system where there is maybe less asymmetric information and less predators lurking in the forest.
+ So I tend to think that's not a coincidence, right? Is that the speculator kind of like casino-y side of crypto has long wanted this type of way to risk some bucks to make mega bucks and perptexes are a really, really highly engineered way to deliver that product?
+ One question that I have about this, given that we're now on the other side of what was not quite a flash crash but was a pretty large market drawdown, are people playing with fire here?
+ Has this introduced something dangerous into the system?
+ Well, anytime you're playing with leverage, you're playing with the system.
+ Let me say that incredibly clearly, and this is of course not financial advice ever, but anytime you're taking a lot of leverage, you're taking a lot of risk.
+ I think leverage is crazy. I think leverage is a great way to lose everything.
+ So yeah, you are playing with fire. There's no question about that.
+ Now, as far as whether the perptexes specifically are culpable for the flash, it's a little harder to say.
+ We haven't done some sort of deep analysis that could say that.
+ I will say that anytime a system has a lot of leverage, which the system has gotten better at creating more leverage, right?
+ That it has become more effective at delivering more leverage at a lower price.
+ Then when there is a market shock where market makers need to pull back and protect themselves and there's an unwinding of leverage, then that can exacerbate crashes to some degree.
+ But of course, better design systems are better able to handle that type of instability as well.
+ They can liquidate faster, more efficiently, in a way that protects the users more, and I think that that was also true.
+ There is a subtle or slight irony in that crypto, this thing that was sort of invented out of a desire to move away from the fractional reserve banking system.
+ And now we're back at kind of introducing all this leverage back into the system.
+ It's sort of like...
+ One way to put it, Robert, is that why do they get to have all the fun?
+ That's a good point.
+ That's a good point.
+ There was a really funny gwart tweet about this, about how I'm sorry that you lost your son's college fund.
+ But it wasn't at Marvelous how gracefully the dealer swept away the chips and how effectively you were liquidated at the casino.
+ Yeah, so I would caution people against using leverage unless you really know what you're doing.
+ Let's move on to prediction markets because that has been another big story.
+ And the irony there with prediction markets is that if you were a betting man, a betting person, and you were going to say whether prediction markets would stick around after the election,
+ a lot of people said that they expected it to fizzle out, that there wouldn't be interest to sustain this thing.
+ And that seems not to have been the case.
+ Prediction markets have, I think, one of the most fascinating histories of anything in crypto, like starting in the early days of Auger, which actually came out of after the rise and fall of intrade.
+ There was early experimentation in this category that, like, essentially didn't work.
+ And then we had polymarket come onto the scene and they were sort of doing stuff and it wasn't clear what would happen and then, you know, it was popular around the elections, but then it wasn't.
+ And it was this weird history.
+ And I think, like, many things we've talked about today, a lot of the pieces just finally came together in a very interesting way.
+ And now it's become one of the hottest categories in crypto, right?
+ Like, polymarket and calcium are fiercely competing for what seems to be a growing pie of users.
+ Like, the intersection with sports betting has now become inevitable, right?
+ There are some regulatory tailwinds that have really, like, unleashed this category, still kind of to be determined the exact role that crypto is going to play, although we think there are some really interesting avenues to explore further there.
+ But it's just a very interesting, kind of, weird history with this space and it's awesome to see that it's finally having its moment.
+ And, you know, I personally couldn't be more excited to finally kind of be seeing this in more of a mainstream way.
+ So I personally got into crypto from my exploration with Augur back in 2016.
+ That's what I was going to say. You were a crypto convert because of prediction markets. I mean, you shouldn't bury that. That is like, that's what brought you in, isn't it?
+ Absolutely. Yeah.
+ And it's fun to see that 10 years later we're here.
+ It's finally manifesting.
+ Okay. Well, on the subject of predictions, what predictions do you two have for 2026?
+ Let me preface this by saying, I asked you this last year, and Eddie, you said that you hoped that all of the new block space would be put toward productive ends.
+ We did get meme coins after that. We'll put that aside.
+ Darren, you said that you hope that the application section of this report would be longer than the infrastructure section.
+ And I think maybe that did come to be the case because we didn't spend too much time talking about infrastructure here.
+ We were mostly talking about how people are using this stuff.
+ So I think you both were on the money last year with your predictions.
+ And I would love to hear what you think is going to happen in 2026.
+ Yeah, that's a really interesting question. I mean, yeah, I mean, taking productive charitably, of course, the spirit of my comment last year was that we have all this new capacity, the capacity needs to be used.
+ The pattern of the history of technology has been that we figure out how to create some surplus, and then some time passes during which entrepreneurial types figure out how to exploit that surplus and use it for something.
+ What they use it for can be difficult to predict, but surpluses don't sit around long like nature doesn't tolerate this.
+ So I feel that that has been vindicated to some degree. If I had to predict like the next year to me is where, you know, we continue to see advances in the places we've seen them.
+ There will be more infrastructural improvements, more capacity, all those things, you know, we haven't talked too much about that today, but I think that will continue.
+ But what I think we will really see is all the integrations and promises and applications and wiring together that we've started to hear about like this year, those will be tested.
+ They will launch, they will be live. We will see interesting uses of them, and we will see their flaws as well.
+ I alluded to one of them today, which is like, maybe we will see the emperor has no clothes and privacy is actually a very strict prerequisite for many people.
+ Maybe maybe we will, maybe we won't, maybe we'll have some Band-Aid solutions while more sophisticated cryptographic solutions come online.
+ You know, when financial institutions start putting assets on chain because of the way regulations shake out, maybe some of them will require certain types of credentials, maybe certain types of KYC to access them.
+ You know, I don't really know.
+ But the point is, as people get to the finish line in launching these new products and showing the culmination of these interests that have been exposed, we will figure out what shortcomings exist.
+ And whenever there are obvious bottlenecks, obvious problems in the development of new goods and services, entrepreneurs come and try to fix them.
+ And they say, "Okay, you have this huge problem that's blocking you. Okay, I can actually solve that problem for this person, this person, this person, this person."
+ And that makes a business.
+ So we will start, we will see the evolution of those things.
+ I also cautiously think that we will see maybe more applications, maybe that looks more like self-custodial, neo-banky stuff, maybe agentic paymentsy stuff.
+ You know, I'm not exactly sure, but my feeling is that as stablecoins get wired up and payments become a possibility and more people have wallets, that it will get easier from a user experience perspective to shift them from like, actually, I only have like a little savings in this thing
+ into, "Oh, I can make a payment with it, and I can use this product easily," or "Oh, I can defer to some agent to spend on my behalf," which is controlled by blah, blah, blah, blah.
+ I'm not exactly sure, but I think we will see the consequences of the applications and the partnerships.
+ Excellent.
+ Okay, so we'll see new application areas open up and we'll also be able to identify bottlenecks and shortcomings with the current state of the technology.
+ And coupling this with your statement earlier, your earlier bet with Darren on privacy.
+ I'm hoping privacy will be a big deal, but we'll see.
+ Yeah, people will recognize that we need privacy, but maybe still won't be using it all that much in a year's time.
+ All right, Darren, let's hear from you.
+ What are your predictions for 2026?
+ So I've been saying that crypto is a 17-year-old, so next year it's going to turn 18, which means it's going to be coming.
+ It can finally vote, right? A full-on adult.
+ And now it's fully legally liable for its own actions.
+ And I think that will kind of, I think it'll present itself on the regulatory side, right?
+ I think it'll become an adult with kind of real clear rules and regulations.
+ I think it'll become an adult with respect to institutional adoption, kind of the commitments will materialize.
+ People really will take crypto seriously as an industry.
+ And kind of, I hope that just kind of continues from the early signs that we're seeing this year.
+ Maybe the one thing I'll say a little bit more specific in terms of predictions this year.
+ We've heard a lot of talk about how kind of stablecoins and other things can make things faster or cheaper or better than the traditional way of doing things.
+ And while that is all true and we've got a lot of data to support that, I think the real opportunity for bringing the world on chain,
+ the real opportunity for kind of rebuilding these global payment rails around stablecoins.
+ The real opportunity for crypto is the ability to now do things differently, right?
+ Like the experimentation that we will hopefully see around new ways to do payments altogether, things that we're not even thinking about today.
+ That's what I'm most excited for, not kind of bringing the fees down from 2% to less than 1%, right?
+ Like I think the new opportunities that get unlocked as a result of us kind of rebuilding the financial system, creating this new internet.
+ That's what I'm excited for and I hope we start to see that next year.
+ Yeah, I think people come for the savings and they stay for the network.
+ That's what's really going to happen.
+ The consequences of people having custody, having keys, having programmable assets, having composable assets, those are much larger.
+ When you say come for the savings, you mean flocking to the sort of store of value narrative and then going from there and saving on transaction fees, saving on payment.
+ Payment processors, treasury management, all these sort of basic things, I think those popularize stablecoins and the consequences are much bigger than just the savings.
+ Very interesting.
+ All right.
+ We'll have to see next year how things shake out.
+ Thank you to Darren Eddy.
+ Thanks so much for joining.
+ This has been a pleasure.
+ And for everybody who is listening, we will put links in the show notes to our 2025 state of crypto report, just released, as well as our new state of crypto data dashboard, which updates these numbers more regularly.
+ And you can follow those metrics that we're tracking there.
+ Eddie, Darren, thanks so much for coming on.
+ Thanks, Robert.
+ It's a pleasure.

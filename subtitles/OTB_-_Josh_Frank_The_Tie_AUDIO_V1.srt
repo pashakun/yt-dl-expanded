@@ -1,0 +1,2512 @@
+1
+00:00:00,000 --> 00:00:04,680
+Today in the show, I sat down with Josh Frank, the founder and CEO of The Tie, a company
+
+2
+00:00:04,680 --> 00:00:08,160
+building a market intelligence platform for digital assets.
+
+3
+00:00:08,160 --> 00:00:11,800
+This was a fun conversation that touched on the history of The Tie, a deep dive on some
+
+4
+00:00:11,800 --> 00:00:15,920
+current events, as well as some prognostications for what's ahead for the industry.
+
+5
+00:00:15,920 --> 00:00:17,580
+I think you'll enjoy this one.
+
+6
+00:00:17,580 --> 00:00:22,600
+So without further ado, here's my conversation with Josh Frank from The Tie.
+
+7
+00:00:22,600 --> 00:00:25,000
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+8
+00:00:25,000 --> 00:00:27,600
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+9
+00:00:27,600 --> 00:00:30,200
+and do not reflect the opinions of Castle Island Ventures.
+
+10
+00:00:30,200 --> 00:00:32,600
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+11
+00:00:32,600 --> 00:00:35,880
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+12
+00:00:35,880 --> 00:00:39,520
+to make a particular investment or follow a particular strategy, but only as an expression
+
+13
+00:00:39,520 --> 00:00:40,720
+of their personal opinion.
+
+14
+00:00:40,720 --> 00:00:43,520
+This podcast is for informational purposes only.
+
+15
+00:00:43,520 --> 00:00:48,080
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+
+16
+00:00:48,080 --> 00:00:49,080
+liquidated.
+
+17
+00:00:49,080 --> 00:00:53,080
+The federal government loans American International Group, AIG, $85 billion.
+
+18
+00:00:53,080 --> 00:00:56,280
+This is a different kind of market and the Fed is asleep.
+
+19
+00:00:56,280 --> 00:00:59,880
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the
+
+20
+00:00:59,880 --> 00:01:02,960
+two mortgage giants that have been threatened by the housing crisis.
+
+21
+00:01:02,960 --> 00:01:06,800
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+22
+00:01:06,800 --> 00:01:08,280
+with a new round of quantitative easing.
+
+23
+00:01:08,280 --> 00:01:11,600
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+24
+00:01:11,600 --> 00:01:14,520
+So out of this worry, we have something called the Bitcoin.
+
+25
+00:01:14,520 --> 00:01:15,520
+Bitcoin.
+
+26
+00:01:15,520 --> 00:01:18,160
+Well, Josh, thanks so much for coming on the podcast.
+
+27
+00:01:18,160 --> 00:01:20,360
+Thanks for having me on.
+
+28
+00:01:20,360 --> 00:01:23,560
+We'd love to just start with a little bit of your background and maybe an overview of
+
+29
+00:01:23,560 --> 00:01:24,560
+The Tie.
+
+30
+00:01:24,640 --> 00:01:29,060
+I mean, my background is not the most exciting thing in the world, but graduated college
+
+31
+00:01:29,060 --> 00:01:35,720
+in 2017, started working in post-trade settlement technology, which is riveting.
+
+32
+00:01:35,720 --> 00:01:40,460
+Basically spent my first few months resetting people's passwords, learning Swift actually.
+
+33
+00:01:40,460 --> 00:01:43,360
+So I did know Swift, which is also riveting.
+
+34
+00:01:43,360 --> 00:01:45,600
+But as you can tell, it wasn't the most excited about that.
+
+35
+00:01:45,600 --> 00:01:47,420
+And this was like 2017.
+
+36
+00:01:47,420 --> 00:01:51,880
+This is when you had a bunch of influencers on Twitter talking about whatever nonsense
+
+37
+00:01:51,880 --> 00:01:52,880
+coins.
+
+38
+00:01:52,880 --> 00:01:56,960
+For example, of John McAfee, where he would just tweet out some random token and it would
+
+39
+00:01:56,960 --> 00:01:59,760
+go up by like 300% in five minutes.
+
+40
+00:01:59,760 --> 00:02:02,360
+You had all these nonsensical ICOs launching.
+
+41
+00:02:02,360 --> 00:02:06,280
+I mean, I'm sure you remember some of these, but Siren Labs that raised $80 million to
+
+42
+00:02:06,280 --> 00:02:07,720
+launch your phone never did.
+
+43
+00:02:07,720 --> 00:02:09,920
+You had DentaCoin hit a billion in market cap.
+
+44
+00:02:09,920 --> 00:02:14,300
+So you had all of this utter and complete nonsense and lack of fundamentals.
+
+45
+00:02:14,300 --> 00:02:18,640
+I was sitting at my job board and was like, okay, somebody needs to build a platform to
+
+46
+00:02:18,640 --> 00:02:20,520
+make sense of this nonsense.
+
+47
+00:02:20,520 --> 00:02:23,360
+And so I started as a sentiment data company.
+
+48
+00:02:23,360 --> 00:02:28,040
+Actually originally as a free to use retail platform was just me when I started.
+
+49
+00:02:28,040 --> 00:02:31,400
+Actually hired another 22 year old in Pakistan because that's all I could afford.
+
+50
+00:02:31,400 --> 00:02:35,240
+My co-founder joined me and didn't take any salary nine months later.
+
+51
+00:02:35,240 --> 00:02:38,700
+Didn't raise any capital, kind of got off the ground trying to build a free to use retail
+
+52
+00:02:38,700 --> 00:02:42,160
+platform and really kicked our tires for a long time.
+
+53
+00:02:42,160 --> 00:02:43,720
+Didn't have any clue what we were doing.
+
+54
+00:02:43,720 --> 00:02:45,280
+We're not able to raise capital.
+
+55
+00:02:45,280 --> 00:02:46,280
+We tried.
+
+56
+00:02:46,280 --> 00:02:50,360
+I actually think I brought up to Nick in like 2018, but really couldn't find anything for
+
+57
+00:02:50,360 --> 00:02:51,640
+a few years.
+
+58
+00:02:51,640 --> 00:02:56,160
+And then starting late 2019, 2020, we saw institutions were coming in and we saw that
+
+59
+00:02:56,160 --> 00:03:01,420
+there was a demand for really more holistic view on information and crypto.
+
+60
+00:03:01,420 --> 00:03:05,800
+And so we launched kind of our first institutional product, started to gain traction, really
+
+61
+00:03:05,800 --> 00:03:09,800
+gained a lot of traction, started to bring on institutions, created a couple of different
+
+62
+00:03:09,800 --> 00:03:10,800
+products.
+
+63
+00:03:10,800 --> 00:03:16,880
+And then in 2021, we got approached by one of the top five Silicon Valley or even higher
+
+64
+00:03:16,880 --> 00:03:19,000
+VCs who came out and offered us a term sheet.
+
+65
+00:03:19,000 --> 00:03:20,720
+We weren't even thinking about raising.
+
+66
+00:03:20,720 --> 00:03:24,960
+And then kind of got the ball rolling of like, okay, maybe there's something here that's
+
+67
+00:03:24,960 --> 00:03:26,240
+really scalable.
+
+68
+00:03:26,240 --> 00:03:29,260
+Went out and did kind of a strategic raise and then have kind of been off to the races
+
+69
+00:03:29,260 --> 00:03:30,260
+since then.
+
+70
+00:03:30,260 --> 00:03:35,000
+We're now about 80 or so people, profitable business, doing a lot of different things.
+
+71
+00:03:35,000 --> 00:03:39,140
+But our core is really operating an all in one platform for institutions to stay on top
+
+72
+00:03:39,140 --> 00:03:40,140
+of the crypto market.
+
+73
+00:03:40,140 --> 00:03:44,100
+And so the idea today is that if you walk into the office of a hedge fund and you ask
+
+74
+00:03:44,100 --> 00:03:46,840
+them how they're staying on top of crypto, and I'm sure you guys suffer from this as
+
+75
+00:03:46,840 --> 00:03:47,840
+well.
+
+76
+00:03:47,840 --> 00:03:52,240
+You look at their screen, they have 72 different browser tabs open across four different screens.
+
+77
+00:03:52,240 --> 00:03:55,640
+Our goal has always been to consolidate all the information that an institution wants
+
+78
+00:03:55,640 --> 00:03:56,640
+to see into a single screen.
+
+79
+00:03:56,640 --> 00:04:01,320
+So market data, derivatives data, sentiment data, blockchain data, news, private company
+
+80
+00:04:01,320 --> 00:04:05,600
+research, fundraising data, you name it, all on a single consolidated interface.
+
+81
+00:04:05,600 --> 00:04:09,600
+And today we service hundreds of the largest institutions operating in the space.
+
+82
+00:04:09,600 --> 00:04:12,320
+The sentiment data has always been fascinating to me.
+
+83
+00:04:12,320 --> 00:04:15,960
+Maybe you could talk a little bit about the contrast between how traditional finance uses
+
+84
+00:04:16,000 --> 00:04:19,640
+that type of data and then who's really doing it well in the crypto space.
+
+85
+00:04:19,640 --> 00:04:22,600
+Do you see buy side allocators harnessing that sentiment data?
+
+86
+00:04:23,040 --> 00:04:24,280
+It should be used the same.
+
+87
+00:04:24,400 --> 00:04:27,600
+It shouldn't matter if you're a crypto fund or you're a traditional fund.
+
+88
+00:04:27,600 --> 00:04:29,240
+You should be using sentiment data the same.
+
+89
+00:04:29,440 --> 00:04:34,120
+I think point and click trading based off of sentiment data is not necessarily the best
+
+90
+00:04:34,120 --> 00:04:36,200
+idea. I think there's two ways to look at it, right?
+
+91
+00:04:36,200 --> 00:04:43,040
+It's the short term making a trade right now versus the long term looking at sentiment
+
+92
+00:04:43,040 --> 00:04:44,880
+and community as a fundamental right.
+
+93
+00:04:44,880 --> 00:04:48,840
+And I think in crypto, from a long term perspective, it can be viewed differently than equity
+
+94
+00:04:48,840 --> 00:04:51,960
+markets where sentiment and community can be fundamental.
+
+95
+00:04:52,160 --> 00:04:55,920
+But as it relates to short term trading, the folks that are making money trading our
+
+96
+00:04:55,920 --> 00:04:59,720
+sentiment data are the same exact folks making money trading sentiment data in equity
+
+97
+00:04:59,720 --> 00:05:03,440
+markets. Think of it as being like the largest traditional quantitative hedge funds, the
+
+98
+00:05:03,440 --> 00:05:05,280
+Chicago prop trading firms, things like that.
+
+99
+00:05:05,720 --> 00:05:10,160
+They're not even running at this point trading strategies purely based off our sentiment
+
+100
+00:05:10,200 --> 00:05:16,120
+data. They're running existing trend following models that are maybe augmented with
+
+101
+00:05:16,120 --> 00:05:18,240
+sentiment data. Sentiment data is a factor in that model.
+
+102
+00:05:18,240 --> 00:05:22,720
+If you see, for example, that there's a really big spike in sentiment on an asset over a
+
+103
+00:05:22,720 --> 00:05:26,840
+five minute period, that doesn't necessarily mean that every time sentiment goes up, you
+
+104
+00:05:26,840 --> 00:05:29,360
+should buy. It's not that simple of a relationship, obviously.
+
+105
+00:05:29,520 --> 00:05:34,280
+When I think about short term, I think about sentiment as being really useful for systematic
+
+106
+00:05:34,280 --> 00:05:38,080
+trading. And then as it relates to long term, I think sentiment is obviously incredibly
+
+107
+00:05:38,080 --> 00:05:41,080
+important. And we've seen that play out with a lot of assets.
+
+108
+00:05:41,080 --> 00:05:45,200
+And, you know, for example, Chainlink early on, before they had a lot of fundamentals,
+
+109
+00:05:45,360 --> 00:05:50,720
+they had these link Marines that were all over 4chan and that really blew up Chainlink.
+
+110
+00:05:50,720 --> 00:05:56,120
+Right. And then you had the XRP community, which is massively large, which obviously
+
+111
+00:05:56,120 --> 00:05:59,160
+there's a ton of fundamentals behind Ripple at this point, and they're buying a lot of
+
+112
+00:05:59,160 --> 00:06:04,240
+assets. But that community has been what kept XRP and Ripple afloat for so long.
+
+113
+00:06:04,240 --> 00:06:08,040
+Right. And so I think from a long term perspective, I think it's very important to
+
+114
+00:06:08,080 --> 00:06:11,000
+not understand. To me, sentiment doesn't matter so much.
+
+115
+00:06:11,000 --> 00:06:15,480
+It's more how many people are talking about an asset, how that's growing over time, how
+
+116
+00:06:15,480 --> 00:06:18,480
+many unique people and are those real human beings or are they bots?
+
+117
+00:06:18,480 --> 00:06:20,480
+Because a lot of people are going to try to bot activity.
+
+118
+00:06:20,800 --> 00:06:24,440
+That's what I was going to ask next is, I mean, there's so many cases over the history
+
+119
+00:06:24,440 --> 00:06:26,600
+of crypto where you're like, this is just clearly a bot.
+
+120
+00:06:26,600 --> 00:06:30,800
+You remember BitConnect and some of these more scam fraudulent tokens during that ICO
+
+121
+00:06:30,800 --> 00:06:33,040
+run up. That's going to be part of the secret sauce.
+
+122
+00:06:33,280 --> 00:06:35,960
+Still one of the best videos in crypto history, though, the BitConnect.
+
+123
+00:06:36,160 --> 00:06:37,920
+All time. All time video.
+
+124
+00:06:38,080 --> 00:06:40,480
+But I guess just parsing through, like, who's real?
+
+125
+00:06:40,480 --> 00:06:44,040
+I guess even in the XRP case, there was a time where it was like, this can't be real.
+
+126
+00:06:44,040 --> 00:06:46,360
+But it does seem to really be an organic following.
+
+127
+00:06:46,680 --> 00:06:50,080
+I think it's also important to understand that not everything happens on Twitter.
+
+128
+00:06:50,400 --> 00:06:54,960
+I think oftentimes we kind of misconstrue the fact being in the U.S.
+
+129
+00:06:54,960 --> 00:06:57,200
+that all of activity happens on Twitter.
+
+130
+00:06:57,480 --> 00:07:05,040
+A lot of the support for some assets like XRP and Cardano has come out of Japan and
+
+131
+00:07:05,040 --> 00:07:09,120
+Japanese investors have much more of a holder mentality than like Korea and other
+
+132
+00:07:09,120 --> 00:07:12,160
+markets in that region. And so when they're buying assets, they're not necessarily
+
+133
+00:07:12,160 --> 00:07:13,480
+trying to flip them right away. Right.
+
+134
+00:07:13,480 --> 00:07:17,680
+And so I think it's important to understand that community extends beyond social or at
+
+135
+00:07:17,680 --> 00:07:19,920
+least extends beyond what's happening on Twitter as well.
+
+136
+00:07:20,240 --> 00:07:24,480
+There was a bot activity. Honestly, it's kind of very easy to weed out.
+
+137
+00:07:24,720 --> 00:07:27,000
+I mean, you can look at follower to followers ratios.
+
+138
+00:07:27,000 --> 00:07:28,840
+You can look at how long an account has been around for.
+
+139
+00:07:28,840 --> 00:07:32,280
+You can look at its history. But the easiest way, and I'm sure you do this, if you go
+
+140
+00:07:32,320 --> 00:07:35,720
+look at account, it has four hundred thousand followers, the token and no one you know
+
+141
+00:07:35,720 --> 00:07:37,520
+follows them. That's not real.
+
+142
+00:07:37,560 --> 00:07:41,360
+Probably a bot. We actually have this feature on our platform that we call the ApeFluencer.
+
+143
+00:07:41,520 --> 00:07:46,360
+And what the ApeFluencer basically does, we track like the top few hundred VCs and hedge
+
+144
+00:07:46,360 --> 00:07:51,200
+funds on Twitter. We basically try to look at what they're following in real time to
+
+145
+00:07:51,200 --> 00:07:54,920
+basically identify what are the hottest projects, you know, what are the top products
+
+146
+00:07:54,920 --> 00:07:59,080
+right now, what's new, what's trending as ways to like from a venture perspective, like,
+
+147
+00:07:59,120 --> 00:08:02,960
+OK, I want to find a project earlier, so let me see like what's trending earlier.
+
+148
+00:08:03,160 --> 00:08:06,280
+And then from more of a trading perspective, OK, obviously over the last few months,
+
+149
+00:08:06,320 --> 00:08:08,960
+Hyperliquid was followed by everyone and it blew up.
+
+150
+00:08:09,000 --> 00:08:10,080
+So things like that as well.
+
+151
+00:08:10,560 --> 00:08:14,200
+We do that a lot, too, is just looking at who our peers are starting to follow.
+
+152
+00:08:14,240 --> 00:08:17,360
+Definitely seems like at least from a venture perspective, that's a good way to just stay
+
+153
+00:08:17,360 --> 00:08:20,240
+on top of who's leaving a company, who's going into stealth mode.
+
+154
+00:08:20,440 --> 00:08:24,480
+Yeah, we actually track who is the first follow of projects.
+
+155
+00:08:24,480 --> 00:08:27,200
+So like, who was the first person to discover Hyperliquid?
+
+156
+00:08:27,200 --> 00:08:29,040
+Who was the first person to discover whatever else?
+
+157
+00:08:29,280 --> 00:08:31,400
+And what's funny is you can start to find like patterns.
+
+158
+00:08:31,400 --> 00:08:34,160
+And look, obviously, some of these accounts follow 10,000 people.
+
+159
+00:08:34,440 --> 00:08:36,600
+There's a great assault there because they're kind of just following everyone.
+
+160
+00:08:36,880 --> 00:08:41,120
+We haven't really gamified it so much to figure out like who is really finding things
+
+161
+00:08:41,120 --> 00:08:44,040
+earliest. But I'm sure we could back into that, which would be kind of interesting.
+
+162
+00:08:44,520 --> 00:08:49,400
+When you think about just the total market size for trading crypto today, I'd imagine
+
+163
+00:08:49,400 --> 00:08:54,160
+that you guys have some maybe forward indicators around firms that might start by just
+
+164
+00:08:54,160 --> 00:08:57,880
+buying a subscription. And then you look two years later, they're in market doing
+
+165
+00:08:57,880 --> 00:09:01,920
+something commercially. Just curious what your views are just on where the market is
+
+166
+00:09:01,920 --> 00:09:05,880
+today. And if you see green shoots of new firms starting to enter the space.
+
+167
+00:09:06,440 --> 00:09:08,520
+It's always the institutions are coming in crypto.
+
+168
+00:09:08,640 --> 00:09:10,800
+That's just it's always the narrative.
+
+169
+00:09:11,240 --> 00:09:14,880
+And so, you know, when you talk about like, OK, who's trading crypto, the thing we have
+
+170
+00:09:14,880 --> 00:09:17,480
+to remember crypto is still really small.
+
+171
+00:09:17,800 --> 00:09:19,240
+Bitcoin is very liquid.
+
+172
+00:09:19,480 --> 00:09:20,840
+Right. And you can trade size.
+
+173
+00:09:20,880 --> 00:09:22,880
+Ethereum is liquid and you could trade size.
+
+174
+00:09:22,880 --> 00:09:26,800
+Solana is liquid and you can trade size, maybe XRP and a few other assets.
+
+175
+00:09:27,080 --> 00:09:31,080
+But once you start going beyond that list, you can't really trade size, right?
+
+176
+00:09:31,080 --> 00:09:32,480
+You can't trade anything meaningful.
+
+177
+00:09:32,480 --> 00:09:36,560
+And so if you think about like a 50 billion dollar hedge fund, right, if a 50 billion
+
+178
+00:09:36,560 --> 00:09:40,760
+dollar hedge fund is like, OK, I want to launch a crypto hedge fund, what is the most
+
+179
+00:09:40,760 --> 00:09:43,640
+amount of money you could think about launching a crypto hedge fund with if you're
+
+180
+00:09:43,640 --> 00:09:48,000
+trading very actively, maybe 250 million, maybe 500 million dollars.
+
+181
+00:09:48,000 --> 00:09:51,240
+But like once you start getting beyond that number, there's diminishing returns.
+
+182
+00:09:51,480 --> 00:09:53,760
+There's scalability constraints with the strategy.
+
+183
+00:09:54,000 --> 00:09:58,520
+And so let's say they start with 100 million dollars, 50 billion dollar fund on
+
+184
+00:09:58,520 --> 00:10:01,880
+management fees alone is making it close to a billion dollars or a billion dollars.
+
+185
+00:10:02,080 --> 00:10:06,000
+If they take that 100 million dollars and they double it, great, they made 20 million
+
+186
+00:10:06,000 --> 00:10:08,520
+dollars. That's two percent of what they're making on their management fee.
+
+187
+00:10:08,800 --> 00:10:12,640
+You start to do the math and you're like, OK, well, is it really worth it for these
+
+188
+00:10:12,640 --> 00:10:15,040
+very large firms and funds to start trading crypto?
+
+189
+00:10:15,240 --> 00:10:18,440
+What we've seen with a lot of these firms is some of them are trading crypto out of
+
+190
+00:10:18,440 --> 00:10:21,800
+their GP. So if they're trading partner's capital, it's a little bit of a different
+
+191
+00:10:21,800 --> 00:10:26,560
+situation. But a lot of them are trading CME and they're trading the ETF and they're
+
+192
+00:10:26,560 --> 00:10:30,800
+doing the basis between the two or doing some active trading around the Bitcoin ETF
+
+193
+00:10:30,800 --> 00:10:34,360
+and stuff like that. But in terms of like large traditional funds coming in and actively
+
+194
+00:10:34,360 --> 00:10:39,280
+trading a large number of assets that are spot crypto, I still think that's kind of
+
+195
+00:10:39,280 --> 00:10:41,200
+a dream scenario that we haven't hit yet.
+
+196
+00:10:41,720 --> 00:10:44,080
+There are some, I would say, the Chicago prop trading.
+
+197
+00:10:44,080 --> 00:10:46,960
+I mean, anyone prop? If you're prop, you can do it.
+
+198
+00:10:46,960 --> 00:10:50,840
+So there are a lot of five, ten billion dollar funds that converted into prop trading
+
+199
+00:10:50,840 --> 00:10:52,320
+firms that are now trading crypto.
+
+200
+00:10:52,480 --> 00:10:56,480
+But the challenge is once you start putting LP money on the line, it's like, OK, is it
+
+201
+00:10:56,480 --> 00:10:57,880
+worth making 20 million dollars?
+
+202
+00:10:57,880 --> 00:11:02,600
+But potentially I lose the sovereign wealth fund of this country's money and they pull
+
+203
+00:11:02,600 --> 00:11:04,480
+three billion dollars out of my main fund.
+
+204
+00:11:04,480 --> 00:11:08,080
+Right. And so that's kind of the challenge that I think we're seeing in terms of like
+
+205
+00:11:08,240 --> 00:11:12,160
+real widespread institutions actually buying spot crypto.
+
+206
+00:11:12,640 --> 00:11:18,000
+I see that, too. And I wonder if just valuation methodology and frameworks are going to be
+
+207
+00:11:18,000 --> 00:11:22,120
+required in order to really expand the pie, because it's one thing to just trade CME
+
+208
+00:11:22,120 --> 00:11:23,760
+basis trades on Bitcoin.
+
+209
+00:11:23,760 --> 00:11:25,080
+That's a pretty straightforward trade.
+
+210
+00:11:25,360 --> 00:11:27,800
+I'm not even talking about fundamental investing.
+
+211
+00:11:27,800 --> 00:11:31,680
+I'm talking about even systematic non-directional stuff like there's not enough liquidity
+
+212
+00:11:31,680 --> 00:11:35,120
+on a lot of this. Right. So let's remove the idea that crypto could be worth something.
+
+213
+00:11:35,240 --> 00:11:38,840
+Just the fact that, like, look, a fund is going to trade something if it's liquid and it's
+
+214
+00:11:38,840 --> 00:11:42,160
+volatile. If something is liquid and volatile, funds are going to be interested in trading
+
+215
+00:11:42,160 --> 00:11:43,320
+it because they can make money on it.
+
+216
+00:11:43,800 --> 00:11:45,480
+The market is not liquid enough yet.
+
+217
+00:11:45,480 --> 00:11:49,840
+I think if we do get broadly agreed upon fundamentals, I think that's very important because
+
+218
+00:11:49,840 --> 00:11:53,680
+that does mean that fundamental funds can buy and fundamental funds can buy it a lot
+
+219
+00:11:53,680 --> 00:11:57,480
+more size. Right. I mean, we see that with some crypto funds like multi coin has a
+
+220
+00:11:57,480 --> 00:11:58,960
+multi-billion dollar hedge fund.
+
+221
+00:11:59,200 --> 00:12:04,160
+But that hedge fund is not trading assets every minute, every hour, even every day or
+
+222
+00:12:04,160 --> 00:12:06,520
+every week. They're trading relatively infrequently.
+
+223
+00:12:06,720 --> 00:12:10,960
+And I think the crossover funds would be good examples of this, where a lot of the big
+
+224
+00:12:10,960 --> 00:12:14,760
+crossover funds were actually taking positions in 2021 in crypto.
+
+225
+00:12:14,880 --> 00:12:18,080
+A lot of them were doing like locked treasury deals with foundations where they would buy
+
+226
+00:12:18,080 --> 00:12:22,880
+like 200 million in locked polygon or avalanche or whatever the asset is.
+
+227
+00:12:23,080 --> 00:12:26,440
+I think that's a little bit different. To me, that's more like liquid investing than it
+
+228
+00:12:26,440 --> 00:12:30,560
+is trading. So what do you think it takes to change those dynamics around liquidity?
+
+229
+00:12:31,040 --> 00:12:34,120
+Hey, big exchanges need to be more in the game here.
+
+230
+00:12:34,360 --> 00:12:36,120
+I've been saying this for a while. I think it's ETFs.
+
+231
+00:12:36,280 --> 00:12:40,520
+So I think once you start getting both single and multi-asset ETFs, I think that's incredibly
+
+232
+00:12:40,520 --> 00:12:44,840
+important. I don't think single name ETFs are going to perform that well, maybe.
+
+233
+00:12:44,840 --> 00:12:47,520
+But like, I think it's more multi-asset ETFs, right?
+
+234
+00:12:47,520 --> 00:12:51,800
+Like when you have an asset that enters the S&P 500, all of a sudden it gets a bid and
+
+235
+00:12:51,800 --> 00:12:53,120
+it gets a lot more liquid. Right.
+
+236
+00:12:53,120 --> 00:12:56,680
+And so you have these 20 asset ETFs that start launching.
+
+237
+00:12:56,960 --> 00:12:58,560
+Maybe that gets expanded to 25.
+
+238
+00:12:58,560 --> 00:13:00,800
+All of a sudden, there's five more things that start getting a bid.
+
+239
+00:13:01,080 --> 00:13:03,360
+And then you get people that are looking at exposure to crypto.
+
+240
+00:13:03,520 --> 00:13:07,040
+Maybe they're not going to buy a single asset, but maybe they're going to buy this
+
+241
+00:13:07,040 --> 00:13:10,040
+bucket of assets. But on the other hand, you're also going to have a ton of demand for
+
+242
+00:13:10,040 --> 00:13:13,640
+that product among crypto funds that want to short it, because right now it's really
+
+243
+00:13:13,640 --> 00:13:16,600
+difficult to go long a single asset versus the rest of the market.
+
+244
+00:13:16,760 --> 00:13:20,600
+And so if you have a product where you can actually go and you can put on size to short
+
+245
+00:13:20,600 --> 00:13:24,440
+that product and take long single asset exposure, I think that's incredibly compelling.
+
+246
+00:13:24,880 --> 00:13:28,320
+Well, I guess you have the ETFs, but you also have these public access vehicles now
+
+247
+00:13:28,320 --> 00:13:29,560
+that are popping up in the market.
+
+248
+00:13:29,560 --> 00:13:31,400
+It's just a weird market on the public side.
+
+249
+00:13:31,720 --> 00:13:32,720
+It's feeling frothy.
+
+250
+00:13:33,240 --> 00:13:35,520
+What's your take on that? How long does that continue?
+
+251
+00:13:35,520 --> 00:13:37,200
+These sort of micro strategy clones?
+
+252
+00:13:37,520 --> 00:13:41,880
+I'm not an expert at everyone's liquidation price and how levered everyone is and stuff
+
+253
+00:13:41,880 --> 00:13:44,840
+like that. It feels like and you've been around for a long time.
+
+254
+00:13:44,840 --> 00:13:49,920
+Right. I mean, you remember when Kodak was launching a blockchain miner, when Long Island
+
+255
+00:13:49,920 --> 00:13:54,120
+ICT rebranded to Long Island blockchain, these types of things.
+
+256
+00:13:54,240 --> 00:13:57,560
+And I'm not saying these aren't more substantive because I think they are slightly more
+
+257
+00:13:57,560 --> 00:14:00,640
+substantive, but they feel similar to me.
+
+258
+00:14:00,640 --> 00:14:05,040
+When you take like a dead public company or somebody's like, I'm going to take a crypto
+
+259
+00:14:05,040 --> 00:14:06,960
+company that's losing 20 million dollars a year.
+
+260
+00:14:07,120 --> 00:14:09,320
+I'm going to spack it at a billion dollar valuation.
+
+261
+00:14:09,480 --> 00:14:11,520
+I'm going to then take the proceeds and buy Bitcoin.
+
+262
+00:14:11,880 --> 00:14:13,280
+We've seen a few examples of this.
+
+263
+00:14:13,600 --> 00:14:15,320
+It feels like frothy activity.
+
+264
+00:14:15,720 --> 00:14:19,920
+It's eye opening that the convert market is just wide open for business on these type of
+
+265
+00:14:19,920 --> 00:14:23,920
+things, because on one level you look at it and you say it feels frothy and the other
+
+266
+00:14:23,960 --> 00:14:28,040
+side you look at and you say, well, there's really not a world where sailor gets stomped
+
+267
+00:14:28,040 --> 00:14:29,920
+out, at least based on what he's done so far.
+
+268
+00:14:29,960 --> 00:14:32,560
+Like he's not taking the Bitcoin and taking out a cash loan against.
+
+269
+00:14:32,560 --> 00:14:33,680
+Well, I'm not even talking about sailor.
+
+270
+00:14:33,680 --> 00:14:37,200
+I'm talking about once you start doing this with other less liquid and more volatile
+
+271
+00:14:37,200 --> 00:14:41,120
+assets. Right. When you start launching like we've seen some of these other assets that
+
+272
+00:14:41,120 --> 00:14:43,800
+get I think there might be an Athena one now.
+
+273
+00:14:44,000 --> 00:14:46,520
+And I'm not suggesting Athena is you know, there's anything wrong with Athena, but I'm
+
+274
+00:14:46,520 --> 00:14:50,880
+just saying broadly, like once you start getting like a public company buying asset
+
+275
+00:14:50,880 --> 00:14:54,320
+number 25 by market cap, that asset's super volatile.
+
+276
+00:14:54,320 --> 00:14:57,560
+You have one large investor who dumps and then all of a sudden that entire thing gets
+
+277
+00:14:57,560 --> 00:14:59,680
+liquidated. It's a really interesting time.
+
+278
+00:14:59,960 --> 00:15:03,760
+Want to talk a little bit about enterprise software market over the course of the years
+
+279
+00:15:03,760 --> 00:15:04,880
+that you've been in the industry.
+
+280
+00:15:04,880 --> 00:15:09,160
+Obviously, this was probably a case where four years ago, heading into the Gensler
+
+281
+00:15:09,160 --> 00:15:13,480
+SEC, we thought there's going to be a world where banks and broker dealers are able to
+
+282
+00:15:13,480 --> 00:15:16,760
+play in this market. Obviously, post FTX, that didn't happen.
+
+283
+00:15:16,800 --> 00:15:21,360
+And so that buyer base for a lot of enterprise software, let's say, has been neglected
+
+284
+00:15:21,360 --> 00:15:22,680
+and not part of the market.
+
+285
+00:15:22,680 --> 00:15:26,840
+Curious how you think about some of the businesses in our space that are enterprise focused,
+
+286
+00:15:26,840 --> 00:15:28,680
+trying to sell into those channels.
+
+287
+00:15:29,240 --> 00:15:35,440
+The challenge we've seen, you had in 2021, a lot of companies raise at four, six,
+
+288
+00:15:35,440 --> 00:15:39,400
+eight billion dollar valuations because they had incredible growth rate and they had
+
+289
+00:15:39,400 --> 00:15:44,520
+material ARR, but they were trading at in some cases, 100 times forward ARR, which is
+
+290
+00:15:44,520 --> 00:15:48,240
+insane. In retrospect, it was insane that it's still insane in retrospect.
+
+291
+00:15:48,400 --> 00:15:51,360
+I think the challenge is you see a lot of these businesses, and I'm sure you're looking
+
+292
+00:15:51,360 --> 00:15:55,520
+at this right where you look at a wallet startup and you're like, OK, well, who's the
+
+293
+00:15:55,520 --> 00:15:56,800
+biggest player in the space?
+
+294
+00:15:56,920 --> 00:15:58,280
+What is the revenue number they hit?
+
+295
+00:15:58,280 --> 00:16:00,080
+Have they stalled? How much are they growing?
+
+296
+00:16:00,280 --> 00:16:02,520
+If you look at compliance software, who's the largest player?
+
+297
+00:16:02,520 --> 00:16:03,640
+Have they stalled? Are they growing?
+
+298
+00:16:04,000 --> 00:16:07,800
+Feels like a lot of crypto SaaS businesses.
+
+299
+00:16:07,800 --> 00:16:09,640
+And I'm not commenting on any business individually.
+
+300
+00:16:09,640 --> 00:16:11,440
+This isn't a dig at any individual business.
+
+301
+00:16:11,800 --> 00:16:13,200
+Correct me if I'm mistaken.
+
+302
+00:16:13,520 --> 00:16:18,240
+I don't think there's anyone above 200 to max 250 million in ARR from a SaaS perspective.
+
+303
+00:16:18,240 --> 00:16:22,240
+And to call some of the things ARR, I think is also a stretch because it's consulting
+
+304
+00:16:22,240 --> 00:16:25,800
+and stuff like that. Right. And so I think there's just like a natural limitation we've
+
+305
+00:16:25,800 --> 00:16:29,520
+seen in terms of how many firms you can actually sell into, how much demand there is.
+
+306
+00:16:29,600 --> 00:16:32,120
+And I'm not saying in a specific vertical, I'm saying across verticals.
+
+307
+00:16:32,120 --> 00:16:34,520
+Right. I mean, from a data perspective, we see the same thing.
+
+308
+00:16:34,520 --> 00:16:38,480
+Right. Like we see all these new data companies popping up and I'm like, OK, guys,
+
+309
+00:16:38,480 --> 00:16:39,920
+that's great. Like competition is great.
+
+310
+00:16:39,920 --> 00:16:41,400
+But, you know, the pie isn't growing.
+
+311
+00:16:41,400 --> 00:16:44,440
+Right. And so it's not like you can make that much money because if you think about
+
+312
+00:16:44,440 --> 00:16:49,000
+crypto native funds, crypto VCs do tend to have more capital than the average hedge
+
+313
+00:16:49,000 --> 00:16:52,520
+fund does. I would guess the average crypto hedge fund is 20 million in AUM.
+
+314
+00:16:52,800 --> 00:16:57,520
+And on a 220 model, you're talking they have $400,000 a year in management fees.
+
+315
+00:16:57,680 --> 00:17:01,280
+By the time they pay themselves and analysts, their fund admin, their custodian, they're
+
+316
+00:17:01,280 --> 00:17:03,040
+actually going out of pocket on the GP.
+
+317
+00:17:03,240 --> 00:17:06,880
+And so the thought that even though there are so many funds out there that you can
+
+318
+00:17:06,880 --> 00:17:10,920
+actually build a business, you know, everyone's like, oh, you guys are kind of like
+
+319
+00:17:10,920 --> 00:17:13,640
+Bloomberg and you're going to overtake them. I'm like, if we were trying to sell
+
+320
+00:17:13,640 --> 00:17:19,480
+$26,000 a year, $28,000 a year software per install, there's like 10 companies in
+
+321
+00:17:19,480 --> 00:17:21,680
+crypto that could afford to buy that. Right. And so it's very different.
+
+322
+00:17:21,680 --> 00:17:25,000
+Right. Versus selling into a 50 billion dollar fund that has a billion a year.
+
+323
+00:17:25,200 --> 00:17:28,720
+You're talking 400 grand a year in management fees versus a billion dollars a year in
+
+324
+00:17:28,720 --> 00:17:30,360
+management fees. It's obviously very different.
+
+325
+00:17:30,800 --> 00:17:36,320
+We're still seeing kind of this limited constraint size on the more SaaS ARR type
+
+326
+00:17:36,320 --> 00:17:39,640
+businesses. I think with things like stable coins, where I know you guys are very active
+
+327
+00:17:39,640 --> 00:17:43,600
+investors, I think that obviously creates huge unlocks and brings new players in.
+
+328
+00:17:43,800 --> 00:17:47,640
+But I think in terms of people looking to buy crypto specific software, I think that
+
+329
+00:17:47,640 --> 00:17:49,200
+market is still capacity to trade.
+
+330
+00:17:49,200 --> 00:17:54,280
+And I think as much as we'd like to trade at 100x multiple and others would, I think
+
+331
+00:17:54,280 --> 00:17:58,480
+investors have to look at it and be like, OK, well, realistically, like there is a cap
+
+332
+00:17:58,480 --> 00:18:03,360
+on TAM and unless that grows, the cap on what you can sell is it's there.
+
+333
+00:18:03,800 --> 00:18:08,240
+It's crazy to think about the past few years and just how the cap on TAM was really
+
+334
+00:18:08,320 --> 00:18:09,560
+regulatory driven.
+
+335
+00:18:09,680 --> 00:18:14,400
+Saab 121 going in in 2022 effectively just kneecapped all of the banks.
+
+336
+00:18:14,640 --> 00:18:18,800
+It's hard for me to think about an analogy there where an entire market, which is
+
+337
+00:18:18,800 --> 00:18:23,280
+obviously a huge buyer of data, just got eliminated by the stroke of a pen by one guy
+
+338
+00:18:23,280 --> 00:18:26,880
+at the SEC. It'll just be really interesting to see over the next couple of years.
+
+339
+00:18:26,920 --> 00:18:31,160
+I also just wonder about the market structure in crypto, where in traditional markets, the
+
+340
+00:18:31,160 --> 00:18:35,520
+exchanges would be monetizing their market data at a very aggressive clip.
+
+341
+00:18:35,560 --> 00:18:37,760
+And right now, that's just not the case in crypto.
+
+342
+00:18:38,120 --> 00:18:40,960
+There's one exchange that's really actively trying to sell their market data.
+
+343
+00:18:40,960 --> 00:18:43,720
+I mean, it's a big publicly listed US company.
+
+344
+00:18:44,040 --> 00:18:47,480
+You also have to remember that in crypto, there's a million different exchanges, there's
+
+345
+00:18:47,480 --> 00:18:48,520
+a million different venues.
+
+346
+00:18:48,520 --> 00:18:52,720
+Liquidity is spread across a lot more venues than I think is within traditional markets.
+
+347
+00:18:53,000 --> 00:18:55,360
+So if you want NASDAQ data, you got to go to the NASDAQ.
+
+348
+00:18:55,600 --> 00:18:58,920
+But in crypto, you just have a million different markets.
+
+349
+00:18:58,920 --> 00:19:03,600
+So I think that just naturally I just don't think they have as much power as traditional.
+
+350
+00:19:03,680 --> 00:19:07,240
+And also keep in mind, even if they wanted to charge, what are they going to get?
+
+351
+00:19:07,240 --> 00:19:11,120
+Two million dollars, like versus the amount of volume that they're generating on the
+
+352
+00:19:11,120 --> 00:19:12,520
+exchange, it's probably not worth it.
+
+353
+00:19:12,520 --> 00:19:16,000
+And if you risk trying to charge a market maker for data and then the market makers
+
+354
+00:19:16,000 --> 00:19:19,720
+like screw you and go somewhere else, you're probably forgoing a lot more revenue than
+
+355
+00:19:19,720 --> 00:19:20,680
+you would have made otherwise.
+
+356
+00:19:21,160 --> 00:19:24,760
+It's unclear who the sustainable long term winners are in the trading space.
+
+357
+00:19:24,760 --> 00:19:28,280
+And so I guess as that becomes more clear, we'll see more experimentation trying to
+
+358
+00:19:28,280 --> 00:19:30,520
+monetize. I'm sure people will charge for data.
+
+359
+00:19:30,680 --> 00:19:34,440
+I mean, I was talking to one of the large index providers the other day, TradFi index
+
+360
+00:19:34,440 --> 00:19:37,800
+providers, they were like, yeah, this crypto exchange asked us to pay this amount of
+
+361
+00:19:37,800 --> 00:19:39,600
+money and this percentage of things for our data.
+
+362
+00:19:39,840 --> 00:19:42,520
+So like, screw you. We just remove them from our index and no one cares.
+
+363
+00:19:42,920 --> 00:19:46,760
+Though it's still such a nascent market from that perspective, what are you seeing from
+
+364
+00:19:46,760 --> 00:19:51,800
+buy side participants in terms of looking at network data and token unlock schedules
+
+365
+00:19:51,800 --> 00:19:53,840
+and things like that in order to understand the market?
+
+366
+00:19:54,360 --> 00:19:56,840
+I think it really depends on who the firm is.
+
+367
+00:19:57,320 --> 00:20:01,560
+I think one of the challenges that we have in crypto is that no one agrees what fundamentals
+
+368
+00:20:01,560 --> 00:20:07,160
+are. And if I asked you what fundamentals were 10 years ago or five years ago or three years ago
+
+369
+00:20:07,160 --> 00:20:10,280
+or 10 days ago, you might give me a different answer than you're giving me now.
+
+370
+00:20:10,280 --> 00:20:14,040
+Right. And this is partially why we build a platform that kind of has everything, which is
+
+371
+00:20:14,040 --> 00:20:16,920
+also a problem because it confuses people because there's too much to look at.
+
+372
+00:20:17,240 --> 00:20:20,000
+The challenge is, like, what do people agree fundamentals are?
+
+373
+00:20:20,200 --> 00:20:25,240
+I think unlocks are pretty easy to understand because, like, if there are 50 tokens that are
+
+374
+00:20:25,240 --> 00:20:30,440
+live and tomorrow there are going to be 200 tokens that are live, one might assume that the price
+
+375
+00:20:30,440 --> 00:20:33,160
+is going to go down. So I think things like that are easy to understand.
+
+376
+00:20:33,480 --> 00:20:37,240
+But I think one of the challenges, and we spoke about this before we started, if you think about
+
+377
+00:20:37,240 --> 00:20:42,680
+what is fundamental for a tech stock, that might be very different than what is fundamental for a
+
+378
+00:20:42,680 --> 00:20:46,120
+food and beverage company. Like, obviously, you have EBITDA and you have revenue and you have core
+
+379
+00:20:46,120 --> 00:20:50,360
+top line metrics. There's very different things and very different. Look at the multiple that
+
+380
+00:20:50,360 --> 00:20:54,920
+Tesla trades at, right? Tesla trades at an obscene multiple, right? And so fundamentals do matter.
+
+381
+00:20:54,920 --> 00:20:59,880
+But I think we also need to start understanding, like, as we look at different sectors of crypto,
+
+382
+00:20:59,880 --> 00:21:02,600
+what are the fundamentals that we need to look at to understand each sector?
+
+383
+00:21:02,600 --> 00:21:06,520
+So your question was, what are buy side firms looking at now?
+
+384
+00:21:06,520 --> 00:21:11,080
+The unfortunate answer is it really depends. I do think there's a lot more demand for network
+
+385
+00:21:11,080 --> 00:21:15,480
+level metrics now. How many people are using networks? How many transactions are there on
+
+386
+00:21:15,480 --> 00:21:19,720
+networks? What are the fees that are generated? How much does it cost to transact?
+
+387
+00:21:19,720 --> 00:21:22,120
+Though people are also starting to get a lot smarter because, like, okay,
+
+388
+00:21:22,680 --> 00:21:27,240
+imagine you're looking at a DeFi protocol that's got 4 billion in TVL. Investors have historically
+
+389
+00:21:27,240 --> 00:21:30,440
+looked at is how much TVL they have. But now people are starting to peel back the onion and
+
+390
+00:21:30,440 --> 00:21:34,600
+they're like, okay, what is their customer concentration risk? You would never invest in
+
+391
+00:21:34,600 --> 00:21:39,640
+us if 90% of our revenue was coming from one customer. But if 90% of our revenue is coming
+
+392
+00:21:39,640 --> 00:21:43,880
+from our top 15 customers, that'd be a different story. We're starting with kind of high level
+
+393
+00:21:43,880 --> 00:21:47,720
+fundamentals. But I think the sophisticated investors are starting to peel back the onion
+
+394
+00:21:47,720 --> 00:21:52,760
+more and more and more and understanding customer concentration, understanding user retention data,
+
+395
+00:21:52,760 --> 00:21:56,440
+are these applications even retaining users? And I think one of the biggest things is understanding
+
+396
+00:21:56,440 --> 00:22:01,240
+fundamentals post incentives, right? Because all these projects have amazing fundamentals
+
+397
+00:22:01,240 --> 00:22:05,400
+until their incentive period ends and then no one's still using it. The more sophisticated
+
+398
+00:22:05,400 --> 00:22:09,560
+folks are starting to peel back the onion. But obviously, our clients range dramatically. Like,
+
+399
+00:22:09,560 --> 00:22:13,320
+a lot of our clients are very, very, very active event driven traders. And so for them,
+
+400
+00:22:13,320 --> 00:22:18,040
+fundamentals don't matter. It's really like, okay, Coinbase just listed this asset. Bye.
+
+401
+00:22:18,600 --> 00:22:23,160
+Yeah. It's like the liquidity landscape moves the needle way more than the marginal user coming on
+
+402
+00:22:23,160 --> 00:22:28,280
+board and adopting the product in a lot of cases. With relatively illiquid assets,
+
+403
+00:22:28,280 --> 00:22:32,200
+you're also going to see things move that don't make sense. And as much as we want to understand
+
+404
+00:22:32,200 --> 00:22:36,120
+them from a look, I do think things converge around fundamentals eventually. And I think they
+
+405
+00:22:36,120 --> 00:22:39,480
+should. I mean, that's what we're building what we're building. But it takes agreed upon
+
+406
+00:22:39,480 --> 00:22:43,800
+fundamentals. And also, like a penny stock might not trade based off its fundamentals, right? And
+
+407
+00:22:43,800 --> 00:22:48,280
+crypto does trade like penny stocks or a lot of these assets do. I guess with some regulatory
+
+408
+00:22:48,280 --> 00:22:52,680
+clarity, we'll see more experimentation around just what the tokens do in some of these networks.
+
+409
+00:22:52,680 --> 00:22:57,400
+And we'll start to think about this maybe more from a DCF perspective on some of these networks,
+
+410
+00:22:57,400 --> 00:23:02,120
+which also leads to the question of how should investor relations be handled by some of these
+
+411
+00:23:02,120 --> 00:23:06,360
+projects? It seems like it's somewhat non-existent in big parts of the market. Curious what your
+
+412
+00:23:06,360 --> 00:23:12,360
+views are there. The challenge is everyone was so afraid of the SEC that we concocted all of these
+
+413
+00:23:12,360 --> 00:23:17,640
+ridiculous models that we tried to justify around, let's have a foundation and a Dow and a
+
+414
+00:23:17,640 --> 00:23:22,920
+for-profit entity and a this and a that. And decentralization is really just, it's mostly
+
+415
+00:23:22,920 --> 00:23:28,200
+just created messes and confusion. And it's like, who's in charge of what? If you're an investor
+
+416
+00:23:28,200 --> 00:23:33,080
+and you want to learn more about a top 20 protocol that's pretty decentralized,
+
+417
+00:23:33,080 --> 00:23:38,040
+who do you go to? Who do you talk to? There's no standardization in who to actually communicate
+
+418
+00:23:38,040 --> 00:23:41,880
+with. And so I think there are a lot of things that need to happen there. We're doing a lot of
+
+419
+00:23:41,880 --> 00:23:46,760
+work to help roadshow projects in front of institutions and connect them to different
+
+420
+00:23:46,760 --> 00:23:50,680
+folks and build bridges because we have a really good map and understanding of,
+
+421
+00:23:50,680 --> 00:23:54,600
+obviously we serve as hundreds of institutions, but we also know all the big projects.
+
+422
+00:23:54,600 --> 00:23:58,440
+But I think it's also a matter of the projects going out, whether working with us. I mean,
+
+423
+00:23:58,440 --> 00:24:02,280
+we've done a lot of work with projects to help them really surface their data and tell their
+
+424
+00:24:02,280 --> 00:24:06,360
+narrative, but it doesn't necessarily need to be with us. It's with anyone else. You go on Apple's
+
+425
+00:24:06,360 --> 00:24:10,600
+IR website and you'll get details about Apple. You'll get quarterly reports. You'll be able to
+
+426
+00:24:10,600 --> 00:24:15,240
+listen to earnings calls. When you go and you approach a protocol, you should be able to get
+
+427
+00:24:15,240 --> 00:24:19,640
+the same thing. If you're an investor and an asset, you should be getting information about
+
+428
+00:24:19,640 --> 00:24:22,840
+that asset, what they're doing, what their roadmap is, how they're growing, how much
+
+429
+00:24:22,840 --> 00:24:27,160
+revenue they're generating, what their cashflow is, all metrics like that. And I think also
+
+430
+00:24:27,160 --> 00:24:30,600
+projects need to take control of their own narrative as well. Again, we were talking
+
+431
+00:24:30,600 --> 00:24:36,520
+about this earlier. If you take three random assets, take Ethereum, Hyperliquid, and one that
+
+432
+00:24:36,520 --> 00:24:40,920
+we were talking about before, which isn't yet live on exchanges, but Canton, all of those assets are
+
+433
+00:24:40,920 --> 00:24:44,360
+very different. They're all going to have very different fundamentals. They can't be valued and
+
+434
+00:24:44,360 --> 00:24:48,840
+viewed the same way. And so I think it's up to projects. We do a lot of work. We actually help
+
+435
+00:24:48,840 --> 00:24:53,880
+projects build dashboards and analytics to tell their story, but it's up to projects to get this
+
+436
+00:24:53,880 --> 00:24:57,960
+story out there that they want to get out there. So take, for example, Avalanche. Avalanche has
+
+437
+00:24:57,960 --> 00:25:02,920
+the C chain, but Avalanche also has all of the L1s. And the problem is when you go on any public
+
+438
+00:25:02,920 --> 00:25:07,240
+data site, you're actually only seeing about 5% of the activity on the Avalanche network.
+
+439
+00:25:07,240 --> 00:25:11,240
+We launched a website called Frosty Metrics. It's a free to use website for the public.
+
+440
+00:25:11,240 --> 00:25:15,800
+Anyone can go on. We have a free API, MIT Open Source. You can use it. You can access it.
+
+441
+00:25:15,800 --> 00:25:20,120
+We've done a lot of work on actually supporting and indexing and storing the data on all the L1s
+
+442
+00:25:20,120 --> 00:25:23,560
+so that investors can actually get a more comprehensive picture. Because if you go and
+
+443
+00:25:23,560 --> 00:25:27,480
+you're like, oh, I'm looking at Avalanche for Solana, if you're just looking at the C chain,
+
+444
+00:25:27,480 --> 00:25:31,240
+it's just completely not reflective of everything going on in the market. And so
+
+445
+00:25:31,240 --> 00:25:35,160
+my point being with all of this is I think from an IR perspective, protocols need to be more
+
+446
+00:25:35,160 --> 00:25:40,280
+proactive. They should be hiring heads of investor relations or heads of institutional or whatever
+
+447
+00:25:40,280 --> 00:25:43,800
+they want to call it. And then I think they need to be proactive about getting their narrative out
+
+448
+00:25:43,800 --> 00:25:48,840
+there as well, because it's their job to help investors understand their protocol. And investors
+
+449
+00:25:48,840 --> 00:25:52,040
+don't want to talk to the CTO and the founding team because they don't understand what they're
+
+450
+00:25:52,040 --> 00:25:56,920
+saying. And investors can understand fundamentals. And also just managing your cap table, right?
+
+451
+00:25:56,920 --> 00:26:00,520
+We have a big investor that's wanting to get out of this position. How are we going to think
+
+452
+00:26:00,520 --> 00:26:04,200
+about that in the context? You would see that at a publicly traded company.
+
+453
+00:26:04,200 --> 00:26:07,720
+Yeah. I don't want this investor dumping a hundred million of my token on the market,
+
+454
+00:26:07,720 --> 00:26:11,720
+especially if it's some VCs aren't necessarily, they're not traders, right? And so they don't
+
+455
+00:26:11,720 --> 00:26:15,640
+necessarily know how to spread an order over a very long period of time. The last thing you
+
+456
+00:26:15,640 --> 00:26:19,000
+want to do is call up an OTC desk and say, Hey, I want to sell a hundred million dollars on this
+
+457
+00:26:19,000 --> 00:26:23,960
+thing. Right? Exactly. The other thing I think about in the context of these companies or protocols
+
+458
+00:26:23,960 --> 00:26:28,760
+on a go-forward basis is what does it look like to exit from a protocol? I mean, we've seen
+
+459
+00:26:29,320 --> 00:26:35,240
+ICO era companies just sitting on a boatload of Ethereum with not shipping a product. The chain
+
+460
+00:26:35,240 --> 00:26:39,320
+is still somewhat there, but at least in the equity market, we'll see some exits. Hopefully
+
+461
+00:26:39,320 --> 00:26:45,160
+we'll see a lot more IPOs. I wonder if there's an M&A landscape that comes in the protocol side,
+
+462
+00:26:45,160 --> 00:26:50,520
+or if these things are just zombies for 20 years. I mean, I think it's also who does the assets
+
+463
+00:26:50,520 --> 00:26:55,320
+belong to? In my view, the assets that are being held by the treasury, the token holders should
+
+464
+00:26:55,320 --> 00:27:00,600
+ultimately be able to get those assets back, which is not the case. I mean, there are so many ICOs
+
+465
+00:27:00,600 --> 00:27:04,520
+that I'm sure your listeners don't even remember. I don't like calling out individual projects,
+
+466
+00:27:04,520 --> 00:27:10,760
+but there's one I know of. 2017 L1 ICO, they raised a hundred and something million dollars
+
+467
+00:27:10,760 --> 00:27:15,400
+in ETH. I think they're sitting on over a billion dollars in tokens on their balance sheet.
+
+468
+00:27:15,400 --> 00:27:20,600
+Their market cap maybe is $30 million or $50 million or something. There's no reason to ship
+
+469
+00:27:20,600 --> 00:27:26,200
+a product. If the token doubles, it does nothing for them. All the investors benefited zero out of
+
+470
+00:27:26,200 --> 00:27:31,960
+that. And I think actually ARCA has historically been somewhat proactive on some of these things
+
+471
+00:27:31,960 --> 00:27:36,760
+and submitted governance proposals and tried to, if I'm not mistaken, I think started with an A.
+
+472
+00:27:36,760 --> 00:27:41,960
+I'm blanking on the protocol that returned a bunch of tokens to their Aragon. I think
+
+473
+00:27:41,960 --> 00:27:45,480
+they did, yeah. I think they returned a bunch of tokens to their investors. And I think there
+
+474
+00:27:45,480 --> 00:27:49,720
+should be more proactive governance as well, which I think will enable some of this. But in terms of
+
+475
+00:27:49,720 --> 00:27:54,920
+M&A, I think there's also, you have instances in which there are dead coins sitting on exchanges,
+
+476
+00:27:54,920 --> 00:27:58,600
+and there are new assets that are trying to get listed that can't access those markets.
+
+477
+00:27:58,600 --> 00:28:05,160
+So if they could kind of smack into those tokens and bring value and token holder value
+
+478
+00:28:05,160 --> 00:28:09,080
+into those assets and get access to markets, I mean, I think that's interesting. I think there's
+
+479
+00:28:09,080 --> 00:28:13,800
+lots of very interesting things that can happen in crypto. And I think some things just need to
+
+480
+00:28:13,800 --> 00:28:19,240
+permanently go to zero as well. It's natural in technology that a new version of the technology
+
+481
+00:28:19,240 --> 00:28:23,480
+comes across and you're no longer competitive. And the way that would typically work itself out is
+
+482
+00:28:23,480 --> 00:28:28,200
+either you go out of business, declare bankruptcy, you get sold, but there's really not a mechanism
+
+483
+00:28:28,200 --> 00:28:32,440
+for that in crypto. You just kind of stick around. Again, I'm not trying to shit on projects,
+
+484
+00:28:32,440 --> 00:28:37,480
+but Bitcoin Cash still exists and has a real market cap. Like Litecoin still exists and has
+
+485
+00:28:37,480 --> 00:28:42,840
+a real market cap. Things just stick around in crypto despite having no... And that's why earlier
+
+486
+00:28:42,840 --> 00:28:46,680
+I talked about the importance of community. Maybe there are fundamentals behind Litecoin. I don't
+
+487
+00:28:46,680 --> 00:28:50,120
+know. Maybe there is. It's cheaper Bitcoin. I know that's what people have said historically,
+
+488
+00:28:50,120 --> 00:28:55,320
+right? Or Bitcoin Cash or even BSV still has some level of a market cap, right?
+
+489
+00:28:55,320 --> 00:28:56,840
+Which is incredible. Yeah.
+
+490
+00:28:56,840 --> 00:29:02,440
+Incredible. If you haven't claimed and sold your BSV, if you had old Bitcoin, I implore you to.
+
+491
+00:29:02,440 --> 00:29:04,520
+I don't even know if it's still listed anywhere.
+
+492
+00:29:04,520 --> 00:29:07,720
+I don't think it's still listed anywhere, but that's why community matters because
+
+493
+00:29:07,720 --> 00:29:11,480
+community can keep dead projects alive in crypto.
+
+494
+00:29:11,480 --> 00:29:15,960
+You mentioned Canton. How do you think about that market opportunity to go into
+
+495
+00:29:15,960 --> 00:29:20,840
+more traditional regulated financial services firms and give them some of the privacy features
+
+496
+00:29:20,840 --> 00:29:25,240
+they're looking for? There seems to be a lot of demand there from some of the participants
+
+497
+00:29:25,240 --> 00:29:29,560
+that are looking at an ecosystem like that. Yeah. For anyone who doesn't know the backstory
+
+498
+00:29:29,560 --> 00:29:33,720
+behind Canton, just to provide a little backstory. Digital Asset is a company that
+
+499
+00:29:33,720 --> 00:29:39,320
+was started or spun out of DRW about 10 years ago or so. Over the last 10 years,
+
+500
+00:29:39,320 --> 00:29:45,000
+they developed a smart contract language called DAML and they had 50 or more different enterprises,
+
+501
+00:29:45,000 --> 00:29:51,080
+including Goldman Sachs and Broadridge and TradeWeb and other big names that were basically building
+
+502
+00:29:51,080 --> 00:29:57,160
+private permissioned blockchains on top of DAML. They introduced something called the Canton Network,
+
+503
+00:29:57,160 --> 00:30:01,800
+which basically enables these separate private blockchains to communicate. Imagine on one hand,
+
+504
+00:30:01,800 --> 00:30:05,160
+you have Goldman's node. On the other hand, you have JP Morgan's. In order for those two to
+
+505
+00:30:05,160 --> 00:30:09,400
+communicate, Goldman would have historically had to actually run a node for JP Morgan on
+
+506
+00:30:09,400 --> 00:30:13,080
+their private blockchain and JP Morgan would have had to run a node for Goldman in their private
+
+507
+00:30:13,080 --> 00:30:17,480
+blockchain. You had these private blockchains, but they couldn't take advantage of interoperability.
+
+508
+00:30:17,880 --> 00:30:22,280
+What Canton introduces is what's called a global synchronizer that allows these private permission
+
+509
+00:30:22,280 --> 00:30:26,840
+chains to communicate with one another. A lot of the thesis was that there would be a lot of demand.
+
+510
+00:30:26,840 --> 00:30:31,800
+If Bank One wants to make a trade with Bank Two and they want to settle that trade with the Fed
+
+511
+00:30:31,800 --> 00:30:36,200
+and send settlement instructions to another counterparty, they could do that. The reason
+
+512
+00:30:36,200 --> 00:30:41,080
+privacy is so important is because in financial markets, with Swift and other things, most
+
+513
+00:30:41,080 --> 00:30:46,840
+transactions are bilateral. If you're Goldman and you're making a transaction, you probably
+
+514
+00:30:46,840 --> 00:30:51,960
+don't want to be broadcasting to the world what's in that transaction. With transactions on Canton,
+
+515
+00:30:51,960 --> 00:30:56,440
+the only thing that is public is the amount of Canton coin that's used in the transaction
+
+516
+00:30:56,440 --> 00:31:01,720
+and the two parties. We know that party A made a transaction with party B and this much Canton was
+
+517
+00:31:01,720 --> 00:31:05,640
+using the transaction. For example, if you're transacting a lot of stable coins, there's
+
+518
+00:31:05,640 --> 00:31:11,960
+complete privacy on that transaction. Party A sent $500 million in stable coins to party B.
+
+519
+00:31:11,960 --> 00:31:15,320
+You wouldn't know that. You would just know that there was $1 in Canton coin used for that
+
+520
+00:31:15,320 --> 00:31:20,520
+transaction. There is an increasingly large amount of demand for privacy,
+
+521
+00:31:20,520 --> 00:31:24,680
+particularly in stable coin transactions. I think there's even some regulatory requirements
+
+522
+00:31:24,680 --> 00:31:29,560
+in some cases. Folks like Broadridge that have been out and pretty big advocates for Canton,
+
+523
+00:31:29,560 --> 00:31:34,680
+they're doing trillions and trillions in repo transactions per month on their permission subnet
+
+524
+00:31:34,680 --> 00:31:38,440
+on Canton. They, among others, are excited about the global synchronizer, which is going to enable
+
+525
+00:31:38,440 --> 00:31:42,120
+this cross-node communication. I apologize if that wasn't a perfect explanation.
+
+526
+00:31:42,120 --> 00:31:47,000
+I think it's a really good explanation. I think the stable coin private transactions is just
+
+527
+00:31:47,000 --> 00:31:51,640
+clearly, there's so much demand in the market for that, even at a retail level. You think about
+
+528
+00:31:51,640 --> 00:31:56,360
+international payroll use cases and not wanting everyone that works at the same company to know
+
+529
+00:31:56,360 --> 00:31:59,160
+what their cubicle made is getting paid. I think there's just some-
+
+530
+00:31:59,160 --> 00:32:04,120
+Or just even inner company transfers. We're sending money to ourselves. We don't want to
+
+531
+00:32:04,120 --> 00:32:09,160
+see that. Or market makers sending funds to exchange. They don't want people to see what
+
+532
+00:32:09,160 --> 00:32:13,640
+they're sending to exchanges. People are trading based off of that information and stuff like that.
+
+533
+00:32:13,640 --> 00:32:17,800
+I think there is a real use case in demand for privacy that's not trying to evade
+
+534
+00:32:18,440 --> 00:32:23,560
+regulations or sanctions. It's just, you want to have privacy in transactions. You don't know how
+
+535
+00:32:23,560 --> 00:32:27,720
+much money banks are sending each other and how much money I'm sending to my bank account or
+
+536
+00:32:27,720 --> 00:32:31,800
+anything else. Why should that be public? What was it that got you so excited about
+
+537
+00:32:31,800 --> 00:32:35,800
+building products and services in that ecosystem? Was it just that you saw that there was a herd
+
+538
+00:32:35,800 --> 00:32:39,160
+coming here, there's going to be a need for data information about this blockchain?
+
+539
+00:32:39,720 --> 00:32:44,680
+I give a lot of credit to the DA team for getting me excited about what they're doing. Obviously,
+
+540
+00:32:44,680 --> 00:32:47,640
+we're very close with a lot of the other participants in the network and we have been
+
+541
+00:32:47,640 --> 00:32:52,280
+for a while. It's talking to some of these financial institutions that have 80 engineers
+
+542
+00:32:52,280 --> 00:32:56,760
+working on building on Dammel and you're like, oh wow, there's real people that are deploying
+
+543
+00:32:56,760 --> 00:33:01,240
+real resources into this ecosystem and have been doing it for a while. I think that was partially
+
+544
+00:33:01,240 --> 00:33:04,760
+it. We're just very close with a lot of the participants in the network, like Cumberland
+
+545
+00:33:04,760 --> 00:33:08,840
+and a bunch of the banks and others. I got excited and we've been active on the network
+
+546
+00:33:08,840 --> 00:33:13,160
+since Testnet. We've been active for a while and it was also exciting to feel like we were getting
+
+547
+00:33:13,160 --> 00:33:16,040
+in on the ground floor with something that I think is a big opportunity.
+
+548
+00:33:16,040 --> 00:33:19,320
+All right, Josh, I feel like we could talk for hours here and this is so fascinating,
+
+549
+00:33:19,320 --> 00:33:23,800
+but maybe just as we wrap this up, you've built a business that's profitable, which
+
+550
+00:33:23,800 --> 00:33:28,120
+congratulations, very few people are doing that in crypto, but how have you thought about that
+
+551
+00:33:28,120 --> 00:33:32,440
+decision versus raising venture dollars and curious just what's next for the tie over the
+
+552
+00:33:32,440 --> 00:33:35,560
+next couple of years? I think that actually goes back to our
+
+553
+00:33:35,560 --> 00:33:39,960
+question around SaaS tab in crypto. The question is, if you raise more money,
+
+554
+00:33:40,520 --> 00:33:43,480
+is there a buyer for that business? And I think there are a lot of companies,
+
+555
+00:33:43,480 --> 00:33:48,200
+for example, in our space that have over-raised, that raised at $300, $400 million valuations
+
+556
+00:33:48,200 --> 00:33:53,720
+at very large multiples of their revenue. And so for one, I've been of the view of I'm only
+
+557
+00:33:53,720 --> 00:33:58,520
+going to raise once I know that the outcome for my investors is going to be big enough to justify
+
+558
+00:33:58,520 --> 00:34:03,800
+another raise. If I'm going to raise at 400, I want to make sure that my investors get out at
+
+559
+00:34:03,800 --> 00:34:08,760
+at least a billion. There's a return for them. I think that's partially it. But I think the
+
+560
+00:34:08,760 --> 00:34:13,640
+other thing too is probably the most valuable insight I have, but I've learned over the last
+
+561
+00:34:13,640 --> 00:34:19,240
+eight years of doing this, that in crypto, sometimes it's not the best thing to chase
+
+562
+00:34:19,240 --> 00:34:25,880
+the traditional valuation metric that all investors care about like SaaS, ARR, GRR, NRR,
+
+563
+00:34:25,880 --> 00:34:29,960
+roll of 50, like all of those different metrics. Those are obviously important metrics, but they
+
+564
+00:34:29,960 --> 00:34:34,840
+shouldn't define your entire strategy as a founder. If there's an opportunity to make money,
+
+565
+00:34:34,840 --> 00:34:41,320
+then it's wacky and weird. Take it, take it. Your job is to maximize shareholder value. And so I
+
+566
+00:34:41,320 --> 00:34:44,680
+think part of the reason we've been able to build a profitable business is because we've been very,
+
+567
+00:34:44,680 --> 00:34:49,240
+very flexible. And I think we're lucky because we don't have a giant mandate from our shareholders
+
+568
+00:34:49,240 --> 00:34:53,160
+to do one thing or the other. We don't really have investors on our cap table. And so we've been able
+
+569
+00:34:53,160 --> 00:34:59,160
+to do wacky things. I mean, we have very large positions in tokens. In some cases, we're doing
+
+570
+00:34:59,160 --> 00:35:03,880
+deals that have zero cash components. They're all token. We're taking a ton of upside. We're
+
+571
+00:35:03,880 --> 00:35:08,040
+doing call options with tokens. We're doing all sorts of wacky stuff to make money. But
+
+572
+00:35:08,040 --> 00:35:11,480
+we've learned that sometimes in crypto, you kind of have to do that in order to make money
+
+573
+00:35:11,480 --> 00:35:16,040
+versus if we just tried to sell in 751st, it doesn't move them needle enough in terms of
+
+574
+00:35:16,040 --> 00:35:20,680
+growing a business. In terms of what's next for us, the biggest thing for us has always been the
+
+575
+00:35:20,680 --> 00:35:24,200
+terminal. That's kind of our core. We have this terminal and that enables the rest of our
+
+576
+00:35:24,200 --> 00:35:29,560
+businesses. Because we have this amazing terminal product, other companies want to license our data
+
+577
+00:35:29,560 --> 00:35:34,280
+and build products using our data. So now we have a lot of new crypto protocols that are using our
+
+578
+00:35:34,280 --> 00:35:37,960
+data as part of the protocols they're building, or we have exchanges that are licensing our data,
+
+579
+00:35:37,960 --> 00:35:42,760
+or we can do connectivity with institutions for tokens and different things like that. And so
+
+580
+00:35:42,760 --> 00:35:46,200
+for me, it's always been the terminal. And so for me, in terms of where we're going,
+
+581
+00:35:46,200 --> 00:35:50,280
+I think one of the biggest takeaways that we've had, we built by far the most complicated
+
+582
+00:35:50,280 --> 00:35:55,240
+product in crypto. We've overcomplicated crypto data. I mean, we've built a product that's
+
+583
+00:35:55,240 --> 00:35:59,960
+akin to a Faxeter Bloomberg type experience for crypto, with, by the way, an incredible
+
+584
+00:35:59,960 --> 00:36:04,760
+amount of customizability. So users can not only use the platform, but they can actually access
+
+585
+00:36:04,760 --> 00:36:09,000
+all of our raw data in SQL. They can build their own components. They can pipe in external data
+
+586
+00:36:09,000 --> 00:36:14,680
+in Python. So imagine you wanted to use coin metrics data and the tie data and amber data data
+
+587
+00:36:14,680 --> 00:36:19,240
+and flip side data all in a single thing. You could do that, which is incredibly useful.
+
+588
+00:36:19,240 --> 00:36:24,840
+We realized we were letting our five power users drive our strategy for our thousands
+
+589
+00:36:24,840 --> 00:36:30,120
+of regular users. And so what we've really been focused on as a company is really how do we
+
+590
+00:36:30,680 --> 00:36:34,360
+actually just like tell people what matters? Obviously, we want to give them optionality,
+
+591
+00:36:34,360 --> 00:36:38,120
+but the biggest takeaway and the biggest learning that I've had as a founder is that people tell
+
+592
+00:36:38,120 --> 00:36:41,400
+you they want all of these features and all of these things. But at the end of the day,
+
+593
+00:36:41,400 --> 00:36:44,200
+they just want to know what they should look at as it relates to what we're doing.
+
+594
+00:36:44,200 --> 00:36:47,160
+I mean, one really cool example, this is the first time to talk about it. One of the things
+
+595
+00:36:47,160 --> 00:36:51,800
+we've had on the platform is research. So we actually aggregate research from about 40 or 50
+
+596
+00:36:51,800 --> 00:36:56,680
+OTC desks and theoretically and other service providers and asset managers. And that's really
+
+597
+00:36:56,680 --> 00:37:00,120
+cool. You could come onto the platform and you could see research. You're not going to read
+
+598
+00:37:00,120 --> 00:37:04,520
+through 40 different research reports to get insights. And so now we've basically aggregated
+
+599
+00:37:04,520 --> 00:37:09,160
+all the research. We've aggregated every single podcast and we've aggregated all of conference
+
+600
+00:37:09,160 --> 00:37:13,560
+content, including all of our conferences. And now you can go and you can see trends on top of it.
+
+601
+00:37:13,560 --> 00:37:17,960
+So what are the top 10 topics that are being most discussed in the short term versus the long term?
+
+602
+00:37:17,960 --> 00:37:21,960
+How is that changing? What are the subtopics? Okay, ETH is really hot. What are people talking
+
+603
+00:37:21,960 --> 00:37:26,760
+about around ETH? And then actually being able to see like, okay, I want to go see the specific
+
+604
+00:37:26,760 --> 00:37:32,520
+mentions of this specific topic point across different podcasts and research pieces and
+
+605
+00:37:32,520 --> 00:37:36,600
+conferences and things like that. And to me, that's more like, okay, we're taking all this
+
+606
+00:37:36,600 --> 00:37:40,760
+information that we have, and then we're condensing it into insights and then letting people kind of
+
+607
+00:37:40,760 --> 00:37:45,240
+start at the insight level and then peel back and dive deeper into like, okay, on this podcast,
+
+608
+00:37:45,240 --> 00:37:49,320
+we talked about Canton. Maybe that's a trending topic. Somebody wants to see where that's talked
+
+609
+00:37:49,320 --> 00:37:53,960
+about and then dive deeper into that topic. That's incredibly valuable. I do that just naturally
+
+610
+00:37:53,960 --> 00:37:59,320
+listening to like 20 podcasts a weekend on crypto stuff, but to have the ability to aggregate here's
+
+611
+00:37:59,320 --> 00:38:04,200
+where people are talking about Canton or Maple. That's very valuable. And that just one example
+
+612
+00:38:04,200 --> 00:38:09,160
+of the types of things that we're working on where, for example, one thing we built with news,
+
+613
+00:38:09,160 --> 00:38:13,000
+some more experience, we had this thing called the News Firehose where we pulled in 10,000 news
+
+614
+00:38:13,000 --> 00:38:17,720
+stories a day or whatever it was. Super overwhelming. Now you can come in and you can see what are the
+
+615
+00:38:17,720 --> 00:38:22,120
+10 stories being written the most and retweeted the most today? And what are the things that
+
+616
+00:38:22,120 --> 00:38:25,960
+people are talking about on social the most? We actually separated that. So you can now come on
+
+617
+00:38:25,960 --> 00:38:29,400
+what's being talked about in the news, what's being talked about in social and what's happening
+
+618
+00:38:29,400 --> 00:38:34,280
+on chain. It's really like, how do you take all the raw data and distill insights is really what
+
+619
+00:38:34,280 --> 00:38:38,520
+we've learned as opposed to like giving people ultimate customizability, which they think they
+
+620
+00:38:38,520 --> 00:38:42,200
+want, but my experience is they don't want. Well, Josh, congrats on what you've built.
+
+621
+00:38:42,200 --> 00:38:47,960
+Where can we send people to learn more about the tie? You can follow the tie on Twitter at the tie
+
+622
+00:38:47,960 --> 00:38:53,160
+IO. You can go to our website, the tie.io. You can also follow me. I'm not really as active as
+
+623
+00:38:53,160 --> 00:38:58,280
+I should be on social, but it's at Joshua underscore Frank underscore on Twitter, I think. All right.
+
+624
+00:38:58,280 --> 00:39:02,120
+We'll put it in the show notes. All right. Well, thanks for doing this, Josh. Good to see you.
+
+625
+00:39:02,120 --> 00:39:07,960
+Thanks for having me on. Thanks for listening to another episode of On the Brink with Castle Island.
+
+626
+00:39:07,960 --> 00:39:14,200
+To find out more about Castle Island, visit castleisland.vc. To listen to all of our podcast
+
+627
+00:39:14,200 --> 00:39:21,400
+episodes, please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for
+
+628
+00:39:21,400 --> 00:39:31,400
+listening.
+

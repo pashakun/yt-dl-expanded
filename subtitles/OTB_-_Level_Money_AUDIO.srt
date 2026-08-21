@@ -1,0 +1,1508 @@
+1
+00:00:00,000 --> 00:00:04,480
+This is Wyatt from Castle Island, and today's episode of On the Brink was the first of a
+
+2
+00:00:04,480 --> 00:00:09,200
+series on StablecoinFi where we'll talk to leading players building stablecoin-focused
+
+3
+00:00:09,200 --> 00:00:14,800
+applications in DeFi. Today, I was joined by Kedian Sun, the founder of Level Money.
+
+4
+00:00:15,440 --> 00:00:21,440
+Level is the issuer of LevelUSD, a DeFi-native stablecoin backed by other major stablecoins
+
+5
+00:00:21,440 --> 00:00:28,720
+including USDT and USDC earning yield in low-risk DeFi lending strategies to offer a DeFi risk-free
+
+6
+00:00:28,720 --> 00:00:35,440
+rate. LevelUSD has over $140 million dollars in supply after just over six months in market
+
+7
+00:00:35,440 --> 00:00:40,080
+and continues to grow rapidly. Kedian and I discussed the adoption of incumbent stablecoins
+
+8
+00:00:40,080 --> 00:00:45,600
+versus newcomers, the evolution of stablecoin-based finance, and what's ahead for Level among other
+
+9
+00:00:45,600 --> 00:00:50,240
+topics. I hope you enjoy this episode. Matt Walsh and Nick Carter are partners at Castle
+
+10
+00:00:50,240 --> 00:00:53,360
+Island Ventures. All views expressed by them or the guests on this podcast are solely their
+
+11
+00:00:53,360 --> 00:00:56,480
+opinions and do not reflect the opinions of Castle Island Ventures. Guests and hosts may
+
+12
+00:00:56,480 --> 00:00:59,200
+maintain positions in the assets discussed on this podcast. You should not treat any
+
+13
+00:00:59,200 --> 00:01:02,640
+opinion expressed by anyone on this podcast as a specific inducement to make a particular
+
+14
+00:01:02,640 --> 00:01:06,560
+investment or follow a particular strategy, but only as an expression of their personal opinion.
+
+15
+00:01:06,560 --> 00:01:11,520
+This podcast is for informational purposes only. Brought down by bad mortgage investments,
+
+16
+00:01:11,520 --> 00:01:15,840
+Lehman, which has 25,000 employees, will be liquidated. The federal government loans
+
+17
+00:01:15,840 --> 00:01:21,360
+American International Group, AIG, $85 billion. This is a different kind of market and the Fed
+
+18
+00:01:21,360 --> 00:01:25,840
+is asleep. The federal government is stepping in to stabilize Fannie Mae and Freddie Mac. The
+
+19
+00:01:25,840 --> 00:01:29,760
+two mortgage giants that have been threatened by the housing crisis. The Bank of England has
+
+20
+00:01:29,760 --> 00:01:34,000
+pumped 75 billion pounds more into Britain's ailing economy with a new round of quantitative
+
+21
+00:01:34,000 --> 00:01:38,000
+easing. You print a couple trillion dollars and all of a sudden people start to worry. So out of
+
+22
+00:01:38,000 --> 00:01:44,240
+this worry, we have something called the Bitcoin. Bitcoin. Well, Kadeen, thanks for joining. Excited
+
+23
+00:01:44,240 --> 00:01:48,560
+to chat today. Would love to learn a little bit more about you to start, if you don't mind giving
+
+24
+00:01:48,560 --> 00:01:53,200
+a personal background and telling us a little bit about Level. Yeah, of course. First of all,
+
+25
+00:01:53,200 --> 00:01:57,200
+you're excited to be here. Thanks for having me. A little bit about myself. So I'm Kadeen.
+
+26
+00:01:57,200 --> 00:02:01,840
+I'm originally from New Zealand and came to the US for college. My background is in finance. I
+
+27
+00:02:01,840 --> 00:02:06,160
+studied finance at Wharton, did investment banking after graduation at an investment bank called
+
+28
+00:02:06,160 --> 00:02:10,880
+Lazard here in New York for a few years. And then I worked in FinTech at a company called Brex for a
+
+29
+00:02:10,880 --> 00:02:16,480
+few years. And so, yeah, I guess my entire career has been kind of seeing different ways of like
+
+30
+00:02:17,040 --> 00:02:21,440
+money moving around essentially. I first got involved in crypto. I think it was my senior
+
+31
+00:02:21,440 --> 00:02:25,680
+year of college. Basically, I think a very classic story a friend told me about ETH.
+
+32
+00:02:25,680 --> 00:02:30,240
+I just went ahead and bought a bag, had no clue how the tech worked, what this meant for the
+
+33
+00:02:30,240 --> 00:02:35,120
+world in the future. But I think that was sort of like my entry point into crypto and how I
+
+34
+00:02:35,120 --> 00:02:39,680
+continued to stay sort of in the loop with crypto while I was working in more traditional industries
+
+35
+00:02:39,680 --> 00:02:45,200
+and banking and FinTech. And then while I was at Brex NSF, that was when I linked up with my
+
+36
+00:02:45,200 --> 00:02:49,680
+co-founder who was working as an engineer at Flexport there. That was kind of like how we just
+
+37
+00:02:49,680 --> 00:02:54,640
+started jamming and got into crypto full-time from there. So, yeah, that's kind of just a
+
+38
+00:02:54,640 --> 00:02:58,240
+little bit about myself. Do you want me to get started on talking about like how we got started
+
+39
+00:02:58,240 --> 00:03:03,040
+with Level? Yeah, talk about Level and how you guys got started. Cool. Yeah, so I guess we weren't
+
+40
+00:03:03,040 --> 00:03:08,640
+always Level. I mean, we started in the stablecoin space in March of 2023 and it was a different name
+
+41
+00:03:08,640 --> 00:03:13,360
+back then. I guess like the story of how we actually got into stablecoins, like I said,
+
+42
+00:03:13,360 --> 00:03:18,720
+it was March of 2023. If you remember, this was a big month for stablecoins and for crypto
+
+43
+00:03:18,720 --> 00:03:25,040
+because that was when USDC de-pegged as a result of like the SVB collapse. And so I think that
+
+44
+00:03:25,040 --> 00:03:29,600
+news got like our attention. Yeah, because previously we actually weren't, well, everyone's
+
+45
+00:03:29,600 --> 00:03:34,400
+obviously heard of stablecoins, probably had used them on Coinbase or other exchanges, but it wasn't
+
+46
+00:03:34,400 --> 00:03:38,960
+something that I actually really looked into. I just sort of like trusted that these stablecoins
+
+47
+00:03:38,960 --> 00:03:43,280
+were pegged to a dollar. That they worked? You just trusted that they worked? Yeah, exactly. Which
+
+48
+00:03:43,280 --> 00:03:50,160
+obviously March 2023 kind of destroyed that view, at least temporarily. And so I would say that
+
+49
+00:03:50,160 --> 00:03:55,920
+despite that being probably the lowest sentiment ever in stablecoins, we sort of were able to build
+
+50
+00:03:55,920 --> 00:03:59,840
+up a lot of conviction at that point. Thought this was sort of like the future of crypto and
+
+51
+00:03:59,840 --> 00:04:04,480
+even like the future of finance and just started building in the space. I mean, even at that point,
+
+52
+00:04:04,480 --> 00:04:08,240
+I think people were still, like other than that event, people were starting to pay a lot more
+
+53
+00:04:08,240 --> 00:04:11,120
+attention to stablecoins. But I think it's especially being in the last year where it's
+
+54
+00:04:11,120 --> 00:04:15,840
+just become consensus. And, you know, we're just seeing so much stablecoin activity, I think,
+
+55
+00:04:15,840 --> 00:04:21,280
+since 2024. And then I think the other moment for me, this was a little bit more personally,
+
+56
+00:04:21,280 --> 00:04:26,320
+is like, I think after looking into that, I also just happened to make my first actual cross border
+
+57
+00:04:26,320 --> 00:04:32,320
+stablecoin transaction during around that time. And I know this sounds almost silly that there
+
+58
+00:04:32,320 --> 00:04:36,800
+was this first time, but I think when we live in sort of developed countries at the US or in the
+
+59
+00:04:36,800 --> 00:04:41,360
+West, the banking system is generally not too bad. So you don't actually need to use stablecoins
+
+60
+00:04:41,360 --> 00:04:45,440
+that much, especially for domestic use cases. But in this case was me trying to send some money to
+
+61
+00:04:45,440 --> 00:04:49,920
+a friend in Australia, we actually tried to do it through like the traditional banking system first.
+
+62
+00:04:49,920 --> 00:04:54,000
+And, you know, it's just like a very classic story of like, and this is from the US to Australia,
+
+63
+00:04:54,000 --> 00:04:58,640
+it's like nothing crazy, right? It took days before it got bounced, right? And then it's like,
+
+64
+00:04:58,640 --> 00:05:02,880
+the next thing tried was like USDC. And it literally just arrived in seconds. It's like
+
+65
+00:05:02,880 --> 00:05:07,360
+that kind of magic moment for me. I think that was also what gave me even more conviction than
+
+66
+00:05:07,360 --> 00:05:12,400
+stablecoins. But going back to level, we've actually tried a few different stablecoin models.
+
+67
+00:05:12,400 --> 00:05:17,120
+The first version was essentially a feedback stablecoin that shared the treasury yield with
+
+68
+00:05:17,120 --> 00:05:21,680
+distribution partners. So this is actually quite similar to what Agora is trying to do now.
+
+69
+00:05:21,680 --> 00:05:26,240
+We ran into a couple of challenges building this. The first was actually building a feedback stablecoin
+
+70
+00:05:26,240 --> 00:05:30,560
+takes a lot of time, because especially at that point, you had to work with partner banks or
+
+71
+00:05:30,720 --> 00:05:35,360
+custodians, treasury providers. And it's like, whenever you have to work with a centralized
+
+72
+00:05:35,360 --> 00:05:38,880
+party, especially like a regulated one, it's just like a really slow process.
+
+73
+00:05:38,880 --> 00:05:43,120
+And even incumbents, right? Even incumbents who've been around and have a degree of capture
+
+74
+00:05:43,120 --> 00:05:48,720
+with those players. Yeah, exactly. So it probably took us like six months to even get set up. And
+
+75
+00:05:48,720 --> 00:05:53,280
+to be honest, like the custody model wasn't even good. We sort of like strung together custodians
+
+76
+00:05:53,280 --> 00:05:57,520
+and treasury providers. And actually, I think a lot of the feedback we got from the legitimate
+
+77
+00:05:57,520 --> 00:06:02,640
+players in the space was like, we can't trust this thing. But yeah, I think we tried to go to
+
+78
+00:06:02,640 --> 00:06:07,280
+market with this model by offering to pay people the treasury yield, and they sort of found increased
+
+79
+00:06:07,280 --> 00:06:12,880
+adoption for us. I think we initially mostly focused on DeFi. And in crypto, people don't
+
+80
+00:06:12,880 --> 00:06:18,240
+really care about 5% yields and DeFi, right? So that wasn't very successful. And then institutions,
+
+81
+00:06:18,240 --> 00:06:22,000
+I think it was just like, obviously, also very hard to break into. And I think the custody model
+
+82
+00:06:22,000 --> 00:06:27,040
+was a bit of a question. And so basically found that that didn't work. And then we started trying
+
+83
+00:06:27,040 --> 00:06:31,120
+to build almost like an Athena competitor, actually had a similar issue of it took so much
+
+84
+00:06:31,120 --> 00:06:35,600
+time to onboard with exchanges and custodians. And then I think ultimately, we actually just
+
+85
+00:06:35,600 --> 00:06:40,160
+personally didn't feel like this was the stable coin or synthetic dollar model that we sort of
+
+86
+00:06:40,160 --> 00:06:43,920
+resonated with and what we were in terms of what we were trying to build long term. But yeah,
+
+87
+00:06:43,920 --> 00:06:48,160
+regardless, I think both those things taught us a lot about building stable coins, and at least
+
+88
+00:06:48,160 --> 00:06:52,560
+trying to go to market with them. And then last August, we started building Level in its current
+
+89
+00:06:52,560 --> 00:06:58,640
+form. And so this is a fully level, like level USD is fully built on chain. So actually, first
+
+90
+00:06:58,640 --> 00:07:02,320
+thing that was nice is that we could build it really quickly. We didn't need to rely on any
+
+91
+00:07:02,320 --> 00:07:07,280
+third parties to start building. We could just build on Ethereum, use USDC, USDT. We were building
+
+92
+00:07:07,280 --> 00:07:11,520
+on our way like lending protocols more generally. And so we were able to get it together quite
+
+93
+00:07:11,520 --> 00:07:15,920
+quickly. And yeah, what we ended up with was actually like a very simple stable point,
+
+94
+00:07:15,920 --> 00:07:22,000
+like level USD is fully backed by USDC and USDT. Obviously, the two largest and most trusted stable
+
+95
+00:07:22,240 --> 00:07:27,440
+feedback stable coins in the space right now. And then what we do is generate yield on like the
+
+96
+00:07:27,440 --> 00:07:33,920
+USDC and USDT reserves. Specifically, we focus on really low risk sources of yield. And this for us
+
+97
+00:07:33,920 --> 00:07:38,640
+was like lending protocols, you know, people talk about RBA as essentially like the crypto risk free
+
+98
+00:07:38,640 --> 00:07:43,280
+rate. And so we just park all of our capital there right now, we will be expanding to other
+
+99
+00:07:43,280 --> 00:07:47,840
+blue chip lending protocols. So specifically, more for prime vaults is coming up in the next few
+
+100
+00:07:47,840 --> 00:07:52,320
+weeks. But yeah, the idea here is like, you know, a very low risk source of yield that's also very
+
+101
+00:07:52,320 --> 00:07:57,920
+liquid to back like level USD. And then, you know, the protocol accumulates this yield and we pass it
+
+102
+00:07:57,920 --> 00:08:03,040
+back to the users through like a pretty standard 4626 staking mechanism. So that's essentially
+
+103
+00:08:03,040 --> 00:08:08,000
+like the journey of us building level and then kind of a quick summary of how it actually works.
+
+104
+00:08:08,000 --> 00:08:11,680
+And to break that down and almost read it back so that everyone has a sense,
+
+105
+00:08:11,760 --> 00:08:19,840
+you guys backing level USD, you have USDT and USDC that is deposited in these relatively safe
+
+106
+00:08:19,840 --> 00:08:27,520
+strategies on Aave and soon to be Morpho as well. So on top of that level USD, that's then also an
+
+107
+00:08:27,520 --> 00:08:33,520
+asset that can be used in longer tail pools within DeFi and for DeFi use cases.
+
+108
+00:08:33,520 --> 00:08:37,280
+Yeah, exactly. I think a quick point is that technically after we deploy the assets,
+
+109
+00:08:37,280 --> 00:08:41,440
+level USD is backed by the lending protocol receipt token. So it's like the A tokens,
+
+110
+00:08:41,440 --> 00:08:46,160
+the Morpho Vault tokens, eventually, etc. And then yeah, correct. So level USD itself is like this
+
+111
+00:08:46,160 --> 00:08:51,280
+commissionless asset. People can use it however they want really. What we have done is integrated
+
+112
+00:08:51,280 --> 00:08:56,960
+into other leading DeFi protocols like Pendle, Morpho for collateral, etc. And so yeah, people
+
+113
+00:08:56,960 --> 00:09:01,760
+can go ahead and use level as well as S level USD, which is the yield bearing counterpart,
+
+114
+00:09:01,760 --> 00:09:04,640
+kind of like wherever they want or wherever it is integrated.
+
+115
+00:09:05,360 --> 00:09:09,680
+Yep, very cool. I'm curious for your view because you guys clearly spent some time in
+
+116
+00:09:10,240 --> 00:09:17,600
+the discovery space when it comes to building in stablecoins. In your view, why another stablecoin
+
+117
+00:09:18,320 --> 00:09:24,480
+issuer and why another stablecoin when we have USDC, we have USDC. And on top of that,
+
+118
+00:09:24,480 --> 00:09:29,920
+how did you land on issuing a stablecoin or building a stablecoin primitive as opposed to say
+
+119
+00:09:30,480 --> 00:09:34,400
+building an application around an existing large stablecoin?
+
+120
+00:09:34,400 --> 00:09:38,000
+I think that's a really good question. I think the first thing is actually, I know there's a
+
+121
+00:09:38,000 --> 00:09:42,400
+lot of ways to sort of segment stablecoins, but at least in this context, I think there's like
+
+122
+00:09:42,400 --> 00:09:47,120
+stablecoins that are used or that are, I think, more designed to be used for like reward payments.
+
+123
+00:09:47,120 --> 00:09:51,440
+And then there are stablecoins that are actually more like yield assets. And I actually personally
+
+124
+00:09:51,440 --> 00:09:56,320
+think it's a bit of a misnomer to call these stablecoins yield bearing stablecoins or like
+
+125
+00:09:56,320 --> 00:10:00,640
+stablecoins generally. And just because I think there's not like any stablecoins folder sort of
+
+126
+00:10:00,800 --> 00:10:05,040
+like as an industry, we've adopted these terms. But if you look at the yield bearing version of
+
+127
+00:10:05,040 --> 00:10:08,800
+stablecoins, including our own, that's not a stablecoin because it's not pegged to a dollar.
+
+128
+00:10:08,800 --> 00:10:13,760
+It's increasing in value as it accumulates yield or it's like rebasing, right? It's just actually
+
+129
+00:10:13,760 --> 00:10:18,880
+not a stablecoin. And so I think I'll start with that category of like why we need more of these.
+
+130
+00:10:18,880 --> 00:10:23,440
+And I think the answer is basically that it's like at the end of the day, these are yield
+
+131
+00:10:23,440 --> 00:10:27,360
+assets that you can think compared to the fixed income market in traditional finance.
+
+132
+00:10:27,440 --> 00:10:30,800
+Obviously, it's fixed income. By definition, the income is supposed to be fixed. In crypto,
+
+133
+00:10:30,800 --> 00:10:35,680
+it's usually not fixed. But the idea is that the principle stays relatively pegged to the dollar
+
+134
+00:10:35,680 --> 00:10:40,800
+and you can earn yield on top. And so in that case, there's a market for like thousands of these.
+
+135
+00:10:40,800 --> 00:10:44,160
+If we look at Tradfied, like the fixed income market is actually bigger than the equities
+
+136
+00:10:44,160 --> 00:10:48,720
+market. And there's literally thousands or tens of thousands of options out there. And so I think
+
+137
+00:10:48,720 --> 00:10:52,320
+that's where like what we commonly call yield bearing stablecoins. So I think more accurately,
+
+138
+00:10:52,320 --> 00:10:58,000
+like yield tokens kind of comes in. And then in terms of kind of these more like payment stablecoins,
+
+139
+00:10:58,560 --> 00:11:02,160
+the root of your question is basically probably implying that we don't need that many of them
+
+140
+00:11:02,160 --> 00:11:06,800
+because there's sort of network effects around stablecoins. And I think that probably is the
+
+141
+00:11:06,800 --> 00:11:11,840
+future state. There might not be too many of them. But that being said, I think the reason that there
+
+142
+00:11:11,840 --> 00:11:15,920
+are a lot of them popping up now and the reason that we actually need a lot of them is actually
+
+143
+00:11:15,920 --> 00:11:20,160
+good for like the stablecoin industry. Because I have a pretty strong belief and we see this in
+
+144
+00:11:20,160 --> 00:11:26,080
+most industries. The winners of like the early stages of a new industry or like the winners now
+
+145
+00:11:26,080 --> 00:11:31,120
+are not necessarily the winners of the future. And you sort of need a lot of competition to
+
+146
+00:11:31,120 --> 00:11:35,120
+essentially increase like the service area of innovation. And so I think this is why it's
+
+147
+00:11:35,120 --> 00:11:39,680
+actually a good thing for a lot of new stablecoins to be built right now. Everyone's trying to be
+
+148
+00:11:39,680 --> 00:11:44,400
+innovative in some way. And this actually pushes forward the industry. And sure, maybe Tether will
+
+149
+00:11:44,400 --> 00:11:48,000
+continue to be the winner even for a very long time, especially if they can continue being
+
+150
+00:11:48,000 --> 00:11:52,160
+innovative. But I think there's also a very good chance that one of these new stablecoins will
+
+151
+00:11:52,160 --> 00:11:57,360
+become like the Tether of tomorrow. And I think that's my view on like the number of stablecoins
+
+152
+00:11:57,360 --> 00:12:00,880
+that are popping up, even though I think people are starting to complain about them. To answer
+
+153
+00:12:00,880 --> 00:12:04,880
+your question about like why we decided to build like pick up your stablecoin issuer, as opposed
+
+154
+00:12:04,880 --> 00:12:08,800
+to building something on top of existing stablecoins. Especially when we first started,
+
+155
+00:12:08,800 --> 00:12:13,760
+the stablecoin industry was much less sophisticated. It was essentially just like an industry of like
+
+156
+00:12:13,760 --> 00:12:19,440
+issuers. And there was a lot of value to being an issuer, or at least like the perceived value was
+
+157
+00:12:19,440 --> 00:12:24,000
+like very high. And so I think that's where we started. But I do agree with you. And this is sort
+
+158
+00:12:24,000 --> 00:12:29,600
+of part of like our longer term goals is that it's actually very important to build applications
+
+159
+00:12:29,600 --> 00:12:34,400
+around stablecoins. And so there's two options here. You can build on top of other stablecoins,
+
+160
+00:12:34,400 --> 00:12:38,720
+or stablecoins can build applications or like facilitate the building of applications on top
+
+161
+00:12:38,720 --> 00:12:43,600
+of themselves. And so I think we started by being an issuer. And I think we've at least
+
+162
+00:12:43,600 --> 00:12:48,160
+have some good signs of early traction as an issuer. But yeah, the long term goal is actually
+
+163
+00:12:48,160 --> 00:12:53,440
+to try to like answer the question about how do we actually increase the usage of our stablecoin
+
+164
+00:12:53,440 --> 00:12:57,600
+or stablecoins more generally. I want to double click because I think you made one really
+
+165
+00:12:57,600 --> 00:13:03,600
+interesting point there in particular, which is we might have sort of a narrow reality for
+
+166
+00:13:03,600 --> 00:13:09,280
+traditional payments, USD stablecoins, maybe what people think of first when they think of
+
+167
+00:13:09,280 --> 00:13:15,280
+stablecoins, which is the USDT and USDC. And then I would hope as I think you do that we have this
+
+168
+00:13:15,280 --> 00:13:22,160
+longer tail, things that we call stablecoins functionally today, but maybe it's a real estate
+
+169
+00:13:22,160 --> 00:13:28,000
+backed asset that has some sort of dollar denominated value, but appreciates in value,
+
+170
+00:13:28,000 --> 00:13:32,240
+hopefully, maybe it's a defi risk free rate along the lines of what you guys are doing. But
+
+171
+00:13:32,240 --> 00:13:36,800
+there's longer tail of things which should have stable issue value that hopefully appreciates.
+
+172
+00:13:37,600 --> 00:13:44,960
+The point I wanted to ask is, do you think that we get to a point where the true stablecoins,
+
+173
+00:13:44,960 --> 00:13:50,480
+so called the USDTs and USDCs are used for payments? Or do you think we get to a world where
+
+174
+00:13:51,120 --> 00:13:57,680
+these hopefully continually value accretive assets that are similar to stablecoins, but
+
+175
+00:13:57,760 --> 00:14:02,320
+pegged or denominated in something that should appreciate in value, do those become used as
+
+176
+00:14:02,320 --> 00:14:07,360
+payments? And then we can get to a world where we're settling transactions and paying for things
+
+177
+00:14:07,360 --> 00:14:13,360
+in something other than what is still a fiat rooted asset. Yeah, good question. Personally,
+
+178
+00:14:13,360 --> 00:14:18,240
+I believe we don't see that. And the reason was, I think people have certain expectations of like
+
+179
+00:14:18,240 --> 00:14:23,920
+what they use as money. And I think having an asset that's backed by longer tail stuff, I think
+
+180
+00:14:23,920 --> 00:14:28,960
+in theory, it's that you can use that as a method of payment. And yeah, I think with crypto or
+
+181
+00:14:28,960 --> 00:14:34,000
+blockchains, it does make that theoretically easier. But I don't think that's going to be widely
+
+182
+00:14:34,000 --> 00:14:38,480
+accepted. So if you go to a merchant, they just want to know that it's a dollar. The merchant is
+
+183
+00:14:38,480 --> 00:14:44,080
+going to understand the hundred different types of these dollar pegged assets that are backed by
+
+184
+00:14:44,080 --> 00:14:48,320
+long tail assets. And so that's something that's very feasible. And then the other thing is just
+
+185
+00:14:48,320 --> 00:14:53,280
+related to risk. Just because something is pegged to the dollar and has been historically, doesn't
+
+186
+00:14:53,280 --> 00:14:57,920
+actually mean that it is very safe and doesn't mean that it won't depeg in the future. And I
+
+187
+00:14:57,920 --> 00:15:02,160
+think we saw this with the stablecoin that was backed by real estate. And because real estate
+
+188
+00:15:02,160 --> 00:15:06,880
+is a liquid, the stablecoin depegged by like 50%, I think it was called USR or something like that.
+
+189
+00:15:06,880 --> 00:15:12,720
+This happened, I think, end of 2023 or sometime in 2024. And so yeah, that's sort of why I don't
+
+190
+00:15:12,720 --> 00:15:18,080
+really believe that anything that's not truly a liquid stablecoin that's backed by safe assets
+
+191
+00:15:18,080 --> 00:15:23,120
+can actually be used as a form of money or payment. To your point, even if vendors
+
+192
+00:15:23,120 --> 00:15:29,360
+don't want to accept those longer tail stablecoin assets, that's why I'm personally very excited
+
+193
+00:15:29,360 --> 00:15:33,760
+about some of the pay with crypto and credit card functionalities that are being built because
+
+194
+00:15:33,760 --> 00:15:39,200
+it's much easier. Let's say I own tokenized Tesla stock and I want to use that as what is
+
+195
+00:15:39,200 --> 00:15:45,360
+functionally my credit card payment asset. I can easily swipe a card and you can go from that Tesla
+
+196
+00:15:45,360 --> 00:15:49,600
+asset to stable coins and the stable coins can either go to the vendor or it can convert to
+
+197
+00:15:49,600 --> 00:15:54,960
+dollars and that can all happen very quickly. Whereas from what I know, the functionality of
+
+198
+00:15:54,960 --> 00:15:59,360
+some of the traditional pay with stocks, the settlement just actually takes so long and it's
+
+199
+00:15:59,360 --> 00:16:06,320
+so inefficient and equity markets run on market hours and crypto markets run 24 seven. So I could
+
+200
+00:16:06,320 --> 00:16:10,720
+see maybe some sort of middle ground there where you can hold over asset and the stable coins,
+
+201
+00:16:10,720 --> 00:16:15,680
+the USDC type stable coins are used as the instantaneous transaction method.
+
+202
+00:16:16,560 --> 00:16:20,560
+Yeah, I think what we both said is actually true. So I agree with you that there can be
+
+203
+00:16:20,560 --> 00:16:25,360
+these abstraction layers that make it very easy to convert from certain assets to stable coins
+
+204
+00:16:25,360 --> 00:16:29,840
+that are used for payments. But I think what you describe as two separate processes, right? Like
+
+205
+00:16:29,840 --> 00:16:35,040
+you're using these assets as a store of value. That's what you're holding them for as a user.
+
+206
+00:16:35,040 --> 00:16:39,840
+But then it's like when you go to make the payment, ultimately you're selling off. And like you said,
+
+207
+00:16:39,840 --> 00:16:44,720
+crypto facilitates the very easy conversion of these assets, but the actual payment is still
+
+208
+00:16:44,720 --> 00:16:52,320
+made in like the payments. Yep, definitely. So looking at level USD in this stable coin landscape,
+
+209
+00:16:53,040 --> 00:16:56,880
+last time I checked, I think this was last night, there's about 140 million in supply. I don't know
+
+210
+00:16:56,880 --> 00:17:02,320
+if that's changed much over the last 12 hours, but where does this supply sit today? Like where
+
+211
+00:17:02,320 --> 00:17:07,600
+does it exist? Is it in wallets? Is it in user wallets exchanges? And how is it being used? Who's
+
+212
+00:17:07,600 --> 00:17:12,640
+using it? Yeah, good question. So I think since last time, we've actually grown to about 145.
+
+213
+00:17:12,640 --> 00:17:17,600
+So sort of consistently growing in terms of where it's used. Right now it is used mostly
+
+214
+00:17:17,600 --> 00:17:23,520
+for DeFi use cases as a way to generate yield. So we have part of the supply that's sitting in
+
+215
+00:17:23,520 --> 00:17:28,560
+curve for liquidity. A lot of people have stake level USD for S level USD in order to earn the
+
+216
+00:17:28,560 --> 00:17:33,600
+yield. So right now approximately one third of level USD is staked. And then with S level USD,
+
+217
+00:17:33,600 --> 00:17:38,800
+you can then take it and use it elsewhere. So for example, on like Pindle, it's also accepted as
+
+218
+00:17:38,800 --> 00:17:43,360
+collateral on some vaults and Morpho as well. And then, yeah, like I mentioned, Pindle is just
+
+219
+00:17:43,360 --> 00:17:48,560
+generally a huge use case for both unstaked as well as staked level USD. And then yesterday,
+
+220
+00:17:48,560 --> 00:17:52,240
+I don't know if you saw, but we basically did some big announcements and we're continuing to do
+
+221
+00:17:52,240 --> 00:17:56,960
+announcements this week about level USD and related assets being able to be used as collateral on
+
+222
+00:17:56,960 --> 00:18:02,800
+Morpho for borrowing. So these are like probably like the main use cases currently. And then,
+
+223
+00:18:02,800 --> 00:18:07,520
+yeah, in terms of who are the users, it's sort of very split between like institutions and retail.
+
+224
+00:18:07,520 --> 00:18:10,480
+I think, you know, with crypto being permissionless, sometimes it's hard to tell,
+
+225
+00:18:10,480 --> 00:18:16,480
+but we do see wallets that are transacting like that are minting and then using like
+
+226
+00:18:16,480 --> 00:18:21,200
+millions of dollars of level USD at a time. But then we also have people that are literally doing
+
+227
+00:18:21,200 --> 00:18:25,520
+like a few dollars at a time. And so just depending on where you define the line between retail and
+
+228
+00:18:25,520 --> 00:18:31,200
+institutions slash whales, we have like a really wide spectrum. And do you guys want level to be a
+
+229
+00:18:31,200 --> 00:18:37,040
+fairly permissionless asset in the sense that anyone in DeFi who wants to build a pool or wants
+
+230
+00:18:37,040 --> 00:18:41,120
+to integrate it in some capacity can do so? Or do you want to be selective with partners?
+
+231
+00:18:41,120 --> 00:18:45,280
+My thinking here is if you have folks who are going really far out on the risk curve in terms
+
+232
+00:18:45,280 --> 00:18:50,000
+of what their pools look like in terms of creating vaults that might be backing another asset or
+
+233
+00:18:50,000 --> 00:18:54,880
+stable coin, do you guys have a selection threshold? Do you want to discourage folks
+
+234
+00:18:54,880 --> 00:18:58,800
+you might not align with from a risk perspective or how do you vet people who would be working with
+
+235
+00:18:58,800 --> 00:19:04,240
+level USD? Yeah, it's permissionless so anyone can use it. And we are starting to see protocols
+
+236
+00:19:04,240 --> 00:19:08,400
+actually reach out to us. I think they want to like have our blessing, but we don't always
+
+237
+00:19:08,400 --> 00:19:12,160
+give that but then they still go ahead and create it. They're free to do whatever they want with
+
+238
+00:19:12,160 --> 00:19:17,840
+these assets, right? It's kind of like a very core principle of crypto and DeFi. In terms of protocols
+
+239
+00:19:17,840 --> 00:19:23,280
+that we do put a more active effort into integrating for now, like we are quite selective here.
+
+240
+00:19:23,280 --> 00:19:28,080
+And like, as you can probably tell, like we've literally just integrated with protocols that
+
+241
+00:19:28,080 --> 00:19:33,120
+are already very established, very trusted. And so I think this includes the yield trading
+
+242
+00:19:33,120 --> 00:19:37,840
+protocols like Pindle and Spectra, and then Morpho is like a big one and Morpho and other
+
+243
+00:19:37,840 --> 00:19:42,880
+more like blue chip lending protocols that won't accept us as collateral. And so I think it's
+
+244
+00:19:42,880 --> 00:19:48,080
+actually almost like pretty easy to know like who are like these kind of more leading protocols.
+
+245
+00:19:48,080 --> 00:19:52,480
+And that's also changing, right? You have protocols that are growing, but yeah, there's probably only
+
+246
+00:19:52,480 --> 00:19:57,040
+really a handful of those. And then we also, we don't actually discourage people from integrating
+
+247
+00:19:57,040 --> 00:20:01,600
+level USD. But you know, we do see that with protocols that are not that they're not good,
+
+248
+00:20:01,680 --> 00:20:05,360
+as I said, they're smaller currently and they could be like the blue chips of tomorrow.
+
+249
+00:20:06,080 --> 00:20:12,400
+With that in mind, the growth of level USD, how do you look at growth on Ethereum main net
+
+250
+00:20:12,400 --> 00:20:17,600
+versus other blockchains? It seems like you have a couple of different arenas there. There's main
+
+251
+00:20:17,600 --> 00:20:23,280
+net, there's Solana and other VMs, there's Monad and Barrett chain and MegaEath and some of these
+
+252
+00:20:23,280 --> 00:20:28,720
+newer EVM chains. And then you're also seeing a newer rise of folks who are trying to build
+
+253
+00:20:28,800 --> 00:20:32,160
+stablecoin specific chains. So I'm curious how you look at
+
+254
+00:20:32,880 --> 00:20:37,360
+where is the game to be played in your view and where are the major stablecoins going to exist
+
+255
+00:20:37,360 --> 00:20:43,120
+and transact? Yeah, I think right now we're just very focused on Ethereum. I think despite a lot
+
+256
+00:20:43,120 --> 00:20:48,800
+of complaints about Ethereum, like it is the place with the most liquidity with the most EFI activity.
+
+257
+00:20:48,800 --> 00:20:54,160
+And I think until we saturate like Ethereum, we probably wouldn't actively go to other
+
+258
+00:20:54,160 --> 00:20:57,920
+chains unless there's like a very good reason to do so from a distribution perspective.
+
+259
+00:20:58,560 --> 00:21:02,480
+That being said, I think eventually, especially if we want to move towards more of these like
+
+260
+00:21:02,480 --> 00:21:06,960
+payment or money use cases. And first of all, Ethereum's fees are also great recently, right?
+
+261
+00:21:06,960 --> 00:21:11,200
+So that's actually not as big of a problem as it used to be. But obviously it still is, I think,
+
+262
+00:21:11,200 --> 00:21:16,320
+higher than a lot of these L2s or alternative chains. And so I think in terms of like when we
+
+263
+00:21:16,320 --> 00:21:20,960
+do get to that stage of trying to be used more for smaller transactions and for payments, then
+
+264
+00:21:20,960 --> 00:21:25,520
+it probably does make sense to have level USD on those chains and kind of have those be the
+
+265
+00:21:25,520 --> 00:21:31,840
+settlement layers. In terms of your question about stablecoins, like purposeful stablecoin
+
+266
+00:21:31,840 --> 00:21:36,480
+chains, I think this is a very interesting topic. So I think at a level we actually do believe kind
+
+267
+00:21:36,480 --> 00:21:41,360
+of in the value proposition of these chains. The reality is that existing blockchains aren't built
+
+268
+00:21:41,360 --> 00:21:46,880
+for stablecoins specifically, right? They've sort of been built for like the more speculative cases
+
+269
+00:21:46,880 --> 00:21:50,880
+of crypto. And I think as Codex, when they announced, I actually liked their quote where
+
+270
+00:21:50,880 --> 00:21:54,880
+they said that right now, I think the way people are building on stablecoins is kind of like,
+
+271
+00:21:54,880 --> 00:21:58,880
+I think they said it's like jerry-rigging together a bunch of plumbing that wasn't built
+
+272
+00:21:58,880 --> 00:22:03,040
+for this purpose originally. And I actually do resonate with that. And I can go into details
+
+273
+00:22:03,040 --> 00:22:07,600
+around exactly why that is the case. But yeah, that being said, obviously there are already
+
+274
+00:22:07,600 --> 00:22:11,600
+like trillions of dollars worth of stablecoins being transacted on existing chains. So it's
+
+275
+00:22:11,600 --> 00:22:16,800
+not that they don't work, but I think it's actually that stablecoin solves such a big problem that
+
+276
+00:22:16,800 --> 00:22:21,680
+the existing chains are a good enough solution for now, even despite like where they do lack.
+
+277
+00:22:21,840 --> 00:22:25,920
+I think if we want to really scale this thing, we really want to scale stablecoin use cases.
+
+278
+00:22:25,920 --> 00:22:30,880
+I think we do think that these stablecoin chains do serve value. And specifically,
+
+279
+00:22:30,880 --> 00:22:35,840
+there's probably a few categories off the top of my head. The first is actually related to compliance.
+
+280
+00:22:35,840 --> 00:22:40,320
+And so I think the fact that public block like, you know, fully permissionless blockchains have
+
+281
+00:22:40,320 --> 00:22:44,560
+permissionless validators is actually a problem for adoption for like certain institutions.
+
+282
+00:22:44,560 --> 00:22:49,280
+Because when you make a transaction, you could be then directly paying like a validator in North
+
+283
+00:22:49,280 --> 00:22:54,000
+Korea, for example. And that's kind of just no go for a lot of institutions. And so I'm pretty
+
+284
+00:22:54,000 --> 00:22:58,320
+sure all of these chains are building permission validators, if there are no one. And then the
+
+285
+00:22:58,320 --> 00:23:03,200
+other two are more like UI, UX related. One is just like, it actually doesn't really make sense
+
+286
+00:23:03,200 --> 00:23:08,320
+to use arbitrary volatile tokens to be paying for transactions, right? That's clearly not built
+
+287
+00:23:08,320 --> 00:23:13,040
+for stablecoin transactions. And we do have the things abstract that away, but it's sort of like,
+
+288
+00:23:13,040 --> 00:23:16,560
+that's not really how it should be built from first principles. And I think the final one is
+
+289
+00:23:16,560 --> 00:23:20,720
+just privacy. So publicly owned blockchains, you know, it's kind of a feature and a bug where
+
+290
+00:23:20,720 --> 00:23:25,680
+it is fully public. But like, if you are getting your salary paid in stable coins, I'm sure you
+
+291
+00:23:25,680 --> 00:23:30,080
+don't prefer that to be public, right? So yeah, that's kind of like our view on all of various
+
+292
+00:23:30,080 --> 00:23:34,720
+chains and yes, specifically stablecoin chains. Yeah. Another argument I've heard, which I think
+
+293
+00:23:34,720 --> 00:23:40,560
+makes sense is that to your point earlier, most of the chains we interact with today are built for
+
+294
+00:23:40,560 --> 00:23:46,960
+permissionless finance and a permissionless building out of use cases. Presumably an enterprise
+
+295
+00:23:46,960 --> 00:23:52,560
+grade chain that's meant to settle stable coins would actually be limited in scope and functionality
+
+296
+00:23:52,560 --> 00:23:58,720
+in terms of certain financial use cases, in terms of asset issuance, in terms of some guardrails
+
+297
+00:23:58,720 --> 00:24:04,960
+that would give comfort, just more so that the users of traditional institutions wouldn't
+
+298
+00:24:04,960 --> 00:24:10,240
+potentially venture onto something that could be either dangerous from a security perspective or
+
+299
+00:24:10,240 --> 00:24:16,080
+from a high risk perspective. So we believe, and it looks to be the case that that stable coins
+
+300
+00:24:16,080 --> 00:24:21,200
+will continue to grow as a share of on-chain assets. And with that in mind will be a growing
+
+301
+00:24:22,080 --> 00:24:28,160
+piece of DeFi. How do you think DeFi evolves around that stable coin growth and as stable
+
+302
+00:24:28,160 --> 00:24:33,600
+coins constitute a wider share of on-chain assets and of DeFi? Yeah, I mean, I think DeFi is like
+
+303
+00:24:33,600 --> 00:24:39,280
+built to support both stable as well as non-stable activity. And so we might have DeFi protocols that
+
+304
+00:24:39,280 --> 00:24:43,920
+are specifically built to make stable coins or yield bearing stable coins more useful.
+
+305
+00:24:43,920 --> 00:24:48,240
+But I think generally speaking, I do believe that's probably what we're going to evolve into.
+
+306
+00:24:48,240 --> 00:24:53,120
+And this is basically just like, we're going to start seeing relatively less speculative activity
+
+307
+00:24:53,120 --> 00:24:58,720
+in DeFi and then have more of these stable coin or dollar pegged type of assets.
+
+308
+00:24:58,720 --> 00:25:02,320
+And this sort of goes back to what I was saying earlier, if we look at traditional finance,
+
+309
+00:25:02,320 --> 00:25:06,400
+like the fixed income market is bigger than the equities market. And I think right now,
+
+310
+00:25:06,400 --> 00:25:11,760
+if you compare the speculative side of crypto to equities and then the stable coin side to
+
+311
+00:25:11,760 --> 00:25:16,720
+fixed income, well, if anything, actually, I think stable coins is already almost like on par now.
+
+312
+00:25:16,720 --> 00:25:20,480
+And so I think we will see more of that. And I think that's going to be like the longer term
+
+313
+00:25:20,480 --> 00:25:24,080
+trend because at the end of the day, pure speculation, it's always going to be around.
+
+314
+00:25:24,080 --> 00:25:28,400
+That's why casinos exist too. But at the end of the day, casinos are a much smaller market than
+
+315
+00:25:28,400 --> 00:25:34,720
+like actually a functional finance. Yep, makes sense. In your view, is there also a white space
+
+316
+00:25:34,720 --> 00:25:38,960
+for stable coins pegged to other fiat currencies? That's been another topic people have been talking
+
+317
+00:25:38,960 --> 00:25:42,960
+about recently. Or do you think this stays mostly dollarized? No, I think absolutely. I mean,
+
+318
+00:25:42,960 --> 00:25:47,520
+I think in DeFi, I think US dollar stable coins will dominate just because it's become kind of
+
+319
+00:25:47,520 --> 00:25:52,320
+like, I mean, even in Tradify, the US dollar is the global reserve currency. And then in DeFi,
+
+320
+00:25:52,320 --> 00:25:57,760
+when it's even more borderless, it's even more so. Yeah, so DeFi use cases, I still do think US dollar
+
+321
+00:25:57,760 --> 00:26:03,680
+stable coins will dominate. And then for like real world use cases, like the reality is most places
+
+322
+00:26:03,680 --> 00:26:07,920
+outside the US, a lot of them don't accept US dollars, even though I guess people are starting
+
+323
+00:26:07,920 --> 00:26:13,600
+to accept them more. And so for I think to increase adoption in those jurisdictions, it's like
+
+324
+00:26:13,600 --> 00:26:17,840
+basically every currency, I think will need their own stable coin. And there's actually a lot of
+
+325
+00:26:17,840 --> 00:26:22,160
+room to grow for them. And then that being said, it's kind of like if you do have stable coins
+
+326
+00:26:22,160 --> 00:26:26,960
+other currencies, and they're on chain, then there is like this market for I think, games and like
+
+327
+00:26:26,960 --> 00:26:32,080
+trading around different currencies, stable coins. So yeah, so I think it will grow a lot. We're not
+
+328
+00:26:32,080 --> 00:26:37,040
+going to see a future where we only have US dollar stable coins being 99% of the market,
+
+329
+00:26:37,040 --> 00:26:42,720
+especially as we develop more real world use cases. Got it. No, it's very helpful. And is the core
+
+330
+00:26:42,720 --> 00:26:48,160
+product level USD? Is that going to be the primary focus for the time being? Are you guys going to
+
+331
+00:26:48,160 --> 00:26:52,480
+look into these other sorts of stable coin primitives or, or what's on your mind going forward?
+
+332
+00:26:53,280 --> 00:26:58,080
+Yeah, good question. We sort of think about growth in two phases for new stable coins is always the
+
+333
+00:26:58,080 --> 00:27:02,640
+first part, which is scaling and building up like credibility and essentially a brand as a stable
+
+334
+00:27:02,640 --> 00:27:07,520
+coin. So I think during this phase, we're going to essentially focus on what we're doing now,
+
+335
+00:27:07,520 --> 00:27:11,360
+which is like this more defi native stable coin built on lending protocols,
+
+336
+00:27:11,360 --> 00:27:16,480
+because like continue to consistently offer more attractive risk return profile. So this includes
+
+337
+00:27:16,480 --> 00:27:22,960
+high yield, continue our low risk strategies, and then also just really increase like the utility
+
+338
+00:27:22,960 --> 00:27:26,400
+and capital efficiency through just like integrating with a lot of defi protocols.
+
+339
+00:27:27,040 --> 00:27:31,760
+Our view is actually that new stable coins actually have to expand beyond just being a
+
+340
+00:27:31,760 --> 00:27:35,760
+stable coin issuer. I think there's a lot of different ways to do this, but I think I'm
+
+341
+00:27:35,760 --> 00:27:40,400
+stealing a quote probably from an MZero interview. I think one of the founders or someone there was
+
+342
+00:27:40,400 --> 00:27:45,760
+saying that the stable coins now are kind of like the Blackberries or like the Nokia's in the early
+
+343
+00:27:45,760 --> 00:27:52,080
+days of phones. And then as we've seen, obviously like pure phone makers, they lost, right? And I
+
+344
+00:27:52,080 --> 00:27:56,320
+think that's kind of like potentially how to think about stable coins. Now it's like, if you're just
+
+345
+00:27:56,320 --> 00:28:00,960
+a stable coin issuer, that means you're the equivalent of just being like a phone manufacturer.
+
+346
+00:28:00,960 --> 00:28:05,520
+And we've obviously seen like, you know, Apple's the most successful phone of all time. And the
+
+347
+00:28:05,520 --> 00:28:09,440
+reason for that is because they were building value add like it's products on top of that,
+
+348
+00:28:09,440 --> 00:28:13,760
+including like the App Store and a bunch of other things. And so I think especially for new stable
+
+349
+00:28:13,760 --> 00:28:18,720
+coins, like the low hanging fruit of partnering with exchanges or like trying to basically get
+
+350
+00:28:18,720 --> 00:28:24,240
+distribution, purely partnering up or paying for distribution is probably not going to be enough.
+
+351
+00:28:24,240 --> 00:28:28,960
+And so we do believe that stable coins do need to build value add services themselves to increase
+
+352
+00:28:28,960 --> 00:28:33,200
+their distribution. Like I said, there's a lot of different ways you can approach this. And this is
+
+353
+00:28:33,200 --> 00:28:37,440
+something that we're thinking a lot about, not going to reveal I think too much here, but yeah,
+
+354
+00:28:37,440 --> 00:28:41,600
+that's the idea is that we will be moving into building products that are going to increase
+
+355
+00:28:41,600 --> 00:28:46,560
+like the utility as well as the use case and distribution of our core primitives, which is
+
+356
+00:28:46,560 --> 00:28:52,320
+level USD. Very cool. And broadly speaking, I wanted to ask in closing here, what are you
+
+357
+00:28:52,320 --> 00:28:56,320
+excited about and what keeps you up at night? In general, I'm actually just very excited about
+
+358
+00:28:56,320 --> 00:29:01,200
+crypto, which is probably right now a little bit contrarian because you obviously see so much doom
+
+359
+00:29:01,200 --> 00:29:05,520
+with crypto, but I guess that is more related to like the speculative side. And if anything,
+
+360
+00:29:05,520 --> 00:29:09,360
+like when it's a bear market and I keep stealing people's calls, I think it was like Sam from
+
+361
+00:29:09,360 --> 00:29:13,840
+Frax that said this, a bear market for crypto or like for the markets is actually a bull market
+
+362
+00:29:13,840 --> 00:29:18,960
+for stable coins. And so yeah, kind of despite the rest of the market and you know, obviously
+
+363
+00:29:18,960 --> 00:29:23,280
+want everyone to stay safe, not lose their money, but it's kind of like actually a really good time
+
+364
+00:29:23,280 --> 00:29:27,760
+for stable coins to be building. And I think we're seeing so many stable coin issuers as
+
+365
+00:29:27,760 --> 00:29:32,160
+well as stable coin use cases and just all of this like stuff that's being built around stable
+
+366
+00:29:32,160 --> 00:29:37,760
+coins and just super excited about like the future of crypto being driven by stable coins.
+
+367
+00:29:37,760 --> 00:29:41,760
+In terms of what keeps me up at night, it's kind of like the other side of the coin, which is just
+
+368
+00:29:41,760 --> 00:29:46,160
+like, this is a massive, massive opportunity. Yeah. What I spend most of my time thinking
+
+369
+00:29:46,160 --> 00:29:50,800
+about is like, how do we build products to actually be able to capture this opportunity?
+
+370
+00:29:50,800 --> 00:29:54,320
+Because it's like, not everyone's going to be a winner. There is a lot of competition. And then
+
+371
+00:29:54,320 --> 00:29:58,560
+it's like, I think we do have to be very strategic about what we build and how we go to market.
+
+372
+00:29:58,560 --> 00:30:01,600
+Yeah. That's probably just like what I spend most of my days and nights thinking about.
+
+373
+00:30:02,240 --> 00:30:06,160
+Awesome. Well, I'll leave it there. Keddy, and thanks for coming on and really enjoyed
+
+374
+00:30:06,160 --> 00:30:09,120
+chatting. Hopefully we can do it again soon. Yeah, I appreciate it. This was fun.
+
+375
+00:30:10,480 --> 00:30:14,800
+Thanks for listening to another episode of On the Brink with Castle Island. To find out
+
+376
+00:30:14,800 --> 00:30:21,280
+more about Castle Island, visit castleisland.vc. To listen to all of our podcast episodes,
+
+377
+00:30:21,280 --> 00:30:28,320
+please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for listening.
+

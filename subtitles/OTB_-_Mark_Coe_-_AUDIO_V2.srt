@@ -1,0 +1,1860 @@
+1
+00:00:00,000 --> 00:00:04,560
+Today on the podcast, I sat down with Mark Ko, the founder and CIO of Intrinsic Edge
+
+2
+00:00:04,560 --> 00:00:08,480
+Capital Management, a long short hedge fund based in Chicago.
+
+3
+00:00:08,480 --> 00:00:12,440
+We originally had Mark on the podcast four years ago when he launched his Digital Infrastructure
+
+4
+00:00:12,440 --> 00:00:16,760
+Fund, a vehicle that makes investments in public equities in the blockchain industry.
+
+5
+00:00:16,760 --> 00:00:21,360
+And a lot has definitely changed over those last four years with many more public names
+
+6
+00:00:21,360 --> 00:00:26,000
+and the complete evolution of the Bitcoin mining industry with the emergence of LLMs.
+
+7
+00:00:26,000 --> 00:00:27,720
+I think you'll enjoy this conversation.
+
+8
+00:00:27,720 --> 00:00:30,760
+So without further ado, here's Mark Ko.
+
+9
+00:00:30,760 --> 00:00:33,120
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+10
+00:00:33,120 --> 00:00:35,720
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+11
+00:00:35,720 --> 00:00:38,320
+and do not reflect the opinions of Castle Island Ventures.
+
+12
+00:00:38,320 --> 00:00:40,720
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+13
+00:00:40,720 --> 00:00:44,000
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+14
+00:00:44,000 --> 00:00:47,640
+to make a particular investment or follow a particular strategy, but only as an expression
+
+15
+00:00:47,640 --> 00:00:48,640
+of their personal opinion.
+
+16
+00:00:48,640 --> 00:00:51,800
+This podcast is for informational purposes only.
+
+17
+00:00:51,800 --> 00:00:56,840
+Down by bad mortgage investments, Lehman, which has 25,000 employees, will be liquidated.
+
+18
+00:00:56,840 --> 00:01:01,560
+The federal government loans American International Group, AIG, 85 billion dollars.
+
+19
+00:01:01,560 --> 00:01:04,400
+This is a different kind of market and the Fed is asleep.
+
+20
+00:01:04,400 --> 00:01:08,600
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+
+21
+00:01:08,600 --> 00:01:11,080
+giants that have been threatened by the housing crisis.
+
+22
+00:01:11,080 --> 00:01:14,920
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+23
+00:01:14,920 --> 00:01:16,440
+with a new round of quantitative easing.
+
+24
+00:01:16,440 --> 00:01:19,720
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+25
+00:01:19,720 --> 00:01:23,360
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+
+26
+00:01:23,360 --> 00:01:28,480
+Mark, I can't believe it's been four years since the last time you were on this podcast.
+
+27
+00:01:28,480 --> 00:01:32,840
+Thankfully, we talk a lot in the interim, but four years, we're doing this every Olympics,
+
+28
+00:01:32,840 --> 00:01:33,840
+it sounds like.
+
+29
+00:01:33,840 --> 00:01:34,840
+It's uncanny, man.
+
+30
+00:01:34,840 --> 00:01:36,440
+I can't believe it.
+
+31
+00:01:36,440 --> 00:01:40,480
+Just thinking back to what the world looked like back then versus now, obviously we're
+
+32
+00:01:40,480 --> 00:01:43,240
+going to have a ton to talk about on the podcast.
+
+33
+00:01:43,240 --> 00:01:46,040
+Maybe a good place to start for folks that didn't listen to the first time you were on
+
+34
+00:01:46,040 --> 00:01:47,040
+the podcast.
+
+35
+00:01:47,160 --> 00:01:50,760
+Let's just start with maybe a little bit of background on you and what is Intrinsic Edge?
+
+36
+00:01:51,520 --> 00:01:52,360
+Yeah, sure, Matt.
+
+37
+00:01:52,360 --> 00:01:57,680
+I was raised in Chicago, background as in finance and as a CPA.
+
+38
+00:01:58,160 --> 00:02:02,560
+In my early 20s, I developed a passion for investing, all sorts of investing.
+
+39
+00:02:02,920 --> 00:02:04,960
+And for me, it's a hobby.
+
+40
+00:02:05,280 --> 00:02:10,680
+In my 30s, I launched Intrinsic Edge Capital Management, which was in the 1990s.
+
+41
+00:02:10,680 --> 00:02:16,200
+It dates me. And Intrinsic Edge Capital Management is in the public markets and it's
+
+42
+00:02:16,320 --> 00:02:20,280
+in equities. We run a long, short domestic equity strategy.
+
+43
+00:02:20,680 --> 00:02:24,440
+We're generalists and been doing it a long time.
+
+44
+00:02:24,440 --> 00:02:29,200
+We have several funds and we built the firm and the team.
+
+45
+00:02:29,200 --> 00:02:35,880
+We've got about 20 employees, hundreds of investors and still having a lot of fun
+
+46
+00:02:35,880 --> 00:02:39,400
+doing it. And we cover different industries.
+
+47
+00:02:39,400 --> 00:02:44,920
+And going back four years ago, we launched this digital infrastructure
+
+48
+00:02:45,200 --> 00:02:48,200
+strategy and look forward to talking about it today.
+
+49
+00:02:48,880 --> 00:02:51,840
+Well, I definitely want to talk about the digital infrastructure strategy, and I guess I
+
+50
+00:02:51,840 --> 00:02:55,080
+should disclose that I'm an investor, a happy investor in that fund.
+
+51
+00:02:55,600 --> 00:02:59,480
+Maybe just dialing back the clock on that, what was the impetus to even start the
+
+52
+00:02:59,480 --> 00:03:03,240
+digital infrastructure fund and maybe talk a little bit about what it's been like over
+
+53
+00:03:03,240 --> 00:03:04,240
+the past couple of years?
+
+54
+00:03:05,040 --> 00:03:07,400
+There was a lot of enthusiasm.
+
+55
+00:03:07,520 --> 00:03:14,080
+This goes back like five years ago where Bitcoin made its earlier run and people
+
+56
+00:03:14,080 --> 00:03:17,960
+were trying to understand what was going on and how to invest.
+
+57
+00:03:18,400 --> 00:03:20,360
+And I had some curiosity.
+
+58
+00:03:20,360 --> 00:03:23,320
+I invested in Castle Island and some other strategies.
+
+59
+00:03:23,320 --> 00:03:28,240
+But this wasn't a discipline that I had a great understanding for.
+
+60
+00:03:28,680 --> 00:03:32,680
+And when clients would ask me, you know, what do I think and how do I invest?
+
+61
+00:03:33,000 --> 00:03:37,360
+I didn't have a great answer for them as I was kind of developing my understanding.
+
+62
+00:03:37,880 --> 00:03:42,960
+But there was enough interest that I started looking into the public markets and
+
+63
+00:03:43,000 --> 00:03:48,720
+equities that had touch store were predominantly exposed to blockchain and
+
+64
+00:03:48,720 --> 00:03:50,480
+crypto businesses.
+
+65
+00:03:51,080 --> 00:03:54,360
+That is a discipline I really understand as a generalist.
+
+66
+00:03:54,360 --> 00:04:00,200
+We think about revenues and margins and earnings and putting evaluation on it.
+
+67
+00:04:00,200 --> 00:04:04,000
+And for every industry that's an operating business is pretty much the same.
+
+68
+00:04:04,560 --> 00:04:06,640
+So I had a lot of inquiries.
+
+69
+00:04:06,640 --> 00:04:11,640
+We were doing work in the public markets and it was really exciting.
+
+70
+00:04:11,680 --> 00:04:16,400
+And we launched that fund in June of 2021.
+
+71
+00:04:16,760 --> 00:04:21,680
+And you asked a kind of about the journey, as we all know, it's been a cyclical
+
+72
+00:04:21,680 --> 00:04:25,720
+market. Historically, it wasn't a great time to start the fund because certainly
+
+73
+00:04:25,720 --> 00:04:30,280
+thereafter that meltdown had started and Bitcoin, which was trading in the 30s,
+
+74
+00:04:30,280 --> 00:04:31,880
+traded down to the mid teens.
+
+75
+00:04:31,880 --> 00:04:36,480
+And the public equities are correlated to the underlying crypto.
+
+76
+00:04:36,480 --> 00:04:40,960
+And the equities are measured by BLOK, which is a ETF.
+
+77
+00:04:41,200 --> 00:04:46,600
+They were down like 80 percent from peak to trough from 21 to 22.
+
+78
+00:04:47,000 --> 00:04:50,480
+It wasn't a very fun time considering we were a long bias fund.
+
+79
+00:04:50,960 --> 00:04:55,640
+We had a monstera down and I was really wondering why we ever got into this.
+
+80
+00:04:56,080 --> 00:04:57,280
+But that was the impetus.
+
+81
+00:04:57,280 --> 00:05:01,320
+And then things in the ecosystem bottom.
+
+82
+00:05:01,760 --> 00:05:07,080
+And we came off of that trough with results that I'm proud of the last few
+
+83
+00:05:07,080 --> 00:05:08,520
+years and going strong.
+
+84
+00:05:08,960 --> 00:05:11,320
+That's an understatement, to say the least, on the results side.
+
+85
+00:05:11,320 --> 00:05:15,200
+So maybe a good place to also just dive in here would be the categories of
+
+86
+00:05:15,200 --> 00:05:18,440
+businesses that are even interesting or addressable for you.
+
+87
+00:05:18,440 --> 00:05:22,360
+I'd imagine that a lot of these things looked like just Bitcoin mining companies
+
+88
+00:05:22,360 --> 00:05:26,080
+in the early days. And curious what that landscape looks like now in terms of the
+
+89
+00:05:26,080 --> 00:05:29,480
+categories of businesses that you would even evaluate an investment in.
+
+90
+00:05:30,280 --> 00:05:31,440
+It really is interesting.
+
+91
+00:05:31,440 --> 00:05:36,040
+And it's really morphed into there's been a convergence of industries
+
+92
+00:05:36,760 --> 00:05:41,720
+between traditional businesses and blockchain infrastructure.
+
+93
+00:05:41,720 --> 00:05:45,960
+So I'll talk in a bit more about the miners and how they've
+
+94
+00:05:46,280 --> 00:05:48,560
+pivoted their businesses into AI.
+
+95
+00:05:48,920 --> 00:05:52,920
+But you see this across industry sets, including
+
+96
+00:05:53,440 --> 00:05:58,360
+asset managers and exchanges and software and payments
+
+97
+00:05:58,480 --> 00:06:03,400
+and banking. There's crypto focused companies that are
+
+98
+00:06:03,720 --> 00:06:08,520
+broadening their basis into traditional aspects of their industries
+
+99
+00:06:08,920 --> 00:06:13,080
+and vice versa, where many companies are adopting
+
+100
+00:06:13,360 --> 00:06:18,000
+crypto as part of their future, a lot like companies are adopting
+
+101
+00:06:18,000 --> 00:06:22,920
+AI. So there's a hybrid and the addressable market related to our fund has
+
+102
+00:06:22,920 --> 00:06:28,000
+gotten large. As far as companies that are predominantly Bitcoin
+
+103
+00:06:28,080 --> 00:06:32,520
+and crypto and blockchain focus where they're predominant businesses
+
+104
+00:06:32,880 --> 00:06:37,600
+is in those realms. Like that was very small when we started four
+
+105
+00:06:37,600 --> 00:06:42,040
+plus years ago. You know, that's what makes the market so exciting today is
+
+106
+00:06:42,040 --> 00:06:44,600
+because those companies have matured.
+
+107
+00:06:44,800 --> 00:06:46,640
+There's been a lot of syndicate.
+
+108
+00:06:46,920 --> 00:06:50,960
+There's been a bunch more liquidity that's unlocked in these underlying
+
+109
+00:06:50,960 --> 00:06:55,240
+companies that's created like an amazing opportunity set for our fund.
+
+110
+00:06:56,160 --> 00:06:59,760
+I guess the other thing is just the regulatory environment has shifted such that
+
+111
+00:06:59,760 --> 00:07:03,080
+now the banks, the broker dealers have a little bit more clarity on what they can
+
+112
+00:07:03,080 --> 00:07:07,880
+do. IPO window seems to be open right now, less of an overhang,
+
+113
+00:07:07,880 --> 00:07:10,160
+maybe in terms of getting a company public.
+
+114
+00:07:10,600 --> 00:07:12,240
+Would you say that's a factor as well?
+
+115
+00:07:13,120 --> 00:07:18,120
+It's been a huge factor. Like there was such a pivot just before the election.
+
+116
+00:07:18,240 --> 00:07:23,240
+And Trump has obviously been constructive in the industry and his family's
+
+117
+00:07:23,240 --> 00:07:25,760
+involved privately and in the public markets.
+
+118
+00:07:26,240 --> 00:07:30,840
+And there's been some important legislation that's helped create the clarity
+
+119
+00:07:30,840 --> 00:07:35,240
+that the industry was looking for to make capital investments in the industry.
+
+120
+00:07:35,880 --> 00:07:40,320
+That all has precipitated like a ton of syndicate that we could talk about.
+
+121
+00:07:40,360 --> 00:07:44,800
+And a lot of companies lining up to join the fray.
+
+122
+00:07:45,320 --> 00:07:51,000
+The legislative handcuffs have been unlocked and it's clear that there'll be
+
+123
+00:07:51,120 --> 00:07:55,040
+tons of additional opportunity as legislation improves.
+
+124
+00:07:55,880 --> 00:07:59,040
+One of the biggest things that's happening this year, I would say, at least in the
+
+125
+00:07:59,040 --> 00:08:02,040
+venture world, there's just everyone talking about these digital asset treasury
+
+126
+00:08:02,040 --> 00:08:05,800
+companies. And kind of surprising to me to see a lot of venture funds investing in
+
+127
+00:08:05,800 --> 00:08:09,480
+some of these things. But what's your take on what we're seeing with these DATs?
+
+128
+00:08:09,480 --> 00:08:12,200
+And curious if this is sustainable in your eyes.
+
+129
+00:08:13,120 --> 00:08:16,280
+I've done my best, Matt, to try to understand this business.
+
+130
+00:08:16,280 --> 00:08:21,120
+And it resembles a lot of situations before because there's been a ton of value
+
+131
+00:08:21,120 --> 00:08:25,880
+creation and you have to wonder why the predominant number of these companies
+
+132
+00:08:25,880 --> 00:08:30,760
+don't have any other business other than issuing shares or leveraging up in
+
+133
+00:08:30,760 --> 00:08:35,240
+creative ways and buying Bitcoin and other crypto currencies.
+
+134
+00:08:35,640 --> 00:08:40,480
+And they've used a very inflated market valuation to do so, which has been
+
+135
+00:08:40,480 --> 00:08:47,000
+amazing. But I'm skeptical because that really works in a sensible mind
+
+136
+00:08:47,160 --> 00:08:52,680
+in a healthy crypto environment, as far as like pricing.
+
+137
+00:08:52,680 --> 00:08:58,120
+And at such time, we're going to get the next correction in Bitcoin and
+
+138
+00:08:58,120 --> 00:08:59,560
+Solana and Ethereum.
+
+139
+00:09:00,040 --> 00:09:05,600
+I'm worried that these NAVs are going to collapse and in many cases trade below
+
+140
+00:09:05,600 --> 00:09:10,040
+NAV. You're already seeing some of that because there's been such a flurry.
+
+141
+00:09:10,040 --> 00:09:15,120
+I think Michael Saylor at a conference last week talked about the number of these
+
+142
+00:09:15,600 --> 00:09:21,840
+companies just in Bitcoin to go from 64 at the beginning of the year to 190 by
+
+143
+00:09:21,960 --> 00:09:28,400
+last week. 190 public companies just doing Bitcoin treasury, which own a million
+
+144
+00:09:28,480 --> 00:09:32,400
+Bitcoin or about 5% of everything outstanding on their balance sheets.
+
+145
+00:09:32,920 --> 00:09:38,600
+So you're seeing a big disparity right now relating to the valuations.
+
+146
+00:09:38,880 --> 00:09:41,720
+Some of them really haven't got out of the box and are trading at discounts.
+
+147
+00:09:41,760 --> 00:09:47,200
+Others still trade at three, five, even 20 times and have very inefficient.
+
+148
+00:09:47,840 --> 00:09:51,200
+It's a great time for us to look at arbitrage opportunities.
+
+149
+00:09:51,760 --> 00:09:56,760
+You could buy ETFs or broken treasuries against the inflated ones.
+
+150
+00:09:56,800 --> 00:10:01,200
+But over time, I'm just concerned that I think it's about 20 billion dollars that
+
+151
+00:10:01,200 --> 00:10:05,960
+have been put into the space is all but a handful are likely to trade at a discount.
+
+152
+00:10:05,960 --> 00:10:07,440
+Ultimately, is my concern.
+
+153
+00:10:08,160 --> 00:10:11,560
+Yeah. I mean, if you just look at this academically, I think you'd be saying this
+
+154
+00:10:11,560 --> 00:10:14,600
+looks like it's something that could attract activist investors.
+
+155
+00:10:14,920 --> 00:10:19,200
+I really doubt the convert market can handle this scale of capital from some of
+
+156
+00:10:19,200 --> 00:10:24,000
+these issuers. I'm not sure why the seventh largest coin on coin market cap needs
+
+157
+00:10:24,000 --> 00:10:27,160
+its fourth debt. It just seems like we've saturated the market a little bit in the
+
+158
+00:10:27,160 --> 00:10:29,080
+category. Yeah, for sure.
+
+159
+00:10:29,080 --> 00:10:32,840
+As I mentioned, some of the discounts have collapsed and others have.
+
+160
+00:10:33,400 --> 00:10:39,080
+I've seen two deals pulled in the last week that were on peripheral currencies.
+
+161
+00:10:39,400 --> 00:10:43,360
+I think there's only so much capacity that could go into the space.
+
+162
+00:10:43,960 --> 00:10:48,200
+I would just say that like this whole thing, because it's blown up this year,
+
+163
+00:10:48,440 --> 00:10:53,120
+there just isn't a lot of commitment on the buy side that I could tell because it
+
+164
+00:10:53,120 --> 00:10:57,200
+takes an inordinate amount of work to track each company, what's on their balance
+
+165
+00:10:57,200 --> 00:11:02,360
+sheet, the shares issued, the capital structure, when the unlocks may be
+
+166
+00:11:02,360 --> 00:11:08,480
+happening. They're using ATMs, so you don't really know how many shares are
+
+167
+00:11:08,680 --> 00:11:12,200
+outstanding. And then you have to consider borrow rates.
+
+168
+00:11:12,240 --> 00:11:16,040
+I was looking at borrow rates and some of these earlier this week, and the ones
+
+169
+00:11:16,040 --> 00:11:20,080
+with unlocks range from like 100 percent to 500 percent if you get a borrow at
+
+170
+00:11:20,080 --> 00:11:23,200
+all. So those are just nuances on the trades.
+
+171
+00:11:23,200 --> 00:11:27,080
+And then longer term, you got to think about the fees and the management teams
+
+172
+00:11:27,080 --> 00:11:30,000
+and what else they may be doing that's differentiated.
+
+173
+00:11:30,000 --> 00:11:33,200
+But it's very complicated and it's like the Wild West.
+
+174
+00:11:33,240 --> 00:11:37,560
+I don't think anybody can be dialed on everything that's going on because it's
+
+175
+00:11:37,560 --> 00:11:38,560
+so fluid.
+
+176
+00:11:39,040 --> 00:11:42,040
+I want to shift gears a little bit and talk about the Bitcoin mining space.
+
+177
+00:11:42,040 --> 00:11:45,560
+This is historically not a space that we've really ever invested in just because
+
+178
+00:11:45,560 --> 00:11:47,720
+of the capital intensity of the business.
+
+179
+00:11:48,000 --> 00:11:51,400
+But obviously, a lot of these things have gone public over the past decade.
+
+180
+00:11:51,400 --> 00:11:56,120
+So curious just your views on where that industry was when you started the fund
+
+181
+00:11:56,120 --> 00:11:57,520
+and then where it is today.
+
+182
+00:11:58,320 --> 00:12:00,040
+You mentioned this was four years ago.
+
+183
+00:12:00,440 --> 00:12:04,960
+It's like yesterday when I was trying to understand these businesses.
+
+184
+00:12:05,000 --> 00:12:09,720
+And even then, I mean, it wasn't that forthright, but from the outset, these are
+
+185
+00:12:09,720 --> 00:12:15,320
+flawed, most challenged industry to compete in than I've ever come across.
+
+186
+00:12:15,880 --> 00:12:22,040
+Building a Bitcoin mine is hugely capital intensive, and it leads to a lot of
+
+187
+00:12:22,040 --> 00:12:24,120
+dilution to build at the outset.
+
+188
+00:12:24,560 --> 00:12:30,760
+And ultimately, when you know how Bitcoin rewards are allocated, you know, these
+
+189
+00:12:30,760 --> 00:12:35,520
+miners are spending a lot of money to chase fixed rewards with increasing
+
+190
+00:12:35,520 --> 00:12:40,080
+difficulty rates, which means the cost of each Bitcoin is more difficult and more
+
+191
+00:12:40,080 --> 00:12:41,560
+challenging and more costly.
+
+192
+00:12:41,560 --> 00:12:46,760
+So when I look at the group and I pulled it up recently, there was no EBITDA
+
+193
+00:12:46,760 --> 00:12:54,160
+growth from the time we launched our fund four and a half years ago through 2024.
+
+194
+00:12:54,480 --> 00:12:57,480
+And that's in the face of how well Bitcoin has done.
+
+195
+00:12:57,520 --> 00:13:01,800
+So they held themselves out as Bitcoin surrogates, but have massively under
+
+196
+00:13:01,800 --> 00:13:04,760
+performed Bitcoin if you just invest in them directly.
+
+197
+00:13:05,160 --> 00:13:08,400
+When you think about it prospectively, it's even worse.
+
+198
+00:13:08,840 --> 00:13:14,760
+There's only five percent of the Bitcoin yet to be mined and difficulty
+
+199
+00:13:14,760 --> 00:13:16,120
+rates continue to go up.
+
+200
+00:13:16,720 --> 00:13:20,400
+China, Russia and Iran are goosing their output.
+
+201
+00:13:20,840 --> 00:13:25,800
+And this is all in the face who would want to invest in more infrastructure here
+
+202
+00:13:25,840 --> 00:13:31,040
+when you've got having in 2028, which is going to virtually wipe out the EBITDA
+
+203
+00:13:31,080 --> 00:13:34,200
+of almost all the public companies in the United States.
+
+204
+00:13:34,200 --> 00:13:40,560
+So in my view, challenged industry and they persevered because Bitcoin has been
+
+205
+00:13:40,560 --> 00:13:46,040
+so strong, but their outlook for Bitcoin profitability beyond 28 is eligible.
+
+206
+00:13:46,920 --> 00:13:50,280
+Kind of crazy to think about competing against nation states that are not
+
+207
+00:13:50,840 --> 00:13:52,040
+economics driven.
+
+208
+00:13:52,400 --> 00:13:54,960
+Some of these countries, you probably have someone in a government that has
+
+209
+00:13:54,960 --> 00:13:58,920
+access to free power and is standing up a mining operation outside the purview
+
+210
+00:13:58,920 --> 00:13:59,720
+of their government.
+
+211
+00:13:59,720 --> 00:14:02,360
+And so it's kind of scary to compete against someone like that.
+
+212
+00:14:03,280 --> 00:14:04,240
+Without question.
+
+213
+00:14:04,240 --> 00:14:08,720
+And I always shook my head on why this would be a good business.
+
+214
+00:14:08,720 --> 00:14:13,680
+And we had to focus on it because when we launched, this was probably 50 percent
+
+215
+00:14:13,680 --> 00:14:17,480
+of the market value in the crypto blockchain ecosystem.
+
+216
+00:14:17,480 --> 00:14:22,200
+And today it's still important, but it's been productive because we're long
+
+217
+00:14:22,200 --> 00:14:25,680
+and short and there's been a lot of alpha opportunities.
+
+218
+00:14:26,480 --> 00:14:29,320
+Maybe that's a good dovetailing to kind of what this looks like today.
+
+219
+00:14:29,680 --> 00:14:34,160
+AI, HPC, I don't know if we talked about that on the podcast four years ago.
+
+220
+00:14:34,160 --> 00:14:35,920
+I mean, the world looks a lot different today.
+
+221
+00:14:36,360 --> 00:14:37,640
+We have chat GPT now.
+
+222
+00:14:37,640 --> 00:14:41,240
+We have a lot of capital going into the AI space, but it seems to me as someone
+
+223
+00:14:41,240 --> 00:14:44,520
+that doesn't follow this every single day that a lot of these businesses have
+
+224
+00:14:44,520 --> 00:14:46,120
+pivoted into the AI space.
+
+225
+00:14:46,280 --> 00:14:48,640
+Curious just what it looks like in the future here.
+
+226
+00:14:49,640 --> 00:14:51,840
+Better to be lucky than to be smart.
+
+227
+00:14:51,840 --> 00:14:56,560
+And I don't know if any of them would share this directly, but I think they
+
+228
+00:14:56,560 --> 00:15:01,400
+basically won a lifeline or lottery ticket like this was not contrived.
+
+229
+00:15:01,800 --> 00:15:09,200
+And one thing that Bitcoin miners had to do well to compete was to access power
+
+230
+00:15:09,200 --> 00:15:10,800
+and have power contracts.
+
+231
+00:15:11,360 --> 00:15:17,280
+Some of them had the foresight to lock up significant power and attractive prices,
+
+232
+00:15:17,800 --> 00:15:21,960
+but never did they ever think that they were going to use this for anything but
+
+233
+00:15:21,960 --> 00:15:27,840
+Bitcoin. What's going on in the last, it's only a little over a year ago when the
+
+234
+00:15:27,840 --> 00:15:32,600
+first deal was announced, but surging demand that we all hear about from the
+
+235
+00:15:32,600 --> 00:15:38,160
+hyperscalers and what are called Neo clouds, which are surrogates that are
+
+236
+00:15:38,200 --> 00:15:41,440
+running these huge data centers and leasing out their GPUs.
+
+237
+00:15:41,920 --> 00:15:45,400
+This demand is really insatiable in their term.
+
+238
+00:15:45,920 --> 00:15:51,480
+Anyone anywhere that has access to power and good land and water and with a good
+
+239
+00:15:51,480 --> 00:15:56,480
+location for latency is very valuable because there's only so much of that
+
+240
+00:15:56,480 --> 00:16:02,520
+available to be energized over the next year or so where you can actually build a
+
+241
+00:16:02,800 --> 00:16:06,640
+data center over the next two years, say by 2027 and be up and running.
+
+242
+00:16:06,640 --> 00:16:13,600
+And there's only a few such sites and some of these Bitcoin miners having to
+
+243
+00:16:13,600 --> 00:16:14,400
+be sitting on them.
+
+244
+00:16:14,800 --> 00:16:18,800
+And the first announcement was with Coreweave and CoreScientific a little over a
+
+245
+00:16:18,800 --> 00:16:22,960
+year ago. Since that time, you know, there's been at least eight other
+
+246
+00:16:22,960 --> 00:16:24,120
+significant deals.
+
+247
+00:16:24,520 --> 00:16:27,960
+And at this point, if you look at the top 10 Bitcoin miners, the public ones,
+
+248
+00:16:28,240 --> 00:16:34,400
+they've all pivoted to say that this direction is their future going forward or
+
+249
+00:16:34,400 --> 00:16:35,320
+part of the future.
+
+250
+00:16:35,800 --> 00:16:40,360
+I visited with citizens, cell site analysts last week that focus on data
+
+251
+00:16:40,360 --> 00:16:47,160
+centers, and I reflected on a report they wrote where there's 54 gigawatts of power
+
+252
+00:16:47,600 --> 00:16:51,880
+shortfall due to the data center demand between now and 2030.
+
+253
+00:16:52,120 --> 00:16:55,440
+I think that's enough to power about 25 million homes.
+
+254
+00:16:55,840 --> 00:17:00,960
+So, again, to suggest these miners were in the right place at the right time is an
+
+255
+00:17:00,960 --> 00:17:04,000
+understatement. The models are much different.
+
+256
+00:17:04,320 --> 00:17:06,720
+It's hugely capital intensive and complex.
+
+257
+00:17:07,080 --> 00:17:12,840
+But when you sign one of these agreements, you get a steady predictable cash flow,
+
+258
+00:17:12,840 --> 00:17:17,760
+which is a lot different and better than the uncertainty about Bitcoin
+
+259
+00:17:17,760 --> 00:17:18,520
+volatility.
+
+260
+00:17:19,360 --> 00:17:22,600
+Do you think that means that Bitcoin mining in the U.S.
+
+261
+00:17:22,600 --> 00:17:27,240
+just kind of tails off to zero and it's just uneconomic miners here?
+
+262
+00:17:27,280 --> 00:17:29,880
+What do you think this means, I guess, more from the perspective of the Bitcoin
+
+263
+00:17:29,880 --> 00:17:32,000
+network and where this is mined?
+
+264
+00:17:32,960 --> 00:17:37,960
+I've given that some thought and most of the companies I'm speaking with have
+
+265
+00:17:38,160 --> 00:17:43,440
+either reached their run rate for their production on their exit hash or their
+
+266
+00:17:43,880 --> 00:17:47,680
+targeting growth, you know, maybe for the next year and then they're going to peak
+
+267
+00:17:47,680 --> 00:17:53,120
+out. But that will be their persistent run rate until 2028.
+
+268
+00:17:53,560 --> 00:17:59,120
+And when you do the math on the halving as we have, yeah, I think most of the
+
+269
+00:17:59,240 --> 00:18:00,680
+capacity in the U.S.
+
+270
+00:18:00,680 --> 00:18:03,800
+will be uneconomic and be mothballed.
+
+271
+00:18:04,400 --> 00:18:10,560
+Either it'll be run complimentary as a secondary business to these companies,
+
+272
+00:18:10,560 --> 00:18:14,600
+HPC initiatives, or will just be curtailed.
+
+273
+00:18:14,640 --> 00:18:21,080
+So I do think the way things look, that the direction for Bitcoin mining in the
+
+274
+00:18:21,080 --> 00:18:25,960
+U.S., at least for these public providers, will be meaningfully lower as we look
+
+275
+00:18:26,080 --> 00:18:29,080
+forward into 2028 and beyond.
+
+276
+00:18:29,600 --> 00:18:34,000
+Yeah, I guess there's other factors there around what if a fee market emerges on
+
+277
+00:18:34,000 --> 00:18:35,480
+top of the block reward?
+
+278
+00:18:35,720 --> 00:18:37,720
+Obviously, the price of Bitcoin factors into this.
+
+279
+00:18:37,760 --> 00:18:40,880
+But from where we sit today, I'd say I agree with you.
+
+280
+00:18:40,880 --> 00:18:44,560
+It's hard to imagine that if you have the opportunity to power in the HPC
+
+281
+00:18:44,560 --> 00:18:47,120
+category, why would you be mining Bitcoin?
+
+282
+00:18:47,800 --> 00:18:51,080
+Without question. And if you haven't asked what I'm thinking about, though, is
+
+283
+00:18:51,440 --> 00:18:55,200
+it's a really curious time for these companies because they've never built an
+
+284
+00:18:55,200 --> 00:18:58,440
+HPC AI data center and they're very complex.
+
+285
+00:18:58,440 --> 00:18:59,760
+And this is a new initiative.
+
+286
+00:18:59,760 --> 00:19:05,560
+So while it is kind of opaque what their future is in Bitcoin mining, there are a
+
+287
+00:19:05,560 --> 00:19:10,360
+lot of uncertainties and execution around building a different business that these
+
+288
+00:19:10,360 --> 00:19:11,480
+companies have not been in.
+
+289
+00:19:11,880 --> 00:19:14,840
+That actually kind of dovetails into where I want to go next, which is just how
+
+290
+00:19:14,840 --> 00:19:18,280
+do you differentiate these companies that started as Bitcoin miners?
+
+291
+00:19:18,280 --> 00:19:20,440
+Like, what does it take to win in the category?
+
+292
+00:19:21,160 --> 00:19:27,400
+In the past, I've thought that those that are ready earlier are the de facto
+
+293
+00:19:27,400 --> 00:19:31,720
+winners. But at the end of the day, it's really just how much power you have, how
+
+294
+00:19:31,720 --> 00:19:37,280
+quality it is and how soon it can be energized and how close you may be to a grid
+
+295
+00:19:37,280 --> 00:19:38,640
+or an urban area.
+
+296
+00:19:39,160 --> 00:19:44,560
+When I think about investing in the space, some of the participants or players have
+
+297
+00:19:44,560 --> 00:19:47,120
+already contracted most of their megawatts.
+
+298
+00:19:47,520 --> 00:19:50,760
+Those have been repriced higher because of the visibility of the cash flow.
+
+299
+00:19:51,120 --> 00:19:55,200
+With that said, there's not a lot of upside to their business models over the next few
+
+300
+00:19:55,200 --> 00:20:00,320
+years, given those stocks have been revalued to kind of the way we look at the present
+
+301
+00:20:00,320 --> 00:20:03,760
+value of the payments once those data centers are up and running.
+
+302
+00:20:04,160 --> 00:20:10,200
+So when we try to distinguish and we wonder or try to discern who has those best
+
+303
+00:20:10,200 --> 00:20:15,720
+assets, who's most likely next in the queue to sign meaningful contracts.
+
+304
+00:20:15,920 --> 00:20:21,720
+And I'm trying to simplify that much and it has really almost nothing to do with
+
+305
+00:20:21,720 --> 00:20:23,960
+their Bitcoin businesses, believe it or not.
+
+306
+00:20:24,320 --> 00:20:28,160
+Yeah, it just sounds like just this insatiable demand for power and energy.
+
+307
+00:20:28,760 --> 00:20:33,040
+You seeing any indication that nuclear will be a solution here that either factors
+
+308
+00:20:33,040 --> 00:20:36,760
+into the AI HPC market or to the Bitcoin market for that matter?
+
+309
+00:20:37,720 --> 00:20:43,320
+It's really interesting how our digital infrastructure strategy has evolved or
+
+310
+00:20:43,360 --> 00:20:48,160
+dovetailed, but these grids have tremendous demands.
+
+311
+00:20:48,160 --> 00:20:50,280
+And I mentioned, you know, the shortfall.
+
+312
+00:20:50,600 --> 00:20:55,600
+And so these utilities are being very mindful about signing new contracts.
+
+313
+00:20:55,600 --> 00:21:01,440
+And even when you sign a contract, these AI HPC and cloud computing centers, they
+
+314
+00:21:01,440 --> 00:21:03,120
+can't go down like a Bitcoin mining.
+
+315
+00:21:03,160 --> 00:21:05,560
+It just really messes up all the economics.
+
+316
+00:21:05,880 --> 00:21:11,120
+So if there's any power issues they have to protect against, so there's generators
+
+317
+00:21:11,160 --> 00:21:14,720
+and redundancy at every one of these facilities.
+
+318
+00:21:15,160 --> 00:21:21,080
+But I've spent some time looking at alternative power and, you know, it's not
+
+319
+00:21:21,080 --> 00:21:25,320
+only nuclear, like you can look at some of these public companies and they've been
+
+320
+00:21:25,320 --> 00:21:29,760
+revalued, even though nuclear won't even be an opportunity, but they're taking
+
+321
+00:21:29,760 --> 00:21:31,760
+orders for like 2030 and beyond.
+
+322
+00:21:31,760 --> 00:21:36,200
+But you also have to think about natural gas and pipelines.
+
+323
+00:21:36,200 --> 00:21:40,960
+I have a call this afternoon with one of the big MLPs to discuss with them.
+
+324
+00:21:41,240 --> 00:21:47,680
+About building pipelines toward AI HPC data centers of natural gas to provide
+
+325
+00:21:47,680 --> 00:21:49,560
+the power, either redundant or otherwise.
+
+326
+00:21:49,560 --> 00:21:51,080
+So it's really fascinating.
+
+327
+00:21:51,080 --> 00:21:55,440
+And in my mind, it even brings like wind and solar back into play.
+
+328
+00:21:55,440 --> 00:21:59,640
+So all these things are fun to think about and you want to think about them
+
+329
+00:21:59,640 --> 00:22:03,800
+proactively from an investment standpoint, because that's where the puck is going.
+
+330
+00:22:04,400 --> 00:22:08,000
+I guess that's a really interesting point to around the, just the ability to
+
+331
+00:22:08,040 --> 00:22:10,280
+sustain going down and coming back up.
+
+332
+00:22:10,280 --> 00:22:12,960
+Because for Bitcoin mining, that is fine, right?
+
+333
+00:22:12,960 --> 00:22:14,960
+You could shut off the miners, turn them back on.
+
+334
+00:22:15,320 --> 00:22:16,200
+Wouldn't be the end of the world.
+
+335
+00:22:16,200 --> 00:22:20,720
+Obviously not ideal, but for these AI HPC use cases, that just seems
+
+336
+00:22:20,720 --> 00:22:21,840
+like that would be a disaster.
+
+337
+00:22:22,800 --> 00:22:24,880
+Yeah, I mean, that is my understanding.
+
+338
+00:22:24,880 --> 00:22:28,440
+You just can't turn off these computations and turn them back on.
+
+339
+00:22:28,440 --> 00:22:32,720
+You likely have to fix whatever it is and go back to last month or something.
+
+340
+00:22:32,720 --> 00:22:37,600
+So I don't even know that's beyond my technological prowess, but that's just
+
+341
+00:22:37,600 --> 00:22:43,800
+one of a number of uncertainties and execution risks as we move forward here.
+
+342
+00:22:44,600 --> 00:22:48,520
+When you think about just the risk factors and how do you analyze one
+
+343
+00:22:48,520 --> 00:22:52,160
+business versus another, or how do you underwrite the risk of getting long
+
+344
+00:22:52,160 --> 00:22:54,240
+a certain name or getting short a certain name?
+
+345
+00:22:54,240 --> 00:22:55,480
+What are the things that you think about?
+
+346
+00:22:56,320 --> 00:22:58,320
+It's important to have the team.
+
+347
+00:22:58,320 --> 00:23:01,720
+Some of these have had more foresight, these miners, and they brought on
+
+348
+00:23:02,080 --> 00:23:06,160
+proven experts in the industry and power and in data center, presumably
+
+349
+00:23:06,160 --> 00:23:11,040
+their prowess to execute is going to be better than some others that are
+
+350
+00:23:11,040 --> 00:23:15,680
+just now pivoting, but you got to build out and learn a whole new business.
+
+351
+00:23:16,040 --> 00:23:21,560
+So I think about the management team, their ability to finance
+
+352
+00:23:21,560 --> 00:23:23,160
+because it's very expensive.
+
+353
+00:23:23,720 --> 00:23:28,080
+This CapEx is exponentially larger than the Bitcoin miners.
+
+354
+00:23:28,320 --> 00:23:33,800
+And I think about, you know, as I mentioned, power, and I think about
+
+355
+00:23:33,840 --> 00:23:37,880
+strain on the infrastructure and those kinds of risks, because, you know,
+
+356
+00:23:37,880 --> 00:23:43,840
+whether it be the grid or water, there's going to be dislocations as demand
+
+357
+00:23:43,840 --> 00:23:47,280
+continues to rise more than the ability to supply it.
+
+358
+00:23:47,280 --> 00:23:52,200
+So I think about the answers I get to those type of considerations.
+
+359
+00:23:52,400 --> 00:23:56,680
+And then I think quite a bit about their customers and counterparty
+
+360
+00:23:56,680 --> 00:24:01,240
+risks and risks to these deals, because I think about these very much like real
+
+361
+00:24:01,280 --> 00:24:03,720
+estate investment trusts, actually.
+
+362
+00:24:03,720 --> 00:24:06,600
+And they may become real estate investment trusts because it's really
+
+363
+00:24:06,600 --> 00:24:08,200
+just a landlord and a tenant.
+
+364
+00:24:08,200 --> 00:24:11,160
+And some of these tenants would never be bankable.
+
+365
+00:24:11,160 --> 00:24:15,280
+If you just looked at their balance sheets, there's these companies called
+
+366
+00:24:15,280 --> 00:24:20,880
+NeoClouds that have been the predominant lessee of these AI HPC data centers.
+
+367
+00:24:20,880 --> 00:24:22,320
+And they're just insatiable.
+
+368
+00:24:22,360 --> 00:24:26,680
+This one large one has spending $23 billion in CapEx this year needs to
+
+369
+00:24:26,680 --> 00:24:28,840
+borrow $19 billion to fund it.
+
+370
+00:24:29,240 --> 00:24:32,320
+And they don't really have a balance sheet, but yet they're signing
+
+371
+00:24:32,480 --> 00:24:36,320
+multi-billion dollar contracts with a lot of these companies.
+
+372
+00:24:36,320 --> 00:24:41,040
+So I just wonder, you know, what it looks like over time and do they have the
+
+373
+00:24:41,040 --> 00:24:44,360
+fortitude to make it work and pay even if they want to.
+
+374
+00:24:44,360 --> 00:24:47,840
+And then when you think about these NeoClouds, they're signing with their
+
+375
+00:24:47,840 --> 00:24:52,000
+customers for four or five years, but they're signing 15 year contracts with
+
+376
+00:24:52,000 --> 00:24:54,000
+these HPC data centers.
+
+377
+00:24:54,000 --> 00:24:56,960
+And, you know, that mismatch creates a lot of concern for me also.
+
+378
+00:24:56,960 --> 00:24:58,760
+So what happens in five years?
+
+379
+00:24:58,760 --> 00:25:00,920
+So I think a lot about the counterparty risk.
+
+380
+00:25:00,920 --> 00:25:07,360
+And one of the deals last month or even a few weeks ago is backstopped by
+
+381
+00:25:07,360 --> 00:25:10,720
+Oracle, which would give me a lot more confidence than some of these
+
+382
+00:25:10,720 --> 00:25:12,560
+more up and coming companies.
+
+383
+00:25:13,000 --> 00:25:13,960
+It's unbelievable.
+
+384
+00:25:13,960 --> 00:25:18,040
+I mean, Oracle is a name that I don't really follow, but what a story there.
+
+385
+00:25:18,040 --> 00:25:21,040
+And some of the forecasts coming out of that business seem to have people
+
+386
+00:25:21,040 --> 00:25:23,680
+pretty excited just from a category perspective.
+
+387
+00:25:24,040 --> 00:25:24,680
+What a story.
+
+388
+00:25:25,240 --> 00:25:26,680
+It's really remarkable.
+
+389
+00:25:26,720 --> 00:25:32,800
+$144 billion of revenues they expect in 2030 from their cloud business.
+
+390
+00:25:33,280 --> 00:25:36,720
+That's undeniable, even though most of that's with one customer, which is
+
+391
+00:25:36,720 --> 00:25:39,040
+also undercapitalized at the time.
+
+392
+00:25:39,040 --> 00:25:42,960
+But that announcement and thinking through that has informed my recent
+
+393
+00:25:42,960 --> 00:25:48,200
+thinking on the space because there is so much demand that good company, bad
+
+394
+00:25:48,200 --> 00:25:51,520
+company, good management, whatever your strategy outlook, if you have good
+
+395
+00:25:51,520 --> 00:25:54,080
+power, it's clearly going to be in demand.
+
+396
+00:25:54,080 --> 00:25:56,600
+So there's going to be general winners here.
+
+397
+00:25:56,600 --> 00:26:01,320
+And the ones that don't have access to power, as I discussed,
+
+398
+00:26:01,600 --> 00:26:02,680
+I think are the losers.
+
+399
+00:26:03,160 --> 00:26:07,200
+When you think about just the broader ecosystem that you want to play in, in
+
+400
+00:26:07,200 --> 00:26:10,520
+terms of the types of businesses that will go public here over the next few years,
+
+401
+00:26:10,880 --> 00:26:13,640
+do you segment the fund between business models?
+
+402
+00:26:13,640 --> 00:26:17,560
+Obviously looking at an AI data center, Bitcoin mining companies, probably going
+
+403
+00:26:17,560 --> 00:26:20,280
+to look a lot different from a couple of years from now, you're going to have
+
+404
+00:26:20,600 --> 00:26:23,800
+compliance software businesses in the crypto space going public.
+
+405
+00:26:24,120 --> 00:26:27,440
+How do you toggle between the various different categories here?
+
+406
+00:26:28,120 --> 00:26:32,120
+I think I mentioned this was kind of somewhat at the fault because it has been
+
+407
+00:26:32,120 --> 00:26:34,560
+and still is a big part of the industry.
+
+408
+00:26:34,560 --> 00:26:39,120
+And if you define it as a blockchain industry and, you know, over time there's
+
+409
+00:26:39,120 --> 00:26:44,840
+been $70 billion, I think of companies that have gone public this year that are
+
+410
+00:26:45,080 --> 00:26:47,640
+not miners that are in crypto and blockchain.
+
+411
+00:26:48,000 --> 00:26:51,840
+And there's a whole list of other companies that Matt, you and I know that
+
+412
+00:26:52,160 --> 00:26:54,280
+are on the fringe and likely to come public.
+
+413
+00:26:54,280 --> 00:26:59,520
+So I think you're going to get that natural diversification into, you know,
+
+414
+00:26:59,520 --> 00:27:04,440
+as you said, compliance and payments and software, you know, there's more asset
+
+415
+00:27:04,440 --> 00:27:07,720
+managers coming. So I'm looking for broader diversification.
+
+416
+00:27:07,720 --> 00:27:13,160
+And I think from our perspective, an increasing portion of the portfolio will
+
+417
+00:27:13,160 --> 00:27:18,240
+be targeted on a lot of these public companies, some of which are clear winners
+
+418
+00:27:18,240 --> 00:27:19,800
+and some of which are very suspect.
+
+419
+00:27:20,640 --> 00:27:24,600
+Do you think the hedge fund industry evolves over time such that you have
+
+420
+00:27:25,000 --> 00:27:29,240
+connectivity and the ability to trade cryptocurrency through your prime broker
+
+421
+00:27:29,240 --> 00:27:32,600
+and maybe hedge an equity position by doing something in the liquid
+
+422
+00:27:33,000 --> 00:27:34,240
+cryptocurrency market?
+
+423
+00:27:34,440 --> 00:27:37,560
+How do you see just the plumbing of this working from running the business over
+
+424
+00:27:37,560 --> 00:27:38,240
+the next few years?
+
+425
+00:27:39,120 --> 00:27:41,120
+Well, this isn't my area of expertise.
+
+426
+00:27:41,120 --> 00:27:45,200
+I mean, I think like all aspects, I talked to the top of the call, there's a
+
+427
+00:27:45,240 --> 00:27:51,080
+convergence going on and, you know, we're evaluating our transition to a prime
+
+428
+00:27:51,080 --> 00:27:55,360
+broker because they're at the forefront of thinking about some of those
+
+429
+00:27:55,520 --> 00:27:57,920
+possibilities and they have plans.
+
+430
+00:27:58,360 --> 00:28:01,960
+There's crypto native type prime brokers and there's traditional equity prime
+
+431
+00:28:01,960 --> 00:28:05,440
+brokers. And I think they either merge or work together.
+
+432
+00:28:05,440 --> 00:28:09,440
+And, you know, over time, I think you see these combinations being the
+
+433
+00:28:09,440 --> 00:28:12,040
+mainstay. There's no reason they shouldn't merge.
+
+434
+00:28:12,720 --> 00:28:13,560
+Yeah, I think that's right.
+
+435
+00:28:13,800 --> 00:28:17,080
+The last question on my side would just be, what's this been like culturally with
+
+436
+00:28:17,080 --> 00:28:20,240
+the people that work at Intrinsic Edge and also your clients?
+
+437
+00:28:20,240 --> 00:28:23,360
+I'd imagine that early days you had some folks that were like, what the hell is
+
+438
+00:28:23,360 --> 00:28:25,480
+Bitcoin? Why are we spending our time here?
+
+439
+00:28:25,840 --> 00:28:28,400
+What's it been like to grow this within the firm?
+
+440
+00:28:29,480 --> 00:28:33,600
+It's so much fun to be in the weeds on this research.
+
+441
+00:28:33,640 --> 00:28:38,640
+And there's a growing enthusiasm everywhere, I think, as all the listeners
+
+442
+00:28:38,640 --> 00:28:41,760
+know as well. And there's a lot of enthusiasm within the firm.
+
+443
+00:28:41,800 --> 00:28:46,040
+There's a growing enthusiasm about the opportunity set, and we're getting a lot
+
+444
+00:28:46,040 --> 00:28:50,040
+of inbounds from all different type of potential investors.
+
+445
+00:28:50,520 --> 00:28:52,120
+And I think it's a lot of fun.
+
+446
+00:28:52,120 --> 00:28:53,600
+I think we're in the early innings.
+
+447
+00:28:53,600 --> 00:28:55,120
+And, yeah, I'm very excited.
+
+448
+00:28:55,800 --> 00:28:57,400
+It's a really novel strategy.
+
+449
+00:28:57,400 --> 00:29:01,000
+And I mean, hey, look, not a lot of people have a four year track record running
+
+450
+00:29:01,200 --> 00:29:02,920
+public equities in this category.
+
+451
+00:29:02,920 --> 00:29:05,000
+And maybe you're the only person on that list.
+
+452
+00:29:05,000 --> 00:29:06,760
+So thanks again for coming on.
+
+453
+00:29:06,800 --> 00:29:07,400
+Great catching up.
+
+454
+00:29:07,840 --> 00:29:08,280
+Thank you, Nat.
+
+455
+00:29:09,080 --> 00:29:09,800
+That was a fun one.
+
+456
+00:29:09,840 --> 00:29:13,240
+I always enjoy having Mark on the show and hearing about how the public markets
+
+457
+00:29:13,240 --> 00:29:15,560
+are evolving for blockchain focused companies.
+
+458
+00:29:15,960 --> 00:29:18,800
+To learn more about Intrinsic Edge, please visit their website,
+
+459
+00:29:18,840 --> 00:29:21,880
+www.intrinsicedge.com
+
+460
+00:29:22,080 --> 00:29:25,400
+or email them at info at intrinsicedge.com.
+
+461
+00:29:26,080 --> 00:29:29,760
+Thanks for listening to another episode of On the Brink with Castle Island.
+
+462
+00:29:30,200 --> 00:29:34,240
+To learn more about Castle Island, visit castleisland.vc.
+
+463
+00:29:34,760 --> 00:29:37,520
+And to listen to all of our podcast episodes, please visit
+
+464
+00:29:37,560 --> 00:29:42,560
+castleisland.vc slash podcast or just click on the tab on our website.
+
+465
+00:29:42,800 --> 00:29:43,600
+Thanks for listening.
+

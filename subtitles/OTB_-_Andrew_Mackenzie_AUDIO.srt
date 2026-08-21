@@ -1,0 +1,1368 @@
+1
+00:00:00,000 --> 00:00:05,440
+This is Wyatt, and on today's episode I was joined by Andrew McKenzie, founder of Agant.
+
+2
+00:00:05,440 --> 00:00:11,280
+Agant is building a GBP stablecoin with aspirations to branch into other adjacent products. I hope
+
+3
+00:00:11,280 --> 00:00:15,760
+you enjoy our conversation. Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+4
+00:00:15,760 --> 00:00:18,720
+All of these expressed by them or the guests on this podcast are solely their opinions and do
+
+5
+00:00:18,720 --> 00:00:22,000
+not reflect the opinions of Castle Island Ventures. Guests and hosts may maintain positions in the
+
+6
+00:00:22,000 --> 00:00:25,120
+assets discussed in this podcast. We should not treat any opinion expressed by anyone on this
+
+7
+00:00:25,120 --> 00:00:28,960
+podcast as a specific inducement to make a particular investment or follow a particular
+
+8
+00:00:28,960 --> 00:00:32,720
+strategy, but only as an expression of their personal opinion. This podcast is for informational
+
+9
+00:00:32,720 --> 00:00:33,440
+purposes only.
+
+10
+00:00:58,960 --> 00:01:09,600
+Andy, founder of Agant. Thanks for joining us today.
+
+11
+00:01:10,160 --> 00:01:12,160
+Pleasure to be here. Thanks for having me.
+
+12
+00:01:12,160 --> 00:01:16,000
+I have to check. You might be our first Scottish guest we've ever had on the brink.
+
+13
+00:01:16,560 --> 00:01:21,040
+Maybe. I know Nick obviously spent some time up in Scotland, so I guess he can maybe claim a
+
+14
+00:01:21,040 --> 00:01:26,160
+little bit of time up here. But yeah, I just need to remember to speak slowly and clearly as my mom
+
+15
+00:01:26,160 --> 00:01:31,280
+always tells me. Yeah, exactly. He gets partial credit maybe. Are you a Liverpool fan?
+
+16
+00:01:32,000 --> 00:01:35,760
+I try to stay in partial, so my dad and I, we support Leach United.
+
+17
+00:01:36,400 --> 00:01:39,360
+Nice, so a good season there too. Exactly.
+
+18
+00:01:39,360 --> 00:01:43,760
+Would love a personal background. Tell us who you are, why you're here. Would love to hear about
+
+19
+00:01:43,760 --> 00:01:48,320
+how you're involved in the crypto space. I guess my backgrounds have been quite the same as a lot
+
+20
+00:01:48,320 --> 00:01:53,040
+of founders in the space. I'm from an agricultural background. I grew up in the country, just north
+
+21
+00:01:53,040 --> 00:01:58,320
+of Edinburgh. I spent most of my childhood in and around farming, end up studying business
+
+22
+00:01:58,320 --> 00:02:04,880
+in agriculture at university, and then kind of just fell into my first job, which was working for a
+
+23
+00:02:04,880 --> 00:02:10,320
+large veg company up in Scotland, a grower manufacturer and distributor, and worked on
+
+24
+00:02:10,320 --> 00:02:15,040
+an OTC desk for them, buying and selling carrots and other soft vegetables like broccoli and
+
+25
+00:02:15,040 --> 00:02:19,760
+brussel sprouts, importing and exporting them in and out of the UK. So maybe a little bit of an
+
+26
+00:02:19,760 --> 00:02:25,360
+unconventional trading start to a career, but certainly one that I really enjoyed. It really
+
+27
+00:02:25,360 --> 00:02:33,200
+opens your eyes up to what drives markets. Do those trade on an exchange or over the phone,
+
+28
+00:02:33,200 --> 00:02:38,400
+or how's that happening? Purely over the phone. A lot of weaving and dealing, so to speak.
+
+29
+00:02:38,400 --> 00:02:43,040
+There's a few markets that you can arbitrage quite nicely. So yeah, it's just really interesting
+
+30
+00:02:43,040 --> 00:02:48,480
+start to my sort of finance career, so to speak, in terms of what drives markets and what fuels
+
+31
+00:02:48,480 --> 00:02:53,600
+the price action that we used to see. I didn't really get into blockchain, digital assets,
+
+32
+00:02:53,600 --> 00:02:58,960
+crypto, whatever we call it these days, until 2020. When the price of Bitcoin and Ethereum
+
+33
+00:02:58,960 --> 00:03:05,680
+disintegrated, my interest spiked, and then got hugely into DeFi in 2021, worked for a firm that
+
+34
+00:03:05,680 --> 00:03:11,840
+unfortunately became a victim of FTX, SAGA, so came out of the space and ended up going back
+
+35
+00:03:11,840 --> 00:03:16,960
+into traditional finance and worked for a firm moving funds cross-border for agricultural
+
+36
+00:03:16,960 --> 00:03:21,920
+businesses. So worked in the payment space for them, helping them manage the risk and also
+
+37
+00:03:21,920 --> 00:03:26,560
+remit funds. And I guess I very quickly realized that there's a really effective and efficient way
+
+38
+00:03:26,560 --> 00:03:31,120
+of moving value, and that is this thing called the blockchain. And that's really what sort of
+
+39
+00:03:31,120 --> 00:03:36,640
+fueled the start of what is now a GAN. What prompted a GAN? And what is it today?
+
+40
+00:03:36,640 --> 00:03:42,720
+A GAN is primarily a UK domicile stablecoin assurance and infrastructure provider. We kicked
+
+41
+00:03:42,720 --> 00:03:48,720
+things off 14 months ago now in January of last year. I guess it kind of was a combination of
+
+42
+00:03:48,720 --> 00:03:56,800
+reasons. So the UK as a financial center globally stands out. British pound sterling is the fourth
+
+43
+00:03:56,800 --> 00:04:02,000
+largest currency in circulation and the fourth most traded. UK financial services in London and
+
+44
+00:04:02,000 --> 00:04:07,440
+also across the UK have a global presence, but there are no pound sterling on chain. There's no
+
+45
+00:04:07,440 --> 00:04:14,320
+GBP on chain. And so I always felt like there was a need and it was an obvious thing to do.
+
+46
+00:04:14,320 --> 00:04:19,040
+And then in November of 2023, when I was still working in payments for ag businesses,
+
+47
+00:04:19,680 --> 00:04:23,520
+like I said, there was a much more efficient and effective way of remitting these funds. And then
+
+48
+00:04:23,520 --> 00:04:29,680
+I guess what came in at that time was Bank of England and FCA published the discussion papers
+
+49
+00:04:29,680 --> 00:04:35,280
+into the use of stablecoins in both retail and systemic payment systems in the UK. I guess for
+
+50
+00:04:35,280 --> 00:04:41,360
+me that was sort of the first catalyst to sort of starting what is now a GAN. The regulators were
+
+51
+00:04:41,360 --> 00:04:45,600
+ready to have the conversation. You know, a lot of my experience in digital assets and in crypto,
+
+52
+00:04:45,600 --> 00:04:49,280
+you know, weren't maybe the best. I was subject to a lot of grifts and stuff like that. I guess
+
+53
+00:04:49,280 --> 00:04:54,080
+everyone kind of was in DeFi. And so I really wanted to try and create something that was doing
+
+54
+00:04:54,080 --> 00:05:00,400
+things the right way when it comes to compliance and the way in which the business governs itself
+
+55
+00:05:00,480 --> 00:05:05,200
+and its ethos. That's really what we set off on. So I was involved in a couple of side projects
+
+56
+00:05:05,200 --> 00:05:08,720
+with some friends and we were on call some lawyers and I just pitched the question to them
+
+57
+00:05:08,720 --> 00:05:14,320
+and said, what's your abuse on a UK domicile, UK regulated privately issued stablecoin?
+
+58
+00:05:14,320 --> 00:05:20,160
+GBP stablecoin to be clear. GBP stablecoin. You know, we really tried to set out and creating
+
+59
+00:05:20,160 --> 00:05:25,280
+what we kind of call the most boring kind of stablecoin because we feel if there's going to be
+
+60
+00:05:26,000 --> 00:05:32,720
+a successful UK GBP ecosystem on chain, we need to have this foundation layer that doesn't do very
+
+61
+00:05:32,720 --> 00:05:37,600
+much that everyone can trust is, you know, transparent, secure and untrusted. What's the
+
+62
+00:05:37,600 --> 00:05:43,520
+current state of USD stablecoin adoption in the UK? It's quite high. We don't really have any other
+
+63
+00:05:43,520 --> 00:05:50,080
+choice. The figures aren't the most accurate at the moment, but somewhere between five and seven
+
+64
+00:05:50,080 --> 00:05:58,480
+million people own crypto in the UK and most of them hold, it varies depending on what their
+
+65
+00:05:58,480 --> 00:06:03,760
+total holding value is, but most of them hold somewhere between nine and 25% of those funds
+
+66
+00:06:03,760 --> 00:06:09,280
+in stable. So virtually all of them are in USD at present. And from your perspective, today there
+
+67
+00:06:09,280 --> 00:06:14,640
+being no alternative. You guys are attempting to build the GBP stablecoin. Are they owning USD
+
+68
+00:06:14,640 --> 00:06:19,440
+because they're trapped into doing so or by choice? I think it's a combination of things.
+
+69
+00:06:19,520 --> 00:06:25,600
+We've always viewed the crypto ecosystem as dollars. And I don't really think that that's
+
+70
+00:06:25,600 --> 00:06:30,880
+actually going to change in the short to medium term. That's where most of the liquidity is,
+
+71
+00:06:30,880 --> 00:06:35,120
+and it's where most of the liquidity will continue to be, you know, particularly in DeFi.
+
+72
+00:06:35,920 --> 00:06:41,360
+Where we've made a differentiation and it's quite pedantic, but we very much view ourselves as a
+
+73
+00:06:41,360 --> 00:06:47,040
+fintech that integrates and utilizes blockchain technology as opposed to a crypto business.
+
+74
+00:06:47,040 --> 00:06:54,000
+That's where we see the real value in non-US dollars stablecoins. It's not necessarily
+
+75
+00:06:54,000 --> 00:06:59,600
+directly providing liquidity against the majors. Yes, that might be a part of our business and other
+
+76
+00:06:59,600 --> 00:07:07,760
+UK GDP issuers businesses as well. However, you know, attacking the wider UK financial services
+
+77
+00:07:07,760 --> 00:07:13,680
+ecosystem, helping to solve a few use cases or problems for those organizations is where
+
+78
+00:07:13,760 --> 00:07:17,840
+we see the real growth in our proposition. And those problems you're mentioning,
+
+79
+00:07:17,840 --> 00:07:23,920
+are those highlighted by the rise of crypto and adoption elsewhere? Are the UK financial
+
+80
+00:07:23,920 --> 00:07:28,720
+institutions going to have problems because of crypto adoption or is it traditional legacy
+
+81
+00:07:28,720 --> 00:07:32,960
+problems unrelated to crypto that you guys are looking to solve? I think it's a combination of
+
+82
+00:07:32,960 --> 00:07:37,600
+things. I think we've put up with a number of underlying problems for quite a period of time
+
+83
+00:07:37,600 --> 00:07:43,120
+because as far as the industry was concerned, there wasn't really a particularly suitable
+
+84
+00:07:43,120 --> 00:07:48,720
+alternative that had the network effects that, for example, crypto has. Well, firms got very good
+
+85
+00:07:48,720 --> 00:07:54,000
+at putting clusters on old infrastructure and tying it together with credit lines.
+
+86
+00:07:54,720 --> 00:07:59,600
+They found ways around the settlement delays, etc. But, you know, that's reflected into the
+
+87
+00:07:59,600 --> 00:08:03,200
+counter party risk that they might need to carry or the amount of regulatory capital that they need
+
+88
+00:08:03,200 --> 00:08:08,400
+to hold to offset those issues. I guess to tie it back, Nick Vanenek always says that, you know,
+
+89
+00:08:08,400 --> 00:08:15,200
+if you look at FinTech for the last 15, 20 years, the front end of the UI, the UX, all of that has
+
+90
+00:08:15,200 --> 00:08:20,400
+seen massive innovation, whereas the back end hasn't. Whereas what we feel that both crypto,
+
+91
+00:08:20,400 --> 00:08:26,480
+blockchain technology and stablecoins present is that back end infrastructure layer coming up to
+
+92
+00:08:26,480 --> 00:08:32,720
+match the front end that we currently have. We've built this multi-layer convoluted system,
+
+93
+00:08:32,720 --> 00:08:37,120
+and the hope is that you'll be able to settle collateral instantly, especially when you're
+
+94
+00:08:37,120 --> 00:08:41,920
+doing this cross currency. I can't wait till FX hopefully moves on chain. What kind of inbound
+
+95
+00:08:41,920 --> 00:08:48,640
+are you guys getting? Who's interested to use this product? This time last year, we felt like we
+
+96
+00:08:48,640 --> 00:08:54,560
+needed to be a retail focused organization. We always felt like the institutions weren't necessarily
+
+97
+00:08:54,560 --> 00:08:58,880
+going to be ready. I remember going to the Digital Assets Summit in London in March last year, and
+
+98
+00:08:58,880 --> 00:09:04,640
+I think the theme at that point was the institutions are coming. And that's kind of what we felt.
+
+99
+00:09:05,280 --> 00:09:09,360
+Last summer of last year, we turned that on its head, and it was probably thanks to a couple of
+
+100
+00:09:09,360 --> 00:09:13,680
+the advisors that we brought in, and they said, really, the institutions are ready, and being
+
+101
+00:09:13,680 --> 00:09:19,920
+institutional first is really the avenue that you should pursue. Originally, our focus is very much
+
+102
+00:09:19,920 --> 00:09:25,360
+within the crypto industry, so to speak, in terms of what we were trying to speak to, exchanges,
+
+103
+00:09:25,360 --> 00:09:31,280
+to market makers, and OTC desk, everyone that had direct exposure to crypto. And then in the
+
+104
+00:09:31,280 --> 00:09:36,240
+autumn of last year, a couple of asset managers started to poke their head up. And that's where
+
+105
+00:09:36,240 --> 00:09:40,160
+things really started to get interesting, because we kind of knew that they were sort of dabbling,
+
+106
+00:09:40,160 --> 00:09:46,560
+but we didn't necessarily know how progressed they were in their own ideology and thinking in
+
+107
+00:09:46,560 --> 00:09:51,280
+terms of what they want to do for their own organizations, but also how ready they were to
+
+108
+00:09:51,280 --> 00:09:55,920
+start those conversations. So now, I would almost say there's been more that's happened since the
+
+109
+00:09:55,920 --> 00:10:01,680
+start of the year than happened in all of last year. Now, our conversations are across banks,
+
+110
+00:10:01,680 --> 00:10:07,360
+hedge funds, asset managers, payment service providers, electronic money institutions.
+
+111
+00:10:07,360 --> 00:10:13,440
+There's a whole spread. At that point, this time last year, we felt that stable coins were really
+
+112
+00:10:13,440 --> 00:10:18,560
+trying to solve problems within crypto, facing off against digital assets, or like you say,
+
+113
+00:10:18,560 --> 00:10:22,800
+maybe on the FX piece, because we kind of just viewed traditional financial payment systems,
+
+114
+00:10:22,800 --> 00:10:28,800
+particularly domestic ones, internal to the UK especially, as being solved. But what's become
+
+115
+00:10:28,800 --> 00:10:34,640
+really apparent is if I was to send money via faster payments, for example, to you in the UK,
+
+116
+00:10:34,640 --> 00:10:38,640
+it's free for me to do that. But if you're the infrastructure provider behind that,
+
+117
+00:10:38,640 --> 00:10:42,720
+if you're the institution that's providing that service, it's definitely not free. And so there's
+
+118
+00:10:42,720 --> 00:10:47,120
+a real opportunity as a stable coin issuer where you can turn something that is currently at cost
+
+119
+00:10:47,120 --> 00:10:52,720
+to that business into something that is a net contributor, a revenue generator to that business.
+
+120
+00:10:53,200 --> 00:10:58,480
+We're seeing a lot of interest, particularly in our inbound around that side, how businesses are
+
+121
+00:10:58,480 --> 00:11:03,520
+able to become a lot more competitive in some of the product offerings that they currently
+
+122
+00:11:03,520 --> 00:11:08,640
+aren't able to really compete on. And I imagine if you're a centralized exchange in the US,
+
+123
+00:11:08,640 --> 00:11:15,280
+you deal with USD stable coins operationally, and then users are off ramping into USD accounts,
+
+124
+00:11:15,280 --> 00:11:20,400
+that's relatively simple. But if you're a UK exchange today, and users are holding deposits
+
+125
+00:11:20,400 --> 00:11:26,080
+on the exchange in USD stables, and you have to manage that off ramp function and vice versa to
+
+126
+00:11:26,080 --> 00:11:32,480
+GBP, either the exchange or an on ramp off ramp provider is taking FX risk, because you don't
+
+127
+00:11:32,480 --> 00:11:36,880
+have that instant crypto or crypto settlement. So I imagine you guys could really be effective in
+
+128
+00:11:36,880 --> 00:11:42,880
+that flow. We see a lot of streamlining on the on ramp in particular, at the moment, it's kind of
+
+129
+00:11:42,880 --> 00:11:47,600
+a patchwork in terms of how you on ramp into US dollar stables. And like you say, you have that
+
+130
+00:11:47,600 --> 00:11:52,160
+FX that either use the user take on if you're holding dollars in your wallet, whether that's
+
+131
+00:11:52,160 --> 00:11:57,920
+an essentialized exchange or in your self custodial wallet, which isn't great. I at a point earned the
+
+132
+00:11:57,920 --> 00:12:04,080
+new SDC, I had to take on that FX risk. Luckily for me, there was a bit of political turmoil in
+
+133
+00:12:04,080 --> 00:12:09,120
+the UK, so the FX was going in my favor. But for example, you know, if you are a large financial
+
+134
+00:12:09,120 --> 00:12:13,680
+institution, a few basis points here or there can really make quite a big difference to you.
+
+135
+00:12:13,680 --> 00:12:17,440
+For them, it's a little bit cumbersome having to hedge out that risk. So being able to offer them
+
+136
+00:12:17,760 --> 00:12:21,760
+if they denominate themselves in British pounds, being able to be on chain and British pounds
+
+137
+00:12:21,760 --> 00:12:27,440
+makes a lot of sense as well. Do you think you see local currency stablecoins pop up around the
+
+138
+00:12:27,440 --> 00:12:32,320
+world in the next few months, a couple years? Yeah, we're starting to see that in a lot of the
+
+139
+00:12:32,320 --> 00:12:37,680
+conversations that we are having. And we're looking at how we can simplify the flows that
+
+140
+00:12:37,680 --> 00:12:42,560
+currently exist. For example, we're talking to a group of guys in Singapore, they're doing some
+
+141
+00:12:42,560 --> 00:12:45,680
+exciting stuff out there. And we were actually talking through those flows, you know, if they
+
+142
+00:12:45,680 --> 00:12:49,760
+were to send us Singapore dollars at the moment, the number of intermediaries that we'd each need
+
+143
+00:12:49,760 --> 00:12:54,960
+to go through. And we think that by taking it on chain, we can reduce that from a roughly five
+
+144
+00:12:54,960 --> 00:12:59,760
+intermediaries to three. So that's quite cool. And that's quite exciting. And also that's going
+
+145
+00:12:59,760 --> 00:13:06,080
+to take time to build up and to get that organic liquidity in there. But it's moving in the right
+
+146
+00:13:06,080 --> 00:13:10,640
+direction. People are starting to innovate in those sort of areas. And particularly between
+
+147
+00:13:10,640 --> 00:13:16,080
+like the UK and India, the UK and Global South, you know, the UK and Africa, Nigeria, Kenya, South
+
+148
+00:13:16,080 --> 00:13:22,400
+Africa, there's a lot of flow that goes that way. And so being able to do that on chain and like you
+
+149
+00:13:22,400 --> 00:13:28,080
+say, you know, being able to settle into stablecoins in those jurisdictions and not necessarily have to
+
+150
+00:13:28,080 --> 00:13:36,560
+do the off ramp simplifies the process drastically. How do regulators view crypto and a GBP stablecoin
+
+151
+00:13:36,560 --> 00:13:40,560
+as well as larger banks institutions that might have regulatory influence?
+
+152
+00:13:41,360 --> 00:13:46,960
+Stablecoins in the UK, to go back a step, are kind of split if that makes sense. And we have two
+
+153
+00:13:46,960 --> 00:13:52,000
+regulators. We have the FCA, which basically regulates all financial institutions. And then we
+
+154
+00:13:52,000 --> 00:13:56,960
+have the PRA, which sits under the Bank of England, which is the UK central bank, which regulates banks.
+
+155
+00:13:57,520 --> 00:14:03,520
+And so they are going down different regulatory paths. And they're starting to come together
+
+156
+00:14:03,600 --> 00:14:09,760
+and they're starting to talk a little bit more. And the understanding between the regulators and firms
+
+157
+00:14:09,760 --> 00:14:15,520
+and institutions in the sector is starting to align. However, there's still quite a long way to go.
+
+158
+00:14:15,520 --> 00:14:21,760
+The UK is behind other jurisdictions in terms of where it is in this regulatory process. We're
+
+159
+00:14:21,760 --> 00:14:27,600
+still at the discussion paper stage. The DPs and the SIs are still coming out. And we're still talking
+
+160
+00:14:27,600 --> 00:14:32,800
+about a lot of things. However, I do feel like there's a lot more clarity in how stablecoins are
+
+161
+00:14:32,800 --> 00:14:36,880
+going to be viewed. The FCA, for example, are going to look at them as a crypto asset and not as
+
+162
+00:14:36,880 --> 00:14:43,040
+e-money. And making those differentiations has been really important for not only us as an organization,
+
+163
+00:14:43,040 --> 00:14:48,480
+but also a lot of the businesses that we want to face off. Because really, at the end of the day,
+
+164
+00:14:48,480 --> 00:14:52,640
+they can have as much innovation and be as excited about stablecoins as they like. But if
+
+165
+00:14:52,640 --> 00:14:58,000
+their compliance and legal departments aren't willing to sign off, then it's not going to go
+
+166
+00:14:58,000 --> 00:15:04,000
+very far. I guess to sum it up, we don't have any regulation at the moment. We're trying to fit
+
+167
+00:15:04,000 --> 00:15:10,400
+stablecoins into existing registrations that currently exist. And I think that'll be about
+
+168
+00:15:10,400 --> 00:15:16,320
+a year or two away before we get any dedicated UK stablecoin regulations. So I guess at the moment,
+
+169
+00:15:16,320 --> 00:15:22,640
+we can backdoor through anti-money laundering, registrations, so to speak. But I would say
+
+170
+00:15:22,640 --> 00:15:26,720
+there is a little bit of hostility still there. But there's been a huge shift in the tone,
+
+171
+00:15:26,720 --> 00:15:31,680
+which is what is really positive. A couple of our advisors were at some roundtables
+
+172
+00:15:31,680 --> 00:15:35,680
+at Point Zero last week, and there was a lot of central bankers there. And again, they said the
+
+173
+00:15:35,680 --> 00:15:41,120
+tone of the conversation and the level of understanding is quite exciting and making
+
+174
+00:15:41,120 --> 00:15:47,360
+them feel quite optimistic. There's definitely a shift to being pro-innovation, crypto-friendly,
+
+175
+00:15:47,360 --> 00:15:52,560
+and trying to be one of the first movers within this as we go forward.
+
+176
+00:15:53,280 --> 00:15:57,760
+You must have some interesting conversations with powerful institutions, because I imagine
+
+177
+00:15:57,760 --> 00:16:01,360
+you speak to banks about all the things you guys want to do and are excited to do. And
+
+178
+00:16:02,000 --> 00:16:07,600
+you're probably in some ways worried, what if they decide they want to issue a GBP stablecoin?
+
+179
+00:16:07,600 --> 00:16:08,880
+Does that cross your mind?
+
+180
+00:16:09,680 --> 00:16:13,840
+It's a question that comes up almost every day. Someone says, what if the large incumbents come
+
+181
+00:16:13,840 --> 00:16:19,440
+in? You can almost split that conversation up into a number of different buckets, so to speak.
+
+182
+00:16:19,440 --> 00:16:25,200
+So if you look at banks at the moment, there's a real worry from the PRRA, which is run by the
+
+183
+00:16:25,200 --> 00:16:32,160
+Bank of England, the Dental Regulatory Authority, that regulated businesses could start offering
+
+184
+00:16:32,160 --> 00:16:37,600
+unregulated financial products. So they're really saying to banks, we need you to wait
+
+185
+00:16:37,600 --> 00:16:42,480
+until we have the clarity that we need, until we have the regulation before we can have you start
+
+186
+00:16:42,480 --> 00:16:47,200
+doing this. So it's not so that the banks don't want to, it's that they can. We've kind of been
+
+187
+00:16:47,200 --> 00:16:53,840
+making the most of that. But then if you look at existing stablecoin businesses and organizations,
+
+188
+00:16:53,840 --> 00:16:58,240
+I think a lot of them, with the conversations that we've had, they feel like there's still
+
+189
+00:16:58,240 --> 00:17:02,480
+so much for them to go vote after doing what they're doing at the moment, within the dollar
+
+190
+00:17:02,480 --> 00:17:08,880
+economy itself. There's still so much growth. So we're kind of operating under the radar.
+
+191
+00:17:08,880 --> 00:17:14,480
+I think there's a lot more traction within the UK and within GBP, within the last three,
+
+192
+00:17:14,480 --> 00:17:18,320
+four months, and there was even last year, the tide is really starting to turn.
+
+193
+00:17:19,280 --> 00:17:24,880
+Will they allow this innovation to exist, the British regulatory bodies? And I would say the
+
+194
+00:17:24,880 --> 00:17:28,720
+folks are probably lobbying there, or do you think there will be pushback?
+
+195
+00:17:29,360 --> 00:17:32,960
+I don't think there'll be pushback from the banks. I don't think there'll be pushback from the
+
+196
+00:17:32,960 --> 00:17:38,560
+industry itself. I mean, UK financial institutions have always been quite open to innovation.
+
+197
+00:17:38,560 --> 00:17:41,360
+That's refreshing. I wish we had that.
+
+198
+00:17:41,360 --> 00:17:44,880
+Yeah, maybe that's a slightly controversial view. I'm not sure. But if you look at, for example,
+
+199
+00:17:44,880 --> 00:17:50,640
+payments innovation in the UK, we were very quick to move to mobile banking, for example. We were
+
+200
+00:17:50,640 --> 00:17:55,200
+one of the first countries to start using contactless with the widespread adoption that we had. So
+
+201
+00:17:55,200 --> 00:18:00,160
+people are quite open to using new forms of money and new forms of payment systems. So
+
+202
+00:18:00,160 --> 00:18:04,800
+I think financial institutions, especially, can see the advantages. I think a lot of them were
+
+203
+00:18:04,800 --> 00:18:09,280
+going to do it earlier, in 2022. I know there was a large UK bank that was looking at doing
+
+204
+00:18:09,280 --> 00:18:15,120
+their own stablecoin and actually offering cryptocurrency purchases within their online
+
+205
+00:18:15,120 --> 00:18:20,640
+banking app. But then FTX happened and the compliance department just said, hell no,
+
+206
+00:18:20,640 --> 00:18:24,640
+we can't do any of this ourselves. So it's not that they don't want to do it, it's that they
+
+207
+00:18:24,640 --> 00:18:29,360
+can at the moment. How important is it that you guys are a UK-based company?
+
+208
+00:18:29,920 --> 00:18:35,920
+I think it's one of the most important parts of for us at the moment. Getting a local regulator
+
+209
+00:18:35,920 --> 00:18:41,520
+on site, you need to have a local presence, as particularly with the FCA authorizations
+
+210
+00:18:41,520 --> 00:18:46,720
+are globally recognized as one of the most trusted and respected regulators globally.
+
+211
+00:18:46,720 --> 00:18:51,440
+It gives us a few benefits. It enables us to conduct a few more activities, some of which
+
+212
+00:18:51,440 --> 00:18:57,520
+require local authorizations to do those activities. But typically, the regulator likes to use
+
+213
+00:18:57,520 --> 00:19:02,560
+local authorization as a condition for being able to undertake certain types of business,
+
+214
+00:19:02,560 --> 00:19:06,720
+particularly when it comes to facing off retail customers. And not only that,
+
+215
+00:19:06,720 --> 00:19:12,640
+it gives UK institutions a lot of confidence. This city is one of these strange places where
+
+216
+00:19:12,640 --> 00:19:16,640
+if you come knocking on their door and you're regulated through one of the slightly more
+
+217
+00:19:16,640 --> 00:19:21,360
+greater jurisdictions, their tails are automatically going to be up and they're going to be saying,
+
+218
+00:19:21,360 --> 00:19:26,160
+hang on, why you tried to circumvent what's already there. It gives us the ability to get
+
+219
+00:19:26,160 --> 00:19:30,320
+partnerships, particularly with compliance teams. Yeah, I imagine there's a comfort level that comes
+
+220
+00:19:30,320 --> 00:19:34,800
+with it. I'm curious for your perspective, being a stablecoin issuer, there's the traditional
+
+221
+00:19:34,800 --> 00:19:40,480
+business of net interest margin, you make money on deposits, especially in the context in the UK,
+
+222
+00:19:40,480 --> 00:19:44,400
+you've had innovation in the fintech space, you've seen new players in mobile banking,
+
+223
+00:19:44,400 --> 00:19:50,080
+you've seen new business models. How do you look at your best viable business model, long term,
+
+224
+00:19:50,080 --> 00:19:55,600
+or even more widely, what the best business model for someone taking on this opportunity
+
+225
+00:19:55,600 --> 00:20:00,560
+of new currency stablecoin? The net interest margin is always going to be a factor. I think
+
+226
+00:20:00,560 --> 00:20:06,240
+what's lucky for us at the moment is that the FCA has said that no interest shall be given to the
+
+227
+00:20:06,240 --> 00:20:11,840
+token holder. They don't want yield bearing stablecoins to be a thing. Interesting. They
+
+228
+00:20:11,840 --> 00:20:17,360
+proactively said that? Yeah, they all kind of at the moment want to always be one. However,
+
+229
+00:20:17,920 --> 00:20:22,720
+I think as our business develops and changes and grows, we don't want to necessarily just be
+
+230
+00:20:22,800 --> 00:20:27,360
+relying on that because you're basically one line within a piece of regulation away from your
+
+231
+00:20:27,360 --> 00:20:32,560
+entire business model, beating no longer existing. We see a lot on the transaction fee side. We actually
+
+232
+00:20:32,560 --> 00:20:39,280
+see a lot on the banking element as well. If you're able to access deposited funds, you can
+
+233
+00:20:39,280 --> 00:20:45,520
+potentially offer banking services to corporates like lending payments, but then also on the yield
+
+234
+00:20:45,520 --> 00:20:52,320
+bearing side as well, we see a lot of opportunity there. I think regulators are more open to a
+
+235
+00:20:52,400 --> 00:20:58,320
+new bank than an organization like us progressing into something that looks very like a bank as
+
+236
+00:20:58,320 --> 00:21:05,280
+opposed to an existing bank starting to offer new forms of business. They're a little bit cagey
+
+237
+00:21:05,280 --> 00:21:10,480
+about the contagion risk that sits there. UK banks have real uphill battle with regulators,
+
+238
+00:21:10,480 --> 00:21:14,480
+and that's something that I think we as an organization can capture within our own business
+
+239
+00:21:14,480 --> 00:21:20,000
+model. I think over time, we would quite like a gantt to start looking more like a bank and the
+
+240
+00:21:20,000 --> 00:21:24,160
+types of banking services that we'd be able to offer, we can generate revenue from that.
+
+241
+00:21:24,720 --> 00:21:30,560
+With regulatory considerations in mind, how do you look at launching on private blockchains
+
+242
+00:21:30,560 --> 00:21:38,000
+versus permissionless blockchains? I think they all have their place, and we talked to some asset
+
+243
+00:21:38,000 --> 00:21:43,760
+managers that want to solve use stablecoins to solve an internal use case. Whether that's on a
+
+244
+00:21:43,760 --> 00:21:50,560
+public ledger or a private ledger is neither here nor there. However, I'm a strong believer that we
+
+245
+00:21:50,560 --> 00:21:55,840
+should be on public blockchains as much as we can. I think when you see a lot of the innovations in
+
+246
+00:21:55,840 --> 00:22:02,960
+being able to hide transactions and shield vulnerabilities all the way, we want a degree
+
+247
+00:22:02,960 --> 00:22:08,160
+of transparency, but there are times and places where that transparency isn't good. There's certain
+
+248
+00:22:08,160 --> 00:22:13,120
+networks out there that are really innovating in that space and making it quite exciting for us
+
+249
+00:22:13,120 --> 00:22:18,240
+to be a part of that. Going to institutions, we can see the value proposition of both.
+
+250
+00:22:19,040 --> 00:22:23,360
+That's a personal viewpoint to be clear, the preference for permissionless blockchains.
+
+251
+00:22:23,360 --> 00:22:29,120
+No, that is a personal preference. I think there's a lot of advantages to public permissionless
+
+252
+00:22:29,120 --> 00:22:33,760
+technology. What other product directions are you excited about, potential adjacencies?
+
+253
+00:22:34,560 --> 00:22:40,960
+We get really excited about being able to generate sustainable risk-adjusted returns.
+
+254
+00:22:41,840 --> 00:22:47,120
+I know that sounds quite a mouthful, but I feel like a lot of the returns in DeFi
+
+255
+00:22:47,120 --> 00:22:53,040
+aren't particularly sustainable long-term. I think being able to bring real-world returns
+
+256
+00:22:53,600 --> 00:22:59,120
+and distribute them on chain, things get quite exciting. It's quite apparent that if you're
+
+257
+00:22:59,120 --> 00:23:03,760
+going to take financial services on chain, the risk-free rate isn't necessarily attractive enough,
+
+258
+00:23:04,400 --> 00:23:10,000
+and so you need to be offering something that's slightly more enhanced, a few percent more. Being
+
+259
+00:23:10,000 --> 00:23:14,480
+able to do that is something that we get quite excited about, but then there's different aspects.
+
+260
+00:23:14,480 --> 00:23:19,760
+I was having a conversation earlier today about effectively creating funds of funds where you
+
+261
+00:23:19,760 --> 00:23:26,480
+can diversify out that risk. Risk-weighted returns on chain where people can see enhanced returns
+
+262
+00:23:26,480 --> 00:23:30,720
+without necessarily having to take on incredible amounts of risk. I personally get quite excited
+
+263
+00:23:30,720 --> 00:23:35,600
+about that side of things. Yeah, it's interesting because I feel like we've built two opposite
+
+264
+00:23:35,600 --> 00:23:40,320
+sides of the coin in that you have savings accounts, almost traditional bank accounts,
+
+265
+00:23:40,320 --> 00:23:45,200
+which allow you to hold money very well, and then you have the highly speculative DeFi yield side,
+
+266
+00:23:45,760 --> 00:23:50,640
+but the middle ground is not that well-served. You've Goldman Sachs high yield savings accounts
+
+267
+00:23:50,640 --> 00:23:56,960
+in some equivalents, but it still feels like, to your point, attractive steady rate investment
+
+268
+00:23:56,960 --> 00:24:03,440
+products are somewhat gate-kept. 100%. A lot of these organizations and funds that maybe offer
+
+269
+00:24:03,440 --> 00:24:08,400
+these financial products, like you say, the minimum ticket might be £10 million. We were able to
+
+270
+00:24:08,400 --> 00:24:14,000
+come in and we were able to act as the LP for those organizations, and then we can effectively
+
+271
+00:24:14,000 --> 00:24:20,400
+fractionalize our stake within them. We're effectively democratizing those returns because,
+
+272
+00:24:20,400 --> 00:24:26,080
+in reality, if you're able to take, let's say somewhere between 8% and 12% annually,
+
+273
+00:24:26,080 --> 00:24:29,920
+the returns are completely uncorrelated to financial markets and the level of risk that
+
+274
+00:24:29,920 --> 00:24:34,320
+you're taking is significantly lower than that within traditional financial markets.
+
+275
+00:24:34,320 --> 00:24:37,680
+That's quite an attractive proposition for a lot of people and a lot of organizations.
+
+276
+00:24:38,560 --> 00:24:44,160
+If you look at USD stablecoins and how they eventually came to what I'd consider now rapidly
+
+277
+00:24:44,160 --> 00:24:49,600
+growing adoption, there was a pretty slow bleed for a while. You had them come into existence
+
+278
+00:24:49,600 --> 00:24:55,840
+and it took a while to get to $10 million, $20 million in total supply. Do you think that will
+
+279
+00:24:55,840 --> 00:25:01,280
+be the same process we see with a GBP stablecoin and other alternatives, and then we'll have an
+
+280
+00:25:01,280 --> 00:25:07,040
+inflection and that's for rapid growth we see with USD today? Not really when we launch, hopefully,
+
+281
+00:25:07,040 --> 00:25:10,480
+in the next few months. I don't think our growth will be by and means linear,
+
+282
+00:25:11,040 --> 00:25:15,760
+but I don't think it will be slow initially because I do think there is a base-level demand
+
+283
+00:25:15,760 --> 00:25:21,360
+that really wants a financial product on chain that isn't necessarily dollars. I think initially,
+
+284
+00:25:21,360 --> 00:25:26,320
+for us to get to a circle or a teller kind of size, then yeah, that's going to take a while
+
+285
+00:25:26,320 --> 00:25:31,120
+and there probably will need to be an inflection point that we would consider as reaching mass
+
+286
+00:25:31,120 --> 00:25:37,680
+adoption. However, for us to get to a modest size with a few commas and zeros, I honestly don't
+
+287
+00:25:37,680 --> 00:25:41,840
+believe that that's going to be particularly long for us. The types of conversations that we're
+
+288
+00:25:41,840 --> 00:25:47,200
+having and the types of organizations that are reaching out to us demonstrates that there is
+
+289
+00:25:47,200 --> 00:25:54,080
+this demand. I think that's one thing that has been quite surprising is how easily we've been
+
+290
+00:25:54,080 --> 00:25:59,280
+able to have a lot of the conversations that we're currently having. What Dollar Stablecoins has done
+
+291
+00:25:59,280 --> 00:26:04,240
+for us is they demonstrate the proof is in the pudding. What's also quite helpful for us is that
+
+292
+00:26:04,240 --> 00:26:09,680
+global financial markets, while the majority is dollars, there's a lot of value that's also not.
+
+293
+00:26:10,240 --> 00:26:16,240
+The UK financial ecosystem, the whole industry, a lot of that's not dollars, but a lot of the
+
+294
+00:26:16,240 --> 00:26:21,040
+use cases can be applied directly to those organizations. We're feeling pretty optimistic
+
+295
+00:26:21,040 --> 00:26:27,520
+about our trajectory and also that for the industry as a whole. To your point, I think there is and
+
+296
+00:26:27,520 --> 00:26:33,760
+will continue to be demand. Who do you think are the winners and losers once you guys are at scale
+
+297
+00:26:33,760 --> 00:26:39,840
+and other comparable players are at scale? I sat on a panel a few weeks ago in front of a bunch
+
+298
+00:26:39,840 --> 00:26:43,840
+of bankers and I basically said, you need to start embracing this or you're going to become a victim
+
+299
+00:26:43,840 --> 00:26:48,880
+of it. I would say if I was any financial institution, you know, the investment banks and
+
+300
+00:26:48,880 --> 00:26:53,200
+the investment banks on the whole, if they manage their risks, they're going to survive in one firm
+
+301
+00:26:53,200 --> 00:27:00,480
+or another. Where I would be nervous is if I was within the retail banking system. If I'm an individual
+
+302
+00:27:00,480 --> 00:27:06,720
+within the UK, for example, and I have my savings with a standard high street retail bank, I'm only
+
+303
+00:27:06,720 --> 00:27:12,320
+covered up to 85,000 pounds. Anything more than that, I'm subject to the bank's own risks and
+
+304
+00:27:12,320 --> 00:27:17,040
+its own reserves. They're fractionally backed. And if I could be fully backed, I would choose to be
+
+305
+00:27:17,040 --> 00:27:21,920
+fully backed, not fractionally backed. So yeah, I think the UK retail banking system is probably
+
+306
+00:27:21,920 --> 00:27:28,080
+the most at risk, although I'm sure the regulators will find ways to protect them if they need to.
+
+307
+00:27:28,080 --> 00:27:31,200
+Presumably, these yield very interesting products will be interesting for them,
+
+308
+00:27:31,200 --> 00:27:34,800
+though, at least as business models that they can almost leech onto.
+
+309
+00:27:35,360 --> 00:27:40,080
+I think so. And I think maybe that's what we start to do is view them as a distribution
+
+310
+00:27:40,080 --> 00:27:45,280
+channel, look at how we can integrate. I do think that there'll come a point where a lot of these
+
+311
+00:27:45,280 --> 00:27:48,480
+financial institutions will turn around and say, well, if we can't beat them, we'll join them.
+
+312
+00:27:49,040 --> 00:27:51,520
+Otherwise, they will be put under significant pressure.
+
+313
+00:27:52,640 --> 00:27:57,600
+Longer term, do you guys want to be one flagship product more akin to a circle,
+
+314
+00:27:57,600 --> 00:28:01,760
+or do you want to be a suite of products or somewhere in the middle when it comes to how
+
+315
+00:28:01,760 --> 00:28:07,040
+many tokens and on-chain offerings you have? I think we're organically finding that out ourselves.
+
+316
+00:28:07,040 --> 00:28:12,480
+I mean, we initially wanted to start as this retail on and off ramp that was integrated with
+
+317
+00:28:12,480 --> 00:28:17,920
+open banking and automated KYC and AML to make this seamless interoperability between
+
+318
+00:28:18,960 --> 00:28:24,880
+and pounds on chain. And I guess as we've sort of developed as individuals and as an organisation,
+
+319
+00:28:25,440 --> 00:28:30,400
+we've seen that change between client demand and also our own ideas.
+
+320
+00:28:30,400 --> 00:28:35,840
+I think yield products on chain make a lot of sense. And I guess we've kind of seen that with
+
+321
+00:28:35,840 --> 00:28:41,280
+what circle is doing with their acquisition of Hational. I think for us, we will have quite
+
+322
+00:28:41,280 --> 00:28:47,120
+a narrow suite of products. We would rather have quality over quantity. I think there's a requirement
+
+323
+00:28:47,120 --> 00:28:54,080
+for stablecoin issuers to not just be an issuer and to be a really good quality infrastructure
+
+324
+00:28:54,080 --> 00:28:59,280
+provider as well. Because at the end of the day, if you want organisations to integrate and build
+
+325
+00:28:59,280 --> 00:29:03,520
+on top of your product, you need to make it particularly easy and attractive for them to
+
+326
+00:29:03,520 --> 00:29:09,280
+do that work. I wanted to ask you one final question, which is what is the user behaviour
+
+327
+00:29:09,280 --> 00:29:13,520
+change you're seeing at the moment that makes you compelled that this is going to happen or
+
+328
+00:29:13,520 --> 00:29:19,920
+what makes you excited that you're seeing in the market? I think for us, it's the level of
+
+329
+00:29:19,920 --> 00:29:27,760
+willingness of high level individuals in organisations that we would probably consider as
+
+330
+00:29:28,480 --> 00:29:34,160
+not really being particularly forward thinking or innovative, being willing and open to have
+
+331
+00:29:34,160 --> 00:29:42,240
+these conversations, looking to move at a pace that we would consider to be quite fast for them
+
+332
+00:29:42,240 --> 00:29:51,280
+and the level of ideation that they have themselves. I think it's very easy for us to say that a lot
+
+333
+00:29:51,360 --> 00:29:57,200
+of financial institutions and also large corporates are quite behind the curve but
+
+334
+00:29:57,200 --> 00:30:02,000
+I actually don't think they are. I think a lot of them are thinking about this and so that gives us
+
+335
+00:30:02,000 --> 00:30:07,440
+a lot of motivation, particularly in the level of inbound that we're also receiving. I don't feel
+
+336
+00:30:07,440 --> 00:30:14,800
+like we've got a huge uphill battle on finding good quality distribution partners there out there
+
+337
+00:30:14,800 --> 00:30:19,520
+and it's up to us to deliver a commercial situation that works well for both parties.
+
+338
+00:30:20,160 --> 00:30:24,720
+It's good to hear people are listening. It's been a pleasure having you on. Thanks for joining us.
+
+339
+00:30:24,720 --> 00:30:30,480
+Thanks for having me. Thanks for listening to another episode of On the Brink with Castle Island.
+
+340
+00:30:30,480 --> 00:30:36,800
+To find out more about Castle Island, visit castleisland.vc. To listen to all of our podcast
+
+341
+00:30:36,800 --> 00:30:43,520
+episodes, please go to onthebrink-podcast.com or just click on the tab in our website.
+
+342
+00:30:43,520 --> 00:30:46,960
+Thanks for listening.
+

@@ -1,0 +1,1756 @@
+1
+00:00:00,000 --> 00:00:05,600
+Wyatt from Castle Island here and this episode marked the second in our series on stablecoins
+
+2
+00:00:05,600 --> 00:00:10,960
+in DeFi. Today, I was joined by Hannah and Justin, founders of Asymmetry Finance, which builds unique
+
+3
+00:00:10,960 --> 00:00:15,840
+stablecoin offerings in DeFi. Without further ado, I hope you enjoy our conversation.
+
+4
+00:00:30,320 --> 00:00:34,000
+Make a particular investment or follow a particular strategy, but only as an expression of their
+
+5
+00:00:34,000 --> 00:00:36,800
+personal opinion. This podcast is for informational purposes only.
+
+6
+00:01:00,000 --> 00:01:15,120
+Justin and Hannah from Asymmetry Finance, thanks for joining our podcast. We're going to talk about
+
+7
+00:01:15,120 --> 00:01:20,880
+stablecoins and DeFi today, which I'm excited for, but would love to get some personal introductions,
+
+8
+00:01:20,880 --> 00:01:26,480
+if you don't mind, before we get started. I'm Hannah Jojo and I come from a traditional
+
+9
+00:01:26,480 --> 00:01:34,000
+background actually in finance and risk analysis. I started out my career as an actuary. Actuaries
+
+10
+00:01:34,000 --> 00:01:40,400
+create risk models and try to find and moderate different risk in systems. I did that for a while.
+
+11
+00:01:40,400 --> 00:01:45,280
+I was there for a few years working at pension funds, health insurance companies, et cetera,
+
+12
+00:01:45,920 --> 00:01:51,040
+and realized I was just maximizing profits for these massive industries.
+
+13
+00:01:51,120 --> 00:01:56,960
+Didn't want to keep doing that forever. I had always been doing crypto and DeFi on the side,
+
+14
+00:01:56,960 --> 00:02:02,640
+learning about it as I was studying math. It was just fascinating. It was really starting to take
+
+15
+00:02:02,640 --> 00:02:07,600
+off and we were starting to see derivatives products in crypto, all these things that I
+
+16
+00:02:07,600 --> 00:02:13,920
+was classically trained in up here in crypto and on blockchains. When that really started to boom,
+
+17
+00:02:13,920 --> 00:02:20,800
+I jumped over, started working in crypto full-time and I've worked at a nonprofit in crypto as well as
+
+18
+00:02:20,800 --> 00:02:27,040
+some DeFi startups and the largest name, Genesis Global Trading, where I was working on their
+
+19
+00:02:27,040 --> 00:02:32,480
+DeFi portfolio to deploy it to actually things like exactly what we've built at Asymmetry,
+
+20
+00:02:32,480 --> 00:02:36,880
+more risk-off ways of getting higher yield on your assets, which we can get into, but
+
+21
+00:02:36,880 --> 00:02:42,800
+that's my background. My background, I started off as a software engineer right out of school,
+
+22
+00:02:42,800 --> 00:02:49,200
+did it for AT&T for a Fortune 10 company and then COVID hit and everyone got sent home and the game
+
+23
+00:02:49,200 --> 00:02:55,120
+really changed quickly after that. I went and helped build a cybersecurity startup in Colorado
+
+24
+00:02:55,120 --> 00:02:59,840
+that was acquired and then went to go work full-time in crypto. Went to go work for
+
+25
+00:02:59,840 --> 00:03:06,000
+ShapeShift and Eric Voorhees helped transition them from a centralized company into a DAO
+
+26
+00:03:06,000 --> 00:03:11,120
+and really learn what the process looks like to try and create a flat organization that is
+
+27
+00:03:11,120 --> 00:03:15,520
+managed on Discord, which is, as you can imagine, comes with some growing pains.
+
+28
+00:03:15,520 --> 00:03:21,200
+I left ShapeShift, served as head of product for Silo Finance, building isolated lending markets,
+
+29
+00:03:21,200 --> 00:03:27,600
+learned a lot about, obviously, go-to-market and how to build, frankly, good lending markets there.
+
+30
+00:03:27,600 --> 00:03:33,360
+They've had a lot of success, especially recently on Sonic, which is super stoked to see, and then
+
+31
+00:03:33,360 --> 00:03:38,880
+had an idea for Asymmetry and Hannah and I put our heads together and the rest is history. That
+
+32
+00:03:38,880 --> 00:03:44,160
+leads us here and that was almost two, three years ago now and it has been a roller coaster,
+
+33
+00:03:44,160 --> 00:03:49,440
+a windy road to get to where we are and really excited to kind of dig into some of it and chat
+
+34
+00:03:49,440 --> 00:03:55,120
+further. It's been fun. You guys are a flagship case of came from traditional finance, from
+
+35
+00:03:55,120 --> 00:04:00,560
+traditional software and saw the appeal of crypto and took the pill. Excited to hear about Asymmetry.
+
+36
+00:04:00,560 --> 00:04:06,320
+Hannah, I'm curious, before we hop into that, how you look at the migration of assessing risk
+
+37
+00:04:06,320 --> 00:04:10,960
+and looking at risk in traditional finance to crypto. There's obviously a lot when it comes
+
+38
+00:04:10,960 --> 00:04:15,360
+to the intersection of crypto and risk and curious for any views you have or experiences there.
+
+39
+00:04:15,920 --> 00:04:20,640
+The reason why I migrated over to crypto, I feel like, is there weren't a lot of actuaries here
+
+40
+00:04:20,640 --> 00:04:26,480
+and there is so much risk to measure. We know it's not a riskless space. There's plenty of it,
+
+41
+00:04:26,480 --> 00:04:31,520
+which is why yield is so high because those are inversely correlated. Higher yield, higher risk,
+
+42
+00:04:31,520 --> 00:04:37,120
+lower yield, lower risk, et cetera. So coming into crypto and seeing some of the insane yields,
+
+43
+00:04:37,120 --> 00:04:42,320
+obviously, a lot of those carry a lot of risk, which many people have found out the hard way.
+
+44
+00:04:42,320 --> 00:04:46,640
+But I do think we actually need more professionals like actuaries in this space.
+
+45
+00:04:46,640 --> 00:04:52,240
+So Genesis, when they hired me, they were looking for someone who had that risk background
+
+46
+00:04:52,240 --> 00:04:57,840
+because they had about a billion dollars that they were looking to deploy into different high
+
+47
+00:04:57,840 --> 00:05:04,080
+yield products. High yield, not meaning the 10,000% APY that some of us are familiar with in the
+
+48
+00:05:04,080 --> 00:05:10,560
+good old days, but rather things like what we've built at Asymmetry, which is a stable coin yield
+
+49
+00:05:10,560 --> 00:05:16,320
+somewhere between 10% and 20% APY. Before I joined their team, they deployed a few hundred
+
+50
+00:05:16,320 --> 00:05:22,560
+million dollars to Anchor Protocol and UST. I began working there, submitted a risk report saying,
+
+51
+00:05:22,560 --> 00:05:29,200
+guys, you got to pull this. It's not safe. It is not the same as getting 20% on, say, SDI or
+
+52
+00:05:29,200 --> 00:05:35,040
+something, SDI with a lending offer, something like that. And they were going to deploy a few
+
+53
+00:05:35,040 --> 00:05:40,880
+hundred million more to UST. I actually got them to unwind that, so saved them quite a bit there
+
+54
+00:05:40,880 --> 00:05:45,200
+because all of this happened a few weeks before the big collapse. Just things like that where
+
+55
+00:05:45,920 --> 00:05:50,480
+sometimes we see these yield numbers and they're very tempting, but you do need someone to actually
+
+56
+00:05:50,480 --> 00:05:56,400
+understand the risks, explain them to the public or private. In that case, it was private, but
+
+57
+00:05:56,400 --> 00:06:01,520
+we need people in this space who are making these risks known. At Asymmetry, we said,
+
+58
+00:06:01,520 --> 00:06:07,440
+let's build high yield products, but we're not going to shoot for the highest yields, no crazy
+
+59
+00:06:07,440 --> 00:06:12,480
+yield of a few thousand percent or anything like that. No yield that purely comes from our
+
+60
+00:06:12,480 --> 00:06:18,080
+governance token boosting it up. Let's build products that have sustainable yield without
+
+61
+00:06:18,080 --> 00:06:23,520
+the risk of a death spiral. And luckily, it was a hard lesson to learn, but a lot of the market
+
+62
+00:06:23,520 --> 00:06:29,600
+now understands more of those risks after seeing UST really unwind. And there is still a huge need
+
+63
+00:06:29,600 --> 00:06:34,240
+for products like that, so that's what we're working on. Your journey into crypto where you
+
+64
+00:06:34,240 --> 00:06:39,120
+came from a risk background and saw a lack of risk analysis at the time reminds me of some of the
+
+65
+00:06:39,120 --> 00:06:44,160
+high-frequency traders and market makers early on who might have been philosophically aligned
+
+66
+00:06:44,160 --> 00:06:48,480
+with crypto, but they really mostly saw just an industry that was sorely lacking these systems
+
+67
+00:06:48,560 --> 00:06:53,280
+and inefficient markets and plugged that hole. You dove into it a little bit, but tell us more
+
+68
+00:06:53,280 --> 00:06:58,240
+about Asymmetry Finance and the products you guys are offering today and what your inspirations are.
+
+69
+00:06:58,800 --> 00:07:03,520
+If you think of Asymmetry, the products we're building are these higher yield products.
+
+70
+00:07:03,520 --> 00:07:08,080
+People in crypto do want yield. If there's no secret there, people want yield. We have a few
+
+71
+00:07:08,080 --> 00:07:13,360
+products in the convex ecosystem. If you have convex, we're the best place to wrap it where
+
+72
+00:07:13,360 --> 00:07:18,160
+it can be most liquid and highest yield, which is a really fun problem to solve because normally
+
+73
+00:07:18,160 --> 00:07:22,960
+you have to choose one, but the products coming out in the future, I would say, are more our
+
+74
+00:07:22,960 --> 00:07:29,520
+flagship and they're high yield synthetic dollars. We eliminate that downside price pressure risk
+
+75
+00:07:29,520 --> 00:07:35,760
+mostly by having it be a stablecoin, and then you can mint the stablecoin against assets that
+
+76
+00:07:35,760 --> 00:07:42,960
+are pretty safe, assets most people know. You can look at SDI already that has some yield baked in,
+
+77
+00:07:42,960 --> 00:07:49,520
+and then you can borrow against it and increase your yield there. Also, wrapped Bitcoin,
+
+78
+00:07:49,520 --> 00:07:54,960
+some other Bitcoin assets, and really we're just trying to keep it to the safest assets.
+
+79
+00:07:54,960 --> 00:08:00,080
+You can get more information on all of them on our site, but we're building these high yield
+
+80
+00:08:00,080 --> 00:08:05,840
+products that people can basically hold as passively as possible and not see their wealth
+
+81
+00:08:05,840 --> 00:08:12,320
+eroded over time because we've seen this in parts of the world with hyperinflation, Argentina, Turkey.
+
+82
+00:08:12,320 --> 00:08:19,600
+It's a huge issue if people are holding their life savings and they did nothing wrong and they
+
+83
+00:08:19,600 --> 00:08:24,800
+watched it eroded in a year or two because of some bad government decisions that are completely out
+
+84
+00:08:24,800 --> 00:08:31,200
+of their control. So we're trying to build passive assets and Justin will say this, but we also try
+
+85
+00:08:31,200 --> 00:08:37,360
+to make them so easy that your mom can use it. Really easy interface to use, high yield, relatively
+
+86
+00:08:37,360 --> 00:08:42,960
+risk off assets is what we build. You guys are building yield products around say cornerstone
+
+87
+00:08:42,960 --> 00:08:48,080
+assets, things like convex and curve and some of the larger DeFi assets, as well as these stable
+
+88
+00:08:48,080 --> 00:08:54,320
+coins that you guys are creating from a functional perspective. Yeah, we've had a long road. So we
+
+89
+00:08:54,320 --> 00:09:00,480
+started a few years ago and our first product was actually a index fund for different state ETH
+
+90
+00:09:00,480 --> 00:09:06,160
+products, which would have been really cool, but we built it too early. Why did you build that
+
+91
+00:09:06,160 --> 00:09:11,440
+in the first place? That was another risk play. It was earlier days. So some of these contracts
+
+92
+00:09:11,440 --> 00:09:17,760
+weren't as proven and so much money was flowing into ETH staking and Lido almost had voting
+
+93
+00:09:17,760 --> 00:09:24,480
+majority of ETH and we said that's a huge risk to the ecosystem and what if their code's bad.
+
+94
+00:09:24,480 --> 00:09:31,600
+So we said we'll offer people a basket of all these assets and we took the six largest staking
+
+95
+00:09:31,600 --> 00:09:36,240
+products for ETH and then people could in one click get access to all of them.
+
+96
+00:09:36,240 --> 00:09:40,720
+And we were just a little bit too early. So that's where we started though two and a half years ago
+
+97
+00:09:40,720 --> 00:09:46,400
+with really the same 14. And so I'd say in those two and a half years, we really just learned
+
+98
+00:09:46,400 --> 00:09:53,200
+more easily how to reach the markets they were trying to work with and attract. And then we've
+
+99
+00:09:53,200 --> 00:09:58,640
+built better and better products that do appeal to the masses, especially with these high yield
+
+100
+00:09:58,640 --> 00:10:03,840
+stable coins, which I think almost everyone would appreciate access to if it was easy enough for
+
+101
+00:10:03,840 --> 00:10:09,600
+them. Bouncing around a little bit, but in that vein, do you think you get a basket of stable coins
+
+102
+00:10:09,600 --> 00:10:14,480
+which becomes the preferred stable coin and then maybe a basket of basket of stable coins?
+
+103
+00:10:14,480 --> 00:10:20,160
+Do we create traditional fund structures here? I think we could. I think especially when you look
+
+104
+00:10:20,160 --> 00:10:27,040
+at huge whales, treasuries, et cetera, if you are a startup and you have a treasury, you want that to
+
+105
+00:10:27,040 --> 00:10:31,360
+be as safe as possible. Or if you're a large institution and you have a treasury, you lose
+
+106
+00:10:31,360 --> 00:10:36,880
+your treasury, you lose everything. So putting it all into one stable coin or one asset probably
+
+107
+00:10:36,880 --> 00:10:45,200
+doesn't make a lot of sense. We've seen catastrophic events happen. The USDC, USDT, DPEG a few years ago
+
+108
+00:10:45,200 --> 00:10:51,920
+was just terrifying. It was the two largest stable coins really. And they were DPEGging and no one
+
+109
+00:10:51,920 --> 00:10:58,480
+knew where the floor would be. And UST was a stable coin and that completely crashed. So I think
+
+110
+00:10:58,480 --> 00:11:04,560
+one, it's best to understand them, but two, it is best to diversify a little bit and also include
+
+111
+00:11:04,560 --> 00:11:10,720
+some decentralized stable coins in your portfolio, like DAI, SDAI, because those have performed the
+
+112
+00:11:10,720 --> 00:11:17,040
+best in historical DPEG events. Yeah, it's a crazy thing, but it's completely true. My colleague,
+
+113
+00:11:17,040 --> 00:11:20,800
+Nix, recently has been talking a bit about Silvergate and the banking crisis. And you
+
+114
+00:11:20,800 --> 00:11:24,320
+get these periods of traditional finance contagion. At that point, it can be better
+
+115
+00:11:24,880 --> 00:11:29,920
+to own at least some of these decentralized stable coins to your point. From your guys' experience,
+
+116
+00:11:29,920 --> 00:11:35,760
+if someone comes to asymmetry and they have convex, they're using the protocol to earn
+
+117
+00:11:36,320 --> 00:11:40,960
+yield on their convex, or they have USDC, they're using it to earn interest on their USDC.
+
+118
+00:11:41,520 --> 00:11:48,000
+Does the convex user want yield in convex? And does the USDC person want yield in USDC? Is the
+
+119
+00:11:48,000 --> 00:11:52,640
+yield denominated as the same in the underlying in all these scenarios, or how do these products
+
+120
+00:11:52,640 --> 00:11:58,960
+function and what do people want? There's two avenues here. On the convex side, as Hannah said,
+
+121
+00:11:58,960 --> 00:12:03,840
+it's called AFCVX, but we consider it to be the best convex wrapper, most liquid wrapper,
+
+122
+00:12:03,840 --> 00:12:07,440
+as well as the highest yielding. People in the convex ecosystem, it's a really,
+
+123
+00:12:07,440 --> 00:12:15,840
+really powerful ecosystem. And convex throughout the entire bear has paid 20, 25 or so percent APY
+
+124
+00:12:16,480 --> 00:12:22,720
+on convex denominated in convex through this whole incentive emission, but really bribe an
+
+125
+00:12:22,720 --> 00:12:27,600
+incentive mechanism that they have there. It's been really, really powerful and proven over a
+
+126
+00:12:27,600 --> 00:12:32,160
+number of years to work really well. Those users who own the convex, they want yield denominated
+
+127
+00:12:32,160 --> 00:12:37,760
+in more convex. I think there are probably some that harvest their yield on a biweekly basis,
+
+128
+00:12:37,760 --> 00:12:42,160
+sell it into dollars and use that to stay alive, pay the rent, expenses, whatever.
+
+129
+00:12:42,160 --> 00:12:47,360
+And that's really meant for a more specific ecosystem, power users who are deep in this
+
+130
+00:12:47,360 --> 00:12:52,720
+curve convex space. And then on the other side, there's USDAF and the stables that we're building,
+
+131
+00:12:52,720 --> 00:13:01,600
+which are really more designed for a user who is seeking to borrow against and use assets they
+
+132
+00:13:01,600 --> 00:13:07,040
+already own in a more capital efficient way, yet still fully decentralized. So you take your SDI,
+
+133
+00:13:07,040 --> 00:13:11,680
+you take your wrapped Bitcoin, you bring it to the protocol, you're able to borrow against it,
+
+134
+00:13:11,680 --> 00:13:15,040
+set your own interest rates completely permissionlessly. So they'll be able to
+
+135
+00:13:15,040 --> 00:13:18,800
+move with market dynamics up and down, high interest rate, low interest rate environment,
+
+136
+00:13:18,800 --> 00:13:22,240
+doesn't matter. The system can adjust to it because it's completely market set,
+
+137
+00:13:22,240 --> 00:13:26,160
+completely up to the user, borrow against it, whatever rate you want, fixed rate into
+
+138
+00:13:26,160 --> 00:13:30,640
+perpetuity, and then set your LTV and boom, you're kind of off to the races. And of course,
+
+139
+00:13:30,640 --> 00:13:37,360
+there's a staked version of the stable coins that will allow users to have a yield bearing option
+
+140
+00:13:37,360 --> 00:13:40,960
+as well. And I think those will be pretty popular. And then there's a bunch of vault
+
+141
+00:13:40,960 --> 00:13:45,120
+infrastructure and other pieces we're building on top of it, but I'll leave it there. There's
+
+142
+00:13:45,120 --> 00:13:49,760
+a couple different layers as we think of it. And looking at those products, people who use
+
+143
+00:13:49,760 --> 00:13:56,800
+crypto often, I would say those who don't aside are probably familiar with USDAF and you have
+
+144
+00:13:56,800 --> 00:14:02,640
+resolve and you have usual and you have USDM and you have all these different product offerings.
+
+145
+00:14:02,640 --> 00:14:08,240
+What's the message you guys are trying to convey with USDAF and how would you orient that among
+
+146
+00:14:08,240 --> 00:14:14,000
+the landscape of offerings in DeFi? One thing that's really missing at this moment in time
+
+147
+00:14:14,720 --> 00:14:22,480
+is fixed rate borrowing into perpetuity. A lot of these stable coins that currently exist,
+
+148
+00:14:22,480 --> 00:14:27,520
+you can mint them out of other assets or you have to just go maybe purchase them or the minted by
+
+149
+00:14:27,520 --> 00:14:32,800
+a centralized entity and you buy them from a DEX or something like that. But there's nowhere
+
+150
+00:14:32,800 --> 00:14:38,160
+out there at the moment that allows users to bring some of the largest assets in DeFi,
+
+151
+00:14:38,160 --> 00:14:44,400
+bring them to a protocol and borrow against them with a fixed rate into perpetuity without any
+
+152
+00:14:44,400 --> 00:14:50,320
+slippage, without any caveats involved in that process. And I think that's a really big game
+
+153
+00:14:50,320 --> 00:14:55,520
+changing moment. We're building on top of Liquidy B2, which Asymmetry has a license to do. They
+
+154
+00:14:55,520 --> 00:15:01,760
+built awesome tech and candidly think that this is going to shake up the lending environment a
+
+155
+00:15:01,760 --> 00:15:08,560
+little bit. The other piece to that is that a lot of these stable coins are not fully immutable,
+
+156
+00:15:08,560 --> 00:15:15,280
+fully permissionless, fully decentralized and have 100% independent oracles. USDAF has all of them.
+
+157
+00:15:15,280 --> 00:15:21,040
+So all oracles are fully independent built with Chainlink and then the protocol itself is
+
+158
+00:15:21,040 --> 00:15:26,320
+completely immutable, completely permissionless. The team has no ability to change it.
+
+159
+00:15:26,320 --> 00:15:30,800
+When talking to larger institutional players, oracles are 100% independent. There's no
+
+160
+00:15:31,920 --> 00:15:38,320
+risk of having to trust a small team that you don't know not to upgrade the code and essentially
+
+161
+00:15:38,320 --> 00:15:43,840
+steal the money, which is inherently a risk unfortunately in this space. Is it likely? I
+
+162
+00:15:43,840 --> 00:15:49,840
+don't think so. I'm not saying that about other teams at all. But if there's not even a possibility
+
+163
+00:15:49,840 --> 00:15:54,400
+of that happening, if it literally cannot happen physically impossible, it adds another kind of
+
+164
+00:15:54,400 --> 00:15:58,560
+check mark to that. When we talk to some larger institutions or whales and they say, well, look,
+
+165
+00:15:58,560 --> 00:16:03,360
+then I feel really comfortable allocating into this because I know that even in a worst case
+
+166
+00:16:03,360 --> 00:16:09,040
+scenario, no one can take hold of this thing and turn it into being used for something it wasn't
+
+167
+00:16:09,040 --> 00:16:14,560
+meant to be. So to recap, fixed rate lending on user set interest rates and then this fully
+
+168
+00:16:14,560 --> 00:16:19,520
+permissionless DeFi first wave that I think has gone by the wayside a little bit with some of these
+
+169
+00:16:19,520 --> 00:16:27,840
+CFI DeFi plays really strongly principle values of DeFi coming back and then using the best assets
+
+170
+00:16:27,840 --> 00:16:33,200
+to borrow against there. There are a lot of reasons why the value might be obvious, but
+
+171
+00:16:33,840 --> 00:16:39,680
+in your view, why is that fixed rate lending piece valuable or meaningful in the backdrop
+
+172
+00:16:39,680 --> 00:16:45,200
+of crypto today? One thing we've heard repeatedly from larger users is that if they're going to
+
+173
+00:16:45,200 --> 00:16:49,920
+structure a trade, they need to have a fixed cost of capital. They need to know that right off the
+
+174
+00:16:49,920 --> 00:16:56,480
+bat. And so when you allocate into one of the current lending protocols, Aave, Compound, whatever,
+
+175
+00:16:57,200 --> 00:17:02,640
+you are subject to a variable interest rate. Can you give a specific use case here?
+
+176
+00:17:02,640 --> 00:17:07,280
+We were talking with a fund and they were saying that they're trying to essentially ARB and play
+
+177
+00:17:07,280 --> 00:17:12,800
+this game of taking advantage of borrowing in USDC and then going and purchasing Treasuries,
+
+178
+00:17:12,800 --> 00:17:17,360
+just a very simple ARB. And what's their collateral? Dollars, I guess, to start,
+
+179
+00:17:17,360 --> 00:17:22,080
+but then they're pulling it over. They're basically just purchasing bonds on one end,
+
+180
+00:17:22,080 --> 00:17:26,880
+at least just from when we heard that it wasn't clear if they were borrowing against something
+
+181
+00:17:26,880 --> 00:17:32,960
+to get those dollars, but they were just buying say T-bills, bonds, comparing that to kind of
+
+182
+00:17:32,960 --> 00:17:37,920
+on-chain yield. And in bear markets, you find that to pick on Aave, because they're the biggest,
+
+183
+00:17:38,560 --> 00:17:44,400
+the rate that you get on supplying USDC, for example, is under your T-bill rate. At least
+
+184
+00:17:44,400 --> 00:17:48,720
+it has been this last year, but you're taking on smart contract risk and custody risk and everything
+
+185
+00:17:48,720 --> 00:17:53,520
+in order to do that, where you could go get, I'll call it totally risk-free yield with T-bills.
+
+186
+00:17:53,520 --> 00:17:59,120
+There's an arbitrage there, I would say, on the flip side. In a bull market, if you're supplying
+
+187
+00:17:59,120 --> 00:18:03,680
+USDC, great, you might get massive yield, but someone's borrowing it on the other side to pay
+
+188
+00:18:03,680 --> 00:18:08,720
+that yield. They deposit it and they're like, all right, we're going to borrow at 4% or something.
+
+189
+00:18:08,720 --> 00:18:13,360
+And now in a bull market, it's 17%. And you're like, okay, well, whatever trade I was doing,
+
+190
+00:18:13,360 --> 00:18:18,080
+I wouldn't go pay it off a house. It doesn't matter anymore. It's not profitable. I'm underwater. And
+
+191
+00:18:18,080 --> 00:18:22,400
+that fixed cost of capital is a big deal. Yeah, it's efficient markets to me is what it seems
+
+192
+00:18:22,400 --> 00:18:28,480
+like. If you're a Bitcoin retholder and you can go borrow some USDC and then earn yield on it,
+
+193
+00:18:28,480 --> 00:18:33,120
+that is above your rate, then you might as well do that. And it's positive for the market broadly.
+
+194
+00:18:33,120 --> 00:18:37,920
+What user profiles are you guys going after with that in mind? Is this your everyday, your small
+
+195
+00:18:38,480 --> 00:18:43,440
+fish or whale type defi users or institutions, or how do you look at your audience?
+
+196
+00:18:43,440 --> 00:18:49,040
+We're trying to attract everyone. I think many people might say that about their product. I'm
+
+197
+00:18:49,040 --> 00:18:54,080
+sure any food company is like, we're trying to attract everyone. But at the end of the day,
+
+198
+00:18:54,640 --> 00:19:00,880
+everyone uses money and everyone probably wants to earn yield on the money they're not using.
+
+199
+00:19:01,600 --> 00:19:06,800
+It is pretty simple. So in the first few years here though, definitely it's on chain yields.
+
+200
+00:19:06,800 --> 00:19:11,920
+So we're attracting a lot of the power users of DeFi, as well as people that are dabbling.
+
+201
+00:19:11,920 --> 00:19:17,200
+We put a lot of work into making our front end as easy as possible, so easy your mom could use it.
+
+202
+00:19:17,200 --> 00:19:21,680
+And in the future, we want things to be so easy. Your grandma can use it without knowing she's
+
+203
+00:19:21,680 --> 00:19:27,200
+even using it. So that's where the integrations come with traditional payment system companies.
+
+204
+00:19:27,200 --> 00:19:33,120
+If you have a high yield synthetic dollar, it does make sense for PayPal or Visa to use that
+
+205
+00:19:33,120 --> 00:19:38,240
+on the backend and give users some of those rewards. If you're on chain, you get all those
+
+206
+00:19:38,240 --> 00:19:45,040
+rewards. I think this is actually something that if built well and it's proven that it lasts and it
+
+207
+00:19:45,040 --> 00:19:52,240
+hits a certain size upon which the risk is deemed minimal, then it really can be used on the backend
+
+208
+00:19:52,240 --> 00:19:57,200
+of financial systems. I think we will see high yield synthetic dollars there. Definitely what
+
+209
+00:19:57,200 --> 00:20:02,400
+we're trying to do in asymmetry is poise this to have one of the best chances of being there
+
+210
+00:20:02,400 --> 00:20:08,720
+eventually. Obviously, those would be the most risk off versions of the asset. So probably
+
+211
+00:20:08,720 --> 00:20:15,200
+collateralized by stable coins like DAI and SDAI rather than backed by Bitcoin for the really big
+
+212
+00:20:15,200 --> 00:20:20,480
+backing payment systems piece. But that is the end goal. So right now, trying to attract everyone,
+
+213
+00:20:20,480 --> 00:20:26,080
+whales, minnows, anyone who has money that they want to reveal on, which it turns out is most of
+
+214
+00:20:26,080 --> 00:20:30,720
+the world. It's a fascinating point you made towards the end there, which is you hit a certain
+
+215
+00:20:30,720 --> 00:20:36,480
+scale and then continue to attract more users. I think especially in the context of DeFi and
+
+216
+00:20:36,480 --> 00:20:40,800
+maybe even crypto today, where people are trying really hard to get a certain amount of deposits
+
+217
+00:20:40,800 --> 00:20:45,200
+or TVL. And then it's almost like there's an escape velocity and people say, oh, well, there
+
+218
+00:20:45,280 --> 00:20:50,640
+are $50 million deposits. I can put my money in now. There's an irony to that in what is supposed
+
+219
+00:20:50,640 --> 00:20:55,440
+to be a trustless system. First off, I would make the point. How do you look at that dynamic? Is
+
+220
+00:20:55,440 --> 00:20:59,200
+that something that you guys think about often of, oh, if we can just get to this amount of deposits,
+
+221
+00:20:59,200 --> 00:21:03,680
+then more people will come or this is a number that we need to get to and then something else
+
+222
+00:21:03,680 --> 00:21:08,320
+will happen? Or do you think it's overblown or how do you look at that? You can count on humans being
+
+223
+00:21:08,320 --> 00:21:13,920
+irrational. And so as irrational as it is, there are these different psychological barriers. And
+
+224
+00:21:13,920 --> 00:21:18,480
+if you're under a certain barrier, a group of people are not comfortable with the asset.
+
+225
+00:21:18,480 --> 00:21:23,840
+And if you're over it, a new group unlocks. So it really is a snowball rolling down a hill.
+
+226
+00:21:23,840 --> 00:21:29,120
+But I think the psychological barriers tend to be at $10 million in TVL and then $100 million
+
+227
+00:21:29,120 --> 00:21:32,880
+and then $1 billion. Once you get into the billions, people start to lose track.
+
+228
+00:21:32,880 --> 00:21:38,160
+Once you're there, I'd say that's true escape velocity once you pass the $1 billion mark in TVL.
+
+229
+00:21:38,720 --> 00:21:43,600
+I think the psychological barriers are irrational because if you're at $900 million in TVL,
+
+230
+00:21:43,600 --> 00:21:49,120
+I don't think people give you a proportional credit if you earn 10% more, attract 10% more.
+
+231
+00:21:49,120 --> 00:21:54,320
+But they are rational in that the larger something is, the bigger of a essentially
+
+232
+00:21:54,320 --> 00:22:01,600
+hacker bounty that is, where if someone is able to find a loophole in that code and exploit it,
+
+233
+00:22:01,600 --> 00:22:07,920
+that money starts to drain. And so the more money, it's the larger bounty that people haven't been
+
+234
+00:22:07,920 --> 00:22:15,600
+able to break into. So it does give security in that sense. But I would say if I could hack
+
+235
+00:22:15,600 --> 00:22:21,280
+very large code bases, $100 million would be about the same as a billion to me. No one can offer him
+
+236
+00:22:21,840 --> 00:22:27,840
+that much money. So I think anything beyond say $50 or $100 million in TVL, that's still
+
+237
+00:22:27,840 --> 00:22:34,400
+quite a big feat to not have your code hacked or broken into. So I think it is rational that we
+
+238
+00:22:34,400 --> 00:22:38,960
+assess some amount of value, but probably not rational how much we assess. But it is a snowball
+
+239
+00:22:38,960 --> 00:22:45,440
+rolling down the hill because once you pass that $1 billion TVL barrier, that is a parameter in
+
+240
+00:22:45,440 --> 00:22:51,920
+people's mind and in some people's risk models. So the larger you grow, the more investors you
+
+241
+00:22:51,920 --> 00:22:58,320
+attract because you're unlocking these next groups of risk tolerance. The larger you get now,
+
+242
+00:22:58,320 --> 00:23:02,160
+you're less risky and you can attract more of those people. And I think it just kind of keeps
+
+243
+00:23:02,160 --> 00:23:06,400
+going. You walk past a restaurant on the street and there's no one eating in it. You keep walking
+
+244
+00:23:06,400 --> 00:23:09,360
+whereas you go to the next restaurant and it's packed. You're like, yeah, this place has to be
+
+245
+00:23:09,360 --> 00:23:13,440
+good if this many people are eating here. It's the same concept. It doesn't always play out.
+
+246
+00:23:13,440 --> 00:23:17,120
+That restaurant could be wrong though. That restaurant could be bad. You could be eating
+
+247
+00:23:17,120 --> 00:23:22,720
+at Terra restaurant and you get to $20 billion or whatever it is and you check the box, but it
+
+248
+00:23:22,720 --> 00:23:28,000
+doesn't really make a difference. So size is not everything. I guess that's all I'll say about that.
+
+249
+00:23:28,480 --> 00:23:32,240
+Speaking of restaurants that a lot of people go to, I wanted to ask you guys about Ethereum,
+
+250
+00:23:32,240 --> 00:23:36,000
+switching gears a little bit, which I think has been the hot button topic for a lot of people in
+
+251
+00:23:36,000 --> 00:23:41,600
+crypto. I think we're seeing this dynamic where you still have the overwhelming amount of usage
+
+252
+00:23:41,600 --> 00:23:46,320
+that's occurring on a given venue. And we're also seeing a dynamic where there are probably protocols
+
+253
+00:23:46,320 --> 00:23:51,520
+which have a lot of usage and their token performance don't quite align, but that can
+
+254
+00:23:51,520 --> 00:23:56,720
+create certain sentiment in the market. So with that in mind, I'm curious for your perspective
+
+255
+00:23:56,800 --> 00:24:02,960
+on whether Ethereum remains and will remain the core place to build out products and where
+
+256
+00:24:02,960 --> 00:24:07,680
+crypto transacts and exists, or if there will be a migration there.
+
+257
+00:24:08,400 --> 00:24:13,600
+Wherever the liquidity is, is where I think the majority of large scale transactions will take
+
+258
+00:24:13,600 --> 00:24:19,440
+place. Like liquidity is a moat for sure. And if you have the most liquidity in one place,
+
+259
+00:24:19,440 --> 00:24:23,200
+then the largest actors will continue to transact there because there is the most
+
+260
+00:24:23,200 --> 00:24:28,320
+liquidity and it's a self-fulfilling prophecy. Can that change or is that set?
+
+261
+00:24:28,320 --> 00:24:33,680
+That might change. It certainly has a hell of a head start and a lead on it, but I think that
+
+262
+00:24:33,680 --> 00:24:39,680
+could change. We think about it and we're very bullish on this concept of the fat app thesis
+
+263
+00:24:39,680 --> 00:24:45,280
+that a lot of this L1 premium across the board will start to disappear. And that it really is
+
+264
+00:24:45,280 --> 00:24:52,400
+more so about the apps that exist across multiple chains rather than the chain itself. Apps must go
+
+265
+00:24:52,400 --> 00:24:58,160
+multi-chain and find users across them. And then it's really more so true long-term adoption looks
+
+266
+00:24:58,160 --> 00:25:02,720
+like a Venmo style app or whatever, where people are using crypto rails, but they don't really know
+
+267
+00:25:02,720 --> 00:25:07,040
+it. And it doesn't matter what chain they're on. They're just using the asymmetry app,
+
+268
+00:25:07,040 --> 00:25:12,480
+whether it's ETH based or whatever else based, it doesn't really matter to them because it's
+
+269
+00:25:12,480 --> 00:25:17,040
+all about the app and the distribution at the end of the day. But liquidity is a moat from a
+
+270
+00:25:17,680 --> 00:25:22,320
+structural perspective. But to your point, I think it could change. We'll see,
+
+271
+00:25:22,320 --> 00:25:26,320
+but it just kind of depends on, I mean, you've seen obviously ETH's performance
+
+272
+00:25:26,320 --> 00:25:31,840
+against BTC since the merge. It's been pretty poor. So maybe there's something there. In
+
+273
+00:25:31,840 --> 00:25:36,320
+hindsight, we look back in Roman Empire, we say, oh, that was the day where it kind of all started
+
+274
+00:25:36,320 --> 00:25:40,240
+to fall apart, but everyone still told themselves, oh, we're still the greatest empire for the 20
+
+275
+00:25:40,240 --> 00:25:45,200
+years. Yeah. Hundreds of years later. Maybe that was the moment. Maybe it's not. I don't know.
+
+276
+00:25:45,200 --> 00:25:51,120
+We still build on ETH. I'm a big believer that ETH is an incredible ecosystem. And of course,
+
+277
+00:25:51,120 --> 00:25:57,600
+wherever the liquidity is, is a massive driver of building at its core beyond all else.
+
+278
+00:25:58,400 --> 00:26:05,280
+I personally have a view that Bitcoin probably won't transact on Bitcoin's main chain eventually
+
+279
+00:26:05,280 --> 00:26:10,560
+in the sense that it will sit and just be denominated elsewhere, almost like a safe in
+
+280
+00:26:10,560 --> 00:26:15,920
+a bank. The money stays there while people trade claims to it. And I wonder if we go a similar
+
+281
+00:26:15,920 --> 00:26:20,480
+direction with Ethereum, which is to say that most of the liquidity and TVL is on Ethereum,
+
+282
+00:26:20,480 --> 00:26:25,040
+but as these cross-chain settlement and liquidity systems get better, that you just have
+
+283
+00:26:25,040 --> 00:26:29,440
+representation of these assets moving across other chains or dare I say, even saying moving
+
+284
+00:26:29,440 --> 00:26:34,720
+off-chain with claims to on-chain assets. It's an interesting concept, especially claims to
+
+285
+00:26:34,720 --> 00:26:40,080
+on-chain assets. You look at the blowups that have happened. DeFi performed before CeFi did.
+
+286
+00:26:40,080 --> 00:26:45,520
+You had to repay your maker loans before you could go haggle with whoever these funds got
+
+287
+00:26:45,520 --> 00:26:51,040
+loans from in the CeFi world. So from a transparency perspective, I think that works really well.
+
+288
+00:26:51,040 --> 00:26:56,240
+And it works really well, I'll say, for high-yield stablecoins. This is how we can onboard
+
+289
+00:26:56,240 --> 00:27:00,480
+the next group of people that don't even know how to use these blockchain systems,
+
+290
+00:27:00,480 --> 00:27:05,360
+but they can benefit from the technology that's being built, put a portion of savings in it.
+
+291
+00:27:05,360 --> 00:27:09,920
+I think it is a logical next step for the industry and it would really unlock a lot for
+
+292
+00:27:10,080 --> 00:27:16,240
+it as well. Did you guys see the Galaxy data recently? Speaking of lending, that showed how
+
+293
+00:27:16,240 --> 00:27:22,400
+much DeFi lending has surged and CeFi lending is a fraction of what it was. I'm asking Hannah,
+
+294
+00:27:22,400 --> 00:27:26,640
+who worked at Genesis, this question, I guess, I realize as I speak, but it was fascinating data.
+
+295
+00:27:27,280 --> 00:27:33,360
+It's fascinating and going to Justin's point, it makes sense. On-chain lending, it can't fail
+
+296
+00:27:33,360 --> 00:27:40,000
+because the code will execute and there are certain parameters as an actuary. It's amazing
+
+297
+00:27:40,000 --> 00:27:45,920
+to have programmable money with parameters that you can count on because when I worked at Genesis
+
+298
+00:27:46,480 --> 00:27:54,960
+and FTX collapsed and we were undergoing a lot of counterparty risk, basically, it was a bit
+
+299
+00:27:54,960 --> 00:27:59,600
+shocking to me that I found out that most of the traditional finance world, if someone defaults on
+
+300
+00:27:59,600 --> 00:28:04,240
+their loan, you call them in your meeting. You're like, yeah, they're on vacation right now,
+
+301
+00:28:04,240 --> 00:28:08,800
+but they say they're good for it. We'll give them a few days. I didn't really realize that.
+
+302
+00:28:09,440 --> 00:28:16,080
+I was a little bit shocked because I was actually first exposed to loans in DeFi before I saw the
+
+303
+00:28:16,080 --> 00:28:23,280
+backend of CeFi loans. It was pretty shocking that it was really a vouching system and very
+
+304
+00:28:23,840 --> 00:28:30,320
+verbally based what people said and not just did they pay or not. I think that
+
+305
+00:28:30,320 --> 00:28:35,680
+on-chain loans are definitely an innovation that will begin to take precedence in finance
+
+306
+00:28:35,680 --> 00:28:40,400
+because now we do have programmable money that can execute on these things with zero
+
+307
+00:28:40,400 --> 00:28:43,840
+human interaction, which is a really big step for things like loans.
+
+308
+00:28:43,840 --> 00:28:46,160
+Robert Leonard The other day, I was looking at some of the
+
+309
+00:28:46,160 --> 00:28:50,480
+asset attestations, particularly before you had some of these meltdowns where you would just get
+
+310
+00:28:50,480 --> 00:28:56,640
+a letter from a fund or an exchange that says, we have this much Bitcoin period signed. It's
+
+311
+00:28:56,640 --> 00:29:02,800
+incredible. And then the other day, I also saw, have you guys seen what AI can do with these
+
+312
+00:29:02,800 --> 00:29:08,400
+receipts? You can probably have GPT do this, but you can create a crumpled receipt with the name
+
+313
+00:29:08,400 --> 00:29:14,880
+of a restaurant and expenses and looks so incredibly real. It reminds you why having
+
+314
+00:29:14,880 --> 00:29:18,800
+money on-chain, you can see every step of the transaction is so valuable.
+
+315
+00:29:19,280 --> 00:29:24,400
+I remember actually, Justin, this was back around the time that we met, which for other people was
+
+316
+00:29:24,400 --> 00:29:29,840
+about four or five years ago. Justin and I both wrote pieces for our family and friends,
+
+317
+00:29:29,840 --> 00:29:34,720
+explaining crypto concepts and macro econ and how crypto was involved.
+
+318
+00:29:34,720 --> 00:29:40,080
+We were just trying to pill everyone. I remember I was doing a deep dive on all the stable coins.
+
+319
+00:29:40,080 --> 00:29:46,480
+I found out that USDC and USDT, they were audited, but the auditing companies back then said,
+
+320
+00:29:47,360 --> 00:29:51,280
+what was the terminology? I don't remember the exact words, but it was basically like,
+
+321
+00:29:51,280 --> 00:29:56,560
+we're mildly sure about this. And then they give the report.
+
+322
+00:29:56,560 --> 00:29:59,840
+The first sentence was, we're not really that sure, but here's what we're saying.
+
+323
+00:30:00,560 --> 00:30:06,800
+To kind of express it, it was not certainly. And after USDT underwent a lot of scrutiny,
+
+324
+00:30:06,800 --> 00:30:11,200
+their auditing has gotten much better in the recent years. But that just goes to show these
+
+325
+00:30:11,200 --> 00:30:17,440
+paper attestations are quite funny. We will definitely find better ways of validating data
+
+326
+00:30:17,440 --> 00:30:22,080
+than paper, especially in the age of AI. And I think people are going to have to move faster
+
+327
+00:30:22,080 --> 00:30:25,280
+on that than they realize. So that is a really good point, Wyatt.
+
+328
+00:30:25,280 --> 00:30:28,880
+Yeah. And a funny way, it'll probably be the exploits which drive people to move faster,
+
+329
+00:30:28,880 --> 00:30:32,880
+as it always is. To this point about a lot of the transitions we're seeing,
+
+330
+00:30:32,880 --> 00:30:38,720
+what is the world that you guys hope to see? And maybe that asymmetry falls in line with
+
+331
+00:30:38,720 --> 00:30:43,840
+when it comes to future finance, direction of DeFi, crypto. What do you hope to see and
+
+332
+00:30:43,840 --> 00:30:48,400
+what are your predictions? One of the large reasons why I got into crypto,
+
+333
+00:30:48,400 --> 00:30:52,800
+I mentioned I worked at a nonprofit and that was actually my first job I took in the space.
+
+334
+00:30:53,360 --> 00:31:01,280
+And it was Giveth, which is a nonprofit focused on basically charity payments. So they would let
+
+335
+00:31:01,280 --> 00:31:07,120
+people donate or raise money permissionlessly and then send the money and pay the gas. So it was
+
+336
+00:31:07,120 --> 00:31:11,120
+actually a free way of fundraising, unlike GoFundMe, which takes crazy fees.
+
+337
+00:31:11,760 --> 00:31:17,840
+What a lot of people started using this for was actually cross-border payments for migrant workers
+
+338
+00:31:17,840 --> 00:31:22,560
+or people sending money back home. And that was always a use case that I thought was fascinating
+
+339
+00:31:22,560 --> 00:31:27,760
+because if you look at Western Union, if you're sending money to Syria, you actually lose more
+
+340
+00:31:27,760 --> 00:31:33,040
+than 50% of the value through Western Union by the time it arrives. Argentina, you lose about
+
+341
+00:31:33,040 --> 00:31:38,400
+10 to 15% depending how much you're sending. These are criminal rates. If you work hard and
+
+342
+00:31:38,400 --> 00:31:45,600
+earn money in a country and you're sending it to your family, that should not be a 50% reduction
+
+343
+00:31:45,600 --> 00:31:52,000
+in value to an intermediary that doesn't do that much. Sorry, Western Union. But I think that
+
+344
+00:31:52,000 --> 00:31:58,080
+there's two basic human rights and it's sending your money securely and also storing it and not
+
+345
+00:31:58,080 --> 00:32:03,280
+seeing the value erode over time. So I really think that in the future, one of the biggest
+
+346
+00:32:03,280 --> 00:32:08,480
+things that crypto can bring to the world is actually a safe storage of value that doesn't
+
+347
+00:32:08,480 --> 00:32:13,360
+erode and is inflation resistant and outpaces inflation hopefully, but at the very least
+
+348
+00:32:13,360 --> 00:32:17,920
+protects against it. And then also people should be able to send money across borders without
+
+349
+00:32:17,920 --> 00:32:23,840
+permission and for close to free. So the products we're building are in line with both of those
+
+350
+00:32:23,840 --> 00:32:27,840
+things, which is why we're here. I don't think you can build something for multiple years that
+
+351
+00:32:27,840 --> 00:32:32,960
+you're not passionate about. That's why these are great assets that I think much of the world
+
+352
+00:32:32,960 --> 00:32:38,960
+can benefit from. Maybe we're not the best, but someone will be. And so I hope we're the best.
+
+353
+00:32:38,960 --> 00:32:42,960
+We're definitely trying doing everything we can to get there. But at the end of the day,
+
+354
+00:32:43,520 --> 00:32:49,040
+we are contributing to this ecosystem with fixed rate lending, bringing a big innovation to it
+
+355
+00:32:49,040 --> 00:32:54,400
+that might appeal to the next group of masses. And those steps need to be made so that these
+
+356
+00:32:54,400 --> 00:32:58,400
+products can reach everyone globally. Yeah. I mean, Hannah said it really well there.
+
+357
+00:32:58,400 --> 00:33:05,360
+I really think that on chain assets will eat the world and all or at least the vast majority of
+
+358
+00:33:05,360 --> 00:33:09,840
+stuff will come on chain at some point. And I think that's a beautiful thing for eliminating
+
+359
+00:33:09,840 --> 00:33:15,440
+a lot of the friction that exists with current financial systems across a bunch of different
+
+360
+00:33:15,440 --> 00:33:21,280
+asset classes, honestly, not just dollars or bonds or whatever, but even talking about real
+
+361
+00:33:21,280 --> 00:33:26,480
+estate and going further and can you tokenize and bring this stuff on chain in a transparent manner?
+
+362
+00:33:26,480 --> 00:33:31,120
+And just reduce friction I think is the biggest use case for it. And I think you've seen that
+
+363
+00:33:31,120 --> 00:33:35,360
+throughout history of a new technology comes in, people are pretty skeptical at first.
+
+364
+00:33:35,360 --> 00:33:39,200
+And then they realize, wow, this is actually gonna make my life way easier and or I can make more
+
+365
+00:33:39,200 --> 00:33:45,040
+money. Sure enough, everything starts to transition. People thought the internet was a fad. There were
+
+366
+00:33:45,040 --> 00:33:49,120
+plenty of people who thought Bitcoin was a fad. I think we're to the point now where we are
+
+367
+00:33:49,120 --> 00:33:54,480
+pretty damn sure it's not a fad and that this trend is going to accelerate. I saw that stable
+
+368
+00:33:54,480 --> 00:33:58,880
+coins is part of that Alex Lawrence galaxy research. I think they're doing more volume
+
+369
+00:33:58,880 --> 00:34:02,880
+than Visa or something along those lines. That's an incredible number that I think went under the
+
+370
+00:34:02,880 --> 00:34:08,960
+radar and what feels like a little bit of a bear weird uncertainty time. A couple years ago,
+
+371
+00:34:08,960 --> 00:34:15,600
+that would have been unfathomable. And that would have been headline news, screaming across MSNBC,
+
+372
+00:34:15,600 --> 00:34:18,640
+sending to my parents and everything. I'm like, look, stable coins are real,
+
+373
+00:34:18,640 --> 00:34:24,000
+this is actually happening. And now it's just like stable coins are doing more volume than Visa,
+
+374
+00:34:24,000 --> 00:34:30,480
+whatever. That is a huge deal. And I think this trend only continues and it then becomes a question
+
+375
+00:34:30,480 --> 00:34:35,040
+of what assets do people want to allocate to? What assets do they want to borrow against?
+
+376
+00:34:35,040 --> 00:34:40,400
+And can you give them a service that they haven't necessarily had before, which is where this
+
+377
+00:34:40,400 --> 00:34:47,280
+fixed rate lending impetus and push from the asymmetry side really comes in, is I'm shocked
+
+378
+00:34:47,280 --> 00:34:51,440
+that it's taken this long to have fixed rate lending into perpetuity in DeFi. I think it's
+
+379
+00:34:51,440 --> 00:34:56,320
+going to be a massive wave. And I think that one day we'll look back and we'll go, wow,
+
+380
+00:34:56,320 --> 00:35:00,640
+I can't believe it even took this long. Of course we needed fixed rate lending because no one in
+
+381
+00:35:00,640 --> 00:35:05,440
+DRAD-5 borrows floating rates. They just don't. How have we not had this in DeFi yet? And I think
+
+382
+00:35:05,440 --> 00:35:09,680
+we'll look back and say, wow, I can't believe it took that long, but glad it's here. And that's
+
+383
+00:35:09,680 --> 00:35:12,000
+really the wave that I think we'll be a big piece of.
+
+384
+00:35:12,560 --> 00:35:16,400
+Justin, I'm just going to throw this out there. That Visa chart was a Castle Island chart at
+
+385
+00:35:16,400 --> 00:35:20,960
+first, but I'll forgive you for it. We'll give credit where credit is due.
+
+386
+00:35:20,960 --> 00:35:24,800
+I know you were out there crunching the numbers, so I take it back. It was Wyatt.
+
+387
+00:35:26,960 --> 00:35:32,720
+No, I'll credit Nick Carter for that one. Last thing I wanted to touch on when I have someone
+
+388
+00:35:32,720 --> 00:35:36,800
+here who assesses risk and someone who looks at the code, what keeps you up at night and what are
+
+389
+00:35:36,800 --> 00:35:39,440
+your concerns, if any? I think for me,
+
+390
+00:35:40,080 --> 00:35:44,240
+I'll start in the present moment and then kind of go broader. But in the present moment,
+
+391
+00:35:44,800 --> 00:35:50,640
+my biggest fear is just we are losing interested market participants because everything is too
+
+392
+00:35:50,640 --> 00:35:56,880
+difficult to use. And it's something that often gets very overlooked because you, me,
+
+393
+00:35:56,880 --> 00:36:01,360
+Justin, we've put in the time. We know how to use wallets. We know how to use bridges.
+
+394
+00:36:01,920 --> 00:36:05,920
+I have definitely onboarded a lot of friends to crypto. And through their eyes, I've seen
+
+395
+00:36:06,560 --> 00:36:12,640
+it is still really bad of an onboarding process. And it's scary because if you make a mistake,
+
+396
+00:36:12,640 --> 00:36:15,520
+you lose your money. Gets that white knuckle experience.
+
+397
+00:36:16,960 --> 00:36:21,280
+I think that in the near term, that is the number one thing we need to work on, even though
+
+398
+00:36:21,280 --> 00:36:27,040
+most of the builders in the space, Justin and I included, are so obsessed with the tech. But
+
+399
+00:36:27,040 --> 00:36:31,920
+more builders in the space need to focus on actual experience and make it as easy as possible. And
+
+400
+00:36:31,920 --> 00:36:36,320
+that's something that we have really prioritized. So people when they're within our DApp,
+
+401
+00:36:36,320 --> 00:36:41,760
+everything's one or two click access. We explain the risks and people can make informed decisions.
+
+402
+00:36:42,320 --> 00:36:47,120
+In kind of the longer term, gosh, at this point, honestly, most of my worry centers around the
+
+403
+00:36:47,120 --> 00:36:52,880
+meme coin ecosystem. I think it will die a little bit, but I think that it does a lot of negative
+
+404
+00:36:52,880 --> 00:36:57,040
+for our industry in terms of reputation, in terms of being considered an online casino.
+
+405
+00:36:57,040 --> 00:37:02,560
+With time, I think that's something that will go away. But it does lack a lot of checks and
+
+406
+00:37:02,560 --> 00:37:07,520
+balances. And there's just a lot of speculation, which is fine if you acknowledge that it's an
+
+407
+00:37:07,520 --> 00:37:13,520
+online casino. But if people are bringing their hard-earned money and they're taking it to meme
+
+408
+00:37:13,520 --> 00:37:20,560
+coins rather than something like USDAF, which is a stable coin that earns high yield, and it's
+
+409
+00:37:20,560 --> 00:37:25,920
+relatively safe compared to meme coins, but they're bringing hard-earned money. They might not have
+
+410
+00:37:25,920 --> 00:37:29,600
+that much of it and then they're losing it in a meme coin pump and dump. I think that's really
+
+411
+00:37:29,600 --> 00:37:34,720
+unfortunate and we'll see a lot of people burned that way because they're told that they have to
+
+412
+00:37:34,720 --> 00:37:39,520
+buy this coin. That just comes down to people being informed again about really what they're
+
+413
+00:37:39,520 --> 00:37:45,440
+getting into. I encourage all other protocols to be very transparent about the risks of the protocol
+
+414
+00:37:45,440 --> 00:37:50,240
+with users. They can make informed decisions because some people will think the risk is worth
+
+415
+00:37:50,240 --> 00:37:55,520
+it and others won't. But that's what we're doing at ASEM, making everything as clear as possible,
+
+416
+00:37:55,520 --> 00:37:59,680
+answering all the questions from the community. And I encourage other protocols to do that too,
+
+417
+00:37:59,680 --> 00:38:04,800
+so that we can really scale. The only thing that really scares me at this point is some weird
+
+418
+00:38:04,800 --> 00:38:09,600
+black swan that we don't even know about, an FTX 2.0, something along those lines. I think
+
+419
+00:38:09,600 --> 00:38:14,880
+DeFi has gotten a lot better post-Terraluna. Things are transparent and I think there's a lot
+
+420
+00:38:14,880 --> 00:38:21,040
+less death spiral risk than there was then. A lot more of these mechanics have been fleshed out.
+
+421
+00:38:21,040 --> 00:38:26,160
+And that's part of a growing ecosystem. You have these growing pains. Any birth of a new financial
+
+422
+00:38:26,160 --> 00:38:31,360
+market is going to have everyone from legitimate builders to scammers and everyone in between.
+
+423
+00:38:31,360 --> 00:38:38,080
+It's speed running this capital formation process, which is both headline grabbing at times and not
+
+424
+00:38:38,080 --> 00:38:44,320
+great, but also long-term really, really healthy. You have to flesh a lot of this crap out in order
+
+425
+00:38:44,320 --> 00:38:49,760
+to find what sticks around long-term. My fear is that there's another black swan lurking around
+
+426
+00:38:49,760 --> 00:38:53,920
+the corner in some way, shape or form that we just don't know about yet. We haven't seen it yet.
+
+427
+00:38:53,920 --> 00:38:59,040
+And that puts a big dent in things, but you can't worry about something that you don't know that it
+
+428
+00:38:59,040 --> 00:39:03,840
+even exists. So for us, it's keep our heads down, build, try and build the right way as
+
+429
+00:39:03,840 --> 00:39:08,560
+transparent as possible and be as close to the community as possible, build in accordance with
+
+430
+00:39:08,560 --> 00:39:13,600
+our principles and try and carry, I think, that torch of the decentralization, the immutability,
+
+431
+00:39:13,600 --> 00:39:17,280
+trying to do things in the right way to make sure that we can sleep at night.
+
+432
+00:39:17,280 --> 00:39:21,200
+So I think that's a big piece of the dose that we try to build with. And then it's just go to
+
+433
+00:39:21,200 --> 00:39:25,360
+market, try and get these products in the hand of people that want to use them, need to use them and
+
+434
+00:39:25,360 --> 00:39:30,000
+everyone in between. Well, we'll leave it there. For anyone listening, go check out Asymmetry
+
+435
+00:39:30,000 --> 00:39:34,000
+Finance. Hannah and Justin, thanks for coming on. Hopefully we can do it again at some point.
+
+436
+00:39:34,000 --> 00:39:37,120
+Thanks, Wyatt. This was fun. Thank you so much, Wyatt. Thanks for having us.
+
+437
+00:39:38,560 --> 00:39:43,440
+Thanks for listening to another episode of On the Brink with Castle Island. To find out more about
+
+438
+00:39:43,440 --> 00:39:49,440
+Castle Island, visit castleisland.vc. To listen to all of our podcast episodes,
+
+439
+00:39:49,440 --> 00:39:56,800
+please go to onthebrink-podcast.com or just click on the tab on our website. Thanks for listening.
+

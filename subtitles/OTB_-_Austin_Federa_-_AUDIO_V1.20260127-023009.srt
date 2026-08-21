@@ -1,0 +1,3196 @@
+1
+00:00:00,000 --> 00:00:05,320
+Today, I sat down with Austin Federa, co-founder of Double Zero.
+
+2
+00:00:05,320 --> 00:00:10,360
+Double Zero is a new network of physical infrastructure to make blockchains and ultimately other
+
+3
+00:00:10,360 --> 00:00:13,160
+internet technologies run faster.
+
+4
+00:00:13,160 --> 00:00:17,760
+Austin started Double Zero last year after spending four years in senior roles at the
+
+5
+00:00:17,760 --> 00:00:21,960
+Solana Foundation, solving infrastructure problems of how to make Solana an exceptionally
+
+6
+00:00:21,960 --> 00:00:24,680
+fast and cheap money movement layer.
+
+7
+00:00:24,680 --> 00:00:27,960
+Double Zero was born out of that first-hand experience.
+
+8
+00:00:27,960 --> 00:00:32,120
+Austin brings an incredibly informed view on the intersection of blockchains, internet
+
+9
+00:00:32,120 --> 00:00:34,120
+infrastructure, and market coordination.
+
+10
+00:00:34,120 --> 00:00:38,440
+It was a pleasure to have this conversation and I hope you enjoy listening.
+
+11
+00:00:38,440 --> 00:00:40,840
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+12
+00:00:40,840 --> 00:00:43,480
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+13
+00:00:43,480 --> 00:00:46,040
+and do not reflect the opinions of Castle Island Ventures.
+
+14
+00:00:46,040 --> 00:00:48,120
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+15
+00:00:48,120 --> 00:00:51,720
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+16
+00:00:51,720 --> 00:00:55,360
+to make a particular investment or follow a particular strategy, but only as an expression
+
+17
+00:00:55,360 --> 00:00:56,360
+of their personal opinion.
+
+18
+00:00:56,360 --> 00:00:58,400
+This podcast is for informational purposes only.
+
+19
+00:01:27,360 --> 00:01:30,200
+So out of this worry, we have something called the Bitcoin.
+
+20
+00:01:30,200 --> 00:01:31,200
+Bitcoin.
+
+21
+00:01:31,200 --> 00:01:34,600
+Austin, thanks for sitting down with us today.
+
+22
+00:01:34,600 --> 00:01:40,280
+I have heard a lot about Double Zero and excited to dive in as well as about some of your experience.
+
+23
+00:01:40,280 --> 00:01:44,160
+Would you mind just kicking off with what is Double Zero for people who might be unfamiliar
+
+24
+00:01:44,160 --> 00:01:47,440
+or vaguely familiar or trying to familiarize themselves?
+
+25
+00:01:47,440 --> 00:01:54,280
+So Double Zero is a crypto infrastructure project, but it's actual infrastructure, not
+
+26
+00:01:54,320 --> 00:01:58,600
+just software systems, because usually when crypto people talk about infrastructure, they're
+
+27
+00:01:58,600 --> 00:02:00,560
+really just talking about software.
+
+28
+00:02:00,560 --> 00:02:06,080
+What we are building and have built out is a high performance global fiber network optimized
+
+29
+00:02:06,080 --> 00:02:11,360
+for the types of problems that high performance distributed systems have, as opposed to the
+
+30
+00:02:11,360 --> 00:02:16,100
+types of problems that you see on the public internet today, which are more about reach
+
+31
+00:02:16,100 --> 00:02:18,160
+than they are about performance.
+
+32
+00:02:18,160 --> 00:02:23,280
+So we have 10 independent contributors that are all contributing fiber to the Double Zero
+
+33
+00:02:23,280 --> 00:02:24,280
+network.
+
+34
+00:02:24,280 --> 00:02:27,980
+And there's a blockchain based protocol that sits on top of that, that helps orchestrate
+
+35
+00:02:27,980 --> 00:02:33,200
+link coordination, reward payouts, and the distributed management of that system.
+
+36
+00:02:33,200 --> 00:02:39,240
+There's an irony because I think in AI and in other facets of technology, data centers
+
+37
+00:02:39,240 --> 00:02:44,600
+have really started to take popular mind share and people are focused on the hardware infrastructure,
+
+38
+00:02:44,600 --> 00:02:48,580
+but it feels very much like something people miss on the crypto side.
+
+39
+00:02:48,580 --> 00:02:53,780
+If you think about it, pretty much every large software company is in hardware now,
+
+40
+00:02:53,780 --> 00:02:56,340
+and they're not in hardware because they want to be.
+
+41
+00:02:56,340 --> 00:03:01,140
+Facebook did not start building its own servers and then building its own data centers and
+
+42
+00:03:01,140 --> 00:03:05,780
+then building its own high speed subsea fiber because they wanted to.
+
+43
+00:03:05,780 --> 00:03:10,660
+They got into it because the existing market wouldn't service their needs for scale.
+
+44
+00:03:10,660 --> 00:03:14,220
+And they're not running subsea cables through the Philippines out of the goodness of their
+
+45
+00:03:14,980 --> 00:03:17,220
+because it's a plus EV business line.
+
+46
+00:03:17,220 --> 00:03:18,940
+They're doing it so they can sell ads.
+
+47
+00:03:18,940 --> 00:03:23,860
+They want Instagram reels to load more quickly so you keep scrolling so you see more ads.
+
+48
+00:03:23,860 --> 00:03:28,540
+And at a certain point of scale, the way to solve a problem of there being slow internet
+
+49
+00:03:28,540 --> 00:03:31,740
+in the Philippines is just to go build it yourself.
+
+50
+00:03:31,740 --> 00:03:36,780
+And time and time again, we see software companies making this transition from a pure software
+
+51
+00:03:36,780 --> 00:03:42,600
+play into hardware that supports their software, which eventually becomes a competitive advantage.
+
+52
+00:03:42,640 --> 00:03:48,840
+And for years, crypto just wasn't there because a lot of the major use cases were financial
+
+53
+00:03:48,840 --> 00:03:52,120
+and those use cases we know and love and are great.
+
+54
+00:03:52,120 --> 00:03:55,680
+But at the end of the day, we've gotten to a place where if crypto is really going to
+
+55
+00:03:55,680 --> 00:04:00,760
+start competing with traditional finance systems and other types of high performance distributed
+
+56
+00:04:00,760 --> 00:04:04,520
+systems, it needs to be using the same tools and technologies.
+
+57
+00:04:04,520 --> 00:04:09,560
+We don't think of Google as a distributed systems company, but it is.
+
+58
+00:04:09,560 --> 00:04:13,280
+Google is run in dozens of data centers all over the world.
+
+59
+00:04:13,280 --> 00:04:17,320
+Now, it's all run by Google and it's all linked by Google's private fiber.
+
+60
+00:04:17,320 --> 00:04:21,480
+But you wouldn't get the experience of YouTube or any other Google product if they didn't
+
+61
+00:04:21,480 --> 00:04:24,600
+have this high performance fiber network under the hood.
+
+62
+00:04:24,600 --> 00:04:28,880
+But in crypto, we can't just say, oh, great, we're going to use Amazon's network or Google's
+
+63
+00:04:28,880 --> 00:04:34,280
+network or somewhat like that, because you wouldn't have to trust that network.
+
+64
+00:04:34,280 --> 00:04:38,440
+If Double Zero were built as a centralized company with a global fiber network that we
+
+65
+00:04:38,560 --> 00:04:40,920
+ran and managed, you shouldn't trust it.
+
+66
+00:04:40,920 --> 00:04:45,800
+The reason you can trust Double Zero's fiber network is it's got 10 independent contributors.
+
+67
+00:04:45,800 --> 00:04:47,320
+It's got censorship resistance.
+
+68
+00:04:47,320 --> 00:04:51,200
+It's got all of the things that you would expect from a blockchain based project.
+
+69
+00:04:51,200 --> 00:04:54,880
+And also the Internet's a lot more centralized than people realize, too.
+
+70
+00:04:54,880 --> 00:04:56,000
+I completely agree.
+
+71
+00:04:56,000 --> 00:05:00,180
+And that alternative would completely defeat the purpose of blockchains in the first place.
+
+72
+00:05:00,180 --> 00:05:02,360
+You might as well run databases at that point.
+
+73
+00:05:02,360 --> 00:05:05,720
+Yeah, it depends what you're using blockchain for.
+
+74
+00:05:05,800 --> 00:05:10,280
+There's this knock that I feel like some people have sometimes about, oh, blockchain systems
+
+75
+00:05:10,280 --> 00:05:11,280
+are just databases.
+
+76
+00:05:11,280 --> 00:05:14,640
+And you're like, well, first off, yeah, everything is just databases.
+
+77
+00:05:14,640 --> 00:05:17,880
+The New York Stock Exchange is just a database at the end of the day.
+
+78
+00:05:17,880 --> 00:05:22,440
+The real unlock with blockchain is it's the most perfect system of accounting we've ever
+
+79
+00:05:22,440 --> 00:05:23,440
+created.
+
+80
+00:05:23,440 --> 00:05:25,380
+It doesn't require an external auditor.
+
+81
+00:05:25,380 --> 00:05:28,280
+It doesn't require trusted execution environments.
+
+82
+00:05:28,280 --> 00:05:31,680
+It doesn't require external validation of system integrity.
+
+83
+00:05:31,680 --> 00:05:35,480
+It is internally consistent in how it validates data.
+
+84
+00:05:35,600 --> 00:05:38,840
+It has all these other characteristics of being able to be run anywhere in the world
+
+85
+00:05:38,840 --> 00:05:40,520
+and being permissionless.
+
+86
+00:05:40,520 --> 00:05:46,080
+But part of the reason we are seeing more corporations adopting blockchain technology,
+
+87
+00:05:46,080 --> 00:05:51,200
+even if they're doing it in a fully centralized way, is because you can cut out a lot of the
+
+88
+00:05:51,200 --> 00:05:57,520
+Web2 detritus that we've had to stick on to these Internet protocols to make them secure.
+
+89
+00:05:57,520 --> 00:06:01,440
+We all know SOC 2 is a joke and doesn't actually mean anything.
+
+90
+00:06:01,440 --> 00:06:06,560
+But it's like this arbitrary stamp of approval that the business people stuck on a bunch
+
+91
+00:06:06,560 --> 00:06:11,680
+of software because we fundamentally can't trust software because the way that Web1 and
+
+92
+00:06:11,680 --> 00:06:16,040
+Web2 software was built was that trust was an external property brought into it.
+
+93
+00:06:16,040 --> 00:06:19,920
+In blockchain, trust is an intrinsic property to all these system designs.
+
+94
+00:06:19,920 --> 00:06:25,400
+And that means that Visa's now got a program exploring building in L1, Stripe has a whole
+
+95
+00:06:25,400 --> 00:06:29,400
+program building in L1, Circle obviously has a whole program building in L1.
+
+96
+00:06:29,400 --> 00:06:33,120
+It's not because they want to launch a token and raise more money.
+
+97
+00:06:33,120 --> 00:06:35,880
+They're all very valuable companies in their own right.
+
+98
+00:06:35,880 --> 00:06:40,960
+It's because they can actually reduce operational overheads by adopting blockchain technology.
+
+99
+00:06:40,960 --> 00:06:41,960
+Completely agree.
+
+100
+00:06:41,960 --> 00:06:45,440
+And when we have those on-chain systems which will continue to merge under the guise of
+
+101
+00:06:45,440 --> 00:06:49,720
+those companies, they're going to be looking for that level of performance optimization
+
+102
+00:06:49,720 --> 00:06:54,080
+that we were talking about where you had the cloud computing rush and you just had this
+
+103
+00:06:54,080 --> 00:06:58,880
+major improvement to underlying performance in the traditional tech world.
+
+104
+00:06:58,880 --> 00:07:03,760
+So in that vein, is the right way to think about double zero that you have this distributed
+
+105
+00:07:03,760 --> 00:07:08,920
+hardware network sitting underneath and then an on-chain coordination layer on top?
+
+106
+00:07:08,920 --> 00:07:11,160
+Yeah, that's the right way to think about it.
+
+107
+00:07:11,160 --> 00:07:14,920
+And depending on the level of abstraction you go, there's two or three different layers.
+
+108
+00:07:14,920 --> 00:07:19,200
+But one of the things that we think is really important here is this is not a system just
+
+109
+00:07:19,200 --> 00:07:20,720
+built for blockchain.
+
+110
+00:07:20,720 --> 00:07:26,520
+So it's always been possible to build a multi-party high performance fiber network.
+
+111
+00:07:26,520 --> 00:07:27,600
+These things actually exist.
+
+112
+00:07:27,600 --> 00:07:29,040
+Go West is an example of this.
+
+113
+00:07:29,040 --> 00:07:32,240
+It's a consortium run by a number of HFT firms.
+
+114
+00:07:32,240 --> 00:07:38,960
+The thing there though is access to that fiber and that microwave tower system is quite controlled
+
+115
+00:07:38,960 --> 00:07:41,360
+and quite expensive to get access to.
+
+116
+00:07:41,360 --> 00:07:46,000
+So you can think about the cloud revolution was not a revolution in technology, it was
+
+117
+00:07:46,000 --> 00:07:48,040
+a revolution in business model.
+
+118
+00:07:48,040 --> 00:07:54,080
+At the end of the day, a hypervisor with a 20% performance overhead is a pretty uncompelling
+
+119
+00:07:54,080 --> 00:07:56,620
+design for system architecture.
+
+120
+00:07:56,620 --> 00:07:58,780
+You'll forget that the cloud is actually quite slow.
+
+121
+00:07:58,780 --> 00:08:03,900
+It's very compute inefficient to run stuff in the cloud compared to like a bare metal
+
+122
+00:08:03,900 --> 00:08:05,060
+service system.
+
+123
+00:08:05,060 --> 00:08:09,140
+The advantage of the cloud is the management layer on top of it and the ability to go to
+
+124
+00:08:09,140 --> 00:08:14,420
+AWS and say, I need 500 servers and have them deployed within an hour.
+
+125
+00:08:14,420 --> 00:08:17,180
+That's something you can't get through another type of system.
+
+126
+00:08:17,180 --> 00:08:21,120
+So in double zero, we don't have a performance overhead like the cloud has.
+
+127
+00:08:21,120 --> 00:08:23,880
+We are giving folks direct access to this fiber.
+
+128
+00:08:23,880 --> 00:08:28,300
+But if you wanted to go and build a global fiber network yourself, it would take you
+
+129
+00:08:28,300 --> 00:08:32,780
+two years minimum and you'd need a staff of at least five people who've done this before
+
+130
+00:08:32,780 --> 00:08:37,260
+to actually be able to go out and do the site sourcing and all the contracting and agreements.
+
+131
+00:08:37,260 --> 00:08:39,260
+It's a very complicated process.
+
+132
+00:08:39,260 --> 00:08:43,020
+But with something like double zero, you can just connect in and say, hey, I've got a server
+
+133
+00:08:43,020 --> 00:08:48,560
+running in CC2 in Tokyo and I need to connect that into NY4 because I need to send a bunch
+
+134
+00:08:48,560 --> 00:08:52,940
+of data that's either low latency or I need to send a large volume of data to the public
+
+135
+00:08:52,960 --> 00:08:57,240
+internet can't really support and you can do that basically on demand.
+
+136
+00:08:57,240 --> 00:09:01,760
+And our first application of this technology stack is blockchain because blockchain is
+
+137
+00:09:01,760 --> 00:09:06,400
+the place where you have two important components, you have demand and you have capital.
+
+138
+00:09:06,400 --> 00:09:11,200
+So blockchains will really benefit from high performance connectivity and blockchain operators
+
+139
+00:09:11,200 --> 00:09:14,520
+receive pretty good amounts of revenue for operating their systems.
+
+140
+00:09:14,520 --> 00:09:19,500
+So if they can sweep 10 basis points of performance out of the thing, they're going to do it.
+
+141
+00:09:19,500 --> 00:09:23,940
+So it has that same characteristic of a high frequency trading firm, but it has a distributed
+
+142
+00:09:23,940 --> 00:09:27,540
+systems problem that a high frequency trading firm does not.
+
+143
+00:09:27,540 --> 00:09:32,040
+The incremental benefit to blockchain performance is very valuable.
+
+144
+00:09:32,040 --> 00:09:35,200
+I want to double click on a point you made because I think it's really important and
+
+145
+00:09:35,200 --> 00:09:36,760
+under discussed.
+
+146
+00:09:36,760 --> 00:09:45,120
+Can you touch on the market dynamics for why high performance fiber networks have not permeated
+
+147
+00:09:45,120 --> 00:09:48,420
+to being used by everyone, why everyone doesn't have access to them?
+
+148
+00:09:48,420 --> 00:09:54,000
+How has that existed to date and how does that inform where internet systems are high
+
+149
+00:09:54,000 --> 00:09:55,300
+performance, less performance?
+
+150
+00:09:55,300 --> 00:09:56,840
+How has that shaped that?
+
+151
+00:09:56,840 --> 00:10:01,120
+So we're very used to talking about network effect systems when we think about anything
+
+152
+00:10:01,120 --> 00:10:03,160
+in blockchain or web two.
+
+153
+00:10:03,160 --> 00:10:07,160
+High performance private networking is an anti-network effect business.
+
+154
+00:10:07,160 --> 00:10:13,000
+If I am jump trading and I have a high performance link from Chicago to New York, I don't want
+
+155
+00:10:13,000 --> 00:10:14,960
+Citadel or DRW on that link.
+
+156
+00:10:14,960 --> 00:10:18,120
+I actually want to keep it just for myself.
+
+157
+00:10:18,120 --> 00:10:19,740
+That's a competitive advantage.
+
+158
+00:10:19,740 --> 00:10:20,740
+Exactly.
+
+159
+00:10:20,740 --> 00:10:24,660
+And you don't see that in data center construction for the most part.
+
+160
+00:10:24,660 --> 00:10:26,940
+You don't see that in server construction.
+
+161
+00:10:26,940 --> 00:10:31,460
+It's not like Nvidia is getting proprietary chips and just using them for themselves.
+
+162
+00:10:31,460 --> 00:10:32,980
+They're selling it to other people.
+
+163
+00:10:32,980 --> 00:10:37,300
+Their business model is built on distribution, whereas a lot of the traditional financial
+
+164
+00:10:37,300 --> 00:10:42,420
+space, the business model is built on proprietary access or proprietary data or proprietary
+
+165
+00:10:42,420 --> 00:10:43,420
+performance.
+
+166
+00:10:43,520 --> 00:10:48,560
+So even if you're a company like eBay, you are running a private fiber network, but you
+
+167
+00:10:48,560 --> 00:10:54,580
+have to be the size of a company like eBay to actually have the capital to have the overhead
+
+168
+00:10:54,580 --> 00:10:56,340
+to hire all these people.
+
+169
+00:10:56,340 --> 00:11:02,320
+It is exactly how when a company makes a transition from the cloud back to bare metal data center,
+
+170
+00:11:02,320 --> 00:11:07,640
+they need to hire a ton of people because that is not a turnkey software managed service.
+
+171
+00:11:07,640 --> 00:11:10,620
+The real world is just a lot messier than software.
+
+172
+00:11:10,620 --> 00:11:15,200
+People get cut by ship anchors or they go down for maintenance or you have a switch
+
+173
+00:11:15,200 --> 00:11:18,720
+that burns out in a data center and you have to do a failover.
+
+174
+00:11:18,720 --> 00:11:22,480
+Someone has to, at the end of the day, go to that location and move a thing and touch
+
+175
+00:11:22,480 --> 00:11:25,040
+a thing and replace a product.
+
+176
+00:11:25,040 --> 00:11:28,440
+And all of these reasons basically create massive overhead.
+
+177
+00:11:28,440 --> 00:11:32,800
+The other piece too is you're dealing with a hundred different countries and a number
+
+178
+00:11:32,800 --> 00:11:35,720
+of different languages and a different legal systems.
+
+179
+00:11:35,860 --> 00:11:41,520
+The problems of international payment transfers are nothing compared to international data
+
+180
+00:11:41,520 --> 00:11:42,660
+transfers.
+
+181
+00:11:42,660 --> 00:11:46,400
+The amount of different regulations you have to go through, there's stuff that's totally
+
+182
+00:11:46,400 --> 00:11:50,580
+not allowed in the EU, that if you do it in the US is totally fine.
+
+183
+00:11:50,580 --> 00:11:54,660
+There's other things that the US wants you to do that the EU will be mad if you do.
+
+184
+00:11:54,660 --> 00:11:59,000
+It's a very messy, complicated system in part because of government overhead and in part
+
+185
+00:11:59,000 --> 00:12:02,740
+because it is just something that is in the physical world and things in the physical
+
+186
+00:12:02,800 --> 00:12:07,320
+world are much harder to automate or scale than stuff in the software world.
+
+187
+00:12:07,320 --> 00:12:11,880
+So typically what happens now is you have these carriers and most of the carriers are
+
+188
+00:12:11,880 --> 00:12:13,720
+owned by private equity firms.
+
+189
+00:12:13,720 --> 00:12:18,000
+So what they really want to do is throw off eight to nine percent returns per year.
+
+190
+00:12:18,000 --> 00:12:22,200
+So they're not investing ahead of time in a lot of infrastructure.
+
+191
+00:12:22,200 --> 00:12:27,440
+Internet cables are basically run at 90 to 95 percent capacity 24-7.
+
+192
+00:12:27,440 --> 00:12:29,960
+You can think of it as just-in-time bandwidth.
+
+193
+00:12:29,980 --> 00:12:34,780
+Really, truly, the way that these companies think of the internet is as a pipeline and
+
+194
+00:12:34,780 --> 00:12:36,420
+supply chain problem.
+
+195
+00:12:36,420 --> 00:12:38,260
+It's similar to how energy grids are operated.
+
+196
+00:12:38,260 --> 00:12:43,340
+There's no incentive to have a ton of burst capacity because all that burst capacity is
+
+197
+00:12:43,340 --> 00:12:46,740
+is a cost when you're in a business that's on cost optimization.
+
+198
+00:12:46,740 --> 00:12:50,220
+So one of the things that we're able to do with Double Zero is just change the entire
+
+199
+00:12:50,220 --> 00:12:51,460
+revenue model.
+
+200
+00:12:51,460 --> 00:12:56,100
+And tokens are really required for the alignment necessary in this type of system.
+
+201
+00:12:56,120 --> 00:13:01,320
+But also, we're massively expanding the TAM of what access can be to these types of systems.
+
+202
+00:13:01,320 --> 00:13:06,240
+So our hope is that we have, and we've already seen this on a small level with our contributors,
+
+203
+00:13:06,240 --> 00:13:10,880
+but we expect over the long term, people are going to be installing new fiber cables under
+
+204
+00:13:10,880 --> 00:13:16,360
+the ocean just to participate in Double Zero because right now we have this divorce between
+
+205
+00:13:16,360 --> 00:13:20,480
+the physical layer and the value-add monetary layer on top of it.
+
+206
+00:13:20,480 --> 00:13:25,200
+If I'm ordering a semi-trailer to move stuff from New York to San Francisco, it doesn't
+
+207
+00:13:25,200 --> 00:13:28,900
+matter if it's full of wine or if it's full of gravel.
+
+208
+00:13:28,900 --> 00:13:34,020
+The cost is the same per pound, even though what's in it is a very different value.
+
+209
+00:13:34,020 --> 00:13:39,200
+So because in blockchain, we have to reach hundreds of points around the world, no company
+
+210
+00:13:39,200 --> 00:13:42,420
+can actually build out enough fiber capacity to do that.
+
+211
+00:13:42,420 --> 00:13:44,500
+There's not many financial centers in the world.
+
+212
+00:13:44,500 --> 00:13:46,300
+A trading firm can wire them all up.
+
+213
+00:13:46,300 --> 00:13:50,260
+They can't wire up every data center where blockchain stuff is run, let alone every data
+
+214
+00:13:50,260 --> 00:13:54,260
+center where CDNs or AI technology is run.
+
+215
+00:13:54,260 --> 00:13:57,900
+So because of that, they need to be involved in a network like this.
+
+216
+00:13:57,900 --> 00:14:03,180
+And the minute you have that type of system, you're able to actually have a revenue model
+
+217
+00:14:03,180 --> 00:14:08,560
+that supports portions of value transferred over the systems, not just dumb pipes.
+
+218
+00:14:08,560 --> 00:14:10,800
+Yeah, that all makes a lot of sense.
+
+219
+00:14:10,800 --> 00:14:13,680
+I have several points I want to ask you about in response.
+
+220
+00:14:13,680 --> 00:14:20,420
+The first one is probably if you're in and around the business of more performant fiber
+
+221
+00:14:20,420 --> 00:14:26,780
+optic networks, but even in performant hardware in general that sits underneath these systems,
+
+222
+00:14:26,780 --> 00:14:32,820
+you're tussling with the incentives behind either owning this vertical stack where in
+
+223
+00:14:32,820 --> 00:14:36,760
+the jump example, you profit through some business model that you built on top of your
+
+224
+00:14:36,760 --> 00:14:42,800
+max performant layer because you can outperform everyone, or you're productizing your performance.
+
+225
+00:14:42,800 --> 00:14:46,580
+You're choosing one of those two, which is like keep for yourself versus sell as a product
+
+226
+00:14:46,580 --> 00:14:48,980
+because others will want it.
+
+227
+00:14:49,460 --> 00:14:55,420
+In that view, this seems conducive in certain market structures to vertical monopolies where
+
+228
+00:14:55,420 --> 00:15:00,080
+people would want to own the most performant part at every layer of the stack.
+
+229
+00:15:00,080 --> 00:15:02,220
+You guys have a great layering on your website.
+
+230
+00:15:02,220 --> 00:15:06,300
+I encourage people to look at where he talks about the seven layers of the blockchain stack,
+
+231
+00:15:06,300 --> 00:15:07,300
+for example.
+
+232
+00:15:07,300 --> 00:15:11,340
+I could see a market structure to that point where someone would want to own every part,
+
+233
+00:15:11,340 --> 00:15:15,460
+especially if they feel like they have a competitive advantage, say on the hardware layer.
+
+234
+00:15:15,460 --> 00:15:18,580
+Do you see that as likely to happen?
+
+235
+00:15:18,580 --> 00:15:21,100
+Say in the blockchain industry, for example?
+
+236
+00:15:21,100 --> 00:15:27,860
+So the natural end state of many of these systems, you can think through as vertically
+
+237
+00:15:27,860 --> 00:15:28,860
+integration.
+
+238
+00:15:28,860 --> 00:15:33,620
+That is the natural end state of basically any economic system is complete vertical integration
+
+239
+00:15:33,620 --> 00:15:36,460
+with the absence of human failty.
+
+240
+00:15:36,460 --> 00:15:41,820
+There is no reason a company in a dominant position should ever lose market share.
+
+241
+00:15:41,820 --> 00:15:44,340
+We see Coinbase doing it to be realistic.
+
+242
+00:15:44,340 --> 00:15:45,340
+Totally.
+
+243
+00:15:45,340 --> 00:15:47,260
+The Coinbase thing is an interesting case study.
+
+244
+00:15:47,260 --> 00:15:54,100
+So what we see here is that the scale someone needs to actually vertically integrate all
+
+245
+00:15:54,100 --> 00:15:57,060
+of those systems is quite high.
+
+246
+00:15:57,060 --> 00:16:02,040
+And the more vertically integrated a system you get, the lower performance each layer
+
+247
+00:16:02,040 --> 00:16:04,100
+in that vertical stack tends to be.
+
+248
+00:16:04,100 --> 00:16:08,680
+This is not a law, but this is a generally observed concept is that the more vertically
+
+249
+00:16:08,680 --> 00:16:13,780
+integrated a company is, the less attention they pay to each individual component.
+
+250
+00:16:13,780 --> 00:16:18,020
+And this is really true in anything that is in the financial space.
+
+251
+00:16:18,020 --> 00:16:22,300
+And because at the end of the day, the relative performance gains out of each piece in the
+
+252
+00:16:22,300 --> 00:16:26,960
+stack that you can get don't impact your overall bottom line as much as they do for an independent
+
+253
+00:16:26,960 --> 00:16:27,960
+actor.
+
+254
+00:16:27,960 --> 00:16:31,740
+And I think this is one of the things that's not well understood with folks who are like
+
+255
+00:16:31,740 --> 00:16:33,480
+break up the big monopolies.
+
+256
+00:16:33,480 --> 00:16:38,780
+There is a component of something like a Google where you can argue if it's monopolistic or
+
+257
+00:16:38,780 --> 00:16:39,780
+not.
+
+258
+00:16:39,780 --> 00:16:42,820
+What's very hard to argue is Google has the best offerings.
+
+259
+00:16:42,820 --> 00:16:46,740
+Just across the board, everything Google offers, there's a better alternative to it.
+
+260
+00:16:46,740 --> 00:16:48,060
+This is true of JP Morgan.
+
+261
+00:16:48,060 --> 00:16:49,180
+This is true of Coinbase.
+
+262
+00:16:49,180 --> 00:16:50,660
+This is true of AWS.
+
+263
+00:16:50,660 --> 00:16:54,140
+This is true of pretty much any fully vertically integrated system.
+
+264
+00:16:54,140 --> 00:16:55,580
+This is true of Tesla.
+
+265
+00:16:55,580 --> 00:17:00,100
+All of these components, they may have a one stop shop for everything, but what they're
+
+266
+00:17:00,100 --> 00:17:03,140
+able to do with each layer of that stack is minimize.
+
+267
+00:17:03,140 --> 00:17:07,020
+Now the reason that this can be a problem in the traditional space is because you have
+
+268
+00:17:07,020 --> 00:17:09,820
+arbitrary barriers and interoperability.
+
+269
+00:17:09,820 --> 00:17:14,620
+And those arbitrary barriers and interoperability are things like iMessage just doesn't work
+
+270
+00:17:14,620 --> 00:17:17,420
+on an Android phone or the classic thing there.
+
+271
+00:17:17,420 --> 00:17:19,220
+In crypto, we don't have that.
+
+272
+00:17:19,220 --> 00:17:23,260
+And Coinbase is trying very hard to build a fully vertically integrated product where
+
+273
+00:17:23,260 --> 00:17:26,820
+now there's wallets on base that you cannot move back to Ethereum.
+
+274
+00:17:26,820 --> 00:17:30,020
+But fundamentally, the assets are still fungible and movable.
+
+275
+00:17:30,020 --> 00:17:34,340
+So we see this all the time now where you'll have data centers that have a large amount
+
+276
+00:17:34,340 --> 00:17:39,240
+of salon of stake in them and then a competitor will spin up and they'll be a little bit cheaper
+
+277
+00:17:39,360 --> 00:17:43,160
+or they'll be able to have about 10 basis points of additional MEV revenue.
+
+278
+00:17:43,160 --> 00:17:46,680
+And you can just watch the validators migrate to the new data center.
+
+279
+00:17:46,680 --> 00:17:48,500
+These are very portable industry.
+
+280
+00:17:48,500 --> 00:17:54,120
+This is part of why the validator as a service business or the RPC business is a pretty bad
+
+281
+00:17:54,120 --> 00:17:55,920
+business statistically.
+
+282
+00:17:55,920 --> 00:17:59,760
+As someone who used to work for Bison Trails, these businesses are very hard because the
+
+283
+00:17:59,760 --> 00:18:02,800
+portability of your customers is extremely high.
+
+284
+00:18:02,800 --> 00:18:06,640
+So I think we are a ways away from having to worry about that type of vertical integration
+
+285
+00:18:07,280 --> 00:18:12,000
+because it's mostly open source software and it's mostly highly portable systems that you
+
+286
+00:18:12,000 --> 00:18:15,360
+don't need to rely on some external trust validation for.
+
+287
+00:18:15,360 --> 00:18:20,880
+I may not be comfortable moving my money out of JP Morgan into a startup bank, not because
+
+288
+00:18:20,880 --> 00:18:26,240
+the JP Morgan has a better product, but because the name of JP Morgan carries a certain amount
+
+289
+00:18:26,240 --> 00:18:27,920
+of gravitas with it.
+
+290
+00:18:27,920 --> 00:18:32,000
+Realistically, that's only a problem when you're dealing with systems that require trust.
+
+291
+00:18:32,000 --> 00:18:35,680
+And if the system doesn't require trust, like in the case of blockchain, you don't
+
+292
+00:18:35,680 --> 00:18:38,720
+necessarily have that portability limiting factor.
+
+293
+00:18:38,720 --> 00:18:44,720
+I like your assertion that vertically integrated businesses won't be, frankly, at the cutting
+
+294
+00:18:44,720 --> 00:18:46,480
+edge at each layer.
+
+295
+00:18:46,480 --> 00:18:52,080
+I'm curious for your view on how industry positioning and regulatory capture plays into
+
+296
+00:18:52,080 --> 00:18:56,720
+that, though, because I think of something like telecommunications in the 2000s, which
+
+297
+00:18:56,720 --> 00:19:00,720
+somewhat famously was very difficult to break into for companies which were trying to innovate.
+
+298
+00:19:00,720 --> 00:19:04,320
+And there was a sharp reduction in the amount of venture funding that went into it, I think,
+
+299
+00:19:04,320 --> 00:19:06,880
+just because people started to give up a little bit.
+
+300
+00:19:06,880 --> 00:19:10,960
+So granted, the vertically integrated larger players won't be the most innovative.
+
+301
+00:19:10,960 --> 00:19:15,120
+Do you worry that it can become too difficult to disintermediate them even with a better
+
+302
+00:19:15,120 --> 00:19:16,160
+offering?
+
+303
+00:19:16,160 --> 00:19:22,240
+So I think the telecom regulatory capture wasn't actually on the regulatory side.
+
+304
+00:19:22,240 --> 00:19:27,520
+If you look at what happened there, the access barriers were basically all at the state and
+
+305
+00:19:27,520 --> 00:19:28,240
+local level.
+
+306
+00:19:28,240 --> 00:19:32,000
+They weren't at the federal level, which is not what you typically expect.
+
+307
+00:19:32,000 --> 00:19:34,240
+Banking regulation is captured at the federal level.
+
+308
+00:19:34,240 --> 00:19:36,000
+It's not captured at the state level.
+
+309
+00:19:36,000 --> 00:19:40,000
+The problem that we ran into starting in the 2000s is we just got allergic to building
+
+310
+00:19:40,000 --> 00:19:40,640
+stuff.
+
+311
+00:19:40,640 --> 00:19:45,200
+The same problems that mean you can't build a pipeline, you can't build transmission lines,
+
+312
+00:19:45,200 --> 00:19:50,400
+is the reason you couldn't build fiber lines, is that these systems tend to all co-locate
+
+313
+00:19:50,400 --> 00:19:51,040
+with one another.
+
+314
+00:19:51,040 --> 00:19:52,960
+Is it, all right, you're putting in transmission lines?
+
+315
+00:19:52,960 --> 00:19:53,120
+Great.
+
+316
+00:19:53,120 --> 00:19:54,880
+We can put some fiber beneath it.
+
+317
+00:19:54,880 --> 00:19:56,160
+Or you're putting in a pipeline?
+
+318
+00:19:56,160 --> 00:19:56,400
+Great.
+
+319
+00:19:56,400 --> 00:19:58,400
+We can run a bunch of fiber alongside it.
+
+320
+00:19:58,400 --> 00:20:03,440
+And what we saw is just NIMBYism taken over and not letting you build anything.
+
+321
+00:20:03,440 --> 00:20:08,480
+And I think that's a different type of problem than the typical thing we think of as regulatory
+
+322
+00:20:08,480 --> 00:20:12,480
+capture, like in the financial space, where it's just the banking lobby has made it such
+
+323
+00:20:12,480 --> 00:20:15,440
+that it's almost impossible to get a new banking charter.
+
+324
+00:20:15,440 --> 00:20:20,000
+And that's a different type of regulatory capture than I think we see in the telecom
+
+325
+00:20:20,000 --> 00:20:20,320
+space.
+
+326
+00:20:20,960 --> 00:20:26,960
+What about the issue you have where, to be crude, disintermediating AWS would be inherently
+
+327
+00:20:26,960 --> 00:20:31,680
+difficult because just the level of capture that they have with maybe strong army or
+
+328
+00:20:31,680 --> 00:20:33,600
+compelling partners to continue to work with them?
+
+329
+00:20:34,240 --> 00:20:41,520
+I actually think the motive AWS is the tragedy of computer science over the last 20 years,
+
+330
+00:20:41,520 --> 00:20:44,320
+which is that people don't know how anything works anymore.
+
+331
+00:20:44,320 --> 00:20:46,240
+And this is not AWS.
+
+332
+00:20:46,240 --> 00:20:49,520
+I actually don't think there's a lot of strong arming from the cloud providers.
+
+333
+00:20:49,520 --> 00:20:51,120
+There's some, sure.
+
+334
+00:20:51,120 --> 00:20:54,880
+But the cloud provider is actually a fairly competitive market nowadays.
+
+335
+00:20:54,960 --> 00:20:58,320
+It is the fact that people just don't learn how anything works anymore.
+
+336
+00:20:58,320 --> 00:21:02,960
+If you talk to a modern Web2 engineer versus a high-frequency trading engineer,
+
+337
+00:21:02,960 --> 00:21:05,920
+they're almost entirely different species at this point.
+
+338
+00:21:05,920 --> 00:21:10,240
+The work and concerns of someone who works for a trading firm, they would never be caught
+
+339
+00:21:10,240 --> 00:21:15,440
+dead virtualizing anything because the performance overhead you get is they don't even use kernel
+
+340
+00:21:15,440 --> 00:21:16,240
+networking.
+
+341
+00:21:16,240 --> 00:21:21,120
+The overhead that you have to do because of all these layers of software abstractions on
+
+342
+00:21:21,120 --> 00:21:25,280
+top of them, you listen to Kevin Bowers, who's one of the chief research scientists
+
+343
+00:21:25,280 --> 00:21:30,080
+over at Jump, talk about how a modern processor works and the way modern compilers work.
+
+344
+00:21:30,080 --> 00:21:36,000
+And a solid 20% of their job is just stripping away all of the crap that people have built
+
+345
+00:21:36,000 --> 00:21:40,080
+to make programming easy so they can actually talk to the hardware.
+
+346
+00:21:40,080 --> 00:21:42,960
+And you think about this as they have this whole thing about tile architecture.
+
+347
+00:21:42,960 --> 00:21:45,520
+And tile architecture is not a new concept.
+
+348
+00:21:45,520 --> 00:21:46,960
+It's actually an old concept.
+
+349
+00:21:46,960 --> 00:21:51,840
+But if you look at a modern processor, it has 24, 32 cores, 64 cores.
+
+350
+00:21:51,840 --> 00:21:57,040
+And if you just try and run stuff on it, the management software at a very low level just
+
+351
+00:21:57,040 --> 00:22:00,000
+randomly assigns different tasks to different CPUs.
+
+352
+00:22:00,000 --> 00:22:04,240
+And when you're trying to optimize for performance, you have to think about the physical signal
+
+353
+00:22:04,240 --> 00:22:08,560
+pathways within the chip and how data flows through the chip and how the InfiniBand on
+
+354
+00:22:08,560 --> 00:22:11,120
+the inside of a chip actually manages data flow.
+
+355
+00:22:11,120 --> 00:22:15,920
+And so if you have one process on this corner of the chip and one process on this corner
+
+356
+00:22:15,920 --> 00:22:20,560
+of the chip, it actually takes a meaningful amount of time for the data to get from one
+
+357
+00:22:20,560 --> 00:22:24,640
+side of the chip to the other because it has to get signal boosted as it moves through
+
+358
+00:22:24,640 --> 00:22:25,920
+the silicon layers.
+
+359
+00:22:25,920 --> 00:22:28,960
+The speed of light is actually a factor at this point, too.
+
+360
+00:22:28,960 --> 00:22:33,680
+So you get into a place where we're bleeding out so much performance in modern systems
+
+361
+00:22:33,680 --> 00:22:37,920
+because people don't know how they work and they're not thinking at that low level anymore.
+
+362
+00:22:37,920 --> 00:22:39,920
+Well, it's they haven't had to build it.
+
+363
+00:22:39,920 --> 00:22:40,960
+It's been there for them.
+
+364
+00:22:41,520 --> 00:22:46,000
+Yeah, the moat that the cloud providers have is that most modern software engineers are
+
+365
+00:22:46,000 --> 00:22:46,560
+lazy.
+
+366
+00:22:46,560 --> 00:22:51,600
+And it's the classic thing of like when Apple pulled everyone over from writing in C to
+
+367
+00:22:51,600 --> 00:22:54,240
+writing in Swift for programs.
+
+368
+00:22:54,240 --> 00:22:58,000
+Yes, Apple can do magic on the compiler level to make things quite performant.
+
+369
+00:22:58,000 --> 00:23:02,080
+But there's also a whole skill set that's lost for people that want to build even more
+
+370
+00:23:02,080 --> 00:23:03,360
+performant programs.
+
+371
+00:23:03,360 --> 00:23:08,000
+And you see this even on a network like Solana where folks were writing a bunch of stuff in
+
+372
+00:23:08,000 --> 00:23:10,880
+Anchor, which is the subtraction language on top of it.
+
+373
+00:23:10,880 --> 00:23:13,680
+Rust was the default high performance for a while.
+
+374
+00:23:13,680 --> 00:23:16,560
+Now C is the default high performance for writing Solana programs.
+
+375
+00:23:16,560 --> 00:23:18,880
+And there's actually some stuff that's been written in assembly.
+
+376
+00:23:18,880 --> 00:23:24,320
+And you have to be willing to get that low level on performance optimization.
+
+377
+00:23:24,320 --> 00:23:29,520
+And part of this is the fault of VCs where there's a whole incentive structure in VC,
+
+378
+00:23:29,520 --> 00:23:32,800
+which is don't worry about costs, just worry about scale.
+
+379
+00:23:32,800 --> 00:23:37,040
+And if that is the structure you're building under, then who cares if your server build
+
+380
+00:23:37,040 --> 00:23:43,440
+goes from $800,000 to $8 million because you've grown 10x and growth is all that matters.
+
+381
+00:23:43,440 --> 00:23:48,240
+The problem, though, is you see all of these companies, they hit IPO and then suddenly
+
+382
+00:23:48,240 --> 00:23:52,320
+they have to do a bunch of cost downing on their infrastructure, but they have no DNA
+
+383
+00:23:52,320 --> 00:23:54,640
+and they have no expertise to do it internally.
+
+384
+00:23:54,640 --> 00:23:57,840
+And it's a huge transformation they have to go through.
+
+385
+00:23:57,840 --> 00:24:04,640
+And we saw my friend worked for Etsy back in, I think this was probably 2014, 15.
+
+386
+00:24:04,640 --> 00:24:06,880
+And they had done a migration to the cloud.
+
+387
+00:24:06,880 --> 00:24:10,000
+They had this incredible architecture set up in AWS.
+
+388
+00:24:10,000 --> 00:24:13,040
+But Etsy's got 2% to 3% gross margin business.
+
+389
+00:24:13,040 --> 00:24:16,320
+They are taking transaction fees on a bunch of payment processing.
+
+390
+00:24:16,320 --> 00:24:20,720
+And some very smart person there looked and said, our AWS bill is not going down.
+
+391
+00:24:20,720 --> 00:24:23,360
+This thing is increasing at 7% to 10% per year.
+
+392
+00:24:23,360 --> 00:24:27,120
+As Amazon raises prices, we need to move out of the cloud.
+
+393
+00:24:27,120 --> 00:24:32,960
+So part of his job there was orchestrating a giant migration from the cloud back to bare metal
+
+394
+00:24:32,960 --> 00:24:36,960
+servers that were run in two different data centers, one in New Jersey, one in, I think,
+
+395
+00:24:36,960 --> 00:24:38,320
+somewhere in Colorado.
+
+396
+00:24:38,320 --> 00:24:41,680
+And they massively reduced their cost over the short term.
+
+397
+00:24:41,680 --> 00:24:46,560
+But the delta there, if you look at the average price of something on AWS, it is outpacing
+
+398
+00:24:46,560 --> 00:24:50,560
+inflation, which is not what you would expect from a Moore's law type perspective.
+
+399
+00:24:50,560 --> 00:24:52,400
+But it's because people are willing to pay for it.
+
+400
+00:24:52,400 --> 00:24:56,400
+And the companies that are willing to put the work into optimizing and moving back,
+
+401
+00:24:56,400 --> 00:25:00,320
+that is a far more effective form of cost reduction than swapping out all your customer
+
+402
+00:25:00,320 --> 00:25:02,240
+service people with AI agents.
+
+403
+00:25:02,240 --> 00:25:04,720
+It's the boring stuff that people get wrong.
+
+404
+00:25:05,280 --> 00:25:11,120
+I think in the last 10 years, too, there was this software infatuation.
+
+405
+00:25:11,120 --> 00:25:16,240
+And the successful venture stories or startup stories were things like Etsy,
+
+406
+00:25:16,240 --> 00:25:20,320
+to your point, Shopify, just break out software applications.
+
+407
+00:25:20,320 --> 00:25:22,720
+The most part that scaled revenue really quickly.
+
+408
+00:25:22,720 --> 00:25:27,440
+And from an objective perspective, I think this is one of the things people actually take
+
+409
+00:25:27,440 --> 00:25:31,440
+to that being articulated about about Elon Musk is that he's one of the people that has
+
+410
+00:25:31,440 --> 00:25:37,120
+actually taken this attention to things like hardware and systems, which especially years
+
+411
+00:25:37,120 --> 00:25:42,000
+ago, it was really not paid much attention to by startups as an example.
+
+412
+00:25:42,560 --> 00:25:49,680
+Yeah, I mean, we look at what were all of the sexy space companies doing not even before SpaceX,
+
+413
+00:25:49,680 --> 00:25:54,480
+but along that same lines, a lot of them were focused on software systems or things that we're
+
+414
+00:25:54,480 --> 00:25:57,360
+going to we're going to hand way of how we get them into orbit.
+
+415
+00:25:57,360 --> 00:26:00,480
+Once they're in orbit, here's the skill set that this thing offers.
+
+416
+00:26:00,480 --> 00:26:05,280
+And it was a very, very different perspective to say, look, if we're going to actually make
+
+417
+00:26:05,280 --> 00:26:10,000
+space a real thing, we need to rethink the entire way that we build launch systems.
+
+418
+00:26:10,000 --> 00:26:13,520
+On the business model, rethink it on the engineering side, rethink it,
+
+419
+00:26:13,520 --> 00:26:18,560
+take risks that the industry was historically not willing to take because the number one customer
+
+420
+00:26:18,560 --> 00:26:20,960
+for the industry historically was the US government.
+
+421
+00:26:20,960 --> 00:26:23,600
+Apart from the DOD, it's very risk averse.
+
+422
+00:26:23,600 --> 00:26:25,520
+Even the DOD is pretty risk averse.
+
+423
+00:26:25,520 --> 00:26:29,360
+NASA would tell you they would rather spend 10 times more for something
+
+424
+00:26:29,360 --> 00:26:33,520
+that have a 10% chance that it blows up on the launch pad because the PR damage will do
+
+425
+00:26:33,520 --> 00:26:36,000
+more damage to their budget than the cost overrun.
+
+426
+00:26:36,640 --> 00:26:40,880
+So that whole model shifting, I really think it's a pretty good analogy for what we're
+
+427
+00:26:40,880 --> 00:26:46,480
+doing with double zero because we are shifting the entire business and cost rationale around
+
+428
+00:26:46,480 --> 00:26:50,880
+private fiber in a place that's really only been accessible to HFT firms until now.
+
+429
+00:26:51,520 --> 00:26:52,400
+Makes sense.
+
+430
+00:26:52,400 --> 00:26:53,680
+I want to draw a through line.
+
+431
+00:26:53,680 --> 00:26:56,080
+I was going to come back to an element of double zero.
+
+432
+00:26:56,080 --> 00:27:01,520
+I wanted to pick your brain on two, which I think a through line here is these infrastructure
+
+433
+00:27:01,520 --> 00:27:05,600
+systems, particularly the lower down you go in the stack, which gets the hardware,
+
+434
+00:27:05,600 --> 00:27:07,600
+they tend to become stagnant.
+
+435
+00:27:07,600 --> 00:27:12,800
+I think just because of how much has been built on top and to your point that we don't
+
+436
+00:27:12,800 --> 00:27:17,200
+necessarily have a lot of people who are thinking about innovating on this front and it's difficult.
+
+437
+00:27:17,200 --> 00:27:22,160
+How do you look at, from your perspective, the double zero perspective, creating a low
+
+438
+00:27:22,160 --> 00:27:26,640
+level infrastructure that can innovate as opposed to become stagnant?
+
+439
+00:27:26,640 --> 00:27:29,440
+Let's say even if you take on prominent market position in five years.
+
+440
+00:27:30,080 --> 00:27:34,320
+So one of the things that we don't do is we don't offer any servers for people.
+
+441
+00:27:34,320 --> 00:27:39,680
+It is really truly just fiber and some compute resources implemented through FPGA.
+
+442
+00:27:39,680 --> 00:27:42,320
+But this is a thing that Solana has always been very good at.
+
+443
+00:27:42,320 --> 00:27:46,480
+And I was a very strong advocate of this way of thinking when I was at the Solana Foundation
+
+444
+00:27:46,480 --> 00:27:51,440
+for the last four years was that we should build things as low level as possible.
+
+445
+00:27:51,440 --> 00:27:54,400
+And with as few opinions as possible.
+
+446
+00:27:54,400 --> 00:27:56,960
+So this is really how we're approaching double zero.
+
+447
+00:27:56,960 --> 00:28:03,040
+We are building a series of tools that people can use to do things that I have no idea what
+
+448
+00:28:03,040 --> 00:28:03,840
+they're going to do with.
+
+449
+00:28:03,840 --> 00:28:06,240
+So we can do things you can't do on the public Internet.
+
+450
+00:28:06,240 --> 00:28:08,400
+And maybe it's worth getting some of this offering stack.
+
+451
+00:28:08,400 --> 00:28:13,360
+But at the very basic level, we have fatter pipes and we have pipes that have lower latency
+
+452
+00:28:13,360 --> 00:28:14,320
+than the public Internet.
+
+453
+00:28:14,320 --> 00:28:17,760
+So you'll get 100 gigabits of connectivity as opposed to one.
+
+454
+00:28:17,840 --> 00:28:22,560
+And your latency will be 30 to 70 percent less than you'd get over the public Internet.
+
+455
+00:28:22,560 --> 00:28:26,800
+But we can also do things like run multicast over this network, which is a technology of
+
+456
+00:28:26,800 --> 00:28:29,680
+basically hardware acceleration of packet replication.
+
+457
+00:28:29,680 --> 00:28:33,920
+So if you need to do something like propagate blockchain state from one machine to 2000
+
+458
+00:28:33,920 --> 00:28:38,320
+machines today, you have to send out 2000 copies of that data manually.
+
+459
+00:28:38,320 --> 00:28:43,200
+With multicast, you send out two copies of it and the network replicates the data in
+
+460
+00:28:43,200 --> 00:28:45,040
+hardware acceleration on its own.
+
+461
+00:28:45,040 --> 00:28:48,960
+And so it really is a send it and forget it type of model, which really changes how
+
+462
+00:28:48,960 --> 00:28:50,560
+performance systems can operate.
+
+463
+00:28:50,560 --> 00:28:55,440
+And it also reduces the penalty for not being the first one that the system sends out data
+
+464
+00:28:55,440 --> 00:28:56,000
+to.
+
+465
+00:28:56,000 --> 00:28:59,840
+We can also do things like insert precision timing into the network.
+
+466
+00:28:59,840 --> 00:29:02,640
+So you can do things like time align packets.
+
+467
+00:29:02,640 --> 00:29:06,800
+You can know exactly what time the packet hit the edge of the network.
+
+468
+00:29:06,800 --> 00:29:10,320
+And so that's really useful in all sorts of financialization and trading systems as
+
+469
+00:29:10,320 --> 00:29:10,640
+well.
+
+470
+00:29:10,640 --> 00:29:13,280
+You can now time align when stuff comes into the network.
+
+471
+00:29:13,280 --> 00:29:18,960
+You can make sure that every one of your validators has extremely precise clock systems
+
+472
+00:29:18,960 --> 00:29:22,880
+and you know, OK, this event happened here at this node.
+
+473
+00:29:22,880 --> 00:29:28,160
+We can now reconstruct the order that something should have happened based on wall clock time,
+
+474
+00:29:28,160 --> 00:29:29,680
+not based on something else.
+
+475
+00:29:29,680 --> 00:29:33,680
+So there's a lot of these types of functions and services that just are not available on
+
+476
+00:29:33,680 --> 00:29:34,560
+the public Internet.
+
+477
+00:29:34,560 --> 00:29:37,120
+I don't know what everyone's going to build with them.
+
+478
+00:29:37,120 --> 00:29:40,640
+Smarter people than me are going to come up with really awesome stuff you can build using
+
+479
+00:29:40,640 --> 00:29:41,520
+this toolkit.
+
+480
+00:29:41,600 --> 00:29:43,600
+That's the same thing we saw at Solana for years.
+
+481
+00:29:43,600 --> 00:29:47,920
+I don't think anyone predicted that meme coins would be a huge thing on Solana or that we'd
+
+482
+00:29:47,920 --> 00:29:49,440
+have tokenized stocks.
+
+483
+00:29:50,000 --> 00:29:51,200
+The point is that they could be.
+
+484
+00:29:51,200 --> 00:29:53,280
+You created that sandbox to your point.
+
+485
+00:29:53,280 --> 00:30:00,000
+I think it's a great point and in the interest of better technology to be unopinionated to
+
+486
+00:30:00,000 --> 00:30:04,560
+really be non vertical in a way to improve on each layer of the stack.
+
+487
+00:30:05,120 --> 00:30:10,400
+Do you find attention because I imagine a lot of software engineers, to your point,
+
+488
+00:30:10,400 --> 00:30:14,560
+want more of a spoon fed infrastructure solution where they have something that probably is
+
+489
+00:30:14,560 --> 00:30:18,480
+opinionated and that checks 10 boxes at once instead of one or two.
+
+490
+00:30:18,480 --> 00:30:20,720
+Is that difficult to wrestle with?
+
+491
+00:30:20,720 --> 00:30:24,240
+And relatedly, who are you selling into with that in mind?
+
+492
+00:30:24,240 --> 00:30:28,240
+So this is one of the things that about crypto that's just such a joy.
+
+493
+00:30:28,240 --> 00:30:30,480
+We don't have that problem in crypto.
+
+494
+00:30:31,040 --> 00:30:35,520
+The engineers who are building stuff on Solana are very happy to be getting into the very
+
+495
+00:30:35,520 --> 00:30:38,640
+low level systems and they like how much of this they're exposing.
+
+496
+00:30:38,640 --> 00:30:45,440
+I think a real analogy here is the rise of NVIDIA and at the time that NVIDIA launched
+
+497
+00:30:45,440 --> 00:30:50,960
+CUDA, which is their programming framework for accessing vector processors on GPUs,
+
+498
+00:30:50,960 --> 00:30:53,680
+it was not the cool way to do it.
+
+499
+00:30:53,680 --> 00:30:58,080
+All of the work on compilers and all the work on this system was really about how to make
+
+500
+00:30:58,080 --> 00:31:03,200
+it easier to use and CUDA's innovation was there's actually a lot of really smart programmers out
+
+501
+00:31:03,200 --> 00:31:07,920
+there that want to be able to directly address things to hardware and what they allowed people
+
+502
+00:31:07,920 --> 00:31:13,040
+to do is write in languages they were already fairly familiar in but add a few flags that
+
+503
+00:31:13,040 --> 00:31:15,760
+allow you to actually address the hardware directly.
+
+504
+00:31:15,760 --> 00:31:19,440
+And Kevin Bauer's famous example is dense matrix multiplication.
+
+505
+00:31:19,440 --> 00:31:24,880
+It's actually very hard to write that in a non-CUDA system and it's a hello world
+
+506
+00:31:24,880 --> 00:31:29,280
+example is basically how do you dense matrix multiplication on a GPU.
+
+507
+00:31:29,280 --> 00:31:33,920
+So when we look around and we see, oh, well, everyone's just building stuff in software
+
+508
+00:31:33,920 --> 00:31:35,040
+abstraction layers.
+
+509
+00:31:35,040 --> 00:31:36,800
+No one really wants to address the hardware.
+
+510
+00:31:36,800 --> 00:31:40,000
+Like you're saying, people don't want to get this low level into the stuff.
+
+511
+00:31:40,000 --> 00:31:45,680
+What we basically find are the systems that are going to need double zero and would benefit
+
+512
+00:31:45,680 --> 00:31:48,560
+from its performance are already thinking that way.
+
+513
+00:31:48,560 --> 00:31:52,880
+So maybe we fast forward three or four years and yeah, we have to do some type of more
+
+514
+00:31:52,880 --> 00:31:57,120
+accessible abstraction layer or we have to have a bunch of coursework for how to actually
+
+515
+00:31:57,120 --> 00:31:59,200
+optimize infrastructure for double zero.
+
+516
+00:31:59,200 --> 00:32:03,360
+But the place we're at today, those people find us, we don't have to go find them because
+
+517
+00:32:03,360 --> 00:32:05,840
+they've been looking for something like this for a long time.
+
+518
+00:32:06,400 --> 00:32:09,040
+It's almost an inadvertent benefit then.
+
+519
+00:32:09,040 --> 00:32:13,440
+Let's take meme coin trading as an example because it forces people to really prioritize
+
+520
+00:32:13,440 --> 00:32:15,360
+high speed because how lucrative it can be.
+
+521
+00:32:15,360 --> 00:32:19,840
+Whereas they're plenty of legacy internet apps that could frankly run milliseconds slower
+
+522
+00:32:19,840 --> 00:32:21,280
+and I don't think people would care that much.
+
+523
+00:32:21,840 --> 00:32:22,880
+Yeah, and that's fine.
+
+524
+00:32:22,880 --> 00:32:24,800
+That is the big differentiator here.
+
+525
+00:32:24,800 --> 00:32:30,960
+So a great example of this is there's a new prop AMM on Solana, humidify.
+
+526
+00:32:31,040 --> 00:32:37,200
+And what it basically did is they wrote the whole AMM program basically in assembly.
+
+527
+00:32:37,200 --> 00:32:43,200
+It's using this tiny framework and because it's so small relative to other programs
+
+528
+00:32:43,200 --> 00:32:47,840
+and it requires so little compute units, which are basically sort of a unit of transaction
+
+529
+00:32:47,840 --> 00:32:53,760
+processing on the Solana network, it pays about six times the compute to fee ratio
+
+530
+00:32:53,760 --> 00:32:56,400
+that any other DeFi program on Solana pays.
+
+531
+00:32:56,400 --> 00:33:00,560
+And it still pays incredibly little to send each transaction.
+
+532
+00:33:00,560 --> 00:33:03,360
+But because the ratio is so high, validators are like,
+
+533
+00:33:03,360 --> 00:33:06,800
+oh, I'm absolutely going to process these transactions first
+
+534
+00:33:06,800 --> 00:33:10,160
+because they're really efficient and they get paid comparatively a ton.
+
+535
+00:33:10,160 --> 00:33:10,800
+What does that mean?
+
+536
+00:33:10,800 --> 00:33:14,640
+Well, suddenly this prop trading AMM is the fastest AMM on Solana
+
+537
+00:33:14,640 --> 00:33:17,760
+and they can quote half a basis point or less.
+
+538
+00:33:17,760 --> 00:33:24,320
+We executed a trade yesterday on Chain where we got 10 basis points of basically fee
+
+539
+00:33:24,320 --> 00:33:28,400
+and slippage in this process, which is better than you can get from any OTC desk
+
+540
+00:33:28,400 --> 00:33:30,080
+or any centralized exchange.
+
+541
+00:33:30,080 --> 00:33:32,080
+And this was fairly significant size too.
+
+542
+00:33:32,080 --> 00:33:35,120
+This wasn't a $2,000 transaction or something like that.
+
+543
+00:33:35,120 --> 00:33:39,040
+And that type of performance, we're going to see this widening gap
+
+544
+00:33:39,040 --> 00:33:42,320
+between traditional systems and blockchain systems
+
+545
+00:33:42,320 --> 00:33:44,880
+because you can get this insane performance
+
+546
+00:33:44,880 --> 00:33:47,520
+and you don't need all the compliance and security overhead.
+
+547
+00:33:48,160 --> 00:33:52,960
+What other use cases, adjacencies, technologies do you think
+
+548
+00:33:52,960 --> 00:33:57,600
+double zero is most primed to improve upon to work with in the interim?
+
+549
+00:33:58,240 --> 00:34:02,560
+I think there's a lot of the AI space that cares a lot about connectivity.
+
+550
+00:34:02,560 --> 00:34:05,760
+We're not going to be servicing open AI or someone like that
+
+551
+00:34:05,760 --> 00:34:08,400
+that's got billions of dollars to build their own data centers
+
+552
+00:34:08,400 --> 00:34:11,040
+and their own high-frequency fiber cables themselves.
+
+553
+00:34:11,040 --> 00:34:14,240
+But there's a whole bunch of companies that are in that in-between stage
+
+554
+00:34:14,240 --> 00:34:16,480
+where they've got a technology advantage,
+
+555
+00:34:16,480 --> 00:34:19,680
+but they don't have the expertise or the timing to go out
+
+556
+00:34:19,680 --> 00:34:22,800
+and build data centers and build fiber connectivity between them.
+
+557
+00:34:22,800 --> 00:34:24,720
+Noose Research is a great example of this.
+
+558
+00:34:24,720 --> 00:34:28,400
+They're usually a second customer on a lot of these big AI workloads,
+
+559
+00:34:28,400 --> 00:34:31,920
+but they waste a bunch of time syncing model data back and forth.
+
+560
+00:34:31,920 --> 00:34:36,160
+So if we can change that sync time to five minutes as opposed to 20 minutes,
+
+561
+00:34:36,160 --> 00:34:39,760
+that's 15 minutes more processing that they're going to get on their models
+
+562
+00:34:39,760 --> 00:34:42,480
+every time there is another customer in that system.
+
+563
+00:34:42,480 --> 00:34:45,760
+I think the other area we see are CDN systems.
+
+564
+00:34:45,760 --> 00:34:48,960
+So there's this group called Shelby, which is a storage network
+
+565
+00:34:48,960 --> 00:34:51,760
+that's being built by a combination of Aptos and Jump,
+
+566
+00:34:51,760 --> 00:34:54,000
+and that's going to run on double zero.
+
+567
+00:34:54,240 --> 00:34:59,120
+Because it needs multicasting of data and it needs fast access to data
+
+568
+00:34:59,120 --> 00:35:02,560
+and these sorts of things to be able to do CDNs in markets
+
+569
+00:35:02,560 --> 00:35:05,440
+that are not well-served by CDNs at the moment.
+
+570
+00:35:05,440 --> 00:35:09,360
+So I think there's a lot of these different types of applications that we'll see.
+
+571
+00:35:09,360 --> 00:35:11,760
+Trading is absolutely one of them as well.
+
+572
+00:35:11,760 --> 00:35:15,120
+The highest profit, most turnkey solution here is just
+
+573
+00:35:15,120 --> 00:35:17,280
+if you're trading on a distributed system,
+
+574
+00:35:17,280 --> 00:35:20,880
+you need to get data as quickly as you can to as many places in the world as you can.
+
+575
+00:35:21,520 --> 00:35:25,680
+On this note, and to touch more broadly on the business,
+
+576
+00:35:25,680 --> 00:35:29,600
+you have the fiber network that you work with, the 10 providers you mentioned,
+
+577
+00:35:29,600 --> 00:35:34,960
+and then you guys are a coordination layer ultimately providing a service to customers.
+
+578
+00:35:34,960 --> 00:35:40,960
+How do you look at how value should flow between you and your 10,
+
+579
+00:35:40,960 --> 00:35:43,840
+I don't know if you'd call them clients or providers that sit underneath?
+
+580
+00:35:43,840 --> 00:35:48,800
+What we basically run on is a different reward model than most blockchains do
+
+581
+00:35:48,800 --> 00:35:52,640
+that more closely resembles a proof-of-work system than a proof-of-stake system.
+
+582
+00:35:52,640 --> 00:35:55,040
+So we have a whole blog post on the website about this.
+
+583
+00:35:55,040 --> 00:35:56,480
+It's called Proof of Utility.
+
+584
+00:35:56,480 --> 00:35:59,680
+But we basically use Shapley values to determine
+
+585
+00:35:59,680 --> 00:36:04,720
+what is the incremental value each network link provides to the overall network graph.
+
+586
+00:36:04,720 --> 00:36:07,280
+And the benchmark for this is the public internet.
+
+587
+00:36:07,280 --> 00:36:12,160
+So if your link that you're adding does not beat the public internet, it gets no rewards.
+
+588
+00:36:12,160 --> 00:36:17,360
+If it beats the public internet but actually doesn't connect anywhere that paying customers,
+
+589
+00:36:17,360 --> 00:36:20,880
+in this case, blockchain validators or RPCs are operating in,
+
+590
+00:36:20,880 --> 00:36:23,360
+then it also doesn't get any rewards.
+
+591
+00:36:23,360 --> 00:36:25,760
+But if we do the math on this and we say like,
+
+592
+00:36:25,760 --> 00:36:31,360
+okay, if your network link didn't exist, the network would be 20% worse,
+
+593
+00:36:31,360 --> 00:36:35,040
+then you receive 20% of the rewards for that given epoch of time.
+
+594
+00:36:35,040 --> 00:36:40,160
+So we have this system where we are incentivizing competition between fiber providers
+
+595
+00:36:40,160 --> 00:36:43,600
+to always be trying to basically steal each other's market share.
+
+596
+00:36:43,600 --> 00:36:45,440
+And the best way to steal someone's market share
+
+597
+00:36:45,440 --> 00:36:48,160
+is to provide a more performant infrastructure link.
+
+598
+00:36:48,160 --> 00:36:53,600
+At the same time, validators and RPCs are the ones that are actually paying to use this service.
+
+599
+00:36:53,600 --> 00:36:57,840
+And we're working on a percentage of revenue model, basically.
+
+600
+00:36:57,840 --> 00:37:02,960
+So if we're taking about 5% of block rewards and priority fees and MEV
+
+601
+00:37:02,960 --> 00:37:05,200
+in exchange for this higher performance system.
+
+602
+00:37:05,200 --> 00:37:10,000
+Now, we're also not going to take that 5% unless we're making them at least 5% more profit.
+
+603
+00:37:10,000 --> 00:37:11,440
+And that's our trade with folks is,
+
+604
+00:37:11,440 --> 00:37:13,760
+yeah, you're going to give us some percentage of your earnings,
+
+605
+00:37:13,760 --> 00:37:16,240
+which is going to be more than maybe you're used to paying.
+
+606
+00:37:16,240 --> 00:37:17,840
+But in net, you're going to make more
+
+607
+00:37:17,840 --> 00:37:20,960
+because you're able to operate on this high performance infrastructure.
+
+608
+00:37:20,960 --> 00:37:24,080
+And as part of the value proposition, we've talked a lot about performance,
+
+609
+00:37:24,080 --> 00:37:27,440
+but to my understanding, there's also a privacy aspect at play here.
+
+610
+00:37:28,080 --> 00:37:31,760
+Yeah. So privacy is, I would say, more of a theoretical problem
+
+611
+00:37:31,760 --> 00:37:34,240
+than a practical problem on the internet today.
+
+612
+00:37:34,240 --> 00:37:38,560
+So if you are sending a trade on a blockchain right now,
+
+613
+00:37:38,560 --> 00:37:40,800
+that data is moving over the public internet.
+
+614
+00:37:40,800 --> 00:37:44,240
+And that might be passing through 15 or 20 different providers
+
+615
+00:37:44,240 --> 00:37:46,160
+as it gets to its destination.
+
+616
+00:37:46,160 --> 00:37:48,480
+Deep packet inspection is very good at the moment.
+
+617
+00:37:48,480 --> 00:37:53,120
+It is entirely possible that someone is holding back some of your packets arbitrarily
+
+618
+00:37:53,120 --> 00:37:56,080
+so they can try and front run you or something along those lines.
+
+619
+00:37:56,080 --> 00:37:59,520
+Now, there's very little evidence of this actually happening today,
+
+620
+00:37:59,520 --> 00:38:01,360
+but it is a real theoretical concern.
+
+621
+00:38:01,360 --> 00:38:04,240
+This is one of the reasons that traditional financial firms
+
+622
+00:38:04,240 --> 00:38:06,080
+don't use the public internet to trade on.
+
+623
+00:38:06,080 --> 00:38:07,920
+It's slow. Yes, there's that.
+
+624
+00:38:07,920 --> 00:38:11,120
+But you're also leaking data about what you're doing.
+
+625
+00:38:11,120 --> 00:38:14,000
+So part of the thing with Double Zero is we can actually
+
+626
+00:38:14,000 --> 00:38:17,680
+provide cryptographic assurances to folks of data that moves over the network
+
+627
+00:38:17,680 --> 00:38:20,800
+and we can catch providers that are holding back data.
+
+628
+00:38:20,800 --> 00:38:26,800
+So if we see, hey, it's supposed to take 64.3 milliseconds to get from here to here.
+
+629
+00:38:26,800 --> 00:38:29,760
+Sometimes it's taking this one 67 milliseconds.
+
+630
+00:38:29,760 --> 00:38:30,640
+What are they doing?
+
+631
+00:38:30,640 --> 00:38:32,960
+And that sets off an alert that we can go and investigate
+
+632
+00:38:32,960 --> 00:38:35,600
+and see if someone is selectively holding back traffic
+
+633
+00:38:35,600 --> 00:38:37,120
+or something along those lines.
+
+634
+00:38:37,120 --> 00:38:41,760
+We also will be able to, in the future, offer traffic encryption as well.
+
+635
+00:38:41,760 --> 00:38:45,840
+We can do this in such a way there's very, very little overhead involved in that encryption.
+
+636
+00:38:45,840 --> 00:38:48,240
+So you're usually in this trade-off game now of,
+
+637
+00:38:48,240 --> 00:38:50,880
+oh, I can encrypt my data, but it slows it down.
+
+638
+00:38:50,880 --> 00:38:53,040
+And if you're on Zoom, who cares?
+
+639
+00:38:53,040 --> 00:38:55,760
+No one's going to care about that slowing down of data.
+
+640
+00:38:55,760 --> 00:38:59,200
+If you're trying to trade, it may become a meaningful slowdown.
+
+641
+00:38:59,760 --> 00:39:00,560
+Understood.
+
+642
+00:39:00,560 --> 00:39:04,160
+I did want to ask you, hitting on some of the topics we discussed before,
+
+643
+00:39:04,160 --> 00:39:09,680
+do you and Double Zero ever have ambitions to become your own settlement layer for assets?
+
+644
+00:39:10,320 --> 00:39:11,200
+I don't think so.
+
+645
+00:39:11,200 --> 00:39:13,520
+This is one of those classic things of,
+
+646
+00:39:13,520 --> 00:39:16,160
+I don't think that's where our expertise lies.
+
+647
+00:39:16,160 --> 00:39:20,080
+I think that Double Zero, we're in a much better position to simply
+
+648
+00:39:20,080 --> 00:39:24,480
+not compete with blockchains to instead onboard all of them to Double Zero
+
+649
+00:39:24,480 --> 00:39:27,600
+and have 10 networks running at a million transactions per second
+
+650
+00:39:27,600 --> 00:39:31,120
+and have a percent-based model that just takes a small cut of all of those
+
+651
+00:39:31,120 --> 00:39:34,080
+in exchange for providing a ton of value-add services.
+
+652
+00:39:34,240 --> 00:39:36,480
+There's a lot of layer ones out there.
+
+653
+00:39:36,480 --> 00:39:41,040
+And I think you have to have a really credible architecture or thesis decision
+
+654
+00:39:41,040 --> 00:39:43,360
+about why yours would be better.
+
+655
+00:39:43,360 --> 00:39:47,360
+And if all our answer is, is it would be better because it's running on a high performance
+
+656
+00:39:47,360 --> 00:39:51,840
+private fiber with hardware acceleration and technologies you can't get on the public internet.
+
+657
+00:39:51,840 --> 00:39:54,240
+Going back to the very first thing we were talking about,
+
+658
+00:39:54,240 --> 00:39:57,200
+about non-network effect businesses in TradFi,
+
+659
+00:39:57,200 --> 00:40:04,000
+why would I not want the network effect of Solana and Sui and Aptos and MegaEath and Monad
+
+660
+00:40:04,000 --> 00:40:09,200
+and Stripes L1 and Arc and all of these things operating on top of Double Zero,
+
+661
+00:40:09,200 --> 00:40:14,720
+why would I ever limit our market to just people who are willing to adopt the Double Zero chain?
+
+662
+00:40:14,720 --> 00:40:20,320
+It's a very clear case for me of grow the pie as opposed to trying to take a bigger slice of it.
+
+663
+00:40:20,320 --> 00:40:24,160
+Usually, when you try and take a bigger slice of the pie as opposed to growing the pie,
+
+664
+00:40:24,160 --> 00:40:26,000
+you actually end up with a smaller piece of pie.
+
+665
+00:40:26,560 --> 00:40:28,560
+You're pulling from a much smaller base.
+
+666
+00:40:28,560 --> 00:40:30,640
+The final question I wanted to ask you,
+
+667
+00:40:30,640 --> 00:40:34,320
+what do you look at the end state of this segment of the market being?
+
+668
+00:40:34,320 --> 00:40:38,720
+Do you think that we have a host of, call it luxury fiber networks
+
+669
+00:40:38,720 --> 00:40:43,200
+that the applications that really need them or those that are willing to pay can pay for?
+
+670
+00:40:43,200 --> 00:40:49,120
+Do you think we have this slow public internet which still powers most of what we use?
+
+671
+00:40:49,120 --> 00:40:50,560
+Where do you think we end up?
+
+672
+00:40:50,560 --> 00:40:52,880
+This may not be a closing topic.
+
+673
+00:40:52,880 --> 00:40:56,480
+We might go a little long here, but we have to think back to 2020
+
+674
+00:40:56,480 --> 00:40:59,520
+because 2020 informs a huge amount of this.
+
+675
+00:40:59,920 --> 00:41:06,560
+What we saw in 2020 was a very strong effort to de-platform certain applications
+
+676
+00:41:06,560 --> 00:41:09,120
+and certain ideas from the Web2 world.
+
+677
+00:41:09,120 --> 00:41:12,720
+And irrespective of what you think about those efforts morally,
+
+678
+00:41:12,720 --> 00:41:19,040
+it turned out that when a social network got kicked off of AWS and get kicked off of Cloudflare,
+
+679
+00:41:19,040 --> 00:41:23,120
+it was extremely difficult for them to run infrastructure,
+
+680
+00:41:23,120 --> 00:41:25,280
+let alone if they got kicked off of DNS,
+
+681
+00:41:25,280 --> 00:41:29,280
+which is also a centralized thing run basically out of the United States by one company.
+
+682
+00:41:29,440 --> 00:41:33,520
+What we basically saw was we already have this world you're talking about
+
+683
+00:41:33,520 --> 00:41:35,440
+of a two-tier infrastructure system.
+
+684
+00:41:35,440 --> 00:41:38,560
+The folks who can pay for Cloudflare and the folks who can pay for AWS
+
+685
+00:41:38,560 --> 00:41:40,560
+and the folks who can pay for Akamai,
+
+686
+00:41:40,560 --> 00:41:45,200
+their infrastructure is more performant and it doesn't actually run on the public internet.
+
+687
+00:41:45,200 --> 00:41:49,920
+It runs on this entire private system that's completely opaque,
+
+688
+00:41:49,920 --> 00:41:53,360
+that runs alongside the internet that you have to pay to access.
+
+689
+00:41:53,360 --> 00:41:56,240
+And also they can kick you off at any moment for any reason
+
+690
+00:41:56,240 --> 00:41:59,760
+because net neutrality also first off doesn't apply to the U.S. anymore,
+
+691
+00:41:59,760 --> 00:42:02,880
+but even if it did, does not apply to private networks.
+
+692
+00:42:02,880 --> 00:42:08,000
+So you get into this place very quickly where we have an internet
+
+693
+00:42:08,000 --> 00:42:11,840
+where pretty much anyone in a few positions of power
+
+694
+00:42:11,840 --> 00:42:13,920
+can monkey with how the whole system works,
+
+695
+00:42:13,920 --> 00:42:16,560
+let alone the U.S. government can just say,
+
+696
+00:42:16,560 --> 00:42:20,160
+hey, and we saw the emails, Facebook, take down these posts.
+
+697
+00:42:20,160 --> 00:42:22,960
+Hey, YouTube, remove this video.
+
+698
+00:42:22,960 --> 00:42:29,120
+And that is a difference in sending a letter to Facebook saying delete this content
+
+699
+00:42:29,120 --> 00:42:31,840
+and sending a letter to YouTube saying delete this content
+
+700
+00:42:31,840 --> 00:42:37,680
+and sending a letter to Verizon saying lock this content
+
+701
+00:42:37,680 --> 00:42:41,760
+is the only difference there is the political will of the United States
+
+702
+00:42:41,760 --> 00:42:44,560
+versus the political will of the Chinese Communist Party.
+
+703
+00:42:44,560 --> 00:42:48,480
+And I don't want to hang my hat on that differentiation
+
+704
+00:42:48,480 --> 00:42:52,240
+in an era where free speech is kind of a little bit less than it used to be.
+
+705
+00:42:52,240 --> 00:42:55,680
+You compare the 90s to the 2020s in terms of free speech
+
+706
+00:42:55,680 --> 00:42:58,800
+and we have less of it now than we used to in a lot of ways.
+
+707
+00:42:58,800 --> 00:43:03,360
+So this is a long way of saying when we think about these types of systems
+
+708
+00:43:03,360 --> 00:43:06,320
+over the long term, I want credibly neutral alternatives
+
+709
+00:43:06,320 --> 00:43:08,560
+to the existing communication systems
+
+710
+00:43:08,560 --> 00:43:12,080
+and I want basically universal systems of prioritization.
+
+711
+00:43:12,080 --> 00:43:16,320
+So today it is very hard to say if I'm Epic Games
+
+712
+00:43:16,320 --> 00:43:18,720
+and I want to prioritize all the Fortnite traffic
+
+713
+00:43:18,800 --> 00:43:21,680
+so kids can play more games and buy more skins.
+
+714
+00:43:21,680 --> 00:43:23,520
+My bottom line revenue can go up.
+
+715
+00:43:23,520 --> 00:43:26,400
+I basically have to go around and bribe every ISP to do that.
+
+716
+00:43:26,400 --> 00:43:28,160
+You'd think there'd be a protocol on the internet
+
+717
+00:43:28,160 --> 00:43:31,360
+that says I want to pay more to make my data better.
+
+718
+00:43:31,360 --> 00:43:32,560
+You can't do that today.
+
+719
+00:43:32,560 --> 00:43:36,480
+So double zero really over a long term time horizon
+
+720
+00:43:36,480 --> 00:43:39,040
+our goal is to become the default prioritization layer
+
+721
+00:43:39,040 --> 00:43:42,800
+for anyone anywhere that needs to send data in a timely fashion.
+
+722
+00:43:42,800 --> 00:43:45,200
+I think the other piece we're looking at over the long term
+
+723
+00:43:45,200 --> 00:43:50,400
+is replacing TCP IP with public key, private key encryption and verification.
+
+724
+00:43:50,400 --> 00:43:53,200
+Right now, the only way that I know a server is correct
+
+725
+00:43:53,200 --> 00:43:55,760
+is I'm verifying a SSL certificate
+
+726
+00:43:55,760 --> 00:43:58,080
+which is issued by a third party authority.
+
+727
+00:43:58,080 --> 00:44:01,840
+I actually don't care about routing to an IP address on a blockchain.
+
+728
+00:44:01,840 --> 00:44:04,560
+I don't actually want to talk to the specific IP address.
+
+729
+00:44:04,560 --> 00:44:07,440
+I want to talk to this specific cryptographic signature.
+
+730
+00:44:07,440 --> 00:44:11,680
+So we can just cut out the entire middle layer for lack of a better term
+
+731
+00:44:11,760 --> 00:44:16,320
+and actually start routing things through public, private key cryptography.
+
+732
+00:44:16,320 --> 00:44:18,720
+And I think that is going to be a pretty big unlock
+
+733
+00:44:18,720 --> 00:44:22,240
+for the ability to unwind a lot of these centralized,
+
+734
+00:44:22,240 --> 00:44:23,920
+we literally call it a trust authority.
+
+735
+00:44:23,920 --> 00:44:25,280
+That's what a CA is.
+
+736
+00:44:25,280 --> 00:44:28,880
+We can try and unwind some of these centralized trust components
+
+737
+00:44:28,880 --> 00:44:31,520
+from the system and actually increase competition.
+
+738
+00:44:31,520 --> 00:44:34,080
+At the end of the day, I'm a capitalist maxi
+
+739
+00:44:34,080 --> 00:44:37,440
+and I want more competition and fewer access barriers
+
+740
+00:44:37,440 --> 00:44:39,840
+to building systems that compete with one another.
+
+741
+00:44:40,400 --> 00:44:43,440
+To those points, do you think these base infrastructure layers
+
+742
+00:44:43,440 --> 00:44:46,720
+are inherently monopolistic if not pushed otherwise
+
+743
+00:44:46,720 --> 00:44:50,560
+to the point of first off, higher powers will want to control
+
+744
+00:44:50,560 --> 00:44:53,680
+and they can do so via the base infrastructure.
+
+745
+00:44:53,680 --> 00:44:56,000
+Secondarily, there aren't a lot of innovators.
+
+746
+00:44:56,000 --> 00:45:00,320
+Do you think that's just what we converge on if not for other efforts?
+
+747
+00:45:01,040 --> 00:45:04,000
+I think that is the story of every economic system
+
+748
+00:45:04,000 --> 00:45:06,320
+going back as long as we've had an economy.
+
+749
+00:45:06,320 --> 00:45:07,920
+It's like a central bank almost.
+
+750
+00:45:08,560 --> 00:45:09,520
+Exactly, yes.
+
+751
+00:45:09,520 --> 00:45:12,560
+There's two things we've done very intentionally to combat this.
+
+752
+00:45:12,560 --> 00:45:15,040
+The first is it's a token project
+
+753
+00:45:15,040 --> 00:45:19,360
+and the beauty of a token project is no one owns Bitcoin.
+
+754
+00:45:19,360 --> 00:45:20,800
+Yeah, there's a bunch of people who maintain it
+
+755
+00:45:20,800 --> 00:45:22,800
+and they have more power over it
+
+756
+00:45:22,800 --> 00:45:25,920
+and Michael Saylor has got more power over Bitcoin than I do
+
+757
+00:45:25,920 --> 00:45:28,880
+but at the end of the day, it is a giant consensus
+
+758
+00:45:28,880 --> 00:45:30,960
+on how these things will work and function
+
+759
+00:45:30,960 --> 00:45:33,600
+and that applies to Ethereum, that applies to Solana.
+
+760
+00:45:33,600 --> 00:45:36,640
+You can't block someone on a Bitcoin to your point earlier.
+
+761
+00:45:36,720 --> 00:45:40,240
+You can't block someone on Bitcoin or you can block someone on Bitcoin
+
+762
+00:45:40,240 --> 00:45:45,680
+but it requires you getting 51% of the rest of the Bitcoin network on board with you.
+
+763
+00:45:45,680 --> 00:45:48,080
+These systems are still built on trust
+
+764
+00:45:48,080 --> 00:45:50,720
+but they're built on the trust of the crowd
+
+765
+00:45:50,720 --> 00:45:55,120
+as opposed to the trust of an individual privileged actor in a system.
+
+766
+00:45:55,120 --> 00:45:58,160
+You can still change something in the Ethereum ledger
+
+767
+00:45:58,160 --> 00:46:02,320
+but the amount of people you need to get on board to facilitate that change,
+
+768
+00:46:02,320 --> 00:46:03,840
+it's like amending the constitution.
+
+769
+00:46:03,840 --> 00:46:07,680
+It's a very high barrier and that actually creates a ton of security.
+
+770
+00:46:07,680 --> 00:46:11,040
+The second component for us is this proof of utility system
+
+771
+00:46:11,040 --> 00:46:14,720
+where proof of stake systems can turn into an oligarchy at some point
+
+772
+00:46:14,720 --> 00:46:17,680
+where you just have, oh, I have 4% of Solana
+
+773
+00:46:17,680 --> 00:46:22,320
+so therefore I earn a ton of rewards even though I'm not doing a ton of work.
+
+774
+00:46:22,320 --> 00:46:25,760
+With the proof of utility system, it's very similar to Bitcoin.
+
+775
+00:46:25,760 --> 00:46:28,240
+If you have 10% of the hash power of Bitcoin,
+
+776
+00:46:28,240 --> 00:46:32,480
+you're going to get 10% of the new blocks irrespective of if you have
+
+777
+00:46:32,480 --> 00:46:35,280
+Michael Saylor bags or if you own zero Bitcoin.
+
+778
+00:46:35,280 --> 00:46:39,520
+So we've tried to build our system in a way that encourages long-term competition
+
+779
+00:46:39,520 --> 00:46:44,320
+and it also rewards folks who are able to put in that little incremental advantage.
+
+780
+00:46:44,320 --> 00:46:47,680
+And actually I think the true mark of success for a system
+
+781
+00:46:47,680 --> 00:46:50,640
+is if someone with a better idea or better technology
+
+782
+00:46:50,640 --> 00:46:52,960
+can plug into that system permissionlessly
+
+783
+00:46:52,960 --> 00:46:56,240
+and earn outsized rewards for outsized contribution.
+
+784
+00:46:56,240 --> 00:46:57,440
+Yeah, I completely agree.
+
+785
+00:46:57,440 --> 00:46:59,040
+Austin, it's been a pleasure chatting.
+
+786
+00:46:59,040 --> 00:47:02,720
+What should people do if they want to learn more about Double Zero or Explore
+
+787
+00:47:02,720 --> 00:47:05,600
+working with you guys in the context of their business or operation?
+
+788
+00:47:06,240 --> 00:47:09,360
+So DoubleZero.xyz is our main website.
+
+789
+00:47:09,360 --> 00:47:12,000
+You can find out a bunch of information about Mainnet Beta
+
+790
+00:47:12,000 --> 00:47:13,840
+which is launching at the end of September.
+
+791
+00:47:13,840 --> 00:47:17,200
+You can connect to Validator and run on it as well as get in touch with us
+
+792
+00:47:17,200 --> 00:47:21,680
+if you have fiber to contribute or any other crazy ideas you want to explore.
+
+793
+00:47:21,680 --> 00:47:23,280
+Brilliant. Thank you again.
+
+794
+00:47:23,280 --> 00:47:23,780
+Thank you.
+
+795
+00:47:24,960 --> 00:47:28,720
+Thanks for listening to another episode of On the Brink with Castle Island.
+
+796
+00:47:28,720 --> 00:47:32,800
+To find out more about Castle Island, visit castleisland.vc.
+
+797
+00:47:33,360 --> 00:47:39,440
+To listen to all of our podcast episodes, please go to onthebrink-podcast.com
+
+798
+00:47:39,440 --> 00:47:41,680
+or just click on the tab in our website.
+
+799
+00:47:41,680 --> 00:47:44,480
+Thanks for listening.
+

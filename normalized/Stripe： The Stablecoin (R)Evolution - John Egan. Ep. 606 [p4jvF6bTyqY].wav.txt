@@ -1,0 +1,724 @@
+TITLE: Stripe: The Stablecoin (R)Evolution - John Egan. Ep. 606
+URL: https://www.youtube.com/watch?v=p4jvF6bTyqY
+VIDEO_ID: p4jvF6bTyqY
+
+TRANSCRIPT:
+Stripe was one of these things that's very obvious looking back, you know, but at the time sort of
+ took a bit of a zoomed out requirement that I think to come up with. Stripe historically has
+ thought about here all of these really complicated difficult financial systems that have built for
+ all sorts of probably justifiable reasons, you know, and here's kind of a simple API to go and
+ interact with them, you know, and then kind of here comes crypto and and now sort of stablecoin
+ specifically, and just said well let's forget about all of that, right? What if we just rebuilt
+ it from first principles to be digital money, and I think that that's that's really kind of a good
+ capture is Stripe has been this for the traditional finance world, which is what really makes us so
+ well positioned to also be this for this new world that's coming today. Welcome to epicenter,
+ the show which talks about the technologies projects and people driving decentralization
+ and the blockchain revolution. I am Frederica Anst and today I'm speaking with John Egan who
+ is the head of crypto at Stripe. Stripe of course builds payments payment infrastructure for the
+ internet and is one of the most valuable fintechs worldwide. Before I talk with John, let me tell
+ you about our sponsors this week. If you're looking to stake your crypto with confidence,
+ look no further than chorus 1. More than 150,000 delegators including institutions like BitGo,
+ Pentera Capital and Ledger trust chorus 1 with their assets, they support over 50 blockchains
+ and are leaders in governance on networks like Cosmos ensuring your stake is responsibly managed.
+ Thanks to their advanced MEV research you can also enjoy the highest staking rewards.
+ You can stake directly from your preferred wallet, set up a white label note,
+ re-stake your assets on eigenneo or symbiotic or use the SDK for multi-chain staking in your app.
+ Learn more at chorus.1 and start staking today.
+ This episode is proudly brought to you by Gnosis, a collective dedicated to advancing
+ a decentralized future. Gnosis leads innovation with circles, gnosis pay and metric, reshaping,
+ open banking and money. With Hashi and Gnosis VPN, they're building a more resilient privacy
+ focus internet. If you're looking for an L1 to launch your project, Gnosis Chain offers the same
+ development environment as Ethereum with lower transaction fees. It's supported by over 200,000
+ validators making Gnosis Chain a reliable and credibly neutral foundation for your applications.
+ Gnosis DAO drives Gnosis governance where every voice matters. Join the Gnosis community in the
+ Gnosis DAO forum today. Deploy on the EVN compatible Gnosis Chain or secure the network
+ with just one GNO and affordable hardware. Start your decentralization journey today at Gnosis DAIO.
+ Hey, John, thank you so much for coming on. Hey, thanks for having me.
+ I know you are currently on Stripe Tour. Where are you calling in from?
+ I'm calling in from New York today, which is where a good chunk of the Stripe crypto team is
+ actually based, but pretty soon we'll actually be out in Berlin doing that segment of Stripe Tour
+ and then really all over the world for the rest of the year all the way up until the New York Tour,
+ which happens in November. So big, big moment for Stripe to go around and really reach out and
+ interact with merchants and sort of explain the new features, mostly that we launched at sessions
+ and to go deep. So really, really excited to do it and it's going to be a packed schedule.
+ Super cool. Maybe before we dive into Stripe and Web3, tell us a bit about yourself and kind of
+ like where your career took you so far. I know kind of you were previously at Facebook and also at
+ early startup, some of which you actually co-founded. Tell us about that.
+ Yeah, sure. So I'm an engineer by training. I thought I'd go and build robots.
+ And that turned out to be a little bit of a slow industry. So got out of that, ended up
+ getting into startups or an OIC startup in high-speed data transport way back in 2011. It feels like
+ forever ago now. And that company was bought by Facebook, which is how I ended up there.
+ And at Facebook, built all kinds of tools and infrastructure for the organization as it was
+ growing. It ultimately took over and ran the workplace team. I've founded that with Lars Rismusen
+ over there. Ran that out of London and sort of grew that up to be one of Stripe's major enterprise,
+ sorry, Facebook's major enterprise pillars. Came back here to New York. And that's around when I
+ started to get into blockchain in 2016, where I founded an NFT company called Additional Wayback
+ Before NFTs. Anyone cared about them. I remember going up and down Santel Road and being told by
+ every investor that NFTs would never be interesting and never a thing for exciting. But we were like
+ an iPhone app. So we were like the Instagram for NFTs. And it was really fun. It was really
+ early stage. Lots of digital artists and digital creation and distribution. And I was just like
+ super excited about the kind of decentralized and open network nature of blockchain. Ethereum was
+ just happening at the time and was kind of having its first kind of groundswell of developer
+ excitement and applications being built. And then pivoted out of that into an incident response
+ company for a little while, taking some of the learnings from Fang. And frankly, blockchain,
+ if you really want to have like a great history of incidents, you work in crypto for a while.
+ And then, you know, after that pivot, I really wanted to get back into the crypto space. I really
+ love the people. I love the technology. You know, we have this kind of saying in crypto, I'm sure,
+ you know, it's like, good morning, everything's early, right? And that's just the best space to
+ be in for technology. And so when I did the math, you know, and sort of worked out, well, what company
+ do I think is going to have the greatest impact, you know, on the world, you know, to take this
+ technology that was emerging? That just naturally brought me to Stripe where I found that there was
+ a kind of young and rapidly growing crypto organization. And I joined about two years ago and took over
+ that team and been running it ever since. Yeah, that takes us all the way through to Stripe.
+ I think kind of how big and pervasive Stripe is in the payments ecosystem
+ is a well-kept secret because kind of like a lot of this is abstracted away from
+ normal users, right? So kind of for listeners who only see Stripe kind of in conjunction with
+ kind of like credit card buttons, how would you describe Stripe's mission and kind of your
+ cool offerings? Yeah, so look, first of all, I think a lot of that's by design, right? If you
+ think about Stripe kind of from a user standpoint, we take this very complicated world of, you know,
+ centralized finance, right? Let's not talk about blockchain. Yeah, but like all of these kind of
+ siloed parts of the traditional finance world, and we simplify them, right? Down to APIs and
+ interfaces and UX that, you know, merchants can go and integrate in a couple of lines of code
+ without having to think about all the like complicated money movement that's happening
+ under the hood. Interesting personal piece of history. I have one of the first hundred Stripe
+ accounts. I was in Y Combinator a couple of classes after John and Patrick, and I remember
+ getting an email from John. I think back then it was called dev payments. It was like they hadn't
+ named themselves Stripe yet. And the pitch was, you know, so simple. It was just, listen, we've had
+ tons of trouble just doing payment processing for our company. You know, we've decided to make it
+ a lot easier. You know, here's an API. Click here to sign up. And you know, I think what was actually
+ happening, you know, in the back end, as they were opening merchant accounts kind of manually,
+ they were sending a lot of mail back and forth, you know, but, but, but I remember as a founder at
+ the time, I hadn't even thought about how I was going to make payments work. I just assumed it was
+ easy because when you work in technology, you get really comfortable with the idea that everything's
+ internet native, right? Of course, there's an API. Of course, there's a GitHub page. Of course,
+ there's some like simple thing that I can build, but the reality was there wasn't for payments. You
+ needed to go work with a bank. You had to open these complicated merchant accounts. So I actually
+ think that very early sort of simplicity of the way that Stripe was presented as this is the fast lane,
+ right? Into all of these things that you just need to do to run your business actually still
+ are present today. And today, it's just that fast lane is now access to a lot more than payments,
+ right? We call it just financial infrastructure. So everything from, you know, card issuing to,
+ you know, now after after sessions, you know, money management and storage, you know, to loans.
+ And in fact, you can even create companies on Stripe, right? You can go to Atlas. So if you're,
+ if you're at the very beginning of like a startup accelerator, you're probably at Stripe well before
+ you even start to take payments. And now it's not just an API, right? We have like the integrated
+ checkout suite. That's all the UX and we have with the lemon squeezy acquisition, right? We have like
+ progress towards like merchant of record. There's all these like amazing capabilities. I'm only
+ probably touching like 1% of what the company does. But really, that's what it should be, right?
+ As an engineer, especially in the valley, you know, that's every, it's just an assumption. Of course,
+ you're going to come and use Stripe. This is the best and easiest and most well-documented,
+ you know, and self-service product for accessing all of these complicated financial systems that
+ you really do need to be able to leverage to grow a business, you know, from a couple of dollars of
+ test revenue up to billions. I'm sure we'll get into this in just a little bit. But Stripe is very
+ much a bundler, right? Kind of like it, it abstracts a lot of the complexity that is,
+ that's kind of integral to kind of the payments stack and kind of like all these various things,
+ kind of like you can do kind of with money on the internet. Behind kind of your smartly kind of
+ collated APR is, why is it so complex? Can you kind of give us some insights into that? And I
+ think kind of like we'll dive into that when we talk about kind of like the crypto aspect of this
+ later. But often kind of you think in principle, this should be easy, right? Kind of like sending
+ money to a merchant should not require kind of the world's most expensive fintech to kind of
+ do this for you, right? Right, right. Yeah. So the history of money, right, is really really
+ just what leads us here. It's a long and complicated history, very like closely mapped to like the
+ creation of society. And so just like we have all of these, you can almost map money down to culture.
+ Right, how many thousands of cultures do we have in the world? And each culture sort of grew out
+ of a siloed set of humans coming up with ways that they wanted to transact with each other.
+ It's maybe like the very simplest way to kind of think about like the evolution of early commerce.
+ And all of these rules got built inside of each of these cultures and each of these silos to define
+ what it means to transact not just money, but assets in general, right? What does it mean to
+ move value from like one human to another, one human to a corporation, right? One corporation
+ to another corporation, you know, into real world assets or sort of these complex financial
+ instruments that eventually grew. And you almost have to replay, you know, these hundreds of years
+ of history to catch up to why it's so complicated today, right? In the US, why do we have been sponsors,
+ you know, for processing credit card transactions, but in other countries, maybe we don't. Let's
+ just sort of a trick of where of the history of how credit cards evolved in this country versus
+ how they evolved in the rest of the world. You know, why do we have certain types of regulated,
+ you know, banking systems? And every country has a different answer, right? Like, why was it
+ developed in Germany, you know, for a specific set of rules? I'm sure entirely different than
+ why the state of New York manages its money and sort of rules for its banking organizations.
+ And I think like, when you kind of carry that all forward, you just get a lot of complexity.
+ And then you get a lot of players who are trying to work to do interconnection at different points
+ in history. So what it meant to go and interconnect banks 20 years ago through like these correspondent
+ banking networks, right? It was pretty different from how we'd probably connect banks if we were
+ doing it today. And we're really starting to, you know, sort of see that with stablecoins especially
+ in kind of crypto networks. But, you know, all of these problems have always existed and there
+ have always been people trying to solve those problems for the world. And I think Stripe was
+ really just the first internet oriented company to solve this problem, right? And it was, it was
+ very much a, there were systems to go and get merchant accounts at banks. And there certainly
+ were middlemen back there to go back then to go and do it. But none of them were just a forum on
+ the internet, you know, that you filled out and that then returned an API key, you know, back to
+ you. So I think Stripe was, Stripe was one of these things that's very obvious looking back,
+ you know, but at the time sort of took a bit of a zoomed out requirement, I think, to come up with.
+ Not to put words in John and Patrick's mouths. I'm sure they've talked about the history of the
+ company many times. But, you know, funny story, when I was first onboarding here, you know,
+ crypto wasn't in the best spot a couple of years ago. You know, we had a couple of major collapses.
+ There were, there were, you know, some sort of scary, almost moments of near deepag even in
+ the stablecoin world. And in my onboarding class, there was a moment where John kind of came on
+ and would just sort of take Q&A from everywhere. And I just sort of was quietly keeping my mouth shut
+ in the back on the zoom. But someone else, someone, someone completely unassociated with crypto
+ asked him, you know, about crypto, you know, and sort of how he thinks about it. And he said,
+ I think what's kind of getting at your point, which was, you know, Stripe historically has thought
+ about here, all of these really complicated, difficult financial systems that have built for
+ all sorts of probably justifiable reasons. You know, and here's kind of a simple API to go and
+ interact with them, you know, and then kind of here comes crypto and now sort of stablecoin
+ specifically. And just said, well, let's forget about all of that, right? What if we just rebuilt
+ it from first principles to be digital money? And I think that that's, that's really kind of a good
+ capture is Stripe has been this for the traditional finance world, which is what really makes us so
+ well positioned to also be this for this new world that's coming today. Stripe kind of saw the
+ potential for digital currencies super early on. So you guys started accepting Bitcoin over
+ 10 years ago in 2014. Can you talk about what motivated that decision and also kind of, I know
+ it was before your time at Stripe. But kind of, you also kind of, Stripe also wound down its
+ Bitcoin support just a couple of years later, kind of like, and only started engaging with
+ the crypto ecosystem again years later. So maybe, maybe, um, talk us through kind of like this
+ very early exploration of, um, of crypto rates for payments. Yeah, I think, I think like most
+ technologies, you know, they're, they're, they're a couple of, I won't call Bitcoin a false start
+ because Bitcoin's doing wonderfully. Um, but at least in terms of exploring it from a, from a
+ payments rail standpoint, you know, I think, I think we, we, when Stripe originally got into the
+ space, there's a lot of excitement about this, this technology really just catching on, um,
+ becoming more, more accessible. You know, we were far enough along that most people had heard about
+ Bitcoin. It was certainly demand, you know, to use it as a payment method. Um, but the reality is,
+ and I think last year at Sessions, John Carlson sort of addressed this very directly on stage
+ when we were announcing that we were coming back with, with stablecoin payments, you know, the,
+ the downside was, you know, almost twofold. Um, one, everyone really regrets every Bitcoin they ever
+ spent. I'm not, I'm not sure about you, but, but I rented a hotel in, uh, in, in France, you know,
+ back in like 20, I think it was around 20, 2014, 2015. Um, and I think I look back and I probably
+ spent effectively, you know, $60,000 a night on that hotel, you know, probably not the best,
+ the best, like, feeling to have after, after, you know, engaging in commerce or a transaction. Um,
+ and second of all, look, the user experience just wasn't great. You know, we have high expectations
+ because despite how poor and complex the, the traditional finance world is, there's a lot of,
+ like, virtualization that's already happened. You know, I was talking about how there's a lot of
+ players in this space today, you know, to, to make us consumers feel like that's not the case,
+ right? So, so I can, I can walk into a coffee shop and I can tap a card, right? And I get my coffee
+ right away. You know, there's always been this joke, the day you can finally buy coffee with
+ cryptocurrency will be the day that, that we've won. And 2014, you know, was not that date. You
+ know, if you wanted to buy something, you know, online, you'd sort of make the checkout experience,
+ and we'd say, oh, we'll get back to you. You know, it's, it'll, it'll finish in a little bit,
+ right? And we would wait for sort of the next set of blocks to be processed, and the, and the
+ transaction to be secured, and then we would send an email, and then you would come back,
+ and it was just a very complicated process. And consumers, listen, if my time at, at, at
+ meta really taught me anything, consumers do not have patience, you know, for anything less than
+ instant. You know, maybe a few seconds if there's high conviction. And I think ultimately, just for
+ those practical reasons, it was simply not a great payment method. And usage was not really there.
+ And so Stripe, if anything, is a practical company, despite being being, you know, very,
+ have very head in the clouds when we're sort of dreaming here. And I think the, the, the decision
+ was made reasonably quickly, you know, a couple of years later to, to cancel that as a payment
+ method. And we waited, you know, very patiently until the technology caught up to the point where
+ we could do the demo that was done at sessions where it was just like, okay, don't blink. Here
+ we go. Click done. And I think that that sort of piece of magic was missing. And, and so, so yeah,
+ that's that's, that's kind of been the history there. Skips over some of the other work we've done,
+ we're like just enabling the web three economies through things like on ramps. And we still do
+ offer a crypto on ramp to help sort of specifically crypto wallets on board consumers and participate
+ in these, these, these new areas of commerce, especially, you know, people are experimenting
+ with DAOs and NFTs had a really big moment for a while there. So Stripe's been sort of in and
+ around the space consistently since at least 2014. But I really think that this moment is sort of
+ the most native to Stripe's mission with, with stablecoins coming onto the scene. And I think
+ that's why we're being a lot noisier about it now. I think it's a much more exciting time.
+ If you kind of had to point your finger at one set of events that kind of made you say,
+ okay, the time is now, what, what would that be? You know, I went to, I think the first,
+ the first year I was here about two years ago, I went to, I think it was ETH CC.
+ And, you know, in previous kind of crypto conferences that we've been to, you know,
+ really all of the focus was on sort of those topics I was mentioning before, you know,
+ we really everyone was building a new NFT marketplace or everyone was building,
+ you know, a new wallet, right? But I remember at ETH CC, there was this surprising undercurrent
+ of stablecoins starting to pop up. And I, you know what, I can't actually even peg why.
+ It was just something we started to notice. You know, I think there was, I believe there was like
+ beginning talks of sort of like Mika back then and kind of like some regulatory conversations
+ that were happening. And so that was sort of starting to spur this conversation about like
+ regulatory impact on these tokens and how they might be used. I think we met with a,
+ we met with a couple of folks sort of who are working towards that goal, you know, around like
+ circle and we talked to, I think, Bonarium back then and a couple of other organizations. And
+ everyone was aware of Tether and kind of its global impact. But that was the first time that I
+ actually heard the developer community talking about it. I really think kind of the slowdown
+ in the NFT space gave everyone sort of a moment to breathe and think back towards, okay, what,
+ what technology shifts are happening, what like opportunities are going to be for all of us
+ developers over the next couple of years. And when I came back and I wrote my notes up on that
+ conference, it was, it was at the very top. And I sort of just had like a general note that was
+ like, oh, stablecoins, we should, we should really keep an eye on those. Like maybe we should start
+ to build more in that space. So I, you know, it wasn't really like an aha moment and like I was
+ making a transaction and the person next to me used a stablecoin. And I saw how amazing it was.
+ It was actually much more developer led, which I think is a lot of what happens in crypto.
+ And it's sort of exciting is everyone just sort of quietly starts to talk about it.
+ And then everyone starts to build. And then we get this kind of magical moment. And certainly
+ there'd been a lot happening before that, right? Like the origins of stablecoins and
+ cross border commerce that we were seeing out of existing companies. But that was, that was kind
+ of the first conference where I came away feeling like maybe it was starting to become
+ something that developers would care a lot about. And that's generally the, the beginning,
+ right? Of starting to see interesting opportunities.
+ One of your previous startups, the, the NFT project, which was also built on Ethereum. So,
+ and you went to ECC. So kind of like, was there always kind of this focus on the Ethereum space?
+ Or kind of like, what's your, what's your network strategy? So I know kind of like,
+ the, your current offerings in the crypto space on base, right? So how, how, how do you navigate
+ this territory? Because kind of it can be pretty fraught, right?
+ Yeah. So we're, we're network agnostic. I mean, I, I list ECC just because it's one of the larger
+ conferences. And I think Ethereum developers were at the time, especially like sort of on the forefront
+ of like these programmable applications and layers. But look, across our products, you know,
+ we support Ethereum, you know, Polygon, Solana, base, Stellar, you know, we have a pretty wide
+ ranging list of different networks that we interop with. And I think, I, Aptos pretty recently,
+ you know, we, we don't, we don't really think about it in terms of like this network or that
+ network needs to win. We are, we are technologists who will take advantage of whatever is available
+ to us at the time. You know, we are very excited about what base is doing. You know, we, we use
+ base and in the stablecoin financial account product that we just announced at sessions. But
+ yeah, I think the same thing with, with the coin strategy, to be quite honest, it's a common question
+ that Stripe gets, you know, what is, what is your coin strategy, which coins are you using? And,
+ you know, right now on the stablecoin front, we're pretty focused on, on USDC, kind of as a publicly
+ tradable coin, you know, with the acquisition of bridge, we now have USDB as kind of an internal
+ infrastructure coin, which is pretty exciting. There's a lot, lots to dig into there from a
+ technology standpoint and kind of opportunity. You know, and then, and then certainly we're aware
+ of like the other large players in the space, like Tether, and kind of how those will start to play
+ out as the regulatory environment changes. But no, I don't, I don't, I, I'm a big fan of Ethereum,
+ you know, and I think at the time, especially when I was building my startup, that was kind of,
+ if you were going to build an app, you'd go get what was it back then Truffle? I think it was like
+ the, the sort of like, like developer tool set you would download to sort of experiment.
+ From consensus, yeah. Right, yeah, yeah. And, and so I think that was just like where these
+ conversations were growing out of. You know, we did start to hear about it also in the Solana
+ conferences was another one. I think that was starting to emerge then it is now becoming like
+ particularly interesting from a developer standpoint. So what, what are kind of the minimum requirements
+ you kind of have for network integration, right? Kind of like, I mean, you could look at security
+ and performance and, uh, uh, level of decentralization and so on. What, what are the things? Or do you,
+ do you guys say, look, we, we purely go by, by user need, um, and kind of because in some way,
+ kind of like building on these rails, you, you can never be more resilient than the rails themselves,
+ right? Right. Um, gosh, how do we think about this? I think, I think we take a pretty practical stance.
+ Um, you know, we have, we have, we have a strong compliance posture at the company.
+ I think stripe, we've always thought of ourselves as the honest broker of this space and we need,
+ you know, our largest users to be able to look to us confidently. So certainly there's a compliance
+ layer here, which is we need to be able to do, you know, the basic checks, right? The sanctions
+ checks and the, and the transaction monitoring and all of these kinds of like basic requirements
+ for being able to kind of interop with, uh, with, with legal businesses across the world, you know,
+ but really past that, we're just watching for consumer and merchant demand. Um, you know, I,
+ I think, I think this is shifting a little bit, but we're not really the evangelists of the space,
+ right? We are, we are, we are utility providers helping to connect, you know, merchants to this
+ capability set. And so I think, you know, we probably have fewer, you know, chains and coins
+ than, you know, your average decentralized exchange would expose. Um, but I think that that's okay.
+ I think for now, like we don't necessarily have to have a thousand different chains
+ available or a thousand different coins. What's important is that we give people this sort of
+ high quality experience that they can rely on. Um, and so, you know, that, that, that, that maps
+ down to kind of the, the top, I hate to use the word like blue chip, but you know, sort of the top,
+ you know, coins on the top networks and frankly, the most well regulated ones as well. Um,
+ listen, I'm, I'm sitting in New York right now. And if you go pull up the NY DFS is green list,
+ right? There's only a subset of coins and networks that we can provide to people in this state.
+ And I think that is changing rapidly and adapting throughout the world. But we're just, we're
+ pragmatists when it comes to that stuff. You know, I don't, I don't, I don't think that we have too,
+ too much of a dog in the fight specifically. And certainly if, you know, our largest merchants come
+ to us asking about a specific coin or a specific network, you know, just like we would for any
+ traditional product, we would go and explore that and integrate it. We skipped over this part a
+ little bit earlier. Tell us about, um, the services you kind of offer kind of on Web3, right? You,
+ you mentioned a stable coin financial product and so on, but maybe let's, let's go, go through
+ them one by one. Yeah, I can put my marketing hat on for a minute. Um, so, so we have all kinds of
+ really cool services right now is specifically in the stable coin space. Um, you know, the, the,
+ the banner services are kind of native to the stripe products that we already, you would already
+ expect them to be attached to. So for example, um, we have a pay-ins product, which if you have
+ stripes, uh, OCS, a checkout suite, uh, integrated, you can offer your consumers the ability to pay
+ with stable coins across a series of different networks, um, and coins. And you can do that just
+ like any other LPM. You can go into your payment method settings. You can click a button thing,
+ bang, boom. Now you can pay with, with stable coins. So pretty large product there. Uh,
+ you know, powering, uh, most recently, uh, big announcement with Shopify, uh, rolling out two
+ millions of Shopify merchants powering from, uh, behind the scenes with shop pay. Uh, we also have
+ a payouts product, which is sort of the opposite of this. Maybe about pay-ins as a way to get global
+ consumers to be able to pay your business in, say, the U S payouts is the other way around.
+ Whole world wants access to the, to dollars, especially if you're running a digital marketplace
+ or maybe a global global gig economy. You can use the payouts product with stable coins to distribute,
+ uh, dollar peg stable coins to users anywhere around the world. Um, you also have a global
+ treasury product that is really offered more through our, our acquisition with bridge,
+ which is all about managing, uh, your global treasury and money. Uh, SpaceX is sort of the
+ example that comes up all the time here, this sort of like global operation that needs to move all
+ of their money back into dollars efficiently and easily every day. Um, that's more of like a low
+ level API integrated service. Um, and then we've also, uh, have some really interesting products
+ that we're building around money management and storage, most recently the stable coin
+ financial accounts, which is if you think about, okay, now you have pay-ins and you have pay-outs,
+ but where do you store that money? So Stripe, uh, released a general money management suite,
+ uh, at sessions. And as part of that, we're also offering stable coin storage. And what's
+ really exciting about that is it's not just storage in kind of our existing 50 or so markets,
+ it's 101 net new markets in which you can now store dollars with Stripe. And these accounts have
+ access to US and EU rails as well. So if you need to pull money and you can do it over wire,
+ ACH or SEPA. Um, and then I think maybe, maybe the one other big announcement recently was, uh,
+ stable coin backed card issuing, um, which similar to stable coin financial accounts is sort of
+ available globally and allows you to issue debit cards that are backed by stable coins. So all
+ of these, all of these pieces kind of come together pretty magically, but really what you should be
+ able to do is approach Stripe and think about all of the services we offer today through a lens of
+ what if I wanted global access and dollar access specifically through stable coins. And you should
+ be able to find that I think you already kind of scattered over this. But when you look at the
+ tools that kind of you offer on crypto rails and kind of you compare them to the tools you offer
+ on, um, on traditional finance rails, how would you compare the two? Oh, I don't like to think of
+ them as different. I, you know, they're, they're sort of at the limit, stable coins should really
+ be thought of as just another currency, right? And then, and then under the hood, like at least
+ for, from the standpoint of like a user interacting with our products, and then under the hood,
+ everything should be faster and more integrated and, and, and hopefully less expensive thanks to
+ the infrastructure. But you know, when, when my example on payons, I think is sort of my favorite
+ one for this, right? You, you shouldn't have to go to a different company, a different website,
+ a different experience, just to be able to offer payons as a type of payment, right? We think about
+ this as like a global LPM. And just like if you were a merchant and you wanted to accept, um, you
+ know, swish, uh, in, in Sweden, I believe, uh, you would just go to a payment method page and click
+ a button and the switch would flip and it would show up on the checkout screen for the appropriate
+ folks. The same thing is true for stablecoin acceptance, which is you are already processing
+ probably cards or otherwise, and you just want to expand your consumer reach. You can go to the
+ settings page, you can click the button, turn it on. That's kind of like, I think the, the, the bar,
+ right? It should just be part of the experience. And I really think this is, this is kind of the
+ opportunity stripe has maybe versus what, what's been offered historically from other organizations
+ is you shouldn't have to go integrate another product or another service. You should be able to
+ just do it within the experience you already have today. Um, you know, our users are running
+ businesses that have, uh, usually centered, not around payments, right? Not really centered around
+ some other interesting consumer V2B opportunity and creation. Um, and so I guess, I guess that's
+ like, that's the bar, you know, for, for some of these products that are, that are certainly more
+ complex where we're powering, say, a FinTech. You know, in those worlds, we are kind of back to the
+ API integration layer. Um, and I think in those worlds, that's what's most effective. You know,
+ bridge, bridge is a great example of this. If you want to really deeply integrate, you know,
+ virtual accounts and you want to deeply integrate like money movement and you have even maybe some
+ customer requirements that you want to work with the bridge team in terms of integrating, um, you
+ also have that option now, which is to come to stripe and say, you know, I want to go very close
+ to the metal, right? And I want to enable sort of very unique and powerful money movement systems
+ to build my FinTech app or otherwise. And I think, I think we're going to see that split exist for a
+ while in the stablecoin space. It should be something that's kind of easy and instant for the vast
+ majority of the world who's just trying to kind of turn these things on and make an enable on top
+ of services they already have. And then you're going to have these kind of close to the metal,
+ you know, super APIs that will allow you to go and create the FinTechs of the future.
+ And I think that's that's probably the right split, right? You sort of want a little bit of a
+ choose your own adventure here. If you're selling, you know, a shipped product through a tiktok
+ marketing campaign, right? Or, you know, if you're building a, you know, a Robinhood or something
+ like that. Yeah, maybe a revolution. Yeah, that makes that makes a lot of sense for the merchants
+ themselves. So there's I would argue that there's a very small set of customers who were unavailable
+ to them previously, right? Kind of like there's very few people who say I will pay in Stables and
+ Stables only. So does the experience kind of become better for the merchants if you pay them in Stables?
+ Because in principle, kind of like you could make this faster and cheaper. So kind of like one of the
+ one of the main pain points for merchants and kind of like accepting card payments is often
+ that kind of like they actually set a weeks later, right? So kind of like and in principle,
+ kind of like on crypto raids, you can make it almost instant. So kind of like what's the upside for
+ the merchant? Yeah, so I do actually think there's a pretty large port, just to challenge the very
+ first statement. I do actually think there's a large and growing group of consumers who would
+ prefer to pay with Stablecoins, especially in geographic regions that were previously unreachable,
+ you know, by the card networks. Especially as we see kind of a growth of digital services,
+ you know, one of our like large users of pay-ins and pay-outs is sort of a digital
+ trading organization. And that's success all over the world, you know, from Africa to Asia
+ to to the US. And in that environment, you're actually doing like net new consumer reach. So I
+ do actually think there's a pretty strong angle there. But outside of that, there's sort of two
+ other categories, right? One is, you know, merchants are looking for, to your point, you know, a faster
+ ability to settle kind of inbound. And they're also looking for, you know, especially US merchants
+ are looking for sort of like local currency, right? Payment rails. So how do I process everything in
+ in dollars globally, right? Without necessarily having to deal with, say, the FX coming from these
+ regions that I'm otherwise transacting with. But I think the settlement side is actually a good one
+ to dig into just in general from a business operations standpoint. And the amount of time
+ that you have to wait for an average credit card settlement can be, you know, days, the amount of
+ time you have to wait for cross-border payments, you know, it can be days to weeks depending on the
+ networks that are in between, you know, with a stablecoin payment, you should be able to operate
+ and you can operate, you know, near instantly. And, you know, maybe in the worst case, a couple of hours.
+ And I think like that capability has business operations benefits, whereas sort of like the
+ consumer reach just has sort of like business, you know, revenue reach benefits. And I think just
+ like any, any good disruptive technology, right, you can put a bunch of different lenses on this
+ thing and say, okay, what are these specific reasons that this is going to work better for
+ my organization? And I think if you take like a digital marketplace, that reach might be the
+ thing that's most interesting. Or if you take a small, you know, startup that's maybe a little
+ bit cash strapped, right, the settlement time might become more important. You know, and then if you
+ take, take other types of organizations kind of in the middle, there's actually a simplicity layer,
+ which is like, can I just turn on this like one new capability and still run my business in dollars
+ without having to think about all the different LPMs. So I think there's like three or four different
+ lenses you can put on it. And they all sort of just add up to the process product being better.
+ I think again, like I come back to this point a lot. A lot of this is just sort of happening,
+ like the number of businesses and consumers transacting in stablecoins is growing anyway,
+ and providing that capability is something that just like if there was another credit card
+ network that was growing really quickly, we'd have merchants knocking down our doors saying,
+ you know, why don't you support this new network? It's very similar. You know, what is what is the
+ volume? It's like seven, seven point three trillion, I think is like the yearly adjusted
+ transaction volume. And if you actually take the like, unadjusted volume, I think I've
+ written down here, it's like 34 trillion dollars, which exceeds like the combined value of the two
+ credit card networks in terms of transacted volume. So this, this, this trend is occurring
+ anyway. And like merchants will always want to reach into, you know, whatever financial capabilities
+ their consumers or their buyers are adopting. And I think sometimes it's almost hard for us to
+ even know the exact reasons, right? Like there is, there's certainly the crypto natives, right,
+ that have kind of ended up in stablecoins after years of trading other types of volatile assets.
+ But there's also just this like rapid global growth of dollar access demand that we're seeing,
+ especially across like Latin America, where this is the currency that they hold that's most
+ transactable. And then you get this benefit on the other side of like settlement and business
+ operations and money movement and treasury management. We've talked about dollars a lot
+ now. And kind of like when it comes down, I mean, it is the globally dominant currency. But
+ kind of there's 400 million Americans and there's 8 billion non US residents. What are your thoughts
+ on non US dollar staples? So today, the stablecoin market, I think it's like 99.9. I don't know if
+ there's a second, fourth nine there, you know, in dollars. And, you know, I think, I think
+ being a practical actor, that that means great. So, so we can almost look at the stablecoin market
+ today and say, okay, it's dollars. And then it's various sort of versions of dollars, right? It's
+ like if you if you look across say, you know, a circle versus like a tether, you know, versus some
+ of the other stablecoins that are coming onto the market, you know, what actually backs it and
+ pegs it to the dollar is a little bit of variance. You know, are you getting yield back when you're
+ holding them or otherwise? In terms of like the the growth of non dollar stablecoins,
+ I think it's pretty exciting. Like, I think I think it would be embraced in general. If you
+ think about, you know, the complexities, we haven't talked at all, by the way, about like on and off
+ ramping into these things, which is its own like huge challenge, right? But like, like really,
+ if you look at that, there's there's two lenses to look at it, right? One is to say, okay, how do we
+ on ramp from the local currency into the dollar, right? Which is really, we're just right back to
+ the FX problem, right? There's some some like centralized actor there somewhere like defining
+ the FX, you know, as you come in, you know, maybe it's a crypto exchange, so it's more efficient.
+ You know, but in the future, I do expect that there will be significantly more local stablecoins
+ that are issued locally and have kind of that connectivity back into the traditional finance
+ world through like the bank that's backing the issuing. And then the actual effects can happen
+ on chain, right? So you like on ramp into, say, the digital euro, and then you transact from the
+ digital euro into the dollar in an on-chain FX environment that's potentially more, hopefully,
+ the limit significantly more, you know, efficient than you'd otherwise have. I think taken to the
+ limit, that gets pretty exciting, right? If we actually have all of these different coins,
+ you know, mimicking their local currencies globally, then you get a really interesting
+ effect of sort of broad-scale global decentralized FX, which, again, should be significantly more
+ efficient for getting into those local currencies, which people still rely on. You know, it's a bit
+ naive to say, okay, great, you know, your organization, you know, in Brazil, like only needs dollars,
+ you know, you maybe were primarily transacting, perhaps they want to store there, but the reality
+ is at the end of the day, they need to get back into local currency, probably to pay their local
+ employees, to pay their rent, if nothing else. And so I think that, like, space is getting pretty
+ exciting. And I'm personally really excited about the idea of a pretty large-scale decentralized FX
+ market, just because I think it'll do what stablecoins have otherwise done, which will be increased
+ access directly to the market, as opposed to having to go through, you know, layers and layers of
+ middlemen. I used to tell the story of, at Stripe, all the meeting rooms have like the meetings that
+ are happening, you know, printed on the digital screen outside of them, and where the crypto team
+ used to be based in our old office. There was one room next to us, and every morning, it had this
+ really scary meeting title that was like, there's like daily FX global risk stand-up. It's just like,
+ like, very scary title happened every morning at like 9 a.m. And I used to try and, you know,
+ sit close to that room just to hear what was happening. But I think, you know, these markets
+ aren't always running 24 hours a day. They have difficulty in liquidity. Stripe is having to make
+ these decisions about where are we holding our money to make sure that we can settle to the local
+ merchants at some rate that's faster than it would take to go through the banking networks to get
+ there. In a world of local stablecoins, those problems really fade away. And treasury management,
+ you know, selfishly for us, but preferably for all businesses just becomes easier, right? It's a,
+ it's the same thing that has happened across, this is a strange analogy. But, you know, every other
+ part of, of, of Internet commerce, you know, hotel tonight, right? We don't, we don't book our
+ hotels days in advance. I would expect the same thing to happen in, in finance. We shouldn't have
+ to think about how much money we need in a specific currency days in advance. We should be able to
+ say, great, there's a local stablecoin there. We can transact in a decentralized nature instantly
+ to get there. And then if we really need to off ramp into the local currency, there's a local
+ financial institution that's backing that currency that makes off ramps simple. So I think that that
+ space will be a huge tailwind to the wider stablecoin ecosystem. And I think I imagine where we are
+ today, where it's all dollars is kind of analogous to the early Internet. Okay, for a while, a lot of
+ this was coming out of the US and almost all of it was English. And now we have a very much more
+ interesting and diverse Internet. I think it's the same thing. Walk us through the experience that
+ kind of a match and today has kind of when they accept staples, right? So kind of say, I'm a
+ TikTok influencer and I sell something on kind of like a custom website. And I have a stripe
+ integration and accept staples. So kind of you, you accept US dollar staples on my behalf and then
+ kind of like, how, how do I actually then get them? Do I have the option to kind of just get the,
+ get the stables from you? Because in principle, you could kind of just send them on to kind of
+ like a wallet of my choosing, right? Or kind of like, do I need to have them off ramped into
+ a traditional bank account? So today, when you stablecoin acceptance is available primarily to
+ US merchants today, expanding very soon. And all stables that are paid into a striped checkout
+ experience settle to Fiat. So our merchants today are accustomed to storing in Fiat. And so they,
+ the easiest way to make this appear like any other LPM that their local payment method that
+ they're accustomed to accepting is to settle into dollars. Now what's kind of cool is in the most
+ recent integration with Shopify, powering shop pay, those merchants for the first time actually
+ have a choice. They can settle into, into USDC directly, I believe on base. Or they can choose
+ to settle into Fiat. And so that is the direction this is going. So today, primarily settlement down
+ to Fiat, just to map the kind of user experience that the merchants are accustomed to and to like
+ lower the friction of number of things you have to learn when you're coming on board.
+ As a merchant who's accepting stablecoins, but as we think about this more globally,
+ that stops making sense, right? Like especially in countries where the merchants would primarily
+ prefer to store and say dollars, but can't today, they have to settle to their local currency.
+ Like the natural capability, and you can, you can squint a little bit and imagine our roadmap
+ when you think about like stablecoin financial accounts that are rolling out, this is the capability
+ that should be there, right? You should also be able to store down into stablecoins. So today,
+ stores down to Fiat, Shopify merchants, the choice of either, future choice of either for anyone.
+ And what about expanding these stable integrations for other jurisdictions outside of the US? Because
+ I imagine, I mean, I understand that kind of the pain points for merchants in the US, particularly
+ big because kind of the fees on credit cards are often higher than in some other jurisdictions.
+ So for instance, I think in Europe, they are pretty tightly regulated. But I imagine that
+ lots of merchants worldwide would love to accept some sort of stable. What's the blocker for you
+ guys? I mean, in principle, it seems like you have this feature. Why can't you roll it out?
+ Right, right. So to be clear, the most recent, the Shopify integration, which is available to
+ those merchants, that is actually globally available. So that's available. And I believe it's like 40
+ or 50 countries. So we're already doing it. This is sort of the like, the nice way to answer it.
+ The complicated answer to your question is, you know, it's just integration and rollout timing.
+ So availability of these products, you know, per country, per like local financial rail,
+ especially where we want to support direct settlement to those local currencies is just just product
+ build time. So it has nothing to do with with us not wanting to have it there. And I think Shopify
+ was the first real big step towards being able to support that with the PANS integration. But you
+ should expect global availability of this product in the very near future versus it being something
+ specific to stripe that we would we would ever choose not to. In fact, in fact, actually, the
+ stablecoin financial accounts are a really great example of where this is almost happening in sort
+ of an unusual way, right? It was actually the fastest method for us to go and release this
+ product was to release it and all the country stripes not in yet. It's actually a little bit
+ easier to go and say, okay, let's let's go, you know, it took us 15 years to get from like one
+ to 50 countries. But it took us 15 months to get from 50 to 151. So I think like, like that's the
+ kind of disruption that we just like everyone are sort of learning how to wield is exactly like
+ what order of operations should we roll things out to which countries. But but yes, stablecoin
+ PANS, we expect to be available to all stripe supported countries, plus these 101 countries
+ that we've rolled a stablecoin financial accounts out to in the very near future.
+ Jori said that kind of on and off rams are clearly a huge pain point for the ecosystem,
+ right? Kind of like, and if you zoom way out and you kind of think about kind of
+ blockchain infrastructure as the next evolution in kind of how financial rates will work,
+ kind of building good on and off ramping experiences is absolutely crucial, right? Because kind of
+ like quite frankly, legacy finance financial products is where all of the values and kind of,
+ yes, we have super cool protocols and so on in in web three, but kind of like, a lot of the problem
+ is how do you actually get the value across, right? So talk us through how you see that
+ problem set today and how you see it evolve. Yeah, look, we are clearly in the dial up era
+ of like on and off ramps globally, depending on the country that you're in, let's just take,
+ let's even take the US as an example, even even in the US, it's reasonably difficult for your
+ average consumer who has never held any sort of stablecoin or crypto asset to get on chain the first
+ time. You know, as we provide an on ramp that I think lowers this barrier pretty significantly,
+ but even there, you know, you're sort of going through a KYC flow, you're providing a credit card,
+ the networks aren't always huge fans of on ramping into crypto. So maybe you're actually providing
+ a debit card, you know, or you're connecting your bank, you're sort of making this movement happen,
+ you're learning the network as you go. It's one of the biggest gaps that's out there.
+ I actually think that a lot of folks globally won't really have to on ramp in that way in the future.
+ I expect that they will start to gain access to stablecoins more through some other type of payout,
+ right? Just like the way that we get money today, I would expect employers to start offering payments
+ in stablecoins and that to be the method by which, for example, an average employee in Laddam
+ like receives access to their first stablecoin. You know, when we look at like the payons and
+ payouts, marketplaces that are operating on Stripe, right? These are basically giant systems of
+ distribution for stablecoins globally. I just don't, I don't think the world we're in today is really
+ a sustainable one. And I wonder often how long will be in the hybrid space? You know, I'd like to,
+ it's always easier to think to the future and say, oh, great, when we're all just on what we are
+ today, which is, you know, basically is Wi-Fi everywhere and we get to take the internet for
+ granted. Like, when do we stop having to have a phone number that we have to call for dial-up?
+ Unfortunately, I don't think we're going to be there tomorrow. And I do think that
+ it's going to be primarily powered, you know, in the extreme short term, you know, by
+ some of these really interesting organizations that are growing that are kind of consolidating
+ the on and off ramps, especially in most difficult countries. So, yellow card is a really interesting
+ example here, right? That is it's run by Chris Maurice and he is, he's creating these on and off
+ ramp with all of the local financial institutions all across Africa, which would otherwise be very
+ difficult, right? Very difficult for a company to go show up over there and make each one of
+ these integrations and relationships such that they can start to on and off ramp. That will then
+ provide a lot of the liquidity access in and out to the businesses that will then be making the
+ payouts or otherwise to consumers or other merchants. So, I think it's a little bit of a roundabout
+ way of thinking about it, right? It's not that like the average on ramp is just going to get better.
+ It's that you probably won't need an on ramp in the future. It's probably more likely that you'll
+ simply have stablecoins as an option in another way that you would be acquiring money. At the limit,
+ your bank is hopefully just providing it as an option as a payout as well. But probably in the
+ short term, it's much more likely to be coming from, say, your merchant account at Stripe.
+ So, if you're taking payments in, we've been talking a lot about stablecoin payments
+ that come in and settle as dollars. Well, the other way around is just as interesting
+ as you're taking payments and in local currencies, but you're settling them instead to stablecoins.
+ Those types of capabilities, I think, will actually drive consumer holding and adoption
+ far faster than kind of these windows apps that we have today for on and off ramping,
+ especially with the consumer layer. And we're seeing this happen really fast at major financial
+ institutions, right? I think the bidle fund is a good example of a non-stablecoin, but rapidly
+ growing on-chain asset that will just be much more native in terms of how it will pay out or pay in
+ from stablecoins. I think things like that will just propagate these coins across the commercial
+ world, and then that will then propagate to the consumer space. I hope that answers. It's a little
+ bit of a roundabout way of saying kind of what it is. I think it'll be a different method by
+ which people get access to these things versus an improvement on the existing system.
+ Yeah. I mean, you're completely right in that if there's more net inflows than outflows,
+ then the entire stablecoin space will become less reliant on future inflows. I think there's still a
+ very wide spectrum of on-ramping experiences, right? If you kind of look at the very,
+ I mean, yeah, kind of like you can on-ramp with a credit card typically that's very expensive,
+ kind of like often kind of like people go via centralized exchanges, so kind of they do KYC
+ with the centralized exchange. They kind of send fear to the centralized exchanges,
+ bank account, and then they kind of off-ramp into the decentralized space on the other side.
+ Clearly, that's a terrible experience, but kind of we've seen kind of the rise of
+ these on-ramping tools. So, for instance, in Europe, we have Monareum, which kind of lets you
+ identify your wallet with an i-band. You kind of send euros to that i-band and within 20 seconds.
+ It's magic. It shows up in your wallet. Obviously, and at zero fees, because it's priced into their
+ business model, because they get custody of your euros, so kind of obviously there's some sort of
+ yield play here. We see the same thing in principle with picks integrations in Brazil,
+ or even in the US, their players know are now, which kind of offer this kind of
+ this kind of service. What are your thoughts on these?
+ So, if you look at like bridge and virtual accounts and like stablecoin financial accounts,
+ very similar, right? Like access to these integrations between the traditional and crypto
+ financial rails. So, with like a stablecoin financial account, you get an i-band as well.
+ You get an ACH, a routing number, right, and an account number that you can move ACH or wire into.
+ I think that it's a really important step towards integrating, especially on the commercial side,
+ how businesses move this money in and out. And I think it's a core principle to the idea that
+ I'm just trying to access what the stablecoin represents. I think we kind of come back to this
+ idea of like, what is the conviction? Is the conviction to hold a stablecoin or is the conviction
+ to hold a dollar? And if the conviction is to hold a dollar, then you're going to expect dollar-like
+ rails, or if the conviction is to store euro, the expectations of euro rails. And then what's
+ actually backing the thing that you're holding is almost irrelevant, right? So, this is, I think,
+ what these kinds of on and off ramps are encouraging is this idea that you can make the stablecoin
+ act from a rails standpoint, just like the fiat currency that you're otherwise accustomed to.
+ And over time, we expect this to become more invisible, right? You won't really be talking
+ about how, oh, I can use ACH to on ramp into a stablecoin. You'll just be saying, I can use ACH
+ again to dollars. But then the organization that's doing that is maybe using a bridge virtual account
+ on the back end. And what they're actually doing, right, is they're storing USDV, you know, or maybe
+ a custom stablecoin that they've minted, right? But to the user, it can just feel like dollars.
+ And so I think that that's maybe like the next evolution in the on ramp from sort of the classic
+ consumer. Let's go use a credit card in this very explicit, I am on ramping experience. Over to,
+ I'm accessing a currency type I wish I had. And I'm utilizing the rails that I'm otherwise accustomed
+ to. I think if you take it one step farther, we'd hope that those rails kind of disappear.
+ I don't, I don't, I don't, I don't, in Europe, you all have much better like systems for sort
+ of I bands and rapid movement. But like the ACH network is not, is not like positively thought of
+ in the US is like a wonderful way to move money around. You know, we think much more in apps here,
+ you know, we think about, you know, what's, you know, you have Venmo, you know, do you have PayPal,
+ like for especially for consumer to consumer experience. So I think a lot more of those products
+ will be powered by stablecoin backing. And they'll have the access to that rail for on ramping and
+ off ramping, but it'll all happen very much behind the scenes. You made two very big strategic
+ acquisitions this year, namely Bridge and Privy. Talk us through kind of like what both of them do
+ and how they complement what stripes, stripe already had before. Right. So very excited, by the way,
+ about about both of these. I can't comment very deeply on on the Privy front. That's that's sort
+ of an in progress acquisition. But on on bridge. Listen, first of all, the bridge team is just
+ incredible. Like fantastic group of executors who have been working in the stablecoin space
+ exclusively. And you think about kind of first mover and second mover advantages like bridge came
+ in and started to build with a very clean philosophy towards we are going to go and engage and make
+ stablecoins as magical as stripe was able to do for sort of the traditional finance world. I'm not
+ 100% sure. I think at one point, even on their website, I think they described themselves as the
+ stripe of stablecoins. But listen, they what what what what what Bridge really does is they've really
+ optimized this API experience to access all of the underlying power of stablecoins. And they've done
+ this with these virtual accounts, which power things like what you were describing in terms of
+ being able to move in and out of traditional finance rails into stablecoins for organizations.
+ They've really created wonderful orchestration systems for being able to command movement of
+ these stablecoins. They've optimized a pretty pretty exciting set of on and off ramps that
+ you and I were talking about a little bit, but they've made them all abstracted away. So if
+ you're trying to get out into a local network, maybe you're using like, you know, one of these
+ crypto exchanges or partners in the back end, but you don't have to know that, you're just running
+ a command to pull the money out into a local account. And I think they're just iterating
+ really successfully in that space and executing with some of the most interesting organizations
+ in the world. I love the SpaceX example. I think it's just like it's one of these unique
+ capable like examples of treasury management that it would just would look like a phone book of,
+ you know, processes and money movement and decision making to do in the traditional finance world.
+ But with Bridge, it's just an API call. And so I think Bridge has really just been
+ on that forefront. And for Stripe, being able to leverage an internal infrastructure partner
+ is just step function impact for the organization. I think, you know, if you look historically,
+ we mostly used external partners for stablecoin access, liquidity management orchestration.
+ And so it was very natural, I think, to find, you know, who believe is the best in the industry
+ to bring in to our organization. And certainly for my team, who's operating, you know, primarily
+ on the product build side, you know, it's just was was like hitting hitting the easy button across
+ the ability to go and make these products happen now with an in-house partner. And so I think,
+ I think most natural and obvious acquisition out there for us. And obviously very exciting,
+ I think, for the crypto world to see Stripe leaning in that deeply, but also just the validation,
+ I think, of that space in general. Privy, again, I can't go super deep into Privy.
+ I think Privy is doing some really amazing things with just general decentralized wallet
+ access and non-custodial wallets. And there's a lot of interesting opportunity there.
+ But I'll leave it at that. I think there's a lot of future news to come out on that front.
+ Yeah. I have rather philosophical question to kind of end on kind of when the web
+ three movement kind of started. It was very much in the vein that kind of like these will be kind of
+ better. It will be peer to peer kind of money. It will make kind of big financial players
+ redundant, kind of like people will kind of be able to kind of do things
+ on their own by themselves. And now kind of to some degree, to a large degree, it's kind of
+ morphed into kind of just giving more efficient and resilient tools to the mountain, right? So
+ kind of like large financial institutions kind of now use these rates to kind of kind of reap
+ efficiency gains. How do you see that kind of in the larger picture kind of like coming
+ somewhat from the other side? Yeah. I don't think I'm coming from the other side, first of all.
+ But I think I've gone back and reread the Bitcoin white paper a couple of times. I think it's easy
+ to put different lenses on that statement, right? But what we're really trying to build is some
+ sort of a peer to peer system of cash transfer, right? That's open and accessible to anyone
+ and does not require an authority in the middle for it to exist, right? And just a very simple kind
+ of set of capabilities. And I think any system that's developed that permits you to have
+ infinite, you know, optionality, right, will certainly spawn versions of itself that do have,
+ you know, centralized actors. And those will be adopted, I think, where they're most
+ beneficial to the to the users. And so like my example a minute ago, I think is a good one. I
+ think while kind of the barter system of like, I have cash in my back pocket and I've walked into
+ the town square, has great optionality of the types of things I could maybe trade for and the
+ types of engagements, you know, that maybe I wouldn't traditionally have access to. Like,
+ I also just want to go to Amazon and like buy, you know, paperclips or, or, or, or, you know, a
+ light bulb or something that I need. And in those experiences and in those transactions,
+ I think there's a lot of, there's a lot of like, just expectation from consumers today
+ about the types of protections and, and sort of management of the payment. And they don't really
+ need to know what's happening under the hood and they don't really need to hold the dollar in their
+ hand. So I just, I don't, I've never felt like these two things are particularly deeply at odds
+ with each other. I think that like one is simply an iteration or a branch of the other. And I guess
+ you could argue that in the traditional space, maybe we've started to lose the first a little bit.
+ Because the history of money is also pretty decently decentralized and open, right? As we all,
+ we all sort of have dollars in our back pocket and where we're going and purchasing things from,
+ you know, our neighbors or other other people who are, who are selling something and weren't
+ making a value transaction. And this really wasn't too much of a middleman and they're
+ except backing, right, the value of the dollar itself. And I think the reason a lot of that has
+ sort of has shifted has been to do with like scale and like trust and kind of expectations
+ of additional services that are built on top of it that maybe aren't available.
+ But I think, I think we'll just blockchain and stablecoins, they'll push us steps towards the
+ advantages of like peer to peer networks, hopefully without also absorbing like the downsides.
+ And this is this is what I was getting out a minute ago, which is like a lot of these
+ kind of consumer trust assurances can likely be built on chain. I was at a conference pretty
+ recently, I think, I think salon accelerate. And someone was asking me, you know, what, what, you
+ know, what other startups ought to exist, you know, what should people be building? And very much,
+ you know, the statement here is with like a disruptive technology like crypto, like all of this stuff
+ gets to be rebuilt, like who gets to define what it is to do, often capture who gets to define what
+ it is to do a refund, you know, who gets to define what it is to make a real estate transaction,
+ like there are just endless iterations of commercial actions that you might, you know,
+ describe today as primarily centralized, right, like buying a house is a great example. I'm not
+ sure what it's like in Germany, but in the US buying a house, right? This is very like centralized
+ process. And I think having the capability to do it entirely in a non centralized way actually
+ probably lands us where most people get somewhere closer to the center, where we lose a lot of the
+ downsides of like an extremely centralized system, but we don't maybe absorb 100% of the risk of an
+ entirely decentralized system. So I think both sides of the barbell are necessary to kind of get to
+ the future world that we want. And I guess, I guess that's sort of my answer to that. I think
+ there's a I don't I don't think stripe or most actors are really philosophically opposed to either
+ side. I think what we're looking for is, you know, what are the best capabilities of this
+ technology? And how do we expose it to the people who are trying to run their businesses and make
+ their purchases every day? Famous last words. Thank you so much, John, for coming on. It's been a
+ a pleasure. For sure. Thanks for having me.

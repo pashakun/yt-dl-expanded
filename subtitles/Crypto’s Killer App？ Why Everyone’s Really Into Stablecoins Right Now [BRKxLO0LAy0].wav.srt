@@ -1,0 +1,7512 @@
+1
+00:00:00,000 --> 00:00:02,280
+ These are networks and networks have network effects,
+
+2
+00:00:02,280 --> 00:00:03,280
+ meaning they get more valuable
+
+3
+00:00:03,280 --> 00:00:04,920
+ the more nodes on the network.
+
+4
+00:00:04,920 --> 00:00:06,720
+ And we're in a situation here with stablecoins
+
+5
+00:00:06,720 --> 00:00:10,360
+ where 99% of the nodes that matter are highly regulated.
+
+6
+00:00:10,360 --> 00:00:11,560
+ I mean, it's kind of remarkable
+
+7
+00:00:11,560 --> 00:00:14,000
+ that we have trillions of dollars in monthly volume
+
+8
+00:00:14,000 --> 00:00:16,200
+ where 99% of the participants of the network
+
+9
+00:00:16,200 --> 00:00:18,320
+ feel like they can't join the network right now.
+
+10
+00:00:18,320 --> 00:00:20,680
+ So the big unlock is one actual rules
+
+11
+00:00:20,680 --> 00:00:22,440
+ that protect you from an FTX.
+
+12
+00:00:22,440 --> 00:00:25,320
+ And then number two is now you've suddenly unlocked
+
+13
+00:00:25,320 --> 00:00:29,680
+ this 99% of the world to join this network, right?
+
+14
+00:00:29,680 --> 00:00:31,840
+ Here, the benefit is just so obvious
+
+15
+00:00:31,840 --> 00:00:33,800
+ that I think it's gonna be clearly dominant.
+
+16
+00:00:33,800 --> 00:00:36,380
+ (upbeat music)
+
+17
+00:00:36,380 --> 00:00:46,280
+ - Welcome to Web3 with A16Z, I'm Robert Hackett.
+
+18
+00:00:46,280 --> 00:00:49,280
+ Today we're taking a deep look at why stablecoins have emerged
+
+19
+00:00:49,280 --> 00:00:52,800
+ as one of the most promising applications in crypto today
+
+20
+00:00:52,800 --> 00:00:54,480
+ and how they could reshape everything
+
+21
+00:00:54,480 --> 00:00:57,680
+ from international remittances to point of sale payments.
+
+22
+00:00:57,680 --> 00:01:00,040
+ I'm joined by Chris Dixon, founder and managing partner
+
+23
+00:01:00,040 --> 00:01:02,480
+ of A16Z Crypto, an author of the New York Times
+
+24
+00:01:02,480 --> 00:01:05,360
+ best-selling book, Read, Write Own, and Sam Bronner,
+
+25
+00:01:05,360 --> 00:01:07,200
+ a deal partner at A16Z Crypto
+
+26
+00:01:07,200 --> 00:01:09,520
+ who focuses on stablecoins.
+
+27
+00:01:09,520 --> 00:01:11,200
+ Together, we unpack the technical
+
+28
+00:01:11,200 --> 00:01:13,600
+ and regulatory foundations of stablecoins,
+
+29
+00:01:13,600 --> 00:01:16,200
+ we explore the cracks in the current payment system,
+
+30
+00:01:16,200 --> 00:01:18,720
+ and we look ahead to what becomes possible
+
+31
+00:01:18,720 --> 00:01:21,720
+ once digital dollars go mainstream.
+
+32
+00:01:21,720 --> 00:01:23,480
+ We also dig into why the future of money
+
+33
+00:01:23,480 --> 00:01:25,360
+ might end up looking a lot more like email
+
+34
+00:01:25,360 --> 00:01:27,600
+ or the web than a bank.
+
+35
+00:01:27,600 --> 00:01:29,840
+ As a reminder, none of the content should be taken
+
+36
+00:01:29,840 --> 00:01:33,200
+ as tax, business, legal, or investment advice.
+
+37
+00:01:33,200 --> 00:01:36,040
+ Please see A16Z.com/disclosures
+
+38
+00:01:36,040 --> 00:01:37,640
+ for more important information,
+
+39
+00:01:37,640 --> 00:01:40,600
+ including a link to a list of our investments.
+
+40
+00:01:40,600 --> 00:01:47,560
+ - The internet has done a terrific job
+
+41
+00:01:47,560 --> 00:01:50,320
+ in some respects removing intermediaries.
+
+42
+00:01:50,320 --> 00:01:52,640
+ You could look at the way that the web
+
+43
+00:01:52,640 --> 00:01:54,840
+ has challenged legacy media,
+
+44
+00:01:54,840 --> 00:01:56,800
+ how the internet and connectivity
+
+45
+00:01:56,800 --> 00:01:58,960
+ has kind of supercharged open source code,
+
+46
+00:01:58,960 --> 00:02:01,560
+ getting around proprietary software.
+
+47
+00:02:01,560 --> 00:02:04,840
+ What has taken so long for the internet
+
+48
+00:02:04,840 --> 00:02:07,520
+ to challenge payments and finance?
+
+49
+00:02:07,520 --> 00:02:10,360
+ And why is it stablecoins that have emerged
+
+50
+00:02:10,360 --> 00:02:13,560
+ as a potentially compelling solution to this?
+
+51
+00:02:13,560 --> 00:02:15,400
+ - The first and biggest answer
+
+52
+00:02:15,400 --> 00:02:17,800
+ is that you need a global system of account.
+
+53
+00:02:17,800 --> 00:02:20,440
+ You need a way for you to track where all this money is
+
+54
+00:02:20,440 --> 00:02:23,000
+ until we have blockchains where we have credible,
+
+55
+00:02:23,000 --> 00:02:27,080
+ trustless, global access to one ledger.
+
+56
+00:02:27,080 --> 00:02:29,360
+ You're always gonna be giving your trust
+
+57
+00:02:29,360 --> 00:02:30,360
+ to someone like Visa.
+
+58
+00:02:30,360 --> 00:02:32,040
+ And so that system like did work,
+
+59
+00:02:32,040 --> 00:02:34,440
+ but we had to rely on Visa in order to make it happen.
+
+60
+00:02:34,440 --> 00:02:35,800
+ And then of course they got extracted.
+
+61
+00:02:35,800 --> 00:02:36,960
+ That's what an extractive network is.
+
+62
+00:02:36,960 --> 00:02:39,120
+ That's sort of a large part of the read-write on thesis.
+
+63
+00:02:39,120 --> 00:02:41,080
+ What we see now is we have this capability,
+
+64
+00:02:41,080 --> 00:02:42,280
+ but we still have a lot of problems
+
+65
+00:02:42,280 --> 00:02:46,000
+ because the payments infrastructure was embedded
+
+66
+00:02:46,000 --> 00:02:50,200
+ since 1970 and it had a long time to get pretty good.
+
+67
+00:02:50,200 --> 00:02:52,720
+ So we need blockchains to get even better
+
+68
+00:02:52,720 --> 00:02:54,080
+ and until about 18 months ago,
+
+69
+00:02:54,080 --> 00:02:57,320
+ when L2s could process payment transactions
+
+70
+00:02:57,320 --> 00:02:59,520
+ in less than one second and less than one cent,
+
+71
+00:02:59,520 --> 00:03:01,840
+ until that happened crypto payments
+
+72
+00:03:01,840 --> 00:03:03,880
+ just weren't as good as legacy payment rails.
+
+73
+00:03:03,880 --> 00:03:06,080
+ But now they are and people are beginning to build
+
+74
+00:03:06,080 --> 00:03:08,160
+ the connective tissue that'll actually allow it to compete
+
+75
+00:03:08,160 --> 00:03:09,960
+ and be wherever users are today.
+
+76
+00:03:09,960 --> 00:03:11,320
+ And so that's sort of the next phase
+
+77
+00:03:11,320 --> 00:03:14,120
+ is how do we get to table stakes payments functionality
+
+78
+00:03:14,120 --> 00:03:17,920
+ and sort of default on integration with the distribution,
+
+79
+00:03:17,920 --> 00:03:19,360
+ with where people are today?
+
+80
+00:03:19,360 --> 00:03:20,600
+ And so we're seeing that happen.
+
+81
+00:03:20,600 --> 00:03:24,240
+ We're seeing people who wanna save money in U.S. dollars
+
+82
+00:03:24,240 --> 00:03:25,600
+ in the global South,
+
+83
+00:03:25,600 --> 00:03:27,800
+ people who wanna do international transfers
+
+84
+00:03:27,800 --> 00:03:29,600
+ from countries that aren't well connected.
+
+85
+00:03:29,600 --> 00:03:30,800
+ They're beginning to say,
+
+86
+00:03:30,800 --> 00:03:32,480
+ hey, this is some hurdles still here.
+
+87
+00:03:32,480 --> 00:03:34,160
+ The technology isn't perfect yet,
+
+88
+00:03:34,160 --> 00:03:37,040
+ but already stable coins are beginning to meet my needs.
+
+89
+00:03:37,040 --> 00:03:39,080
+ And then we're gonna expand the market
+
+90
+00:03:39,080 --> 00:03:41,320
+ by building integration into apps people already use.
+
+91
+00:03:41,320 --> 00:03:43,800
+ So my new bank app, my Venmo,
+
+92
+00:03:43,800 --> 00:03:46,160
+ my card processor in a restaurant,
+
+93
+00:03:46,160 --> 00:03:47,920
+ as we begin to light up those interfaces
+
+94
+00:03:47,920 --> 00:03:49,800
+ and even larger segment of the market
+
+95
+00:03:49,800 --> 00:03:51,080
+ is gonna come online.
+
+96
+00:03:51,080 --> 00:03:55,120
+ But it all had to start with cost and speed competitiveness,
+
+97
+00:03:55,120 --> 00:03:56,560
+ which is about 18 months old.
+
+98
+00:03:56,560 --> 00:03:58,480
+ And so now we get this exciting
+
+99
+00:03:58,480 --> 00:04:00,920
+ Cambridge explosion of opportunities as people take advantage
+
+100
+00:04:00,920 --> 00:04:02,120
+ of that new capability.
+
+101
+00:04:02,120 --> 00:04:03,440
+ - So let me just reframe it.
+
+102
+00:04:03,440 --> 00:04:06,080
+ So the promise of stable coins, right?
+
+103
+00:04:06,080 --> 00:04:06,920
+ What are stable coins?
+
+104
+00:04:06,920 --> 00:04:09,160
+ They are blockchain-based systems
+
+105
+00:04:09,160 --> 00:04:12,720
+ where you layer on dollars and other kind of quote-unquote
+
+106
+00:04:12,720 --> 00:04:15,280
+ fiat money on top of these systems.
+
+107
+00:04:15,280 --> 00:04:16,480
+ The simple way I've been explaining
+
+108
+00:04:16,480 --> 00:04:19,040
+ like when I talked to non-tech folks,
+
+109
+00:04:19,040 --> 00:04:20,680
+ for example, the policymakers,
+
+110
+00:04:20,680 --> 00:04:23,720
+ the simple way I explain blockchains is
+
+111
+00:04:23,720 --> 00:04:25,000
+ they're technologies that allow you
+
+112
+00:04:25,000 --> 00:04:28,240
+ to build digital services that don't have intermediaries.
+
+113
+00:04:28,240 --> 00:04:29,680
+ That's a little bit simplified,
+
+114
+00:04:29,680 --> 00:04:30,720
+ but it directionally,
+
+115
+00:04:30,720 --> 00:04:32,440
+ I think a very useful way to think of it.
+
+116
+00:04:32,440 --> 00:04:34,400
+ So that what that means is you can,
+
+117
+00:04:34,400 --> 00:04:36,760
+ if you do it right, build services
+
+118
+00:04:36,760 --> 00:04:40,360
+ that function very similarly to how our payment system works,
+
+119
+00:04:40,360 --> 00:04:41,920
+ but you don't have these companies
+
+120
+00:04:41,920 --> 00:04:44,480
+ like Visa and payment processors and so forth.
+
+121
+00:04:44,480 --> 00:04:46,360
+ In the middle, why is that important?
+
+122
+00:04:46,360 --> 00:04:48,200
+ Because by putting it in the middle,
+
+123
+00:04:48,200 --> 00:04:51,200
+ you're giving them power and that power lets them take money
+
+124
+00:04:51,200 --> 00:04:54,200
+ and also lets them kind of wield control.
+
+125
+00:04:54,200 --> 00:04:56,040
+ So sort of two dimensions, there's financial
+
+126
+00:04:56,040 --> 00:04:58,440
+ and then kind of governance control.
+
+127
+00:04:58,440 --> 00:05:00,520
+ The financial one, I think, is the easiest to focus on
+
+128
+00:05:00,520 --> 00:05:03,440
+ because it's so visible and you can clearly improve that.
+
+129
+00:05:03,440 --> 00:05:05,600
+ And it's significant, I mean, two and a half percent.
+
+130
+00:05:05,600 --> 00:05:06,520
+ You know, we're in the tech world,
+
+131
+00:05:06,520 --> 00:05:08,320
+ we're used to these 70% margin businesses.
+
+132
+00:05:08,320 --> 00:05:10,280
+ Most of the world is much lower margin.
+
+133
+00:05:10,280 --> 00:05:11,920
+ - And we did that analysis for grocery stores
+
+134
+00:05:11,920 --> 00:05:14,400
+ where it's like a grocery store is making 2% profit.
+
+135
+00:05:14,400 --> 00:05:16,280
+ We're talking about doubling profitability
+
+136
+00:05:16,280 --> 00:05:17,800
+ of a grocery store.
+
+137
+00:05:17,800 --> 00:05:21,640
+ There is this triple regressive tax going on here too
+
+138
+00:05:21,640 --> 00:05:24,640
+ where the biggest retailers in the US
+
+139
+00:05:24,640 --> 00:05:26,720
+ are negotiating custom rates
+
+140
+00:05:26,720 --> 00:05:28,520
+ that are maybe 10 times cheaper, you know,
+
+141
+00:05:28,520 --> 00:05:31,280
+ 10% of the fee that your local grocery store pay,
+
+142
+00:05:31,280 --> 00:05:33,160
+ Kroger's like paying much less than that.
+
+143
+00:05:33,160 --> 00:05:38,000
+ And the wealthiest users get these rewards back.
+
+144
+00:05:38,000 --> 00:05:41,000
+ And so in many ways, the average consumer
+
+145
+00:05:41,000 --> 00:05:43,480
+ is really getting screwed by these extractive fees.
+
+146
+00:05:43,480 --> 00:05:45,640
+ - This is truly scandalous and it's something
+
+147
+00:05:45,640 --> 00:05:47,200
+ that people don't think enough about.
+
+148
+00:05:47,200 --> 00:05:49,560
+ It's really the deck is stacked against the little guy
+
+149
+00:05:49,560 --> 00:05:50,400
+ in this situation.
+
+150
+00:05:50,400 --> 00:05:51,360
+ - It's true in all finance.
+
+151
+00:05:51,360 --> 00:05:54,160
+ Like, you know, if you have a lot of money in savings,
+
+152
+00:05:54,160 --> 00:05:55,600
+ you go and put them in treasury bills
+
+153
+00:05:55,600 --> 00:05:57,800
+ and you get 4% and chase, you get 0%.
+
+154
+00:05:57,800 --> 00:06:00,520
+ If you want to cash or paycheck, you know,
+
+155
+00:06:00,520 --> 00:06:02,960
+ if you have money, it's effectively free.
+
+156
+00:06:02,960 --> 00:06:04,320
+ And if you don't, you do pay a loan.
+
+157
+00:06:04,320 --> 00:06:06,960
+ So like all of this stuff is highly regressive.
+
+158
+00:06:06,960 --> 00:06:09,040
+ Okay, so there's the removing intermediaries.
+
+159
+00:06:09,040 --> 00:06:11,000
+ One thing you do is you lower fees.
+
+160
+00:06:11,000 --> 00:06:14,360
+ The other thing you do is you are essentially building these
+
+161
+00:06:14,360 --> 00:06:17,040
+ as, you know, I think of it as, instead of being dependent
+
+162
+00:06:17,040 --> 00:06:20,640
+ on Visa and their APIs and all of their other kinds of things.
+
+163
+00:06:20,640 --> 00:06:22,880
+ Now you have a thousand companies with different APIs
+
+164
+00:06:22,880 --> 00:06:26,080
+ and who knows what the rules are building on top of them.
+
+165
+00:06:26,080 --> 00:06:28,240
+ I think if you go look inside of these payment processor
+
+166
+00:06:28,240 --> 00:06:30,800
+ companies like Stripe, they have these massive teams
+
+167
+00:06:30,800 --> 00:06:33,680
+ that are going and dealing with all of these special cases.
+
+168
+00:06:33,680 --> 00:06:35,560
+ And then that's what makes the businesses valuable
+
+169
+00:06:35,560 --> 00:06:38,040
+ is that they've done so much kind of grind work.
+
+170
+00:06:38,040 --> 00:06:40,520
+ So if you imagine a world where you have sort of
+
+171
+00:06:40,520 --> 00:06:43,360
+ this blockchain based infrastructure and the ideal case,
+
+172
+00:06:43,360 --> 00:06:45,560
+ you have this unified global network payments become
+
+173
+00:06:45,560 --> 00:06:48,520
+ like email in the web or it's just sort of this global protocol
+
+174
+00:06:48,520 --> 00:06:50,440
+ and you're running, you know, I'm sending you dollars
+
+175
+00:06:50,440 --> 00:06:53,040
+ or euros and you have these compliance
+
+176
+00:06:53,040 --> 00:06:56,320
+ and charge back services on top kind of bundled.
+
+177
+00:06:56,320 --> 00:06:59,360
+ Then you have this sort of, you know, universal global APIs
+
+178
+00:06:59,360 --> 00:07:00,560
+ is what we call composability.
+
+179
+00:07:00,560 --> 00:07:04,280
+ You can build services on top that a relatively small company
+
+180
+00:07:04,280 --> 00:07:06,720
+ without this giant integration teams can build a service
+
+181
+00:07:06,720 --> 00:07:08,760
+ that's like a fraud service or a charge back service.
+
+182
+00:07:08,760 --> 00:07:11,440
+ Or, you know, like, look, a big, big problem right now
+
+183
+00:07:11,440 --> 00:07:12,400
+ is invoice fraud.
+
+184
+00:07:12,400 --> 00:07:14,920
+ Most businesses right there sending out a lot of them
+
+185
+00:07:14,920 --> 00:07:16,360
+ are sending out millions of dollars a day
+
+186
+00:07:16,360 --> 00:07:19,080
+ and they're basically getting a PDF or a piece of paper
+
+187
+00:07:19,080 --> 00:07:22,120
+ and it says you owe me $100,000 and they've checked the address
+
+188
+00:07:22,120 --> 00:07:24,440
+ and you'll see all these notices now, like,
+
+189
+00:07:24,440 --> 00:07:25,440
+ make sure you call them.
+
+190
+00:07:25,440 --> 00:07:27,160
+ So like the best practice now is to actually,
+
+191
+00:07:27,160 --> 00:07:28,240
+ like, literally pick up the phone
+
+192
+00:07:28,240 --> 00:07:30,080
+ and make sure you hear the person's voice and...
+
+193
+00:07:30,080 --> 00:07:32,240
+ - Very efficient, very efficient process.
+
+194
+00:07:32,240 --> 00:07:33,160
+ - Really that secure.
+
+195
+00:07:33,160 --> 00:07:35,520
+ I mean, in a world where we're all carrying around these,
+
+196
+00:07:35,520 --> 00:07:39,360
+ you know, supercomputers that have perfect facial detection
+
+197
+00:07:39,360 --> 00:07:42,520
+ and cryptography, like it just seems kind of strange, right?
+
+198
+00:07:42,520 --> 00:07:44,240
+ And so, you know, these companies like Stripe,
+
+199
+00:07:44,240 --> 00:07:46,760
+ because they've kind of done what a blockchain would do
+
+200
+00:07:46,760 --> 00:07:50,840
+ and built this integration layer with all of these services,
+
+201
+00:07:50,840 --> 00:07:52,480
+ they can then start to build, essentially,
+
+202
+00:07:52,480 --> 00:07:54,360
+ reputation services on top that say,
+
+203
+00:07:54,360 --> 00:07:56,800
+ okay, this sender is valid and this one is, you know,
+
+204
+00:07:56,800 --> 00:07:59,320
+ like a whitelist approach, the way you do with email.
+
+205
+00:07:59,320 --> 00:08:02,320
+ But if you had this global blockchain payment system,
+
+206
+00:08:02,320 --> 00:08:04,440
+ you could imagine a world where then all these people
+
+207
+00:08:04,440 --> 00:08:06,520
+ are building lots of startups and big companies
+
+208
+00:08:06,520 --> 00:08:08,360
+ are building essentially reputation services
+
+209
+00:08:08,360 --> 00:08:09,720
+ and other kinds of things around it,
+
+210
+00:08:09,720 --> 00:08:12,000
+ which I think would have all these secondary benefits
+
+211
+00:08:12,000 --> 00:08:15,360
+ beyond just the fee reduction, right, it would reduce fraud,
+
+212
+00:08:15,360 --> 00:08:17,280
+ make it more reliable, you could build reputation systems.
+
+213
+00:08:17,280 --> 00:08:19,120
+ You could do all the things you'd done on the internet.
+
+214
+00:08:19,120 --> 00:08:20,560
+ Like you think about email as a protocol,
+
+215
+00:08:20,560 --> 00:08:22,680
+ we now have all these interesting services on top
+
+216
+00:08:22,680 --> 00:08:24,960
+ because it was a global open protocol.
+
+217
+00:08:24,960 --> 00:08:26,880
+ - And we see that in the market.
+
+218
+00:08:26,880 --> 00:08:28,720
+ Like I spent a lot of them talking to Fintechs to say,
+
+219
+00:08:28,720 --> 00:08:32,000
+ how are you looking to expand your payment capabilities?
+
+220
+00:08:32,000 --> 00:08:33,640
+ And a lot of them are saying stablecoins
+
+221
+00:08:33,640 --> 00:08:37,640
+ because now instead of them having to go to 190 countries
+
+222
+00:08:37,640 --> 00:08:40,760
+ and run a complicated regulatory complex,
+
+223
+00:08:40,760 --> 00:08:42,440
+ but also technically complex.
+
+224
+00:08:42,440 --> 00:08:44,800
+ Like I guess it's great that we're paying Stripe
+
+225
+00:08:44,800 --> 00:08:46,480
+ to handle this complexity today.
+
+226
+00:08:46,480 --> 00:08:48,160
+ But obviously we should be in a world
+
+227
+00:08:48,160 --> 00:08:51,280
+ where there's an entrepreneur in Guatemala
+
+228
+00:08:51,280 --> 00:08:52,880
+ who's connecting to stablecoins
+
+229
+00:08:52,880 --> 00:08:56,200
+ and then like they own the relationship with the banks
+
+230
+00:08:56,200 --> 00:08:57,980
+ and they help people offer it.
+
+231
+00:08:57,980 --> 00:09:00,600
+ Or users just get the money on their phone
+
+232
+00:09:00,600 --> 00:09:01,680
+ and they don't have to deal with the offering
+
+233
+00:09:01,680 --> 00:09:04,240
+ in the first place, but you don't want to be in a world
+
+234
+00:09:04,240 --> 00:09:07,280
+ where you're beholden to a couple of large players
+
+235
+00:09:07,280 --> 00:09:10,040
+ to make the global payment system look coherent,
+
+236
+00:09:10,040 --> 00:09:12,440
+ even though it fundamentally isn't coherent.
+
+237
+00:09:12,440 --> 00:09:13,880
+ And that's what we're at now.
+
+238
+00:09:13,880 --> 00:09:15,000
+ - Let's talk about that.
+
+239
+00:09:15,000 --> 00:09:16,520
+ We've got a global financial system.
+
+240
+00:09:16,520 --> 00:09:18,680
+ It's not as though you can't move money.
+
+241
+00:09:18,680 --> 00:09:20,960
+ What's wrong with what we have right now?
+
+242
+00:09:20,960 --> 00:09:24,200
+ - I think people would really underestimate just how broken
+
+243
+00:09:24,200 --> 00:09:26,520
+ the system is, but also specifically how many people
+
+244
+00:09:26,520 --> 00:09:29,040
+ are in the loop on simple payment transactions
+
+245
+00:09:29,040 --> 00:09:30,280
+ that we all take for granted.
+
+246
+00:09:30,280 --> 00:09:34,300
+ So we did a big study on people paying
+
+247
+00:09:34,300 --> 00:09:36,120
+ from Vietnam to Mexico.
+
+248
+00:09:36,120 --> 00:09:37,760
+ There's a bunch of intermediaries in there
+
+249
+00:09:37,760 --> 00:09:39,080
+ looking at pieces of paper
+
+250
+00:09:39,080 --> 00:09:40,760
+ and they're deciding a payment can go through.
+
+251
+00:09:40,760 --> 00:09:42,960
+ And each of those do use a correspondent bank.
+
+252
+00:09:42,960 --> 00:09:43,880
+ They might take $20.
+
+253
+00:09:43,880 --> 00:09:46,000
+ They can't even estimate that amount of money in advance.
+
+254
+00:09:46,000 --> 00:09:47,720
+ Like that's how broken the system is,
+
+255
+00:09:47,720 --> 00:09:49,440
+ that when you go to make that transaction,
+
+256
+00:09:49,440 --> 00:09:51,160
+ you don't even really know what the person
+
+257
+00:09:51,160 --> 00:09:52,960
+ that aside will necessarily get.
+
+258
+00:09:52,960 --> 00:09:55,240
+ So FX fees that are getting taken,
+
+259
+00:09:55,240 --> 00:09:56,360
+ they're correspondent bank things.
+
+260
+00:09:56,360 --> 00:09:58,400
+ You send a thousand bucks, you might be paying a hundred.
+
+261
+00:09:58,400 --> 00:10:00,440
+ I mean, the numbers are, they differ quite a bit.
+
+262
+00:10:00,440 --> 00:10:03,440
+ Like if you use modern infrastructure, it could be better.
+
+263
+00:10:03,440 --> 00:10:05,640
+ But these are what I'd call closed loop systems
+
+264
+00:10:05,640 --> 00:10:09,600
+ where if you want to use wise,
+
+265
+00:10:09,600 --> 00:10:11,160
+ a great company, a portfolio company of ours,
+
+266
+00:10:11,160 --> 00:10:12,360
+ they do a great job with this.
+
+267
+00:10:12,360 --> 00:10:14,080
+ They've really worked within that system
+
+268
+00:10:14,080 --> 00:10:15,880
+ to improve it as much as possible.
+
+269
+00:10:15,880 --> 00:10:19,160
+ But you're still paying maybe 20 bucks.
+
+270
+00:10:19,160 --> 00:10:20,360
+ Your FX is pretty high.
+
+271
+00:10:20,360 --> 00:10:22,960
+ That should really be a dollar,
+
+272
+00:10:22,960 --> 00:10:25,040
+ a cent, you know, an inch and a half and immediately.
+
+273
+00:10:25,040 --> 00:10:29,480
+ - I remember we funded a company that was not in the US
+
+274
+00:10:29,480 --> 00:10:32,400
+ and we wired traditional money to them.
+
+275
+00:10:32,400 --> 00:10:34,200
+ And it was like a week and a half,
+
+276
+00:10:34,200 --> 00:10:35,600
+ some crazy amount of time later.
+
+277
+00:10:35,600 --> 00:10:37,000
+ And they were like, where's the money?
+
+278
+00:10:37,000 --> 00:10:40,000
+ So then we went and our finance department went
+
+279
+00:10:40,000 --> 00:10:41,400
+ and tried to track it down.
+
+280
+00:10:41,400 --> 00:10:43,880
+ And the craziest thing to me also was,
+
+281
+00:10:43,880 --> 00:10:45,920
+ not only was it, it ended up taking like two weeks,
+
+282
+00:10:45,920 --> 00:10:47,440
+ but when we asked where it was,
+
+283
+00:10:47,440 --> 00:10:49,120
+ no one seemed to know none of the banks.
+
+284
+00:10:49,120 --> 00:10:50,360
+ But they were like, don't worry,
+
+285
+00:10:50,360 --> 00:10:52,760
+ there's a number, a Fed reference number.
+
+286
+00:10:52,760 --> 00:10:53,600
+ So you're okay.
+
+287
+00:10:53,600 --> 00:10:54,360
+ And I'm kind of like, well,
+
+288
+00:10:54,360 --> 00:10:55,960
+ this shouldn't have money be somewhere.
+
+289
+00:10:55,960 --> 00:10:57,280
+ And like, shouldn't someone know where it is?
+
+290
+00:10:57,280 --> 00:10:58,600
+ That's a lot of money.
+
+291
+00:10:58,600 --> 00:11:00,280
+ So actually that was the moment where we were like,
+
+292
+00:11:00,280 --> 00:11:01,200
+ we made the finance group,
+
+293
+00:11:01,200 --> 00:11:02,560
+ like you guys got to switch to stablecoins.
+
+294
+00:11:02,560 --> 00:11:04,080
+ But that was the craziest part to me.
+
+295
+00:11:04,080 --> 00:11:05,080
+ They didn't even seem to know.
+
+296
+00:11:05,080 --> 00:11:06,440
+ And I guess they have some system
+
+297
+00:11:06,440 --> 00:11:08,840
+ where they can always recall it or refund you or something.
+
+298
+00:11:08,840 --> 00:11:10,800
+ So they seem very confident about it.
+
+299
+00:11:10,800 --> 00:11:12,160
+ But you know, just intuitively,
+
+300
+00:11:12,160 --> 00:11:14,320
+ you're like, well, shouldn't the money be somewhere?
+
+301
+00:11:14,320 --> 00:11:16,080
+ And like, shouldn't somebody know where the money is?
+
+302
+00:11:16,080 --> 00:11:17,680
+ - What happened there is someone was looking
+
+303
+00:11:17,680 --> 00:11:19,640
+ at a piece of paper with the transfer amount.
+
+304
+00:11:19,640 --> 00:11:21,880
+ And it is didn't ship it off to the next intermediary.
+
+305
+00:11:21,880 --> 00:11:23,960
+ Like that is really the kind of thing that's going on.
+
+306
+00:11:23,960 --> 00:11:25,480
+ - It's literally sitting on someone's desk on paper
+
+307
+00:11:25,480 --> 00:11:26,480
+ somewhere and that's when they don't know more.
+
+308
+00:11:26,480 --> 00:11:27,720
+ - I mean, maybe it's in the email.
+
+309
+00:11:27,720 --> 00:11:29,920
+ Maybe it's in a review system.
+
+310
+00:11:29,920 --> 00:11:31,120
+ - Well, and I think, and I think it goes to,
+
+311
+00:11:31,120 --> 00:11:33,080
+ I mean, the analogy, one analogy that we like
+
+312
+00:11:33,080 --> 00:11:35,840
+ and people have used before is text messaging
+
+313
+00:11:35,840 --> 00:11:38,640
+ prior to WhatsApp and these so-called over-the-top networks,
+
+314
+00:11:38,640 --> 00:11:39,480
+ right?
+
+315
+00:11:39,480 --> 00:11:40,880
+ So the idea was, you know, back then
+
+316
+00:11:40,880 --> 00:11:42,440
+ you really had a patchwork of networks.
+
+317
+00:11:42,440 --> 00:11:45,400
+ You had Verizon, AT&T, now they would cut deals
+
+318
+00:11:45,400 --> 00:11:47,520
+ to do interoperate and then they would do international deals.
+
+319
+00:11:47,520 --> 00:11:48,840
+ And for those old enough to remember,
+
+320
+00:11:48,840 --> 00:11:50,840
+ you'd get these text messages if you traveled internationally
+
+321
+00:11:50,840 --> 00:11:52,240
+ that said you're now on this different plan
+
+322
+00:11:52,240 --> 00:11:54,480
+ and the fees were much higher.
+
+323
+00:11:54,480 --> 00:11:56,680
+ And if you were texting someone across countries,
+
+324
+00:11:56,680 --> 00:11:59,520
+ you'd get additional fees because it was not a true network.
+
+325
+00:11:59,520 --> 00:12:00,360
+ There was not one network.
+
+326
+00:12:00,360 --> 00:12:01,720
+ There were many networks.
+
+327
+00:12:01,720 --> 00:12:04,000
+ I mean, that's also like companies like Stripe.
+
+328
+00:12:04,000 --> 00:12:05,320
+ If you don't know the payments industry,
+
+329
+00:12:05,320 --> 00:12:07,040
+ like why are there so many payments startups?
+
+330
+00:12:07,040 --> 00:12:09,600
+ Like every week you'll see a FinTech payments startup.
+
+331
+00:12:09,600 --> 00:12:11,720
+ You know, like, it's kind of weird that there's this huge
+
+332
+00:12:11,720 --> 00:12:15,200
+ industry and by the way, very successful and profitable
+
+333
+00:12:15,200 --> 00:12:18,280
+ Visa and MasterCard are worth over a trillion dollars
+
+334
+00:12:18,280 --> 00:12:22,120
+ in market cap and they're just one of many intermediaries.
+
+335
+00:12:22,120 --> 00:12:24,120
+ You know, of course, the market cap is a reflection
+
+336
+00:12:24,120 --> 00:12:27,360
+ of Wall Street's expectations of profits.
+
+337
+00:12:27,360 --> 00:12:29,760
+ So sometimes people say, oh, these costs are necessary
+
+338
+00:12:29,760 --> 00:12:30,600
+ for fraud in this app.
+
+339
+00:12:30,600 --> 00:12:32,480
+ But the reality is that these are actually profitable.
+
+340
+00:12:32,480 --> 00:12:34,040
+ Many of these are very profitable,
+
+341
+00:12:34,040 --> 00:12:36,440
+ so which means they're making excess above the fees.
+
+342
+00:12:36,440 --> 00:12:38,560
+ - But to comment on that, like in FinTech,
+
+343
+00:12:38,560 --> 00:12:42,080
+ in payments is a very high regulatory burden.
+
+344
+00:12:42,080 --> 00:12:44,480
+ And so people have used that as an excuse
+
+345
+00:12:44,480 --> 00:12:45,760
+ to vertically integrate.
+
+346
+00:12:45,760 --> 00:12:47,520
+ I need to manage all this complexity.
+
+347
+00:12:47,520 --> 00:12:50,760
+ The technology, the regulatory, the user relationship.
+
+348
+00:12:50,760 --> 00:12:53,960
+ And when you get that kind of market dynamic,
+
+349
+00:12:53,960 --> 00:12:55,760
+ you do have the ability to take a lot of profits.
+
+350
+00:12:55,760 --> 00:12:57,480
+ You're the only solution in there.
+
+351
+00:12:57,480 --> 00:13:00,360
+ What I find really fascinating about Stablecoins
+
+352
+00:13:00,360 --> 00:13:02,640
+ is it's a horizontal layer
+
+353
+00:13:02,640 --> 00:13:04,720
+ that people can build on really readily.
+
+354
+00:13:04,720 --> 00:13:06,800
+ So you'll actually end up with a lot stronger
+
+355
+00:13:06,800 --> 00:13:09,560
+ competitive dynamics on top of the payment rail
+
+356
+00:13:09,560 --> 00:13:12,880
+ where today those are mostly captured by Visa,
+
+357
+00:13:12,880 --> 00:13:15,960
+ by MasterCard, by the other payment intermediaries.
+
+358
+00:13:15,960 --> 00:13:18,080
+ - I mean, the naive tech view, you know,
+
+359
+00:13:18,080 --> 00:13:19,440
+ if you just build a new payment system
+
+360
+00:13:19,440 --> 00:13:21,200
+ about actually understanding how the existing one works.
+
+361
+00:13:21,200 --> 00:13:22,840
+ And naive view is, oh, you could just do this
+
+362
+00:13:22,840 --> 00:13:24,760
+ for the cost of blockchain fees or something.
+
+363
+00:13:24,760 --> 00:13:29,280
+ There are real costs, specifically fraud.
+
+364
+00:13:29,280 --> 00:13:30,880
+ Now, of course, with tech,
+
+365
+00:13:30,880 --> 00:13:32,080
+ hopefully you can reduce the fraud
+
+366
+00:13:32,080 --> 00:13:32,920
+ and we can talk about that.
+
+367
+00:13:32,920 --> 00:13:36,800
+ But then chargebacks, you know, a lot of these systems
+
+368
+00:13:36,800 --> 00:13:38,960
+ promise to consumers that they can recall their money
+
+369
+00:13:38,960 --> 00:13:40,560
+ if their merchant doesn't deliver.
+
+370
+00:13:40,560 --> 00:13:44,760
+ And then KYCML, meaning there's legal requirements
+
+371
+00:13:44,760 --> 00:13:47,120
+ on payment companies to make sure money
+
+372
+00:13:47,120 --> 00:13:49,480
+ doesn't go to North Korea and, you know,
+
+373
+00:13:49,480 --> 00:13:50,880
+ other kinds of things like that.
+
+374
+00:13:50,880 --> 00:13:52,720
+ And those things do cost money.
+
+375
+00:13:52,720 --> 00:13:54,480
+ The question is, you know,
+
+376
+00:13:54,480 --> 00:13:56,720
+ if you look at retail credit card payments in the US,
+
+377
+00:13:56,720 --> 00:14:00,080
+ whatever averages 2.5% in fees,
+
+378
+00:14:00,080 --> 00:14:01,560
+ does it cost 2.5% in fees?
+
+379
+00:14:01,560 --> 00:14:02,400
+ We know the answer is no,
+
+380
+00:14:02,400 --> 00:14:03,600
+ because these companies have profits,
+
+381
+00:14:03,600 --> 00:14:05,040
+ some significant profits.
+
+382
+00:14:05,040 --> 00:14:07,280
+ So we know that, like, the high end of that,
+
+383
+00:14:07,280 --> 00:14:10,360
+ what it should cost, quote unquote, you know,
+
+384
+00:14:10,360 --> 00:14:11,960
+ is half of that, let's say, or something
+
+385
+00:14:11,960 --> 00:14:13,520
+ because of the profits, but really,
+
+386
+00:14:13,520 --> 00:14:15,520
+ because they're also so inefficient,
+
+387
+00:14:15,520 --> 00:14:18,480
+ because of this patchwork, there's credible reasons
+
+388
+00:14:18,480 --> 00:14:20,080
+ of thinking it can be significantly lower.
+
+389
+00:14:20,080 --> 00:14:24,560
+ So if right now it's 2.5%, which is 250 basis points,
+
+390
+00:14:24,560 --> 00:14:25,800
+ like in your analysis, Ham,
+
+391
+00:14:25,800 --> 00:14:27,440
+ you think it can get down to 30 or something,
+
+392
+00:14:27,440 --> 00:14:28,280
+ is that right or even less?
+
+393
+00:14:28,280 --> 00:14:29,120
+ That's about right.
+
+394
+00:14:29,120 --> 00:14:31,600
+ I think the cost of doing these payments could be 30.
+
+395
+00:14:31,600 --> 00:14:32,960
+ It actually could be a lot less.
+
+396
+00:14:32,960 --> 00:14:33,800
+ So you brought up these things.
+
+397
+00:14:33,800 --> 00:14:37,120
+ What is Visa saying is creating these costs?
+
+398
+00:14:37,120 --> 00:14:39,000
+ They're saying fraud, they're saying sort of
+
+399
+00:14:39,000 --> 00:14:42,000
+ table stakes, payments products, KYC, AML.
+
+400
+00:14:42,000 --> 00:14:44,600
+ Well, like, first of all, chargebacks?
+
+401
+00:14:44,600 --> 00:14:47,040
+ That is something that we know of in the US,
+
+402
+00:14:47,040 --> 00:14:49,120
+ but if you're using PIX in Brazil,
+
+403
+00:14:49,120 --> 00:14:51,720
+ or you're using WeChat in China,
+
+404
+00:14:51,720 --> 00:14:53,960
+ you're not expecting the payment processor
+
+405
+00:14:53,960 --> 00:14:56,320
+ to manage your charge direct for it, out-of-band systems
+
+406
+00:14:56,320 --> 00:14:58,560
+ that do that, that you can selectively pay for.
+
+407
+00:14:58,560 --> 00:15:00,640
+ So you don't need to bundle these services then.
+
+408
+00:15:00,640 --> 00:15:03,080
+ It seems better, because like, why is it just so happened
+
+409
+00:15:03,080 --> 00:15:04,720
+ that this company that's good of payments
+
+410
+00:15:04,720 --> 00:15:07,400
+ is also gonna be mediating disputes?
+
+411
+00:15:07,400 --> 00:15:08,240
+ Like, it's just-
+
+412
+00:15:08,240 --> 00:15:10,920
+ Especially 'cause you want vertical specific mediation.
+
+413
+00:15:10,920 --> 00:15:12,840
+ If I'm in a coffee shop and I buy a coffee,
+
+414
+00:15:12,840 --> 00:15:14,720
+ there's not a fraud risk there.
+
+415
+00:15:14,720 --> 00:15:17,240
+ If I buy something on Amazon,
+
+416
+00:15:17,240 --> 00:15:18,520
+ I probably would be willing to work
+
+417
+00:15:18,520 --> 00:15:21,400
+ with like a merchant relations chargeback person.
+
+418
+00:15:21,400 --> 00:15:23,720
+ And if I buy something from a sketchy website,
+
+419
+00:15:23,720 --> 00:15:25,800
+ 'cause I want like a new Supreme Drop,
+
+420
+00:15:25,800 --> 00:15:29,400
+ then maybe I pay for bespoke chargeback insurance there.
+
+421
+00:15:29,400 --> 00:15:31,880
+ But these are three very different categories of product.
+
+422
+00:15:31,880 --> 00:15:34,240
+ And right now they're all being bundled into one
+
+423
+00:15:34,240 --> 00:15:38,680
+ two and a half to 4% fee that these and the issues are taking.
+
+424
+00:15:38,680 --> 00:15:39,960
+ Yeah, just to add to that,
+
+425
+00:15:39,960 --> 00:15:41,600
+ and this goes to, for those interested,
+
+426
+00:15:41,600 --> 00:15:43,200
+ this is what my book read right on,
+
+427
+00:15:43,200 --> 00:15:46,960
+ is about like basically the idea that in summary,
+
+428
+00:15:46,960 --> 00:15:48,800
+ the interesting thing we do with the internet
+
+429
+00:15:48,800 --> 00:15:50,640
+ is we build networks on top.
+
+430
+00:15:50,640 --> 00:15:52,920
+ You know, Twitter, email, the web,
+
+431
+00:15:52,920 --> 00:15:55,480
+ like the most powerful digital services are networks.
+
+432
+00:15:55,480 --> 00:15:56,920
+ The network is a digital service
+
+433
+00:15:56,920 --> 00:15:59,120
+ that gets more valuable, the more people use it.
+
+434
+00:15:59,120 --> 00:16:01,560
+ They're important because they help solve
+
+435
+00:16:01,560 --> 00:16:04,480
+ information distribution and coordination problems.
+
+436
+00:16:04,480 --> 00:16:06,040
+ And the basic thesis of the book
+
+437
+00:16:06,040 --> 00:16:08,000
+ is that there's three known ways to build networks.
+
+438
+00:16:08,000 --> 00:16:09,520
+ There's the sort of the original way
+
+439
+00:16:09,520 --> 00:16:10,600
+ that the internet built networks,
+
+440
+00:16:10,600 --> 00:16:11,960
+ which I call protocol networks,
+
+441
+00:16:11,960 --> 00:16:13,680
+ and then it's just called protocols.
+
+442
+00:16:13,680 --> 00:16:15,560
+ That's email in the web, they're standards,
+
+443
+00:16:15,560 --> 00:16:16,860
+ they're almost like a language.
+
+444
+00:16:16,860 --> 00:16:18,280
+ Everyone sort of gets together and says,
+
+445
+00:16:18,280 --> 00:16:21,080
+ "We'll speak English, we'll speak HTTP."
+
+446
+00:16:21,080 --> 00:16:22,920
+ And then they all build software and services
+
+447
+00:16:22,920 --> 00:16:25,280
+ that connect to that kind of lingua franca.
+
+448
+00:16:25,280 --> 00:16:26,640
+ And what's great about that is you end up
+
+449
+00:16:26,640 --> 00:16:28,200
+ with something that looks a lot like a public good,
+
+450
+00:16:28,200 --> 00:16:30,040
+ like email, like no one controls email,
+
+451
+00:16:30,040 --> 00:16:31,320
+ and there's no one who can take money,
+
+452
+00:16:31,320 --> 00:16:32,720
+ kind of extract money.
+
+453
+00:16:32,720 --> 00:16:35,440
+ And protocols solve a political problem
+
+454
+00:16:35,440 --> 00:16:36,840
+ to kind of a coordination problem.
+
+455
+00:16:36,840 --> 00:16:37,760
+ When you build a network,
+
+456
+00:16:37,760 --> 00:16:39,360
+ you need all the kind of participants of the network
+
+457
+00:16:39,360 --> 00:16:40,920
+ to wanna join that network.
+
+458
+00:16:40,920 --> 00:16:43,960
+ And if they know it's a public good,
+
+459
+00:16:43,960 --> 00:16:45,840
+ that they can safely build on top,
+
+460
+00:16:45,840 --> 00:16:48,000
+ and one of their competitors won't sort of secretly
+
+461
+00:16:48,000 --> 00:16:49,560
+ own it and rug them,
+
+462
+00:16:49,560 --> 00:16:51,360
+ they're gonna be more likely to join that network.
+
+463
+00:16:51,360 --> 00:16:52,960
+ Then there are corporate networks.
+
+464
+00:16:52,960 --> 00:16:56,360
+ Corporate networks are Facebook, Twitter, Visa.
+
+465
+00:16:56,360 --> 00:16:57,600
+ It's a network, but it's very simple,
+
+466
+00:16:57,600 --> 00:16:59,760
+ actually, architecturally, just owned by a company.
+
+467
+00:16:59,760 --> 00:17:00,600
+ They just owned it.
+
+468
+00:17:00,600 --> 00:17:01,680
+ Now the problem with corporate networks
+
+469
+00:17:01,680 --> 00:17:03,640
+ is you're essentially handing all this power
+
+470
+00:17:03,640 --> 00:17:04,600
+ over to that company.
+
+471
+00:17:04,600 --> 00:17:06,680
+ And so, of course, a Visa and Mastercard is an example.
+
+472
+00:17:06,680 --> 00:17:07,880
+ Post started as nonprofits,
+
+473
+00:17:07,880 --> 00:17:10,120
+ flipped to four profits later,
+
+474
+00:17:10,120 --> 00:17:11,240
+ jacked up their fees,
+
+475
+00:17:11,240 --> 00:17:12,760
+ and a lot of banks weren't happy with that.
+
+476
+00:17:12,760 --> 00:17:13,600
+ So, you know.
+
+477
+00:17:13,600 --> 00:17:14,440
+ - There's a great book on this,
+
+478
+00:17:14,440 --> 00:17:16,360
+ A Piece of the Action by Jonah Sarah.
+
+479
+00:17:16,360 --> 00:17:18,440
+ - Yeah, it's a good thing to really read about.
+
+480
+00:17:18,440 --> 00:17:20,800
+ So now, the third kind of network or blockchain networks,
+
+481
+00:17:20,800 --> 00:17:21,960
+ in my core argument in my book,
+
+482
+00:17:21,960 --> 00:17:23,840
+ is that it's sort of the best of both worlds.
+
+483
+00:17:23,840 --> 00:17:26,280
+ You get a lot of the advanced functionality
+
+484
+00:17:26,280 --> 00:17:27,760
+ of corporate networks and protocol networks
+
+485
+00:17:27,760 --> 00:17:28,840
+ couldn't deliver,
+
+486
+00:17:28,840 --> 00:17:32,360
+ but also the kind of public good nature and low fees
+
+487
+00:17:32,360 --> 00:17:34,960
+ and so forth of protocol networks.
+
+488
+00:17:34,960 --> 00:17:37,560
+ The way I would think about this in the payment context,
+
+489
+00:17:37,560 --> 00:17:39,160
+ imagine kind of a toy scenario
+
+490
+00:17:39,160 --> 00:17:42,000
+ where you have an imaginary country with 10 banks
+
+491
+00:17:42,000 --> 00:17:44,080
+ that want to build a payment system together.
+
+492
+00:17:44,080 --> 00:17:45,760
+ Okay, they have those three choices.
+
+493
+00:17:45,760 --> 00:17:46,960
+ Now, the problem is,
+
+494
+00:17:46,960 --> 00:17:49,720
+ the protocol networks in computer science parlance
+
+495
+00:17:49,720 --> 00:17:52,280
+ are stateless, state meaning storage in the computers,
+
+496
+00:17:52,280 --> 00:17:53,120
+ and you don't have storage,
+
+497
+00:17:53,120 --> 00:17:55,400
+ and there's no kind of ledger or place to keep balances,
+
+498
+00:17:55,400 --> 00:17:57,320
+ just this architecturally, this is the way it works.
+
+499
+00:17:57,320 --> 00:17:59,280
+ So, with email, like I sent an email to somebody,
+
+500
+00:17:59,280 --> 00:18:00,400
+ and then they received email,
+
+501
+00:18:00,400 --> 00:18:01,640
+ but there's no central place
+
+502
+00:18:01,640 --> 00:18:03,440
+ where the emails are kept and the records are kept.
+
+503
+00:18:03,440 --> 00:18:05,320
+ Now, money is just different than email in that sense,
+
+504
+00:18:05,320 --> 00:18:07,360
+ and that you do need to keep central records, right?
+
+505
+00:18:07,360 --> 00:18:09,000
+ If you look back 20, 25 years ago,
+
+506
+00:18:09,000 --> 00:18:10,080
+ there were various attempts.
+
+507
+00:18:10,080 --> 00:18:13,680
+ There's a originally HDP itself, the web, had a spec,
+
+508
+00:18:13,680 --> 00:18:16,200
+ I think it was a 402, was the error code.
+
+509
+00:18:16,200 --> 00:18:17,240
+ There was a payment required.
+
+510
+00:18:17,240 --> 00:18:18,640
+ There was a placeholder put in there
+
+511
+00:18:18,640 --> 00:18:19,600
+ that were gonna have payments.
+
+512
+00:18:19,600 --> 00:18:20,920
+ Yeah, more people are probably familiar
+
+513
+00:18:20,920 --> 00:18:23,840
+ with error 404 when a website URL can't be found,
+
+514
+00:18:23,840 --> 00:18:26,680
+ but there is an error 402, like you're saying, with payments.
+
+515
+00:18:26,680 --> 00:18:28,120
+ So, you can't do that.
+
+516
+00:18:28,120 --> 00:18:29,600
+ And then if you go ask these guys,
+
+517
+00:18:29,600 --> 00:18:32,360
+ the Goldman Sachs, or the Chase Banks, or Citibanks,
+
+518
+00:18:32,360 --> 00:18:33,760
+ or whatever, hey, let's go do it,
+
+519
+00:18:33,760 --> 00:18:34,880
+ and I'm gonna start a company,
+
+520
+00:18:34,880 --> 00:18:35,920
+ and it'll be the intermediary,
+
+521
+00:18:35,920 --> 00:18:36,760
+ and it'll run the network.
+
+522
+00:18:36,760 --> 00:18:37,600
+ None of them will trust me.
+
+523
+00:18:37,600 --> 00:18:39,040
+ They'll like, why would we do that?
+
+524
+00:18:39,040 --> 00:18:41,000
+ Because you're just gonna do what everyone does
+
+525
+00:18:41,000 --> 00:18:41,840
+ when they build a network.
+
+526
+00:18:41,840 --> 00:18:42,840
+ They'll start with low fees,
+
+527
+00:18:42,840 --> 00:18:45,440
+ and then they'll raise the fees as they gain power, right?
+
+528
+00:18:45,440 --> 00:18:47,760
+ And you can try the non-profit thing,
+
+529
+00:18:47,760 --> 00:18:49,640
+ but of course, we've seen many cases
+
+530
+00:18:49,640 --> 00:18:51,120
+ where non-profits flip to for-profits.
+
+531
+00:18:51,120 --> 00:18:52,320
+ That doesn't really mean much.
+
+532
+00:18:52,320 --> 00:18:53,520
+ The other challenge is,
+
+533
+00:18:53,520 --> 00:18:55,960
+ if you defang the intermediary,
+
+534
+00:18:55,960 --> 00:18:57,200
+ corporate intermediary too much,
+
+535
+00:18:57,200 --> 00:18:58,680
+ then how do they go hire people?
+
+536
+00:18:58,680 --> 00:19:00,760
+ How do they, like, they need to themselves become valuable
+
+537
+00:19:00,760 --> 00:19:02,680
+ to recruit people, and build a company,
+
+538
+00:19:02,680 --> 00:19:04,120
+ and build great technology?
+
+539
+00:19:04,120 --> 00:19:05,440
+ Right, if they don't extract,
+
+540
+00:19:05,440 --> 00:19:06,600
+ their lunch is gonna get eaten
+
+541
+00:19:06,600 --> 00:19:09,320
+ by another corporation that does extract.
+
+542
+00:19:09,320 --> 00:19:10,160
+ Yeah, that's right.
+
+543
+00:19:10,160 --> 00:19:11,800
+ The competitive dynamics of tech
+
+544
+00:19:11,800 --> 00:19:13,400
+ are such that it's very hard,
+
+545
+00:19:13,400 --> 00:19:15,240
+ like, just as is how it works.
+
+546
+00:19:15,240 --> 00:19:17,040
+ So, blockchains are really powerful
+
+547
+00:19:17,040 --> 00:19:18,720
+ in that they kind of are the best of both worlds.
+
+548
+00:19:18,720 --> 00:19:20,200
+ You can build stateful protocols,
+
+549
+00:19:20,200 --> 00:19:21,160
+ you can keep a ledger,
+
+550
+00:19:21,160 --> 00:19:22,400
+ you can do all these powerful things
+
+551
+00:19:22,400 --> 00:19:23,920
+ you wanna do with payments,
+
+552
+00:19:23,920 --> 00:19:25,160
+ but you can do it in a way
+
+553
+00:19:25,160 --> 00:19:28,000
+ that there is no central, powerful intermediary.
+
+554
+00:19:28,000 --> 00:19:30,120
+ Architecturally, that's the core innovation of a blockchain,
+
+555
+00:19:30,120 --> 00:19:33,440
+ is that you have these so-called consensus mechanism,
+
+556
+00:19:33,440 --> 00:19:35,880
+ game theoretic mechanism pioneered by Bitcoin
+
+557
+00:19:35,880 --> 00:19:38,240
+ and expanded on by later blockchains.
+
+558
+00:19:38,240 --> 00:19:39,320
+ And I think about what Bitcoin is.
+
+559
+00:19:39,320 --> 00:19:41,600
+ Bitcoin, what it essentially is, right,
+
+560
+00:19:41,600 --> 00:19:42,840
+ is it's a centralized ledger.
+
+561
+00:19:42,840 --> 00:19:45,720
+ It keeps track of who has how many Bitcoins,
+
+562
+00:19:45,720 --> 00:19:47,880
+ but it does it in a way that there's no Bitcoin company.
+
+563
+00:19:47,880 --> 00:19:49,000
+ There's no one behind it, right?
+
+564
+00:19:49,000 --> 00:19:50,440
+ It's a group of people coming together
+
+565
+00:19:50,440 --> 00:19:52,280
+ using this kind of game theoretic mechanism
+
+566
+00:19:52,280 --> 00:19:54,360
+ that provides the core service
+
+567
+00:19:54,360 --> 00:19:56,680
+ of a financial network, a payment network,
+
+568
+00:19:56,680 --> 00:19:57,800
+ without any intermediary.
+
+569
+00:19:57,800 --> 00:20:00,880
+ Now it has pros and cons and its architecture and fees,
+
+570
+00:20:00,880 --> 00:20:02,680
+ and you can have a whole debate about it.
+
+571
+00:20:02,680 --> 00:20:04,040
+ There's been a lot of work since then,
+
+572
+00:20:04,040 --> 00:20:05,840
+ and specifically in what we will call
+
+573
+00:20:05,840 --> 00:20:08,680
+ the programmable blockchain world of like Ethereum and Solana,
+
+574
+00:20:08,680 --> 00:20:10,680
+ to kind of expand on that, reduce the fees,
+
+575
+00:20:10,680 --> 00:20:13,240
+ improve the functionality, performance reliability,
+
+576
+00:20:13,240 --> 00:20:14,200
+ and so forth.
+
+577
+00:20:14,200 --> 00:20:15,680
+ And that's gotten us to a point now,
+
+578
+00:20:15,680 --> 00:20:17,040
+ which as of a year and a half ago,
+
+579
+00:20:17,040 --> 00:20:19,840
+ Sam was saying we've now had an important milestone
+
+580
+00:20:19,840 --> 00:20:22,680
+ of you can now send stablecoins under one second
+
+581
+00:20:22,680 --> 00:20:23,880
+ and under one penny.
+
+582
+00:20:23,880 --> 00:20:25,760
+ And by the way, this is not the theoretical download
+
+583
+00:20:25,760 --> 00:20:28,040
+ coin-based wallet, and then try it.
+
+584
+00:20:28,040 --> 00:20:30,400
+ I just tried it yesterday to double confirm it.
+
+585
+00:20:30,400 --> 00:20:32,520
+ - I've got a fun, a fun story for you about this.
+
+586
+00:20:32,520 --> 00:20:33,640
+ I was playing basketball the other day.
+
+587
+00:20:33,640 --> 00:20:34,680
+ I rent out this gym,
+
+588
+00:20:34,680 --> 00:20:36,520
+ and so I collect payment from everyone at the end of the day.
+
+589
+00:20:36,520 --> 00:20:37,680
+ And this guy comes up to me and he's like,
+
+590
+00:20:37,680 --> 00:20:39,320
+ hey, you're saying, I see you on Twitter.
+
+591
+00:20:39,320 --> 00:20:40,160
+ You love stablecoins.
+
+592
+00:20:40,160 --> 00:20:42,400
+ So he says, what do I pay you in USDC?
+
+593
+00:20:42,400 --> 00:20:43,400
+ So yeah, it's 20 bucks.
+
+594
+00:20:43,400 --> 00:20:46,200
+ Here's my ETH address, so I'm SamBroner. ETH.
+
+595
+00:20:46,200 --> 00:20:50,200
+ He sends me 20 bucks, costs like a small fraction of a cent.
+
+596
+00:20:50,200 --> 00:20:54,040
+ And I then put that into a lending protocol.
+
+597
+00:20:54,040 --> 00:20:55,640
+ So I'm like earning yield on it.
+
+598
+00:20:55,640 --> 00:20:57,680
+ And about 24 hours later,
+
+599
+00:20:57,680 --> 00:21:01,200
+ I've made enough in interest that I paid back the fee.
+
+600
+00:21:01,200 --> 00:21:03,600
+ Now, like what a crazy dynamic that is.
+
+601
+00:21:03,600 --> 00:21:06,680
+ Like, I mean, now I've made more than 20 bucks.
+
+602
+00:21:06,680 --> 00:21:09,360
+ If that was in Venmo, I wanted the money right away.
+
+603
+00:21:09,360 --> 00:21:11,280
+ It would have taken me three days to get it out of Venmo,
+
+604
+00:21:11,280 --> 00:21:13,080
+ let alone like the nonsense interest rate
+
+605
+00:21:13,080 --> 00:21:14,240
+ I'm getting in my bank.
+
+606
+00:21:14,240 --> 00:21:16,400
+ So I get the money in a second.
+
+607
+00:21:16,400 --> 00:21:18,280
+ It's mine. I can send it to someone else.
+
+608
+00:21:18,280 --> 00:21:20,040
+ Or I can sweep as in and just like,
+
+609
+00:21:20,040 --> 00:21:22,280
+ put that money into saying that's earning interest.
+
+610
+00:21:22,280 --> 00:21:24,640
+ And suddenly I'm out on top of games on Saturday
+
+611
+00:21:24,640 --> 00:21:26,520
+ by like Monday afternoon.
+
+612
+00:21:26,520 --> 00:21:27,600
+ I've made my money back.
+
+613
+00:21:27,600 --> 00:21:30,720
+ And you just can't do that on normal rails at all.
+
+614
+00:21:30,720 --> 00:21:31,560
+ - That's really interesting
+
+615
+00:21:31,560 --> 00:21:33,680
+ when you consider a lot of FinTech business models.
+
+616
+00:21:33,680 --> 00:21:35,200
+ I mean, you mentioned Venmo.
+
+617
+00:21:35,200 --> 00:21:36,720
+ They're just banking on a lot of people
+
+618
+00:21:36,720 --> 00:21:38,400
+ leaving money in their accounts.
+
+619
+00:21:38,400 --> 00:21:40,880
+ And then they get to collect interest on them.
+
+620
+00:21:40,880 --> 00:21:41,720
+ - Yeah.
+
+621
+00:21:41,720 --> 00:21:42,640
+ - But you're able to actually earn interest
+
+622
+00:21:42,640 --> 00:21:43,980
+ on the stablecoins that you were sent.
+
+623
+00:21:43,980 --> 00:21:45,520
+ - Yeah, yeah, absolutely.
+
+624
+00:21:45,520 --> 00:21:48,200
+ So look, these institutions, they money in a couple of ways.
+
+625
+00:21:48,200 --> 00:21:51,400
+ That interest, we call it Nim, this net interest margin.
+
+626
+00:21:51,400 --> 00:21:52,240
+ There's other ways to get paid.
+
+627
+00:21:52,240 --> 00:21:55,040
+ Like they'll also charge you when you try to take the money out.
+
+628
+00:21:55,040 --> 00:21:57,960
+ And so like, if you try to withdraw money from Venmo
+
+629
+00:21:57,960 --> 00:22:01,040
+ immediately rather than waiting the normal three or four days,
+
+630
+00:22:01,040 --> 00:22:03,040
+ they'll also charge you 3% there.
+
+631
+00:22:03,040 --> 00:22:05,360
+ And so no matter how you slice it,
+
+632
+00:22:05,360 --> 00:22:07,280
+ you're getting a pretty raw deal.
+
+633
+00:22:07,280 --> 00:22:11,640
+ What is so interesting is that because only certain institutions
+
+634
+00:22:11,640 --> 00:22:13,040
+ have permission from the government,
+
+635
+00:22:13,040 --> 00:22:16,120
+ they have regulatory lock-in to hold your money,
+
+636
+00:22:16,120 --> 00:22:18,440
+ there's not a very competitive market here.
+
+637
+00:22:18,440 --> 00:22:21,400
+ We should all be getting 4% interest on our savings.
+
+638
+00:22:21,400 --> 00:22:24,000
+ That's a little bit better than inflation.
+
+639
+00:22:24,000 --> 00:22:27,720
+ And we should benefit from the sort of growth of the economy.
+
+640
+00:22:27,720 --> 00:22:29,240
+ That's how the world should work.
+
+641
+00:22:29,240 --> 00:22:33,120
+ Instead, Bank of America or Venmo or PayPal
+
+642
+00:22:33,120 --> 00:22:34,960
+ is sitting on your money and giving you nothing
+
+643
+00:22:34,960 --> 00:22:36,760
+ while they take that home for,
+
+644
+00:22:36,760 --> 00:22:37,920
+ "Look, they've got a nice product,
+
+645
+00:22:37,920 --> 00:22:39,800
+ but I think we could recreate in a weekend
+
+646
+00:22:39,800 --> 00:22:43,480
+ what we couldn't recreate is the network effects that they have.
+
+647
+00:22:43,480 --> 00:22:45,720
+ And so they get to be extracted with those network effects.
+
+648
+00:22:45,720 --> 00:22:47,280
+ And that's what they've done to date.
+
+649
+00:22:47,280 --> 00:22:50,080
+ But there is a better way like this basketball scenario
+
+650
+00:22:50,080 --> 00:22:51,880
+ where I get the money on day one,
+
+651
+00:22:51,880 --> 00:22:53,400
+ and then I get interest as well.
+
+652
+00:22:53,400 --> 00:22:56,200
+ - It reminds me of AOL, for the longest time,
+
+653
+00:22:56,200 --> 00:22:58,840
+ was just collecting fees from zombie accounts.
+
+654
+00:22:58,840 --> 00:23:01,640
+ People who hadn't actually severed their relationship.
+
+655
+00:23:01,640 --> 00:23:03,760
+ They're just paying subscriptions every year,
+
+656
+00:23:03,760 --> 00:23:06,120
+ thinking like that's how they get internet access,
+
+657
+00:23:06,120 --> 00:23:07,520
+ just making lots of money off this,
+
+658
+00:23:07,520 --> 00:23:10,280
+ well beyond the point when you need to actually pay
+
+659
+00:23:10,280 --> 00:23:13,200
+ for that subscription to get internet access.
+
+660
+00:23:13,200 --> 00:23:15,920
+ So how long is that interest generating business model
+
+661
+00:23:15,920 --> 00:23:17,960
+ going to be sustaining these FinTechs?
+
+662
+00:23:17,960 --> 00:23:20,720
+ - So look, we're seeing the first use cases
+
+663
+00:23:20,720 --> 00:23:23,920
+ of stablecoin payments happen in the wild right now.
+
+664
+00:23:23,920 --> 00:23:26,600
+ And it's different by geography and by user.
+
+665
+00:23:26,600 --> 00:23:28,680
+ In the US for wealthy users,
+
+666
+00:23:28,680 --> 00:23:30,480
+ they're thinking my credit card rocks.
+
+667
+00:23:30,480 --> 00:23:31,920
+ I get 3% off everything.
+
+668
+00:23:31,920 --> 00:23:33,000
+ It's accepted everywhere.
+
+669
+00:23:33,000 --> 00:23:34,600
+ I don't really need to change.
+
+670
+00:23:34,600 --> 00:23:37,240
+ But the PSPs, so Stripe,
+
+671
+00:23:37,240 --> 00:23:40,000
+ whoever runs sort of the payment terminal at a coffee shop,
+
+672
+00:23:40,000 --> 00:23:41,920
+ these guys are getting like 10 basis points
+
+673
+00:23:41,920 --> 00:23:43,200
+ and they're actually giving most of the money
+
+674
+00:23:43,200 --> 00:23:44,800
+ to the issuing banks and Visa.
+
+675
+00:23:44,800 --> 00:23:48,080
+ And so those payment service providers,
+
+676
+00:23:48,080 --> 00:23:51,200
+ they have an incentive to switch over to crypto rails
+
+677
+00:23:51,200 --> 00:23:53,520
+ 'cause they can offer users a better product
+
+678
+00:23:53,520 --> 00:23:55,840
+ while taking maybe 10 X more fees.
+
+679
+00:23:55,840 --> 00:24:00,840
+ Like they could charge 0.5% instead of 0.1%
+
+680
+00:24:00,840 --> 00:24:04,120
+ while still offering the merchant a better deal.
+
+681
+00:24:04,120 --> 00:24:06,880
+ So that dynamic will encourage payment service providers
+
+682
+00:24:06,880 --> 00:24:07,840
+ in the US to switch.
+
+683
+00:24:07,840 --> 00:24:10,040
+ - They can raise their fees, get more money
+
+684
+00:24:10,040 --> 00:24:12,520
+ and yet still drop the cost for customers.
+
+685
+00:24:12,520 --> 00:24:13,760
+ - 'Cause they're cutting out the intermediary
+
+686
+00:24:13,760 --> 00:24:14,880
+ and it's an unbelievable opportunity.
+
+687
+00:24:14,880 --> 00:24:17,080
+ We've seen Stripe start to go in this direction.
+
+688
+00:24:17,080 --> 00:24:18,680
+ So they're the first to turn it on
+
+689
+00:24:18,680 --> 00:24:20,400
+ so they get this first mover advantage.
+
+690
+00:24:20,400 --> 00:24:24,040
+ They're charging 1.5% for stablecoin payments.
+
+691
+00:24:24,040 --> 00:24:24,880
+ That's pretty high.
+
+692
+00:24:24,880 --> 00:24:29,560
+ I think they're probably making 1% on every transaction
+
+693
+00:24:29,560 --> 00:24:32,000
+ but it's still a great deal for merchants
+
+694
+00:24:32,000 --> 00:24:34,200
+ because merchants are used to paying 3%.
+
+695
+00:24:34,200 --> 00:24:35,800
+ The merchants love it and Stripe loves it
+
+696
+00:24:35,800 --> 00:24:38,000
+ 'cause they take home a lot more money at the end of the day.
+
+697
+00:24:38,000 --> 00:24:40,680
+ So in the US, I think that's where we'll first see it
+
+698
+00:24:40,680 --> 00:24:42,080
+ where users aren't gonna realize
+
+699
+00:24:42,080 --> 00:24:43,600
+ that they're using crypto necessarily
+
+700
+00:24:43,600 --> 00:24:44,800
+ but the payment service providers
+
+701
+00:24:44,800 --> 00:24:46,960
+ are gonna be really pushing this new angle.
+
+702
+00:24:46,960 --> 00:24:48,680
+ In lower income or high inflation countries,
+
+703
+00:24:48,680 --> 00:24:50,360
+ people actually wanna hold stablecoins directly.
+
+704
+00:24:50,360 --> 00:24:51,520
+ They'll interact with it.
+
+705
+00:24:51,520 --> 00:24:52,960
+ They'll pay with it.
+
+706
+00:24:52,960 --> 00:24:55,640
+ We do have a ways to go though
+
+707
+00:24:55,640 --> 00:24:58,840
+ until everyone feels really comfortable with stablecoins.
+
+708
+00:24:58,840 --> 00:25:01,960
+ We need to create what some people call a stablecoin mullet.
+
+709
+00:25:01,960 --> 00:25:03,080
+ It's stablecoins in the back
+
+710
+00:25:03,080 --> 00:25:04,840
+ but it looks like you're used to in the front
+
+711
+00:25:04,840 --> 00:25:08,400
+ and people just get cheaper products that work better
+
+712
+00:25:08,400 --> 00:25:11,080
+ but they integrate where users already are.
+
+713
+00:25:11,080 --> 00:25:13,880
+ Another example just to linger on this for a second is Skype.
+
+714
+00:25:13,880 --> 00:25:15,840
+ People think of it as sort of video conferencing
+
+715
+00:25:15,840 --> 00:25:16,920
+ but when it first got started,
+
+716
+00:25:16,920 --> 00:25:18,920
+ one of the key features they enabled
+
+717
+00:25:18,920 --> 00:25:20,720
+ is that from your computer,
+
+718
+00:25:20,720 --> 00:25:22,720
+ you could call someone's landline.
+
+719
+00:25:22,720 --> 00:25:25,520
+ And so that interoperability
+
+720
+00:25:25,520 --> 00:25:28,240
+ is part of what created the onboarding.
+
+721
+00:25:28,240 --> 00:25:30,360
+ Stablecoins probably need to have that moment
+
+722
+00:25:30,360 --> 00:25:33,720
+ where from my wallet that holds stablecoins,
+
+723
+00:25:33,720 --> 00:25:36,040
+ I can hit anyone else's account
+
+724
+00:25:36,040 --> 00:25:38,640
+ no matter what denomination or technology it is.
+
+725
+00:25:38,640 --> 00:25:39,840
+ That backwards could be huge.
+
+726
+00:25:39,840 --> 00:25:41,480
+ And then eventually we're gonna end up with WhatsApp
+
+727
+00:25:41,480 --> 00:25:44,240
+ and FaceTime and things like once people fully get oriented
+
+728
+00:25:44,240 --> 00:25:45,360
+ to this new world,
+
+729
+00:25:45,360 --> 00:25:47,040
+ but we need to have Skype-like technology
+
+730
+00:25:47,040 --> 00:25:48,880
+ to integrate and be backwards compatible.
+
+731
+00:25:48,880 --> 00:25:51,360
+ - How do you achieve that backwards compatibility?
+
+732
+00:25:51,360 --> 00:25:53,720
+ I mean, if we're talking about how stablecoins
+
+733
+00:25:53,720 --> 00:25:55,760
+ and blockchains disintermediate,
+
+734
+00:25:55,760 --> 00:25:59,240
+ how are you gonna get existing players on board with that?
+
+735
+00:25:59,240 --> 00:26:01,040
+ - One of the things that we think about the most
+
+736
+00:26:01,040 --> 00:26:04,320
+ on the investing side is who is really gonna help us,
+
+737
+00:26:04,320 --> 00:26:07,680
+ help the world move forward with this new technology?
+
+738
+00:26:07,680 --> 00:26:09,120
+ The banks probably aren't gonna do it.
+
+739
+00:26:09,120 --> 00:26:10,760
+ They love the current situation.
+
+740
+00:26:10,760 --> 00:26:13,000
+ They're very stagnant.
+
+741
+00:26:13,000 --> 00:26:15,160
+ The FinTechs are extremely excited.
+
+742
+00:26:15,160 --> 00:26:17,440
+ They think, wow, I can go to market in 190 countries.
+
+743
+00:26:17,440 --> 00:26:19,720
+ I can be universally on everywhere.
+
+744
+00:26:19,720 --> 00:26:21,600
+ I can work with service providers,
+
+745
+00:26:21,600 --> 00:26:23,600
+ basically entrepreneurs who are building functionality.
+
+746
+00:26:23,600 --> 00:26:24,400
+ I don't wanna deal with.
+
+747
+00:26:24,400 --> 00:26:25,600
+ I wanna focus on my core product
+
+748
+00:26:25,600 --> 00:26:28,320
+ and let them move the rest forward.
+
+749
+00:26:28,320 --> 00:26:30,080
+ There are things also that we need to build
+
+750
+00:26:30,080 --> 00:26:34,800
+ on top of stablecoins to reach table stakes payments capability.
+
+751
+00:26:34,800 --> 00:26:38,120
+ So Chris mentioned chargebacks earlier,
+
+752
+00:26:38,120 --> 00:26:43,120
+ but like we also need escrow subscriptions, refunds.
+
+753
+00:26:43,120 --> 00:26:46,320
+ We need vaulting, which is where you store
+
+754
+00:26:46,320 --> 00:26:47,720
+ a payment credential on a website.
+
+755
+00:26:47,720 --> 00:26:50,160
+ Like when you go to Amazon, the credit card's already there.
+
+756
+00:26:50,160 --> 00:26:51,040
+ We need promotions.
+
+757
+00:26:51,040 --> 00:26:52,840
+ We need people to be able to easily discount.
+
+758
+00:26:52,840 --> 00:26:55,680
+ We need integration into ERPs,
+
+759
+00:26:55,680 --> 00:26:57,720
+ enterprise resource planning tools
+
+760
+00:26:57,720 --> 00:27:00,520
+ so that the CFO can look at the state of their business
+
+761
+00:27:00,520 --> 00:27:02,240
+ and say, I've got this many stablecoins.
+
+762
+00:27:02,240 --> 00:27:04,480
+ I'm gonna pay my supplier tomorrow.
+
+763
+00:27:04,480 --> 00:27:06,640
+ They're gonna get it in exchange for this invoice.
+
+764
+00:27:06,640 --> 00:27:08,800
+ Those are the integrations that need to be built
+
+765
+00:27:08,800 --> 00:27:10,120
+ if we wanna reach mass market.
+
+766
+00:27:10,120 --> 00:27:12,440
+ And there's a huge opportunities
+
+767
+00:27:12,440 --> 00:27:14,480
+ in each of those capabilities
+
+768
+00:27:14,480 --> 00:27:18,480
+ for people to reach traditional payment rail parity.
+
+769
+00:27:18,480 --> 00:27:21,360
+ There's another issue that I love talking about
+
+770
+00:27:21,360 --> 00:27:25,120
+ 'cause I was briefly working at the Boston Federal Reserve Bank,
+
+771
+00:27:25,120 --> 00:27:26,680
+ but the singleness of money,
+
+772
+00:27:26,680 --> 00:27:30,520
+ which is that I trust that a dollar in my wallet
+
+773
+00:27:30,520 --> 00:27:32,760
+ is the same as a dollar in your bank account
+
+774
+00:27:32,760 --> 00:27:35,520
+ and is worth a dollar in Chris's Venmo.
+
+775
+00:27:35,520 --> 00:27:38,760
+ That singleness of money took a long time to develop.
+
+776
+00:27:38,760 --> 00:27:41,560
+ I wrote a piece on the history of banking
+
+777
+00:27:41,560 --> 00:27:43,000
+ and how that relates to stablecoins.
+
+778
+00:27:43,000 --> 00:27:47,040
+ And before 1910, you really weren't positive
+
+779
+00:27:47,040 --> 00:27:49,160
+ that a dollar bill in your hand was worth a dollar bill
+
+780
+00:27:49,160 --> 00:27:52,520
+ in your hand 'cause you had to trust the credit worthiness
+
+781
+00:27:52,520 --> 00:27:54,280
+ of the bank that it was associated with.
+
+782
+00:27:54,280 --> 00:27:56,920
+ These were bank-issued dollars.
+
+783
+00:27:56,920 --> 00:28:01,480
+ And today, through a huge amount of regulation,
+
+784
+00:28:01,480 --> 00:28:04,640
+ but also sophisticated risk management, interoperability,
+
+785
+00:28:04,640 --> 00:28:06,920
+ clearinghouses, we've created a world
+
+786
+00:28:06,920 --> 00:28:09,120
+ where we do get dollar parity,
+
+787
+00:28:09,120 --> 00:28:11,800
+ where we have this trust that dollars are always worth the same.
+
+788
+00:28:11,800 --> 00:28:13,360
+ Today, we don't have that in stablecoins.
+
+789
+00:28:13,360 --> 00:28:15,440
+ - But that's a big part of why regulation's so important.
+
+790
+00:28:15,440 --> 00:28:18,000
+ - Let's jump in with the regulation question.
+
+791
+00:28:18,000 --> 00:28:20,520
+ - Currently, there is no kind of clear regulation
+
+792
+00:28:20,520 --> 00:28:23,840
+ around stablecoins and just more broadly in crypto.
+
+793
+00:28:23,840 --> 00:28:27,960
+ There's laws passed in the 1930s and later
+
+794
+00:28:27,960 --> 00:28:32,160
+ that can arguably be interpreted to apply here,
+
+795
+00:28:32,160 --> 00:28:33,280
+ but there's a lot of confusion.
+
+796
+00:28:33,280 --> 00:28:34,600
+ - When you say things that could apply
+
+797
+00:28:34,600 --> 00:28:35,960
+ from the 1930s, are we talking about like--
+
+798
+00:28:35,960 --> 00:28:37,480
+ - Yeah, securities law, how we test.
+
+799
+00:28:37,480 --> 00:28:39,200
+ And this is like 1930s kind of stuff.
+
+800
+00:28:39,200 --> 00:28:41,320
+ And like certain tokens or commodities,
+
+801
+00:28:41,320 --> 00:28:42,920
+ the regulators in the US have said
+
+802
+00:28:42,920 --> 00:28:44,840
+ that Bitcoin and Ethereum are commodities
+
+803
+00:28:44,840 --> 00:28:46,840
+ and other tokens might be securities
+
+804
+00:28:46,840 --> 00:28:47,760
+ and where do you draw the line?
+
+805
+00:28:47,760 --> 00:28:49,720
+ And what we want, what entrepreneurs want
+
+806
+00:28:49,720 --> 00:28:52,360
+ are very clear, bright line rules
+
+807
+00:28:52,360 --> 00:28:54,280
+ so they know they can stay within them
+
+808
+00:28:54,280 --> 00:28:57,760
+ that allow for innovation, but put guardrails around
+
+809
+00:28:57,760 --> 00:29:00,040
+ and prevent another FTX from happening.
+
+810
+00:29:00,040 --> 00:29:01,840
+ I mean, I think these catastrophic failures,
+
+811
+00:29:01,840 --> 00:29:04,680
+ Terra Luna FTX, first and foremost,
+
+812
+00:29:04,680 --> 00:29:06,960
+ we're devastating to the customers
+
+813
+00:29:06,960 --> 00:29:08,000
+ who lost money and things.
+
+814
+00:29:08,000 --> 00:29:10,480
+ But also we're devastating to the industry, right?
+
+815
+00:29:10,480 --> 00:29:12,320
+ I mean, destruction of trust
+
+816
+00:29:12,320 --> 00:29:15,560
+ and just sort of general harm to the broader
+
+817
+00:29:15,560 --> 00:29:17,880
+ blockchain technology movement was huge.
+
+818
+00:29:17,880 --> 00:29:19,040
+ And that looms over us.
+
+819
+00:29:19,040 --> 00:29:20,760
+ When you take stablecoins, I think there's a chance
+
+820
+00:29:20,760 --> 00:29:22,360
+ that that could happen again right now.
+
+821
+00:29:22,360 --> 00:29:23,440
+ And it's just simply the volumes.
+
+822
+00:29:23,440 --> 00:29:26,160
+ I mean, the stablecoins are 2X last month
+
+823
+00:29:26,160 --> 00:29:28,000
+ or roughly or something, Visa's volume.
+
+824
+00:29:28,000 --> 00:29:29,840
+ I mean, these are trillions of dollars in volumes.
+
+825
+00:29:29,840 --> 00:29:31,000
+ - The first quarter of this year,
+
+826
+00:29:31,000 --> 00:29:33,680
+ stablecoins had the most transaction volume
+
+827
+00:29:33,680 --> 00:29:34,880
+ that they've ever had.
+
+828
+00:29:34,880 --> 00:29:36,840
+ - So I know I'm not saying anything negative
+
+829
+00:29:36,840 --> 00:29:38,560
+ about a specific project or anything like that,
+
+830
+00:29:38,560 --> 00:29:41,200
+ but you just say like, if we had another catastrophe,
+
+831
+00:29:41,200 --> 00:29:42,040
+ where would it be?
+
+832
+00:29:42,040 --> 00:29:44,800
+ It's the things where the really high volumes are, right?
+
+833
+00:29:44,800 --> 00:29:46,360
+ So the point is just like, first and foremost,
+
+834
+00:29:46,360 --> 00:29:47,680
+ let's make sure there isn't a catastrophe.
+
+835
+00:29:47,680 --> 00:29:48,640
+ And so what would you do?
+
+836
+00:29:48,640 --> 00:29:52,120
+ This is what the pending proposed bills in Congress do,
+
+837
+00:29:52,120 --> 00:29:53,440
+ is they have requirements.
+
+838
+00:29:53,440 --> 00:29:55,520
+ So for example, the requirements essentially
+
+839
+00:29:55,520 --> 00:29:58,680
+ that you're fully asset backed by high quality,
+
+840
+00:29:58,680 --> 00:30:01,080
+ short-term financial products of treasury bills,
+
+841
+00:30:01,080 --> 00:30:01,920
+ things like this.
+
+842
+00:30:01,920 --> 00:30:03,120
+ If the user thinks they have a dollar,
+
+843
+00:30:03,120 --> 00:30:05,920
+ that means they're literally in a audited US bank.
+
+844
+00:30:05,920 --> 00:30:07,480
+ There's something that's a lot like a dollar,
+
+845
+00:30:07,480 --> 00:30:09,920
+ like either of dollars or treasury bills.
+
+846
+00:30:09,920 --> 00:30:12,280
+ And so the bill spells out what those assets are,
+
+847
+00:30:12,280 --> 00:30:14,080
+ what the reserve requirements are,
+
+848
+00:30:14,080 --> 00:30:15,720
+ spells out auditing requirements.
+
+849
+00:30:15,720 --> 00:30:18,600
+ So you don't just take my word for it that the bank, right?
+
+850
+00:30:18,600 --> 00:30:19,560
+ They have an actual auditor.
+
+851
+00:30:19,560 --> 00:30:21,680
+ And all of these things would have prevented things like FTX.
+
+852
+00:30:21,680 --> 00:30:24,280
+ I mean, it also has rules around interoperating
+
+853
+00:30:24,280 --> 00:30:25,120
+ across countries.
+
+854
+00:30:25,120 --> 00:30:26,960
+ It's essentially like reciprocity ideas
+
+855
+00:30:26,960 --> 00:30:29,640
+ so that if other countries want to interoperate
+
+856
+00:30:29,640 --> 00:30:32,000
+ with these systems, they have to have similar rules.
+
+857
+00:30:32,000 --> 00:30:33,760
+ So, you know, this would set the template,
+
+858
+00:30:33,760 --> 00:30:36,000
+ which would hopefully propagate out.
+
+859
+00:30:36,000 --> 00:30:36,920
+ It's kind of a no-brainer.
+
+860
+00:30:36,920 --> 00:30:39,080
+ I mean, look, we think a much bigger policy issue
+
+861
+00:30:39,080 --> 00:30:41,000
+ is the broader confusion.
+
+862
+00:30:41,000 --> 00:30:42,880
+ And so that's why that would hopefully be addressed
+
+863
+00:30:42,880 --> 00:30:44,560
+ by what people are calling a market structure bill,
+
+864
+00:30:44,560 --> 00:30:45,520
+ which is similar to a bill
+
+865
+00:30:45,520 --> 00:30:48,280
+ that passed to House Representatives last year called 521.
+
+866
+00:30:48,280 --> 00:30:51,240
+ That's really the high-level policy fix here.
+
+867
+00:30:51,240 --> 00:30:53,040
+ Stable coins are a lower priority for us,
+
+868
+00:30:53,040 --> 00:30:55,680
+ but it's just such a kind of no-brainer obvious thing to do
+
+869
+00:30:55,680 --> 00:30:57,440
+ that we think should be done.
+
+870
+00:30:57,440 --> 00:30:59,600
+ Like, why wouldn't you have regulation on these things
+
+871
+00:30:59,600 --> 00:31:01,080
+ and have all this ambiguity?
+
+872
+00:31:01,080 --> 00:31:02,800
+ And so that's kind of the late land.
+
+873
+00:31:02,800 --> 00:31:05,480
+ I mean, we're hoping that there's some momentum now
+
+874
+00:31:05,480 --> 00:31:08,480
+ to get these sort of two potential bills passed this year,
+
+875
+00:31:08,480 --> 00:31:10,440
+ which would, I think, really clarify both stable coins
+
+876
+00:31:10,440 --> 00:31:11,960
+ and the rest of the space.
+
+877
+00:31:11,960 --> 00:31:14,000
+ That would also have this sort of trickle-down effect,
+
+878
+00:31:14,000 --> 00:31:16,680
+ which is to regulate the stable coin itself,
+
+879
+00:31:16,680 --> 00:31:19,400
+ which is kind of the app layer of these things.
+
+880
+00:31:19,400 --> 00:31:21,960
+ But it also would put requirements
+
+881
+00:31:21,960 --> 00:31:24,120
+ around, like, if a bank is going to issue a stable coin,
+
+882
+00:31:24,120 --> 00:31:25,920
+ they need to make sure the underlying infrastructure
+
+883
+00:31:25,920 --> 00:31:27,320
+ meets certain requirements as well.
+
+884
+00:31:27,320 --> 00:31:28,600
+ So that's sort of the blockchain layer,
+
+885
+00:31:28,600 --> 00:31:30,960
+ like Ethereum and Solana and those things.
+
+886
+00:31:30,960 --> 00:31:34,160
+ So it's going to have this kind of trust-propagating fact
+
+887
+00:31:34,160 --> 00:31:36,480
+ where you're going to have all of the infrastructure
+
+888
+00:31:36,480 --> 00:31:38,640
+ will kind of have to level up and be more mature,
+
+889
+00:31:38,640 --> 00:31:40,520
+ because that's another risk right now.
+
+890
+00:31:40,520 --> 00:31:42,400
+ I think one other thing to think about with regulation
+
+891
+00:31:42,400 --> 00:31:45,160
+ is it not only has the literal laws and policies
+
+892
+00:31:45,160 --> 00:31:48,120
+ passed, but it's also an important signaling effect,
+
+893
+00:31:48,120 --> 00:31:51,520
+ which is a lot of these institutions in the financial space
+
+894
+00:31:51,520 --> 00:31:53,800
+ are very risk-averse.
+
+895
+00:31:53,800 --> 00:31:55,360
+ They're very heavily regulated.
+
+896
+00:31:55,360 --> 00:31:57,400
+ They're honestly very scared of doing anything
+
+897
+00:31:57,400 --> 00:31:59,720
+ that gets even remotely close to something
+
+898
+00:31:59,720 --> 00:32:00,880
+ they perceive as risky.
+
+899
+00:32:00,880 --> 00:32:04,040
+ And to have, specifically, legislation.
+
+900
+00:32:04,040 --> 00:32:06,680
+ So, I mean, legislation is the highest form of regulation.
+
+901
+00:32:06,680 --> 00:32:07,480
+ It's the most powerful.
+
+902
+00:32:07,480 --> 00:32:09,120
+ It's Congress, the United States of America,
+
+903
+00:32:09,120 --> 00:32:13,600
+ passing a law, which is kind of from a signaling and longevity
+
+904
+00:32:13,600 --> 00:32:16,840
+ and just all the other kinds of atmospheric surrounded
+
+905
+00:32:16,840 --> 00:32:19,440
+ by far the strongest statement that a government can make
+
+906
+00:32:19,440 --> 00:32:21,280
+ beyond, sort of, let's say, an agency
+
+907
+00:32:21,280 --> 00:32:23,320
+ putting out guidance as an example.
+
+908
+00:32:23,320 --> 00:32:24,800
+ And so that will be very important, too.
+
+909
+00:32:24,800 --> 00:32:27,360
+ I think it will really legitimate this technology
+
+910
+00:32:27,360 --> 00:32:31,560
+ and allow a lot of institutions who right now are on the fence.
+
+911
+00:32:31,560 --> 00:32:33,280
+ And I've heard this, and I think Sam,
+
+912
+00:32:33,280 --> 00:32:35,120
+ you probably have, too, directly from these institutions.
+
+913
+00:32:35,120 --> 00:32:37,760
+ They're waiting for that kind of stamp of approval
+
+914
+00:32:37,760 --> 00:32:39,400
+ that legislation would provide.
+
+915
+00:32:39,400 --> 00:32:41,360
+ - It's probably where it's quickly summarizing
+
+916
+00:32:41,360 --> 00:32:43,360
+ the state of regulation on stablecoins.
+
+917
+00:32:43,360 --> 00:32:45,960
+ And we have these two acts, Genius and Stable Act,
+
+918
+00:32:45,960 --> 00:32:48,880
+ that are currently being talked about in Congress and seem.
+
+919
+00:32:48,880 --> 00:32:49,720
+ You know, really exciting.
+
+920
+00:32:49,720 --> 00:32:51,320
+ It's, like, clear rules for the road.
+
+921
+00:32:51,320 --> 00:32:53,200
+ It's robust consumer protections.
+
+922
+00:32:53,200 --> 00:32:56,720
+ And it's AML, KYC, that makes sense for payments.
+
+923
+00:32:56,720 --> 00:33:01,200
+ And then the OCC has greenlit bank crypto activities.
+
+924
+00:33:01,200 --> 00:33:03,120
+ So now bank's concussity.
+
+925
+00:33:03,120 --> 00:33:05,280
+ Crypto assets hold, typical reserves.
+
+926
+00:33:05,280 --> 00:33:07,840
+ And then the SEC has clarified that
+
+927
+00:33:07,840 --> 00:33:10,160
+ stablecoins are not securities if they're used for payments,
+
+928
+00:33:10,160 --> 00:33:11,680
+ if they're appropriately backed.
+
+929
+00:33:11,680 --> 00:33:14,280
+ Things that work with the proposed demo coin bills,
+
+930
+00:33:14,280 --> 00:33:15,600
+ the Genius and Stable Acts.
+
+931
+00:33:15,600 --> 00:33:18,160
+ - The Fed also recently withdrew its bank guidance
+
+932
+00:33:18,160 --> 00:33:20,520
+ where it required banks to seek permission
+
+933
+00:33:20,520 --> 00:33:22,000
+ if they were gonna do anything crypto related.
+
+934
+00:33:22,000 --> 00:33:25,080
+ So now that's cleared a way for them to get into this.
+
+935
+00:33:25,080 --> 00:33:28,280
+ - Yeah, but you don't think you build, like, I don't know.
+
+936
+00:33:28,280 --> 00:33:29,640
+ I mean, I've spent my career on the internet
+
+937
+00:33:29,640 --> 00:33:32,160
+ and I've just very influenced by how the internet policy worked.
+
+938
+00:33:32,160 --> 00:33:33,680
+ But what was so important for the internet
+
+939
+00:33:33,680 --> 00:33:35,160
+ was legislation passed in the '90s.
+
+940
+00:33:35,160 --> 00:33:37,080
+ And specifically, the '96 Telecom Act
+
+941
+00:33:37,080 --> 00:33:39,840
+ was a landmark bill that had a whole bunch of things,
+
+942
+00:33:39,840 --> 00:33:40,920
+ including Section 230,
+
+943
+00:33:40,920 --> 00:33:42,160
+ which is really the foundation
+
+944
+00:33:42,160 --> 00:33:44,040
+ of how you could build on the internet,
+
+945
+00:33:44,040 --> 00:33:45,960
+ because you knew that, I mean, it can be changed,
+
+946
+00:33:45,960 --> 00:33:48,600
+ but it's in practice, effectively permanent,
+
+947
+00:33:48,600 --> 00:33:49,560
+ because it's very hard to change.
+
+948
+00:33:49,560 --> 00:33:51,400
+ And Section 230 as an example,
+
+949
+00:33:51,400 --> 00:33:53,520
+ enabled marketplaces and social networks to exist,
+
+950
+00:33:53,520 --> 00:33:55,200
+ because it said that without that,
+
+951
+00:33:55,200 --> 00:33:56,960
+ all these things would have gotten sued into oblivion,
+
+952
+00:33:56,960 --> 00:33:59,600
+ and it gave them some reasonable kind of safe harbor
+
+953
+00:33:59,600 --> 00:34:04,600
+ that tried to balance protections for users and platforms.
+
+954
+00:34:04,600 --> 00:34:05,600
+ And that's very important,
+
+955
+00:34:05,600 --> 00:34:07,960
+ because if you're an entrepreneur and back in the 2000s,
+
+956
+00:34:07,960 --> 00:34:10,760
+ for example, who was thinking of devoting your life
+
+957
+00:34:10,760 --> 00:34:12,560
+ to building this,
+
+958
+00:34:12,560 --> 00:34:14,280
+ you wanted to know that it wouldn't be something
+
+959
+00:34:14,280 --> 00:34:15,720
+ that would just get turned off
+
+960
+00:34:15,720 --> 00:34:17,760
+ with a new political environment, right?
+
+961
+00:34:17,760 --> 00:34:19,480
+ You need to solve a foundation to build on.
+
+962
+00:34:19,480 --> 00:34:21,720
+ And so that was passed, and that was the foundation.
+
+963
+00:34:21,720 --> 00:34:22,840
+ I mean, the internet wouldn't have existed.
+
+964
+00:34:22,840 --> 00:34:25,120
+ The US wouldn't be the leader in the internet, in my view.
+
+965
+00:34:25,120 --> 00:34:26,960
+ And so we just want to have a similar thing here.
+
+966
+00:34:26,960 --> 00:34:29,840
+ And at Sam's point, there's different details on the bills.
+
+967
+00:34:29,840 --> 00:34:32,080
+ Like one controversial aspect in the stablecoin bill
+
+968
+00:34:32,080 --> 00:34:35,000
+ is whether the stablecoins can provide yield
+
+969
+00:34:35,000 --> 00:34:37,920
+ directly to consumers as someone who believes tech
+
+970
+00:34:37,920 --> 00:34:39,400
+ should mostly benefit consumers.
+
+971
+00:34:39,400 --> 00:34:40,480
+ I think that would be good.
+
+972
+00:34:40,480 --> 00:34:45,480
+ If consumers could get there 4% and not 0%.
+
+973
+00:34:45,480 --> 00:34:46,600
+ - For what it's worth,
+
+974
+00:34:46,600 --> 00:34:48,960
+ that's not an issue that I particularly care about.
+
+975
+00:34:48,960 --> 00:34:50,440
+ - Look, I mean, there's a political realities,
+
+976
+00:34:50,440 --> 00:34:52,760
+ which is that stablecoins as payments,
+
+977
+00:34:52,760 --> 00:34:54,880
+ which would mean sort of no giving yield,
+
+978
+00:34:54,880 --> 00:34:57,240
+ is something we can get political alignment around.
+
+979
+00:34:57,240 --> 00:34:58,720
+ If you start to give yield,
+
+980
+00:34:58,720 --> 00:35:00,360
+ you start to really compete with the banks,
+
+981
+00:35:00,360 --> 00:35:04,080
+ and then it becomes a much more fraught political discussion
+
+982
+00:35:04,080 --> 00:35:06,720
+ because it's a huge industry, incumbent industry.
+
+983
+00:35:06,720 --> 00:35:07,560
+ We're going to oppose things.
+
+984
+00:35:07,560 --> 00:35:09,840
+ So yes, and also I think the other thing I would say
+
+985
+00:35:09,840 --> 00:35:11,840
+ is from an incentive point of view,
+
+986
+00:35:11,840 --> 00:35:14,040
+ if you want these to be used as payments,
+
+987
+00:35:14,040 --> 00:35:15,080
+ if you're getting 4%,
+
+988
+00:35:15,080 --> 00:35:16,800
+ you're not going to want to give it up as much, right?
+
+989
+00:35:16,800 --> 00:35:18,080
+ Like, so if there's 0%,
+
+990
+00:35:18,080 --> 00:35:19,600
+ you're going to have much higher velocity.
+
+991
+00:35:19,600 --> 00:35:21,720
+ And so they are going to be like,
+
+992
+00:35:21,720 --> 00:35:25,400
+ let this bill pass as it is, build this payment system,
+
+993
+00:35:25,400 --> 00:35:27,640
+ and you can build other systems for building yield.
+
+994
+00:35:27,640 --> 00:35:28,960
+ - That's how I would like it to play out.
+
+995
+00:35:28,960 --> 00:35:31,720
+ I mean, I want the distributors,
+
+996
+00:35:31,720 --> 00:35:33,240
+ people who are giving people stablecoins
+
+997
+00:35:33,240 --> 00:35:35,640
+ to be able to have a small cut at the apple
+
+998
+00:35:35,640 --> 00:35:38,840
+ to get a benefit for distributing stablecoins.
+
+999
+00:35:38,840 --> 00:35:42,040
+ And so we're going to build a more competitive environment
+
+1000
+00:35:42,040 --> 00:35:44,280
+ where people are going to get more of their yield.
+
+1001
+00:35:44,280 --> 00:35:46,000
+ And look, there's a difference between spending money
+
+1002
+00:35:46,000 --> 00:35:47,080
+ and saving money.
+
+1003
+00:35:47,080 --> 00:35:48,760
+ I'm happy if when you're saving,
+
+1004
+00:35:48,760 --> 00:35:51,880
+ you put it into a DeFi protocol where you get 5%,
+
+1005
+00:35:51,880 --> 00:35:54,200
+ or you leave it with Coinbase where you get 5%.
+
+1006
+00:35:54,200 --> 00:35:56,000
+ But when you're spending it, you get zero,
+
+1007
+00:35:56,000 --> 00:35:58,320
+ and then you use the programability of stablecoins
+
+1008
+00:35:58,320 --> 00:36:01,880
+ to sweep it back into that yield-bearing holding spot.
+
+1009
+00:36:01,880 --> 00:36:04,840
+ The key thing is we need to get legislation done
+
+1010
+00:36:04,840 --> 00:36:07,080
+ so that people can actually use these things for payments
+
+1011
+00:36:07,080 --> 00:36:09,320
+ and make for a better product overall.
+
+1012
+00:36:09,320 --> 00:36:11,120
+ - Again, going back, these are networks,
+
+1013
+00:36:11,120 --> 00:36:12,240
+ and networks have network effects,
+
+1014
+00:36:12,240 --> 00:36:13,200
+ meaning they get more valuable
+
+1015
+00:36:13,200 --> 00:36:14,840
+ to more nodes on the network.
+
+1016
+00:36:14,840 --> 00:36:16,640
+ And we're in a situation here with stablecoins
+
+1017
+00:36:16,640 --> 00:36:20,320
+ where 99% of the nodes that matter are highly regulated.
+
+1018
+00:36:20,320 --> 00:36:21,520
+ I mean, it's kind of remarkable
+
+1019
+00:36:21,520 --> 00:36:23,960
+ that we have trillions of dollars in monthly volume
+
+1020
+00:36:23,960 --> 00:36:26,200
+ where 99% of the participants of the network
+
+1021
+00:36:26,200 --> 00:36:28,280
+ feel like they can't join the network right now.
+
+1022
+00:36:28,280 --> 00:36:30,640
+ So the big unlock is one actual rules
+
+1023
+00:36:30,640 --> 00:36:32,440
+ that protect you from an FTX.
+
+1024
+00:36:32,440 --> 00:36:35,280
+ And then number two is now you've suddenly unlocked
+
+1025
+00:36:35,280 --> 00:36:39,480
+ this 99% of the world to join this network.
+
+1026
+00:36:39,480 --> 00:36:41,520
+ - Are you expecting those volumes to explode then
+
+1027
+00:36:41,520 --> 00:36:43,600
+ after regulation gets passed?
+
+1028
+00:36:43,600 --> 00:36:44,600
+ - I think it'll be like anything, right?
+
+1029
+00:36:44,600 --> 00:36:48,520
+ Like the stripes of the world, the super smart FinTechs
+
+1030
+00:36:48,520 --> 00:36:51,280
+ have already done it, they're already at volume scale,
+
+1031
+00:36:51,280 --> 00:36:53,000
+ and they'll just ramp that, right?
+
+1032
+00:36:53,000 --> 00:36:55,160
+ Here, the benefit is just so obvious
+
+1033
+00:36:55,160 --> 00:36:57,080
+ that I think it's gonna be clearly dominant.
+
+1034
+00:36:57,080 --> 00:36:58,840
+ Specific timing is harder to predict.
+
+1035
+00:36:58,840 --> 00:37:00,120
+ - Look, the ones that are really innovative
+
+1036
+00:37:00,120 --> 00:37:01,800
+ are already doing this, and they're reaching out to us
+
+1037
+00:37:01,800 --> 00:37:05,120
+ and saying, yo, who do we work with to make this happen?
+
+1038
+00:37:05,120 --> 00:37:06,520
+ And then some of the banks are reticent
+
+1039
+00:37:06,520 --> 00:37:08,040
+ 'cause they don't want to give up the current model
+
+1040
+00:37:08,040 --> 00:37:11,080
+ where they get a lot of the benefit of how payments work.
+
+1041
+00:37:11,080 --> 00:37:16,160
+ And so over the next six months, 12 months, two years,
+
+1042
+00:37:16,160 --> 00:37:19,440
+ I expect to see a lot of people helping FinTechs,
+
+1043
+00:37:19,440 --> 00:37:21,760
+ helping these banks move forward and adopts Democrats
+
+1044
+00:37:21,760 --> 00:37:22,640
+ 'cause they're just so obvious
+
+1045
+00:37:22,640 --> 00:37:24,040
+ that it's a better solution for them,
+
+1046
+00:37:24,040 --> 00:37:25,400
+ even if they don't want to do it today.
+
+1047
+00:37:25,400 --> 00:37:26,880
+ - Yeah, at some point, the bit flips
+
+1048
+00:37:26,880 --> 00:37:30,400
+ where like if you're most of the world
+
+1049
+00:37:30,400 --> 00:37:32,560
+ they're conservative middle managers or whatever.
+
+1050
+00:37:32,560 --> 00:37:35,040
+ At some point, the bit flips where it's now
+
+1051
+00:37:35,040 --> 00:37:37,800
+ greater risk to your career to not do it than to do it,
+
+1052
+00:37:37,800 --> 00:37:39,440
+ right, and it works hard from that point,
+
+1053
+00:37:39,440 --> 00:37:40,680
+ but at some point, that will flip.
+
+1054
+00:37:40,680 --> 00:37:41,960
+ - Network effects do have a lot of gravity.
+
+1055
+00:37:41,960 --> 00:37:44,640
+ Like if 30% of people or a lot of people in one geography
+
+1056
+00:37:44,640 --> 00:37:46,280
+ have access to stablecoins,
+
+1057
+00:37:46,280 --> 00:37:49,560
+ you don't actually need on and off ramp infrastructure anymore,
+
+1058
+00:37:49,560 --> 00:37:51,200
+ but you need it in order to get there.
+
+1059
+00:37:51,200 --> 00:37:53,000
+ And so there's gonna be a point where
+
+1060
+00:37:53,000 --> 00:37:56,400
+ stablecoins become default on, everyone has to have it.
+
+1061
+00:37:56,400 --> 00:37:57,880
+ That's when the network effect is really strong,
+
+1062
+00:37:57,880 --> 00:37:58,840
+ and that's where we're gonna see
+
+1063
+00:37:58,840 --> 00:38:00,320
+ that the laggards are gonna get killed
+
+1064
+00:38:00,320 --> 00:38:02,240
+ until they update their infrastructure
+
+1065
+00:38:02,240 --> 00:38:04,840
+ to allow stablecoins to be integrated natively.
+
+1066
+00:38:04,840 --> 00:38:08,000
+ - So the value to consumers seems pretty clear,
+
+1067
+00:38:08,000 --> 00:38:11,680
+ cheaper, faster, global, instant payments,
+
+1068
+00:38:11,680 --> 00:38:14,200
+ but from a business perspective,
+
+1069
+00:38:14,200 --> 00:38:16,200
+ if you are dealing with stablecoins,
+
+1070
+00:38:16,200 --> 00:38:18,400
+ if you're issuing them, distributing them,
+
+1071
+00:38:18,400 --> 00:38:20,560
+ is this a good business to be in?
+
+1072
+00:38:20,560 --> 00:38:23,720
+ As more competition enters, as interest rates decline,
+
+1073
+00:38:23,720 --> 00:38:26,720
+ as different players start offering yield,
+
+1074
+00:38:26,720 --> 00:38:29,720
+ if that's allowed, I mean PayPal is now offering
+
+1075
+00:38:29,720 --> 00:38:32,880
+ close to 4% yields on stablecoin holdings
+
+1076
+00:38:32,880 --> 00:38:35,600
+ in their Venmo and PayPal wallets.
+
+1077
+00:38:35,600 --> 00:38:38,120
+ As you start having this competition
+
+1078
+00:38:38,120 --> 00:38:40,840
+ and these different kind of macroeconomic changes happen,
+
+1079
+00:38:40,840 --> 00:38:44,480
+ does the stablecoin business remain a good business to be in?
+
+1080
+00:38:44,480 --> 00:38:47,840
+ - So right now, if you are not a financial institution,
+
+1081
+00:38:47,840 --> 00:38:50,320
+ you are not in the payments business anyway.
+
+1082
+00:38:50,320 --> 00:38:51,960
+ You have to pay these guys
+
+1083
+00:38:51,960 --> 00:38:54,720
+ in order to use payment rails every time you do it.
+
+1084
+00:38:54,720 --> 00:38:56,200
+ So if you're a business who's thinking,
+
+1085
+00:38:56,200 --> 00:38:57,680
+ "I've got a cool feature.
+
+1086
+00:38:57,680 --> 00:39:01,440
+ "I think if we did 10 cents for a like or tipping creators,
+
+1087
+00:39:01,440 --> 00:39:03,400
+ "you've got to go find a service provider
+
+1088
+00:39:03,400 --> 00:39:04,800
+ "that you're paying a lot of money to
+
+1089
+00:39:04,800 --> 00:39:06,680
+ "in order to implement that feature."
+
+1090
+00:39:06,680 --> 00:39:08,320
+ In the world with stablecoins,
+
+1091
+00:39:08,320 --> 00:39:09,880
+ you can just build it just as easily
+
+1092
+00:39:09,880 --> 00:39:11,160
+ as you can set up a database.
+
+1093
+00:39:11,160 --> 00:39:13,400
+ So is it worthwhile to get into stablecoins?
+
+1094
+00:39:13,400 --> 00:39:15,320
+ Well, maybe for the banks,
+
+1095
+00:39:15,320 --> 00:39:16,800
+ this is not the best thing in the world.
+
+1096
+00:39:16,800 --> 00:39:19,120
+ But if you are an innovative business
+
+1097
+00:39:19,120 --> 00:39:21,320
+ that wants to include money,
+
+1098
+00:39:21,320 --> 00:39:23,840
+ one of the most basic things that we use all day
+
+1099
+00:39:23,840 --> 00:39:26,240
+ in your product without going and dealing
+
+1100
+00:39:26,240 --> 00:39:27,960
+ with some extractive entity,
+
+1101
+00:39:27,960 --> 00:39:30,480
+ you're so excited about the opportunity
+
+1102
+00:39:30,480 --> 00:39:32,040
+ you now have with stablecoins.
+
+1103
+00:39:32,040 --> 00:39:32,880
+ Now, for the FinTechs,
+
+1104
+00:39:32,880 --> 00:39:34,880
+ they're also beholden to the banks in some ways.
+
+1105
+00:39:34,880 --> 00:39:36,120
+ So they're gonna be the first to adopt.
+
+1106
+00:39:36,120 --> 00:39:37,760
+ It makes their infrastructure a lot easier to manage
+
+1107
+00:39:37,760 --> 00:39:38,800
+ and build.
+
+1108
+00:39:38,800 --> 00:39:40,320
+ And then there's gonna be some innovative banks
+
+1109
+00:39:40,320 --> 00:39:43,720
+ who say, "Look, we've got this amount of deposits today.
+
+1110
+00:39:43,720 --> 00:39:45,080
+ "We're getting that interest margin on it,
+
+1111
+00:39:45,080 --> 00:39:46,480
+ "but we're not gonna go away.
+
+1112
+00:39:46,480 --> 00:39:48,440
+ "We're in the tail end of our ability
+
+1113
+00:39:48,440 --> 00:39:51,320
+ "to have deposits be locked up in this account.
+
+1114
+00:39:51,320 --> 00:39:53,280
+ "And so we're gonna have to start working
+
+1115
+00:39:53,280 --> 00:39:55,680
+ "with modern rails, offer new tooling.
+
+1116
+00:39:55,680 --> 00:39:57,720
+ "And banks are always resistant to new tooling.
+
+1117
+00:39:57,720 --> 00:39:59,520
+ "But they're gonna have to get on board
+
+1118
+00:39:59,520 --> 00:40:03,120
+ "when they realize that that's how payments work going forward.
+
+1119
+00:40:03,120 --> 00:40:04,800
+ "And for the really innovative ones,
+
+1120
+00:40:04,800 --> 00:40:07,840
+ "they're actually gonna be able to expand
+
+1121
+00:40:07,840 --> 00:40:10,240
+ "their net interest margin to dollars
+
+1122
+00:40:10,240 --> 00:40:11,800
+ "that are off their platform.
+
+1123
+00:40:11,800 --> 00:40:13,280
+ "And so an innovative bank would say,
+
+1124
+00:40:13,280 --> 00:40:15,240
+ "Actually, we could expand our deposits
+
+1125
+00:40:15,240 --> 00:40:16,800
+ "by embracing stablecoins.
+
+1126
+00:40:16,800 --> 00:40:19,200
+ "But so far, the banks haven't been that forward looking.
+
+1127
+00:40:19,200 --> 00:40:22,280
+ "I'm excited to see the first banks who do do that
+
+1128
+00:40:22,280 --> 00:40:24,960
+ "because they're gonna get a lot of market share that way
+
+1129
+00:40:24,960 --> 00:40:27,280
+ "and expand revenue.
+
+1130
+00:40:27,280 --> 00:40:28,760
+ "We just haven't seen it from the banks yet."
+
+1131
+00:40:28,760 --> 00:40:30,960
+ - Yeah, I mean, it's a good question.
+
+1132
+00:40:30,960 --> 00:40:33,440
+ I mean, like in our job, what we do right is we say,
+
+1133
+00:40:33,440 --> 00:40:34,800
+ "Okay, what are the big trends coming
+
+1134
+00:40:34,800 --> 00:40:36,880
+ "and how do we bet on them?"
+
+1135
+00:40:36,880 --> 00:40:38,280
+ And so the stablecoins are probably
+
+1136
+00:40:38,280 --> 00:40:40,960
+ the biggest, most obvious trend happening in this area.
+
+1137
+00:40:40,960 --> 00:40:42,240
+ And we've had this conversation
+
+1138
+00:40:42,240 --> 00:40:43,520
+ like how do we make a bet on them?
+
+1139
+00:40:43,520 --> 00:40:46,920
+ And to be candid, it's much harder than in most tech trends.
+
+1140
+00:40:46,920 --> 00:40:49,080
+ And that is because of the things we were saying earlier
+
+1141
+00:40:49,080 --> 00:40:52,400
+ in the podcast, which is, it's kind of a public good.
+
+1142
+00:40:52,400 --> 00:40:55,040
+ I mean, it's just like building kind of a highway system
+
+1143
+00:40:55,040 --> 00:40:57,360
+ for the people to send stuff cheaply
+
+1144
+00:40:57,360 --> 00:40:58,560
+ you're removing the intermediary.
+
+1145
+00:40:58,560 --> 00:41:00,920
+ So you can't invest in the intermediary as an example
+
+1146
+00:41:00,920 --> 00:41:03,360
+ because that's the whole point as you're removing them.
+
+1147
+00:41:03,360 --> 00:41:06,160
+ There's a typical effect of these kinds of information
+
+1148
+00:41:06,160 --> 00:41:08,120
+ and internet businesses is you grow the market,
+
+1149
+00:41:08,120 --> 00:41:10,560
+ you grow GDP, you grow usage.
+
+1150
+00:41:10,560 --> 00:41:12,960
+ So they'll be, if this works, you lower fees
+
+1151
+00:41:12,960 --> 00:41:15,560
+ and there'll be more payments and more economic activity.
+
+1152
+00:41:15,560 --> 00:41:17,560
+ But the take rates will go down, right?
+
+1153
+00:41:17,560 --> 00:41:19,000
+ The amount of sort of extract will go down.
+
+1154
+00:41:19,000 --> 00:41:21,160
+ Now, that said, with all these new opportunities,
+
+1155
+00:41:21,160 --> 00:41:23,360
+ there's always like often there are, you know,
+
+1156
+00:41:23,360 --> 00:41:25,000
+ new software businesses and example,
+
+1157
+00:41:25,000 --> 00:41:27,560
+ like if every bank suddenly wants stable an infrastructure,
+
+1158
+00:41:27,560 --> 00:41:29,320
+ they would presumably want to buy that software
+
+1159
+00:41:29,320 --> 00:41:30,320
+ and not build it.
+
+1160
+00:41:30,320 --> 00:41:31,840
+ So if somebody will provide that software
+
+1161
+00:41:31,840 --> 00:41:34,240
+ and that's sort of a classic enterprise software business,
+
+1162
+00:41:34,240 --> 00:41:35,960
+ but that's like, you know, that's a software model
+
+1163
+00:41:35,960 --> 00:41:37,720
+ where you sell them licensed software
+
+1164
+00:41:37,720 --> 00:41:40,320
+ or subscription software or whatever it is.
+
+1165
+00:41:40,320 --> 00:41:43,040
+ But to me, honestly, the most obvious investment opportunity
+
+1166
+00:41:43,040 --> 00:41:44,560
+ is in the underlying infrastructure, right?
+
+1167
+00:41:44,560 --> 00:41:46,840
+ These stablecoins run on blockchains.
+
+1168
+00:41:46,840 --> 00:41:49,120
+ And specifically the dominant, I think by far,
+
+1169
+00:41:49,120 --> 00:41:52,280
+ right now is Ethereum is the dominant one for stablecoins
+
+1170
+00:41:52,280 --> 00:41:54,360
+ and then you have others like so on.
+
+1171
+00:41:54,360 --> 00:41:56,160
+ - Tron also with tether is.
+
+1172
+00:41:56,160 --> 00:41:58,120
+ - And then I think, unfortunately,
+
+1173
+00:41:58,120 --> 00:42:00,600
+ with some of the other ones like that, like Tron,
+
+1174
+00:42:00,600 --> 00:42:02,480
+ like I don't think that's a, you know,
+
+1175
+00:42:02,480 --> 00:42:04,760
+ that has the right security characteristics.
+
+1176
+00:42:04,760 --> 00:42:05,640
+ - And it's expensive.
+
+1177
+00:42:05,640 --> 00:42:07,960
+ - Yeah, it's very, it's like, has shocked at the fees
+
+1178
+00:42:07,960 --> 00:42:09,160
+ I saw recently, like $6.00.
+
+1179
+00:42:09,160 --> 00:42:10,160
+ - Yeah, $4.00 to $6.00, yeah.
+
+1180
+00:42:10,160 --> 00:42:11,680
+ - It's not really decentralized.
+
+1181
+00:42:11,680 --> 00:42:13,640
+ So it's not, I mean, you haven't really removed
+
+1182
+00:42:13,640 --> 00:42:14,480
+ the intermediary.
+
+1183
+00:42:14,480 --> 00:42:17,080
+ So, you know, if you take the subset of blockchains
+
+1184
+00:42:17,080 --> 00:42:18,320
+ where stablecoins are popular
+
+1185
+00:42:18,320 --> 00:42:20,760
+ and I think have the proper kind of security
+
+1186
+00:42:20,760 --> 00:42:22,680
+ and trust characteristics,
+
+1187
+00:42:22,680 --> 00:42:24,240
+ you end up with things like, you know,
+
+1188
+00:42:24,240 --> 00:42:26,520
+ Ethereum, Solana, L2s,
+
+1189
+00:42:26,520 --> 00:42:28,880
+ you also need kind of layers on top of that.
+
+1190
+00:42:28,880 --> 00:42:30,600
+ So you need bridges,
+
+1191
+00:42:30,600 --> 00:42:33,280
+ you need other kinds of infrastructure.
+
+1192
+00:42:33,280 --> 00:42:35,000
+ Yeah, and that's sort of a bank shot
+
+1193
+00:42:35,000 --> 00:42:36,820
+ as an investment that's sort of indirect.
+
+1194
+00:42:36,820 --> 00:42:38,520
+ But I think that, I don't know,
+
+1195
+00:42:38,520 --> 00:42:39,800
+ at least from my thinking about it,
+
+1196
+00:42:39,800 --> 00:42:41,360
+ that's kind of what I come back to is like,
+
+1197
+00:42:41,360 --> 00:42:45,280
+ okay, this is going to popularize all of this infrastructure.
+
+1198
+00:42:45,280 --> 00:42:47,760
+ And, you know, maybe there'll be some adjacent software stuff,
+
+1199
+00:42:47,760 --> 00:42:51,080
+ but it is probably the least investable crypto thing
+
+1200
+00:42:51,080 --> 00:42:53,120
+ that's happened since the beginning, I would say almost.
+
+1201
+00:42:53,120 --> 00:42:54,840
+ It is much harder to directly invest in.
+
+1202
+00:42:54,840 --> 00:42:56,080
+ - It's like such a paradox.
+
+1203
+00:42:56,080 --> 00:42:58,040
+ Like it is the thing that's popping off the journey.
+
+1204
+00:42:58,040 --> 00:42:58,880
+ - That's the irony.
+
+1205
+00:42:58,880 --> 00:43:01,200
+ And using crypto, it's easier to invest than to get usage.
+
+1206
+00:43:01,200 --> 00:43:02,640
+ And here's the opposite.
+
+1207
+00:43:02,640 --> 00:43:04,880
+ It's like, this is something that's like clear product
+
+1208
+00:43:04,880 --> 00:43:07,400
+ market fit and usage and it's harder to invest in.
+
+1209
+00:43:07,400 --> 00:43:08,600
+ - There really are opportunities.
+
+1210
+00:43:08,600 --> 00:43:10,720
+ I mean, I spent a lot of time talking to businesses
+
+1211
+00:43:10,720 --> 00:43:12,600
+ that are building on top of stablecoins.
+
+1212
+00:43:12,600 --> 00:43:13,800
+ - I think Jam is more,
+
+1213
+00:43:13,800 --> 00:43:15,280
+ I'm a little more bullish on this than I am.
+
+1214
+00:43:15,280 --> 00:43:16,480
+ I feel like it's more of a public good,
+
+1215
+00:43:16,480 --> 00:43:17,400
+ but yeah, go ahead, sir.
+
+1216
+00:43:17,400 --> 00:43:18,240
+ - Yeah, yeah, yeah.
+
+1217
+00:43:18,240 --> 00:43:19,760
+ I mean, look, I think we have to have valuations
+
+1218
+00:43:19,760 --> 00:43:20,840
+ be it appropriately priced.
+
+1219
+00:43:20,840 --> 00:43:21,920
+ Like these are FinTech businesses.
+
+1220
+00:43:21,920 --> 00:43:24,480
+ These are not crypto businesses with network effects.
+
+1221
+00:43:24,480 --> 00:43:27,120
+ But if you're offering table stakes payments,
+
+1222
+00:43:27,120 --> 00:43:28,560
+ subscriptions, refunds, chargebacks,
+
+1223
+00:43:28,560 --> 00:43:31,560
+ vaulting, promotions, we invested in a loop who does that.
+
+1224
+00:43:31,560 --> 00:43:33,080
+ Like, you know, that's a real business
+
+1225
+00:43:33,080 --> 00:43:36,040
+ that people really need if they want to use stablecoins
+
+1226
+00:43:36,040 --> 00:43:37,280
+ in the real world.
+
+1227
+00:43:37,280 --> 00:43:39,520
+ And then you've got the enterprise integrations.
+
+1228
+00:43:39,520 --> 00:43:41,400
+ We've got on and off ramping.
+
+1229
+00:43:41,400 --> 00:43:44,400
+ I think that there's huge improvements they'd be made
+
+1230
+00:43:44,400 --> 00:43:46,440
+ in with, on top of account abstraction
+
+1231
+00:43:46,440 --> 00:43:48,160
+ to make it easier for people to have a wallet
+
+1232
+00:43:48,160 --> 00:43:50,200
+ where they custody their own assets.
+
+1233
+00:43:50,200 --> 00:43:52,560
+ Of course, like we're going to need a little bit better
+
+1234
+00:43:52,560 --> 00:43:55,560
+ privacy, but compliant privacy in payments.
+
+1235
+00:43:55,560 --> 00:43:57,080
+ And that's more at the infrastructure level,
+
+1236
+00:43:57,080 --> 00:43:59,920
+ but people are going to feel that at the app layer.
+
+1237
+00:43:59,920 --> 00:44:03,280
+ And for enterprises, like there's features
+
+1238
+00:44:03,280 --> 00:44:05,360
+ like treasury management and collateral ability.
+
+1239
+00:44:05,360 --> 00:44:09,000
+ These are all large FinTech oriented opportunities
+
+1240
+00:44:09,000 --> 00:44:12,240
+ that I'm extremely eager to see entrepreneurs build.
+
+1241
+00:44:12,240 --> 00:44:14,720
+ And they're going to have to have deep understanding
+
+1242
+00:44:14,720 --> 00:44:16,160
+ of stablecoins.
+
+1243
+00:44:16,160 --> 00:44:18,520
+ And I guess to tie back into our focus,
+
+1244
+00:44:18,520 --> 00:44:19,960
+ which is on blockchain networks,
+
+1245
+00:44:19,960 --> 00:44:23,120
+ there's a lot of ways to use blockchain incentives
+
+1246
+00:44:23,120 --> 00:44:26,000
+ to build those networks so they're stronger,
+
+1247
+00:44:26,000 --> 00:44:29,120
+ identifiable earlier, you know, break the log jam
+
+1248
+00:44:29,120 --> 00:44:30,920
+ of extractive networks.
+
+1249
+00:44:30,920 --> 00:44:33,320
+ And so I'm excited to visit that do that in particular
+
+1250
+00:44:33,320 --> 00:44:35,920
+ who build these sort of more FinTech oriented ideas,
+
+1251
+00:44:35,920 --> 00:44:37,720
+ but with blockchain ideals.
+
+1252
+00:44:37,720 --> 00:44:38,560
+ And we're starting to see it.
+
+1253
+00:44:38,560 --> 00:44:40,000
+ We're starting to meet them now.
+
+1254
+00:44:40,000 --> 00:44:42,680
+ - Yeah, I guess I would just say I look at the,
+
+1255
+00:44:42,680 --> 00:44:45,680
+ well, my historically and just one of my area of focus
+
+1256
+00:44:45,680 --> 00:44:47,120
+ has always been network effect businesses.
+
+1257
+00:44:47,120 --> 00:44:49,760
+ That's what I've always done, not enterprise software.
+
+1258
+00:44:49,760 --> 00:44:52,040
+ So there probably are in fairness,
+
+1259
+00:44:52,040 --> 00:44:54,880
+ like kind of like temper my statement earlier,
+
+1260
+00:44:54,880 --> 00:44:57,360
+ probably a lot of sort of enterprise software business,
+
+1261
+00:44:57,360 --> 00:44:59,720
+ et cetera, which is not what I've personally
+
+1262
+00:44:59,720 --> 00:45:01,600
+ historically done or been good at.
+
+1263
+00:45:01,600 --> 00:45:03,120
+ But that goes to the just one last thing is that
+
+1264
+00:45:03,120 --> 00:45:04,560
+ that's the whole point of stablecoins.
+
+1265
+00:45:04,560 --> 00:45:07,320
+ Is it you're removing the ability for investors
+
+1266
+00:45:07,320 --> 00:45:09,160
+ and entrepreneurs to extract,
+
+1267
+00:45:09,160 --> 00:45:10,640
+ which I think is a good thing for the world.
+
+1268
+00:45:10,640 --> 00:45:12,880
+ And I think it's a good thing for blockchains
+
+1269
+00:45:12,880 --> 00:45:14,720
+ and generally to have this as a use case.
+
+1270
+00:45:14,720 --> 00:45:17,320
+ But to me, it undermines kind of what I typically
+
+1271
+00:45:17,320 --> 00:45:19,880
+ have tried to invest in mature kind of networks.
+
+1272
+00:45:19,880 --> 00:45:22,080
+ - Yeah, the big network that has not been solved yet
+
+1273
+00:45:22,080 --> 00:45:23,040
+ is liquidity.
+
+1274
+00:45:23,040 --> 00:45:25,840
+ And liquidity has a surprisingly strong network effect.
+
+1275
+00:45:25,840 --> 00:45:28,200
+ Today, if you tried to switch.
+
+1276
+00:45:28,200 --> 00:45:29,760
+ - It's an equity, I mean, like interoperability
+
+1277
+00:45:29,760 --> 00:45:31,800
+ between like switching from one blockchain.
+
+1278
+00:45:31,800 --> 00:45:34,240
+ - Switching from one currency to another.
+
+1279
+00:45:34,240 --> 00:45:38,080
+ So if I wanna take 10 million USDC
+
+1280
+00:45:38,080 --> 00:45:42,080
+ and turn it into 10 million in Pi USD, two stablecoins,
+
+1281
+00:45:42,080 --> 00:45:45,400
+ both I think highly compliant, well-backed.
+
+1282
+00:45:45,400 --> 00:45:47,000
+ I'm gonna get some slippage there.
+
+1283
+00:45:47,000 --> 00:45:49,640
+ And by slippage, I mean, instead of 10 million on the other side,
+
+1284
+00:45:49,640 --> 00:45:54,640
+ I'm gonna get 9,900,000 even on the deepest liquidity pools.
+
+1285
+00:45:54,640 --> 00:45:56,960
+ And that's a network effect in that
+
+1286
+00:45:56,960 --> 00:45:59,320
+ as more people use these currencies,
+
+1287
+00:45:59,320 --> 00:46:02,720
+ we'll have deeper liquidity and much tighter spreads.
+
+1288
+00:46:02,720 --> 00:46:04,840
+ Whoever cracks that, whoever figures out,
+
+1289
+00:46:04,840 --> 00:46:07,520
+ I make sure that we can redeem one stablecoin
+
+1290
+00:46:07,520 --> 00:46:09,160
+ for another stablecoin at par
+
+1291
+00:46:09,160 --> 00:46:11,560
+ is gonna have a huge and exciting network effect.
+
+1292
+00:46:11,560 --> 00:46:12,400
+ - Interesting.
+
+1293
+00:46:12,400 --> 00:46:14,840
+ So your point being that if you wanna use this money,
+
+1294
+00:46:14,840 --> 00:46:17,360
+ if you wanna use it across various networks,
+
+1295
+00:46:17,360 --> 00:46:19,960
+ various apps, whatever, if you're transacting,
+
+1296
+00:46:19,960 --> 00:46:22,800
+ you might actually lose a little bit of the value there
+
+1297
+00:46:22,800 --> 00:46:24,400
+ that might go to the system.
+
+1298
+00:46:24,400 --> 00:46:26,960
+ And in order for this to really take off,
+
+1299
+00:46:26,960 --> 00:46:30,720
+ consumers are gonna want to know that one USDC,
+
+1300
+00:46:30,720 --> 00:46:34,680
+ one Pi USD always equals one dollar.
+
+1301
+00:46:34,680 --> 00:46:38,680
+ Users know that today, but at the largest scales
+
+1302
+00:46:38,680 --> 00:46:41,640
+ and in the most esoteric scenarios,
+
+1303
+00:46:41,640 --> 00:46:43,280
+ it breaks down a little bit.
+
+1304
+00:46:43,280 --> 00:46:45,920
+ And we need to build systems that make sure
+
+1305
+00:46:45,920 --> 00:46:46,960
+ that it's always true.
+
+1306
+00:46:46,960 --> 00:46:49,160
+ We get this true singleness of money.
+
+1307
+00:46:49,160 --> 00:46:50,600
+ And there's a lot of ways to solve it.
+
+1308
+00:46:50,600 --> 00:46:52,080
+ One is through clearinghouses,
+
+1309
+00:46:52,080 --> 00:46:53,960
+ another is through shared collateral,
+
+1310
+00:46:53,960 --> 00:46:56,680
+ a third might be through regulations combined
+
+1311
+00:46:56,680 --> 00:47:00,960
+ with really well-tuned AMMs or intent protocols.
+
+1312
+00:47:00,960 --> 00:47:03,680
+ I think we've got a lot of people working on the problem,
+
+1313
+00:47:03,680 --> 00:47:05,720
+ but it's one of the large outstanding problems
+
+1314
+00:47:05,720 --> 00:47:07,720
+ that probably needs to be solved first.
+
+1315
+00:47:07,720 --> 00:47:08,840
+ - I wanna zoom out for a second,
+
+1316
+00:47:08,840 --> 00:47:11,840
+ because I think some of our listeners might ask themselves,
+
+1317
+00:47:11,840 --> 00:47:14,680
+ why is a blockchain necessary at all
+
+1318
+00:47:14,680 --> 00:47:16,080
+ to do some of these things?
+
+1319
+00:47:16,080 --> 00:47:19,640
+ I mean, you could look at some services that are coming up,
+
+1320
+00:47:19,640 --> 00:47:23,840
+ like you've got the PIX real-time payment system in Brazil
+
+1321
+00:47:23,840 --> 00:47:28,000
+ that manages to do really, really instant cheap fast payments.
+
+1322
+00:47:28,000 --> 00:47:30,600
+ So what is the advantage of using a blockchain?
+
+1323
+00:47:30,600 --> 00:47:34,360
+ Why is that superior or necessary compared to
+
+1324
+00:47:34,360 --> 00:47:36,200
+ perhaps more traditional approaches
+
+1325
+00:47:36,200 --> 00:47:37,640
+ or just alternate approaches
+
+1326
+00:47:37,640 --> 00:47:40,180
+ that could conceivably be applied?
+
+1327
+00:47:40,180 --> 00:47:41,440
+ - So PIX is amazing.
+
+1328
+00:47:41,440 --> 00:47:43,480
+ Like we should all congratulate the Brazilian government
+
+1329
+00:47:43,480 --> 00:47:46,640
+ on implementing a great new payment rail.
+
+1330
+00:47:46,640 --> 00:47:47,720
+ But there's two problems with it.
+
+1331
+00:47:47,720 --> 00:47:48,800
+ One is really clear,
+
+1332
+00:47:48,800 --> 00:47:50,280
+ and one is a little bit harder to think through.
+
+1333
+00:47:50,280 --> 00:47:52,720
+ So the first is that you can't pay
+
+1334
+00:47:52,720 --> 00:47:54,480
+ someone internationally via PIX.
+
+1335
+00:47:54,480 --> 00:47:56,840
+ So it really is a closed loop system
+
+1336
+00:47:56,840 --> 00:47:58,880
+ where it's not so hard to build on top PIX,
+
+1337
+00:47:58,880 --> 00:48:00,760
+ but it's hard to have PIX interoperability
+
+1338
+00:48:00,760 --> 00:48:02,160
+ with other countries.
+
+1339
+00:48:02,160 --> 00:48:04,280
+ And so if you wanna do international payments,
+
+1340
+00:48:04,280 --> 00:48:06,960
+ which happen all the time in enormous volumes,
+
+1341
+00:48:06,960 --> 00:48:08,680
+ then you can't use that system.
+
+1342
+00:48:08,680 --> 00:48:09,960
+ And the second thing is,
+
+1343
+00:48:09,960 --> 00:48:12,240
+ I don't really want to have the government
+
+1344
+00:48:12,240 --> 00:48:14,200
+ running my payment rails that directly.
+
+1345
+00:48:14,200 --> 00:48:16,160
+ It has a couple of negative externalities.
+
+1346
+00:48:16,160 --> 00:48:17,520
+ One is this less competition.
+
+1347
+00:48:17,520 --> 00:48:19,840
+ What happens when something better than PIX comes out?
+
+1348
+00:48:19,840 --> 00:48:21,560
+ Is the government really gonna replace it?
+
+1349
+00:48:21,560 --> 00:48:22,400
+ Probably not.
+
+1350
+00:48:22,400 --> 00:48:23,240
+ But on blockchain rails,
+
+1351
+00:48:23,240 --> 00:48:25,240
+ you could incrementally improve the quality of the product.
+
+1352
+00:48:25,240 --> 00:48:26,840
+ The second is around monetary expansion.
+
+1353
+00:48:26,840 --> 00:48:31,160
+ We wanna make sure that we can have institutions like banks,
+
+1354
+00:48:31,160 --> 00:48:33,480
+ lending, keeping the economy active,
+
+1355
+00:48:33,480 --> 00:48:38,480
+ making dynamic choices to help people in communities
+
+1356
+00:48:38,480 --> 00:48:42,200
+ invest, save, earn, spend,
+
+1357
+00:48:42,200 --> 00:48:45,480
+ without it being tied to a central bank, digital currency.
+
+1358
+00:48:45,480 --> 00:48:47,680
+ That would be very constrictive,
+
+1359
+00:48:47,680 --> 00:48:50,520
+ and it would erode privacy, erode trust,
+
+1360
+00:48:50,520 --> 00:48:52,600
+ and wouldn't lead to the competitive environment
+
+1361
+00:48:52,600 --> 00:48:55,120
+ that we wanna see where entrepreneurs can build
+
+1362
+00:48:55,120 --> 00:48:58,080
+ new monetary systems that allow people to take risks
+
+1363
+00:48:58,080 --> 00:49:00,920
+ and do so safely and spend money freely.
+
+1364
+00:49:00,920 --> 00:49:02,320
+ So PIX is impressive,
+
+1365
+00:49:02,320 --> 00:49:03,640
+ but I don't think it's the way
+
+1366
+00:49:03,640 --> 00:49:05,960
+ we wanna have international payments work,
+
+1367
+00:49:05,960 --> 00:49:07,760
+ and it's probably also not the way that in the U.S.
+
+1368
+00:49:07,760 --> 00:49:10,160
+ we wanna have local payments work
+
+1369
+00:49:10,160 --> 00:49:12,760
+ because it leads to this sort of constrained supply of cash.
+
+1370
+00:49:12,760 --> 00:49:14,080
+ - And like this is going back to the book,
+
+1371
+00:49:14,080 --> 00:49:15,520
+ I was talking about the different kinds of networks.
+
+1372
+00:49:15,520 --> 00:49:17,040
+ I mean, one way to think about blockchains
+
+1373
+00:49:17,040 --> 00:49:18,760
+ is they solve not just a technical problem,
+
+1374
+00:49:18,760 --> 00:49:19,760
+ but a political problem.
+
+1375
+00:49:19,760 --> 00:49:21,640
+ Political in a sense of getting a bunch of parties
+
+1376
+00:49:21,640 --> 00:49:24,200
+ who don't fully trust each other to agree on something.
+
+1377
+00:49:24,200 --> 00:49:26,840
+ And so in that case, let's just say PIX,
+
+1378
+00:49:26,840 --> 00:49:29,520
+ they go and maybe they convince some friendly governments,
+
+1379
+00:49:29,520 --> 00:49:30,600
+ but are they really gonna convince
+
+1380
+00:49:30,600 --> 00:49:34,160
+ whatever it is, 190 key governments to agree to something?
+
+1381
+00:49:34,160 --> 00:49:35,840
+ The answer is none of them are gonna agree to something
+
+1382
+00:49:35,840 --> 00:49:37,360
+ unless I think it's truly neutral.
+
+1383
+00:49:37,360 --> 00:49:39,560
+ Blockchains are the first thing that have come along
+
+1384
+00:49:39,560 --> 00:49:40,800
+ since the advent of the internet
+
+1385
+00:49:40,800 --> 00:49:43,520
+ that have the functionality sufficient
+
+1386
+00:49:43,520 --> 00:49:46,240
+ to do these kinds of use cases like payments,
+
+1387
+00:49:46,240 --> 00:49:48,800
+ but also are truly credibly neutral.
+
+1388
+00:49:48,800 --> 00:49:49,600
+ And they're credibly neutral
+
+1389
+00:49:49,600 --> 00:49:51,080
+ because they don't have an owner,
+
+1390
+00:49:51,080 --> 00:49:54,360
+ they're open source code running on these decentralized blockchains.
+
+1391
+00:49:54,360 --> 00:49:56,880
+ And so they have the same kind of trust properties
+
+1392
+00:49:56,880 --> 00:49:57,840
+ as open source software.
+
+1393
+00:49:57,840 --> 00:50:00,400
+ I mean, that's why things like Linux have been so successful, right?
+
+1394
+00:50:00,400 --> 00:50:03,720
+ Is it you can dislike the makers of Linux
+
+1395
+00:50:03,720 --> 00:50:05,520
+ and dislike the country they live in?
+
+1396
+00:50:05,520 --> 00:50:07,640
+ It doesn't matter because you just have the code, right?
+
+1397
+00:50:07,640 --> 00:50:11,200
+ You can trust the code and blockchains have that same property.
+
+1398
+00:50:11,200 --> 00:50:12,480
+ - That's a really good articulation.
+
+1399
+00:50:12,480 --> 00:50:14,080
+ So you're in the design space,
+
+1400
+00:50:14,080 --> 00:50:16,600
+ you're trading off how centralized or decentralized
+
+1401
+00:50:16,600 --> 00:50:17,440
+ you're gonna have.
+
+1402
+00:50:17,440 --> 00:50:20,120
+ And when you go with a centralized approach like PIX,
+
+1403
+00:50:20,120 --> 00:50:22,720
+ you get platform risk, trust dependencies,
+
+1404
+00:50:22,720 --> 00:50:26,120
+ and maybe a lack of interoperability on a kind of global scale.
+
+1405
+00:50:26,120 --> 00:50:28,280
+ Whereas when you go in a decentralized direction,
+
+1406
+00:50:28,280 --> 00:50:31,000
+ you get this sort of credibly neutral platform
+
+1407
+00:50:31,000 --> 00:50:32,720
+ that everybody can join,
+
+1408
+00:50:32,720 --> 00:50:37,120
+ comfortable knowing they can't get rubbed or biased against.
+
+1409
+00:50:37,120 --> 00:50:41,040
+ I've got a question about the branding for stablecoins.
+
+1410
+00:50:41,040 --> 00:50:44,000
+ It is sort of like incredibly good marketing.
+
+1411
+00:50:44,000 --> 00:50:45,360
+ On the one hand, I mean,
+
+1412
+00:50:45,360 --> 00:50:48,440
+ there's a question of like, we call them stablecoins.
+
+1413
+00:50:48,440 --> 00:50:50,760
+ Are they stable? I think regulation will go
+
+1414
+00:50:50,760 --> 00:50:52,720
+ toward helping solve that.
+
+1415
+00:50:52,720 --> 00:50:55,440
+ But then there's also the coin question.
+
+1416
+00:50:55,440 --> 00:50:59,040
+ We had some of our other teammates on a recent podcast
+
+1417
+00:50:59,040 --> 00:51:00,360
+ where we talked about the differences
+
+1418
+00:51:00,360 --> 00:51:02,760
+ in types of tokens that are out there.
+
+1419
+00:51:02,760 --> 00:51:05,560
+ And there's a lot of confusion around people thinking about
+
+1420
+00:51:05,560 --> 00:51:07,960
+ them as cryptocurrencies or coins.
+
+1421
+00:51:07,960 --> 00:51:11,120
+ And I wonder if calling them stablecoins
+
+1422
+00:51:11,120 --> 00:51:13,920
+ is that lens through which we look at stablecoins
+
+1423
+00:51:13,920 --> 00:51:16,480
+ as coins, as payment, as currency,
+
+1424
+00:51:16,480 --> 00:51:18,880
+ does that limit our imagination
+
+1425
+00:51:18,880 --> 00:51:22,360
+ about what we can do with these types of instruments?
+
+1426
+00:51:22,360 --> 00:51:23,200
+ - Yeah, I don't know.
+
+1427
+00:51:23,200 --> 00:51:24,640
+ I mean, I think like a lot of things in tech
+
+1428
+00:51:24,640 --> 00:51:26,720
+ and specifically crypto, these naming notes,
+
+1429
+00:51:26,720 --> 00:51:28,320
+ there wasn't like a committee that sat around
+
+1430
+00:51:28,320 --> 00:51:32,520
+ and did a study of this, some hacker somewhere,
+
+1431
+00:51:32,520 --> 00:51:34,080
+ and then it became popular.
+
+1432
+00:51:34,080 --> 00:51:35,800
+ And it's probably not the greatest name, to be honest,
+
+1433
+00:51:35,800 --> 00:51:37,440
+ for both stable and coin, right?
+
+1434
+00:51:37,440 --> 00:51:40,240
+ I mean, maybe at some point people just call them
+
+1435
+00:51:40,240 --> 00:51:41,920
+ ideally just dollars, you know?
+
+1436
+00:51:41,920 --> 00:51:44,640
+ Like you just go to your account and you see dollars
+
+1437
+00:51:44,640 --> 00:51:46,160
+ and it's a new rail.
+
+1438
+00:51:46,160 --> 00:51:48,160
+ There will probably be, I think in the legislation,
+
+1439
+00:51:48,160 --> 00:51:50,120
+ some kind of actual control of the words.
+
+1440
+00:51:50,120 --> 00:51:51,400
+ You know, you can't put the word dollar
+
+1441
+00:51:51,400 --> 00:51:54,200
+ if you're not doing certain things, which is important.
+
+1442
+00:51:54,200 --> 00:51:56,240
+ So I think it's a good point, I don't know.
+
+1443
+00:51:56,240 --> 00:52:00,520
+ Like in tech, the products end up being the marketing.
+
+1444
+00:52:00,520 --> 00:52:02,120
+ Not the words as much.
+
+1445
+00:52:02,120 --> 00:52:03,760
+ So like the words sort of matter,
+
+1446
+00:52:03,760 --> 00:52:05,360
+ but then at some point they don't like,
+
+1447
+00:52:05,360 --> 00:52:07,760
+ there's been so many bad brand names in history of tech.
+
+1448
+00:52:07,760 --> 00:52:09,800
+ People debated Google and Twitter and all these things.
+
+1449
+00:52:09,800 --> 00:52:10,720
+ Yahoo!
+
+1450
+00:52:10,720 --> 00:52:13,760
+ But what happened is the product was so overwhelmingly good.
+
+1451
+00:52:13,760 --> 00:52:15,400
+ I think I'll say in the case of Google
+
+1452
+00:52:15,400 --> 00:52:18,240
+ that it almost just changed what the words mean, right?
+
+1453
+00:52:18,240 --> 00:52:20,320
+ - It also might remain a investing term
+
+1454
+00:52:20,320 --> 00:52:24,600
+ because when we see stable coins go mainstream,
+
+1455
+00:52:24,600 --> 00:52:27,040
+ I don't think people are gonna be thinking
+
+1456
+00:52:27,040 --> 00:52:28,760
+ about this category name.
+
+1457
+00:52:28,760 --> 00:52:29,600
+ They're just gonna say,
+
+1458
+00:52:29,600 --> 00:52:30,640
+ "Oh, I've got some money in my wallet
+
+1459
+00:52:30,640 --> 00:52:32,680
+ and I can send it to you immediately."
+
+1460
+00:52:32,680 --> 00:52:34,240
+ I mean, what do you call your Venmo bounce?
+
+1461
+00:52:34,240 --> 00:52:35,880
+ Like you don't really say Venmo bucks.
+
+1462
+00:52:35,880 --> 00:52:37,880
+ So I'll keep calling it stable coins
+
+1463
+00:52:37,880 --> 00:52:38,800
+ when I'm looking for companies,
+
+1464
+00:52:38,800 --> 00:52:41,640
+ but I'm not sure our end users are gonna,
+
+1465
+00:52:41,640 --> 00:52:43,880
+ you know, use that term in the long term.
+
+1466
+00:52:43,880 --> 00:52:45,360
+ - So from a consumer perspective,
+
+1467
+00:52:45,360 --> 00:52:49,080
+ you're expecting that this is going to be abstracted away.
+
+1468
+00:52:49,080 --> 00:52:49,920
+ - Yeah.
+
+1469
+00:52:49,920 --> 00:52:51,880
+ - Okay, so based on where we are now
+
+1470
+00:52:51,880 --> 00:52:53,560
+ with the adoption of stable coins,
+
+1471
+00:52:53,560 --> 00:52:55,760
+ really there's incredible growth going on.
+
+1472
+00:52:55,760 --> 00:52:59,000
+ I mean, last year the circulating supply of stable coins
+
+1473
+00:52:59,000 --> 00:53:00,280
+ was like 130 billion.
+
+1474
+00:53:00,280 --> 00:53:02,960
+ Now it's like not quite double that, but almost.
+
+1475
+00:53:02,960 --> 00:53:05,080
+ Yeah, okay, so maybe it is double.
+
+1476
+00:53:05,080 --> 00:53:06,840
+ So there's incredible growth.
+
+1477
+00:53:06,840 --> 00:53:10,080
+ What changes about crypto, about the crypto industry,
+
+1478
+00:53:10,080 --> 00:53:13,760
+ what becomes possible with this new piece of infrastructure,
+
+1479
+00:53:13,760 --> 00:53:15,440
+ this new technology?
+
+1480
+00:53:15,440 --> 00:53:17,960
+ And what changes about the world around us
+
+1481
+00:53:17,960 --> 00:53:20,600
+ and the tech and the products that we use?
+
+1482
+00:53:20,600 --> 00:53:22,960
+ - Yeah, this is my sort of favorite thing to talk about.
+
+1483
+00:53:22,960 --> 00:53:26,080
+ It's like, if stable coins win, everybody succeeds.
+
+1484
+00:53:26,080 --> 00:53:26,920
+ What happens next?
+
+1485
+00:53:26,920 --> 00:53:28,880
+ Well, I'm making payments in stable coins.
+
+1486
+00:53:28,880 --> 00:53:32,560
+ What if I wanted to get alone on my stable coin holdings?
+
+1487
+00:53:32,560 --> 00:53:37,480
+ But I want to track where a package is on blockchain rails.
+
+1488
+00:53:37,480 --> 00:53:41,120
+ But I wanna use a social network that has my identity
+
+1489
+00:53:41,120 --> 00:53:43,040
+ that is tied to my payments.
+
+1490
+00:53:43,040 --> 00:53:46,320
+ There's a lot of services that once I'm paying every day,
+
+1491
+00:53:46,320 --> 00:53:49,000
+ want to move on chain due to that gravity.
+
+1492
+00:53:49,000 --> 00:53:50,880
+ Identity is the most obvious.
+
+1493
+00:53:50,880 --> 00:53:53,600
+ Then social networks begin to form on top of that.
+
+1494
+00:53:53,600 --> 00:53:57,840
+ Then so do you customer to merchant relationships and so forth.
+
+1495
+00:53:57,840 --> 00:54:01,240
+ And so stable coins are just sort of the first step,
+
+1496
+00:54:01,240 --> 00:54:05,400
+ but all of the other on chain products that we know of
+
+1497
+00:54:05,400 --> 00:54:07,840
+ seem much more likely to succeed
+
+1498
+00:54:07,840 --> 00:54:11,160
+ when people are already using dollars on chain.
+
+1499
+00:54:11,160 --> 00:54:13,240
+ - This is partly 'cause it's such a big, like right now,
+
+1500
+00:54:13,240 --> 00:54:16,160
+ the UX of getting money onto a blockchain is just,
+
+1501
+00:54:16,160 --> 00:54:17,040
+ there's a hurdle.
+
+1502
+00:54:17,040 --> 00:54:19,680
+ And so if you can provide this initial use case
+
+1503
+00:54:19,680 --> 00:54:21,480
+ and get people on there, they have a wallet,
+
+1504
+00:54:21,480 --> 00:54:23,960
+ they've got the software, they've got some money there
+
+1505
+00:54:23,960 --> 00:54:26,560
+ that you've gotten over a major hurdle
+
+1506
+00:54:26,560 --> 00:54:28,280
+ that was inhibiting growth.
+
+1507
+00:54:28,280 --> 00:54:31,800
+ - And so as you begin to move payments on chain,
+
+1508
+00:54:31,800 --> 00:54:35,200
+ a lot of additional things begin to quickly follow.
+
+1509
+00:54:35,200 --> 00:54:38,840
+ And those opportunities are potentially even like bigger
+
+1510
+00:54:38,840 --> 00:54:41,480
+ and more creative than just the simple payments,
+
+1511
+00:54:41,480 --> 00:54:42,920
+ just the simple exchange.
+
+1512
+00:54:42,920 --> 00:54:44,920
+ Now we go category by category and say,
+
+1513
+00:54:44,920 --> 00:54:47,080
+ for this industry, if you were to move payments on chain,
+
+1514
+00:54:47,080 --> 00:54:49,000
+ what are the other things you'd wanna have
+
+1515
+00:54:49,000 --> 00:54:50,200
+ be tied into payments?
+
+1516
+00:54:50,200 --> 00:54:51,960
+ Identity is the most obvious.
+
+1517
+00:54:51,960 --> 00:54:53,720
+ Fraud protection is another one.
+
+1518
+00:54:53,720 --> 00:54:58,360
+ Lending is a third, but we see in basically every category,
+
+1519
+00:54:58,360 --> 00:55:00,760
+ there are services you might wanna add to payments
+
+1520
+00:55:00,760 --> 00:55:02,480
+ that should also be on chain,
+
+1521
+00:55:02,480 --> 00:55:05,480
+ living with that atomic payment product.
+
+1522
+00:55:05,480 --> 00:55:07,640
+ And once people start using payments,
+
+1523
+00:55:07,640 --> 00:55:10,680
+ the rest of the on-chain ecosystem is gonna continue to grow.
+
+1524
+00:55:10,680 --> 00:55:13,200
+ - If you had to make an informed guess,
+
+1525
+00:55:13,200 --> 00:55:16,040
+ how long would you expect this to play out?
+
+1526
+00:55:16,040 --> 00:55:18,040
+ - I think that in two years,
+
+1527
+00:55:18,040 --> 00:55:22,080
+ we're gonna see stablecoins turned on as an option
+
+1528
+00:55:22,080 --> 00:55:24,520
+ in many, many, many places.
+
+1529
+00:55:24,520 --> 00:55:29,240
+ Already, merchants are offering online,
+
+1530
+00:55:29,240 --> 00:55:30,920
+ stablecoins very readily.
+
+1531
+00:55:30,920 --> 00:55:33,040
+ I think international, it's gonna be even more popular
+
+1532
+00:55:33,040 --> 00:55:35,080
+ because internationally, credit cards,
+
+1533
+00:55:35,080 --> 00:55:36,740
+ users are less beholden to credit cards.
+
+1534
+00:55:36,740 --> 00:55:39,600
+ And so it'll be easier to add a new rail.
+
+1535
+00:55:39,600 --> 00:55:41,720
+ But there's many ways that adoption's gonna happen.
+
+1536
+00:55:41,720 --> 00:55:43,240
+ So one is this consumer scenario
+
+1537
+00:55:43,240 --> 00:55:44,600
+ that we're walking through right now.
+
+1538
+00:55:44,600 --> 00:55:46,480
+ The consumer scenario is a little harder in the US.
+
+1539
+00:55:46,480 --> 00:55:49,760
+ It has to be driven by payment service providers.
+
+1540
+00:55:49,760 --> 00:55:51,920
+ But in countries with inflationary currencies
+
+1541
+00:55:51,920 --> 00:55:54,660
+ or with lower card penetration
+
+1542
+00:55:54,660 --> 00:55:58,000
+ or more challenging payment technology,
+
+1543
+00:55:58,000 --> 00:56:00,720
+ stablecoins might be a first-class citizen from day one
+
+1544
+00:56:00,720 --> 00:56:02,240
+ or people are like, oh, I can pay for my phone.
+
+1545
+00:56:02,240 --> 00:56:04,720
+ This is unbelievable and this option didn't exist.
+
+1546
+00:56:04,720 --> 00:56:07,800
+ I wanna hold money in dollar-denominated
+
+1547
+00:56:07,800 --> 00:56:09,000
+ stablecoins in particular.
+
+1548
+00:56:09,000 --> 00:56:12,640
+ Anyway, there's a huge, huge structural demand
+
+1549
+00:56:12,640 --> 00:56:15,040
+ for dollars in much of the global south.
+
+1550
+00:56:15,040 --> 00:56:18,160
+ And then internationally, for businesses that work internationally,
+
+1551
+00:56:18,160 --> 00:56:20,000
+ they're gonna be saying,
+
+1552
+00:56:20,000 --> 00:56:21,720
+ I did not like dealing with the banks
+
+1553
+00:56:21,720 --> 00:56:24,000
+ when I was doing international money movement.
+
+1554
+00:56:24,000 --> 00:56:25,280
+ It takes a long time.
+
+1555
+00:56:25,280 --> 00:56:26,680
+ I have to have a whole team dedicated
+
+1556
+00:56:26,680 --> 00:56:28,080
+ to managing the process.
+
+1557
+00:56:28,080 --> 00:56:29,960
+ It's a major headache.
+
+1558
+00:56:29,960 --> 00:56:33,440
+ And I'm gonna switch small businesses.
+
+1559
+00:56:33,440 --> 00:56:35,680
+ This is medium business, large enterprises
+
+1560
+00:56:35,680 --> 00:56:37,640
+ with sophisticated treasury management.
+
+1561
+00:56:37,640 --> 00:56:40,200
+ All of them are gonna move to stablecoins
+
+1562
+00:56:40,200 --> 00:56:41,520
+ 'cause they're strictly better technology.
+
+1563
+00:56:41,520 --> 00:56:45,720
+ So these three groups, PSPs in the US,
+
+1564
+00:56:45,720 --> 00:56:47,840
+ regular consumers in the global south,
+
+1565
+00:56:47,840 --> 00:56:49,560
+ and then enterprise driven demand
+
+1566
+00:56:49,560 --> 00:56:51,280
+ in the international business community.
+
+1567
+00:56:51,280 --> 00:56:54,440
+ Those are probably the three different drivers of adoption.
+
+1568
+00:56:54,440 --> 00:56:55,840
+ When will you see it?
+
+1569
+00:56:55,840 --> 00:56:57,080
+ When you go online to buy something
+
+1570
+00:56:57,080 --> 00:56:58,280
+ or when you go into a restaurant?
+
+1571
+00:56:58,280 --> 00:57:00,280
+ Well, if you use Blackbird, you can see it right now.
+
+1572
+00:57:00,280 --> 00:57:03,600
+ And if you use Stripe, you can see it right now online.
+
+1573
+00:57:03,600 --> 00:57:04,640
+ But when you're gonna see it everywhere
+
+1574
+00:57:04,640 --> 00:57:06,120
+ and if you're really gonna notice it,
+
+1575
+00:57:06,120 --> 00:57:08,200
+ it's gonna probably require some go-to-market energy
+
+1576
+00:57:08,200 --> 00:57:10,920
+ using the savings in order to incentivize users
+
+1577
+00:57:10,920 --> 00:57:13,320
+ to switch to the new payment rail.
+
+1578
+00:57:13,320 --> 00:57:15,720
+ And then it's gonna require the growing network effects
+
+1579
+00:57:15,720 --> 00:57:17,680
+ and growing acceptance of stablecoins
+
+1580
+00:57:17,680 --> 00:57:19,800
+ as just another dollar two to five years.
+
+1581
+00:57:19,800 --> 00:57:21,960
+ Is the simple answer to your question,
+
+1582
+00:57:21,960 --> 00:57:23,360
+ but that's the longer story.
+
+1583
+00:57:23,360 --> 00:57:26,960
+ Let's zero in on that just for one second.
+
+1584
+00:57:26,960 --> 00:57:29,840
+ We talk about stablecoins as being global by default,
+
+1585
+00:57:29,840 --> 00:57:31,800
+ but the world is a big place.
+
+1586
+00:57:31,800 --> 00:57:36,800
+ What regions or markets do you expect to get uptake first?
+
+1587
+00:57:36,800 --> 00:57:38,640
+ How is this gonna play out on global scale?
+
+1588
+00:57:38,640 --> 00:57:41,680
+ I mean, we cannot overstate the structural demand for dollars.
+
+1589
+00:57:41,680 --> 00:57:43,320
+ A huge number of people,
+
+1590
+00:57:43,320 --> 00:57:45,400
+ they have a currency that's very inflationary
+
+1591
+00:57:45,400 --> 00:57:49,560
+ and their version of savings is having money in dollars.
+
+1592
+00:57:49,560 --> 00:57:51,080
+ It's not putting money in this hot market.
+
+1593
+00:57:51,080 --> 00:57:53,720
+ It's having physical cash, US dollars.
+
+1594
+00:57:53,720 --> 00:57:55,600
+ I talked last, last quarters,
+
+1595
+00:57:55,600 --> 00:57:57,120
+ last like three months or so
+
+1596
+00:57:57,120 --> 00:58:00,640
+ to about 30 companies that were doing remittances
+
+1597
+00:58:00,640 --> 00:58:01,960
+ on stablecoin rails.
+
+1598
+00:58:01,960 --> 00:58:06,160
+ And many of them were growing at 10% a month
+
+1599
+00:58:06,160 --> 00:58:11,160
+ on top of $1 million to $10 million total payment volume a month.
+
+1600
+00:58:11,160 --> 00:58:14,240
+ So we're talking just like sort of an industry
+
+1601
+00:58:14,240 --> 00:58:17,720
+ that's growing it at 10% a month, unbelievable growth.
+
+1602
+00:58:17,720 --> 00:58:20,000
+ And that's because if you're in Argentina,
+
+1603
+00:58:20,000 --> 00:58:23,240
+ you used to have to go to a,
+
+1604
+00:58:23,240 --> 00:58:24,080
+ I mean, I did this.
+
+1605
+00:58:24,080 --> 00:58:26,080
+ I was in Argentina two years ago.
+
+1606
+00:58:26,080 --> 00:58:27,720
+ I had brought specifically,
+
+1607
+00:58:27,720 --> 00:58:29,000
+ 'cause a friend who recommended it,
+
+1608
+00:58:29,000 --> 00:58:31,160
+ crisp new $100 bills.
+
+1609
+00:58:31,160 --> 00:58:33,000
+ They prefer the crisp new ones.
+
+1610
+00:58:33,000 --> 00:58:33,840
+ I get in my hotel.
+
+1611
+00:58:33,840 --> 00:58:37,160
+ They call a guy who looks like a drug dealer to come in.
+
+1612
+00:58:37,160 --> 00:58:40,360
+ He's got a bag full of Argentinian pesos.
+
+1613
+00:58:40,360 --> 00:58:42,760
+ I gave him my $100.
+
+1614
+00:58:42,760 --> 00:58:44,480
+ He double checks with the new ones.
+
+1615
+00:58:44,480 --> 00:58:46,800
+ He gives me the preferred exchange rate
+
+1616
+00:58:46,800 --> 00:58:48,880
+ because the new dollars are so valuable.
+
+1617
+00:58:48,880 --> 00:58:50,640
+ This is not an exchange rate I could get in a bank, by the way.
+
+1618
+00:58:50,640 --> 00:58:52,680
+ This is like a illegal exchange rate.
+
+1619
+00:58:52,680 --> 00:58:54,440
+ And to show practices, guys,
+
+1620
+00:58:54,440 --> 00:58:59,440
+ he's just churning, counting money to give me pesos.
+
+1621
+00:58:59,440 --> 00:59:02,960
+ That gives you a sense for how badly people want dollars there.
+
+1622
+00:59:02,960 --> 00:59:05,720
+ They prefer the crisp new US dollars because,
+
+1623
+00:59:05,720 --> 00:59:06,560
+ I mean, who doesn't?
+
+1624
+00:59:06,560 --> 00:59:07,400
+ It's nice.
+
+1625
+00:59:07,400 --> 00:59:08,240
+ It's nice.
+
+1626
+00:59:08,240 --> 00:59:11,360
+ You know, no bends and wrinkles and folds.
+
+1627
+00:59:11,360 --> 00:59:13,520
+ No, but it's because people are like treating this
+
+1628
+00:59:13,520 --> 00:59:14,360
+ as their savings.
+
+1629
+00:59:14,360 --> 00:59:15,800
+ So they want it to be really premium.
+
+1630
+00:59:15,800 --> 00:59:18,280
+ They want to know it's like the most accepted version
+
+1631
+00:59:18,280 --> 00:59:19,520
+ of the dollar.
+
+1632
+00:59:19,520 --> 00:59:20,360
+ But this is just so fun.
+
+1633
+00:59:20,360 --> 00:59:22,040
+ It's like you bought your friendly card to be,
+
+1634
+00:59:22,040 --> 00:59:25,240
+ you have the clean metal like, you want to make a sound
+
+1635
+00:59:25,240 --> 00:59:28,120
+ when you drop it on the table when you want to have to flex
+
+1636
+00:59:28,120 --> 00:59:29,800
+ your biceps to hold your credit card.
+
+1637
+00:59:29,800 --> 00:59:32,840
+ But there's just like an absolutely better solution now,
+
+1638
+00:59:32,840 --> 00:59:34,600
+ which is you could just hold stablecoins.
+
+1639
+00:59:34,600 --> 00:59:35,880
+ Maybe you don't need paper at all.
+
+1640
+00:59:35,880 --> 00:59:37,000
+ You might not need paper at all.
+
+1641
+00:59:37,000 --> 00:59:37,840
+ I think that, you know,
+
+1642
+00:59:37,840 --> 00:59:40,240
+ one thing that's interesting to think through
+
+1643
+00:59:40,240 --> 00:59:43,160
+ is what the state of issuers is going to be.
+
+1644
+00:59:43,160 --> 00:59:48,160
+ So right now, 90% of stablecoins are dollar-denominated,
+
+1645
+00:59:48,160 --> 00:59:51,440
+ fiat reserve, so backed by treasuries.
+
+1646
+00:59:51,440 --> 00:59:53,000
+ I think the market share is like,
+
+1647
+00:59:53,000 --> 00:59:57,040
+ Tether has 60% and Circle has maybe 40%.
+
+1648
+00:59:57,040 --> 00:59:57,880
+ Is that right?
+
+1649
+00:59:57,880 --> 00:59:58,720
+ Or maybe I'm overestimating--
+
+1650
+00:59:58,720 --> 01:00:00,720
+ Of the 90%, that's right.
+
+1651
+01:00:00,720 --> 01:00:04,440
+ The other 10% of stablecoins are either
+
+1652
+01:00:04,440 --> 01:00:05,560
+ what I would call asset backed,
+
+1653
+01:00:05,560 --> 01:00:09,160
+ but there's CDPs collateralized debt deposit stablecoins.
+
+1654
+01:00:09,160 --> 01:00:11,320
+ It's like Maker is the most famous.
+
+1655
+01:00:11,320 --> 01:00:13,920
+ And I kind of like these CDPs, actually.
+
+1656
+01:00:13,920 --> 01:00:16,480
+ They've proven to be very resilient, very safe,
+
+1657
+01:00:16,480 --> 01:00:18,640
+ but they're not super capital efficient.
+
+1658
+01:00:18,640 --> 01:00:20,360
+ They actually kind of mimic what banks do today
+
+1659
+01:00:20,360 --> 01:00:23,120
+ where they take in assets like mortgages and loans
+
+1660
+01:00:23,120 --> 01:00:25,600
+ and they turn that into monetary expansion.
+
+1661
+01:00:25,600 --> 01:00:28,680
+ So I think that we're actually going to see more CDPs.
+
+1662
+01:00:28,680 --> 01:00:31,280
+ There's other things like these strategy backed
+
+1663
+01:00:31,280 --> 01:00:34,600
+ synthetic dollars that I think of more like a dollar hedge fund
+
+1664
+01:00:34,600 --> 01:00:36,920
+ that I actually don't count those as stablecoins
+
+1665
+01:00:36,920 --> 01:00:39,520
+ because those seem to me to be an investment product
+
+1666
+01:00:39,520 --> 01:00:40,680
+ where you should really diligence
+
+1667
+01:00:40,680 --> 01:00:42,200
+ the underlying strategy being used.
+
+1668
+01:00:42,200 --> 01:00:44,400
+ Anyway, so we look at these sort of three categories.
+
+1669
+01:00:44,400 --> 01:00:46,280
+ Fiat Reserve is so large.
+
+1670
+01:00:46,280 --> 01:00:48,960
+ I wonder if we're going to see more competition in that space.
+
+1671
+01:00:48,960 --> 01:00:52,680
+ Already we're starting to see Fiat Reserve stablecoins
+
+1672
+01:00:52,680 --> 01:00:56,440
+ with a more default on way of distributing yield
+
+1673
+01:00:56,440 --> 01:00:58,920
+ to people who help distribute it.
+
+1674
+01:00:58,920 --> 01:01:00,800
+ So let's say I make a new payments app,
+
+1675
+01:01:00,800 --> 01:01:04,200
+ peer to peer payments app like FEMMO that uses stablecoins.
+
+1676
+01:01:04,200 --> 01:01:07,200
+ Maybe I could get a piece of the net interest margin
+
+1677
+01:01:07,200 --> 01:01:09,720
+ that the issuer has as an incentive
+
+1678
+01:01:09,720 --> 01:01:12,080
+ for bringing more people on the platform.
+
+1679
+01:01:12,080 --> 01:01:15,400
+ I would like to see more variety in stablecoins.
+
+1680
+01:01:15,400 --> 01:01:17,560
+ And I think we're going to end up seeing that,
+
+1681
+01:01:17,560 --> 01:01:19,840
+ although the transition's going to take a little bit of time
+
+1682
+01:01:19,840 --> 01:01:21,840
+ and there's going to be competitive dynamics in it.
+
+1683
+01:01:21,840 --> 01:01:23,640
+ 'Cause you have a circle and tether of great businesses
+
+1684
+01:01:23,640 --> 01:01:26,040
+ and they've done a phenomenal job with distribution.
+
+1685
+01:01:26,040 --> 01:01:27,240
+ The question would be like,
+
+1686
+01:01:27,240 --> 01:01:29,760
+ are they going to end up looking like Diners Club
+
+1687
+01:01:29,760 --> 01:01:33,160
+ where the Visa is actually a consortium model?
+
+1688
+01:01:33,160 --> 01:01:36,280
+ Or are they going to end up looking like
+
+1689
+01:01:36,280 --> 01:01:39,520
+ maybe like a JP Morgan check when the real solution
+
+1690
+01:01:39,520 --> 01:01:42,640
+ is the American clearing house of checks.
+
+1691
+01:01:42,640 --> 01:01:45,920
+ So there's these new systems that we can imagine
+
+1692
+01:01:45,920 --> 01:01:49,560
+ that allow for a lot more distribution much more quickly
+
+1693
+01:01:49,560 --> 01:01:51,200
+ than having just one or two issuers
+
+1694
+01:01:51,200 --> 01:01:53,540
+ run a lot of on-chain money right now.
+
+1695
+01:01:53,540 --> 01:01:55,960
+ - So basically the question that you're asking is,
+
+1696
+01:01:55,960 --> 01:01:59,160
+ are the current, the status quo
+
+1697
+01:01:59,160 --> 01:02:00,800
+ when it comes to stablecoins,
+
+1698
+01:02:00,800 --> 01:02:02,320
+ is that what the technology is going to look like
+
+1699
+01:02:02,320 --> 01:02:03,400
+ moving forward?
+
+1700
+01:02:03,400 --> 01:02:04,600
+ You mentioned Diners Club,
+
+1701
+01:02:04,600 --> 01:02:06,680
+ that was sort of like the proto credit card
+
+1702
+01:02:06,680 --> 01:02:08,080
+ before credit cards.
+
+1703
+01:02:08,080 --> 01:02:10,120
+ And then the Bank of America card came
+
+1704
+01:02:10,120 --> 01:02:13,240
+ and you could use it not just at like a few restaurants,
+
+1705
+01:02:13,240 --> 01:02:15,720
+ you could use it all at a whole bunch of merchants.
+
+1706
+01:02:15,720 --> 01:02:18,120
+ And then that's sort of the way the industry shifted
+
+1707
+01:02:18,120 --> 01:02:22,600
+ was toward this much more generalizable, useful product.
+
+1708
+01:02:22,600 --> 01:02:23,440
+ - That's right.
+
+1709
+01:02:23,440 --> 01:02:24,720
+ That's exactly what I'm getting at.
+
+1710
+01:02:24,720 --> 01:02:27,640
+ I mean, the Diners Club made relationships
+
+1711
+01:02:27,640 --> 01:02:30,640
+ with a bunch of basically New York LA restaurants
+
+1712
+01:02:30,640 --> 01:02:32,800
+ and said like, charges card, we'll pay back,
+
+1713
+01:02:32,800 --> 01:02:35,320
+ he'll be good, Bank of America card launched
+
+1714
+01:02:35,320 --> 01:02:37,720
+ in a kind of Sacramento area, I think.
+
+1715
+01:02:37,720 --> 01:02:39,160
+ - Fresno was the first drop.
+
+1716
+01:02:39,160 --> 01:02:40,320
+ - Fresno was the first drop.
+
+1717
+01:02:40,320 --> 01:02:42,320
+ It's kind of the origin story of the air drop by the way,
+
+1718
+01:02:42,320 --> 01:02:44,440
+ which is a hilarious little detail.
+
+1719
+01:02:44,440 --> 01:02:46,240
+ We've got a good podcast on that actually
+
+1720
+01:02:46,240 --> 01:02:48,200
+ all about air drops people can tune into.
+
+1721
+01:02:48,200 --> 01:02:49,320
+ - But then it became a consortium
+
+1722
+01:02:49,320 --> 01:02:51,240
+ where a lot of people were incentivized
+
+1723
+01:02:51,240 --> 01:02:52,680
+ to grow the network.
+
+1724
+01:02:52,680 --> 01:02:55,200
+ And I think we probably need that.
+
+1725
+01:02:55,200 --> 01:02:57,440
+ I think we probably need to share the incentives
+
+1726
+01:02:57,440 --> 01:03:01,520
+ that grow adoption and grow distribution.
+
+1727
+01:03:01,520 --> 01:03:04,320
+ And we can't just have Diners Club
+
+1728
+01:03:04,320 --> 01:03:08,240
+ or one service provider attempt to go it alone.
+
+1729
+01:03:08,240 --> 01:03:11,080
+ We wanna create a credibly neutral network
+
+1730
+01:03:11,080 --> 01:03:12,960
+ that's gonna require sharing incentives.
+
+1731
+01:03:12,960 --> 01:03:14,560
+ My question here is, you know,
+
+1732
+01:03:14,560 --> 01:03:17,600
+ tether and circle, they dominate stablecoins today.
+
+1733
+01:03:17,600 --> 01:03:21,080
+ Are they basically going to be Visa MasterCard,
+
+1734
+01:03:21,080 --> 01:03:23,120
+ you know, Coke and Pepsi, Uber and Lyft,
+
+1735
+01:03:23,120 --> 01:03:24,840
+ or is there gonna be a proliferation
+
+1736
+01:03:24,840 --> 01:03:26,880
+ of other options and alternatives?
+
+1737
+01:03:26,880 --> 01:03:28,600
+ - Okay, so this is actually the timing on that.
+
+1738
+01:03:28,600 --> 01:03:29,440
+ It's perfect.
+
+1739
+01:03:29,440 --> 01:03:31,040
+ I don't know when this podcast is gonna come out,
+
+1740
+01:03:31,040 --> 01:03:32,840
+ but Circle announced the payment network,
+
+1741
+01:03:32,840 --> 01:03:36,080
+ MasterCard announced Deep Stablecoin integration,
+
+1742
+01:03:36,080 --> 01:03:39,200
+ and Visa has announced a stablecoin payment product also.
+
+1743
+01:03:39,200 --> 01:03:41,720
+ And so the three big incumbents
+
+1744
+01:03:41,720 --> 01:03:44,880
+ just fighting to preserve their position in the market.
+
+1745
+01:03:44,880 --> 01:03:46,920
+ Part of why I like investing in this category
+
+1746
+01:03:46,920 --> 01:03:49,520
+ is because the future's not clear yet.
+
+1747
+01:03:49,520 --> 01:03:51,360
+ It could go any way.
+
+1748
+01:03:51,360 --> 01:03:53,400
+ The only thing I feel confident in
+
+1749
+01:03:53,400 --> 01:03:56,640
+ is that in order to get widespread adoption,
+
+1750
+01:03:56,640 --> 01:03:58,600
+ we're gonna have to incentivize distribution.
+
+1751
+01:03:58,600 --> 01:04:01,320
+ And so specifically what that means is
+
+1752
+01:04:01,320 --> 01:04:04,200
+ Circle or Tether or MasterCard or Visa
+
+1753
+01:04:04,200 --> 01:04:07,640
+ is gonna have to open up their pocketbook
+
+1754
+01:04:07,640 --> 01:04:09,760
+ and share some of the money they're making
+
+1755
+01:04:09,760 --> 01:04:12,520
+ for managing these payments.
+
+1756
+01:04:12,520 --> 01:04:13,640
+ I think we shouldn't be deceived.
+
+1757
+01:04:13,640 --> 01:04:16,040
+ Like we can't allow a centralized institution
+
+1758
+01:04:16,040 --> 01:04:19,320
+ to open up their pocketbook
+
+1759
+01:04:19,320 --> 01:04:21,120
+ and then close the door later.
+
+1760
+01:04:21,120 --> 01:04:22,480
+ We don't wanna get into a situation
+
+1761
+01:04:22,480 --> 01:04:25,040
+ where we're in an extractive network again.
+
+1762
+01:04:25,040 --> 01:04:27,400
+ And so the best possible outcome in my mind
+
+1763
+01:04:27,400 --> 01:04:30,560
+ is a competitive marketplace built
+
+1764
+01:04:30,560 --> 01:04:34,840
+ on top of incredibly neutral decentralized global network
+
+1765
+01:04:34,840 --> 01:04:36,440
+ on top of a blockchain.
+
+1766
+01:04:36,440 --> 01:04:38,160
+ And I think we're gonna get there,
+
+1767
+01:04:38,160 --> 01:04:40,800
+ but the history has not even written
+
+1768
+01:04:40,800 --> 01:04:42,480
+ and we're gonna continue to make investments
+
+1769
+01:04:42,480 --> 01:04:45,520
+ to help us get into that future as much as we can.
+
+1770
+01:04:45,520 --> 01:04:46,600
+ 'Cause we think that's sort of the way
+
+1771
+01:04:46,600 --> 01:04:48,440
+ that leads to the most prosperity for everyone.
+
+1772
+01:04:48,440 --> 01:04:50,160
+ - Sam, from what you're describing,
+
+1773
+01:04:50,160 --> 01:04:51,680
+ it sounds like if you wanna understand
+
+1774
+01:04:51,680 --> 01:04:53,280
+ how things are going to unfold,
+
+1775
+01:04:53,280 --> 01:04:55,000
+ how this industry is going to evolve,
+
+1776
+01:04:55,000 --> 01:04:57,520
+ it helps to think about crypto speedrunning
+
+1777
+01:04:57,520 --> 01:04:58,800
+ the history of finance.
+
+1778
+01:04:58,800 --> 01:05:00,640
+ And so if you wanna understand how it's gonna play out,
+
+1779
+01:05:00,640 --> 01:05:03,120
+ look to how finance unfolded.
+
+1780
+01:05:03,120 --> 01:05:05,920
+ - I think that's a reasonable thing to say.
+
+1781
+01:05:05,920 --> 01:05:07,400
+ But there is a core change here,
+
+1782
+01:05:07,400 --> 01:05:09,560
+ which is that we spent 50 years
+
+1783
+01:05:09,560 --> 01:05:13,160
+ on top of a legacy technology payment stack
+
+1784
+01:05:13,160 --> 01:05:15,600
+ that was actually holding entrepreneurs back.
+
+1785
+01:05:15,600 --> 01:05:19,520
+ And so when we look at the next generation
+
+1786
+01:05:19,520 --> 01:05:21,080
+ sort of payments products,
+
+1787
+01:05:21,080 --> 01:05:24,640
+ they can get much more creative than the last generation.
+
+1788
+01:05:24,640 --> 01:05:27,320
+ And so it's not just that we're gonna speedrun
+
+1789
+01:05:27,320 --> 01:05:29,400
+ banking history, but we're gonna unlock
+
+1790
+01:05:29,400 --> 01:05:31,760
+ very large new opportunities.
+
+1791
+01:05:31,760 --> 01:05:35,040
+ So there's products that you never would have attempted
+
+1792
+01:05:35,040 --> 01:05:38,480
+ because they would have been too complicated to do before.
+
+1793
+01:05:38,480 --> 01:05:40,080
+ Streaming payments is one.
+
+1794
+01:05:40,080 --> 01:05:42,960
+ Let's say I pay my electricity at the end of the month.
+
+1795
+01:05:42,960 --> 01:05:45,240
+ Could I be paying them on a day-by-day basis?
+
+1796
+01:05:45,240 --> 01:05:46,880
+ People have tried it, but the structural costs
+
+1797
+01:05:46,880 --> 01:05:48,920
+ were pretty high, the program ability
+
+1798
+01:05:48,920 --> 01:05:51,240
+ of legacy payment rails was pretty low.
+
+1799
+01:05:51,240 --> 01:05:54,520
+ Well, now you could build a streaming payment product
+
+1800
+01:05:54,520 --> 01:05:57,200
+ where you're sending payment as you use something
+
+1801
+01:05:57,200 --> 01:05:58,520
+ pretty trivially.
+
+1802
+01:05:58,520 --> 01:06:00,800
+ And the benefit is significant.
+
+1803
+01:06:00,800 --> 01:06:02,680
+ It might not have been worth the cost before
+
+1804
+01:06:02,680 --> 01:06:04,080
+ because it was so complicated
+
+1805
+01:06:04,080 --> 01:06:06,360
+ and so expensive to run existing payment rails,
+
+1806
+01:06:06,360 --> 01:06:08,520
+ but now you could build that business pretty easily
+
+1807
+01:06:08,520 --> 01:06:09,800
+ and people are going to do that.
+
+1808
+01:06:09,800 --> 01:06:13,080
+ I mean, electricity companies want to be paid more quickly
+
+1809
+01:06:13,080 --> 01:06:16,080
+ and users want lower fees, which they can do
+
+1810
+01:06:16,080 --> 01:06:17,480
+ because they're not taking out a loan
+
+1811
+01:06:17,480 --> 01:06:18,400
+ from the electricity company.
+
+1812
+01:06:18,400 --> 01:06:20,800
+ It's sort of a weird setup that you are getting
+
+1813
+01:06:20,800 --> 01:06:23,720
+ a 60-day loan for electrical power in your house.
+
+1814
+01:06:23,720 --> 01:06:25,000
+ And there's other things we've got
+
+1815
+01:06:25,000 --> 01:06:27,000
+ at Portfolio Company, Blackbird,
+
+1816
+01:06:27,000 --> 01:06:29,120
+ they're doing integrated payments
+
+1817
+01:06:29,120 --> 01:06:30,920
+ and rewards for restaurants.
+
+1818
+01:06:30,920 --> 01:06:32,520
+ Well, there's kind of a reason why
+
+1819
+01:06:32,520 --> 01:06:34,280
+ there wasn't a restaurant rewards product
+
+1820
+01:06:34,280 --> 01:06:35,600
+ that also handled payments.
+
+1821
+01:06:35,600 --> 01:06:39,400
+ The TAM was always large, but the cost to build it
+
+1822
+01:06:39,400 --> 01:06:41,280
+ meant that it would be hard to get off the ground.
+
+1823
+01:06:41,280 --> 01:06:43,440
+ And look, that's now possible.
+
+1824
+01:06:43,440 --> 01:06:45,560
+ And that's because payments are getting a lot cheaper.
+
+1825
+01:06:45,560 --> 01:06:47,960
+ You can track loyalty points on chain as well.
+
+1826
+01:06:47,960 --> 01:06:49,760
+ You can track restaurant information on chain.
+
+1827
+01:06:49,760 --> 01:06:51,280
+ Restaurants aren't scared.
+
+1828
+01:06:51,280 --> 01:06:52,640
+ The Blackbird is going to aggregate
+
+1829
+01:06:52,640 --> 01:06:54,480
+ and squeeze them because they're on
+
+1830
+01:06:54,480 --> 01:06:57,240
+ incredibly neutral decentralized blockchains.
+
+1831
+01:06:57,240 --> 01:06:59,920
+ We see it also with agent to agent payments.
+
+1832
+01:06:59,920 --> 01:07:02,240
+ Why would the large AI companies
+
+1833
+01:07:02,240 --> 01:07:04,920
+ allow just one centralized entity
+
+1834
+01:07:04,920 --> 01:07:07,240
+ to run all of the agent to agent transactions?
+
+1835
+01:07:07,240 --> 01:07:10,680
+ No, they want it to be on incredibly neutral rails.
+
+1836
+01:07:10,680 --> 01:07:13,080
+ And so there's a very long list of things
+
+1837
+01:07:13,080 --> 01:07:15,000
+ that only become possible now
+
+1838
+01:07:15,000 --> 01:07:16,800
+ that we've got stablecoin payments
+
+1839
+01:07:16,800 --> 01:07:19,000
+ and we've got this incredibly neutral infrastructure
+
+1840
+01:07:19,000 --> 01:07:20,920
+ to build additional products on top of.
+
+1841
+01:07:20,920 --> 01:07:23,080
+ And the whole thing's going to work in tandem
+
+1842
+01:07:23,080 --> 01:07:26,240
+ as we grow the TAM of the payments industry.
+
+1843
+01:07:26,240 --> 01:07:27,280
+ - That's a really great point
+
+1844
+01:07:27,280 --> 01:07:30,440
+ that as much as stablecoins represent an evolution
+
+1845
+01:07:30,440 --> 01:07:32,440
+ of progress in the financial system,
+
+1846
+01:07:32,440 --> 01:07:34,800
+ they also represent a step change.
+
+1847
+01:07:34,800 --> 01:07:36,920
+ We're actually entering this new regime
+
+1848
+01:07:36,920 --> 01:07:41,400
+ where things that were once not possible now become possible.
+
+1849
+01:07:41,400 --> 01:07:43,600
+ And some of your examples like the confluence
+
+1850
+01:07:43,600 --> 01:07:46,680
+ of how stablecoins and crypto might coincide
+
+1851
+01:07:46,680 --> 01:07:48,320
+ with AI agent payments.
+
+1852
+01:07:48,320 --> 01:07:50,400
+ That's one really great example of the kind of thing
+
+1853
+01:07:50,400 --> 01:07:54,120
+ that you maybe could not have prior to this development.
+
+1854
+01:07:54,120 --> 01:07:55,640
+ - Yeah, we reached parity.
+
+1855
+01:07:55,640 --> 01:07:57,920
+ Steelcoins are as good as traditional payrolls.
+
+1856
+01:07:57,920 --> 01:08:01,520
+ Next up is copy table stakes functionality.
+
+1857
+01:08:01,520 --> 01:08:02,360
+ And then after that,
+
+1858
+01:08:02,360 --> 01:08:05,720
+ we're going to enjoy the benefit of a step change forward
+
+1859
+01:08:05,720 --> 01:08:08,160
+ in what entrepreneurs can build on top of stablecoins.
+
+1860
+01:08:08,160 --> 01:08:09,800
+ And it's going to touch every industry.
+
+1861
+01:08:09,800 --> 01:08:12,480
+ - Looking forward to seeing what people cook up.
+
+1862
+01:08:12,480 --> 01:08:15,360
+ You guys, thank you for listeners out there.
+
+1863
+01:08:15,360 --> 01:08:18,280
+ If you would like to learn more about this,
+
+1864
+01:08:18,280 --> 01:08:20,120
+ check out a16zcrypto.com.
+
+1865
+01:08:20,120 --> 01:08:22,360
+ Sam and Chris have written some really great pieces
+
+1866
+01:08:22,360 --> 01:08:23,760
+ about stablecoins.
+
+1867
+01:08:23,760 --> 01:08:25,920
+ Sam's written about how stablecoins
+
+1868
+01:08:25,920 --> 01:08:28,000
+ are going to eat the payments industry
+
+1869
+01:08:28,000 --> 01:08:30,840
+ and also how you can look toward the history
+
+1870
+01:08:30,840 --> 01:08:33,360
+ of the US banking system
+
+1871
+01:08:33,360 --> 01:08:35,800
+ to understand how stablecoins are going to unfold.
+
+1872
+01:08:35,800 --> 01:08:37,400
+ And Chris, you've written a great piece
+
+1873
+01:08:37,400 --> 01:08:41,960
+ on how stablecoins are payments without intermediaries.
+
+1874
+01:08:41,960 --> 01:08:43,440
+ Thank you guys both for coming on the show
+
+1875
+01:08:43,440 --> 01:08:45,160
+ and talking about stablecoins.
+
+1876
+01:08:45,160 --> 01:08:46,280
+ - Great job, thank you both.
+
+1877
+01:08:46,280 --> 01:08:48,860
+ (upbeat music)
+
+1878
+01:08:55,920 --> 01:08:58,500
+ (upbeat music)
+

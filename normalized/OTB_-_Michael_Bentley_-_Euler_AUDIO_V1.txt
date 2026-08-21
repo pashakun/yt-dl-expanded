@@ -1,0 +1,902 @@
+TITLE: The rise of Euler Finance and crypto lending with Michael Bentley (Euler) [Castle Island Conversations]
+URL: 
+VIDEO_ID: OTB_-_Michael_Bentley_-_Euler_AUDIO_V1
+
+TRANSCRIPT:
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by Bad Mortgage Investments, Lehman, which has 25,000 employees, will be liquidated.
+The federal government loans American International Group, AIG, $85 billion.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+The story behind Euler Finance is one of the most gripping in crypto's recent history,
+and it's the one that we're going to explore and tell today.
+Michael Bentley founded Euler in December of 2020 alongside Doug Hoyt and Jack Pryor
+with the intent to build a decentralized crypto lending and borrowing platform out of his
+hometown of Leeds in the UK.
+Unlike many founders who entered crypto at the time from finance or software, Bentley
+actually came with seven years of postgraduate research in computational and mathematical
+biology.
+That background became foundational to Euler's design, which we'll discuss further.
+Bentley drew inspiration from control theory, a branch of engineering and applied mathematics
+focused on influencing dynamic systems, like biological processes or machines, to build
+Euler's interest rate model.
+Where other crypto lending platforms at the time relied on manually set rates, Bentley
+and the Euler team implemented feedback loops that allowed interest rates to adjust automatically
+in response to market conditions.
+As you later put it, what got me excited was the potential to apply my background in
+system dynamics and control theory to a new kind of open, programmable financial system,
+that being crypto and smart contract enabled finance.
+Euler raised multiple rounds of venture capital and launched on Ethereum in late 2021.
+Despite immediate macro headwinds, Bitcoin plummeting from nearly $70,000 to below $20,000,
+Euler gained traction, attracting over $500 million of deposits and establishing itself
+as a key player in DeFi.
+Then on March 13th of 2023, disaster struck abruptly.
+In just 15 minutes, Euler was exploited for nearly $200 million, one of the largest hacks
+in DeFi history.
+The Euler team launched a three-week hunt to identify the attacker while managing an
+understandably shaken community.
+Against the odds, they succeeded.
+Not just in tracing the individual, but in opening lines of direct communication.
+Bentley ended up developing a personal relationship with the attacker, and through weeks of negotiation
+and coordination, Euler pulled off a stunning full recovery of the stolen funds.
+At that point, most assumed Euler would fully wind down.
+Return remaining capital, shutter operations, and walk away.
+But one thing became apparent.
+The team widely had ambitions to continue building in this space, even if it would not
+be with Euler.
+Investors among the core contributors revealed this shared ambition to keep building.
+So they asked themselves, if they were to keep going, why not keep going with Euler?
+Ultimately, backed by the full support of their investors, the team regrouped and rebuilt.
+Eleven months ago, I spoke to Michael just before the relaunch of Euler v2.
+At the time, the protocol had only a few stray dollars in deposits and faced considerable
+skepticism.
+Fast forward to today, Euler has grown to over $2.5 billion in deposits, nearly 5x its
+peak before the hack, and has earned a reputation as a leading lending and borrowing platform
+across multiple chains and asset types.
+It's a story of conviction, resilience, and redemption.
+Today, I had the privilege of sitting down again with Michael to talk through that journey
+and the road ahead.
+For disclosure, Castle Island Ventures is an investor in Euler and remains a strong
+supporter of the team moving forward.
+Without further ado, here's my conversation with Michael Bentley.
+Michael, first off, I want to open by saying I can't speak to the amount of respect that
+I and the team have for you and the Euler team's resilience and commitment to everything
+you've done in the wake of the experience that you've had over four years.
+And we speak about it often as something that we deeply admire.
+And it's incredible to have you back after we spoke about a year, a year and a half ago
+before V2 launched.
+And it's incredible what's happened in that time span.
+So I wanted to say that first, and I find an incredibly moving story because in the
+backdrop of crypto, which so often functions with anonymity being a norm, you can't tell
+who wallets are.
+You can't tell who's governing protocols.
+There's a deeply personal aspect to the Euler story in that you knew who the person who
+exploited the protocol was.
+You've spoken about the personal struggle that you had during the time the team opted
+to stay together when that was something that was very much in flux.
+So it's very unique, really.
+And I think maybe it speaks to pieces of a narrative that can be essential in keeping
+a protocol like that together in the midst of real challenges.
+Yeah, crypto throws up these wild stories and you never want to be the main character in
+one of them.
+And I think coming into building Euler, I was well aware of the high risk nature of
+the industry, but what happened was just completely crazy.
+You know, it was really, really awful experience, obviously, but also just a really crazy twist
+and turns.
+I now saw it just beyond anything I can possibly imagine coming into it, honestly.
+And there are lots of human elements, there's always the people behind things.
+I think if you just look on crypto Twitter, there's like a gallows humor that people share
+on, right, because bad things happen fairly often in the industry or have them historically.
+And I think the gallows humor is kind of healthy.
+It's part of the culture and I think that's good.
+It sometimes does overshadow the fact that there are real people in the background that
+are kind of suffering.
+Part of the reason we're able to even tell this story is that you've deliberately made
+the decision to be a public facing figure within the crypto industry, which I would
+say especially early on, many did not.
+And it's thoroughly appreciated by people who are users, people who might have had funds
+lost by people like us who are supporters of the protocol today.
+How did you make that decision and how do you look at that decision versus taking the
+road of being potentially more conveniently anonymous?
+Yeah, I think it's important to build trust.
+It's not something I'd ever considered.
+I don't come from a kind of cypherpunk background, I wouldn't say.
+You know, I was an academic before this.
+No one's anonymous.
+I'm an academia.
+Although they might effectively be academics.
+Names are out there though.
+Yeah, the names are all on the internet, but no one cares about them.
+So it wasn't part of the culture coming into it, so I wouldn't have considered it necessarily.
+It was kind of new to me coming into the industry to see that so many people had that.
+And I completely respect that, especially given all sorts of reasons to want to be anonymous
+or to reduce the extent to which your name is out there.
+And I respect all those reasons.
+But yeah, for me personally, I felt like when you're building something that does involve
+money and people are putting their trust in you, it's important for people to have
+somebody that they can kind of go and say hey to and interact with that can see that
+it's, you know, somebody that's thoughtful and trying to do things the right way behind
+the scenes.
+It's a little bit scary.
+Everybody in public as well, when exploit happened, I'm sure people must know the amount
+of kind of crap that you get during that period is quite intense.
+Yeah, how did you deal with that?
+Well, I've always just had this philosophy that obviously people are going to do that.
+They're upset.
+People are also one of the merchants online and people like to do it for fun.
+You just can't let it get to you.
+Ultimately, I've got friends and family at home who know what kind of person I am, my
+colleagues know what kind of person and they're the kind of relationships that matter to me.
+So I kind of tried to brush it off a little bit.
+Some of the things were particularly awful.
+You know, my son was born like four days before the exploit.
+Right. And some people decided to use him in some of the messages.
+It's terrible.
+I thought that was particularly overstepping the mark, but there weren't too many like
+that.
+You have to be pragmatic, realistic and accept that that's just part of internet culture.
+So trying not to let it get to you too much.
+Was that a lot of the community that responded at that time or how did the community at large
+respond to that period?
+Oh, it was a real mix.
+I mean, I would say most of the feedback and the responses were really good.
+I mean, we got lots of really sympathetic messages from other developers and builders
+in the industry on Telegram.
+Obviously, we'd been trying to build things the right way.
+So I love that we were very friendly with a lot of the security community as well already.
+And they knew that we tried to do things the right way.
+And this wasn't through carelessness or anything on our side where we deliberately cut corners
+or anything like that.
+So we had a lot of sympathy.
+I think a lot of respect from people in the industry already.
+So I got a lot of supportive messages, honestly.
+And then on social media, you got a lot of interesting theories, right?
+There's people saying that maybe it was an inside job.
+Maybe it was me.
+Yeah.
+That kind of thing comes up and you see it.
+I remember my wife at home was reading some of this stuff.
+She was saying, I don't know how you don't respond with pure just anger and rage.
+I said, it's just not helpful.
+It's just a lasting.
+When an incident like that happens, you need to focus entirely on trying to get the best
+outcome possible and letting silly people and their messages online get to you is not
+helpful and it's not a good use of your time to respond to all that.
+And I also said to our team, where are some people like writing messages back?
+And I said, it also sends the wrong signal.
+It sends the signal to people out there that you think that that's more important and that
+you've got the time to do that rather than trying to solve this case, right?
+So I said, yeah, we just like it bad on communication when it comes to responding to people's messages
+online.
+And that's how we approached it.
+How did the team stay together at that point?
+Well, I think we all like each other and all decent people.
+So there's a really incredible story within OILO actually that involves a person that
+was kind of surreal, bazillions during that time.
+We hired my co-founder, does lecturing, universities and colleges and things from time to time.
+And during one of his lectures, one of his students came up and started talking to him
+afterwards showing a lot of interest in cryptography and blockchain and so on.
+So he invited him at all points to become an intern at OILO and yeah, he went on from
+being an intern to being a smart contract developer and a senior developer and a sort
+of leader of the smart contract team and so on.
+Anyway, during that period when the exploit happened, I remember me talking to the team
+frankly about their roles and the likelihood that they'll stay on and everything.
+And this individual Casper, he said to us, I'm not going to stop until we catch this
+guy.
+We've got a chance to catch this guy.
+We have to catch him.
+Don't care about the future.
+Let's focus on just catching him.
+And yeah, he's now actually CTO of our company.
+So we decided to promote him to CTO.
+My co-founder is more like a presidential, plays more like a presidential role.
+So he's one of the people that was there in the trenches with us during that experience.
+And most of the team that we've got now, we're all there as well.
+So the team really have stuck together through thick and thin.
+I think we all like each other, all have a lot of respect for one another.
+It's a very smart team.
+It's very strong engineering culture.
+So yeah, I think that really helps.
+I've been in other war rooms and things trying to help out other projects.
+And sometimes I realize how lucky we are that we all feel that way.
+There was no finger pointing.
+There was no like, oh, you own this type of code.
+We all just wanted to get the absolute best result and we were hyper-focused on achieving
+that collectively.
+And that's actually not the norm when you go into some situations, you realize there's
+quite a lot of finger pointing and disagreements.
+So we're very lucky that we have that kind of team, I think, and that kind of culture
+at Euler.
+Yeah, it's special.
+He's CTO come head forensics and FBI and the whole thing, right?
+Yeah, yeah.
+Now he's done fantastic at Euler, but that's the kind of culture we have.
+It's very egalitarian.
+We don't have like big hierarchy, I wouldn't say, within the organization.
+It's fairly flat, so everyone can challenge and be challenged by the people.
+And I think that kind of fostered mutual respect and open dialogue and things.
+So yeah, people tend to enjoy working here, I think, and thrive when they do well.
+We like to promote them.
+An element of the story that I thought was interesting was you guys decided to keep the
+Euler name and brand as opposed to potentially doing a rebrand.
+What went into that?
+It was a big discussion.
+I'm not going to lie.
+stakeholders and professors to get their thoughts on this.
+There were a few different schools of thought.
+The reason we kept it was because, actually, we did have a strong brand name before that.
+We had a brand that's associated with engineering and building quality products and security
+and all the rest of it.
+So we had a good brand name coming into it, and then that was part of the reason why the
+response from the broader community was so strong, I think, after what happened.
+So that was one thing.
+It's a good brand.
+And we didn't want to then kind of water that down and make it look like we were hiding
+because we didn't feel like we have anything to hide, right?
+This is a really tough industry to build in, and you can do everything possible to secure
+a protocol.
+But unfortunately, there's no guarantees in life, and it's a particularly challenging
+industry to build and like software in.
+We've seen it's happened to many, many good projects down the years that have suffered
+security issues.
+So there's nothing to be proud of with a security incident, obviously, but there's also not
+necessarily something to be ashamed about as well.
+If you've done your best and tried to build in good faith and everything and something's
+happened, I don't think you should necessarily try to hide from that.
+And that was one thing that we didn't like about doing a rebrand was it might look like
+we're trying to sort of hide this and pretend that like, oh, there was some different thing,
+and we're now like a completely new team.
+And that didn't really fit with our ethos about being really transparent about things.
+We tried throughout the whole process to be as transparent as possible.
+Overall, we just felt like that was a better way to continue to build the brand and build
+trust is just through being really open, as open as we could be about everything that
+happened and focus on that and fully own it as part of who we are and our story and our
+history. But yeah, I mean, it's a strange brand because on paper, it's not a great
+one, actually, in terms of just from a pure marketing standpoint, the name Euler is
+derived from a mathematician from the 18th century, is pronounced differently to how
+it looks like it should be pronounced and all the rest of it.
+So there are many good reasons for branding and marketing standpoint, I think, to ditch
+it and to put some shiny new name on.
+But just in terms of the history and who we are and what we've done, I think we felt
+like it was the right thing to just keep it and move forward with our story.
+I think you make an important point, too, if you're innovating and I think this goes
+in crypto or beyond, you expose yourself to some level of risk when it comes to what
+can happen. And you guys early on had built a truly innovative, dynamic interest rate
+model. And I've loved reading and learning about how that was informed by your
+background. But it seems to shy away from innovation if you're going to do so in
+fear of what can happen.
+Yeah, I mean, everybody that's doing anything innovative takes risk in our industry.
+The risks are quite high, I would say.
+They're not necessarily as risky as they would be if you were building an airplane or
+a new type of car. Right.
+So there's definitely high risk industries out there.
+Innovation is a matter of life and death.
+It's not quite true here, but the innovation is very challenging and opens up a lot of
+potential for risk. That's absolutely the case.
+That doesn't mean that you shouldn't try to innovate, though.
+It's a part of human history is trying to push boundaries, trying to move things
+forward. Nothing worth doing is ever easy.
+So that's where we're at. I mean, I come back from a background in science, right,
+where a lot of the history of science is just littered with mistakes and things that
+went wrong. But science moves the world forward and ultimately has made the world a
+better place for quality of life and things.
+And I think in crypto, not necessarily didn't have that direct impact on quality of life
+necessarily, but it is a really powerful thing in the background about making
+finance more efficient and transparent and open.
+All the rest of it, I really do believe in.
+There's lots of kind of garbage going on in crypto at the same time.
+It's just a technology at the end of the day, and it can be misused and abused and all
+the rest of it. But there really is something, it sounds a bit trite, but there really is
+something there to it. Yeah, that makes it kind of an interesting and challenging
+environment to work in, but definitely one that's worth doing.
+Yeah. Identify that attitude as a strength that you and the team of Cooley had since
+early on. And in that vein, I wanted to ask if you look at the full lifespan, including
+the exploit of the protocol, is it similar or the same strengths that you think Euler
+V1 had and that you guys had from the outset that carried the success that you've had in
+the past year? Or was there something different?
+Was there something that you learned? How would you compare how that evolved?
+I think it's mostly the same strengths and the same attitudes that we've had since we
+started, honestly. I think that nothing has changed too much.
+I mean, we still build in the same way we used to build.
+Obviously, you adapt and you learn things over time.
+But I think it's the fundamentally the team has that just kind of engineering,
+scientific sort of approach to things.
+And I think that that served as well. We're very meticulous, very thorough.
+We're very collaborative. And that's really how we built Euler from scratch.
+People ask us a lot about why we've had success and part of it just comes down to the
+technology. I think people sometimes forget the line crypto because there's so much
+that's dependent on hype and tokenomics and all these other things that have nothing to do
+with technology. But in Euler's case, that's not really the case.
+We didn't come in with any hype. We came in with like anti-hype.
+We came in with intense skepticism about whether we could survive and thrive again in
+the industry. So, yeah, that anti-hype means that we had to have something that was
+really offered something unique and new and that was innovative and help people achieve
+things that they couldn't achieve with other tech and so on.
+So it's really been a tech driven period of growth for us.
+I mean, we've also pushed out on other areas, of course, in terms of business development
+and other innovations. But yeah, tech is the main component and ultimately comes back to
+who we are as people and what we like to do, which is build things and engineer things.
+I like the point that you make about the just technical and building first attitude
+that you guys have. And I think you alluded to the fact we certainly go through periods
+in the industry where I don't think that's the case, where I think a lot of the people that are
+drawn to the industry come from backgrounds that aren't necessarily aligned with pushing
+forward the best technical outcomes.
+Would you like to see more people from, say, a mathematics, a computational
+biology background who are coming in with maybe a problem solving or an efficiency
+perspective and a more robust technical background into the industry?
+Do you think that's something that we would benefit from?
+Yes, I know. I think you need to make sure people on the technology front.
+I think we already do have a lot of people like that.
+I mean, they just tend to not be as visible.
+I would say, like even Euler, there's not many people that are visible and people sometimes
+talk about Euler like I'm Euler and that's just because I'm on Twitter and everyone else
+isn't. And if I could not be on Twitter, I wouldn't be on Twitter, frankly.
+You know, it's not the environment I feel most comfortable in, but it's important for me to be
+visible, I think, for the project.
+But yeah, the rest of the team here are not that visible.
+I think that's true more broadly in the industry.
+You know, the incredible tech around a lot of the podcast calls people use, but most
+people will never see all the little micro decisions that went into structuring things
+the way they are.
+There's a lot of deep thinkers and sort of academic types and computer scientists,
+mathematicians and things building all the stuff behind the scenes.
+And so, yeah, I think we do have enough of them.
+It's how you bring that stuff to market, though, and how you do the sort of growth phase and
+how you bring how you distribute the technology.
+There's lots of interesting things about our industry that make it easy for the wrong
+types of people to benefit and then to kind of miscommunicate the way that things work.
+I mean, just one thing is it used to always be the case to like the forks.
+The forks are protocols where somebody else does all the hard work to build it.
+Someone just forks it, slaps the token on, and then they go out and sell it.
+And the average retail person, the average person that's not paying attention day in,
+day out, can't tell the difference between the original and the thing that was forked.
+All they see is it's a protocol.
+It allows me to swap token A to B, right?
+And that's all they see.
+But I think it's good for the industry when the people that build the technology are the
+ones that benefit from it financially.
+The forks are the ones where it tends to be the ones which are most heavily marketed
+because A, the team that built them don't have that like engineering background.
+They're more specialized in marketing.
+And B, they don't necessarily have to spend all the money on the building the tech.
+So they have a bigger budget to spend on the marketing.
+And they're maybe not there for the long term as well.
+I sort of believe that builders tend to build things partly for the upside,
+but also partly just for the sheer love of building stuff.
+That's certainly true of ATI.
+And I think that's true more broadly in the industry as well.
+People, engineers just like engineering stuff.
+We like tinkering and building stuff.
+And we would probably be doing it whether we got paid or not.
+There's a desire to solve problems, right?
+Yeah.
+And it's fun, right?
+There's part and parcel of it.
+So I think, yeah, builders are one of the best parts of the industry for sure.
+But you can't just build things and expect people to come.
+There's a really painful lesson a lot of people that come into the industry learn is
+you also have to have distribution down and figure out how to communicate these ideas
+and the technology to the end users.
+And so, yeah, there's other skill sets which I think are definitely needed.
+You make a great point that there are a lot of brilliant people in the industry
+who have that luxury of not being seen.
+And they take that view and hear you and I are talking on the podcast.
+Yeah.
+Well, this is distribution.
+You have to communicate, right?
+And talk to people and let them know who you are, what you're about,
+what your motivations are and so on.
+But yeah, a lot of our team, they're not anonymous,
+but they might as well be in some sense because they don't have a public presence.
+And so they're the ones behind the scenes doing a lot of the engineering work.
+Do you think Euler today would look different at all had it not been for the Exploit?
+Yes. Yeah, I think it'd be far more successful.
+I think prior to the Exploit, Euler was taking market share from competition
+and growing very, very quickly.
+And I can't emphasize how much of a setback it was.
+I mean, it's so much harder to come back than to do it the first time around.
+Is that because partners were reluctant to work with you?
+Or what were the major parts that set back?
+There's a whole bunch of factors.
+Firstly, liquidity is a powerful asset.
+And so when you have liquidity, it makes your protocol more useful
+than when you don't have liquidity.
+And that grows over time.
+It's one of these things that just takes time to build.
+So having liquidity, resetting that back to zero,
+having hit almost a billion dollars of liquidity before.
+I think we're saying from zero and then having to start from scratch.
+That's the challenge.
+I think Lindy and having the Lindy effects around for longer
+is another one slightly related, but it's more about just like the security
+of the protocol being battle tested with funds at risk for a longer period
+shows that it's less likely to be exploitable than something
+that's just brand new and shiny.
+There's also a lot about distribution in terms of tokens.
+Some of our competition have benefited massively from launching a token
+with a high valuation that they can then use in deals,
+negotiations for partnerships.
+If you have a high valued token that the people are optimistic about,
+putting a million here, a million there for deals or partnerships,
+it's absolutely nothing, right?
+It's just, you know, if you've got a billion dollar valued token,
+you can use that very, very strategically to grow very, very quickly.
+But when you come back from the grave, basically, there's no value in the token.
+It's a liquid.
+So it's not really an asset to the project anymore.
+It's almost like a liability, honestly.
+It doesn't necessarily help the projects grow.
+And so tokens, whether people like it or not,
+are a very important distribution mechanism like shared ownership
+that you can get in the early growth phase and project
+when people are optimistic.
+And it's a really, really important mechanism.
+And some of the best projects in crypto have used that massively to their advantage.
+And we haven't had that luxury, unfortunately.
+So, yeah, I think almost certainly,
+Euler would be a much bigger, stronger protocol today
+if the exploit hadn't happened.
+What resonates with users from Euler as a protocol?
+When you take your average user, what do you think attracts them?
+And you mentioned a landscape of other players in DeFi.
+What stands out?
+I think Euler has always been a place
+where we've not shied away from offering, for better or worse,
+and it's not necessarily the right way or the wrong way,
+but we've not shied away from offering more advanced features on the protocol
+and allowing people to do more advanced things.
+So we've always had a user interface
+that allows people to batch transactions, for instance,
+and build more complex positions,
+then rebalance those positions more easily.
+And so, yeah, some of our competitors are really just adding this today.
+In 2025, right back from 2021, we had a lot of these cool features.
+So that engineering, I think, mindset that we had benefited us
+because we attracted people that really appreciated
+those kind of more advanced features
+rather than just a deposit or just borrow.
+There's more you could do.
+The protocol is more efficient, I think, in many ways, more capital efficient.
+You can see that in the charts. There's higher overall utilisation.
+People tend to prefer borrowing on Euler than other platforms.
+In some scenarios, not all of them.
+Certainly, if you're borrowing from something like Aave,
+they have a lot more liquidity.
+Sometimes it's easier to do that because of that,
+but on the purely technical front, I think we make borrowing easy on Euler.
+We show people lots of information about their borrowing positions
+and statistics and things that aren't shown in other protocols,
+which help people manage risk a little better.
+We don't penalise people when they're liquidated.
+We try to minimise the costs from liquidations as much as possible.
+Whereas if you get liquidated on other protocols, it can be really devastating.
+You pretty much usually get wiped out, I would say.
+Whereas on Euler, that's not the case.
+You usually are able to keep almost...
+Most of the net asset value of the account is sort of retained
+after the liquidation rather than going to liquidation fees
+or liquidation penalties.
+So, yeah, I think borrowing overall has been a big thing
+that people tend to like more on other than other protocols.
+And when you build out product functionality
+or build out markets on the protocol,
+do you do it with a bit of a sandbox mentality
+of this is functionally something very good,
+or do you do it more with a view of,
+okay, people will do this because they'll want to go then do this on Pendle
+or EtherFi, or you're thinking about how those use cases are reported elsewhere?
+Good question.
+I said this is something that we learned from V1.
+Firstly, I'd say that just our engineering style
+is to always try to build things in this modular way.
+So we try to abstract things and then package them up into a lot of modules
+that you can then recombine.
+What's useful about that is that the things that come up
+that people end up asking you for, that you didn't necessarily anticipate,
+they can usually be done out of the box by then recombining the modules
+and allowing them to interact in different ways.
+So you can sort of use Euler as more of like a kit,
+a developer's kit for building products.
+So we don't start with the products as such.
+We start normally with the underlying engineering in mind.
+Some people say that's the wrong way to do things.
+Like many people advocate for building specific products for specific users
+and just tailoring to a particular use case.
+But I would say we do things the other way.
+We sort of build from the ground up and tend to try not to anticipate
+all the possible use cases, but assume that we can hopefully build
+any kind of product on top, any kind of credit-related product
+on top of the kit that we got Euler.
+So we hope to not have to keep releasing the V3, V4, V5 and so on.
+We want Euler to be as flexible enough to add new features,
+some of which I'm sure we'll talk about in the pod today.
+Yeah, so that's our general philosophy.
+What have you learned about user behavior over that time?
+Oh, it's changed massively.
+I mean, the use cases that people used to do in V1, mainly do in V1,
+are still there today, but there are many more use cases today.
+So in the early days of DeFi, people were mainly using lending protocols
+to borrow against volatile crypto assets.
+And they did that for a few different reasons.
+Sometimes they want to borrow against the ETH or Bitcoin
+because they want to go long.
+So they would like them to redeposit back into ETH or Bitcoin
+and amplify their exposure.
+Sometimes they wanted to use their assets in the real world.
+So they just borrow against it and then go buy a car or pay for something
+in the real world, or take advantage of another opportunity out there in DeFi.
+It was mostly loans against volatile assets in the early days.
+And I think in that change with state ETH, when state ETH emerged,
+we had yield-bearing forms of ETH.
+And that was like the first time that we really started to see growth
+of a different type of trade, which was more of like a carriage trade.
+We deposit something that's high yield, then borrow something that's low yielding.
+And then you can scale up or down your exposure to the yield,
+basically by redepositing back into the yield-bearing asset.
+And that's just completely exploded as the main use case,
+I'd say, for lending borrowing protocols in the past 12 months,
+which is why protocols like Euler and also Morpho have done ever so well.
+During that time, it's just that these kind of carriage trades
+are now the main use case for lending protocols, I would say.
+People are arbitraging interest rates and capturing yield from stables,
+rather than just borrowing against volatile assets.
+Which I look at as positive, to go back to the root of our discussion.
+It's market efficiency rate discovery.
+Yeah, I mean, it's interesting.
+I think there's this tendency a lot in foul finance,
+where you have assets that are volatile.
+And what people want to do is they try to compress that volatility
+as best they can.
+Now, you can always compress volatility,
+but you can't, in my opinion, fully remove it from the system.
+So, you know, if you've got something that's volatile over 12 months,
+you can make it less volatile over 12 months,
+but there might be one really big spike in that time.
+And I think that's kind of what's happening with the change in crypto today.
+Things like Athena and so on,
+we're still benefiting from the yields on some of these volatile assets and things,
+but we're finding ways to effectively compress the volatility
+into products that are more predictable, I would say.
+At least on short timeframes.
+And then people focus on trading the rates with those,
+rather than focusing on directional trading,
+where things are going to go up or down.
+They try and turn that into a yield-to-bend product instead.
+So I think that's like a common trend and overall, probably a good thing.
+But one downside to it maybe is that it allows for more leverage
+to build in the system and like less predictability in the long term.
+If you wanted to go leverage long on Bitcoin,
+there's probably a ceiling on the amount of leverage you could take.
+Let's say it's 5x or something, right?
+There's like a sane amount of leverage that you can potentially take
+if you earn some Bitcoin.
+I want it to go long.
+But if you have a stablecoin that's yield-bearing,
+maybe you get 20, 30, 40x leverage out of that stablecoin.
+And yeah, over a short time frame, that might be perfectly fine.
+When it does eventually unwind, it can do so maybe even more validly
+than the people who are trading on leverage on Bitcoin.
+So yeah, I think there's trade-offs with the way the industry is moving.
+But yeah, certainly stablecoins and yield-bearing assets
+work quite well with lending protocols, I'd say.
+And the two have very strong quarter market fit with one another.
+I want to just highlight that point because I think for people
+who aren't active in DeFi or crypto,
+one of the most underappreciated aspects of the market
+is how speculative people are on stablecoins
+through looping to the point you make.
+I think people think of speculation as being on meme coins and altcoins,
+but I fully agree on the point that you're making
+that people are speculating on stablecoins.
+Yeah, it's a huge trade.
+But it's the same in traditional finances, too, right?
+It's nothing unique to our industry.
+Yeah, trading rates, basically, and leveraging stablecoin yield,
+I think is probably the biggest trade in the market today.
+Maybe it's already the biggest.
+Certainly, if it's not today, I expect it will be in the nearest future.
+To touch on another piece of this related market structure,
+you've probably seen the same.
+We've seen a lot of these new CDP or collateralized
+debt position protocols coming about, which to me makes it clear
+that people have a desire to hold exposure to their altcoins,
+but to essentially park them somewhere and instead do all their financial things
+with a stablecoin, which gets to your point of they want to take
+whatever stablecoin they've now received and maybe go to rate arbitrage
+on it with a different stablecoin.
+My question seeing this is, do you think eventually
+we get to a point where the altcoins almost become more idle
+and most of actual DeFi finance happens using stablecoins?
+And I say this, seeing you go on Euler or Morpho
+or on these platforms now, the top assets are stablecoins.
+They didn't used to be that way.
+So I'm curious if you think that is the vehicle that DeFi is happening with,
+at least from a transaction perspective, long term.
+Yeah, I think so. I think it is.
+It's just much easier to move these stablecoins around and also to handle them
+and to price them.
+And so, like I say, there's no free lunch.
+I do think that over a longer time horizon, we will see some of them
+DPEG quite violently or wind.
+So there are definitely challenges with these things.
+There's no free lunch in finance ever.
+But they simplify the day to day experience rather than holding
+strictly volatile assets.
+And I think that's why a lot of traders prefer these things
+and why we're seeing so many step-by-step growth
+in that particular sector at the moment.
+Thinking over the longer term, it feels like non-USD stablecoins
+or FX markets could be something that could be interesting
+for a platform like Euler.
+Do you see that as being a potential DeFi reality?
+I do over some time horizon, but it's not today.
+Why is that?
+I mean, I've talked to people a lot about this particular topic
+and whether or not people will start creating FX like markets on Euler
+and now other swap.
+But yeah, there's been some challenge.
+I mean, like the dollar is just so powerful.
+It's the currency that everybody likes to use.
+We use for international trade.
+No one wants to hold euros, it seems, on chain at the moment.
+I think Circle have made a really big push with C
+and it hasn't really taken off today.
+I don't think it'll be like that forever.
+I think at some point they will start to move
+and we will see more FX like trading.
+I mean, there's more and more assets are coming on chain all the time.
+We're seeing stocks, equities and tokenized funds and everything.
+So it'd be strange to me if FX doesn't grow.
+But there are some disadvantages with on chain trading, off chain FX.
+The amount of leverage that people can take is absolutely huge
+and the order books and everything very, very efficient
+and things are a little less efficient on chain, I would say, at least today.
+That makes it a little harder perhaps to trade these things
+as profitably as he can do with off chain.
+So maybe that's why they're yet to take off.
+But some things just take time.
+We look at Pendle, right?
+Another protocol like ourselves that has been around for a while
+and it didn't really do an awful lot until one day it did.
+And it's one of the most important protocols in DeFi today.
+But for at least a year, maybe longer, fixed rate protocols were everyone would say.
+There's just no appetite for it in crypto.
+And I think you see that with the product lines as well, you know, options
+not really come to crypto yet, not really come to DeFi in a major way.
+But yeah, some things just take time and you reach a critical mass
+and then they just really take off and bloom after that.
+So, yeah, I wouldn't rule it out for FX, but it's not there today.
+That's a good segue talking about some of these functionalities
+that maybe haven't played out and some of those areas of the market
+that you can explore.
+What's your vision for Euler as a platform over the longer term?
+I think it should be a liquidity hub, a kind of a DeFi super app effectively,
+where it holds significant liquidity for people and provides a lot of functionality
+for doing different types of trades or different types of financial operations
+on top of that liquidity.
+So the underlying technology is very flexible.
+It allows you to build all sorts of different types of credit products on top,
+whether that's variable or fixed rate is something that we got coming in the pipeline.
+And I think fixed rates are going to come back in a very big way
+in DeFi in the fairly near future.
+I think all the major lending protocols are taking a look at this
+and rethinking how it should be done.
+So it will be interesting to see how that changes in the near future.
+But yeah, certainly you can build a very good fixed rate protocol to Boiler.
+I think that will be coming.
+On the swap is something we added fairly recently and it's still in beta,
+but it's been looking extremely promising as a new technology on top of Euler.
+Can you talk about how Euler swap works?
+I'm very excited about it.
+I mean, as a backdrop to say about some of the pain points of existing decentralized
+exchanges, one of which is that when you put liquidity in a DEX and it's not traded on,
+it's not utilized within the given block, it's just tidal liquidity.
+And that's just wildly inefficient to do that.
+Even on blocks where you have trades, most of the liquidity isn't utilized,
+just a small percentage of it is.
+That's just so inefficient to do that.
+The rest of that liquidity should be earning yield in some form or another.
+And that's how it works in TradFi.
+If you're trading on some off-chain order book,
+the liquidity isn't literally sat there in units being moved around in the order book.
+It's actually sat in the background somewhere in some account,
+earning yield for people.
+And then they set a lot of the order books at the end of the day or whatever.
+And Euler swap solves that problem, effectively pulls the liquidity inside
+lending or credit markets by default, optional for ALP.
+But by default, that's the assumed position.
+And then liquidity is then used just in time to supply liquidity to the market for swaps.
+And so when you LP on Euler swap, you earn yield by default from lending and borrowing first.
+And then if you want, you can also then switch on the option to earn swap fees
+and then extra sources of income from the swapping.
+So it's just much more capital efficient from that standpoint.
+But another major pain point of DexMarkets is borrowing against your liquidity.
+People want to do this for all sorts of reasons,
+but it's just not really been a solved problem.
+In my entire time in DeFi, people have always wanted to
+see if they could borrow against their Uniswap LP tokens.
+I remember people trying to do it in V2 and it didn't work there because it was very hard
+to price the tokens and there were all sorts of exploits associated with the Uniswap V3.
+It's arguably even harder because now the tokens were NFTs and they were even harder to price
+or to be able to use this collateral in a fungible type of collateral lending protocol.
+So Euler swap to Dex where the liquidity by default sits inside credit vaults.
+If those credit vaults are accepted as collateral in unsigned other vaults,
+then that gives them native borrowing functionality.
+So when you LP and Euler swap, not only do you earn interest on the assets from lending if you
+want, but you can also natively borrow against your LP positions.
+And this doesn't require any fancy logic in terms of moving the LP tokens around into new markets.
+I think it's just native functionality you get out of the box.
+So ultimately what happens is, let's say you want to LP ETH and USDC,
+you put ETH into an ETH credit vault and then some interest there.
+You put USDC into another credit vault and interest there.
+And then you as the account holder would install like an AMM curve on top of your account.
+It's kind of a bonding curve that defines the rules that swappers have to obey.
+And the swappers, what they're doing when they come in and swap is they're effectively just
+rebalancing the amount of ETH and USDC in your credit accounts now.
+Someone sells ETH, you get more ETH and you take some USDC out and vice versa.
+And if you want to borrow now against that position,
+you can because ETH and USDC are collaterals in Euler and lots of our markets.
+And so you can just go away and borrow against that position.
+Now, what might you do by borrowing?
+You could maybe borrow and supply even more liquidity.
+So you can sort of leverage the LP token and multiply the yields that you're earning.
+You might just borrow against it as a hedge.
+You might want to hedge out the ETH side of the position.
+And I think you don't want to be as exposed to that side of things.
+You might want to borrow just to access funds and liquidity to go use elsewhere in the EFI
+or some of the strategy.
+But yeah, lots of reasons to borrow against things.
+And it all comes out of the box with EulerSwap for free.
+Yeah, it's a very, very powerful rebalancing primitive people's accounts on top of Euler.
+And yeah, I think it's going to completely change the way that the DEXs work.
+We launched some beta testing faults using the Dow's liquidity.
+And in under two weeks, I think we've done over a billion dollars in
+trading volume on the USDC USDT pair.
+One of the reasons for that was because when people swap, the swap sometimes can be used
+as collateral to borrow the output amount.
+So an LP position of a million dollars can be used to simulate the same effective liquidity
+as a $50 million LP position in Uniswap.
+And then you leverage swap fees and everything on top.
+But you just provide overall much deeper liquidity by using the borrowing functionality of the LPD
+tokens.
+So yeah, it's a very, very, very powerful new primitive, but I'm very optimistic about it.
+And I see one immediate use case given everything we talked about.
+It'll probably be a great stable swap, I imagine, right?
+Because of all the stablecoin liquidity that you have.
+Yeah, hugely beneficial for new projects that are starting stablecoins as well.
+I mean, the current system for most projects starting a stablecoin today
+is the very first thing they need to do is somehow get DEX liquidity.
+How do they get that DEX liquidity?
+Well, they often have to pay for it.
+People often ask me, why is LPing on oil or swap immune to permanent loss and all
+these toxic flow and all this of it?
+And the answer is no, that's not where the innovation is.
+People aren't LPing all the time because they are profitable LPing just on the swap fees.
+People are LPing stablecoins because they need DEX liquidity because without the DEX liquidity,
+it's hard for them then to go on and build credit markets for their stablecoins.
+And if they don't have a credit market, then the stablecoin isn't that useful, really.
+So DEX liquidity comes first and foremost.
+What's unique about oil swap, I think, is you can build a credit market in parallel
+to a DEX market and you can actually do the whole thing in one go in a much more
+capital efficient way than people have done this in the past.
+You don't have to spend weeks building liquidity on a DEX and pay millions of
+dollars to incentivize that liquidity either from private LPs or from public LPs.
+You can effectively deposit the assets, collateralize them, go and borrow from a
+USDC market, for instance, the deposit so that you get a leveraged LP token.
+You'd now grow the DEX liquidity.
+Once you have DEX liquidity, you can now connect that to all the vaults and other
+things in the system where you can start to grow your credit market.
+It can all be done in a matter of days or a few weeks rather than taking months and months
+and costing millions of dollars to bootstrap things.
+It's just much, much cheaper and faster.
+Yeah, I think it's brilliant and inevitably we'll see a lot more
+stablecoins having to bootstrap.
+And so it's, to your point, really attractive for them.
+I want to touch on a couple more questions, maybe pivoting a little bit.
+Do you still have a desire to build out these primitives?
+Is this what you want to do sort of for your infinite game?
+Or do you ever want to go back to academia?
+Or how do you assess where you'd like to spend your time?
+I really enjoy the engineering side of the industry we work in.
+Yeah, I really, really enjoy it.
+I mean, most of all, the swap was my engineering ideas and things.
+So using stuff from my background, doing a lot of maths and things.
+So I really enjoy that side of things.
+Yeah, running in companies is definitely also challenging and quite stressful,
+I would say.
+It's certainly a very different experience from being an academic
+where you just work very much.
+Well, you work as part of the team, but you're kind of in charge of your own things
+and you don't necessarily have loads of people to answer to and people's livelihoods
+and the things dependent on you and so on.
+So yeah, it's quite different.
+I wouldn't go back to academia personally.
+A division about what academia being an academic will be like
+that didn't really play out when I was there.
+I enjoy some aspects of it doing the core scientific research I really enjoyed,
+much like I enjoyed in engineering stuff at OILA.
+But the day-to-day stuff, the amount of bureaucracy involved in being an academic is enormous.
+It's more about writing research grants and writing papers
+than it is about doing core research, I would say, these days.
+I think that whole industry probably has some evolving to do
+in order to keep up with the way the world's working.
+I think probably AI is changing a lot of things,
+but we'll completely shake up academia as well.
+I wouldn't go back, but I still sort of romanticize some elements of it, I suppose.
+Just being able to sit down and just chew through you,
+like challenging, problem-solving stuff day in, day out.
+I think it's really fun.
+The point you make on having to lead a protocol,
+in some ways you personally become the victim of your own success, right?
+Because the larger you get, the more attention you have,
+the more commitments you have, the more inbound you get.
+How do you balance the rest of your life with that reality
+and your family and alongside your commitments to the protocol?
+It's a good one, yeah.
+I'm not going to lie, it's quite challenging,
+but families are a natural balancer, I think.
+Before you have a family, you always think,
+how would I possibly have time for a family?
+But once they arrive, the time kind of sorts itself out for the most part.
+You realize all the areas of life where you can trim stuff away,
+stuff that you just used to take for granted.
+They really prioritize a lot of things for you, I would say, naturally.
+And they're a really great leveler when you have a job like I do
+that's quite stressful and quite full-on and 24-7,
+going hanging out with family on the weekend, just doing stuff with the kids.
+In those moments, you don't have time to worry about the nitty-gritty of the crypto markets,
+to what's happening, whether Bitcoin's up or down, people are sad or not.
+For me, I think it's been really helpful, a big distraction from work,
+because if I didn't have that, I just would work non-stop.
+I find it very kind of addictive, I suppose, like a bit urban,
+maybe a little bit of a workaholic.
+I've often found that I don't need that much sleep
+compared to the average person.
+I heard recently there's a genetic variant where maybe some people need a couple of hours less.
+Yeah, I don't know whether I have that variant or not, but yeah, I'd be quite happy
+just spending every hour every day doing work of some form or another.
+I think that's how I got into crypto in the first place.
+I just used to do, even after I finished work with my day job as a scientist,
+I would get home, maybe watch some TV with my wife and she'd go off to bed.
+And I'd be like, well, I've got a good few hours now to do something by myself.
+And I would just do hackathon competitions.
+Plus crypto markets are 24-7, so it's great for anyone.
+Yeah, that's it. Learn a new programming language.
+Yeah, try and build a market-making bot.
+I just used to do all sorts of hacky things and that's how we got me here, honestly.
+Yeah, I'll be doing that for the rest of my life. I'm quite drawn.
+Michael, I greatly appreciate you coming back on to talk to us.
+And like I said before, I have a deep respect for everything
+you guys have done with the protocol and everything ahead.
+Oh, thank you. Yeah, I appreciate it.
+I can't believe it's been so long since we last talked.
+It sort of feels like yesterday.
+Yeah.
+So yeah, it really shows how fast the year has gone from that perspective.
+Just so much has happened.
+But yeah, it's great to be back, especially with lots of positive things to say,
+lots of growth to talk about and showcase this time around.
+Yeah, it's only the start.
+Yeah, definitely. Yeah, there's so much more to come.
+I think both from the industry, it looks very promising right now,
+but also from ourselves, we've got loads to come.
+So yeah.
+Well, thank you again and have a great rest of the day.
+You too. Thanks a lot.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes, please go to onthebrink-podcast.com
+or just click on the tab in our website.
+Thanks for listening.

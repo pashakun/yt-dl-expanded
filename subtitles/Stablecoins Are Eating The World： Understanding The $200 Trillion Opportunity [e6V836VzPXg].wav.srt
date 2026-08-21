@@ -1,0 +1,3336 @@
+1
+00:00:00,000 --> 00:00:08,880
+ All I would say is if stablecoins are inevitability at this point, and if you are building in FinTech
+
+2
+00:00:08,880 --> 00:00:14,960
+ and or at a payment company and you aren't actively figuring out how do I future-proof this business
+
+3
+00:00:14,960 --> 00:00:16,240
+ for stablecoins, you're going to lose.
+
+4
+00:00:16,240 --> 00:00:23,440
+ Welcome to Bankless, where we explore the frontier of internet money and internet finance.
+
+5
+00:00:23,440 --> 00:00:28,000
+ And today on Bankless, we are exploring the frontier of stablecoins. The stablecoin conversation
+
+6
+00:00:28,000 --> 00:00:33,200
+ in crypto goes all the way back. You can find discussions of stablecoin concepts as far back
+
+7
+00:00:33,200 --> 00:00:37,600
+ as the Bitcoin talk forums, which was the original venue for all of crypto's great ideas.
+
+8
+00:00:37,600 --> 00:00:43,760
+ In 2025, the conversation continues. Stablecoins have been, and seemingly always will be,
+
+9
+00:00:43,760 --> 00:00:47,600
+ an incredibly important part of the crypto revolution. Things are a little different now,
+
+10
+00:00:47,600 --> 00:00:53,200
+ however, in 2025, things are no longer conceptual. The emergence of stablecoins like USEC and
+
+11
+00:00:53,200 --> 00:00:58,400
+ Tether have grown into a $200 billion market cap asset class, and the performance of blockchains
+
+12
+00:00:58,400 --> 00:01:02,080
+ have risen to match the needs of internet-based stablecoin settlement networks.
+
+13
+00:01:02,080 --> 00:01:05,920
+ Because of these unlocks on the crypto tech tree, we are now finally seeing startups
+
+14
+00:01:05,920 --> 00:01:11,120
+ weave together the old siloed financial system into new internet public blockchains.
+
+15
+00:01:11,120 --> 00:01:14,720
+ And it's because of the utility value of stablecoins that so much progress
+
+16
+00:01:14,720 --> 00:01:18,880
+ has been made over just the last year. Rob Haddock, the guest on the show today,
+
+17
+00:01:18,880 --> 00:01:24,640
+ says that he is seeing 30% month over month growth of cross-border stablecoin volumes.
+
+18
+00:01:24,640 --> 00:01:29,120
+ All of this, combined with the regulatory clarity and stablecoin bills that are passing
+
+19
+00:01:29,120 --> 00:01:33,200
+ through the United States Congress, are creating a gold rush in the stablecoin economy.
+
+20
+00:01:33,200 --> 00:01:37,920
+ Everyone is trying to get a piece of the incredible amount of value that is going to be produced
+
+21
+00:01:37,920 --> 00:01:42,000
+ by the invention of stablecoins. It's also interesting to note that during the times of
+
+22
+00:01:42,000 --> 00:01:46,960
+ Donald Trump's isolationism and rejection of globalism, that the crypto and stablecoin industry
+
+23
+00:01:46,960 --> 00:01:52,080
+ represents an inherent interconnectedness since blockchain networks know no borders,
+
+24
+00:01:52,080 --> 00:01:56,000
+ and stablecoin transfers are weaving together the global financial rails tighter than they've
+
+25
+00:01:56,000 --> 00:02:00,080
+ ever been before. I just thought this was an interesting contrast that came to my mind
+
+26
+00:02:00,080 --> 00:02:04,560
+ during my podcast with Rob. I learned quite a bit with Rob, so I'm sure you will as well,
+
+27
+00:02:04,560 --> 00:02:07,680
+ so let's go ahead and get right into that episode. But first, a moment to talk about some of these
+
+28
+00:02:07,680 --> 00:02:12,160
+ fantastic sponsors that make the show possible. In the Wild West of DeFi, stability and innovation
+
+29
+00:02:12,160 --> 00:02:16,240
+ are everything, which is why you should check out fracks finance. The protocol revolutionizing
+
+30
+00:02:16,240 --> 00:02:21,600
+ stablecoins, DeFi and Rolex. The core of fracks finance is fracks USD, which is backed by BlackRock's
+
+31
+00:02:21,600 --> 00:02:26,640
+ institutional fiddle fund. Fracks designed fracks USD for best-in-class yields across DeFi,
+
+32
+00:02:26,640 --> 00:02:31,200
+ T-bills and carry trade returns all in one. Just head to fracks.com, then stake it to earn
+
+33
+00:02:31,200 --> 00:02:35,200
+ some of the best yields in DeFi. Want even more? Bridge your fracks USD over to the
+
+34
+00:02:35,200 --> 00:02:40,160
+ frackstool layer 2 for the same yield plus frackstool points, and explore frackstool's diverse
+
+35
+00:02:40,160 --> 00:02:45,280
+ layer 2 ecosystem with protocols like curve, convex, and more, all rewarding early adopters.
+
+36
+00:02:45,280 --> 00:02:50,400
+ Fracks isn't just a protocol, it's a digital nation, powered by the FxS token and governed
+
+37
+00:02:50,400 --> 00:02:54,880
+ by its global community. Acquire FxS through fracks.com or your go-to decks,
+
+38
+00:02:54,880 --> 00:02:58,880
+ stake it, and help shape fracks nation's future. Ready to join the forefront of DeFi?
+
+39
+00:02:58,880 --> 00:03:04,320
+ Visit fracks.com now to start earning with fracks USD and staked fracks USD, and for bankless listeners
+
+40
+00:03:04,320 --> 00:03:10,800
+ you can use fracks.com/r/bankless when bridging to fracksl for exclusive fracksl perks and boosted
+
+41
+00:03:10,800 --> 00:03:16,080
+ rewards. Uniswap is your gateway to a more efficient DeFi experience. With Uniswap swapping and
+
+42
+00:03:16,080 --> 00:03:21,040
+ bridging across 13 chains is simple, fast, and cost-effective, helping you move value wherever,
+
+43
+00:03:21,040 --> 00:03:25,280
+ whenever. Thanks to deep liquidity on the Uniswap protocol, you'll enjoy minimal price impact on
+
+44
+00:03:25,280 --> 00:03:30,400
+ every trade, and now Uniswap V4 takes it even further. Swappers benefit from gas savings on
+
+45
+00:03:30,400 --> 00:03:35,840
+ multi-hop swaps, and ETH trading pairs, while liquidity providers can create new pools at 99%
+
+46
+00:03:35,840 --> 00:03:40,160
+ lower costs. The best part, you don't have to do anything extra. Each trade is automatically
+
+47
+00:03:40,160 --> 00:03:45,760
+ routed through Uniswap X, V2, V3, and V4, so you give the most efficient swap without even thinking
+
+48
+00:03:45,760 --> 00:03:49,520
+ about it. Whether you're swapping, sending, on-ramping, off-ramping, or bridging, Uniswap's
+
+49
+00:03:49,520 --> 00:03:53,280
+ web app and wallet gives you the tools to unlock DeFi's full potential on Ethereum,
+
+50
+00:03:53,280 --> 00:03:58,480
+ base, arbitrum, Unischain, and more. Use Uniswap's web app and wallet for a more efficient way to
+
+51
+00:03:58,480 --> 00:04:03,440
+ use DeFi. Imagine verifying yourself without handing over personal data. No hacked databases,
+
+52
+00:04:03,440 --> 00:04:08,240
+ no unnecessary personal exposure for air drops, and no AI bots ruining community governance.
+
+53
+00:04:08,240 --> 00:04:13,680
+ Meet Self, the on-chain identity verification protocol built for privacy and control. Self-protocol
+
+54
+00:04:13,680 --> 00:04:19,200
+ uses zero-knowledge proofs to confirm your identity safely. Users prove key details like age or
+
+55
+00:04:19,200 --> 00:04:24,560
+ citizenship without revealing sensitive personal information. Self never stores your data. It only
+
+56
+00:04:24,560 --> 00:04:29,280
+ generates cryptographic proofs. Here's how it works in three steps. First, register and verify.
+
+57
+00:04:29,280 --> 00:04:35,280
+ Use the Self app to scan your biometric passports RFID chip. Self-verifies authenticity with
+
+58
+00:04:35,280 --> 00:04:39,920
+ zero-knowledge proofs. Each passport creates one unique identity. Second, you can share proofs
+
+59
+00:04:39,920 --> 00:04:44,960
+ privately. Third-party apps request identity proofs, like confirming your over 18. You can also link
+
+60
+00:04:44,960 --> 00:04:49,520
+ proofs securely to public wallets for air drops or governance participation. And then last,
+
+61
+00:04:49,520 --> 00:04:54,640
+ secure verification. Apps validate your proofs instantly on-chain, like on-cello or off-chain.
+
+62
+00:04:54,640 --> 00:05:01,600
+ Audited by ZK Security, the Self app is live on iOS and Play Store. Visit self.xyz and follow
+
+63
+00:05:01,600 --> 00:05:06,640
+ self-protocol on X. Bankless Nation, I'm here with Rob Haddock General Partner at Dragonfly Rob.
+
+64
+00:05:06,640 --> 00:05:10,400
+ Welcome to Bankless. Thanks for having me. Rob, I'm going to start this episode by reading off
+
+65
+00:05:10,400 --> 00:05:15,040
+ a quote and then maybe you can just pick up the trail right from there. Stablecoins aren't going
+
+66
+00:05:15,040 --> 00:05:20,240
+ to be the best product for all forms of payment, collateral mobility, savings, etc. But they are
+
+67
+00:05:20,240 --> 00:05:24,560
+ better and will continue to get better for many, many use cases, eating into that trillions of
+
+68
+00:05:24,560 --> 00:05:30,320
+ dollars of the addressable market. Now, this is a quote from you. Maybe you could just expand on
+
+69
+00:05:30,320 --> 00:05:34,400
+ that. And overall, it's just set the table for us when we get into the conversation of
+
+70
+00:05:34,400 --> 00:05:38,560
+ stablecoins, where we are now, where things are going, and why people think stablecoins are just
+
+71
+00:05:38,560 --> 00:05:45,680
+ such a big deal. Yeah, listen, the stablecoin topic is not a new one. People have been talking
+
+72
+00:05:45,680 --> 00:05:51,520
+ about this for a long period of time. Circles exist since 2012. And there's been a lot of conversation
+
+73
+00:05:51,520 --> 00:05:55,360
+ around stablecoins that I don't think has made a ton of sense. But what we've really started to
+
+74
+00:05:55,360 --> 00:06:02,080
+ see in the last year is people kind of formulate or understand where are the places where stablecoins
+
+75
+00:06:02,080 --> 00:06:07,440
+ are the most exciting. So when I put that quote out there, a lot of people I've talked about are
+
+76
+00:06:07,440 --> 00:06:13,040
+ like merchant payments and stablecoins or domestic payments. And we haven't seen that adoption because
+
+77
+00:06:13,040 --> 00:06:19,040
+ I haven't actually been particularly that excited about that type of use case. And in part because
+
+78
+00:06:19,040 --> 00:06:23,520
+ stablecoins sometimes aren't cheaper, sometimes they don't have the right to level of compliance
+
+79
+00:06:23,520 --> 00:06:28,560
+ on the right level of usability, or a better level of usability than call it traditional rails.
+
+80
+00:06:28,560 --> 00:06:33,120
+ But what we have seen today is after things like cross-border payments, things like payouts,
+
+81
+00:06:33,120 --> 00:06:40,640
+ just the want or desire to have US dollar access and emerging markets, things like being able to
+
+82
+00:06:40,640 --> 00:06:44,400
+ use this as collateral for different types of trading or tomahly settle across different assets.
+
+83
+00:06:44,400 --> 00:06:48,640
+ Like those things are all clearly much, much better in stablecoins. That market is trillions
+
+84
+00:06:48,640 --> 00:06:52,880
+ of dollars. They are taking over that market. I think what people are learning right now,
+
+85
+00:06:52,880 --> 00:06:57,280
+ especially with the election of the recent administration, which is of course much more
+
+86
+00:06:57,280 --> 00:07:00,560
+ crypto-friendly, which means that we're going to get some crypto-friendly legislation
+
+87
+00:07:00,560 --> 00:07:05,200
+ pushed through Congress, which is definitely the backdrop of why people are talking about
+
+88
+00:07:05,200 --> 00:07:11,520
+ stablecoins right now. People are looking at how crypto is going to become regulatory compliant,
+
+89
+00:07:11,520 --> 00:07:17,200
+ regulatory clear. And I think people are realizing that stablecoins are just a first step into
+
+90
+00:07:17,200 --> 00:07:21,280
+ traditional finance, the rest of the world's foray into crypto. They're going to start.
+
+91
+00:07:21,280 --> 00:07:25,600
+ The first stop on that train is stablecoins. And in addition to that, I think people are just
+
+92
+00:07:25,600 --> 00:07:29,920
+ kind of looking around at all the stablecoins and realizing that the conversation doesn't end
+
+93
+00:07:29,920 --> 00:07:37,440
+ at stablecoins. We are not ending the conversation at USDC or Tether. There is many, many, many next
+
+94
+00:07:37,440 --> 00:07:44,000
+ steps for investment projects building out this stablecoin tech stack. Maybe you can kind of
+
+95
+00:07:44,000 --> 00:07:49,040
+ pick up where that train goes. So we already have USDC. We already have Tether.
+
+96
+00:07:49,040 --> 00:07:54,240
+ What are the few next stops on that stablecoin train that you are seeing getting built out first
+
+97
+00:07:54,240 --> 00:08:00,880
+ and are the most interesting to you? Yeah. So I think it's helpful to maybe frame this as what
+
+98
+00:08:00,880 --> 00:08:07,040
+ is a stablecoin? Because what I think in crypto happens is we talk a lot about stablecoins for
+
+99
+00:08:07,040 --> 00:08:10,880
+ different types of products that are clearly not stablecoins or stablecoins for different use cases.
+
+100
+00:08:10,880 --> 00:08:16,960
+ So you mentioned, Tether, very traditional treasury backed or almost treasury backed in
+
+101
+00:08:16,960 --> 00:08:21,680
+ Tether's case, stablecoins that are meant to be for payment use cases. So you mentioned
+
+102
+00:08:21,680 --> 00:08:27,040
+ the Genius Act or the stable bill layer here in the US. They specifically talk about these
+
+103
+00:08:27,040 --> 00:08:32,720
+ payment stablecoins. Mika has the same thing, essentially. And there are things we talk about
+
+104
+00:08:32,720 --> 00:08:38,000
+ in crypto that are stablecoins that are better for what I would call "collateral mobility."
+
+105
+00:08:38,000 --> 00:08:43,760
+ So things that are potentially yield-bearing products that aren't meant to be moved a lot,
+
+106
+00:08:43,760 --> 00:08:48,080
+ but are meant to be maybe used as part of a treasury operation or something like that.
+
+107
+00:08:48,080 --> 00:08:51,040
+ Is savings vehicle? Yeah, exactly. Savings vehicle, same thing.
+
+108
+00:08:51,040 --> 00:08:58,720
+ Then you also have stablecoins that are more crypto-native, that maybe are some sort of tokenized
+
+109
+00:08:58,720 --> 00:09:04,640
+ cash and carry trade like an Athena or a part of that plus the USTB. So it's bidle,
+
+110
+00:09:04,640 --> 00:09:11,760
+ where it's meant to be more of a savings account or a yield account, et cetera, for retail,
+
+111
+00:09:11,760 --> 00:09:17,360
+ potentially, and institutions. And you have these different use cases, and we call them all stablecoins,
+
+112
+00:09:17,360 --> 00:09:21,760
+ but they're really meant to be used for different things. And so I think you have to start there,
+
+113
+00:09:21,760 --> 00:09:27,520
+ and then you have to say, well, what do each of these things—how do they fit in with different
+
+114
+00:09:27,520 --> 00:09:31,760
+ parts of the market? On the payment side, I've actually written about that the most
+
+115
+00:09:31,760 --> 00:09:37,120
+ fulsomely, but I actually think that's the part where we haven't seen a lot of pickup until recently.
+
+116
+00:09:37,120 --> 00:09:43,920
+ So, Tether and Circle, it's over $230 billion outstanding today, but almost all of those use cases
+
+117
+00:09:43,920 --> 00:09:49,200
+ traditionally had been just essentially trading pairs on decentralized exchanges and decentralized
+
+118
+00:09:49,200 --> 00:09:54,000
+ exchanges. A vast majority of Tether has been on like Binance and centralized exchanges like that
+
+119
+00:09:54,000 --> 00:09:59,360
+ over time. But just over the last year, now what we've started to see is the right infrastructure
+
+120
+00:09:59,360 --> 00:10:04,960
+ for payments. And so you have things, and I wrote an article about, okay, what are the different
+
+121
+00:10:04,960 --> 00:10:09,600
+ parts that you need of the infrastructure stack? But you have, now we have these orchestration
+
+122
+00:10:09,600 --> 00:10:15,360
+ players like Bridge and Conduit. You have the settlement rails, so you have a lot of people
+
+123
+00:10:15,360 --> 00:10:21,040
+ starting to talk about, okay, well, we do need a stablecoin native blockchain that does specific
+
+124
+00:10:21,040 --> 00:10:27,040
+ things at the blockchain level that are better for trading traditional PSPs online. So,
+
+125
+00:10:27,040 --> 00:10:31,280
+ codecs is one that we back. There's another one called Plasma that's talking about this.
+
+126
+00:10:31,840 --> 00:10:38,080
+ You have some of these guys that are just trying to pull together like the last mile or APIs for
+
+127
+00:10:38,080 --> 00:10:43,760
+ local currencies. And a lot of people in between now, we started to see stablecoin specific banks,
+
+128
+00:10:43,760 --> 00:10:49,280
+ etc. But that infrastructure is now just good enough that I think what we're probably doing,
+
+129
+00:10:49,280 --> 00:10:55,440
+ and this is kind of some proprietary data, but maybe $50 billion a month of like cross border
+
+130
+00:10:55,440 --> 00:10:59,360
+ actual payments being done on stablecoin rails. And that's been growing extremely quickly,
+
+131
+00:10:59,360 --> 00:11:06,880
+ 20%, 30% month over month. But then 20%, 30% month over month in volume being transacted
+
+132
+00:11:06,880 --> 00:11:10,080
+ across border and stablecoin. So that is incredible growth.
+
+133
+00:11:10,080 --> 00:11:16,800
+ Incredible. Yeah. And it was basically nothing 15 months ago. So if you look at Bridge or Conduit
+
+134
+00:11:16,800 --> 00:11:23,600
+ or any of these guys, they were $1 million of revenue last, call it January or 2024.
+
+135
+00:11:23,600 --> 00:11:27,120
+ What happened over the last year was that these came into the mainstream, the infrastructure was
+
+136
+00:11:27,120 --> 00:11:33,200
+ there, people were excited. And now you go and you talk to world pay or you talk to checkout.com,
+
+137
+00:11:33,200 --> 00:11:38,960
+ you talk, obviously, Stripe, anybody, even like the coroner CEO tweeted, like, oh, do I need a
+
+138
+00:11:38,960 --> 00:11:42,960
+ stablecoin strategy now? And the answer is yes. And every single one of them has a stablecoin
+
+139
+00:11:42,960 --> 00:11:49,280
+ strategy today. Let me just trace over the conversation as I heard it. And you can correct me if I get
+
+140
+00:11:49,280 --> 00:11:53,680
+ anything wrong. We're on using this metaphor of like we're on the stablecoin train and all the
+
+141
+00:11:53,680 --> 00:11:58,480
+ stops on the train. The first stop is the stablecoin, the stablecoin stop. And I said circle and
+
+142
+00:11:58,480 --> 00:12:03,920
+ tether and you expanded that to also include other types of stablecoins that even though that we call
+
+143
+00:12:03,920 --> 00:12:09,200
+ these things all stablecoins, they are functionally different products. You have the true stablecoins,
+
+144
+00:12:09,200 --> 00:12:13,760
+ the USDC, the USDT. I don't know if you want to call those the true stablecoins. But those are the
+
+145
+00:12:13,760 --> 00:12:18,480
+ stablecoins that I think come to mind when people say the worst stablecoin. Payment stablecoin.
+
+146
+00:12:18,480 --> 00:12:23,520
+ And then there's also like savings, vehicles, like Athena, where the yield coming from exchanges,
+
+147
+00:12:23,520 --> 00:12:27,680
+ the way that the Athena works, there's a bunch of yield in the background that turns into a stablecoin.
+
+148
+00:12:27,680 --> 00:12:32,080
+ And it has like a savings facility that really makes that work. Same thing with like MakerDAU
+
+149
+00:12:32,080 --> 00:12:38,000
+ and the die savings rate. And so there's different, even though the product that comes out of these
+
+150
+00:12:38,000 --> 00:12:43,200
+ things is a stablecoin, how that stablecoin emerges is kind of characterizes that flavor of that
+
+151
+00:12:43,200 --> 00:12:47,360
+ stablecoin. But that's the first dot nonetheless. There's a crypto dollar, there's a synthetic
+
+152
+00:12:47,360 --> 00:12:51,840
+ stablecoin that's out there that's produced and there's produced in a variety of different ways.
+
+153
+00:12:51,840 --> 00:12:57,360
+ And the dollar just comes out of that as a token on some of those sort of crypto rails.
+
+154
+00:12:57,360 --> 00:13:01,840
+ Yeah. And I would functionally put like Biddle in there as well. Even though it's not meant to
+
+155
+00:13:01,840 --> 00:13:06,960
+ have a lot of velocity, it is theoretically like should be one to one swappable for a stablecoin.
+
+156
+00:13:06,960 --> 00:13:10,400
+ Well, and it is too. It's actually in the Biddle contracts to be one to one
+
+157
+00:13:10,400 --> 00:13:15,840
+ swappable with USDC. Yeah, that's right. And it is functionally used for now a lot of things
+
+158
+00:13:15,840 --> 00:13:20,720
+ that stablecoins, the circles or the tethers used to be used for like the collateral ability piece.
+
+159
+00:13:20,720 --> 00:13:25,920
+ And so I think if we hear City talking about or they actually have a tokenized deposit product
+
+160
+00:13:25,920 --> 00:13:29,680
+ and some of the banks are thinking about that, all of these things at the end of the day have
+
+161
+00:13:29,680 --> 00:13:34,880
+ different maybe like collateral or backing, but they functionally serve similar use cases and they
+
+162
+00:13:34,880 --> 00:13:38,640
+ cross over. And I think it's good to segment them in that case when you think about, okay,
+
+163
+00:13:38,640 --> 00:13:43,360
+ we'll invest in or what do I hold for what use case and also how the regulators think about them.
+
+164
+00:13:43,360 --> 00:13:48,560
+ Okay, so that's the first stop. A true stablecoin, a token that is valued at a dollar.
+
+165
+00:13:48,560 --> 00:13:53,360
+ And then I think what you said next is like, well, the next stop is payments. And that's
+
+166
+00:13:53,360 --> 00:13:58,080
+ still kind of getting built out. There's still a lot left of juice left to be squeezed there.
+
+167
+00:13:58,080 --> 00:14:03,520
+ And that makes sense to me, like when we talk about crypto, you know, speedrunning the history
+
+168
+00:14:03,520 --> 00:14:07,040
+ of money and finance, we actually just start with a value. And then we figure out how to pass it
+
+169
+00:14:07,040 --> 00:14:11,840
+ around at the second stop. But really just hanging on that first stop of all the different,
+
+170
+00:14:11,840 --> 00:14:17,120
+ you know, taxonomy is the different ways of creating a stablecoin. How much do you think that we're
+
+171
+00:14:17,120 --> 00:14:23,360
+ done on building out that first stop? Like, turns out, I don't think anyone really saw the novel
+
+172
+00:14:23,360 --> 00:14:28,880
+ construction of Athena coming so late in the crypto game. I know still early. But nonetheless,
+
+173
+00:14:28,880 --> 00:14:34,560
+ we found a new way to create a stablecoin that's incredibly valuable. How, how, you know, percent
+
+174
+00:14:34,560 --> 00:14:39,120
+ completion, do you think we are done with figuring out all the different ways to build a valuable
+
+175
+00:14:39,120 --> 00:14:48,080
+ stablecoin? We're like 5%. We're early. So listen, the payments market is humongous. And so when
+
+176
+00:14:48,080 --> 00:14:55,120
+ you think about payments, it's $200 trillion that are done annually cross-border right now.
+
+177
+00:14:55,120 --> 00:15:02,320
+ We are doing, I think, 50 billion cross-border on stablecoins. I think the reality is stablecoins
+
+178
+00:15:02,320 --> 00:15:10,240
+ for that specific use case are functionally and unequivocally better as long as we solve the
+
+179
+00:15:10,240 --> 00:15:13,200
+ infrastructure problems. So there's compliance concerns. There's making sure that we have enough
+
+180
+00:15:13,200 --> 00:15:17,840
+ liquidity that costs come down. There's making sure that we have the last mile solved. But as we build
+
+181
+00:15:17,840 --> 00:15:24,400
+ those things out, the vast majority of that, especially at the SMB market, which is about 40%
+
+182
+00:15:24,400 --> 00:15:30,880
+ of that number, is going to be better served by stablecoins and stablecoin rails. I think wise
+
+183
+00:15:30,880 --> 00:15:39,680
+ came out with a kind of a TAM slide in one of their kind of end of year reports, maybe like a few
+
+184
+00:15:39,680 --> 00:15:44,640
+ days ago. I'm blanking on the exact number now, but when they put their TAM out there, they said
+
+185
+00:15:44,640 --> 00:15:50,480
+ essentially it's like $50 trillion of revenue that wise thought that they could go and attack.
+
+186
+00:15:50,480 --> 00:15:54,880
+ And I'm telling you right now, wise is a great business. It is a business that is
+
+187
+00:15:54,880 --> 00:16:00,400
+ capital and efficient that requires a lot of interconnectivity with the banking system that
+
+188
+00:16:00,400 --> 00:16:04,880
+ requires a lot of operational connectivity that would not need to happen if it was on stablecoin
+
+189
+00:16:04,880 --> 00:16:08,640
+ rails. In that business, maybe they will do it themselves or maybe they'll be displaced,
+
+190
+00:16:08,640 --> 00:16:13,760
+ but that $50 trillion would be better based on stablecoin rails, 100%.
+
+191
+00:16:13,760 --> 00:16:17,680
+ Now, when you say 5%, are you talking about specifically payments?
+
+192
+00:16:17,680 --> 00:16:23,440
+ Yeah. So I'm talking about the kind of intersection or the getting into the payment side.
+
+193
+00:16:23,440 --> 00:16:26,080
+ I think on the savings account side, though, I don't think it's that different, right?
+
+194
+00:16:26,080 --> 00:16:30,480
+ So you look at the emerging markets. Clearly, new bank is starting to add and
+
+195
+00:16:30,480 --> 00:16:35,680
+ revelry it's been talking about adding stablecoins. And we hear a lot of conversation around this
+
+196
+00:16:35,680 --> 00:16:42,080
+ from a lot of these different PayPal has it. But it's unclear to me yet that the majority
+
+197
+00:16:42,080 --> 00:16:45,440
+ of new bank customers, it's definitely not true that the majority of new bank customers,
+
+198
+00:16:45,440 --> 00:16:50,880
+ when they get a dollar in, it's actually being swapped to a stablecoin in maybe a non-custodial
+
+199
+00:16:50,880 --> 00:16:55,760
+ manner and being able to use it automatically with other types of protocols or be able to swap
+
+200
+00:16:55,760 --> 00:17:00,320
+ for other types of assets, et cetera. And so I think we're maybe further along, but in the
+
+201
+00:17:00,320 --> 00:17:04,800
+ emerging markets, we're starting to see just a tremendous, tremendous amount of growth as well.
+
+202
+00:17:04,800 --> 00:17:09,600
+ But I still think we're that far along. We're talking big numbers for crypto.
+
+203
+00:17:09,600 --> 00:17:12,080
+ We're talking small numbers for the global economy.
+
+204
+00:17:12,080 --> 00:17:17,360
+ Right. I want to just narrow the question back down to just the first stop on the stablecoin
+
+205
+00:17:17,360 --> 00:17:24,880
+ train. The USECs, the Tethers, the USDSs that would formally die, the Athena stablecoin.
+
+206
+00:17:24,880 --> 00:17:31,120
+ How much left and do you think is there room to make a new stablecoin, a new valuable construction
+
+207
+00:17:31,120 --> 00:17:36,720
+ of a stablecoin? That was actually the original intent of my question. It's like filling out this
+
+208
+00:17:36,720 --> 00:17:41,600
+ first stop on the train. Are we mostly done? Are we ready to leave and focus on payments?
+
+209
+00:17:41,600 --> 00:17:46,640
+ Or is there still plenty of juice left to squeeze with a potential building out of a
+
+210
+00:17:46,640 --> 00:17:52,960
+ new stablecoin construction? Yeah. So I think if you look at the business model of Tether and
+
+211
+00:17:52,960 --> 00:18:00,400
+ Circle, Tether has essentially become an asset manager, an investment manager. If you look at
+
+212
+00:18:00,400 --> 00:18:06,560
+ they continue to dominate in emerging markets, they continue to try to expand their influence
+
+213
+00:18:06,560 --> 00:18:12,560
+ in those places. But they actually, Paolo was on all that yesterday and he's been running around
+
+214
+00:18:12,560 --> 00:18:16,800
+ DC. So it's clear he's thinking about... He's going on the media tour, yeah. Yeah, it's clear
+
+215
+00:18:16,800 --> 00:18:20,480
+ he's thinking all what's happening in the US and in Europe. But so far, Tether has not made
+
+216
+00:18:20,480 --> 00:18:25,440
+ a compliant. If you look at the first iteration of the Genius Act, it doesn't look like Tether can
+
+217
+00:18:25,440 --> 00:18:32,080
+ be compliant there. There's been news that maybe they'll have a segregated US version of Tether.
+
+218
+00:18:32,080 --> 00:18:36,880
+ I frankly find that hard to believe that that would do well, because you have a lot of the issues
+
+219
+00:18:36,880 --> 00:18:42,000
+ that just kind of a startup has. And it doesn't really have a great brand with the, called the
+
+220
+00:18:42,000 --> 00:18:47,600
+ Regulators and the Regulated Businesses here in the US. So it kind of feels to me like they're
+
+221
+00:18:47,600 --> 00:18:52,560
+ going to continue to dominate this one piece of the market, but I don't know if we'll grow into
+
+222
+00:18:52,560 --> 00:18:58,720
+ the other parts of the market. And interestingly, I moderated a panel with Paolo in Dubai last year,
+
+223
+00:18:58,720 --> 00:19:03,920
+ and I asked at the end to everybody, because all the others were challengers startups,
+
+224
+00:19:03,920 --> 00:19:10,000
+ how much market share they thought Tether would have in five years. And the most bearish person
+
+225
+00:19:10,000 --> 00:19:15,920
+ on the panel was Paolo. He said, I think we'll have like 35 or 40% market share at the time,
+
+226
+00:19:15,920 --> 00:19:20,160
+ it was 70. Everybody else was like, oh, 70, like, let's continue to dominate. And I think he kind of
+
+227
+00:19:20,160 --> 00:19:25,200
+ sees the world coming that he's not going to be able to really keep that moat with the current
+
+228
+00:19:25,200 --> 00:19:29,520
+ business model. And that's why they are investing in so many other things and doing so many other
+
+229
+00:19:29,520 --> 00:19:34,080
+ things. I think circle, same thing, you see it like they're starting to think more about payments,
+
+230
+00:19:34,080 --> 00:19:39,440
+ specifically as part of their business. You know, you saw there, the rest one, there's clearly,
+
+231
+00:19:39,440 --> 00:19:43,280
+ they're clearly giving away a lot of the economics, but they're hamstrung by that coin-based deal.
+
+232
+00:19:43,280 --> 00:19:49,360
+ They're not able to potentially really kind of, I think, incentivize the way like a Paxos has
+
+233
+00:19:49,360 --> 00:19:54,480
+ been able to with their global dollar network or some of the startups like Agora are able to.
+
+234
+00:19:54,480 --> 00:19:59,920
+ So I actually think there are a lot of possibilities for challengers. And this market that's $230
+
+235
+00:19:59,920 --> 00:20:05,680
+ billion of issue today, but that my guess is, you know, trillions or tens of trillions of dollars
+
+236
+00:20:05,680 --> 00:20:09,680
+ after when it comes for the early dollar market in the future. Also, a lot of opportunity for
+
+237
+00:20:09,680 --> 00:20:15,680
+ non-US dollar stable coins as we get a more robust FX market. So I think it's, you know,
+
+238
+00:20:15,680 --> 00:20:20,400
+ it's definitely not 5%. But do I think that there are going to continue to be, you know,
+
+239
+00:20:20,400 --> 00:20:25,760
+ challengers and that we might be in the, I don't know, netscape period of stable coins? Like,
+
+240
+00:20:25,760 --> 00:20:31,360
+ I think that's possible. My next question is pretty related to this. It's just with the
+
+241
+00:20:31,360 --> 00:20:36,400
+ incumbents that already have network effects. How valuable do you think those network effects are?
+
+242
+00:20:36,400 --> 00:20:41,920
+ And so is Circle, Tether, we can even talk about coin-based and stripe here. I know, you know,
+
+243
+00:20:41,920 --> 00:20:47,200
+ coin-based is stable coin is basically essentially USDCs. Stripe doesn't have a stable coin, but it
+
+244
+00:20:47,200 --> 00:20:52,240
+ is a incumbent with network effects surrounding payments. How much new value do you think will
+
+245
+00:20:52,240 --> 00:20:57,120
+ flow to incumbents with network effects versus how much do you, how disruptable do you think
+
+246
+00:20:57,120 --> 00:21:01,280
+ that these incumbents are? Yeah, so there's no doubt there's a lot of network effects.
+
+247
+00:21:01,280 --> 00:21:04,960
+ And I think the, you know, Circle and Tether are going to continue to be great businesses.
+
+248
+00:21:04,960 --> 00:21:09,760
+ They're going to continue to grow. I think what we'll see a lot kind of will mirror the FinTech,
+
+249
+00:21:09,760 --> 00:21:15,920
+ you know, boom of the early 2010s, where a lot of the challengers that grow will grow because they
+
+250
+00:21:15,920 --> 00:21:20,080
+ grow with other businesses that grow with them, right? So if you look at Stripe, how did Stripe
+
+251
+00:21:20,080 --> 00:21:24,480
+ become so dominant? They grew Shopify, right? They weren't the first one to offer e-commerce
+
+252
+00:21:24,480 --> 00:21:28,240
+ payments. PayPal was already there. They offered a better experience. They got into Shopify.
+
+253
+00:21:28,240 --> 00:21:31,760
+ Shopify blew up. They grew together. They were going to see some of that with some of these
+
+254
+00:21:31,760 --> 00:21:37,200
+ challengers, but they're going to continue to kind of really entrench themselves on the coin-based,
+
+255
+00:21:37,200 --> 00:21:42,560
+ the stripe, et cetera. I think there is a really big conversation to be had around all of these
+
+256
+00:21:42,560 --> 00:21:46,960
+ startups that are doing things like call it stable coin orchestration, you know,
+
+257
+00:21:46,960 --> 00:21:51,680
+ start calling themselves stable coin payment service providers, do stable coin banks,
+
+258
+00:21:51,680 --> 00:21:56,160
+ things like that. I think this is especially true on the direct-to-retail FinTech side.
+
+259
+00:21:56,160 --> 00:22:02,720
+ It's kind of unclear to me why a new direct-to-retail FinTech would win over a new bank,
+
+260
+00:22:02,720 --> 00:22:07,200
+ just making its product better with stable coins and with, you know, DeFi on the back end,
+
+261
+00:22:07,200 --> 00:22:13,520
+ where we've seen a lot of investment capital from a lot of the traditional firms,
+
+262
+00:22:13,520 --> 00:22:18,800
+ the Sequoias and QEDs, et cetera, and the world go into those products because they're growing really
+
+263
+00:22:18,800 --> 00:22:23,280
+ quickly. But in many, in a lot of cases, not all of the cases, they're growing because crypto
+
+264
+00:22:23,280 --> 00:22:26,640
+ natives are looking for things to do with their stable coins. How do I spend it without actually
+
+265
+00:22:26,640 --> 00:22:31,760
+ off-ramping? But it's unclear to me like why these traditional incumbents can't just,
+
+266
+00:22:31,760 --> 00:22:35,840
+ you know, put stable coins in the back end and win. I think for like the banks,
+
+267
+00:22:35,840 --> 00:22:40,800
+ now we talked about like on the banking system, the banks are kind of fucked. I think the banks
+
+268
+00:22:40,800 --> 00:22:46,400
+ are fucked. Like they just move really slowly. They're not going to innovate. They're going to
+
+269
+00:22:46,400 --> 00:22:51,520
+ do their own stable coins. It's going to be closed loop. It's not going to work. But at the PSP FinTech
+
+270
+00:22:51,520 --> 00:22:55,840
+ side, I really struggle with the stable coin specific new startups. Okay. So now we're getting
+
+271
+00:22:55,840 --> 00:22:59,920
+ a little bit further down the train of the stable coin journey. And this is will actually bring us
+
+272
+00:22:59,920 --> 00:23:03,760
+ to the article that you wrote, which inspired this podcast to begin with. You wrote this article
+
+273
+00:23:03,760 --> 00:23:09,280
+ called stable coin payments, who actually wins. And then you just listed out a variety of categories.
+
+274
+00:23:09,280 --> 00:23:12,880
+ Maybe it's comprehensive. Maybe it's most of it. Maybe there's some missing categories,
+
+275
+00:23:12,880 --> 00:23:17,680
+ but I'll just read them out here. Settlement rails, stable coin issuers, liquidity providers,
+
+276
+00:23:17,680 --> 00:23:22,800
+ value transfer and money services, aggregated APIs slash messaging platforms, merchant
+
+277
+00:23:22,800 --> 00:23:27,440
+ gateways and Rams, and then stable coin powered FinTechs and applications. When I was reading this
+
+278
+00:23:27,440 --> 00:23:33,280
+ article, I was just kind of getting this idea of like this larger structure around stable coin
+
+279
+00:23:33,280 --> 00:23:36,400
+ infrastructure. You know, you start with the actual token, you start with the stable coin,
+
+280
+00:23:36,400 --> 00:23:42,320
+ and then you need to build products and services around stable coins to really expand the utility
+
+281
+00:23:42,320 --> 00:23:47,840
+ around them. Maybe you can just kind of walk us through how you see that structure being built.
+
+282
+00:23:47,840 --> 00:23:53,200
+ And really, as we go from, you know, stable coins to stable coin payments to some of the more
+
+283
+00:23:53,200 --> 00:23:57,840
+ longer tail parts of the table coin tech stack, what parts of that tech stack really get you the
+
+284
+00:23:57,840 --> 00:24:03,360
+ most excited. So the issue was actually came first. And well, the problem with stable coins for a
+
+285
+00:24:03,360 --> 00:24:07,200
+ long period of time is they solve this problem, which was that nobody wanted to denominate their
+
+286
+00:24:07,200 --> 00:24:10,800
+ on chain capital and their trading pairs, et cetera, with, you know, something that was also
+
+287
+00:24:10,800 --> 00:24:16,080
+ volatile. But that's the only place that they were used. And, you know, kind of what we just
+
+288
+00:24:16,080 --> 00:24:22,320
+ talked about right is they weren't really usable in any other way outside of crypto for until
+
+289
+00:24:22,320 --> 00:24:28,480
+ recently, honestly, in any real way. You know, you listen out those categories. I would essentially,
+
+290
+00:24:28,480 --> 00:24:32,560
+ you know, I don't think it's comprehensive anymore. There's some things I'm missing,
+
+291
+00:24:32,560 --> 00:24:37,760
+ like, you know, banking where we've started to see that. But I think it is a good way to frame
+
+292
+00:24:37,760 --> 00:24:43,440
+ most of what is being built. When I think about those different pieces, okay, well, you know,
+
+293
+00:24:43,440 --> 00:24:47,840
+ you started the blockchain layer, the settlement layer, right? And so that's the most basic form
+
+294
+00:24:47,840 --> 00:24:52,720
+ of what you need when you are with the issuer, what you need when you're transacting. And I think
+
+295
+00:24:52,720 --> 00:24:56,480
+ there's a real question around, and I know you have specific opinions about this and some other
+
+296
+00:24:56,480 --> 00:25:00,160
+ people have really strong opinions about this. But there's a real question around whether or not
+
+297
+00:25:00,160 --> 00:25:04,960
+ general purpose settlement rails or general purpose blockchains actually serve the needs
+
+298
+00:25:04,960 --> 00:25:09,920
+ of what, like, large-scale traditional businesses need if they're going to do trillions of dollars
+
+299
+00:25:09,920 --> 00:25:14,160
+ across border payments. And so specifically talking about like, how do I bring a world pay
+
+300
+00:25:14,160 --> 00:25:19,840
+ or a checkout.com onto on chain and then bringing the majority of their transactions on chain,
+
+301
+00:25:19,840 --> 00:25:24,480
+ especially the cross border ones. I don't think that even the high throughput chains that exist
+
+302
+00:25:24,480 --> 00:25:29,360
+ today, the bases, the salinas, et cetera, serve those needs. I think there's specific things that
+
+303
+00:25:29,360 --> 00:25:34,240
+ they are never going to do, which they aren't going to get priority to these specific transactions.
+
+304
+00:25:34,240 --> 00:25:38,720
+ They aren't going to help with any resistance for these specific transactions. There's not
+
+305
+00:25:38,720 --> 00:25:44,560
+ going to be privacy at the transaction layer. They're not going to stop the launch of the new
+
+306
+00:25:44,560 --> 00:25:53,280
+ mean coin that might just like make the RPC rollover. And so these things that happen that I think
+
+307
+00:25:53,280 --> 00:26:00,240
+ you need a specific chain that is a network for these types of payments. That's highly debatable.
+
+308
+00:26:00,960 --> 00:26:05,440
+ But we put our money behind that and see a few other people launching those. I also think it's
+
+309
+00:26:05,440 --> 00:26:11,760
+ just true that they do fully verticalize the stack. So I talked to my article about how maybe that
+
+310
+00:26:11,760 --> 00:26:16,800
+ orchestration layer doesn't have a lot of pricing power over time. But what if I can vertically
+
+311
+00:26:16,800 --> 00:26:22,720
+ integrate the orchestration layer with value-added services like compliance, with the chain itself,
+
+312
+00:26:22,720 --> 00:26:26,640
+ where I get sequencer fees, and maybe I have a government stoke in that all these people have
+
+313
+00:26:26,640 --> 00:26:31,360
+ to stake to be part of that network. Can I give away the orchestration for free, where everyone
+
+314
+00:26:31,360 --> 00:26:38,080
+ else is charging tens of bits? And I just make up that money on the back end by essentially having
+
+315
+00:26:38,080 --> 00:26:42,880
+ them stake my token and pay sequencer fees. And so now you're starting to get really interesting
+
+316
+00:26:42,880 --> 00:26:47,440
+ thought processes around how to structure my business, how can I price it, how can I incentivize
+
+317
+00:26:47,440 --> 00:26:52,720
+ people to be a part of it. So I think that's kind of number one. Before we move on to number two,
+
+318
+00:26:52,720 --> 00:26:57,760
+ could you just define orchestration layer? What does that mean? Yeah, so I think Zach Abrams
+
+319
+00:26:57,760 --> 00:27:03,440
+ actually coined this. And he kind of reinvented the way people think about Bridge, which in many
+
+320
+00:27:03,440 --> 00:27:08,560
+ ways Bridge was an on-ramp and off-ramp. But he called it an orchestration layer, which was just
+
+321
+00:27:08,560 --> 00:27:16,800
+ a way to connect different ramps and different counterparties with APIs to transact on with stable
+
+322
+00:27:16,800 --> 00:27:22,560
+ coins. Okay, so what problem is that really solving in the stable coin? Well, how does that
+
+323
+00:27:22,560 --> 00:27:27,440
+ expand the utility of stable coins? Why do we need this? Yeah, so for that, right? If you,
+
+324
+00:27:27,440 --> 00:27:31,280
+ what we talked about for a lot of these stable coin transactions are happening across border,
+
+325
+00:27:31,280 --> 00:27:37,840
+ right? And so one of the biggest problems right now is that it gets hard to find liquidity if you
+
+326
+00:27:37,840 --> 00:27:43,600
+ need a different, some sort of different effects. It's hard to find, you know, maybe the right ramp
+
+327
+00:27:43,600 --> 00:27:47,920
+ in the right location, i.e., meaning like, you know, the biggest remittance market in the world
+
+328
+00:27:47,920 --> 00:27:54,240
+ is U.S. to Mexico, right? One of the second biggest, I think, is U.S. to India. But actually,
+
+329
+00:27:54,240 --> 00:27:58,880
+ both those markets today are doing over 9% of their remittance volume in stable coins,
+
+330
+00:27:58,880 --> 00:28:04,240
+ which is actually humongous. But you have to be able to, like the end user, the receiver
+
+331
+00:28:04,240 --> 00:28:09,600
+ in Mexico, they want to be able to receive that stable coin, at least historically, I want to
+
+332
+00:28:09,600 --> 00:28:13,760
+ be able to receive that stable coin, bring it into, or it's been part of it into the local
+
+333
+00:28:13,760 --> 00:28:21,120
+ currency, the peso, and then potentially put it into their bank account, right? So connecting those
+
+334
+00:28:21,120 --> 00:28:26,320
+ liquidity providers as I talk about, connecting those ramps, those banks, those real-time payment
+
+335
+00:28:26,320 --> 00:28:30,800
+ services in those local areas, you typically have to have like some sort of, you know, call it,
+
+336
+00:28:30,800 --> 00:28:35,600
+ you know, API that allows you to do that. It requires usually a few different counterparties,
+
+337
+00:28:35,600 --> 00:28:41,040
+ so you're essentially wrapping a bunch of APIs into maybe a single product, like what we're just
+
+338
+00:28:41,040 --> 00:28:46,800
+ doing. There's one way to understand this. We have these financial servers in the cloud, right?
+
+339
+00:28:46,800 --> 00:28:50,720
+ Bitcoin, Ethereum, Solana, these are servers. Blockchains are just servers in the cloud,
+
+340
+00:28:50,720 --> 00:28:55,920
+ and they act as like a coordinating hub for everyone to point their, you know, for their
+
+341
+00:28:55,920 --> 00:29:01,440
+ servers too. It inverts the way that we have banking, where Wells Fargo is a closed server,
+
+342
+00:29:01,440 --> 00:29:05,280
+ every single bank in America is a closed server. Now we have these fewer servers,
+
+343
+00:29:05,280 --> 00:29:09,760
+ where everyone can point their finance to it in the cloud, but we also still have
+
+344
+00:29:09,760 --> 00:29:15,440
+ the rest of finance to deal with, which is still this like mesh network of siloed servers.
+
+345
+00:29:15,440 --> 00:29:21,360
+ And it was maybe what you mean by an orchestration layer is bridging that gap between these new types
+
+346
+00:29:21,360 --> 00:29:25,760
+ of financial servers in the cloud, Bitcoin, Ethereum, Solana, all these layer ones, and then
+
+347
+00:29:25,760 --> 00:29:33,040
+ the many, many different types of siloed servers that actually do have like present boots on the
+
+348
+00:29:33,040 --> 00:29:36,560
+ ground in these like local economies. And an orchestration layer just bridges that gap.
+
+349
+00:29:36,560 --> 00:29:41,200
+ Is that a way to understand it? Yeah, I think that's a great analogy. The cloud is also a
+
+350
+00:29:41,200 --> 00:29:45,840
+ really good way to think about like the adoption curve here and how we've kind of evolved.
+
+351
+00:29:45,840 --> 00:29:48,800
+ Okay, so there's like with every single country, there's just like
+
+352
+00:29:48,800 --> 00:29:54,480
+ kind of like a long tail of payments or banking relationships that we need to, you know,
+
+353
+00:29:54,480 --> 00:29:59,920
+ enter, enter, operate with in order to make stablecoins on public blockchains actually,
+
+354
+00:29:59,920 --> 00:30:04,000
+ you know, connect to local economies. And so that's what we mean by orchestration layer.
+
+355
+00:30:04,000 --> 00:30:10,160
+ Yeah, and I'll give you an example here, right? So there's a portfolio company of ours that did a
+
+356
+00:30:10,160 --> 00:30:15,360
+ payment from Brazilian Real, and they've been starting to do payments from Brazilian Real to
+
+357
+00:30:15,360 --> 00:30:21,600
+ do Euro from your bank account in Brazil to your bank account in a European Union country,
+
+358
+00:30:21,600 --> 00:30:28,240
+ where they are pulling using picks, which is basically like a real time, real time payment
+
+359
+00:30:28,240 --> 00:30:34,480
+ business in Brazil, they can pull that capital out of your bank account in Brazil, they can swap it
+
+360
+00:30:34,480 --> 00:30:39,840
+ to a stablecoin, typically US dollar denominated, or if they if you issue and have enough liquidity
+
+361
+00:30:39,840 --> 00:30:48,640
+ for Brazilian Real, then they can swap it on chain to a Euro using, you know, maybe an M pool or,
+
+362
+00:30:48,640 --> 00:30:53,520
+ you know, some sort of liquidity provider, and then using a separate instant in Europe,
+
+363
+00:30:53,520 --> 00:30:57,520
+ immediately putting it into your bank account in Europe, right? But there are a bunch of
+
+364
+00:30:57,520 --> 00:31:01,440
+ different people involved in that transaction liquidity providers in different countries,
+
+365
+00:31:01,440 --> 00:31:04,560
+ banks in different countries, real time payment businesses in different countries,
+
+366
+00:31:04,560 --> 00:31:08,960
+ but doing all of that through one API to that end customer and bringing that together and
+
+367
+00:31:08,960 --> 00:31:13,520
+ transacting relatively cheaply in less than 15 minutes, the traditional banking market,
+
+368
+00:31:13,520 --> 00:31:18,320
+ you know, maybe two weeks to settle. Right. So that I would imagine that this startup has a direct
+
+369
+00:31:18,320 --> 00:31:25,040
+ call to circle, right? They are minting USCC directly, minting and burning USCC directly
+
+370
+00:31:25,040 --> 00:31:28,560
+ as needed in order to facilitate that. And so what I'm seeing here with this orchestration
+
+371
+00:31:28,560 --> 00:31:34,640
+ layer is actually abstracting away, which we all will always promised to do the blockchain world.
+
+372
+00:31:34,640 --> 00:31:39,520
+ So the blockchains are just becoming increasingly transacted. The utility of stablecoins is becoming
+
+373
+00:31:39,520 --> 00:31:44,640
+ increasingly expressed while also increasingly hidden. And we're just allowing people to do
+
+374
+00:31:44,640 --> 00:31:48,240
+ things with their normal lives and experiencing the value of public blockchains without actually
+
+375
+00:31:48,240 --> 00:31:52,480
+ exposing it to public blockchains. Yeah, that's absolutely right. I mean, the business is when
+
+376
+00:31:52,480 --> 00:31:56,880
+ we're talking about like, you know, integrating ourselves with banks and like web to payments
+
+377
+00:31:56,880 --> 00:32:01,120
+ businesses, they absolutely do not care about what chain they're on. They don't care about
+
+378
+00:32:01,120 --> 00:32:06,320
+ particularly what stablecoin they're using unless they have, you know, OFAC concerns or BAS concerns.
+
+379
+00:32:06,320 --> 00:32:11,760
+ They care about the fact that it happens quickly. It's cheap that there's, you know,
+
+380
+00:32:11,760 --> 00:32:16,720
+ uptime and that the transactions don't fail, but there's good compliance and that you're adding
+
+381
+00:32:16,720 --> 00:32:20,720
+ value to them and their, their own customers. And so if you can abstract that away and offer this
+
+382
+00:32:20,720 --> 00:32:26,320
+ kind of integrated solution that uses all these different counterparties for better than what
+
+383
+00:32:26,320 --> 00:32:31,440
+ they're having today, like they love that. Okay, so these, these orchestration layers,
+
+384
+00:32:31,440 --> 00:32:38,000
+ I would imagine are going to change the topology of the financial landscape in these local economies,
+
+385
+00:32:38,000 --> 00:32:44,640
+ because if their goal is to connect stablecoins to, you know, the every single citizen in Mexico
+
+386
+00:32:44,640 --> 00:32:50,480
+ or every single citizen in an emerging economy, they need to, they need to generate that relationship
+
+387
+00:32:50,480 --> 00:32:56,080
+ with the right banks or the right fintechs to connect users to stablecoins so that they can
+
+388
+00:32:56,080 --> 00:33:00,000
+ connect it to the rest of the world. But I would imagine they, they don't need to integrate with
+
+389
+00:33:00,000 --> 00:33:05,920
+ every single bank and every single fintech that's in Mexico or Argentina or any emerging economy.
+
+390
+00:33:05,920 --> 00:33:11,360
+ They just need to connect with the one that like has 90% or they can cover 95%. And I think that
+
+391
+00:33:11,360 --> 00:33:16,880
+ actually might expand the network effects of the dominant players in local economies.
+
+392
+00:33:16,880 --> 00:33:23,680
+ And so we can start to maybe get more efficient by really just allowing the winners, the top three
+
+393
+00:33:23,680 --> 00:33:27,760
+ winners of a local economy to just connect, connect into the orchestration layer, which
+
+394
+00:33:27,760 --> 00:33:32,560
+ allows them to connect to a public blockchain, which allows them to connect to the other dominant
+
+395
+00:33:32,560 --> 00:33:36,400
+ players in a different emerging economy and allow for that remittance network to just become
+
+396
+00:33:36,400 --> 00:33:42,240
+ hyper-efficient. But I imagine this, this stablecoin technology is a boon to the already dominant
+
+397
+00:33:44,080 --> 00:33:47,840
+ like banks and fintech layers in local economies. That's my intuition. Is that right?
+
+398
+00:33:47,840 --> 00:33:52,880
+ Yeah, I would say that's true. The one thing I would say, or I would caution and we see this
+
+399
+00:33:52,880 --> 00:33:57,120
+ in a lot of the people that are, you know, out kind of raising capital is that you have to do
+
+400
+00:33:57,120 --> 00:34:04,880
+ hard things. And why do I say that? Building an API that kind of wraps other APIs today,
+
+401
+00:34:04,880 --> 00:34:09,440
+ when Stripe did it, you know, over a decade ago, and it turned the banking system,
+
+402
+00:34:09,440 --> 00:34:12,640
+ the e-commerce payments in the seven lines of code, that was novel. That was incredible.
+
+403
+00:34:12,640 --> 00:34:16,880
+ And everybody was like, Holy shit, like this changes the market. Doing that today,
+
+404
+00:34:16,880 --> 00:34:23,680
+ it's a lot easier and a lot more people can do that. Your modes are not as deep. And so to your point,
+
+405
+00:34:23,680 --> 00:34:29,520
+ if you're a traditional player who is thoughtful enough and already has the connectivity and can
+
+406
+00:34:29,520 --> 00:34:34,240
+ innovate or build a tech stack quickly enough or partner quickly enough, like you can probably
+
+407
+00:34:34,240 --> 00:34:40,400
+ build those modes a little bit on the startup side. What we've seen is if you want to be able
+
+408
+00:34:40,400 --> 00:34:45,280
+ to really kind of get into these markets, you need to do the hard things. And what are the hard
+
+409
+00:34:45,280 --> 00:34:48,640
+ things? The hard things are dealing with the banks. The hard things are getting them comfortable
+
+410
+00:34:48,640 --> 00:34:52,480
+ with your operations and your compliance and scaling them because the banks are the ones who
+
+411
+00:34:52,480 --> 00:34:56,720
+ will say, Hey, listen, like, you know, you're putting too much volume through right now. We
+
+412
+00:34:56,720 --> 00:35:00,800
+ think you're a high risk. We're going to limit you. And you just get you have to limit your
+
+413
+00:35:00,800 --> 00:35:05,120
+ customers because of that. It's also compliance. Compliance and payments is actually very hard.
+
+414
+00:35:05,120 --> 00:35:09,600
+ And it's a big part of the reason. Compliance and risk are the two reasons payments are expensive.
+
+415
+00:35:09,600 --> 00:35:16,640
+ Not any other reason. And so being able to isolate that risk, underwrite that risk in a asset that
+
+416
+00:35:16,640 --> 00:35:20,880
+ atomically settles, that's really hard still as well. And so if you can do the compliance,
+
+417
+00:35:20,880 --> 00:35:26,240
+ you can deal with the banks and you can figure out how to front risk or be capital efficient
+
+418
+00:35:26,240 --> 00:35:32,960
+ with maybe partnering with your risk. That is where we're seeing people build modes or maybe
+
+419
+00:35:32,960 --> 00:35:38,000
+ startups where you might think the incumbents are able to do, but they haven't really quite
+
+420
+00:35:38,000 --> 00:35:41,360
+ wanted to vulture their own business yet by by doing that.
+
+421
+00:35:41,360 --> 00:35:48,400
+ What's an example of a stablecoin company that maybe you're like, the deck comes across your desk
+
+422
+00:35:48,400 --> 00:35:52,640
+ and you're like, Oh, you guys are not doing any hard things. What's an example of an easy trap
+
+423
+00:35:52,640 --> 00:35:57,920
+ for a stablecoin company to fall into? Yeah. So I won't name any specific names, but there's one
+
+424
+00:35:57,920 --> 00:36:03,840
+ that comes out that I've seen the CEO kind of in a bunch of news and raised and raised some capital.
+
+425
+00:36:03,840 --> 00:36:08,560
+ And they're kind of doing or they also talk about themselves as an orchestration layer,
+
+426
+00:36:08,560 --> 00:36:13,760
+ what we're talking about, but they don't have any end relationships in any of these local
+
+427
+00:36:13,760 --> 00:36:18,320
+ countries. They don't have any bank accounts within these local countries for client bank accounts.
+
+428
+00:36:18,320 --> 00:36:24,160
+ They aren't able to do any sort of compliance themselves. And so what actually ends up happening
+
+429
+00:36:24,160 --> 00:36:29,360
+ is the, you know, they might, you know, someone will connect into their API and then they'll
+
+430
+00:36:29,360 --> 00:36:33,600
+ essentially get matched with somebody else also connected to the API when they want to go call it,
+
+431
+00:36:33,600 --> 00:36:38,880
+ you know, Hong Kong to Africa. But they, those two counterparts that have to essentially be
+
+432
+00:36:38,880 --> 00:36:42,640
+ onboarded with each other, even though that they're in the, they're, they're connecting through the
+
+433
+00:36:42,640 --> 00:36:47,760
+ API. And they have to sign what is essentially a non-reliance agreement with that API provider
+
+434
+00:36:47,760 --> 00:36:53,200
+ that says, Hey, listen, like we're not actually the ones doing KYB or compliance. And so like,
+
+435
+00:36:53,200 --> 00:36:57,280
+ they're, they're essentially people are signing up for these products because like they're trying
+
+436
+00:36:57,280 --> 00:37:01,680
+ to quickly add more geographies. But those types of products, we're seeing a lot of people build
+
+437
+00:37:01,680 --> 00:37:06,480
+ those because they're like the easiest things to build. They're all going to get just like cut
+
+438
+00:37:06,480 --> 00:37:10,720
+ out of the transaction flow as other people. They're too thin. They are too high up in the stack.
+
+439
+00:37:10,720 --> 00:37:15,520
+ They're going to get superseded by somebody who can get deeper than them. Yes, that's our
+
+440
+00:37:15,520 --> 00:37:20,640
+ community. Right. Yeah, that makes sense to me. Yeah. Like doing the hard things generally ends up
+
+441
+00:37:20,640 --> 00:37:26,080
+ being the things that no one else wants to do. Yes. But it's, it's, and you see it in payments,
+
+442
+00:37:26,080 --> 00:37:29,280
+ you see it in stablecoins, you see them crypto broad, they like people don't want to do the hard
+
+443
+00:37:29,280 --> 00:37:33,120
+ things and then they get cut out of the, cut out of the value chain. Right. Understood.
+
+444
+00:37:33,120 --> 00:37:36,400
+ Okay. That was, that was really helpful. I think understanding the orchestration layer,
+
+445
+00:37:36,400 --> 00:37:40,880
+ I feel like that is where there's a lot of juice left to squeeze when it comes to,
+
+446
+00:37:40,880 --> 00:37:45,600
+ to permeating stablecoins across the globe. And that maybe, maybe that's like the era that
+
+447
+00:37:45,600 --> 00:37:50,720
+ we're in right now is this part of the payment tech stack and, and really the growth of crypto at
+
+448
+00:37:50,720 --> 00:37:56,320
+ large is focused on this area specifically as we kind of like weave in the global economy through
+
+449
+00:37:56,320 --> 00:38:01,200
+ stablecoins through public blockchains and through orchestration layers. Would you agree with that,
+
+450
+00:38:01,200 --> 00:38:06,800
+ like general take? Yeah, absolutely. We, the first era of like stablecoin adoption outside of,
+
+451
+00:38:06,800 --> 00:38:12,320
+ you know, trading like we talked about was kind of payouts to like local contractors.
+
+452
+00:38:12,320 --> 00:38:17,760
+ So, you know, people who are, you know, contracting engineers in Latin America who would like much
+
+453
+00:38:17,760 --> 00:38:23,440
+ rather to stablecoins and they're getting their, you know, essentially their pay in stablecoins.
+
+454
+00:38:23,440 --> 00:38:27,680
+ That was kind of the first era with the, you know, of adoption, real world adoption.
+
+455
+00:38:27,680 --> 00:38:31,840
+ We've seen some of that too. There's actually a well-known payments orchestration or stablecoin
+
+456
+00:38:31,840 --> 00:38:37,440
+ orchestration business that is working with a, a web to PSP that is doing like an only fans pay
+
+457
+00:38:37,440 --> 00:38:42,240
+ out. But as you can imagine, there's like only fans creators all over the world. They do tremendous,
+
+458
+00:38:42,240 --> 00:38:46,400
+ tremendous amounts of volume in most areas of the world that aren't in developed countries.
+
+459
+00:38:46,400 --> 00:38:49,680
+ Those creators actually won't stablecoins. And so that's actually been a huge boon for their
+
+460
+00:38:49,680 --> 00:38:54,000
+ business. It's high risk, but you can, you can see this also permeated to TikTok and to every other
+
+461
+00:38:54,000 --> 00:38:59,200
+ social media, right? That's been kind of the first era. But then what we've seen is a move towards,
+
+462
+00:38:59,200 --> 00:39:04,400
+ okay, well, now these traditional fintechs, these traditional businesses now also wanting
+
+463
+00:39:04,400 --> 00:39:09,760
+ and seeing a value add. And that's the number I mentioned earlier, 50 billion across border B2B
+
+464
+00:39:09,760 --> 00:39:15,920
+ payments. That's, that's the number that was essentially zero, 15 months ago. And as now moved
+
+465
+00:39:15,920 --> 00:39:22,400
+ into this tremendous growth era, and my expectation is that continues to grow at 20, 30% month over
+
+466
+00:39:22,400 --> 00:39:26,800
+ a month through at least the rest of the year and in the next year. You said that that 50 billion
+
+467
+00:39:26,800 --> 00:39:30,800
+ number was proprietary. How are you guys measuring that? Where are you guys getting your data from?
+
+468
+00:39:30,800 --> 00:39:36,160
+ So we're pulling together a few different data sources. Also just reality is as we happen to see
+
+469
+00:39:36,160 --> 00:39:40,720
+ probably most of the guys who race in the space. And so pulling together a lot of the data from
+
+470
+00:39:40,720 --> 00:39:45,840
+ from the different companies. That's a little bit of a high end of of what I think it could be like
+
+471
+00:39:45,840 --> 00:39:50,560
+ probably 30 to 50 on the month right now. But also like every time I talk about this number,
+
+472
+00:39:50,560 --> 00:39:56,800
+ it's probably outdated. And so it's just growing so quickly. But it's clear that this is something
+
+473
+00:39:56,800 --> 00:40:01,120
+ when you talk to any web to business, any bank now that this is top of their mind.
+
+474
+00:40:01,120 --> 00:40:05,600
+ Imagine a world where your day to day banking runs on a blockchain. That's exactly what mantle is
+
+475
+00:40:05,600 --> 00:40:10,480
+ building powered by a $4 billion treasury and poised to become the largest sustainable on chain
+
+476
+00:40:10,480 --> 00:40:15,280
+ financial hub. As part of their 2025 expansion, mantle is introducing three new core innovation
+
+477
+00:40:15,280 --> 00:40:19,920
+ pillars that bridge traditional finance with decentralized technology. First is their enhanced
+
+478
+00:40:19,920 --> 00:40:25,440
+ index fund, aiming for $1 billion in AUM by Q1. It provides optimized exposure to Bitcoin,
+
+479
+00:40:25,440 --> 00:40:30,880
+ ETH, Solana and USC complete with built-in yield opportunities. Next, mantle banking promises to
+
+480
+00:40:30,880 --> 00:40:35,040
+ revolutionize global value transfer through seamless blockchain powered banking services.
+
+481
+00:40:35,040 --> 00:40:40,160
+ Bridging crypto into your daily life. Finally, mantle X blends AI with DeFi to deliver an
+
+482
+00:40:40,160 --> 00:40:44,640
+ intelligent user-friendly experience for everyone. And the best part is that this is all in addition
+
+483
+00:40:44,640 --> 00:40:49,840
+ to their already launched products like mantle network ME and FBTC. Ready to step into the future
+
+484
+00:40:49,840 --> 00:40:54,800
+ of finance? Follow mantle on X at mantle underscore official and join the on chain revolution today.
+
+485
+00:40:54,800 --> 00:41:00,080
+ We may have already heard about Infinex. Infinex has, in my opinion, the nicest cross-chain swap
+
+486
+00:41:00,080 --> 00:41:04,400
+ and bridge feature that you will find anywhere. It is called switch swap and bridge. And we're
+
+487
+00:41:04,400 --> 00:41:08,000
+ going to show you what it looks like. First, we're going to log into my Infinex account with a
+
+488
+00:41:08,000 --> 00:41:13,680
+ passkey. Now, there's no seed phrases in Infinex. There's just a one click set up with biometric
+
+489
+00:41:13,680 --> 00:41:18,960
+ passkeys. But in addition to that, my Infinex account is fully non-casorial. So bam, I just logged in,
+
+490
+00:41:18,960 --> 00:41:23,440
+ it was two clicks and I'm already into my Infinex account. So let's go make a switch. I'm going to go
+
+491
+00:41:23,440 --> 00:41:28,880
+ switch my USDC that is on base. And I'm going to buy Barra chain, which is a completely different
+
+492
+00:41:28,880 --> 00:41:33,280
+ chain. So we're going to switch this. I'm going to press that button. And then Infinex is going to
+
+493
+00:41:33,280 --> 00:41:37,280
+ execute this order, this cross-chain order for me. And now it is done. But actually,
+
+494
+00:41:37,280 --> 00:41:41,680
+ I'm not really feeling Barra anymore. So I'm going to go from Barra to penguins. I'm going to buy a
+
+495
+00:41:41,680 --> 00:41:46,160
+ penguin on Solana. So I'm going from the Barra chain to Solana. See, no transaction signing,
+
+496
+00:41:46,160 --> 00:41:50,480
+ no gas to worry about. You just switch across whatever chain that you want with Infinex. That
+
+497
+00:41:50,480 --> 00:41:54,720
+ was so easy. Go check out Infinex and try your first switch today. I'm going to turn the conversation
+
+498
+00:41:54,720 --> 00:42:01,040
+ to the layer ones or the chains that really support stablecoins, generally speaking. I think that the
+
+499
+00:42:01,040 --> 00:42:07,280
+ first era of stablecoin growth really came from native DeFi usage, where we needed stablecoins
+
+500
+00:42:07,280 --> 00:42:12,560
+ inside of Compound and then Ave, and then now Morpho just to facilitate stronger DeFi,
+
+501
+00:42:12,560 --> 00:42:17,760
+ lending and borrowing, leverage, margin, all that kind of stuff that allowed DeFi to go and
+
+502
+00:42:17,760 --> 00:42:26,080
+ take its next step. And then with Solana, you actually see the increase of volume over lowered
+
+503
+00:42:26,080 --> 00:42:30,000
+ total supply of stablecoins. So Solana doesn't have that much total supply of stablecoins,
+
+504
+00:42:30,000 --> 00:42:33,760
+ but punches way above its weight class in terms of volume. And you can kind of see that, well,
+
+505
+00:42:33,760 --> 00:42:38,800
+ that's aligned with the architecture of the Solana network. But nonetheless, I think,
+
+506
+00:42:38,800 --> 00:42:41,840
+ as you said earlier, there's just a lot of constraints that public blockchains have,
+
+507
+00:42:41,840 --> 00:42:48,800
+ no matter what, about what is needed to really create a strong payments network in stablecoins.
+
+508
+00:42:48,800 --> 00:42:52,080
+ And so now lately, so that's kind of the public blockchain side of things.
+
+509
+00:42:52,080 --> 00:42:59,760
+ Lately, I've seen a focus on stablecoin specific blockchains, like call it stablecoin appchains.
+
+510
+00:42:59,760 --> 00:43:03,840
+ Either layer two or even a dedicated layer one with some pretty serious trade offs,
+
+511
+00:43:03,840 --> 00:43:10,080
+ permission validator sets, privacy at the layer one, which kind of rubs against DeFi and other
+
+512
+00:43:10,080 --> 00:43:15,120
+ parts of what we know to make a public permissionless blockchain. But I'm seeing this next phase of
+
+513
+00:43:15,120 --> 00:43:20,480
+ blockchain design, stablecoin focus blockchain design to be really trying to go toe to toe with
+
+514
+00:43:20,480 --> 00:43:26,800
+ things like Visa and really optimize for maximum throughput and are happy to make very strong
+
+515
+00:43:26,800 --> 00:43:31,520
+ trade offs to really lean into stablecoin and stablecoin specific uses.
+
+516
+00:43:31,520 --> 00:43:37,040
+ Maybe talk about where you see chain design going in the stablecoin era.
+
+517
+00:43:37,040 --> 00:43:44,080
+ Yeah, I try really hard not to be ideological about the way I invest. And even though I have
+
+518
+00:43:44,080 --> 00:43:50,000
+ specific things that I might like to see in crypto, and I know you feel very strongly about this as
+
+519
+00:43:50,000 --> 00:43:55,040
+ well, I think the reality is like businesses that are going to put trillions of dollars of
+
+520
+00:43:55,040 --> 00:43:59,440
+ capital through these rails, they do not care about the things that maybe you got you and I
+
+521
+00:43:59,440 --> 00:44:04,640
+ into crypto. They do not care. They care about liquidity. They care about pricing. They care about
+
+522
+00:44:04,640 --> 00:44:09,680
+ being able to have a full application set that makes them easier for them to do their business.
+
+523
+00:44:09,680 --> 00:44:15,680
+ They care about privacy. They care about potentially not having to be in the same pool as some sort
+
+524
+00:44:15,680 --> 00:44:22,320
+ of oh, fact sanctioned, North Korea or Russia or things like that. And they care that their
+
+525
+00:44:22,320 --> 00:44:26,640
+ transaction gets there on time when they expect it to be there. And those are the things they care
+
+526
+00:44:26,640 --> 00:44:32,320
+ about. Now, there's a network effect and to your point around Solana that exists where you have,
+
+527
+00:44:32,320 --> 00:44:37,200
+ okay, well, you have a lot of this other activity, you have DeFi. And that DeFi means that there
+
+528
+00:44:37,200 --> 00:44:42,960
+ are more stablecoins already on the chain. There are already liquidity providers there.
+
+529
+00:44:42,960 --> 00:44:47,200
+ There are already ways to potentially transact. And that alone should cause there to be some sort
+
+530
+00:44:47,200 --> 00:44:52,480
+ of like lower pricing and sort of cause it to be essentially potentially easier for certain things
+
+531
+00:44:52,480 --> 00:44:58,160
+ to exist. But what you don't have is you don't have the other things, the privacy at the blockchain
+
+532
+00:44:58,160 --> 00:45:02,480
+ layer. You don't potentially have the concerns. And maybe you can do that in an application layer
+
+533
+00:45:02,480 --> 00:45:08,560
+ around, you know, OFAC sanctions, BSA, stuff like that. You do, you don't have prioritization
+
+534
+00:45:08,560 --> 00:45:14,640
+ of transactions. You can't pay gas fees and stablecoins. And so there's trade-offs to your point.
+
+535
+00:45:14,640 --> 00:45:19,040
+ But those trade-offs are things that maybe you and I care about that the businesses themselves
+
+536
+00:45:19,040 --> 00:45:24,160
+ do not care about. So today, what we've seen is mostly incentives have won, right? Like,
+
+537
+00:45:24,160 --> 00:45:30,080
+ why did PayPal decide to really put their focus on Solana on day one? And I might get
+
+538
+00:45:30,080 --> 00:45:34,480
+ hate tweets for this, but it wasn't because of the technical infrastructure. It was because
+
+539
+00:45:34,480 --> 00:45:39,680
+ Solana has a fantastic PD team and they paid them a bunch of money, right? And the reality is like,
+
+540
+00:45:39,680 --> 00:45:44,160
+ that is what we have seen from where these people have gone today is because they've cared about
+
+541
+00:45:44,160 --> 00:45:48,080
+ the pricing and they've cared about, you know, having somebody that they could pick up the phone
+
+542
+00:45:48,080 --> 00:45:52,400
+ and be like, this is not working for me. Like, help me fix it, right? And so those who, those
+
+543
+00:45:52,400 --> 00:45:56,560
+ chains who have done that type of PD and that type of marketing and customer service, they're
+
+544
+00:45:56,560 --> 00:46:02,800
+ the ones who have, you know, one kind of more of that flow today. And so if you can take that,
+
+545
+00:46:02,800 --> 00:46:07,120
+ you can do something that's a little bit more centralized. You can put a full stack solution
+
+546
+00:46:07,120 --> 00:46:11,920
+ together that allows you to innovate all the way through the chain, through the application layer.
+
+547
+00:46:11,920 --> 00:46:17,440
+ Like, it's my opinion that for those use cases, people would rather deal with those chains.
+
+548
+00:46:17,440 --> 00:46:24,000
+ So what do you think is stopping something like Tether or Circle making their own dedicated,
+
+549
+00:46:24,000 --> 00:46:30,320
+ like high throughput chain? And you can kind of see this show up where Tether has Tron and Tron's
+
+550
+00:46:30,320 --> 00:46:35,040
+ dominant activity is like Tether's transfer is still a generalized permissionless blockchain,
+
+551
+00:46:35,040 --> 00:46:41,520
+ but at least it's moving towards that direction. And then Circle has base. Same problem. It has
+
+552
+00:46:41,520 --> 00:46:45,040
+ other things too. It has other baggage, but at least it gets some of that throughput.
+
+553
+00:46:45,040 --> 00:46:49,040
+ But you can see some of these shapes starting to start to emerge, but none of them have really
+
+554
+00:46:49,040 --> 00:46:53,360
+ gone after building their own proprietary, like payments network. Like, why do you think that is,
+
+555
+00:46:53,360 --> 00:46:58,000
+ or maybe it just hasn't happened yet? I think Mordecom and more to be public,
+
+556
+00:46:58,000 --> 00:47:03,600
+ in some cases, that's like, like in Tron's case, for instance, you know, they've I think publicly
+
+557
+00:47:03,600 --> 00:47:09,680
+ announced that Bitfinex invested in I think called Plasma. Obviously they have Tron, you know,
+
+558
+00:47:09,680 --> 00:47:14,480
+ not in public yet, but I think they've invested in three other blockchains at this point. Like,
+
+559
+00:47:14,480 --> 00:47:18,480
+ they're trying to get themselves closer to a lot of these chains where they think that they can
+
+560
+00:47:18,480 --> 00:47:25,440
+ influence. But what they don't want to do is they don't want to isolate or alienate these other
+
+561
+00:47:25,440 --> 00:47:30,000
+ places where they're also being used today, right? Like, if they try to put all, you know,
+
+562
+00:47:30,000 --> 00:47:36,560
+ USDT flow on their own chain, what's stopping, you know, Binance and BSC from trying to put,
+
+563
+00:47:36,560 --> 00:47:42,080
+ you know, kind of push USDT off BSC, right? And they don't want to potentially have this situation
+
+564
+00:47:42,080 --> 00:47:46,480
+ where they're eating their own their own business already. And so I think what we've seen in circle,
+
+565
+00:47:46,480 --> 00:47:50,640
+ you'll hear a little bit more about too, they're aligning themselves with with another chain. And
+
+566
+00:47:50,640 --> 00:47:55,760
+ then they've also they're also kind of launching their own orchestrator. So they're really focused
+
+567
+00:47:55,760 --> 00:48:02,320
+ on payments as well. And so what we've seen is these guys have wanted to have influence. They want to
+
+568
+00:48:03,440 --> 00:48:10,720
+ be able to kind of be a design partner and figure out or optimize the chain for the use cases that
+
+569
+00:48:10,720 --> 00:48:16,720
+ they want or go hand in hand with somebody to do that. But they haven't wanted to go so far into
+
+570
+00:48:16,720 --> 00:48:20,160
+ like alienating the current use cases and the current chains.
+
+571
+00:48:20,160 --> 00:48:25,360
+ What about any new projects that are building that don't have the baggage of their incumbent
+
+572
+00:48:25,360 --> 00:48:29,840
+ business and are building a dedicated layer one or layer two or some sort of chain that's just
+
+573
+00:48:29,840 --> 00:48:33,280
+ meant for stable coins and stable coins only? Are there any projects out there that you're
+
+574
+00:48:33,280 --> 00:48:37,440
+ particularly excited about or are worth highlighting? Yeah, I mean, we just announced an investment
+
+575
+00:48:37,440 --> 00:48:42,400
+ to a business called Codex over there. I think it was Friday that we announced it. Super excited
+
+576
+00:48:42,400 --> 00:48:49,360
+ about that. Founders were serial entrepreneurs. One of them was the first employee at optimism.
+
+577
+00:48:49,360 --> 00:48:55,440
+ Another one was a very successful web to entrepreneur working very closely with a number
+
+578
+00:48:55,440 --> 00:48:59,440
+ of design partners who are going to be announced over the next month or two that will, I think,
+
+579
+00:48:59,440 --> 00:49:04,160
+ solve some of these problems where they're fully integrated from the chain level to the application
+
+580
+00:49:04,160 --> 00:49:07,840
+ layer to do some of these interesting things around designing their business around how the
+
+581
+00:49:07,840 --> 00:49:13,520
+ products that actually looks for the end user. And there are going to be a bunch of actually
+
+582
+00:49:13,520 --> 00:49:17,200
+ really interesting flow partners or launch partners who are doing some of the things we talked about
+
+583
+00:49:17,200 --> 00:49:21,600
+ before who are going to be sending flow through their own kind of day zero. So we're really excited
+
+584
+00:49:21,600 --> 00:49:26,640
+ about that. Is that a new layer one? Is that a layer two? What's some of the architecture look like?
+
+585
+00:49:26,640 --> 00:49:31,760
+ Yeah. So the no layer two founder was, like I mentioned, the first employee at optimism. So
+
+586
+00:49:31,760 --> 00:49:41,360
+ is that Liam? No, how many? Yeah. So he was there for a long time. And maybe he was the second
+
+587
+00:49:41,360 --> 00:49:47,360
+ employee, actually. But there for a long time. And that's been, you know, that's what he knows
+
+588
+00:49:47,360 --> 00:49:51,760
+ best. And so that's where they're designing today. And you know, kind of pushing the technical
+
+589
+00:49:51,760 --> 00:49:55,680
+ limitations there as far as they can. And so this is the layer two that settles to Ethereum.
+
+590
+00:49:56,480 --> 00:50:01,440
+ Yeah. Okay. And then there has been some of the deal flow that we look at bankless ventures.
+
+591
+00:50:01,440 --> 00:50:06,880
+ There's just a lot of other layer one, even permission chains that are cropping up just to
+
+592
+00:50:06,880 --> 00:50:11,200
+ become sort of like visa competitors. What do you think about these sort of design constructions?
+
+593
+00:50:11,200 --> 00:50:15,200
+ The biggest problem for all of these guys is going to be flow on day one, right? So like,
+
+594
+00:50:15,200 --> 00:50:22,080
+ how do you incentivize people to come on your chain? And it depends on, in some sense, like,
+
+595
+00:50:22,080 --> 00:50:27,520
+ you probably you may want permission with validator set. Maybe you don't. But if you're going to do
+
+596
+00:50:27,520 --> 00:50:32,720
+ that, you still need to have it be easily interoperable with other parts of crypto.
+
+597
+00:50:32,720 --> 00:50:37,840
+ If you want to be able to bring, you know, USDC, USDT, other stablecoins on, you want to be able to
+
+598
+00:50:37,840 --> 00:50:44,720
+ bring a bit of all those types of maybe USD, et cetera. If you're going to serve, you know,
+
+599
+00:50:44,720 --> 00:50:48,320
+ call it not just, you know, B2B payments, but you're going to serve like a broad set of payments
+
+600
+00:50:48,320 --> 00:50:52,960
+ that includes retail. So for me, it's always been about, okay, well, like, why is this permissioned?
+
+601
+00:50:52,960 --> 00:50:58,160
+ If it is permissioned, is that do they have some sort of edge for how they're going to bring flow
+
+602
+00:50:58,160 --> 00:51:06,800
+ here? My opinion has mostly been that if it's completely closed system, they will just be eaten
+
+603
+00:51:06,800 --> 00:51:11,360
+ by visa visas, doing tokenized payments themselves. They also have, I think, all visa direct,
+
+604
+00:51:11,360 --> 00:51:15,520
+ which by their centers has not done well by crypto standards has done very well in terms of the
+
+605
+00:51:15,520 --> 00:51:20,000
+ amount of volume that, and that's kind of outside of their traditional network. So you have to be
+
+606
+00:51:20,000 --> 00:51:23,680
+ thoughtful around what are the things you are doing. So, you know, I don't know which specific ones
+
+607
+00:51:23,680 --> 00:51:28,080
+ you're talking about, but there's one I'm specifically thinking of that, you know, is really just a
+
+608
+00:51:28,080 --> 00:51:34,640
+ centralized database, which if that's the case, and you have kind of none of the, I don't know,
+
+609
+00:51:34,640 --> 00:51:39,360
+ the value add of being, you know, kind of on chain and in crypto, none of the transparency,
+
+610
+00:51:40,240 --> 00:51:46,240
+ none of the ability to audit those transactions that I think is not particularly interesting.
+
+611
+00:51:46,240 --> 00:51:47,760
+ A little bit too close to the old world.
+
+612
+00:51:47,760 --> 00:51:51,600
+ Yeah, you're just too close to our older internet. Like, there's definitely a spectrum
+
+613
+00:51:51,600 --> 00:51:55,680
+ of blockchains, obviously, right? But if you're really just saying, okay, well, I'm going to
+
+614
+00:51:55,680 --> 00:51:58,880
+ create a web2 database, but I'm going to put it on blockchain. Well, like, we've already done
+
+615
+00:51:58,880 --> 00:52:02,800
+ that with hyper ledger, and that didn't work, right? And so, but if you are saying, okay,
+
+616
+00:52:02,800 --> 00:52:06,960
+ well, I'm going to build on a permissionless stack that is part of the super chain, and that is able
+
+617
+00:52:06,960 --> 00:52:11,040
+ to have interoperability as people want to do expand their risk tolerance and do different
+
+618
+00:52:11,040 --> 00:52:16,240
+ things, but also it can be do all of the best are going to be the best place for you to do,
+
+619
+00:52:16,240 --> 00:52:20,480
+ just, you know, direct B2B transactions. That's where you start to get this, like, liquidity flow,
+
+620
+00:52:20,480 --> 00:52:26,320
+ right? And this liquidity mode. So you prioritize those cost those customers, but you allow for
+
+621
+00:52:26,320 --> 00:52:31,600
+ different types of transactions in different type of use cases. So what I do think is going to happen
+
+622
+00:52:31,600 --> 00:52:37,440
+ is that risk tolerance will change over time. And a lot of these traditional guys over time
+
+623
+00:52:37,440 --> 00:52:40,960
+ might say, okay, well, now I do want to do something with tokenized assets. Now I do want to do
+
+624
+00:52:40,960 --> 00:52:46,640
+ something where I have, you know, my stablecoin or my tokenized asset be part of this, like,
+
+625
+00:52:46,640 --> 00:52:51,920
+ regulated FXAMM, but then also potentially be used as collateral for something that's
+
+626
+00:52:51,920 --> 00:52:57,280
+ permissionless on Jane as well. How do you see all of these different parts of this stack
+
+627
+00:52:57,280 --> 00:53:00,880
+ collapsing together over time? If you go to Argentina and you look at the FinTech businesses
+
+628
+00:53:00,880 --> 00:53:06,880
+ down there, they are doing both stablecoin payments and stablecoin savings. So you can get like three,
+
+629
+00:53:06,880 --> 00:53:09,920
+ four or five percent on your stablecoins in this FinTech app, but you can also pay your friend too.
+
+630
+00:53:09,920 --> 00:53:13,680
+ And that's actually just because some of these stablecoins and some of the yield sources are just
+
+631
+00:53:13,680 --> 00:53:18,160
+ hooked right into DeFi. And that's because that's also where the stablecoins are. We're also talking
+
+632
+00:53:18,160 --> 00:53:23,920
+ about this whole entire new growth of orchestration networks and other types of stablecoins and, you
+
+633
+00:53:23,920 --> 00:53:28,480
+ know, payment chains. I would imagine as if you would just fast forward five, 10 years in the future,
+
+634
+00:53:28,480 --> 00:53:34,160
+ a lot of this stuff has really consolidated to become really having some sort of singularity where
+
+635
+00:53:34,160 --> 00:53:38,960
+ all of these, all of the utility here is really pushed into the same vertical. How do you see that
+
+636
+00:53:38,960 --> 00:53:42,400
+ playing out? Will that play out? Will that be fast? Will that be slow? What do you think that looks like?
+
+637
+00:53:42,400 --> 00:53:47,680
+ There's obviously a little bit of it now. I absolutely agree that we're going to see consolidation.
+
+638
+00:53:47,680 --> 00:53:54,480
+ It's not clear to me at what part of the stack we're going to see consolidation today. I do think,
+
+639
+00:53:54,480 --> 00:54:00,080
+ you know, the strike bridge transaction was obviously a harbinger for, you know, probably more
+
+640
+00:54:00,080 --> 00:54:06,000
+ M&A interest from call it, you know, traditional payment service providers. You know, it's clear
+
+641
+00:54:06,000 --> 00:54:10,480
+ that strike also they want to go from just emerging business to a network business. They also,
+
+642
+00:54:10,480 --> 00:54:14,800
+ you know, just talked about becoming a bank as well. And so you're seeing like kind of traditional
+
+643
+00:54:14,800 --> 00:54:18,480
+ fintech traditional payments kind of have that collapse between, okay, well, I want to be a tech
+
+644
+00:54:18,480 --> 00:54:23,200
+ company and I want to be able to take risks because that's where a lot of the money is made. And how
+
+645
+00:54:23,200 --> 00:54:27,840
+ do I kind of vertically integrate that and then and also add a lot of different capabilities where
+
+646
+00:54:27,840 --> 00:54:31,760
+ I can again, you know, make more money as part of that. So I think we're going to see the web two
+
+647
+00:54:31,760 --> 00:54:37,440
+ guys come in and buy some of these orchestrators, buy some of these local ramps, these last miles.
+
+648
+00:54:37,440 --> 00:54:44,160
+ I think we're going to see these, you know, kind of a lot of issuance happen also at the call it
+
+649
+00:54:44,160 --> 00:54:50,560
+ orchestration layer with these like PSPs, i.e. meaning like you're a strike customer and, you know,
+
+650
+00:54:50,560 --> 00:54:55,600
+ Stripe has their like treasury product today. Well, Stripe will probably start to also issue a
+
+651
+00:54:55,600 --> 00:55:02,400
+ stablecoin or also an RWA as part of their treasury product so that you can more easily manage like
+
+652
+00:55:02,400 --> 00:55:07,680
+ your capital with, you know, stablecoin or stablecoin type products. So I think that issuance layer
+
+653
+00:55:07,680 --> 00:55:11,680
+ is going to collapse quite a bit. And I also think you're going to start out to have to do
+
+654
+00:55:11,680 --> 00:55:18,320
+ compliance specifically at the chain level or in the application stack where you control that
+
+655
+00:55:18,320 --> 00:55:24,720
+ chain. If you're going to do kind of more regulated, like, you know, kind of long payments for these
+
+656
+00:55:24,720 --> 00:55:30,480
+ large players. And so I expect we'll see most of the stablecoin fintech apps we've seen today.
+
+657
+00:55:30,480 --> 00:55:34,800
+ Like I think most of them are going to fail. I mean, that's that's normal for startups,
+
+658
+00:55:34,800 --> 00:55:39,360
+ but they're just going to have a hard time finding distribution relative to the people who exist
+
+659
+00:55:39,360 --> 00:55:45,200
+ today. And then like the merchant gateways, the ramps, like those are really tough standalone
+
+660
+00:55:45,200 --> 00:55:51,200
+ businesses and in traditional finance or traditional payments, those are like either small businesses
+
+661
+00:55:51,200 --> 00:55:55,280
+ or they just we've seen actually in the 2010s, there's a lot of consolidations of like basically
+
+662
+00:55:55,280 --> 00:55:59,600
+ PE backed stablecoin gateways and ramps that had verticalized software as part of them,
+
+663
+00:55:59,600 --> 00:56:03,120
+ where they just rolled them up. And I expect we see a lot of that happening as well.
+
+664
+00:56:03,120 --> 00:56:06,880
+ What do you think? I think you're already gaming this line. Banks are fucked. But maybe we can
+
+665
+00:56:06,880 --> 00:56:11,760
+ go into that question specifically. What does this mean for old world banks? The banks, as we know,
+
+666
+00:56:11,760 --> 00:56:17,760
+ the banks that I pay my rent from, the JP Morgan's, the Wells Fargo, even the regional banks. What do
+
+667
+00:56:17,760 --> 00:56:22,400
+ you think happens to all of them? Well, I think regional banks are fucked for non-fifty reasons
+
+668
+00:56:22,400 --> 00:56:30,000
+ too, just because we've seen this consolidation of G said's. But banks are not good innovators,
+
+669
+00:56:30,000 --> 00:56:34,880
+ like that has always been true. So they're slow to the tech stack. The best thing that has ever
+
+670
+00:56:34,880 --> 00:56:39,680
+ come out of bank is Visa. Visa was a kind of a bank consortium. They spun it out, but that was at
+
+671
+00:56:39,680 --> 00:56:45,440
+ a time when tech just moved much more slowly than it does today. Domestically, banks are still going
+
+672
+00:56:45,440 --> 00:56:50,640
+ to do an incredible job. Well, the real-time payment networks are coming or here, depending on
+
+673
+00:56:50,640 --> 00:56:57,040
+ much jurisdiction you are in. They will be able to do real-time payments that are at the speed of
+
+674
+00:56:57,040 --> 00:57:02,000
+ and cheaper than blockchain rails for a lot of domestic use cases. That's going to continue to
+
+675
+00:57:02,000 --> 00:57:09,200
+ be true. But then if you look at the global macro market, right, like right now, the US is in the
+
+676
+00:57:09,200 --> 00:57:15,200
+ midst of cutting ties or pushing away some of its allies. We are becoming more protectionist.
+
+677
+00:57:15,200 --> 00:57:20,960
+ The world is coming more protectionist. At the same time, when we already have this like
+
+678
+00:57:20,960 --> 00:57:27,360
+ interconnected cross-border banking system that is ineffective and doesn't work very well together,
+
+679
+00:57:27,360 --> 00:57:33,040
+ my expectation is that becomes even tougher in this future protectionist world that we're seeing.
+
+680
+00:57:33,040 --> 00:57:39,360
+ And if that's true, then all of this cross-border payments are going to go to stablecoin rails.
+
+681
+00:57:39,360 --> 00:57:44,000
+ On top of that, what you have right now is you have a bunch of countries where their
+
+682
+00:57:44,000 --> 00:57:48,560
+ local currency is inflating or people don't have demand for their local currency potentially.
+
+683
+00:57:48,560 --> 00:57:53,520
+ But I think we can debate a little bit about what's happening with the US dollar this past week
+
+684
+00:57:53,520 --> 00:57:58,320
+ and the 10 years this past week. But today, at least people still see the US dollar as the
+
+685
+00:57:58,320 --> 00:58:04,160
+ reserve currency, and that'll be true for seeable. And that demand also means that these people,
+
+686
+00:58:04,160 --> 00:58:09,680
+ they want US dollars. And at a time when US dollars are becoming more usable, so I'll give you an
+
+687
+00:58:09,680 --> 00:58:17,440
+ example. We invested in an emerging market kind of payments, FinTech, stablecoin business,
+
+688
+00:58:17,440 --> 00:58:23,040
+ that when they finally were able to get a card issued by RAIN, that meant that they could now,
+
+689
+00:58:23,920 --> 00:58:29,120
+ and it's on the VC network, that those people can now pay for, it has an economy that wants
+
+690
+00:58:29,120 --> 00:58:34,320
+ a lot of US dollar goods. They want Netflix, they want open AI, chat GBT, they want to import
+
+691
+00:58:34,320 --> 00:58:38,080
+ a lot of US dollar goods. If they were to try to pay for that US dollar good through the traditional
+
+692
+00:58:38,080 --> 00:58:42,720
+ banking system, today they would have to pay a 10% tax. Now if they pay with their stablecoins,
+
+693
+00:58:42,720 --> 00:58:46,480
+ they're not. There's a regulatory arbitrage there. There's a question around how long that
+
+694
+00:58:46,480 --> 00:58:51,200
+ regulatory arbitrage stays. But what's clear is for those young people and those types of payment
+
+695
+00:58:51,200 --> 00:58:56,000
+ rails, they want more access to US dollars, US dollar goods, and things like that.
+
+696
+00:58:56,000 --> 00:59:02,000
+ And that'll continue to be a big issue for local governments, local central banks,
+
+697
+00:59:02,000 --> 00:59:08,080
+ who today have been really protective of their current currencies. I think, and this is a more
+
+698
+00:59:08,080 --> 00:59:12,960
+ macro point, we might be getting into a world where the amount of currencies is just going to come
+
+699
+00:59:12,960 --> 00:59:17,520
+ way down. And we're going to need to see a world where you just have somewhat of a currency
+
+700
+00:59:17,520 --> 00:59:22,000
+ war between the dollar and the euro, and the renminbi. And a lot of these other countries,
+
+701
+00:59:22,000 --> 00:59:29,200
+ their currencies are fucked. So not only is this kind of a harbinger of the end of times for
+
+702
+00:59:29,200 --> 00:59:33,200
+ banks generally, but also for central banks, for currency issuing banks,
+
+703
+00:59:33,200 --> 00:59:37,760
+ secularly. Yeah, I think so in a lot of these emerging markets.
+
+704
+00:59:37,760 --> 00:59:43,680
+ Yeah. Yeah. Well, what about non-dollar stablecoins though? Because there's is a push for tokenized
+
+705
+00:59:43,680 --> 00:59:48,480
+ euro tokenized like long tail developing country fiat. What do you think about this whole sector
+
+706
+00:59:48,480 --> 00:59:54,400
+ of the of the conversation? So you absolutely need non US dollar stablecoins for FX, right?
+
+707
+00:59:54,400 --> 01:00:01,600
+ And so 60% of roughly 60% of the global reserves of currencies are in US dollars,
+
+708
+01:00:01,600 --> 01:00:07,680
+ the rest are in other types of currencies. And it's a roughly similar number for the amount
+
+709
+01:00:07,680 --> 01:00:12,160
+ of transactions or the type of transactions that happen. What we have seen to date is that
+
+710
+01:00:13,040 --> 01:00:17,120
+ you're there is need for a euro and we're doing the type of transactions we talked about before,
+
+711
+01:00:17,120 --> 01:00:22,880
+ where you're going bank account to bank account and call it in Brazil to euro. But
+
+712
+01:00:22,880 --> 01:00:30,640
+ at the end, people are wanting to offboard to fiat. And in the, I think the developed markets,
+
+713
+01:00:30,640 --> 01:00:34,880
+ you're still going to continue to get a lot of that. It's the developing markets where people
+
+714
+01:00:34,880 --> 01:00:39,120
+ have wanted to keep things on chain potentially, or in these places where there's like regulatory
+
+715
+01:00:39,120 --> 01:00:42,960
+ arbitrage or you're doing things like trade finance, which are hard risk. I think we're
+
+716
+01:00:42,960 --> 01:00:49,520
+ going to continue to see adoption of those stablecoins. I am not bullish on most of those non US dollar
+
+717
+01:00:49,520 --> 01:00:57,280
+ stablecoins becoming things that people hold on chain. So maybe a few people that I talked about,
+
+718
+01:00:57,280 --> 01:01:03,280
+ but I think when we're talking about the Naira, like people are going to do it because they want
+
+719
+01:01:03,280 --> 01:01:08,000
+ to do this remittance or they want it to get usable. But in the future, they're going to hold
+
+720
+01:01:08,000 --> 01:01:13,840
+ the US dollar or they're just going to offer up to their bank. So maybe is it correct to say that
+
+721
+01:01:13,840 --> 01:01:19,600
+ dollar stablecoins will hold all of the market cap while the long tail of fiat,
+
+722
+01:01:19,600 --> 01:01:25,680
+ you know, African fiat currencies, developing country fiat currencies, they will exist simply
+
+723
+01:01:25,680 --> 01:01:32,320
+ as a accounting tool in the foreign exchange world in the FX. Maybe there'll be high volume for local
+
+724
+01:01:32,320 --> 01:01:37,840
+ payments, maybe not. But they're mostly there just as a utility token, truly to get the utility
+
+725
+01:01:37,840 --> 01:01:45,040
+ out of their denomination so that they can connect local economies, local developing market economies
+
+726
+01:01:45,040 --> 01:01:50,400
+ with the rest of the stablecoin networks on public permissionless blockchains, which are all going
+
+727
+01:01:50,400 --> 01:01:54,800
+ to be dollar denominated. Would you agree with that general summary? Yeah, that's my expectation.
+
+728
+01:01:54,800 --> 01:01:58,800
+ I think what you said utility token is a really good point. And so they're either going to want
+
+729
+01:01:58,800 --> 01:02:02,800
+ US dollars and they're going to get that their stablecoins or they're going to be using some
+
+730
+01:02:02,800 --> 01:02:08,560
+ sort of local as my expectation. Okay, final question, final, like kind of as we wrap this up,
+
+731
+01:02:08,560 --> 01:02:12,720
+ how many different stablecoins do you think that there will be? Well, every bank issue a stablecoin,
+
+732
+01:02:12,720 --> 01:02:17,440
+ everyone's going to try and issue a stablecoin. I feel like that's kind of the hot tweet that
+
+733
+01:02:17,440 --> 01:02:21,520
+ could go viral right now because everyone's into this idea of like everyone's getting a stablecoin.
+
+734
+01:02:21,520 --> 01:02:24,720
+ And I think it's very reminiscent of everyone's getting a layer two and we all kind of know how
+
+735
+01:02:24,720 --> 01:02:28,640
+ that turned out. What do you think about this conversation? It sucks.
+
+736
+01:02:31,680 --> 01:02:36,320
+ So I put out like a tweet like a week or two ago. That was basically like, listen, if this is not
+
+737
+01:02:36,320 --> 01:02:41,200
+ your core business, like use somebody else to do it for you. I think what could happen is like,
+
+738
+01:02:41,200 --> 01:02:45,920
+ okay, well, we think there's a million stablecoins, but it's actually like Paxos or Agora or Braille
+
+739
+01:02:45,920 --> 01:02:50,320
+ on the back end. And they're all like interoperable with each other. I do think we're going to see,
+
+740
+01:02:50,320 --> 01:02:54,400
+ at least for a period of time, a bunch of people be like, I need a stablecoin. And we're starting
+
+741
+01:02:54,400 --> 01:02:57,760
+ to see this too, where people are like, Oh, I need a stablecoin, but it's only going to be for
+
+742
+01:02:57,760 --> 01:03:03,840
+ internal use, because I'm essentially basically, it's essentially using as like a money market fund.
+
+743
+01:03:03,840 --> 01:03:07,760
+ Well, like you could also just buy Betel, right? In the same thing, I don't know why you wouldn't
+
+744
+01:03:07,760 --> 01:03:14,000
+ just do that in most of these cases. And so there's going to be a lot, I think, will a steady state
+
+745
+01:03:14,000 --> 01:03:20,000
+ get to like maybe like on the US dollar side, like five to 10 that gain any real scale?
+
+746
+01:03:20,000 --> 01:03:24,240
+ Feel like we already have five. There were real scale, the US dollar, but like, oh,
+
+747
+01:03:24,240 --> 01:03:28,560
+ I guess what would you call scale? And yeah, okay. Good point. Okay. Circle tether,
+
+748
+01:03:28,560 --> 01:03:35,520
+ die maker dows, die Athena. Maybe there's one I'm missing, but I guess you could argue that
+
+749
+01:03:35,520 --> 01:03:38,560
+ maker down Athena or not really any sort of real scale in terms of marketing.
+
+750
+01:03:38,560 --> 01:03:44,240
+ Yeah. Well, I think there's scale and further specific use cases with like, you know, on chain,
+
+751
+01:03:44,240 --> 01:03:48,960
+ but when I said that I met it more as like, call it like the Paxos circle tethers, like,
+
+752
+01:03:48,960 --> 01:03:54,160
+ you know, few others that are maybe more used in traditional payments. I do think like,
+
+753
+01:03:54,160 --> 01:03:57,520
+ there's definitely still room for like crypto native, like, you know, savings and investment
+
+754
+01:03:57,520 --> 01:04:02,400
+ products that have stable coins linked to them to do really well. The reality is like, die is
+
+755
+01:04:02,400 --> 01:04:05,120
+ pegged to the US dollar because of what they decide to put in their collateral like they could
+
+756
+01:04:05,120 --> 01:04:08,240
+ have completely changed all of their collateral from day one and it would no longer be a US dollar
+
+757
+01:04:08,240 --> 01:04:12,880
+ stable coin. So yeah, listen, I think there'll be a lot in the near term. I think we'll see then a
+
+758
+01:04:12,880 --> 01:04:16,800
+ lot of consolidation after that. And then what I do think we'll see is we'll see a lot of
+
+759
+01:04:16,800 --> 01:04:20,880
+ basically interoperability because people are using the same service providers on the back end,
+
+760
+01:04:20,880 --> 01:04:25,040
+ but they decided to brand it for whatever reason because people are narcissistic.
+
+761
+01:04:25,040 --> 01:04:28,800
+ And I think it's good marketing as their own stable coin.
+
+762
+01:04:28,800 --> 01:04:35,440
+ So when you see a stable coin project deck come across your desk and like the opening slide is,
+
+763
+01:04:35,440 --> 01:04:40,400
+ we're going to make a new stable coin. Do you open that up with like cynicism with optimism?
+
+764
+01:04:40,400 --> 01:04:43,120
+ Like what's your first emotion when you see a new stable coin project?
+
+765
+01:04:43,680 --> 01:04:50,160
+ So I open up every deck with cynicism, but yeah, absolutely.
+
+766
+01:04:50,160 --> 01:04:53,920
+ Today, I think like if you're doing like a new stable coin issuance,
+
+767
+01:04:53,920 --> 01:04:59,520
+ like there has to be a really good hook and a really good reason for why this new thing has
+
+768
+01:04:59,520 --> 01:05:02,880
+ to exist because you're so far behind all the competitors.
+
+769
+01:05:02,880 --> 01:05:07,360
+ Okay, just kidding. One last question before we wrap this up. Circles S1, I'm sure you took a
+
+770
+01:05:07,360 --> 01:05:12,640
+ look at it. What stood out to you in the S1 and then broadly, what do you think the circle IPO will
+
+771
+01:05:12,640 --> 01:05:17,920
+ just do for the stable coin game? Yeah, so the circle S1 was was about what I expected.
+
+772
+01:05:17,920 --> 01:05:24,560
+ My opinion on circle has continued to be that they are really hamstrung by that coin base deal.
+
+773
+01:05:24,560 --> 01:05:28,960
+ And not only are they hamstrung by that coin base deal, we've seen them try to grow into like
+
+774
+01:05:28,960 --> 01:05:33,360
+ binance and to other sort of distribution partners by paying them a bunch of money.
+
+775
+01:05:33,360 --> 01:05:36,960
+ And so they just have to continue to do that. And that's how they've eaten in to tell there's
+
+776
+01:05:36,960 --> 01:05:41,280
+ market share. But it means their margins are going to come way down. And what it means is that
+
+777
+01:05:41,920 --> 01:05:48,080
+ potentially the public markets aren't going to like what their revenue composition looks like,
+
+778
+01:05:48,080 --> 01:05:51,120
+ and they're not going to trade as like the tech company or the payment company they want to.
+
+779
+01:05:51,120 --> 01:05:54,720
+ I think that's the debate, right? So there was this headline around though,
+
+780
+01:05:54,720 --> 01:05:58,560
+ they had four to five billion dollars was the potential value. People were surprised by it.
+
+781
+01:05:58,560 --> 01:06:03,120
+ I wasn't super surprised by that because the revenue model today looks like a asset manager.
+
+782
+01:06:03,120 --> 01:06:08,160
+ And I think it's very clear over time how they don't just continue to get squeezed on their margins
+
+783
+01:06:08,160 --> 01:06:12,960
+ themselves. They have to build out more of a payments business if they are going to get
+
+784
+01:06:12,960 --> 01:06:17,520
+ the value that they want. And if they are going to be valued on a multiple like they
+
+785
+01:06:17,520 --> 01:06:21,440
+ tried or somebody like that, which is I know is what they think is appropriate.
+
+786
+01:06:21,440 --> 01:06:27,680
+ The second question, I guess, around what does the world do for the market? It'll be humongous.
+
+787
+01:06:27,680 --> 01:06:32,480
+ So like, you know, and I do think the one argument against what I just said about them trading well
+
+788
+01:06:32,480 --> 01:06:37,440
+ will just be because everybody knows stablecoins are eating the world. And the public market investors
+
+789
+01:06:37,440 --> 01:06:40,640
+ will only have one way to express that. And it'll be buying that equity.
+
+790
+01:06:40,640 --> 01:06:47,520
+ So let's simulate hypothetical universe where tomorrow you wake up and you are actually in
+
+791
+01:06:47,520 --> 01:06:52,080
+ Jeremy layers seat and now you are calling the shots of circle. What are the first obvious
+
+792
+01:06:52,080 --> 01:06:57,360
+ decisions that you make about how to lead the company? Yeah, so it's a good question.
+
+793
+01:06:57,360 --> 01:07:00,560
+ Super hard question. I do not have to answer that.
+
+794
+01:07:00,560 --> 01:07:07,600
+ I'm going to get a call from Jeremy's office. Do you post this? But no, listen, I think they
+
+795
+01:07:07,600 --> 01:07:14,480
+ need to continue to focus on other lines of business. They need to figure out how their revenue
+
+796
+01:07:14,480 --> 01:07:22,080
+ mix changes. They need to figure out a way to not have that Coinbase distribution partnership
+
+797
+01:07:22,080 --> 01:07:26,560
+ be so such a drag on their business. I don't know if they can get out of it. I don't know
+
+798
+01:07:26,560 --> 01:07:34,000
+ any details there, but they need to become more neutral in my mind over time. The Coinbase deal
+
+799
+01:07:34,000 --> 01:07:38,320
+ made sense when they did it because that's how they boot strapped to that distribution.
+
+800
+01:07:38,320 --> 01:07:44,640
+ Now it is a drag on their business. And so how do they figure out a way to improve the revenue
+
+801
+01:07:44,640 --> 01:07:50,320
+ composition to add other services around it where they can monetize and how can they figure out a
+
+802
+01:07:50,320 --> 01:07:55,520
+ way to not have Coinbase take 60% of their their top line. Those are the things that I would be
+
+803
+01:07:55,520 --> 01:08:01,040
+ focused on. So yeah, so circle just really maybe they wouldn't characterize it, but like did it
+
+804
+01:08:01,040 --> 01:08:06,400
+ deal with the devil where they gave a part of their revenue to Coinbase in trade for distribution
+
+805
+01:08:06,400 --> 01:08:10,800
+ and in trade for growth. And that worked for the time that they needed it. And now what you're
+
+806
+01:08:10,800 --> 01:08:16,880
+ saying is like, well, now that non neutrality, the fact that circles beholden to Coinbase is
+
+807
+01:08:16,880 --> 01:08:21,360
+ preventing them from finding other markets, because now they're branded as like the Coinbase
+
+808
+01:08:21,360 --> 01:08:27,120
+ stable coin. And the lack of neutrality is preventing them from expanding into like alternative
+
+809
+01:08:27,120 --> 01:08:32,560
+ distribution models. Yeah, it's absolutely centered the growth. I mean, they've what they've done on
+
+810
+01:08:32,560 --> 01:08:36,400
+ with Binance has been actually incredible. And like, congratulations, chairman, my team,
+
+811
+01:08:36,400 --> 01:08:41,920
+ like they, but we do know that they paid them 60 million bucks and are also giving all of their
+
+812
+01:08:41,920 --> 01:08:47,760
+ eel that they can to Binance to be able to do that. And you know, maybe that will again be
+
+813
+01:08:48,480 --> 01:08:53,200
+ a deal that's that's worth making. And I do think it probably is. But you know, they're in a situation
+
+814
+01:08:53,200 --> 01:09:01,840
+ where they have to give 100% of all circle revenue that's derived from USDC on Coinbase to
+
+815
+01:09:01,840 --> 01:09:09,360
+ two point base, and then 50% of all other revenue. How do you go and build other, you know, distribution
+
+816
+01:09:09,360 --> 01:09:14,720
+ partnerships at scale over time when this goes from, you know, the amount of issuance they have
+
+817
+01:09:14,720 --> 01:09:19,920
+ now and it goes 10x from here if they're continuing to be in that that type of deal. And so like,
+
+818
+01:09:19,920 --> 01:09:24,640
+ it was the right move to get them to hear how do they get from here to 100x from here or 10x from
+
+819
+01:09:24,640 --> 01:09:30,560
+ here. I think it has to change. And I think it'll be really hard for them to continue to do so with
+
+820
+01:09:30,560 --> 01:09:34,480
+ with that weight on their their shoulders. Rob, this has been definitely one of the most informative
+
+821
+01:09:34,480 --> 01:09:37,760
+ podcast episodes I've done in a while. So I really appreciate you coming on and educating me and
+
+822
+01:09:37,760 --> 01:09:41,840
+ educating the bank station. Thanks so much, David. This was this was awesome. Really appreciate it.
+
+823
+01:09:41,840 --> 01:09:47,840
+ Yeah, maybe just one last like time just to know no specific question just open-ended stable coins.
+
+824
+01:09:47,840 --> 01:09:53,440
+ Maybe just give us your your broad thoughts or conclusion your your bullish rah rah as we end
+
+825
+01:09:53,440 --> 01:09:58,240
+ things really what other sectors that I haven't asked about are getting you excited or any remaining
+
+826
+01:09:58,240 --> 01:10:05,520
+ thoughts that I just haven't asked. All I would say is if stable coins are inevitability at this point,
+
+827
+01:10:05,520 --> 01:10:12,800
+ and if you are building in FinTech and or at a payment company and you aren't actively figuring
+
+828
+01:10:12,800 --> 01:10:18,240
+ out how do I future prove this business for stable coins, you're going to lose and you need to you
+
+829
+01:10:18,240 --> 01:10:22,800
+ need to figure it out and you need to come here and you need to ask me or any of any of the other
+
+830
+01:10:22,800 --> 01:10:27,440
+ people who are really smart about this. That's a perfect way to start the risks and disclaimers
+
+831
+01:10:27,440 --> 01:10:31,200
+ for this episode. Rob, I really appreciate you coming on Bankless Nation. You guys know the deal,
+
+832
+01:10:31,200 --> 01:10:35,280
+ crypto is risky. You can lose what you put in. You can also lose if you are not paying attention to
+
+833
+01:10:35,280 --> 01:10:39,280
+ what's going on in stable coins, but nonetheless, this is a frontier. We're glad you're with us
+
+834
+01:10:39,280 --> 01:10:41,760
+ on the Bankless journey. Thanks a lot. Thanks, Dave.
+

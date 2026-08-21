@@ -1,0 +1,273 @@
+TITLE: How Stablecoins Are Rewiring Global Payments | Borderless CPO Alex Garn
+URL: https://www.youtube.com/watch?v=V19eRsyMtcc
+VIDEO_ID: V19eRsyMtcc
+
+TRANSCRIPT:
+The Stitch Together, a global network of all of these things, can be time-intensive,
+ it can be hard on engineering teams, it can be complicated and just confusing and messy.
+ And so Borealis is building this network that integrates all of these different local providers
+ into a single network.
+ Welcome Alex Garn, CPO at Borderless. Welcome to Defiant, happy to have you here.
+ Yeah, well thank you for having me. It's a pleasure to chat with you today.
+ Likewise, we've known each other for many years, but I'm really curious about
+ your journey to your current position. How do you get there? Why is it exciting to be part
+ of Borderless today?
+ I think it's kind of like any journey these days. It's a bit haphazard and all over the place,
+ but began my career kind of in data science and building kind of machine learning models
+ and things like this for clients as a consulting firm and realized that I like the analytics and
+ kind of the certainty of numbers and logic, which kind of naturally pulls me into DeFi,
+ because DeFi is permissionless. A lot of times things are immutable and you can kind of count on
+ code to some degree, right, for executing complex systems that, I don't know, perhaps we have a
+ view that we can't always trust traditional banks to do so. And building in DeFi was an amazing
+ experience previously, building kind of smarter routing systems, but I think the reality of
+ the nature is that these days, you still need to have some compliance around how you're using
+ money to pay for things, not to move things, and all of this kind of naturally brought me through
+ to Borderless, which is doing cross-border payments with stablecoins. So it's kind of this nice fusion
+ of you still have stablecoins, primarily built kind of in DeFi on blockchain rails, permissionlessly
+ moving cross borders, but now you have kind of the orchestration layer to help move through
+ regulated and licensed entities to interface and kind of exchange with actual fiat that people
+ use to pay for coffee, pay their bills, et cetera, things like this, all over the place movement,
+ but kind of a nice through line there from DeFi into stablecoins where we think future of payments
+ is going to ultimately arrive. And in brief, for people who are not as familiar with Borderless,
+ can you describe what it does? Yes, Borderless at a high level is orchestrating on and off-ramps,
+ so you have a very fragmented landscape of licensing. So to convert stablecoins of any kind,
+ or crypto of any kind, frankly, into fiat currencies, so these are local currencies like
+ Brazilian real, US dollars, pesos, et cetera, you need the licensing and you need the service
+ provider essentially in that local regulated regime. And so to stitch together a global network of
+ all of these things can be time intensive, it can be hard on engineering teams, it can be complicated
+ and just confusing and messy. And so Borderless is building this network that integrates all of
+ these different local providers into a single network. So if you're a bank, a PSP, a remittance
+ platform, or somebody moving money across multiple jurisdictions only have one API to integrate,
+ they get you access to this global network that allows you to move money between crypto and
+ staples and fiat as well. And to clarify there, like having this network, like using an API,
+ it doesn't mean that you're facilitating, let's say wallet to wallet transactions between those
+ partners, or is Borderless intermediating that? Meaning like do the stablecoins that are routed,
+ go through you at some point over a blockchain, or is it basically partner A in Asia? This is
+ the wallet you have to send in partner in Latin America, for example. We are completely out of
+ the flow of funds. So it's strictly a communication and technology layer. You know, for example,
+ we can talk through kind of a use case. So somebody is let's say a FinTech in US marketplace payouts
+ to Latin America, think of like your fibers of the world, the gig economy type stuff is one example,
+ they need to take their essentially treasury or balance your bank account, which is US dollars,
+ pay out in local currencies, they can send that via stablecoins. And then those local providers
+ are doing the on and off ramp. But we're orchestrating that meeting. We'll tell the client, hey,
+ send your money to Bitso at this deposit address where it arrives, Bitso then handles that leg
+ into fiat conversion. And so we have partners like Bridge, Bitso, Evania, and many, many more,
+ I think we're like 15 plus providers on the network these days. Then in your network, you are
+ also connecting, let's say, traditional Fentix or payment facilitators, not necessarily just
+ connecting the on off ramps at local markets, but also going to the end user, which might be
+ like a gusto, a deal that forms like those. Exactly. Okay, you have sort of like two business development
+ goals or like building the network of end users and having the most robust liquid network of
+ partners who can intermediate those flows. Exactly. So our value is frankly zero. If we have no
+ partners on the network who have the liquidity to facilitate this conversion between stable and fiat.
+ So that's goal number one is have a network valuable enough that it draws clients to it. And goal
+ number two is obviously go convince those clients to come join us and facilitate their
+ cross border payments on board list. It's really interesting that you mentioned along the way
+ the idea of like a communication network. That sounds a lot how Swift would describe itself,
+ like a messaging that for rather than even in the environment flows, but it's not like a
+ reimagined for the stablecoin world. I think that's that's very accurate. Obviously,
+ there are some key differences between us and Swift, but the high level concept of a communication
+ layer is exactly right. And you know, another thing that is quite interesting to think about is,
+ yes, we're making the engineering lift much easier because we have a single kind of API to
+ integrate you get access to all of this. But we're also helping to streamline and automate some of
+ your operations flows. So instead of having your operations, people managing a whole bunch of
+ different siloed partners across a whole bunch of different dashboards and APIs, etc. You now have
+ that consolidated. Because we have all of this data that we're collecting as well, we can consolidate
+ all of that as well. So you can see reconciled like a single source of truth for transactions,
+ you're doing cross border. You can see your total aggregate volumes flows, things like this,
+ you can see aggregate rates data and things like this. And so that's like at a high level,
+ there's more to borderless than just the API integration, but streamlining the entire package.
+ Got it. I think a lot of this has been enabled by stablecoins becoming a part of
+ payments flows. So originally, stablecoins and even to this day have been mostly being used as
+ like trading pairs, trading collateral. And we've seen that rise in the use for payments and real
+ world activities. What's your take on the transition from the P2P people sending USDT or USDC to now
+ it being intermediated or like the stablecoin standards model? That is one part of the question.
+ And the other one would be around could the end user is so I'd assume initially it has been
+ mostly people in individuals in different markets, but a lot of businesses are getting into it with
+ use cases like the ones that you are describing. So what's your take on that transition and where
+ is it heading? Are we seeing Walmart starting to use stablecoin facilitated corridors in their
+ operations? I just got back from money 2020 and the running joke is that it was actually stablecoin
+ 2020 because as you're kind of alluding to, the businesses are here. Borderless's clients
+ are primarily B2B and we're seeing this growing rapidly. We're seeing this transition away from
+ stablecoins, just uses collateral on chain for DefiDGens to now businesses seriously consider
+ how do we use these to move money globally and not only for payments, but for treasury. I think a lot
+ of this has been unlocked by things like Genius. Genius is the regulatory framework in the US
+ that makes it much, I would say, maybe not much, but at least more clear how businesses can work
+ within these frameworks. So it's quite exciting time to be building in stablecoins and I think
+ we're only going to see it continue to accelerate over the next couple of years because now that we
+ have Genius with some clarity and some framework as to how businesses can operate, it's going to
+ take a couple of years continued for those businesses to kind of really get educated,
+ really get confident and start to move significant sums of money across stablecoin rails. But what
+ we're seeing in terms of adoption currently is quite exciting because it's still very early
+ innings for stablecoin payments for enterprises. Even now, we're seeing lots of excitement and
+ adoption and beginning to take those steps to move things, which is a huge indication that things
+ will continue to come. For example, do you think that the networks or just like the liquidity that's
+ out there is deep enough to facilitate, you know, like enterprise or corporate level,
+ like treasury management, constellation of auto firms that you guys have? Can I send 10 million
+ dollar payment in one go? Where's the threshold right now of like where it works? Yes and no.
+ It depends on corridor. So more mature corridors, absolutely. We'll see the liquidity of tether
+ on chain is tremendous. People wanting to move kind of money into and out of tether is easy. Circle
+ obviously has a huge amount of liquidity for USDC and they're setting up quite a number of
+ interesting partnerships with like kind of direct mint and burn capabilities. Lots of market makers
+ in the space that are backing stablecoins because they've already come on board to say that we
+ agree that USDC and USDT are one to one. These are the exciting things that I would say short
+ answer is yes. I feel fairly confident that like tens of millions can move very easily. However,
+ there are some emerging markets in corridors where the liquidity infrastructure is less developed
+ that that does become a bit more of a concern. It's a great question but really kind of depends
+ on corridor. In that context, where is it working? Where are you seeing the most traction and like
+ what corridors are? Because ironically, it might be those that are less developed, right? Where,
+ you know, like spreads might be higher. Who is using these type of platforms? Where are they?
+ Where are they? What kind of companies? I think we're perhaps a little bit biased here in the US.
+ So a very popular corridor is US to Latin America because, you know, very close by a lot of ties,
+ both business-wise, familiarly, etc. And between US and Latin, those corridors between you think
+ you're Argentina's, you're Venezuela's, you're Colombia's, Brazil's, and another major corridor,
+ Mexico, of course. And this is where it's really working. And I mean, as you know, from your background,
+ in Latin America, there is a fundamental understanding of stablecoins and kind of this interest in US
+ dollars that doesn't exist in most other places in the world. In certain countries, if you have
+ inflation, you want to hold dollar and kind of stablecoins is a great way to get access to that.
+ So we're seeing this has already been adopted in a lot of ways. And then you say, okay, if kind of
+ your everyday people want to use stablecoins in Latin America, it's much easier to then convince
+ businesses to continue to do. We're seeing, like I said, specifically Brazil, Venezuela, Argentina,
+ Colombia are the major corridors currently. But the other thing that I would highlight is like
+ Southeast Asia. So this is one that, frankly, we're getting a bit more familiar with because
+ we're a bit further away. But we're seeing a lot of kind of remittance type use cases around Vietnam,
+ Indonesia, Philippines, places like this that are quite exciting as well. For those use cases in
+ Latin America, are those then like fiat to stablecoin, like routes? Or are they fiat to fiat?
+ A lot of in Latin America, I would say we're seeing specifically a borderless, a lot of fiat to stable.
+ And then that stable people can choose to do what they want with the other leg is stable into fiat.
+ If you are, let's say we'll go back to the marketplace type use case and your clients or your users
+ want to receive stables, they go from fiat to stable. The other use case is to say, I need to pay my
+ rent. I need to pay my coffee. That still requires fiat. So you can get paid out in stables and then
+ convert it into fiat. Got it. So it's also then those like fiat to stable might be consumer
+ wanting to get access to digital dollars. And then you have like those value added services like
+ cards that allow you to spend on your like stablecoin balance, which is things like networks are now
+ very into facilitating because regulation allows it or it's more friendly to do that even in,
+ you know, like all across Latin America, for example, if that seems to be working, what isn't
+ there yet? You see, for example, paper with PYUSD, working hard to get the US consumers to hold
+ PYUSD and like, I have dollars, right? I want digital dollar. Maybe I wanted, if you give me a
+ 4% API, right? Do I want to send money to the UK? Would I want to be facilitated via a stablecoin
+ corridor? Good question. The reality is it depends on market, right? So we're seeing more mature
+ markets. Like if you're moving money between the US and the EU, perhaps stablecoins aren't quite
+ efficient enough yet because of the liquidity providers on both ends taking quite aggressive
+ spreads. So then you look at something, especially at scale, right? So Swift is a flat fee. The providers
+ for liquidity for stablecoin to fiat are generally taking dips on volume. And so as you scale volume,
+ the fees go up. So for real size, I would say between the US and Europe, some of those are perhaps
+ less attractive because you can just pay a flat swift fee and it'll arrive. The reality is there's
+ lots of interest in emerging markets around stablecoins. And this is where kind of it does continue to
+ build relevance. But the other piece of like, perhaps where it doesn't work aside from just
+ developed markets around Swift is KYC KYB compliance. So this is a huge headache and something that
+ we're actively working to streamline as well. So when you come to borderless and you get access to
+ five to 10 different providers, we can streamline that kind of KYB KYC process by creating identity
+ objects that then get kind of replicated to each underlying provider so that it's kind of
+ streamlined into one experience. The bigger concept though is at the end of the day coming
+ from DeFi where there is no KYC, it's frictionless, it's easy. That doesn't exist in payments. And so
+ this is a huge headache that we're actively trying to solve. One of the concerns that I have,
+ one of course is being like, are we losing the ethos of DeFi? If we're writing like fiat to fiat,
+ like liquidity using an API, like where's the on-chain aspect of this and the song. But the other one is
+ whether DeFi is catching up. If you talk to your banks in different regions and they look at the
+ 80-20 rules of where the most payment volume is going, so you have enterprises moving their
+ treasure, managing the treasure or international payments, they'll say, okay, yeah, all these
+ tales about Swift being so slow and taking days and being so expensive might have been true 10
+ years ago, five years ago. But now with Swift, GPI, and now they're even thinking about using
+ blockchain for whatever purpose it might be helpful for their earnings call or whatever.
+ But the point being is that at the end of the day, the partners in these routes have to access
+ liquidity from fiat to the stablecoin pair. And in some markets, that might not be a steep.
+ So they might end up having to intermediate fiat with USD in their markets and then sending those
+ dollars to the US and accessing circles, window and minting, redeeming USDC there. But if that
+ is the case, as it happens in some of the markets that have the most need, then they're basically
+ getting quotes from fiat to dollars in their local markets from the banks. So almost by construction,
+ that means that they'll get a worse deal than what, you know, a large enterprise might get from
+ the trading desk at a bank with whom they have a relationship with banks, say, okay, most of my
+ payments settle within like two hours. There's still some that will like lag behind, but that
+ might be true also, that you might have problems with stable, sophisticated payments. Are we going
+ to win the race in terms of like stablecoins being faster, cheaper, more compliant slash secure?
+ And which of those dimensions do you think is where stablecoins will excel?
+ So I'm biased, right? I come from a background in DeFi and I absolutely hear you on your concerns
+ of kind of centralization and access to these dollars and things of this nature. But I think on
+ the whole, it's not just either or, right? I think these two continue to exist in tandem.
+ If Swift continues to get more efficient, that's a win for the industry. If other block or non-block
+ chain rails continue to get more efficient, that's a win for everybody as well. I think ultimately,
+ though, blockchain has demonstrated with stablecoins that you can have instant settlement or near
+ instant settlement, depending on block times, you can have access to these dollars to whatever
+ underlying peg that you want in the form of stablecoins. You can put them to work in DeFi
+ for yields that does not have to be kind of three layers obfuscated via loans at some bank,
+ and it can be self-custodial. I think, yes, I hope that traditional financial rails continue to
+ improve and continue to become more efficient. But I think stablecoins are already demonstrating
+ that they are incredibly efficient and that they are incredibly secure. And more importantly,
+ at least from my perspective, they're self-custodial. So you can say, I have my company treasury
+ in this Fireblocks account, which is self-custodial, and I can trust that the assets are there.
+ We've seen time and time again that banks have gone under and failed, and then those companies
+ get debunked and where does the money go? It's an open question mark. And so here you can say,
+ I'm a huge multinational corporate entity. I want to move money across borders on stablecoins,
+ and not only can I trust that it's going to be instant settlement with very accessible and quick
+ fees, but I can have that balance in a self-custodial wallet of sorts, and I trust that it's there.
+ So I still think there's a bright future for stablecoins and blockchain, of course. But those
+ are some of the things that I would highlight as to where they excel compared to traditional
+ improvements. In the line, there's some developments that I think that might be pending,
+ because if you're managing your treasury, then you have the issue locally, or even for policies
+ around the matter of the treasury. What does it mean, this line that I have in my balance right
+ now that says stablecoins? Is this cash? Is this a cash equivalent? Can I use it as collateral
+ to facilitate a letter of credit for international trade that feels that also needs to come about?
+ But I see back to what you were saying at the beginning that there are these use cases where
+ necessarily the end-user even doesn't have to be aware, and if we consult those platform-level
+ services, it can make sense. When I'm concerned that, again, I have with this sort of trattify
+ payments, there's sort of these hybrids coming through. So you have Visa having their own payments
+ network. The massacre has its token network. Trattify also seems to be trying to rebuild
+ their network-based businesses on chain. Do you think that this is finally the time where
+ something will replace the existing networks in terms of facilitating payments? So that includes
+ SWAFE, massacre, and so on. I hope so. Frankly, I think we're still a couple of years away from that.
+ So one of the interesting things we're seeing to your point on these major traditional players
+ getting into the market is around M&A activity right now. So M&A activity is blowing up in the
+ industry right now, and a lot of players, MasterCard included, are talking about large acquisitions.
+ It is interesting to think about, are they building their own? Are they going to build via acquisition?
+ I think it's natural for all of these players to continue to innovate to protect the position
+ they have in the market. I don't know exactly what shape it takes in the long run. I do hope that
+ there is a fundamental change in disruption to the market, of course, which is why we're building
+ borderless and why we're building in this industry specifically. But whether that's a completely new
+ disruptor with their own brand taking over and replacing the incumbents, I don't know. Or if it's
+ the incumbents innovating quickly via M&A activity or things of this nature, changing their underlying
+ technical stack, that might happen as well. I see both is very viable and both is very exciting
+ opportunities. Because at the end of the day, I don't really care if it's whose name brand on
+ the technology. I think the primary concern is that, look, we need kind of less people
+ intermediating. We need to really lean on modern technology that we've created. And I think blockchain
+ and stablecoins are kind of the key piece underpinning all of that. Now to wrap up, what are you most
+ excited about in this space for the coming years? For a lot of the time, it was regulation finally
+ not being the main stopper. Is there something around adoption, around participation, integration
+ with local payments, ecosystems? Where do you see the most exciting development? Perhaps it's not
+ the most exciting answer, but also continued regulatory clarity is one thing that comes top
+ of mind, because you're right, we had a huge breakthrough with Genius. Now what we're seeing
+ across other markets is local regulatory environments in Japan, for example, or Korea are figuring out,
+ okay, now we see Genius. What does that mean for us? What do we want in our own ecosystem? See
+ all kinds of other countries in local regulatory environments trying to figure out how to model
+ against Genius? What do they want to keep? What don't they want to keep? What position do they
+ take in the market around stablecoins? I think over the next year, we're going to have massive
+ breakthrough and continued regulatory clarity across jurisdictions that aren't just US centric,
+ which enables borderless to continue to thrive as a cross-border payments solution.
+ The other major thing is to your point on adoption, right? You said, you know, like Walmart perhaps
+ coming to market with a huge kind of cross-border stablecoin type play. I think lots of those types
+ of deals are starting to be explored and are in the works, and probably much more mature than we
+ realize. And for us, that means real tangible volume moving on stablecoin rails in ways that we
+ haven't seen before. We've seen kind of trading desks, OTC desks, individual DJs moving large
+ stablecoin sums kind of across the internet, but to say, okay, I am a huge corporate multinational.
+ I have needs to service lots of different local jurisdictions, and to choose to do that on stablecoin
+ rails. I think a couple of those are coming pretty soon, and that's going to be really,
+ really exciting for the industry. I have just one more question, a lot of curiosity.
+ This has been this explosion around like the number of stablecoins already mentioned like
+ Mike and Makers trying to make, you know, one-to-one true part of this is fragments liquidity in some
+ ways. Do you have any take on where this stablecoin race is going to learn? It's funny you ask this
+ because I just moderated a panel at Money 2020 where I asked all of my panelists this exact
+ name question, and I was curious. We had brilliant folks across the industry all kind of saying that,
+ oh, you know, there's lots of reasons for there to be lots of stablecoins. Perhaps my
+ hot take is that at the end of the day, there are a couple of market dynamics at play,
+ one being liquidity which you touched on previously, and then the most important thing for a stablecoin,
+ at least currently, is distribution. Distribution and liquidity will continue to be constraining
+ factors. So I'm perhaps not sold on the endless fragmentation of stablecoins or the kind of
+ repetitive branding of stablecoins. I do think at some point there will be consolidation around
+ kind of major stablecoins that have really deep liquidity and really broad distribution.
+ However, I do think there's kind of an in-between place that may say the underlying stablecoin
+ is exchanged one for one or can be used with others, but it just has kind of a wrapper on it
+ such that you can market it for branding purposes and things like this. So at the end of the day,
+ that will still need some interrupt solution and some kind of exchange easily from one to the next.
+ But anyways, that's my personal take on kind of the chaos that we're seeing right now across
+ stablecoin and fragmentation. Matt, I appreciate it. Thank you so much for joining me today,
+ and I hope to see you very soon again. Thank you for having me. Yeah, this is fantastic. I look
+ forward to it. Awesome. Thank you.

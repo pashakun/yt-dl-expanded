@@ -1,0 +1,755 @@
+1
+The Future of Money: The Latest on the Global Stablecoin Ecosystem with Circle’s Jeremy Allaire
+
+2
+00:00:05,760 --> 00:00:12,240
+ In this episode, we're going to go live on stage to one-on-one session that I did in Dubai at
+
+3
+00:00:12,240 --> 00:00:18,880
+ token 2049 with none other than Jeremy Allaire, the CEO of Circle. In this episode, we discuss
+
+4
+00:00:18,880 --> 00:00:24,800
+ a broad range of topics from really what's happening with Circle and USDC to the broader
+
+5
+00:00:24,800 --> 00:00:31,360
+ stable coin ecosystem and really we also cover some of the challenges to the problems we are seeing
+
+6
+00:00:31,360 --> 00:00:37,280
+ and the crypto to fiat rails in the ecosystem today to some of the issues regarding regulatory
+
+7
+00:00:37,280 --> 00:00:43,360
+ uncertainty. So a very exciting episode and hope you like this live session that we did in Dubai
+
+8
+00:00:43,360 --> 00:01:02,800
+ last month. Enjoy the episode. Guys, good morning. Welcome to number two of token 2049. I'm going
+
+9
+00:01:02,800 --> 00:01:06,880
+ to have a lot of fun today. Over the next couple of minutes, we're going to talk about the entire
+
+10
+00:01:06,880 --> 00:01:11,760
+ stable coin universe. What's happening? Not only with the USDC and Circle, but really cross
+
+11
+00:01:11,760 --> 00:01:16,640
+ the ecosystem. So a lot of exciting topics to cover which you all today. Of course, this is
+
+12
+00:01:16,640 --> 00:01:21,920
+ possible because I'm joined by the co-founder, Chairman and CEO of Circle Jeremy Allaire.
+
+13
+00:01:21,920 --> 00:01:26,560
+ Jeremy, great to have you with us. Thanks. It'll be a fun fact about Jeremy. Many of you know him
+
+14
+00:01:26,560 --> 00:01:34,240
+ as the CEO of Circle, but he's also has a hidden talent which is, he's an avid beatboxer.
+
+15
+00:01:34,240 --> 00:01:40,000
+ So here we go. Everybody in crypto has a special talent itself and we find out about
+
+16
+00:01:40,000 --> 00:01:43,040
+ Jeremy, great to have you with us. Thank you. Before we start a conversation,
+
+17
+00:01:43,040 --> 00:01:48,000
+ maybe can you give us an update or where things are right now with Circle, but especially with
+
+18
+00:01:48,000 --> 00:01:53,200
+ USDC. I just saw you guys cross the 30 billion mark, but maybe give us a bit of snapshot where
+
+19
+00:01:53,200 --> 00:02:01,600
+ things are. Sure. Yeah, I think a lot of different things. I mean, first is USDC has been growing a
+
+20
+00:02:01,600 --> 00:02:09,680
+ lot over the past quarter or two and growing in terms of absolute market share. But I think that
+
+21
+00:02:09,680 --> 00:02:14,880
+ some of the biggest things are we've just been continually improving the fundamental infrastructure
+
+22
+00:02:14,880 --> 00:02:21,520
+ of this. I think one of the advantages that we have and have had historically is that we've
+
+23
+00:02:21,520 --> 00:02:29,440
+ always issued USDC under regulatory framework. And we're now seeing essentially stablecoin
+
+24
+00:02:29,440 --> 00:02:35,280
+ rules coming into place all around the world. And alongside that, that's enabling us to really
+
+25
+00:02:35,280 --> 00:02:42,400
+ expand the market infrastructure that supports USDC. So we've brought online essentially local
+
+26
+00:02:42,400 --> 00:02:49,360
+ banking infrastructure in Singapore, in Hong Kong, in the EU. We're in the process of rolling it out
+
+27
+00:02:49,360 --> 00:02:56,800
+ natively in Brazil and Mexico, Japan, ultimately in the region here and other places. And the key
+
+28
+00:02:56,800 --> 00:03:04,240
+ thing for us is we want to make sure that at a wholesale level that it's very, very easy to
+
+29
+00:03:04,240 --> 00:03:09,520
+ create and redeem USDC as quickly as possible, as captively, efficiently as possible. So we've
+
+30
+00:03:09,520 --> 00:03:15,360
+ been building out that kind of global banking infrastructure working with dozens of banks who
+
+31
+00:03:15,360 --> 00:03:22,560
+ are trying to support the growth of this ecosystem. The other is just advancing the technology of
+
+32
+00:03:22,560 --> 00:03:28,720
+ the protocol itself. So we think about what we do is operating a stablecoin network. And that
+
+33
+00:03:28,720 --> 00:03:35,200
+ network includes the protocols. Those protocols now exist on 16 blockchain networks. We're continually
+
+34
+00:03:35,200 --> 00:03:40,160
+ improving those protocols to make them more efficient, to add new features. We launched a
+
+35
+00:03:40,160 --> 00:03:45,920
+ cross-chain transfer protocol, which enables for teleporting USDC safely across these different
+
+36
+00:03:45,920 --> 00:03:52,960
+ ecosystems, which is really significant. And so we're making that infrastructure faster and easier to
+
+37
+00:03:52,960 --> 00:03:59,680
+ use. And then working with developers in hundreds of countries now who are building on top of those
+
+38
+00:03:59,680 --> 00:04:06,800
+ protocols and building applications, utilities and other things to help grow the stablecoin network.
+
+39
+00:04:06,800 --> 00:04:11,120
+ What do you mention these 16 different protocols? I mean, when you look at five years down the line,
+
+40
+00:04:11,120 --> 00:04:15,600
+ do you think they'll be consolidation or it's a way for circle to hedge its bets if you want?
+
+41
+00:04:15,600 --> 00:04:19,520
+ Or do you believe actually this is just going to continue to grow as the web tree ecosystem grows?
+
+42
+00:04:20,240 --> 00:04:28,320
+ So my background is in internet infrastructure software. So I got started building web programming
+
+43
+00:04:28,320 --> 00:04:34,400
+ languages, virtual machines, application infrastructure and worked in a lot of different parts of the
+
+44
+00:04:34,400 --> 00:04:42,560
+ stack of internet infrastructure. And my general view is that blockchains are a new form of
+
+45
+00:04:43,520 --> 00:04:52,080
+ distributed internet operating system. And effectively there is a lot of competition in those
+
+46
+00:04:52,080 --> 00:04:58,160
+ operating systems, trying to attract developers and applications and the like. But I think increasingly
+
+47
+00:04:58,160 --> 00:05:07,200
+ you're seeing the layering model as something that is relevant. And as we all know, the trade-offs
+
+48
+00:05:07,200 --> 00:05:14,960
+ in terms of performance, security, privacy, other things, they're not perfect trade-offs.
+
+49
+00:05:14,960 --> 00:05:20,560
+ I mean, there are people who I think believe that they can meet the scale needs of every
+
+50
+00:05:20,560 --> 00:05:26,000
+ application, every user on a single layer. I think the layered model is going to continue
+
+51
+00:05:26,000 --> 00:05:33,360
+ to grow. I think you'll see more and more. I think take, for example, if you're a giant consumer
+
+52
+00:05:33,360 --> 00:05:42,640
+ scale company in India and you want to use digital tokens as a mechanism for your end users and
+
+53
+00:05:42,640 --> 00:05:48,400
+ you're going to be minting and managing the lifecycle of these digital tokens and you
+
+54
+00:05:48,400 --> 00:05:54,800
+ ultimately need those to be interoperable and portable with the global internet, you're very
+
+55
+00:05:54,800 --> 00:05:59,840
+ likely going to do what people might call an app chain or a layer three. You're going to create
+
+56
+00:05:59,840 --> 00:06:07,040
+ your own kind of compute space, your own store of data and memory, and you're going to kind of
+
+57
+00:06:07,040 --> 00:06:11,760
+ hive it off. Just like in Amazon, we have virtual private clouds. Like everyone doesn't stick all
+
+58
+00:06:11,760 --> 00:06:18,080
+ their stuff in one cloud. You have VPCs and you want to be able to hive off your own data,
+
+59
+00:06:18,080 --> 00:06:23,600
+ your own compute, your own network perimeter, etc. There's going to be these kinds of scaling
+
+60
+00:06:23,600 --> 00:06:29,440
+ models as well. And so there's a lot of really good competition in that infrastructure area.
+
+61
+00:06:29,440 --> 00:06:33,280
+ But on this point, you mentioned India right now, again, five years down the line,
+
+62
+00:06:33,280 --> 00:06:37,280
+ do you believe the majority of the activity you'll see on this kind of stuff will be in emerging
+
+63
+00:06:37,280 --> 00:06:40,640
+ markets? I mean, if you look at today, obviously, we have a problem with remittances, we have a
+
+64
+00:06:40,640 --> 00:06:44,560
+ problem when it comes to cross border transactions, but when it comes to within a country, most
+
+65
+00:06:44,560 --> 00:06:49,440
+ transfers are working fine. On what you just mentioned on the stack, for example, do you believe
+
+66
+00:06:49,440 --> 00:06:56,400
+ there'll be a faster acceleration adoption in EM emerging markets compared to the developed world?
+
+67
+00:06:57,600 --> 00:07:06,960
+ So I guess my view is that we're really just in the early stages of the development of the
+
+68
+00:07:06,960 --> 00:07:14,800
+ internet financial system. And we're talking about today, it's a tiny, tiny fraction of
+
+69
+00:07:14,800 --> 00:07:20,240
+ the current scale of the global financial system. But the internet financial system,
+
+70
+00:07:20,240 --> 00:07:26,240
+ I believe, ultimately will increase global economic output. We should see an acceleration
+
+71
+00:07:26,240 --> 00:07:31,200
+ in economic output in the world because of the internet financial system and what it allows for.
+
+72
+00:07:31,200 --> 00:07:38,880
+ So when you think about the market today, the market for existing forms of electronic money,
+
+73
+00:07:38,880 --> 00:07:48,400
+ just fiat electronic money, it's about $100 trillion. And so clearly, just stablecoins themselves
+
+74
+00:07:48,400 --> 00:07:55,680
+ have significant room to grow. But then the intermediation that goes on that's involved in
+
+75
+00:07:55,680 --> 00:08:04,160
+ actual economic outputs of credit intermediation, time value of money, intermediation. I think
+
+76
+00:08:04,160 --> 00:08:11,360
+ more and more of that will move into this on chain world as well. But I don't think the right
+
+77
+00:08:11,360 --> 00:08:18,640
+ question is necessarily, is it emerging markets versus developed markets? The internet is awesome
+
+78
+00:08:18,640 --> 00:08:25,280
+ in every country in the world. Like internet communications platforms are awesome
+
+79
+00:08:25,280 --> 00:08:31,520
+ in every country in the world. The web is awesome in every country in the world. Meaning,
+
+80
+00:08:31,520 --> 00:08:38,160
+ these general purpose infrastructures achieve scale and they deliver 10x or 100x better utility
+
+81
+00:08:38,160 --> 00:08:42,800
+ than their predecessors. Like there's a time when, oh yeah, I could make a free long distance
+
+82
+00:08:42,800 --> 00:08:48,640
+ telephone call in the United States. Well, why would I need a voice over IP or whatever? Is that
+
+83
+00:08:48,640 --> 00:08:57,840
+ the point is that a model of money where the marginal cost of transacting goes to zero and
+
+84
+00:08:57,840 --> 00:09:04,960
+ where money itself becomes a programmable composable form of data and object on the internet unlocks
+
+85
+00:09:04,960 --> 00:09:10,880
+ utility in a way that's never existed before. And that's going to be hugely valuable in the
+
+86
+00:09:10,880 --> 00:09:14,880
+ biggest capital markets in the world. It's going to be hugely valuable for the biggest corporations
+
+87
+00:09:14,880 --> 00:09:21,680
+ in the world in developed markets. And it's going to be hugely valuable in international markets.
+
+88
+00:09:21,680 --> 00:09:27,440
+ That's not to say that there aren't going to be use cases that achieve scale first in certain
+
+89
+00:09:27,440 --> 00:09:34,880
+ places. So yes, we are seeing dramatic amounts of activity happening in cross border applications
+
+90
+00:09:34,880 --> 00:09:39,840
+ of stablecoins today. That's like a very significant growth driver. But I think when you step back
+
+91
+00:09:39,840 --> 00:09:44,400
+ and you think about the building blocks of the internet financial system and what that represents
+
+92
+00:09:44,400 --> 00:09:50,080
+ to me, that's global scale and we'll touch every major market. But on this point Jeremy,
+
+93
+00:09:50,080 --> 00:09:54,400
+ so we talk about the internet financial system, right? If we look today at the global crypto,
+
+94
+00:09:54,400 --> 00:10:01,200
+ let's say the stablecoin ecosystem, right? What do you think that people want the regulated
+
+95
+00:10:01,200 --> 00:10:06,400
+ USD stablecoin to use? For example, if we look right now, Tether obviously is the biggest
+
+96
+00:10:06,400 --> 00:10:12,160
+ by market cap, right? In this internet of like the new financial system that's being developed,
+
+97
+00:10:12,160 --> 00:10:19,680
+ what do you think people are looking for? Well, I think, you know, I mean, look, in an early stage
+
+98
+00:10:19,680 --> 00:10:26,000
+ market which is sort of dominated by like offshore unregulated exchanges and it's mostly about
+
+99
+00:10:26,000 --> 00:10:32,480
+ speculating on different things. That's one thing. The internet financial system is clearly about
+
+100
+00:10:32,480 --> 00:10:37,600
+ actual economic activity. So if we want this to be useful, it has to be about actual economic
+
+101
+00:10:37,600 --> 00:10:42,880
+ activity. And that means about people who are investing, saving, businesses that are needing
+
+102
+00:10:42,880 --> 00:10:47,440
+ credit, that are building things that are hiring people, actually producing goods and services.
+
+103
+00:10:47,440 --> 00:10:52,160
+ That's the real economy. So if we want the internet financial system to be used in the real economy,
+
+104
+00:10:52,160 --> 00:10:58,800
+ not just for speculating on memes, like we have to have, you know, digital currency,
+
+105
+00:10:58,800 --> 00:11:05,040
+ fiat stablecoins that are treated as real money that are cash equivalent so that if you're a
+
+106
+00:11:05,040 --> 00:11:11,600
+ financial institution, you can take this and you can hold it as collateral. If you're, and
+
+107
+00:11:11,600 --> 00:11:17,200
+ settlement, if you're a corporation, you know what this is. You're accounting firm. You're formerly
+
+108
+00:11:17,200 --> 00:11:25,360
+ from a large big four, you know, universe. So an accounting firm can say this is a cash equivalent
+
+109
+00:11:25,360 --> 00:11:32,160
+ instrument. I can treat it this way. I can report it this way. The entirety of this, we have to have
+
+110
+00:11:32,160 --> 00:11:39,120
+ legally defined forms of stablecoins. And that's what's happening around the world, by the way,
+
+111
+00:11:39,120 --> 00:11:46,080
+ which is great. Once you have these defined as like a new form of legal electronic money instrument,
+
+112
+00:11:46,080 --> 00:11:52,000
+ then actually this can take hold at scale for real economic activity. And so that's really key.
+
+113
+00:11:52,000 --> 00:11:56,720
+ We have to have that. If we don't have that, we're not, this is not going to take hold
+
+114
+00:11:56,720 --> 00:12:02,560
+ as the basis of the internet financial system. And, you know, so that's a really, really key piece.
+
+115
+00:12:02,560 --> 00:12:07,120
+ And do you believe the US dollar, like USDC or let's say, right now we look at the global
+
+116
+00:12:07,120 --> 00:12:12,560
+ stablecoin ecosystem, US dollar, it's all US dollar denominated for a vast, vast majority of it,
+
+117
+00:12:12,560 --> 00:12:16,000
+ right? It's very interesting because as you mentioned, you're going to different countries,
+
+118
+00:12:16,000 --> 00:12:20,800
+ you know, if you're your central banker of an emerging country, your biggest, one of the risks
+
+119
+00:12:20,800 --> 00:12:24,800
+ you have in a way is that the economy comes dollarized. If you're doing a bad job, which is in a way,
+
+120
+00:12:24,800 --> 00:12:28,480
+ people have the option to switch the dollars or other currencies when, and we're seeing this from
+
+121
+00:12:28,480 --> 00:12:33,520
+ anywhere from Nigeria to Turkey to Argentina and so on and so forth, right? How do you balance that
+
+122
+00:12:33,520 --> 00:12:37,280
+ from your perspective when you're going these different markets saying, hey, we have a solution,
+
+123
+00:12:37,280 --> 00:12:43,600
+ right? Now it's a US dollar based one and versus the country's own central bank from a policy
+
+124
+00:12:43,600 --> 00:12:47,360
+ making where they want to have their own currency and control it because this could accelerate the
+
+125
+00:12:47,360 --> 00:12:57,280
+ dollarization by the stablecoin usage. Well, you know, the internet has created these extraordinarily
+
+126
+00:12:57,280 --> 00:13:04,240
+ powerful utilities that exist just using software that anyone who has a device can connect to
+
+127
+00:13:04,240 --> 00:13:11,360
+ and people around the world have sort of said, hey, I like this, you know, WhatsApp or whatever
+
+128
+00:13:11,360 --> 00:13:17,200
+ example you want to use, the ability to freely publish information to any person anywhere,
+
+129
+00:13:17,200 --> 00:13:23,200
+ like there's sort of these super scale things that the internet has produced that in most societies
+
+130
+00:13:23,200 --> 00:13:31,360
+ people really desire and then it's hard for the governments to put the genie back in the bottle
+
+131
+00:13:31,360 --> 00:13:38,080
+ on those. Now, money, everyone's money is different and so on. We have a challenge, right? Part of
+
+132
+00:13:38,080 --> 00:13:45,600
+ the challenge is that the vast majority of governments in the world are kind of bankrupt,
+
+133
+00:13:45,600 --> 00:13:51,280
+ right? That meaning they're in debt, they're massively in debt, they're trying to monetize
+
+134
+00:13:51,280 --> 00:13:58,960
+ that debt. We have huge issues with fiscal discipline, you know, it's a strong, you know,
+
+135
+00:13:58,960 --> 00:14:04,080
+ it's a strong reason why non sovereign, you know, digital commodity money like Bitcoin is so
+
+136
+00:14:04,080 --> 00:14:12,240
+ attractive is in the face of that. But it does, you know, the combination of sort of internet scale
+
+137
+00:14:12,240 --> 00:14:20,160
+ financial utility based on things like digital dollars or digital euros and, you know, effectively
+
+138
+00:14:20,160 --> 00:14:26,000
+ like this very, very high utility value that will come from those combined with the fiscal and
+
+139
+00:14:26,000 --> 00:14:31,840
+ monetary challenges that face many, many countries. I do think that there's something brewing there,
+
+140
+00:14:31,840 --> 00:14:38,320
+ it's going to be complicated and it's not clear exactly how that will get resolved but I, you know,
+
+141
+00:14:38,320 --> 00:14:45,360
+ I have, you know, I do believe that individuals and firms will be able to vote with their sort
+
+142
+00:14:45,360 --> 00:14:51,040
+ of software products, what economic system they want to participate in and it's going to involve,
+
+143
+00:14:51,040 --> 00:14:55,440
+ you know, it's going to be a complex issue for a lot of jurisdictions.
+
+144
+00:14:55,440 --> 00:14:58,720
+ Well, you can argue it's happening right now with many countries. I mean, look at Turkey,
+
+145
+00:14:58,720 --> 00:15:04,560
+ where basically it's run on stablecoins now for big chunks of the economy. One thing as well,
+
+146
+00:15:04,560 --> 00:15:09,680
+ on this point, which I think is interesting, like you guys have done a pretty good job
+
+147
+00:15:09,680 --> 00:15:13,680
+ and actually on the DeFi space, for example, I see so many DeFi protocols now where the USDC plays
+
+148
+00:15:13,680 --> 00:15:18,800
+ a pretty interesting role as well. When you look at the future of the stablecoin ecosystem,
+
+149
+00:15:18,800 --> 00:15:23,120
+ we've had obviously some incidents last year with USD. Now there's an interesting thing with
+
+150
+00:15:23,120 --> 00:15:29,840
+ ETINA and other projects going on. How do you find the future of stablecoin issuers? You believe in
+
+151
+00:15:29,840 --> 00:15:35,040
+ 5, 10, 15 years in this new model that we go in, it'll be centralized companies will be running it,
+
+152
+00:15:35,040 --> 00:15:42,000
+ or it'll be more the next algorithmic stablecoin of this, or a version of ETINA that you'll see in
+
+153
+00:15:42,000 --> 00:15:49,760
+ the future. Yeah, I guess I think if we're talking about sort of what's going to be used for real
+
+154
+00:15:49,760 --> 00:15:55,600
+ economic activity that is going to be used by households and firms and financial institutions,
+
+155
+00:15:55,600 --> 00:16:02,960
+ you're going to need to have legal forms of digital currency money, and those are going to be
+
+156
+00:16:02,960 --> 00:16:08,320
+ regulated issuers, and those are going to be fully reserved. So you're going to have a full
+
+157
+00:16:08,320 --> 00:16:13,600
+ reserve financial system, not a fractional reserve financial system, and you're going to have strong
+
+158
+00:16:13,600 --> 00:16:19,760
+ supervision around those, and I think that those are going to achieve fairly large scale. Those will
+
+159
+00:16:19,760 --> 00:16:23,760
+ grow into the trillions of dollars in circulation. Now that doesn't mean that there aren't going to be
+
+160
+00:16:24,320 --> 00:16:33,520
+ other experiments in stable value tokens. There are obviously, there are, I mean, look, synthetic
+
+161
+00:16:33,520 --> 00:16:41,040
+ derivatives that attempt to achieve a peg that provide some underlying basket of risk management
+
+162
+00:16:41,040 --> 00:16:48,640
+ and yield, that's a separate thing. So synthetic securities and derivatives that are designed to
+
+163
+00:16:48,640 --> 00:16:54,880
+ generate and pay yield, those are other types of financial products. So those types of financial
+
+164
+00:16:54,880 --> 00:16:59,440
+ products will get regulated differently. They will not be regulated as payment systems. General
+
+165
+00:16:59,440 --> 00:17:05,360
+ society will not depend on those as payment systems. Corporations, financial institutions will not hold
+
+166
+00:17:05,360 --> 00:17:12,800
+ those on their balance sheets as collateral, but people who are trading, investing, seeking yield,
+
+167
+00:17:12,800 --> 00:17:19,600
+ who are risk managing, are very likely going to purchase securities and derivatives that
+
+168
+00:17:19,600 --> 00:17:25,440
+ manage their risk and their yield. So securities and derivatives play a huge role,
+
+169
+00:17:25,440 --> 00:17:29,840
+ and I think that synthetic dollars that are securities and derivatives are going to continue
+
+170
+00:17:29,840 --> 00:17:34,480
+ to grow. How those are regulated as an open question, right? I mean, I think we're seeing
+
+171
+00:17:34,480 --> 00:17:39,520
+ enforcement around these historically. So I think how do you register these? How do you regulate
+
+172
+00:17:39,520 --> 00:17:48,320
+ these? How do people access those? Let's call it regulated in a way. Well, yes. I think the whole
+
+173
+00:17:48,320 --> 00:17:55,120
+ code is speech isn't going to work for everything. It doesn't work for AI. We're going to regulate
+
+174
+00:17:55,120 --> 00:18:01,600
+ what AI's get produced. So I think it's more complicated than that. Jeremy, we have 60 seconds
+
+175
+00:18:01,600 --> 00:18:05,200
+ left. My bell is here. I'm going to ask you quick questions. I need one or two word answers,
+
+176
+00:18:05,200 --> 00:18:10,000
+ and when you kick it off from there, you ready? Sure. What is the biggest risk we're facing as a
+
+177
+00:18:10,000 --> 00:18:15,600
+ crypto ecosystem for the next three years? One more time. What is the biggest risk we're facing as
+
+178
+00:18:15,600 --> 00:18:22,400
+ a crypto ecosystem for the next three years? The biggest risk that we're facing for the next two
+
+179
+00:18:22,400 --> 00:18:34,640
+ years is catastrophic failures continue with problematic companies and projects in crypto.
+
+180
+00:18:35,200 --> 00:18:38,640
+ If you could go back to school today, what is the one course you would study that you wish you
+
+181
+00:18:38,640 --> 00:18:49,440
+ had studied before? Synthetic biology. Interesting. What is the best advice you've ever received?
+
+182
+00:18:49,440 --> 00:19:00,160
+ If you're stressed, take three deep breaths. If you could hold one crypto asset for the next 10
+
+183
+00:19:00,160 --> 00:19:07,040
+ years, not USDC, what would you hold? I don't like those questions.
+
+184
+00:19:07,040 --> 00:19:13,920
+ If you could go back in time, any time in history, what time would you want to go back?
+
+185
+00:19:13,920 --> 00:19:26,640
+ That's a great question. I think I'd like to go back to the enlightenment.
+
+186
+00:19:26,640 --> 00:19:34,080
+ The last question, Jeremy, to finish it off. A typical question, if you could have lunch or
+
+187
+00:19:34,080 --> 00:19:38,080
+ dinner with one person dead or alive, lunch or dinner one person dead or alive, who would you
+
+188
+00:19:38,080 --> 00:19:49,680
+ have lunch or dinner with? Probably an ancient relative of mine that I can't name right now.
+
+189
+00:19:50,960 --> 00:20:02,720
+ Ladies and gentlemen, Jeremy Lares, CEO of Circle, thank you, Jeremy. Thank you.
+

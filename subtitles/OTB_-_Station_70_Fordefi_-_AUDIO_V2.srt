@@ -1,0 +1,2568 @@
+1
+00:00:00,000 --> 00:00:05,200
+Today on the podcast, I sat down with Adam Healy, the co-founder of Station 70, and Josh
+
+2
+00:00:05,200 --> 00:00:10,360
+Schwartz, the co-founder of Fortify, both Castle Island Portfolio Companies.
+
+3
+00:00:10,360 --> 00:00:14,520
+Station 70 and Fortify recently announced a collaboration to create the industry's
+
+4
+00:00:14,520 --> 00:00:18,200
+first failover wallet solution for disaster recovery.
+
+5
+00:00:18,200 --> 00:00:19,720
+This is an impressive product release.
+
+6
+00:00:19,720 --> 00:00:23,340
+I was super excited to talk about it on the podcast because I think it's a great thing
+
+7
+00:00:23,340 --> 00:00:24,340
+for the industry.
+
+8
+00:00:24,340 --> 00:00:26,480
+I think you'll enjoy hearing more about this one.
+
+9
+00:00:26,480 --> 00:00:31,120
+So without further ado, here's my conversation with Adam and Josh.
+
+10
+00:00:31,120 --> 00:00:33,480
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+11
+00:00:33,480 --> 00:00:36,080
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+12
+00:00:36,080 --> 00:00:38,680
+and do not reflect the opinions of Castle Island Ventures.
+
+13
+00:00:38,680 --> 00:00:40,800
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+14
+00:00:40,800 --> 00:00:44,360
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+15
+00:00:44,360 --> 00:00:48,120
+to make a particular investment or follow a particular strategy, but only as an expression
+
+16
+00:00:48,120 --> 00:00:49,120
+of their personal opinion.
+
+17
+00:00:49,120 --> 00:00:52,160
+This podcast is for informational purposes only.
+
+18
+00:00:52,160 --> 00:00:57,200
+Down by bad mortgage investments, Lehman, which has 25,000 employees, will be liquidated.
+
+19
+00:00:57,200 --> 00:01:01,920
+The federal government loans American International Group, AIG, 85 billion dollars.
+
+20
+00:01:01,920 --> 00:01:04,760
+This is a different kind of market and the Fed is asleep.
+
+21
+00:01:04,760 --> 00:01:08,960
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+
+22
+00:01:08,960 --> 00:01:11,440
+giants that have been threatened by the housing crisis.
+
+23
+00:01:11,440 --> 00:01:15,280
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+24
+00:01:15,280 --> 00:01:16,800
+with a new round of quantitative easing.
+
+25
+00:01:16,800 --> 00:01:20,080
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+26
+00:01:20,080 --> 00:01:23,720
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+
+27
+00:01:23,720 --> 00:01:24,720
+All right.
+
+28
+00:01:24,720 --> 00:01:28,360
+Well, Adam and Josh, really excited to have two Castle Island founders on the podcast
+
+29
+00:01:28,360 --> 00:01:29,360
+again.
+
+30
+00:01:29,360 --> 00:01:32,640
+I guess this is a multiple time repeat guest situation here.
+
+31
+00:01:32,640 --> 00:01:33,640
+So thanks for joining us.
+
+32
+00:01:33,640 --> 00:01:34,640
+Glad to be here.
+
+33
+00:01:34,640 --> 00:01:36,440
+But we've never been here together, I think.
+
+34
+00:01:36,440 --> 00:01:37,440
+That's right.
+
+35
+00:01:37,440 --> 00:01:38,440
+That's right.
+
+36
+00:01:38,440 --> 00:01:41,320
+We're really excited about the announcement that you guys are collaborating here on the
+
+37
+00:01:41,320 --> 00:01:42,320
+product side.
+
+38
+00:01:42,320 --> 00:01:46,160
+So maybe just so we know who's talking here, we could just start with some quick intros,
+
+39
+00:01:46,160 --> 00:01:50,000
+maybe start with you, Adam, just introduction on yourself and then hop over to Josh.
+
+40
+00:01:50,920 --> 00:01:51,920
+Sure.
+
+41
+00:01:51,920 --> 00:01:53,720
+So I'm the CEO and co-founder at Station70.
+
+42
+00:01:53,720 --> 00:01:58,920
+We provide a number of security solutions to the Web3 space, best known for Bunker,
+
+43
+00:01:58,920 --> 00:02:01,600
+which is our disaster recovery platform, business continuity platform.
+
+44
+00:02:01,600 --> 00:02:05,440
+I've been in the industry about eight years, was the CISO at Block5.
+
+45
+00:02:05,440 --> 00:02:07,240
+Before that was the CISO at Back.
+
+46
+00:02:07,240 --> 00:02:09,040
+Seen a lot of things in those roles.
+
+47
+00:02:09,040 --> 00:02:14,120
+And the idea around founding Station70 was providing generalized security solutions that
+
+48
+00:02:14,120 --> 00:02:17,560
+used to only be available to the most sophisticated institutions.
+
+49
+00:02:17,560 --> 00:02:18,680
+Awesome.
+
+50
+00:02:19,360 --> 00:02:20,360
+So Josh, how about you?
+
+51
+00:02:20,360 --> 00:02:21,360
+Yeah.
+
+52
+00:02:21,360 --> 00:02:26,080
+So CEO and co-founder of Fortify, we're one of the leading institutional MPC wallet providers.
+
+53
+00:02:26,080 --> 00:02:30,800
+We're working with over 170 institutions, including some of the largest trading firms,
+
+54
+00:02:30,800 --> 00:02:36,640
+asset managers, protocols, exchanges, tokenization firms and other Web3 companies who want to
+
+55
+00:02:36,640 --> 00:02:41,480
+interact on-chain but need institutional controls as well as DeFi security and functionality
+
+56
+00:02:41,480 --> 00:02:42,760
+to run their business effectively.
+
+57
+00:02:42,760 --> 00:02:47,240
+We launched the product about three years ago and our clients collectively are transacting
+
+58
+00:02:47,240 --> 00:02:49,160
+over 10 billion on-chain.
+
+59
+00:02:49,160 --> 00:02:53,480
+Like Adam, I also have been about eight years in the space, all within the wallet in custody
+
+60
+00:02:53,480 --> 00:02:54,480
+area.
+
+61
+00:02:54,480 --> 00:02:57,200
+I started out at BitGo where I ran global sales and then was chief operating officer
+
+62
+00:02:57,200 --> 00:02:59,840
+of Curve, which we later sold to PayPal.
+
+63
+00:02:59,840 --> 00:03:03,960
+It's funny how that 2017 era of crypto where everybody's at now, I feel like.
+
+64
+00:03:03,960 --> 00:03:04,960
+Yeah, it's crazy.
+
+65
+00:03:04,960 --> 00:03:09,240
+I mean, you go back and look at where people started and a lot of people have started companies,
+
+66
+00:03:09,240 --> 00:03:10,240
+which is great.
+
+67
+00:03:10,240 --> 00:03:11,240
+I guess that's a sign of a healthy ecosystem.
+
+68
+00:03:11,240 --> 00:03:12,240
+Yeah, indeed.
+
+69
+00:03:12,240 --> 00:03:15,520
+Well, Josh, I want to start with you on the Fortify side here.
+
+70
+00:03:15,600 --> 00:03:20,480
+Obviously, this collaboration, this announcement, I think is just a big deal from a user perspective.
+
+71
+00:03:20,480 --> 00:03:25,440
+I'd love to get your impression of just what the wallet landscape looks like now, what
+
+72
+00:03:25,440 --> 00:03:29,920
+some of the trends you're seeing, and then maybe dovetail that into why you wanted to
+
+73
+00:03:29,920 --> 00:03:33,400
+do this collaboration with Station70.
+
+74
+00:03:33,400 --> 00:03:37,180
+We've definitely started to see, I say now over eight years, but even over the four years
+
+75
+00:03:37,180 --> 00:03:42,160
+that Fortify has been around, we've seen some additional wallets come around.
+
+76
+00:03:42,200 --> 00:03:47,120
+We've started to see many wallets fall into particular areas or buckets that they focus
+
+77
+00:03:47,120 --> 00:03:48,120
+on.
+
+78
+00:03:48,120 --> 00:03:50,040
+I like to think of the world in four main areas.
+
+79
+00:03:50,040 --> 00:03:55,080
+You have the QCs, or regulated custodians, who are holding other people's assets.
+
+80
+00:03:55,080 --> 00:03:59,200
+You have the on-chain wallets that folks know as safe and squads.
+
+81
+00:03:59,200 --> 00:04:04,840
+You have embedded wallets, which enable folks to launch end user, our secure retail hold
+
+82
+00:04:04,840 --> 00:04:06,200
+who have wallets.
+
+83
+00:04:06,200 --> 00:04:09,820
+And then you have more of the institutional non-custodial wallets.
+
+84
+00:04:09,820 --> 00:04:12,180
+We Fortify fit into the last two.
+
+85
+00:04:12,180 --> 00:04:16,100
+So we offer clients who want to hold their own assets, whether trading firms or asset
+
+86
+00:04:16,100 --> 00:04:17,980
+managers want to hold their own assets.
+
+87
+00:04:17,980 --> 00:04:22,740
+And then at the same time, we enable exchanges and other retail-facing platforms to launch
+
+88
+00:04:22,740 --> 00:04:27,140
+embedded end user wallets securely into their applications.
+
+89
+00:04:27,140 --> 00:04:31,260
+As you know, our story was where the first use case for digital assets was just buying
+
+90
+00:04:31,260 --> 00:04:34,220
+and huddling tokens and maybe using it for supply settlement.
+
+91
+00:04:34,220 --> 00:04:37,620
+Most of the V1 wallets were just built to protect transfers.
+
+92
+00:04:37,620 --> 00:04:42,380
+And all of a sudden, about four years ago, we started seeing institutional DeFi takeoff
+
+93
+00:04:42,380 --> 00:04:46,980
+at a real scale where we started seeing access to liquidity yield and other on-chain use
+
+94
+00:04:46,980 --> 00:04:47,980
+cases.
+
+95
+00:04:47,980 --> 00:04:50,740
+And the wallet infrastructure was just not able to handle that.
+
+96
+00:04:50,740 --> 00:04:51,860
+It just weren't built for that.
+
+97
+00:04:51,860 --> 00:04:56,980
+So we heard all the stories of people blindsigning really large transactions, or the fact that
+
+98
+00:04:56,980 --> 00:05:00,220
+someone had a wallet that enabled them to dab on a particular chain.
+
+99
+00:05:00,220 --> 00:05:03,940
+But all of a sudden, if an asset manager wanted to go after some other opportunity, they're
+
+100
+00:05:03,940 --> 00:05:06,300
+like, wait, my wallet doesn't even support this chain.
+
+101
+00:05:06,780 --> 00:05:10,180
+I always give the example, imagine a traditional asset manager saying, I have one platform
+
+102
+00:05:10,180 --> 00:05:13,940
+to trade IBM stock, but if I want to trade Tesla one day, I'm screwed.
+
+103
+00:05:13,940 --> 00:05:18,620
+And so the idea, these were the main three differentiators that we launched Fortify with
+
+104
+00:05:18,620 --> 00:05:19,620
+as connectivity.
+
+105
+00:05:19,620 --> 00:05:23,380
+So we built our own browser extension that works completely across chains.
+
+106
+00:05:23,380 --> 00:05:29,700
+So if users are on Uniswap, Jupyter, or Osmosis, they have the exact same workflow.
+
+107
+00:05:29,700 --> 00:05:36,220
+We support over 90 chains and we support connectivity to any gap on those chains, over 90% of TBL.
+
+108
+00:05:36,620 --> 00:05:38,180
+The second is clarity.
+
+109
+00:05:38,180 --> 00:05:41,460
+So we provide smart contract enrichment and transparency so you actually know what it
+
+110
+00:05:41,460 --> 00:05:43,660
+is you're going to sign before you sign.
+
+111
+00:05:43,660 --> 00:05:45,660
+And then of course, are the controls.
+
+112
+00:05:45,660 --> 00:05:49,820
+Before Fortify, there were controls that enabled when I want to do a transfer to a particular
+
+113
+00:05:49,820 --> 00:05:52,300
+address require the following rules.
+
+114
+00:05:52,300 --> 00:05:55,420
+But if I wanted to do something on chain, if I want to interact with a contract or change
+
+115
+00:05:55,420 --> 00:06:00,500
+allowances, there just was no context to be able to create those types of rules.
+
+116
+00:06:00,500 --> 00:06:03,860
+I want to get both of your guys' impression on this, but since the last time either of
+
+117
+00:06:03,940 --> 00:06:08,580
+viewers on this podcast, we have had major league security incidents in this industry.
+
+118
+00:06:08,580 --> 00:06:12,340
+The Bybit hack, which I think was the largest hack, probably the largest financial crime
+
+119
+00:06:12,340 --> 00:06:13,340
+of all time.
+
+120
+00:06:13,340 --> 00:06:16,460
+You guys, or security guys, you see something like this.
+
+121
+00:06:16,460 --> 00:06:20,420
+What's your reaction just from a crypto macro perspective on what the industry is doing
+
+122
+00:06:20,420 --> 00:06:21,420
+here?
+
+123
+00:06:21,420 --> 00:06:23,660
+I'll start off with my points and Josh can jump in.
+
+124
+00:06:23,660 --> 00:06:25,500
+I would say Bybit is maybe second to FTX.
+
+125
+00:06:25,500 --> 00:06:26,980
+I think FTX was bigger.
+
+126
+00:06:26,980 --> 00:06:29,020
+It's not the largest, but the second largest.
+
+127
+00:06:29,020 --> 00:06:32,580
+And some of us know way more about the FTX debacle than any of us would like to think
+
+128
+00:06:32,580 --> 00:06:33,580
+we do.
+
+129
+00:06:33,660 --> 00:06:37,740
+I think at the end of the day, things like Bybit, it manifested at Bybit, but it was
+
+130
+00:06:37,740 --> 00:06:42,500
+root cause some very bad, what I would just call like web to security hygiene over it's
+
+131
+00:06:42,500 --> 00:06:43,500
+safe.
+
+132
+00:06:43,500 --> 00:06:46,220
+So we won't get too deep into that, I think on this podcast, but at the end of the day,
+
+133
+00:06:46,220 --> 00:06:48,420
+I think the basics matter.
+
+134
+00:06:48,420 --> 00:06:53,020
+And what we saw at safe was they weren't doing the basic, the 101 level security stuff wasn't
+
+135
+00:06:53,020 --> 00:06:54,020
+getting done.
+
+136
+00:06:54,020 --> 00:06:57,640
+And we honestly have seen that time and time and time again, I've been on a bit of a tirade
+
+137
+00:06:57,640 --> 00:07:01,500
+on LinkedIn lately talking about some of these like 101 levels security failures that we've
+
+138
+00:07:01,500 --> 00:07:06,500
+seen industry wide and even beyond the crypto and digital asset industry.
+
+139
+00:07:06,500 --> 00:07:11,300
+And I think as I think about our station 70 and Fortifier working together as it relates
+
+140
+00:07:11,300 --> 00:07:16,060
+to the recently announced partnership, I wouldn't say it's 101 level because it's really hard
+
+141
+00:07:16,060 --> 00:07:17,060
+to do right.
+
+142
+00:07:17,060 --> 00:07:21,000
+Josh and I can both attest it took us a very long time to integrate and build this.
+
+143
+00:07:21,000 --> 00:07:25,940
+It's very complicated when you're doing things that involve large sums of money and cryptography.
+
+144
+00:07:25,940 --> 00:07:27,140
+It's got to work.
+
+145
+00:07:27,140 --> 00:07:29,520
+It's a no fail mission.
+
+146
+00:07:29,520 --> 00:07:32,700
+There is no oops, we can do that differently next time.
+
+147
+00:07:32,700 --> 00:07:35,520
+It has to work every time and the first time.
+
+148
+00:07:35,520 --> 00:07:39,680
+So when I think about the big security challenges that we've seen in the industry going back
+
+149
+00:07:39,680 --> 00:07:44,840
+number of years, safe slash bybit being the most recent and being massive in terms of
+
+150
+00:07:44,840 --> 00:07:49,780
+dollar loss and some of the downstream consequences we've yet to see if the threat actor group
+
+151
+00:07:49,780 --> 00:07:54,200
+that's associated with that ends up being true, which I believe it is, is through this
+
+152
+00:07:54,200 --> 00:07:58,840
+partnership, what we're arming customers with, what we're enabling customers to solve are
+
+153
+00:07:58,840 --> 00:08:02,040
+really just putting in place more of those safeguards.
+
+154
+00:08:02,040 --> 00:08:05,920
+Josh talked a little bit about traditional finance a second ago that are common in the
+
+155
+00:08:05,920 --> 00:08:07,080
+traditional finance space.
+
+156
+00:08:07,080 --> 00:08:12,080
+If you're a hedge fund, you likely have prime broker accounts with multiple firms.
+
+157
+00:08:12,080 --> 00:08:14,600
+You don't just have all of your eggs in one basket.
+
+158
+00:08:14,600 --> 00:08:19,080
+And that's what we've been able to accomplish with this partnership is through Fortify standby
+
+159
+00:08:19,080 --> 00:08:24,740
+wallet and through some new features, a feature we call SWOT, secure wallet account transfer
+
+160
+00:08:24,860 --> 00:08:30,300
+at station 70 bunker product, which is our flagship institutional disaster recovery platform
+
+161
+00:08:30,300 --> 00:08:32,300
+for self custody wallets.
+
+162
+00:08:32,300 --> 00:08:35,800
+We've been able to integrate that standby wallet with the bunker capability and the
+
+163
+00:08:35,800 --> 00:08:41,180
+SWOT feature to really provide customers resiliency across wallet provider.
+
+164
+00:08:41,180 --> 00:08:45,180
+So let's think about a world where your primary wallet provider for some reason isn't Fortify.
+
+165
+00:08:45,180 --> 00:08:48,860
+I don't know why that would be the case these days, but for some reason it's not Fortify.
+
+166
+00:08:48,860 --> 00:08:52,780
+You have a primary wallet provider and they have an outage.
+
+167
+00:08:52,780 --> 00:08:53,780
+What do you do?
+
+168
+00:08:53,820 --> 00:08:58,420
+At station 70, you can get your keys, you can rehydrate new wallets, you can do things,
+
+169
+00:08:58,420 --> 00:09:02,820
+but that's really not the experience that customers want.
+
+170
+00:09:02,820 --> 00:09:07,220
+We've gotten feedback from a number of tier one customers that say, yeah, we don't ever
+
+171
+00:09:07,220 --> 00:09:13,340
+want to have to take control of our keys without some type of wallet as a service as an intermediary.
+
+172
+00:09:13,340 --> 00:09:14,340
+So we got to thinking about that.
+
+173
+00:09:14,340 --> 00:09:18,180
+We said, well, what if we can get a wallet partner like Fortify to provide something
+
+174
+00:09:18,180 --> 00:09:23,100
+like a standby wallet where then at station 70, if your primary wallet provider has an
+
+175
+00:09:23,100 --> 00:09:28,460
+outage, you can just log into station 70 and essentially push your MPC key backups
+
+176
+00:09:28,460 --> 00:09:31,360
+to Fortify, run through a secure import process.
+
+177
+00:09:31,360 --> 00:09:35,020
+This is all done in a zero knowledge way and get back to business.
+
+178
+00:09:35,020 --> 00:09:39,720
+I think in the traditional finance context, it's very much a no brainer in the crypto
+
+179
+00:09:39,720 --> 00:09:41,020
+and digital assets space.
+
+180
+00:09:41,020 --> 00:09:42,860
+Nothing like this exists anywhere else.
+
+181
+00:09:42,860 --> 00:09:46,220
+We wouldn't have built it if there was something else that was similar, but no one has this
+
+182
+00:09:46,220 --> 00:09:47,220
+technology.
+
+183
+00:09:47,220 --> 00:09:48,620
+It took us a very long time to build.
+
+184
+00:09:48,620 --> 00:09:52,700
+And then we talk about data breaches and coming back to the security discussions.
+
+185
+00:09:52,700 --> 00:09:55,100
+Let's say it's not an operational outage.
+
+186
+00:09:55,100 --> 00:09:59,580
+We just saw a very large power outage for 12 plus hours in Western Europe in the last
+
+187
+00:09:59,580 --> 00:10:00,580
+24 hours.
+
+188
+00:10:00,580 --> 00:10:04,780
+But let's say it's not an operational issue or some grid down issue or a large cloud provider
+
+189
+00:10:04,780 --> 00:10:05,780
+issue.
+
+190
+00:10:05,780 --> 00:10:06,900
+Let's say it's a data breach.
+
+191
+00:10:06,900 --> 00:10:11,620
+So your primary wallet provider sends the famous tweet that is famous in crypto.
+
+192
+00:10:11,620 --> 00:10:14,460
+We're taking our systems down for unexpected maintenance.
+
+193
+00:10:14,460 --> 00:10:16,660
+That's the tweet that basically the next 10 tweets are going to be.
+
+194
+00:10:16,660 --> 00:10:18,020
+We had a data breach.
+
+195
+00:10:18,020 --> 00:10:19,780
+That's the first one that lands.
+
+196
+00:10:19,780 --> 00:10:21,420
+Let's say that happens.
+
+197
+00:10:21,420 --> 00:10:24,740
+You as the customer are now effectively in a race condition with the bad guy because
+
+198
+00:10:24,740 --> 00:10:28,980
+at the end of the day, it's a self-custody wallet ecosystem that we're talking about.
+
+199
+00:10:28,980 --> 00:10:35,000
+So you need to sweep your assets to net new addresses that have never touched your primary
+
+200
+00:10:35,000 --> 00:10:37,580
+wallet partner, your primary wallet service.
+
+201
+00:10:37,580 --> 00:10:38,580
+So how do you do that?
+
+202
+00:10:38,580 --> 00:10:42,940
+You log into station 70 using our bunker product, you use the SWAT feature to shift your keys
+
+203
+00:10:42,940 --> 00:10:47,220
+over to a firm like Fortify that has standby wallet implemented.
+
+204
+00:10:47,420 --> 00:10:53,140
+Then can enable you to then within Fortify, sweep all of your assets to net new addresses.
+
+205
+00:10:53,140 --> 00:10:57,100
+And now you have essentially clean addresses that were never impacted by that data breach.
+
+206
+00:10:57,100 --> 00:11:00,100
+There's obviously some complexity there with some staked assets and some other things,
+
+207
+00:11:00,100 --> 00:11:01,900
+but we're talking disaster mode.
+
+208
+00:11:01,900 --> 00:11:03,660
+We're talking data breach mode.
+
+209
+00:11:03,660 --> 00:11:06,380
+So those are some of the tools that really should be table stakes.
+
+210
+00:11:06,380 --> 00:11:11,020
+I'm shocked as a multi-company see-saw that a lot of the stuff doesn't exist.
+
+211
+00:11:11,020 --> 00:11:14,460
+And that's why we're building station 70 and across multiple products, because these are
+
+212
+00:11:14,500 --> 00:11:20,020
+tools that we either wanted and we built in-house or we wanted and we never built, but we accepted
+
+213
+00:11:20,020 --> 00:11:21,020
+those risks.
+
+214
+00:11:21,020 --> 00:11:24,660
+I think those risks are just unacceptable today as the industry grows.
+
+215
+00:11:24,660 --> 00:11:29,780
+So between Fortify standby wallet and station 70 bunker products, specifically our SWAT
+
+216
+00:11:29,780 --> 00:11:35,260
+feature, you now can move your assets through moving the private keys cross wallet platform
+
+217
+00:11:35,260 --> 00:11:39,260
+to solve for some of those operational or security resiliency problems.
+
+218
+00:11:39,260 --> 00:11:42,260
+It's just fascinating that this is actually technically possible.
+
+219
+00:11:42,460 --> 00:11:46,540
+I've had this on the wishlist for a while, but I feel like it seems really complicated.
+
+220
+00:11:46,540 --> 00:11:49,740
+And I know we're not going to get into the details necessarily on how the math works
+
+221
+00:11:49,740 --> 00:11:53,460
+on this, but the fact that it's even possible seems pretty amazing to me.
+
+222
+00:11:53,460 --> 00:11:55,220
+Josh and I have been talking about this for a year.
+
+223
+00:11:55,220 --> 00:11:57,860
+Matt, you and I have been talking about this for probably more than a year.
+
+224
+00:11:57,860 --> 00:12:01,980
+When I first thought of this as an idea, I literally had no idea if we could build it.
+
+225
+00:12:01,980 --> 00:12:04,900
+But I think on both sides of the team, we have some really smart folks.
+
+226
+00:12:04,900 --> 00:12:07,340
+Josh, you probably have some other views on that.
+
+227
+00:12:07,380 --> 00:12:12,900
+Look, I think in general, folks have been asking the question, as long as I've been
+
+228
+00:12:12,900 --> 00:12:16,580
+in this space, what happens if my wallet provider gets hacked?
+
+229
+00:12:16,580 --> 00:12:22,700
+And firms who are security minded go through some good steps like rigorous vendor selection
+
+230
+00:12:22,700 --> 00:12:23,780
+process.
+
+231
+00:12:23,780 --> 00:12:26,660
+They always ask what are the best security, best practices.
+
+232
+00:12:26,660 --> 00:12:30,060
+And by the way, back to that, if I've been hacked, it's good that we have people that,
+
+233
+00:12:30,060 --> 00:12:33,780
+of course, when these things happen, what happened here and what can we do to prevent
+
+234
+00:12:33,780 --> 00:12:35,700
+this? These are always good steps people take.
+
+235
+00:12:35,700 --> 00:12:40,100
+And of course, the other thing they do is they diversify their assets through multiple
+
+236
+00:12:40,100 --> 00:12:40,900
+wallet providers.
+
+237
+00:12:40,900 --> 00:12:42,740
+And this is what we see at traditional.
+
+238
+00:12:42,740 --> 00:12:45,020
+That's a match made ever since Lehman Brothers.
+
+239
+00:12:45,020 --> 00:12:46,620
+No one had only one PB.
+
+240
+00:12:46,620 --> 00:12:49,380
+So the idea of having multiple wallets to protect.
+
+241
+00:12:49,380 --> 00:12:54,940
+And that's great, although it doesn't actually handle the problem of what if I need this
+
+242
+00:12:54,940 --> 00:12:56,540
+particular address?
+
+243
+00:12:56,540 --> 00:13:02,100
+The blockchain is always on, but my interactions may be tied to a particular address.
+
+244
+00:13:02,100 --> 00:13:05,020
+And so think about two very pointed examples.
+
+245
+00:13:05,020 --> 00:13:10,340
+Say I'm an exchange and I have thousands and thousands of addresses that I've spun up for
+
+246
+00:13:10,340 --> 00:13:12,660
+each individual user of the exchange.
+
+247
+00:13:12,660 --> 00:13:17,140
+And I have this so that when each user deposits crypto into the exchange, I have user attribution.
+
+248
+00:13:17,140 --> 00:13:20,380
+And I know that when this address gets a deposit, that's Adams.
+
+249
+00:13:20,380 --> 00:13:22,620
+And when this address gets a deposit, that's Matt's.
+
+250
+00:13:22,620 --> 00:13:26,740
+And I've done a lot of work in order to build the right wallet infrastructure to protect
+
+251
+00:13:26,740 --> 00:13:31,140
+that. Well, now, all of a sudden, my wallet's becoming accessible and I have no access to
+
+252
+00:13:31,140 --> 00:13:31,940
+any of this.
+
+253
+00:13:31,980 --> 00:13:36,900
+I basically shut down as an exchange and having other wallets that I could spin up doesn't
+
+254
+00:13:36,900 --> 00:13:40,380
+really help because it takes a lot of time to then spin up that kind of setup and tell
+
+255
+00:13:40,380 --> 00:13:44,100
+all my users this is your new addresses, et cetera.
+
+256
+00:13:44,100 --> 00:13:45,100
+Another good example.
+
+257
+00:13:45,100 --> 00:13:49,100
+Think of all the OTC and institutional trading that's happening between asset managers and
+
+258
+00:13:49,100 --> 00:13:50,100
+trading firms.
+
+259
+00:13:50,100 --> 00:13:52,380
+And everyone has your settlement instructions.
+
+260
+00:13:52,380 --> 00:13:55,740
+And imagine if all of a sudden those settlement instructions all have to stop.
+
+261
+00:13:55,740 --> 00:14:00,140
+So if this talking about even just a couple of days, in effect, institutional crypto market
+
+262
+00:14:00,140 --> 00:14:05,620
+stops if someone loses access to their actual addresses that they're used to interacting
+
+263
+00:14:05,620 --> 00:14:07,980
+with. Until now, this did not exist.
+
+264
+00:14:08,340 --> 00:14:11,900
+Even though you could have had another wallet and you could transfer funds into another
+
+265
+00:14:11,900 --> 00:14:17,220
+wallet, to be able to control the same addresses that you created with one wallet provider
+
+266
+00:14:17,300 --> 00:14:22,020
+and now control them securely with another wallet provider without compromising the
+
+267
+00:14:22,020 --> 00:14:26,900
+security integrity of the keys itself, it really almost sounds like magic upon magic.
+
+268
+00:14:26,980 --> 00:14:28,860
+I joke like NPC already for many people.
+
+269
+00:14:28,860 --> 00:14:29,860
+Sounds like magic.
+
+270
+00:14:29,860 --> 00:14:31,500
+This is like magic upon magic.
+
+271
+00:14:32,140 --> 00:14:36,220
+I mentioned this before, but there was a story back when I worked at Bloomberg just about
+
+272
+00:14:36,220 --> 00:14:42,100
+10 years ago, there was a story of the UK had to halt a treasury auction while I was
+
+273
+00:14:42,100 --> 00:14:44,340
+there because the Bloomberg terminal was down.
+
+274
+00:14:44,740 --> 00:14:45,860
+This is in 2015.
+
+275
+00:14:46,260 --> 00:14:48,220
+It made us realize, of course, this is insane.
+
+276
+00:14:48,260 --> 00:14:52,380
+I literally can't raise money because technology is just inaccessible.
+
+277
+00:14:52,860 --> 00:14:56,340
+And it makes us realize that how much in general we have a reliance on technology.
+
+278
+00:14:56,780 --> 00:15:00,820
+The beauty of digital asset markets is supposed to be that this is always on, that this is
+
+279
+00:15:00,820 --> 00:15:05,740
+resilient. And yet this was a major gap in the market where we still had the same problem
+
+280
+00:15:05,740 --> 00:15:09,740
+where institutions were dependent on their particular wallet provider to access their
+
+281
+00:15:09,740 --> 00:15:14,540
+addresses. And the fact that with Adam and his team and with us, we're able to actually
+
+282
+00:15:14,540 --> 00:15:18,900
+solve for this. You can completely continue always on, always operational.
+
+283
+00:15:19,420 --> 00:15:20,780
+It's just a really cool story.
+
+284
+00:15:21,540 --> 00:15:25,060
+That's crazy about the Bloomberg outage that actually impacting the treasury market.
+
+285
+00:15:25,420 --> 00:15:29,620
+That'd be a convenient excuse if you ever have a failed treasury auction coming up anyway.
+
+286
+00:15:29,660 --> 00:15:31,300
+Just tell Bloomberg to go down, I guess.
+
+287
+00:15:31,900 --> 00:15:36,420
+Josh, the other use case that comes to mind is if you are engaging in activity with a
+
+288
+00:15:36,420 --> 00:15:41,700
+smart contract that has maybe a vesting schedule attached to it where you have to
+
+289
+00:15:41,700 --> 00:15:44,980
+engage with the same wallet address for the next four to seven years.
+
+290
+00:15:45,420 --> 00:15:50,100
+This just feels like a better way to ensure resilience in that type of a setup as well.
+
+291
+00:15:50,820 --> 00:15:55,020
+Yeah, that's right. So when we first talked about importing private
+
+292
+00:15:55,020 --> 00:16:00,780
+keys into Fortify, the first time we encountered it was exactly because since our lead
+
+293
+00:16:00,780 --> 00:16:04,220
+differentiator, we started the company was around DeFi and we did have people who were
+
+294
+00:16:04,220 --> 00:16:06,540
+locked in long term staking or vesting contracts.
+
+295
+00:16:06,780 --> 00:16:11,060
+And they say, hey, we love Fortify, but I can't move because of following.
+
+296
+00:16:11,460 --> 00:16:16,460
+So we already had to solve helping clients import private keys and we've done so.
+
+297
+00:16:16,620 --> 00:16:22,460
+We helped an exchange import over 200,000 addresses into Fortify and completely moved.
+
+298
+00:16:22,820 --> 00:16:28,100
+I think those are a little different because in those use cases, it can be planned.
+
+299
+00:16:28,460 --> 00:16:30,660
+Time is not really working against you there.
+
+300
+00:16:30,700 --> 00:16:33,500
+You can create a process for transition.
+
+301
+00:16:33,700 --> 00:16:36,860
+And sometimes, depending on what it is, we always have clients that want to come to us
+
+302
+00:16:36,860 --> 00:16:40,260
+from another wallet provider. Sometimes it's just cleaner and simpler to just, if you're
+
+303
+00:16:40,260 --> 00:16:44,420
+not tied to those addresses, just spin up new wallets under Fortify, transfer your assets
+
+304
+00:16:44,420 --> 00:16:45,700
+and unchain and that's easy.
+
+305
+00:16:45,900 --> 00:16:49,220
+To your point, sometimes they can't because they're locked in contracts where they need
+
+306
+00:16:49,220 --> 00:16:50,300
+control of that address.
+
+307
+00:16:50,660 --> 00:16:51,900
+And so we've been able to help import that.
+
+308
+00:16:51,900 --> 00:16:57,420
+I think what's really unique here is the SWOT and the standby wallets specifically
+
+309
+00:16:57,420 --> 00:16:59,780
+happened at a time when you didn't plan for it.
+
+310
+00:17:00,020 --> 00:17:01,620
+This is something that you have to know.
+
+311
+00:17:01,620 --> 00:17:02,740
+This is BCP.
+
+312
+00:17:03,020 --> 00:17:07,420
+You have to make sure that when this thing happens, you can instantly fail over and then
+
+313
+00:17:07,420 --> 00:17:08,700
+continue operations.
+
+314
+00:17:08,700 --> 00:17:10,940
+And that's why we needed this partnership to work.
+
+315
+00:17:10,980 --> 00:17:15,980
+And for any other pieces that many times point, even sometimes when someone is doing just
+
+316
+00:17:15,980 --> 00:17:20,020
+their own transition, many clients don't want to ever hold their backup keys.
+
+317
+00:17:20,420 --> 00:17:24,180
+We always tell clients that even though we enable it's a self-custodial wallet, so in
+
+318
+00:17:24,180 --> 00:17:26,340
+theory, clients can hold their own backup keys.
+
+319
+00:17:26,700 --> 00:17:31,300
+We always recommend that they use folks like Station 70 because this is what they do.
+
+320
+00:17:31,500 --> 00:17:32,380
+This is what they're good at.
+
+321
+00:17:32,620 --> 00:17:34,860
+And a lot of times you need to deal with smaller funds.
+
+322
+00:17:34,860 --> 00:17:38,780
+For example, traders, they're not entirely sure where their backup key is, how to secure
+
+323
+00:17:38,780 --> 00:17:39,620
+their backup key.
+
+324
+00:17:39,980 --> 00:17:42,180
+And then sometimes they don't even realize this is the whole thing.
+
+325
+00:17:42,180 --> 00:17:43,980
+If you lose this, you're really in trouble.
+
+326
+00:17:43,980 --> 00:17:49,140
+So I think in general, having someone like Station 70 securing their keys is already
+
+327
+00:17:49,140 --> 00:17:53,060
+available. And therefore, even if they're doing a transition, not during a time of
+
+328
+00:17:53,060 --> 00:17:57,140
+failover, they can, of course, trigger that transition also through swapping Station
+
+329
+00:17:57,140 --> 00:17:57,780
+70.
+
+330
+00:17:57,780 --> 00:17:58,780
+You're going to hop in there, Adam?
+
+331
+00:17:58,980 --> 00:18:00,340
+Yeah, Josh is 100% right.
+
+332
+00:18:00,620 --> 00:18:04,900
+We really see Bunker as a toolbox for disaster recovery.
+
+333
+00:18:05,100 --> 00:18:08,820
+However you want to use those tools, we believe in empowering the customer, empowering
+
+334
+00:18:08,820 --> 00:18:11,340
+the users. It is self-custody, as Josh said.
+
+335
+00:18:11,340 --> 00:18:13,340
+It's your sovereign assets.
+
+336
+00:18:13,580 --> 00:18:17,020
+We're not going to dictate to you how you use the tools or the technology.
+
+337
+00:18:17,060 --> 00:18:21,980
+We certainly have some opinions on backup quorums and some other security policy things
+
+338
+00:18:21,980 --> 00:18:26,060
+that we've just seen dozens and dozens and dozens of these now as we've been onboarding
+
+339
+00:18:26,060 --> 00:18:28,540
+customers over the last eight or so months.
+
+340
+00:18:28,740 --> 00:18:30,180
+So we certainly have some opinions on it.
+
+341
+00:18:30,500 --> 00:18:34,580
+But I think at the end of the day, where I think the industry is going from a maturity
+
+342
+00:18:34,580 --> 00:18:38,380
+perspective, from a security perspective, from a resiliency perspective, some of that's
+
+343
+00:18:38,380 --> 00:18:42,100
+going to be driven by regulators, some of that's going to be driven by firms not wanting
+
+344
+00:18:42,100 --> 00:18:46,540
+to be negligent. Some of that's going to be driven by just good hygiene for operational
+
+345
+00:18:46,540 --> 00:18:51,700
+best practices, is things like standby wallets, things like having redundant wallet
+
+346
+00:18:51,700 --> 00:18:55,340
+capabilities. We're already seeing that with some of the more sophisticated firms.
+
+347
+00:18:55,340 --> 00:18:59,340
+They want multiple wallet providers using the Prime Broker example from TradFi.
+
+348
+00:18:59,820 --> 00:19:04,620
+And then us sitting there in the middle as the disaster recovery business continuity
+
+349
+00:19:04,620 --> 00:19:11,300
+toolbox, having tools like SWOT within that overall Bunker product set that allows you
+
+350
+00:19:11,300 --> 00:19:15,100
+to really have full control of your keys, because that's what I care about.
+
+351
+00:19:15,540 --> 00:19:18,980
+Customers, firms having that full control and doing it safely.
+
+352
+00:19:19,260 --> 00:19:21,180
+We don't want to set folks up for failure.
+
+353
+00:19:21,380 --> 00:19:24,420
+We've seen that time and time again in the industry where the tooling lacks.
+
+354
+00:19:24,740 --> 00:19:26,180
+Josh, you mentioned blind signing.
+
+355
+00:19:26,460 --> 00:19:29,740
+We've seen these scenarios unfold so many times.
+
+356
+00:19:29,740 --> 00:19:34,620
+And to me, as a security professional who really cares, I feel really bad when that
+
+357
+00:19:34,620 --> 00:19:38,820
+happens, knowing that those things could have been solved if the UX was better, the
+
+358
+00:19:38,820 --> 00:19:43,500
+tech was better. And I think what we've built together is shockingly good, super
+
+359
+00:19:43,500 --> 00:19:47,980
+complex. I've even had, I've talked to some firms and they're like, is this real?
+
+360
+00:19:48,180 --> 00:19:50,540
+Is it here today or is this coming in six months?
+
+361
+00:19:50,940 --> 00:19:52,700
+No, no, like we can demo it for you.
+
+362
+00:19:52,860 --> 00:19:56,780
+We can, no joke, show you how this works across wallet platforms.
+
+363
+00:19:57,140 --> 00:19:58,500
+Assets end up at fortified.
+
+364
+00:19:59,020 --> 00:20:00,780
+And then from there, you're back in control.
+
+365
+00:20:01,340 --> 00:20:03,060
+That's where a lot of the industry is going to go.
+
+366
+00:20:03,300 --> 00:20:07,340
+As we continue to mature, you guys can probably attest to this also.
+
+367
+00:20:07,380 --> 00:20:12,460
+Every cycle, there's a major blow up, whether it's legal blow ups across major
+
+368
+00:20:12,460 --> 00:20:16,180
+players, whether it's financial crimes, whether it's data breaches.
+
+369
+00:20:16,300 --> 00:20:21,220
+My hope is as bad as it was for some data breach was the blow up for this cycle.
+
+370
+00:20:21,300 --> 00:20:24,540
+And now we, the cycle will continue to play out and we're going to be knock on
+
+371
+00:20:24,540 --> 00:20:28,180
+wood in a good place and there's nothing worse that happens.
+
+372
+00:20:28,260 --> 00:20:31,660
+And I feel like the way that we solve it as an industry to prevent future cycles,
+
+373
+00:20:31,660 --> 00:20:35,540
+this cycle from things that are worse from happening is we have to be very serious
+
+374
+00:20:35,540 --> 00:20:39,540
+about resiliency, better tools, security, good operational hygiene.
+
+375
+00:20:39,740 --> 00:20:42,660
+We have to, we have to treat this like it's a real asset class.
+
+376
+00:20:42,660 --> 00:20:43,740
+Cause it is now shocking.
+
+377
+00:20:43,940 --> 00:20:46,420
+We've all been working towards this for a long time and it's here.
+
+378
+00:20:46,420 --> 00:20:48,340
+And I think stable coin adoption.
+
+379
+00:20:48,340 --> 00:20:51,060
+We were talking about this before we started recording, Matt, that seems
+
+380
+00:20:51,060 --> 00:20:54,980
+to be growing exponentially, banking infrastructure seems to be growing
+
+381
+00:20:54,980 --> 00:20:59,420
+exponentially, so in parallel with that cybersecurity infrastructure, wallet
+
+382
+00:20:59,420 --> 00:21:02,940
+infrastructure and overall resiliency has to grow in parity.
+
+383
+00:21:03,460 --> 00:21:04,900
+That's where I kind of want to go next.
+
+384
+00:21:04,900 --> 00:21:08,420
+And hopefully it's not a blow up, but one thing that is super obvious from where I
+
+385
+00:21:08,420 --> 00:21:11,940
+sit is that a lot of the banks and the broker dealers are starting to get a lot
+
+386
+00:21:11,940 --> 00:21:13,700
+more active over the last three months.
+
+387
+00:21:14,020 --> 00:21:15,900
+It's clearly regulatory driven, right?
+
+388
+00:21:16,020 --> 00:21:19,660
+Saab 121 going away and we're going to get a market structure bill.
+
+389
+00:21:19,660 --> 00:21:23,660
+The OCC and the FDIC have both eased up on crypto related activities.
+
+390
+00:21:23,980 --> 00:21:26,980
+So we're going to be living in a world this year where there are big banks that
+
+391
+00:21:26,980 --> 00:21:30,100
+are trying to custody Bitcoin and other types of cryptocurrencies.
+
+392
+00:21:30,580 --> 00:21:35,700
+I look at this and I just say, how many people on planet earth really understand
+
+393
+00:21:35,740 --> 00:21:38,620
+MPC and are they working at those banks?
+
+394
+00:21:38,940 --> 00:21:42,740
+These are bearer assets that I don't think a lot of these banks have
+
+395
+00:21:42,740 --> 00:21:45,580
+experienced safeguarding, so I worry about that.
+
+396
+00:21:45,620 --> 00:21:46,940
+How do you guys see that playing out?
+
+397
+00:21:47,900 --> 00:21:53,820
+We have a crypto CISO chat group that is kind of all the key players that we would
+
+398
+00:21:53,820 --> 00:21:56,500
+all know it's all the CISOs from across the industry that have been around a long
+
+399
+00:21:56,500 --> 00:22:01,060
+time and I've said in that group many times over the years that there's probably
+
+400
+00:22:01,060 --> 00:22:04,340
+a hundred people in the world that could actually design custody.
+
+401
+00:22:04,700 --> 00:22:06,020
+45 of them are in this group chat.
+
+402
+00:22:06,420 --> 00:22:08,740
+You layer an MPC, it's a small number.
+
+403
+00:22:08,780 --> 00:22:11,980
+People that really get it and then can intersect it not only at an academic
+
+404
+00:22:11,980 --> 00:22:16,380
+level, but in a practical level for at scale wallets, that's a really small
+
+405
+00:22:16,380 --> 00:22:20,380
+number and I don't think many of them work at banks and I would judge that
+
+406
+00:22:20,380 --> 00:22:22,700
+based on some of the conversations I've had with some of the banks.
+
+407
+00:22:23,300 --> 00:22:26,780
+They're looking for partners and I think that's probably the right model for them.
+
+408
+00:22:27,060 --> 00:22:30,420
+And I think one of the failure modes that I've seen, whether it was it backed as
+
+409
+00:22:30,420 --> 00:22:33,020
+part of kind of the broader ICE ecosystem, which is obviously an
+
+410
+00:22:33,340 --> 00:22:36,580
+intercontinental exchange, just to be very clear ICE is a loaded term in
+
+411
+00:22:36,580 --> 00:22:40,540
+the algorithm these days, but whether it was there or at other banks that I've
+
+412
+00:22:40,540 --> 00:22:45,260
+spoken with in the last handful of years is they treat a lot of their wallet
+
+413
+00:22:45,300 --> 00:22:49,420
+infrastructure that they've built in house as just other network devices.
+
+414
+00:22:49,420 --> 00:22:53,300
+So that HSM is just sitting there in Iraq next to all the other HSMs and that
+
+415
+00:22:53,300 --> 00:22:57,740
+signing service is sitting there on a VMware box sitting next to 500 other
+
+416
+00:22:57,740 --> 00:23:01,940
+virtual workloads and that's a very dangerous and very bad way of looking at
+
+417
+00:23:01,940 --> 00:23:05,660
+it because to use the word that you just use, Matt, these are bear assets
+
+418
+00:23:05,980 --> 00:23:08,540
+and there's no clawback, it's not just wire transfers.
+
+419
+00:23:08,820 --> 00:23:12,460
+So I think that there's a combination of real enterprise cybersecurity
+
+420
+00:23:12,460 --> 00:23:16,700
+knowledge, MPC knowledge, custody knowledge, wallet operations knowledge
+
+421
+00:23:17,020 --> 00:23:21,020
+that I haven't been super impressed by that cross section of knowledge
+
+422
+00:23:21,020 --> 00:23:22,060
+existing at any bank.
+
+423
+00:23:22,860 --> 00:23:24,100
+Josh, what's your take on this?
+
+424
+00:23:24,180 --> 00:23:25,180
+It's a race, right?
+
+425
+00:23:25,220 --> 00:23:27,540
+All these banks are going to have to be in the game.
+
+426
+00:23:27,820 --> 00:23:29,860
+What's your take on how this unfolds over the next year?
+
+427
+00:23:30,580 --> 00:23:31,180
+I agree with that.
+
+428
+00:23:31,180 --> 00:23:34,660
+And I think that there's definitely a knowledge gap there and we see it from
+
+429
+00:23:34,660 --> 00:23:36,660
+the conversations that we're having with them.
+
+430
+00:23:37,100 --> 00:23:41,940
+I think the other piece that these banks have to also think about is how they
+
+431
+00:23:41,940 --> 00:23:45,340
+will first dip their toes in the water versus how they'll eventually go out
+
+432
+00:23:45,340 --> 00:23:46,340
+their overall infrastructure.
+
+433
+00:23:46,540 --> 00:23:50,100
+The first business which is going after the ETF custody business is a little
+
+434
+00:23:50,100 --> 00:23:54,860
+more plain vanilla custody that you're sort of okay probably with deliberately
+
+435
+00:23:54,900 --> 00:23:59,180
+slow and clunky process, which actually has some operational benefits in a
+
+436
+00:23:59,180 --> 00:24:01,580
+sense for that particular use case.
+
+437
+00:24:01,780 --> 00:24:06,060
+But as the banks start thinking about what it actually means to offer a full
+
+438
+00:24:06,060 --> 00:24:09,860
+stack of on-chain transaction capabilities, obviously this is where things
+
+439
+00:24:09,860 --> 00:24:12,580
+like MPC come into play, this is where you have to have an always on and
+
+440
+00:24:12,580 --> 00:24:14,660
+always capable to transact infrastructure.
+
+441
+00:24:14,660 --> 00:24:17,460
+And of course, that's where the impact vectors of the risks increase.
+
+442
+00:24:17,460 --> 00:24:18,940
+And I think there is a gap there.
+
+443
+00:24:19,060 --> 00:24:22,260
+We see it again, just from the number of conversations that we've had over
+
+444
+00:24:22,260 --> 00:24:23,940
+the last couple of months have been increasing.
+
+445
+00:24:24,140 --> 00:24:28,620
+I think the likely path for them will be to partner some of them as expected.
+
+446
+00:24:28,660 --> 00:24:32,420
+We'll try to go out on their own and then at this point, we'll either fail or
+
+447
+00:24:32,420 --> 00:24:35,820
+realize that because it's a race, it'll just take too long and it'll be easier
+
+448
+00:24:35,820 --> 00:24:36,540
+for them to partner.
+
+449
+00:24:37,340 --> 00:24:38,020
+I would just add to that.
+
+450
+00:24:38,020 --> 00:24:41,140
+I think it's partner or smartly acquire.
+
+451
+00:24:41,340 --> 00:24:44,900
+And when I say smartly, I don't mean how banks normally acquire things and then
+
+452
+00:24:44,900 --> 00:24:48,860
+suck them into the vortex of bank processes and systems.
+
+453
+00:24:49,220 --> 00:24:52,740
+One analog that I use often is the way Walmart did e-commerce.
+
+454
+00:24:52,860 --> 00:24:55,860
+And we can argue, maybe they missed the boat and Amazon and all these things,
+
+455
+00:24:55,860 --> 00:24:59,780
+but they've got big Walmart and then they have Walmart Labs, which used to be
+
+456
+00:24:59,780 --> 00:25:01,420
+called Walmart Labs out in Brno.
+
+457
+00:25:01,740 --> 00:25:05,620
+And it was really separate lab, the separate ecosystem that was charged
+
+458
+00:25:05,620 --> 00:25:07,500
+with moving e-commerce forward.
+
+459
+00:25:07,860 --> 00:25:11,260
+And if a bank were to take that approach, if they maybe were fundamentally
+
+460
+00:25:11,260 --> 00:25:14,300
+opposed to partnering, which I think is probably the best option for most
+
+461
+00:25:14,300 --> 00:25:16,900
+of the banks to be clear, and they were to go the other path.
+
+462
+00:25:16,940 --> 00:25:19,860
+My word of caution to anyone at the banks that will listen to this, because
+
+463
+00:25:19,860 --> 00:25:26,220
+Matt has a very diverse audience, is do it smartly and think about it as almost
+
+464
+00:25:26,220 --> 00:25:30,540
+a separate entity, similar to kind of how like the Walmart Labs piece as a case
+
+465
+00:25:30,540 --> 00:25:33,980
+study unfolded when they were getting e-commerce up and running, if you pull
+
+466
+00:25:33,980 --> 00:25:37,580
+it into Borg, try and make it part of the bank, it's going to fail and you're
+
+467
+00:25:37,580 --> 00:25:40,580
+going to have the same problems that we've seen with other large acquisitions.
+
+468
+00:25:41,260 --> 00:25:42,220
+Yeah, I agree with that.
+
+469
+00:25:42,220 --> 00:25:46,300
+I think you'd have to look at the Bell Labs model or even look at how some of
+
+470
+00:25:46,300 --> 00:25:50,060
+the successful traditional financial firms have entered crypto to date.
+
+471
+00:25:50,180 --> 00:25:53,500
+Fidelity comes to mind as putting it separate from the core entity.
+
+472
+00:25:54,020 --> 00:25:57,020
+Josh, I want to double click into something you said, and it teases
+
+473
+00:25:57,020 --> 00:25:58,620
+something I've been thinking about a lot.
+
+474
+00:25:58,620 --> 00:26:03,260
+So you bring up non-MPC custody for deep cold in the Bitcoin use case.
+
+475
+00:26:03,260 --> 00:26:08,820
+But I wonder if you're going to see this trend of MPC being the desired platform,
+
+476
+00:26:08,860 --> 00:26:11,420
+even for assets that aren't bearer assets.
+
+477
+00:26:11,420 --> 00:26:15,580
+And so we had the Canton network guys on the podcast a few weeks ago and, you
+
+478
+00:26:15,580 --> 00:26:19,740
+know, repo agreement, the collateral actually does live off chain, but you
+
+479
+00:26:19,740 --> 00:26:23,460
+could see the policy engine of something like what you've built actually being
+
+480
+00:26:23,460 --> 00:26:27,420
+the core reason why you'd want to have an MPC set up to something like that.
+
+481
+00:26:27,420 --> 00:26:31,900
+So I wonder if you're seeing that as maybe the buying persona is diverse
+
+482
+00:26:31,900 --> 00:26:33,740
+in terms of why they like MPC.
+
+483
+00:26:34,340 --> 00:26:38,220
+First, I would probably separate the MPC from the policy controls.
+
+484
+00:26:38,340 --> 00:26:42,500
+Hosted institutional wallet in a sense has three main components, leaving
+
+485
+00:26:42,540 --> 00:26:46,380
+aside defile the rest of the pieces of our stack, but three main components,
+
+486
+00:26:46,380 --> 00:26:50,500
+you have the key management layer, you have the policy and authorization layer,
+
+487
+00:26:50,620 --> 00:26:52,580
+and then you have a blockchain connectivity.
+
+488
+00:26:52,580 --> 00:26:55,500
+The fact that it's hosted, pushing the chain monitoring for status, et cetera.
+
+489
+00:26:55,820 --> 00:26:59,620
+The middle layer, which is the governance tools, the policies, et cetera.
+
+490
+00:26:59,820 --> 00:27:03,740
+To your point, this is always very valuable as an out of band policy
+
+491
+00:27:03,780 --> 00:27:07,420
+enforcement process, but that could actually happen regardless of whether
+
+492
+00:27:07,460 --> 00:27:12,340
+it's MPC, whether it's multisig, whether it's some other form, smart wallets.
+
+493
+00:27:12,500 --> 00:27:14,860
+And so actually we've thought about this also.
+
+494
+00:27:15,260 --> 00:27:18,140
+Should we, at some point when the rage of the kind of
+
+495
+00:27:18,140 --> 00:27:21,860
+abstraction wallets should come into play, it's not our policy approval
+
+496
+00:27:21,860 --> 00:27:26,740
+process is not specific to having to use an MPC as a management layer.
+
+497
+00:27:26,740 --> 00:27:30,540
+So I think like that part is certainly true that it's not trivial to build
+
+498
+00:27:30,540 --> 00:27:34,620
+the entire policy approval process and enforcement process that's independent
+
+499
+00:27:34,660 --> 00:27:39,180
+from the choice of using MPC, which of course has its benefits and speed
+
+500
+00:27:39,180 --> 00:27:41,460
+and the trade-off between security and utility.
+
+501
+00:27:41,460 --> 00:27:44,180
+The fact that there are MPC cold as well, where some of the shares
+
+502
+00:27:44,180 --> 00:27:45,740
+can actually be completely off their gap.
+
+503
+00:27:45,740 --> 00:27:48,860
+But even independent, the fact that you can have shares online, but completely
+
+504
+00:27:48,860 --> 00:27:54,380
+never having come together, think like MPC is the best iteration today of
+
+505
+00:27:54,380 --> 00:27:58,700
+key management that works cross-chain that really optimizes between security
+
+506
+00:27:58,700 --> 00:28:02,100
+and utility, but that's different than your point, the fact that people really
+
+507
+00:28:02,100 --> 00:28:05,940
+like a secure hosted wallets because they also have all three of these
+
+508
+00:28:05,940 --> 00:28:08,620
+pieces, specific to policy and governance piece.
+
+509
+00:28:09,660 --> 00:28:11,140
+That's a helpful way to frame it.
+
+510
+00:28:11,300 --> 00:28:12,540
+I hadn't thought about it that way.
+
+511
+00:28:12,540 --> 00:28:16,380
+So I guess the policy engine being discreet does make a ton of sense.
+
+512
+00:28:16,380 --> 00:28:19,420
+And yeah, you could see that being just a popular feature in and of
+
+513
+00:28:19,420 --> 00:28:21,100
+itself in a lot of these use cases.
+
+514
+00:28:21,620 --> 00:28:24,460
+Adam kind of gets to something we've talked about over the years around
+
+515
+00:28:24,900 --> 00:28:28,900
+crypto exporting things to the real world that we invent here.
+
+516
+00:28:28,980 --> 00:28:33,500
+Do you get the sense that this MPC wave here, we're going to be using it for
+
+517
+00:28:33,500 --> 00:28:36,940
+way more than just moving Ethereum around on a blockchain?
+
+518
+00:28:38,020 --> 00:28:38,620
+I hope so.
+
+519
+00:28:38,940 --> 00:28:44,740
+I think it's one of the most novel uses of cryptography, the digital assets
+
+520
+00:28:44,940 --> 00:28:48,300
+side of the ecosystem that we've seen in a very long time, obviously the
+
+521
+00:28:48,300 --> 00:28:51,020
+white paper and all of these things fundamentally have shifted the way a lot
+
+522
+00:28:51,020 --> 00:28:56,380
+of us think about monetary policy and moving assets, but MPC specifically is,
+
+523
+00:28:56,380 --> 00:29:00,980
+I would say like on that level of game changing technology and where we are
+
+524
+00:29:01,020 --> 00:29:01,540
+today.
+
+525
+00:29:01,540 --> 00:29:05,940
+So I think for us at station 70, we're in the business of building security
+
+526
+00:29:05,940 --> 00:29:10,980
+products and Bunker is a generalized cipher text management platform.
+
+527
+00:29:10,980 --> 00:29:14,820
+That's the way that we often describe it to some folks that has a robust
+
+528
+00:29:14,820 --> 00:29:18,060
+set of security policies and hardware based encryption and other things.
+
+529
+00:29:18,420 --> 00:29:22,420
+So along the lines ish of what Josh was saying, whether you're storing
+
+530
+00:29:22,500 --> 00:29:26,860
+other types of backup material within Bunker or MPC backups, it doesn't really
+
+531
+00:29:26,860 --> 00:29:27,220
+matter.
+
+532
+00:29:27,340 --> 00:29:30,660
+It's cipher text by the time we see it anyways, because we have it all set up
+
+533
+00:29:30,660 --> 00:29:31,660
+in a zero knowledge way.
+
+534
+00:29:31,860 --> 00:29:35,380
+So there's a lot of extensible use cases, I think, for Bunker and some of the
+
+535
+00:29:35,380 --> 00:29:38,220
+other features within Bunker, whether that's SWOT or something like custom
+
+536
+00:29:38,220 --> 00:29:39,620
+upload, which is another feature we have.
+
+537
+00:29:39,980 --> 00:29:44,060
+Bunker is very quickly becoming a very, very advanced cipher text management
+
+538
+00:29:44,060 --> 00:29:48,180
+platform that really is being used for business continuity and disaster recovery,
+
+539
+00:29:48,180 --> 00:29:49,740
+but as a lot of other use cases.
+
+540
+00:29:50,100 --> 00:29:53,940
+And then, you know, for us and just being super selfish, we have some other
+
+541
+00:29:53,940 --> 00:29:57,740
+products in the pipeline that will be coming out that we think will actually
+
+542
+00:29:57,980 --> 00:30:02,300
+solve some very real challenges in web three, but also back into web two
+
+543
+00:30:02,300 --> 00:30:04,500
+enterprise context, specifically around identity.
+
+544
+00:30:04,940 --> 00:30:07,660
+We're excited to be talking about those at some point in the not too distant
+
+545
+00:30:07,660 --> 00:30:13,180
+future, but we will see how adoption goes across the different web two versus web
+
+546
+00:30:13,180 --> 00:30:15,340
+three space, especially for our identity product.
+
+547
+00:30:15,340 --> 00:30:19,140
+But I think it would be very obvious if I was sitting in like a web two cyber
+
+548
+00:30:19,140 --> 00:30:23,860
+security shop or a web two VC or a web two enterprise to start looking at some
+
+549
+00:30:23,860 --> 00:30:27,140
+things that are really on the forefront of cryptography, like MPC.
+
+550
+00:30:27,300 --> 00:30:29,540
+And so these security tech that's being built in web three.
+
+551
+00:30:30,260 --> 00:30:31,100
+Yeah, it's fascinating.
+
+552
+00:30:31,100 --> 00:30:35,100
+And hopefully we continue to see more of this exporting things that were created
+
+553
+00:30:35,100 --> 00:30:37,020
+for the crypto ecosystem into the real world.
+
+554
+00:30:37,020 --> 00:30:39,860
+You've seen it a lot in financial products, I suppose, with the perpetual
+
+555
+00:30:39,860 --> 00:30:42,420
+swap and the AMM and things like that.
+
+556
+00:30:42,420 --> 00:30:46,500
+But it's really leveraging the math itself is probably the most powerful
+
+557
+00:30:46,500 --> 00:30:50,380
+thing, especially when you look at password managers and two face solutions
+
+558
+00:30:50,380 --> 00:30:51,620
+that are really bad.
+
+559
+00:30:52,300 --> 00:30:54,980
+Last pass, we can look at some of the problems there.
+
+560
+00:30:55,180 --> 00:30:58,660
+Anything centralized is often going to be bad from a security perspective, unless
+
+561
+00:30:58,660 --> 00:30:59,940
+you do security really well.
+
+562
+00:31:00,380 --> 00:31:04,420
+There's a lot of things that could be solved where we've solved them or we have
+
+563
+00:31:04,420 --> 00:31:07,460
+good plans to solve them in web three, because the stakes are just so much higher.
+
+564
+00:31:07,660 --> 00:31:12,340
+We're talking again, bearer assets that can't be clawed back, but have a lot of
+
+565
+00:31:12,340 --> 00:31:13,980
+value attached to these private keys.
+
+566
+00:31:14,220 --> 00:31:17,740
+Something I say a lot to folks is whether it's from like station 70, or it's a
+
+567
+00:31:17,740 --> 00:31:23,420
+wallet provider like Fortify, or it's a custodian, the qualified custodian, your
+
+568
+00:31:23,420 --> 00:31:27,660
+business in most ways that you could describe it is you have to be really good
+
+569
+00:31:27,660 --> 00:31:31,580
+at private key management and security around private keys, whether they're MPC
+
+570
+00:31:31,580 --> 00:31:34,700
+key shares or whatever it is, you have to be really good at that.
+
+571
+00:31:35,020 --> 00:31:39,300
+And then now go look at other enterprises outside of those three
+
+572
+00:31:39,300 --> 00:31:40,580
+demographics I just mentioned.
+
+573
+00:31:40,980 --> 00:31:44,740
+I've seen the inside of a lot of fortune 500 companies, of a lot of tech firms,
+
+574
+00:31:45,220 --> 00:31:47,660
+and none of them were really good at private key management.
+
+575
+00:31:47,780 --> 00:31:50,740
+Like it's like, none of them were like world-class at it, with the
+
+576
+00:31:50,740 --> 00:31:51,780
+exception of maybe like one.
+
+577
+00:31:52,100 --> 00:31:56,940
+So being able to say, Hey, we built a lot of really sophisticated security and
+
+578
+00:31:56,940 --> 00:31:58,620
+operational product within web three.
+
+579
+00:31:58,940 --> 00:32:00,980
+Here's some use cases that we can solve in web two.
+
+580
+00:32:00,980 --> 00:32:02,700
+I think that's great for all of us.
+
+581
+00:32:02,740 --> 00:32:05,740
+And it would allow us to export some things beyond some of these financial
+
+582
+00:32:05,740 --> 00:32:09,540
+products, some of the cool tech that we've built into some of the broader
+
+583
+00:32:09,540 --> 00:32:12,940
+enterprises, the broader industries, just beyond digital assets.
+
+584
+00:32:13,500 --> 00:32:14,180
+That makes sense.
+
+585
+00:32:14,540 --> 00:32:15,820
+Guys, this has been great so far.
+
+586
+00:32:16,180 --> 00:32:19,780
+I want to go a little bit deeper on just how people can learn more
+
+587
+00:32:19,820 --> 00:32:21,140
+about how this product works.
+
+588
+00:32:21,140 --> 00:32:23,940
+I don't think it's the type of thing you'd be able to intuit based on
+
+589
+00:32:23,940 --> 00:32:25,380
+just a podcast episode here.
+
+590
+00:32:25,380 --> 00:32:29,100
+So how would you think about directing people to learn more about this?
+
+591
+00:32:29,580 --> 00:32:32,500
+So I think there's two things, one, both station seven and Fortify are
+
+592
+00:32:32,580 --> 00:32:33,820
+very accessible companies.
+
+593
+00:32:33,860 --> 00:32:36,820
+I think we both have very good customer service, but what we're going to be
+
+594
+00:32:36,820 --> 00:32:39,460
+doing in the next couple of weeks, and we'll make sure there's a link, we'll
+
+595
+00:32:39,460 --> 00:32:42,020
+send it over to Matt and we'll make sure there's a link in the description of
+
+596
+00:32:42,020 --> 00:32:46,020
+this podcast is we're going to be doing a webinar where we'll be able to talk a
+
+597
+00:32:46,020 --> 00:32:46,540
+bit deeper.
+
+598
+00:32:46,540 --> 00:32:47,380
+We'll have some more time.
+
+599
+00:32:47,380 --> 00:32:51,100
+We'll have some of the technical experts on the line to talk about the standby
+
+600
+00:32:51,100 --> 00:32:54,580
+wallet architecture with the bunker slot architecture, how that works.
+
+601
+00:32:54,860 --> 00:32:57,100
+And then we'll actually be able to show a demo of it during that webinar.
+
+602
+00:32:57,140 --> 00:33:00,540
+We've had plenty of people that think it's not possible, but we'll show you
+
+603
+00:33:00,540 --> 00:33:01,220
+how it works.
+
+604
+00:33:01,660 --> 00:33:02,900
+I think that'll be pretty impactful.
+
+605
+00:33:03,260 --> 00:33:07,300
+Aside from that webinar, which we hope all of you show up for info at station
+
+606
+00:33:07,300 --> 00:33:09,500
+70.com is a great way to get ahold of us.
+
+607
+00:33:09,620 --> 00:33:11,500
+Josh, I'm sure you want to chime in too.
+
+608
+00:33:12,060 --> 00:33:12,620
+Yeah, sure.
+
+609
+00:33:12,740 --> 00:33:17,740
+Reach us at our website, fortify.com.
+
+610
+00:33:18,220 --> 00:33:22,500
+I would just say that we're continuously iterating and innovating new use cases
+
+611
+00:33:22,500 --> 00:33:23,740
+for clients to interact.
+
+612
+00:33:23,820 --> 00:33:27,940
+Even most recently, we talked a little bit about that stack and how these are
+
+613
+00:33:27,940 --> 00:33:32,420
+actually different building blocks of the keys, the policies, the backups, and
+
+614
+00:33:32,420 --> 00:33:36,100
+you can enable some really cool things like collaborative wallet use cases for
+
+615
+00:33:36,100 --> 00:33:36,860
+triparty.
+
+616
+00:33:36,860 --> 00:33:40,660
+We've had some interesting examples of new durations where asset owners keep
+
+617
+00:33:40,660 --> 00:33:44,660
+their own custody and enable advisors to transact on their behalf.
+
+618
+00:33:44,860 --> 00:33:46,260
+And all this stuff is really great.
+
+619
+00:33:46,260 --> 00:33:50,220
+But at the same time, the reason I think we're so excited about this is as we
+
+620
+00:33:50,220 --> 00:33:54,060
+continue to innovate new use cases, it is so super important for providers like
+
+621
+00:33:54,060 --> 00:33:57,660
+us and station 70 doing what we can to make sure that the institution is
+
+622
+00:33:57,660 --> 00:34:01,860
+resilient, to make sure that this market is always on and to make sure that that
+
+623
+00:34:01,860 --> 00:34:05,740
+story that I saw 10 years ago with the treasury auction in Bloomberg does not
+
+624
+00:34:05,740 --> 00:34:07,300
+happen in our ecosystem.
+
+625
+00:34:07,340 --> 00:34:10,620
+So our goal is to make this super frictionless.
+
+626
+00:34:10,780 --> 00:34:13,140
+This is a pure play BCP plan.
+
+627
+00:34:13,220 --> 00:34:17,140
+I don't see how anyone would not want to have this pricing wise will be very,
+
+628
+00:34:17,140 --> 00:34:21,980
+very aggressive and almost it's set up to be a no brainer because I think this is
+
+629
+00:34:21,980 --> 00:34:25,220
+the role of folks like us in this space to make sure that we prevent stuff from
+
+630
+00:34:25,220 --> 00:34:25,540
+happening.
+
+631
+00:34:25,780 --> 00:34:29,020
+Definitely sounds like a complete no brainer and congrats to you guys for
+
+632
+00:34:29,020 --> 00:34:30,020
+building this together.
+
+633
+00:34:30,100 --> 00:34:32,980
+This is something that's just good for the overall health of the ecosystem,
+
+634
+00:34:32,980 --> 00:34:36,220
+obviously really good for both of your companies, which I'm excited about as
+
+635
+00:34:36,220 --> 00:34:39,180
+well. So really appreciate you guys coming on the podcast today.
+
+636
+00:34:39,620 --> 00:34:40,300
+Thanks for having us, Matt.
+
+637
+00:34:40,740 --> 00:34:41,260
+Thanks, Matt.
+
+638
+00:34:42,580 --> 00:34:46,180
+Thanks for listening to another episode of on the brink with Castle Island.
+
+639
+00:34:46,340 --> 00:34:51,540
+To find out more about Castle Island, visit Castle Island dot VC to listen to
+
+640
+00:34:51,540 --> 00:34:53,100
+all of our podcast episodes.
+
+641
+00:34:53,420 --> 00:34:58,500
+Please go to on the brink dash podcast dot com, or just click on the tab in our
+
+642
+00:34:58,500 --> 00:35:00,060
+website. Thanks for listening.
+

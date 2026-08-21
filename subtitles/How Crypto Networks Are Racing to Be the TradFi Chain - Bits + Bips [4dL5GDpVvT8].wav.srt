@@ -1,0 +1,2504 @@
+1
+00:00:00,000 --> 00:00:06,840
+ Ethereum, I agree with Chris's point. It is, in a way, like, traffic chain. It is traffic
+
+2
+00:00:06,840 --> 00:00:10,920
+ chain. So, design for that. It's got the Lindy effect. It's got the history.
+
+3
+00:00:10,920 --> 00:00:18,120
+ The Biden SEC systematically missed or failed to interdict every single major crypto fraud
+
+4
+00:00:18,120 --> 00:00:22,960
+ one after another. Like, they did not get FDX. They did not get Terraform Labs. They
+
+5
+00:00:22,960 --> 00:00:25,960
+ did not get Celsius. They did not get three arrows. Capital.
+
+6
+00:00:25,960 --> 00:00:30,760
+ When you have one of your biggest competitors run by a guy named Larry Fink saying, "I'm
+
+7
+00:00:30,760 --> 00:00:35,920
+ tokenizing everything." Well, he probably has a reason for doing that.
+
+8
+00:00:35,920 --> 00:00:40,680
+ Welcome, everyone, to yet another episode of Bits and Bips, where we explore how crypto
+
+9
+00:00:40,680 --> 00:00:45,800
+ and macro collide one basis point at a time. I am still your host, despite the best efforts
+
+10
+00:00:45,800 --> 00:00:51,000
+ of the SEC, Austin Campbell. I'm a high scholar of zero knowledge group, and I'm here with
+
+11
+00:00:51,000 --> 00:00:56,520
+ my usual two co-conspirators, Chris Perkins, the Golden Hand of Coin Fund, and Ramallah
+
+12
+00:00:56,520 --> 00:01:02,320
+ Wallia, Maester Welt, the head of Illumina. And today, we're joined with Elizabeth Kirby,
+
+13
+00:01:02,320 --> 00:01:07,400
+ the high lady of market structure at TradeWeb. And for those of you who are super crypto
+
+14
+00:01:07,400 --> 00:01:13,120
+ natives and unfamiliar with TradeWeb, I will summarize them only as thus, a huge amount
+
+15
+00:01:13,120 --> 00:01:18,800
+ of trading volume goes through TradeWeb. They are actually genuinely part of market infrastructure.
+
+16
+00:01:18,800 --> 00:01:23,360
+ So on that note, we have a bunch of things to discuss today, but I have to give you some
+
+17
+00:01:23,360 --> 00:01:30,520
+ disclaimers first. One, nothing we say here is investment advice. Check unchangedcrypto.com
+
+18
+00:01:30,520 --> 00:01:35,160
+ Bits and Bips for more disclosures. And second of all, a quick word from sponsors who make
+
+19
+00:01:35,160 --> 00:01:37,080
+ the show possible.
+
+20
+00:01:37,080 --> 00:01:42,560
+ Mantell is launching the Global Hackathon 2025 to accelerate the future of real world
+
+21
+00:01:42,560 --> 00:01:50,560
+ assets with a $150,000 prize pool, backing from a $4 billion treasury and direct access
+
+22
+00:01:50,560 --> 00:01:56,280
+ to buy bits 7 million plus users. This is the ultimate ecosystem for builders.
+
+23
+00:01:56,280 --> 00:02:02,080
+ All right, let's start with some breaking news. So in our lead up in discussion of what we're
+
+24
+00:02:02,080 --> 00:02:08,080
+ going to talk about today, news dropped that the Senate Banking Committee quote unquote
+
+25
+00:02:08,080 --> 00:02:13,240
+ has run out of time to mark up market structure legislation this year. And the hearing will
+
+26
+00:02:13,240 --> 00:02:18,720
+ now be pushed into the new year. I know we've discussed this once or twice and expressed
+
+27
+00:02:18,720 --> 00:02:23,560
+ maybe some skepticism about timeliness in the past, but I'll start Chris, what do you think
+
+28
+00:02:23,560 --> 00:02:24,560
+ is going on here?
+
+29
+00:02:24,560 --> 00:02:30,120
+ Yeah, I think both you and I, Austin, I don't want to say I told you so, but I told you
+
+30
+00:02:30,120 --> 00:02:34,280
+ so like we knew this was way too complex. Genius was like next to impossible to get across
+
+31
+00:02:34,280 --> 00:02:39,480
+ the board. Now everyone's freaking out that there's this whole interest issue going on.
+
+32
+00:02:39,480 --> 00:02:45,240
+ It's such a difficult piece of legislation. It's not even funny. And it's no surprise
+
+33
+00:02:45,240 --> 00:02:48,960
+ to me that it's getting pushed. We talked about some of the issues that we're holding
+
+34
+00:02:48,960 --> 00:02:56,080
+ it up. This maniacal focus on Donald Trump ethics that seems to be stopping everything.
+
+35
+00:02:56,080 --> 00:03:00,880
+ Additional issues maybe around DeFi where, look, we saw Citadel come out really, really
+
+36
+00:03:00,880 --> 00:03:07,520
+ hard against some of the DeFi provisions. Citadel is amazing in DC. And so like there
+
+37
+00:03:07,520 --> 00:03:12,640
+ are battles everywhere. You know, my sense, we talked with this with Patrick Whit when
+
+38
+00:03:12,640 --> 00:03:17,560
+ we had him on with White House and we asked him at the time, Patrick, you know, can we
+
+39
+00:03:17,560 --> 00:03:22,000
+ modularize this thing? Can we break it up a little bit? And at the time he's like, that's
+
+40
+00:03:22,000 --> 00:03:26,400
+ not my intent. I don't know that my sense personally is that's the direction that we're
+
+41
+00:03:26,400 --> 00:03:32,040
+ heading. But all that said, I think it's really important that the most important thing that
+
+42
+00:03:32,040 --> 00:03:38,880
+ we've been missing all this time is a taxonomy. What is a security? And what is a commodity?
+
+43
+00:03:38,880 --> 00:03:45,400
+ And I think these two agencies are going to give us that either way. And I think that's
+
+44
+00:03:45,400 --> 00:03:49,800
+ going to help open the institutional door because if you have a future, your commodity,
+
+45
+00:03:49,800 --> 00:03:53,640
+ if you're a commodity, we know how to treat you. If you're a security, you're not going
+
+46
+00:03:53,640 --> 00:03:58,080
+ to the grave anymore. Paul Atkins, Chairman Atkins is going to help you with a viable
+
+47
+00:03:58,080 --> 00:04:04,640
+ path in a via internet capital markets. So anyway, does it matter? I would say be nice
+
+48
+00:04:04,640 --> 00:04:09,000
+ to have something enshrined as we're going through election season, but we're going to
+
+49
+00:04:09,000 --> 00:04:14,440
+ be just fine. But I would love to hear what Ms. Trade Web has to say.
+
+50
+00:04:14,440 --> 00:04:19,400
+ Thanks. And first of all, thank you guys for having me. I'm so excited to be here. I'm
+
+51
+00:04:19,400 --> 00:04:25,040
+ excited to dig into some of these topics with you guys. Look, I agree. The unfortunate
+
+52
+00:04:25,040 --> 00:04:29,400
+ truth is I don't think it's terribly shocking that we didn't get this done this here. It's
+
+53
+00:04:29,400 --> 00:04:35,880
+ a massive, giant, multifaceted, hulking piece of legislation. And you know, as you guys
+
+54
+00:04:35,880 --> 00:04:39,600
+ have rightly mentioned, there are different groups that are focused on different elements
+
+55
+00:04:39,600 --> 00:04:45,800
+ of it. There are vastly, vastly different degrees of knowledge and understanding of these markets
+
+56
+00:04:45,800 --> 00:04:50,040
+ by the people, you know, who are kind of tasked with pushing it through. So there's a lot that
+
+57
+00:04:50,040 --> 00:04:57,480
+ has to happen. I think like the idea of modularizing it is kind of interesting, actually, because
+
+58
+00:04:57,480 --> 00:05:02,760
+ as much as we'd love to just get the whole thing kind of done, if that's not likely to
+
+59
+00:05:02,760 --> 00:05:07,720
+ happen or not likely to happen in as expedient a fashion as we would all like, then maybe
+
+60
+00:05:07,720 --> 00:05:12,960
+ there's some merit to trying to kind of break this apart and move pieces through that are
+
+61
+00:05:12,960 --> 00:05:17,400
+ maybe, you know, a little bit more straightforward or a little bit less controversial to certain
+
+62
+00:05:17,400 --> 00:05:23,200
+ groups. So I think that's interesting. But I also think, Chris, like you bring up a good
+
+63
+00:05:23,200 --> 00:05:28,600
+ point, which is that, you know, the SEC and the CFTC in the meantime are still giving
+
+64
+00:05:28,600 --> 00:05:35,360
+ us some stuff to work on and work with, you know, and the SEC put out a no action letter
+
+65
+00:05:35,360 --> 00:05:40,800
+ at the end of last week or on the DTCC and some of the tokenization stuff. The CFTC has
+
+66
+00:05:40,800 --> 00:05:46,400
+ been, you know, really pretty active over the past few weeks, even with the sort of like
+
+67
+00:05:46,400 --> 00:05:51,400
+ impending departure of the chair. So I think it's it's it's encouraging that both of those
+
+68
+00:05:51,400 --> 00:05:54,360
+ agencies are continuing to move forward a pace.
+
+69
+00:05:54,360 --> 00:06:01,200
+ Can I ask a question? So, you know, you're at the heart of institutional execution. And,
+
+70
+00:06:01,200 --> 00:06:05,560
+ you know, do you think that there needs to be a law passed for institutions to come in
+
+71
+00:06:05,560 --> 00:06:09,440
+ or, you know, are they coming in every single day? How do you think about it?
+
+72
+00:06:09,440 --> 00:06:14,920
+ When we talk to sort of like our constituents about these markets, and we talk to them about,
+
+73
+00:06:14,920 --> 00:06:19,600
+ you know, crypto markets, we also talk to them about tokenization of sort of, you know, real
+
+74
+00:06:19,600 --> 00:06:28,440
+ world existing, you know, assets. And one thing that I keep hearing is that there is
+
+75
+00:06:28,440 --> 00:06:34,640
+ a desire for sort of more traditional intermediaries and whether that's in the sort of realm of
+
+76
+00:06:34,640 --> 00:06:41,440
+ like liquidity provision, maybe a little bit, I almost think even, you know, that's a more
+
+77
+00:06:41,440 --> 00:06:49,480
+ kind of critical ask in the areas of sort of like custody or prime brokerage type activities.
+
+78
+00:06:49,480 --> 00:06:56,360
+ And so I think the question comes down to like, are those large kind of entrenched institutions
+
+79
+00:06:56,360 --> 00:07:02,480
+ that tend to provide those services in traditional markets going to be comfortable pressing ahead
+
+80
+00:07:02,480 --> 00:07:09,840
+ in the absence of like real kind of regulatory clarity and certainty? And that's where I'm
+
+81
+00:07:09,840 --> 00:07:13,760
+ just not sure. There's absolutely progress for sure. There's progress happening. And
+
+82
+00:07:13,760 --> 00:07:17,720
+ I think there's also a lot of like really good progress that's happening away from those
+
+83
+00:07:17,720 --> 00:07:22,880
+ traditional intermediaries. And we see that with, you know, the growth of these sort of
+
+84
+00:07:22,880 --> 00:07:29,480
+ crypto native PV and custody providers, absolutely, definitely the continued growth of crypto
+
+85
+00:07:29,480 --> 00:07:37,200
+ native liquidity, you know, providers and market. And so things are happening for sure.
+
+86
+00:07:37,200 --> 00:07:40,840
+ Will we still have this really interesting inflection point when the more traditional
+
+87
+00:07:40,840 --> 00:07:46,360
+ guys get involved? I still tend to think so. And so I think some of those more traditional
+
+88
+00:07:46,360 --> 00:07:52,400
+ guys are just going to want a little bit more clarity and certainty than what we also far
+
+89
+00:07:52,400 --> 00:07:54,640
+ on intended. Yeah.
+
+90
+00:07:54,640 --> 00:08:00,680
+ So I, yeah, I'll pile in there and raise a couple of things. One is if you remember
+
+91
+00:08:00,680 --> 00:08:05,560
+ back at the start of the genius debate, the Trump administration at that point was saying
+
+92
+00:08:05,560 --> 00:08:10,640
+ we want this link to market structure, we want them to pass at the same time. And I think
+
+93
+00:08:10,640 --> 00:08:15,880
+ as the summer went along, people realized, well, one of these is pretty achievable. And
+
+94
+00:08:15,880 --> 00:08:19,960
+ we might have a compromise that we can execute on right now. And the other one of these is
+
+95
+00:08:19,960 --> 00:08:24,840
+ oh boy. And so they did break them apart, you know, eventually have to have that moment
+
+96
+00:08:24,840 --> 00:08:28,880
+ of realization of we've got to take the parts we can get because otherwise we're probably
+
+97
+00:08:28,880 --> 00:08:34,520
+ going to get nothing. And that compromise was made. I can see a similar process playing
+
+98
+00:08:34,520 --> 00:08:43,280
+ out here. But two, I think some of the fight that we're having here is call it legitimate
+
+99
+00:08:43,280 --> 00:08:47,360
+ business interests colliding with each other. For instance, if I'm Citadel and right now
+
+100
+00:08:47,360 --> 00:08:51,540
+ I'm sitting on top of a massive proportion of US equities trading, I don't want this stuff
+
+101
+00:08:51,540 --> 00:08:56,440
+ tokenized. Right. I don't want AMMs taking business. I don't want other market making
+
+102
+00:08:56,440 --> 00:09:01,680
+ firms at a new market structure framework to step in like, I'm the single biggest beneficiary
+
+103
+00:09:01,680 --> 00:09:05,480
+ of equities market structure to a point that it's almost a monopoly. Of course, they don't
+
+104
+00:09:05,480 --> 00:09:10,640
+ want that to change. Fine. You know, and then you have the countervarying like forces from
+
+105
+00:09:10,640 --> 00:09:14,560
+ all the non incumbents who want to disrupt them. And quite frankly, in this one, and this is
+
+106
+00:09:14,560 --> 00:09:19,160
+ a weird alliance, some of the legacy banks who want to get back into the game who have
+
+107
+00:09:19,160 --> 00:09:24,800
+ been kind of forced out, right? And that, that's a real divergence. But two, I think
+
+108
+00:09:24,800 --> 00:09:31,600
+ there's also a stark divide here on just straight up education, like stablecoins were hard enough
+
+109
+00:09:31,600 --> 00:09:37,600
+ to explain. And those are, you know, honestly, pretty simple financial instruments, explaining
+
+110
+00:09:37,600 --> 00:09:42,840
+ some of the DeFi stuff to people in Congress who are like, still somewhat skeptical of
+
+111
+00:09:42,840 --> 00:09:48,880
+ how that magical like payments app PayPal works inside of their phone is like another
+
+112
+00:09:48,880 --> 00:09:53,640
+ whole level of Hill. And I say that, you know, Richie Torres has talked about this in Congress,
+
+113
+00:09:53,640 --> 00:09:57,960
+ but I say that in the form of some of this is just literally generational. Like if you
+
+114
+00:09:57,960 --> 00:10:02,600
+ were 75 years old, then the Senate, you did not grow up with the internet, right? This
+
+115
+00:10:02,600 --> 00:10:07,380
+ stuff is all new to you. And you're kind of like feeling your way around in the dark.
+
+116
+00:10:07,380 --> 00:10:12,720
+ We may have, I think with market structure, a bigger educational lift to do anything in
+
+117
+00:10:12,720 --> 00:10:14,360
+ DeFi than people realize.
+
+118
+00:10:14,360 --> 00:10:21,060
+ Yeah, I would add to that Trump's political capital is significantly diminished after
+
+119
+00:10:21,060 --> 00:10:26,220
+ the October elections and there's division in the MAGA wing. He's got to pick and choose
+
+120
+00:10:26,220 --> 00:10:31,920
+ his spots. The crypto group is essentially captive at this point. It's unlikely he's
+
+121
+00:10:31,920 --> 00:10:38,560
+ going to win or lose support on the margin. So the kind of he has crypto where they need
+
+122
+00:10:38,560 --> 00:10:46,120
+ to be and you need to win another election and you have to have a battle to fight for.
+
+123
+00:10:46,120 --> 00:10:53,960
+ So I think politically, he's going to focus on Main Street. That means tax cuts, rebates,
+
+124
+00:10:53,960 --> 00:10:59,320
+ stimulus checks, those kinds of policies, housing affordability. So I agree with all
+
+125
+00:10:59,320 --> 00:11:06,160
+ the comments that have been shared. It's just unlikely to see this come together. And that
+
+126
+00:11:06,160 --> 00:11:10,480
+ on the policy itself, it is very difficult to make a principal base distinction between
+
+127
+00:11:10,480 --> 00:11:14,800
+ rewards and earning interest. We could all get on a whiteboard and stare at it for eight
+
+128
+00:11:14,800 --> 00:11:19,120
+ hours. And it'd be very hard to demarcate that line.
+
+129
+00:11:19,120 --> 00:11:25,200
+ I mean, what on the, on the interest point, I was having this discussion maybe with somebody
+
+130
+00:11:25,200 --> 00:11:30,120
+ in the legislative space. And I made the point that like, what do you think you mean when
+
+131
+00:11:30,120 --> 00:11:35,040
+ you say ban interest? Because like the interest doesn't go away. It's a question of who gets
+
+132
+00:11:35,040 --> 00:11:40,360
+ to keep the money, right? Like we did not pass a bill saying if like money is in a stable
+
+133
+00:11:40,360 --> 00:11:45,440
+ coin reserve, the treasury itself doesn't have to pay on those T bills, right? That is not
+
+134
+00:11:45,440 --> 00:11:46,440
+ what we did here.
+
+135
+00:11:46,440 --> 00:11:52,200
+ So we're having an argument about do Paulo and Jeremy get bigger checks or do we distribute
+
+136
+00:11:52,200 --> 00:11:57,580
+ that to users? And I think when you start framing the discussion properly, you start
+
+137
+00:11:57,580 --> 00:12:04,120
+ sailing into interesting waters. I also published a paper over the weekend pointing out that
+
+138
+00:12:04,120 --> 00:12:08,400
+ the banking industry among many other things in there literally argued the reverse of this
+
+139
+00:12:08,400 --> 00:12:13,520
+ not too long ago to get rid of Reg Q. So it's quite interesting to hear them literally reverse
+
+140
+00:12:13,520 --> 00:12:20,440
+ the argument because I will remind everybody, the phrasing was not being able to pay interest
+
+141
+00:12:20,440 --> 00:12:26,880
+ in a modern market is uncompetitive and renders our products unusable. And they said that about
+
+142
+00:12:26,880 --> 00:12:31,440
+ bank deposits that couldn't pay interest. So this is what I mean. I think there's a lot
+
+143
+00:12:31,440 --> 00:12:36,120
+ of complicated forces that are going to be sailing into each other. And I think the government
+
+144
+00:12:36,120 --> 00:12:41,940
+ has provided anti clarity, if anything, on this point, we have to protect end users from
+
+145
+00:12:41,940 --> 00:12:47,880
+ receiving interest, right? That's, that's the goal, very, very dangerous. Chris, think
+
+146
+00:12:47,880 --> 00:12:53,520
+ of those bank executives who might have their bonuses reduced. How can you do that to them?
+
+147
+00:12:53,520 --> 00:12:57,920
+ I can't do that. All right. So before I get myself into more political trouble here,
+
+148
+00:12:57,920 --> 00:13:04,240
+ actually, let's just get into more political trouble. So recently, the New York Times dropped
+
+149
+00:13:04,240 --> 00:13:11,640
+ an article talking about the SEC, the Biden administration's efforts under, call it the
+
+150
+00:13:11,640 --> 00:13:17,440
+ previous regime around securities regulation. And to some extent, defending them and saying
+
+151
+00:13:17,440 --> 00:13:23,680
+ that Trump has co-opted crypto and like brought them in. All right. I have a lot of thoughts
+
+152
+00:13:23,680 --> 00:13:29,200
+ about this, but I'll hold my fire first and ask, what, what do you think of the New York
+
+153
+00:13:29,200 --> 00:13:32,720
+ Times article out there? We could start with our guest, if you want.
+
+154
+00:13:32,720 --> 00:13:41,880
+ Sure. No, thank you. This article, look, I mean, I think it didn't read to me as being
+
+155
+00:13:41,880 --> 00:13:48,400
+ like terribly kind of like objective reporting, maybe to make an understatement to begin with.
+
+156
+00:13:48,400 --> 00:13:53,120
+ Look, it's like you're comparing these two administrations, which are so wildly different
+
+157
+00:13:53,120 --> 00:14:00,000
+ in their approach. And, and the article really took this stance of sort of glorifying, you
+
+158
+00:14:00,000 --> 00:14:07,440
+ know, the way that Gensa was, was, was looking into these, you know, issues or, or enforcement
+
+159
+00:14:07,440 --> 00:14:12,000
+ actions that he was trying to take. And really, obviously, the intent of the article was to
+
+160
+00:14:12,000 --> 00:14:16,840
+ draw really a really clear line between the, you know, the sort of fact that many of those
+
+161
+00:14:16,840 --> 00:14:22,360
+ enforcement actions have gone away. And Donald Trump's personal business interests. I mean,
+
+162
+00:14:22,360 --> 00:14:27,320
+ I think even putting that part to the side, there's so much to unpack with without even
+
+163
+00:14:27,320 --> 00:14:32,360
+ touching the Donald Trump part of it. And what the article, of course, kind of like
+
+164
+00:14:32,360 --> 00:14:40,400
+ fails to really capture is that, that Gary Gensler era of, you know, regulation by enforcement
+
+165
+00:14:40,400 --> 00:14:47,560
+ was in and of itself like kind of first almost unprecedented in its nature and scope, but
+
+166
+00:14:47,560 --> 00:14:52,800
+ also was like not terribly popular. And so certainly, you know, commissioners who were
+
+167
+00:14:52,800 --> 00:14:58,800
+ at the SEC at that time, you ate in Pierce specifically. And you ate is currently there
+
+168
+00:14:58,800 --> 00:15:06,720
+ today were, you know, during that entire time of, of, you know, Gensler's chairmanship, really
+
+169
+00:15:06,720 --> 00:15:11,720
+ speaking out about how they were not in agreement with this kind of like, in for regulation
+
+170
+00:15:11,720 --> 00:15:17,720
+ by enforcement. And so I think there are plenty of questions that really could be raised around
+
+171
+00:15:17,720 --> 00:15:25,880
+ whether the SEC in a number of those cases either exceeded its authority, or, you know,
+
+172
+00:15:25,880 --> 00:15:30,680
+ in fact, there was basis for a lot of those enforcement actions. So while the article
+
+173
+00:15:30,680 --> 00:15:33,280
+ kind of talks about, look, there were all these enforcement actions, and now a lot of
+
+174
+00:15:33,280 --> 00:15:38,000
+ them kind of went away, it doesn't really get into like, were those enforcement actions
+
+175
+00:15:38,000 --> 00:15:45,080
+ legitimate to begin with or not? Which I think is like super important here. Obviously,
+
+176
+00:15:45,080 --> 00:15:50,240
+ the Atkins SEC is more deregulatory than Gary Gensler's SEC was, I don't think that's a
+
+177
+00:15:50,240 --> 00:15:56,120
+ particularly, you know, scandalous statement, but that's a fairly objective fact. I think
+
+178
+00:15:56,120 --> 00:16:03,640
+ like, we, you know, hopefully are getting to a point now, though, where we can be deregulatory
+
+179
+00:16:03,640 --> 00:16:10,160
+ in a way that spurs innovation and market kind of evolution at a pace that we all want
+
+180
+00:16:10,160 --> 00:16:16,800
+ to see. But, you know, I really do believe, and I'm interested in your thoughts on this,
+
+181
+00:16:16,800 --> 00:16:22,920
+ collectively, all of you guys, I think if we can, you know, if the official sector can
+
+182
+00:16:22,920 --> 00:16:28,360
+ kind of get some of this right, it can really act as an accelerant for these markets to
+
+183
+00:16:28,360 --> 00:16:32,880
+ take off in like a super meaningful way in the US. And we've, we've obviously been,
+
+184
+00:16:32,880 --> 00:16:37,000
+ you know, massively kind of stymied here in the US and digital markets and their ability
+
+185
+00:16:37,000 --> 00:16:40,760
+ to grow. So I mean, I'll pause there. I agree. I could, I could talk about this topic for
+
+186
+00:16:40,760 --> 00:16:41,760
+ a while.
+
+187
+00:16:41,760 --> 00:16:47,280
+ Yeah. All right. So as somebody who's been a long time critic of the Biden SEC, my biggest
+
+188
+00:16:47,280 --> 00:16:52,320
+ complaint with that article was the complete and utter lack of context. Right. If you look
+
+189
+00:16:52,320 --> 00:16:59,160
+ at the track record over there, the Biden SEC systematically missed or failed to interdict
+
+190
+00:16:59,160 --> 00:17:05,040
+ every single major crypto fraud one after another. Like they did not get FDX. They did
+
+191
+00:17:05,040 --> 00:17:09,480
+ not get Terraform labs. They did not get Celsius. They did not get three eras capital. They
+
+192
+00:17:09,480 --> 00:17:14,440
+ did not get block fine, not that they're fraud, but they did go bankrupt. Like one after another,
+
+193
+00:17:14,440 --> 00:17:18,720
+ users just got burned, got burned, got burned, got burned, got burned, got burned, got burned
+
+194
+00:17:18,720 --> 00:17:25,400
+ and the SEC did nothing either because they were way too slow on the draw or didn't even
+
+195
+00:17:25,400 --> 00:17:30,520
+ notice it was going on. At the same time, they spent a huge amount of political capital
+
+196
+00:17:30,520 --> 00:17:35,640
+ destroying and I'll go down a checklist here. So people remember this, a decentralized
+
+197
+00:17:35,640 --> 00:17:42,680
+ library project, an NFT project to make an animated show about cats that were getting
+
+198
+00:17:42,680 --> 00:17:51,680
+ high. They threatened, though, didn't proceed with a musician like issuing NFTs on the blockchain.
+
+199
+00:17:51,680 --> 00:17:55,960
+ And then they went after Coinbase, Kraken, et cetera, none of whom were alleged to have
+
+200
+00:17:55,960 --> 00:18:01,680
+ done anything wrong to users. So like, I'm just going to put it to you this way. Random
+
+201
+00:18:01,680 --> 00:18:06,960
+ yes, it would have hit more targets among the bad guys than what the SEC did, right? If
+
+202
+00:18:06,960 --> 00:18:13,720
+ you just randomly sent people notices among that group. And so it's hard to look at that
+
+203
+00:18:13,720 --> 00:18:20,160
+ and say, well, it's fair to write a journalistic article that fails to mention that context,
+
+204
+00:18:20,160 --> 00:18:26,440
+ right? Because it proceeds from, well, the Biden, like SEC was legitimate, therefore,
+
+205
+00:18:26,440 --> 00:18:32,360
+ but hold on, slow down, right? Like, what did you just say? Right? That's like being
+
+206
+00:18:32,360 --> 00:18:37,120
+ like, well, Enron was a legitimate company. So how could it have collapsed is like, well,
+
+207
+00:18:37,120 --> 00:18:42,800
+ maybe the counter reaction, but hold on. And so I look at this whole thing. And it just
+
+208
+00:18:42,800 --> 00:18:49,120
+ tells me like how broken a lot of the reporting apparatus is at some of these places to have
+
+209
+00:18:49,120 --> 00:18:55,760
+ an article like that hit a mainstream media publication with none of this context. No quotes
+
+210
+00:18:55,760 --> 00:19:01,400
+ from people on the other side of things and really like no informed skepticism at all.
+
+211
+00:19:01,400 --> 00:19:05,880
+ Because like Chris likes to joke about this, but real talk when I was on 60 minutes, right?
+
+212
+00:19:05,880 --> 00:19:10,360
+ Like I'll tell everybody I was sitting with Scott Pelley and the editorial and reporting
+
+213
+00:19:10,360 --> 00:19:15,520
+ team there. And we were talking about things like CZ's pardon. And they were asking about
+
+214
+00:19:15,520 --> 00:19:21,520
+ it and comparing it to like what had happened with HSBC. And it really helped them hone in
+
+215
+00:19:21,520 --> 00:19:25,720
+ on a story that was more about governance and the pay to play rather than the legitimacy
+
+216
+00:19:25,720 --> 00:19:30,440
+ of like finances actions or not, because they were able to correctly identify like, wait
+
+217
+00:19:30,440 --> 00:19:35,240
+ a minute, some trad five people actually did some awful stuff and did not go to jail.
+
+218
+00:19:35,240 --> 00:19:40,960
+ Okay, right. And there was just none of that in the times, right? Like no context.
+
+219
+00:19:40,960 --> 00:19:44,560
+ Yeah, I'll be brief on the times. I don't read the New York Times. I also don't read
+
+220
+00:19:44,560 --> 00:19:49,320
+ the economists. It's a backward looking it's negative alpha. Modern media is mostly confirmation
+
+221
+00:19:49,320 --> 00:19:56,600
+ bias. There was also like a hit piece on David Sacks on AI the week before. Yeah, I don't
+
+222
+00:19:56,600 --> 00:20:00,520
+ think it's a good use of attention. You know, I don't know. I think there's still a big
+
+223
+00:20:00,520 --> 00:20:06,400
+ battle for the mainstream mind. You know, we talked about crypto being on on 60 minutes,
+
+224
+00:20:06,400 --> 00:20:12,680
+ like three weeks in a row between Austin prediction markets and finance. So I don't think mainstream
+
+225
+00:20:12,680 --> 00:20:17,920
+ really has really got their head around crypto just yet. Looking at the New York Times and
+
+226
+00:20:17,920 --> 00:20:22,480
+ by the way, funny aside, I was actually with Scott Pelly in Ramadi. I almost got him killed
+
+227
+00:20:22,480 --> 00:20:28,440
+ next next time you see him tell him I'm sorry. But when you look at that article, you always
+
+228
+00:20:28,440 --> 00:20:34,680
+ got to go to the referee in the courts, right, during the administration. Gary Gensler lost.
+
+229
+00:20:34,680 --> 00:20:40,720
+ He lost over and over again at the cost of the taxpayer. And so without really diving
+
+230
+00:20:40,720 --> 00:20:47,240
+ into that track record, it's it's awful, right? And the damage that Gary Gensler did, I would
+
+231
+00:20:47,240 --> 00:20:52,120
+ say it's directly related to the stress that we saw in 10 10, where retail got obliterated
+
+232
+00:20:52,120 --> 00:20:58,640
+ because we forced derivatives offshore. That's on him. And then also the things that you specified
+
+233
+00:20:58,640 --> 00:21:06,800
+ Austin. So look, it's it's shameful. But the biggest issue that I have right now is the
+
+234
+00:21:06,800 --> 00:21:14,680
+ polarization and the politicalization of crypto. It makes no sense to me. In 1999, Al Gore came
+
+235
+00:21:14,680 --> 00:21:20,040
+ out and talked about how he invented the internet and he got a lot of flack for it. But he was
+
+236
+00:21:20,040 --> 00:21:25,360
+ a Democrat, right? And he was saying, I'm pro innovation. I did this, right? The internet
+
+237
+00:21:25,360 --> 00:21:31,060
+ is here. It was me, right? And now we have a party or elements of a party. I wouldn't
+
+238
+00:21:31,060 --> 00:21:37,280
+ say it's a party because I've spoken to plenty of Democrats and they're bullish. But we have
+
+239
+00:21:37,280 --> 00:21:45,500
+ element fringe elements, right? Yeah, like you, Austin, that are now saying, wait, I'm anti technology. I'm anti innovation.
+
+240
+00:21:45,500 --> 00:21:50,120
+ That's not American. And so I don't know why we're departing from these values. And even
+
+241
+00:21:50,120 --> 00:21:57,160
+ when you dissect the ideology of this part of the party, the progressives, they want to
+
+242
+00:21:57,160 --> 00:22:03,240
+ have give people the right access that they've been denied. So it like confounds me that this
+
+243
+00:22:03,240 --> 00:22:09,760
+ is like the most progressive technology out there. And they, they sit there more in favor
+
+244
+00:22:09,760 --> 00:22:17,080
+ of the way things are. I just don't get. Alright, so speaking of the way things are, let's
+
+245
+00:22:17,080 --> 00:22:23,840
+ talk about somebody coming from that past world and moving into the future. So JP Morgan
+
+246
+00:22:23,840 --> 00:22:28,520
+ just launched a tokenized money market fund on Ethereum. Looks like it's seating it with
+
+247
+00:22:28,520 --> 00:22:34,400
+ a hundred million of its own capital. I believe it's called money. It is a private fund for
+
+248
+00:22:34,400 --> 00:22:43,560
+ qualified investors. You can subscribe via cash or USDC. And to be honest, it seems like
+
+249
+00:22:43,560 --> 00:22:47,160
+ one of the instruments that already exists coming out of a black rock coming out of a
+
+250
+00:22:47,160 --> 00:22:51,800
+ Franklin Templeton coming out of wisdom tree coming out of super state. Like time and time
+
+251
+00:22:51,800 --> 00:22:56,040
+ again, we've seen people starting to tokenize call it the raw material, which is money
+
+252
+00:22:56,040 --> 00:23:02,960
+ market funds. But what's interesting to me is two things. One, this is an OCC regulated
+
+253
+00:23:02,960 --> 00:23:08,080
+ bank. So that's new. The fact that this is coming out of somebody from the bank regulatory
+
+254
+00:23:08,080 --> 00:23:14,320
+ framework with how negative they've been is eye opening. And two, although this is a tiny
+
+255
+00:23:14,320 --> 00:23:19,000
+ amount of money for JP Morgan, because to be clear, we're talking a well over $3 trillion
+
+256
+00:23:19,000 --> 00:23:23,680
+ balance sheet over there for the listeners. Like this is an institution where the CEO has
+
+257
+00:23:23,680 --> 00:23:29,200
+ been openly skeptical of Bitcoin and blockchain technology in the past. So what do we make
+
+258
+00:23:29,200 --> 00:23:34,840
+ of JP Morgan in particular, starting after this space? Who's the target customer for
+
+259
+00:23:34,840 --> 00:23:39,760
+ this, first of all, right? So you have to be a qualified purchaser, a million plus. Go
+
+260
+00:23:39,760 --> 00:23:47,240
+ ahead, Chris. No, no, that's what it was. You got it. So is the institutions or high net worth?
+
+261
+00:23:47,240 --> 00:23:54,740
+ I think it qualified. It's probably institutions is my guess, like, yeah, or or they're just
+
+262
+00:23:54,740 --> 00:23:58,960
+ guessing, right? Because I think you've got to beg to the question of, do they know who
+
+263
+00:23:58,960 --> 00:24:04,160
+ the target audience is? Oh, I'm sure they know. JP Morgan, let me know this Austin. JP Morgan
+
+264
+00:24:04,160 --> 00:24:10,800
+ was a customer first business. They know the customer target. If if it's institutional,
+
+265
+00:24:10,800 --> 00:24:16,440
+ then they're going after real time settlement. And they went after capital markets, use cases
+
+266
+00:24:16,440 --> 00:24:21,240
+ or trying to free up the capital that's tied up in T plus three set on the depending what
+
+267
+00:24:21,240 --> 00:24:26,000
+ instrument you're discussing. Obviously trade web is a part of that ecosystem too.
+
+268
+00:24:26,000 --> 00:24:30,840
+ Yeah, I would love to just make it easier for you to take is tokenized collateral? How
+
+269
+00:24:30,840 --> 00:24:36,440
+ do you think about it? Yeah, I think, well, the collateral thing is definitely interesting.
+
+270
+00:24:36,440 --> 00:24:42,200
+ And we've been seeing, you know, the other tokenized money market funds too. You know,
+
+271
+00:24:42,200 --> 00:24:47,640
+ I think it's a good question around who's the target customer, because the other issuers
+
+272
+00:24:47,640 --> 00:24:54,640
+ Austin that you were mentioning, I mean, there's been some modest kind of inflows to those
+
+273
+00:24:54,640 --> 00:25:00,840
+ products. But, you know, I'm not sure that it has, I think, been like total total game
+
+274
+00:25:00,840 --> 00:25:07,760
+ changers. So while I think the product makes sense, and yeah, again, I don't know where
+
+275
+00:25:07,760 --> 00:25:12,560
+ the target customer is. I don't know if it's sort of like a corporate treasure type person,
+
+276
+00:25:12,560 --> 00:25:18,200
+ you know, or somebody who wants to utilize kind of on chain, you know, collateral for
+
+277
+00:25:18,200 --> 00:25:21,680
+ other reasons, which seems like a slightly like, you know, more niche audience at this
+
+278
+00:25:21,680 --> 00:25:28,520
+ point. But it might also be like, are these just sort of a kind of path of least resistance
+
+279
+00:25:28,520 --> 00:25:34,640
+ to start dipping a toe into the water of, you know, tokenized issuance? And maybe, you
+
+280
+00:25:34,640 --> 00:25:40,280
+ know, we're going to see it expand from there. Yeah, I don't know. I think these are all
+
+281
+00:25:40,280 --> 00:25:41,280
+ the questions.
+
+282
+00:25:41,280 --> 00:25:45,280
+ So my two cents, you have there. So Jimmy Morgan, this is actually the asset management
+
+283
+00:25:45,280 --> 00:25:49,480
+ side of the business, right? They're about a $4 trillion asset manager, which is separate
+
+284
+00:25:49,480 --> 00:25:54,840
+ and distinct, but related to the bank, right? And when you have one of your biggest competitors
+
+285
+00:25:54,840 --> 00:26:00,000
+ run by a guy named Larry Fink saying, I'm tokenizing everything. Well, he probably has
+
+286
+00:26:00,000 --> 00:26:03,840
+ a reason for doing that. I think the reason is, you know, amongst other things, better
+
+287
+00:26:03,840 --> 00:26:07,680
+ collateral mobility, you're seeing the CFTC coming out saying, Hey, this is going to be
+
+288
+00:26:07,680 --> 00:26:12,320
+ great. We're going to enhance collateralization is going to be faster and real. That provides
+
+289
+00:26:12,320 --> 00:26:18,160
+ demand and utility amongst those institutions that need to settle their derivatives obligations.
+
+290
+00:26:18,160 --> 00:26:22,760
+ And gosh, BlackRock's doing it and you're not, you're going to get left behind guys. Sorry
+
+291
+00:26:22,760 --> 00:26:27,680
+ about it. And so I, it's no surprise. Like, when's GSAM going to have their tokenized
+
+292
+00:26:27,680 --> 00:26:31,480
+ money market fund, right? And I think everyone is going to tokenize. We've talked about this
+
+293
+00:26:31,480 --> 00:26:36,360
+ in the past. The equity market's going to tokenize. But when I think about money market funds,
+
+294
+00:26:36,360 --> 00:26:41,360
+ the real utility, do treasureers sweep them? Yes, they sweep into money market funds all
+
+295
+00:26:41,360 --> 00:26:45,800
+ the time and the faster you can affect that sweeping, you can maybe clip additional yield.
+
+296
+00:26:45,800 --> 00:26:50,800
+ I think Franklin Templeton has a, they're money market fund. I think they literally capture
+
+297
+00:26:50,800 --> 00:26:55,920
+ interest to like the minute or the hour or something. And so if that's your case and
+
+298
+00:26:55,920 --> 00:26:59,960
+ you're sweeping it, you know, every day, you're going to maximize your yield to that product.
+
+299
+00:26:59,960 --> 00:27:03,800
+ If you're moving it to your senior, your ice obligations on the riverside, there's utility
+
+300
+00:27:03,800 --> 00:27:09,140
+ there. So you got to do it. No, it's a meat to response table stakes. You got to be in
+
+301
+00:27:09,140 --> 00:27:13,240
+ the game. Well, I think that's where the industry is, right? It's not even me too. It's like,
+
+302
+00:27:13,240 --> 00:27:17,440
+ if you don't have it, what are you doing? Because you're, you're not going to have that utility
+
+303
+00:27:17,440 --> 00:27:22,360
+ for your end users. Again, like we go back to like equities markets, right? There's going
+
+304
+00:27:22,360 --> 00:27:28,600
+ to be a day when the equity market tokenizes to $127 trillion, right? I'm a fiduciary. You're
+
+305
+00:27:28,600 --> 00:27:33,240
+ a fiduciary rom. If it's, if there's enough liquidity, you got to buy the token. You have
+
+306
+00:27:33,240 --> 00:27:38,600
+ to buy the one standard that emerges, especially if it's used for settlement and clearing. There
+
+307
+00:27:38,600 --> 00:27:44,600
+ should be one standard that gains adoption. Blockrock has an incredible edge because they
+
+308
+00:27:44,600 --> 00:27:49,600
+ represent the buy side, whereas the investment banks are competing with one another and they
+
+309
+00:27:49,600 --> 00:27:55,920
+ don't want to use their competitor's product. No, but conversely, right, I think this is
+
+310
+00:27:55,920 --> 00:28:00,120
+ why the things we're seeing tokenized first or the government money market funds because
+
+311
+00:28:00,120 --> 00:28:06,160
+ realistically speaking, like a tea bill fund run by like a JP Morgan asset management to
+
+312
+00:28:06,160 --> 00:28:11,600
+ Blackrock, a fidelity of Vanguard, a Goldman Sachs, they're all fundamentally close to
+
+313
+00:28:11,600 --> 00:28:16,720
+ identical. Like, are they perfectly identical? No, but like you would take one share for
+
+314
+00:28:16,720 --> 00:28:22,040
+ another in a way you would not with bank deposits. But who, where are they going to trade? Liz?
+
+315
+00:28:22,040 --> 00:28:27,200
+ You know, you have these funny books. Exactly. How's that going to play out? Right. So I mean,
+
+316
+00:28:27,200 --> 00:28:34,560
+ Liz, what would it be in your interest to work with a tokenized money market firm issued
+
+317
+00:28:34,560 --> 00:28:40,840
+ by an investment bank or a party like Blackrock? Honestly, from our perspective, like I don't
+
+318
+00:28:40,840 --> 00:28:46,480
+ think we really care. We would certainly like, you know, our general thesis is to offer,
+
+319
+00:28:46,480 --> 00:28:51,600
+ you know, the full sweetest suite of products that, you know, our customers and or potential
+
+320
+00:28:51,600 --> 00:28:56,640
+ customers would want to trade. So, you know, we are engaged with all of these tokenized
+
+321
+00:28:56,640 --> 00:29:04,040
+ money market fund issuers today. We are, you know, actively kind of working on projects
+
+322
+00:29:04,040 --> 00:29:10,520
+ to support transacting and, you know, as well as sort of, you know, purchase and sale of
+
+323
+00:29:10,520 --> 00:29:16,440
+ these products. We're also, you know, doing a bunch of things around tokenized repo and
+
+324
+00:29:16,440 --> 00:29:22,320
+ to allow people to have access to repo markets on the weekends on a 24 by seven basis when
+
+325
+00:29:22,320 --> 00:29:29,000
+ repo traditional repo markets are shut. As of now that the repo traits that we've done,
+
+326
+00:29:29,000 --> 00:29:32,840
+ the collateral leg has been a tokenized T bill. But like, could that be a tokenized money
+
+327
+00:29:32,840 --> 00:29:37,200
+ market fund? Sure. Definitely could be. So we're talking, you guys are talking about
+
+328
+00:29:37,200 --> 00:29:42,840
+ very similar products, but with separate companies behind them, my mind immediately goes to stable
+
+329
+00:29:42,840 --> 00:29:47,200
+ coins. And when they're stable coins, somebody's going to capture the interest. And I think
+
+330
+00:29:47,200 --> 00:29:51,760
+ there's going to be incredible, incredible, tradified demand for stable coin trading.
+
+331
+00:29:51,760 --> 00:29:56,000
+ Liz, is that something you guys are thinking about? I mean, yeah, just like trade up did
+
+332
+00:29:56,000 --> 00:30:02,360
+ 173 trillion dollars in Q three in volume. Like, is that a merit massive area of focus?
+
+333
+00:30:02,360 --> 00:30:08,320
+ It's massive. It's mentioned. So, I mean, digital assets writ large are a huge area of
+
+334
+00:30:08,320 --> 00:30:14,280
+ strategic focus for us. And stable coins are a huge part of that. I will say, you know,
+
+335
+00:30:14,280 --> 00:30:19,640
+ we're still kind of like, formulating our roadmap in this space and exactly what that's
+
+336
+00:30:19,640 --> 00:30:25,040
+ going to look like. But it's a massive, massive opportunity area for us. And something that
+
+337
+00:30:25,040 --> 00:30:30,040
+ I think like Chris, you said is exactly right. Traditional financial institutions are going
+
+338
+00:30:30,040 --> 00:30:35,520
+ to want to transact in these products. And they're going to want to have access to sort
+
+339
+00:30:35,520 --> 00:30:42,520
+ of the best and most robust liquidity pools and and and widest network of liquidity providers
+
+340
+00:30:42,520 --> 00:30:46,760
+ that they can that they can get access to. And that's certainly our sweet spot. So, it
+
+341
+00:30:46,760 --> 00:30:51,200
+ makes all the sense in the world to us. The thing I'll note about this subject guys is
+
+342
+00:30:51,200 --> 00:30:56,720
+ that it was done on Ethereum. And we've talked about how Ethereum is very appealing to Wall
+
+343
+00:30:56,720 --> 00:31:03,040
+ Street because of its 10 years of history. I just wanted to flag that. And I would love
+
+344
+00:31:03,040 --> 00:31:08,240
+ to get our guests opinion on that as well. Yeah, look, I mean, I think Chris, you know
+
+345
+00:31:08,240 --> 00:31:13,160
+ this, but we can we can talk about this for for the wider audience too. The, you know,
+
+346
+00:31:13,160 --> 00:31:18,680
+ the on train on chain transactions that I was just just referencing that that we've done
+
+347
+00:31:18,680 --> 00:31:25,680
+ on trade web have all been on the canton network. So so far our activities are on chain activities
+
+348
+00:31:25,680 --> 00:31:33,040
+ have have only been on canton now. We definitely will ultimately, you know, have support for
+
+349
+00:31:33,040 --> 00:31:37,520
+ other chains. And again, that will be sort of dictated as and when client demand kind
+
+350
+00:31:37,520 --> 00:31:45,360
+ of pushes us in in those directions. But, you know, to answer your question more directly,
+
+351
+00:31:45,360 --> 00:31:49,600
+ do I have an opinion on on ETH and why do people Morgan chose ETH? I think, I think,
+
+352
+00:31:49,600 --> 00:31:53,480
+ you know, the way that you characterize it makes a lot of sense. It's obviously a very
+
+353
+00:31:53,480 --> 00:31:58,600
+ well known and sort of well proven DLT kind of technology that people are aware of. It's
+
+354
+00:31:58,600 --> 00:32:05,760
+ a free household name at this point. Canton certainly less so. And so, you know, I think
+
+355
+00:32:05,760 --> 00:32:11,280
+ that's it's going to be interesting to see how this all evolves. You know, Solana, ETH,
+
+356
+00:32:11,280 --> 00:32:17,520
+ Canton, there's probably room, you know, there is for sure room for multiple winners. But
+
+357
+00:32:17,520 --> 00:32:21,680
+ it's early innings. The fact that you brought canton, I think it's really interesting chain
+
+358
+00:32:21,680 --> 00:32:27,760
+ that we should explore more, maybe an hour later, but they're going after a permissioned
+
+359
+00:32:27,760 --> 00:32:34,040
+ use case with institutions, including some of the largest investment banks in the world
+
+360
+00:32:34,040 --> 00:32:40,880
+ and custodians like BMI melon. And Ethereum, I agree with Chris's point, it is no way like
+
+361
+00:32:40,880 --> 00:32:46,840
+ traffic chain. It is traffic chain. It's a design for that. It's got the Lindy effect.
+
+362
+00:32:46,840 --> 00:32:55,160
+ It's got the history. But now Canton network is going after that same use case from the
+
+363
+00:32:55,160 --> 00:33:01,800
+ largest players in the land. So it's yet more intensification of competition.
+
+364
+00:33:01,800 --> 00:33:08,040
+ All right. Well, I have a few things to say on this topic, but so we don't get ourselves
+
+365
+00:33:08,040 --> 00:33:13,560
+ in trouble. I am technically supposed to say we need to do the second set of ads. So we
+
+366
+00:33:13,560 --> 00:33:17,240
+ can go ahead and run those first. And then we'll come back and debate more who's going
+
+367
+00:33:17,240 --> 00:33:19,680
+ to win among chains.
+
+368
+00:33:19,680 --> 00:33:26,040
+ Mantle has entered a new phase as the distribution layer connecting tradfi and on chain liquidity.
+
+369
+00:33:26,040 --> 00:33:31,760
+ To accelerate this vision, the Mantle Global Hackathon 2025 is inviting developers to
+
+370
+00:33:31,760 --> 00:33:37,960
+ build scalable RWA and DeFi products. Why build on Mantle? It's an ecosystem built
+
+371
+00:33:37,960 --> 00:33:43,760
+ for builders. You get direct access to buy that's 7 million plus users for potential
+
+372
+00:33:43,760 --> 00:33:50,560
+ listing exposure, support from the $4 billion Mantle treasury, and mentorship from top VCs
+
+373
+00:33:50,560 --> 00:33:57,680
+ like Spartan and Animoca brands. With six tracks, prioritizing RWA's and RealFi, and
+
+374
+00:33:57,680 --> 00:34:04,400
+ a $150,000 prize pool plus grants, this is your chance to deploy on a high performance
+
+375
+00:34:04,400 --> 00:34:10,680
+ modular L2. Register now. The link is in the show notes.
+
+376
+00:34:10,680 --> 00:34:18,000
+ All right, let's do this. So I want to start as somebody who's been involved in both public
+
+377
+00:34:18,000 --> 00:34:23,520
+ and private chain activities and say, one, I'm strongly of the opinion that there will
+
+378
+00:34:23,520 --> 00:34:29,160
+ be multiple winners. As you look at transaction preferences across markets, these things are
+
+379
+00:34:29,160 --> 00:34:34,520
+ not monolithic or even close to it. If you're looking at like real-time gross settlement
+
+380
+00:34:34,520 --> 00:34:39,820
+ for retail payments or something like sending Bitcoin around, you need a vastly different
+
+381
+00:34:39,820 --> 00:34:45,640
+ security model than you would need for something like say 24/7 interest rate derivatives query.
+
+382
+00:34:45,640 --> 00:34:50,560
+ And I just don't think it's going to be possible to build the all singing, all dancing chain
+
+383
+00:34:50,560 --> 00:34:55,120
+ that encompasses all of these use cases. For the same reason that we don't have a single
+
+384
+00:34:55,120 --> 00:35:00,200
+ ledger currently in tradfy is sometimes these things actually functionally need different
+
+385
+00:35:00,200 --> 00:35:02,120
+ capabilities and controls around.
+
+386
+00:35:02,120 --> 00:35:07,200
+ Also, I agree with that. Wouldn't you say, though, that specialization for a given use
+
+387
+00:35:07,200 --> 00:35:14,920
+ case for a given customer target has the edge and will generally win? Canton is specialized
+
+388
+00:35:14,920 --> 00:35:20,640
+ on a large time use case where you don't need many players. You can get critical mass quickly
+
+389
+00:35:20,640 --> 00:35:26,800
+ and make a success. And that strips away an opportunity for Ethereum.
+
+390
+00:35:26,800 --> 00:35:33,160
+ One, I kind of agree. And the kind of comes with, I think to be a better system, though,
+
+391
+00:35:33,160 --> 00:35:37,560
+ you need liquidity, which means you need a better conduit in and out than in traditional
+
+392
+00:35:37,560 --> 00:35:42,000
+ markets. Because like, take something that'll be familiar to retail users right now, which
+
+393
+00:35:42,000 --> 00:35:47,720
+ is imagine that you've got a Coinbase account, you want to get money to like a Fidelity account,
+
+394
+00:35:47,720 --> 00:35:52,760
+ which does not take stablecoins. You're going from Coinbase to a bank over to Fidelity,
+
+395
+00:35:52,760 --> 00:35:57,640
+ which is going to take somewhere between one to like a lot of business days, depending
+
+396
+00:35:57,640 --> 00:36:01,200
+ on how this thing happens. And the a lot may be like five to 10, like it's longer than
+
+397
+00:36:01,200 --> 00:36:06,200
+ people think. I think ROM to your point, so long as you have a quick in and out. So this
+
+398
+00:36:06,200 --> 00:36:11,520
+ is why I'm interested in like the money instrument and like tokenized money market shares or stable
+
+399
+00:36:11,520 --> 00:36:17,000
+ coins is then you have the ability to move between these specialized venues significantly
+
+400
+00:36:17,000 --> 00:36:21,120
+ more quickly. And it's not that. So like, I think here's the thing that people don't
+
+401
+00:36:21,120 --> 00:36:25,720
+ always wrap their head around. It's not that all securities need to be able to move or like
+
+402
+00:36:25,720 --> 00:36:30,200
+ all derivatives. It's that the money you're using to settle is what needs to be able to
+
+403
+00:36:30,200 --> 00:36:35,560
+ move pretty quickly to make these things work, right? Like, it's the Simpson's thing of like
+
+404
+00:36:35,560 --> 00:36:40,520
+ money can be exchanged for goods and services, however. And so if I can get my money from like
+
+405
+00:36:40,520 --> 00:36:46,680
+ call it derivatives chain to like equities, like just vanilla equities chain like that. Now these
+
+406
+00:36:46,680 --> 00:36:52,040
+ are fungible essentially, settleable with each other through that conduit that I think matters.
+
+407
+00:36:52,040 --> 00:36:59,800
+ I think your point, like what is the use matters? But I think the other thing that matters, and this
+
+408
+00:36:59,800 --> 00:37:05,160
+ is what I wanted to bring up and is my main point of skepticism about caton right now surviving,
+
+409
+00:37:05,160 --> 00:37:11,080
+ like the test of time, is your ability to essentially build a future coalition matters. And if we look
+
+410
+00:37:11,080 --> 00:37:15,640
+ at traditional markets, there's been two methods that have worked really, really well. Number one
+
+411
+00:37:15,640 --> 00:37:20,120
+ is get all of the very big people in a room at once. And everybody looks at everybody and says,
+
+412
+00:37:20,120 --> 00:37:25,000
+ okay, jump. And that's like the DTC model, right? Like when they started, they got all the major
+
+413
+00:37:25,000 --> 00:37:30,920
+ players and then you just hit go. The other one, a good example is Visa, which is to say, the mistake
+
+414
+00:37:30,920 --> 00:37:36,440
+ is when you create a thing that says other people can join, but future people join on worse terms
+
+415
+00:37:36,440 --> 00:37:41,000
+ than current people over time, what you find is instead they just create a thing to compete against
+
+416
+00:37:41,000 --> 00:37:46,040
+ you. If you did not have overwhelming critical mass at the start, people take that as a sign,
+
+417
+00:37:46,040 --> 00:37:51,160
+ not, hey, I'm going to pay off the old guard. It's hey, I'm going to do my own thing. Visa,
+
+418
+00:37:51,160 --> 00:37:56,280
+ everybody can join as a bank. They're basically on equal terms trade web. By the way, same thing.
+
+419
+00:37:56,280 --> 00:38:01,240
+ If you start a new investment bank today, you can plug into trade web and train the exact same
+
+420
+00:38:01,240 --> 00:38:07,960
+ ways like JP Morgan, Goldman Sachs, Morgan Stanley. That matters. I'd be curious what thoughts are
+
+421
+00:38:07,960 --> 00:38:16,760
+ on Canton. You need tokens to run a validator. How do you get the tokens? What is that model here?
+
+422
+00:38:16,760 --> 00:38:22,120
+ Yeah, I mean, I can hop in on it and tell you from our experience.
+
+423
+00:38:24,120 --> 00:38:30,680
+ We're coming at it from the experience of having been a fairly early adopter on the Canton network,
+
+424
+00:38:30,680 --> 00:38:38,600
+ and so we are a super validator. We run nodes on Canton and certainly have plans to expand
+
+425
+00:38:38,600 --> 00:38:46,120
+ the number and type of applications that we're running. The Canton network in my experience thus
+
+426
+00:38:46,120 --> 00:38:57,000
+ far is still certainly actively soliciting greater participation. I think that in all likelihood,
+
+427
+00:38:57,000 --> 00:39:05,720
+ the terms around joining at this point are pretty attractive still. I don't know what that looks
+
+428
+00:39:05,720 --> 00:39:12,680
+ like necessarily in the future. Now, what I will say about the Canton network that, again, your
+
+429
+00:39:12,680 --> 00:39:19,080
+ listenership may be sort of skewed a little bit retail, so maybe this isn't something that is
+
+430
+00:39:19,080 --> 00:39:24,120
+ totally kind of second nature to them the way that it is probably to the four of us coming from a
+
+431
+00:39:24,120 --> 00:39:29,960
+ little bit more of a trade fight background, which is this notion that in order for large
+
+432
+00:39:29,960 --> 00:39:37,000
+ financial institutions to move and transfer risk in significant size, they're going to require some
+
+433
+00:39:37,000 --> 00:39:44,200
+ level of permissioning, if not privacy, permissioning of who can actually see what's happening. So
+
+434
+00:39:44,200 --> 00:39:51,640
+ there are many ways to skin that cat, obviously. You can certainly skin that cat on a public
+
+435
+00:39:51,640 --> 00:39:57,320
+ blockchain, and as everybody is aware, there are ways to do that and ways to add privacy layers,
+
+436
+00:39:57,320 --> 00:40:07,480
+ etc. Is it interesting that Canton was sort of like purpose built to offer this to large
+
+437
+00:40:07,480 --> 00:40:12,120
+ institutional players from the beginning and that's sort of like a core tenant of how this network
+
+438
+00:40:12,120 --> 00:40:18,680
+ works and operates? I think that rings true to some of the large institutional players in the market,
+
+439
+00:40:18,680 --> 00:40:26,920
+ and I think that that is a pitch and sort of the reality of how it operates.
+
+440
+00:40:26,920 --> 00:40:34,280
+ Resonates with large institutional players, and so it might not sound so great to kind of like
+
+441
+00:40:34,280 --> 00:40:40,920
+ blockchain purists, and I think they get that too, but this is maybe trying to solve a slightly
+
+442
+00:40:40,920 --> 00:40:45,400
+ different problem. I agree. Chris, I believe it was you coined the term Empire Strikes Back
+
+443
+00:40:45,400 --> 00:40:52,120
+ last week. I think this is another proof point under that theme of the Empire Strikes Back.
+
+444
+00:40:52,840 --> 00:41:00,760
+ The Canton network, they're focused on permissioned privacy first, let only counterpart you see the
+
+445
+00:41:00,760 --> 00:41:07,160
+ relevant data, and it's more regulatory friendly. In electionally and philosophically, I'm more
+
+446
+00:41:07,160 --> 00:41:13,800
+ Ethereum, okay? Probably a lot of us are. Kind of doesn't matter though. Canton doesn't need retail
+
+447
+00:41:13,800 --> 00:41:20,200
+ adoption, and retail doesn't even aware of it, nor do they care, but it matters for the use cases
+
+448
+00:41:20,200 --> 00:41:26,840
+ that Ethereum is going to go after. I think what it highlights is Ethereum needs a stronger,
+
+449
+00:41:26,840 --> 00:41:32,360
+ more focused commercial vision. What target customers are they going after with what value
+
+450
+00:41:32,360 --> 00:41:37,720
+ proposition? We see that with other chains, right? You just had Solana breakpoint. We should have
+
+451
+00:41:37,720 --> 00:41:41,320
+ someone come on talk about that. Does the internet capital markets use case there?
+
+452
+00:41:41,320 --> 00:41:47,720
+ Avax is trying to do this. I think Avax is going to hurt a lot around all of this. Canton is just
+
+453
+00:41:47,720 --> 00:41:55,400
+ going to dominate Avax here. The bear case for Canton is that this is the next R3, right? R3
+
+454
+00:41:55,400 --> 00:41:59,800
+ was a consortium of mess and things that got together. The banks do this every five years.
+
+455
+00:41:59,800 --> 00:42:04,840
+ They got behind R3. They got behind Symphony, which was a response to Bloomberg. Really became
+
+456
+00:42:04,840 --> 00:42:09,560
+ a negotiation tactic against Bloomberg. Symphony hasn't had traction. R3 hasn't had traction,
+
+457
+00:42:09,560 --> 00:42:13,320
+ but people are trying. I talked to him from R3 of the day. I'll be there. He's like, yeah,
+
+458
+00:42:13,320 --> 00:42:20,280
+ no, we're on Adam. You've been on it for 10 years, but maybe this time. The investment banks
+
+459
+00:42:20,280 --> 00:42:24,440
+ have this other playbook where they like these consortiums to create equity value. Trade Web
+
+460
+00:42:24,440 --> 00:42:31,720
+ was one of them. Ice was another, IHS partners and market partners. They actually fits into the
+
+461
+00:42:31,720 --> 00:42:37,240
+ playbook of Visa Mastercard where the consortium gets together and they say, look, if we can make
+
+462
+00:42:37,240 --> 00:42:43,640
+ a kingmaker, we can build this centralized utility. We all have equity interest in. We'll give it
+
+463
+00:42:43,640 --> 00:42:49,240
+ revenue by being customers. We can set the standards ourselves. Then we take this public,
+
+464
+00:42:49,240 --> 00:42:54,280
+ we share the investment banking fees. That's the playbook. They're looking at that when they're
+
+465
+00:42:54,280 --> 00:43:02,520
+ comparing Ethereum to that is a primary consideration. I do think Canton is a credible bid for the
+
+466
+00:43:02,520 --> 00:43:08,680
+ stratified chain use case. I think, Rambi, your point, it'll come to a question of how do you
+
+467
+00:43:08,680 --> 00:43:14,280
+ build that consortium, given the starting point on the thing. I think the technology is not the
+
+468
+00:43:14,280 --> 00:43:19,480
+ problem for Canton. I think it's the governance of, are you going to have some of the early players
+
+469
+00:43:19,480 --> 00:43:24,280
+ who are willing to give up some of the gains they would have to get more people in? Because if the
+
+470
+00:43:24,280 --> 00:43:29,560
+ answer is no, eventually you're going to like JP Morgan, who is dipped like a tiny toe in on
+
+471
+00:43:29,560 --> 00:43:34,360
+ Chanton, but as Onyx and they'll be like, nah, we're good. We'll use our thing. You end up in this
+
+472
+00:43:34,360 --> 00:43:41,400
+ mutual cluster. When that happens, you start to see fragmentation instead because there are other
+
+473
+00:43:41,400 --> 00:43:45,320
+ parts of the market where the banks did not successfully pull this off. They just eventually
+
+474
+00:43:45,320 --> 00:43:51,320
+ lost the whole thing. Let's not go to blockchain. See, for instance, private credit, name for me,
+
+475
+00:43:51,320 --> 00:43:55,800
+ any of the banks who are a top two or three player in that space. No, it's not a thing.
+
+476
+00:43:57,160 --> 00:44:02,120
+ Yeah, the one thing I think about with Canton is it's one of the most important golden rules of
+
+477
+00:44:02,120 --> 00:44:10,680
+ crypto. Just don't die, right? These guys started in like 2014 for the, I mean, I knew them back in
+
+478
+00:44:10,680 --> 00:44:15,880
+ the day when Sunil Hirani and Don Wilson founded them and I learned about blockchain and Yuval and
+
+479
+00:44:15,880 --> 00:44:21,480
+ Eric. I mean, and then they went through their trials and tribulations. They had a big dust up
+
+480
+00:44:21,480 --> 00:44:27,160
+ with ASX. I didn't end well. And then 10 years later, boom, they launched Canton and like, so like,
+
+481
+00:44:27,160 --> 00:44:32,200
+ that's the one rule. If you're in crypto, just don't die. Eventually what comes around goes around,
+
+482
+00:44:32,200 --> 00:44:36,440
+ you'll make it just stick around. Our three is really interesting. Did you see the deal that
+
+483
+00:44:36,440 --> 00:44:44,280
+ they recently did from? Yeah, I guess we do with Solana, right? Super interesting. Like again,
+
+484
+00:44:44,280 --> 00:44:48,840
+ let's see what Solana does there. What was the deal? Was there a Solana?
+
+485
+00:44:48,840 --> 00:44:55,560
+ I think Lily joined the board. Lily, that is the idea of the Solana was money exchanged.
+
+486
+00:44:55,560 --> 00:45:03,320
+ Who paid who in that one? I don't know the Western Union. So is that it's dance partner season here
+
+487
+00:45:03,320 --> 00:45:09,240
+ in crypto, right? Yeah, yeah, really interesting stuff. Western Union got 30 million dollars from
+
+488
+00:45:09,240 --> 00:45:12,520
+ Solana. I want to know, like, who's paying who and all these trends? I should talk about Solana a
+
+489
+00:45:12,520 --> 00:45:18,680
+ little bit because that's the other chain that that's really trying to find its way. I think
+
+490
+00:45:18,680 --> 00:45:22,280
+ you're right. Canton is trying to go toe to toe with Ethereum for the institutional bid.
+
+491
+00:45:22,280 --> 00:45:27,080
+ And then you got Solana. Solana, since it's the beginning, has said we are going to be
+
+492
+00:45:27,080 --> 00:45:32,920
+ the decentralized NASDAQ and they've stuck to it. They just launched an else-fired answer,
+
+493
+00:45:32,920 --> 00:45:36,600
+ which is going to ultimately give them a million TPS transactions per second,
+
+494
+00:45:36,600 --> 00:45:40,360
+ because why? They want to have that high throughput, high volume, and I'd love to get Liz's take to
+
+495
+00:45:40,360 --> 00:45:47,880
+ see if she thinks that that's viable. But one of their challenges, they had product market filled
+
+496
+00:45:47,880 --> 00:45:53,240
+ with new coins. Boom. And it really helped prove their tech and showed the throughput. But then
+
+497
+00:45:53,240 --> 00:46:01,160
+ in the meantime, big bad hyper liquid came in. And really, I don't want to say one because Perps
+
+498
+00:46:01,160 --> 00:46:06,920
+ is a very flaky market. You go to Lighter, you go to Aster. But Solana hasn't seemed to be,
+
+499
+00:46:06,920 --> 00:46:11,800
+ they haven't won the derivative space. And really, if you don't win the derivatives
+
+500
+00:46:11,800 --> 00:46:17,080
+ and you're the decentralized NASDAQ, you've got to solve for it. Now they have the internet capital
+
+501
+00:46:17,080 --> 00:46:22,600
+ markets, which is really, really interesting in my seat. But that's tough too, because Citadel's
+
+502
+00:46:22,600 --> 00:46:27,320
+ coming after them. Citadel's not like internet capital markets, guys. And so they're trying,
+
+503
+00:46:27,320 --> 00:46:31,480
+ they're going to have to find their way there. So it's a really interesting time for that chain.
+
+504
+00:46:31,480 --> 00:46:35,000
+ Every time they've been, their back's been against the wall, they found a way, like they launched
+
+505
+00:46:35,000 --> 00:46:40,280
+ bomb and galvanized everyone last cycle, mean point season kicked off, coming off a breakpoint.
+
+506
+00:46:40,280 --> 00:46:45,720
+ But I guess it was like, when you look at a chain, like a Solana, monolithic, high throughput,
+
+507
+00:46:45,720 --> 00:46:49,880
+ like designed by traders, for traders, how do you guys at TradeWeb think about it?
+
+508
+00:46:49,880 --> 00:46:57,160
+ Yeah, I mean, look, I think this is another area where, for us, we're going to ultimately take a
+
+509
+00:46:57,160 --> 00:47:05,000
+ lot of cues from our clients and our users. And so definitely there are some, and I won't name names,
+
+510
+00:47:05,000 --> 00:47:11,480
+ but some of the guys kind of more in the high frequency trading community who are all on Solana.
+
+511
+00:47:11,480 --> 00:47:14,920
+ And we know that and they've made that very, very clear to us. And that's kind of where they're
+
+512
+00:47:14,920 --> 00:47:20,680
+ going to be. And they're like, you know, kind of meet me there. So, you know, I think for us, it's
+
+513
+00:47:20,680 --> 00:47:26,680
+ sometimes a matter of trying to figure out, you know, how can we read the tea leaves and optimize
+
+514
+00:47:26,680 --> 00:47:32,920
+ against like, if we are, you know, an institutional markets provider, where where is the right place
+
+515
+00:47:32,920 --> 00:47:38,680
+ for us to place some bets for, you know, institutional risk transference on chain? I think Solana is
+
+516
+00:47:38,680 --> 00:47:41,320
+ absolutely has to be part of that conversation.
+
+517
+00:47:42,600 --> 00:47:49,400
+ Yeah, it looks like Solana has the retail use case. I think equity issuance on chain and debt
+
+518
+00:47:49,400 --> 00:47:56,760
+ issuance on chain. Like, how do you do public capital raises without an S1 filing at a lower
+
+519
+00:47:56,760 --> 00:48:04,120
+ standard of compliance? But you got to make that square with securities laws, which are still not
+
+520
+00:48:04,120 --> 00:48:10,440
+ compatible with digital assets. If you have a public offering, then you must fit under an
+
+521
+00:48:10,440 --> 00:48:17,240
+ exemption, like reg S for foreign offers of securities, or if it's us than an S1 or crowdfunding,
+
+522
+00:48:17,240 --> 00:48:23,480
+ both of which are not really compatible with digital assets. But that is an opportunity for
+
+523
+00:48:23,480 --> 00:48:28,600
+ Solana to differentiate from Cantum and it plays into their retail base with meme coins and all
+
+524
+00:48:28,600 --> 00:48:34,520
+ the rest goes back to the specialized venue thing, right? Like in some ways, you know, I was talking
+
+525
+00:48:34,520 --> 00:48:39,960
+ to some folks who have been at breakpoint. And I think Solana really is trying to find its way
+
+526
+00:48:39,960 --> 00:48:43,400
+ here. Like people are asking, what's the new thing? And what's interesting is when you get a
+
+527
+00:48:43,400 --> 00:48:47,560
+ bunch of tech people in a room, the new things they talk about are all like, call it more crypto
+
+528
+00:48:47,560 --> 00:48:53,160
+ for crypto or very tech related things. And that falls into the story of like what stood out
+
+529
+00:48:53,160 --> 00:48:59,880
+ on Solana historically has been like deep in type things, meme coins, like very crypto native
+
+530
+00:48:59,880 --> 00:49:05,960
+ stuff. Nobody is built like hyper liquids, probably the best, but that's very much an alpha version
+
+531
+00:49:05,960 --> 00:49:10,360
+ of derivatives trading online. And we've criticized them in the past for some of their like liquidation
+
+532
+00:49:10,360 --> 00:49:15,560
+ problems and things of that sort that are not solved. And like Chris has had some very intelligent
+
+533
+00:49:15,560 --> 00:49:22,520
+ critiques there. I think Solana, exactly as you said, Rob, right is very much in the retail game.
+
+534
+00:49:22,520 --> 00:49:26,600
+ And I think if they're going to succeed, it's going to be focusing on that street. Like they're
+
+535
+00:49:26,600 --> 00:49:31,720
+ making phones. That is not an institutional play, right? As you think of it that way. But on the
+
+536
+00:49:31,720 --> 00:49:37,400
+ other hand, name me a chain that's done a better job of genuinely attracting retail and users,
+
+537
+00:49:37,400 --> 00:49:43,720
+ right? Everybody, if they're going to survive, as Chris said, is going to have to find their niche.
+
+538
+00:49:43,720 --> 00:49:50,200
+ Me, like, let me pose a question to the group though. Do we think the blockchain that will have
+
+539
+00:49:50,200 --> 00:49:54,680
+ the most financial transactions 30 years from now has even been created yet?
+
+540
+00:49:55,720 --> 00:50:02,200
+ Great point. Might not be right on the mark. All right. So before we run out of time, one last
+
+541
+00:50:02,200 --> 00:50:08,120
+ thing that I'll flip to everybody. This is a global background show. We should talk about markets
+
+542
+00:50:08,120 --> 00:50:15,400
+ for a minute. So let's just say that crypto prices in general have not been great, but specifically
+
+543
+00:50:15,400 --> 00:50:23,320
+ on Bitcoin. So it managed to tag 86K today. Sailor just announced he bought a billion at 92K each.
+
+544
+00:50:23,320 --> 00:50:27,080
+ Like that guy needs to stop buying the top constantly and all these weekly regimes.
+
+545
+00:50:27,080 --> 00:50:33,320
+ And Jeff Park in particular was out there saying Bitcoin's upside is capped by OG holders,
+
+546
+00:50:33,320 --> 00:50:40,760
+ both continuously selling options and dumping on the market. We've been in a call it slightly
+
+547
+00:50:40,760 --> 00:50:46,200
+ chopping downward trend with lower than usual volatility. In some ways for Bitcoin, I'll start
+
+548
+00:50:46,200 --> 00:50:51,000
+ with ROM. What are you making of the market here? Yeah, look, I think you see similarities between
+
+549
+00:50:52,040 --> 00:50:57,800
+ AI, which is the primary driver of animal spirits and energy and markets and crypto.
+
+550
+00:50:57,800 --> 00:51:03,000
+ And the common theme is intensification of competition, which is the enemy of profits.
+
+551
+00:51:03,000 --> 00:51:10,760
+ Okay. So OpenAI has got anthropic front-learning them to an IPO. Google has a better LLM now with
+
+552
+00:51:10,760 --> 00:51:15,320
+ new releases that they can actually fund their cap X. Whereas OpenAI has got to raise money from
+
+553
+00:51:15,320 --> 00:51:22,200
+ the public to meet over $100 billion in future committed spend on $13 billion in revenue.
+
+554
+00:51:22,200 --> 00:51:27,480
+ How do you fund that either through dilution? You charge your customers, but people are getting
+
+555
+00:51:27,480 --> 00:51:36,360
+ free apps from meta and Google. So that OpenAI is the Cisco of this market. When OpenAI doesn't
+
+556
+00:51:36,360 --> 00:51:41,240
+ hit their revenue growth numbers, you're going to see a pullback and send me using you're actually
+
+557
+00:51:41,240 --> 00:51:46,440
+ already seen it now. Marcus earned a price in a discount from the Sam Altman top. They're saying,
+
+558
+00:51:46,440 --> 00:51:52,920
+ hey, maybe OpenAI can't credibly deliver against their forecast. We haven't seen public audited
+
+559
+00:51:52,920 --> 00:51:59,880
+ statements on this. So in crypto, we've seen a lot of movement to the equity markets. That's
+
+560
+00:51:59,880 --> 00:52:05,720
+ where a major part of that. So now you have this crypto investor base in equity markets,
+
+561
+00:52:05,720 --> 00:52:08,520
+ and they're all looking around and crypto investors focus on momentum.
+
+562
+00:52:09,160 --> 00:52:13,320
+ So momentum is not in digital assets. Value actually has a momentum now.
+
+563
+00:52:13,320 --> 00:52:20,120
+ In my newsletter this weekend, the Lumet Alleger, I wrote about a stock with a PE ratio of six times.
+
+564
+00:52:20,120 --> 00:52:27,960
+ They'd provide cable. It's an ancient company. They have dividends. It's called Comcast Comcast.
+
+565
+00:52:27,960 --> 00:52:33,720
+ It went up 3% today. They have free cash flow and buybacks. This is the revenge of Warren Buffett.
+
+566
+00:52:33,720 --> 00:52:38,120
+ We're going to use two revenge arcs. Once the empire strikes back, the others are revenge of
+
+567
+00:52:38,120 --> 00:52:43,880
+ Warren Buffett. Overall, what you've seen is a movement from high data to the opposite of high
+
+568
+00:52:43,880 --> 00:52:53,000
+ beta. So if crypto is intangible, no free cash flow, high beta, animal spirits, psychology,
+
+569
+00:52:53,000 --> 00:53:03,240
+ thematic news, the future, the exact opposite that Comcast Comcast. That's moving. Insurance
+
+570
+00:53:03,240 --> 00:53:11,560
+ companies are moving. Banks are at all time highs now. I think that trend will continue
+
+571
+00:53:11,560 --> 00:53:17,960
+ into the new year. Long, stable coins. When's it going to shift, though? I mean,
+
+572
+00:53:17,960 --> 00:53:23,240
+ one thing we are seeing from a liquid perspective is we're seeing liquidity starting to look like
+
+573
+00:53:23,240 --> 00:53:29,880
+ crypto and liquidity have had very close correlation. We're coming out of QT now.
+
+574
+00:53:29,880 --> 00:53:35,560
+ Liquidity seems to be improving, which generally has been a leading indicator of crypto prices.
+
+575
+00:53:35,560 --> 00:53:38,440
+ What's the impetus that you think changes that trajectory?
+
+576
+00:53:38,440 --> 00:53:44,520
+ I think what has to happen, people might not like this answer. Don't shoot the messenger.
+
+577
+00:53:44,520 --> 00:53:53,640
+ You need to see high beta assets get oversold. People have to hate them and want to pute them.
+
+578
+00:53:53,640 --> 00:54:01,800
+ That's one. The second thing is, you have to see that the value play starts to tap out,
+
+579
+00:54:01,800 --> 00:54:06,680
+ and that's not happening. It's still gaining traction. People are still rotating into it.
+
+580
+00:54:06,680 --> 00:54:12,840
+ I'll perform last week. I'll perform the week before. I don't see how that dynamic is going
+
+581
+00:54:12,840 --> 00:54:19,080
+ to change anytime soon, especially with the backdrop. Again, I've opened AI and the questions
+
+582
+00:54:19,080 --> 00:54:25,080
+ are going to Oracle deliver on $400 billion in revenue performance obligations at backlog
+
+583
+00:54:25,080 --> 00:54:28,680
+ when their current revenue is a fraction of that and their execution risks.
+
+584
+00:54:28,680 --> 00:54:37,960
+ The story hangover is significant. Then you also have the US voter isn't actually really excited
+
+585
+00:54:37,960 --> 00:54:44,680
+ about AI. They're not. Unfortunately, I am. I'm a believer. They're just not. They're concerned
+
+586
+00:54:44,680 --> 00:54:49,320
+ about what it means to their jobs. White collar is concerned about it. Blue collar is concerned.
+
+587
+00:54:49,320 --> 00:54:57,080
+ They shouldn't be. They're also seen earlier around Trump and Trump coin and the political
+
+588
+00:54:57,080 --> 00:55:03,640
+ power around this. Those categories are just on defense now. I think you just have to wait for
+
+589
+00:55:03,640 --> 00:55:11,640
+ the bad news to get fully priced in. That recognition moment to happen across markets.
+
+590
+00:55:12,600 --> 00:55:17,880
+ I don't think that's happened yet. I mean, if you look last week at the only one of the
+
+591
+00:55:17,880 --> 00:55:22,600
+ previous momentum darlings that had done anything good, it was in the marijuana space because of
+
+592
+00:55:22,600 --> 00:55:26,840
+ the rumor that it was going to get reclassified to schedule. So I guess I'm by the way.
+
+593
+00:55:26,840 --> 00:55:34,680
+ Yeah, I agree with Rahm values than the thing that's moving. Like Chris Elizabeth, what do you
+
+594
+00:55:34,680 --> 00:55:40,920
+ make of that? I want to ask Liz, we've seen that these two technologies, AI and crypto, are
+
+595
+00:55:40,920 --> 00:55:46,120
+ absolutely intertwined. It's hard to look at one without the other in my mind. Look at things like
+
+596
+00:55:46,120 --> 00:55:51,000
+ X four, two, which is a payments capability now at the internet. The internet is turning into a
+
+597
+00:55:51,000 --> 00:55:56,360
+ crypto AI version of itself. But Liz, what are you guys looking at at the intersections of AI and
+
+598
+00:55:56,360 --> 00:56:01,480
+ crypto space? Yeah, I mean, look, I think on the crypto point, first of all, and this is not
+
+599
+00:56:01,480 --> 00:56:08,120
+ sort of like necessarily an immediate kind of commentary on where Bitcoin is going. This is a
+
+600
+00:56:08,120 --> 00:56:16,680
+ much kind of longer term macro comment. But if you are of the opinion, which I am that as and when,
+
+601
+00:56:16,680 --> 00:56:22,040
+ and I'm still saying when and not if we can we can get all this sort of legislative
+
+602
+00:56:22,040 --> 00:56:31,400
+ stuff ironed out, we're going to see significant institutional influence with the crypto space in
+
+603
+00:56:31,400 --> 00:56:36,520
+ the United States that just don't exist right now. And that's going to fundamentally change
+
+604
+00:56:37,400 --> 00:56:42,360
+ how these markets operate and certainly impact the valuation of the assets themselves, of course.
+
+605
+00:56:42,360 --> 00:56:45,800
+ So I still believe pretty strongly that that's that's coming.
+
+606
+00:56:45,800 --> 00:56:52,920
+ The flipping institutions in retail still looking at the ruins from 10 10. Seriously,
+
+607
+00:56:52,920 --> 00:56:58,280
+ I was calling around this week and I don't think people understand how many people got hurt.
+
+608
+00:56:58,280 --> 00:57:03,480
+ Market makers just like it is really hurting liquidity and risk. But I think like all things
+
+609
+00:57:03,480 --> 00:57:08,280
+ it gets prepared, it gets repaired in time. You're seeing new people coming into the market,
+
+610
+00:57:08,280 --> 00:57:12,520
+ you know, they start with a gateway like an ETF and like wait a second. But to your point,
+
+611
+00:57:12,520 --> 00:57:17,640
+ where I'm like, I'm sorry, but I think alts are pretty hated right now. Alts have had a rough go
+
+612
+00:57:17,640 --> 00:57:23,480
+ last year. And so it's hard for me to think that we're not near a bottom. You know, that said,
+
+613
+00:57:23,480 --> 00:57:26,840
+ we've been talking about a constructive setup for the last three weeks and we've seen what
+
+614
+00:57:26,840 --> 00:57:30,600
+ the markets have done. So now that you're a little bit bearish, it seems. I'll bet you next week
+
+615
+00:57:30,600 --> 00:57:35,400
+ we'll be up on Bitcoin week over week. Can I screen share that David Goggins meme of sell those
+
+616
+00:57:35,400 --> 00:57:41,000
+ are exhausted? See, you know the meme I'm talking about? You see David Goggins in the background?
+
+617
+00:57:41,000 --> 00:57:45,240
+ It's not an episode of you don't share a screen, man. We got a screen share of this.
+
+618
+00:57:45,240 --> 00:57:50,680
+ What's the find a way to do that? What? We'll just use that going forward as like the preview for
+
+619
+00:57:50,680 --> 00:57:57,480
+ the episodes just like Goggins running with Japan is going to raise rates. Is that a nothing burger?
+
+620
+00:57:57,480 --> 00:58:02,360
+ We got to get a nothing burger in here. I was going to say you're just causing trouble now,
+
+621
+00:58:02,360 --> 00:58:07,480
+ Chris. All right. I was going to say this is definitely the side that we're at the end of the
+
+622
+00:58:07,480 --> 00:58:14,840
+ episode when Chris has resorted to trolling Rob about. I will accept that trolling. I will get
+
+623
+00:58:14,840 --> 00:58:22,200
+ the hat. Nothing. All right. So what one future merchandise, the nothing burger hat, but two,
+
+624
+00:58:23,560 --> 00:58:28,040
+ as always, thank you everyone for joining us for this episode of Bits of Bips. We'll be back in
+
+625
+00:58:28,040 --> 00:58:32,920
+ one week to discuss more about how the worlds of crypto and macro are colliding. Until then,
+
+626
+00:58:32,920 --> 00:58:40,920
+ enjoy your nothing burgers.
+

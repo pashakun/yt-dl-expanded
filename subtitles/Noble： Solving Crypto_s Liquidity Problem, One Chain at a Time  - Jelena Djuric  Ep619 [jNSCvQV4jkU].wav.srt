@@ -1,0 +1,1368 @@
+1
+00:00:00,000 --> 00:00:06,880
+ Really, it's only now I would say that we've had proper scalable infrastructure like ready to
+
+2
+00:00:06,880 --> 00:00:14,640
+ take stablecoins to the masses. Noble is neutral purpose-built infrastructure for the
+
+3
+00:00:14,640 --> 00:00:21,680
+ transmission and proliferation of the stablecoins. I do believe and can anticipate that the launch
+
+4
+00:00:21,680 --> 00:00:26,560
+ of the app layer will be like a new era for for Noble because again, we've never actually had
+
+5
+00:00:26,560 --> 00:00:30,880
+ a DeFi on Noble itself, which is kind of crazy. And yet, there's all of this traction.
+
+6
+00:00:30,880 --> 00:00:35,040
+ It's cosmos finally dead, Yelena. But I guess that's the question I want to ask you. It's like, do you think?
+
+7
+00:00:35,040 --> 00:00:46,800
+ This episode has brought you by Gnosis, building the open internet one block at a time. Gnosis
+
+8
+00:00:46,800 --> 00:00:52,480
+ was founded in 2015 and it's grown from one of Ethereum's earliest projects into a powerful ecosystem
+
+9
+00:00:52,480 --> 00:00:57,840
+ for open user-owned finance. Gnosis is also the team behind products that had become core to my
+
+10
+00:00:57,840 --> 00:01:04,320
+ business and that of so many others like Safe and Cowswap. At the center is Gnosis Chain. It's a low
+
+11
+00:01:04,320 --> 00:01:10,640
+ fee layer one with zero downtime in seven years and is secured by over 300,000 validators. It's the
+
+12
+00:01:10,640 --> 00:01:16,480
+ foundation for real-world financial applications like Gnosis Pay and Circles. All of this is governed
+
+13
+00:01:16,480 --> 00:01:22,800
+ by Gnosis Dow, a community-run organization where anyone with a GNO token can vote on updates,
+
+14
+00:01:22,800 --> 00:01:27,760
+ fun new projects, and even run a validator from home. So if you're building a Web3
+
+15
+00:01:27,760 --> 00:01:33,040
+ or you're just curious about what financial freedom can look like, start exploring at gnosis.io.
+
+16
+00:01:33,040 --> 00:01:36,800
+ Welcome to the epicenter of the show, which talks about the technologies projects and people
+
+17
+00:01:36,800 --> 00:01:41,840
+ driving decentralization and the blockchain revolution. I'm Sebastian Guccio and I'm here with
+
+18
+00:01:41,840 --> 00:01:49,680
+ Yelena Jerick who's the CEO at Noble. Noble is a cosmos chain that's purpose built for native
+
+19
+00:01:49,680 --> 00:01:57,600
+ issuance of stablecoins and RWA's. They are one of the key players in the USDC ecosystem.
+
+20
+00:01:57,600 --> 00:02:02,160
+ I believe they're probably fifth or sixth in issuance now. You'll correct me on Yelena,
+
+21
+00:02:02,160 --> 00:02:08,000
+ but if I think I'd check USDC.cool and you guys are sitting somewhere around $350 million of USDC
+
+22
+00:02:08,000 --> 00:02:12,560
+ issued on Noble. You also have your own USD, stablecoin, USDN, which we'll talk about,
+
+23
+00:02:12,560 --> 00:02:15,360
+ but yeah, how are you doing? How's everything going for you?
+
+24
+00:02:15,360 --> 00:02:21,840
+ Yeah, no, thanks so much for having me on. It's been great. Obviously, it's stablecoin
+
+25
+00:02:21,840 --> 00:02:27,840
+ summer that is going into the fall, I guess, now that it's October 1st. It's been great.
+
+26
+00:02:27,840 --> 00:02:31,600
+ There's a lot of things going on, obviously, in the stablecoin space and I'm excited to talk
+
+27
+00:02:31,600 --> 00:02:35,680
+ about that and also some exciting updates on the Noble front. So thanks for having me.
+
+28
+00:02:35,680 --> 00:02:44,960
+ So you mentioned stablecoin summer and actually, I think it's a very apt way to talk about it,
+
+29
+00:02:44,960 --> 00:02:55,280
+ because the stablecoin market is now surpassed, USD$250 billion. It's up, I think, something like 45%
+
+30
+00:02:55,280 --> 00:03:02,640
+ this year alone. There's much clearer US rules now. We have lots of announcements.
+
+31
+00:03:03,280 --> 00:03:08,320
+ I'll say a few here, Paxos just announced their privacy-focused stablecoin. I also read that
+
+32
+00:03:08,320 --> 00:03:14,160
+ circle is going to enable things like reversible transactions. Obviously, we have plasma that just
+
+33
+00:03:14,160 --> 00:03:20,800
+ launched there in Neobank. It seems like everyone is trying to get a piece of this stable coin pie.
+
+34
+00:03:20,800 --> 00:03:29,680
+ A little bit reminds me of other hype cycles we have in the space, like NFTs and DeFi Summer
+
+35
+00:03:29,680 --> 00:03:35,520
+ and meme coins. If we look at those, a lot of that innovation and certainly the valuations
+
+36
+00:03:35,520 --> 00:03:42,080
+ have dropped off a lot. Why are stablecoins different? Why should we treat stablecoins differently?
+
+37
+00:03:42,080 --> 00:03:47,920
+ Should we treat stablecoins differently? Will we still be at this level of hype and excitement in
+
+38
+00:03:47,920 --> 00:03:54,160
+ a year from now? Yeah, it's a really good question. So I think it's important to distinguish to your
+
+39
+00:03:54,160 --> 00:04:01,520
+ question, what is different about this time around? I think inevitably, there will be overhyped
+
+40
+00:04:01,520 --> 00:04:07,360
+ projects that maybe don't sustain themselves and don't last into functioning products and
+
+41
+00:04:07,360 --> 00:04:13,440
+ businesses. But despite that potentiality, there is something concrete happening now,
+
+42
+00:04:13,440 --> 00:04:20,720
+ which is maybe different than previous hype cycles that we've had in crypto, to your point,
+
+43
+00:04:20,720 --> 00:04:26,560
+ whether that's NFTs or meme coins or the like. And that reason is pretty simple. That's
+
+44
+00:04:26,560 --> 00:04:32,880
+ legislation. So we had obviously the passing of genius a couple of months ago, where it was signed
+
+45
+00:04:32,880 --> 00:04:42,640
+ into law by President Trump. We've had a very concerted effort by multiple interest groups that
+
+46
+00:04:42,640 --> 00:04:49,680
+ actually want to see genius operational and in full force. One part of that interest group,
+
+47
+00:04:49,680 --> 00:04:54,960
+ of course, is the crypto lobby, but it's also actually bigger than that, right? Basically,
+
+48
+00:04:54,960 --> 00:05:00,480
+ what genius is simply a revolution in payments, right? And so if you think about like the payments
+
+49
+00:05:00,480 --> 00:05:06,960
+ industry, and you think about kind of what payments are and how payments kind of work today,
+
+50
+00:05:06,960 --> 00:05:13,680
+ it's pretty antiquated, right? And a lot of this payments infrastructure is running on legacy
+
+51
+00:05:13,680 --> 00:05:21,360
+ infrastructure that is pretty old and antiquated. And so what is genius? Genius basically set the
+
+52
+00:05:21,360 --> 00:05:29,360
+ standard, a legal framework to issue stablecoins as payment instruments, right? And obviously,
+
+53
+00:05:29,360 --> 00:05:33,680
+ you know, for crypto native people such as yourselves, we've been very familiar with stablecoins
+
+54
+00:05:33,680 --> 00:05:38,400
+ for quite some time. You know, some of us maybe, you know, do payroll and stablecoins,
+
+55
+00:05:38,400 --> 00:05:44,160
+ get paid in stablecoins ourselves as employees myself. I've paid rent in stablecoins in the past,
+
+56
+00:05:44,160 --> 00:05:50,640
+ you know, we're very familiar with these products, not to mention the trading DeFi use cases.
+
+57
+00:05:50,640 --> 00:05:58,720
+ But if you think about what genius is, and the framework it establishes kind of a more mainstream
+
+58
+00:05:58,720 --> 00:06:06,640
+ legacy level, it actually allows, first of all, like legacy payments businesses to like legally,
+
+59
+00:06:06,640 --> 00:06:13,520
+ let's say innovate, and, you know, offer really interesting, you know, kind of innovative products
+
+60
+00:06:13,520 --> 00:06:19,200
+ that may be are cheaper, more seamless, etc. But then it also allows crypto projects like
+
+61
+00:06:19,200 --> 00:06:24,240
+ Noble to kind of play a role within that. So yeah, as you said, right now, it's about a $275
+
+62
+00:06:24,240 --> 00:06:30,720
+ billion market, Citibank just, you know, they had a report that said that by 2030 will be at 1.6
+
+63
+00:06:30,720 --> 00:06:39,120
+ trillion. They then actually upped that prediction to 1.9 trillion by by 2030. And unlike, let's
+
+64
+00:06:39,120 --> 00:06:44,160
+ remember, like five years ago or five and a half years ago, we were at half a billion. So yeah,
+
+65
+00:06:44,160 --> 00:06:49,520
+ I mean, today, you know, today and in the last year, we're up 50%. But basically, we have a much,
+
+66
+00:06:49,520 --> 00:06:56,560
+ much longer way to go. And that is in a large part due to genius and the appetite from the legacy
+
+67
+00:06:56,560 --> 00:07:05,040
+ mainstream world to basically bring payment into the 21st century. Yeah, I think one of the kind of
+
+68
+00:07:05,040 --> 00:07:10,160
+ key insights in what you just said is that it enables, or what I take away from it is that it
+
+69
+00:07:10,160 --> 00:07:17,840
+ enables a new form of infrastructure for payment, for payment issuance, issuers repayment systems
+
+70
+00:07:17,840 --> 00:07:24,080
+ issuers. And in many ways, that's, I think, what we've kind of wanted blockchains to be, you know,
+
+71
+00:07:24,080 --> 00:07:29,440
+ there's this idea that we've been circling for a long time now is like that we want
+
+72
+00:07:29,440 --> 00:07:38,320
+ blockchains and DeFi to be the rails of the financial system. And I feel like stablecoins
+
+73
+00:07:38,320 --> 00:07:44,160
+ may be the catalyst that actually makes that finally the case, right? It sort of makes it
+
+74
+00:07:44,160 --> 00:07:52,560
+ possible. And so like this sort of institutional sentiment has really flipped. I think coin desk
+
+75
+00:07:52,560 --> 00:07:59,360
+ had this figure that 83% of investors are now playing more crypto exposure. Tablecoins, I think,
+
+76
+00:07:59,360 --> 00:08:03,760
+ are a big part of that because there's yield, you know, a lot of stablecoins are sort of promising
+
+77
+00:08:03,760 --> 00:08:13,200
+ yield. How do you look at that? And, you know, how should how should investors institutional or even
+
+78
+00:08:13,200 --> 00:08:20,960
+ retail sort of be assessing the different yield sources, right? Because 4.5% over here, 10% over here
+
+79
+00:08:20,960 --> 00:08:26,800
+ may not be, you know, not all yield is created equal. And people need to be more familiar and
+
+80
+00:08:26,800 --> 00:08:33,840
+ sort of aware of that. How do you look at that? Yeah. Well, okay. So I mean, first of all, like,
+
+81
+00:08:33,840 --> 00:08:37,760
+ let me just back it up for a second. So basically, you know, to your point, obviously, like the
+
+82
+00:08:37,760 --> 00:08:44,400
+ promise of blockchain rails was, of course, you know, a lot of the kind of use cases and kind of
+
+83
+00:08:44,400 --> 00:08:49,440
+ ideals was around payments. It was, you know, peer to peer payment systems. Obviously, this idea of
+
+84
+00:08:49,440 --> 00:08:55,040
+ financial disintermediation, even in the original Bitcoin white paper, you had this vision for
+
+85
+00:08:55,040 --> 00:09:01,600
+ Bitcoin as a payments mechanism. Of course, that is now not the case. Bitcoin is not used as,
+
+86
+00:09:01,600 --> 00:09:07,360
+ you know, most often in the majority of cases is not used as a payments instrument. It's obviously
+
+87
+00:09:07,360 --> 00:09:12,480
+ a speculative asset that is traded and, you know, at this point, quite commoditized.
+
+88
+00:09:12,480 --> 00:09:18,160
+ So on the one hand, like it did take us actually quite some time to get to this point where we
+
+89
+00:09:18,160 --> 00:09:22,480
+ actually do have the infrastructure and we actually have stable points again as a product that are
+
+90
+00:09:22,480 --> 00:09:29,440
+ instruments that will not only have, you know, very sound legislation kind of governing their
+
+91
+00:09:29,440 --> 00:09:34,560
+ their utility, but we also have the infrastructure and the actual, again, blockchain rails kind of
+
+92
+00:09:34,560 --> 00:09:42,720
+ ready and able to transmit and proliferate these stablecoins across, you know, a wide variety of
+
+93
+00:09:42,720 --> 00:09:48,480
+ use cases and distribution channels. And so I will just emphasize like before we talk about like yield
+
+94
+00:09:48,480 --> 00:09:56,160
+ and stablecoins that really it's only now I would say that we've had again, like proper scalable
+
+95
+00:09:56,160 --> 00:10:03,680
+ infrastructure like ready to take stablecoins to the masses. And I would also like kind of love to
+
+96
+00:10:03,680 --> 00:10:08,080
+ talk about why that is and how far we've come. And again, like what is this infrastructure that
+
+97
+00:10:08,080 --> 00:10:14,320
+ we're talking about that is suited for bringing stablecoins to mainstream? But yeah, to your question
+
+98
+00:10:14,320 --> 00:10:19,040
+ around yield, I mean, it's interesting, right? So first of all, when we talk about like yield
+
+99
+00:10:19,040 --> 00:10:23,280
+ as release of stablecoins, we're typically talking about yield that is generated from
+
+100
+00:10:23,280 --> 00:10:31,920
+ short term treasury bills. Obviously, that is the mechanism that I would call classic traditional
+
+101
+00:10:31,920 --> 00:10:38,720
+ stablecoins are collateralized by. And so obviously with ingenious, there is very clear
+
+102
+00:10:38,720 --> 00:10:46,000
+ distinctions around how that yield is passed on. So kind of out of the box, it's actually not
+
+103
+00:10:46,000 --> 00:10:53,120
+ compliant to pass on that yield sort of passively, right? So you have to basically have a mechanism
+
+104
+00:10:53,120 --> 00:10:59,920
+ where that yield is claimed, or where distribution kind of partners or entities like a coin base
+
+105
+00:10:59,920 --> 00:11:05,520
+ can actually take that USDC and pass on the yield by having people hold that USDC on the coin base
+
+106
+00:11:05,520 --> 00:11:14,720
+ platform. So there has been a bit of nuance and like legally how stablecoins are able to pass on
+
+107
+00:11:14,720 --> 00:11:20,800
+ yield. And another big part of this question, of course, is the clarity act. And basically,
+
+108
+00:11:20,800 --> 00:11:26,640
+ that is more governing around DeFi and just generally kind of crypto tokens are perhaps
+
+109
+00:11:26,640 --> 00:11:30,720
+ almost speculative, but that will also kind of have some guidelines on again, like passing
+
+110
+00:11:30,720 --> 00:11:38,000
+ of yield and how that's kind of compliant. And basically for for for noble, and this is like one
+
+111
+00:11:38,000 --> 00:11:44,400
+ of the principles that we have held very dear to our heart since the beginning is noble is
+
+112
+00:11:44,400 --> 00:11:52,400
+ neutral purpose built infrastructure for the transmission and proliferation of these stablecoins.
+
+113
+00:11:52,400 --> 00:11:57,520
+ So noble itself is a protocol, okay, noble itself is a layer one. We of course are not
+
+114
+00:11:57,520 --> 00:12:02,640
+ ourselves a stablecoin issuer. You kind of mentioned in the intro that we have noble dollar,
+
+115
+00:12:02,640 --> 00:12:12,000
+ we're of course working with N0 on that product. M0 is a stablecoin issuance protocol,
+
+116
+00:12:12,000 --> 00:12:20,720
+ which works with a network of off chain mentors and issuers recently Stripe or Bridge was announced
+
+117
+00:12:20,720 --> 00:12:26,800
+ as one of their partners. But basically, noble is distinct from the circles or the stripes of the
+
+118
+00:12:26,800 --> 00:12:32,400
+ world in the sense that we are crypto infrastructure again for the transmission of these stablecoins,
+
+119
+00:12:32,400 --> 00:12:38,400
+ right? So we like to work with wide variety diverse set of issuers. And so yeah, to your question
+
+120
+00:12:38,400 --> 00:12:43,520
+ around, I guess, like yield and like how this will kind of play out, I would say like the issuers
+
+121
+00:12:43,520 --> 00:12:47,440
+ themselves are kind of at the forefront of these discussions. Like again, when it comes to noble,
+
+122
+00:12:47,440 --> 00:12:54,560
+ we are crypto native. Obviously, DeFi will continue to exist. But as an issuer, that kind of
+
+123
+00:12:54,560 --> 00:13:00,160
+ consideration or on how you pass on the yield, if at all, two end users is basically within their
+
+124
+00:13:00,160 --> 00:13:05,120
+ purview, right? So basically, you're going to have a situation where obviously, you know,
+
+125
+00:13:05,120 --> 00:13:11,280
+ like what currently exists, which will probably what the reality kind of after genius is operational
+
+126
+00:13:11,280 --> 00:13:15,680
+ lines, but you'll have a situation where the issuer themselves like a circle can't by default
+
+127
+00:13:15,680 --> 00:13:23,840
+ pass on that yield. But the distribution partner, like a Coinbase, like an Aave, like a finance,
+
+128
+00:13:23,840 --> 00:13:32,240
+ really any entity, whether it's an exchange, or even a DeFi protocol, can of course, you know,
+
+129
+00:13:32,240 --> 00:13:38,400
+ pass on yield in ways that is like safe and, you know, makes sense. So anyways, we can we can try
+
+130
+00:13:38,400 --> 00:13:43,680
+ a little bit more about that and how kind of noble thinks about it with composable yield as it was
+
+131
+00:13:43,680 --> 00:13:49,520
+ a noble dollar. But basically, the rules are just like now being established. And there's no
+
+132
+00:13:49,520 --> 00:13:59,120
+ one path yet, because the rules of the road have yet to be written by the OCC in the US and as it
+
+133
+00:13:59,120 --> 00:14:04,640
+ relates to things like passing on yield. Well, I'm glad you brought up composable yield, because I
+
+134
+00:14:04,640 --> 00:14:08,800
+ think it's it's a perfect segue into the next question I wanted to ask you, which is currently,
+
+135
+00:14:08,800 --> 00:14:13,440
+ I think most of the yield that these you have this kind of floor that we see around like four
+
+136
+00:14:13,440 --> 00:14:18,880
+ four four or five percent comes from treasuries. You mentioned short term and long term treasuries
+
+137
+00:14:18,880 --> 00:14:24,960
+ and having sort of a mix there. Some stable coins, you know, recently we had cap on we also had
+
+138
+00:14:24,960 --> 00:14:28,960
+ FX protocol. And of course, like these are these are stable coin issuers like different from
+
+139
+00:14:28,960 --> 00:14:34,480
+ from from noble, but they're generating yield in different ways. Like FX has this stability pool
+
+140
+00:14:34,480 --> 00:14:41,280
+ that generates yield basically from, you know, sort of deposits in its per protocol. You know,
+
+141
+00:14:41,280 --> 00:14:46,720
+ I feel like probably, you know, we can we can keep juicing these yields for some time, but they'll
+
+142
+00:14:46,720 --> 00:14:52,960
+ probably dry up like the native DeFi yields will start drying up unless new sources of yield start
+
+143
+00:14:52,960 --> 00:14:59,520
+ coming on chain actual cash flows from off chain businesses. So yeah, how do you think about sort
+
+144
+00:14:59,520 --> 00:15:06,400
+ of like the bringing more yield on chain and how are you guys integrated then to this? So your yield
+
+145
+00:15:06,400 --> 00:15:11,920
+ strategy and composable yields moving forward. Yeah, I mean, composable yield is actually quite
+
+146
+00:15:11,920 --> 00:15:16,800
+ simple. And we don't like to complicate things as it relates to noble dollar itself, like the core
+
+147
+00:15:16,800 --> 00:15:20,720
+ product. Obviously, there's like, you know, kind of funky things that could be built on top of that,
+
+148
+00:15:20,720 --> 00:15:26,960
+ but as it relates to noble dollar itself, it composable yield basically is as follows. So you
+
+149
+00:15:26,960 --> 00:15:35,440
+ have USDN, which is actually over collateralized 103% by by short term treasury bills. Of course,
+
+150
+00:15:35,440 --> 00:15:44,960
+ that collateral pool is again, managed and governed by the M zero protocol. But our implementation
+
+151
+00:15:44,960 --> 00:15:52,000
+ of USDN takes that yield component and basically makes it programmable and programmatic at the
+
+152
+00:15:52,000 --> 00:15:58,080
+ same time. So we tell distribution partners or we, you know, encourage distribution partners like,
+
+153
+00:15:58,080 --> 00:16:04,400
+ like a, like a, like a DEX, a payments app, really give you off chain distribution,
+
+154
+00:16:04,400 --> 00:16:13,120
+ on chain distribution, we really don't distinguish. We basically say, take that yield accumulation that
+
+155
+00:16:13,120 --> 00:16:20,560
+ is kind of happening in real time on a per block basis. And you can program it and direct it to
+
+156
+00:16:20,560 --> 00:16:26,320
+ any source or any destination that kind of fits your use case. So you could obviously take that
+
+157
+00:16:26,320 --> 00:16:30,320
+ yield revenue and you could distribute it to validators. You could do it by and burn up your
+
+158
+00:16:30,320 --> 00:16:38,400
+ token. You could keep it as revenue. And basically, noble's thesis, again, is on chain distribution.
+
+159
+00:16:38,400 --> 00:16:44,080
+ It's making sure that the noble protocol can service app builders and make sure that there
+
+160
+00:16:44,080 --> 00:16:49,440
+ is proper incentives and like safety and like liability around that distribution of the underlying
+
+161
+00:16:49,440 --> 00:16:56,480
+ table yield. And we've had some pretty pretty good success. So a few months ago, we ran a points
+
+162
+00:16:56,480 --> 00:17:01,120
+ campaign where we wanted to kind of demonstrate like this utility of composable yield, right?
+
+163
+00:17:01,120 --> 00:17:06,160
+ And so we basically said, okay, so people can participate in this points campaign. They can get,
+
+164
+00:17:06,160 --> 00:17:11,200
+ you know, points, noble points by depositing their noble dollar into the into a points vault.
+
+165
+00:17:11,200 --> 00:17:19,440
+ But by doing so, you actually for forfeit or give up the T bill yield that you would otherwise
+
+166
+00:17:19,440 --> 00:17:25,120
+ get by holding noble dollar. And what happened to that table yield, that actually got distributed
+
+167
+00:17:25,120 --> 00:17:31,680
+ to a second vault, which is a boosted yield vault. And basically, we told people you can also just,
+
+168
+00:17:31,680 --> 00:17:37,120
+ you know, deposit your USDN into this budget yield vault, where you don't get points, but you get
+
+169
+00:17:37,120 --> 00:17:41,920
+ all of the yield that the people in the points vault gave up. And that was generating about 15
+
+170
+00:17:41,920 --> 00:17:51,120
+ to 20% yields. And that ran for about four or five months. And basically, you know, why we did
+
+171
+00:17:51,120 --> 00:17:56,080
+ that and like a lot of people were kind of asking, well, how is that 50% yields generated? Like,
+
+172
+00:17:56,080 --> 00:18:00,240
+ is there something like happening on the back end, like, like, like through like lending or
+
+173
+00:18:00,240 --> 00:18:07,440
+ something funky in that way? And the answer was no, like, it's literally fundamentally
+
+174
+00:18:07,440 --> 00:18:16,240
+ treasury bill yield that just got redistributed in a way that was quite simple. If you think about it,
+
+175
+00:18:16,240 --> 00:18:21,680
+ where it was basically all the people that gave it up, it just got redirected to this other
+
+176
+00:18:21,680 --> 00:18:28,560
+ group of holders. And the reason we were able to do 15, you know, to 20% consistently was because
+
+177
+00:18:28,560 --> 00:18:36,000
+ obviously, overwhelmingly, the distribution or the ratio of deposits was within the points vault.
+
+178
+00:18:36,000 --> 00:18:41,520
+ And so basically, you know, on the one hand, we want to show, you know, noble dollar. Look,
+
+179
+00:18:41,520 --> 00:18:47,840
+ it's like a thing that exists. It's very powerful. And of course, the composable yield is like,
+
+180
+00:18:47,840 --> 00:18:55,280
+ kind of interesting new mechanism, where you can start implementing it in, you know, a wide variety
+
+181
+00:18:55,280 --> 00:19:00,080
+ of ways, and you could gamify it and create incentives around that. And again, it's all possible because
+
+182
+00:19:00,080 --> 00:19:07,440
+ the token itself has been designed and engineered to allow for that composability of that yield
+
+183
+00:19:07,440 --> 00:19:13,600
+ component. Makes sense. And so the USDN campaign, how successful was it? Yeah, it was quite successful.
+
+184
+00:19:13,600 --> 00:19:21,680
+ We reached about 125 million at an all time high, all organic demand across 30,000 unique wallets.
+
+185
+00:19:22,880 --> 00:19:29,200
+ And so, you know, it was very, very great to see that kind of organic, you know,
+
+186
+00:19:29,200 --> 00:19:34,320
+ demand kind of popping up. And yeah. I want to talk about cosmos a little bit. I mean,
+
+187
+00:19:34,320 --> 00:19:40,960
+ so noble is a cosmos app chain and, you know, launched at a time, I think, when cosmos was
+
+188
+00:19:40,960 --> 00:19:49,040
+ struggling from the downfall of UST quite some time afterwards. But I think, you know, I think
+
+189
+00:19:49,040 --> 00:19:56,880
+ UST and the collapse of Luna, I think had a pretty significant impact on the cosmos ecosystem overall,
+
+190
+00:19:56,880 --> 00:20:02,480
+ you know, feel like at some of the all time highs there and like the the FTVs of most of the chains
+
+191
+00:20:02,480 --> 00:20:08,800
+ that were around in 2020, 2021, 2022, a lot of liquidity got, you know, removed out of the ecosystem
+
+192
+00:20:08,800 --> 00:20:18,000
+ in in one one moment. I think when when noble came online, a lot of people were expecting lots
+
+193
+00:20:18,000 --> 00:20:24,880
+ of USD liquidity to come into cosmos. In some house, right? I mean, 350 million or some chain
+
+194
+00:20:24,880 --> 00:20:30,880
+ trades is nothing to sneeze at. Do ID X also coming to the ecosystem. At the same time, I think was
+
+195
+00:20:30,880 --> 00:20:36,480
+ very much anticipated. And people saw that as a positive sign. And I think, I think the
+
+196
+00:20:36,480 --> 00:20:41,680
+ app chain thesis generally and so the sovereign option thesis continues to stand up and and people
+
+197
+00:20:41,680 --> 00:20:47,200
+ across the ecosystem, across crypto, I think still believe that's the case. But the cosmos ecosystem
+
+198
+00:20:47,200 --> 00:20:53,120
+ as a as a DeFi ecosystem has not really done very well in the last, you know, two to three years.
+
+199
+00:20:53,120 --> 00:20:59,440
+ Despite all of this, right, despite noble coming there, despite having native UST, despite,
+
+200
+00:20:59,440 --> 00:21:03,360
+ you know, lots of chains of using cosmos tech, what's happening? What do you think? Why do you
+
+201
+00:21:03,360 --> 00:21:07,520
+ think that it is cosmos finally dead, Yolana? But I guess that's the question I want to ask you.
+
+202
+00:21:07,520 --> 00:21:12,000
+ It's like, do you think? No, it's not dead. Yeah, I mean, I think it's kind of a
+
+203
+00:21:13,520 --> 00:21:20,320
+ misnomer of a question because basically, if you look at what cosmos is, it's fundamentally
+
+204
+00:21:20,320 --> 00:21:26,000
+ the stack, right? It's tenderman. It's common BFT. It's the SDK. It's cause and laws. It's IBC.
+
+205
+00:21:26,000 --> 00:21:32,480
+ And if you look at all metrics across those, like levels of the stack, it's actually quite strong.
+
+206
+00:21:32,480 --> 00:21:38,960
+ What's not strong to your point is cosmos native token performances. So if you look at a chart,
+
+207
+00:21:38,960 --> 00:21:44,240
+ a coin market cap, and you kind of look at, you know, a token that is like an IBC token,
+
+208
+00:21:44,240 --> 00:21:49,200
+ that like launches, like, unfortunately, there isn't as much, you know, retail kind of demand
+
+209
+00:21:49,200 --> 00:21:55,280
+ for those tokens. It's, you know, partially why noble, of course, is launching this L2 on EVM,
+
+210
+00:21:55,280 --> 00:22:00,080
+ which is the noble app player and why the noble token will be an Ethereum token, not a cosmos
+
+211
+00:22:00,080 --> 00:22:07,680
+ token. But basically, as it relates to like the stack itself and it relates to adoption, I mean,
+
+212
+00:22:07,680 --> 00:22:15,680
+ again, by all accounts, it is the most performant stack to build an app chain, right? And whether
+
+213
+00:22:15,680 --> 00:22:21,600
+ you use IBC or not, I think also kind of dictates whether you're kind of considered to be like
+
+214
+00:22:21,600 --> 00:22:26,960
+ cosmos. So like noble, for example, right, we, of course, are have IBC out of the box. We,
+
+215
+00:22:26,960 --> 00:22:34,720
+ you know, a lot of like volume, of course, liquidity routing is via IBC, but we also have CCTP
+
+216
+00:22:34,720 --> 00:22:39,200
+ circles bridge. We also have wormhole. We also have hyperlane support, you know,
+
+217
+00:22:39,200 --> 00:22:45,440
+ probably will have other bridges supported by, you know, through noble. And so, you know,
+
+218
+00:22:45,440 --> 00:22:48,960
+ I think that a lot of the times, you know, when you kind of look at what happened with Terra,
+
+219
+00:22:48,960 --> 00:22:55,120
+ like, you know, how much of Terra's success was because they were cosmos or because they had a
+
+220
+00:22:55,120 --> 00:22:59,280
+ great product. I would argue they had a great product for its time. Obviously, that was not
+
+221
+00:22:59,280 --> 00:23:05,760
+ sustainable. Obviously, UST was fundamentally unsound, but, you know, anchor and what they,
+
+222
+00:23:05,760 --> 00:23:12,800
+ you know, did with the Terra protocol was obviously, you know, very valuable in some level. And that's
+
+223
+00:23:12,800 --> 00:23:17,040
+ why you had UST at a 40 billion dollar market cap. And you know, you had, you know, all of this,
+
+224
+00:23:17,040 --> 00:23:23,040
+ like, like, you know, liquidity mining of UST and you had these like crazy, like APIs and
+
+225
+00:23:23,760 --> 00:23:29,520
+ anyways, you also had like a lot of like really great DeFi on Terra. And so basically, yeah, Terra
+
+226
+00:23:29,520 --> 00:23:34,400
+ was cosmos and it was cosmos because it's the best way to build an app chain. But they also just
+
+227
+00:23:34,400 --> 00:23:41,200
+ had like a good product story and good use like a really, you know, bullish community. And so I
+
+228
+00:23:41,200 --> 00:23:48,560
+ think again, like, it's not to say that that can't happen again, right? Like, it's all about the
+
+229
+00:23:48,560 --> 00:23:54,800
+ product. It's all about the, you know, like what you're actually building who's a four. Is it
+
+230
+00:23:54,800 --> 00:24:00,480
+ useful? Does it work? Is it broken? Is there a good UX? All of these things. And so I think when
+
+231
+00:24:00,480 --> 00:24:04,720
+ you look at like what's happened since UST collapsed, obviously, there was like a really serious bear
+
+232
+00:24:04,720 --> 00:24:13,360
+ market. You know, you had FTX, you had Celsius, bankruptcy, you had things happen. And then what
+
+233
+00:24:13,360 --> 00:24:18,800
+ happened after that was somewhat of a burger market that was started basically within the
+
+234
+00:24:18,800 --> 00:24:26,480
+ slauna ecosystem. Why product? What was the product mean coins? And so again, like,
+
+235
+00:24:26,480 --> 00:24:35,200
+ cosmos showed you could build really performant, uh, app chain infrastructure for DeFi for stable
+
+236
+00:24:35,200 --> 00:24:41,840
+ coins for trading for like all sorts of things. Slauna showed that you could get incredible
+
+237
+00:24:41,840 --> 00:24:48,560
+ mind share and retail adoption of mean coins. And of course, there is like some performance
+
+238
+00:24:48,560 --> 00:24:56,080
+ reason for that because of the way that slauna works. But basically, it's to say that if you look
+
+239
+00:24:56,080 --> 00:25:06,240
+ at any major L one, L two ecosystem, typically it's like power law distribution of like where
+
+240
+00:25:06,240 --> 00:25:11,200
+ the activity and liquidity is. And it's usually concentrated among a handful of products and
+
+241
+00:25:11,200 --> 00:25:16,880
+ applications. So like even slauna, right? Like, yes, pumped off on like kind of kicked off,
+
+242
+00:25:16,880 --> 00:25:23,200
+ you know, the trend, you had bonk, you had, obviously, you know, then there's like things
+
+243
+00:25:23,200 --> 00:25:29,840
+ like Gito, but like overwhelmingly, a lot of that activity and liquidity in mind share was around
+
+244
+00:25:29,840 --> 00:25:35,040
+ pump, doh fun. And then you know, you look at, you know, things like, you know, hyper liquid
+
+245
+00:25:35,040 --> 00:25:41,520
+ overwhelmingly now, that's kind of maintaining a lot of mind share. And so basically, you know,
+
+246
+00:25:41,520 --> 00:25:47,840
+ I would say that on the one hand cosmos, of course, can never be dead because you have
+
+247
+00:25:47,840 --> 00:25:52,080
+ the stack, which will continue to be like the best stack. Like, I mean, even talk about like
+
+248
+00:25:52,080 --> 00:25:57,840
+ stable coin chains, like circle, of course, is building, uh, their stable coin layer one,
+
+249
+00:25:58,400 --> 00:26:06,080
+ hold arc. And that uses common BFT, uh, for consensus, you know, you have obviously noble,
+
+250
+00:26:06,080 --> 00:26:11,600
+ which of course, leverages some parts of the cosmos stack. And of course, has this like separate
+
+251
+00:26:11,600 --> 00:26:19,040
+ execution layer around the EDM. But yeah, I think there's definitely no logical way you could see
+
+252
+00:26:19,040 --> 00:26:25,200
+ that cosmos is dead. Yeah, that that's, that's really great. I think it kind of aligns with how
+
+253
+00:26:25,200 --> 00:26:31,520
+ I've seen and talked about cosmos over the years and that the analogy I often use is none of the,
+
+254
+00:26:31,520 --> 00:26:37,680
+ none of the nerds that were fighting over the right distribution of Linux to use back in the 90s
+
+255
+00:26:37,680 --> 00:26:43,440
+ got rich because Apple devices and every Android device uses it uses a Linux kind of like core
+
+256
+00:26:43,440 --> 00:26:48,080
+ kernel. The nerds will come at me and tell me that's what I said is inaccurate. But basically,
+
+257
+00:26:48,080 --> 00:26:53,120
+ that like most devices nowadays use Linux infrastructure. And I think cosmos is kind of
+
+258
+00:26:53,120 --> 00:26:59,280
+ similar, right? It is, it is really the best stack to build stop sovereign app chain infrastructure,
+
+259
+00:26:59,280 --> 00:27:05,360
+ just that, you know, unfortunately, there isn't a mechanism by which Adam holders get rich or
+
+260
+00:27:05,360 --> 00:27:10,480
+ so the cosmos token holders get rich because your circle built circle builds their, their app
+
+261
+00:27:10,480 --> 00:27:16,560
+ chain using a common PFT. And I think to some extent, Ethereum does suffer a little bit from a
+
+262
+00:27:16,560 --> 00:27:24,640
+ similar fate with the roll up roadmap where value from all these roll ups doesn't necessarily
+
+263
+00:27:24,640 --> 00:27:31,680
+ accrue to Ethereum. And but you know, the EDM is the best way to write smart contracts and write
+
+264
+00:27:31,680 --> 00:27:36,800
+ applications on blockchains that has the most amount of developers and etc. So I think a lot of stacks
+
+265
+00:27:36,800 --> 00:27:42,720
+ are kind of reeling with the same sorts of problems of value capture. And I don't know what the way
+
+266
+00:27:42,720 --> 00:27:50,000
+ around us, you know, do we have licenses where those who use the stack for commercial purposes need to
+
+267
+00:27:50,000 --> 00:27:55,200
+ pay some some fee or some licensing fee back to the token holders, I mean, it seems very difficult
+
+268
+00:27:55,200 --> 00:28:00,960
+ to manage. So I don't know what the what the solution is here, maybe the solution is just I
+
+269
+00:28:00,960 --> 00:28:04,320
+ mean, maybe there is some solution and just people have to accept that just because someone's using
+
+270
+00:28:04,320 --> 00:28:10,160
+ your stack doesn't mean that someone's using the stack that, you know, that that you invested in
+
+271
+00:28:10,160 --> 00:28:14,240
+ some other token doesn't mean that you're necessarily going to benefit from that.
+
+272
+00:28:14,240 --> 00:28:22,480
+ Well, I'll give you like an analogy here. Just because I have an app in the Apple App Store doesn't
+
+273
+00:28:22,480 --> 00:28:30,240
+ mean my app will be successful. I think that stands up pretty well. So just because I have
+
+274
+00:28:30,240 --> 00:28:37,120
+ quote unquote distribution through the app store doesn't mean it's going to be in the top 20
+
+275
+00:28:37,120 --> 00:28:43,680
+ used apps because it has to ultimately be a good app. So I think like this idea that just because
+
+276
+00:28:43,680 --> 00:28:48,320
+ you're building something else law on it means, oh, all of a sudden, it's like the next pumped off
+
+277
+00:28:48,320 --> 00:28:55,680
+ fun, like does make any sense, right? Just because I'm building, you know, on Ethereum means I'm
+
+278
+00:28:55,680 --> 00:29:01,760
+ going to now get all of the liquidity of Ethereum DeFi, like that doesn't make any sense. So yeah,
+
+279
+00:29:01,760 --> 00:29:07,360
+ I mean, I think that the same goes for Cosmos. I think the difference maybe is because like
+
+280
+00:29:07,360 --> 00:29:14,000
+ from a narrative perspective, the app chain thesis has been focused on apps, right? And so we
+
+281
+00:29:14,000 --> 00:29:20,240
+ understand like apps is where the value accrues. And if you don't have a good app, then you won't
+
+282
+00:29:20,240 --> 00:29:28,160
+ get value and neither will perhaps that value trickle out to other app chains within that same
+
+283
+00:29:28,160 --> 00:29:35,200
+ ecosystem. And so I think like with Tara, obviously, we had a very successful app, right? Very successful
+
+284
+00:29:35,200 --> 00:29:41,280
+ app chain for its time. And then of course, it destroy itself. But what did that show? It showed
+
+285
+00:29:41,280 --> 00:29:46,000
+ that value can accrue to the app player, it could accrue to the app chain, it could accrue to the
+
+286
+00:29:46,000 --> 00:29:51,120
+ token holders. And you know, you could argue, Oh, well, that's why, you know, other Cosmos
+
+287
+00:29:51,120 --> 00:30:01,920
+ app chains did well. I think that's a bit of rewriting of history. Like it was also just generally a bull market and many applications did well, not just in a cosmos, but also
+
+288
+00:30:01,920 --> 00:30:09,920
+ Ethereum. But basically, if like your only source of like demand for your token or your app is because
+
+289
+00:30:09,920 --> 00:30:19,360
+ like your neighbor is doing a good job, like that's not a sustainable moat. And so basically, you have to kind of think about, okay, well, how will distribution happen in the future?
+
+290
+00:30:20,000 --> 00:30:36,800
+ Where will demand come from? What is the product? Is it sustainable? Is there a moat? Is it easy to use? Is it differentiated? So, you know, basically, I think crypto people like have to build real businesses. And I think that's a good thing.
+
+291
+00:30:36,800 --> 00:30:43,760
+ And, you know, I think Cosmos is still the stack itself is still a very solid stack.
+
+292
+00:30:45,040 --> 00:30:54,840
+ Yeah, I agree. I mean, I think all that makes sense. And it bears repeating and it bears reminding ourselves and folks in the ecosystem altogether, you know, Cosmos people.
+
+293
+00:30:54,840 --> 00:31:11,760
+ So I think the last time we spoke when you were on the interop was quite a while ago. And there were some, you were talking at that time about having an EVM on Noble. How has that, yeah, sort of share the latest on that?
+
+294
+00:31:13,080 --> 00:31:26,640
+ Yeah, so this is something we're working towards and really excited about. So we're going to be launching something called the Noble App Layer. We'll probably be branding at something different. But for now, we're calling it the Noble App Layer.
+
+295
+00:31:26,640 --> 00:31:42,900
+ And basically, the Noble App Layer is an EVM L2 using Celestia for data availability, you know, kind of speaking of Cosmos, speaking of the stack. There's quite a couple, you know, a few reasons why we decided to build the EVM component as an L2 versus
+
+296
+00:31:42,900 --> 00:31:56,120
+ adding it on top of the Noble L1, which of course is the Cosmos L1, which is currently, of course, in production and quite, you know, significant in terms of volume and routing and adoption.
+
+297
+00:31:56,120 --> 00:32:07,160
+ And basically, the reasons kind of ours follows one, you know, there is a lot of exciting innovation taking place, like in the Ethereum world as it relates to performance.
+
+298
+00:32:07,880 --> 00:32:22,640
+ You know, Celestia, I think, is obviously like a huge part of, you know, what makes, I guess, like Ethereum more delightful to build on top of kind of given their, you know, data availability innovations.
+
+299
+00:32:22,640 --> 00:32:37,480
+ And so, you know, that's one part of it. We wanted to, you know, also make sure that we were exposed to the EVM ecosystem and just, you know, historically, EVM on Cosmos has been challenging to say the least.
+
+300
+00:32:38,000 --> 00:32:53,280
+ And so, you know, we figured, first of all, there was a huge product need for smart contracts and programmability, you know, for Noble and adding an EVM layer on top of Noble was not necessarily the best engineering decision.
+
+301
+00:32:53,280 --> 00:33:05,720
+ And so we figured, let's deploy basically an L2 on top of Noble that would be validated and secured by the Noble Layer 1, but which could act as a distinct execution layer for...
+
+302
+00:33:05,720 --> 00:33:18,720
+ Sorry to interrupt here, but even with the Cosmos EVM stack, yeah, here is why you chose to do an L2 rather than use that stack, which has the EVM kind of built into it.
+
+303
+00:33:18,720 --> 00:33:35,420
+ Well, so the EVM is actually not super well maintained, right? If you kind of look at like how the EVM kind of software has developed over time, you have like EVMOS, now you have other kind of players attempting to maintain that.
+
+304
+00:33:35,420 --> 00:33:48,420
+ But I mean, I'm sure you understand, like, EVM is as a software, you know, it needs to be maintained to make sure that it's like secure and that there's like, you know, de-risking from like a bugs perspective.
+
+305
+00:33:48,420 --> 00:34:01,420
+ And so basically, we felt a lot more comfortable in the maintenance and the, you know, software of EVM proper kind of on, you know, as it relates to Ethereum.
+
+306
+00:34:01,420 --> 00:34:13,420
+ So that was, you know, very much like a concern around, again, like stability, security, making sure we're always properly following major releases and that the software that we use is well maintained.
+
+307
+00:34:13,420 --> 00:34:23,420
+ And so it just made sense to, again, build this EVM app layer basically as an L2 using Slesia for DA and then again, performance, right?
+
+308
+00:34:23,420 --> 00:34:32,420
+ Like our EVM app layer, you know, I think like yesterday, we were doing some benchmark testing and it's like 100 millisecond block times, right? Super fast.
+
+309
+00:34:32,420 --> 00:34:49,420
+ That's faster than Noble Core, right? Noble Core is like 1.2 seconds, which is fast, but it's not, call it fast, like, like the app layer, which can support, you know, all sorts of things that Core can't support from like an execution perspective.
+
+310
+00:34:49,420 --> 00:34:55,420
+ And so, you know, that was an obvious decision for us. Again, we love working with the Slesia team.
+
+311
+00:34:55,420 --> 00:35:03,420
+ We think the, you know, the kind of software that is maintained, again, is very solid and it just kind of made sense for us.
+
+312
+00:35:03,420 --> 00:35:10,420
+ Also, again, like talking about like the power of like the cosmic stack, like, you know, it, not that this was like trivial work.
+
+313
+00:35:10,420 --> 00:35:18,420
+ It was definitely a lot of hard work, but there is also a world where, of course, Noble Core validates and secures the L2 and that's also was a big part of the discussion.
+
+314
+00:35:18,420 --> 00:35:27,420
+ Like, can we have a single sequencer L2 running on Slesia DA secured by the Noble validator set in a very secure manner?
+
+315
+00:35:27,420 --> 00:35:34,420
+ The answer was yes. And so we're very excited to be basically championing that model.
+
+316
+00:35:34,420 --> 00:35:44,420
+ I did a long tweet thread on kind of what makes this model perhaps different than like other kind of roll up designs within the Ethereum space,
+
+317
+00:35:44,420 --> 00:35:58,420
+ which maybe like we can link them in the notes, but basically a lot of what we've done with the Noble Core validating and securing the L2 is very similar to kind of like the native roll up vision.
+
+318
+00:35:58,420 --> 00:36:14,420
+ I believe Vitalik and others put forward. And yeah, we think it's pretty interesting. I mean, of course, it's different where the Noble Core is a proof of authority chain, right? So we don't have like a proof of stake kind of economic security model with like, you know, a bunch of token stakes.
+
+319
+00:36:14,420 --> 00:36:28,420
+ But we actually think that the proof of authority model works very well for our use cases, which are stable point centric. So, anyways, it's a lot of different decision making factors that kind of led us to where we are today.
+
+320
+00:36:28,420 --> 00:36:38,420
+ But I think that kind of speaks to like our approach and our philosophy, which is like, let's be very methodical. Let's be very considerate around the architecture.
+
+321
+00:36:38,420 --> 00:36:47,420
+ Let's not rush things just because everyone else is doing it one way. We want to make sure that the way we do it fits our use case and fits our principles.
+
+322
+00:36:47,420 --> 00:37:01,420
+ And basically, I do believe and can anticipate that the launch of the app layer will be like a new era for for Noble, because again, we've never actually had DeFi on Noble itself, which is kind of crazy. And yet there's all of this traction.
+
+323
+00:37:01,420 --> 00:37:13,420
+ So, yeah, we'll see what happens. And he talked a bit about the role of the Noble token in this, in this new L2 and in this DeFi ecosystem that you want to build.
+
+324
+00:37:13,420 --> 00:37:23,420
+ Yeah, definitely. And we'll have some really exciting announcements actually on the Noble token very, very soon. But at a high level, we're talking, we're thinking of the Noble token in like two ways.
+
+325
+00:37:23,420 --> 00:37:41,420
+ So one, it will be the base fee token for the app layer. Basically, will users can still pay fees in stable coins as they currently do on court, but there'll be a mechanism where those fees are swapped into Noble token kind of on the back end.
+
+326
+00:37:41,420 --> 00:37:59,420
+ And there's like a kind of a pay master's like account system around the kind of fee mechanism for the app layer, which again is Noble token at the hood. So again, assuming there's a lot of activity and users and products on Noble app layer that are well adopted,
+
+327
+00:37:59,420 --> 00:38:10,420
+ that will be positive for the Noble token. And then the other piece is actually governance. So we are keeping the proof of authority model for validation.
+
+328
+00:38:10,420 --> 00:38:18,420
+ So there will not most likely be staking, but there will be governance. What does that mean?
+
+329
+00:38:18,420 --> 00:38:38,420
+ Similar to, you know, kind of other models where basically you can use them like the governance token to have certain incentives or have certain auctions for, let's say, you know, deploying liquidity into certain pools.
+
+330
+00:38:38,420 --> 00:38:55,420
+ You know, what we call like bribes in the curve model, where you have like a V, in this case, a V Noble token. That's all kind of on the roadmap. And we actually think, again, DeFi is at this point battle tested and we have some pretty interesting applications kind of in the works.
+
+331
+00:38:55,420 --> 00:39:06,420
+ And if you can learn a Noble token on top of that, where you get the community kind of excited and incentivize and motivated to kind of govern those various applications, I think there could be some interesting interesting things.
+
+332
+00:39:06,420 --> 00:39:15,420
+ Where do you expect stable coins to be in three to five years? And what will be Noble's role in that ecosystem?
+
+333
+00:39:15,420 --> 00:39:33,420
+ Yeah, honestly, I think it's just the beginning. Obviously, we have all of plethora of purpose built as stable coin chains launching, which I think is ultimately positive. One of the ways that I like to think about differentiation among those app chains and, you know, perhaps
+
+334
+00:39:33,420 --> 00:39:50,420
+ Noble's kind of role within that differentiation is basically as follows, right? The TAM for stable coins for stable coin payments is massive, right? Like we mentioned earlier, this kind of 1.9 trillion figure from from city.
+
+335
+00:39:50,420 --> 00:40:02,420
+ I've seen, you know, I've seen predictions as high as poor trillion from financial institutions. But if that is to be the case, you're going to have specialization within the payments landscape.
+
+336
+00:40:02,420 --> 00:40:20,420
+ That basically leverages certain stable coin infrastructure, right? So for Noble, if we think about Noble's app player, if you think about Noble core and performance and stability there, I do see Noble playing a significant role in this future payments kind of revolution
+
+337
+00:40:20,420 --> 00:40:31,420
+ around stable coins, whether that is more on the B2C side, you know, is something we can kind of anticipate, but we've had some pretty exciting conversations with, you know, legacy traditional players.
+
+338
+00:40:31,420 --> 00:40:44,420
+ Kind of coming into the space, looking at the space and saying, basically, we have a need to transform our payments infrastructure. Let's think about how kind of Noble and again, layer ones kind of fit into that landscape.
+
+339
+00:40:44,420 --> 00:40:57,420
+ So Noble will continue to always exist as this kind of router activity as a origin chain for the minting for the redemption of these stable coins because of our performance, because of our battle tested infrastructure.
+
+340
+00:40:57,420 --> 00:41:09,420
+ And basically, we want to see Noble and the app player do a lot of stuff on the consumer facing side. So obviously, it's early days. But again, it's exciting days and there's a lot more to come.
+
+341
+00:41:09,420 --> 00:41:20,420
+ Great. Well, you know, thanks for coming on the show. It's been great chatting with you, getting an update on Noble and also getting a glimpse into the future. So excited for Noble and the things ahead.
+
+342
+00:41:20,420 --> 00:41:27,420
+ Amazing. Thank you, sir.
+

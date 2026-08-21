@@ -1,0 +1,2360 @@
+1
+00:00:00,000 --> 00:00:03,620
+ Arbitrage opportunities are now like always available.
+
+2
+00:00:03,620 --> 00:00:09,940
+ And so the funds that we were using to deploy into the arbitrage box were idle for some time.
+
+3
+00:00:09,940 --> 00:00:13,080
+ So we were like, okay, we need to find a way to make that more efficient.
+
+4
+00:00:13,080 --> 00:00:19,400
+ In 2022, we realized that most of the customer base for idle finance was
+
+5
+00:00:19,400 --> 00:00:22,720
+ to be shown funds are locating across different strategies.
+
+6
+00:00:22,720 --> 00:00:27,220
+ And one of the major feedback that we received at that time was that
+
+7
+00:00:27,220 --> 00:00:32,360
+ your doctor optimization is great, but we need to take care of risk and risk diversification.
+
+8
+00:00:32,360 --> 00:00:36,120
+ So at that time, we decided to introduce some yield of tranches.
+
+9
+00:00:36,120 --> 00:00:43,720
+ Credit lines can be really customized from underwriting terms, covenants, to compliance requirements.
+
+10
+00:00:43,720 --> 00:00:49,320
+ This is something that, like for example, maple or centrifuge is a bit limited, I would say.
+
+11
+00:00:49,320 --> 00:00:53,320
+ The credit lines that we have are creation-based.
+
+12
+00:00:53,320 --> 00:00:59,400
+ So we are not the only one that are underwriting these kind of credit lines,
+
+13
+00:00:59,400 --> 00:01:03,320
+ but we opened up these processes also to third-party curators.
+
+14
+00:01:03,320 --> 00:01:07,020
+ Welcome to Epicenter, the show which talks about the technologies, projects,
+
+15
+00:01:07,020 --> 00:01:10,160
+ and people driving decentralization and the blockchain revolution.
+
+16
+00:01:10,160 --> 00:01:16,060
+ I'm Frederica Anst, and today I'm speaking with Mateo Pandolfi, who is the co-founder of Pareto,
+
+17
+00:01:16,060 --> 00:01:19,960
+ a credit coordination protocol that evolved out of idle Dow
+
+18
+00:01:19,960 --> 00:01:24,360
+ in Anders' building on-chain markets for private credit.
+
+19
+00:01:24,360 --> 00:01:29,140
+ Before I talk with Mateo, let me tell you about our sponsors this week.
+
+20
+00:01:29,140 --> 00:01:34,000
+ If you're looking to stake your crypto with confidence, look no further than Chorus 1.
+
+21
+00:01:34,000 --> 00:01:37,880
+ More than 150,000 delegators, including institutions like BitGo,
+
+22
+00:01:37,880 --> 00:01:41,160
+ Pantera Capital, and Ledger, trust Chorus 1 with their assets.
+
+23
+00:01:41,160 --> 00:01:46,520
+ They support over 50 blockchains and are leaders in governance on networks like Cosmos ensuring your stake
+
+24
+00:01:46,520 --> 00:01:48,420
+ is responsibly managed.
+
+25
+00:01:48,420 --> 00:01:52,960
+ Thanks to their advanced MEV research, you can also enjoy the highest-taking rewards.
+
+26
+00:01:52,960 --> 00:01:56,800
+ You can stake directly from your preferred wallet, set up a white label note,
+
+27
+00:01:56,800 --> 00:02:02,560
+ restake your assets on eigenneo or symbiotic, or use the SDK for multi-chain saking in your app.
+
+28
+00:02:02,560 --> 00:02:07,040
+ Learn more at Chorus.1 and start staking today.
+
+29
+00:02:07,040 --> 00:02:14,040
+ Hey guys, I want to tell you about Gnosis, a collective of builders creating real tools for real people on the open internet.
+
+30
+00:02:14,040 --> 00:02:16,120
+ Gnosis has been around since 2015.
+
+31
+00:02:16,120 --> 00:02:19,240
+ In fact, it started as one of Ethereum's very first projects.
+
+32
+00:02:19,240 --> 00:02:24,920
+ And today, it's grown into a whole ecosystem designed to make open finance actually work for everyday people.
+
+33
+00:02:24,920 --> 00:02:26,660
+ At the center of it all is Gnosis Chain.
+
+34
+00:02:26,660 --> 00:02:33,480
+ It's a low-cost, highly decentralized layer one that's compatible with Ethereum and secured by over 300,000 validators.
+
+35
+00:02:33,480 --> 00:02:38,340
+ So whether you're building a DAP, experimenting with EFI, or working on autonomous agents,
+
+36
+00:02:38,340 --> 00:02:42,280
+ Gnosis Chain gives you a solid, neutral foundation to build on.
+
+37
+00:02:42,280 --> 00:02:44,640
+ But Gnosis is more than just infrastructure.
+
+38
+00:02:44,640 --> 00:02:47,120
+ It's also tools that people can actually use.
+
+39
+00:02:47,120 --> 00:02:53,040
+ Like circles, for example, let's anyone issue their own digital currency through networks of trust, not banks.
+
+40
+00:02:53,040 --> 00:02:54,100
+ And then there's Metri.
+
+41
+00:02:54,100 --> 00:02:59,000
+ It's their smart contract wallet that makes it easy to access circles, manage group currencies,
+
+42
+00:02:59,000 --> 00:03:04,840
+ and even spend anywhere Visa has accepted thanks to their integration with Gnosis Pay.
+
+43
+00:03:04,840 --> 00:03:10,680
+ All this is governed by Gnosis Dow, where anyone can propose, vote, and help guide the network.
+
+44
+00:03:10,680 --> 00:03:14,080
+ And if you want to get involved, running a validator is super easy.
+
+45
+00:03:14,080 --> 00:03:17,580
+ All you need is one GNO and some basic hardware.
+
+46
+00:03:17,580 --> 00:03:22,040
+ To learn more and start building on the open internet, head to Gnosis.io.
+
+47
+00:03:22,040 --> 00:03:26,360
+ Gnosis, building the open internet, one block at a time.
+
+48
+00:03:26,360 --> 00:03:29,180
+ Mateo, it's super nice to have you on.
+
+49
+00:03:29,180 --> 00:03:38,040
+ Really excited to be here, and yep, thanks to the entire epicenter team for hosting this session to all of you for tuning in as well.
+
+50
+00:03:38,040 --> 00:03:44,320
+ Mateo, tell us a little bit about yourself before we dive into Pareto.
+
+51
+00:03:44,320 --> 00:03:47,480
+ What's your professional and academic background?
+
+52
+00:03:47,480 --> 00:03:55,720
+ Yeah, so before founding Pareto, and as we are going to go through more into details, I do Dow back in the past.
+
+53
+00:03:55,720 --> 00:03:57,400
+ So my background is in finance.
+
+54
+00:03:57,400 --> 00:04:03,000
+ So my academic career was pretty much in finance and entrepreneurship.
+
+55
+00:04:03,000 --> 00:04:12,960
+ So it's kind of like a good mix that brought me into DeFi, this kind of like, you know, innovative market, but still really related to finance.
+
+56
+00:04:12,960 --> 00:04:21,760
+ Before actually starting with Pareto and I do Dow, I was working on financial risk analysis.
+
+57
+00:04:21,760 --> 00:04:30,280
+ So I was consulting with major financial institution in Italy, like it is some power, for example, on their credit desk.
+
+58
+00:04:30,280 --> 00:04:41,640
+ So essentially do helping on the writing process and due diligence process in order to create this kind of like corporate bonds instrument for these financial institutions.
+
+59
+00:04:41,640 --> 00:04:45,960
+ What drew you into the blockchain space in the first place?
+
+60
+00:04:45,960 --> 00:04:55,040
+ That's a really good casting, because I've been brought into the DeFi space by my other co-founder, our CTO.
+
+61
+00:04:55,040 --> 00:05:02,000
+ And who made me find out about Ethereum at first?
+
+62
+00:05:02,000 --> 00:05:08,200
+ At that time, I was actually still a finance student, and we were exploring Ethereum.
+
+63
+00:05:08,200 --> 00:05:19,200
+ We had a background in computer science, and with my background in finance, we were thinking how we could build something on Ethereum.
+
+64
+00:05:19,200 --> 00:05:30,920
+ And the first instance of something that would build on-chain was actually touching the arbitrage and arbitrage bonds.
+
+65
+00:05:30,920 --> 00:05:41,160
+ So, you know, what we know right now as MED, at that time was still called PGA price gas auction, you know.
+
+66
+00:05:41,160 --> 00:05:53,280
+ So we started building these kind of bonds that were looking at discrepancies between taxes and taxes and arbitrage in price across these assets.
+
+67
+00:05:53,280 --> 00:06:08,440
+ And yeah, so that was kind of like the first instance and the first way where I realized that we could really create something that was completely programmable and automatic,
+
+68
+00:06:08,440 --> 00:06:12,920
+ and was really like changing the way that I was used to see finance.
+
+69
+00:06:12,920 --> 00:06:21,840
+ Because, you know, from the academic, but even from the professional background, I always saw finance being quite sealed.
+
+70
+00:06:21,840 --> 00:06:29,400
+ So, all these kind of closed systems that were all like communicating internally and not to each other.
+
+71
+00:06:29,400 --> 00:06:33,400
+ And with Ethereum, that was like the first time that it was my ha-ha moment.
+
+72
+00:06:33,400 --> 00:06:43,000
+ It is like, okay, that's really composable and that's something that we can build out to mission that runs on-chain and runs 24/7.
+
+73
+00:06:43,000 --> 00:06:52,920
+ So, that was the first time I really touched with my hands, Ethereum and the power of smart contracts.
+
+74
+00:06:52,920 --> 00:06:56,120
+ And then, you know, I just got into the rabbit hole of that.
+
+75
+00:06:56,120 --> 00:07:04,760
+ So, we started exploring land in protocols, that's how it wasn't even a hobby. It was only compound and the YDX.
+
+76
+00:07:04,760 --> 00:07:14,360
+ And so, then everything evolved into what brought us into idle finance and then those are later on.
+
+77
+00:07:14,360 --> 00:07:19,800
+ When did you decide to kind of discontinue the arbitrage bot?
+
+78
+00:07:19,800 --> 00:07:30,280
+ That's a good point because idle finance came out from a need that we had for the arbitrage bots.
+
+79
+00:07:30,280 --> 00:07:35,960
+ Because actually, you know, arbitrage opportunities are now, like, always available.
+
+80
+00:07:35,960 --> 00:07:42,360
+ And so, the funds that we were using to deploy into the arbitrage bots were idle for some time.
+
+81
+00:07:42,360 --> 00:07:45,960
+ So, we were like, okay, we need to find a way to make that more efficient.
+
+82
+00:07:45,960 --> 00:07:56,120
+ And so, I would say that we proposed idle finance as a way to optimize the yield on idle funds
+
+83
+00:07:56,120 --> 00:08:01,160
+ in 2019 on an Akatonor on Gitcoin.
+
+84
+00:08:01,160 --> 00:08:11,480
+ So, I think that was in 2019 when we decided to focus completely on an idle finance and put aside the arbitrage bots.
+
+85
+00:08:11,480 --> 00:08:16,920
+ So, I would say 2019, we started the arbitrage bots back in 2017-2018.
+
+86
+00:08:16,920 --> 00:08:22,680
+ So, yeah, we ran that for a couple of years and then decided to focus completely on idle finance.
+
+87
+00:08:22,680 --> 00:08:34,600
+ And what's the rationale for kind of moving over purely a return on investment kind of play or what were the drivers here?
+
+88
+00:08:34,600 --> 00:08:44,680
+ Scalability. One of the major drivers was scalability because with the arbitrage bots, we saw that by increasing the AUM,
+
+89
+00:08:44,680 --> 00:08:52,040
+ the TVL of the arbitrage bots, we were actually reducing the margin of the funds for the arbitrage opportunities.
+
+90
+00:08:52,040 --> 00:09:00,120
+ So, we were really focused on building something on Ethereum that could be scalable, you know.
+
+91
+00:09:00,840 --> 00:09:06,920
+ So, when we started implementing the very first version of idle finance into our arbitrage bots,
+
+92
+00:09:06,920 --> 00:09:14,600
+ we realized that we could manage 1 million to 100 million and the result was pretty much the same
+
+93
+00:09:14,600 --> 00:09:19,560
+ in terms of return of the capital because the kind of optimization could be applied
+
+94
+00:09:19,560 --> 00:09:22,840
+ with more capital compared to arbitrage bots.
+
+95
+00:09:23,240 --> 00:09:32,280
+ So, building something that was able to be scalable and to be offered also to a more broader audience,
+
+96
+00:09:32,280 --> 00:09:37,960
+ I would say, because, you know, arbitrage in general is quite a niche product or in general,
+
+97
+00:09:37,960 --> 00:09:45,400
+ it's a niche concept that not a lot of users grasp or understand in general.
+
+98
+00:09:45,400 --> 00:09:53,800
+ Instead, like automating the yield generation optimization yield generation across different
+
+99
+00:09:53,800 --> 00:09:59,320
+ protocols was really something that was clicking with DeFi users at the time.
+
+100
+00:09:59,320 --> 00:10:04,840
+ So, I would say, yeah, scalability and also being able to offer this kind of product
+
+101
+00:10:04,840 --> 00:10:10,680
+ to a broader audience and let them understand the product to a broader audience was the main driver
+
+102
+00:10:10,680 --> 00:10:13,480
+ of us focusing completely on idle finance.
+
+103
+00:10:15,320 --> 00:10:20,280
+ There were quite a few projects that kind of centered around that, right?
+
+104
+00:10:20,280 --> 00:10:25,720
+ Kind of, I mean, in the very beginning, it was things like incident that kind of let you kind of
+
+105
+00:10:25,720 --> 00:10:36,600
+ switch funds between make and other memories correctly and then kind of more sophisticated
+
+106
+00:10:36,600 --> 00:10:45,480
+ things like come along. So, how did idle Dow kind of fit into that landscape?
+
+107
+00:10:45,480 --> 00:10:50,040
+ So, I think we had the lucky and the opportunity.
+
+108
+00:10:50,040 --> 00:10:54,120
+ We have been lucky and we had the opportunity also to meet like,
+
+109
+00:10:54,120 --> 00:11:02,680
+ instead of team or even Andrei Kranger from Bayern, even before like them building out their products.
+
+110
+00:11:02,680 --> 00:11:09,800
+ I would say, instead of being really great that they have been really great builders
+
+111
+00:11:09,800 --> 00:11:15,400
+ and but never really focused on yield optimization and automation of that yield optimization.
+
+112
+00:11:15,400 --> 00:11:22,680
+ They were more focused on providing great tools for borrowers that were using like,
+
+113
+00:11:22,680 --> 00:11:26,040
+ for example, compound, AAVE, or even maker Dow.
+
+114
+00:11:26,600 --> 00:11:34,360
+ And I would say that instead of falls more into a different category compared to idle finance.
+
+115
+00:11:34,360 --> 00:11:39,000
+ Why earn an idle finance are pretty much similar. Actually, I remember a lot of
+
+116
+00:11:39,000 --> 00:11:45,320
+ conversation in Telegram with Andrei Kranger at the beginning on how to solve some like initial
+
+117
+00:11:45,320 --> 00:11:53,960
+ issues of yield optimization like there was this ping-pong effect that we found out at the time
+
+118
+00:11:53,960 --> 00:12:01,400
+ that was affecting yield aggregators, which means that essentially, when you move a big chunk of
+
+119
+00:12:01,400 --> 00:12:07,560
+ the funds into a specific lending protocol, you also influence the interest rate on that specific
+
+120
+00:12:07,560 --> 00:12:15,480
+ protocol. So, if you don't have control on the funds and control on the influence that you have
+
+121
+00:12:15,480 --> 00:12:20,040
+ on the interest rate, you might end up into a ping-pong effect, which means that you move
+
+122
+00:12:20,760 --> 00:12:26,200
+ all the funds from protocol A to protocol B because protocol B has the higher interest rate.
+
+123
+00:12:26,200 --> 00:12:31,560
+ But when you do that, you're lowering the interest rate of protocol B and might become
+
+124
+00:12:31,560 --> 00:12:40,520
+ lower than the protocol A. So, the yield aggregator sees that the higher interest rate is again on
+
+125
+00:12:40,520 --> 00:12:44,760
+ protocol A. And so, you move back the funds from protocol A. So, you see that you create this
+
+126
+00:12:44,760 --> 00:12:52,120
+ kind of ping-pong effect between by moving a rebalancing funds. So, we have been like
+
+127
+00:12:52,120 --> 00:12:59,320
+ talking a lot and understanding what was the right, you know, algorithm and optimization mechanism
+
+128
+00:12:59,320 --> 00:13:04,440
+ to take all these. Also, we have hundreds of cards at the beginning. And then I think
+
+129
+00:13:04,440 --> 00:13:12,760
+ why you're indeed a great job on, I would say, the positioning and narrative built around the
+
+130
+00:13:12,760 --> 00:13:20,280
+ yield aggregation. At the time, we were quite, you know, for starting Idaho Finance, as I mentioned,
+
+131
+00:13:20,280 --> 00:13:29,320
+ we started with Gitcoin Acciton. So, we won that Gitcoin Acciton and then we got accepted into an
+
+132
+00:13:29,320 --> 00:13:36,600
+ accelerator in New York with consensus. And so, we kind of took a more professional approach,
+
+133
+00:13:36,600 --> 00:13:42,680
+ I would say, or institutional approach to the product. Instead, I think at the very early phase
+
+134
+00:13:42,680 --> 00:13:48,440
+ of wire and they took more a digital approach, which turned out to be the right narrative. So,
+
+135
+00:13:48,440 --> 00:13:56,360
+ I would like say that they did a great job on that side of things. And, of course, then the
+
+136
+00:13:56,360 --> 00:14:02,200
+ dev team and the community that formed around wire was really great. So, congrats, of course,
+
+137
+00:14:02,200 --> 00:14:07,080
+ on wire and Andrei Cronzo. I'm bootstrapping these at the beginning. And I would say that
+
+138
+00:14:07,080 --> 00:14:15,240
+ we kind of, at the end of the day, DeFi was a small market at the beginning. So, the way that
+
+139
+00:14:15,240 --> 00:14:22,840
+ we were looking at competitors at the beginning was more like co-petition, radar, that pure
+
+140
+00:14:22,840 --> 00:14:30,600
+ competition. And so, it turned out that, like, one of the major partners for idle finance was
+
+141
+00:14:30,600 --> 00:14:37,400
+ wire in itself. Like, with some of these strategies and the volts that wire had at the beginning,
+
+142
+00:14:37,400 --> 00:14:45,880
+ like for USDC, USDT, and I, were based on idle finance yield optimization for a big chunk of the
+
+143
+00:14:45,880 --> 00:14:50,760
+ funds that they were managing. So, it turned out to be kind of like a more a partnership
+
+144
+00:14:50,760 --> 00:14:59,400
+ radar than a competition with wire in finance, for example. Of course, over time, DeFi market
+
+145
+00:14:59,400 --> 00:15:05,960
+ evolved, become more sectoralized, more, you know, professionalized, and of course, competition
+
+146
+00:15:05,960 --> 00:15:13,160
+ came out. But I would say that early times of DeFi, I really enjoyed the early times in DeFi
+
+147
+00:15:13,160 --> 00:15:18,920
+ because it was all about, like, cooperating together and trying to build, like, you know,
+
+148
+00:15:18,920 --> 00:15:25,560
+ all the legal pieces that you could put together in DeFi was really about this sentiment, was really
+
+149
+00:15:25,560 --> 00:15:35,320
+ about this philosophical, you know, work together to grow the market instead of competing together
+
+150
+00:15:35,320 --> 00:15:44,680
+ to shrink the market to each other. What ultimately kind of drove the pivot from idle to prattle?
+
+151
+00:15:46,600 --> 00:15:56,120
+ I would say that we've focused a lot in for on yield optimization from since 2019 to, I would say,
+
+152
+00:15:56,120 --> 00:16:03,720
+ 2022. In 2022, we realized that most of the customer base for idle finance was
+
+153
+00:16:03,720 --> 00:16:09,480
+ institutional funds. So, institutional funds are locating across different strategies.
+
+154
+00:16:09,480 --> 00:16:14,440
+ And one of the major feedback that we received there at that time was that
+
+155
+00:16:14,440 --> 00:16:21,240
+ yield optimization is great, but we need to take care of risk and risk diversification.
+
+156
+00:16:21,240 --> 00:16:26,520
+ We need to mitigate risk for the liquidity providers. So, at that time, we decided to
+
+157
+00:16:26,520 --> 00:16:31,720
+ introduce an additional product line and an additional primitive to the product suite,
+
+158
+00:16:31,720 --> 00:16:37,880
+ which was yield the trenches. So, essentially, a primitive where we could
+
+159
+00:16:38,600 --> 00:16:44,920
+ yield the senior and unit trenches, senior meds and unit trenches on top of potentially any DeFi
+
+160
+00:16:44,920 --> 00:16:52,200
+ yield source. And so, these those are response to these kind of feedback that we received there.
+
+161
+00:16:52,200 --> 00:17:00,680
+ And the continued and junior trenches in this context kind of being different rates of return
+
+162
+00:17:00,680 --> 00:17:05,480
+ for different levels of risk. Do you mean something else by that? No, no, that's correct. That's correct.
+
+163
+00:17:05,480 --> 00:17:14,280
+ Essentially, senior tranche is the most protected vehicle investment world that is protected by
+
+164
+00:17:14,280 --> 00:17:20,520
+ the unit tranche. So, whatever there is default because of an actor or a loss of funds by the
+
+165
+00:17:20,520 --> 00:17:28,680
+ borrowers or these kind of loss of funds, the unioners are first loss observation layer.
+
+166
+00:17:28,680 --> 00:17:34,760
+ So, they absorb the loss on the alpha of the senior because of this risk that they bear,
+
+167
+00:17:34,760 --> 00:17:42,040
+ they receive also an higher yield compared to the senior trenches. So, we introduced this primitive,
+
+168
+00:17:42,040 --> 00:17:47,640
+ we started building around different kind of yield sources in DeFi over collateralized landings,
+
+169
+00:17:47,640 --> 00:17:54,840
+ taking in order to understand also where was the product market fit for this kind of product line.
+
+170
+00:17:54,840 --> 00:18:01,960
+ And we realized that most of the product market fit was on institution credit. At that time,
+
+171
+00:18:01,960 --> 00:18:08,120
+ we were working with protocols like maple or clear pool that were doing these kind of first
+
+172
+00:18:08,120 --> 00:18:14,920
+ instances of institutional credit on chain. And we saw that like liquidity providers and lenders
+
+173
+00:18:14,920 --> 00:18:19,960
+ were really appreciating senior and unit tranches for institutional credit lines because
+
+174
+00:18:19,960 --> 00:18:26,760
+ different credit funds, different badge funds or families offices had different views on these
+
+175
+00:18:26,760 --> 00:18:34,360
+ specific institutional borrowers that they were lending to. And so, using senior or unit tranches
+
+176
+00:18:34,360 --> 00:18:43,800
+ allowed them to customize the risk reward profile of their entire credit exposure of their entire
+
+177
+00:18:43,800 --> 00:18:49,720
+ credit portfolio. So, we realized that most of the product market fit was there, but we received
+
+178
+00:18:49,720 --> 00:18:55,560
+ also a lot of feedback from both borrowers and lenders that the credit infrastructure was not
+
+179
+00:18:55,560 --> 00:19:03,000
+ ready for institutional needs. It was really kind of like mimicking a compound and have an
+
+180
+00:19:03,000 --> 00:19:10,360
+ interest rate model, which was a paying for the borrower because it was a single borrower that
+
+181
+00:19:10,360 --> 00:19:16,920
+ wanted to, with a variable interest rate, that operation on speaking was terrible because they
+
+182
+00:19:16,920 --> 00:19:21,960
+ were looking more at the interest rate that they were paying compared to doing their own business.
+
+183
+00:19:22,680 --> 00:19:28,680
+ And in general, the terms and the underwriting process for these kind of institutional credit
+
+184
+00:19:28,680 --> 00:19:35,640
+ lines on chain at that time wasn't really customizable and modular, I would say.
+
+185
+00:19:35,640 --> 00:19:42,120
+ And so, we realized most of the product market fit was there. There was room for improvements
+
+186
+00:19:42,120 --> 00:19:49,320
+ on the credit space. So, we said, okay, we need to, we have a clear opportunity over there,
+
+187
+00:19:49,320 --> 00:19:55,960
+ and we wanted to build and improve that space, that part of the DeFi sector, let's say.
+
+188
+00:19:55,960 --> 00:20:03,320
+ So, that's pretty much how we transitioned to Pareto. We started working a lot with
+
+189
+00:20:03,320 --> 00:20:08,120
+ institutional credit lines, and then we realized that we wanted to improve the credit lines themselves.
+
+190
+00:20:08,120 --> 00:20:11,560
+ And that's how essentially Pareto came out.
+
+191
+00:20:12,840 --> 00:20:21,000
+ Tell me more about the institutional borrowers. So, what kind of institutions were they that they
+
+192
+00:20:21,000 --> 00:20:28,920
+ were willing to borrow in this very competitive market on chain, where you can go to your local
+
+193
+00:20:28,920 --> 00:20:36,200
+ bank and probably get a more competitive loan? That's a good point because, of course, they could
+
+194
+00:20:36,200 --> 00:20:45,160
+ access, you know, could originate on credit lines from a traditional bank, but the process of
+
+195
+00:20:45,160 --> 00:20:50,760
+ origination takes a lot of time, especially the kind of borrowers that we're working with right
+
+196
+00:20:50,760 --> 00:20:57,720
+ now are pretty much institutional funds that run delta neutral strategies or market makers or prime
+
+197
+00:20:57,720 --> 00:21:06,520
+ brokerages. And the process of originating a loan and managing that loan in a traditional way
+
+198
+00:21:06,520 --> 00:21:15,000
+ usually takes a lot of time and resources from their team. And usually the teams are now like
+
+199
+00:21:15,000 --> 00:21:23,720
+ really huge, and so the overhead is really tangible for the final borrower. We recently actually run
+
+200
+00:21:23,720 --> 00:21:30,680
+ a use case with one of our major borrowers, which is Falcon X, one of the leading market
+
+201
+00:21:30,680 --> 00:21:39,000
+ and prime brokerages. And what came out of the use case is that before using on-chain credit lines,
+
+202
+00:21:39,000 --> 00:21:50,680
+ so relying on traditional credit lines took around 80 hours per month from their team to make sure that
+
+203
+00:21:51,720 --> 00:21:57,960
+ in order to originate, all the documentation was there, making sure that all the lenders were aware
+
+204
+00:21:57,960 --> 00:22:04,760
+ of updated terms and also doing manual reconciliation. What came out of this is that now with the on-chain
+
+205
+00:22:04,760 --> 00:22:11,240
+ credit line, they have to dedicate two hours per month, the same team. So operationally speaking,
+
+206
+00:22:11,240 --> 00:22:19,160
+ the improvement for the borrower is really tangible. There is a streamlining process that is happening
+
+207
+00:22:19,160 --> 00:22:26,760
+ on the operational side of things. On-chain credit lines are pretty much self-operating
+
+208
+00:22:26,760 --> 00:22:36,120
+ compared to our traditional credit lines. So that's I would say the main advantage of operating
+
+209
+00:22:36,120 --> 00:22:47,640
+ an on-chain credit line. And secondarily, I would say also being able to have a credit position that
+
+210
+00:22:47,640 --> 00:22:54,280
+ is composable is a big advantage for these kind of borrowers. And a big advantage, I would say,
+
+211
+00:22:54,280 --> 00:23:00,920
+ also for the lenders at the end of the day, because being able to use a credit position as a collateral
+
+212
+00:23:00,920 --> 00:23:09,400
+ in a more for Euler, for example, or create an interest rate swap instrument using PENDO for the
+
+213
+00:23:09,400 --> 00:23:17,320
+ same credit position, it's really powerful for the lenders. So lenders have a better, let's say, UX
+
+214
+00:23:17,320 --> 00:23:24,280
+ when lending to this kind of institution. And interns borrowers are able to originate more
+
+215
+00:23:24,280 --> 00:23:29,160
+ liquidity with these kind of credit lines and streamlining the process of managing these kind
+
+216
+00:23:29,160 --> 00:23:37,000
+ of credit lines. Cool. There's a couple of projects kind of doing very similar things in the space,
+
+217
+00:23:37,000 --> 00:23:44,600
+ so kind of the likes of Maple and Centrofuge and so on. So how is your approach different or is it
+
+218
+00:23:44,600 --> 00:23:51,080
+ different from your competitors? So it is different. I think Centrofuge,
+
+219
+00:23:51,080 --> 00:24:00,680
+ they started like really early, so they did a great job at pioneering on that on this kind of area.
+
+220
+00:24:00,680 --> 00:24:09,480
+ And also Maple, they kind of pivoted, I remember back in, maybe it was 2020, 2021, and then they
+
+221
+00:24:09,480 --> 00:24:17,240
+ focused completely on on chain credit. So both are doing great jobs on expanding this kind of space.
+
+222
+00:24:17,240 --> 00:24:23,560
+ The main difference that we wanted to implement since the beginning of Orator was to make sure
+
+223
+00:24:23,560 --> 00:24:31,960
+ that we have a highly customizable protocol. So credit lines can be really customized from
+
+224
+00:24:31,960 --> 00:24:39,480
+ underwriting terms, covenants, to compliance requirements. And this is something that like,
+
+225
+00:24:39,480 --> 00:24:46,040
+ for example, Maple or Centrofuge is a bit limited, I would say, but also more importantly,
+
+226
+00:24:46,040 --> 00:24:55,160
+ the credit lines that we have are creation based. So we are not the only one that are underwriting
+
+227
+00:24:55,160 --> 00:25:01,320
+ this kind of credit lines, but we opened up these processes also to third party curators.
+
+228
+00:25:01,320 --> 00:25:07,400
+ It's kind of if you look at what happened with Marfo and other over collateralized lending
+
+229
+00:25:07,400 --> 00:25:12,520
+ protocol in the past, where they introduced this kind of curation role, that's essentially the
+
+230
+00:25:12,520 --> 00:25:19,960
+ saying that we're doing with Orator compared to other on chain credit products. These allows us
+
+231
+00:25:19,960 --> 00:25:24,920
+ to have, again, more scalability for these kind of products, because we're not the only one on
+
+232
+00:25:24,920 --> 00:25:30,440
+ the writing new borrowers, but we have other curators that can provide these kind of underwriting
+
+233
+00:25:30,440 --> 00:25:40,680
+ capabilities. And also in our longer term vision, the the curation based model allows us to work
+
+234
+00:25:40,680 --> 00:25:46,680
+ also with kind of like traditional financial institution. Instead, we see more like products
+
+235
+00:25:46,680 --> 00:25:56,440
+ like Maple or Centrofuge kind of a in house underwriting company. So that's pretty much
+
+236
+00:25:56,440 --> 00:26:02,440
+ like the main difference that we have. It's an open curation based model versus all in hours
+
+237
+00:26:02,440 --> 00:26:11,480
+ underwriting process. So underwriting is actually really skill task, right? So kind of like what it
+
+238
+00:26:11,480 --> 00:26:16,600
+ kind of takes is kind of you need to understand the books of this company, you need to understand
+
+239
+00:26:16,600 --> 00:26:25,560
+ the business prospects, you need to kind of you need to calculate the default risk and the associated
+
+240
+00:26:27,160 --> 00:26:34,840
+ interests you need to charge in order to kind of break even. Tell me how this process is handled
+
+241
+00:26:34,840 --> 00:26:42,840
+ within Pareto and kind of like how you outsource this to others. So with Pareto, that's a really
+
+242
+00:26:42,840 --> 00:26:50,440
+ good point in the sense that on the writing is, it requires a lot of skills and also a lot of
+
+243
+00:26:50,440 --> 00:26:58,440
+ domain expertise, I would say. That's why also we started with institutional digital native funds.
+
+244
+00:26:58,440 --> 00:27:03,560
+ So we are which are most familiar with what we have been doing in the past. So we completely
+
+245
+00:27:03,560 --> 00:27:09,000
+ understand the kind of deployment and strategies that they're going to apply to the credit lines
+
+246
+00:27:09,000 --> 00:27:17,400
+ that they're opening. And of course, like the first step, it's pretty much like, as you mentioned,
+
+247
+00:27:17,400 --> 00:27:26,440
+ a scan and review of the creditworthiness of the borrower, which is given by analyzing the books
+
+248
+00:27:26,440 --> 00:27:31,640
+ and the balance sheets of these kind of borrowers, making sure there is enough equity, for example,
+
+249
+00:27:31,640 --> 00:27:40,200
+ to be able to cover for any losses to be. And I would say that like there's been some experimenting
+
+250
+00:27:40,200 --> 00:27:44,280
+ underwriting in the past. I'm not talking about Pareto, but in the past, there's been
+
+251
+00:27:45,000 --> 00:27:51,240
+ some experimenting underwriting small companies, for example, which turned out to be a bit too
+
+252
+00:27:51,240 --> 00:27:59,800
+ much naive. And so I would say that like in order to bootstrap and grow this kind of credit space,
+
+253
+00:27:59,800 --> 00:28:04,840
+ we need to start with more solid corporation and institution at the beginning, just to make sure
+
+254
+00:28:04,840 --> 00:28:12,600
+ that DeFi still get a good reputation on credit side. Then it really depends on the kind of deployment,
+
+255
+00:28:12,600 --> 00:28:20,120
+ for example, we work a lot with Maven 11 credit as a curator for file connects. And what they do is
+
+256
+00:28:20,120 --> 00:28:26,200
+ pretty much on the underwriting side of things for the credit line that we have, there's been a
+
+257
+00:28:26,200 --> 00:28:32,600
+ lot of work around the covenants that are around the credit line. So the borrower has a certain
+
+258
+00:28:32,600 --> 00:28:40,040
+ kind of parameters and action that they can do. And at the moment, Maven 11 is monitoring that.
+
+259
+00:28:40,040 --> 00:28:44,920
+ And we're doing the same for other borrowers like Fazanara or Boston trading, for example.
+
+260
+00:28:44,920 --> 00:28:54,280
+ So it takes an initial screen of the wealthiness and the and creditworthiness of the borrowers,
+
+261
+00:28:54,280 --> 00:29:00,040
+ and then it takes also monitoring tools and monitoring capabilities for making sure that
+
+262
+00:29:00,040 --> 00:29:06,760
+ the alphiness of the borrower is still there. It's a bit manual at the moment, but I will
+
+263
+00:29:06,760 --> 00:29:12,920
+ like goal in the next, I would say, year is to automate that process. And actually,
+
+264
+00:29:12,920 --> 00:29:20,040
+ just to introduce a bit, a new concept here. But what we see as a really interesting
+
+265
+00:29:20,040 --> 00:29:29,880
+ implementation into this kind of credit line is zero knowledge technology. Because what we
+
+266
+00:29:29,880 --> 00:29:35,640
+ realized is that most of the information and data that we need to monitor and review to make
+
+267
+00:29:35,640 --> 00:29:41,480
+ sure that there is a good creditworthiness for a borrower are sensible data for the borrower.
+
+268
+00:29:41,480 --> 00:29:46,840
+ The borrower doesn't feel really comfortable in making this kind of information completely public,
+
+269
+00:29:46,840 --> 00:29:54,120
+ both for compliance reason, but also for like just to be ahead of other competitors and not to
+
+270
+00:29:54,120 --> 00:30:01,160
+ fall behind other competitors. And what we saw is that like ZK technology really fits well
+
+271
+00:30:01,160 --> 00:30:07,480
+ in this kind of area of monitoring, creating warnings and covenants for certain credit lines.
+
+272
+00:30:07,480 --> 00:30:14,360
+ So I'll give you a really really simple example of that. Let's say that a credit line for an
+
+273
+00:30:14,360 --> 00:30:21,400
+ institutional borrower has a covenant that says that the borrower can only deploy files into
+
+274
+00:30:21,400 --> 00:30:29,160
+ tier one exchanges, and no more than 25% of the entire loan amount can be deployed into a single
+
+275
+00:30:30,120 --> 00:30:38,200
+ exchange. So the borrower doesn't want to expose all this kind of data for all the reason that they
+
+276
+00:30:38,200 --> 00:30:47,720
+ have. And by using ZK technology and more precisely ZK TLS, we essentially encrypt these kind of data.
+
+277
+00:30:47,720 --> 00:30:53,080
+ And what the lenders receive is a proof of the fact that the covenant is respected,
+
+278
+00:30:53,080 --> 00:31:00,760
+ and so also that the creditworthiness of the borrower is still there. And in this way, we also
+
+279
+00:31:00,760 --> 00:31:08,440
+ to make the process from a more traditional monthly reporting or like a certificate of collateral
+
+280
+00:31:08,440 --> 00:31:14,840
+ on a specific custodian that is issued, then you need to completely rely on a single data source.
+
+281
+00:31:15,720 --> 00:31:22,760
+ Two, the idea is to have the borrower being able to plug in multiple data sources from centralized
+
+282
+00:31:22,760 --> 00:31:29,160
+ exchanges, custodian accounts, bank accounts, even encrypt this kind of data. So all the
+
+283
+00:31:29,160 --> 00:31:36,600
+ sensible information are protected, and it's privacy preserving for your final borrower.
+
+284
+00:31:36,600 --> 00:31:41,400
+ But the lenders on the other side are able to get a proof of the fact that the
+
+285
+00:31:41,400 --> 00:31:45,080
+ exponents are respected, and the borrower creditworthiness is still good.
+
+286
+00:31:45,080 --> 00:31:53,160
+ Is there some sort of second opinion for the underwriting? So kind of, do you have different
+
+287
+00:31:53,160 --> 00:32:02,280
+ companies kind of look at the same loans, or is the underwriting in some way incentivized or penalized?
+
+288
+00:32:02,280 --> 00:32:06,440
+ Do they kind of make a wrong assessment? I mean, wrong assessment, it goes a long way here,
+
+289
+00:32:06,440 --> 00:32:10,520
+ right? Because kind of like everyone acknowledges from the get-go that there is some level of risk,
+
+290
+00:32:10,520 --> 00:32:14,680
+ and kind of in order to kind of say whether something was calculated correctly or not,
+
+291
+00:32:14,680 --> 00:32:18,120
+ kind of you would actually have to run this experiment many times, and kind of like you're
+
+292
+00:32:18,120 --> 00:32:24,840
+ only running it once. So kind of, even if kind of like there's only a 2% chance of default
+
+293
+00:32:24,840 --> 00:32:31,240
+ that is acknowledged, kind of like those 2% can materialize, right? So kind of how do you
+
+294
+00:32:31,240 --> 00:32:38,840
+ do quality assurance on the underwriters? That's a good question, because we have been thinking
+
+295
+00:32:38,840 --> 00:32:45,160
+ about this, because of course, like underwriting process is not like a mathematically something
+
+296
+00:32:45,160 --> 00:32:52,920
+ that mathematically you can you can always like be right. So of course, overall, we could expect
+
+297
+00:32:52,920 --> 00:32:59,240
+ the folds in the as we scale up this kind of credit protocol. So we can all like say, okay,
+
+298
+00:32:59,240 --> 00:33:05,960
+ there won't be any defaults. So we need to build around mitigating also this kind of default risk.
+
+299
+00:33:05,960 --> 00:33:12,520
+ And one way at the moment, essentially, each credit line can be curated by a single curator.
+
+300
+00:33:12,520 --> 00:33:19,320
+ So there's a one entity that takes care of on the writing and monitoring the alphonies of the
+
+301
+00:33:19,320 --> 00:33:25,800
+ borrower. But the guardrail and the essentially the protection that we embedded into it is that
+
+302
+00:33:25,800 --> 00:33:31,640
+ the curator is also a legal representative for the lenders. So it doesn't take care only
+
+303
+00:33:31,640 --> 00:33:37,000
+ on the under of the underwriting process and monitoring process for the borrower. But in a case
+
+304
+00:33:37,000 --> 00:33:45,960
+ of a default, the curator in this case is becomes the lender represent legal representative towards
+
+305
+00:33:45,960 --> 00:33:53,960
+ the borrower. So the incentive, of course, for the curator is to make sure that they are doing
+
+306
+00:33:53,960 --> 00:33:59,960
+ the right calculation in order to get the default risk and also to make sure that they didn't they
+
+307
+00:33:59,960 --> 00:34:08,920
+ don't underestimate this kind of default risk, because then they are responsible for any legal
+
+308
+00:34:08,920 --> 00:34:14,040
+ representation for the lenders, which is actually another difference from other protocols. Other
+
+309
+00:34:14,040 --> 00:34:22,360
+ protocols, essentially, if you're a lender and it happens to be a default, it's up to you to go to
+
+310
+00:34:22,360 --> 00:34:32,200
+ court to to file the bankruptcy, for example, documents in order to get back in usually multiple
+
+311
+00:34:32,200 --> 00:34:38,200
+ years, any proceed from the liquidation of the borrowers. Instead, in the setup that we have
+
+312
+00:34:38,200 --> 00:34:43,960
+ is the curator that is also taking care of this process. So of course, because of that, the curator
+
+313
+00:34:43,960 --> 00:34:52,040
+ is more incentivized to do a proper due diligence and proper monitoring of the borrower. Even if it
+
+314
+00:34:52,040 --> 00:35:00,840
+ means to be more conservative than than the usual process, but that's the initial incentive. Of course,
+
+315
+00:35:00,840 --> 00:35:08,520
+ there's not a final setup, I would say, over time, for example, yeah, having multiple creators
+
+316
+00:35:08,520 --> 00:35:14,680
+ with kind of different roles, like one on the right in initially doing due diligence, another
+
+317
+00:35:14,680 --> 00:35:23,160
+ one doing monitoring just to have like multiple parties that provides an understanding of the
+
+318
+00:35:23,160 --> 00:35:28,040
+ borrowers makes completely sense. But yeah, at the current time, that would be the incentive for
+
+319
+00:35:28,040 --> 00:35:33,560
+ the curator to provide a proper due diligence and provide a proper underwriting process.
+
+320
+00:35:33,560 --> 00:35:40,440
+ What happens if the underwriter just doesn't do it then? So kind of like, say the borrower
+
+321
+00:35:40,440 --> 00:35:47,240
+ defaulted in kind of like there are 20 lenders that kind of now I as an underwriter meant to
+
+322
+00:35:47,240 --> 00:35:53,560
+ represent it. I just don't do it. And I kind of just kind of step out of my business and let it
+
+323
+00:35:53,560 --> 00:35:59,640
+ default, start up a new underwriting business and kind of start from square one until because
+
+324
+00:35:59,640 --> 00:36:07,320
+ kind of defaults are kind of if you if you play it in any way kind of correctly, defaults are rare,
+
+325
+00:36:07,320 --> 00:36:12,440
+ right? Kind of like default should be rare. So if I kind of if I can run my business
+
+326
+00:36:12,440 --> 00:36:18,920
+ until the first default unfettered, is isn't, am I not incentivized to do that?
+
+327
+00:36:18,920 --> 00:36:25,320
+ Yeah, I see I see what you're saying, but actually there would be liabilities for the
+
+328
+00:36:25,320 --> 00:36:31,880
+ underwriters as well. So of course, I see what you're saying that you just like close out the
+
+329
+00:36:31,880 --> 00:36:38,840
+ underwriting business on that entity and you open up a new one, but you completely destroy the
+
+330
+00:36:38,840 --> 00:36:44,040
+ reputation of your underwriting process. So these are known entities, you know, who they are and
+
+331
+00:36:44,040 --> 00:36:49,720
+ kind of like there's kind of like a soft reputation, even if it's not on chain kind of, you know,
+
+332
+00:36:49,720 --> 00:36:58,840
+ I would say, yeah, institutional, like in general, on chain credit is big given we work with a spectrum
+
+333
+00:36:58,840 --> 00:37:04,680
+ of collateral, because we could we can enable borrowers putting collateral, of course, but we
+
+334
+00:37:04,680 --> 00:37:13,400
+ can work with a full spectrum of collateral from kind of standard collateralization ratio to even
+
+335
+00:37:13,400 --> 00:37:19,960
+ zero collateral. I think it's all about reputation, like all these kinds of lending is also reputation
+
+336
+00:37:19,960 --> 00:37:26,200
+ based lending. So okay, I see a lot of also borrowers institutional borrowers at the moment
+
+337
+00:37:26,920 --> 00:37:33,880
+ that are looking at this kind of under collateralized credit lines as a way to to build a credit score
+
+338
+00:37:33,880 --> 00:37:40,760
+ that is like it's it's on chain and all the interest payments that they make, all the
+
+339
+00:37:40,760 --> 00:37:48,040
+ repayments of the notion that they make is essentially something that builds a credit score that is
+
+340
+00:37:48,040 --> 00:37:56,440
+ on chain and it's immutable on chain. So I would say that one like a big part of the of managing
+
+341
+00:37:56,440 --> 00:38:02,840
+ these kind of credit lines is also making sure that the borrower but also the underwriters has
+
+342
+00:38:02,840 --> 00:38:10,680
+ this kind of reputation based way of working on the credit lines. Okay, so I think we kind of cover
+
+343
+00:38:10,680 --> 00:38:17,640
+ the how and the why and kind of the what maybe let's let's look at the house. So kind of like
+
+344
+00:38:17,640 --> 00:38:25,800
+ if you if if you could walk me through the mechanics kind of like from the lenders deposit to kind of
+
+345
+00:38:25,800 --> 00:38:31,880
+ how the credit gets allocated and how the year is paid out and how often kind of these loans are
+
+346
+00:38:31,880 --> 00:38:37,160
+ novated and so on. I think kind of that that would that would go a long way.
+
+347
+00:38:37,160 --> 00:38:45,640
+ No, yeah, absolutely. So what the process of lending out to to a specific credit line
+
+348
+00:38:45,640 --> 00:38:54,440
+ we are from a UX perspective. I would say we made sure to make it as as much similar to the
+
+349
+00:38:54,440 --> 00:39:00,600
+ normal DeFi UX as possible. So initial like you know, liquidity providers could feel it. They were
+
+350
+00:39:00,600 --> 00:39:06,360
+ still like in DeFi. Of course, there are some compliance requirements that we need to respect
+
+351
+00:39:06,360 --> 00:39:13,080
+ depending on the jurisdiction of the borrower. So all the credit lines at the moment have a KYC
+
+352
+00:39:13,080 --> 00:39:20,200
+ process that you need to go through as a lender before being able to deposit. And so after that,
+
+353
+00:39:20,200 --> 00:39:27,080
+ like you can of course you can access all the data around the borrower or all the data around
+
+354
+00:39:27,080 --> 00:39:32,680
+ the performance of the vault and make sure that these respect the risk reward profile that you want
+
+355
+00:39:32,680 --> 00:39:43,160
+ app for your for your credit exposure. The kind of like the duration and the interest rate models
+
+356
+00:39:43,160 --> 00:39:50,280
+ of the credit lines that really depends on the borrowers because as I mentioned before, we built
+
+357
+00:39:50,280 --> 00:39:57,640
+ the protocol around customizability and modularity of the credit lines. So the borrower can really
+
+358
+00:39:57,640 --> 00:40:06,520
+ decide how the interest rate model behaves and what is the duration or the covenants of the of
+
+359
+00:40:06,520 --> 00:40:13,080
+ the credit line. So just to give you some example just to let also the audience here understand
+
+360
+00:40:13,080 --> 00:40:19,880
+ better understand how the current credit lines works. We do have usually like weekly to monthly
+
+361
+00:40:19,880 --> 00:40:26,760
+ duration of these kind of credit lines. At the end of which the borrower needs to pay the interest
+
+362
+00:40:26,760 --> 00:40:36,200
+ rate, the lenders can request withdrawals and borrowers have like different duration from weekly
+
+363
+00:40:36,200 --> 00:40:46,040
+ to monthly to satisfy this kind of withdrawal request. And so the interest rate model for example,
+
+364
+00:40:46,040 --> 00:40:53,240
+ it's decided be with the underwriter, but also the borrower. So for example, Fazanara,
+
+365
+00:40:53,240 --> 00:40:59,640
+ which is one of the borrowers that we have wanted to have a flexible on-shin credit line
+
+366
+00:40:59,640 --> 00:41:07,240
+ that we done interest rate that was based on an external benchmark. So Fazanara digital is
+
+367
+00:41:07,240 --> 00:41:13,800
+ currently running a built delta neutral strategy doing a funding rate arbitrage strategy. And so
+
+368
+00:41:13,800 --> 00:41:20,280
+ they wanted to have the on-shin credit line attached to the performance of these kind of
+
+369
+00:41:20,280 --> 00:41:28,200
+ funding rate strategy. So we took up a benchmark which is the open interest rate at the BTC funding
+
+370
+00:41:28,200 --> 00:41:38,280
+ rate times 1.3, which turned out to be 88% correlated to Fazanara performance. And so we integrated
+
+371
+00:41:38,280 --> 00:41:45,720
+ this kind of interest rate model into the into the credit line. So that's how we can like the
+
+372
+00:41:45,720 --> 00:41:54,440
+ customizability is really it's something that can be used within credit lines and really changes
+
+373
+00:41:54,440 --> 00:41:59,880
+ the way the credit lines work. For example, instead with Falcon X is pretty much traditional. It's a
+
+374
+00:41:59,880 --> 00:42:08,520
+ fixed rate facility with 30 days callback period. So it mimics a bit more the traditional kind of
+
+375
+00:42:08,520 --> 00:42:14,280
+ credit lines that they already had. But with the advantage of now, for example, Falcon X credit
+
+376
+00:42:14,280 --> 00:42:20,280
+ line is being used as a collateral in Marfo. So lenders can also perform looping strategies
+
+377
+00:42:20,280 --> 00:42:26,840
+ on Marfo or even just, you know, use it as a collateral tomorrow out to USDC and deploy USDC
+
+378
+00:42:26,840 --> 00:42:33,240
+ somewhere else. So you bring also more capital efficiency. So the process of deploying funds
+
+379
+00:42:33,240 --> 00:42:41,480
+ is pretty similar to DeFi standard, I would say UX apart from the KYC process. Different
+
+380
+00:42:41,480 --> 00:42:47,000
+ story also for USP and SUSP, which is the yield being stable kind that we we put on top of that.
+
+381
+00:42:47,000 --> 00:42:51,080
+ But I'm gonna stop here and not sure if you have other questions on the on the credit lines himself.
+
+382
+00:42:51,080 --> 00:43:01,080
+ Yes, you said there is compile 3 KYC. Is that just for the lender or just for the borrower or
+
+383
+00:43:01,080 --> 00:43:06,760
+ also for the lender? Also for the lender, yeah. And what are the requirements on the lender here?
+
+384
+00:43:06,760 --> 00:43:12,520
+ It depends on the borrower in the sense that different jurisdictions are required different
+
+385
+00:43:12,520 --> 00:43:22,280
+ level of KYC. For example, Falcon X hits US based and we do let's say traditional KYC process. So
+
+386
+00:43:22,280 --> 00:43:28,520
+ getting all the documentation source of funds, corporate documentation, if it's an entity that
+
+387
+00:43:28,520 --> 00:43:36,120
+ is deploying funds into Falcon X. And so I would say it's more traditional kind of KYC process.
+
+388
+00:43:36,920 --> 00:43:45,160
+ We introduced those in partnership with our KYC provider, which is Keering. The proof of KYC
+
+389
+00:43:45,160 --> 00:43:52,600
+ way for some of the some of the borrowers are fine with it. And essentially what we do is letting
+
+390
+00:43:52,600 --> 00:44:02,520
+ the user login into our application via Coinbase, Binance, OKX accounts. And these allows us to
+
+391
+00:44:02,520 --> 00:44:09,480
+ hinder it the KYC level that they have on those centralized exchanges. So user doesn't have to
+
+392
+00:44:09,480 --> 00:44:19,000
+ redo again all the KYC process with this kind of KYC process that we have. But they just need to
+
+393
+00:44:19,000 --> 00:44:26,360
+ login with Coinbase, Binance, OKX, or even we do have Raveloot, for example, as a possibility to
+
+394
+00:44:26,360 --> 00:44:33,880
+ login with. And we hinder it and we get a sort of proof of KYC. And that's for some jurisdiction
+
+395
+00:44:33,880 --> 00:44:38,840
+ enough for the borrower to be respecting the compliance requirement that they have. So those
+
+396
+00:44:38,840 --> 00:44:47,400
+ are the two current ways that we can allow lenders to KYC. And depends on the credit lines and the
+
+397
+00:44:47,400 --> 00:44:55,480
+ jurisdiction of the borrower. And are the timelines for borrowers and vendors typically
+
+398
+00:44:55,480 --> 00:45:02,360
+ different? So kind of like my naive assumption would be that as a borrower, kind of I prefer
+
+399
+00:45:02,360 --> 00:45:10,120
+ longer timelines, whereas as a lender, I want to be able to kind of recall my loan kind of like
+
+400
+00:45:10,120 --> 00:45:17,560
+ from week to week. Do you see this in practice? Yeah, we definitely do see that in practice.
+
+401
+00:45:18,120 --> 00:45:25,320
+ I would say it's pretty much a process of finding kind of a credit market equilibrium in the sense
+
+402
+00:45:25,320 --> 00:45:32,840
+ that we do receive requests from borrowers to have longer duration of these kinds of loans. And on
+
+403
+00:45:32,840 --> 00:45:39,400
+ the other side, lenders ask for shorter durations in order to be able to recall funds. What we saw is
+
+404
+00:45:39,400 --> 00:45:47,800
+ that using a marketplace approach to that. So the borrower can propose different duration and let
+
+405
+00:45:47,800 --> 00:45:57,400
+ the lenders feel the credit line that they prefer to have makes sense. Of course, like the behavior
+
+406
+00:45:57,400 --> 00:46:04,200
+ that we see is that usually borrowers prefer to have longer duration. But for longer duration,
+
+407
+00:46:04,200 --> 00:46:11,480
+ they know that they have to increase the interest rate. So it's kind of like having the borrowers
+
+408
+00:46:11,480 --> 00:46:19,880
+ bidding and providing these different terms to the lenders. And then the lenders find an
+
+409
+00:46:19,880 --> 00:46:25,720
+ equilibrium and find a sort of like natural deployment into the volts that they respect. That
+
+410
+00:46:25,720 --> 00:46:31,080
+ they respect the risk reward profile and also the duration that they want. So there is kind of a
+
+411
+00:46:31,080 --> 00:46:37,800
+ process of finding the equilibrium at the beginning where the borrower proposed different duration
+
+412
+00:46:37,800 --> 00:46:43,320
+ and different interest rate models. And the lenders pick and choose the one that they prefer. And
+
+413
+00:46:43,320 --> 00:46:50,040
+ yeah, having this kind of like marketplace approach allows this allows us to have like multiple
+
+414
+00:46:50,040 --> 00:46:56,040
+ proposals from a borrower. Lenders decide which one is better for them and naturally than the
+
+415
+00:46:56,040 --> 00:47:01,160
+ borrowers keep the one with more liquidity into that it that is being allocated into it.
+
+416
+00:47:02,120 --> 00:47:09,560
+ Okay, you also kind of briefly touched upon this earlier, but kind of there's also this synthetic
+
+417
+00:47:09,560 --> 00:47:17,560
+ dollar product that you have. Walk us through that. Yeah, so we decided to introduce this kind of
+
+418
+00:47:17,560 --> 00:47:27,720
+ synthetic yield bearing asset into built on top of the credit lines. Because well, on one side,
+
+419
+00:47:27,720 --> 00:47:34,520
+ we wanted to create a sort of like index of these kind of credit lines. What we observed is that
+
+420
+00:47:34,520 --> 00:47:43,320
+ some institutional allocators wants to control their credit exposure. So they want to create
+
+421
+00:47:43,320 --> 00:47:48,520
+ their own credit allocation. And so they pick and choose different credit lines with different
+
+422
+00:47:48,520 --> 00:47:55,320
+ allocations. And that's their own decision. But some other like institutional allocators actually
+
+423
+00:47:55,320 --> 00:48:01,080
+ wants to have exposure to pretty much a diversified basket of credit lines. And they don't want to
+
+424
+00:48:01,080 --> 00:48:08,760
+ really like trigger and control all and and monitor all the exposure that they have. They're just fine
+
+425
+00:48:08,760 --> 00:48:15,160
+ with all the borrowers and they want to have exposure to all the borrowers. And so on one side,
+
+426
+00:48:15,160 --> 00:48:21,960
+ USP and SUSP, which is the name of the synthetic dollar and yield bearing synthetic dollar that we
+
+427
+00:48:21,960 --> 00:48:29,240
+ have allows to have a basket of assets to access a basket of credit lines instead of having to
+
+428
+00:48:29,240 --> 00:48:37,320
+ pick and choose all the credit lines. And on the other side, actually these create some way for
+
+429
+00:48:37,320 --> 00:48:45,080
+ less sophisticated investors to access these kind of credit exposure. You can see that as a sort of
+
+430
+00:48:45,080 --> 00:48:53,400
+ like ETFs compared to be can choose stocks and build your own stocks portfolio. And so the way
+
+431
+00:48:53,400 --> 00:49:01,960
+ that that USP and SUSP works is that you deposit USDC or in the future USDT and USDS for example.
+
+432
+00:49:01,960 --> 00:49:09,560
+ And these table currents get allocated across a basket of credit lines, which currently we
+
+433
+00:49:09,560 --> 00:49:14,520
+ proposed an initial allocation mechanism, which is kind of the generating rules of the expertise
+
+434
+00:49:14,520 --> 00:49:19,560
+ that would build with idle finance and the yield aggregation with idle finance. But in this way,
+
+435
+00:49:19,560 --> 00:49:25,960
+ in these instances, it takes the borrower creditworthiness, the duration of the loan,
+
+436
+00:49:25,960 --> 00:49:32,360
+ the interest rate model, it creates a diversified allocation across these kinds of borrowers. And
+
+437
+00:49:32,360 --> 00:49:40,200
+ also always keeps a reserve that is highly liquid to being able to meet the withdrawal
+
+438
+00:49:40,200 --> 00:49:48,680
+ request from this table coin. And so these gives access also to a less sophisticated,
+
+439
+00:49:48,680 --> 00:49:55,640
+ but also to a, I would say a permissionless kind of audience because having this kind of
+
+440
+00:49:55,640 --> 00:50:02,680
+ synthetic dollar and yield bearing, synthetic dollar allows us to apply the let's call it
+
+441
+00:50:02,680 --> 00:50:07,960
+ circle model. You know, if you want to have you as DC a mint or redeem you as DC, you need to
+
+442
+00:50:07,960 --> 00:50:13,960
+ be KYC, do you need to go through circle onboarding process and then you're able to mint and redeem
+
+443
+00:50:13,960 --> 00:50:20,840
+ USDC against dollars. But you can actually acquire or sell USDC on secondary markets,
+
+444
+00:50:20,840 --> 00:50:29,320
+ on taxes, for example. And this is something that we can apply as well to USP and SUSP.
+
+445
+00:50:29,320 --> 00:50:35,480
+ So permissionless user that doesn't want to go through KYC, they can acquire USP,
+
+446
+00:50:36,360 --> 00:50:43,640
+ in Uniswap curve balancer, for example, stick it and then eventually sell it back into Uniswap
+
+447
+00:50:43,640 --> 00:50:51,880
+ balancer or curve. So this allows also to broaden the audience and the access to this kind of
+
+448
+00:50:51,880 --> 00:50:56,520
+ crediting next also to a permissionless kind of audience and not only to a permissioned
+
+449
+00:50:56,520 --> 00:51:02,760
+ kind of audience. I have several follow ups here. So the first one being kind of like a mechanical
+
+450
+00:51:02,760 --> 00:51:10,280
+ one. So seeing that I can kind of deposit into this pool anytime, kind of how do you make sure
+
+451
+00:51:10,280 --> 00:51:16,040
+ that the size of the pool is commensurate with kind of the borrow volume that you see.
+
+452
+00:51:16,040 --> 00:51:25,240
+ You're saying that since you can deposit into USP whenever you want, how do we match that with
+
+453
+00:51:25,240 --> 00:51:30,680
+ borrowing requests on the other side? That's a really good question. At the current scale of
+
+454
+00:51:30,680 --> 00:51:38,280
+ USP and SUSP, that's not being an issue. So we have more borrow demand.
+
+455
+00:51:38,280 --> 00:51:43,000
+ Exactly. We do have more borrowing demand at the moment, but it's an aspect that we have been
+
+456
+00:51:43,000 --> 00:51:50,280
+ thinking about. And I think that what fits by well is that we can also integrate blue, cheap,
+
+457
+00:51:50,280 --> 00:51:58,280
+ DeFi yield sources as a way to park this kind of capital if there is not enough borrowing demand.
+
+458
+00:51:59,720 --> 00:52:13,160
+ Like for example, deploying into SUSDS, the old DSR from MakerDAU or into AvaUSDC Ethereum pool,
+
+459
+00:52:13,160 --> 00:52:21,720
+ which are kind of blue cheap. Exactly. Okay, second question,
+
+460
+00:52:21,720 --> 00:52:29,000
+ kind of previously kind of in terms of legal defensibility. So kind of previously, I can see
+
+461
+00:52:29,000 --> 00:52:34,680
+ how you say, okay, we're just kind of the matchmaker here, kind of like this is a one-to-one
+
+462
+00:52:34,680 --> 00:52:41,640
+ relationship. But kind of like with USP, arguably, you're offering kind of an investment product,
+
+463
+00:52:41,640 --> 00:52:50,440
+ right? Are you worried about that? So how the legal clarity around that still to be shaped, I
+
+464
+00:52:50,440 --> 00:53:01,080
+ would say, but yeah, we are thinking around that. We don't want to completely be an investment
+
+465
+00:53:01,080 --> 00:53:07,320
+ advisor, I would say, on this kind of thing. Because of course, yeah, like we deal with aggregators,
+
+466
+00:53:07,320 --> 00:53:12,920
+ if there is a central team, a central entity that just proposed their locations,
+
+467
+00:53:14,600 --> 00:53:21,880
+ you end up to be an investment advisor. And that's kind of borrowing a concept from what we build
+
+468
+00:53:21,880 --> 00:53:32,280
+ also with Adul Finance, which is that we, the allocation mechanism for the USDC or USDT or
+
+469
+00:53:32,280 --> 00:53:40,920
+ USDS that we that are backing USP, it's open. So essentially, Pareto, we don't have the token
+
+470
+00:53:40,920 --> 00:53:46,360
+ live right now, it's going to be, it's going to be released because the governance process of
+
+471
+00:53:46,360 --> 00:53:54,440
+ Aareto Dow, in this case, would be able to also elect, create a locator manager. So we're not going
+
+472
+00:53:54,440 --> 00:54:01,560
+ to be the only one proposing a location, but there would be an idealistically speaking
+
+473
+00:54:01,560 --> 00:54:11,880
+ and net work. Your market plays again for different investment strategies. Exactly, exactly. Okay, so
+
+474
+00:54:11,880 --> 00:54:18,760
+ maybe I checked this morning and didn't seem terribly liquid, right? So kind of, what's going
+
+475
+00:54:18,760 --> 00:54:22,920
+ on there? So kind of like, what's the what's the rate of return you currently offering,
+
+476
+00:54:22,920 --> 00:54:29,400
+ and why is it not attractive enough for users? I would say, so we currently have around
+
+477
+00:54:30,440 --> 00:54:37,400
+ four million, four or five million into into USP. I think it's still taking a bit of time to
+
+478
+00:54:37,400 --> 00:54:43,640
+ bootstrap the liquidity over there because what we are missing in our opinion is the
+
+479
+00:54:43,640 --> 00:54:50,680
+ additional use cases with integrations with like over collateralized protocols or pandals.
+
+480
+00:54:50,680 --> 00:55:01,160
+ So I would say that currently the interest rate on USP is around 11, 12%. And it's really like
+
+481
+00:55:01,160 --> 00:55:08,040
+ depending on the borrowers that we have currently, we do have like three borrowers integrated within
+
+482
+00:55:08,040 --> 00:55:14,280
+ USP and we need to expand that in order to make sure that we can, on one side, diversify the
+
+483
+00:55:14,280 --> 00:55:21,640
+ exposure more for this kind of index, but also being able to allocate to higher yields in order
+
+484
+00:55:21,640 --> 00:55:27,560
+ to become more attractive in general for the market. I would say that the major problem that we found
+
+485
+00:55:27,560 --> 00:55:36,040
+ out is to bootstrap the integrations, so being able to use as USP as a collateral in more for
+
+486
+00:55:36,040 --> 00:55:44,200
+ Euler or Ava, for example, create a more liquid fixed rate facility. So, for example, in Pando,
+
+487
+00:55:44,200 --> 00:55:51,160
+ being able to have this kind of fixed rate. And of course, I mean, we're still early in the
+
+488
+00:55:51,160 --> 00:56:00,920
+ development of SUSP and I think we can make more, you know, we can push it more on the visibility
+
+489
+00:56:00,920 --> 00:56:05,960
+ side of things, which is something that we haven't done a lot yet, but because we wanted to have
+
+490
+00:56:05,960 --> 00:56:12,280
+ all the infrastructure ready and test it out and battle test it, I would say. So, I would say,
+
+491
+00:56:12,280 --> 00:56:17,560
+ it's not really about the interest rate, because if you look at, I would say, Athena, for example,
+
+492
+00:56:17,560 --> 00:56:23,000
+ what is right now, Athena should be around like five, six percent, if I remember correctly,
+
+493
+00:56:23,000 --> 00:56:30,120
+ they are overly allocated also to like USDS, so it should be quite similar to the SSR rate.
+
+494
+00:56:32,280 --> 00:56:37,480
+ So, it should be around that. So, we're kind of like, we're giving double of the interest rate
+
+495
+00:56:37,480 --> 00:56:44,280
+ of that. So, I don't see the interest rate as a major problem. I see more like being able to
+
+496
+00:56:44,280 --> 00:56:49,400
+ integrate the USP and SUSP across other protocols, which is something that we're doing. We started
+
+497
+00:56:49,400 --> 00:56:55,480
+ with Euler a couple of weeks ago and bootstrapping that. We're gonna push it more for getting things
+
+498
+00:56:55,480 --> 00:57:02,520
+ listed as collateral as it's a pain. Yeah, it is, but I mean, it makes sense, so it should be kind
+
+499
+00:57:02,520 --> 00:57:09,400
+ of like a... It should be a pain, but... Exactly, exactly. Otherwise, it's hiring the risk for
+
+500
+00:57:09,400 --> 00:57:15,240
+ defines, I don't know. But it was like pushing on visibility and dedication, it's something that
+
+501
+00:57:15,240 --> 00:57:21,800
+ we're gonna do in the next month, which would be helpful to understand what is USP, what is SSP,
+
+502
+00:57:23,080 --> 00:57:29,000
+ where the yield is coming from, and these we expect will bring also more liquidity and more
+
+503
+00:57:29,000 --> 00:57:39,000
+ scale up scale to the USP and SUSP. Okay, credit in some sense is more opaque
+
+504
+00:57:39,000 --> 00:57:46,600
+ than most DeFi activity, right? Because it heavily depends on off-chain books that you don't
+
+505
+00:57:46,600 --> 00:57:54,520
+ necessarily have access to as a user. How do you make this compatible, or do you make this compatible,
+
+506
+00:57:54,520 --> 00:58:08,520
+ with the real-time transparency that people expect from DeFi? That's a great point. So currently,
+
+507
+00:58:08,520 --> 00:58:16,360
+ it's difficult to make this kind of process really comparable to the real-time automation
+
+508
+00:58:16,360 --> 00:58:26,760
+ monitoring of DeFi, but we need to go there. We need to improve from traditional loan that often
+
+509
+00:58:26,760 --> 00:58:36,920
+ rely on quarterly, monthly reports, to verify barwell health. And these creates also a risk
+
+510
+00:58:36,920 --> 00:58:44,280
+ lag, because you might find out too late that a covenant was breached, for example.
+
+511
+00:58:45,160 --> 00:58:53,000
+ So yeah, like ZKTLS, implementing ZKTLS would be the first step towards that, towards a more
+
+512
+00:58:53,000 --> 00:59:03,960
+ automated monitoring process, and also being able to have a diversified access to different data
+
+513
+00:59:03,960 --> 00:59:12,600
+ sources from the borrower allows us to verify from multiple data sources that the borrower
+
+514
+00:59:12,600 --> 00:59:18,040
+ else is there, compared to just a single data source, or a single audit or that makes the
+
+515
+00:59:18,040 --> 00:59:25,000
+ auditing process on the borrower. So I would say that one of the current implementation that we
+
+516
+00:59:25,000 --> 00:59:33,240
+ have in mind to solve this is to create this kind of ZKTLS model, where the borrower can
+
+517
+00:59:33,240 --> 00:59:42,120
+ attach multiple data sources with different even frequency of data, but to try to be as close to
+
+518
+00:59:42,120 --> 00:59:51,480
+ the real-time monitoring process that we have in DeFi. And so monitoring and automating this
+
+519
+00:59:51,480 --> 00:59:59,400
+ process for the borrower, so they don't have to provide manual reports and monthly or quarterly
+
+520
+00:59:59,400 --> 01:00:05,480
+ reports. It's kind of a step towards going close to the real-time monitoring that we have in DeFi.
+
+521
+01:00:05,480 --> 01:00:14,600
+ Yeah, so my worry is primarily about malicious behavior. So I do agree that kind of all kinds of
+
+522
+01:00:14,600 --> 01:00:22,760
+ unfortunate business consequences and so on. I think kind of like this is where I could buy this.
+
+523
+01:00:22,760 --> 01:00:29,960
+ I'm not a finance person, but kind of I know that kind of like if I needed to kind of make
+
+524
+01:00:29,960 --> 01:00:36,280
+ books look good, depending on kind of like I would book things different ways or kind of like I
+
+525
+01:00:36,280 --> 01:00:42,520
+ would delay the booking. I think there's different ways of kind of fudging the books, right? So that
+
+526
+01:00:42,520 --> 01:00:50,680
+ kind of crisis is not immediately apparent. Do you have any guardrails against truly malicious
+
+527
+01:00:50,680 --> 01:01:01,800
+ borrower behavior? Yeah, I would say not relying solely on proprietary data sources. So I would say
+
+528
+01:01:01,800 --> 01:01:08,440
+ like getting financial statements, bank records, the trading activities in general to form this kind
+
+529
+01:01:08,440 --> 01:01:15,480
+ of borrower reputation shouldn't be something that a borrower itself is providing. But it's
+
+530
+01:01:15,480 --> 01:01:22,840
+ something that we fetch from the data sources that are third parties. And for example, it's a
+
+531
+01:01:22,840 --> 01:01:30,600
+ read-only API from a checks account. So the borrower itself cannot really like
+
+532
+01:01:30,600 --> 01:01:35,080
+ manipulate this kind of data. It would be checks that should be manipulate. Of course,
+
+533
+01:01:35,080 --> 01:01:38,440
+ there is an assumption of trust. But they can open a second account, right? So kind of like I
+
+534
+01:01:38,440 --> 01:01:42,760
+ can have one clean finance account and open a second account in the same name, right?
+
+535
+01:01:44,040 --> 01:01:51,160
+ Yeah, but when you're opening this kind of credit line, you're attaching like the either like
+
+536
+01:01:51,160 --> 01:02:00,360
+ like all the funds that you are borrowing out from the credit line should be verified that goes to
+
+537
+01:02:00,360 --> 01:02:07,320
+ that specific checks account. And all the activity around that checks account is what we are monitoring.
+
+538
+01:02:07,320 --> 01:02:13,720
+ So the collateral that you're using, the kind of trading activity that you're doing from that
+
+539
+01:02:13,720 --> 01:02:21,240
+ account is what matters for the lender. So I would say these kind of like credit lines should be
+
+540
+01:02:21,240 --> 01:02:29,960
+ getting a mix between other accounts, but should be related to a specific checks account
+
+541
+01:02:29,960 --> 01:02:36,360
+ from the borrower side. And in general, like the way that we are also structuring from a,
+
+542
+01:02:36,360 --> 01:02:42,600
+ I would say legal perspective, the credit lines is that they are SPV based. So there are also
+
+543
+01:02:42,600 --> 01:02:49,400
+ some bankruptcy remotes from the, let's say, main company as well. Okay. So that that's
+
+544
+01:02:49,400 --> 01:02:57,160
+ trying to ring fans as much as possible. Exactly. So if the Pareto interface and kind of like the
+
+545
+01:02:57,160 --> 01:03:04,760
+ centralized entities behind it kind of disappeared this afternoon, could I still unwind my loan or
+
+546
+01:03:04,760 --> 01:03:12,040
+ redeem my USP just by interacting with smart contracts? Or do I kind of rely on you guys to
+
+547
+01:03:12,040 --> 01:03:18,280
+ kind of provide this service to me? No, it would be possible. The way that we made the protocol
+
+548
+01:03:18,280 --> 01:03:28,200
+ itself, especially on USP and SPS side is that there can be a way for the DAO itself to change,
+
+549
+01:03:28,200 --> 01:03:36,120
+ for example, the admin controls for the allocation mechanism, for example, that also allows to,
+
+550
+01:03:36,120 --> 01:03:42,280
+ let's say we call back all the borrowers, all the funds from the borrowers and repay all the
+
+551
+01:03:42,280 --> 01:03:51,640
+ USP token holders. So if we call it, we have been calling it in this kind of test with our legal
+
+552
+01:03:51,640 --> 01:03:57,080
+ advisor, the Bahamas test. So if all the team decide to go to Bahamas and just don't be able
+
+553
+01:03:57,080 --> 01:04:04,120
+ the protocol anymore, we need to have a way to let the community and the token holders to be able to
+
+554
+01:04:04,840 --> 01:04:13,960
+ change the parameters and to change the admin controls, recall all the loans and repay back
+
+555
+01:04:13,960 --> 01:04:19,640
+ USP and SPS. So yeah, we have been thinking about that. And since the beginning, the protocol is
+
+556
+01:04:19,640 --> 01:04:24,520
+ made to be open in a way that it doesn't only rely on the core team.
+
+557
+01:04:26,200 --> 01:04:36,360
+ Maybe as a closing question, if you look at the on-chain private credit market and
+
+558
+01:04:36,360 --> 01:04:41,400
+ Pareto in particular, what does success for you guys look like in the next two to three years?
+
+559
+01:04:41,400 --> 01:04:49,320
+ Nice, great question in the sense that of course, the main metric that we're using in DeFi is
+
+560
+01:04:49,320 --> 01:04:56,520
+ TVL. So that's kind of a North Star for all the DeFi projects. And that's what we need to,
+
+561
+01:04:56,520 --> 01:05:05,960
+ what we're focused on growing over time. And that comes, of course, from creating a more and more
+
+562
+01:05:05,960 --> 01:05:15,800
+ diversified market marketplace. So what I see as a growth driver and potential expansion for Pareto
+
+563
+01:05:15,800 --> 01:05:23,880
+ in the next two, three years, I would say, is to gradually introduce non-crypto-related
+
+564
+01:05:23,880 --> 01:05:29,480
+ borrowers. We want to have a way to give away those two lenders and equity providers in general,
+
+565
+01:05:29,480 --> 01:05:37,160
+ to not rely only on borrowers that are related to the crypto market, because then depending on the
+
+566
+01:05:37,160 --> 01:05:45,240
+ market cycle, you're completely subject to the market cycle. And so the first driver would be
+
+567
+01:05:45,240 --> 01:05:51,960
+ to expand into more corporate bonds, corporate loans kind of credit lines. So introducing kind
+
+568
+01:05:51,960 --> 01:05:59,800
+ of like FinTech companies or cross-border payment facilities, credit card companies,
+
+569
+01:05:59,800 --> 01:06:04,440
+ account receivable companies, still related to finance and FinTech, but that would be the first
+
+570
+01:06:04,440 --> 01:06:11,880
+ expansion. And so creating this kind of more and more diversified marketplace that would allow
+
+571
+01:06:11,880 --> 01:06:20,440
+ us to grow USP and SUSP diversification power, and allow us to work with a larger basket of
+
+572
+01:06:20,440 --> 01:06:27,960
+ borrowers, borrowers' capabilities and loans in general, to grow to grow USP and SUSP. So I would
+
+573
+01:06:27,960 --> 01:06:34,680
+ say two, three years, we are more new kind of corporate borrowers. We are more new curators
+
+574
+01:06:34,680 --> 01:06:40,200
+ that in our vision are also like traditional institutions that bring their own underwriting
+
+575
+01:06:40,200 --> 01:06:45,240
+ process and due diligence process on shame without having to build everything from scratch.
+
+576
+01:06:45,240 --> 01:06:53,640
+ And of course that would be like meaning a TVL that goes above 1 billion to like numbers that
+
+577
+01:06:53,640 --> 01:07:00,360
+ were more like, you know, credit market is a 15 trillion market all around the world. So we do
+
+578
+01:07:00,360 --> 01:07:07,000
+ have a lot of room of expansion here in DeFi. So like our first like milestone is 1 billion
+
+579
+01:07:07,000 --> 01:07:12,520
+ of TVL, but then we need to think bigger with like this kind of number and we need to grow from there.
+
+580
+01:07:12,520 --> 01:07:20,600
+ Cool. Mateo, where do we send people to find out more about Pareto and kind of potentially
+
+581
+01:07:20,600 --> 01:07:29,400
+ borrow or lend some money with you guys? I would say let's definitely direct users and the audience
+
+582
+01:07:29,400 --> 01:07:34,920
+ that is interested to learn more about Pareto, to Pareto.credit. That would be the main point of
+
+583
+01:07:34,920 --> 01:07:40,760
+ access where you can access the dashboard. So you can see all the both read about the borrowers
+
+584
+01:07:40,760 --> 01:07:46,280
+ that we have read about the strategies that they're running and understand more also about USP
+
+585
+01:07:46,280 --> 01:07:52,280
+ and SUSP. And then I would say if they want to also keep up with the announcement that we make,
+
+586
+01:07:52,280 --> 01:08:00,040
+ which lately are a lot actually to follow us on Twitter @Pareto.credit. You can find all the
+
+587
+01:08:00,040 --> 01:08:06,600
+ links at @Pareto.credit for Twitter as well to look at all the announcements that we're making
+
+588
+01:08:06,600 --> 01:08:11,160
+ and also to read the blog posts and the articles that we made with our partners.
+
+589
+01:08:11,160 --> 01:08:16,920
+ Perfect. Thank you so much for coming on Mateo. It's been a pleasure chatting with you.
+
+590
+01:08:16,920 --> 01:08:18,040
+ Thank you. Likewise.
+

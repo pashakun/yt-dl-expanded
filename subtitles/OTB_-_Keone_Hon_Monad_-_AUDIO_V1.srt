@@ -1,0 +1,1280 @@
+1
+00:00:00,000 --> 00:00:06,040
+Today, I was joined by Kioni Han, co-founder of the Monad Foundation.
+
+2
+00:00:06,040 --> 00:00:12,240
+In 2022, Kioni, together with his co-founders Eunice Schiarta and James Hunsiker, set out
+
+3
+00:00:12,240 --> 00:00:16,000
+to build a financial settlement system better than any before.
+
+4
+00:00:16,000 --> 00:00:20,900
+Having spent a decade in high-frequency trading and understanding the roots of financial markets,
+
+5
+00:00:20,900 --> 00:00:25,300
+he and the team understood that blockchains could entirely reimagine financial markets
+
+6
+00:00:25,300 --> 00:00:29,840
+and create a unified marketplace for assets, but not in their current form.
+
+7
+00:00:29,840 --> 00:00:36,080
+With that in mind, Monad, the now almost fully mature brainchild of this vision, is a re-architected
+
+8
+00:00:36,080 --> 00:00:41,360
+version of the Ethereum blockchain built to be faster, cheaper, and more efficient while
+
+9
+00:00:41,360 --> 00:00:43,960
+maintaining a decentralized structure.
+
+10
+00:00:43,960 --> 00:00:48,600
+After over three years of development building an entirely new financial piping, Monad is
+
+11
+00:00:48,600 --> 00:00:51,280
+now on the verge of its imminent launch.
+
+12
+00:00:51,280 --> 00:00:55,600
+I had the fortune to sit down with Kioni and discuss the potential of on-chain financial
+
+13
+00:00:55,640 --> 00:01:01,280
+markets, the importance of decentralized systems, and his personal experience in this journey.
+
+14
+00:01:01,280 --> 00:01:05,760
+For disclosure, Castle Island is an investor and strong supporter of Monad.
+
+15
+00:01:05,760 --> 00:01:09,480
+Without further ado, I hope you enjoy our conversation.
+
+16
+00:01:09,480 --> 00:01:11,840
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+17
+00:01:11,840 --> 00:01:14,480
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+18
+00:01:14,480 --> 00:01:17,000
+and do not reflect the opinions of Castle Island Ventures.
+
+19
+00:01:17,000 --> 00:01:19,200
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+20
+00:01:19,200 --> 00:01:22,720
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+21
+00:01:22,720 --> 00:01:26,400
+to make a particular investment or follow a particular strategy, but only as an expression
+
+22
+00:01:26,400 --> 00:01:27,400
+of their personal opinion.
+
+23
+00:01:27,400 --> 00:01:30,520
+This podcast is for informational purposes only.
+
+24
+00:01:30,520 --> 00:01:34,960
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+
+25
+00:01:34,960 --> 00:01:35,960
+liquidated.
+
+26
+00:01:35,960 --> 00:01:38,960
+The federal government loans American International Group, AIG, $85 billion.
+
+27
+00:01:38,960 --> 00:01:43,160
+This is a different kind of market and the Fed is asleep.
+
+28
+00:01:43,160 --> 00:01:47,320
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+
+29
+00:01:47,320 --> 00:01:49,840
+giants that have been threatened by the housing crisis.
+
+30
+00:01:49,840 --> 00:01:54,200
+Bank of England has pumped £75 billion more into Britain's ailing economy with a new round
+
+31
+00:01:54,200 --> 00:01:55,200
+of quantitative easing.
+
+32
+00:01:55,200 --> 00:01:58,480
+You print a couple trillion dollars and all of a sudden, people start to worry.
+
+33
+00:01:58,480 --> 00:02:01,600
+So out of this worry, we have something called the Bitcoin.
+
+34
+00:02:01,600 --> 00:02:02,600
+Bitcoin.
+
+35
+00:02:02,600 --> 00:02:05,760
+Deoni, thanks for sitting down today.
+
+36
+00:02:05,760 --> 00:02:10,480
+It's a really interesting moment in that you guys are really close to a major launch here,
+
+37
+00:02:10,480 --> 00:02:12,520
+which I think a lot of people are excited about.
+
+38
+00:02:12,520 --> 00:02:18,880
+I want to get started maybe more broadly to ask what gets you excited today about on-chain
+
+39
+00:02:18,920 --> 00:02:22,720
+investments, maybe going back to why you got into the industry and why you're still here.
+
+40
+00:02:22,720 --> 00:02:26,800
+What do you say to people from the outside when they ask about what gets you excited?
+
+41
+00:02:26,800 --> 00:02:33,560
+I've been in the finance space for about 10 years outside of crypto, working as a high-frequency
+
+42
+00:02:33,560 --> 00:02:34,900
+trading quant.
+
+43
+00:02:34,900 --> 00:02:40,860
+It's very clear that certain markets are very well capitalized, in particular the Western
+
+44
+00:02:40,860 --> 00:02:43,680
+markets and especially the American market.
+
+45
+00:02:43,680 --> 00:02:49,580
+But there's a much broader set of businesses out there that lack access to capital, lack
+
+46
+00:02:49,580 --> 00:02:54,080
+the ability to get listed on a credible exchange.
+
+47
+00:02:54,080 --> 00:02:58,560
+And just generally, there's a lot of innovation that's going on outside of America that doesn't
+
+48
+00:02:58,560 --> 00:03:01,760
+have access to the same financial tools.
+
+49
+00:03:01,760 --> 00:03:07,520
+So I think that on-chain finance is incredibly exciting because it offers everyone access
+
+50
+00:03:07,520 --> 00:03:13,600
+to the same tools in the form of personal finance and also for businesses access to
+
+51
+00:03:13,600 --> 00:03:17,120
+capital and ultimately things that help grow their business.
+
+52
+00:03:17,120 --> 00:03:21,560
+It's interesting because I think we had the proliferation of exchanges in the stock market
+
+53
+00:03:21,560 --> 00:03:26,460
+and that let, for example, anyone living in the U.S. for the most part trade on a certain
+
+54
+00:03:26,460 --> 00:03:27,460
+exchange.
+
+55
+00:03:27,460 --> 00:03:30,920
+But there's still a disparate exchange system of where equities trade globally.
+
+56
+00:03:30,920 --> 00:03:34,360
+And it's not like it's seamless for me to go own and ask to trade on the other side
+
+57
+00:03:34,360 --> 00:03:35,360
+of the world.
+
+58
+00:03:35,360 --> 00:03:37,960
+I think that's something we almost forget about or take for granted.
+
+59
+00:03:37,960 --> 00:03:42,440
+But you have to imagine in a perfectly efficient market economy, there are a lot of transactions
+
+60
+00:03:42,440 --> 00:03:45,960
+that aren't happening because people just can't access an opportunity they don't know
+
+61
+00:03:45,960 --> 00:03:48,640
+about or they might otherwise be depositing into.
+
+62
+00:03:48,640 --> 00:03:53,240
+And from your perspective, do those sorts of transactions then happen on-chain once
+
+63
+00:03:53,240 --> 00:03:54,880
+you have faster on-chain systems?
+
+64
+00:03:54,880 --> 00:03:59,760
+Is that really the inspiration for Monad or what will be enabled in this future state
+
+65
+00:03:59,760 --> 00:04:01,480
+that you think isn't happening today?
+
+66
+00:04:01,480 --> 00:04:03,760
+Yeah, it's truly bidirectional.
+
+67
+00:04:03,760 --> 00:04:10,680
+It is giving people who have capital access to a broader set of investments.
+
+68
+00:04:10,720 --> 00:04:16,280
+And it's also giving people that maybe don't have as much capital there in a developing
+
+69
+00:04:16,280 --> 00:04:23,960
+country access to, first of all, dollars themselves in the form of dollar stablecoins, which even
+
+70
+00:04:23,960 --> 00:04:28,520
+that in and of itself can be a huge boost for a lot of people that are in economies
+
+71
+00:04:28,520 --> 00:04:31,060
+with currencies rapidly inflating.
+
+72
+00:04:31,060 --> 00:04:37,080
+But then beyond that, also giving them access to American and more generally global products.
+
+73
+00:04:37,080 --> 00:04:40,800
+I think that makes sense in particular for people who are getting access to dollars for
+
+74
+00:04:40,800 --> 00:04:43,760
+the first time when you might live in an inflationary currency.
+
+75
+00:04:43,760 --> 00:04:47,280
+And are those going to be the adopters to you, people who don't have as many options
+
+76
+00:04:47,280 --> 00:04:48,280
+to begin with?
+
+77
+00:04:48,280 --> 00:04:52,000
+I imagine it's a bit of a harder sell to people who might be in the US, you're like a family
+
+78
+00:04:52,000 --> 00:04:56,000
+office that already has a lot of opportunities, granted this will give you more.
+
+79
+00:04:56,000 --> 00:04:59,280
+I think it's strictly greater for everyone.
+
+80
+00:04:59,280 --> 00:05:06,640
+And the beauty of it is that in a permissionless, decentralized system that is truly borderless,
+
+81
+00:05:06,640 --> 00:05:11,720
+gives access for people regardless of their circumstance to a greater set of tools than
+
+82
+00:05:11,720 --> 00:05:13,200
+they currently have.
+
+83
+00:05:13,200 --> 00:05:17,680
+And with that in mind, people listening this conversation will have varying levels of familiarity
+
+84
+00:05:17,680 --> 00:05:18,800
+with Monad.
+
+85
+00:05:18,800 --> 00:05:24,160
+So why Monad in the context of that future state?
+
+86
+00:05:24,160 --> 00:05:30,560
+Monad is a new blockchain system with a ton of new software architecture.
+
+87
+00:05:30,560 --> 00:05:36,960
+It's a rebuild from scratch of the Ethereum blockchain with a bunch of new improvements
+
+88
+00:05:36,960 --> 00:05:42,960
+that I think the Ethereum community is really excited about, which include parallel execution,
+
+89
+00:05:42,960 --> 00:05:48,040
+asynchronous execution, which is decoupling the two components of a blockchain consensus
+
+90
+00:05:48,040 --> 00:05:51,440
+and execution from each other for efficiency reasons.
+
+91
+00:05:51,440 --> 00:05:57,360
+It introduces pipeline aid, it introduces a optimized database for storing the kind
+
+92
+00:05:57,360 --> 00:06:02,440
+of state that blockchains track and a new consensus mechanism that allows for really
+
+93
+00:06:02,440 --> 00:06:06,880
+frequent blocks and really fast time to finality of this system.
+
+94
+00:06:06,880 --> 00:06:12,880
+For context, Ethereum is a blockchain that produces blocks every 12 seconds and that
+
+95
+00:06:12,880 --> 00:06:16,640
+has roughly 12 minute time to finality.
+
+96
+00:06:16,640 --> 00:06:21,200
+That means that if you submit a transaction on Ethereum, first of all, your transaction
+
+97
+00:06:21,200 --> 00:06:26,480
+only gets loaded into a train car every 12 seconds, so you're waiting quite a bit and
+
+98
+00:06:26,480 --> 00:06:29,040
+then it only gets finalized 12 minutes later.
+
+99
+00:06:29,040 --> 00:06:33,840
+So that entire time, you wouldn't be sure that your transaction has been enshrined into
+
+100
+00:06:33,840 --> 00:06:36,520
+the ledger and is irreversible.
+
+101
+00:06:36,520 --> 00:06:42,040
+Whereas with Monad, blocks are every 400 milliseconds and finality is after 800 milliseconds, so
+
+102
+00:06:42,040 --> 00:06:43,760
+it's just much faster.
+
+103
+00:06:43,760 --> 00:06:49,040
+The confluence of all of these improvements is a system that can process a billion transactions
+
+104
+00:06:49,040 --> 00:06:53,660
+per day as compared to 1 million transactions per day for Ethereum.
+
+105
+00:06:53,660 --> 00:06:58,540
+So it's a thousand acts improvement and we think that this is just the start of what
+
+106
+00:06:58,540 --> 00:07:04,660
+ultimately our team can do, but it is a significant step change that can enable a much greater
+
+107
+00:07:04,660 --> 00:07:06,300
+level of adoption.
+
+108
+00:07:06,300 --> 00:07:09,740
+And you come from a deep training background where you had to understand these systems
+
+109
+00:07:09,740 --> 00:07:11,340
+at a relatively deep level.
+
+110
+00:07:11,340 --> 00:07:16,580
+I think this is a topical conversation because two weeks ago to the day, we had a relatively
+
+111
+00:07:16,580 --> 00:07:21,620
+meaningful market fallout and I think people forget about the problems of how often transactions
+
+112
+00:07:21,620 --> 00:07:22,620
+are settled on Ethereum.
+
+113
+00:07:22,860 --> 00:07:25,980
+I'll even go to say things like the exchange level, you had assets trading at different
+
+114
+00:07:25,980 --> 00:07:28,340
+prices across exchanges that day.
+
+115
+00:07:28,340 --> 00:07:33,820
+So maybe as a case example, could you walk through what some of the problems that emerge
+
+116
+00:07:33,820 --> 00:07:41,260
+are when you have these volatile market periods and how Monad makes that different?
+
+117
+00:07:41,260 --> 00:07:47,020
+Blockchains are ultimately there to define a stable source of truth that can allow many
+
+118
+00:07:47,100 --> 00:07:49,700
+different people to coordinate.
+
+119
+00:07:49,700 --> 00:07:55,700
+And that's really valuable in our world because right now in the non crypto space, we live
+
+120
+00:07:55,700 --> 00:07:59,580
+in a world with many different servers that are all talking to each other and trying to
+
+121
+00:07:59,580 --> 00:08:01,060
+stay coordinated.
+
+122
+00:08:01,060 --> 00:08:06,080
+Whereas blockchain allows for a single source of truth that's available globally and through
+
+123
+00:08:06,080 --> 00:08:11,000
+consensus mechanisms, we keep all the nodes in sync and crypto in general.
+
+124
+00:08:11,000 --> 00:08:16,900
+The point of blockchain systems is to enable that single source of truth and that shared
+
+125
+00:08:17,100 --> 00:08:23,140
+global state while also being resilient to people that are running nodes, potentially
+
+126
+00:08:23,140 --> 00:08:24,220
+wanting to be malicious.
+
+127
+00:08:24,220 --> 00:08:26,900
+It's resilient to those malicious actors as well.
+
+128
+00:08:26,900 --> 00:08:31,820
+That unlocks incredible capabilities on top of that that can be built on top of this
+
+129
+00:08:31,820 --> 00:08:33,100
+coordination layer.
+
+130
+00:08:33,100 --> 00:08:37,780
+I think the particular example that you were talking about from two weeks ago is a story
+
+131
+00:08:37,780 --> 00:08:43,660
+about a bunch of disparate centralized exchanges that are all connected together using
+
+132
+00:08:43,700 --> 00:08:46,060
+blockchain as this means of settlement.
+
+133
+00:08:46,060 --> 00:08:51,060
+When you want to withdraw your coins, you can withdraw them onto one of these blockchains.
+
+134
+00:08:51,060 --> 00:08:56,900
+And then once that transaction is processed and finalized, now the tokens are in your
+
+135
+00:08:56,900 --> 00:08:57,900
+account.
+
+136
+00:08:57,900 --> 00:09:01,340
+And then if you want to transfer to a different exchange or something other than an exchange
+
+137
+00:09:01,340 --> 00:09:06,140
+as well, you wanted to buy something at the Tesla dealership or whatever it is, you wanted
+
+138
+00:09:06,140 --> 00:09:10,180
+to do a peer to peer payment with your friend, all of that is possible as well.
+
+139
+00:09:10,180 --> 00:09:14,420
+But the point is that the blockchain system is the underlying fabric that's keeping all
+
+140
+00:09:14,420 --> 00:09:19,300
+of these different venues, different centralized exchange venues, different stores and so on
+
+141
+00:09:19,300 --> 00:09:21,300
+all in sync with each other.
+
+142
+00:09:21,300 --> 00:09:26,500
+But the problem is if there's a lot going on, the real world is moving very quickly
+
+143
+00:09:26,500 --> 00:09:28,740
+and prices are moving very quickly.
+
+144
+00:09:28,740 --> 00:09:33,740
+It could be very difficult for these prices to stay in line and for liquidity to move
+
+145
+00:09:33,740 --> 00:09:39,900
+from exchange to exchange and for liquidity to move where it is most demanded in a reasonable
+
+146
+00:09:39,900 --> 00:09:40,900
+amount of time.
+
+147
+00:09:40,900 --> 00:09:45,900
+And the latency of 12 minutes of finality or more is actually a significant impediment
+
+148
+00:09:45,900 --> 00:09:48,580
+to allowing liquidity to move from place to place.
+
+149
+00:09:48,580 --> 00:09:54,220
+And that's just one story about the implications of slow finality and slow systems.
+
+150
+00:09:54,220 --> 00:09:59,900
+But there are many others that are happening every day with respect to how enterprises
+
+151
+00:09:59,900 --> 00:10:06,260
+are managing their money, how frequently they can switch from non-yield bearing forms of
+
+152
+00:10:06,260 --> 00:10:09,000
+dollar deposits to yield bearing ones.
+
+153
+00:10:09,100 --> 00:10:13,080
+When you have high efficiency, when it's really seamless to be able to move money from one
+
+154
+00:10:13,080 --> 00:10:16,360
+place to another, it unlocks a ton of efficiencies.
+
+155
+00:10:16,360 --> 00:10:18,680
+I agree with everything you highlighted.
+
+156
+00:10:18,680 --> 00:10:23,520
+One piece that frustrated me a couple of weeks ago was because of these inefficiencies, partly
+
+157
+00:10:23,520 --> 00:10:28,040
+around speed, around cost, and then some architecture of how the market structure works today.
+
+158
+00:10:28,040 --> 00:10:32,840
+You saw the asset prices in the order books fall very low on some of these assets.
+
+159
+00:10:32,840 --> 00:10:37,160
+And as a user, you didn't necessarily see the opportunity to buy assets at those prices
+
+160
+00:10:37,160 --> 00:10:40,680
+and marks across exchanges were changing drastically.
+
+161
+00:10:40,680 --> 00:10:45,320
+And that brings me to another topic, which is very central to Monad, which is centralization
+
+162
+00:10:45,320 --> 00:10:46,320
+or decentralization.
+
+163
+00:10:46,320 --> 00:10:49,840
+Because I think people forget about the risks of centralization.
+
+164
+00:10:49,840 --> 00:10:54,280
+We're seeing a lot of what I would argue fairly centralized blockchain architectures emerge
+
+165
+00:10:54,280 --> 00:10:55,280
+now.
+
+166
+00:10:55,280 --> 00:10:59,280
+But in that market structure, if an exchange owns a blockchain and they're in a period
+
+167
+00:10:59,280 --> 00:11:03,400
+of distress and they want to switch off your ability to settle, they can do that.
+
+168
+00:11:03,400 --> 00:11:07,520
+And because of that, you might lose out on what might be the best trading moment of the
+
+169
+00:11:07,520 --> 00:11:10,920
+year, or you might not be able to get out of your positions, which could be potentially
+
+170
+00:11:10,920 --> 00:11:11,920
+worse.
+
+171
+00:11:11,920 --> 00:11:16,920
+Can you speak to why and how you guys think about decentralization in that vein and why
+
+172
+00:11:16,920 --> 00:11:18,400
+you think it's important?
+
+173
+00:11:18,400 --> 00:11:24,080
+I will start by saying that building decentralized systems is harder than building centralized
+
+174
+00:11:24,080 --> 00:11:29,200
+ones because you're basically handling for all the corner cases ahead of time and building
+
+175
+00:11:29,200 --> 00:11:30,740
+in fault tolerance.
+
+176
+00:11:30,740 --> 00:11:36,700
+For users, the benefit of trading on a decentralized exchange, a truly decentralized exchange,
+
+177
+00:11:36,700 --> 00:11:41,780
+is that all the rules are well defined ahead of time and there aren't corner cases and
+
+178
+00:11:41,780 --> 00:11:47,380
+there isn't a human who can just make an arbitrary decision and decide to freeze your account
+
+179
+00:11:47,380 --> 00:11:52,660
+or prevent you from trading or put on a trade actually without your authorization, which
+
+180
+00:11:52,660 --> 00:11:57,380
+is one of the big complaints from two weeks ago is that a lot of people that did have
+
+181
+00:11:57,380 --> 00:12:02,660
+profitable trades, like if they were short somewhere, that short position got automatically
+
+182
+00:12:02,660 --> 00:12:10,220
+closed out through a process called auto deleveraging that a bunch of centralized exchanges have.
+
+183
+00:12:10,220 --> 00:12:15,020
+And it's crazy because in my experience as a quant trader for a number of years, the
+
+184
+00:12:15,020 --> 00:12:19,620
+expectation as a trader is that the only trades that will happen will be trades that are the
+
+185
+00:12:19,620 --> 00:12:21,460
+result of orders that you send.
+
+186
+00:12:21,460 --> 00:12:28,680
+So if I send an order to buy Apple at $100.01, then that's a guarantee that if I am filled
+
+187
+00:12:28,680 --> 00:12:34,420
+on that order, I'm filled at a price that is either that price or a better price.
+
+188
+00:12:34,420 --> 00:12:39,460
+And that order will persist in the order book until I submit a cancel or if it's good until
+
+189
+00:12:39,460 --> 00:12:43,340
+the end of the day order, then until the end of the trading session.
+
+190
+00:12:43,340 --> 00:12:47,780
+And it would be very shocking to have a position on an exchange and then find out that the
+
+191
+00:12:48,620 --> 00:12:53,180
+inserted another order maybe in the opposite direction of my position right now, and that
+
+192
+00:12:53,180 --> 00:12:54,220
+closed me out.
+
+193
+00:12:54,220 --> 00:12:57,700
+So now I thought I had a position, but I'm actually flat because I never sent that order.
+
+194
+00:12:57,700 --> 00:12:59,220
+I never authorized it.
+
+195
+00:12:59,220 --> 00:13:04,900
+And one of the crazy anecdotes from two weeks ago is that a lot of people had positions
+
+196
+00:13:04,900 --> 00:13:08,060
+or thought they had positions and then found out that they didn't have positions because
+
+197
+00:13:08,060 --> 00:13:10,860
+the exchange just put in an order on their behalf.
+
+198
+00:13:10,860 --> 00:13:14,940
+And not because it was necessarily to the customer's benefit, but rather because it
+
+199
+00:13:14,940 --> 00:13:19,420
+was to the exchange's benefit to reduce the overall amount of leverage in the system.
+
+200
+00:13:19,420 --> 00:13:24,160
+And I think that people will sometimes in our industry say that decentralization doesn't
+
+201
+00:13:24,160 --> 00:13:29,740
+matter, that it's fine to take a centralized system's operator's word for what they said.
+
+202
+00:13:29,740 --> 00:13:33,340
+And the problem is that it's true until it's not.
+
+203
+00:13:33,340 --> 00:13:37,620
+And you think that decentralization doesn't matter until you find out one day that it
+
+204
+00:13:37,620 --> 00:13:38,620
+really does.
+
+205
+00:13:38,620 --> 00:13:43,820
+And the benefit of decentralized systems with open source code that anyone can look at and
+
+206
+00:13:43,820 --> 00:13:48,780
+audit and verify the behavior of is that it creates accountability and it removes the
+
+207
+00:13:48,780 --> 00:13:53,620
+possibility of person operating in the system to arbitrarily make a decision.
+
+208
+00:13:53,620 --> 00:13:58,420
+Yeah, it's a major problem, this individual discretion that you have in the centralized
+
+209
+00:13:58,420 --> 00:13:59,420
+system.
+
+210
+00:13:59,420 --> 00:14:02,060
+I heard an argument about it the other day that I hadn't heard before, but I thought
+
+211
+00:14:02,060 --> 00:14:06,780
+was compelling, which was also that in today's day and age, the most common cyber attack
+
+212
+00:14:06,780 --> 00:14:10,020
+are these social engineering attacks or these single point of failure attacks.
+
+213
+00:14:10,020 --> 00:14:14,900
+So if you're operating on a centralized venue in any form, you're essentially reliant that
+
+214
+00:14:14,900 --> 00:14:19,180
+that person is controlling it, even if all of goodwill, that they're not going to be
+
+215
+00:14:19,180 --> 00:14:23,100
+individually cyber attacked, which you saw with the Bybit exploit, which was a massive
+
+216
+00:14:23,100 --> 00:14:24,100
+exploit.
+
+217
+00:14:24,100 --> 00:14:27,940
+Speaking of these functional improvements, are you passionate specifically about creating
+
+218
+00:14:27,940 --> 00:14:29,300
+better financial systems?
+
+219
+00:14:29,300 --> 00:14:33,580
+Is this a problem solving endeavor for you and the team or why are you seeking to accomplish
+
+220
+00:14:33,580 --> 00:14:34,580
+this?
+
+221
+00:14:34,580 --> 00:14:41,680
+I think that any great startup is the combination of a very clear mission that's solving a very
+
+222
+00:14:41,680 --> 00:14:48,380
+urgent problem that is also combined with just the fit of the team and the team's expertise
+
+223
+00:14:48,380 --> 00:14:54,460
+and the team's passion for solving those problems and the team's passion for engineering really
+
+224
+00:14:54,460 --> 00:14:56,900
+well thought out solutions to the problems.
+
+225
+00:14:56,900 --> 00:14:59,700
+So for us, it is both really fun.
+
+226
+00:14:59,700 --> 00:15:00,900
+I love what I do.
+
+227
+00:15:00,900 --> 00:15:03,900
+It's really energizing to be working on it every day.
+
+228
+00:15:03,900 --> 00:15:09,580
+The problems are hard, but they're very interesting and the approach that the Monad team in general
+
+229
+00:15:09,580 --> 00:15:16,220
+has taken to rebuilding everything from scratch and introducing a bunch of HFT style optimizations
+
+230
+00:15:16,220 --> 00:15:23,060
+to Ethereum and building a new decentralized system that is truly decentralized, that is
+
+231
+00:15:23,060 --> 00:15:28,220
+supporting a truly globally distributed set of validator nodes, creating a borderless
+
+232
+00:15:28,220 --> 00:15:31,660
+system that's really decentralized and also really performant.
+
+233
+00:15:31,660 --> 00:15:37,020
+It's really motivating to our whole team and it's also a very urgent problem to solve.
+
+234
+00:15:37,020 --> 00:15:42,700
+It's just the problem of supporting all of finance and supporting all of commerce eventually
+
+235
+00:15:42,700 --> 00:15:47,740
+through a base layer fabric that allows many different people to all coordinate in a shared
+
+236
+00:15:47,740 --> 00:15:48,740
+global state.
+
+237
+00:15:48,740 --> 00:15:53,420
+And speaking of the team, I have a lot of respect for the team that you've built.
+
+238
+00:15:53,420 --> 00:15:56,300
+You guys are a global organization now accomplishing a lot.
+
+239
+00:15:56,300 --> 00:15:58,340
+I've had the pleasure of meeting a lot of them.
+
+240
+00:15:58,340 --> 00:16:02,820
+How have you gone about acquiring the best talent and building the best team in the scope
+
+241
+00:16:02,820 --> 00:16:05,620
+of what you guys are trying to do and what goes into that?
+
+242
+00:16:05,620 --> 00:16:10,820
+I'm really proud of our team and really grateful for everyone that's joined us on the journey.
+
+243
+00:16:10,820 --> 00:16:16,740
+I think that it's what a lot of other startup people will say, which is that it's recognition
+
+244
+00:16:16,740 --> 00:16:21,900
+that building something new, building something hard is a very intensive effort.
+
+245
+00:16:21,900 --> 00:16:27,940
+And I think we've just ended up attracting people who are attracted to that really intensive effort.
+
+246
+00:16:27,940 --> 00:16:29,340
+We spend a lot of time together.
+
+247
+00:16:29,340 --> 00:16:32,260
+We work on a wide variety of different issues.
+
+248
+00:16:32,260 --> 00:16:36,300
+So it's people that are really passionate about being the best at what they do and being
+
+249
+00:16:36,300 --> 00:16:41,820
+part of a group that has very high talent density and also a lot of people that someday
+
+250
+00:16:41,820 --> 00:16:43,780
+want to start their own startup.
+
+251
+00:16:43,780 --> 00:16:49,520
+And for me and for the other leaders in the team, we actually be really excited if people
+
+252
+00:16:49,520 --> 00:16:53,620
+that are on our team right now someday leave us and start their own startup.
+
+253
+00:16:53,620 --> 00:16:57,180
+So there's a very strong entrepreneurial culture as well.
+
+254
+00:16:57,180 --> 00:16:58,780
+On that note, it's a nice segue.
+
+255
+00:16:58,780 --> 00:17:03,860
+I think a lot of founders or founding teams are tasked with making this transition that
+
+256
+00:17:03,860 --> 00:17:08,180
+I imagine you've had to make over time, which is you go from being a founder, maybe there
+
+257
+00:17:08,180 --> 00:17:11,940
+are two or three people on the team and you're performing tasks, you're doing a specific
+
+258
+00:17:11,940 --> 00:17:16,340
+body of work, and then you transition into running an organization with tens, hundreds
+
+259
+00:17:16,340 --> 00:17:17,340
+of people.
+
+260
+00:17:17,340 --> 00:17:20,180
+And I imagine your role changes and you wear a lot of different hats.
+
+261
+00:17:20,180 --> 00:17:23,620
+So how has that transition been for you and how do you do that effectively?
+
+262
+00:17:23,620 --> 00:17:25,420
+Yeah, it's really fun.
+
+263
+00:17:25,420 --> 00:17:31,500
+It is very challenging because I've been forced to learn new skills that I didn't have,
+
+264
+00:17:31,500 --> 00:17:36,820
+learning how to be a better manager of a bigger org, learning how to communicate really efficiently,
+
+265
+00:17:36,820 --> 00:17:37,820
+learning how to delegate.
+
+266
+00:17:37,820 --> 00:17:42,020
+I mean, these all sound like very obvious things, but it is understandable actually
+
+267
+00:17:42,020 --> 00:17:47,660
+why when you listen to very notable founders talk about how they think about organizations
+
+268
+00:17:47,660 --> 00:17:53,060
+and how they think about running their team, oftentimes they have very specific, very strong
+
+269
+00:17:53,060 --> 00:17:57,420
+views about how a team should work together and they put in place a lot of rules that
+
+270
+00:17:57,420 --> 00:18:00,820
+sound crazy, but also are actually very understandable.
+
+271
+00:18:00,820 --> 00:18:04,700
+So for me, it reminds me a little bit of the, I don't know if you've ever watched Silicon
+
+272
+00:18:04,700 --> 00:18:10,540
+Valley, but they portray Peter Gregory as a really very eccentric character who you'll
+
+273
+00:18:10,540 --> 00:18:13,140
+start talking to him about something and he'll be like, I don't want to talk about that.
+
+274
+00:18:13,140 --> 00:18:18,220
+I want to talk about burger buns and the seeds on the buns or whatever it is.
+
+275
+00:18:18,220 --> 00:18:22,900
+And from the outside, it might seem like that's a crazy person, but then I think after you
+
+276
+00:18:22,900 --> 00:18:27,460
+have been executing for a while, you realize, oh no, actually it is very valuable to be
+
+277
+00:18:27,460 --> 00:18:32,740
+extremely direct and to redirect or to have strong opinions about how we all work together
+
+278
+00:18:32,740 --> 00:18:35,060
+because ultimately it's a very intensive effort.
+
+279
+00:18:35,060 --> 00:18:40,260
+The stakes are high and everyone here wants to be part of a team that's doing really well
+
+280
+00:18:40,260 --> 00:18:42,260
+and we'll learn a lot from the process.
+
+281
+00:18:42,260 --> 00:18:45,260
+So maybe not being afraid of being weird.
+
+282
+00:18:45,260 --> 00:18:48,680
+And to that point, it's great when you attract the people you want to space on the mission
+
+283
+00:18:48,680 --> 00:18:50,260
+that you guys have taken on.
+
+284
+00:18:50,260 --> 00:18:54,140
+I meant to mention on that note, one of the pieces I've heard of what makes you guys run
+
+285
+00:18:54,140 --> 00:18:58,060
+effectively, what shows that you've done a very good job is that you and the team are
+
+286
+00:18:58,060 --> 00:19:02,980
+quite brilliant but receptive at the same time, which can be a rare quality in founders
+
+287
+00:19:02,980 --> 00:19:07,300
+or frankly people building things because I think you'll often get people who are brilliant
+
+288
+00:19:07,300 --> 00:19:12,380
+but in that vein, not very receptive to other ideas or to changing course or taking feedback
+
+289
+00:19:12,380 --> 00:19:13,380
+as needed.
+
+290
+00:19:13,380 --> 00:19:16,540
+So a lot of kudos to you and all others out there who are doing that.
+
+291
+00:19:16,540 --> 00:19:21,580
+I did want to ask in two to three years time, what will be a measure looking back of whether
+
+292
+00:19:21,580 --> 00:19:25,820
+Monad's been successful and to what extent it's been successful in your mind?
+
+293
+00:19:25,820 --> 00:19:31,580
+I think we will have been successful if people think about blockchains pretty differently
+
+294
+00:19:31,580 --> 00:19:32,980
+a couple of years from now.
+
+295
+00:19:32,980 --> 00:19:38,900
+I think that right now the general public sees blockchain as an emerging technology
+
+296
+00:19:38,900 --> 00:19:46,180
+that's exciting but also very hard to understand and I think that success will mean far more
+
+297
+00:19:46,180 --> 00:19:53,620
+people being comfortable with using decentralized systems and excited about the fact that decentralized
+
+298
+00:19:53,620 --> 00:19:59,080
+systems are actually giving them back control of their assets and their data and their access
+
+299
+00:19:59,080 --> 00:20:00,480
+to systems.
+
+300
+00:20:00,480 --> 00:20:04,300
+I hope for the same and maybe as a last question, I want to ask you, what's the first thing
+
+301
+00:20:04,300 --> 00:20:06,940
+you'll do once Monad Mainnet is live?
+
+302
+00:20:06,940 --> 00:20:13,740
+I personally am really excited about many apps that different builders in the Monad ecosystem
+
+303
+00:20:13,740 --> 00:20:16,980
+have been working on for months or years.
+
+304
+00:20:16,980 --> 00:20:22,820
+So first thing is just to try everything out and basically just get to be a fan of all
+
+305
+00:20:22,820 --> 00:20:28,260
+of the products that have gotten to the stage and are in production or launching.
+
+306
+00:20:28,260 --> 00:20:32,340
+So it's not only the launch of Monad itself and what our decentralized system but also
+
+307
+00:20:32,340 --> 00:20:33,820
+of amazing apps.
+
+308
+00:20:33,820 --> 00:20:34,820
+Yeah, I enjoyed.
+
+309
+00:20:34,820 --> 00:20:38,700
+I was at the demo that you guys had recently and I got to see you tweeting about one of
+
+310
+00:20:38,700 --> 00:20:41,620
+the projects, Symfony, the next day and your experience using it.
+
+311
+00:20:41,620 --> 00:20:43,500
+So I love to see that kind of engagement.
+
+312
+00:20:43,540 --> 00:20:44,740
+Kioni, it's been a pleasure.
+
+313
+00:20:44,740 --> 00:20:48,740
+Thanks for making time, enjoyed chatting and hopefully we can do it again soon, excited
+
+314
+00:20:48,740 --> 00:20:49,740
+for the next few weeks.
+
+315
+00:20:49,740 --> 00:20:50,740
+Of course.
+
+316
+00:20:50,740 --> 00:20:52,780
+Thanks so much for having me live.
+
+317
+00:20:52,780 --> 00:20:56,820
+Thanks for listening to another episode of On the Brink with Castle Island.
+
+318
+00:20:56,820 --> 00:21:03,500
+To learn more about Castle Island, visit castleisland.vc and to listen to all of our podcast episodes,
+
+319
+00:21:03,500 --> 00:21:09,460
+please visit castleisland.vc slash podcast or just click on the tab on our website.
+
+320
+00:21:09,460 --> 00:21:10,020
+Thanks for listening.
+

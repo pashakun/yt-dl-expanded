@@ -1,0 +1,1848 @@
+1
+00:00:00,000 --> 00:00:06,560
+ I feel this is the trend similar with AI agent helps with AI technology.
+
+2
+00:00:06,560 --> 00:00:08,560
+ Stablecoin helps payment technology.
+
+3
+00:00:08,560 --> 00:00:12,480
+ I think this is like a way exciting to see this.
+
+4
+00:00:12,480 --> 00:00:16,640
+ So to see this upgrade, everyone should be able to get benefits from those.
+
+5
+00:00:16,640 --> 00:00:24,880
+ Hi, everyone. Welcome to Unchained, your no-have resource for all things crypto.
+
+6
+00:00:24,880 --> 00:00:26,160
+ I'm your host, Laura Shin.
+
+7
+00:00:26,160 --> 00:00:29,600
+ Every episode, we'd love to feature listener comments.
+
+8
+00:00:29,600 --> 00:00:33,760
+ Today we have some responses to my recent two-part series with Bitwise's Jeff Park.
+
+9
+00:00:33,760 --> 00:00:37,040
+ On YouTube, gatecrusher1 wrote,
+
+10
+00:00:37,040 --> 00:00:39,120
+ "I'm not putting anything past Jeff Park.
+
+11
+00:00:39,120 --> 00:00:43,680
+ This guy is both smart and forthcoming in his views on Bitcoin and the effects on the future economy."
+
+12
+00:00:43,680 --> 00:00:47,120
+ Also on YouTube, XXX said,
+
+13
+00:00:47,120 --> 00:00:49,680
+ "I love this guy always, watches interviews.
+
+14
+00:00:49,680 --> 00:00:52,240
+ I don't know, it seems like he genuinely wants me to win."
+
+15
+00:00:52,240 --> 00:00:53,920
+ LMAO.
+
+16
+00:00:53,920 --> 00:00:55,840
+ Most people just trying to sell you something.
+
+17
+00:00:55,840 --> 00:00:56,560
+ Good episode.
+
+18
+00:00:57,200 --> 00:01:00,800
+ Watch the full episode with Jeff on YouTube or any podcast platform.
+
+19
+00:01:00,800 --> 00:01:03,920
+ And tell us what you think with a comment on YouTube, Farkaster, or X.
+
+20
+00:01:03,920 --> 00:01:07,600
+ This is the June 12th, 2025 episode of Unchained.
+
+21
+00:01:07,600 --> 00:01:12,000
+ Leaden is a leading platform for Bitcoin-backed loans,
+
+22
+00:01:12,000 --> 00:01:17,600
+ offering a secure and transparent way to unlock liquidity without selling your Bitcoin.
+
+23
+00:01:17,600 --> 00:01:23,040
+ Issuing loans since 2018 and earning over 1,000 TrustPilot reviews.
+
+24
+00:01:23,040 --> 00:01:25,280
+ Learn more at leaden.io.
+
+25
+00:01:26,000 --> 00:01:31,920
+ In many countries, governments freeze accounts, surveil transactions, and seize assets.
+
+26
+00:01:31,920 --> 00:01:35,280
+ Not just from activists, but from everyday people.
+
+27
+00:01:35,280 --> 00:01:39,360
+ That's why the Human Rights Foundation created the Financial Freedom Report.
+
+28
+00:01:39,360 --> 00:01:43,120
+ Sign up to receive it weekly at financialfreedomreport.org.
+
+29
+00:01:43,120 --> 00:01:48,960
+ Imagine an AI that speaks crypto and does the work of a team of analysts.
+
+30
+00:01:48,960 --> 00:01:54,160
+ Introducing Focal by Falcon X, bringing in clarity to a world of noise.
+
+31
+00:01:54,160 --> 00:01:56,000
+ Visit askfocal.com.
+
+32
+00:01:56,000 --> 00:02:02,400
+ Today's guest is Vicki Fu, co-founder at Yala and former engineering director at Circle.
+
+33
+00:02:02,400 --> 00:02:03,120
+ Welcome, Vicki.
+
+34
+00:02:03,120 --> 00:02:04,720
+ Thank you.
+
+35
+00:02:04,720 --> 00:02:06,080
+ Thank you for having me.
+
+36
+00:02:06,080 --> 00:02:08,400
+ It's a great pleasure to have a conversation here.
+
+37
+00:02:08,400 --> 00:02:11,040
+ Yeah, yeah, excited to chat.
+
+38
+00:02:11,040 --> 00:02:14,400
+ There's been so much stablecoin news this week and last.
+
+39
+00:02:14,400 --> 00:02:20,880
+ There was obviously the Circle IPO that most crypto people kind of missed or dismissed.
+
+40
+00:02:20,880 --> 00:02:24,800
+ And you were one of the few who understood that people were underestimating it.
+
+41
+00:02:24,800 --> 00:02:29,280
+ Then this week, there was the plasma ICO, the privy acquisition by Stripe,
+
+42
+00:02:29,280 --> 00:02:32,960
+ and the announcement that Shopify merchants would now be able to accept USDC.
+
+43
+00:02:32,960 --> 00:02:36,320
+ And that is only the business news on top of all that.
+
+44
+00:02:36,320 --> 00:02:39,520
+ It looks like we're going to get a stablecoin bill passed in the Senate soon.
+
+45
+00:02:39,520 --> 00:02:44,560
+ So I know people want to hear about the privy acquisition, the Shopify news,
+
+46
+00:02:44,560 --> 00:02:47,600
+ but I do just want to back up and start with the Circle IPO,
+
+47
+00:02:48,160 --> 00:02:53,200
+ because that really sets the stage for how to think about all of this news that we're seeing.
+
+48
+00:02:53,200 --> 00:02:56,320
+ And the day before the Circle IPO, you wrote a tweet saying
+
+49
+00:02:56,320 --> 00:02:59,600
+ that it was mispriced and the market was going to learn a lesson about this.
+
+50
+00:02:59,600 --> 00:03:04,480
+ You probably heard a lot of crypto people were comparing Circle's
+
+51
+00:03:04,480 --> 00:03:07,040
+ business model to Tethers and, frankly, the profits,
+
+52
+00:03:07,040 --> 00:03:12,960
+ which are just a small fraction of Tethers, and they have much higher overhead.
+
+53
+00:03:12,960 --> 00:03:15,680
+ And so there were numerous crypto people, in fact, on this show,
+
+54
+00:03:15,680 --> 00:03:21,360
+ who were saying this IPO was nothing to get excited about, and they were wrong.
+
+55
+00:03:21,360 --> 00:03:26,000
+ And you had written this tweet about how you felt people were mispricing this.
+
+56
+00:03:26,000 --> 00:03:29,760
+ So explain what it was that you were thinking,
+
+57
+00:03:29,760 --> 00:03:31,760
+ how you were evaluating things differently,
+
+58
+00:03:31,760 --> 00:03:34,160
+ and why you thought the underwriters got it wrong.
+
+59
+00:03:34,160 --> 00:03:37,840
+ But thank you. I really appreciate your notice by Twitter.
+
+60
+00:03:37,840 --> 00:03:40,880
+ I didn't expect they'd have so much attention.
+
+61
+00:03:43,040 --> 00:03:46,400
+ Let me start with my story and my journey.
+
+62
+00:03:46,400 --> 00:03:58,560
+ So I joined Circle 2021, and I left like a 2024, early 2024,
+
+63
+00:03:58,560 --> 00:04:02,240
+ as an end director and the start of my own project,
+
+64
+00:04:02,240 --> 00:04:09,360
+ Yala, which is a BDC back liquidity layer to help BDC holder in yield.
+
+65
+00:04:09,360 --> 00:04:16,880
+ So I view myself really have thought a lot about the stablecoin business.
+
+66
+00:04:16,880 --> 00:04:25,200
+ I see that the people right now try to do the traditional way
+
+67
+00:04:25,200 --> 00:04:31,120
+ for like a financial model, say, "Oh, this is the earnings,
+
+68
+00:04:31,120 --> 00:04:34,720
+ so this is the profits, so how do you measure this company?"
+
+69
+00:04:34,720 --> 00:04:37,840
+ Actually, Circle is so unique.
+
+70
+00:04:37,840 --> 00:04:42,960
+ You actually create a brand new business or brand new product.
+
+71
+00:04:42,960 --> 00:04:44,640
+ I've never seen before, right?
+
+72
+00:04:44,640 --> 00:04:49,840
+ Before we don't have a stablecoin as a public trade company.
+
+73
+00:04:49,840 --> 00:04:54,960
+ So that's the first initial thing that Circle pioneered.
+
+74
+00:04:54,960 --> 00:05:02,800
+ Actually, in 2021, why join Circle restart their IPO journey?
+
+75
+00:05:02,800 --> 00:05:10,080
+ It has been overdue because the regulation, because there are a lot of going on
+
+76
+00:05:10,080 --> 00:05:12,480
+ for the crypto side getting evolved.
+
+77
+00:05:12,480 --> 00:05:16,800
+ So finally, we gather the point, we gather SE, prove this deal,
+
+78
+00:05:16,800 --> 00:05:21,040
+ we gather a so-called accepted as a public trade company.
+
+79
+00:05:21,040 --> 00:05:29,200
+ A lot of new attention comes here, but all I think Circle really pioneered here
+
+80
+00:05:29,840 --> 00:05:35,040
+ of two things, people didn't pay much attention beyond revenue.
+
+81
+00:05:35,040 --> 00:05:44,160
+ One is Circle Spring, the significant of the liquidity everywhere on chain.
+
+82
+00:05:44,160 --> 00:05:48,080
+ What I mean is that right now everyone can bring a stablecoin,
+
+83
+00:05:48,080 --> 00:05:49,360
+ more or less, every bank.
+
+84
+00:05:49,360 --> 00:05:52,160
+ I mean, talk about every bank in the regulation or something.
+
+85
+00:05:52,160 --> 00:05:58,560
+ But as Circle's volume, I think right now is the 60 billion circulation.
+
+86
+00:05:58,560 --> 00:06:03,840
+ You have to deploy those liquidity in all the D5 protocol
+
+87
+00:06:03,840 --> 00:06:08,480
+ from the trading, from the staking, from everywhere else.
+
+88
+00:06:08,480 --> 00:06:12,640
+ That's where a lot of natural organic demand,
+
+89
+00:06:12,640 --> 00:06:17,520
+ which is not any other stablecoin had easy to compare.
+
+90
+00:06:17,520 --> 00:06:18,720
+ Of course, Tether is there.
+
+91
+00:06:18,720 --> 00:06:21,680
+ I think that's also legit.
+
+92
+00:06:21,680 --> 00:06:23,200
+ They are also a big player.
+
+93
+00:06:23,200 --> 00:06:28,160
+ So that's where I think when people only compare to revenue perspective,
+
+94
+00:06:28,160 --> 00:06:31,360
+ they easily miss what's going on underneath.
+
+95
+00:06:31,360 --> 00:06:33,520
+ Where's the 60 billion come from?
+
+96
+00:06:33,520 --> 00:06:35,200
+ Right, 60 billion circulation.
+
+97
+00:06:35,200 --> 00:06:35,920
+ That's the first thing.
+
+98
+00:06:35,920 --> 00:06:41,280
+ The second thing is when people compare Tether and Circle,
+
+99
+00:06:41,280 --> 00:06:45,440
+ they always feel that, oh, because the revenue is small.
+
+100
+00:06:45,440 --> 00:06:50,000
+ If that means like Circle since the second tier compared to Tether,
+
+101
+00:06:50,000 --> 00:06:52,400
+ I think that that's totally misunderstood in business.
+
+102
+00:06:52,400 --> 00:06:57,680
+ Because Circle or Tether, they are representing a brand new business.
+
+103
+00:06:58,320 --> 00:07:04,080
+ It means they do a lot of representing the whole jump market.
+
+104
+00:07:04,080 --> 00:07:08,400
+ What I mean is that Circle really are dominated in North America.
+
+105
+00:07:08,400 --> 00:07:14,160
+ It has been a long time regulation when they are not certain.
+
+106
+00:07:14,160 --> 00:07:21,040
+ People feel like they should not invest a lot in crypto space.
+
+107
+00:07:21,040 --> 00:07:26,320
+ But given that the whole climate change after the Trump getting their position,
+
+108
+00:07:27,360 --> 00:07:34,800
+ the US market or the North American market will be invested significantly.
+
+109
+00:07:34,800 --> 00:07:39,200
+ And Circle will be their top choice when they think about the stablecoin,
+
+110
+00:07:39,200 --> 00:07:47,040
+ they should better, or as given that Circle has really strong brand in the US.
+
+111
+00:07:47,040 --> 00:07:54,800
+ That's where fundamentally boost all the Circle's circulation and the profit capability.
+
+112
+00:07:54,800 --> 00:08:00,400
+ So I think when they just say, oh, because they have less circulation compared to Tether,
+
+113
+00:08:00,400 --> 00:08:03,680
+ it's just not in the same market.
+
+114
+00:08:03,680 --> 00:08:08,000
+ So that's where I think given that two things,
+
+115
+00:08:08,000 --> 00:08:16,640
+ beyond the number, look at the whole market condition and all DeFi info,
+
+116
+00:08:16,640 --> 00:08:23,920
+ Circle should work significantly more compared to the $31 at the starting price.
+
+117
+00:08:25,600 --> 00:08:31,760
+ Okay, so basically you're in a way just saying like because the US has the biggest markets that
+
+118
+00:08:31,760 --> 00:08:36,880
+ that is, and that's where Circle plays, that that's why it ends up having this competitive edge.
+
+119
+00:08:36,880 --> 00:08:40,160
+ And it really is just a different beast from Tether, which is trying to
+
+120
+00:08:40,160 --> 00:08:44,160
+ serve a completely different market. Is that kind of what you're saying?
+
+121
+00:08:44,160 --> 00:08:54,320
+ I view that potentially US was the faster growing space in crypto, given that right now,
+
+122
+00:08:54,320 --> 00:09:02,000
+ the regulation are favorite US investment place.
+
+123
+00:09:02,000 --> 00:09:11,600
+ So I think last few years, US are underdeveloped when we talk about the crypto growing.
+
+124
+00:09:11,600 --> 00:09:17,840
+ That's where I see that the new government really think we want to be crypto friendly.
+
+125
+00:09:17,840 --> 00:09:23,520
+ I'm really happy to see that and I'm really happy to see Circle's success.
+
+126
+00:09:24,560 --> 00:09:30,080
+ A lot of friends of mine are really celebrating this IPO and given the IPO,
+
+127
+00:09:30,080 --> 00:09:37,280
+ Circle have even stronger brand and there will be a more adoption accordingly.
+
+128
+00:09:37,280 --> 00:09:44,960
+ Because stablecoin is a trusted game and the people view transparency as one of the top
+
+129
+00:09:44,960 --> 00:09:53,200
+ requirements when they put their money. So that's where I think Circle will have even further
+
+130
+00:09:53,200 --> 00:09:55,200
+ growing potential given that.
+
+131
+00:09:55,200 --> 00:10:00,080
+ Okay. Yeah, that makes sense. One of the probably longest standing criticisms of Tether is around
+
+132
+00:10:00,080 --> 00:10:06,960
+ transparency. But yeah, I just wanted to quote from that tweet that you wrote because it was
+
+133
+00:10:06,960 --> 00:10:12,320
+ funny. Here we are talking about how a lot of crypto people were kind of comparing the profits
+
+134
+00:10:12,320 --> 00:10:22,720
+ to Tethers and the profit margins. And you just wrote, so you talked about how you felt like
+
+135
+00:10:24,000 --> 00:10:30,560
+ the valuations that people were talking about and the price that the IPO was going to launch
+
+136
+00:10:30,560 --> 00:10:35,920
+ out, how you felt like that was what you called structural mispricing. And then you wrote Circle
+
+137
+00:10:35,920 --> 00:10:41,040
+ isn't a money market fund. It's a digital dollar infrastructure with quasi sovereign issuance rights
+
+138
+00:10:41,040 --> 00:10:49,600
+ for context PayPal, $70 billion market cap, $1.5 trillion in volume, Visa, $500 billion market cap,
+
+139
+00:10:49,600 --> 00:10:56,480
+ $14 trillion in volume, Circle, $6 billion valuation, $12 trillion in volume.
+
+140
+00:10:56,480 --> 00:11:02,000
+ So that was, yeah, it was a really interesting comparison. And you said the math doesn't work
+
+141
+00:11:02,000 --> 00:11:08,400
+ 25 times over subscribe tells the real story. And actually one other bit that I wanted to ask
+
+142
+00:11:08,400 --> 00:11:12,320
+ you about in this tweet, you said Circle controls the dollar digital dollar printing press.
+
+143
+00:11:13,040 --> 00:11:19,440
+ And you know, as you had mentioned earlier in the tweet, you said that they're really in this
+
+144
+00:11:19,440 --> 00:11:25,200
+ area where it's like a quasi sovereign issuance rights. But I just wanted to understand because
+
+145
+00:11:25,200 --> 00:11:30,080
+ it's not like they're like creating dollars, they're like taking analog dollars and turning
+
+146
+00:11:30,080 --> 00:11:33,360
+ them into digital. So really, how are you thinking about what this business is?
+
+147
+00:11:33,360 --> 00:11:42,640
+ Yeah, yeah, I think this is people easily and the estimator, the effort, the Circle build,
+
+148
+00:11:42,640 --> 00:11:52,880
+ and what's the boat here? Because the, in the end of the day, a fiat based stablecoin actually
+
+149
+00:11:52,880 --> 00:11:59,920
+ do a lot for online off rent, right? Because you want to deposit the US dollars that mean the
+
+150
+00:11:59,920 --> 00:12:13,520
+ stables and burn US dollar, burn US DC, get your dollar back. So Circle catering that with real time
+
+151
+00:12:13,520 --> 00:12:24,000
+ and 24 by 7 capability. Why I say it's a big deal? Because I don't know, people remember
+
+152
+00:12:24,000 --> 00:12:35,840
+ 2020, 2022 2022, the Silicon Valley falling up falling apart at that time.
+
+153
+00:12:35,840 --> 00:12:39,520
+ Silicon Valley bank. Yeah, yeah, it was merged.
+
+154
+00:12:39,520 --> 00:12:47,280
+ Yeah, 2023. 2023 Silicon Valley bank falling apart at that time, Circle lose the
+
+155
+00:12:49,040 --> 00:13:01,280
+ like, the bank online off-run rail, some portion from the navigate. So Circle work really hard
+
+156
+00:13:01,280 --> 00:13:08,480
+ to bring the global capability to do online off-run things then, right? Because this is really
+
+157
+00:13:08,480 --> 00:13:18,000
+ allow globally everyone, if they bring US dollars, they actually can mean the stable. That's a super
+
+158
+00:13:18,000 --> 00:13:27,040
+ powerful because dealing with a bank relationship or building the capability to do real time and
+
+159
+00:13:27,040 --> 00:13:34,640
+ handling the report and do three way accounting for make sure every dollar on-chain online
+
+160
+00:13:34,640 --> 00:13:42,320
+ and in the bank are all meat. This is actually a huge effort for Circle work really hard to get
+
+161
+00:13:42,320 --> 00:13:51,040
+ at that point in making the transparency for everyone being able to see. So that's, I view that
+
+162
+00:13:51,040 --> 00:14:01,040
+ it's a last mile issue, Circle has solved. I think when people think about it, oh, you just
+
+163
+00:14:01,040 --> 00:14:08,960
+ deposit US dollar, you get a USDC, that's because Circle are solving this and keep it to bring new
+
+164
+00:14:10,160 --> 00:14:17,760
+ geo available like Latino and others. So that's given Circle significant advantage compared to
+
+165
+00:14:17,760 --> 00:14:28,640
+ other like our off-run solutions. Because if you think about any bank, either they can support
+
+166
+00:14:28,640 --> 00:14:35,920
+ their own current region or they somehow have the high cost due to their network. So Circle
+
+167
+00:14:35,920 --> 00:14:41,200
+ work really hard to bring that efficiency. That's where really trillion dollars moving
+
+168
+00:14:41,200 --> 00:14:50,160
+ around cross-border payment be able to happen with stable speed. And that's where
+
+169
+00:14:50,160 --> 00:14:54,400
+ Jimmy and the Circle CEO have the vision. This is the future money movement,
+
+170
+00:14:54,400 --> 00:15:02,400
+ right? Because that's the efficiency. And any bank right now, there are traditional infra
+
+171
+00:15:02,400 --> 00:15:10,080
+ could be empowered by stable coins with better efficiency. Given that, that's a significant amount
+
+172
+00:15:10,080 --> 00:15:20,960
+ of like value pop from Circle can offer. So right now, our panel with a lot of new brand,
+
+173
+00:15:20,960 --> 00:15:27,520
+ a lot of strong brands. So we actually will see this happen more and more. So that's where
+
+174
+00:15:27,520 --> 00:15:34,480
+ I think it will be tremendous value. So can bring compared to like a Visa or PayPal,
+
+175
+00:15:34,480 --> 00:15:39,200
+ given the more traditional way. Yeah, yeah. And we'll talk about that in a moment. But first,
+
+176
+00:15:39,200 --> 00:15:43,200
+ we'll take a quick word from the sponsors, make the show possible. Wish you could access cash
+
+177
+00:15:43,200 --> 00:15:48,640
+ without selling your Bitcoin? Letting makes that possible. The global leader in Bitcoin backed
+
+178
+00:15:48,640 --> 00:15:55,680
+ lending. Letting has issued over $9 billion in loans since 2018 and never lost a single
+
+179
+00:15:55,680 --> 00:16:02,320
+ Satoshi of client assets. Why is a let alone different? With custody loans, collateral is not
+
+180
+00:16:02,320 --> 00:16:09,840
+ lent out to generate interest. No credit checks, funds in less than 12 hours, no monthly payments,
+
+181
+00:16:09,840 --> 00:16:17,120
+ repay whenever you want with zero penalties. And proof of reserves reports verified by a top
+
+182
+00:16:17,120 --> 00:16:22,480
+ accounting firm are published every six months. Letting gives Bitcoin holders a secure,
+
+183
+00:16:22,480 --> 00:16:32,720
+ transparent way to unlock liquidity without selling. Learn more at letton.io. That's l-e-d-n.io.
+
+184
+00:16:32,720 --> 00:16:38,800
+ Is your money really yours? In many countries, governments freeze accounts, surveil transactions,
+
+185
+00:16:38,800 --> 00:16:44,480
+ and seize assets. Not just from activists, but from everyday people like you and me.
+
+186
+00:16:44,480 --> 00:16:49,440
+ That's why the Financial Freedom Report exists. This weekly newsletter from the Human Rights
+
+187
+00:16:49,440 --> 00:16:56,800
+ Foundation exposes how authoritarian regimes use money as a weapon and how you can fight back.
+
+188
+00:16:56,800 --> 00:17:01,760
+ Every Thursday, uncover the latest on financial censorship, as a confiscation,
+
+189
+00:17:01,760 --> 00:17:08,560
+ runaway inflation, and the rise of state-controlled money. Plus, real solutions like Bitcoin.
+
+190
+00:17:08,560 --> 00:17:13,280
+ I personally subscribe to the Financial Freedom Report, and it is one of the most high signal
+
+191
+00:17:13,280 --> 00:17:19,440
+ emails I get each week. Subscribe now for free at financialfreedomreport.org.
+
+192
+00:17:43,280 --> 00:17:49,760
+ The big news that was released on Thursday afternoon, which is that Coinbase, Shopify,
+
+193
+00:17:49,760 --> 00:17:55,200
+ and Stripe will now be enabling Shopify merchants to accept payments in USDC,
+
+194
+00:17:55,200 --> 00:18:00,720
+ including payments using USDC on base. What did you make of this news?
+
+195
+00:18:00,720 --> 00:18:09,600
+ I see that all other acquisition happens from Stripe. It all comes to the place as more
+
+196
+00:18:10,880 --> 00:18:20,640
+ info is building up for supporting the stable coin payment. I think all stable coin as a
+
+197
+00:18:20,640 --> 00:18:28,960
+ settlement vehicle, there actually can be a solved issue scenario problem with right info.
+
+198
+00:18:28,960 --> 00:18:34,640
+ That's where actually those kind of things are growing. So, the central role actually
+
+199
+00:18:34,640 --> 00:18:41,200
+ has another work of fact. That's where Coinbase payment are using USDC as a settlement.
+
+200
+00:18:41,200 --> 00:18:45,600
+ That makes a perfect sense. I'm super excited to see that 3 in power,
+
+201
+00:18:45,600 --> 00:18:54,960
+ like retail shopping, and help people have more better payment solution with the cheaper cost.
+
+202
+00:18:54,960 --> 00:19:01,120
+ And just to make it clear, Shopify has over 2 million merchants,
+
+203
+00:19:01,680 --> 00:19:12,960
+ so this is clearly just a really big entry point, I think, for Americans and both businesses and
+
+204
+00:19:12,960 --> 00:19:19,920
+ consumers. So, the other big news is a little bit related, because as I mentioned, Stripe was
+
+205
+00:19:19,920 --> 00:19:26,000
+ part of that Coinbase and Shopify announcement. And this week, we also saw news that Stripe had
+
+206
+00:19:26,000 --> 00:19:33,600
+ acquired Privy Wallet, which in and of itself is kind of one of the new crypto wallets that has
+
+207
+00:19:33,600 --> 00:19:39,200
+ gotten a lot of uptake. They have over 75 million accounts, and this is the wallet that's embedded
+
+208
+00:19:39,200 --> 00:19:46,480
+ into hyper liquid, forecaster, OpenSea, and other apps. And on top of that, Stripe last year had
+
+209
+00:19:46,480 --> 00:19:52,880
+ acquired infrastructure, stable coin, yeah, stable coin infrastructure company bridge for 1.1 billion
+
+210
+00:19:52,880 --> 00:19:56,640
+ dollars. So, what's your big takeaways about the Privy acquisition?
+
+211
+00:19:56,640 --> 00:20:08,400
+ I think like a Stripe blog, actually, representing the payment infar, I see that this is the signal,
+
+212
+00:20:08,400 --> 00:20:20,480
+ is they accept the stable coin as a payment solution for them to be able to offer more
+
+213
+00:20:20,480 --> 00:20:30,000
+ efficiency with their merchants. I think this is super good news for people in this space,
+
+214
+00:20:30,000 --> 00:20:38,240
+ and also a validation for us that more and more stable coin payment solution will be
+
+215
+00:20:38,240 --> 00:20:47,200
+ will be adopted. And also, for normal user, you and me, we might see more apps powered by
+
+216
+00:20:47,920 --> 00:20:54,720
+ like USDC as a payment solution, easy to pay between you and me in an easy way, like a windmill,
+
+217
+00:20:54,720 --> 00:21:01,280
+ or even fancy than that, even AI agent could use the stable coin USDC as a payment solution
+
+218
+00:21:01,280 --> 00:21:07,920
+ with permissionless live without any notice. That will be a mainstream adoption without much
+
+219
+00:21:07,920 --> 00:21:15,360
+ like a hard setting by us, like figure out how to set a wallet, figure out where we store the
+
+220
+00:21:15,360 --> 00:21:21,680
+ recovery or something like that. I expect a stable coin base, even circle, there are buildings on
+
+221
+00:21:21,680 --> 00:21:28,240
+ payment network as well. They will make an effort and make a massive adoption by providing a better
+
+222
+00:21:28,240 --> 00:21:32,160
+ user experience with the impact of their building. I think this is the trend.
+
+223
+00:21:32,160 --> 00:21:38,320
+ Yeah, and one point that I just wanted to also make about the Shopify thing, which I
+
+224
+00:21:38,320 --> 00:21:42,800
+ went to mention earlier is just we were talking about circle and it goes to show kind of what you
+
+225
+00:21:42,800 --> 00:21:48,720
+ were saying about this focus in the US. This potentially could be quite big because of this
+
+226
+00:21:48,720 --> 00:21:55,200
+ is the coin that's being used for those payments then that will definitely increase the transaction
+
+227
+00:21:55,200 --> 00:22:02,160
+ volume. One other thing that I just wanted to ask you more generally is like, they are making
+
+228
+00:22:02,160 --> 00:22:06,480
+ all these stable coin moves and I just wondered what you kind of made of looking at all of it
+
+229
+00:22:06,480 --> 00:22:12,960
+ together. Like where that is going for them or where you feel like this is fitting into their
+
+230
+00:22:12,960 --> 00:22:19,600
+ strategy? Yeah, I think definitely it fits their strategy because the strive will view
+
+231
+00:22:19,600 --> 00:22:30,720
+ themselves as a payment info as a part of offer the merchant upgrade, the cheaper, the efficient
+
+232
+00:22:30,720 --> 00:22:38,560
+ solution, especially a lot of merchant may not be US based, right? And also when they are global
+
+233
+00:22:38,560 --> 00:22:45,760
+ based, cross-border payment, like foreign exchange, all the need to be solved in a more efficient way.
+
+234
+00:22:45,760 --> 00:22:54,880
+ That's actually the advantage for stable coin, be able to help those with a lower fee
+
+235
+00:22:55,520 --> 00:23:02,720
+ faster settlement. So that's where I think where all the thing types should be see this as
+
+236
+00:23:02,720 --> 00:23:10,560
+ too low solution, right? They will focus more on build a new network, that's also the only
+
+237
+00:23:10,560 --> 00:23:18,800
+ wise strive a quiet breach, right? Because they want a new network with stable coin run, permissionless,
+
+238
+00:23:19,440 --> 00:23:27,200
+ be able to help with the settlement. That's basically, I feel, this is the trend, similar with AI
+
+239
+00:23:27,200 --> 00:23:32,480
+ agent, helps with AI technology, stable coin helps with payment technology. I think that this is
+
+240
+00:23:32,480 --> 00:23:38,400
+ like, we're super exciting to see this, to see this upgrade and everyone should be able to get
+
+241
+00:23:38,400 --> 00:23:44,160
+ benefits from those. Yeah, so the last big piece of news that I wanted to chat with you about are
+
+242
+00:23:44,160 --> 00:23:50,880
+ on the business side, is the Plasma ICO, which raised $500 million in, I think it was like maybe
+
+243
+00:23:50,880 --> 00:23:58,480
+ an hour-ish via an ICO, and the original target had been for $50 million, and then they raised it
+
+244
+00:23:58,480 --> 00:24:05,680
+ to $250 million, and then they ended up raising $500 million. So what was interesting to me is,
+
+245
+00:24:05,680 --> 00:24:10,800
+ you know, I was trying to figure out what this XBL token, what you can do with it, because this is
+
+246
+00:24:10,800 --> 00:24:16,960
+ meant to be, Plasma is meant to be a Bitcoin sidechain that's purpose-built for stable coins,
+
+247
+00:24:16,960 --> 00:24:22,560
+ but also compatible with the EVM. And, you know, I was wondering, so okay, so like,
+
+248
+00:24:22,560 --> 00:24:30,240
+ if you own XPL, then what are you getting? But, you know, despite, at least to me, just like in a,
+
+249
+00:24:30,240 --> 00:24:35,280
+ it's not like I did a super deep dive, but just from some of the, you know, more cursory things,
+
+250
+00:24:35,280 --> 00:24:40,480
+ I was looking at online, it just felt like, you know, this is capitalizing in a few different trends
+
+251
+00:24:40,480 --> 00:24:46,240
+ here, like, obviously, stable coins, you know, I think ICOs are coming back. But what did it say
+
+252
+00:24:46,240 --> 00:24:53,200
+ to you that this particular ICO was such a hot ticket? Yeah, I think the observation is basically
+
+253
+00:24:53,200 --> 00:25:01,360
+ it's primary institution participating. I think because when we look at the number, it's about a
+
+254
+00:25:01,360 --> 00:25:08,720
+ thousand wallet participating data bill and food for the, for the deposit. So primary is come from
+
+255
+00:25:08,720 --> 00:25:18,560
+ large check, large deposit. So in that way, I think the institution are really bullish in the
+
+256
+00:25:18,560 --> 00:25:28,640
+ stable coin info. That's right now, the hottest topic. And so-called given data is more work-on,
+
+257
+00:25:33,200 --> 00:25:40,480
+ like Wall Street. And in that way, IPO is taking that portion of the investment money. And this is
+
+258
+00:25:40,480 --> 00:25:49,040
+ for on-chain, take a big check from people who using US, DC, USDT to do the deposit could come from
+
+259
+00:25:49,040 --> 00:25:55,920
+ people not be able to access IPO or like international, or especially I see that
+
+260
+00:25:57,120 --> 00:26:05,760
+ data actually have some investment in this as well. So I think everyone is a figure out a way to help
+
+261
+00:26:05,760 --> 00:26:16,400
+ to build up the info, right? Because I see the admission is the side change helps with the
+
+262
+00:26:16,400 --> 00:26:25,360
+ performance issue with the speed, help with the stable coin movement settlement with the
+
+263
+00:26:25,360 --> 00:26:31,840
+ faster speed. So that's what they're offering. With those kind of institution put a lot of money,
+
+264
+00:26:31,840 --> 00:26:38,240
+ I expect that they should have a good ecosystem built up quickly because everyone contributed
+
+265
+00:26:38,240 --> 00:26:51,760
+ their token. In this way, I think, if you look at the blockchain or crypto business,
+
+266
+00:26:51,760 --> 00:26:58,560
+ they just so could even can faster to raise money compared to traditional way, right?
+
+267
+00:26:58,560 --> 00:27:05,680
+ Because the server has been 12 years. Finally, IPO raises so much money. It never issue any
+
+268
+00:27:05,680 --> 00:27:14,800
+ tokens beyond USDT for just the stable coin business. So that's the harder way. And right now,
+
+269
+00:27:14,800 --> 00:27:22,400
+ given that everyone have the concerns, the stable coin business is a good business. So I think
+
+270
+00:27:22,400 --> 00:27:28,560
+ a lot of new money will come to this place to better different info piece as long as they can
+
+271
+00:27:28,560 --> 00:27:36,560
+ solve some scenario or some problems, they realize could grow. So I think that, oh, this is really
+
+272
+00:27:36,560 --> 00:27:49,200
+ good for us. Same as Yala. We are a bit of coin, bad stable coin to be able to help users to earn
+
+273
+00:27:49,200 --> 00:27:56,960
+ yield with the liquidity come from the Bitcoin. That's another angle, right? Because the circle
+
+274
+00:27:56,960 --> 00:28:03,680
+ has built a certificate of info from the online friend bank relationship to bring the fiat money
+
+275
+00:28:03,680 --> 00:28:11,280
+ in the crypto. On the other side, Bitcoin is totally decentralized. We want to have the info
+
+276
+00:28:11,280 --> 00:28:20,240
+ to help the Bitcoin get more liquidity to make yield for the Bitcoin holder. There are liquidity
+
+277
+00:28:20,240 --> 00:28:28,560
+ there from the Bitcoin asset. So this is totally different info. We view that the stable coin will
+
+278
+00:28:28,560 --> 00:28:36,560
+ be a big business to everyone can solve some portion of problems. Then this could be helped
+
+279
+00:28:36,560 --> 00:28:43,280
+ the whole financial system upgraded to a new level and get more transparent and more efficient.
+
+280
+00:28:43,280 --> 00:28:48,720
+ Okay. And then, you know, last question. So here we have the stable coin bill going through
+
+281
+00:28:48,720 --> 00:28:53,520
+ the Senate. It looks like it will probably pass sometime soon. And then hopefully we'll actually
+
+282
+00:28:53,520 --> 00:29:00,320
+ have like legislation that will arrive on President Trump's desk and hopefully it will be signed.
+
+283
+00:29:00,320 --> 00:29:08,000
+ But, you know, what that is causing is like a bunch of other players to also take notice that
+
+284
+00:29:08,000 --> 00:29:15,840
+ this sector is poised to take off. And so we are seeing society general is the first major bank
+
+285
+00:29:15,840 --> 00:29:21,600
+ that's going to launch a dollar peg stable coin. It looks like even DTCC is trying to get done on
+
+286
+00:29:21,600 --> 00:29:28,000
+ this. And, you know, we've done some interviews here where, you know, other analysts have said
+
+287
+00:29:28,000 --> 00:29:33,600
+ to us that they feel like, you know, once big banks get in, like once there's like a stable coin
+
+288
+00:29:33,600 --> 00:29:40,320
+ on a JP Morgan, that I think the one, you know, term that this person uses that the big banks could
+
+289
+00:29:40,320 --> 00:29:46,160
+ crush circle. So be curious to hear your thoughts about how a circle or really any of these other
+
+290
+00:29:46,160 --> 00:29:54,720
+ stable coin players could fair against competition with big banks. Yeah, I think the last few years
+
+291
+00:29:54,720 --> 00:30:02,000
+ there's a lot of trying, right, because the paper have a stable coin for a little bit more than
+
+292
+00:30:02,000 --> 00:30:08,320
+ one year, I think more than one year, about a billion range. I'm really happy to see everyone
+
+293
+00:30:08,320 --> 00:30:13,360
+ try to build them itself up with some stable coin because like earlier I shared, it's really
+
+294
+00:30:13,360 --> 00:30:22,480
+ solved the efficiency problems. Like, for example, any bank, even using the stable coin rather than
+
+295
+00:30:22,480 --> 00:30:31,520
+ their own, like to rewrite the infar part could be much more efficient for all the transparency
+
+296
+00:30:31,520 --> 00:30:36,080
+ and the efficiency for the operation part. So that's where I think that it's a significant
+
+297
+00:30:36,080 --> 00:30:42,880
+ value for everyone adopters stable coin. On the other side, you feel some people may think that
+
+298
+00:30:42,880 --> 00:30:49,440
+ this could be a challenge for circle. Actually, a single opposite. The reason for that is
+
+299
+00:30:49,440 --> 00:31:03,520
+ the $60 billion circulation circle belt is the two part, one, the liquidity comes in
+
+300
+00:31:03,520 --> 00:31:10,960
+ all chains, a lot of chains are done. Right now, so I think I have 20 chains where I talk about
+
+301
+00:31:10,960 --> 00:31:20,080
+ integrated and on top of that, all the decentralization change or all the liquidity provider are using
+
+302
+00:31:20,080 --> 00:31:27,680
+ USDC in some kind of way to do the liquidity. So that's where it's the network effect
+
+303
+00:31:27,680 --> 00:31:32,720
+ server has built. It's not easy to replace, right? Bank of America, you have
+
+304
+00:31:33,760 --> 00:31:41,520
+ or any bank, I should not say Bank of America, any new bank to have a stable, I don't think like
+
+305
+00:31:41,520 --> 00:31:47,840
+ Solana was directly adopted because they see that they use USDC is easier to trade.
+
+306
+00:31:47,840 --> 00:31:59,280
+ One data I can share when Trump, the mean token about Trump happens early this year,
+
+307
+00:31:59,280 --> 00:32:07,920
+ they actually mean the $1 billion USDC on Solana because people think that this is the liquidity
+
+308
+00:32:07,920 --> 00:32:14,160
+ come from, use this kind of trading best on Solana. That's it. So that's part, I don't think the
+
+309
+00:32:14,160 --> 00:32:19,280
+ traditional bank, no matter how many stable coin that you can replace that, right? And
+
+310
+00:32:19,280 --> 00:32:27,600
+ on the other side is the unreferen globally support, right? US can offer that, but if you talk about
+
+311
+00:32:27,600 --> 00:32:35,920
+ a global scale, people using the chat from like Europe or Africa or anywhere, can they mean that
+
+312
+00:32:35,920 --> 00:32:42,160
+ stable? Because this is actually is a user experience problem and which central exchange
+
+313
+00:32:42,160 --> 00:32:49,680
+ you will accept it. Solana still have really good like a relationship with Coinbase, everyone know
+
+314
+00:32:49,680 --> 00:32:57,440
+ that. That's the the the the the the partnerships have been together and that's where you retail can
+
+315
+00:32:57,440 --> 00:33:04,720
+ easily get a USDC to dollar dollar to USDC and it's the natural factor so that they're
+
+316
+00:33:04,720 --> 00:33:11,120
+ otherwise their US systems. So I think it's a totally opposite, every bank that even they want
+
+317
+00:33:11,120 --> 00:33:19,200
+ to have liquidity, they need to rely on USDC or USDC too to help with their liquidity when they're
+
+318
+00:33:19,200 --> 00:33:25,600
+ using when they are being online have more use case around them. Okay, well, it was so
+
+319
+00:33:25,600 --> 00:33:28,640
+ great chatting with you. Thank you so much for sharing your insights on Unchained.
+
+320
+00:33:28,640 --> 00:33:36,320
+ Yeah, my pleasure. It's a great conversation. Yeah. Don't forget, next up is the weekly
+
+321
+00:33:36,320 --> 00:33:41,520
+ news recap. Stick around for this week in crypto after this short break. Markets are ripping,
+
+322
+00:33:41,520 --> 00:33:47,440
+ but not every pump is created equal. You need to make sense of the action and what's coming next,
+
+323
+00:33:47,440 --> 00:33:54,080
+ but where do you start? Meet focal by Falcon X, your AI powered crypto analyst. It's like having
+
+324
+00:33:54,080 --> 00:33:59,680
+ a legion of experts at your fingertips, ready to break down market making events, chart protocol
+
+325
+00:33:59,680 --> 00:34:08,640
+ TVL and track ETF flows. Get clarity in a world of noise with focal. Learn more at ask focal.com.
+
+326
+00:34:08,640 --> 00:34:15,920
+ Welcome to this week's crypto roundup. In today's recap, the SEC signals possible approval for
+
+327
+00:34:15,920 --> 00:34:22,000
+ Solana ETFs, Gemini and bullish edge closer to IPOs and lawmakers advanced the clarity act
+
+328
+00:34:22,000 --> 00:34:26,960
+ through Congress. We'll also cover interactive strengths, 500 million friend of million crypto,
+
+329
+00:34:26,960 --> 00:34:34,000
+ treasury gamble, a major Bitcoin protocol update, and BlackRock's record-breaking ETF milestone.
+
+330
+00:34:34,000 --> 00:34:39,120
+ Plus, Cetus relaunches after the exploit, Musk's ex-partners with polymarket,
+
+331
+00:34:39,120 --> 00:34:42,800
+ and Paraguay's president gets hacked by a fake Bitcoin campaign.
+
+332
+00:34:43,760 --> 00:34:50,480
+ Thanks for tuning in to the weekly news recap. Let's begin. SEC signals openness to Solana ETFs.
+
+333
+00:34:50,480 --> 00:34:56,720
+ The US Securities and Exchange Commission has asked several asset managers seeking to launch
+
+334
+00:34:56,720 --> 00:35:02,960
+ Solana exchange traded funds to revise their S1 filings, a move seen as a potential step toward
+
+335
+00:35:02,960 --> 00:35:09,680
+ approval. According to sources cited by Blockworks and Bloomberg, the SEC is focused on two critical
+
+336
+00:35:09,680 --> 00:35:15,680
+ issues, whether the ETFs will permit in-kind redemptions using Sol tokens and how they will
+
+337
+00:35:15,680 --> 00:35:20,800
+ handle staking, a feature that allows token holders to earn rewards by validating blockchain
+
+338
+00:35:20,800 --> 00:35:27,440
+ transactions. At least seven firms, including Grayscale, Fidelity, Vanek, and 21 shares,
+
+339
+00:35:27,440 --> 00:35:33,520
+ are in the running to bring Solana ETFs to market. A spokesperson for 21 shares confirmed to Blockworks,
+
+340
+00:35:33,520 --> 00:35:39,760
+ it had received feedback and plans to submit an amended filing shortly. Bloomberg analysts estimate
+
+341
+00:35:39,760 --> 00:35:45,760
+ a 90% chance of approval this year, possibly as early as July. The regulator's engagement is
+
+342
+00:35:45,760 --> 00:35:51,520
+ widely seen as a sign that a new wave of crypto ETFs may be nearing launch. Coinbase unveils
+
+343
+00:35:51,520 --> 00:35:57,760
+ on-chain DEX access, Bitcoin rewards card, and US futures push. Coinbase announced a sweeping
+
+344
+00:35:57,760 --> 00:36:02,880
+ set of product expansions at its state of crypto summit, signaling a deeper move into both
+
+345
+00:36:02,880 --> 00:36:08,160
+ decentralized finance and traditional financial services. The most immediate change is the
+
+346
+00:36:08,160 --> 00:36:13,680
+ integration of decentralized exchanges built on Coinbase's base network directly into its main app.
+
+347
+00:36:13,680 --> 00:36:18,720
+ Users will now be able to access and trade thousands of on-chain assets without leaving
+
+348
+00:36:18,720 --> 00:36:24,080
+ Coinbase's interface. Coinbase also revealed the upcoming launch of perpetual futures contracts
+
+349
+00:36:24,080 --> 00:36:30,240
+ in the US, a feature previously limited to non-US users. The exchange said it is working with
+
+350
+00:36:30,240 --> 00:36:36,240
+ regulators, including the CFTC, to bring these derivatives to American customers. Additionally,
+
+351
+00:36:36,240 --> 00:36:40,800
+ the company introduced the Coinbase One card in partnership with American Express. The credit
+
+352
+00:36:40,800 --> 00:36:46,240
+ card offers up to 4% cashback in Bitcoin and will be available exclusively to Coinbase One,
+
+353
+00:36:46,240 --> 00:36:51,440
+ subscribers beginning this fall. Bullish and Gemini quietly advance IPO plans.
+
+354
+00:36:51,440 --> 00:36:58,080
+ Crypto exchanges. Bullish and Gemini have each filed confidential paperwork with the US SEC,
+
+355
+00:36:58,080 --> 00:37:03,360
+ signaling plans to go public as investor interest in digital assets intensifies. Bullish,
+
+356
+00:37:03,360 --> 00:37:08,400
+ the Gibraltar-based trading platform backed by Peter Thiel and led by former NYSE President
+
+357
+00:37:08,400 --> 00:37:13,360
+ Tom Farley, is preparing for a potential US listing with Jeffries as lead underwriter,
+
+358
+00:37:13,360 --> 00:37:19,360
+ according to the Financial Times. The filing follows a previously failed SPAC attempt in 2021
+
+359
+00:37:19,360 --> 00:37:25,360
+ and comes amid renewed optimism as Bitcoin trades near 110,000 pro-crypto signals emerge
+
+360
+00:37:25,360 --> 00:37:30,640
+ from the Trump administration. Gemini, run by Cameron and Tyler Winklevoss,
+
+361
+00:37:30,640 --> 00:37:38,000
+ submitted its draft S1 just one day after stablecoin issuer Circle's stock surged 168 percent
+
+362
+00:37:38,000 --> 00:37:43,120
+ on its first day of trading. The timing suggests that Circle's success may have influenced the
+
+363
+00:37:43,120 --> 00:37:48,400
+ decision. "I suspect we'll be seeing several crypto companies accelerating their IPO plans,"
+
+364
+00:37:48,400 --> 00:37:53,840
+ said Carlos Guzman of GSR, to block works, noting the clear market appetite for digital asset firms.
+
+365
+00:37:54,560 --> 00:38:01,120
+ SEC floats DeFi Innovation Exemption. Paul Atkins, the US SEC Chair, instructed staff to explore
+
+366
+00:38:01,120 --> 00:38:06,480
+ a new innovation exemption aimed at easing regulatory burdens for decentralized finance platforms.
+
+367
+00:38:06,480 --> 00:38:12,480
+ Speaking at the DeFi and the American Spirit Roundtable, Atkins outlined a vision to allow
+
+368
+00:38:12,480 --> 00:38:18,080
+ developers and intermediaries to launch on-chain services more freely while ensuring compliance
+
+369
+00:38:18,080 --> 00:38:22,960
+ with key safeguards. The exemption would not eliminate oversight but could streamline the path
+
+370
+00:38:22,960 --> 00:38:28,880
+ to market for DeFi projects that meet certain conditions. Atkins emphasized that publishing
+
+371
+00:38:28,880 --> 00:38:34,160
+ open source code should not be treated as a regulated financial activity, citing First Amendment
+
+372
+00:38:34,160 --> 00:38:39,280
+ protections. "The right to have self-custody of one's private property is a foundational
+
+373
+00:38:39,280 --> 00:38:46,240
+ American value," he said. Following the remarks, DeFi tokens, including AAV, Uni, and Sky,
+
+374
+00:38:46,240 --> 00:38:52,880
+ surged more than 20%, reflecting a wave of optimism. Clarity Act clears House Committees.
+
+375
+00:38:52,880 --> 00:38:58,160
+ The Digital Asset Market Clarity Act advanced through two key US House Committees this week,
+
+376
+00:38:58,160 --> 00:39:02,400
+ marking a step toward establishing a regulatory framework for digital assets.
+
+377
+00:39:02,400 --> 00:39:06,880
+ The House Financial Services Committee approved the bill in a 32-19 vote,
+
+378
+00:39:06,880 --> 00:39:12,080
+ while the House Agriculture Committee passed it with an even stronger 47-6 margin.
+
+379
+00:39:12,960 --> 00:39:18,320
+ The legislation aims to define the oversight roles of the Commodity Futures Trading Commission
+
+380
+00:39:18,320 --> 00:39:22,720
+ and the Securities and Exchange Commission, resolving long-standing questions around
+
+381
+00:39:22,720 --> 00:39:28,080
+ jurisdiction in the crypto space. "Congress has a historic opportunity to provide the clear
+
+382
+00:39:28,080 --> 00:39:32,800
+ regulatory framework needed to unlock this innovation," said Financial Services Committee
+
+383
+00:39:32,800 --> 00:39:37,840
+ Chairman French Hill in a statement. Agriculture Committee Chair G. Tompson added,
+
+384
+00:39:37,840 --> 00:39:43,440
+ "The timing is ripe to advance common-sense legislation." With both committees now aligned,
+
+385
+00:39:43,440 --> 00:39:48,000
+ the bill moves to the full House for debate, bringing lawmakers closer to a comprehensive
+
+386
+00:39:48,000 --> 00:39:53,280
+ approach to digital asset regulation, struggling fitness firm bets on AI crypto token.
+
+387
+00:39:53,280 --> 00:39:59,040
+ Interactive strengthink, a fitness equipment company facing steep financial losses,
+
+388
+00:39:59,040 --> 00:40:06,720
+ is pivoting to crypto with a headline-grabbing move, a 500 million plan to acquire Fetch AI's FET
+
+389
+00:40:06,720 --> 00:40:13,920
+ tokens. The deal, backed by ATW Partners and Marketmaker DWF Labs, aims to build a token
+
+390
+00:40:13,920 --> 00:40:20,400
+ treasury centered on artificial intelligence. The company, which reported a $34.9 million net
+
+391
+00:40:20,400 --> 00:40:26,560
+ loss in 2024 and has seen its stock plummet over 99 Fetch, sent in a year, says the tokens will
+
+392
+00:40:26,560 --> 00:40:31,760
+ support future AI-powered fitness services, including personalized workout recommendations
+
+393
+00:40:31,760 --> 00:40:38,000
+ and incentive-based health tracking. However, only $55 million of the deal is confirmed up front.
+
+394
+00:40:38,000 --> 00:40:43,280
+ The remaining $444 million is structured as an optional note issuance, dependent on performance.
+
+395
+00:40:43,280 --> 00:40:48,880
+ CEO Trent Ward framed the partnership as a strategic step toward long-term growth.
+
+396
+00:40:48,880 --> 00:40:55,280
+ TRNR stock dropped 21 percent following the announcement. Ethereum veteran says he declined
+
+397
+00:40:55,280 --> 00:41:01,920
+ $5 million offer. Peter Celagi, former lead developer of Ethereum's main client software Geth,
+
+398
+00:41:01,920 --> 00:41:07,360
+ says he turned down a $5 million proposal to separate the project from the Ethereum Foundation
+
+399
+00:41:07,360 --> 00:41:13,040
+ and turn it into a private company. In a string of posts on X, Celagi claimed the offer came
+
+400
+00:41:13,040 --> 00:41:17,600
+ with pressure to leave the foundation, which he said was also quietly supporting a parallel
+
+401
+00:41:17,600 --> 00:41:23,680
+ Geth team housed within the Nethermind client group. Did you all know the Ethereum Foundation
+
+402
+00:41:23,680 --> 00:41:29,920
+ started and funded a second Geth team inside Nethermind? He posted, citing foundation co-chair
+
+403
+00:41:29,920 --> 00:41:36,400
+ Josh Stark. Celagi added that he was fired from the foundation just a day after raising concerns
+
+404
+00:41:36,400 --> 00:41:42,560
+ about the second team while on sabbatical. Geth, short for Go Ethereum, remains the dominant
+
+405
+00:41:42,560 --> 00:41:49,200
+ Ethereum client, currently running on over 60 percent of network nodes. Bitcoin update to expand
+
+406
+00:41:49,200 --> 00:41:54,480
+ data storage sparks debate. Bitcoin developers are moving ahead with a major protocol change
+
+407
+00:41:54,480 --> 00:41:57,600
+ that would expand the amount of data users can embed in transactions.
+
+408
+00:41:57,600 --> 00:42:04,320
+ The upcoming version 30 update, expected in October, will raise the OP return limit from 80
+
+409
+00:42:04,320 --> 00:42:10,080
+ bytes to nearly 4 megabytes, aligning with Bitcoin's block size and enabling much larger data entries.
+
+410
+00:42:10,080 --> 00:42:16,240
+ Supporters say the change could open doors for new applications, but critics warn it risks
+
+411
+00:42:16,240 --> 00:42:22,560
+ overloading the network. Developer Luke Dashjir sharply criticized the move, saying it enables
+
+412
+00:42:22,560 --> 00:42:26,800
+ denial of service attacks, referring to data-heavy transactions like inscriptions.
+
+413
+00:42:26,800 --> 00:42:32,560
+ In a separate development, Bitcoin Core reaffirmed its position on neutrality in a public statement.
+
+414
+00:42:32,560 --> 00:42:37,920
+ The team wrote, "This is not endorsing or condoning non-financial data usage,
+
+415
+00:42:37,920 --> 00:42:43,760
+ but accepting that as a censorship-resistant system, Bitcoin can and will be used for use cases,
+
+416
+00:42:43,760 --> 00:42:50,720
+ not everyone agrees on." BlackRock's IBID becomes fastest ETF to reach $70 billion.
+
+417
+00:42:50,720 --> 00:42:57,200
+ BlackRock's iShares Bitcoin Trust has set a new benchmark in the ETF world, surpassing $70
+
+418
+00:42:57,200 --> 00:43:04,560
+ billion in assets under management just 341 trading days after its U.S. launch in January 2024.
+
+419
+00:43:04,560 --> 00:43:11,280
+ This makes it the fastest ETF in history to cross that threshold, outpacing the SPDR Gold
+
+420
+00:43:11,280 --> 00:43:18,400
+ Chairs fund, which took more than 1,600 days to reach the same level. With over 600,000 Bitcoin
+
+421
+00:43:18,400 --> 00:43:24,240
+ under custody, IBID now ranks as the largest institutional holder of the cryptocurrency,
+
+422
+00:43:24,240 --> 00:43:30,720
+ ahead of finance and strategy. The fund's rapid ascent follows a 31-day streak of positive
+
+423
+00:43:30,720 --> 00:43:36,080
+ inflows and growing mainstream adoption, placing it on pace to exceed the estimated holdings of
+
+424
+00:43:36,080 --> 00:43:42,400
+ Bitcoin's pseudonymous creator Satoshi Nakamoto by next summer. X Partners with Polymarket
+
+425
+00:43:42,400 --> 00:43:47,600
+ Elon Musk's X has announced a new partnership with crypto-prediction platform Polymarket,
+
+426
+00:43:47,600 --> 00:43:52,480
+ naming it the platform's official prediction market partner. The collaboration introduces a
+
+427
+00:43:52,480 --> 00:43:59,200
+ live analytics product that integrates Polymarket event contracts, user posts from X, and Grock,
+
+428
+00:43:59,200 --> 00:44:05,600
+ the chatbot developed by Musk's XAI, to explain market shifts as they happen. This will provide
+
+429
+00:44:05,600 --> 00:44:10,960
+ contextualized data-driven insights to millions of Polymarket users around the world,
+
+430
+00:44:10,960 --> 00:44:17,120
+ said Shane Copeland, CEO of Polymarket. The partnership follows a record period for Polymarket,
+
+431
+00:44:17,120 --> 00:44:23,440
+ which saw an all-time high in market creation this spring, and peaked with $463 million in open
+
+432
+00:44:23,440 --> 00:44:29,120
+ interest on Election Day. Future integrations between the two companies are planned, as both
+
+433
+00:44:29,120 --> 00:44:34,960
+ aim to deliver more interactive and real-time financial forecasting tools across crypto and
+
+434
+00:44:34,960 --> 00:44:41,600
+ traditional markets. SWE-based DEX relaunches after hack. CEDIS, a decentralized exchange
+
+435
+00:44:41,600 --> 00:44:47,040
+ operating on the SUI and Aptos blockchains, has relaunched its protocol just over two weeks
+
+436
+00:44:47,040 --> 00:44:53,920
+ after a major exploit drained its liquidity pools. The May 22nd attack, caused by a flaw in a shared
+
+437
+00:44:53,920 --> 00:44:59,680
+ math library, allowed an attacker to inflate token deposits and siphon off funds, ultimately
+
+438
+00:44:59,680 --> 00:45:05,760
+ compromising over $220 million. In a controversial step aimed at recovering the lost funds,
+
+439
+00:45:05,760 --> 00:45:12,160
+ CEDIS managed to freeze $162 million of the stolen assets with the help of SUI validators.
+
+440
+00:45:12,160 --> 00:45:18,160
+ The protocol also secured a $30 million USDC loan from the SUI Foundation and tapped into
+
+441
+00:45:18,160 --> 00:45:24,800
+ $7 million in reserves to help restore affected pools. Liquidity providers are now seeing reimbursement
+
+442
+00:45:24,800 --> 00:45:32,320
+ rates between 85% and 99%, with full recovery expected through a token-based compensation plan.
+
+443
+00:45:32,320 --> 00:45:39,760
+ 15% of the CEDIS token supply has been allocated, with 5% immediately claimable and the rest unlocking
+
+444
+00:45:39,760 --> 00:45:45,120
+ over a year. CEDIS says it is strengthening its security and pursuing the attacker through legal
+
+445
+00:45:45,120 --> 00:45:51,360
+ channels. BitGlobal ends legal battle with Coinbase. BitGlobal has officially dropped its lawsuit
+
+446
+00:45:51,360 --> 00:45:57,360
+ against Coinbase, closing the chapter on a high-profile dispute tied to the delisting of wrapped Bitcoin,
+
+447
+00:45:57,360 --> 00:46:04,960
+ WBTC. Filed in December 2024, the lawsuit alleged that Coinbase's removal of $13.8 billion
+
+448
+00:46:04,960 --> 00:46:12,160
+ unfairly harmed the token's market position in favor of its own product, CBBTC.
+
+449
+00:46:12,160 --> 00:46:18,880
+ The suit sought over $1 billion in damages. The case was dismissed with prejudice,
+
+450
+00:46:18,880 --> 00:46:24,160
+ meaning BitGlobal cannot revive the same claims in the future. Both parties agreed to cover their
+
+451
+00:46:24,160 --> 00:46:30,320
+ own legal expenses. Coinbase had cited security concerns over BitGlobal's ties to Tron founder
+
+452
+00:46:30,320 --> 00:46:37,440
+ Justin Sun, stating the decision was based on "unacceptable risk" to customers. A judge previously denied
+
+453
+00:46:37,440 --> 00:46:42,320
+ BitGlobal's request to halt the delisting, and transcripts show the court had been leaning toward
+
+454
+00:46:42,320 --> 00:46:48,400
+ dismissing the case altogether. Time for fun bits! Hacker turns Paraguay's president into
+
+455
+00:46:48,400 --> 00:46:54,240
+ Bitcoin Maxie. In a plot twist, straight out of crypto fanfiction, the ex-account of Paraguay's
+
+456
+00:46:54,240 --> 00:46:59,440
+ president Santiago Pena was hijacked and briefly transformed him into Bitcoin's biggest cheerleader.
+
+457
+00:46:59,440 --> 00:47:05,120
+ The hacked post claimed Paraguay was adopting Bitcoin as legal tender, launching BTC bonds,
+
+458
+00:47:05,120 --> 00:47:10,480
+ and even accepting donations to a wallet address. Bonus red flag, the whole thing was written in
+
+459
+00:47:10,480 --> 00:47:16,160
+ English. A bit odd for a Spanish-speaking president who always posts in Spanish. The real presidency
+
+460
+00:47:16,160 --> 00:47:22,480
+ quickly clarified it was all bogus. No Bitcoin bonds, no legal tender law, and definitely no
+
+461
+00:47:22,480 --> 00:47:28,320
+ presidential fundraising wallet. Nice try, hacker, and that's all. Thanks so much for joining us today.
+
+462
+00:47:46,160 --> 00:47:54,820
+ [BLANK_AUDIO]
+

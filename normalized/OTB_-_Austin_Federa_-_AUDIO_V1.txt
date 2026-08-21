@@ -1,0 +1,804 @@
+TITLE: Double Zero's Blockchain Infrastructure Innovations (Austin Federa) [Castle Island Podcast]
+URL: 
+VIDEO_ID: OTB_-_Austin_Federa_-_AUDIO_V1
+
+TRANSCRIPT:
+Today, I sat down with Austin Federa, co-founder of Double Zero.
+Double Zero is a new network of physical infrastructure to make blockchains and ultimately other
+internet technologies run faster.
+Austin started Double Zero last year after spending four years in senior roles at the
+Solana Foundation, solving infrastructure problems of how to make Solana an exceptionally
+fast and cheap money movement layer.
+Double Zero was born out of that first-hand experience.
+Austin brings an incredibly informed view on the intersection of blockchains, internet
+infrastructure, and market coordination.
+It was a pleasure to have this conversation and I hope you enjoy listening.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+So out of this worry, we have something called the Bitcoin.
+Bitcoin.
+Austin, thanks for sitting down with us today.
+I have heard a lot about Double Zero and excited to dive in as well as about some of your experience.
+Would you mind just kicking off with what is Double Zero for people who might be unfamiliar
+or vaguely familiar or trying to familiarize themselves?
+So Double Zero is a crypto infrastructure project, but it's actual infrastructure, not
+just software systems, because usually when crypto people talk about infrastructure, they're
+really just talking about software.
+What we are building and have built out is a high performance global fiber network optimized
+for the types of problems that high performance distributed systems have, as opposed to the
+types of problems that you see on the public internet today, which are more about reach
+than they are about performance.
+So we have 10 independent contributors that are all contributing fiber to the Double Zero
+network.
+And there's a blockchain based protocol that sits on top of that, that helps orchestrate
+link coordination, reward payouts, and the distributed management of that system.
+There's an irony because I think in AI and in other facets of technology, data centers
+have really started to take popular mind share and people are focused on the hardware infrastructure,
+but it feels very much like something people miss on the crypto side.
+If you think about it, pretty much every large software company is in hardware now,
+and they're not in hardware because they want to be.
+Facebook did not start building its own servers and then building its own data centers and
+then building its own high speed subsea fiber because they wanted to.
+They got into it because the existing market wouldn't service their needs for scale.
+And they're not running subsea cables through the Philippines out of the goodness of their
+because it's a plus EV business line.
+They're doing it so they can sell ads.
+They want Instagram reels to load more quickly so you keep scrolling so you see more ads.
+And at a certain point of scale, the way to solve a problem of there being slow internet
+in the Philippines is just to go build it yourself.
+And time and time again, we see software companies making this transition from a pure software
+play into hardware that supports their software, which eventually becomes a competitive advantage.
+And for years, crypto just wasn't there because a lot of the major use cases were financial
+and those use cases we know and love and are great.
+But at the end of the day, we've gotten to a place where if crypto is really going to
+start competing with traditional finance systems and other types of high performance distributed
+systems, it needs to be using the same tools and technologies.
+We don't think of Google as a distributed systems company, but it is.
+Google is run in dozens of data centers all over the world.
+Now, it's all run by Google and it's all linked by Google's private fiber.
+But you wouldn't get the experience of YouTube or any other Google product if they didn't
+have this high performance fiber network under the hood.
+But in crypto, we can't just say, oh, great, we're going to use Amazon's network or Google's
+network or somewhat like that, because you wouldn't have to trust that network.
+If Double Zero were built as a centralized company with a global fiber network that we
+ran and managed, you shouldn't trust it.
+The reason you can trust Double Zero's fiber network is it's got 10 independent contributors.
+It's got censorship resistance.
+It's got all of the things that you would expect from a blockchain based project.
+And also the Internet's a lot more centralized than people realize, too.
+I completely agree.
+And that alternative would completely defeat the purpose of blockchains in the first place.
+You might as well run databases at that point.
+Yeah, it depends what you're using blockchain for.
+There's this knock that I feel like some people have sometimes about, oh, blockchain systems
+are just databases.
+And you're like, well, first off, yeah, everything is just databases.
+The New York Stock Exchange is just a database at the end of the day.
+The real unlock with blockchain is it's the most perfect system of accounting we've ever
+created.
+It doesn't require an external auditor.
+It doesn't require trusted execution environments.
+It doesn't require external validation of system integrity.
+It is internally consistent in how it validates data.
+It has all these other characteristics of being able to be run anywhere in the world
+and being permissionless.
+But part of the reason we are seeing more corporations adopting blockchain technology,
+even if they're doing it in a fully centralized way, is because you can cut out a lot of the
+Web2 detritus that we've had to stick on to these Internet protocols to make them secure.
+We all know SOC 2 is a joke and doesn't actually mean anything.
+But it's like this arbitrary stamp of approval that the business people stuck on a bunch
+of software because we fundamentally can't trust software because the way that Web1 and
+Web2 software was built was that trust was an external property brought into it.
+In blockchain, trust is an intrinsic property to all these system designs.
+And that means that Visa's now got a program exploring building in L1, Stripe has a whole
+program building in L1, Circle obviously has a whole program building in L1.
+It's not because they want to launch a token and raise more money.
+They're all very valuable companies in their own right.
+It's because they can actually reduce operational overheads by adopting blockchain technology.
+Completely agree.
+And when we have those on-chain systems which will continue to merge under the guise of
+those companies, they're going to be looking for that level of performance optimization
+that we were talking about where you had the cloud computing rush and you just had this
+major improvement to underlying performance in the traditional tech world.
+So in that vein, is the right way to think about double zero that you have this distributed
+hardware network sitting underneath and then an on-chain coordination layer on top?
+Yeah, that's the right way to think about it.
+And depending on the level of abstraction you go, there's two or three different layers.
+But one of the things that we think is really important here is this is not a system just
+built for blockchain.
+So it's always been possible to build a multi-party high performance fiber network.
+These things actually exist.
+Go West is an example of this.
+It's a consortium run by a number of HFT firms.
+The thing there though is access to that fiber and that microwave tower system is quite controlled
+and quite expensive to get access to.
+So you can think about the cloud revolution was not a revolution in technology, it was
+a revolution in business model.
+At the end of the day, a hypervisor with a 20% performance overhead is a pretty uncompelling
+design for system architecture.
+You'll forget that the cloud is actually quite slow.
+It's very compute inefficient to run stuff in the cloud compared to like a bare metal
+service system.
+The advantage of the cloud is the management layer on top of it and the ability to go to
+AWS and say, I need 500 servers and have them deployed within an hour.
+That's something you can't get through another type of system.
+So in double zero, we don't have a performance overhead like the cloud has.
+We are giving folks direct access to this fiber.
+But if you wanted to go and build a global fiber network yourself, it would take you
+two years minimum and you'd need a staff of at least five people who've done this before
+to actually be able to go out and do the site sourcing and all the contracting and agreements.
+It's a very complicated process.
+But with something like double zero, you can just connect in and say, hey, I've got a server
+running in CC2 in Tokyo and I need to connect that into NY4 because I need to send a bunch
+of data that's either low latency or I need to send a large volume of data to the public
+internet can't really support and you can do that basically on demand.
+And our first application of this technology stack is blockchain because blockchain is
+the place where you have two important components, you have demand and you have capital.
+So blockchains will really benefit from high performance connectivity and blockchain operators
+receive pretty good amounts of revenue for operating their systems.
+So if they can sweep 10 basis points of performance out of the thing, they're going to do it.
+So it has that same characteristic of a high frequency trading firm, but it has a distributed
+systems problem that a high frequency trading firm does not.
+The incremental benefit to blockchain performance is very valuable.
+I want to double click on a point you made because I think it's really important and
+under discussed.
+Can you touch on the market dynamics for why high performance fiber networks have not permeated
+to being used by everyone, why everyone doesn't have access to them?
+How has that existed to date and how does that inform where internet systems are high
+performance, less performance?
+How has that shaped that?
+So we're very used to talking about network effect systems when we think about anything
+in blockchain or web two.
+High performance private networking is an anti-network effect business.
+If I am jump trading and I have a high performance link from Chicago to New York, I don't want
+Citadel or DRW on that link.
+I actually want to keep it just for myself.
+That's a competitive advantage.
+Exactly.
+And you don't see that in data center construction for the most part.
+You don't see that in server construction.
+It's not like Nvidia is getting proprietary chips and just using them for themselves.
+They're selling it to other people.
+Their business model is built on distribution, whereas a lot of the traditional financial
+space, the business model is built on proprietary access or proprietary data or proprietary
+performance.
+So even if you're a company like eBay, you are running a private fiber network, but you
+have to be the size of a company like eBay to actually have the capital to have the overhead
+to hire all these people.
+It is exactly how when a company makes a transition from the cloud back to bare metal data center,
+they need to hire a ton of people because that is not a turnkey software managed service.
+The real world is just a lot messier than software.
+People get cut by ship anchors or they go down for maintenance or you have a switch
+that burns out in a data center and you have to do a failover.
+Someone has to, at the end of the day, go to that location and move a thing and touch
+a thing and replace a product.
+And all of these reasons basically create massive overhead.
+The other piece too is you're dealing with a hundred different countries and a number
+of different languages and a different legal systems.
+The problems of international payment transfers are nothing compared to international data
+transfers.
+The amount of different regulations you have to go through, there's stuff that's totally
+not allowed in the EU, that if you do it in the US is totally fine.
+There's other things that the US wants you to do that the EU will be mad if you do.
+It's a very messy, complicated system in part because of government overhead and in part
+because it is just something that is in the physical world and things in the physical
+world are much harder to automate or scale than stuff in the software world.
+So typically what happens now is you have these carriers and most of the carriers are
+owned by private equity firms.
+So what they really want to do is throw off eight to nine percent returns per year.
+So they're not investing ahead of time in a lot of infrastructure.
+Internet cables are basically run at 90 to 95 percent capacity 24-7.
+You can think of it as just-in-time bandwidth.
+Really, truly, the way that these companies think of the internet is as a pipeline and
+supply chain problem.
+It's similar to how energy grids are operated.
+There's no incentive to have a ton of burst capacity because all that burst capacity is
+is a cost when you're in a business that's on cost optimization.
+So one of the things that we're able to do with Double Zero is just change the entire
+revenue model.
+And tokens are really required for the alignment necessary in this type of system.
+But also, we're massively expanding the TAM of what access can be to these types of systems.
+So our hope is that we have, and we've already seen this on a small level with our contributors,
+but we expect over the long term, people are going to be installing new fiber cables under
+the ocean just to participate in Double Zero because right now we have this divorce between
+the physical layer and the value-add monetary layer on top of it.
+If I'm ordering a semi-trailer to move stuff from New York to San Francisco, it doesn't
+matter if it's full of wine or if it's full of gravel.
+The cost is the same per pound, even though what's in it is a very different value.
+So because in blockchain, we have to reach hundreds of points around the world, no company
+can actually build out enough fiber capacity to do that.
+There's not many financial centers in the world.
+A trading firm can wire them all up.
+They can't wire up every data center where blockchain stuff is run, let alone every data
+center where CDNs or AI technology is run.
+So because of that, they need to be involved in a network like this.
+And the minute you have that type of system, you're able to actually have a revenue model
+that supports portions of value transferred over the systems, not just dumb pipes.
+Yeah, that all makes a lot of sense.
+I have several points I want to ask you about in response.
+The first one is probably if you're in and around the business of more performant fiber
+optic networks, but even in performant hardware in general that sits underneath these systems,
+you're tussling with the incentives behind either owning this vertical stack where in
+the jump example, you profit through some business model that you built on top of your
+max performant layer because you can outperform everyone, or you're productizing your performance.
+You're choosing one of those two, which is like keep for yourself versus sell as a product
+because others will want it.
+In that view, this seems conducive in certain market structures to vertical monopolies where
+people would want to own the most performant part at every layer of the stack.
+You guys have a great layering on your website.
+I encourage people to look at where he talks about the seven layers of the blockchain stack,
+for example.
+I could see a market structure to that point where someone would want to own every part,
+especially if they feel like they have a competitive advantage, say on the hardware layer.
+Do you see that as likely to happen?
+Say in the blockchain industry, for example?
+So the natural end state of many of these systems, you can think through as vertically
+integration.
+That is the natural end state of basically any economic system is complete vertical integration
+with the absence of human failty.
+There is no reason a company in a dominant position should ever lose market share.
+We see Coinbase doing it to be realistic.
+Totally.
+The Coinbase thing is an interesting case study.
+So what we see here is that the scale someone needs to actually vertically integrate all
+of those systems is quite high.
+And the more vertically integrated a system you get, the lower performance each layer
+in that vertical stack tends to be.
+This is not a law, but this is a generally observed concept is that the more vertically
+integrated a company is, the less attention they pay to each individual component.
+And this is really true in anything that is in the financial space.
+And because at the end of the day, the relative performance gains out of each piece in the
+stack that you can get don't impact your overall bottom line as much as they do for an independent
+actor.
+And I think this is one of the things that's not well understood with folks who are like
+break up the big monopolies.
+There is a component of something like a Google where you can argue if it's monopolistic or
+not.
+What's very hard to argue is Google has the best offerings.
+Just across the board, everything Google offers, there's a better alternative to it.
+This is true of JP Morgan.
+This is true of Coinbase.
+This is true of AWS.
+This is true of pretty much any fully vertically integrated system.
+This is true of Tesla.
+All of these components, they may have a one stop shop for everything, but what they're
+able to do with each layer of that stack is minimize.
+Now the reason that this can be a problem in the traditional space is because you have
+arbitrary barriers and interoperability.
+And those arbitrary barriers and interoperability are things like iMessage just doesn't work
+on an Android phone or the classic thing there.
+In crypto, we don't have that.
+And Coinbase is trying very hard to build a fully vertically integrated product where
+now there's wallets on base that you cannot move back to Ethereum.
+But fundamentally, the assets are still fungible and movable.
+So we see this all the time now where you'll have data centers that have a large amount
+of salon of stake in them and then a competitor will spin up and they'll be a little bit cheaper
+or they'll be able to have about 10 basis points of additional MEV revenue.
+And you can just watch the validators migrate to the new data center.
+These are very portable industry.
+This is part of why the validator as a service business or the RPC business is a pretty bad
+business statistically.
+As someone who used to work for Bison Trails, these businesses are very hard because the
+portability of your customers is extremely high.
+So I think we are a ways away from having to worry about that type of vertical integration
+because it's mostly open source software and it's mostly highly portable systems that you
+don't need to rely on some external trust validation for.
+I may not be comfortable moving my money out of JP Morgan into a startup bank, not because
+the JP Morgan has a better product, but because the name of JP Morgan carries a certain amount
+of gravitas with it.
+Realistically, that's only a problem when you're dealing with systems that require trust.
+And if the system doesn't require trust, like in the case of blockchain, you don't
+necessarily have that portability limiting factor.
+I like your assertion that vertically integrated businesses won't be, frankly, at the cutting
+edge at each layer.
+I'm curious for your view on how industry positioning and regulatory capture plays into
+that, though, because I think of something like telecommunications in the 2000s, which
+somewhat famously was very difficult to break into for companies which were trying to innovate.
+And there was a sharp reduction in the amount of venture funding that went into it, I think,
+just because people started to give up a little bit.
+So granted, the vertically integrated larger players won't be the most innovative.
+Do you worry that it can become too difficult to disintermediate them even with a better
+offering?
+So I think the telecom regulatory capture wasn't actually on the regulatory side.
+If you look at what happened there, the access barriers were basically all at the state and
+local level.
+They weren't at the federal level, which is not what you typically expect.
+Banking regulation is captured at the federal level.
+It's not captured at the state level.
+The problem that we ran into starting in the 2000s is we just got allergic to building
+stuff.
+The same problems that mean you can't build a pipeline, you can't build transmission lines,
+is the reason you couldn't build fiber lines, is that these systems tend to all co-locate
+with one another.
+Is it, all right, you're putting in transmission lines?
+Great.
+We can put some fiber beneath it.
+Or you're putting in a pipeline?
+Great.
+We can run a bunch of fiber alongside it.
+And what we saw is just NIMBYism taken over and not letting you build anything.
+And I think that's a different type of problem than the typical thing we think of as regulatory
+capture, like in the financial space, where it's just the banking lobby has made it such
+that it's almost impossible to get a new banking charter.
+And that's a different type of regulatory capture than I think we see in the telecom
+space.
+What about the issue you have where, to be crude, disintermediating AWS would be inherently
+difficult because just the level of capture that they have with maybe strong army or
+compelling partners to continue to work with them?
+I actually think the motive AWS is the tragedy of computer science over the last 20 years,
+which is that people don't know how anything works anymore.
+And this is not AWS.
+I actually don't think there's a lot of strong arming from the cloud providers.
+There's some, sure.
+But the cloud provider is actually a fairly competitive market nowadays.
+It is the fact that people just don't learn how anything works anymore.
+If you talk to a modern Web2 engineer versus a high-frequency trading engineer,
+they're almost entirely different species at this point.
+The work and concerns of someone who works for a trading firm, they would never be caught
+dead virtualizing anything because the performance overhead you get is they don't even use kernel
+networking.
+The overhead that you have to do because of all these layers of software abstractions on
+top of them, you listen to Kevin Bowers, who's one of the chief research scientists
+over at Jump, talk about how a modern processor works and the way modern compilers work.
+And a solid 20% of their job is just stripping away all of the crap that people have built
+to make programming easy so they can actually talk to the hardware.
+And you think about this as they have this whole thing about tile architecture.
+And tile architecture is not a new concept.
+It's actually an old concept.
+But if you look at a modern processor, it has 24, 32 cores, 64 cores.
+And if you just try and run stuff on it, the management software at a very low level just
+randomly assigns different tasks to different CPUs.
+And when you're trying to optimize for performance, you have to think about the physical signal
+pathways within the chip and how data flows through the chip and how the InfiniBand on
+the inside of a chip actually manages data flow.
+And so if you have one process on this corner of the chip and one process on this corner
+of the chip, it actually takes a meaningful amount of time for the data to get from one
+side of the chip to the other because it has to get signal boosted as it moves through
+the silicon layers.
+The speed of light is actually a factor at this point, too.
+So you get into a place where we're bleeding out so much performance in modern systems
+because people don't know how they work and they're not thinking at that low level anymore.
+Well, it's they haven't had to build it.
+It's been there for them.
+Yeah, the moat that the cloud providers have is that most modern software engineers are
+lazy.
+And it's the classic thing of like when Apple pulled everyone over from writing in C to
+writing in Swift for programs.
+Yes, Apple can do magic on the compiler level to make things quite performant.
+But there's also a whole skill set that's lost for people that want to build even more
+performant programs.
+And you see this even on a network like Solana where folks were writing a bunch of stuff in
+Anchor, which is the subtraction language on top of it.
+Rust was the default high performance for a while.
+Now C is the default high performance for writing Solana programs.
+And there's actually some stuff that's been written in assembly.
+And you have to be willing to get that low level on performance optimization.
+And part of this is the fault of VCs where there's a whole incentive structure in VC,
+which is don't worry about costs, just worry about scale.
+And if that is the structure you're building under, then who cares if your server build
+goes from $800,000 to $8 million because you've grown 10x and growth is all that matters.
+The problem, though, is you see all of these companies, they hit IPO and then suddenly
+they have to do a bunch of cost downing on their infrastructure, but they have no DNA
+and they have no expertise to do it internally.
+And it's a huge transformation they have to go through.
+And we saw my friend worked for Etsy back in, I think this was probably 2014, 15.
+And they had done a migration to the cloud.
+They had this incredible architecture set up in AWS.
+But Etsy's got 2% to 3% gross margin business.
+They are taking transaction fees on a bunch of payment processing.
+And some very smart person there looked and said, our AWS bill is not going down.
+This thing is increasing at 7% to 10% per year.
+As Amazon raises prices, we need to move out of the cloud.
+So part of his job there was orchestrating a giant migration from the cloud back to bare metal
+servers that were run in two different data centers, one in New Jersey, one in, I think,
+somewhere in Colorado.
+And they massively reduced their cost over the short term.
+But the delta there, if you look at the average price of something on AWS, it is outpacing
+inflation, which is not what you would expect from a Moore's law type perspective.
+But it's because people are willing to pay for it.
+And the companies that are willing to put the work into optimizing and moving back,
+that is a far more effective form of cost reduction than swapping out all your customer
+service people with AI agents.
+It's the boring stuff that people get wrong.
+I think in the last 10 years, too, there was this software infatuation.
+And the successful venture stories or startup stories were things like Etsy,
+to your point, Shopify, just break out software applications.
+The most part that scaled revenue really quickly.
+And from an objective perspective, I think this is one of the things people actually take
+to that being articulated about about Elon Musk is that he's one of the people that has
+actually taken this attention to things like hardware and systems, which especially years
+ago, it was really not paid much attention to by startups as an example.
+Yeah, I mean, we look at what were all of the sexy space companies doing not even before SpaceX,
+but along that same lines, a lot of them were focused on software systems or things that we're
+going to we're going to hand way of how we get them into orbit.
+Once they're in orbit, here's the skill set that this thing offers.
+And it was a very, very different perspective to say, look, if we're going to actually make
+space a real thing, we need to rethink the entire way that we build launch systems.
+On the business model, rethink it on the engineering side, rethink it,
+take risks that the industry was historically not willing to take because the number one customer
+for the industry historically was the US government.
+Apart from the DOD, it's very risk averse.
+Even the DOD is pretty risk averse.
+NASA would tell you they would rather spend 10 times more for something
+that have a 10% chance that it blows up on the launch pad because the PR damage will do
+more damage to their budget than the cost overrun.
+So that whole model shifting, I really think it's a pretty good analogy for what we're
+doing with double zero because we are shifting the entire business and cost rationale around
+private fiber in a place that's really only been accessible to HFT firms until now.
+Makes sense.
+I want to draw a through line.
+I was going to come back to an element of double zero.
+I wanted to pick your brain on two, which I think a through line here is these infrastructure
+systems, particularly the lower down you go in the stack, which gets the hardware,
+they tend to become stagnant.
+I think just because of how much has been built on top and to your point that we don't
+necessarily have a lot of people who are thinking about innovating on this front and it's difficult.
+How do you look at, from your perspective, the double zero perspective, creating a low
+level infrastructure that can innovate as opposed to become stagnant?
+Let's say even if you take on prominent market position in five years.
+So one of the things that we don't do is we don't offer any servers for people.
+It is really truly just fiber and some compute resources implemented through FPGA.
+But this is a thing that Solana has always been very good at.
+And I was a very strong advocate of this way of thinking when I was at the Solana Foundation
+for the last four years was that we should build things as low level as possible.
+And with as few opinions as possible.
+So this is really how we're approaching double zero.
+We are building a series of tools that people can use to do things that I have no idea what
+they're going to do with.
+So we can do things you can't do on the public Internet.
+And maybe it's worth getting some of this offering stack.
+But at the very basic level, we have fatter pipes and we have pipes that have lower latency
+than the public Internet.
+So you'll get 100 gigabits of connectivity as opposed to one.
+And your latency will be 30 to 70 percent less than you'd get over the public Internet.
+But we can also do things like run multicast over this network, which is a technology of
+basically hardware acceleration of packet replication.
+So if you need to do something like propagate blockchain state from one machine to 2000
+machines today, you have to send out 2000 copies of that data manually.
+With multicast, you send out two copies of it and the network replicates the data in
+hardware acceleration on its own.
+And so it really is a send it and forget it type of model, which really changes how
+performance systems can operate.
+And it also reduces the penalty for not being the first one that the system sends out data
+to.
+We can also do things like insert precision timing into the network.
+So you can do things like time align packets.
+You can know exactly what time the packet hit the edge of the network.
+And so that's really useful in all sorts of financialization and trading systems as
+well.
+You can now time align when stuff comes into the network.
+You can make sure that every one of your validators has extremely precise clock systems
+and you know, OK, this event happened here at this node.
+We can now reconstruct the order that something should have happened based on wall clock time,
+not based on something else.
+So there's a lot of these types of functions and services that just are not available on
+the public Internet.
+I don't know what everyone's going to build with them.
+Smarter people than me are going to come up with really awesome stuff you can build using
+this toolkit.
+That's the same thing we saw at Solana for years.
+I don't think anyone predicted that meme coins would be a huge thing on Solana or that we'd
+have tokenized stocks.
+The point is that they could be.
+You created that sandbox to your point.
+I think it's a great point and in the interest of better technology to be unopinionated to
+really be non vertical in a way to improve on each layer of the stack.
+Do you find attention because I imagine a lot of software engineers, to your point,
+want more of a spoon fed infrastructure solution where they have something that probably is
+opinionated and that checks 10 boxes at once instead of one or two.
+Is that difficult to wrestle with?
+And relatedly, who are you selling into with that in mind?
+So this is one of the things that about crypto that's just such a joy.
+We don't have that problem in crypto.
+The engineers who are building stuff on Solana are very happy to be getting into the very
+low level systems and they like how much of this they're exposing.
+I think a real analogy here is the rise of NVIDIA and at the time that NVIDIA launched
+CUDA, which is their programming framework for accessing vector processors on GPUs,
+it was not the cool way to do it.
+All of the work on compilers and all the work on this system was really about how to make
+it easier to use and CUDA's innovation was there's actually a lot of really smart programmers out
+there that want to be able to directly address things to hardware and what they allowed people
+to do is write in languages they were already fairly familiar in but add a few flags that
+allow you to actually address the hardware directly.
+And Kevin Bauer's famous example is dense matrix multiplication.
+It's actually very hard to write that in a non-CUDA system and it's a hello world
+example is basically how do you dense matrix multiplication on a GPU.
+So when we look around and we see, oh, well, everyone's just building stuff in software
+abstraction layers.
+No one really wants to address the hardware.
+Like you're saying, people don't want to get this low level into the stuff.
+What we basically find are the systems that are going to need double zero and would benefit
+from its performance are already thinking that way.
+So maybe we fast forward three or four years and yeah, we have to do some type of more
+accessible abstraction layer or we have to have a bunch of coursework for how to actually
+optimize infrastructure for double zero.
+But the place we're at today, those people find us, we don't have to go find them because
+they've been looking for something like this for a long time.
+It's almost an inadvertent benefit then.
+Let's take meme coin trading as an example because it forces people to really prioritize
+high speed because how lucrative it can be.
+Whereas they're plenty of legacy internet apps that could frankly run milliseconds slower
+and I don't think people would care that much.
+Yeah, and that's fine.
+That is the big differentiator here.
+So a great example of this is there's a new prop AMM on Solana, humidify.
+And what it basically did is they wrote the whole AMM program basically in assembly.
+It's using this tiny framework and because it's so small relative to other programs
+and it requires so little compute units, which are basically sort of a unit of transaction
+processing on the Solana network, it pays about six times the compute to fee ratio
+that any other DeFi program on Solana pays.
+And it still pays incredibly little to send each transaction.
+But because the ratio is so high, validators are like,
+oh, I'm absolutely going to process these transactions first
+because they're really efficient and they get paid comparatively a ton.
+What does that mean?
+Well, suddenly this prop trading AMM is the fastest AMM on Solana
+and they can quote half a basis point or less.
+We executed a trade yesterday on Chain where we got 10 basis points of basically fee
+and slippage in this process, which is better than you can get from any OTC desk
+or any centralized exchange.
+And this was fairly significant size too.
+This wasn't a $2,000 transaction or something like that.
+And that type of performance, we're going to see this widening gap
+between traditional systems and blockchain systems
+because you can get this insane performance
+and you don't need all the compliance and security overhead.
+What other use cases, adjacencies, technologies do you think
+double zero is most primed to improve upon to work with in the interim?
+I think there's a lot of the AI space that cares a lot about connectivity.
+We're not going to be servicing open AI or someone like that
+that's got billions of dollars to build their own data centers
+and their own high-frequency fiber cables themselves.
+But there's a whole bunch of companies that are in that in-between stage
+where they've got a technology advantage,
+but they don't have the expertise or the timing to go out
+and build data centers and build fiber connectivity between them.
+Noose Research is a great example of this.
+They're usually a second customer on a lot of these big AI workloads,
+but they waste a bunch of time syncing model data back and forth.
+So if we can change that sync time to five minutes as opposed to 20 minutes,
+that's 15 minutes more processing that they're going to get on their models
+every time there is another customer in that system.
+I think the other area we see are CDN systems.
+So there's this group called Shelby, which is a storage network
+that's being built by a combination of Aptos and Jump,
+and that's going to run on double zero.
+Because it needs multicasting of data and it needs fast access to data
+and these sorts of things to be able to do CDNs in markets
+that are not well-served by CDNs at the moment.
+So I think there's a lot of these different types of applications that we'll see.
+Trading is absolutely one of them as well.
+The highest profit, most turnkey solution here is just
+if you're trading on a distributed system,
+you need to get data as quickly as you can to as many places in the world as you can.
+On this note, and to touch more broadly on the business,
+you have the fiber network that you work with, the 10 providers you mentioned,
+and then you guys are a coordination layer ultimately providing a service to customers.
+How do you look at how value should flow between you and your 10,
+I don't know if you'd call them clients or providers that sit underneath?
+What we basically run on is a different reward model than most blockchains do
+that more closely resembles a proof-of-work system than a proof-of-stake system.
+So we have a whole blog post on the website about this.
+It's called Proof of Utility.
+But we basically use Shapley values to determine
+what is the incremental value each network link provides to the overall network graph.
+And the benchmark for this is the public internet.
+So if your link that you're adding does not beat the public internet, it gets no rewards.
+If it beats the public internet but actually doesn't connect anywhere that paying customers,
+in this case, blockchain validators or RPCs are operating in,
+then it also doesn't get any rewards.
+But if we do the math on this and we say like,
+okay, if your network link didn't exist, the network would be 20% worse,
+then you receive 20% of the rewards for that given epoch of time.
+So we have this system where we are incentivizing competition between fiber providers
+to always be trying to basically steal each other's market share.
+And the best way to steal someone's market share
+is to provide a more performant infrastructure link.
+At the same time, validators and RPCs are the ones that are actually paying to use this service.
+And we're working on a percentage of revenue model, basically.
+So if we're taking about 5% of block rewards and priority fees and MEV
+in exchange for this higher performance system.
+Now, we're also not going to take that 5% unless we're making them at least 5% more profit.
+And that's our trade with folks is,
+yeah, you're going to give us some percentage of your earnings,
+which is going to be more than maybe you're used to paying.
+But in net, you're going to make more
+because you're able to operate on this high performance infrastructure.
+And as part of the value proposition, we've talked a lot about performance,
+but to my understanding, there's also a privacy aspect at play here.
+Yeah. So privacy is, I would say, more of a theoretical problem
+than a practical problem on the internet today.
+So if you are sending a trade on a blockchain right now,
+that data is moving over the public internet.
+And that might be passing through 15 or 20 different providers
+as it gets to its destination.
+Deep packet inspection is very good at the moment.
+It is entirely possible that someone is holding back some of your packets arbitrarily
+so they can try and front run you or something along those lines.
+Now, there's very little evidence of this actually happening today,
+but it is a real theoretical concern.
+This is one of the reasons that traditional financial firms
+don't use the public internet to trade on.
+It's slow. Yes, there's that.
+But you're also leaking data about what you're doing.
+So part of the thing with Double Zero is we can actually
+provide cryptographic assurances to folks of data that moves over the network
+and we can catch providers that are holding back data.
+So if we see, hey, it's supposed to take 64.3 milliseconds to get from here to here.
+Sometimes it's taking this one 67 milliseconds.
+What are they doing?
+And that sets off an alert that we can go and investigate
+and see if someone is selectively holding back traffic
+or something along those lines.
+We also will be able to, in the future, offer traffic encryption as well.
+We can do this in such a way there's very, very little overhead involved in that encryption.
+So you're usually in this trade-off game now of,
+oh, I can encrypt my data, but it slows it down.
+And if you're on Zoom, who cares?
+No one's going to care about that slowing down of data.
+If you're trying to trade, it may become a meaningful slowdown.
+Understood.
+I did want to ask you, hitting on some of the topics we discussed before,
+do you and Double Zero ever have ambitions to become your own settlement layer for assets?
+I don't think so.
+This is one of those classic things of,
+I don't think that's where our expertise lies.
+I think that Double Zero, we're in a much better position to simply
+not compete with blockchains to instead onboard all of them to Double Zero
+and have 10 networks running at a million transactions per second
+and have a percent-based model that just takes a small cut of all of those
+in exchange for providing a ton of value-add services.
+There's a lot of layer ones out there.
+And I think you have to have a really credible architecture or thesis decision
+about why yours would be better.
+And if all our answer is, is it would be better because it's running on a high performance
+private fiber with hardware acceleration and technologies you can't get on the public internet.
+Going back to the very first thing we were talking about,
+about non-network effect businesses in TradFi,
+why would I not want the network effect of Solana and Sui and Aptos and MegaEath and Monad
+and Stripes L1 and Arc and all of these things operating on top of Double Zero,
+why would I ever limit our market to just people who are willing to adopt the Double Zero chain?
+It's a very clear case for me of grow the pie as opposed to trying to take a bigger slice of it.
+Usually, when you try and take a bigger slice of the pie as opposed to growing the pie,
+you actually end up with a smaller piece of pie.
+You're pulling from a much smaller base.
+The final question I wanted to ask you,
+what do you look at the end state of this segment of the market being?
+Do you think that we have a host of, call it luxury fiber networks
+that the applications that really need them or those that are willing to pay can pay for?
+Do you think we have this slow public internet which still powers most of what we use?
+Where do you think we end up?
+This may not be a closing topic.
+We might go a little long here, but we have to think back to 2020
+because 2020 informs a huge amount of this.
+What we saw in 2020 was a very strong effort to de-platform certain applications
+and certain ideas from the Web2 world.
+And irrespective of what you think about those efforts morally,
+it turned out that when a social network got kicked off of AWS and get kicked off of Cloudflare,
+it was extremely difficult for them to run infrastructure,
+let alone if they got kicked off of DNS,
+which is also a centralized thing run basically out of the United States by one company.
+What we basically saw was we already have this world you're talking about
+of a two-tier infrastructure system.
+The folks who can pay for Cloudflare and the folks who can pay for AWS
+and the folks who can pay for Akamai,
+their infrastructure is more performant and it doesn't actually run on the public internet.
+It runs on this entire private system that's completely opaque,
+that runs alongside the internet that you have to pay to access.
+And also they can kick you off at any moment for any reason
+because net neutrality also first off doesn't apply to the U.S. anymore,
+but even if it did, does not apply to private networks.
+So you get into this place very quickly where we have an internet
+where pretty much anyone in a few positions of power
+can monkey with how the whole system works,
+let alone the U.S. government can just say,
+hey, and we saw the emails, Facebook, take down these posts.
+Hey, YouTube, remove this video.
+And that is a difference in sending a letter to Facebook saying delete this content
+and sending a letter to YouTube saying delete this content
+and sending a letter to Verizon saying lock this content
+is the only difference there is the political will of the United States
+versus the political will of the Chinese Communist Party.
+And I don't want to hang my hat on that differentiation
+in an era where free speech is kind of a little bit less than it used to be.
+You compare the 90s to the 2020s in terms of free speech
+and we have less of it now than we used to in a lot of ways.
+So this is a long way of saying when we think about these types of systems
+over the long term, I want credibly neutral alternatives
+to the existing communication systems
+and I want basically universal systems of prioritization.
+So today it is very hard to say if I'm Epic Games
+and I want to prioritize all the Fortnite traffic
+so kids can play more games and buy more skins.
+My bottom line revenue can go up.
+I basically have to go around and bribe every ISP to do that.
+You'd think there'd be a protocol on the internet
+that says I want to pay more to make my data better.
+You can't do that today.
+So double zero really over a long term time horizon
+our goal is to become the default prioritization layer
+for anyone anywhere that needs to send data in a timely fashion.
+I think the other piece we're looking at over the long term
+is replacing TCP IP with public key, private key encryption and verification.
+Right now, the only way that I know a server is correct
+is I'm verifying a SSL certificate
+which is issued by a third party authority.
+I actually don't care about routing to an IP address on a blockchain.
+I don't actually want to talk to the specific IP address.
+I want to talk to this specific cryptographic signature.
+So we can just cut out the entire middle layer for lack of a better term
+and actually start routing things through public, private key cryptography.
+And I think that is going to be a pretty big unlock
+for the ability to unwind a lot of these centralized,
+we literally call it a trust authority.
+That's what a CA is.
+We can try and unwind some of these centralized trust components
+from the system and actually increase competition.
+At the end of the day, I'm a capitalist maxi
+and I want more competition and fewer access barriers
+to building systems that compete with one another.
+To those points, do you think these base infrastructure layers
+are inherently monopolistic if not pushed otherwise
+to the point of first off, higher powers will want to control
+and they can do so via the base infrastructure.
+Secondarily, there aren't a lot of innovators.
+Do you think that's just what we converge on if not for other efforts?
+I think that is the story of every economic system
+going back as long as we've had an economy.
+It's like a central bank almost.
+Exactly, yes.
+There's two things we've done very intentionally to combat this.
+The first is it's a token project
+and the beauty of a token project is no one owns Bitcoin.
+Yeah, there's a bunch of people who maintain it
+and they have more power over it
+and Michael Saylor has got more power over Bitcoin than I do
+but at the end of the day, it is a giant consensus
+on how these things will work and function
+and that applies to Ethereum, that applies to Solana.
+You can't block someone on a Bitcoin to your point earlier.
+You can't block someone on Bitcoin or you can block someone on Bitcoin
+but it requires you getting 51% of the rest of the Bitcoin network on board with you.
+These systems are still built on trust
+but they're built on the trust of the crowd
+as opposed to the trust of an individual privileged actor in a system.
+You can still change something in the Ethereum ledger
+but the amount of people you need to get on board to facilitate that change,
+it's like amending the constitution.
+It's a very high barrier and that actually creates a ton of security.
+The second component for us is this proof of utility system
+where proof of stake systems can turn into an oligarchy at some point
+where you just have, oh, I have 4% of Solana
+so therefore I earn a ton of rewards even though I'm not doing a ton of work.
+With the proof of utility system, it's very similar to Bitcoin.
+If you have 10% of the hash power of Bitcoin,
+you're going to get 10% of the new blocks irrespective of if you have
+Michael Saylor bags or if you own zero Bitcoin.
+So we've tried to build our system in a way that encourages long-term competition
+and it also rewards folks who are able to put in that little incremental advantage.
+And actually I think the true mark of success for a system
+is if someone with a better idea or better technology
+can plug into that system permissionlessly
+and earn outsized rewards for outsized contribution.
+Yeah, I completely agree.
+Austin, it's been a pleasure chatting.
+What should people do if they want to learn more about Double Zero or Explore
+working with you guys in the context of their business or operation?
+So DoubleZero.xyz is our main website.
+You can find out a bunch of information about Mainnet Beta
+which is launching at the end of September.
+You can connect to Validator and run on it as well as get in touch with us
+if you have fiber to contribute or any other crazy ideas you want to explore.
+Brilliant. Thank you again.
+Thank you.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes, please go to onthebrink-podcast.com
+or just click on the tab in our website.
+Thanks for listening.

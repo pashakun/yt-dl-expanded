@@ -1,0 +1,471 @@
+TITLE: Non-US Stablecoins and Bonds in Latam Markets (Dave Taylor) [Stablecoins and DeFi]
+URL: 
+VIDEO_ID: OTB_-_Etherfuse_-_AUDIO_V2_1
+
+TRANSCRIPT:
+Wyatt here, and on today's segment of Stablecoins and DeFi, I was joined by Dave Taylor, founder
+of EtherViews. EtherViews issues non-US stablecoins and stable bonds for currencies and treasuries
+with a focus on Mexico, other Latam markets, and beyond. I hope you enjoy this episode and
+here is my conversation with Dave. Matt Walsh and Nick Carter are partners
+at Castle Island Ventures. All views expressed by them or the guests on this podcast are solely
+their opinions and do not reflect the opinions of Castle Island Ventures. Guests and hosts
+may maintain positions in the assets discussed on this podcast. You should not treat any opinion
+expressed by anyone on this podcast as a specific inducement to make a particular investment or
+follow a particular strategy, but only as an expression of their personal opinion. This
+podcast is for informational purposes only. Brought down by bad mortgage investments,
+Lehman, which has 25,000 employees, will be liquidated. The federal government loans
+American International Group, AIG, $85 billion. This is a different kind of market and the Fed
+is asleep. The federal government is stepping in to stabilize Fannie Mae and Freddie Mac,
+the two mortgage giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing. You print a couple trillion dollars and all
+of a sudden people start to worry. So out of this worry, we have something called the Bitcoin.
+Bitcoin. Dave, founder of EtherFuse, thank you for joining us on the podcast. Very excited to chat
+today. I think you guys are doing some very interesting things. Would love to kick off
+with a personal introduction from yourself if you don't mind so that we can get to know you
+even better. Yeah. Thanks for having me. I really appreciate it. Happy to be here. I do listen to
+the podcast quite a bit. And so it's going to be nice to drive my son to school in the mornings
+and I listen to it and he's going to hear my voice in the next one. So it's going to be cool.
+Awesome. My background is computer science. So I've worked in security,
+like software engineering security for quite some time. I started out just in like companies.
+We call them startups now, but when I was graduating in Arizona, you just call them companies.
+I ended up working at Boeing for quite some time. I did PKI management and a lot of the API design
+for securely signing software there. Then I went to Apple. I did a lot of network security
+and a lot of design between how to normalize or standardize how secure software is used at Apple.
+Felt an awesome need to continue to punish myself and grow. And so I decided to go to business school
+at that point. Having had like 10 years as a computer scientist and I went to business
+school and I met a good friend of mine. He started this company called SendGrid,
+which you probably heard of. They were bought by Twilio when we were in business school together.
+He IPO'd and said, hey, I want to start a startup studio. The important part is it kind of got some
+startup chops or at least some familiarity with how hard it is and how it works. We launched a few
+companies together. It was a great experience. And one of the companies we launched together
+is Neural Payments. Neural Payments is a huge, huge in scope payments company in the US.
+Competitors like Zelle, I think they're raising their Series B right now. So
+they've done pretty well in a competitive market. But what was interesting with that is we brought
+on a CTO at the time, who is now my co-founder, AJ, who's also my brother, by the way. And together
+we built the mechanism to send money outside of Visa's Rails from one account to the next.
+It was just this crazy feat of how difficult it was, how antiquated it was, how hard it was.
+And it really became astonishing to us how what we see is not what happens. In our purview,
+or I would say the periphery of what we're focused on, you start to hear the blockchain getting
+quicker and faster. And it just became obvious to us that this was the future. Even though I was
+pretty comfortable, we were working on some cool stuff. We said, hey, I think the blockchain is the
+future. So let's get into it. Up until this point of EtherFuse, that was my history as an engineer
+who jumped into business and started some startups and then went head first into probably, I would
+say, one of the more complex things I've ever done in my life. And to be clear, you discovered crypto
+after you became a businessman in business school. That wasn't during the engineering period.
+I was always on the sidelines. I always said, oh, I should have bought Bitcoin. I was more into being
+a software engineer and into cryptography, the old school one. After really feeling the pain of
+payments, it was really when I started to think about it and go, holy crap, this is the future.
+And a bit to the point of EtherFuse, were you a Bitcoiner early on or were you interested in,
+it sounds like you highlighted the cryptography piece and maybe what you could do with assets
+more broadly. I really only focused on PKI. So I wasn't a Bitcoiner back then. In fact,
+I thought about it, I think in 2013, my neighbor worked for Google, this story kills me.
+And I went and I bought like a little Arduino or something because everyone was mining on nothing
+back then. I was like, oh, I'm going to go figure out how to mine. And he stopped me. He's like,
+you're too late. It's already done. And so I just kind of gave up on the idea and I kind of hate
+him now. That was not correct. But I think it was like 2013 or 2012. So I could have avoided all
+this stress and just gone straight to owning Bitcoin. Yeah. Probably the person who's had
+the most adverse monetary effect on your life. Exactly. And he doesn't even know it. I haven't
+even told him so. Speak a little bit more to EtherFuse if you don't mind. You guys are,
+I'd say broadly in the stablecoin space as opposed to the Bitcoin and other assets space.
+I can take off from where I left off with my personal story into how we started EtherFuse.
+And then that can kind of lead into our mission. But we three years ago said, okay, everyone at
+the time was proposing that nothing on chain was a security. Like they would probably,
+this isn't a security. And we just hypothesized, well, what would the workload look like if we
+said it was a security? It did some research in the US on how we could do it. And it just became
+overwhelmingly obvious like we're going to get nowhere in the US. And so our goal was, okay,
+let's tokenize the security. Say it's a security. How do we do that?
+And so we did a bunch of research on the world and said, where do the incentives lie? Meaning,
+what's the biggest nation where the economy and the demographics of that nation are such that if
+we could bring in the tokenization of assets on chain, that the government would benefit quite
+a bit from it and the nation would benefit from it. And if we can find that, then we'll go there
+because we think if we engage with regulators there, that they'll be incentivized to say yes.
+So back then it was like, we looked at remittance flows, cost of credit, financial access,
+what percentage of the population has access to finances and the ability to move money.
+And so back then there were three big ones. It was India, China, and Mexico.
+Just kind of thought for one second, would China let us come in and build a security on chain and
+influence their monetary system and felt, no, that's not going to happen.
+I've actually done a lot of work with India at Apple and India is a great country, of course,
+but it's also pretty defensive to foreign products. And so we felt, okay, we're going to hit a road
+block here. Looked deeper and deeper in Mexico and just felt like, hey, we think we could make an
+impact here. So three years ago, we went to Mexico and we started to interface with, it's a funny
+story. We literally just went there and we're like, okay, where's the lawyer? Where's the bank?
+And learned how we could interface with the SEC of Mexico. It's called the CNBV.
+Inquired if there's a process for new technology. And we found out there was a process. It's called
+the sandbox model. They have similar ones around the world. I think it's based off the one in
+England, but you could engage the CNBV and you could say, hey, we have this new technology.
+It's a net good for the country and we propose doing it. And we think this is a security and we
+think that you should regulate it and tell us how. We worked with them for two years and the irony is
+they came back and told us, we don't think this is a security after the first year.
+And so then we went back and said, actually, we're pretty sure it's a security,
+which this is counter to what's happening in the world. Everyone else is like proposing nothing's
+a security. So we re-engage with them three times. And the third time we asked them to write
+publicly all the reasons why our protocol does not constitute a security. So the final thing
+we got from them is a no action letter stating why things designed as they are through our
+protocol do not constitute a security. When was that? What year did you get the
+no action letter? It was like a year and a half ago.
+No action letter a year and a half ago. That was valuable.
+What we did is if you go to our app, it gives us a huge competitive advantage in Mexico.
+And so what we did is we kind of like, like the FBI does, we blacked out
+anything that gives a huge competitive advantage. And then we had a judge notarize it,
+making the statements that say, I agree that this document says either views can do what
+they can do. We've used that to essentially establish the relationships with big banks
+like BBVA and Activer and Santander and all around the world to integrate with the banking
+system there. So it's been hugely valuable for us. I think even if you sold our company for parts,
+it's worth quite a bit. We're the only company in Mexico with any sort of guidance on how to
+tokenize assets. And Mexico is quite a big economy. So that's how we got started. That's
+the genesis of either views is go out, do some work and get guidance on how to tokenize assets.
+I love that you guys took the approach of what if everything is a security
+and where can we go to produce the most value at a time when most people are taking the attitude of
+what is the biggest market and let's somehow not be a security?
+Yeah, we looked at it as I felt the blockchain was like the internet. So it's like, okay,
+I make a website from the US, but people from Europe can go there. And so if I can comfortably
+be regulated somewhere and I can connect to the blockchain, I have a connection to this global
+economy. We looked at it as like this opportunity. So let's go where the likelihood... I still think
+it's a contrarian move today, even though we've told people. Mexico is really hard. So we did
+get lucky in some capacity. It's not become like a standard. Since then, I'd say Dubai has become
+a standard. The Caymans have become a standard. Some US treasury loopholes have become a standard,
+but people still aren't going to Mexico. So it's kind of interesting. Yeah, that was kind of our
+outlook though is like where Warren Buffett's show me the incentives. So we really were like,
+where are the incentives that raise the probability that we'll have success?
+To cap off the story you were telling, you guys receive a no action letter
+in Mexico. And what are the products that you guys then venture into that we would see today?
+So now we have the ability to organize anything and we actually have API access to the stock
+exchange in Mexico. We're like, okay, what could we do? We can do anything. We tried a few things,
+but we really kind of had a second order like thought, what do we do that we think we can win?
+And so we looked around in history and the world and just felt like there's not really the supply
+for, I would say, the most popular, most boring investments in the world. We see a lot of need
+in history for government debt on chain and we see a lot of demand for it. And we don't really see
+that opportunity on the blockchain. And we don't also see entrepreneurs or people focused on it.
+We see them focused on US treasuries, but we don't see them focused on other things. So
+we decided to take a sliver of our opportunity and potential and we decided to become the company
+that will provide the APIs and SDK or contract endpoint to tokenize the world sovereign debt on
+chain, to tokenize the shortest term treasuries with the largest amount of liquidity from each
+country and to make that available through interest bearing stable coins. And so that is our mission
+statement. That's where we're focused. We did raise a series of small seed rounds. And so we said,
+let's do five assets to prove who we are, make some traction and move forward. So the five assets
+we tokenize for US treasuries, European treasuries, British treasuries, Brazilian treasuries,
+and Mexican treasuries. And three of those five were the only company in the world who has the
+ability to do those. Where early on did you see captive demand for those non-US treasuries on
+chain? I think more we saw gaps in what happens in TradFi versus what's happening in the blockchain.
+I think if I took that lens, where's the demand in the blockchain? It's a good question, but it
+assumes that the right people are already on the blockchain. I think a lot of the demands right now
+are highly speculative protocols, infrastructure. That's what I'm seeing. But I think 10 years from
+now, it's going to be a totally different ecosystem. So really we thought what's missing
+that historically has needed to be there before a nation grew in size. And it was bonds. If you look
+back like what built Europe, it was bonds, the interface of the bond. It was less demand and
+more of like cat in the hatting it. Where is it not? And then also like the need, we saw last
+mile needs everywhere. Everyone wants to send money via remittance wallet, but then you see them and
+they just wrap like USDC and then nothing. There's this missing last mile that we felt we could
+fulfill. Since we've issued and promoted and pushed them out, we've partnered with people
+to enable places that are not in Mexico and Brazil to issue stable coins in those currencies using
+us as collateral. And we've seen demand there. We've seen that grow there. If you look at DeFi,
+you look at our MXNE, which is what we call sovereign coin. So it's a stable coin denominated
+in foreign currency, which uses our assets as collateral. We see quite a bit of activity
+trading and using those for payments. Yeah. I like the framing there. We pick up efficiencies
+on chain being faster settlement. Anyone can have an account, but the thought experiment of
+where do we not see systems exist where we do in TradFi that create efficient systems.
+And it just seems like an unsustainable reality that you have US dollars on chain and you're
+going to have to go off chain to turn into any other sovereign currency when we live in a world
+with how many sovereign currencies. I don't know the exact number, whether
+147 countries. So something close to that number. We all talk about remittances, right? But remittances
+doesn't work without an off ramp in the alternative country. I feel like the biggest
+frustration with crypto or the blockchain today is the lack of understanding of where needs are
+versus like, hey, how much TVL does this product have? That's what I'm going to focus on at the
+moment. There's a lot of innovation that needs to happen still. We need to make space for that.
+I guess that's kind of how I feel about it. In recent on-chain asset terms, we've had Bitcoin
+for a long time. We've had Ethereum and Solana and then Longertail for a long time. We've seen
+the rapid rise of stable coins now to some $230 billion market cap. Do you see the potential rise
+of the MXN stable coin and other stable coins that you guys operate in as being commercially
+driven and that people will want to own them for investment purposes? Or do you see it as more of a
+workflow insert where the on-ramping and off-ramping from and to USD needs to become
+more efficient? And because of that, it makes sense to have an MXN stable coin.
+I think the first set of demand is going to come from the fact that we are going to make
+on and off ramping from a local nation near free. Free or near free, depending on your use case.
+Free for T plus one, for sure. I think that will drive so much demand and trust of being able to
+on and off ramp that directly to a self-custody wallet that will see those volumes grow quite a
+bit. I think people will start to recognize that since the yield for these underlying assets
+are much higher than safer products, that our revenue opportunities are 10X those of normal
+stable coins that you'll start to see people pay attention. I think that's the first order of
+effect. The second is, it's ironic, but everything that's happening with tariffs
+is really good for us. It's our idea. Because if you want to exchange your USDC or our Mexican
+Sete's product, it is currently outperforming as a store of value, US-denominated products.
+And so there's going to be chaos, in my opinion, for the next two years as we figure this out.
+If you wanted to move safe assets on chain into a different product,
+we're the only company that currently enables you to do that.
+I think that there will be a lot of demand once people understand the potential. We built the
+trust gap and they trust us. And just as an example, we magnify US products too. If you go to...
+I'm trying to think, what's your blockchain of choice? I'll just pick Solana as an example.
+If you go to Camino, you could short a US Treasury and do something with it,
+or you could invest in one that's there. But it's possible to buy Sete's, short it,
+and then with that buy a US Treasury. And now I have my US Treasury yields, but I also have
+any underperformance of that emerging market. So I could boost yields up by 5% or 6% just by
+shorting something else first. And this is a huge market in triad-fi, currency forwarding,
+currency options. And DeFi is a better, more efficient place to do it. And so I think once
+we are effective as a company, communicating and people trust us, they see we have the volumes,
+we have the transparency and the security for those investments, it'll explode.
+And retail, the individuals are completely excluded from that. I can go to cash,
+but I can't go in my Chase account and say, okay, I want to be in pesos for the next six months.
+It's impossible. You as a US person right now, if you wanted to buy just Mexican Treasuries,
+you have to go through an ETF through JP Market Trace here, and they're returning 6% yields.
+What are the fees on that?
+3%. They're skimming about 3%. You go to us, you get full minus our take. So it's like 8% or 9%.
+So it's way better. It's way more efficient to go through us. In addition to, if you wanted to hedge
+a currency, say you wanted to buy pesos, but you want to hedge it with the dollar,
+that's a complex TradFi product that's not really possible to do with like 300 bucks,
+but it's totally possible to do on-chain.
+And to your point about the inefficiency that we have, I think a lot of people, especially users
+of crypto and even traditional financial venues in the US, don't have an appreciation of that globally.
+I've tried to learn myself about the proliferation of Binance peer-to-peer
+and these peer-to-peer on-ramps that you have, which is such a stark contrast to,
+you have such efficient systems actually outside the US in what I would call traditional payments
+with things like PIX in Brazil. Are those systems that you guys have integrated with
+any capacity that you've utilized? And is there a reason that the product potentially functions
+better outside the US in any capacity like that?
+Yeah. I mean, you hit the nail on the head. For some reason, we have one of the worst payment
+systems in the world, probably because we just have a lot of complexity, but in Mexico,
+there's SPAY. It's real-time. So settlement in seconds, PIX. Our goal for each asset
+is to enable on and off-ramping for free or near free, depending on the scenario.
+So anytime there's a real-time payment system like PIX, we can do it for free.
+If you just think about it, we own the asset in that country. We just have to sell it.
+So if I can send funds to my brokerage immediately, I can also issue a token immediately.
+If I can burn that and then issue a sell order immediately, I can sell it and send it to you
+immediately. So Mexico is our first pilot for on and off-ramping. That'll officially be available
+to the public next week. We are relatively certain that we'll be able to mint a token
+on-chain denominated in peso for free and on-ramp it for free, at least two plus one.
+And depending if we can get the yield of the volume to match the cost of a microloan,
+it'll probably also be free to be instant. But worst case scenario, instant is five to seven
+bits. So it's a huge improvement over what exists today. If you look at TradFi, it's like 7%.
+If you look at like efficient TradFi, it's three. If you look at current state of
+stables, it's like 1%, 100 bits. So this is like a 10X of the best thing out there.
+So we're really excited by it and we hope it leads to trust in our asset
+and that our assets proliferate because of that. So PIX is next. We're almost set up there.
+Officially, we'll go to PIX in like July. I feel like we have an industry-wide innovators
+dilemma in US fintech and finance because the system's so entrenched and you have people who
+are profiting so immensely off of the credit card system, off of the way our bank accounts function
+that my view at least is, especially in the context of stable coins, it's going to be
+a reverse adoption for us, which is you get it in these other countries with smaller economies
+and then eventually we'll be the late adopters. I think so. I also think that the reason the US
+has done so well is historically it's proven to be a good place to start a company and a big economy
+and I think it still is. I think you've got to be a little crazy to do what we're doing,
+go to a country and be like, how's it work here? Where's the bank? It did take a little insanity.
+I'm happy we were crazy enough to do it. We've gotten all the roadblocks out of the way now for
+us to just scale efficiently given the right tools and resources. I think it took a little
+bit of insanity for us to do it. I talked to a prominent startup investor. I said what I was
+going to do is like, don't do that. That's a crazy idea. That's how you know you have to go and do
+it, right? A little bit of stubbornness. I was like, whatever, man. For clarification, you guys
+are a US company? We're multinational. We have EtherFuse Inc. It's our cap table essentially
+and then our subsidiaries are in these local countries. The main one, EtherFuse MX.
+Our regulatory umbrella is through EtherFuse MX. Our operations and the issuance of our assets
+are all out of Mexico and then due to some investor feedback, we did set up some operations in
+Switzerland. We issue out of Mexico and then we tokenize under Swiss regulation. I imagine
+without touching on the secret sauce too much, the entity set up and the structuring here is
+a big part of the undertaking I would imagine. Compare Brazil and Mexico. Brazil is pretty
+sophisticated. It's kind of straightforward how to set up a company. Mexico is super complicated.
+It's super slow and super costly. So yeah, just setting up an entity that's legal that you can
+pay taxes on. Paying taxes on crypto is pretty insane in a country that has no kind of guidance.
+So just getting to where we've gotten, stuff nobody sees is like a miracle to be honest.
+The fact that we got a regulatory classification, then we needed a tax classification,
+which was different. So all that stuff was a crazy amount of work and stress and that is done,
+which is nice, but it was a huge undertaking. Yeah. Now the fun part.
+Yeah. Grow. With stable coins today, you can hold dollars and send dollars all across the world.
+That's amazing. Call out a phase one. You guys have built the system you were just talking about.
+Call out a phase two where hopefully you can hold and send US dollars. You can also hold and send
+other assets, other treasuries and trade them against each other very easily without this
+reliance on an institutional account structure, without market hour constraints, all these legacy
+systems or legacy limitations. Is this crypto's killer use case in your view? Is that what we've
+been building for maybe at risk of upsetting the Bitcoin folks?
+I think so. I mean, the Bitcoin folks, they have their use case, which is an awesome product that
+stores value and it's independent from an economy. But I think crypto has a few other awesome use
+cases. But I think one is just connecting the world efficiently through DeFi. There's this awesome
+book called Mystery of Capital, which you should read. You may have read. Just creating a universal
+process for trading across the world is an insane feat. What I view as crypto's biggest use case is
+what the world's biggest market is today, which is the borax market. If I can remove an efficiency,
+probably the most efficient channel in the world of sending money is the US to Mexico.
+Our product has increased the yield that you could get by 3% and removed the cost of on and off
+ramping to near zero. That's the most efficient channel. Now when I start to hit Nigeria and
+Bangladesh, it's going to be way more efficient in the future. I think the biggest opportunity
+is bringing the security of DeFi or bringing Forex onto DeFi and enabling the trust and
+security of DeFi to facilitate exchange across the globe. The blockchain world has done really well
+building the function f of x, but no one's really done well building x, which is the input.
+We're focused on the things people will trade in the x. We've looked at the world and we've said
+that stable bond refill solves three problems, store value and investment and payments.
+If we look at those characteristics across the nations, what are the top 15? Our goal for the
+next two years is to onboard those top 15 countries that have the highest store value,
+the highest yields and are most used for remittances. We think if we can get those
+15 assets on chain, we've brought 90% of the Forex market on chain and we've made it more
+efficient, better investment, quicker, more reliable. I think that is crypto's killer use case.
+The second is on and off ramping nations. To me, connecting a nation to crypto where the blockchain
+is like connecting a nation to the internet or connecting a nation to electricity. In many cases,
+we want to be the first person in these remote areas to provide an interest bearing asset,
+denominating that currency that can on and off ramp for near free. Then we felt we've
+on ramped that country. Those are the two scenarios that we really think about.
+In those cases, as you guys see continued adoption, do you think people will look at
+these stable coins and stable bonds each day? Will it be I pull up my phone and my app and I
+see my balance and I know they're stable coins or will this be hidden behind some,
+whether it's an agentic system, whether it's a messaging interface, a super app, something like
+that? I think in a perfect world for us, people don't even really know they're using EtherFuse.
+They look at a wallet, like I'm trying to think of somebody you guys know like Eldorado,
+and they think Eldorado has an MXN account. It's not EtherFuse Sate or EtherFuse MXNE,
+it's just abstracted. I think that's the killer use case. I think that's when people,
+nobody cares. The real world doesn't care what it is or if it was AWS or Azure or GCP,
+they just want the app to work. So for us, we're trying to not be the last thing you see,
+we're trying to be like the AWS for sovereign debt. So I think in the future,
+people won't really know it runs on the blockchain or what it is. It's just a wallet.
+It's amazing. I've found that the people I know who actually know where stablecoins are being used,
+especially the ones who use crypto, are the ones I know who are from the most
+vulnerable or difficult markets from a geopolitical and economic perspective.
+I have family in Iran because my dad grew up in Iran and I was talking about crypto with my family
+and my Iranian grand uncle knew exactly about stablecoins and how they move and all that
+because there's just such a distrust of how money works. Whereas PYUSD and even people I know who
+might be in the Western hemisphere and hold dollars through a crypto account, they have no
+idea it's sitting in stablecoins. It is interesting. I think part of that
+leads to how we got here too. If you grew up or you're familiar with an area where the currency
+fluctuates, you're yearning for a safe, stable asset. In your opinion, that's the dollar.
+If you go to Argentina like you're saying or Iran, they know what it is. They can finally get access
+through stablecoins. Sometimes I wonder, why are we the only people focusing on non-US assets?
+I think it's because we brought the alternative perspective too. Just to play off that, I think
+it's interesting. We have access to US dollars here in the US, but I don't have access to
+emerging market investments quite efficiently as I think I should.
+It's interesting how where you grew up in the context of your life leads to how you view
+opportunity too. It's such a world-centric view,
+especially in the context of history. I was having a conversation the other day where we were talking
+about how no one knew the Roman Empire fell until hundreds of years later. To take a view that you
+only ever want to own US dollars is to say that you think the US will be the only dominant currency
+for the foreseeable future of history ever. Which maybe, maybe not.
+Hopefully, yeah. Hopefully for us. I win-win no matter what, but I don't think so.
+Especially if you look at what Europe is doing with Mica, it was fundamentally built to protect
+their sovereignty and their currency. If you look, they have restrictions on
+non-European limits and things like that, that they don't have if your currency is Mica compliance
+and denominated in the euro. I think we're going to see this start to happen more and more across
+the world where you have these regulatory bodies say almost like these new tariffs.
+I look at Mica as a tariff, to be honest. It's like some added complexity to promote
+an internal economy. I think we'll start to see those with stablecoins
+probably in the next five years or so. Hopefully, we're well established and we can meet those
+demands. But yeah, I think we're going to see the world change quite a bit in the next five years.
+You guys are in a very interesting position because you are going to be offering these
+assets to what is a really wide demographic of people when you think about the different
+profiles in these countries. From my perspective, it seems like it's a bit of a jump ball in terms
+of the offerings of these assets and controlling the end user in the sense that it could be JP
+Morgan. It could be Apple, your former employer. It could be a government. It could even be NATO
+or some kind of multinational organization. Maybe that's a bit of a stretch, but
+I think you understand the sentiment. Do you think they will all try and get into this game?
+In my view, it's only logical that they would. But I'm curious who you think moves here and then who
+is the issuer who's controlling the end user in the future?
+Ironically, I think the only thing that has enabled the legacy financial system to not
+completely dominate the blockchain ecosystem is fear and regulation because they have a lot to
+lose. So regulation saved us. Regulation has saved us. This gray area has enabled the opportunity
+for us to have upward mobility. I mean, just think about it. Tether is what, $130 billion?
+Yeah. No, what's that line? Regulation favors the incumbent, right?
+Yeah. JP Morgan Chase is $4 trillion. JP Morgan Chase doesn't need Tether and they don't need
+Circle at all. The second they know how they can operate and it's clear,
+they're all issuing stable coins and no one's going to care. I have Chase. If my account is
+underlying stable coins, the JP Morgan coin, I won't care. I don't think about it. I trust them
+enough. I think it's going to be interesting to see what happens in the US. I do believe
+that the established players like Tether and Circle will survive and they'll have a place.
+But I think these new ones who are, and I hate to say this because I like a lot of these people,
+I hope I'm wrong, but I think it'll be a less trusted resource once regulation is clear.
+Unless you get in the billions of volume or you have some niche,
+pretty sure that the banks are going to come for us all. Now, our benefit is these emerging markets
+are way behind in a lot of stuff. When we issue an asset, we're the first company that comes in to
+do it. I think we have 10 to 15 years to make an impact before those regulatory bodies really
+do enough work to let their banking systems issue stable coins. So that's our philosophy.
+10 to 15 years isn't bad.
+Yeah, not too bad. We can do a lot with that. But especially just looking at Mexico,
+it's so old. How it works is so bureaucratic compared to the US, which is also slow.
+I think before banks, and we're talking to a lot of them by the way, so we understand their
+dilemma. Before Mexican banks felt comfortable enough to issue large volumes, a lot has to
+happen. And I think the US has to move first. It was really strange how we heard no's.
+So some of our assets are in Europe. And the early stages, the problem was finding a custodian who
+would say yes to us, and we got turned down by a lot of people.
+Interesting. So that was like an operation choke point 2.0 issue in Europe, just like we have here.
+It's crazy. These are big banks too. I don't want to name names, but the second Trump won,
+I had three of them email me back saying, hey, we're looking to be more competitive.
+And I was like, dude, it was really hard to find our initial custodians. And all our custodians
+are large and well-trusted. And so that was part of the problem. But I think the US leads
+and the rest of the world follows their guidance.
+If you take those banks or any others as an example, were they building crypto product and
+were they trying to get ready when Trump wasn't president and we were in a hostile regime,
+or do you think they're a little flat-footed?
+I think they're flat-footed. I think the only emerging, it's not an emerging market,
+but the only bank that I'd say global that addresses emerging market needs that's really
+trying, was trying back then was BBVA. They have a platform in Switzerland.
+They've been working on some things. So they were kind of trying, but the sense of urgency
+that they should have had was definitely not there. This is a huge disruptor, especially for
+emerging markets. 50% of BBVA's revenue comes just from Mexico as an example.
+So in my opinion, I would be doing everything I can if I was the CEO of BBVA to ensure that
+I'm leading this space in Mexico. We work with them. They work with us. They're friendly to us.
+So maybe we can help them get there. I think that they are now flat-footed and trying to recover
+quite a bit. In the US, we've made major strides. People get very down on some of these topics, but
+the Bitcoin ETF, exchange trading on traditional brokerages in terms of just giving normal people
+access to crypto. My sense is that that's happened a lot less elsewhere. And it's funny,
+in our local circumstance, I think that that is probably actually stymied DeFi adoption to a sense.
+My view is people used to go to DeFi because traditional trading opportunities were limited.
+And now Coinbase is listing more assets. You can go and buy the Bitcoin ETF on various brokerages.
+Do you think more globally that that lack of crypto trading experience with traditional
+banks, asset managers pushes people to DeFi? Is that a growth catalyst for DeFi?
+Yeah. When regulation is unclear, it's the only launch pad. There is Seify, but is there a
+centralized... I don't know the best way to say Seify, but... Seify works.
+Okay. Seify. Seify, in my experience, has felt a lot like extortion where it's like,
+hey, we're the only way for you to bridge to the blockchain. So give us a bunch of money and we'll
+let your token. But DeFi has been a way that we could use skills to grow without any gatekeepers.
+So my opinion over the next 10 years, centralized exchanges influence will be reduced,
+especially as things become more clear in ways that a wallet could directly bridge you to the
+blockchain, not necessarily a big company. And I think DeFi's influence will increase
+for a few reasons. Even though regulation clearing up will make it easier for you to get access,
+there's still going to be this nuance. So if you take like equities as an example,
+we deliberately chose not to engage in equities because once you start selling in equity,
+there's a hundred X more issues you have to worry about.
+In my opinion, all these new equity platforms coming out, they'll have these restrictions,
+which will make it harder for you to trade off-ramping, on-ramping and things like that.
+So I think DeFi will still have a place where someone who has a regulatory body that is
+favorable to them that can issue on DeFi will have an asset that is more freely transferable.
+Both things are going to happen. There'll be better traditional access using blockchain
+technology available to people in highly regulated areas. But also there will be certain things
+that can only be done at DeFi like non-restricted tokens that can be freely transferable that
+someone in Venezuela could buy on DeFi or that'll have to happen on DeFi and there
+will always be a market for that. And I want to pick your brain on
+your views for the future a little bit. And first in that vein, you mentioned wallets
+for an ether fuse, for example, is better wallets one of the best things that can happen for your
+guys' business looking at how you're acquiring users? Best case scenario is you're a big wallet.
+You get my SDK and you mint and burn directly. Better wallets is our favorite partners, right?
+There's nothing in between the user and us except for this interface and there's a lot for the
+wallet to gain and there's a lot for the user to have. So like hypothetically-
+So if you're a wallet listening-
+Yeah, if you're a wallet, come talk to me. I can enable you multi-currency accounts
+that are yield bearing that earn you different revenue while you just fundamentally give
+your users like a wise experience. Wise is bank accounts and different currencies,
+they don't earn yield and they let you send money. I can do that same thing for you just
+by giving you my SDK if you're a self custody wallet.
+It's the best business in the book, isn't it? You just hold assets for someone and earn money
+for doing it for something that you don't even control or issue.
+Yeah. And even if you're a self custody wallet, you're not technically even holding them.
+It's just you work through our affiliate program and you earn a portion of the yield
+that that customer generates. So you don't even need like an MTL license.
+That's exactly like Coinbase's circle agreement, right? There's no difference there really.
+Yeah, exactly. And Coinbase wallet does this. Coinbase, I don't know what your thoughts are.
+I think they're going to do really well. The way they're vertically integrated,
+they already show preference over currencies. And so if you bought MXNE, it would be like a
+preferred asset. They really get it and they're able to do it because they have the whole stack.
+I've heard they're going to become a bank here, which is a killer use case too. So it seems like
+they get it. They're making a push into non-USD stablecoins, as I'm sure you've seen.
+Yeah, we're a big part of it. If you see their dashboards, MXNE is on it.
+Well, in that vein, and to close out a bit here, where do you see either fuse or where do you hope
+either fuse is in coming months and years? And what's the worldview that pushes you guys forward
+in the right direction? Our aim for the next two years is to onboard 90%
+of all assets used for remittances the last mile, and that we can on and off ramp onto those assets.
+You can mint and burn essentially from the local banking system. So that's the next two years.
+The next five years, every country, we have an interest bearing asset denominated in that
+currency that can on and off ramp. And we facilitate local stablecoins to nominate those
+currencies. So that's the goal for us is to on-ramp those countries and bring Forex on-chain.
+And we want to be laser-focused on building the most robust assets with transparency,
+with third-party checks and validation and verifications, improving our liquidity for
+each asset and the utility of on and off ramping those assets. So next five years,
+we hope to bring Forex on-chain through our assets on any platform, on any blockchain,
+and that that is a trusted resource, that he diffuses a trusted brand just like Circle is
+or Tether is. Awesome. Well, we'll leave it there with the hopes of a more globally, economically
+interconnected world. Dave, thanks for joining us and hopefully you'll come back soon.
+All right. Thanks, Wyatt. Appreciate it. Thanks for listening to another episode of On the Brink
+with Castle Island. To find out more about Castle Island, visit castleisland.vc. To listen to all
+of our podcast episodes, please go to onthebrink-podcast.com or just click on the
+tab on our website. Thanks for listening.

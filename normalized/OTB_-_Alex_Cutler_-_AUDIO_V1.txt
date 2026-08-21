@@ -1,0 +1,655 @@
+TITLE: Decentralized Trading on Base Blockchain with Alex Cutler (Aerodrome) [On The Brink StablecoinFi]
+URL: 
+VIDEO_ID: OTB_-_Alex_Cutler_-_AUDIO_V1
+
+TRANSCRIPT:
+Wyatt from Castle Island here, and on today's episode of On The Brink's StablecoinFi series,
+I was joined by Alex Cutler, founder of Aerodrome.
+Aerodrome is a leading decentralized trading protocol operating on Coinbase's native
+base blockchain.
+I hope you enjoy our conversation.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific induce
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+liquidated.
+The federal government loans American International Group, AIG, $85 billion.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+The Bank of England has pumped £75 billion more into Britain's ailing economy with a
+new round of quantitative easing.
+You print a couple of trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+Alex Cutler, co-founder of Aerodrome Finance, thank you for joining the podcast today.
+Excited to have you.
+If it works, we'd love to kick off with a quick background and hear about your story
+and journey to crypto.
+Thanks so much for having me, very excited to be here.
+I think my journey, like a lot of folks in crypto, was pretty twisty-turning, very much
+not a direct path.
+I started my career working in politics and campaigns, got pretty burned out on that,
+went and spent some time working in big tech, decided I needed to mix it up and spend some
+time in the agency and consulting world.
+I actually think it's pretty interesting because I was, like many people, pulled up in the
+pandemic, decided to build a gaming PC.
+I had friends who were very much into crypto and DeFi at that point encouraging me to get
+involved.
+So I decided I would just start mining some Bitcoin with the PC.
+And then I took the Bitcoin and I was like, wow, I made something out of seemingly nothing.
+And what can I do with this?
+Brought it onto an exchange, then brought it on chain, started yield farming, started
+playing around with all these different protocols.
+And I think once you have a taste of the way in which this industry creates so much freedom
+of opportunity and you can contribute in ways and be rewarded, I was totally hooked.
+So I ended up quitting my job.
+Didn't really have a plan other than playing around on chain.
+I didn't know what I was going to do.
+But one thing led to another.
+I met some other very, very smart guys and became an accidental founder in the space.
+I love that story.
+I relate to some degree because I studied political science in college and that was
+a lot of my interest area and had a similar experience that playing around on chain for
+me was very freeing in a way to be in a free financial system.
+When you know about all the entanglement of traditional finance, traditional governance,
+I found that to be immediately a pretty powerful thing.
+Yeah, it was weird.
+There's an old Steve Jobs line about how you can only connect the dots going backwards.
+And in a strange way, the combination of politics, of technology, of getting exposure
+to the agency and consulting world, to all these different business models,
+in some ways was the perfect pedigree to come into this on chain world,
+because all of this matters.
+Models matter.
+Incentives matter.
+Community and there are certainly politics to all of this matter.
+And obviously, technology matters.
+So this ended up being a perfect blend of experience.
+I feel like diving into a space that is still so raw and unshaped with all those different pieces.
+And how did you go from being curious on chain
+to being someone at the forefront of building crypto products?
+The thing that I really, really appreciate about this space is that if you just show
+up and you start contributing, if you just show up and start adding value,
+and that could be just through on chain actions, of course,
+you can contribute value to protocols, to projects,
+and never even have a public facing persona.
+You could just be a wallet participating.
+But if you do have a public persona, you can participate in all sorts of ways.
+Initially, I just started as I was learning things.
+I would write threads about the project or protocol I was learning about.
+And that was largely an exercise in learning for me in the sense of,
+you only know you understand something if you can relate it back and have people tell you,
+yep, that is correct.
+You've understood it correctly.
+So I started writing these threads about things that I was interested in.
+And I think my initial gateway to the ecosystem was
+the first project I was very passionate about was Curve,
+and the very, very interesting model that Mitch had built there.
+And writing threads about that and then writing threads about Solidly,
+which was Andre Cronet's big project.
+And before I knew it, somebody who was part of a DAO said,
+hey, man, could you come help us?
+And then I start helping a little more on the writing thread side.
+And then it's, well, now there's five more things that need to be done.
+Let me help on those things.
+So I start helping.
+I start contributing more.
+And there are just a few spaces where absent a pedigree,
+job application, all the things that keep people boxed in or on particular lines
+don't exist here.
+If you just show up and you start kicking down doors, start adding value.
+Experiences like mine are definitely on the table,
+because that DAO that I got pulled into just because I was writing some interesting threads,
+that DAO is the DAO that had the idea initially of Belladrome.
+And that, of course, evolved into Aerodrome.
+And it was just a bunch of, in the beginning, a non-discord people.
+None of us knew who each other were.
+We didn't know each other's work backgrounds, ages.
+We didn't know where anybody lived in the world.
+It was just an alignment of interests.
+And then us collectively seeing an opportunity and organizing against that opportunity.
+You make a great point.
+The free system of finance creates also a free market for human capital.
+If I think Calendly should do something and I'm a major Calendly user,
+I can't just go contribute readily.
+You typically can't do so outside of your day job.
+I think it's a very powerful part of crypto.
+Is that something that you guys have implemented?
+Is that something that grounded your origin story with Aerodrome?
+It's actually at the core of our model,
+which I'm sure we can get into a bit more in time.
+But the economics of our model are such that
+every single participant in the system is on equal footing.
+So we as a team, we don't have any privilege access to
+any of the revenue that the protocol generates.
+We have to do the same thing anybody does each week
+if we want sort of access.
+We have to basically participate.
+We have to add value.
+And that is no different than a venture fund who comes in and locks up the token.
+They have the same access to the revenue it produces.
+They have to contribute value in the exact same way.
+And that's the same exact thing that any degen or user does.
+If you're just a passionate person who goes out, locks some tokens,
+and is participating each week, you are on equal footing with the team.
+You're on equal footing with Coinbase Ventures.
+You're on equal footing with somebody who's taken millions of the coins and locked them up
+and somebody who's locked up a few.
+And your incentives are now aligned organically with those of the protocol.
+What you contribute into it is rewarded and incentivized the same way as the team.
+And I think that is the power of the model to happen in many cases.
+But there's one guy I think about a lot who just so happened to
+at one of the lows in the market.
+He locked up a ton of Aero because he was interested in the protocol.
+And in locking up that Aero and voting each week and earning back the rewards,
+basically the value the protocol is generating, he was able to take time off of work.
+And what he did with his time off of work was just starting writing
+really deep research threads on Aerodrome and on the DEX marketplace, on the industry generally.
+And these are some of the best threads ever.
+And they've been massively impactful.
+And it was just we didn't have to hire him.
+We didn't have to compromise his independence.
+We didn't have to really do anything.
+His incentive alignment was created organically through this economic system.
+And I think that is absolutely what makes it so powerful.
+And it is embedded entirely into the model where those who contribute the most are basically
+rewarded the most.
+And the downstream effects of that are very powerful.
+Can you speak a bit more to that economic incentive structure
+model for those who might be less familiar?
+So I guess I'll take a step back and talk about DEXs generally,
+and the incentive structures there, and the different groups that they are balancing.
+So a DEX, you'd say, has three primary stakeholder groups.
+There are traders.
+And traders fundamentally just want the best execution on their trades.
+They will trade on any DEX as long as that DEX has the tokens that they want to trade
+and that DEX is giving them the best execution.
+So that's one group you are controlling for.
+Who provides the liquidity for that?
+That is liquidity providers.
+Those are the people coming in who are putting up two sides of any given trade.
+So your Bitcoin and your USDC.
+So they create the pool through which all those trades will go through.
+But they're taking on risk in doing this.
+The idea of impermanent loss, that the values of those change.
+That can certainly be something that they're basically taking some risk on.
+So you need to give them the best rewards.
+So we're trying to give traders the best execution.
+We're going to do that by giving liquidity providers the best rewards.
+And then that third group is basically token holders.
+DEXs do need tokens.
+This is very important.
+We know that because if you go back in the history,
+we've seen that you can take a DEX with no token, a DEX with a token.
+And within a week, the DEX with the token,
+you can basically add a little bit of extra value.
+Can take half of the whole liquidity from the DEX without the token.
+So token holders are an important part of it.
+And token holders are basically going to be interested in
+how much reward can I have for holding the token.
+And they need to be there to optimize the DEX,
+ensure that the value is flowing to the right liquidity providers.
+So basically, by aligning the incentives between these three groups of traders,
+liquidity providers, and token holders,
+you end up with an economic model that is very, very powerful.
+One of the big differences is if you go back,
+and we call this the DEX trial on the Uniswap,
+which was really the first pioneer here.
+It solved it between two parties.
+It solved it between traders and liquidity providers.
+But it was a bit capped because it was only exchanging fees and liquidity
+between these two parties.
+Curve was the next big innovation in the sense of
+we're going to add in a token to ensure you can incentivize
+liquidity providers beyond just the fee capture.
+And there's a lot of other reasons tokens are useful in this context, too.
+But we're going to send only half of the fees to the token
+and half to liquidity providers.
+So in our model, basically, the big breakthrough is
+that you want to give 100% of the revenue to the token
+and give the token basically to liquidity providers.
+And that is the ultimate state of this DEX troubling.
+All three parties see their interests aligned.
+Everyone gets the best version of whatever that activity is that they are doing.
+And that leads to just a much more efficient model.
+And trading in crypto has gravitated a lot in this sense.
+Today, you've centralized exchanges that are listing assets
+they wouldn't have historically in the past.
+And I think you and I are both aligned that that incentive structure and model
+has a lot of unlocks.
+But in 2025, for skeptics, why is DEX trading necessary
+and a wired DEX is structurally necessary in crypto
+when you have all the sex trading at the same time?
+And you'll probably have traditional brokerages
+facilitating the trading of crypto assets as well.
+I think you just cannot beat open permissionless markets.
+And this is actually a trend we're seeing right now.
+Think about what every centralized exchange has to go through
+to get new tokens launched on their platforms, trading on their platforms.
+They need to go through an incredible amount of due diligence overhead.
+This is legal due diligence.
+This is regulatory due diligence.
+This is a degree of due diligence on the teams, on the token supplies.
+This is engineering work to get it all plugged in.
+This is comms and marketing work.
+This is needing to ensure that you are attracting market makers
+to actually ensure that these markets on the centralized exchanges
+will bootstrap effectively.
+This is why the centralized exchanges are these very large entities
+because this is all very time intensive, very expensive work.
+And it's even at its fastest state, pretty slow.
+If you think about all of that and you think about the fact that on chain,
+you can spin up these markets.
+Maybe even a way to think about it is on the centralized exchange,
+you're spinning them up.
+Decentralized exchanges, everyone's spinning them up.
+They're being spun up all the time.
+In real time, and we've seen this not only massive expansion
+and the number of tokens, but also even the life cycles of tokens collapsing.
+There's just no way a centralized exchange is going to be able to,
+through their traditional process, keep up with the on chain economy
+in the way in which all this new activity,
+all these new tokens can just be organically spun up.
+And I think the trend that you're actually seeing, which is very interesting,
+is that centralized exchanges are getting increasingly interested
+in actually integrating with DAX pools, on chain pools,
+and surfacing those to their customers.
+Because in the end, if you're trading on Coinbase or Binance or whatever,
+you don't really care how they get you access to the tokens.
+You're just going to care that when you go to trade the tokens there.
+And if it launched yesterday,
+if the President of the United States is launching a coin
+and it is popping off and you go to Binance or you go to Coinbase
+and it's not there to trade, it means you're not going to trade there.
+And that's a loss for you as the customer.
+That's a loss for them as an exchange business.
+If they can surface to their customers everything that's happening on chain
+while passing off the responsibility of all that due diligence,
+the building the markets to that on chain infrastructure,
+I think it's the best of both worlds
+where they're going to be able to service their customers, all those things.
+They're going to be able to spin up in real time.
+And by the way, because we are talking about the ways
+in which we're going to expand asset classes,
+the things that are tokenized on chain,
+there are also just going to be things that centralized exchanges
+are just not going to be interested in taking on the risk
+of integrating directly into their products.
+But they will be able to say,
+okay, well, we're just giving our users access to something that's happening on chain.
+Wash their hands of it.
+It's much, much easier.
+So Binance has already started doing this.
+Brian Armstrong said publicly that they are beginning to integrate DeFi.
+There's a great new product on Coinbase that allows you to borrow against your Bitcoin.
+As a Coinbase user, you probably wouldn't even know
+that that is all happening via DeFi protocols on base.
+And I expect that we'll see more DEX integrations in centralized exchanges
+because of the things that we're describing here.
+I think you make excellent points.
+I also think the visibility into the pools is powerful
+because as I think we both know that there are some incredible antics that happen
+when it comes to some of the tokens that list on centralized exchanges
+where you can't see what's happening in the background
+and you're really just presented with market cap valuation
+and do you want to buy this token?
+That's one of the reasons I think people loved DEX screener actually
+was because it made it so obvious to see these transactions.
+You can see what looks like a bot.
+You can see what looks like a real transaction
+and you really don't have that, especially today with these centralized exchanges.
+Watching the order books on centralized exchanges,
+especially in tokens with relatively limited liquidity on them,
+there's a game being played and the transparency that on-chain pools give you
+is just not going to be rivaled at all by centralized order books and things like that.
+Yeah, it makes you question systems of traditional trading
+when you have this new alternative of a transparent trading system.
+Think about even just the market making side of this.
+If you are going to go and get listed on centralized exchange,
+the first question they're going to ask you is do you have a market maker?
+Is somebody going to be able to come in
+and ensure that there is some degree of sufficient liquidity on those books
+so that our customers when they come to trade will be able to trade?
+Is there going to be somebody who's going to be actively arbitraging
+these between the on-chain pools and the pools on our exchange?
+And when you're talking about pools on-chain,
+you don't need to hire anybody to make those markets.
+You just align the incentives such that everybody from somebody who's a very,
+very professional liquidity provider or market maker,
+they're going to show up and do it as long as they're properly incentivized to do it.
+But you haven't had to have any centralized interaction with them.
+And then you can also just have average Joe people.
+And this is what I was saying when I first got in.
+One of the early things I did was started to provide liquidity
+because I had just two tokens and I saw a reward if I put these two tokens together.
+So even as the biggest newbie, I had access to something
+and was able to help provide liquidity in the same way
+that the centralized parties previously were required to do it.
+And that's the power of access and transparency that the on-chain world gives you.
+You observe a lot of these trading systems, obviously.
+What assets are you seeing activity in?
+Or where do you think we are in the life cycle of assets people want to trade in DeFi?
+I think we're at a very interesting point.
+The big thing that has happened is that the regulatory landscape
+in the United States has changed significantly.
+And this has a bunch of downstream implications.
+People are thinking about how they're designing tokens differently.
+I think one of the big issues in our industry is the fact that 90% of tokens,
+in my opinion, are functionally meme coins.
+You can say it's a governance coin.
+You can say it's a utility coin.
+But if that governance or utility isn't enforced by on-chain,
+like immutable mechanisms, it's functionally a meme coin.
+If there's no direct value flow in the form of incentives or other things for participation,
+it's functionally a meme coin.
+So I think one thing that I'm very, very interested in,
+and we've heard this a lot from funds, is that they are functionally done
+playing games with these tokens that don't actually do anything,
+that don't actually have any fundamentals surrounding them.
+So I think we'll see an explosion of more tokens with real, actual utility.
+These are things that do things.
+There are fundamental factors associated to these.
+They can actually be used.
+And I think that is very exciting because tokens should be one of the most powerful tools
+that we have for just intermediating businesses, organizations, products,
+and things like that.
+And when you just intermediate things, there's more value for the common.
+So number one is, I think, just more useful, interesting tokens.
+And we've been seeing a ton of new stuff launching on base that would fit that category.
+The second thing is that I think we will continue to see, of course,
+a vast majority of trading happen around those top 10 assets.
+And I think what's exciting for us is that we expect far more of that trading activity
+to happen on base, to consolidate around a few networks.
+Because when you're trading these, like we've talked about,
+fundamentally you care about execution.
+And ideally, you want to be able to trade between all of them in the same place.
+So we worked with the Coinbase team to basically make base the best place to trade Bitcoin
+on chain.
+And this end is like multi-year incumbency because on chain, the best place to trade
+Bitcoin for so long had been on Ethereum mainnet, because that's where all the liquidity was,
+on Uniswap, and using WBTC.
+And it took two weeks for Base and Aerodrome to basically make the top venue for trading
+Bitcoin on chain, Base and Aerodrome.
+And I think you could do that for the top 10 trading assets.
+And then traders increasingly have no reason to leave that ecosystem because if they want
+to move between whichever major is hot in size and the best place to do it is all on
+base, they're not going to need to go bridge anywhere else.
+All the major market makers will just be harbing between Coinbase and those, which
+creates even more fees and economic activity.
+So I think we'll see even more trading around the majors, especially if we see more things
+get ETFs and we see flows into it.
+But there are a few other things that I would highlight.
+One is FX.
+FX is trillion-dollar market.
+And FX is something where you're not just talking about the speculators, the people who
+are trading currency for some degree of edge.
+You're talking about payments processors worldwide.
+And payments processing is something that as of right now, the margins on it at times
+are just absolutely offensive.
+If you are taking a trip to Europe, it's an American, and you're going to an ATM or buying
+something, you're paying percentages on that transaction just to take your dollars into
+Euros.
+Even the best payments platform like Wise, it's a pretty healthy take on that.
+And right now, today, on base, you can go from US dollars to Euros at a better rate
+than any institution in TradFi and FinTech can provide you.
+And we've onboarded, I think, another 10 new global stables.
+The goal of the base team is to have a stable representation of every major on-chain currency
+by the end of year and to onboard those payments providers because we know we can give them
+better execution, not in the future, not hypothetically.
+We can do that today.
+And I think that's going to be another very, very powerful expansion of what people are
+trading or using.
+And then the last piece, I think, is we've talked about for a long time.
+On-chain markets are just better markets.
+They're always on.
+The settlement is instant.
+And I think there is no reason why we shouldn't see every asset type.
+So tokenized equities, derivatives, real-world assets, on-chain, and the compounding effect
+of all of this, top 10 digital assets, new emergent digital assets, every single global
+currency stable coin, and a whole bunch of real-world assets.
+And it's all happening in one place.
+What does this add up to?
+This adds up to the single best marketplace in the world for traders of assets, speculators
+of assets.
+And that's what we're very, very excited about.
+I think that's part of why we have been so bullish on BASE and Coinbase is because I
+think they share that vision and they believe it's in their interest to cultivate the world's
+best market on BASE.
+I think you're spot on on both of those two major points.
+Shout out, Coinbase has done an incredible job in creating a seamless Bitcoin experience
+off the Bitcoin main chain, which I think is very necessary in crypto.
+I really want to zoom in on the on-chain FX piece because it's something we're very
+interested in.
+I think it could be a killer use case of crypto beyond stable coins, being completely honest,
+or call it a step two.
+I've always thought just really deep D5 pools of different fiat currencies or fiat backed
+stable coins is already an incredible use case.
+We've seen a fantastic batch of innovation around USD stable coins, settlement systems
+that sit on top on an off-ramping infrastructure.
+From my perspective, the limiting factor for these on-chain FX systems is a lack of liquidity
+for these other currency stable coins and a lack of accompanying infrastructure on the
+orchestration and on an off-ramp side.
+How are you guys looking at that or trying to bridge that gap as you build out this initiative?
+This is where it's a great one-two punch collaboration, I think, between us and the
+Coinbase team.
+We have the ability very, very easily to scale up liquidity on any type of asset.
+This is one of the superpowers of the Metadex model.
+That's what we call velodrome, aerodrome.
+They're Metadexes.
+They are probably the best liquidity bootstrapping systems in D5.
+The example of that is the CBPTC, the Coinbase Bitcoin product that I mentioned.
+Multiple years of incumbency ended because we were able to bootstrap in a matter of weeks
+enough liquidity to make base the on-chain hub.
+So we have the ability to bootstrap basically infinite amounts of liquidity on these global
+FX pairs.
+And if you think about people looping those into borrow-lend protocols and things like that,
+liquidity can scale up very, very quick.
+And the market rate LP and APRs on these types of pairs would be way lower than what people
+demand on most tokens.
+So that's one side of it.
+And we can nudge and dial that up as we see demand.
+But where is the demand coming from?
+And how are we solving these other problems like onboarding, offboarding, and things like
+that?
+That is where the base team and Coinbase team is very, very focused.
+So they are not just trying to onboard good representations of global currencies, but
+they are trying to onboard the ecosystems around it.
+So they are working with local payments providers in these countries.
+They are working with on-ramps, off-ramps in these countries to ensure that basically
+the full stack of usage comes in.
+But really in our mind, because we know the activities there, people have entire businesses
+right now and are paying way more than they should be paying to go between these, to settle
+between these different assets, just to do the work that they do and provide their customers
+the things that their customers need.
+If you can onboard just a few of these big players, we're talking about organic, non-toxic
+flows between these assets that are always on and they're not subject to market volatility,
+sufficient to bootstrap a lot more fees and a lot more activity.
+And if they come in and they say, hey, well, we need to be routing another 2 million a
+day between these pools, but the liquidity isn't sufficient.
+But they tell us those flows are going to come.
+We as a voter, we could just vote more emissions to bootstrap more liquidity so that they can
+start building those flows.
+And I do think that has been what's missing.
+Somebody who is very focused on capable of building the on-chain liquidity and then somebody
+who's trying to bring all of the ecosystem around that at the same time to come tap into
+that liquidity.
+And if you can do those two things, we know the product is better.
+I think it would very quickly flywheel where more volume means more fees, means more TVL.
+It really bootstrapping.
+And now it's actually deep enough that those FX speculators might actually want to start
+coming on-chain and making those markets on-chain as well.
+So yeah, I think that's the secret sauce is we've had people building pockets of these
+things, but we haven't had both sides of it coming together in one place to execute.
+It seems very lucrative for anyone with the assets.
+Personally, we're seeing a ton of volume from US to Mexico using stablecoins in the
+middle, but you can't do it in fashion that goes through an MXN stablecoin because there's
+really no liquidity behind any of these MXN stablecoins.
+I had etherfuse on the podcast recently who are trying to do it and I hope they'll be
+successful, but still small markets there.
+Do you think there will be a traditional finance or mainstream actor that moves into
+this opportunity and then we'll get this inflection point?
+I think of like a Susquehanna or someone like that who could come in and really move the
+scale of the liquidity in these markets.
+And then all of a sudden we have robust on-chain MXN, euros, et cetera.
+Or what does the zero to one moment look like here?
+The answer to the question is absolutely.
+And we've talked to, I think, so many institutions who are starting to go down this path.
+Regulatory clarity is going to help a lot around the stable bill, but it seems like
+the major, major players understand the value prop now.
+They're moving their very slow apparatuses.
+They're doing their exploration.
+So I think there will be that big moment where somebody very, very large comes in.
+But in the meantime, I think the growth is still going to be incredible just in onboarding
+almost all the smaller fish in relative terms.
+And that's going to basically create the proof points to the major players that this is real.
+This is useful because there are now businesses putting more and more flows through these.
+And again, non-toxic flows, this is real organic usage.
+And if they continue to see that drip, drip, drip, someone's going to come in and win
+because it's a market.
+It's a market to be won.
+We continue to see more of these consumer facing apps with crypto in the background.
+We have the DeFi mullet.
+It's almost like the stablecoin mullet now.
+Do you hope that eventually Aerodrome becomes a venue that people interact with less directly
+and you become the liquidity venue underpinning FX and underpinning major asset trading?
+Do you hope to retain a sizable front end audience or where do you guys hope to sit on the spectrum?
+I think about this as like an 80-20 thing.
+There's always going to be a need for some degree of a front end,
+especially in the way in which we democratize access to all of these things.
+We set liquidity providers, blockers of the tokens, voting to direct emissions,
+and certainly two-degree traders.
+But a DEX is just fundamentally infrastructure.
+It's essential infrastructure for a non-chain economy.
+Most of the people who will interact with our infrastructure
+will have no idea that they are interacting with their infrastructure.
+They will just be using products like a payments platform,
+like a social network with an on-chain economy behind it.
+They will just be getting exposure to major digital assets
+and they will have no idea how they did it.
+Again, going back to the trilemma,
+they're just going to care about the best execution, the best access to that.
+This has been a big difference between us and Uniswap
+because I think Uniswap at some point decided that,
+hey, we want to be the front end.
+We want to be the entry point and we're going to put a lot of time and focus
+into being the front end and the entry point to this ecosystem.
+I think the issue with that is just that think about who else wants to be the front end.
+Coinbase wants to be the front end.
+Metamask, lots of people want to be the front end.
+Robinhood probably wants to be the front end.
+And these are consumer application building companies.
+They've got billions of dollars, not in their own token.
+They've got billions of real dollars to invest in winning this fight.
+So why would a crypto company say, I'm going to go kick Coinbase's ass here.
+I'm going to be Robinhood versus you focus on ensuring that you will be the deepest,
+most liquid source of these things.
+And no matter who builds the front end, they have to use your liquidity.
+So I think that is our vision.
+And the other thing about the front end thing is just look at the explosion of AI agents.
+Coinbase, Robinhood and seeing every major stock exchange
+is going to start getting into digital assets.
+They're all going to be competing to be the front end of this ecosystem.
+But you also have crazy new emerging things like natural language,
+AI interfaces that might disrupt all of these.
+So why go compete over there?
+Why not just let them fight it out and ensure that whenever they are doing a swap,
+if they want to deliver to their customers the best execution,
+they're going to have to use our rails.
+So yeah, that is 100% our focus.
+We know we'll win if we always have the deepest liquidity in the active tick.
+So we should invest all of our R&D, our effort, our economics aligned around that.
+Let's not go waste a bunch of time and money
+trying to be a better front end than some amazing front ends.
+From that perspective, do you look at anyone who can quickly catalyze large-scale liquidity
+as potential competition?
+Is that what keeps you up at night or do you look at players of that regard
+who might be, again, large asset managers, large bank type institutions?
+Are they just in a different neck of the woods?
+If somebody were to genuinely want to compete with us
+for this liquidity advantage,
+the interesting thing about the DEX trilemma is just that it's fixed.
+And because we reward our LPs with our token
+and because we generate all this revenue
+and we send all of it out to the token as incentives,
+you can't offer them more than 100% of the productive value of the DEX.
+There's no greater value problem.
+You can offer liquidity providers then 100% of the productive value
+and not just today, but in the future.
+So we do certainly think about it a lot
+and we do think about other ways
+in which we can send even more value back to that token as incentives
+so that the rewards for, again, that active tick liquidity are even higher.
+But fundamentally, because we went all the way out in this fixed conditions,
+there is nothing anybody could do that would be giving people
+more than 100% of the value.
+So you'd have to do something basically like us
+and then somebody would have to look at it and say,
+well, why is this other person delivering 100% of the productive value back
+going to beat the network effects of the other team that's doing this
+already has the liquidity, has people building on it and all this stuff?
+So that's what gives us comfort is we took a big risk, I think,
+betting that way.
+We didn't raise any money.
+We didn't sell any tokens.
+We didn't even give team liquid vesting allocations of our tokens.
+We just bet on the token is useful
+and we will bet our lives on the token being useful.
+And that bet's paid off.
+But there's really nothing in the DEX trilemma that you can do
+that is more than giving 100% of the current and future capitalized value.
+You're giving anyone who contributes regardless of who they are
+the best value proposition inherently.
+And that's what we reward our liquidity providers with
+is the token that represents that.
+To close out, I wanted to ask you,
+what keeps you up at night operating in the spaces you do in the industry?
+I think for a long time, especially for me coming into the industry when I did
+and Velodrome launching in 2022,
+the biggest thing that kept us up at night was just the legal and regulatory overhead.
+Don't get me wrong.
+I think that there is just a ton of nasty shit in this industry
+and I think we need rules and I think we need people enforcing those rules.
+And I am hopeful that we'll see real sensible legislation
+that doesn't treat this industry as the same as a million other industries
+that have come before that treats it as a new emergent technology.
+But the scariest part of building was that we did everything right.
+Or at least as insofar as we could determine what was right, what was legal.
+You could ask 100 lawyers the same question and they say,
+well, we think you should do this,
+but we don't know if an overzealous regulator is going to show up tomorrow and say,
+based on the 1910 whatever act,
+we actually think this thing is not legal and we're going to ruin your life.
+So the biggest thing that's kept me up at night has definitely diminished a lot post-election.
+And that I think is a very good thing.
+I think the other things that keep me up right now, it's macro just because,
+hey guys, we can believe in the vision of the space.
+We can believe that we're inevitable.
+But unfortunately, we're still furthest out on the risk curve.
+And if every major asset class is going to get the ship kicked out of it,
+we're going to feel that even more.
+But other than those two things, I think just the vision of,
+hey, what this technology allows us to do is to build institutional level products
+and services free of intermediaries.
+It allows us to do that in a way that creates all this surplus value
+that can be returned to the commons.
+In the end, the history of technology is that the best product wins.
+I have no fear that this industry, the technology, the things that we were building will win.
+It's just all of the roller coaster of that journey to that mass adoption place.
+That's probably a bit painful.
+Lots to be excited about.
+But to your point, we are still tethered to the platform risk of humanity.
+Yes, unfortunately.
+Well, Alex, thank you for joining.
+Really enjoyed our conversation.
+Hope to have you back sometime soon.
+Likewise.
+Thank you so much for having me.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes, please go to onthebrink-podcast.com
+or just click on the tab on our website.
+Thanks for listening.

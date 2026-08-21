@@ -1,0 +1,1530 @@
+TITLE: The Coming Collision of AI & Crypto: What Happens Next
+URL: https://www.youtube.com/watch?v=sR1B-ldXb6k
+VIDEO_ID: sR1B-ldXb6k
+
+TRANSCRIPT:
+(upbeat music)
+ - Welcome to Web3 with A16Z Crypto,
+ your guide to the future of the internet.
+ I'm Robert Hackett.
+ Today's episode is a special one.
+ It's a roundtable on some of the most compelling ideas
+ at the intersection of AI and crypto,
+ sourced from members of the A16Z crypto team.
+ Today, you're gonna hear from builders, researchers,
+ and deal makers who are all wrestling with the big question,
+ how will these two powerful technologies collide,
+ and what happens when they do?
+ First, deal partner Sam Broner makes the case
+ for giving AI agents universal identities.
+ Then, research partners Scott Comyners
+ presents how crypto can provide AI
+ with levels and layers of rich context.
+ You'll also hear from deal partners Liz Harkaby
+ on AI monetization models.
+ Cara Wu on the next evolution of web crawlers.
+ Jay Drain on Proving Personhood online.
+ And finally, security engineer Matt Gleason
+ on how crypto turns internet advertising models on their head.
+ This is a tour of big fresh ideas
+ that hint at what an internet of the near future
+ could look like.
+ For the full list of ideas,
+ check out our recent AI crypto crossovers package,
+ which you can find at a16zcrypto.com.
+ As a reminder, none of the content should be taken
+ as investment, business, legal, or tax advice.
+ Please see a16z.com/disclosures
+ for more important information,
+ including a link to a list of our investments.
+ (upbeat music)
+ All right Sam, so your contribution
+ to this AI and crypto's use cases piece
+ was that agents should have universal identity.
+ What do you mean by that?
+ I think that when you go to a traditional application,
+ you go to the website or you go to the app on your phone,
+ you log in and you see your stuff there.
+ But what happens when you're working with an agent
+ that might show up in its own app,
+ but also on Slack or on a phone call over email, over text,
+ it gets a lot harder to know when you're interacting
+ with an agent with the right context
+ and right capabilities that you're authorized against.
+ And so a universal identity for agents
+ is a way of expressing this.
+ Like a unique, uniform resource identifier,
+ but it's not really rich enough.
+ And so like, how do you do payments?
+ How do you list capabilities?
+ How do you share a state?
+ And so we start to make this point
+ in longer strokes in that piece.
+ So talk to me, talk to me about why this is important.
+ Why does it matter that an agent
+ should have an identity of its own?
+ Agent state is not quite like traditional app state.
+ You wanna talk to a certain model, a certain LLM,
+ you wanna talk to a certain context,
+ what does the agent know about you?
+ You wanna talk to a certain set of capabilities.
+ And all that wrapped together
+ is what we think of as an agent.
+ And I think that to connect with an agent like that,
+ you're gonna need to be able to identify in a way
+ that is richer than with websites.
+ Let me give you an example.
+ So if you wanna book a hotel today,
+ you might go to a kayak.com or some other aggregator.
+ But what if you wanna book a whole trip
+ and you wanna do it with an agent?
+ Well, you might text the agent and say,
+ find me a nice hotel in Paris.
+ You might go to the agent's website
+ to look at pictures of the agent
+ and you might call the agent.
+ And for each of these three interactions,
+ ideally you're talking to the same agent
+ that remembers all of the rest of the context before.
+ You could even imagine a situation where you're
+ in another app, like you're maybe on your workplace slack,
+ maybe you're sitting in a third party application
+ looking at like food recommendations
+ and you wanna bring that same agent into the context.
+ That's a really rich interaction
+ and you need a way of universally identifying
+ and then locating that agent
+ so you can bring it into whatever context you're working in
+ even though you talk to it in multiple places.
+ So just to make this really concrete for people,
+ you're giving this example of booking a hotel,
+ booking a trip, but you're literally in Paris right now
+ sitting in a hotel room that you booked.
+ And before we got on this call,
+ you were talking to our producer
+ about food recommendations in the city.
+ So this is a very real problem
+ that you are navigating right now.
+ - Okay, well, I wanna go on to get a nice dinner
+ with a good friend tomorrow night.
+ But I will say, like I have the good fortune
+ to have a person that I can talk to
+ to help me book this restaurant.
+ And I'll tell you what my experience is with them.
+ I'm sending them links.
+ I've talked to them on the phone.
+ I've talked to them in person, obviously.
+ And I've got, you know, I've got Google's reservation window
+ that I can look at.
+ But I'm sort of keeping track of all this information myself
+ and the person that I work with, this assistant,
+ you know, I know all the places I can contact them.
+ And for our agents, we probably need a similar thing.
+ We need a way of contacting them on any platform
+ and sharing contacts with them
+ while understanding their capabilities.
+ And so for friends, I know their capabilities are like
+ when they're awake and sort of if they're by their laptop
+ or by their phone, 'cause they'll tell me all that.
+ But for agents, we don't yet have a good way
+ of expressing a set of capabilities like that.
+ What do they have access to?
+ What do they know about me?
+ Are they sleep deprived like I am right now?
+ 'Cause I got off a Red Eye last night.
+ And you might want to have an identity system
+ that supports that kind of richer information.
+ - So you talk in your contribution about how Amazon
+ uses identifiers, it uses its own sort of spin on SKUs
+ to identify products on their site.
+ And then in that way to tag their sort of like digital
+ representation to the real world.
+ What is it about crypto that improves what we already have?
+ - Most marketplaces have identity as one of the core
+ building blocks of identifying market participants.
+ So you go on Amazon and you see these different SKUs.
+ Apple gives each app in the App Store, an ID on Facebook.
+ You have an identifier that says who you are.
+ But they don't expose those very well.
+ It's a little hard to pull that out
+ and use it in another context.
+ We talk about this a lot with Farcaster,
+ which is a crypto native social network
+ where you can export your identity and use it in other
+ places because it's built on blockchain rails.
+ And so for agents, one of the beautiful things about them
+ is that you can talk to them in multiple channels
+ and with multiple contexts, it would be such a shame
+ if agents got an identity from just one aggregator
+ from one extractive network and then couldn't bring
+ that identity to other places.
+ 'Cause I want to be able to talk to my agent on the phone
+ by email in this app and in that app.
+ And so I guess, yes, we have any other places
+ that we don't have the type of rich identity
+ that we need for agents in a way that's available anywhere,
+ anytime without the risk of someone being able
+ to take it away from the agent.
+ I'll add one more thing, which is like,
+ the agents, I'm sort of an anthropomorphizing them.
+ Really, I'm talking about the entrepreneurs,
+ like an entrepreneur builds an agent.
+ And this is a new form of an application.
+ It's something that you can use and have be useful to you.
+ And I don't want entrepreneurs to be beholden
+ to a extractive marketplace,
+ which is like the only place their agents can live
+ when clearly agents deserve to live anywhere.
+ That's a core thing to think through,
+ is how do we make sure this identity is available
+ for anyone to build on top of?
+ - So really, what I'm understanding here is,
+ it's not just that the agent should have identity.
+ It's really this concept of universality
+ that is important.
+ You want that agent not to just be tied
+ to one particular service and potentially aligned
+ with their interests over whoever else is.
+ You want an agent that is universally identifiable
+ across all different services and can be used across them.
+ - Yeah, that's right.
+ I mean, the universal identity for agents,
+ sometimes people call it more like a passport.
+ You want the identity to be there,
+ but you also want to know a little bit about the agent.
+ And maybe you want to be able to stamp
+ every time you interact with it.
+ So you want to say it's a little bit richer than DNS,
+ which is the domain name service,
+ which is what underlies URLs and websites,
+ because you want it to be stateful
+ and you might want to be able to do payments over it.
+ But this rich universal identity can be built on blockchains
+ and I think likely should be because it guarantees
+ that it'll be permissionlessly composable,
+ it'll be credibly neutral.
+ It'll be accessible from anywhere
+ in a way that traditional systems don't guarantee.
+ - And by the way, while this is all happening
+ in the agent space,
+ I think Apple just enabled passports digitally on iPhones.
+ So you've got meet space in one direction
+ coming online and agents coming in with passports
+ on the other side.
+ - Yeah, so let's just talk about the first side.
+ So Apple is letting you host your passport in Apple.
+ And that's like very good.
+ But it happens because the government is saying,
+ all US citizens can have a passport.
+ It's sort of like how Apple is required
+ to load websites on the phone.
+ Like there is this resource that everyone has
+ and can use and Apple is picking it up.
+ And I'd like to see a similar thing for agents
+ where you have a universal identity
+ that people are using to describe agents
+ and Apple, Google, meta all refer to that same identity
+ instead of them building their own in-house
+ and forcing agent developers to do complicated things
+ to bridge the agents' characteristics across platforms
+ or even worse being stuck within one platform
+ and having sort of a toll booth as you try to leave.
+ - So you're pointing out that in the Apple context,
+ it's really a top-down kind of situation
+ and maybe you would be looking more
+ for this bottoms-up kind of thing
+ where you could have agents get identity
+ from all different sorts of places
+ and carry that wherever.
+ - Yeah, that's right.
+ And we're so early that we have the opportunity.
+ It's path dependent.
+ Like there's a lot of ways agent identity could go.
+ And right now because we're at a crossroads,
+ I think we should try to make an identity
+ that works well for the entrepreneurs
+ that are building agents long-term.
+ - Okay, well, thanks for joining us, Sam.
+ - All right, go, thanks.
+ - Okay, so Scott, you had a number of contributions
+ to this list.
+ You described four of your ideas
+ as having to do with context.
+ And the fifth one, which we'll get to afterward,
+ you said has to do with guardrails.
+ So let's talk about the first four
+ and how they can all be lumped together
+ with this idea of context in relation to AI.
+ - So just very quickly, like there are many different senses
+ in which AI changes how much we need context
+ and the types of context we need in our digital spaces.
+ So for example, perhaps the simplest,
+ everybody who has ever opened up chat GPT or CLAWD
+ or any of these personal use AI systems
+ has probably had the experience of having to re-teach
+ the AI a bunch of stuff that you thought it knew about you
+ because you had some interaction with it
+ where you said, I code everything in Python,
+ please give me this code in Python
+ or I really, really, really like this particular football team
+ or something, please tell me about this football team
+ or this is the type of math I'm trying to learn,
+ any of these sorts of things.
+ The second you open a new shell, it's typically gone.
+ This is such an issue that we're actually seeing
+ beginnings of marketplaces in stable context,
+ prompts that can cue the AI to do a specific thing
+ or bots that you can rent that have specific contextual frames
+ that sort of save you the trouble of teaching it
+ how to draw anime characters or something like that.
+ But all of that should be able to persist
+ and blockchains are a great tool for that
+ and perhaps the unique tool that allows you
+ to own your context, guarantee that it's interoperable,
+ you can take it from platform to platform
+ and guarantee that it's forward compatible
+ that even the AI's that haven't been built yet today
+ will be able to interact with it and interpret it.
+ >> This is such a cool idea.
+ What you're describing right now is that the status quo in AI
+ is you have like the world's nicest, most eager butler
+ except the butler has amnesia.
+ Like constantly forgets things that are important
+ about your relationship.
+ >> Exactly.
+ >> And the thing that blockchains can bring to the equation
+ is if they have one thing, they have memory.
+ Like they are a database, they can keep state,
+ they have storage, indefinitely, well into the future
+ and are, they're hard to manipulate as well.
+ So you can be sure that that data is non-corrupted
+ and accessible and has integrity, all of that good stuff.
+ >> And that you have control.
+ >> And that you have control of the data
+ and where it's used.
+ And eventually when we get there,
+ enough ability to permission which application see
+ which parts of it, then you can choose your contextual frame
+ when you enter into an application.
+ >> You know, one question that I have about this
+ is despite blockchains being great at memory,
+ you know, someone might counter that.
+ Yeah, but they're not as efficient.
+ Well, I was gonna say they're kind of inefficient databases.
+ You know, they are really like,
+ do you need a database of that capacity?
+ You know, that sort of like global
+ and has memory persist forever?
+ Like do you need to go whole hog in that direction?
+ Or can you use like something quicker or more efficient?
+ >> Yeah, great question.
+ So I mean, so you may not want this stuff to persist forever.
+ And indeed, it could maybe drift
+ or you could instruct it on when it decays
+ or something of the sort.
+ And certainly it's gonna need to be updateable, right?
+ Maybe you are really into Python
+ and then you discover scheme and you're like,
+ oh my gosh, why was I not always coding and scheme?
+ And so you need to like modify the context frame
+ that you're carrying with you.
+ But it's really important
+ if we're gonna have sort of an individually controlled
+ context system, that system has to be interoperable
+ and it has to be sort of accessible
+ to any AI application that gets created,
+ even ones that don't exist yet, right?
+ It has to have sort of a public API
+ that is standardized and forwards compatible, right?
+ It can be adapted for any system that comes out
+ rather than just sort of being built
+ for the form factor of whatever exists today.
+ And blockchains are basically the only technology
+ we have that does this, that allows you to commit
+ to interoperability and that creates everything
+ within a framework of public standards
+ that are forwards compatible.
+ So let's dip into each of these ideas
+ and how they relate to context.
+ Okay, let me just jump right from where we were
+ to prove a personhood.
+ Jay and I wrote a piece about proof of personhood
+ and the takeaway there is that forwards compatibility
+ and commitment to interoperability are essential
+ for any sort of individual identifier, right?
+ Just like your driver's license,
+ you need to be able to present it to anybody
+ who can verify that it's a driver's license
+ and say this is my proof of ID.
+ And you need to, for example, be able to present it
+ to a restaurant to prove your age maybe,
+ even if the restaurant was not built
+ when you got your driver's license.
+ That's forward compatibility.
+ So for the exact same reasons you need this
+ for your context, you're gonna carry it
+ from application to application,
+ you need this for your identifiers,
+ your proof of humanity and your proof of who you are.
+ Got it, okay, so that's the first case.
+ You also wrote a piece with Sam Bronner
+ about vibe coding and making sure that software
+ that you create on a whim or whatever can stay up to date
+ and doesn't get broken.
+ Exactly, so there's a stack of context hierarchy here.
+ So we were first talking about your personal context
+ for your interaction with applications.
+ The second one is global context about you.
+ So you control your contextual information
+ to every other application about who you are and so forth.
+ But also when you're vibe coding
+ or otherwise using AI to build software,
+ the feature of this technology is enabling people
+ to write custom workflows and code,
+ even if they've never studied programming before
+ or may not even know exactly what the system's doing, right?
+ They're appealing to an AI to do all the library extensions
+ and connections and things further to produce the thing they want.
+ That's a huge feature.
+ That's the superpower of AI coding.
+ But it has the challenge that you're introducing
+ two types of entropy.
+ You're both building entropy into your programs.
+ You're sort of adding things into your programs
+ that you yourself may not understand
+ and that the AI may not entirely understand.
+ It added them in because they sort of predicted
+ that they should go there and they might work,
+ but it might be that neither you nor the AI knows why.
+ And you're introducing entropy relative to everybody else.
+ You might have a program that fills out billing slips
+ and your colleague might have a program
+ that fills out billing slips that you both vibe code it up
+ and they're totally different from each other
+ and they're producing output that doesn't interoperate
+ with whoever in the billing department
+ is processing the billing slips.
+ They wrote their own vibe coded workflow
+ and it doesn't work with yours.
+ And so what Sam and I describe are what we call synchrony layers,
+ basically like protocol layers that get wrapped
+ and sort of like we have with software libraries today,
+ but software libraries are updated very infrequently, right?
+ A software library, you know, you put out the next release
+ and then maybe people suggest things
+ over a six to 12 month period
+ and then you get another release maybe.
+ Here what we need are fully dynamic layers
+ that both establish boundaries and updates
+ within Europe software and, you know,
+ standardizations across different peoples vibe coded software
+ so that you can be sure that you haven't somehow absorbed
+ a malicious code and so that other people can be sure
+ that they can work with what you're creating and vice versa.
+ And so that's like shared context.
+ We started with individual personal context,
+ individual global context.
+ This is like individual but shared context.
+ - Have you vibe coded anything, Scott?
+ - Oh, absolutely.
+ I've most recently been using this to create various forms
+ of puzzles in the form of fully on chain SVGs
+ and other sort of image structures,
+ but I've also used it in my research
+ in a bunch of different ways, right?
+ Oh, okay, but the real triumph?
+ Here's a great example, by the way.
+ Here's a place where I have no idea how this worked.
+ There is this conference, it's the top conference,
+ the intersections of economics and computer science.
+ And every year when you have a paper accepted,
+ you have to format the abstract or the paper
+ in a particular way.
+ And this year we had to make a very subtle
+ and complicated modification to the formatting package.
+ There was something wrong with the way it was printing
+ the co-authors of the paper's name line, basically.
+ And this thing is in unreadable code.
+ And so we vibe coded a script to fix this code
+ to do what we wanted it to do.
+ And like, it was magical, but for example,
+ we then had to take this product, right?
+ We took our final source code and shipped it to the publisher.
+ The publisher has the original version of the library,
+ not ours, and so when they sent us back the page proof
+ or whatever, we're going to have to check to make sure
+ that they didn't break this thing that we fixed.
+ And that's a place where a synchrony layer would be useful.
+ Like if they have reference to the fact
+ that we've made this change, the library file,
+ then we could be confident that they wouldn't recompile
+ our abstract and get something different.
+ - I don't know if this is directly applicable,
+ but I vibe coded myself a habit tracking app.
+ And what would be very cool is if I could have friends
+ of mine have their own instances of the app
+ so we could track our streaks and compete against one another.
+ - Oh my gosh, let me have that.
+ - But yeah, it would be helpful to have
+ that kind of shared state that we can all rely on.
+ - Exactly.
+ And this again, shared state.
+ The second you say shared state,
+ blockchain suddenly makes sense, right?
+ Like you're like, here's an instance
+ where you're trying to share information.
+ You're trying to create sort of like a local shared state
+ among a bunch of individuals.
+ And that's exactly what blockchains are good at.
+ So then the last step of the hierarchy,
+ and sometimes the most global is when you actually
+ have to establish global context.
+ Here we're talking about registries.
+ And you can think registry of deeds,
+ you can think registry of membership
+ in a, I don't know, famous fancy society or something.
+ Like, and in the roundup,
+ I wrote about registry of intellectual property.
+ And the registry of intellectual property
+ is particularly important as creative generative AI
+ is leading to this explosion of remixes and transformations.
+ And the internet has put pressure on intellectual property
+ since inception, but it's putting more pressure
+ on intellectual property at a very accelerating pace
+ than we've ever seen from digital technology before.
+ And the funny thing about it is it could be a feature.
+ Like there are all sorts of business models
+ and we're starting to see people experimenting
+ with business models around remixing and licensing
+ as the primary structure for creative IP.
+ But the existing intellectual property systems,
+ especially in the United States, aren't configured
+ in such a way that you can just interact with them digitally
+ and they certainly aren't configured in a way
+ which you can just establish provenance
+ for something off the bat.
+ In fact, we've seen instances where provenance
+ sort of gets reversed because somebody races
+ to the intellectual property system
+ to register ahead of the person who actually created it.
+ And so again, blockchains are a technology
+ for establishing immutable proof of provenance
+ with guaranteed interoperability.
+ And that makes them ideal for having public registries
+ and things like intellectual property
+ and then serving as the programmable layer.
+ My friends at Story Protocol,
+ one of our portfolio companies referred to programmable IP
+ that intellectual property should be directly accessible
+ to the programming of the software layer.
+ And that possibility is only just coming online
+ and it's awesome.
+ - What I love about your framing is the successive ways
+ that it zooms out.
+ It starts with me proof of personhood.
+ I wanna like bring my identity around.
+ So it starts with me, then it goes to us,
+ this sort of shared state concept
+ and then it goes to everybody.
+ Like a global kind of shared state.
+ - Exactly.
+ And then in math, we would say the dual.
+ The space around the space we just structured
+ are the guardrails around AI transactions and actions.
+ So I personally believe that we're gonna see
+ a huge marketplace of AIs interacting with AIs
+ without direct human oversight or supervision.
+ I don't know exactly how long it's gonna take to get there,
+ but you're gonna have an AI that's going out there.
+ I love Honkaku Mystery Novels.
+ - Yes, I know this from our reading lists
+ where you've recommended a few of them.
+ - Exactly. Like every reading list,
+ I have another Honkaku Mystery Novels.
+ Honkaku Mystery Novels,
+ they're these incredibly beautifully written
+ and very puzzling mystery novels from Japan.
+ The style is Orthodox.
+ Honkaku loosely translates to Orthodox
+ and they're 100% fair play.
+ Any clue that the detective sees you see.
+ And so it really is a puzzle.
+ You have to figure out, okay, with what I've seen,
+ how can I unravel this to explain the mystery?
+ I love these mysteries.
+ Every month or so, I scour the internet to see
+ which new ones have appeared in English translation.
+ I should have a bot.
+ I would love to have a bot just doing that for me.
+ Without me, they would just like order it for me.
+ Like, you know, if it finds one,
+ order it from whoever the publisher is,
+ have it shipped to me.
+ I would love to read it.
+ I've read as many of them as I can find.
+ - That's great.
+ You could preload your wallet, just give it a monthly allowance,
+ you know, 20 US stablecoins or whatever.
+ - And that's exactly it.
+ In order for this to work, I have to have confidence
+ that the AI understands the task,
+ that it can't be gained by somebody else creating like,
+ you know, honkaku.net where they just send blank pages
+ to steal my money.
+ And that the AI can't spend my entire bank account
+ if it discovers honkaku.net doesn't realize it's,
+ you know, not real and you know,
+ sort of buys like 10,000 copies of books or something.
+ And then I get this huge empty book box
+ and I'm thinking, wow, now there's a mystery.
+ In order for that to happen,
+ we need well-defined payment rails
+ and well-defined guard rails for these agents
+ to interact with each other
+ and sort of end commerce sites or end applications.
+ And that again is something
+ that blockchains are ideally positioned for
+ because they're about enabling you
+ to make immutable commitments
+ and make those commitments
+ part of the running of a software process.
+ You can basically tell an agent,
+ you have access just to this wallet,
+ you have access to just these memory areas
+ and you have these search instructions
+ that you can't go outside of
+ other than that, go find anything you can.
+ - I think that's a perfect note to leave off
+ on this stuff, need some rules of the road
+ and blockchains can provide it.
+ Great, thank you so much for joining us, Scott.
+ - Thank you, Q&E.
+ - All right, take care.
+ So Liz, it's actually perfect to have you on next.
+ We just spoke to Scott about some of his ideas,
+ including his last ones he was talking about,
+ sending an agent out to go do his shopping for him,
+ which seems like a pretty natural segue
+ into what you're writing about,
+ which is about how crypto in conjunction with AI agents
+ could potentially help solve this monetization issue
+ that the web is facing right now.
+ So let's hear from you, describe your idea.
+ - Yeah, so this came about through a number of conversations
+ that we have internally around what is the next generation
+ of the contract of the internet look like,
+ the original internet monetizing this idea of attention,
+ mostly, right?
+ So if you think about how Google came about and SEO
+ is all direct traffic to your website in return,
+ you let me surface your content on Google,
+ and this is kind of this fair exchange of sites
+ get more traffic and Google gets to make a lot of money
+ on advertising.
+ And so what does the next generation of that look like?
+ - And the reason that we need a next generation
+ is 'cause that model has basically collapsed now
+ with nobody needs to go visit websites anymore.
+ You can just get all the information you need
+ from an AI service or even Google
+ just putting the information up there
+ at the top of the webpage, their AI overviews,
+ I think they're called.
+ - Yes, exactly.
+ So you no longer need to actually go visit
+ the underlying site.
+ You can get these awesome summaries either through ChatchBT
+ or through Google's One Box or Proplexity
+ or whatever kind of tool you're using these days.
+ Because of that, you're kind of breaking
+ this economic contract of what is the purpose
+ of putting that information out into the world for free
+ as the underlying content site.
+ If you're not getting anything in return.
+ So how do you fix that?
+ And so I think there's a couple of different ways
+ you can approach this and different strategies
+ people are taking for how do you fix this monetization
+ and economic model if we're no longer directing people
+ to sites and how do you actually continue to incentivize
+ new content and the long tail of content on the internet
+ if we're breaking this economic model.
+ It might mean agents go out and just pay per data point
+ and they go out and as they need more context,
+ they pay for it.
+ The idea I walk through is this more fanciful idea
+ of what would it look like to do revenue sharing
+ through transactions.
+ In my view, people have gotten pretty accustomed
+ to the web being free and it seems unlikely
+ that they're willing to kind of fund these agents
+ to go do search for them when it would be free
+ for them to go to Google or it's free today
+ for them to use Google One Box or Proplexity
+ or these free versions of the agents.
+ And so if people aren't willing to spend money upfront
+ for the agent to pay for the data,
+ what else might this look like?
+ And so one idea that I just kind of walked through
+ is this idea of transaction sharing
+ between all the content sites and the end action.
+ So you send your agent out to shop for you.
+ If it actually ends up buying something,
+ there's some sort of revenue share back
+ to all the places that it got context for that.
+ - And by the way, it's cliche to say
+ that it's actually not free, you're paying with your data.
+ But despite that being cliche, it is extremely true.
+ The web which seems free is monetized.
+ It's just monetized in a way that you're not really seeing.
+ And so even if you're like,
+ oh, well, how are we going to add in all these transactions,
+ these payments and whatever,
+ the thing is all these ad networks have all of that
+ there already, it's just not in front of your face.
+ So it's not that radical a shift as one might imagine.
+ - Yeah, exactly.
+ Today you're basically doing this exact same flow
+ just with extra steps.
+ So you get served an ad when you go visit a content site,
+ the idea being that at some point you will convert
+ on that ad and actually go buy something.
+ And so the company is the ad agency,
+ the people advertising are willing to pay upfront
+ for that ad, assuming you will then convert
+ into a transaction.
+ The idea is to make that process more direct
+ given that we no longer have this attention
+ on the underlying site.
+ So instead of going to Google, getting routed to a site,
+ getting served an ad, possibly converting on that ad
+ and going and buying something later down the line,
+ that happens all kind of in at one flow through
+ of when that transaction occurs,
+ everyone involved in that transaction gets paid back
+ automatically.
+ And the great thing about that is that the attribution
+ is actually possible to trace because the agent
+ is pulling in context in real time.
+ And so it's not as kind of intangible as a human
+ who might visit a million sites and see a billboard
+ and see a friend talking about something
+ and trying to attribute back why they actually bought something
+ is a much more complex process than just attributing back
+ what the agent used in its path
+ to recommend to that end transaction.
+ - So what are the technical pieces
+ that need to be in place for this to happen?
+ - Yeah, so you need the ability to do
+ these very complex splits of nano payments,
+ which today is very challenging to impossible
+ given just the basic overhead
+ of a single credit card transaction
+ makes it infeasible to do these like a 10th of a cent
+ or 100th of a cent or 1000th of a cent transactions.
+ - And that's because there's just like a basic fee
+ on a credit card transaction.
+ I forget how much it is like 30 cents or something,
+ like which immediately gets rid of any opportunity
+ of doing anything beneath that cost point.
+ - Exactly.
+ And then you would also need to be able to do
+ this attribution of what data and context
+ is an agent pulling in.
+ And then you would just need a way to actually pay that out.
+ On crypto rails, this is as simple as putting in the metadata
+ wallet address that is paid out to every time you use the data,
+ you could even guard it or pay well in that way
+ just for agents to scrape it.
+ But in the traditional financial world,
+ this would be significantly harder to figure out
+ how to actually pay each content provider,
+ figure out a bank account or credit card number or
+ how you actually get that money back to them.
+ So yeah, needed ability to attribute where the data came from
+ to do these small and complex payment splits
+ and then actually be able to pay the underlying content creators.
+ - Do you think that we are going to get there in time
+ before AI eats all the good information
+ and sort of forces content creators to question
+ whether they wanna start publishing openly on the web?
+ - Yeah, I mean, I hope so.
+ I think it's definitely feasible.
+ It seems like today the direction we're mostly going in
+ is remaining with the agent as the intermediary.
+ So rather than you having this flow back effect
+ or this revenue sharing effect instead,
+ the agent companies like OpenAI or Anthropic or whoever
+ are paying directly for access to this data
+ through these big data deals with Reddit
+ or the New York Times or whoever.
+ So then you're paying your monthly subscription to OpenAI,
+ they're paying an annual subscription to the data provider
+ and then that data is surfaced in that agent
+ that does start to address this issue,
+ but going down that path ends up with this kind of
+ very siloed information where you're only gonna get
+ surfaced information on OpenAI with companies
+ and OpenAI has signed deals with
+ and you lose the openness of the web
+ and especially you lose the long tail
+ of individual content creators that can't get these
+ partnerships with OpenAI and so their information
+ is not surfaced the way that it might be today in Google
+ where even if it's not promoted
+ so it might not be on the first page,
+ you can still always find any data you want
+ and it kind of gives you this open access
+ that these information silos might not.
+ So it feels like we're heading more and more
+ in that direction, but hopefully we can make it
+ a little bit more fair and open.
+ - Excellent, while speaking of fair and open,
+ our website where you can read Liz
+ and the rest of these contributions is open,
+ not pay walled, so you can go read these posts there.
+ Liz, thanks so much for coming on
+ and sharing your idea.
+ - Awesome, thank you.
+ All right, Cara, so we just spoke to Liz
+ and she described her ideas for how AI agents
+ could be monetized potentially
+ or how content and data on the web
+ could continue to be monetized such that
+ like AI doesn't completely cannibalize the whole thing
+ and how crypto can potentially offer the ability to do
+ nano payments and other sorts of things
+ to prevent the web from, as Chris would say,
+ eating its own seed corn or corn seed,
+ or I don't know, some kind of farming reference seed corn,
+ okay.
+ - That's how you know he's from the Midwest.
+ - Exactly, yeah.
+ - Same.
+ - So this actually kind of meshes quite perfectly
+ with your contribution to the AI and crypto ideas list here,
+ which has to do with web crawlers.
+ I'll just set the context and say,
+ people hear the word AI agents
+ and the word might sound kind of funky and new and buzzy,
+ whatever, but like I love how you start off
+ by saying that web crawlers,
+ which have been around for decades now,
+ are a kind of first example of this,
+ like a primitive AI agent
+ that has existed on the web for a long time.
+ - Yeah, so the reason I started thinking about this
+ was because I did a panel last year on AI agent use cases
+ and at the time I said, you know,
+ the only AI agents that have real product market fit
+ are agents as entertainment and coding agents.
+ And then I started thinking about it a little bit further
+ after I left the stage and I was like, wait, I'm wrong.
+ Actually, the AI agent that has the best product market fit
+ is in any of these new things.
+ It's actually something that's been around
+ since the very genesis of the internet, so to speak,
+ which is the web crawler, which is an agent
+ that literally represent what we call a user agent,
+ autonomously navigates the web,
+ decides what data to collect, decides which links to follow,
+ which paths to bark down, and then comes back
+ and gathers that data on behalf of the user.
+ Today, nearly half of all internet traffic is non-human
+ and, you know, is representing a user agent
+ is like a bot or a web crawler.
+ - Wow, so the scales have tipped.
+ The web is now more bot, more automated than it is human.
+ - Yes, and that's why I say that this is the product
+ with the best product market fit is just because
+ the population, like if you were to take a census
+ of internet activity, like the users of CPU bandwidth
+ or like compute for website hosting,
+ the vast majority of it is coming from non-human sources,
+ is coming from these AI agents.
+ So whether or not you believe that to be product market fit,
+ the volume is sort of staggering.
+ It used to be the case that you would only use a crawler
+ for a small and constrained use case today.
+ Every single major company has an AI crawler,
+ whether it's Amazon using their crawlers
+ to track pricing for vendors who also sell
+ through their own channels in addition to
+ on the Amazon marketplace, or actually the most common crawler
+ if you check in the network activity tab of any web pages
+ is usually byte spider, which is TikTok's crawler,
+ which is feeding into the TikTok feeds
+ to decide what is relevant for the algorithm, yeah.
+ - So yeah, it's not just Google anymore.
+ There are crawlers all over the place.
+ That's so interesting that TikTok actually has
+ like the biggest crawler.
+ - Yes, yeah, they call it byte spider.
+ Every major internet company has a special little name
+ that is some derivative of their company name
+ to represent their user agent, web crawler.
+ And the point is like, okay, so why do these companies
+ want to crawl the web?
+ Well, Amazon wants to be able to penalize the merchants
+ on its site that charge a lower price
+ on their own first party platform.
+ So they will literally downrank vendors
+ that have their own first party sales channels
+ and give favorable pricing to their own channels.
+ And this is like a core part of how they design
+ their algorithms today.
+ Like their algorithms are not only trained
+ on this data that they crawl and search for,
+ but also use it as real time data to like up and downrank.
+ They use it as part of their rag,
+ which is retrieval augmented generation.
+ So they use it real time, both at inference time,
+ but then also in pre-training and post-training.
+ So this has now become a really important part.
+ I think there's this idea that the internet-scale data
+ that is accessible to common crawl is commoditized,
+ but it certainly is.
+ But it's also used at like every point in model generation,
+ both in the training and in the inference,
+ and at inference time.
+ So this is like a really important piece
+ of internet infrastructure.
+ And what's really interesting is like,
+ yes, the common crawl accessible data
+ is becoming commoditized, but it's also the case
+ that an input to this problem is that the surface area
+ of common crawl accessible content
+ or like crawl or accessible content
+ has contracted dramatically because there's no incentive
+ for creators to continue to supply that content
+ to crawlers for free.
+ And this was something that Chris and I wrote about
+ in our blog post about Story Protocol.
+ About a year ago, we hypothesized
+ that the social contract of the internet
+ was going to fall apart,
+ where creators are incentivized to provide their content
+ for free so that platforms can index
+ and then provide distribution back to them as a service.
+ That was like the original social contract of the internet.
+ Today, if the primary distribution engine
+ and the way information gets surfaced
+ is through LLMs, which do not provide attribution
+ back to those original content sources,
+ there's no incentive for creators
+ to provide that content for free.
+ So what you see is increasingly things are put
+ behind paywalls, but also you can see
+ in the open Cloudflare data that websites are choosing
+ to just block crawlers altogether.
+ Any crawler that is known to be associated
+ with like an AI user agent can be blocked in one click
+ on Cloudflare or any other posting provider.
+ And so about a year ago, only about 9%
+ of the top 10,000 websites were blocking AI crawlers.
+ Today, that number is around 37%.
+ And so, of course, the closer you get to the top 100 websites,
+ the numbers skew up dramatically
+ because content is their business, right?
+ So they're very aware of this fact.
+ And then if you go to the top million sites,
+ website owners are less proactive
+ about this kind of blocking activity
+ because they're just less savvy
+ or less concerned about this distribution problem.
+ - In the last era of the web,
+ there's been this sort of steady rise
+ of people adopting ad blockers,
+ but it sounds like in this current moment,
+ this shift that we are seeing now
+ into the AI sort of dominated web,
+ this throwing up paywalls and putting crawl blockers up
+ is happening much more quickly.
+ - Yes, and part of the reason this happens
+ is because of course, firms are more rational actors,
+ so to speak, like firms are very quick to respond
+ when they understand that the basis
+ of their business is being disrupted.
+ - Yeah, if it affects your bottom line, you're gonna notice.
+ - Yes, and firms are in general much quicker
+ to act rationally than consumers are
+ because they're very aware, you know,
+ they have people doing analysis
+ on what drives their bottom line.
+ Basically, all of this is to say,
+ I've been thinking about how we've arrived
+ at this sort of standstill.
+ We are entering this data constrained world
+ where it's not clear that models
+ will be able to continue improving at the rate
+ that they've been improving
+ because supply of non-commoditized data
+ and supply of common crawl accessible data
+ is becoming increasingly constrained
+ for all the reasons we've discussed.
+ So that's on one side of the standstill,
+ and then on the other side of the standstill,
+ it's like, okay, if we're getting all of our information
+ from LLMs, how do creators get distribution?
+ Or how do people who are creating original content
+ get attribution and get paid for providing the information
+ that these models were supposedly trained off of?
+ And I've been thinking, like, what if instead of,
+ you know, website owners paying CDNs to outright block anyone
+ who shows up and seems like they might be a bot,
+ we met somewhere in the middle where AI bots could pay
+ for the right to collect data in real time
+ as they're visiting all of these websites
+ and doing their crawling work.
+ And this is where blockchains come in.
+ In this scenario, every webcrawler agent could have
+ a little bit of crypto that they control,
+ and they might be able to engage in an on-chain negotiation
+ with the bouncer agent that represents a website.
+ And they might be able to do some sort of challenge
+ or transaction or negotiation and decide, okay,
+ this is like the auction price for collecting
+ this kind of data on our site today.
+ And you might be able to initiate that payment
+ through an open protocol like X402,
+ which was released by the Coinbase team
+ and is like perfect for this use case.
+ So that's the general idea.
+ It's a kind of lofty thing,
+ and it's going to be very challenging, of course,
+ because it requires a lot of different website owners
+ to buy in, right? And at the very least,
+ it will require CloudFlare or some big CDN
+ to get on board with this new standard,
+ which would essentially take the place
+ of the robots exclusion standard,
+ which is how webcrawlers get turned away today.
+ And that's how it's been since the '90s.
+ >> So what you're describing is basically
+ going from a world where we have these bespoke content
+ licensing partnerships between some AI company
+ and content provider, like say, a major newspaper or magazine
+ or something, where they strike a deal,
+ they give however many millions of dollars
+ and they get the content and return
+ to supply into their models.
+ Instead of that world where you have these bespoke arrangements,
+ you're talking about a world where you have a marketplace
+ that is designed specifically for agents to come on board
+ and negotiate these things in a more sort of automated way,
+ in a standardized and automated way,
+ rather than a bespoke and kind of like custom way
+ that we're seeing right now.
+ >> Yeah, exactly.
+ >> I would maybe draw the analogy to say that
+ we've actually seen something like this on the web before.
+ Like the first banner ad was on hotwire.com, AT&T bought it
+ and that was the first display banner ad.
+ And then eventually from there,
+ we had the development of ad networks
+ that take care of all this thing in the background
+ at the blink of an eye.
+ It became standardized, professionalized.
+ And so maybe that is the exact sort of thing
+ we're going to see with AI agents moving forward.
+ >> Right, and you can generalize this
+ to be almost like an access control network
+ and not just a web crawler network.
+ 'Cause I think one question emerges
+ like how do you decide whether somebody
+ is a bot or a real human?
+ Like that's a prerequisite to being able to enforce
+ this kind of standard or policy.
+ And one challenge is that crawlers can spoof themselves
+ as actual users.
+ They can say that they're Mozilla, X, Firefox.
+ They can pose as a user, as a real human on the internet.
+ And it can be very difficult to differentiate
+ between a bot that claims that it's a user
+ and an actual user.
+ You sort of rely on the integrity of the bot creator
+ to make a very helpful name like Bitespider
+ to identify itself, right?
+ I think the other thing is you would have to create
+ a multi lane highway to differentiate
+ between humans and bots.
+ And maybe the answer is that you just assume
+ everyone's a bot unless they have some session cookie
+ in their browser that says, this is Cara's world ID.
+ And this is how you know that's a human.
+ And it's also the case that you can imagine a world
+ in which you have an agentic browser
+ that has a notion of like who the user actually is
+ that has a sense of the user's identity.
+ And then you might actually have a whole cohort of agents
+ that you can delegate different fine grained access control
+ passes to.
+ So one might be Cara's authorized official representative
+ that has access to all my bank accounts
+ and can actually access websites as my user agent.
+ But I might also have Cara's spider
+ that is not an authorized representative of me
+ but has some money and can go pay to crawl
+ other people's websites.
+ - Well, as you mentioned at the start of this conversation,
+ the fact that more than half of internet traffic
+ is now generated by bots, it seems like it would make sense
+ to put the burden of proof on the user
+ to have to show that they are in fact human.
+ You might have to assume that everything is a bot
+ and then use some proof of personhood
+ to enable people to differentiate themselves.
+ - Right, the best case scenario is we get into this world
+ where everything is free for humans.
+ You know, information wants to be free, media wants to be free,
+ let that be free for real eyeballs.
+ And then everything is just extremely highly taxed
+ for bots that are either representatives of firms
+ and like have some sort of underlying economic incentive
+ or like economic subsidy, basically,
+ to go and browse the internet.
+ - Cara, thank you so much for your time.
+ I could not ask for a better layup
+ for our next conversation with Jay
+ where we're talking about proof of personhood.
+ So thank you also for that.
+ - I aim to please, that's my job.
+ It's almost like I work with these people.
+ - Incredible, all right.
+ Well, thank you, take care, Cara.
+ - Thanks, bye.
+ - All right, Jay, thanks for being with us.
+ - Yeah, of course.
+ - Okay, so we just got off the line with Cara
+ who is describing an internet
+ in which you've got a lane for humans
+ and a lane for bots potentially,
+ which kind of is the perfect setup
+ for your idea on the AI and crypto list,
+ which is about proof of personhood.
+ Tell us what you are putting forward.
+ - Yeah, of course, the context for what I wrote
+ and what Scott and I wrote is AI and generative AI
+ are mind-blowingly incredible but have massively increased
+ the cognitive overload of using today's internet.
+ So consumers are constantly worried,
+ is the person that I'm interacting with real
+ is the content that I'm consuming online real?
+ Is it coming from the person that I think it's coming from?
+ And products and services and companies
+ have to worry about protecting users' trust
+ and preserving valuable resources like compute or IP
+ or data or bandwidth or customer support.
+ And what we think the most credible solution to that
+ is proof of personhood,
+ which is a mechanism that enables anyone to prove
+ to another app or service or human
+ that they are a verifiably unique human being.
+ And what it does kind of like what Cara was mentioning
+ is it effectively divides the internet
+ into an internet with human beings and agents and bots
+ and an internet that is exclusively for human beings.
+ And where all the services and the apps and the protocols
+ on this side of the internet or this lane of the internet
+ is just humans.
+ And what's really exciting about that
+ is we have decentralized proof of personhood mechanisms,
+ like world's proof of human or world ID.
+ - Yeah, let's talk about this.
+ So world just launched in the US,
+ which is a pretty big deal.
+ And I think that's probably what people think of
+ when they think of proof of personhood.
+ They probably think of world ID first.
+ - When they think of decentralized proof of personhood
+ specifically.
+ - Yeah, okay, so tell us the difference.
+ - Decentralized proof of personhood is unique
+ and that it's fully censorship resistant.
+ It's secure, it's unstoppable.
+ It can't be taken down by a centralized party
+ or a government or entity.
+ It's incredibly neutral,
+ meaning it's fully transparent.
+ And there's not a gatekeeper that can discriminate
+ in how an ID is issued.
+ - Unlike a passport which potentially
+ you can get your passport taken away
+ or even if we want to extend the idea of identity
+ and talk about like a bank account,
+ you can get your bank account frozen.
+ And it can be denied, it can be frozen,
+ it can be deemed invalid by some service or entity.
+ And decentralized proof of personhood is incredibly neutral.
+ Beyond that, it enables permissionless accessibility
+ for developers or platforms.
+ There's no centralized party that controls the access
+ or approval or can block a certain use case or application.
+ And perhaps most importantly, it's self custodial,
+ which means in some cases it's privacy preserving
+ like world ID and then users have full control
+ over their identity data and have full autonomy over it as well.
+ - But your idea here, it's not just about proof of personhood,
+ it's about this idea of forward compatibility.
+ Maybe you could zero in on that
+ and explain what you mean there.
+ - Yeah, so forward compatibility
+ or I think it's also often called
+ like upwards compatibility means that the system can be updated
+ and still work properly with any applications or services
+ that want to work with that system or ID system.
+ - Okay, and that's important here because
+ that is important here because centralized identity systems
+ require an upgrade or update from a single party
+ that controls the data or stores the data, et cetera.
+ And so here it is fully trustless for both users
+ and developers and they don't have to think about
+ the maintenance costs or overhead that comes with
+ identity systems and the kind of centralized domain.
+ - Gotcha.
+ So people are probably pretty familiar
+ with what world is doing.
+ There was a Time Magazine story.
+ The orb was on the cover.
+ They've gotten pretty good coverage all over.
+ But who else is working on this idea?
+ Where else might people encounter it?
+ - There's another decentralized proof of personhood
+ startup called Self.
+ And then there's a kind of similar protocol
+ for verifiable credentials called the Solana Attestation
+ Service, which is really new.
+ And they allow issuers to associate information
+ like a KYC verification or geographic eligibility
+ or accreditation status with a user's wallet.
+ And so these attestations are signed, they're verifiable
+ and then users can take those across a number
+ of different applications without exposing any
+ of the sensitive data on chain or having to go through
+ these verification steps over and over again.
+ - Amazing.
+ And by the way, listeners, we just had Anatola Yaquavenko
+ on our podcast.
+ So you can check out that episode.
+ It's called The Inside Story of Solana.
+ Jay, anything else you wanna mention before we head on out?
+ - Yeah, I'd say what's probably most exciting about this
+ is that we are seeing a number of use cases
+ for decentralized proof of personhood pop up
+ both inside and outside of crypto.
+ I think inside of crypto, you see a lot of really cool
+ protocols like Morpho, which does lending,
+ offering exclusive lending rates to folks who are verified
+ with a world ID.
+ There's this kind of experiment around priority block space
+ for people who are verified, world ID holders.
+ And then outside of crypto, you have integrations
+ with Match Group, which allows them to add
+ this enhanced layer of trust for users
+ and verify that users are above 18
+ without revealing any sensitive information.
+ And you have integrations with Shopify
+ where Shopify merchants lose a ton of money
+ to bots that are stealing discounts
+ or people that are spinning up fake emails
+ to claim multiple discounts.
+ And they can offer discounts exclusively
+ to people that have a world ID.
+ So I think the acceleration of use cases
+ both inside and outside of crypto
+ is really, really exciting for proof of personhood.
+ - That's pretty awesome.
+ It sounds like there is going to be a fast lane
+ developed now maybe for humans.
+ And once the service that you're getting
+ is so much more convenient or useful or quick or whatever,
+ that seems like a pretty good road to adoption.
+ And you see that even at airports, you know?
+ I've got digital ID and breeze on past the security line
+ makes it quite a nice experience.
+ Jay, thanks so much for being here and sharing the idea.
+ - Thanks for having me on.
+ - Matt, hey, welcome.
+ So you are closing us out for our roundup
+ of AI and crypto related ideas.
+ I think we've all had the experience
+ of having creepy ads chase us around the web.
+ I recently visited a cavern
+ and now I'm getting cavern related content on Instagram.
+ So that's interesting.
+ Tell me what you mean by making ads personalized
+ and tailored but not creepy and how crypto
+ can in fact solve this problem.
+ - So I think it's actually best to take a step back
+ and to describe it in kind of two parts.
+ So if we're envisioning what's happening in the ecosystem,
+ in crypto, we're starting to get like really low fee
+ transactions, which basically mean money can flow really fast
+ as well as some digital identity systems.
+ So the ability to prove a person as a person.
+ - And we just talked about that with Jay, actually,
+ who was on right before you.
+ - Exactly, this is a little bit tangential to that,
+ which is the case of like,
+ what if we can start decentralizing
+ basically recommendation engines?
+ So with AI and AI agents,
+ especially with people trusting them,
+ can people either run their own
+ or have people run their own on their behalf
+ to kind of advocate for their own interests?
+ So instead of you receiving ads for caverns
+ because like you clicked on a cavern once,
+ it happens to just know that like,
+ hey, your car is getting kind of old
+ and you're looking for a new one.
+ And so it starts to like reach out,
+ find ads for cars you would like,
+ which are gonna be very specific and tailored to you.
+ And then starts to like, go to the ad people
+ and be like, hey, I'd love to serve this ad to this guy,
+ but how much will you pay me?
+ And by it, it means you.
+ - So that's a really fascinating inversion
+ on the way advertising works today.
+ You know, right now, basically you've got big companies
+ that have to make all these guesses about who you are
+ and what your needs might be based on your demographics
+ or what little information they can glean
+ about what kind of person you might be.
+ But what you're describing is like, okay, I have an agent
+ and that agent happens to know that I bought my Subaru
+ in like 2017.
+ And you know, it's got however many miles on it,
+ hundreds of thousands and it's about time
+ that we get an upgrade to a new car or something like that.
+ So it's this much more proactive kind of relationship
+ with ads and advertising that even gives users more agency.
+ - Yes, and then the crypto aspect of it is more or less,
+ there's a big problem with like self-attested demographics
+ and hey, this person will definitely love this ad
+ that is solved by identity, zero knowledge proofs
+ and then making it so they can actually pay you.
+ Cause like, to view an ad, no one's gonna hand you
+ like a hundred dollars usually.
+ They're gonna hand you to view an ad, you know,
+ maybe multiple cents.
+ And then like those transactions aren't feasible
+ with high fee systems.
+ Imagine trying to use a credit card to give someone like 10 cents.
+ The answer would be it would all go to the credit card company
+ and the issuing bank and the guy would receive nothing.
+ Or it would just be denied because I don't know
+ if they allow transactions under a dollar,
+ if we're being honest.
+ And so you get into these systems where like,
+ as they start to stack them, we could potentially have
+ a really cool future where you're able to make decisions
+ for yourself or rather you're able to get something
+ that can make decisions for you in your interest.
+ - So there's two parts of what you just said
+ that are really interesting.
+ One is the privacy aspect of it.
+ And the other is the sort of compensation
+ or monetary aspect of it.
+ So like from a privacy perspective, you know,
+ right now we live on a web where big corporations kind of
+ suck up all of our data and they become these giant honeypots
+ and like do they even want to deal with that data anyway?
+ It's kind of a liability.
+ So what if as a user you got to keep all that information
+ to yourself and selectively prove that you are this kind
+ of whatever person like on a need to know basis,
+ you're sort of not giving up all of your information
+ but you can prove aspects about yourself
+ that prove that you would be the right target
+ for a certain ad.
+ - Well, and you can prove like you've never viewed
+ the ad before and other like dumb things
+ that advertisers are going to want to happen
+ if they're going to like pay you as an individual
+ to view an ad.
+ They don't want to get scammed.
+ And so like this is triage against that as well.
+ So not only are you preserving your privacy
+ on like your preferences and the fact that you want
+ to new car and all these other things,
+ you're also telling them,
+ hey, I'm not ripping you off.
+ And so like it does two things at once.
+ And these two things are very important
+ for the advertisers trusting those systems
+ and for the user being able to trust
+ how those systems operate.
+ 'Cause like if I had to go on chain
+ and like I have to state my name, my preferences,
+ everything about me, 'cause it's possible
+ you're going to need to state like income information.
+ Like they may want to know like, hey.
+ - Yeah, I mean, that's going to depend
+ on what kind of car I buy.
+ Am I buying a McLaren or am I buying Toyota?
+ - Right, Mercedes is going to want to know
+ like does this guy make enough money
+ for me to advertise to him?
+ And so like you don't want to post all that information
+ just in plain text on chain for everyone to see,
+ you want to be able to like take some federated identity
+ that assures them you're a person,
+ take some zero knowledge proofs that assure them,
+ hey, I'm in an income bracket where you'd want to advertise
+ to me, I'm likely to view or I'm likely to purchase it.
+ There's a whole bunch of things that I can attest to
+ that you don't know exactly what it is.
+ You've just written a set of rules that like,
+ these are the things in a person I want to advertise to.
+ And I say, I am that type of person.
+ And then they go, okay, cool, here's the ad.
+ - That's so interesting.
+ Yeah, so there's the privacy aspect,
+ but it actually also works in the favor of the advertiser
+ like you're saying where you want to make sure
+ that somebody isn't just binging ads,
+ watching the same ad over and over
+ and getting paid by the advertiser or company.
+ - Yeah, you don't want click farms.
+ Like click farms are toxic.
+ Like right now you have a bunch of people on phones
+ viewing ads to essentially steal money from platforms, right?
+ You don't want that.
+ How do you avoid it?
+ Can you prove you're a person?
+ Can you prove all these other things about you?
+ Like, okay, can you prove you've never seen this ad before?
+ All right, we're good.
+ Here's the ad, have fun, and here's 30 cents.
+ Go view your article now.
+ And then I think we should also talk about the third component
+ which is whether or not like web services start to embrace
+ that you could charge small amounts for viewing content.
+ So like instead of an ad service model
+ on a thing like YouTube,
+ the YouTube people could just be like,
+ hey, listen, pay me four cents
+ and I'll let you view the video
+ or pay me four cents after the first 30 seconds.
+ And they could get points where like,
+ if they get a million views,
+ that's four cents per view, like kind of fire.
+ - It sounds like such a small shift.
+ Like, oh, just a few cents, whatever, you know, to pay,
+ but it is such a radical departure
+ from the way things operate now.
+ - It probably won't happen with like the C platforms.
+ It'll probably be new platforms up and coming
+ that realize we can use different forms of monetization
+ to go forward.
+ They'll start to use them.
+ If they catch on, then other people will look at it
+ and be like, why aren't we using that?
+ That makes more sense.
+ And then kind of like roll that forward.
+ But yeah, a lot of this is like,
+ could it happen maybe?
+ Will it happen?
+ No one knows.
+ - This, while it sounds like it does sound
+ like a radical kind of difference
+ in the way these business models operate,
+ there's actually also a lot of similarity
+ because these ad networks are making small micro
+ sort of transactions happen on the back end
+ of a lot of websites and enabling this monetized,
+ open free web.
+ And so it's not like something like that
+ doesn't already exist.
+ It just sort of shifts around a little bit
+ who is providing the money to who.
+ - Right, and how much is being provided?
+ It's likely that any network that was able to get this going,
+ it's probably paying a lot more to creators
+ because creators can see, hey,
+ users are paying you four cents to view it.
+ Give me three and a half.
+ And like instead of a 50/50 split like YouTube has
+ or like a 60/40 or something weird,
+ it just becomes a very transparent game they're playing.
+ They know exactly how much is there.
+ They know exactly how much is on the table.
+ And they also don't have risk of getting demonetized
+ by advertisers.
+ 'Cause like, I can't get demonetized
+ if the users are paying me directly
+ and like users will go seek out the ads
+ or their AIs will seek out the ads.
+ So they're not next to my content.
+ They're just within the ad networks
+ where the ad page you get when you open your browser
+ and it says, hey, your funds are low.
+ You wanna watch some ads and they're like, okay, fine.
+ And then it shows you a bunch of cool ads you get hyped
+ and then you're like on the internet having fun.
+ Matt, would you willingly go out
+ and watch ads for compensation?
+ Well, I mean, I'm not gonna go to an ad company
+ and ask for the ad and go through all that process.
+ But if there's a bespoke built-in process for the AI
+ that is helping me manage my life and online identity
+ to go and do that for me, yes.
+ Like if I open it up and I'm just like, man,
+ I haven't seen any ads in a while.
+ Like I know there's stuff I'm probably just not aware of.
+ Tell me what's out there that I should probably be buying.
+ And then it brings up an ad.
+ It's like, hey, did you see this cool new thing
+ that was there?
+ I was like, I didn't, thank you, AI.
+ And that's by the way, the utility of ads, right?
+ Like they're a good thing when served and managed well.
+ The first thing that comes to mind when I think of being paid
+ to watch ads, I picture the guy from a clockwork orange,
+ you know, undergoing the Letavico technique
+ with his like eyes being set open or watching a screen
+ where he tries to close his eyes and his room beeps at him.
+ Watch the ads, watch the ads.
+ But that's the more dystopian point is like,
+ we're going to get to the point where ads or ad companies
+ or places that are trying to get you to watch ads
+ so they can monetize the ad buys are just going to sit there
+ and be like, we've found ways to detect how people
+ and when people are watching ads, and we'll take over
+ your 3D devices, and if you look away,
+ we're just going to stop the ad and make you look at it, right?
+ Versus like, if it's something you want,
+ if it's something you need, if it's a movie
+ that you'll probably watch, if it's a game you want to play,
+ if it's things you'd want, but you're just generally
+ not aware of it, that's where like,
+ you don't really have to coerce anyone
+ to watch ads they want.
+ That's not a thing.
+ Like I think we're too used to the caustic ads
+ to realize that like, there are certain ads that hit
+ and you're like, man, awesome.
+ Like I just, I was unaware this was there,
+ I'm going to go do this right now.
+ - Yeah, it sounds like the ad economy can work for you
+ and it can do so through the unique combination
+ of AI and crypto.
+ It's a pretty nice vision of how these two technologies
+ can coincide and provide some pretty interesting value.
+ - Absolutely, yeah.
+ Let's make the cypher funk feature happen.
+ - Excellent, all right, Matt, thanks for coming on.
+ See ya.
+ - So everybody listening out there,
+ you can check out Matt's idea,
+ as well as all the other people you heard on this podcast,
+ if you go to a16zcrypto.com.
+ You can see their special feature called AI
+ and crypto crossovers.
+ Chalk full of good ideas in there,
+ let us know what you think when you read it.
+ Thanks for listening.
+ (upbeat music)
+ (upbeat music)

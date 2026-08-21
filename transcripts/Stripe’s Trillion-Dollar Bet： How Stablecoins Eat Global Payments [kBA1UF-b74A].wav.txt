@@ -1,0 +1,912 @@
+ You send a stablecoin over a blockchain and, you know, you could see when it was sent,
+ you could see when it was confirmed, you could see when it was delivered, you could see that it's
+ not just very basic things that why, you know, in addition to costs and, you know, things that
+ are more complicated that made us believe that this was a better, that money would be tokenized.
+ At some point in time, people, businesses, fintechs, banks would see the value in using this
+ emergent payment bill, and we were building for that future.
+ Welcome to Bankless, where we explore the frontier of internet money and internet finance.
+ This is Ryan Sean Adams, it's just me today, David Zhao, so I'm here to help you become
+ more Bankless. Every company in fintech is about to go through what I'm calling a crypto
+ transformation. Stripe is one of those companies. It's a $90 billion private payments company
+ behemoth, a company that does 1.3 of global GDP's worth of payments volume every single year.
+ They're definitely at the frontier of this crypto transformation. They're moving quite
+ quickly. They've invested big in stablecoins, and I think after the genius bill has just been signed,
+ they are doubling down in a big way. Zach Abrams is leading part of that transformation at Stripe.
+ Stripe just bought his stablecoin company, a company called Bridge for for $1 billion about
+ a year ago, and they've made more crypto acquisition since companies like Privy have been among them.
+ This conversation with Zach is a glimpse into how big fintech companies think about this transformation,
+ how they're going to evolve in the future. And it's a different perspective than the crypto
+ native one that we typically have on Bankless. That's why it's so valuable for us to hear.
+ It's also the story of Zach, who's this tenacious entrepreneur who had this thesis around stablecoins,
+ and persevered with that thesis, built this company through some very dark times,
+ leading to this major acquisition. Now, shortly after recording this episode,
+ Stripe launched some details on a layer one that they're sponsoring. People are calling this the
+ Stripe layer one. Their guest says it's more of a consortium. It's called Tempo. It's an EVM chain.
+ It's being launched with the consortium of fintech players. We discussed that too,
+ and why they didn't go with a layer one or a layer two. Big questions. What's Stripe doing next in
+ crypto? What's every fintech about to do? Zach Abrams helps answer those questions today.
+ So let's get right to that episode. But before we do, I want to thank the sponsors that made it
+ possible. Imagine a world where traditional finance meets the power of blockchain seamlessly.
+ That's what mantle is pioneering with blockchain for banking, a revolutionary new category at the
+ intersection of tradfi and web3. At the heart is you are the world's first money app built fully on
+ chain. It gives you a Swiss I ban account blending fiat currencies like the euro, the Swiss franc,
+ the United States dollar or the remimbi with crypto all in one place. Enjoy real world usability
+ and blockchains trust and programmability. Transactions post directly to the blockchain
+ compatible with tradfi rails and packed with integrated DeFi futures. You are transforms
+ mantle network into the ultimate platform for on-chain financial services. Unifying payments,
+ trading and assets like the MI4, the ME protocol and functions FBTC backed by developer grants,
+ ecosystem incentives and top distribution through the UR app, reward stations and buy bit launch pool.
+ For MNT holders, every economic activity in UR drives value back to you, embodying the entire
+ stack and future growth of this super app ecosystem. Follow mantle on X at mantle_official for the
+ latest updates on blockchain for banking. That's x.com/mantle_official. DGN started as a tight-knit
+ community on Farcaster and organically grew into one of the top meme coins on base. What began
+ as a simple idea, tip anyone who joins the fun, sparked an economy that turned into a movement.
+ The community runs the show from the logo and the lower to funding and building ambitious ideas
+ together. Over 1 million dee-gens now power each other with their generosity, creativity and ability
+ to get things done. At the center is the DGN token. It rewards engagement, fuels tipping and drives
+ the marketplace for builders and fans. That same energy gave rise to DGN chain, a fast low cost
+ layer three for new projects. And now the DGN app, the easiest way to connect, earn and participate
+ in decentralized social media with a built-in wallet and real token utility. In DGN, the hat stays on.
+ Join DGN and get on the app wait list at www.degen.tips.
+ Bankless Nation, very excited to introduce you to Zach Abrams. First, Zach, it's great to have
+ you on Bankless. And I gotta say this, the outset, congrats on selling your company, the company you
+ co-founded Bridge to Stripe. You did that in October of last year, at least that's what it was announced.
+ This was reportedly, I don't know if you can confirm this rumor, over a billion dollar acquisition.
+ Stripe's largest yet. So this was like a crypto unicorn and it's a big deal. Congrats on that.
+ Yeah, really, really appreciate it. And a lot has changed since then. That feels like 100 years
+ ago. Yeah, I don't know. It's kind of funny to me that Stripe bought a company pre-genius bill.
+ You know what I mean? Like bought a stablecoin company pre-genius bill. What kind of foresight
+ was that? I mean, it was pre the election when a bunch of stuff started to shift right after
+ pre-genius, a bunch of things. But I think the main thing probably for them and for us was that
+ you could start to see that it was working. And it had changed pretty quickly. Like two years
+ ago or three years ago, it was not working terribly well. Same coins or crypto in general.
+ Yeah, like the business, stablecoins generally, I mean, there was like Terra Luna and FTX and so on.
+ Forgot about that. Yeah, that's like in the in the long distant past now. But but it was like
+ starting to work. Like there were like real payments, companies and fintechs that were building on
+ us and you could squint and kind of see into the future that this was going to be very meaningful.
+ Yeah, it was very cool. I guess that's what the that's the genius of the calls and brothers.
+ They tend to build a squint and see you in the future. And they saw this one coming. I want to
+ talk about them in a minute, but first your own story, okay? Give us your, I guess, crypto
+ founder arc, if you will. And you could begin this wherever you want. I'll leave that open end
+ to see you. Where does the story begin for you? And how did you get on the other side? Now you're
+ working at Stripe Posta, maybe a billion dollar acquisition? Well, I guess for me, it kind of
+ started where most crypto founders start with auto parts. So coming out of college, I wanted to
+ be an operating partner at a private equity firm, which is a very bizarre thing to want to be.
+ Okay. And I went into private because like I thought it would be fun to like turn around and
+ like Rodney's companies. And we I joined this private equity firm that was buying distressed
+ businesses in 2009. The auto industry was like in, you know, complete turmoil. We bought an auto
+ parts company. I was like sent in as like a 22 year old to like be the CFO of this auto parts
+ company. Oh my god. How did you get that big as a 22 year old? Yeah, I mean, it was it was very
+ bleak though, because I was like, you know, you could imagine a 22 year old like, you know,
+ do we be kid? I was like going to Canada and like announcing to all of this company's, you know,
+ factory folks that we were closing factories in Canada, and then going to Mexico and cutting ribbons.
+ And I was like, this is not what I want to do. I want to like build stuff. This is the exact
+ opposite. And so I left private equity. And I had heard that people on the west coast were like
+ starting companies. But I went to Duke at the time. There were there were like legitimately,
+ when I graduated, maybe seven or eight computer science graduates, I do and all of Duke.
+ What was everyone doing over there? Everyone was doing a call on everyone going into like
+ going into going into investment banking and so on. And so I didn't really know people
+ that were starting companies. And so I decided I was like, I'm just going to start a company.
+ Like, I think that I can do it. And the first company we I wanted to start was actually like
+ a by now pay later, like, like, Klarna or a firm, but in 2010. And it's like the hardest business
+ imaginable to build because you have like large partnerships and you have like credit, you know,
+ and fraud and risk and, you know, all this, all this stuff. And I went to go raise money and I
+ went to the start this company. I thought the way that you did it is like you put together
+ presentation, you went to a VC, they gave you money. And then you hired an engineering team to
+ build with it. And so I was like sorely disappointed when I went into all these VCs offices. And then
+ they were like, show me the product. Like, you're not an engineer by training then you didn't study
+ it. Do I do? Okay, I didn't, I didn't study in a minute. And I didn't know anything. I didn't
+ even know what an engineer did. I didn't know what a designer did. I didn't know what a product
+ manager did. I was like the least equipped person to start a company imaginable. And then I went on
+ this like horrific one year journey to start this company where I like, you know, realized I need
+ to teach myself to code. So I went to like coding schools in New York. And then I realized I needed
+ co-founder and it was like co-founder dating, you know, it was like you go to a bar and it was like,
+ you know, 100 people like me and one engineer.
+ One very, very popular engineer. Exactly. Exactly. And eventually I met Sean, who is now my co-founder
+ for, for, for bridge, but Sean also had gone to Duke and, and I met Sean and this was maybe like
+ nine months into that journey. And I convinced him to start this company with me. And then we were
+ able to like raise money and build some momentum. And you know, then I moved to the west coast and,
+ and that company didn't end up working out. We sold it to, we sold it to square. But that's how I
+ kind of like ended up on this path and, you know, which started in a, in a wildly different place.
+ So that said you on the FinTech path, though. So I guess the square acquisition, maybe that
+ wasn't a, you know, like a banger, but at least it was sort of an exit out of the, the startup
+ pain that you were in. But you've since, in addition to square, you had some tenure at, at
+ Brex as well. And also Coinbase. So it's like FinTech plus, plus crypto is, is on the CD. Yeah, totally. I mean,
+ I did not. So each time it came to like find a new company. I found myself, you know, only in hindsight,
+ did I realize that I'm just like really interested in FinTech. It was just, you know, I was given a
+ menu of options and theory of like companies that I could go to. And every single time I happened to
+ pick the same type of item on the menu, which was the FinTech company. And in 2016, I think is when
+ I applied to Coinbase, I had this like real excitement around crypto. I had when when I had first moved
+ to San Francisco to start evenly, that was our first company. That's when Bitcoin ran out to like
+ $1,000, you know, $1,000 and then kind of crashed. That was maybe like 2012 or 2013 or something. And
+ so that's when both Sean and I had like, I think, I think it was true for Sean too. But we had bought
+ our first Bitcoin and, and like went to like meetups. And you know, people had like, you know, we're
+ building all, you know, all this Bitcoin mining stuff. And there was like all these hardware
+ companies and so on. Anyways, that had like kind of created an interest for me. And then
+ in 2016, I had this, you know, I was this is post square, this like just general excitement that I
+ thought that like this was going to be, I don't know what triggered it in me, but I thought this
+ was going to be really meaningful. And at the time I joined Coinbase and it was, you know, maybe
+ 70 people or 60 people, but Coinbase is like a weird company. It's not like a company that exists
+ today where, you know, people have like 70 employees after like three months. Coinbase had like been
+ around for like five years or something. Like I was like employee number like 200 or something.
+ But at the time there were only 70 people there because it's just Coinbase had been through
+ so many different, you know, pivots and iterations and, and so on. And at the time when I joined
+ Coinbase had this is a kind of like an intersection with Stripe. Coinbase had just realized that paying
+ and buying stuff with Bitcoin on the internet was like not going to be the next thing. And like the
+ big marquee customers at the time were Stripe were was using it and overstock.com was using Stripe
+ was using Coinbase back then. Yeah, was using Coinbase back then for the the buy with Bitcoin
+ functionality. Okay. Okay. And right around the time that I joined was when, you know, we at
+ Coinbase realized, Oh, maybe that's not the thing. Maybe, you know, this exchange, you know, buying
+ and selling on the exchanges like has real legs and going to be going to be a big business. And then
+ 2017 happened and it was like the wildest ride one could imagine. As Coinbase went from this like
+ very niche company to a major American, you know, financial services company almost overnight. And
+ then through that journey, one of the last things I worked on at Coinbase was USDC. And the launch
+ of USDC for the a lot of other people worked on the actual implementation of USDC. But I was
+ running the Coinbase consumer business. And our goal was to take USDC and figure out how to use it
+ and make it useful. And that's when as we started like figuring out how we would productize it,
+ came to this view that it could be this like first, you know, global store of value.
+ And there was a bunch of things around like turning Coinbase consumer into a new
+ bank that we wanted to do. But I never actually implemented and then left and then went to Brexit.
+ You went to Brexit. So you went back to the fintech side of things before then then starting a bridge.
+ Yeah. Yeah. Exactly. And it helped to have like two years away to kind of reflect on it and see a
+ lot of the problems that Brexit is because Brexit was like trying to expand internationally. And it
+ was like very clear as I had worked on a bunch of these different products, how, you know, a lot of
+ the domestic problems, especially in some of the more developed markets had been solved. But a lot
+ of the international problems had not been at all. What's so fascinating about your, I guess, resume
+ your experience here, Zach, and eventually like founding bridge is you're one of the few people who
+ are, I guess, a bridge between fintech and crypto, which is somewhat interesting. So my
+ experience is I found many of the fintech people skeptical about crypto. And many of the crypto
+ people just don't get fintech and don't even think it's irrelevant. And so the two kind of camps
+ have been growing independently for a while. It was crypto over here. And then fintech was doing
+ its own thing over here. I think that has changed this cycle, maybe starting in 23. But now it's
+ definitely crescendoed in 2025, where we're starting to see a convergence between fintech and crypto.
+ And in general, all of finance and cryptocurrency, are they different? Are they one and the same?
+ I think that's going to be a major theme of this episode, that convergence. It's certainly a theme
+ of this cycle. How did you, I guess, bridge that gap? What did you see that made you still not
+ skeptical enough about crypto? You're in fintech, but you're still open to crypto, right? And then
+ also in fintech, but not kind of like you bounce back and forth and you saw both of these worlds.
+ What did you see that the other fintech people didn't? I mean, first, I just
+ completely agree with the premise of the question. I think that one of the big,
+ one of the unique advantages that we had when we started bridge is that we sat in the middle,
+ we had a deep understanding of the financial landscape and an appreciation for what crypto
+ made possible. And there were just, there's like so few. I mean, now there are more. But at the time,
+ I felt like, and maybe this is true, but we were one of the only teams that sort of sat at this
+ at this intersection, you either were sort of like a religiously believed in crypto and felt that
+ like the existing financial ecosystem was like completely dysfunctional and would be replaced.
+ Or you lived in the existing financial system and thought that crypto was like purely speculative
+ and like, you know, crazy to scams and drug deals and crazy jpegs and just like all speculation,
+ nothing there, right? Yeah, exactly. And, and you know, the, the, the, the overlap of these two,
+ these two circles was incredibly, incredibly small, which created our opportunity.
+ It made it really hard at the beginning because like, you know, we, because of where we sat,
+ we had to go and work with banks. We, we were trying to sell to non crypto companies.
+ And so it was really challenging at the, at the beginning. I mean, because, because there was
+ nobody else who was at this, at this intersection, even today, it's, it's definitely a little bit
+ harder, but, but it's getting much, much easier. Like you found you founded bridge in 2022, right?
+ And the, that was a, that was a dark year for crypto. And so it was 2023, right? I mean,
+ that was just all of the momentum that we had. And I would say public goodwill that crypto had
+ as an industry came crashing down with sandbank been freed and FTX, the corresponding selloff and
+ all of the political goodwill to make something like stable coins happen in the US. That completely
+ evaporated. And of course, bankless listeners know we got years of operation choke point and like,
+ lots of bad things on the back of that. And here, you were trying to found a, like a bridge between
+ traditional finance, basically, FinTech and crypto during this, this very dark period of time. I mean,
+ what was that like? It was just as bad as you're describing and probably even worse because,
+ you know, Terrell Luna also happened, which really, you know, Terrell Luna kind of made stable coins
+ seem, seem, you know, tainted the entirety of the stable coin space. You know, you, you,
+ you also had a bunch of banks that were like crypto friendly banks that, that ended up like
+ going bankrupt. So all of the folks were in that Venn diagram. A lot of the folks got punished for
+ being in the middle of those two. So you had like signature and Silvergate went out of business.
+ You even had that was like 2023, right? It's a win. Yeah. Yeah. That was early 2023. And like,
+ you had BankProve, which most people don't talk about, but BankProve was another one of the,
+ one of the crypto friendly banks. They did a bunch of loans to Bitcoin miners.
+ And those loans went like massively underwater and the CEO got fired. I mean, it was like,
+ almost everybody who sat in this like intersection was, was punished in some capacity. The thing for
+ us is, I think when people start companies, there is like, like right now everybody wants to start
+ an AI company because it's like, you know, the invoke thing to do. And it's easy to start something
+ when everyone else externally is giving you validation that your thing is like an it thing
+ to do. But at the end of the day, making a company success was almost always like driven by a like
+ founder or the early teams, like just core belief that this thing needs to be built into existence.
+ And so the nice thing about founding the company when we did is that like that, that, that, you
+ know, desire to will this thing into existence was tested extremely early. And we just had a like
+ very core belief that stablecoins were represented a better means of building financial products.
+ And and not for some, you know, ideological reason, but because they literally made it like faster
+ and cheaper and more accessible and so on. And a better way of moving money for the same reasons,
+ it was tangibly cheaper and faster and a better mechanism to send funds like a great example that
+ that people, you know, I don't think a lot of people think about is like, if you send money
+ through the existing, you know, through ach or wire, you have no confirmation that your money
+ was ever delivered. Like, you just have no idea, you just send it and you just hope that it arrives.
+ Is that have you ever lost a wire that way?
+ So this was actually relatively recently, I sent a wire from one place to another is where,
+ yeah, I do some trad fi, I do have a bank, I'm not completely bankless everybody. So, you know,
+ full disclosure there and breaking wire breaking. Yeah, breaking the speaking of breaking,
+ the wire didn't end up, you know, you have to wait. And so I waited like 24 hours, 48 hours,
+ the wire did not end up where I had thought that I sent it. And I freaked out. And then I went
+ through this process of trying to figure out, like, did the wire actually settle? Like, where is it?
+ Where's the idea on Fedwire? And I must have talked to five or six people. This was between
+ a brokerage account I have and, you know, somewhere else in order. And they gave it to a wire tracing
+ team. They said, you know, the process would be like 48 hours to 72 hours turnaround time. I said,
+ how often do these cases get resolved? They say most of the time, but no promises. I was like,
+ you can't even track the wire? Like, this is crazy. Yeah. I mean, it's, it's nuts. And like,
+ you know, you send a stablecoin over, over a blockchain and, you know, you could see when it
+ was set, you could see when it was confirmed, you could see when it was delivered, you could see
+ that it's stuck. And, and it's like, like, just very basic things that why, you know, in addition to
+ costs and, you know, more things that are more complicated that, that, that made us believe that
+ this was a better, that money would be tokenized. And at some point in time, you know, people would
+ see the, you know, people, businesses, fintechs, banks would see the value and using this
+ emergent payment rail. And we were building for that future. We just had this very core
+ belief. And, and like, I had just seen it, this is one of the things that probably helped the
+ most of having this, like, history and fintech, I just seen this over and over again, that like,
+ fintech products that were successful, were successful for super obvious reasons. Like,
+ this isn't like a consumer company or something of like, why isn't why did Instagram beat whoever?
+ Why did Facebook beat, you know, this thing? You know, it's like, why did Robinhood win?
+ They had free trading, like, you know, when everyone else costs $5, it's like, you don't need to be
+ a genius to figure out why did Square win? Well, because it costs like, thousands of dollars a year
+ in 5% for a small business to process credit card transactions before they made it, you could
+ sign up instantly and they made it really cheap. Same thing for for for Stripe and so on. And with
+ financial products, eventually, over some arc of time, people are rational. So there was this perceived
+ stigma and perceived risk of building and using stablecoins, but there were all these very tangible
+ benefits of building and using stablecoins. And we were sort of building towards the future where
+ those perceivers would come down and people would realize the tangible, be able to realize
+ the tangible benefits. And for us, it started with those who were, you know, the most, the farthest
+ on the risk curve, you know, like startups and, and so on. And then now, as we've had, like,
+ regulatory clarity and so on, you know, folks who are not as far down the risk curve, you know,
+ and increasingly large enterprises and governments are now using stablecoins, which is really cool
+ to see. But it all emanated from that core belief that this like made financial sense for people
+ to build with. Yeah, that core belief, that was the unshakable thesis, I guess, back in 2022,
+ when it was not obvious, when it was not popular, Terra Luna collapsed, stablecoins are dead. This
+ will never work in crypto. Then you also had things like tether, which is like, what is that? It's
+ just like, AML, KYC, like, what's going on there? Is that, you know, shady sort of cryptocurrency,
+ what's going on? So that's the unshakable, like, you're the closest thing, I would say,
+ Zach, to like a stablecoin maxi that I've seen. We have all sorts of different religions in
+ crypto, as you know, and like, you might be the state, because I've heard you say things that
+ even you, you, you've been skeptical of some of the value proposition of crypto until stablecoins.
+ You said that stablecoins are the next evolution of money. I think this is also one of your quotes.
+ I'm building in crypto because I love financial services, and I believe this new platform can be
+ used to create better products. I'm not trying to free the world from centralization or build a
+ libertarian utopia. Some crypto native bank listeners might say, "Oh, okay, come on, Zach,
+ like, that's what we're trying to do in crypto." But you're pretty, like, you're pretty straightforward
+ in the fact that you think the big value proposition, the thing that you really want to
+ build in crypto, is this better fintech system based around stablecoins. So for people who aren't
+ aware, when they think stablecoins in crypto, they think maybe circle, they think maybe
+ tether some of the issuers, but you built something else. Although I believe Bridge does have a stablecoin
+ itself, but Bridge is kind of a stablecoin's payment platform. So what did you build over there
+ from 2022 up until you're acquired? What mission are you continuing with Bridge?
+ One of the other benefits of having worked at a bunch of these companies, like Work at Square,
+ Work at Brex or Work at, and now, Work at Stripe, is I've just seen how... I've always had this
+ interest in finance. Money is incredibly important in people's lives, obviously, and even very
+ marginal improvements to the way that people are able to accept or manage or facilitate the
+ movement of money. I've very tangibly seen the disproportionate impact that that has on people's
+ lives. Like, Take Square, for instance, you created a dongle, so it made it easier for someone to
+ accept a credit card payment. And at the time, a lot of people walked around and carried cash,
+ and what have you, but Square has enabled success of millions of merchants, enabled them to sell more
+ goods, enabled them their business to go from unprofitable to profitable, enabled them to capture
+ that incremental sale. And it's totally changed the livelihoods of many people. Stablecoins are
+ like that, but the scale is so much bigger. A stablecoin can be used and stored by people
+ all around the world. Now, with the stablecoin, people in every country have real economic choice
+ that they didn't have before. Now, with the stablecoin, you can move money between countries
+ that are fraction of the cost that you used to. And the opportunities that this opens up,
+ the applications that people are going to be able to build are pretty profound.
+ So we were always like very, you know, and I was in particular very motivated by this, like,
+ you know, long term, you know, belief in outcome and what could be possible. But yeah,
+ some of those things happen, you know, the only thing that was like that did, you know,
+ I'm not going to say that we were like completely unshakable. We always had this belief, but
+ the one thing that at some point, this was like, like, you know, the week that we launched our
+ APIs was the week that SBB collapsed. And I remember that that I had a conversation with Sean,
+ and I was like, you know, I still believe that we're right. But this might be now like 10 years away.
+ Like I thought the timelines might be off. Like little did you know, at that point in time,
+ you were just 24 months away from the first major crypto legislation to pass in the U.S.
+ and it happened to be stablecoin legislation. And that is going to lead to basically it's just
+ overnight legitimacy for stablecoins and a stablecoin bonanza explosion. And you were only 24 months
+ away from that at one of your lowest points as a startup founder thinking about your thesis.
+ It's incredible. Yeah. I mean, I think of anything like going through that at the beginning made us
+ like, you know, we were always extremely worried about like putting our like proverbial next meal
+ on the table, if you will, like because the first like 18 months of the company was literally just
+ like signing a bank partner and kicking us off signing a bank partner and going out of business,
+ signing a customer, then going out of business. And so it was like, even when things eventually
+ started to go right, we were like, wait a second, this is not going to last.
+ When did they start going right? Was that closer to 2024? They started going right.
+ I would say around June of 2023. Okay. Okay. June of 2023 is like, like we started early 2022.
+ So like 18 months in, they started going right. And so we had launched the API.
+ Maybe you come back to your previous question. What is Bridge? Bridge facilitates money movement
+ with stablecoins. Our view is that, you know, you have this fiat ecosystem that exists today and
+ stablecoins are like a scaling layer on top of the fiat ecosystem. And so you could kind of think of
+ our mental model is that stablecoins are like a layer two to the fiat systems layer one. And money
+ would need to move up into this tokenized form to take advantage of all these benefits. But it
+ will constantly need to settle back down to the layer one. And like a good example of this is a
+ cross border payment. Maybe it comes from fiat because, you know, the business or what have you
+ were are moving money in fiat and moves up to the scaling layer becomes tokenized,
+ it moves cross border and then it might settle back down into the recipient's bank account in fiat.
+ Okay. And so the the layer one in this example, the kind of the fiat layer, what is that? Is that
+ is that bank settlement that eventually gets down all the way to kind of like Fedwire somewhere?
+ Exactly. Exactly. And today, a lot of that money movement is up, you know, to the layer two and
+ then back down to the layer one. And and that's the way a lot of these and a great example of this is
+ Bridge facilitates people to store money and dollars all over the world. And they're storing
+ those money in stablecoin dollars. And a lot of the way that that plans in their account is maybe
+ they're a we work with scale AI. Scale AI is doing data labeling for AI models. Scales business
+ operates in US dollars in fiat US dollars. Scale sends that money to bridge bridge converts all
+ that money into stablecoins and then disperses the stablecoins to the data labelers all over the world.
+ And so it starts in the fiat layer, we can we tokenize all this money and then we disperse it
+ out to people to take advantage of the benefits that exists with stablecoins.
+ So is that what bridge essentially is? It's kind of a bridge between the fiat layer,
+ the layer one and all of these these banks that settle down to kind of the traditional bank system
+ in Fedwire and stablecoins, which is kind of the layer two and the tokenized world of stablecoins
+ that we know you guys sit in between those. And so when you were talking about APIs,
+ it's APIs between that banking layer and basically, you know, tokenized stablecoins.
+ Yep, exactly. And we basically built four developers. So those developers today are mostly
+ fintechs or banks or startups. And they want to take advantage of, you know, moving money,
+ cross border with stablecoins or accepting stablecoin payloads or giving their customers
+ the ability to store tokenized dollars or issuing cards on top of the stablecoins.
+ And we make all of those accessible through pretty simple APIs. So they don't have to learn all
+ the nuances of the crypto ecosystem and the fiat ecosystem and KYC and compliance and all those
+ things. It's just packaged up and then you can deliver whatever value it is you want to deliver
+ to your end customers. And so do you guys have a stablecoin like a USDC? We do. We do. Yep. We have
+ it. We have a stablecoin and, you know, we basically offer, you know, today, so we started off
+ back in coming back to your other question in June of when things started working.
+ Our first core product was our orchestration. We called our orchestration APIs and the
+ orchestration APIs just facilitate money movement between the fiat layer and the stablecoin layer.
+ And the first use case that started working was stablecoins for cross border payments.
+ And so when it really started working was this company Zulu, they were like our first like,
+ I would say like real customer, you know, like, like we, I tweeted something. They found us.
+ They were a huge pain in the butt to negotiate with. They like ground us down on fees, you know,
+ I almost gave up on the deal like a hundred times because I had never sold anything in my life.
+ And but then they came on the platform and they were taking Colombian pesos and converting them
+ into stablecoins and they needed someone like bridge to take those stablecoins and then convert
+ them into US dollars in the US so they could facilitate Colombian pesos to US dollar cross border
+ money movement. And so they just wanted a very simple service where they could send a stablecoin
+ and then tell us to deposit a stablecoin into a bank account. And so we created a product that
+ basically gives a bank account a crypto address. Wow. And so you just send a stablecoin to a
+ specific Ethereum or Solana or whatever address. And that address is programmed to always take it
+ convert it into a currency and send it via ACH or wire to the associated bank account. And very
+ simple product for them to use they would hit the API create it and send all they wanted to that
+ account and we would deposit it into into the account. And Zulu signed up. They were growing,
+ you know, 50 to 100% every month. And so as a result, bridge was growing 50 to 100%.
+ And and basically, you know, startups are this like really funny thing where in one lens,
+ you could look at our company and you could say, wow, this thing is super fragile and there's no
+ product market fit because it has one customer. We had others, but like really it was a one customer.
+ But on the other hand, you could look at it and you could say, wow, this is like really working
+ because it's growing, you know, 50 to 100% every single month. And they carried us for like the
+ first three, four months. And so I often wonder like, what it would have been like if we hadn't
+ have found them like the difference between like, you know, now you look at bridge and it's like,
+ oh, bridge is successful. And like, you know, we're part stripe and, you know, stablecoins are a
+ thing. And so it was like always going to work. But at that moment in time, the difference between
+ us being, you know, successful and like feeling like we had built something useful versus like
+ launching a product and having zero traction, you know, like literally zero traction, no customers,
+ no feedback was like one, one customer. It's incredible. And they gave us the confidence to
+ then go sell the pit. So they then go sell the US government. The US government was our next
+ big customers shockingly. Wait, what? What? Yeah, the US government.
+ So that the there was a government aid program where they were dispersing aid to frontline workers
+ across Lattam and all of this aid disbursement happened in stablecoins. And it happened previously
+ through Silvergate. And so then when Silvergate went out of business, they had no means of disbursement
+ payments, because it's really complicated. You would have to take the money from the government,
+ convert it into stablecoins, and then send thousands of stablecoin payments out. So like,
+ it was more than a human could do. You know, I was basically, so I was kind of thinking,
+ when you go through this story, I was kind of thinking about, do you remember our STEMI checks?
+ Do you remember the stimulus checks? Every American received and how weird and janky that was. I mean,
+ I think I got mine through ACH. Some people got checks. If you didn't have a bank account,
+ you didn't have the setup. I don't even know if you got yours, right? Basically. But like,
+ it's a similar thing at a much smaller scale. I'd imagine in terms of you just trying to helicopter
+ some funds to a specific group of people or organizations and like, how do you do that in the
+ existing fiat layer one system? Well, the answer is probably it's a pain in the ass.
+ And it's super expensive. Like, because you have to take the US file format of money,
+ send it through a US partner, who then converts it into whatever the local file format of money is.
+ Maybe it's like Argentinian pesos or Brazilian reis or whatever. That costs money. And then you
+ have to deposit it into the local kettle, which costs more money. And so in each case, there's
+ fixed fees and variable fees. And so for small sums of money, it's it literally is like not possible
+ to disperse these funds in an economical way, which is why they a previous to us had elected to do
+ these disbursements and stable funds. In the wild west of DeFi stability and innovation are
+ everything, which is why you should check out fracks finance, the protocol revolutionizing
+ stablecoins, DeFi and rollers. The core of fracks finance is a fracks USD, which is backed by black
+ rock institutional fiddle fund, fracks designed fracks USD for best-in-class yields across DeFi,
+ tea bills and carry trade returns all in one just head to fracks.com then stake it to earn some
+ of the best yields in DeFi want even more bridge your fracks USD over to the fracks still layer two
+ for the same yield plus frack still points and explore fractals diverse layer two ecosystem with
+ protocols like curve convex and more all rewarding early adopters. Fracks isn't just a protocol,
+ it's a digital nation powered by the FXS token and governed by its global community.
+ Acquire FXS through fracks.com or your go-to decks, stake it and help shape fracks nation's future.
+ Ready to join the forefront of DeFi? Visit fracks.com now to start earning with fracks USD
+ and staked fracks USD and for bankless listeners you can use fracks.com/r/bankless
+ when bridging to fracksal for exclusive fracksal perks and boosted rewards. Ethereum's layer two
+ universe is exploding with choices but if you're looking for the best place to park and move your
+ tokens make your next stop unichain. First liquidity unichain hosts the most liquid uniswap v4 deployment
+ on any layer two giving you deeper pools for flagship pairs like each USDC more liquidity
+ means better prices less slippage and smoother swaps exactly what traders crave the numbers
+ back it up unichain leads all layer twos in total value locked for uniswap v4 and it's not just
+ deep it's fast and fully transparent purpose built to be the home base for DeFi and cross-chain
+ liquidity when it comes to cost unichain is a no-brainer transaction fees come in about 95%
+ cheaper than ethereum mainnet slashing the price of creating or accessing liquidity want to stay
+ in the loop on unichain visit unichain.org or follow at unichain on x for all the updates let me
+ ask you about this just like maybe zooming out if you're you're thinking about kind of the the
+ layer one and being sort of the banking and almost the settlement layer for fiat for stable coins
+ right and the layer two is kind of this tokenized stablecoin layer with with crypto a native platform
+ zak if more and more starts to happen in the layer two because it's just more usable more
+ functional the quote unquote the fintech apps around the world and emerging economies in the US
+ start using that layer two more than they use the layer one what it appears to me happens is you
+ start to essentially bypass the existing banking settlement system at some degree or at least the
+ rich state the actual application happens more and more in the layer two and the banking system
+ just starts to become kind of a dumb settlement layer if you will they're not really doing the
+ kind of the cool value of creative interesting things they're not building the apps but it kind
+ of marginalizes the banks at some level to just doing settlement and I'm wondering about this in
+ the context of if that is the trajectory that we're on do you see kind of some conflict with
+ all of the existing traditional banks you know the JP Morgan's of the world
+ at Jamie Diamon I recently saw this came out and he said you know what you know there's a there's a
+ fintech called plaid I believe you know more about this sack but plaid taps into all of the banks
+ you know basically around the world and gives you a way to kind of like through their API
+ connected to all these banks Jamie Diamon said you know what we don't we don't want plaid
+ pulling customer data even on our customers behalf we're going to start throttling them
+ or we start charging them a fee in order to do this because we basically he's saying we don't
+ want to be relegated to just this dumb settlement layer with like zero percent margin compressions
+ essentially and so I'm wondering if more moves up into that layer two stack and it becomes more
+ crypto more fintech focused will the banks just like they're not going to tolerate this are they
+ they're going to fight back against this are are you seeing some of that I think that they
+ I think that some will I think that so I think that if you take if you take regulation out of the
+ picture completely and you just say like okay the world is this like you know government-free
+ libertarian paradise we would certainly move in that direction where more and more money movement
+ would happen through stablecoins over time you know if you kind of think of the stablecoin layer
+ sitting on top of the bank layer more and more deposits would aggregate to the stablecoin layer
+ more more consumers would solely interact through the stablecoin layer and the banking layer which
+ today is really big and like is the primary conduit through money movement which shrink
+ which shrink progressively over time and the stablecoin layer would grow over time I think
+ that is like the natural way things will move and and the reason is is is like purely practical
+ is that it's going to be easier to build applications on the stablecoin layer you're going to be able
+ to get better economics as a consumer or a business by building on the on that layer money is going
+ to move more cheaply on that layer settlements going to be more you're going to be easier on that layer
+ it's just going to be practical for more and more transactions to live at that layer I do think like
+ the big question for us over some period of time is like all money movement all finance all
+ financial services are downstream of regulatory requirements and so that's the big question of
+ like you know how much moves up to this layer and and obviously the banks are doing as much as they
+ can to to protect the size and importance of their of their layer i'll give you one example of that
+ layer so one thing it seems like the banks really want to protect is yield on essentially treasuries
+ yeah short duration treasuries for instance so it's part of the genius act there was this this
+ carve out where the bank said hey like stablecoins issuers can't directly offer that what four percent
+ yield directly to customers okay only banks can do this all right i'm simplifying you probably
+ know the complexity of it only banks can do this well it turns out in the aftermath of this
+ there's a little workaround that crypto is doing where you don't have the issuer like circle
+ give those yields to individuals who have a stablecoin at four percent you have maybe an
+ exchange to it and so right now i can go on coinbase for example with my usdc and i can get rewards
+ up to it's not quite four percent you know coinbase takes their cut whatever but i actually get
+ some of that yield just by holding stablecoins and you can imagine crypto and defy there could be
+ all sorts of different ways for people who have stablecoins to get that yield and the argument
+ blank slate argument would be why shouldn't they why should the banks get to keep that four percent
+ yield why shouldn't someone who just owns a stablecoin why shouldn't that flow back to
+ individuals citizens like why should this theft of four percent and this rent seeking behavior from
+ banks actually happened well it turns out the bank consortium is coming out and they're saying
+ no no no like we want to plug this loophole we don't want crypto organizations to be able to take
+ advantage of this yield and it seems like there's a fight between the lobbyists right now so you have
+ like crypto and fintech on one side versus the banks but the banks are pretty powerful they've
+ been in dc for a while they i don't know they control some aspect of how the game works and this
+ does seem like a clash of the titans in the making that's what you're saying it it does i would also
+ say though that it isn't necessarily crypto versus the banks because like it's not like tether is giving
+ that yield back yes nor nor is it like circle is giving a lot of that yield nor nor are they
+ incented to want to get that you'll take exactly exactly and and this is one thing i think a lot
+ about is that like the you know before i started bridge i kind of had this view that like things
+ that were um that made sense were like kind of inevitably going to happen so like um to the point
+ that you're making of like this this yield going back to consumers it's like it's inevitably going
+ to happen like you know it just makes so much sense and and so on but but but now it's like much more
+ clear to me that like no nothing nothing is inevitable the only things that happen are the things that
+ somebody or some small team of people or some large team of people fight to make happen and the
+ yield going back to consumers you know will really only happen if someone like us build the mechanisms
+ for that to happen very consistently and change the market dynamics because even if stablecoins are
+ successful if only us dt and us dc are the primary stablecoins in existence then you know and nobody
+ else issue stablecoins tethers never going to pay yield back that's just not their thing and so at
+ some point in time circles and coinbase are going to stop too you know and that surplus is actually
+ not going to go to consumers and businesses that surplus is just going to aggregate to the new
+ equivalent of like a visa mastercard and so you actually need folks to build you know and this
+ is one of the reasons why we have our stablecoin is to create mechanisms so that you know the the
+ benefits of stablecoins the economic rewards from stablecoins can be better diffused down to end
+ customers and diffuse down to end businesses which then you know improve the economics for the
+ platforms and so on so we think this is like really really really important there's like the
+ regulatory fight that's going on but there's also like just the long-term stablecoin market
+ structure fight that needs to the needs to happen to make sure that this creates you know surplus
+ for consumers it doesn't just rearrange value between you know these previous financial institutions
+ and these new financial institutions so being not having a dog in the race except the dog of just
+ like being a stablecoin holder at some level and you know representing you know just individuals
+ who want to receive these yields i i definitely would love to see the rent seeking you know kind
+ of go away and for for more of these yields return to the customer and so let's talk about maybe the
+ the genius bill itself and right now crypto is almost in a duopoly of stablecoins i'd say there's
+ tether of course with the dominant chair and then here's usdc and it appears like these like liquidity
+ of begets liquidity and it does appear to be that there's kind of power law dominance at play here
+ that said we're only at what like 270 billion or so okay and stablecoins are going to grow well
+ into the trillions and the genius bill opens the door for all sorts of new issuers to enter the
+ market we already have some fintechs playing the game there's the paypal stablecoin they've entered
+ you guys have your own i imagine stripe is going to do something big here there's also talk of you
+ know amazon could enter the ring walmart could enter the ring and so it does seem like post genius
+ we're going to be in this a period of time where we're going to see all sorts of different issuers
+ enter and all sorts of different experiments at play all trying to get as much liquidity as they can
+ and get a dominant position and all will have different takes on it so how do you think this
+ stablecoin market will now play out post genius maybe you can talk about like stripe what what you
+ guys are thinking there but then also just like generally do you see a whole bunch of experiments
+ that will play out or like what is the structure here our view is that there will be many many
+ different stablecoins i think that every platform should have its own stablecoin i think that you
+ know we're we could see a world where there are tens or hundreds or hundreds of thousands or
+ millions of different stablecoins however the differences between these stablecoins will be like
+ totally abstracted away and so i think you're only going to have a handful of like branded
+ stablecoins that people know and name you know the usdt usdcs and and i think usdt and usdcs are
+ going to be way more successful tomorrow than they are today and like we obviously hope that they are
+ because they're doing like an enormous service to the space and and there are real network
+ effects to their businesses they're building liquidity they're they're they're building FX
+ trading pairs you know this is like very hard for you know paypal tried and spent a ton of money
+ to break in and build liquidity for py usd and it's been hard it's a very you know there's probably
+ room for five or some handful of these branded stablecoins and then i think that platforms
+ when platforms are building with stablecoins you know like robin hood is building with stablecoins
+ or you know a amazon you mentioned or walmart or you know banks are building with stablecoins
+ they're going to choose to have those stablecoins be stablecoins that they control and the reason
+ is that they're primarily going to be internal stablecoins that they're going to be using to move
+ money amongst their users to disperse funds to their customers those liquidity benefits the usdcs
+ you have are irrelevant for their internal use case like walmart moving money between it's like
+ 20 different entities or whatever across europe is just internal transfers they're going to
+ want it to be in their own stablecoin they're going to want it because they want to control
+ the reserves they don't want them to be you know how that you know with circle and commingled with
+ everyone else they're going to want direct access to the to the yield and they're going to want to
+ control the the dollar that it is you know like right now some of these issuers are charging burn
+ fees to get out of the money like why would you ever move a bunch of your internal funds into
+ a stablecoin that charged you money to to convert back out up it makes it worse than fiat funds so
+ you know you're going to want to control your own money it is like like like not not in like a
+ decentralized way of it but like you don't want to be beholden to some other platform
+ whose interests will be supreme to your own if you if money movement is poor to your business
+ in some way a shape or form okay fasting so let me make sure I understand like you're like the
+ world that you're describing your world so you see a world of maybe say it call it a handful
+ of branded external stablecoins the types that we see in a tether or usdc and each of those I
+ got to imagine it's going to have its own stick its own thing right it's like right now tether is
+ kind of used mostly outside of the us and the rest of the world international world kind of prefers
+ it usdc is known as kind of the compliant coin maybe there's room for another maybe there's room
+ for one that kind of uh provides a way to pass yield back to its customers or there's some other
+ things that might be but these are a small set of external kind of stablecoin players but then
+ every major company is going to have their own internal corporate stablecoin as well and I almost
+ think of like you think about starbucks gift card points right now and they sort of have that in
+ a way it's not in a fungible erc 20 stablecoin type of setup but it exists inside of the starbucks
+ balance sheet so you see a world of that and then you see a world of many thousands of these things
+ hundreds of thousands many millions of these things but I got to imagine they are all
+ composable with each other right like I don't want to have my wells Fargo dollars and they're no good
+ at you know JP Morgan because the JP Morgan has JP Morgan dollars and I got to do a swap here
+ that all has to work the way it works today which is all be kind of fungible anyway just like is
+ that the world that you're you're thinking can it disabuse me of some of these things if you will
+ yeah I mean I mean totally and two really quick examples so let's say that every bank is moving
+ funds with stablecoins because of settlement benefits or what have you wells Fargo is never
+ going to use JP Morgan stablecoin it's just never never going to happen only to wells Fargo yeah never
+ because because all of JP Morgan's you know stablecoins have reserves held at JP Morgan so that would
+ mean that that wells Fargo's reserves are now held at JP Morgan it just makes no sense so that's like
+ never never gonna have it okay the another example is like let's say your polymarket so polymarket
+ today operates primarily with stablecoins you're gonna enable just like polymarket does today
+ for people to bet with whatever stablecoin they want they could send in USDT they could send in
+ USDC they could eventually they'll be able to send in dollars they can send in whatever and then
+ internal to polymarket you're gonna want this to run on poly USD or some stablecoin that is
+ internal to polymarket because you're gonna want to make sure that if polymarket ever builds their
+ own layer two that their stablecoin could go to that layer two you don't have to convince some
+ issuer somewhere else to move the stablecoin over and make it work you're gonna want to make
+ sure that there are never burn fees tied to this so that you can always you know handle
+ redemptions without any cost you're eventually gonna want to program some aspect of the smart
+ contract of these dollars yourself and so it's going to be important for polymarket to control the
+ dollar that it the programmatic and tokenized dollar that it builds on so that they can control
+ their future they probably also want to share the yield right if your polymarket yes yes yes
+ exactly exactly so we we think this is the world that that should exist but but it's one of those
+ things like it has to be built and so the genius act is like a very important first step to enabling
+ it to be built and enabling much more receptivity to it and then there's a bunch of work that we
+ need to do actually make it happen but back to your example so let's say Wells Fargo pushes money
+ to JP Morgan what do they use it like what's kind of do they have to go to an in-between
+ stablecoin do they have to go to USDC or something in order to get it to JP Morgan or do they handle
+ that you know in the back end back to the kind of the layer one the fiat system again yeah what
+ what I imagine will happen is there will be a whole like clearing house for stablecoins okay and so
+ every day these these stablecoins will move between banks and then the end of the day reserves will
+ only will net and move like the actual layer one settlement will be cleaned up and balanced
+ at the end of every day and so you'll only end up moving the net amount which is roughly similar
+ ish to how things kind of work today with kind of different settlement windows but I think that's
+ how it will it will work one really cool thing about maybe what you're doing at Stripe is it appears
+ to me it's just in this area where FinTechs are all going through their crypto transformation
+ it seems like Stripe is now signed up to fully go and be one of the pioneers of going through
+ their crypto transformation so it's interesting I've been tracking the the calls in brothers for a
+ while and they tried some things in crypto previously right including Bitcoin in the past they were
+ skeptical of that it seems like now this is the first and they I think they tried to degrade in
+ the lightning network and you know like all of these things early just crypto experiments this is
+ the first time we've seen Stripe go all in on something in crypto and it started with stablecoins
+ the acquisition of bridge and now they've also purchased privy which is sort of a crypto wallet
+ infrastructure type company so they're making some big plays here but it's just a macro meta of of
+ you know FinTech companies going through a crypto transformation I'm wondering if we could
+ project maybe use your mind you're kind of seeing the futures you saw stablecoin very early
+ five years later or so and what what does FinTech look like five years later after we've gone through
+ this convergence period you know something like Venmo is something maybe our American listeners
+ use every day does that turn into like a crypto wallet are we using rather than you know the the
+ dollars inside of PayPal are they is the backing of those or are they actually all stablecoins
+ underneath like what sort of things do you think we'll we'll see happen through this convergence if
+ we project five years later I think that most financial assets will be tokenized and as a result
+ I think the foundational building block for every FinTech will be a wallet wow and I think that it's
+ like you know today people think of it as like this whole new world that they have to go and
+ like learn about and participate in and so on and it's just going to be you're going to hit an
+ API like a bridge and you're going to create an account for a user and that account is just
+ going to be a wallet and you're going to in that account you're going to enable us currency which
+ will just be a stablecoin and then you'll enable euro currency which will be a different stablecoin
+ and then you'll enable you know reis which will just be a different stablecoin and then you'll
+ enable stock trading which will just be you know another tokenized form of stocks and so on and
+ and I think that we're sort of like you know barring any regulatory dramatic regulatory changes we're
+ sort of on this glide path today and and one of the things I think that's like the like that is
+ kind of the most interesting dynamic that will play out to me is you kind of have
+ all these crypto wallets that started you know obviously in the crypto space that are over time
+ going to move more into the you know traditional financial financial services realm and then you
+ have all these more tradfi companies that are moving into crypto direction yeah and
+ you know over time they will become blended but like take Robinhood as an example you know Robinhood
+ obviously started very traditional with stock trading and so on they've moved pretty heavily
+ into into crypto trading and now one of their big bets is to go international and so how do you go
+ international as a as a fintech you know the the way that I think they're choosing to do it I don't
+ have any insider info on them but like one of the ways if I were them I would do it is you build a
+ wallet core to core to Robinhood and then the amazing thing about a blockchain is it's like is
+ it's like you know open sourced financial services and so then you're building on top of let's say
+ Solana or some some blockchain any time any developer anywhere in the world adds something
+ you know to Solana that is now accessible to Robinhood it's a little bit old it's open 24 hours a day
+ it's accessible in every country with an internet connection it is the old way of building financial
+ services is you had to build everything yourself as a company you know if someone wanted to replicate
+ revenue they have to build all the you know they have to build the regulated infrastructure and
+ in the next country and the next car product and the next stock they have to build it all
+ themselves the amazing thing about blockchain is that people build a tokenized BRL for Solana
+ and now boom Robinhood doesn't have to add that but now Robinhood has you know Brazilian REI
+ deposits natively and now you can store a balance in BRL in Robinhood easily and someone else
+ build that and then someone else builds euros and now they can now they can store euros and then
+ someone else builds tokenized treasuries and now they can offer treasury yields and so you you actually
+ open source your financial stack and let the world build and then you internalize those services
+ and and this is why I think that everything will move will move on chain because you move from
+ this world of like individual companies building up which are limited by their own capacity to a
+ world where you have this massive shared resource of everything that's built on a blockchain and
+ you're just internalizing those services it's funny because it's a simple narrative but we've
+ we've said this is the way it's playing out and now it seems like you're you're saying that it's
+ actually playing up this way which is basically all of the the bank accounts that we use they
+ become crypto wallets in the future whether we know it or not you know it could be on the back end
+ but they all become crypto wallets and all of the assets that we hold they become tokens they're
+ crypto tokens somewhere one other question I guess with this is we've seen some fintechs like
+ Robinhood for example and even Coinbase I guess maybe Coinbase is now more of like moving toward
+ the fintech company they they also launched their own ledgers so those two have layer twos of course
+ and then we've seen some companies you know circle notably recently launching a layer one
+ they're having kind of a stable coins maybe a payments layer one there's also been news recently
+ that stripe is going down the path of launching its own layer one in fact there was an announcement
+ recently that of the tempo project and some detail of what you guys are doing there how does that
+ fit into the stack do all of the banks they're effectively I guess private ledgers on the scenes
+ anyway do all of them convert to become sort of private slash public ledgers blockchain ledgers
+ essentially and launch their own layer ones or layer twos how do you see that evolve well for us
+ it has evolved very naturally I mean we I would say bridge was probably one of the first I don't
+ know if we were the first but we certainly felt like one of the first companies to try to build
+ payment scale infrastructure on a blockchain and it was really hard like and continues to be
+ really hard blockchains are good for a lot of things but they are not great at payment scale
+ functionality like like building something on a theorem I could imagine just you have gas fees
+ even Solana take take the blockchain that everybody loves and thinks is like the poster child for
+ TPS and so on so so we had a customer come to us the other day they have millions of accounts
+ they want to enable stablecoin accounts for all of their customers in order to do that you have to
+ spin up a Solana wallet for everyone and you have to prime that wallet to accept us DC both of those
+ things require soul and about 30 cents of soul in order to do that so it was going to cost them
+ hundreds of thousands if not millions of dollars just to enable this product because that is the way
+ this lana blockchain is as designed it was just not designed with this type of use case of like
+ some developer coming along with millions of accounts and wanting to enable it like no one
+ is going not no one but very few people are going to just like spend you know a million dollars just
+ to enable functionality that your users haven't even tested yet or there's you know very early on
+ with the deliverability of you know these aid programs we had to send thousands of payments
+ out at the same time with fiat infrastructure you know fiat moves super slowly it moves so slowly
+ in fact that we have built insane amounts of infrastructure on top of it to make sure that money
+ does not move and so and so with fiat infrastructure what ends up happening is let's say you wanted
+ you wanted to you know pay tens of thousands of people all at the same time you know you would
+ use something like PayPal you know and you would load all the money into PayPal and then you click
+ a button and then it would just be ledger updates to update people's accounts so the money wouldn't
+ actually move you'd load it in like three days before make sure it settles and so on but with a
+ blockchain that's that's not how it happens everybody has their own wallet so you actually
+ have to move the money into people's individual wallets and sending 20,000 30,000 50,000 transactions
+ on a blockchain at the exact same time is not possible no matter what blockchain you you try to
+ you try to send it on and so the first time we did this aid disbursement on stellar we were super naive
+ we were like okay click button send money and it took like 18 hours for us to process through
+ all of these transactions on stellar which is another pretty high throughput blockchain
+ and a huge percentage of them failed and were picked up and then there were all these support
+ requests that came in because people were like hey you said my money would be delivered at like
+ 9 a.m. but it's still not here and so on and so then we had to build all this infrastructure to
+ simulate to like make it such that you know we prioritize different transactions and we could like
+ minimize the number of support requests like a like a quick example is that like we took
+ every transaction that was over like 50 dollars which was like a big payout and we prioritize those
+ first because those are the people who are going to check and then we like set up you know seven
+ or eight different like synchronous jobs to send out these payments and then we progressively would
+ move down there was no way to deliver them all in real time anyways blockchains are just struggle
+ with with payment scale problems and so the way we came into this is that we needed to build the
+ infrastructure that solved our unique pay points we weren't focused on when we still aren't focused
+ on trading we just want something that's super high throughput that has like some core functionality
+ that's important for payments payments companies and and and has the deliverability that everyone
+ is looking for if they're going to run their bank if they're going to run if they're going to pay
+ all their customers if they're going to run payroll on top of this rail and so for us building and
+ investing in tempo became super important but but just to be very clear about tempo tempo is not
+ like a strike blockchain we we also did not believe that these like private corporate blockchains would
+ be successful because people aren't going to want to build on someone else's blockchain they want
+ to build on like shared infrastructure that they believe is going to be good for everyone it's the
+ same reason that the same skepticism we have about everyone building on someone else's stablecoin
+ right you don't want to subordinate your interests to those of some other you know uh
+ economically interested party and so that's why tempo is actually a a stripe is a major contributor
+ it's a tempo bridges a major contributor and collaborator on tempo but tempo is an independent
+ entity you know and a neutral blockchain um built outside of strep so tempo is going to be an
+ independent entity a neutral blockchain that is also a layer one EVM type of uh is that that
+ layer one layer one EVM super focused on TPS no noisy neighbor problems you know your your
+ transactions are not going to get stuck because like Trump coin came out which happened to us on
+ Solana you know there's going to be private transactions which are super important to every
+ payments payments company there will be very quick finality uh which is also really important
+ you know Ethereum it's like 12 minutes to get financial like sub one second finality so a bunch
+ of stuff that's very very important to pay and it would allow you guys to do a use case like if
+ you had a million people let's say in the US and you wanted to just send them each uh a stimulus
+ check for instance um yeah you could just do that on this chain basically they could pick it up and
+ they could pick it up in their base you know any EVM compatible wallet that they used and boom it
+ would be there right basically you know it has the scale to do that yeah and importantly we could
+ do it or PayPal could use it and do it if it was helpful for PayPal you know this is like this is
+ where it is we view this as like a very important public good for the broader stablecoin ecosystem
+ and so you know Stripe is a major contributor to it we are investing and building on top of uh
+ on top of tempo but we will have the same rights and interests you know uh to roadmap or whatever
+ is anybody else so how do you think Zac this will evolve like specifically layer ones you know
+ fintechs like Stripe getting kind of the layer one business we've seen Circle get into kind of the
+ the layer one business it is the case definitely that within crypto and generally you know the
+ advent of more centralized stablecoins has not taken away from the crypto native assets that we have
+ like something like Bitcoin or Ethereum or Ether you know um actually it's kind of accelerated the
+ growth of some of these core assets and so they're kind of growing in parallel they're not they don't
+ settle down to kind of the as you call it the layer one of fiat at all they have this whole
+ independent settlement network and they've grown alongside stablecoins what do you see
+ happening with layer ones there are some people out there and i'm specifically talking about maybe
+ a Stripe layer one uh like a tempo and again you're saying it's not a Stripe layer one but something
+ like type that something like tempo right do these eat the market share away from some of our public
+ blockchains the ethereum's of the world and the layer two's and the slaunas of the world do they
+ complement them how do these interact and how do you see this evolving will every fintech will
+ every bank uh you know polish its own layer one or maybe kind of a layer two or will there be some
+ power law winners to that game how do you see the ledger piece of all i i think that you know with
+ tempo it's very complimentary our view is that like we the reason why tempo needs to exist is
+ because the functionality that it is providing does not exist in the market and so the the stable
+ corn space itself would be much smaller without something like a tempo and in existence because
+ you just do not have the infrastructure on top of which someone can build payment scale operations
+ today it like just doesn't doesn't exist and it's not even close um and and so in that respect i
+ view it as extremely complimentary to uh all of the other you know blockchains that exists today i
+ do think that um my mental model is that you will have a few kind of like general purpose blockchains
+ that exists you know and i think like base is a great example like base is like clearly gonna be
+ a winner it's a great sir great great product that the coinbase team has created um it's a general
+ purpose blockchain and you know salana is another one there will be a few of these i think it's very
+ hard for someone now to create like uh i'm just going to create a generic blockchain and hope
+ that it attracts a lot of volume now i think we're entering a phase where folks are going to build
+ blockchains that solve very specific problems that these general purpose blockchains don't solve
+ this is what we're doing with payments use cases i've talked to other teams who are building block
+ chains for trading use cases like very very very high throughput low latency trading use cases
+ which requires a totally different set of requirements and and these blockchains will solve like very
+ specialized things that the generic blockchains will not will not solve and and then i think there
+ will be a third type of blockchain which will be like um maybe like coming back to the polymarket
+ polymarket might build its own blockchain so that it controls its own block space and so on these
+ will be application specific blockchains and so you'll move in like there'll be a few very general
+ then a few sort of like feature specific blockchains which is where we're going with tempo and then
+ there will be many application specific blockchains that's my mental model today very much subject
+ to change a whole bunch of blockchains so i use a whole bunch of movement on chain and so
+ five years from now where does this like position fintech or just find how finance works maybe in
+ the u.s and around the world so if you kind of go down enough layers i think traditional finance
+ in the banking system and back to kind of the settlement layer of that layer one i don't know
+ it's all like ibm main mainframes written in like cobalt it's like some nasty weird stuff and a whole
+ bunch of paperwork if you do anything in finance it's still i appears digital on the surface layer
+ but like i think there's offices of like people doing paperwork in the background you know not
+ faxing things around but like that is that the legal documents are all just like still paper and
+ i can't believe this so and they might actually be faxing yeah exactly and so are we basically
+ doing a um i don't know a a switch from that existing legacy system and just like migrating
+ more and more to these new krypto krypto blockchain based systems and doing that over time and so
+ basically what happens is the fintech user interface stops using the mainframe tradfi
+ back end and starts settling more and more into blockchain yeah i mean i think that's what's
+ going to i think that's what's going to happen and and i think that you know today to to like
+ take a bridge specific example you know our business was built our very first product the
+ product that that kind of like made our business was stablecoin orchestration which was moving
+ money between fiat and stablecoin this layer one and this layer two and doing it a lot because
+ people needed to do it a lot you know and still today need to do it a lot what i think will happen
+ for our business is that will become an increasingly niche service um over time that's what i hope
+ happens is that you increasingly need to settle to the layer one and like you know take the the
+ bank example that i went through before you're gonna have you know millions of different stablecoin
+ movements for every one fiat movement whereas today it's kind of like one for one
+ um you know or even even two fiat movements for every one stablecoin movement um and and
+ i hope that ratio changes over time and i think that's what success is is more and more of the
+ financial services that we have today can be facilitated and settled on this blockchain layer
+ and uh but but we're still like it's like hard to even begin to express how early we are
+ in this in this journey just coming back to it like the basic things of like sending a bunch
+ of transactions simultaneously are really hard to do like really really really hard to do
+ on uh on a stablecoin we don't have any local stablecoins you know the stablecoin market is like
+ 99.9 percent us dollars yeah which is great which is great for the first use case of stablecoins
+ which is like trading and like access to us dollars but if you want this to become a core part of
+ the financial system you need local stablecoins like i'm very optimistic that those will be very
+ important in the next like five to ten years so there's just a bunch of pretty big building blocks
+ that we don't have today so the secretary of treasury says by 2028 he's citing other research
+ that will have you know three trillion or so in stablecoins on chain i mean do you do you agree
+ is that the kind of scale we're going to grow to i mean how quickly and how fast does this grow
+ and how how large does it become i mean i think that's us stablecoins so i i think that there it
+ could be orders like an order of magnitude bigger or you know if you if we're successful at bringing
+ on you know tokenize euros and tokenize pesos and tokenize yen and and so on but that is also
+ downstream of regulation so today you know one of the great things is like the us is kind of
+ you know very quickly went from a laggard to a leader in in sort of regulatory clarity which
+ helps us sort of speedrun a bunch of these markets but we need the same thing all around the world
+ so what is holding us back at this point from basically the entire world all of finance um
+ adopting crypto and making that switch even sooner i mean you mentioned regulatory and so maybe
+ that would be in your top three list there's also i mean ux still is kind of hard in crypto i mean
+ we still have wallets with seed phrases uh in in many cases that are sort of difficult um there's
+ also you know do we have the chargeback protection consumer protections that something like visa or
+ the established credit card companies have do we even have on i guess the compliance and privacy side
+ you know amlkyc that would be necessary for countries to adopt this uh like what are the top
+ three things missing do you think still in the stack for for crypto to get to the trillions and go
+ completely mainstream in the way that you've been describing i think the um the the most straightforward
+ answer is like you know regulatory clarity and accounting clarity that's that's probably the
+ most straightforward answer but but i would say more tangibly for us what i have felt is the biggest
+ barrier is education so stablecoin we've had decades where teams and uh have built expertise
+ and familiarity of building on top of fiat systems and so you go into any company that
+ moves money and there are dozens of people who understand how to do fbo accounts and build internal
+ ledgers and maybe even send you know ach batch files and like all this crazy stuff but people
+ have built those skills over many many many years and then you go in and you talk to them about
+ spinning up a wallet and everyone's like head explodes you know you would think that you're
+ asking them to go to mars or something it's like a totally new financial stack that's completely
+ unfamiliar and so the biggest thing that we face is this like this lack of familiarity with this
+ new platform like it's a new technology it's a new platform and it touches the thing that is like
+ the lifeblood of every company and and so people are very risk-averse and i i would say that's like
+ you know we'd probably be moving like a hundred x-faster if we had one person in every single
+ company who is deeply familiar with crypto the the other thing is that there just are not very
+ many engineers on the planet that understand crypto the number of folks who understand smart
+ contracts the number of folks who've built with wallets it's probably one of the smallest
+ engineering communities in the world like if you're an engineer and you're looking for you know
+ where do you position yourself to have like the most unique skill set imaginable it is like
+ very obviously in the crypto space like super obviously in the crypto space uh it's something
+ that's going to be phenomenally important to the world it's something that's going to touch
+ money movement at every company you know on every continent and there are you know only you know
+ hundreds of people it feels like in the world you know this space really really well there are
+ a lot of engineers that stripe of course and now you're part of a bigger engineering team let's say
+ and uh so for Patrick and John you know we talked a little bit about their um yeah experience in
+ crypto and kind of moving to a more bullish stance how crypto peeled are they at this point how crypto
+ peeled is stripe so when when i when we were like going through the acquisition process i went to
+ the stripe offices to have launch with um john and and patrick and i like walked in and i think this
+ maybe was like the first time i met john in person and um the first thing he he said to me he was like
+ so can i tell you a joke and i was like yeah sure he's like he's like what's the difference
+ between a bank and tether and i was like i don't know and he was like well one of them is like this
+ big institution that holds a ton of money and you have no idea where the money is and if you ever
+ want to get your money out you may not be able to because it's in all these super esoteric
+ assets and there's literally no visibility into where the money is held and the other one is a
+ stable coin i mean he has a point and so uh i i think that like at a at a pretty deep level
+ they are um very you know big believers in like the stable coin space and like very much
+ understand the promise of the technology i mean they were they were believers in stellar you know
+ i think stripe was one of the original investors in stellar way back when they obviously experimented
+ with bitcoin realized that wasn't going to work super well for payments for a bunch of reasons
+ um and uh and and so i think when they like you know as stable coin start having this moment and
+ they sort of learn more about bridge in the use case that we were selling pieces clicked into place
+ stripe is an absolutely massive company um with tons of uh relationships so what's your hope for
+ how crypto kind of saturates uh stripe and you know how this fintech company converges into uh uh
+ fintech company going through a a crypto transformation uh i mean i think one of the things that i am
+ the most excited about is um you know with the products that we build i kind of am like like i
+ don't think anybody is going to want to use a stable coin just to use a stable coin people are
+ going to want to use a stable coin or build with wallets or use our apis because we deliver some
+ very tangible business value to them we enable them to enter a new country we enable them to serve
+ more consumers we enable them to save money we enable them to generate revenue but there needs
+ to be some very tangible benefit that we provide and one of the really nice things now about being
+ part of stripe is that the feedback loop on understanding that tangible value is like
+ you know the minimus because now we have a first best customer for everything that we want to do
+ and so you know it's not like stripe is you know stripe is eight thousand people so even if like
+ john or patrick or whomever are like hey we want to build with stable coins there needs to be you
+ know dozens of people who deeply understand the benefit to actually work on the thing and do it
+ and so if we encounter pushback from those teams of stripe it's the same pushback that we would
+ encounter if we were like talking to walmart or talking to robin hood or talking to um
+ revolute or new bank or whomever uh and so it gives us an opportunity now to like as we push
+ stripe you know stable coins deeper into stripe to understand where concerns are
+ figure out how to overcome those concerns and turn stripe into like our first best customer
+ and then it becomes like a great proof point for all these folks externally guess you're full
+ circle back to zulu all over again right yeah exactly exactly uh as we close the sad zak uh
+ we've been talking about stable coin users as if they're all human there is another future where
+ the biggest stable coin users out there the the actual unbanked uh could be ais and ai agents um
+ what are you guys going to do with stripe to uh play a role in that transformation you think ais
+ will be huge stable coin users and if so how far away uh are we from that future i was um
+ so simon taylor shared this thing with me the other the other day forget like maybe was on slack
+ or something but he said that he was talking to this like money historian and every single time
+ there's been some new technological revolution there has been a new form of money that helps
+ facilitate the progress of this revolution and a great example of this that we can all relate to
+ is credit cards and the internet uh you know the internet wouldn't be what it is without credit
+ cards and obviously credit cards wouldn't be what they are without the internet um you know credit
+ cards were around a long time before the internet like you know in the 60s uh but they really took
+ off credit and debit cards and so on in the late 90s into the into the 2000s and now you
+ could not imagine the internet without without credit cards it's like the default way value is
+ transferred and obviously stripe is a big accelerant of this of this trip and i think stable coins
+ are going to be the same thing for ai i think a new form of money is going to be required to
+ facilitate you know uh economic activity between all these agents you know the existing fiat system
+ has some like challenges for ai you know one of the most obvious of which is that in order to
+ store fiat money you need to be a human yeah that's kind of a problem if you're not
+ that's a that's a real problem and and so what i think will happen is that we'll go through this
+ challenge progressively like you know at first a lot of ai agents will be tethered to humans
+ so they will piggyback off of human kyc and so on um but over time they will need their own accounts
+ their own be able to make their own decisions and you know stable coins and wallets make that
+ possible the the other thing is that is that stable coins and wallets end up uh are really good for
+ small transactions for variable transactions for streaming transactions um and so they make a lot
+ of different types of money movement possible that are not that are not really possible today when
+ you actually have to move money across this layer one that's super expensive and super slow yeah
+ it's incredible it does seem super obvious to me that the um the finance stack the banking stack
+ that ai will use will be crypto how could it not be wallets and and ledgers and and smart contracts
+ and actual tokens that they can hold uh that's got to be the future so maybe the next um move for
+ you guys zak is to build the bridge between kind of the the ai layer and uh and the rest of crypto
+ um this has been fantastic thank you so much for joining us today zak i know stripes got some big
+ announcements uh to come in the future and and we appreciate you hanging out with us today thanks
+ for having me on it's been fun gotta let you know of course bankless listener none of this has been
+ financial advice crypto is risky you could lose what you put in but we are headed west this is the
+ frontier it's not for everyone but we're glad you're with us on bankless journey thanks a lot

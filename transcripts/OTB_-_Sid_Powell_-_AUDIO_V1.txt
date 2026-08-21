@@ -1,0 +1,645 @@
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by Bad Mortgage Investments, Lehman, which has 25,000 employees, will be liquidated.
+The federal government loans American International Group, AIG, $85 billion.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+The story of Maple Protocol is a comeback story that in many ways mirrors the journey
+of DeFi capital markets itself.
+Maple founder Sid Powell left his career in traditional debt markets in 2019 to build
+a more efficient crypto lending platform.
+At the time, BlockFi and Celsius had emerged as early crypto lenders using off-chain underwriting,
+while Maker and Compound had surfaced as nascent DeFi market entrants.
+Powell had seen the inefficiencies of the traditional banking system up close and became
+interested in the concept of capital formation outside of these traditional guardrails.
+Maybe stable coins and smart contracts could remove some of the friction in underwriting
+and lending and institutional grade credit could exist on chain with faster moving capital
+formation and a far wider set of market participants.
+Maple launched in 2021 with that vision in mind, to offer high quality DeFi credit opportunities
+in a way that felt credible and compliant.
+For a while, that bet was paying off as Maple gained momentum and delegates, delegates being
+expert credit underwriters on Maple's platform and were consistently underwriting loans to
+trading firms and market makers.
+Maple was facilitating hundreds of millions in originations and for those watching from
+the outside, it felt like the protocol had reached escape velocity.
+Unfortunately, 2022 proved a difficult year.
+The crypto credit contagion unfolded at scale from Celsius and BlockFi to the FTX fallout
+and Maple found itself caught in this storm.
+Major borrowers defaulted, including orthogonal trading and the full structure of the protocol's
+first iteration was tested all at once.
+Pool delegates were caught off guard, lenders suffered losses and TVL suffered.
+For Powell, the founder of a now distressed protocol with a live token and real users,
+the path forward was difficult and opaque.
+On great adversity, Powell and the Maple team got to work forging a path forward.
+That process started with a retrospective of what went wrong, what was salvageable and
+what risk parameters would be sustainable over the long term future.
+The team quickly identified areas for potential change.
+They tightened the underwriting process and implemented stricter requirements for pool
+delegates.
+They also launched a new product called Syrup, a permissionless lending primitive that allows
+users to earn yield on stablecoins without relying on a human underwriter, a delegate.
+Instead of curated delegates, Syrup uses standard risk parameters and smart contract logic to
+manage loans, making it significantly more scalable and accessible for a wider set of
+lenders and borrowers.
+This was a meaningful shift, a move away from centralized underwriting and towards more
+scalable rules-based infrastructure.
+This wasn't an overnight turnaround and trust had to be earned back gradually, keeping in
+mind that most other lenders from 2022 had completely gone away.
+Maple initially re-entered the market quietly, with a focus on reliable, stablecoin-native
+credit and institutional-grade partners.
+Over time, TVL began to return and new borrowers came online.
+Perhaps most importantly, the protocol separated itself from the CFI collapse that had defined
+the previous cycle.
+In typical slowly-than-all-at-once fashion, Maple made its way to $500 million in deposits
+by late 2024, no small feat, and then found true escape velocity in the spring of 2025.
+Today, Maple has over $3 billion in deposits.
+The platform offering now looks very different from its first iteration, more streamlined,
+risk-aware, and focused.
+As DeFi credit markets show sign of maturity in the backdrop of the ongoing stablecoin
+boom, Maple is once again at the forefront of defining what institutional capital market
+formation could look like.
+In this conversation, Sid and I discuss on-chain credit broadly and Maple's path to becoming
+a market leader in stablecoin-powered debt markets.
+I hope you enjoy our conversation.
+Sid, thank you for joining us today.
+I wanted to say from the outset, one thing I admire about you and the team at Maple is
+for as long as I've known you in the protocol, it feels like while there have been inflection
+points in growth and there have been times when things have been slower, I don't see
+you guys as having changed attitude in any way.
+It seems like you've been fairly consistent in what you've been trying to do throughout.
+Yeah, I think that's pretty accurate.
+First of all, thank you for having me on.
+I've listened for a long time, so it's good to finally be on the show.
+But I do think we do treat it as kind of a job, rather than something where you one day,
+some days you wake up and you have kind of the passion for it and you show up to work
+and some days you don't and you stay in bed.
+We've always viewed it as a profession and so we try and show up and do the job whether
+we like it day in or day out.
+Some days it's worse than others and you don't feel like doing it, but you still put on one
+boot at a time and show up and do it to a professional degree.
+We did that through the end of 2022 when things are really bad and into 2023 and then we still
+do it now.
+We haven't changed the way or the pace that we work at just because times are much better
+now.
+And a point that I'd highlight is I don't think there are many teams that have been
+around for that kind of time span, having had a moment where you had to refocus almost
+or readjust without having completely pivoted into a different category.
+A lot of these things became restaking protocols one day or went from NFTs to some sort of
+modularized lending one day and you guys really stayed true to the credit and capital markets
+direction.
+Yeah.
+I think we have tried to do that.
+Actually, just continuing the thought from the last question, I think two things that
+kind of influenced me were I really like this book called What I Talk About When I Talk
+About Running by Murakami.
+He talks about how he gets up, he has a routine when he's writing a book and he gets up every
+morning at like four or five in the morning and he writes for five or six hours, then
+he eats, then he goes for a run in the afternoon and it's just like the craft is getting up
+and just doing that every day whether he feels like it or not.
+But on the pivot side, I think we've always thought that to really be successful, you
+have to play in where you have an edge.
+The closest we ever came to doing something kind of different was early 2023 when there
+was the craze around tokenized T-bills.
+We put out a product that was cash management, so it was still structured similar to how
+we do the over collateralized lending, but the collateral for the loans was T-bills,
+so the rate you could earn was about the T-bill rate.
+What we found though was that it was very competitive.
+We had very little way of differentiating ourselves and it was a race to the bottom
+on fees.
+So we kind of went back to our roots and for us, that is lending and credit and doing
+that to institutions.
+And what we observed was that the most contrarian bet you could take at the time in early to
+mid 2023 was thinking that lending was going to come back.
+Everybody was ready to totally write off the sector.
+So we more looked at, okay, if we can't do under collateralized lending, which is what
+we've done before, is there a form of lending we can do?
+What is the market saying it will buy at the moment that it's not being sold or not being
+offered?
+And clearly it wasn't under collateralized lending at the time.
+So what we did was we looked at over collateralized lending, where all the main competitors in
+that segment had blown up or exited the space from the end of 2022.
+And so we said, okay, we have the skills to do this.
+Nobody else is doing it.
+We can price it appropriately and we can get paid for it.
+And we think over the long term, what are the odds that lending, the oldest service
+in finance doesn't come back within this space?
+Probably pretty low.
+So that gave us the confidence, I think, to stick with lending as a segment instead of
+trying to pivot and become a restaker or a tokenization platform or something else.
+And I have seen a bunch of teams who pivot repeatedly and sometimes it's good to pivot.
+Slack was a pivot, but sometimes you actually just want to stick it out and work out a different
+way to kind of hit your same North Star.
+It's pretty incredible.
+I remember a time in there on 2023 when consensus view in the industry was probably that crypto
+and CIFI didn't go well together and you had a coin base.
+But in terms of something like lending, there was an intense skepticism around centralized
+lending for crypto, which is nearly ludicrous in retrospect.
+Yeah.
+Some of the pain points to the criticisms of the centralized lending at the time, I think
+were valid.
+limited transparency and a lot of opaqueness around the performance of the loans.
+Were they paying or not?
+Were they collateralized or under collateralized?
+What was the equity of the lending company?
+So how much buffer did they have to absorb losses?
+Well, those are more fairly valid criticisms, I think.
+But it was taken to kind of an absurd degree, which was that lending is dead and doesn't
+belong on blockchains in the sector and they just do it so much better in traditional finance.
+If you read enough traditional finance history, you see Citibank blows up every 40 years.
+So I don't know that they are doing it so much better than we can.
+And I think in a new segment, you have to kind of make it up as you go along.
+And you can take lessons from traditional finance, but you have to adapt it to what
+is a nascent market.
+You can't require every company that you deal with in crypto to have audited financials
+by a big four accounting firm because that just doesn't exist.
+So the consensus view was obviously very against lending, but that in turn created the
+opportunity for us.
+If the consensus hadn't been that lending was terrible and there were a bunch of people
+coming in wanting to offer the same products we do now, then maybe we wouldn't have grown
+the way that we have over the last 18 months.
+It's like Howard Marks says, you have to be both non-consensus and correct.
+If you're consensus and correct, you don't get paid.
+And if you're non-consensus and wrong, you're toast.
+You don't make anything.
+Yeah.
+Yeah.
+You zero it out.
+How much do you think some of those irresponsible credit activities in 2022, let's say, set
+us back as an industry?
+And was that purely a matter of individual actors making rash decisions and some accompanying
+contagion?
+Or how do you look back on that period and the mass fallout that we had?
+Well, it definitely set us back, I'd say probably the rest of the duration of the Biden administration.
+Certainly at least two years, because it's only now that some of the players who initially
+had their own blockchain and on-chain project teams doing something, all those teams effectively
+got shuttered.
+And I would say it's only now that we've kind of come through to the Trump administration
+where there is more of an appetite for the industry to be based in the US, that those
+teams are getting restarted or those people are getting rehired again.
+So I'd say at least two years, but it's always very difficult to kind of run a Schrodinger's
+cat type scenario on the probability that didn't play out.
+But to your other question, I hate it when somebody says the causes are multifactor.
+I think it was due in a large respect to individual bad actors, but what kind of creates the condition?
+And in some cases, people who are otherwise good, who just made incorrect decisions at
+the time, but definitely there were cases of fraud, three arrows, Celsius.
+But you have to kind of look at the conditions that create that, right?
+The conditions that created are easy money.
+Easy money is when more fraud happens.
+And that is because money was getting pushed into venture and then from venture gas to
+get pushed into investable businesses.
+And what happened was that the lending companies got valued based on the size of their loan
+book.
+So if you gave out a bad loan, let's say you gave out $100 million of bad loans, you got
+valued the same as a company that gave out $100 million of good loans, maybe more because
+it's obviously easier to give out $100 million of bad loans than $100 million of good loans.
+It takes longer, more rigorous underwriting.
+And so those businesses could scale faster.
+And the game was to get as big as possible so that you could revalue yourself and do
+another equity round at a higher valuation.
+So that bred bad behavior because there was no feedback mechanism to uncover who was swimming
+naked until the end of 2022 after we had the lunar blow up and that uncovered a bunch of
+holes in balance sheets.
+And to a certain extent, that also drove things like FTX, right?
+Sam SBF was doing a new round at 20 percent higher valuation every two or three months,
+right? I remember at the start of 2022, I think he was raising it $10 billion.
+By the end, it was $30 billion or just before the end of November.
+So I think the massive amounts of liquidity in the system definitely created distortive
+behaviors. But this is as Ray Dalio says, this is what you see in every credit bubble.
+And this is why it's called a credit cycle.
+And that's just what you have to watch out for the next time.
+And I think the key in a lending business is that unlike other businesses, you have to
+recognize that you never really hit escape velocity from being in a cyclical industry.
+And so you always have to watch out that at any given cycle, you are still at risk.
+Your business still faces an existential risk if you don't control your credit and your
+underwriting and your risk management. And that's kind of unique to credit and lending
+businesses in all of finance and startups.
+It's not really the same in other sectors.
+Yeah, that's it. I do worry about where we'll go to with some of the trends that I'd
+argue are closer to easy money, like you'd say.
+Like, I'm sure we'll get a leveraged Treasury equity vehicle, for example.
+Yeah, we used to have those in Treadfy, right?
+They used to lever up T-bills a lot.
+I think they still do. But you will have, I think, a Treasury company that probably
+leverages too much and maybe blows itself up.
+But that will be driven by very easy, accommodative monetary conditions.
+And so we have an advisor to the company and he's been in the lending business for a long
+time. And so we catch up with him every few months and we kind of take stock of, on a
+scale of one to ten, where are we in terms of credit conditions?
+Ten being the worst and one being the most conservative.
+And our sense at the moment is that we're still in kind of the first half.
+It's still more like a four rather than like a seven or an eight or a nine.
+Whereas mid-2022, you probably would have said that was more like a nine.
+I remember at that time, rates borrowing against Bitcoin were getting down to like
+two, three percent. Unsecured rates lending Bitcoin were 10 to 20 basis points.
+And the dollar unsecured rates were six percent.
+So fully unsecured lending.
+Whereas here today, rates lending against Bitcoin overcollateralized are probably in
+the seven to eight range.
+So I'd say we're still in a much more conservative set of conditions.
+And I don't see that kind of frothy euphoria that we did in 2022 yet.
+Yeah, I tend to agree. Talking about some of these systems, how did you decide to go
+and try and build DeFi credit markets?
+Or what inspired you to move that direction, given your experience?
+So my experience was I used to work in TranFi banking.
+So I used to be in an area called securitization and debt capital markets.
+This meant basically we issued bonds and we helped companies to issue bonds.
+And that was how they borrowed. So they borrowed large amounts like, let's say,
+five hundred million. And then they break that into small chunks and they make
+five hundred thousand dollar loans.
+So I always kind of had lending in the DNA, but I wanted to go to a more
+entrepreneurial company from there.
+So I went to a smaller commercial finance company that still exists in Australia
+today. That was where I met my co-founder.
+And the initial idea was to do tokenized bonds on chain.
+So that was really tough.
+There was no DeFi at the time that we started the company was kind of five or six
+teams.
+Was that for distribution or what inspired that?
+The idea was that if you could lower the cost of issuing bonds, you could make it
+possible for the longer tail of finance companies to come in and issue them.
+Because at the time, it was more of the case that it was almost not worth
+issuing securitized bonds if you couldn't do a hundred million at a time.
+So you can see most companies were taking five years of operations to get there.
+So you could just bring that forward and help those companies.
+What we found, though, was there was nothing to tokenize on chain.
+So all of DeFi was Maker, Set Protocol, Compound, Uniswap.
+I don't think Aave had not rebranded from E-Flint at that point in time.
+So really you had a very small on-chain ecosystem.
+And so what we found was we instead had to go more of a direct lending route and look
+to just lend to institutions who would borrow.
+But the initial way that we wanted to do it was back in 2018, 2019, everybody was
+obsessed with marketplaces.
+You had to be an asset-like marketplace.
+God forbid you're asset heavy because you're not going to make the same returns on
+equity. As we tried doing that, and that was the initial iteration of Maple, was
+you'd have other credit managers called delegates come on and they would earn a
+FB, like an independent contractor, and we would earn a platform fee because
+everybody wanted to be like Stripe or Uber or Airbnb, and you clip your platform
+fee and other people take a portion of the revenue and then you're kind of neutral.
+So you can scale much easier because you don't have to hire staff.
+You just allow other people to sign up and use your infrastructure.
+And that was kind of working out to begin with.
+So we got the delegates up and running.
+We thought that we would not have any reputational impacts if delegates had credit
+issues with the loans they underwrote.
+And we thought we would be able to scale much faster being a kind of asset-like
+marketplace. And you get the asset-like marketplace multiples, right, in terms of
+how people rate your company.
+I think what you can see, though, in the time since then is that actually there's a
+lot of value in being asset heavy.
+Asset heavy is kind of a moat.
+Vertical integration gives you pricing power.
+To be vertically integrated, you just have to have more plant and equipment and
+capital. And so that means you're asset heavy, but you get the pricing power and
+the pricing power gives you longevity.
+And you can see it in Apple.
+Apple didn't say we want to be an asset light piece of hardware that supports any
+kind of software, nor did they want to say we just want to have the app store and
+it's on available on any hardware device.
+They said, we've got to have the both of them.
+And you can see that for them, they make all of the profits in the smartphone
+sector, right, despite being a minority of the market.
+And I think you can see it with Tesla as well.
+They make their software, they make their hardware and across history, economic
+history as well. You can see numerous examples of this going right back to
+Standard Oil. And so I think that is how our model shifted over 2023.
+We said, OK, we're going to remove the delegates.
+We will be the sole kind of underwriter here and we will therefore control who
+gets to borrow and we will actually be the borrower ourselves.
+So we borrow from people who put capital on the platform and then we lend it out
+and we keep a spread.
+But it allowed us to move faster.
+We doubled our revenue because we weren't paying our fees to third parties on the
+platform. And I think over time, you can see that that's kind of proved
+strategically the correct way to go.
+Notwithstanding that a number of our venture backers at the time said this is
+going to prevent you from scaling as fast as you could if you were just
+infrastructure. And they have pointed to other lending markets that have grown
+quite substantially over that period of time.
+But I would say that there are some of those lending markets who make a lot of
+revenue and are doing very well.
+There are some who actually make no revenue despite being larger in terms of
+TVL than us. And that's because other parties, they have weak negotiating
+positions and other parties have effectively taken the majority of the
+revenue there. So we have a better negotiating position.
+And so I think vertical integration rather than just being a pure marketplace
+is actually in the end, the better way to go.
+Yeah, I think it's a great point.
+There was such a push towards being asset light because I look at it as an
+existential problem in DeFi that everyone sees themselves as just capital
+aggregation layers or a capital marketplace without any actual tie to the
+capital. But that makes it naturally very fleeting.
+And then you had this idea of protocol owned liquidity, which I think made a lot
+of sense in that vein of like, OK, you actually have some control of it for the
+first time. Yeah, I think protocol owned liquidity gave teams a better balance
+sheet and wasn't necessarily executed well by some of the teams that did it,
+like Olympus. But the concept, I think, was sound.
+But getting a balance sheet gives you heft and gives you negotiating power.
+In the Web2 world, you can look at eBay, which continued to practice being asset
+light. And then you can look at Amazon that built its own fulfillment centers.
+And ultimately, the fulfillment centers allowed them to vertically integrate.
+They could sell the good and then they could drop it to your house.
+Whereas eBay relied on third parties for that.
+And so the pricing power eventually finds its way to the third parties.
+My view is that it's actually very important for teams to kind of vertically
+integrate so that they get pricing power.
+They have a balance sheet they can swing around.
+And nowadays, we also get pitched a lot of deals where we can get extra spoken
+incentives and things like that if we're lending to a certain company or
+counterparty or partnering with them in some way, just because we now sort of
+have that heft in terms of AUM in the pools.
+So to summarize the conversation with regard to Maple, Maple was started as an
+on-chain credit marketplace.
+Is that how you would describe it today or how has the platform evolved and how
+have you intentionally involved it?
+So we would have started the marketplace.
+I think the first thing we dropped was we became more of a lender and we started
+marketing ourselves as a direct lender rather than a marketplace.
+And the latest reimagining of what we are, reimagining is probably not the
+right word, but the most apt description of what we are today is more of an
+asset manager.
+So we call ourselves an on-chain asset manager.
+Our primary focus is lending and credit and yield.
+And we run a couple of strategies.
+The first and the largest is the over-collateralized lending.
+So we are a secured lender to institutions.
+We have a loan book of over a billion dollars and typically our loan sizes will
+be anywhere from five mill at the low end to a hundred mill plus.
+You know, we actually just did a hundred mill one today.
+And then the other line is we have a BTC yield product.
+So it's encompassed within the term asset manager, on-chain asset manager.
+And if you look the TradFi peers or competitors, I would point to would be
+Apollo, Aries, Blackstone.
+These guys are the largest non-bank lenders in the world, but they don't
+call themselves lenders.
+What they call themselves is asset managers.
+And I think we think about ourselves in the same vein.
+We're an asset manager with a focus on credit and lending, and ultimately we
+want to be competing with them.
+Our view is that all lending over the next 10 years is going to be done in
+stable coins, and so we are getting a leg up in kind of surfing that wave.
+And that will bring with it cost advantages, distribution advantages,
+speed advantages that will allow us to take share.
+How do you create stickiness in the assets that you guys manage?
+There's a couple of ways you can go.
+So you can either do pricing or quality, I think.
+And in lending and asset management, pricing is effectively, do you minimize
+your own spread or deliver a higher yield to your customers?
+But the other thing you can do is you can offer a lower volatility.
+So more stability in that pricing.
+And so I would say versus DeFi peers, we tend to produce a higher yield or return.
+And a couple of the reasons for that is that we serve institutions who like
+hosting BTC and native assets instead of wrapping those assets for a variety of
+tax compliance and smart contract risk reasons, but we can offer that.
+And your average DeFi protocol can't accept native Bitcoin.
+And so the customers pay a little bit more for that.
+We can also offer a qualified custody because we are more integrated
+now with CFI providers like Anchorage, Bitgo, Coinbase, Custody, Zodiac
+Custody, Fireblocks, and a number of other wallet and custody solutions.
+Copper as well.
+So that optionality, you also pay a premium for if you're an institutional client.
+And so generally we deliver a higher yield than the DeFi lending protocols.
+And so that's kind of pricing and quality, but we also tend to be
+more stable over time because we don't have utilization-based rates.
+We can offer fixed rates and again, institutions like to be able to lock
+in certainty on their borrowing costs.
+And so our rates don't fluctuate over time.
+You'll never see a day where the maple rate goes from 6% to 9% and then the
+following day is back at 4%, like you do on some of the DeFi protocols.
+Many of them, I would add.
+Yeah, it will be a steadier 6.5% to 7% over two months.
+I've done some research on Apollo and some of these large credit firms.
+And I would say roughly, let's say, cause they're in private credit, some 30, 40%
+of what they allocate to is investment grade credit opportunities.
+How would you compare where Maple is allocating as an asset manager to that set?
+They are very fundamentally like we all fall within the ages of institutional
+credit or private credit.
+However, they have a $300 billion plus portfolio, so they're naturally going
+to be doing a wider variety of things.
+And they've built their business up over 40 years.
+Apollo was started in the late eighties after Drexel Burnham by some
+of the alumni from there.
+And so they've had 40 years to build a very well diversified business.
+And I would say our credit, we fall within the unrated category because the
+company we lend to our primes, OTC desks, funds and exchanges, but we do
+take what I consider to be very good quality collateral.
+We're taking Bitcoin at trades over 50 billion a day, including Sundays.
+And so we always have very good liquidity and downside protection when it comes to
+that, but yeah, so I'd say it's institutional grade quality.
+It's not rated yet by ratings agencies, but I do think that is going to be a
+step that comes in in the next one to two years.
+So my background was securitization.
+I would love to start securitizing this stuff.
+And I think that is ultimately how we're going to go and package Bitcoin backed
+loans up and sell them to the next wave of investors who will come in, which
+will be TradFi firms that don't necessarily want to buy an allocation to
+loans done through a smart contract.
+But what they might want to buy is a senior trench in a rated securitization
+vehicle that has 200 Bitcoin backed loans sitting underneath it.
+And that's ultimately where I think the puck is going over time.
+And it brings in more capital, a wider set of investors, and ultimately
+allows a firm like us to scale.
+Securitizations is a major way that firms like Apollo and Aries and
+Blackstone source their capital.
+It's not just directly raising money into fund structures.
+And because you guys are sourcing capital and stable coins and crypto assets, does
+that give you unique opportunities in terms of who you can work with on the
+borrower side?
+Well, I think on the borrower side, there is just a natural preference to
+borrow in stable coins.
+Most of the firms who borrow today are typically using it for exchange
+trading or arbitrage strategies.
+And so you buy and sell Bitcoin in USDC or USDT, you're not doing it in
+fiat for the most part, because you'll be doing it on an exchange.
+And so there is a natural desire to borrow in stable coins.
+But the advantage for us as the lender is I have zero marginal costs lending
+to a trading desk based in Korea versus one in Miami or in London or in
+Singapore, because it's the same cost to send that $10 million of stable
+coins to them, which is very little.
+And you can do it any time of day.
+Whereas if we were sending them fiat, well, if that firm was in Hong Kong, it'd
+be much harder for me to send it to them.
+I'm going to have a banking infrastructure.
+It's going to take multiple days to get to them.
+And there's going to be a lot of fees taken by middlemen.
+So I think stable coins are just so much better in terms of running a loan book.
+And it's much easier to track as well.
+It makes a ton of sense.
+The 24 seven aspect is abundantly clear to me because it's one thing if I want to
+go buy an asset and the market's closed.
+It's another thing if some sort of financial service in Hong Kong needs a
+line of credit instantly and they can't get it because markets are closed.
+I don't know if you ever heard about the moon pay story when Trump coin launched
+where they had to source, they had this weekend, insane interest rates.
+It launched on Friday night, right?
+Yeah.
+And so lending in stable coins is basically the only way you can fund a
+business like that when you have that short-term capital desire.
+We, from time to time, do get pitches like that from payment processing firms.
+That's not a line of business we do just yet because you're effectively
+funding against receivables.
+So there are things that can go wrong, but that kind of short duration, really
+short notice, urgent credit, obviously you can make a lot of money if you have
+the cash when those sorts of opportunities come up and having stable
+coins is that easier way to deploy it.
+One topic we've ran into is I think we'll get scenarios like that, especially
+in crypto, as you have FX systems, stable coin systems, but it seems like a lot of
+businesses would potentially prefer a revolving line of credit because they
+have excess needs maybe at a certain moment when they have a lot of users on
+ramping to an exchange or an influx of payments.
+And I imagine that wouldn't be the preferred structure for someone like you guys.
+So how do you think this shakes out?
+Do you think that will be the need or demand of payments companies will be to
+have a revolving line?
+I think I want a revolving line.
+The challenge with those, so I used to do them when I was in banking is you're
+going to pay an un-drawn facility fee while you've got it, because if you
+want to have the un-drawn line of credit for me, I've got to set aside that
+capital so that I can send you the loan if you want to draw it down.
+And it's really good for a lending company if you're at scale.
+So if I have just a billion dollars in cash lying around and I have a bunch of
+these firms who want $50 million lines of credit, and I know that most of the
+time they're not going to be drawn and that really like, I'm always going to
+have kind of $200 million of cash spare.
+Then I'm totally comfortable doing this because it's just a creative to my
+bottom line, like I had the cash there anyway, I may as well get paid something
+for keeping it there, whereas we tend to run at a higher drawn level.
+So my opportunity cost of keeping aside this 50 million cash for these guys is
+that I could have been out there lending it for seven or 8%.
+So that's typically where the un-drawn lines of credit get challenging.
+As we get bigger, we will do things like un-drawn lines of credit because we'll
+start to have scale in order to be able to do so, and there's naturally demand
+for it because everybody wants the ability to call down capital at short
+notice without having to pay an arm and a leg for it, and if they have to borrow
+it, then they're going to pay 7% to 8% or higher, depending on what they
+collateralize it with, and if they can keep it un-drawn, then they're only
+paying 1% to 2%.
+As Maple scales and maybe even say as on-chain asset management or capital
+market scale, who have been the folks willing to deposit from early on and
+be early adopters, and how do you think the adoption curve migrates?
+I think the early adopters within the crypto space are always a combination
+of high net worth individuals, and that can be in the form of known folks who
+sign documents with you, or it can be in the form of some of those DAOs.
+There are certain groups like DeFi Whales, Turtle DAO, and others that are kind
+of now acting as almost cap intro or aggregators for some of these high net
+worths, but I would say it's high net worths, and then the other one is
+on-chain yield hedge funds.
+So they will run more complex strategies and effectively they are getting paid
+by their LPs to be able to navigate the complexities of smart contracts and
+some of these on-chain yield offerings and manage the downside risk and do
+looping strategies where they can, but that's the other core group who kind of
+deposits into things like what we're offering, particularly when we had things
+like points programs, token incentives, that type of thing, and then over time,
+as your product matures and you can show a track record of not hitting losses and
+being able to meet redemptions and things on time, where it migrates to is corporate
+treasuries, family offices, protocol integrations, because they're more
+comfortable putting their brand on top of yours and they're comfortable, they can
+stand behind the risk of your platform.
+And so nowadays we have more corporate treasuries who use our product.
+We have protocols who integrate with us.
+We are now across Solana as well, and so we're active on Solana lending
+markets and our product Syrup USDC is now accepted as collateral on multiple
+lending markets, and that's because it's viewed as a relatively safe asset compared
+to other more volatile ones out there.
+It's exciting to see the waves of comfort and you always have that early adopter
+base, like you said, that can be individuals, people familiar with crypto.
+In the scope of a lot of the directions you guys have gone that we've talked
+about, how much has been influenced or informed by regulatory policy and
+sentiment and how has that opened doors for you?
+How has your trajectory mirrored effectively what you can and can't do?
+It's a good question.
+Your regulation kind of sets the boundaries of what you can and can't do
+in certain markets, and it also acts as a bit of a speed break, if you will.
+And so the core business, like Maple and Stowe, which we have two strategies,
+blue chip and high yield, those are only offered to accredited investors within
+the US, so you have to onboard with us, sign documents, show that you are an
+accredited investor, and that was really driven by regulation.
+And then we had an offshore product, which was set up to be more DeFi
+friendly, integrated with DeFi protocols.
+You can take the LP tokens and move them around DeFi.
+And that was set up in the middle of last year, but walled off from the US.
+And that was because of the regulatory clampdown on DeFi within the US and the
+generally more hostile posture that was in place.
+So that kind of effectively shaped this bifurcation where we have two key
+product lines and one that is not available in the US at all.
+So the regulation definitely plays a large role in shaping things, but I
+would say, you know, it's like on the bowling lane, it kind of sets the guard
+rails, you're still trying to get to the pins at the end, you just have to kind
+of know your boundaries there.
+And so for us, it didn't slow us down from trying to grow the lending
+business, it just meant that when we launched this more DeFi friendly version
+of the product, we couldn't make it available in the US and had to take a
+different approach there.
+Given your expertise in the segment, a lot of people seem to believe we're on
+the breakout of institutional grade assets coming on chain in large form
+beyond what we've seen in the past.
+Are you aligned with this or do you think there is an element of overblown
+expectation or how do you view that potential phenomenon?
+I have a mixed view of it.
+So I think empirically, yes, you're seeing more institutional assets coming
+on chain, Biddle is minting more tokenized T-bills and Robinhood is going
+to be bringing equity like derivatives for private companies on chain and
+folks like Ondo are going to be tokenizing things like Tesla.
+So Kraken is already doing that.
+So empirically, yes, we are seeing that happening, but I think is that going to
+trigger a wave of, let's say, massive new AUM coming on chain?
+I think that's where I have more of an issue because they're taking an asset
+that's already widely available off chain and just trying to sell it to the
+on-chain investors who presumably made their way on chain because they were
+looking for something else, right?
+A lot of people on chain are still high net worth in developed markets, right?
+As it is to say, because they were early on to adopting new technology and it is
+generally investors in developed markets that go and adopt new technology first.
+So a lot of those folks already had access to Tesla stock or other
+institutional grade assets.
+They can call up a Morgan Stanley banker and get access to private equity.
+So I don't know that's the answer.
+And I think what we're seeing is that there is a buy side problem there where
+there's just not that much demand to buy or hold these assets on chain.
+We're taking the other approach, which is we're saying, actually, we think a lot
+of TradFi investors would be interested in Bitcoin backed loans because it's a
+very good yield pickup versus T-bills.
+It's pretty short dated and short duration.
+So you can get your money back quickly.
+The collateral and the downside protection is really good.
+Trades 50 billion plus a day, even on Sundays.
+And this is actually a pretty interesting asset that they can't ring up a Morgan
+Stanley banker and get.
+And so maybe if somebody is going to sell it, why shouldn't it be us and why
+shouldn't they want to buy it?
+Cantor decided that Bitcoin backed loans are interesting enough to start
+originating and we think that other firms are going to see what they saw and
+move in that direction as well.
+So we're actually taking the inverse approach.
+We think more TradFi money will come on chain or choose on chain underlying
+assets like Bitcoin backed loans done in stable coins.
+But the stampede that everyone expected to see of people buying equities on
+chain, I think that's going to be slower to materialize.
+I like that view and I completely agree.
+It's as if there's business to be done on chain that hasn't been taken advantage
+of by Wall Street versus vice versa.
+Yeah, you got to find a niche, right?
+That's kind of the key to competition or rather to avoiding competition.
+Yeah.
+Sid, thank you for joining us and for the insights.
+I'm glad we had a chance to finally have you on.
+Me too.
+My pleasure, Wyatt.
+Thanks for having me on.
+Appreciate it.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes, please go to onthebrink-podcast.com or
+just click on the tab in our website.
+Thanks for listening.

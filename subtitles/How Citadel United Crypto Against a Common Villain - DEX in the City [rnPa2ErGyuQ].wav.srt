@@ -1,0 +1,4164 @@
+1
+00:00:00,000 --> 00:00:01,920
+ - What I worry about here is like,
+
+2
+00:00:01,920 --> 00:00:04,920
+ Citadel securities to me is not the voice
+
+3
+00:00:04,920 --> 00:00:07,680
+ to be saying, we care about consumer protection.
+
+4
+00:00:07,680 --> 00:00:09,800
+ - I really think as an industry,
+
+5
+00:00:09,800 --> 00:00:12,640
+ we need to take those issues really seriously,
+
+6
+00:00:12,640 --> 00:00:16,320
+ because the SEC is never going to allow capital markets
+
+7
+00:00:16,320 --> 00:00:18,960
+ to come on chain unless we can prove
+
+8
+00:00:18,960 --> 00:00:21,000
+ that they're fair and transparent.
+
+9
+00:00:21,000 --> 00:00:24,920
+ - One of the things that I still have PTSD over is 2022,
+
+10
+00:00:24,920 --> 00:00:27,400
+ where a major contributing factor,
+
+11
+00:00:27,400 --> 00:00:29,880
+ I was at a DeFi protocol at that time.
+
+12
+00:00:29,880 --> 00:00:33,040
+ And I was so furious because there was so much demonization
+
+13
+00:00:33,040 --> 00:00:37,120
+ of DeFi in the press narrative during the crypto crash.
+
+14
+00:00:37,120 --> 00:00:39,840
+ And we were all like, it's not DeFi
+
+15
+00:00:39,840 --> 00:00:41,440
+ that screwed this up, guys.
+
+16
+00:00:41,440 --> 00:00:44,920
+ It's actually SeFi masquerading as DeFi.
+
+17
+00:00:44,920 --> 00:00:47,480
+ - We were in this next creepy part, because it got worse.
+
+18
+00:00:47,480 --> 00:00:51,120
+ So then they were like, okay, let's point the agents
+
+19
+00:00:51,120 --> 00:00:54,120
+ at brand new contracts that were just put out
+
+20
+00:00:54,120 --> 00:00:57,320
+ into the ecosystem with no known issue.
+
+21
+00:00:57,320 --> 00:00:59,920
+ - Within a short period of time, the agents found
+
+22
+00:00:59,920 --> 00:01:01,360
+ two zero-day exploits.
+
+23
+00:01:01,360 --> 00:01:04,000
+ Zero days, essentially, just like the builders
+
+24
+00:01:04,000 --> 00:01:07,000
+ have had zero days to fix any vulnerabilities
+
+25
+00:01:07,000 --> 00:01:09,800
+ following release, and they executed exploits.
+
+26
+00:01:09,800 --> 00:01:12,000
+ And they made money that costs more
+
+27
+00:01:12,000 --> 00:01:14,320
+ than what the agents cost.
+
+28
+00:01:14,320 --> 00:01:17,880
+ - Hi, all, and welcome to Decks in the City,
+
+29
+00:01:17,880 --> 00:01:21,240
+ where the wallets are cold and the takes are hot.
+
+30
+00:01:21,240 --> 00:01:23,520
+ First, we have Jesse, web3 prosecutor,
+
+31
+00:01:23,520 --> 00:01:26,240
+ turned web3 protector at Ribbit Capital.
+
+32
+00:01:26,240 --> 00:01:27,920
+ - Hi, everyone.
+
+33
+00:01:27,920 --> 00:01:31,400
+ - And V from the SEC to web3.
+
+34
+00:01:31,400 --> 00:01:32,440
+ - What's up?
+
+35
+00:01:32,440 --> 00:01:34,800
+ - And I'm your host, Catherine, our KK,
+
+36
+00:01:34,800 --> 00:01:37,600
+ fluent in TradFi and conversant in deep tech
+
+37
+00:01:37,600 --> 00:01:38,800
+ over at Starquare.
+
+38
+00:01:38,800 --> 00:01:41,720
+ And V and I are reporting live from our hotel rooms
+
+39
+00:01:41,720 --> 00:01:45,880
+ at the Pluck Chain Association Summit in Washington, DC.
+
+40
+00:01:45,880 --> 00:01:47,680
+ So we've been looking into some good stuff,
+
+41
+00:01:47,680 --> 00:01:50,240
+ but before we get started, here's a word from our sponsors
+
+42
+00:01:50,240 --> 00:01:52,320
+ that make this show possible.
+
+43
+00:01:52,320 --> 00:01:54,720
+ - Are you a builder who needs to add on-chain trading
+
+44
+00:01:54,720 --> 00:01:55,840
+ to your product?
+
+45
+00:01:55,840 --> 00:01:58,560
+ - The Uniswap Trading API from Uniswap Labs
+
+46
+00:01:58,560 --> 00:02:00,080
+ offers plug-and-play access
+
+47
+00:02:00,080 --> 00:02:02,920
+ to some of the deepest liquidity in crypto.
+
+48
+00:02:02,920 --> 00:02:05,960
+ It's on-chain execution at an enterprise level.
+
+49
+00:02:05,960 --> 00:02:08,120
+ More liquidity, less complexity.
+
+50
+00:02:08,120 --> 00:02:11,760
+ Visit hub.uniswap.org to learn more.
+
+51
+00:02:11,760 --> 00:02:14,520
+ - Before we get going, remember, we're lawyers,
+
+52
+00:02:14,520 --> 00:02:15,760
+ but we're not your lawyers.
+
+53
+00:02:15,760 --> 00:02:17,480
+ Nothing you hear on Decks in the City
+
+54
+00:02:17,480 --> 00:02:19,440
+ is legal or financial advice,
+
+55
+00:02:19,440 --> 00:02:21,960
+ and it doesn't create an attorney-client relationship.
+
+56
+00:02:21,960 --> 00:02:25,480
+ For the fine print, check unchainedcrypto.com.
+
+57
+00:02:25,480 --> 00:02:27,960
+ So we have a jam-packed episode today
+
+58
+00:02:27,960 --> 00:02:31,360
+ because as usual, there has been so much going on
+
+59
+00:02:31,360 --> 00:02:35,520
+ in crypto, mostly good, but some bad.
+
+60
+00:02:35,520 --> 00:02:40,240
+ And speaking of bad, the industry was rocked the other day
+
+61
+00:02:40,240 --> 00:02:43,800
+ with a very strongly worded, lengthy article
+
+62
+00:02:43,800 --> 00:02:46,080
+ from Citadel Securities.
+
+63
+00:02:46,080 --> 00:02:49,320
+ So we jump in and tell us more about this letter
+
+64
+00:02:49,320 --> 00:02:52,560
+ and why they sent a letter and all the things.
+
+65
+00:02:52,560 --> 00:02:56,400
+ - Sure, so first off, excuse the bed in the background.
+
+66
+00:02:56,400 --> 00:02:57,880
+ I tried to make it.
+
+67
+00:02:57,880 --> 00:02:58,720
+ - That's not good.
+
+68
+00:02:58,720 --> 00:03:00,240
+ I'm not really good at it, so.
+
+69
+00:03:00,240 --> 00:03:01,680
+ - I also made my bed.
+
+70
+00:03:01,680 --> 00:03:03,680
+ - Is there so much to feel about this person here?
+
+71
+00:03:03,680 --> 00:03:05,720
+ - Yeah, I usually don't do that in hotel rooms.
+
+72
+00:03:05,720 --> 00:03:07,360
+ - Okay, so let's talk about Citadel.
+
+73
+00:03:07,360 --> 00:03:09,640
+ So this week, Citadel Securities,
+
+74
+00:03:09,640 --> 00:03:11,520
+ our favorite little market maker
+
+75
+00:03:11,520 --> 00:03:13,560
+ and the king of payment for order flow,
+
+76
+00:03:13,560 --> 00:03:16,120
+ submitted a comment letter to the SEC
+
+77
+00:03:16,120 --> 00:03:21,120
+ on tokenized equities and so-called DeFi trading protocols.
+
+78
+00:03:21,560 --> 00:03:24,080
+ And this letter is fascinating
+
+79
+00:03:24,080 --> 00:03:29,080
+ because I think it tells you exactly how a major incumbent
+
+80
+00:03:29,080 --> 00:03:32,800
+ thinks about this next potential chapter
+
+81
+00:03:32,800 --> 00:03:34,240
+ of market structure, right?
+
+82
+00:03:34,240 --> 00:03:36,840
+ So here's the gist of their position.
+
+83
+00:03:36,840 --> 00:03:39,760
+ So Citadel says they support the idea.
+
+84
+00:03:39,760 --> 00:03:42,960
+ - Sorry to interrupt you, before we get there,
+
+85
+00:03:42,960 --> 00:03:44,880
+ 'cause I got this question and I know the answer,
+
+86
+00:03:44,880 --> 00:03:46,240
+ but I want you to explain it.
+
+87
+00:03:46,240 --> 00:03:48,400
+ Why would Citadel send a letter to the SEC?
+
+88
+00:03:48,400 --> 00:03:49,440
+ Like, what is the point?
+
+89
+00:03:49,440 --> 00:03:51,320
+ Can I just send a letter to the SEC?
+
+90
+00:03:51,320 --> 00:03:53,520
+ Like, give us more info on just the background
+
+91
+00:03:53,520 --> 00:03:54,720
+ of where this came from.
+
+92
+00:03:54,720 --> 00:03:59,640
+ - Yeah, so I mean, the general answer is yes.
+
+93
+00:03:59,640 --> 00:04:04,480
+ Anyone can submit a letter, a comment,
+
+94
+00:04:04,480 --> 00:04:06,520
+ a question to the SEC.
+
+95
+00:04:06,520 --> 00:04:09,400
+ Usually this takes place in the context
+
+96
+00:04:09,400 --> 00:04:12,000
+ of a formal rulemaking, right?
+
+97
+00:04:12,000 --> 00:04:16,080
+ Where the agency, the SEC actually invites comment letters
+
+98
+00:04:16,080 --> 00:04:17,080
+ from the public.
+
+99
+00:04:18,080 --> 00:04:21,680
+ I think what probably prompted this particular letter
+
+100
+00:04:21,680 --> 00:04:24,680
+ is Chair Atkins has been talking a lot recently
+
+101
+00:04:24,680 --> 00:04:28,640
+ about something called the DeFi Innovation Exemption.
+
+102
+00:04:28,640 --> 00:04:31,640
+ And I think that has made a lot of,
+
+103
+00:04:31,640 --> 00:04:33,840
+ so I think it's made crypto very excited
+
+104
+00:04:33,840 --> 00:04:36,680
+ about the possibilities there.
+
+105
+00:04:36,680 --> 00:04:39,360
+ But I think it has made some of the incumbents
+
+106
+00:04:39,360 --> 00:04:41,880
+ and tradfi very nervous
+
+107
+00:04:41,880 --> 00:04:45,560
+ because he has not yet said what it's going to look like
+
+108
+00:04:45,560 --> 00:04:48,800
+ and how it's going to impact the current market
+
+109
+00:04:48,800 --> 00:04:49,960
+ and market structure, right?
+
+110
+00:04:49,960 --> 00:04:53,160
+ So I think that is probably what prompted this letter.
+
+111
+00:04:53,160 --> 00:04:56,560
+ So in the letter, they do say they support the idea
+
+112
+00:04:56,560 --> 00:04:59,800
+ of tokenization and they acknowledge all the things
+
+113
+00:04:59,800 --> 00:05:00,640
+ that we know, right?
+
+114
+00:05:00,640 --> 00:05:03,200
+ The efficiency gains, faster settlement,
+
+115
+00:05:03,200 --> 00:05:07,000
+ investor choice, all the usual stuff that we talk about.
+
+116
+00:05:07,000 --> 00:05:08,840
+ But they draw a very right line, right?
+
+117
+00:05:08,840 --> 00:05:13,080
+ So in their view, if you're going to trade tokenized US equities,
+
+118
+00:05:13,080 --> 00:05:15,680
+ even on blockchain rails, you still have to play
+
+119
+00:05:15,680 --> 00:05:18,640
+ by the exact same regulatory rules
+
+120
+00:05:18,640 --> 00:05:20,640
+ that govern national security exchanges
+
+121
+00:05:20,640 --> 00:05:22,880
+ and broker dealers today.
+
+122
+00:05:22,880 --> 00:05:25,520
+ In other words, they don't want any shortcuts,
+
+123
+00:05:25,520 --> 00:05:29,280
+ no exemptions and like no free passes for DeFi.
+
+124
+00:05:29,280 --> 00:05:33,240
+ And the letter essentially asks the SEC to do three things, right?
+
+125
+00:05:33,240 --> 00:05:36,160
+ So the first thing is they ask the SEC
+
+126
+00:05:36,160 --> 00:05:40,000
+ to identify and classify the intermediaries
+
+127
+00:05:40,000 --> 00:05:42,360
+ behind tokenized equity trading,
+
+128
+00:05:42,360 --> 00:05:44,520
+ including all of the actors like inside
+
+129
+00:05:44,520 --> 00:05:47,120
+ and involved in the DeFi protocols.
+
+130
+00:05:47,120 --> 00:05:49,000
+ The second thing the letter does is
+
+131
+00:05:49,000 --> 00:05:51,240
+ refuses any broad exemptions
+
+132
+00:05:51,240 --> 00:05:54,400
+ or it asks the SEC to refuse any broad exemptions
+
+133
+00:05:54,400 --> 00:05:57,720
+ from the definitions of exchange or broker dealer, right?
+
+134
+00:05:57,720 --> 00:06:01,280
+ And like if you guys remember the last few years
+
+135
+00:06:01,280 --> 00:06:06,200
+ under J.R. Gensler, this was like a huge point of contention
+
+136
+00:06:06,200 --> 00:06:08,760
+ between the SEC and the industry.
+
+137
+00:06:08,760 --> 00:06:11,440
+ And then the third thing that the letter asks for
+
+138
+00:06:11,440 --> 00:06:16,160
+ is they say if the SEC does want to modernize the rules,
+
+139
+00:06:16,160 --> 00:06:18,480
+ they have to do it through a full notice
+
+140
+00:06:18,480 --> 00:06:19,520
+ and comment rulemaking.
+
+141
+00:06:19,520 --> 00:06:22,080
+ So the thing that I mentioned earlier,
+
+142
+00:06:22,080 --> 00:06:23,720
+ not a one-off exemption,
+
+143
+00:06:23,720 --> 00:06:25,600
+ like the DeFi innovation exemption,
+
+144
+00:06:25,600 --> 00:06:27,280
+ whatever that ends up being,
+
+145
+00:06:27,280 --> 00:06:29,320
+ that share Atkins keeps touting, right?
+
+146
+00:06:29,320 --> 00:06:32,720
+ So I think on its face,
+
+147
+00:06:32,720 --> 00:06:34,920
+ some of this seems reasonable, right?
+
+148
+00:06:34,920 --> 00:06:38,120
+ Like I think the crypto industry oftentimes
+
+149
+00:06:38,120 --> 00:06:41,680
+ we have very knee-jerk reactions to things like this,
+
+150
+00:06:41,680 --> 00:06:44,080
+ but I would just like encourage everyone
+
+151
+00:06:44,080 --> 00:06:46,760
+ to kind of take a deep breath
+
+152
+00:06:46,760 --> 00:06:50,360
+ and like take some of these things seriously, right?
+
+153
+00:06:50,360 --> 00:06:53,800
+ Like 'cause I think there is some reasonable stuff in here.
+
+154
+00:06:53,800 --> 00:06:55,280
+ Asking for regulatory clarity, first of all--
+
+155
+00:06:55,280 --> 00:06:56,400
+ - That's a hot table.
+
+156
+00:06:56,400 --> 00:06:57,240
+ That's how hot--
+
+157
+00:06:57,240 --> 00:06:59,200
+ - I know, but it shouldn't be, right?
+
+158
+00:06:59,200 --> 00:07:01,760
+ Like asking for regulatory clarity
+
+159
+00:07:01,760 --> 00:07:03,920
+ through a proper rulemaking process
+
+160
+00:07:03,920 --> 00:07:05,840
+ is literally what the crypto industry
+
+161
+00:07:05,840 --> 00:07:08,080
+ was asking Gensler for for four years.
+
+162
+00:07:08,080 --> 00:07:11,200
+ And there's nothing unreasonable about that, right?
+
+163
+00:07:11,200 --> 00:07:13,200
+ So I think that's totally fair.
+
+164
+00:07:13,200 --> 00:07:14,240
+ I want that too.
+
+165
+00:07:14,240 --> 00:07:17,640
+ You know, wanting transparency, fair access,
+
+166
+00:07:17,640 --> 00:07:20,080
+ market surveillance, custody standards,
+
+167
+00:07:20,080 --> 00:07:22,680
+ all this sort of stuff.
+
+168
+00:07:22,680 --> 00:07:24,800
+ You know, I spent almost six years at the SEC, right?
+
+169
+00:07:24,800 --> 00:07:29,800
+ Like there are very real investor protection issues involved.
+
+170
+00:07:29,800 --> 00:07:33,320
+ And honestly, like I think many serious crypto builders
+
+171
+00:07:33,320 --> 00:07:35,240
+ agree that we need stronger,
+
+172
+00:07:35,240 --> 00:07:39,320
+ just like assurances around resiliency and risk management
+
+173
+00:07:39,320 --> 00:07:40,360
+ of tokenized assets.
+
+174
+00:07:40,360 --> 00:07:42,400
+ I mean, this is something that like all three of us
+
+175
+00:07:42,400 --> 00:07:45,520
+ have written about and talked about at length.
+
+176
+00:07:45,520 --> 00:07:49,040
+ If we want to attract issuers and investors
+
+177
+00:07:49,040 --> 00:07:52,080
+ to actually participate in these on-chain capital markets.
+
+178
+00:07:52,080 --> 00:07:55,440
+ And by the way, there are a lot of folks in crypto
+
+179
+00:07:55,440 --> 00:07:56,400
+ do ingest that, right?
+
+180
+00:07:56,400 --> 00:07:58,680
+ They're engaging in good faith with the SEC
+
+181
+00:07:58,680 --> 00:08:00,960
+ to figure out like what on-chain capital markets
+
+182
+00:08:00,960 --> 00:08:02,760
+ would actually look like.
+
+183
+00:08:02,760 --> 00:08:05,720
+ So I want to give a shout out to Superstate
+
+184
+00:08:05,720 --> 00:08:07,440
+ and like Solana Policy Institute
+
+185
+00:08:07,440 --> 00:08:09,880
+ and many others that are actually doing this.
+
+186
+00:08:09,880 --> 00:08:14,680
+ So I think the other interesting point is like
+
+187
+00:08:14,680 --> 00:08:17,920
+ the idea that rules should be technology neutral, right?
+
+188
+00:08:17,920 --> 00:08:19,600
+ You hear this like all the time,
+
+189
+00:08:19,600 --> 00:08:21,520
+ like what does it actually mean?
+
+190
+00:08:21,520 --> 00:08:25,160
+ I think the point that Citadel makes about rules
+
+191
+00:08:25,160 --> 00:08:28,920
+ being tech neutral is also not unreasonable, right?
+
+192
+00:08:28,920 --> 00:08:31,200
+ 'Cause it just, that could mean that like
+
+193
+00:08:31,200 --> 00:08:34,080
+ just because a matching engine is run by code
+
+194
+00:08:34,080 --> 00:08:36,520
+ instead of a centralized intermediary
+
+195
+00:08:36,520 --> 00:08:38,840
+ doesn't mean that it should just like magically escape
+
+196
+00:08:38,840 --> 00:08:43,160
+ regulation if the function is performing is the same, right?
+
+197
+00:08:43,160 --> 00:08:45,840
+ So especially if it's something that is kind of centralized
+
+198
+00:08:45,840 --> 00:08:48,920
+ like a lot of L2 sequencers today,
+
+199
+00:08:48,920 --> 00:08:51,000
+ sequencers today are central, pretty central.
+
+200
+00:08:51,000 --> 00:08:54,560
+ - Leave the L2s alone, I know, but it's true, right?
+
+201
+00:08:54,560 --> 00:08:56,800
+ So like- - Not necessarily.
+
+202
+00:08:56,800 --> 00:08:58,440
+ - Some of them are, right?
+
+203
+00:08:58,440 --> 00:09:01,520
+ Like, do you wanna expand on that?
+
+204
+00:09:01,520 --> 00:09:04,240
+ - Well, I think look like it's definitely things
+
+205
+00:09:04,240 --> 00:09:05,880
+ get complicated when you start talking about
+
+206
+00:09:05,880 --> 00:09:07,160
+ tokenized securities.
+
+207
+00:09:07,160 --> 00:09:09,440
+ Like I think we all kind of laughed
+
+208
+00:09:09,440 --> 00:09:12,600
+ when I think it was Hester Perce who felt the need
+
+209
+00:09:12,600 --> 00:09:14,720
+ to come out and write a piece that basically said,
+
+210
+00:09:14,720 --> 00:09:18,560
+ hey guys, remember tokenized securities are still securities.
+
+211
+00:09:18,560 --> 00:09:21,480
+ Like there's a spectrum of crypto where it's gray,
+
+212
+00:09:21,480 --> 00:09:23,040
+ but there's also black and white.
+
+213
+00:09:23,040 --> 00:09:25,840
+ So tokenized security brings a lot more black and white
+
+214
+00:09:25,840 --> 00:09:28,880
+ or a need for black and white into the conversation.
+
+215
+00:09:28,880 --> 00:09:30,040
+ Jesse, I wanna hear your thoughts,
+
+216
+00:09:30,040 --> 00:09:32,760
+ but really quick, I wanted to explain some context here
+
+217
+00:09:32,760 --> 00:09:35,800
+ that I think is creating some angst over this issue.
+
+218
+00:09:35,800 --> 00:09:39,160
+ First, for those listeners who are not as familiar
+
+219
+00:09:39,160 --> 00:09:42,600
+ with the TRAD markets, Citadel is a leading
+
+220
+00:09:42,600 --> 00:09:45,560
+ global massive hedge fund, an asset manager
+
+221
+00:09:45,560 --> 00:09:49,280
+ that invests institutional money founded by Ken Griffin.
+
+222
+00:09:49,280 --> 00:09:51,460
+ It's extraordinarily powerful.
+
+223
+00:09:51,460 --> 00:09:54,600
+ I cannot underscore that enough on the policy, Ron.
+
+224
+00:09:54,600 --> 00:09:58,080
+ Also, because frankly, Ken himself has donated heavily
+
+225
+00:09:58,080 --> 00:10:00,760
+ to political candidates and super PACs.
+
+226
+00:10:00,760 --> 00:10:04,560
+ Citadel securities, yeah, including crypto.
+
+227
+00:10:04,560 --> 00:10:06,080
+ - Yeah, you should talk about that.
+
+228
+00:10:06,080 --> 00:10:08,620
+ - Complication here, that's confusing.
+
+229
+00:10:08,620 --> 00:10:10,800
+ Citadel securities, as we mentioned,
+
+230
+00:10:10,800 --> 00:10:12,800
+ is a massive electronic market maker,
+
+231
+00:10:12,800 --> 00:10:16,040
+ providing liquidity for investors.
+
+232
+00:10:16,040 --> 00:10:19,160
+ They are both owned by Ken, they're distinct,
+
+233
+00:10:19,160 --> 00:10:21,560
+ but related financial firms.
+
+234
+00:10:21,560 --> 00:10:23,480
+ But the very confusing thing about all of this
+
+235
+00:10:23,480 --> 00:10:26,720
+ is that Citadel securities has heavily invested in crypto,
+
+236
+00:10:26,720 --> 00:10:28,840
+ like not through a traditional venture arm,
+
+237
+00:10:28,840 --> 00:10:32,600
+ but a lot of strategic investments in major exchanges,
+
+238
+00:10:32,600 --> 00:10:37,000
+ like Kraken and Emfra and all kinds of things
+
+239
+00:10:37,000 --> 00:10:37,840
+ across the spectrum.
+
+240
+00:10:37,840 --> 00:10:38,840
+ So a lot of people were saying,
+
+241
+00:10:38,840 --> 00:10:40,280
+ well, why did they send this letter?
+
+242
+00:10:40,280 --> 00:10:42,960
+ Why are they shooting themselves in the foot?
+
+243
+00:10:42,960 --> 00:10:46,320
+ My take is that this is effectively a mechanism
+
+244
+00:10:46,320 --> 00:10:49,480
+ to kind of, it's a long short
+
+245
+00:10:49,480 --> 00:10:51,800
+ on where things are gonna end up.
+
+246
+00:10:51,800 --> 00:10:56,000
+ And then there's also a theory that this is a preview
+
+247
+00:10:56,000 --> 00:11:00,160
+ to an intent to sue the SEC on this basis.
+
+248
+00:11:00,160 --> 00:11:02,920
+ And this is a roadmap for their lawsuit.
+
+249
+00:11:02,920 --> 00:11:06,960
+ So that's an interesting path that we might see
+
+250
+00:11:06,960 --> 00:11:08,440
+ and things might get really a lot
+
+251
+00:11:08,440 --> 00:11:09,680
+ uglier than this letter.
+
+252
+00:11:09,680 --> 00:11:11,560
+ But Jessie, go ahead, 'cause I know you have thoughts
+
+253
+00:11:11,560 --> 00:11:12,720
+ on risk alone.
+
+254
+00:11:12,720 --> 00:11:14,320
+ - Yeah, I think it's so interesting,
+
+255
+00:11:14,320 --> 00:11:16,720
+ 'cause this is probably the only topic so far
+
+256
+00:11:16,720 --> 00:11:19,760
+ on the show where I'm probably in between the two of you,
+
+257
+00:11:19,760 --> 00:11:22,360
+ because I agree that the rules
+
+258
+00:11:22,360 --> 00:11:24,480
+ that they're emphasizing as important
+
+259
+00:11:24,480 --> 00:11:26,760
+ are really very important.
+
+260
+00:11:26,760 --> 00:11:28,840
+ And we all really believe in them.
+
+261
+00:11:28,840 --> 00:11:30,680
+ What I have a problem with here
+
+262
+00:11:30,680 --> 00:11:33,600
+ is they are the ultimate intermediary.
+
+263
+00:11:33,600 --> 00:11:36,360
+ And of course they want to maintain a system
+
+264
+00:11:36,360 --> 00:11:38,360
+ that's based on intermediaries.
+
+265
+00:11:38,360 --> 00:11:40,920
+ Like it would just destroy their moat
+
+266
+00:11:40,920 --> 00:11:44,320
+ if DeFi was able to operate without any intermediaries.
+
+267
+00:11:44,320 --> 00:11:46,480
+ So they want tokenization to exist.
+
+268
+00:11:46,480 --> 00:11:47,480
+ They see the benefits of it,
+
+269
+00:11:47,480 --> 00:11:50,120
+ but only if it's done by them or in the way
+
+270
+00:11:50,120 --> 00:11:51,440
+ that works for them.
+
+271
+00:11:51,440 --> 00:11:54,960
+ So in many ways, this is like the least surprising filing
+
+272
+00:11:54,960 --> 00:11:57,720
+ I've ever seen or letter to the SEC.
+
+273
+00:11:57,720 --> 00:12:00,360
+ But the problem that I have with the letter
+
+274
+00:12:00,360 --> 00:12:02,560
+ is not necessarily like the nuance
+
+275
+00:12:02,560 --> 00:12:04,480
+ that V is able to read into it,
+
+276
+00:12:04,480 --> 00:12:08,040
+ but rather that it's sort of forcing the SEC to choose
+
+277
+00:12:08,040 --> 00:12:11,120
+ and creating like a black and white situation here.
+
+278
+00:12:11,120 --> 00:12:13,280
+ And I think it's misclassifying what industry
+
+279
+00:12:13,280 --> 00:12:15,680
+ is asking for because as we discussed,
+
+280
+00:12:15,680 --> 00:12:18,760
+ and as V you mentioned, like there is this innovation
+
+281
+00:12:18,760 --> 00:12:20,800
+ exemption idea that's out there,
+
+282
+00:12:20,800 --> 00:12:23,800
+ but nobody knows what it's going to be.
+
+283
+00:12:23,800 --> 00:12:26,800
+ And it's probably, I could bet on it,
+
+284
+00:12:26,800 --> 00:12:29,120
+ is not going to be a full blanket exception
+
+285
+00:12:29,120 --> 00:12:30,880
+ without any report that's on here.
+
+286
+00:12:30,880 --> 00:12:35,320
+ - It's like, here's like a whole new on-chain capital markets,
+
+287
+00:12:35,320 --> 00:12:36,160
+ like overnight.
+
+288
+00:12:36,160 --> 00:12:39,120
+ - Yeah, I know, incentive authority works.
+
+289
+00:12:39,120 --> 00:12:40,880
+ Like it needs to be conditional.
+
+290
+00:12:40,880 --> 00:12:42,840
+ And narrow, we need to get a real sense
+
+291
+00:12:42,840 --> 00:12:44,200
+ of what's required here.
+
+292
+00:12:44,200 --> 00:12:46,240
+ So to me, like Citadel is saying,
+
+293
+00:12:46,240 --> 00:12:49,160
+ look, SEC, you have to decide between regulation
+
+294
+00:12:49,160 --> 00:12:51,120
+ and no regulation, no regulation's bad
+
+295
+00:12:51,120 --> 00:12:52,160
+ for all these reasons.
+
+296
+00:12:52,160 --> 00:12:53,600
+ And these are all intermediaries
+
+297
+00:12:53,600 --> 00:12:55,120
+ for all the same reasons.
+
+298
+00:12:55,120 --> 00:12:55,960
+ We're really like--
+
+299
+00:12:55,960 --> 00:12:57,320
+ - Which is not accurate.
+
+300
+00:12:57,320 --> 00:12:58,480
+ - Which is not accurate.
+
+301
+00:12:58,480 --> 00:13:00,960
+ I think their letter definitely goes too far.
+
+302
+00:13:00,960 --> 00:13:01,800
+ - Right.
+
+303
+00:13:01,800 --> 00:13:02,640
+ - The letter they--
+
+304
+00:13:02,640 --> 00:13:03,560
+ - They sweep in everything.
+
+305
+00:13:03,560 --> 00:13:04,400
+ - Right.
+
+306
+00:13:04,400 --> 00:13:05,240
+ - Like--
+
+307
+00:13:05,240 --> 00:13:06,800
+ - Everything, validators, everything, yeah.
+
+308
+00:13:06,800 --> 00:13:09,360
+ - And I think if this letter was submitted
+
+309
+00:13:09,360 --> 00:13:11,240
+ to the SEC a year ago,
+
+310
+00:13:11,240 --> 00:13:13,440
+ I would be more worried about its impact
+
+311
+00:13:13,440 --> 00:13:17,040
+ because we haven't spent this entire year educating
+
+312
+00:13:17,040 --> 00:13:18,840
+ about what all these different roles
+
+313
+00:13:18,840 --> 00:13:21,280
+ and DeFi could be and why it's important.
+
+314
+00:13:21,280 --> 00:13:23,120
+ Right now, I think it does speak
+
+315
+00:13:23,120 --> 00:13:24,680
+ exactly to what you were saying, KK,
+
+316
+00:13:24,680 --> 00:13:27,320
+ which is like, we know litigation's coming.
+
+317
+00:13:27,320 --> 00:13:29,240
+ Rulemaking is definitely something
+
+318
+00:13:29,240 --> 00:13:30,680
+ that probably should come about.
+
+319
+00:13:30,680 --> 00:13:32,760
+ But like, we don't really know what's gonna happen
+
+320
+00:13:32,760 --> 00:13:35,240
+ until we have more details on this exemption.
+
+321
+00:13:35,240 --> 00:13:36,800
+ - Well, the other thing that I think this letter
+
+322
+00:13:36,800 --> 00:13:39,600
+ is really important to remind everyone in crypto.
+
+323
+00:13:39,600 --> 00:13:41,680
+ And I feel like I'm a broken record on this,
+
+324
+00:13:41,680 --> 00:13:43,520
+ but crypto is a bubble.
+
+325
+00:13:43,520 --> 00:13:45,280
+ We're all hanging out with each other all the time,
+
+326
+00:13:45,280 --> 00:13:47,400
+ talking with each other all the time.
+
+327
+00:13:47,400 --> 00:13:48,880
+ Now, it's a problem.
+
+328
+00:13:48,880 --> 00:13:51,600
+ It's a problem from an advocacy perspective.
+
+329
+00:13:51,600 --> 00:13:53,120
+ One of the things that I like
+
+330
+00:13:53,120 --> 00:13:55,840
+ about my ability to advocate for crypto
+
+331
+00:13:55,840 --> 00:13:59,120
+ is I have a crypto skeptic trad by husband,
+
+332
+00:13:59,120 --> 00:14:03,760
+ and I use him all the time to pressure check my assumptions
+
+333
+00:14:03,760 --> 00:14:05,840
+ to effectively bring the back
+
+334
+00:14:05,840 --> 00:14:08,280
+ into kind of the trad perspective.
+
+335
+00:14:08,280 --> 00:14:10,280
+ So I wanna remind everyone in crypto
+
+336
+00:14:10,280 --> 00:14:13,240
+ that this letter is not outrageous
+
+337
+00:14:13,240 --> 00:14:16,840
+ to a lot of traditional financial services.
+
+338
+00:14:16,840 --> 00:14:18,960
+ So that might be troubling to crypto.
+
+339
+00:14:18,960 --> 00:14:21,040
+ And I'm certainly not saying Citadel's right
+
+340
+00:14:21,040 --> 00:14:22,320
+ with the concepts in these letters.
+
+341
+00:14:22,320 --> 00:14:24,000
+ I'm saying they're wrong on a lot,
+
+342
+00:14:24,000 --> 00:14:26,200
+ but it is a refresher and a reminder
+
+343
+00:14:26,200 --> 00:14:28,240
+ that how we think and view these issues
+
+344
+00:14:28,240 --> 00:14:31,040
+ is not how a lot of very powerful people
+
+345
+00:14:31,040 --> 00:14:32,840
+ and entities think and view these issues.
+
+346
+00:14:32,840 --> 00:14:36,040
+ So we still have work to do to educate
+
+347
+00:14:36,040 --> 00:14:38,800
+ and to advocate, for example, on behalf of validators,
+
+348
+00:14:38,800 --> 00:14:40,880
+ on behalf of L2s, on behalf of all
+
+349
+00:14:40,880 --> 00:14:43,240
+ of these various market participants
+
+350
+00:14:43,240 --> 00:14:44,800
+ that should not be regulated.
+
+351
+00:14:44,800 --> 00:14:47,000
+ We need to explain why and we need to justify it
+
+352
+00:14:47,000 --> 00:14:48,040
+ and we need to speak in a way
+
+353
+00:14:48,040 --> 00:14:50,200
+ that trad markets can understand.
+
+354
+00:14:50,200 --> 00:14:52,240
+ - And do you know what else we have to do?
+
+355
+00:14:52,240 --> 00:14:54,640
+ Like, I know I sound like a broken record.
+
+356
+00:14:54,640 --> 00:14:57,360
+ I feel like I've written like 50 op-eds on this.
+
+357
+00:14:57,360 --> 00:15:00,160
+ But one thing I keep really pushing
+
+358
+00:15:00,160 --> 00:15:04,240
+ is when the industry talks about on-chain capital markets,
+
+359
+00:15:04,240 --> 00:15:06,920
+ we focus so much on performance, right?
+
+360
+00:15:06,920 --> 00:15:09,080
+ Like speed, efficiency and cost.
+
+361
+00:15:09,080 --> 00:15:12,800
+ And I think not enough on investor protection
+
+362
+00:15:12,800 --> 00:15:14,480
+ and market integrity, right?
+
+363
+00:15:14,480 --> 00:15:16,560
+ Like I've mentioned to you guys
+
+364
+00:15:16,560 --> 00:15:18,760
+ the duty of best execution before.
+
+365
+00:15:18,760 --> 00:15:20,040
+ So that's just one example, right?
+
+366
+00:15:20,040 --> 00:15:23,160
+ It's a rule that exists in today's securities markets
+
+367
+00:15:23,160 --> 00:15:26,720
+ to ensure that brokers feel customers' orders fairly.
+
+368
+00:15:26,720 --> 00:15:28,960
+ That's a really important policy goal.
+
+369
+00:15:28,960 --> 00:15:32,240
+ Like issuers and investors are not gonna participate
+
+370
+00:15:32,240 --> 00:15:35,520
+ in capital markets where orders aren't treated fairly, right?
+
+371
+00:15:35,520 --> 00:15:38,760
+ So how are we gonna achieve that on-chain?
+
+372
+00:15:38,760 --> 00:15:42,240
+ What do we do about something like conflicted order routing
+
+373
+00:15:42,240 --> 00:15:45,160
+ which basically exists everywhere in crypto trading today
+
+374
+00:15:45,160 --> 00:15:48,280
+ in the form of MEV and like other forces?
+
+375
+00:15:48,280 --> 00:15:50,960
+ Like there are a lot of projects taking this seriously, right?
+
+376
+00:15:50,960 --> 00:15:53,520
+ Like flashpots has developed a lot of mechanisms
+
+377
+00:15:53,520 --> 00:15:56,320
+ to help solve this problem on the Ethereum blockchain
+
+378
+00:15:56,320 --> 00:16:00,440
+ and companies like Jeto and Temporal or Harmonic
+
+379
+00:16:00,440 --> 00:16:02,160
+ have put out tools to address this.
+
+380
+00:16:02,160 --> 00:16:04,280
+ But I really think as an industry,
+
+381
+00:16:04,280 --> 00:16:07,120
+ we need to take those issues really seriously
+
+382
+00:16:07,120 --> 00:16:10,800
+ because the SEC is never going to allow capital markets
+
+383
+00:16:10,800 --> 00:16:13,440
+ to come on-chain unless we can prove
+
+384
+00:16:13,440 --> 00:16:16,280
+ that they're fair and transparent nor should they.
+
+385
+00:16:16,280 --> 00:16:19,480
+ And so that is, it's like something that I just,
+
+386
+00:16:19,480 --> 00:16:21,600
+ I want the industry to start thinking
+
+387
+00:16:21,600 --> 00:16:23,200
+ really seriously about that.
+
+388
+00:16:23,200 --> 00:16:25,760
+ - Like V, that is 100% on point.
+
+389
+00:16:25,760 --> 00:16:27,600
+ What I worry about here is like
+
+390
+00:16:27,600 --> 00:16:30,620
+ Citadel securities to me is not the voice
+
+391
+00:16:30,620 --> 00:16:33,240
+ to be saying we care about consumer protection
+
+392
+00:16:33,240 --> 00:16:36,720
+ and give us all the best assets, everything.
+
+393
+00:16:36,720 --> 00:16:39,600
+ And so it's very easy for DeFi
+
+394
+00:16:39,600 --> 00:16:43,640
+ to dismiss the arguments like full stop in this letter
+
+395
+00:16:43,640 --> 00:16:45,560
+ when what you're saying is actually really true
+
+396
+00:16:45,560 --> 00:16:47,040
+ that they're making good points,
+
+397
+00:16:47,040 --> 00:16:50,360
+ they're just doing it in a way that like misclassifies DeFi
+
+398
+00:16:50,360 --> 00:16:52,800
+ and yeah, there's a lot of inaccuracies in there.
+
+399
+00:16:52,800 --> 00:16:56,000
+ - Like Reagan leaders were the enemy for a lot of time
+
+400
+00:16:56,000 --> 00:16:57,640
+ and now trap by, it's not just here,
+
+401
+00:16:57,640 --> 00:17:00,640
+ it's a genius act, et cetera, like are becoming the enemy.
+
+402
+00:17:00,640 --> 00:17:04,480
+ And so honestly, like when crypto has an enemy,
+
+403
+00:17:04,480 --> 00:17:07,600
+ like we are bubble gets more entrenched
+
+404
+00:17:07,600 --> 00:17:09,400
+ and it's like you're against us.
+
+405
+00:17:09,400 --> 00:17:13,040
+ - Yeah, speaking of bubbles KK, I totally agree
+
+406
+00:17:13,040 --> 00:17:16,080
+ that like it's actually a great reality check
+
+407
+00:17:16,080 --> 00:17:18,800
+ to have a non-crypto like husband
+
+408
+00:17:18,800 --> 00:17:22,880
+ because literally every other week I ask my husband
+
+409
+00:17:22,880 --> 00:17:24,440
+ if I sound like I'm in a cult
+
+410
+00:17:24,440 --> 00:17:26,240
+ and he's like, yeah, kind of.
+
+411
+00:17:26,240 --> 00:17:28,280
+ - Or a friend or a mom.
+
+412
+00:17:28,280 --> 00:17:30,600
+ - Yeah, you know, like a mom.
+
+413
+00:17:30,600 --> 00:17:31,440
+ - Yeah.
+
+414
+00:17:31,440 --> 00:17:32,280
+ - Yeah.
+
+415
+00:17:32,280 --> 00:17:35,840
+ - Or a dog, it's always good to have these people around us
+
+416
+00:17:35,840 --> 00:17:39,920
+ that all live and breathe, like Bitcoin, come on guys.
+
+417
+00:17:39,920 --> 00:17:44,280
+ We can't convert everyone as much as we're trying to do so.
+
+418
+00:17:44,280 --> 00:17:46,760
+ Okay, it's a longer path.
+
+419
+00:17:46,760 --> 00:17:48,560
+ I think that's right.
+
+420
+00:17:48,560 --> 00:17:51,080
+ And the other thing is, look,
+
+421
+00:17:51,080 --> 00:17:54,640
+ I think I have an immediate negative visceral reaction
+
+422
+00:17:54,640 --> 00:17:58,160
+ when I see people trying to deal with these issues
+
+423
+00:17:58,160 --> 00:18:01,360
+ using a sledgehammer as opposed to a scalpel
+
+424
+00:18:01,360 --> 00:18:04,440
+ in the words of commissioner purse in her privacy piece.
+
+425
+00:18:04,440 --> 00:18:06,200
+ And we have spent so many years
+
+426
+00:18:06,200 --> 00:18:08,920
+ with the sledgehammer regulatory approach
+
+427
+00:18:08,920 --> 00:18:12,160
+ and what is likely the best route forward for crypto
+
+428
+00:18:12,160 --> 00:18:13,000
+ is a scalpel.
+
+429
+00:18:13,000 --> 00:18:15,080
+ Now, it's a lot harder to do that
+
+430
+00:18:15,080 --> 00:18:17,000
+ as we've seen with legislation,
+
+431
+00:18:17,000 --> 00:18:20,720
+ but Citadel's sledgehammer letter was absurd.
+
+432
+00:18:20,720 --> 00:18:22,600
+ Again, not absurd to the trademarks,
+
+433
+00:18:22,600 --> 00:18:25,760
+ but absurd in how they were sweeping everyone
+
+434
+00:18:25,760 --> 00:18:28,760
+ into something that didn't make sense from a very technical
+
+435
+00:18:28,760 --> 00:18:29,760
+ perspective.
+
+436
+00:18:29,760 --> 00:18:32,240
+ - Yeah, yeah, I agree with that.
+
+437
+00:18:32,240 --> 00:18:34,240
+ - Okay, so we have another meaty topic
+
+438
+00:18:34,240 --> 00:18:36,680
+ that we're going to move to in a minute,
+
+439
+00:18:36,680 --> 00:18:40,600
+ but before we do so, another word from our sponsors.
+
+440
+00:18:40,600 --> 00:18:42,160
+ - Hey, founders and developers,
+
+441
+00:18:42,160 --> 00:18:43,960
+ if you're looking to bring on-chain trading
+
+442
+00:18:43,960 --> 00:18:46,320
+ to your product, wallet or platform,
+
+443
+00:18:46,320 --> 00:18:50,040
+ check out the new Uniswap Trading API from Uniswap Labs.
+
+444
+00:18:50,040 --> 00:18:53,640
+ It's your plug and play gateway to global on-chain liquidity.
+
+445
+00:18:53,640 --> 00:18:56,200
+ No deep crypto experience required
+
+446
+00:18:56,200 --> 00:18:58,880
+ and no need to manage complex integrations
+
+447
+00:18:58,880 --> 00:19:00,400
+ or ongoing maintenance.
+
+448
+00:19:00,400 --> 00:19:02,040
+ With the Uniswap Trading API,
+
+449
+00:19:02,040 --> 00:19:04,920
+ you'll get enterprise grade on-chain execution,
+
+450
+00:19:04,920 --> 00:19:07,760
+ combining both on-chain and off-chain sources
+
+451
+00:19:07,760 --> 00:19:09,800
+ for the most competitive prices.
+
+452
+00:19:09,800 --> 00:19:12,960
+ Simply put, more liquidity, less complexity.
+
+453
+00:19:12,960 --> 00:19:15,400
+ And this isn't just any API.
+
+454
+00:19:15,400 --> 00:19:17,880
+ It connects directly to the Uniswap protocol,
+
+455
+00:19:17,880 --> 00:19:21,320
+ which has securely processed over $3.3 trillion
+
+456
+00:19:21,320 --> 00:19:24,200
+ in total volume with zero hacks.
+
+457
+00:19:24,200 --> 00:19:26,520
+ So stop worrying about liquidity infrastructure
+
+458
+00:19:26,520 --> 00:19:28,480
+ and focus on building your product.
+
+459
+00:19:28,480 --> 00:19:30,320
+ Get access to the same liquidity
+
+460
+00:19:30,320 --> 00:19:34,760
+ that powers billions in swaps through one powerful API.
+
+461
+00:19:34,760 --> 00:19:38,960
+ Visit hub.uniswap.org to learn more.
+
+462
+00:19:38,960 --> 00:19:42,560
+ - So two absolutely massive news items
+
+463
+00:19:42,560 --> 00:19:43,720
+ from the CFTC this week,
+
+464
+00:19:43,720 --> 00:19:45,600
+ speaking of good news, positive news,
+
+465
+00:19:45,600 --> 00:19:47,200
+ after talking about Citadel.
+
+466
+00:19:47,200 --> 00:19:50,200
+ The first was the acting chair, Caroline Pham,
+
+467
+00:19:50,200 --> 00:19:52,880
+ who has just been on a terror of progress,
+
+468
+00:19:52,880 --> 00:19:56,400
+ announced that listed spot crypto products
+
+469
+00:19:56,400 --> 00:20:00,400
+ can change on CFTC registered futures exchanges.
+
+470
+00:20:00,400 --> 00:20:02,160
+ So as a refresher, those are called
+
+471
+00:20:02,160 --> 00:20:04,760
+ designated contract markets or DCM.
+
+472
+00:20:04,760 --> 00:20:06,480
+ I wanna provide a little bit more background there
+
+473
+00:20:06,480 --> 00:20:08,880
+ 'cause I am formerly the chief legal officer
+
+474
+00:20:08,880 --> 00:20:11,800
+ of a DCM and a crypto spot market.
+
+475
+00:20:11,800 --> 00:20:16,080
+ So derivatives or futures are traded on DCMs.
+
+476
+00:20:16,080 --> 00:20:18,120
+ So meaning that up until now,
+
+477
+00:20:18,120 --> 00:20:21,720
+ spot crypto trading in the US has not happened on DCMs.
+
+478
+00:20:21,720 --> 00:20:25,600
+ It's mainly happened on kind of crypto native platforms
+
+479
+00:20:25,600 --> 00:20:28,480
+ that aren't regulated by the CFTC or SEC.
+
+480
+00:20:28,480 --> 00:20:31,480
+ They're subject to this horrible patchwork
+
+481
+00:20:31,480 --> 00:20:35,760
+ of state licensing, like state money transmitter licenses,
+
+482
+00:20:35,760 --> 00:20:38,320
+ New York bit licenses, et cetera.
+
+483
+00:20:38,320 --> 00:20:40,520
+ Some of the spot trading also happens on kind of tread
+
+484
+00:20:40,520 --> 00:20:43,360
+ by platforms like Robinhood
+
+485
+00:20:43,360 --> 00:20:46,160
+ and there's other licenses that can be involved.
+
+486
+00:20:46,160 --> 00:20:48,160
+ But the CFTC's primary authority
+
+487
+00:20:48,160 --> 00:20:50,080
+ is over the derivatives markets.
+
+488
+00:20:50,080 --> 00:20:55,080
+ It's not over spot crypto markets, but the big change.
+
+489
+00:20:55,080 --> 00:20:59,600
+ So, and this is huge, is that chair Pham came forward
+
+490
+00:20:59,600 --> 00:21:04,600
+ and was basically like DCMs can list spot crypto for trading.
+
+491
+00:21:04,600 --> 00:21:07,120
+ This was previewed months ago
+
+492
+00:21:07,120 --> 00:21:09,600
+ so the industry actually had chance to comment,
+
+493
+00:21:09,600 --> 00:21:10,920
+ but now it's official, official.
+
+494
+00:21:10,920 --> 00:21:13,560
+ And we have already seen the nominal launching
+
+495
+00:21:13,560 --> 00:21:18,280
+ the first ever leverage spot crypto exchange.
+
+496
+00:21:18,280 --> 00:21:20,760
+ So I want to get thoughts from my other hosts,
+
+497
+00:21:20,760 --> 00:21:23,600
+ but a very nerdy point here.
+
+498
+00:21:23,600 --> 00:21:27,360
+ Margin trades in spot crypto are actually already considered
+
+499
+00:21:27,360 --> 00:21:32,360
+ by the CFTC to be retail leveraged commodity transactions,
+
+500
+00:21:32,360 --> 00:21:35,480
+ which means that under like those specific transactions
+
+501
+00:21:35,480 --> 00:21:39,120
+ under the Commodity Exchange Act are a carve out.
+
+502
+00:21:39,120 --> 00:21:41,720
+ Like there's a carve out in the Commodities Exchange Act
+
+503
+00:21:41,720 --> 00:21:44,840
+ that designates what the CFTC has jurisdiction over.
+
+504
+00:21:44,840 --> 00:21:48,000
+ That says that certain retail commodity transactions
+
+505
+00:21:48,000 --> 00:21:51,520
+ can be treated by the law as if they were futures contracts.
+
+506
+00:21:51,520 --> 00:21:54,600
+ So these transactions were already kind of like a secret
+
+507
+00:21:54,600 --> 00:21:58,480
+ exception to the whole no spot trading on DCMs,
+
+508
+00:21:58,480 --> 00:22:01,360
+ but no one was really using this.
+
+509
+00:22:01,360 --> 00:22:04,880
+ Now it's a question mark as to where that like,
+
+510
+00:22:04,880 --> 00:22:07,600
+ is that where the jurisdiction comes from?
+
+511
+00:22:07,600 --> 00:22:10,480
+ So I'll stop talking, but the TLDR of all of this,
+
+512
+00:22:10,480 --> 00:22:12,160
+ like from an educational perspective,
+
+513
+00:22:12,160 --> 00:22:15,640
+ is there has never been like clear guidance from the CFTC
+
+514
+00:22:15,640 --> 00:22:18,840
+ that futures exchanges can list spot crypto
+
+515
+00:22:18,840 --> 00:22:22,760
+ as leveraged retail commodity transactions until now.
+
+516
+00:22:22,760 --> 00:22:25,800
+ And the real utility is that all of these DCMs
+
+517
+00:22:25,800 --> 00:22:30,720
+ can now offer retail access to long and short crypto
+
+518
+00:22:30,720 --> 00:22:33,080
+ like with leverage.
+
+519
+00:22:33,080 --> 00:22:36,240
+ And it could also hopefully for centralized exchanges
+
+520
+00:22:36,240 --> 00:22:40,520
+ or for DCMs make it a lot easier for those exchanges
+
+521
+00:22:40,520 --> 00:22:43,280
+ to offer these products and to navigate all of this
+
+522
+00:22:43,280 --> 00:22:47,720
+ without dealing with the state by state patchwork
+
+523
+00:22:47,720 --> 00:22:50,080
+ if they rely on federal preemption.
+
+524
+00:22:50,080 --> 00:22:53,360
+ So huge advantage there, everybody's going to want a DCM.
+
+525
+00:22:53,360 --> 00:22:56,760
+ So I know that V had some questions.
+
+526
+00:22:56,760 --> 00:22:57,600
+ I'll turn it.
+
+527
+00:22:57,600 --> 00:23:00,720
+ - I did, I love asking you all how many CFTC questions.
+
+528
+00:23:00,720 --> 00:23:05,000
+ So my question was like, like a competition one,
+
+529
+00:23:05,000 --> 00:23:06,680
+ almost like all of that is super interesting.
+
+530
+00:23:06,680 --> 00:23:09,680
+ But like when I saw this, my first thought was,
+
+531
+00:23:09,680 --> 00:23:14,600
+ oh, like was just one company like granted,
+
+532
+00:23:14,600 --> 00:23:16,400
+ like permission to do this.
+
+533
+00:23:16,400 --> 00:23:20,200
+ And it seemed to come out of nowhere.
+
+534
+00:23:20,200 --> 00:23:22,040
+ And so like that made me think about,
+
+535
+00:23:22,040 --> 00:23:24,360
+ like I don't know if you guys remember,
+
+536
+00:23:24,360 --> 00:23:26,760
+ but when like the SEC was basically forced
+
+537
+00:23:26,760 --> 00:23:31,760
+ by the DC Circuit Court to approve spot Bitcoin ETFs,
+
+538
+00:23:32,800 --> 00:23:35,880
+ like they did it in a very particular way,
+
+539
+00:23:35,880 --> 00:23:40,880
+ which is they approved all 11 applications at the same time.
+
+540
+00:23:40,880 --> 00:23:43,480
+ So like the first 11 applications,
+
+541
+00:23:43,480 --> 00:23:45,640
+ they approved them as a group.
+
+542
+00:23:45,640 --> 00:23:47,720
+ And I think they did that because they didn't want to give
+
+543
+00:23:47,720 --> 00:23:52,360
+ like any one market participant a leg up or an unfair like
+
+544
+00:23:52,360 --> 00:23:53,880
+ advantage or a head start.
+
+545
+00:23:53,880 --> 00:23:55,720
+ So like that was kind of my first thought
+
+546
+00:23:55,720 --> 00:23:57,440
+ when I saw the Bitnomial news.
+
+547
+00:23:57,440 --> 00:24:00,600
+ So like do you, can you shed any light on that?
+
+548
+00:24:00,600 --> 00:24:01,480
+ - It's a great question.
+
+549
+00:24:01,480 --> 00:24:03,360
+ So Bitnomials actually unique.
+
+550
+00:24:03,360 --> 00:24:05,000
+ I'm a fan of Bitnomial.
+
+551
+00:24:05,000 --> 00:24:07,280
+ They hold a DCM license.
+
+552
+00:24:07,280 --> 00:24:10,960
+ They also hold a derivatives clearing organization,
+
+553
+00:24:10,960 --> 00:24:13,320
+ a DCO license, which is for clearing.
+
+554
+00:24:13,320 --> 00:24:18,000
+ And they are also a futures commission merchant and FCM.
+
+555
+00:24:18,000 --> 00:24:21,680
+ So that is nearly a full suite of CFTC licenses.
+
+556
+00:24:21,680 --> 00:24:25,440
+ And it's what's called a vertically integrated structure.
+
+557
+00:24:25,440 --> 00:24:28,320
+ So there's actually four pieces of a derivative market,
+
+558
+00:24:28,320 --> 00:24:31,440
+ the exchange, the DCM, the clearing house,
+
+559
+00:24:31,440 --> 00:24:35,080
+ the DCO, the broker or the futures commission merchant,
+
+560
+00:24:35,080 --> 00:24:38,760
+ the FCM and then the matching engine, like the technology.
+
+561
+00:24:38,760 --> 00:24:42,320
+ So Bitnomial structure is a one stop shop.
+
+562
+00:24:42,320 --> 00:24:45,520
+ So traders don't have to involve traditional brokers
+
+563
+00:24:45,520 --> 00:24:49,200
+ and Bitnomial kind of controls with different multiple layers
+
+564
+00:24:49,200 --> 00:24:52,640
+ as opposed to relying on a bunch of different third parties.
+
+565
+00:24:52,640 --> 00:24:56,400
+ That explains in my mind why they were kind of first to--
+
+566
+00:24:56,400 --> 00:24:58,880
+ - 'Cause they already had all of the license,
+
+567
+00:24:58,880 --> 00:25:00,600
+ like the registrations they needed.
+
+568
+00:25:00,600 --> 00:25:01,440
+ - Exactly.
+
+569
+00:25:01,440 --> 00:25:03,800
+ And look, you don't need all those licenses
+
+570
+00:25:03,800 --> 00:25:06,000
+ to be a DCM and to list spot crypto.
+
+571
+00:25:06,000 --> 00:25:06,960
+ You don't.
+
+572
+00:25:06,960 --> 00:25:10,000
+ But what it does is Bitnomial structure,
+
+573
+00:25:10,000 --> 00:25:11,800
+ it decreases dependencies.
+
+574
+00:25:11,800 --> 00:25:14,320
+ And they already offered futures perps.
+
+575
+00:25:14,320 --> 00:25:16,080
+ They're actually the one DCM in America
+
+576
+00:25:16,080 --> 00:25:19,160
+ to call their perpetual like product a perp
+
+577
+00:25:19,160 --> 00:25:20,840
+ and they were the first to list perps.
+
+578
+00:25:20,840 --> 00:25:23,760
+ A lot of people forget about that and options.
+
+579
+00:25:23,760 --> 00:25:27,200
+ And now this week, they launched the first ever
+
+580
+00:25:27,200 --> 00:25:30,480
+ leveraged retail spot, crypto exchange.
+
+581
+00:25:30,480 --> 00:25:33,120
+ So again, my take is that they had this
+
+582
+00:25:33,120 --> 00:25:36,440
+ good like ready to go with this guidance,
+
+583
+00:25:36,440 --> 00:25:38,880
+ like with what, you know, fans' guidance.
+
+584
+00:25:38,880 --> 00:25:41,520
+ There's nothing preventing other DCMs
+
+585
+00:25:41,520 --> 00:25:45,640
+ from moving forward and doing what Bitnomial is doing.
+
+586
+00:25:45,640 --> 00:25:47,120
+ The other interesting point I'll make
+
+587
+00:25:47,120 --> 00:25:49,200
+ is there aren't that many DCMs.
+
+588
+00:25:49,200 --> 00:25:51,120
+ Like there really are not.
+
+589
+00:25:51,120 --> 00:25:54,240
+ It's a very small group of crypto DCMs.
+
+590
+00:25:54,240 --> 00:25:58,480
+ There's a lot of companies looking into getting a DCM.
+
+591
+00:25:58,480 --> 00:25:59,800
+ It's quite a process.
+
+592
+00:25:59,800 --> 00:26:01,040
+ It's quite an undertaking.
+
+593
+00:26:01,040 --> 00:26:05,400
+ But I would not compare it to registering with the SEC
+
+594
+00:26:05,400 --> 00:26:10,720
+ because, you know, it has historically been more realistic
+
+595
+00:26:10,720 --> 00:26:14,120
+ to get a DCM than to register as a securities exchange.
+
+596
+00:26:14,120 --> 00:26:15,720
+ And there are crypto DCMs.
+
+597
+00:26:15,720 --> 00:26:18,640
+ Whereas as we have heard, there's like,
+
+598
+00:26:18,640 --> 00:26:22,760
+ there's also only like five like registered securities
+
+599
+00:26:22,760 --> 00:26:23,560
+ exchanges.
+
+600
+00:26:23,560 --> 00:26:24,480
+ Yeah, exactly.
+
+601
+00:26:24,480 --> 00:26:25,800
+ Like there aren't that many of them.
+
+602
+00:26:25,800 --> 00:26:27,920
+ Yeah, well, there's, I think there's more than that.
+
+603
+00:26:27,920 --> 00:26:30,200
+ Maybe you tell them. But yeah.
+
+604
+00:26:30,200 --> 00:26:31,720
+ Yeah, it's a small number.
+
+605
+00:26:31,720 --> 00:26:34,680
+ It's hard to get these licenses.
+
+606
+00:26:34,680 --> 00:26:37,440
+ So I'm the other, it's a notable macro point.
+
+607
+00:26:37,440 --> 00:26:41,200
+ Like we're not tomorrow going to see like a huge flood of DCMs.
+
+608
+00:26:41,200 --> 00:26:42,720
+ It's a process.
+
+609
+00:26:42,720 --> 00:26:45,280
+ And the entities that are already well-positioned
+
+610
+00:26:45,280 --> 00:26:47,600
+ with crypto futures, if I were them,
+
+611
+00:26:47,600 --> 00:26:50,360
+ I would obviously be thinking really strategically
+
+612
+00:26:50,360 --> 00:26:54,080
+ about how like what direction do we want to take this guidance?
+
+613
+00:26:54,080 --> 00:26:56,280
+ On a regulator strategy point, I also
+
+614
+00:26:56,280 --> 00:26:59,520
+ think it's sort of interesting because the CFTC SEC,
+
+615
+00:26:59,520 --> 00:27:01,840
+ like whether it's totally true or not,
+
+616
+00:27:01,840 --> 00:27:04,160
+ like the crypto industry has always been like,
+
+617
+00:27:04,160 --> 00:27:05,400
+ which one do we want?
+
+618
+00:27:05,400 --> 00:27:07,080
+ We should be pit one against the other.
+
+619
+00:27:07,080 --> 00:27:08,000
+ Which one's better?
+
+620
+00:27:08,000 --> 00:27:10,600
+ Which one has more power, which was going to enforce less?
+
+621
+00:27:10,600 --> 00:27:14,160
+ And recently there's been all this news and evidence as well
+
+622
+00:27:14,160 --> 00:27:17,080
+ of them working together to try and push the industry forward
+
+623
+00:27:17,080 --> 00:27:18,760
+ as well as some other initiatives.
+
+624
+00:27:18,760 --> 00:27:21,600
+ But once we're going on lately at the CFTC,
+
+625
+00:27:21,600 --> 00:27:23,760
+ it really is sort of showing me that they're
+
+626
+00:27:23,760 --> 00:27:26,360
+ trying to push forward and show themselves capable
+
+627
+00:27:26,360 --> 00:27:27,960
+ of regulating this space.
+
+628
+00:27:27,960 --> 00:27:29,880
+ And I feel like it's sort of a race
+
+629
+00:27:29,880 --> 00:27:32,640
+ to regulate a little bit in interesting innovative ways
+
+630
+00:27:32,640 --> 00:27:34,200
+ between the CFTC and SEC.
+
+631
+00:27:34,200 --> 00:27:37,720
+ And like if you layer that competitive aspect of it
+
+632
+00:27:37,720 --> 00:27:40,960
+ over the market structure bill and the drafting of it,
+
+633
+00:27:40,960 --> 00:27:44,640
+ it's sort of to me seems like they're all sort of trying
+
+634
+00:27:44,640 --> 00:27:49,160
+ to show legislators like this is how this agency can do it.
+
+635
+00:27:49,160 --> 00:27:52,160
+ And the CFTC is taking a strong position here of like,
+
+636
+00:27:52,160 --> 00:27:54,960
+ look, we as regulators are doing something really special.
+
+637
+00:27:54,960 --> 00:27:57,120
+ We're allowing new things that are going to work
+
+638
+00:27:57,120 --> 00:28:00,000
+ and be safe while we keep close tabs on it.
+
+639
+00:28:00,000 --> 00:28:02,960
+ Yeah, it's kind of like the CFTC is Project Crypto.
+
+640
+00:28:02,960 --> 00:28:05,400
+ And it's like, I think I said this on a prior episode.
+
+641
+00:28:05,400 --> 00:28:08,080
+ Like, if you don't show that you can do a good job,
+
+642
+00:28:08,080 --> 00:28:09,080
+ you're going to get fired.
+
+643
+00:28:09,080 --> 00:28:12,640
+ And so like, that's what they're trying to avoid, right?
+
+644
+00:28:12,640 --> 00:28:13,480
+ But it's good.
+
+645
+00:28:13,480 --> 00:28:16,000
+ I think it's like a race to the top in a lot of ways to show.
+
+646
+00:28:16,000 --> 00:28:17,680
+ I love the endpoint on the prior episode
+
+647
+00:28:17,680 --> 00:28:22,000
+ and be hitting the gate where if this SEC hadn't like fumbled
+
+648
+00:28:22,000 --> 00:28:24,640
+ the ball during the Gensler administration,
+
+649
+00:28:24,640 --> 00:28:27,280
+ the SEC might have just effectively moved
+
+650
+00:28:27,280 --> 00:28:28,560
+ into the Pat of Raleigh.
+
+651
+00:28:28,560 --> 00:28:30,760
+ Yeah, the primary regulator.
+
+652
+00:28:30,760 --> 00:28:35,280
+ So like that's a sad missed opportunity.
+
+653
+00:28:35,280 --> 00:28:40,080
+ But yeah, look, like chair fam is making a lot of progress,
+
+654
+00:28:40,080 --> 00:28:41,920
+ a lot of like very quickly.
+
+655
+00:28:41,920 --> 00:28:44,360
+ And the sense is that she really wants to get a lot of,
+
+656
+00:28:44,360 --> 00:28:46,720
+ a lot done before she moves forward.
+
+657
+00:28:46,720 --> 00:28:50,720
+ Now we finally very realistically have the prospect
+
+658
+00:28:50,720 --> 00:28:52,440
+ of a CFTC chair.
+
+659
+00:28:52,440 --> 00:28:55,360
+ You know, Mike Selig, like it looks like smooth sailing,
+
+660
+00:28:55,360 --> 00:28:57,280
+ sailing Fortnim.
+
+661
+00:28:57,280 --> 00:29:00,920
+ I am a big fan of future chair, Selig.
+
+662
+00:29:00,920 --> 00:29:03,320
+ He's whip smart.
+
+663
+00:29:03,320 --> 00:29:07,560
+ You know, he actually really knows and understands crypto.
+
+664
+00:29:07,560 --> 00:29:09,680
+ I was very disappointed when there
+
+665
+00:29:09,680 --> 00:29:13,440
+ was that kerfuffle over the Brian Quinten's nomination.
+
+666
+00:29:13,440 --> 00:29:14,360
+ That was ugly.
+
+667
+00:29:14,360 --> 00:29:16,040
+ We don't need to get into that on the pod.
+
+668
+00:29:16,040 --> 00:29:18,280
+ But I think chair Selig will be great.
+
+669
+00:29:18,280 --> 00:29:21,720
+ And you know, it's good that chair fam or acting chair fam
+
+670
+00:29:21,720 --> 00:29:25,440
+ is really getting shit done before she's heading out the door.
+
+671
+00:29:25,440 --> 00:29:26,880
+ I'm feeling very hopeful today.
+
+672
+00:29:26,880 --> 00:29:30,240
+ But I also think like the work that's being done,
+
+673
+00:29:30,240 --> 00:29:32,160
+ I don't want to say it's just the CFTC.
+
+674
+00:29:32,160 --> 00:29:33,840
+ But since that's what we're talking about right now,
+
+675
+00:29:33,840 --> 00:29:37,760
+ buy regulators to show like this can work in a regulated
+
+676
+00:29:37,760 --> 00:29:40,520
+ space is actually great for the industry
+
+677
+00:29:40,520 --> 00:29:44,040
+ because this is a narrative of cryptos unregulated.
+
+678
+00:29:44,040 --> 00:29:47,040
+ It's full of criminals and that narrative
+
+679
+00:29:47,040 --> 00:29:50,440
+ can fall apart when you see like actively regulated
+
+680
+00:29:50,440 --> 00:29:54,400
+ institutions doing this in a way that makes finance better.
+
+681
+00:29:54,400 --> 00:29:54,760
+ Yeah.
+
+682
+00:29:54,760 --> 00:29:56,720
+ And we know that I want to be clear.
+
+683
+00:29:56,720 --> 00:30:00,080
+ Like none of us necessarily think regulation good,
+
+684
+00:30:00,080 --> 00:30:01,920
+ like no regulation bad.
+
+685
+00:30:01,920 --> 00:30:04,800
+ But what we're talking about here is crypto finance,
+
+686
+00:30:04,800 --> 00:30:09,120
+ like crypto trading, if it's not decentralized, hey, guys,
+
+687
+00:30:09,120 --> 00:30:13,560
+ like if it's a centralized entity facilitating crypto spot
+
+688
+00:30:13,560 --> 00:30:15,760
+ trading, guys, it should be regulated.
+
+689
+00:30:15,760 --> 00:30:18,200
+ I actually don't think that's a hot take.
+
+690
+00:30:18,200 --> 00:30:22,400
+ And one of the things that I still have PTSD over is 2022,
+
+691
+00:30:22,400 --> 00:30:24,880
+ where a major contributing factor, you know,
+
+692
+00:30:24,880 --> 00:30:27,320
+ I was at a DeFi protocol at that time.
+
+693
+00:30:27,320 --> 00:30:29,600
+ And I was so furious because there was so much
+
+694
+00:30:29,600 --> 00:30:32,880
+ demonization of DeFi in the press narrative
+
+695
+00:30:32,880 --> 00:30:34,560
+ during the crypto crash.
+
+696
+00:30:34,560 --> 00:30:38,920
+ And we were all like, it's not DeFi that screwed this up, guys.
+
+697
+00:30:38,920 --> 00:30:42,080
+ It's actually CFI masquerading as DeFi.
+
+698
+00:30:42,080 --> 00:30:44,840
+ And yes, Celsius probably should have been regulated.
+
+699
+00:30:44,840 --> 00:30:46,400
+ Like, clearly.
+
+700
+00:30:46,400 --> 00:30:49,120
+ So OK, rant over, but that I'm still
+
+701
+00:30:49,120 --> 00:30:52,360
+ going to continue that for many of us.
+
+702
+00:30:52,360 --> 00:30:54,320
+ I was wondering if you were going to name the--
+
+703
+00:30:54,320 --> 00:30:58,840
+ I think all there to that pain and different overlapping ways.
+
+704
+00:30:58,840 --> 00:31:02,000
+ I got like a lot of gray hair over that time period,
+
+705
+00:31:02,000 --> 00:31:04,920
+ as did everyone who was looking for you at this time.
+
+706
+00:31:04,920 --> 00:31:10,640
+ And occasionally I am like, have we learned nothing from 2022?
+
+707
+00:31:10,640 --> 00:31:13,160
+ I actually think this episode is more positive.
+
+708
+00:31:13,160 --> 00:31:16,720
+ And maybe it's because like, we have a common animation.
+
+709
+00:31:16,720 --> 00:31:18,080
+ We're just rad by.
+
+710
+00:31:18,080 --> 00:31:22,640
+ But I do think that like, over the past week,
+
+711
+00:31:22,640 --> 00:31:26,280
+ if we judge how crypto is doing and the tenor based
+
+712
+00:31:26,280 --> 00:31:29,400
+ on crypto Twitter, it seems like we're all sort of unified again.
+
+713
+00:31:29,400 --> 00:31:30,000
+ So that's good.
+
+714
+00:31:30,000 --> 00:31:30,720
+ Look at that.
+
+715
+00:31:30,720 --> 00:31:33,840
+ I'm sure that will last, you know, a few months.
+
+716
+00:31:33,840 --> 00:31:35,520
+ A few months.
+
+717
+00:31:35,520 --> 00:31:36,640
+ Like, OK, Jessie.
+
+718
+00:31:36,640 --> 00:31:38,560
+ And you know, one of the other things I have to add,
+
+719
+00:31:38,560 --> 00:31:42,120
+ on another positive note, another huge news
+
+720
+00:31:42,120 --> 00:31:45,120
+ broke from the CFTC, from acting chair fam.
+
+721
+00:31:45,120 --> 00:31:47,680
+ She also announced a pilot program
+
+722
+00:31:47,680 --> 00:31:51,440
+ for tokenized collateral in the derivatives market.
+
+723
+00:31:51,440 --> 00:31:53,160
+ So we just talked about derivatives.
+
+724
+00:31:53,160 --> 00:31:54,920
+ We just talked about DCMs.
+
+725
+00:31:54,920 --> 00:31:55,920
+ I love this.
+
+726
+00:31:55,920 --> 00:31:57,480
+ Like, this was inevitable.
+
+727
+00:31:57,480 --> 00:31:59,360
+ This was a long time coming.
+
+728
+00:31:59,360 --> 00:32:02,200
+ I remember during the very, very dark days
+
+729
+00:32:02,200 --> 00:32:06,000
+ before the sun came out in the crypto regulatory environment,
+
+730
+00:32:06,000 --> 00:32:09,960
+ there was this massive tokenization summit in February of 2024,
+
+731
+00:32:09,960 --> 00:32:13,440
+ where it was basically all of the US regulators, global regulators,
+
+732
+00:32:13,440 --> 00:32:15,200
+ talking about tokenization.
+
+733
+00:32:15,200 --> 00:32:17,520
+ And they talked a lot about tokenized collateral
+
+734
+00:32:17,520 --> 00:32:19,160
+ in the derivatives market.
+
+735
+00:32:19,160 --> 00:32:24,040
+ And to be specific, this covers ETH, Bitcoin, and USCC.
+
+736
+00:32:24,040 --> 00:32:25,480
+ And the reason they talked about it
+
+737
+00:32:25,480 --> 00:32:28,600
+ is because I've always thought this is just a fantastic use case
+
+738
+00:32:28,600 --> 00:32:31,840
+ for crypto because it's very easily understandable.
+
+739
+00:32:31,840 --> 00:32:34,960
+ It's very easy to see the utility.
+
+740
+00:32:34,960 --> 00:32:39,120
+ And I'm talking atomic settlement, more transparency,
+
+741
+00:32:39,120 --> 00:32:44,880
+ automation, increased capital efficiency, cost savings,
+
+742
+00:32:44,880 --> 00:32:48,360
+ several other big moves forward.
+
+743
+00:32:48,360 --> 00:32:50,760
+ It's innovation in the derivatives market.
+
+744
+00:32:50,760 --> 00:32:52,400
+ I remember-- I'm old enough to remember
+
+745
+00:32:52,400 --> 00:32:55,040
+ when moving to T plus one settlement,
+
+746
+00:32:55,040 --> 00:32:57,920
+ faster settlement than before was huge.
+
+747
+00:32:57,920 --> 00:33:00,320
+ Now we're shrinking that gap more.
+
+748
+00:33:00,320 --> 00:33:04,080
+ So in some ways, this feels abrupt to certain people.
+
+749
+00:33:04,080 --> 00:33:06,000
+ But I think if you were really focused,
+
+750
+00:33:06,000 --> 00:33:08,320
+ or if you were kind of plugged into the trade markets,
+
+751
+00:33:08,320 --> 00:33:10,840
+ as I was before I joined crypto, I
+
+752
+00:33:10,840 --> 00:33:15,480
+ was with the SIBO, SIBO Digital, the DCM.
+
+753
+00:33:15,480 --> 00:33:18,400
+ And you could understand why people were excited about that,
+
+754
+00:33:18,400 --> 00:33:21,840
+ or more conceptually open to this than a lot of other facets
+
+755
+00:33:21,840 --> 00:33:22,680
+ of crypto.
+
+756
+00:33:22,680 --> 00:33:25,960
+ So that's another huge piece of positive news from the CFTC.
+
+757
+00:33:25,960 --> 00:33:27,040
+ I love it.
+
+758
+00:33:27,040 --> 00:33:27,720
+ Nice.
+
+759
+00:33:27,720 --> 00:33:29,200
+ Thanks for the roundup.
+
+760
+00:33:29,200 --> 00:33:30,360
+ Yeah, OK.
+
+761
+00:33:30,360 --> 00:33:32,920
+ So everybody's probably sick of hearing me talk.
+
+762
+00:33:32,920 --> 00:33:34,840
+ And we've spent way too much time talking
+
+763
+00:33:34,840 --> 00:33:36,800
+ about TradFi on this podcast.
+
+764
+00:33:36,800 --> 00:33:39,760
+ So we're going to wrap up with our third topic.
+
+765
+00:33:39,760 --> 00:33:41,600
+ It's actually super cool.
+
+766
+00:33:41,600 --> 00:33:45,200
+ And I'm going to hand it over to our AI ZAR Jesse,
+
+767
+00:33:45,200 --> 00:33:47,200
+ take it as a review.
+
+768
+00:33:47,200 --> 00:33:48,440
+ I love it's cool.
+
+769
+00:33:48,440 --> 00:33:51,000
+ It's actually like a little scary.
+
+770
+00:33:51,000 --> 00:33:54,600
+ But essentially what came out last week
+
+771
+00:33:54,600 --> 00:33:57,000
+ is that anthropic did a study showing
+
+772
+00:33:57,000 --> 00:33:59,920
+ that AI's changing how we should think about security
+
+773
+00:33:59,920 --> 00:34:03,160
+ on chain, which is a topic that we've covered before.
+
+774
+00:34:03,160 --> 00:34:05,800
+ But I think it's a topic that we need to continue to cover,
+
+775
+00:34:05,800 --> 00:34:07,360
+ because it's only getting harder.
+
+776
+00:34:07,360 --> 00:34:09,640
+ Essentially, the security paradigm
+
+777
+00:34:09,640 --> 00:34:12,760
+ has changed because agents aren't just assisting hackers
+
+778
+00:34:12,760 --> 00:34:15,280
+ anymore, but rather they can be the hacker.
+
+779
+00:34:15,280 --> 00:34:18,040
+ They're creating and running an entire exploit from end
+
+780
+00:34:18,040 --> 00:34:21,520
+ to end the same way that a sophisticated human actor would.
+
+781
+00:34:21,520 --> 00:34:25,160
+ But they're doing it faster, cheaper, and with endless stamina,
+
+782
+00:34:25,160 --> 00:34:27,200
+ because they don't have to sleep.
+
+783
+00:34:27,200 --> 00:34:29,280
+ They can work all the time.
+
+784
+00:34:29,280 --> 00:34:32,280
+ And so I think we need to be a little bit concerned
+
+785
+00:34:32,280 --> 00:34:33,920
+ and really understand what happened here
+
+786
+00:34:33,920 --> 00:34:34,960
+ and what this study says.
+
+787
+00:34:34,960 --> 00:34:36,880
+ So I'm going to break it down a little bit.
+
+788
+00:34:36,880 --> 00:34:39,760
+ So essentially, anthropic created a blockchain simulator,
+
+789
+00:34:39,760 --> 00:34:42,440
+ and they put AI agents into it, asking them
+
+790
+00:34:42,440 --> 00:34:44,200
+ to do something really simple, which
+
+791
+00:34:44,200 --> 00:34:47,480
+ is just look at the real smart contracts that
+
+792
+00:34:47,480 --> 00:34:49,400
+ have already been exploited in the wild
+
+793
+00:34:49,400 --> 00:34:51,320
+ and see if they can independently do it again.
+
+794
+00:34:51,320 --> 00:34:53,920
+ So essentially, look at all these smart contracts,
+
+795
+00:34:53,920 --> 00:34:56,520
+ find the hacks, and see if you can recreate them.
+
+796
+00:34:56,520 --> 00:34:59,200
+ Wait, and Smece, for listeners who aren't familiar
+
+797
+00:34:59,200 --> 00:35:01,960
+ with anthropic, tell us a little bit about what it is.
+
+798
+00:35:01,960 --> 00:35:04,040
+ Because candidly, I didn't know anthropic
+
+799
+00:35:04,040 --> 00:35:05,640
+ until I dug into this.
+
+800
+00:35:05,640 --> 00:35:06,080
+ Got it.
+
+801
+00:35:06,080 --> 00:35:09,480
+ If you've ever used Claude, that is from anthropic.
+
+802
+00:35:09,480 --> 00:35:12,040
+ So it's essentially-- it's way more complicated than this,
+
+803
+00:35:12,040 --> 00:35:14,000
+ but essentially, it's a competitor to open AI.
+
+804
+00:35:14,000 --> 00:35:15,400
+ So some people use chat2VD.
+
+805
+00:35:15,400 --> 00:35:16,360
+ Some people use Claude.
+
+806
+00:35:16,360 --> 00:35:17,280
+ I use both.
+
+807
+00:35:17,280 --> 00:35:20,120
+ So I'm not here to say one or the other,
+
+808
+00:35:20,120 --> 00:35:23,800
+ but it's one that's very focused on security and safety,
+
+809
+00:35:23,800 --> 00:35:26,400
+ and it frequently takes the opposite position
+
+810
+00:35:26,400 --> 00:35:31,120
+ of other large AI shops about the dangers associated with AI.
+
+811
+00:35:31,120 --> 00:35:34,600
+ And if you really want to understand security and AI,
+
+812
+00:35:34,600 --> 00:35:37,000
+ just go to anthropic's website, and they
+
+813
+00:35:37,000 --> 00:35:39,760
+ have amazing primers to help you understand
+
+814
+00:35:39,760 --> 00:35:41,360
+ how you should be worried about it.
+
+815
+00:35:41,360 --> 00:35:43,600
+ So they're really testing the products
+
+816
+00:35:43,600 --> 00:35:45,440
+ that they're putting out there into the world.
+
+817
+00:35:45,440 --> 00:35:47,760
+ And that includes testing how it could
+
+818
+00:35:47,760 --> 00:35:49,560
+ hack different scenarios.
+
+819
+00:35:49,560 --> 00:35:51,720
+ They actually chose smart contracts
+
+820
+00:35:51,720 --> 00:35:55,160
+ because they could then quantify how much money could
+
+821
+00:35:55,160 --> 00:35:57,240
+ be stolen by how much effort they put it
+
+822
+00:35:57,240 --> 00:35:58,400
+ and how much money goes in.
+
+823
+00:35:58,400 --> 00:36:00,840
+ And that's why smart contracts were targeted here.
+
+824
+00:36:00,840 --> 00:36:03,400
+ Was it like anti-crypto or anything like that?
+
+825
+00:36:03,400 --> 00:36:05,040
+ Like it was a test that they did.
+
+826
+00:36:05,040 --> 00:36:07,560
+ And I think it was a test that actually can really help
+
+827
+00:36:07,560 --> 00:36:10,080
+ the crypto industry understand the problem here.
+
+828
+00:36:10,080 --> 00:36:13,840
+ So essentially, just to get back to exactly what they found
+
+829
+00:36:13,840 --> 00:36:17,160
+ was the AI agents acting autonomously
+
+830
+00:36:17,160 --> 00:36:21,400
+ were able to recreate exploits that already happened.
+
+831
+00:36:21,400 --> 00:36:22,760
+ So that's number one.
+
+832
+00:36:22,760 --> 00:36:25,000
+ And they were able to do it over and over again,
+
+833
+00:36:25,000 --> 00:36:28,200
+ creating hundreds of millions of dollars of losses.
+
+834
+00:36:28,200 --> 00:36:30,520
+ Obviously, this was an assimilator.
+
+835
+00:36:30,520 --> 00:36:32,400
+ And OK, so we've seen these hacks before.
+
+836
+00:36:32,400 --> 00:36:34,000
+ Is it really that big of a deal?
+
+837
+00:36:34,000 --> 00:36:36,760
+ But then they made them test this on smart contracts
+
+838
+00:36:36,760 --> 00:36:38,360
+ that they weren't trained on.
+
+839
+00:36:38,360 --> 00:36:41,760
+ So how training works for LLMs is essentially
+
+840
+00:36:41,760 --> 00:36:45,040
+ to build an LLM, you put all this information
+
+841
+00:36:45,040 --> 00:36:48,280
+ in there to make it a foundational set of learnings.
+
+842
+00:36:48,280 --> 00:36:49,480
+ And that's called pre-training.
+
+843
+00:36:49,480 --> 00:36:51,440
+ And then you release it, essentially.
+
+844
+00:36:51,440 --> 00:36:54,080
+ So remember when you used to use chat GPT,
+
+845
+00:36:54,080 --> 00:36:56,920
+ and sometimes it would say like, this does not--
+
+846
+00:36:56,920 --> 00:36:59,120
+ this is not included in our pre-training.
+
+847
+00:36:59,120 --> 00:37:01,080
+ Information are our knowledge stops here.
+
+848
+00:37:01,080 --> 00:37:04,080
+ So if you pre-trained until January 1,
+
+849
+00:37:04,080 --> 00:37:06,440
+ and then you release it, if you ask about something six months
+
+850
+00:37:06,440 --> 00:37:07,880
+ later, they might not know about it.
+
+851
+00:37:07,880 --> 00:37:09,360
+ Now that's gotten better with something
+
+852
+00:37:09,360 --> 00:37:13,040
+ called reinforcement learning and post-training and web search.
+
+853
+00:37:13,040 --> 00:37:15,040
+ But essentially, it's very important to know
+
+854
+00:37:15,040 --> 00:37:17,440
+ what an LLM has been pre-trained on.
+
+855
+00:37:17,440 --> 00:37:19,720
+ But they were able to hack smart contracts
+
+856
+00:37:19,720 --> 00:37:21,360
+ that they knew nothing about beforehand.
+
+857
+00:37:21,360 --> 00:37:24,360
+ So essentially, they're not hacking from memory.
+
+858
+00:37:24,360 --> 00:37:25,760
+ They're hacking from learning.
+
+859
+00:37:25,760 --> 00:37:28,320
+ So they're learning based on prior exploits
+
+860
+00:37:28,320 --> 00:37:32,480
+ and figuring out how to do new, different exploits, OK?
+
+861
+00:37:32,480 --> 00:37:34,400
+ That's so creepy, Jessie.
+
+862
+00:37:34,400 --> 00:37:36,360
+ I just have to stop.
+
+863
+00:37:36,360 --> 00:37:37,840
+ Wait, wait, wait, there's an X creepy part.
+
+864
+00:37:37,840 --> 00:37:38,880
+ Because it got worse.
+
+865
+00:37:38,880 --> 00:37:42,560
+ So then they were like, OK, let's point the agents
+
+866
+00:37:42,560 --> 00:37:45,560
+ at brand new contracts that were just put out
+
+867
+00:37:45,560 --> 00:37:48,840
+ into the ecosystem with no known issues.
+
+868
+00:37:48,840 --> 00:37:51,080
+ Like, they weren't any issues spotted.
+
+869
+00:37:51,080 --> 00:37:53,040
+ And within a short period of time,
+
+870
+00:37:53,040 --> 00:37:55,520
+ the agents found two zero-day exploits.
+
+871
+00:37:55,520 --> 00:37:59,360
+ Zero days, essentially, just like the builders have had zero days
+
+872
+00:37:59,360 --> 00:38:02,280
+ to fix any vulnerabilities following release.
+
+873
+00:38:02,280 --> 00:38:03,960
+ And they executed exploits.
+
+874
+00:38:03,960 --> 00:38:08,560
+ And they made money that costs more than what the agents cost.
+
+875
+00:38:08,560 --> 00:38:12,720
+ And why that's important is that the agents are sort of programmed
+
+876
+00:38:12,720 --> 00:38:14,120
+ to make money, right?
+
+877
+00:38:14,120 --> 00:38:18,840
+ So they know how to make enough money to offset any costs.
+
+878
+00:38:18,840 --> 00:38:21,920
+ And as you watch them learning and getting better,
+
+879
+00:38:21,920 --> 00:38:24,640
+ it was getting cheaper to do this for the agents.
+
+880
+00:38:24,640 --> 00:38:28,000
+ So each contract that they tested, smart contracts
+
+881
+00:38:28,000 --> 00:38:32,080
+ for different vulnerabilities cost about $1, OK?
+
+882
+00:38:32,080 --> 00:38:36,920
+ So they could do 1,000 smart contracts for $1,000 like this.
+
+883
+00:38:36,920 --> 00:38:38,000
+ That's insane.
+
+884
+00:38:38,000 --> 00:38:42,000
+ So the big story to me is not like AI can hack smart contracts.
+
+885
+00:38:42,000 --> 00:38:44,440
+ Like, OK, we sort of knew that.
+
+886
+00:38:44,440 --> 00:38:45,640
+ What does that mean?
+
+887
+00:38:45,640 --> 00:38:46,920
+ There's hack all the time.
+
+888
+00:38:46,920 --> 00:38:48,280
+ It's probably happening already.
+
+889
+00:38:48,280 --> 00:38:51,960
+ I think it's more that these agents can reason, iterate,
+
+890
+00:38:51,960 --> 00:38:55,360
+ use dev tooling, and autonomously execute a full chain attack
+
+891
+00:38:55,360 --> 00:38:58,560
+ from start to finish in a faster and cheaper way than humans.
+
+892
+00:38:58,560 --> 00:39:00,440
+ So the security vector has struck.
+
+893
+00:39:00,440 --> 00:39:03,760
+ Like, if you put a smart contract up there that controls funds,
+
+894
+00:39:03,760 --> 00:39:07,760
+ you have to know it's perfect because an attacker can now
+
+895
+00:39:07,760 --> 00:39:12,520
+ spend $1 to surface every latent issue and continuously
+
+896
+00:39:12,520 --> 00:39:16,280
+ harvest and automate a hacking machine.
+
+897
+00:39:16,280 --> 00:39:20,440
+ And I think this is so important because, one,
+
+898
+00:39:20,440 --> 00:39:22,680
+ it's really something that we need to think about
+
+899
+00:39:22,680 --> 00:39:25,120
+ and why we need to focus more on cyber security more than ever.
+
+900
+00:39:25,120 --> 00:39:29,480
+ But two, I am so excited about this idea of AI and crypto.
+
+901
+00:39:29,480 --> 00:39:33,520
+ The number of podcasts about AI crypto intersection
+
+902
+00:39:33,520 --> 00:39:36,480
+ or blogs or whatever, it's just endless, right?
+
+903
+00:39:36,480 --> 00:39:37,840
+ And we're still trying to figure out,
+
+904
+00:39:37,840 --> 00:39:40,040
+ like, how does this all work together?
+
+905
+00:39:40,040 --> 00:39:42,800
+ But my question is like, and I'm excited about it, too.
+
+906
+00:39:42,800 --> 00:39:44,800
+ Don't get me wrong, as you can probably tell.
+
+907
+00:39:44,800 --> 00:39:45,640
+ But I'm just--
+
+908
+00:39:45,640 --> 00:39:47,040
+ I love the passion.
+
+909
+00:39:47,040 --> 00:39:49,440
+ I'm just not sure we're ready because what
+
+910
+00:39:49,440 --> 00:39:54,080
+ happens when agents are on chain day to day, like with 402
+
+911
+00:39:54,080 --> 00:39:57,320
+ or with any other sort of trading mechanism?
+
+912
+00:39:57,320 --> 00:39:59,160
+ How do we deal with prompt injection?
+
+913
+00:39:59,160 --> 00:40:01,000
+ How do we deal with loss of control scenarios?
+
+914
+00:40:01,000 --> 00:40:02,640
+ Like, we're still trying to figure out
+
+915
+00:40:02,640 --> 00:40:05,600
+ how to deal with the vulnerabilities and smart contracts
+
+916
+00:40:05,600 --> 00:40:08,680
+ that, like, DPRK can get at or humans can get at.
+
+917
+00:40:08,680 --> 00:40:11,800
+ And so the question now is like, how do we really respond?
+
+918
+00:40:11,800 --> 00:40:15,400
+ And it's the end, in my mind, of passive security.
+
+919
+00:40:15,400 --> 00:40:18,440
+ We mean more active security measures.
+
+920
+00:40:18,440 --> 00:40:21,760
+ I love this because I don't know if you guys know this
+
+921
+00:40:21,760 --> 00:40:24,560
+ about me, but I love post-apocalyptic movies.
+
+922
+00:40:24,560 --> 00:40:26,000
+ It's like my thing.
+
+923
+00:40:26,000 --> 00:40:28,000
+ Like, my husband will be like, there's
+
+924
+00:40:28,000 --> 00:40:30,600
+ a new show where everyone has died and gone underground.
+
+925
+00:40:30,600 --> 00:40:32,080
+ I think he would love it.
+
+926
+00:40:32,080 --> 00:40:34,280
+ And like, this is very aligned with that.
+
+927
+00:40:34,280 --> 00:40:37,360
+ Like, first they come for our smart contracts,
+
+928
+00:40:37,360 --> 00:40:39,600
+ then they come to take over our homes.
+
+929
+00:40:39,600 --> 00:40:43,360
+ OK, anyway, but look, I think these issues are huge.
+
+930
+00:40:43,360 --> 00:40:46,280
+ We talk a lot about regulation conceptually.
+
+931
+00:40:46,280 --> 00:40:48,800
+ But I always think of, in crypto, there's
+
+932
+00:40:48,800 --> 00:40:51,320
+ three big buckets of risk.
+
+933
+00:40:51,320 --> 00:40:54,240
+ One is like AML, KYC, criminal risk.
+
+934
+00:40:54,240 --> 00:40:57,200
+ One is regulatory, SEC, CFTC.
+
+935
+00:40:57,200 --> 00:40:59,920
+ The third is just security.
+
+936
+00:40:59,920 --> 00:41:02,520
+ And a good company has a strategy
+
+937
+00:41:02,520 --> 00:41:05,040
+ to deal with all three of those risks that
+
+938
+00:41:05,040 --> 00:41:08,240
+ is both proactive and reactive.
+
+939
+00:41:08,240 --> 00:41:12,760
+ And the security prong is often less legal and more--
+
+940
+00:41:12,760 --> 00:41:18,520
+ the builders, the technical people, the CTO, that had a security.
+
+941
+00:41:18,520 --> 00:41:20,520
+ And I think your point is spot on,
+
+942
+00:41:20,520 --> 00:41:22,840
+ is we need to start looking down the pipeline
+
+943
+00:41:22,840 --> 00:41:25,520
+ and see what's coming for us on the security sphere
+
+944
+00:41:25,520 --> 00:41:27,760
+ to make sure we're prepared.
+
+945
+00:41:27,760 --> 00:41:29,360
+ That was a pretty good way to end it.
+
+946
+00:41:29,360 --> 00:41:31,440
+ Much more positive than mine.
+
+947
+00:41:31,440 --> 00:41:32,240
+ We'll get there.
+
+948
+00:41:32,240 --> 00:41:33,440
+ We are strong.
+
+949
+00:41:33,440 --> 00:41:36,680
+ OK, so we have two more super quick things
+
+950
+00:41:36,680 --> 00:41:38,080
+ before we wrap up for this week.
+
+951
+00:41:38,080 --> 00:41:40,840
+ One, V has a really important shout out.
+
+952
+00:41:40,840 --> 00:41:42,440
+ So I'm going to toss it to V.
+
+953
+00:41:42,440 --> 00:41:44,520
+ Yeah, so just really quickly, I wanted
+
+954
+00:41:44,520 --> 00:41:47,680
+ to draw attention to the samurai wallet case.
+
+955
+00:41:47,680 --> 00:41:51,840
+ So this is a case that's almost identical to the tornado cash
+
+956
+00:41:51,840 --> 00:41:52,600
+ case.
+
+957
+00:41:52,600 --> 00:41:54,840
+ And what happened here was the prosecutors
+
+958
+00:41:54,840 --> 00:41:58,520
+ agreed to allow the two co-founders to plead guilty
+
+959
+00:41:58,520 --> 00:42:01,880
+ to the least serious charge of operating an unlicensed money
+
+960
+00:42:01,880 --> 00:42:05,760
+ transmitter business, which carries a maximum of five years
+
+961
+00:42:05,760 --> 00:42:09,240
+ as opposed to taking the case to trial
+
+962
+00:42:09,240 --> 00:42:12,600
+ and taking their chances at trial on all three charges, which
+
+963
+00:42:12,600 --> 00:42:16,520
+ also involved money laundering, and likely, to be honest,
+
+964
+00:42:16,520 --> 00:42:19,440
+ getting the max sentence of 25 years,
+
+965
+00:42:19,440 --> 00:42:21,200
+ because the case had been reassigned
+
+966
+00:42:21,200 --> 00:42:25,160
+ to Judge Denise Cote of the SCNY, who people don't know.
+
+967
+00:42:25,160 --> 00:42:28,520
+ She's one of the harshest sentences on the court.
+
+968
+00:42:28,520 --> 00:42:31,760
+ So Keoni Rodriguez, one of the co-founders,
+
+969
+00:42:31,760 --> 00:42:34,280
+ ended up getting the max five years for the one charge
+
+970
+00:42:34,280 --> 00:42:35,440
+ that he pled to.
+
+971
+00:42:35,440 --> 00:42:39,640
+ And he's set to report to prison on December 19.
+
+972
+00:42:39,640 --> 00:42:42,800
+ He has started a petition for a pardon.
+
+973
+00:42:42,800 --> 00:42:46,120
+ So I urge all of you who care about developer rights
+
+974
+00:42:46,120 --> 00:42:50,200
+ and just the human impact of this case to sign it.
+
+975
+00:42:50,200 --> 00:42:51,480
+ We'll link it in the show notes.
+
+976
+00:42:51,480 --> 00:42:54,840
+ And I've also posted it on my ex-account.
+
+977
+00:42:54,840 --> 00:42:58,160
+ Seriously, important, shout out.
+
+978
+00:42:58,160 --> 00:43:01,280
+ And we should talk more about this on a different episode,
+
+979
+00:43:01,280 --> 00:43:04,280
+ because the three of us are very familiar with the process
+
+980
+00:43:04,280 --> 00:43:05,680
+ of plea deals.
+
+981
+00:43:05,680 --> 00:43:09,080
+ And a lot of people don't really understand the pressure
+
+982
+00:43:09,080 --> 00:43:13,000
+ and the calculus that goes into pleading out.
+
+983
+00:43:13,000 --> 00:43:15,280
+ And unfortunately, to some degree,
+
+984
+00:43:15,280 --> 00:43:21,480
+ these individuals were in the wrong time at the wrong place.
+
+985
+00:43:21,480 --> 00:43:23,000
+ Or just--
+
+986
+00:43:23,000 --> 00:43:24,080
+ I don't want to call them--
+
+987
+00:43:24,080 --> 00:43:25,360
+ Judge matters.
+
+988
+00:43:25,360 --> 00:43:28,880
+ How much your joint matters, how you negotiate and things
+
+989
+00:43:28,880 --> 00:43:31,400
+ like that, it just makes such a difference,
+
+990
+00:43:31,400 --> 00:43:33,480
+ and it can impact your life forever.
+
+991
+00:43:33,480 --> 00:43:35,320
+ Yeah, what you're going to sign too.
+
+992
+00:43:35,320 --> 00:43:38,920
+ Yeah, yeah, which is frustrating to say the least.
+
+993
+00:43:38,920 --> 00:43:42,400
+ So thank you for that, the important shout out.
+
+994
+00:43:42,400 --> 00:43:46,720
+ And of course, this is the second week of our weekly shout out
+
+995
+00:43:46,720 --> 00:43:48,080
+ of Crypto Good News.
+
+996
+00:43:48,080 --> 00:43:52,320
+ So please send us your nomination, send us your ideas,
+
+997
+00:43:52,320 --> 00:43:57,000
+ valuable organizations, fun stories, interesting use cases.
+
+998
+00:43:57,000 --> 00:44:00,320
+ We have a great one that Jesse's going to touch on today.
+
+999
+00:44:00,320 --> 00:44:03,640
+ Yeah, thanks, everyone, for sending ideas in.
+
+1000
+00:44:03,640 --> 00:44:06,280
+ And what we was just talking about is so important,
+
+1001
+00:44:06,280 --> 00:44:07,280
+ so it's hard to follow it.
+
+1002
+00:44:07,280 --> 00:44:09,560
+ But here's something else that just gives you
+
+1003
+00:44:09,560 --> 00:44:11,680
+ a little bit more hope about crypto.
+
+1004
+00:44:11,680 --> 00:44:15,360
+ So essentially, there was a huge fire in Hong Kong.
+
+1005
+00:44:15,360 --> 00:44:17,440
+ Probably many of y'all heard of it.
+
+1006
+00:44:17,440 --> 00:44:20,520
+ Over 150 people have died so far.
+
+1007
+00:44:20,520 --> 00:44:24,400
+ And it's like the biggest fire since post-1940s.
+
+1008
+00:44:24,400 --> 00:44:26,640
+ And essentially, it was burning for days
+
+1009
+00:44:26,640 --> 00:44:28,280
+ in a certain apartment complex.
+
+1010
+00:44:28,280 --> 00:44:30,360
+ And lots of stuff happens all over the world.
+
+1011
+00:44:30,360 --> 00:44:31,520
+ It's easy to ignore it.
+
+1012
+00:44:31,520 --> 00:44:33,320
+ News is so crazy right now.
+
+1013
+00:44:33,320 --> 00:44:36,400
+ But a lot of crypto companies did not ignore this one.
+
+1014
+00:44:36,400 --> 00:44:38,960
+ And they donated millions of dollars
+
+1015
+00:44:38,960 --> 00:44:41,840
+ to help repair and help some of the victims
+
+1016
+00:44:41,840 --> 00:44:43,720
+ or families of decedents.
+
+1017
+00:44:43,720 --> 00:44:46,400
+ And it just sort of shows that in all the crap
+
+1018
+00:44:46,400 --> 00:44:49,280
+ and in all the news, there's a lot of good things
+
+1019
+00:44:49,280 --> 00:44:50,840
+ and good people happening.
+
+1020
+00:44:50,840 --> 00:44:52,600
+ And especially in this time in the world,
+
+1021
+00:44:52,600 --> 00:44:54,080
+ I think it's really important for us
+
+1022
+00:44:54,080 --> 00:44:55,600
+ to continue to highlight them.
+
+1023
+00:44:55,600 --> 00:44:57,840
+ 16 million, absolutely.
+
+1024
+00:44:57,840 --> 00:45:01,160
+ We are global citizens because we are crypto companies.
+
+1025
+00:45:01,160 --> 00:45:02,080
+ We are borderless.
+
+1026
+00:45:02,080 --> 00:45:05,640
+ But it still means we take care of humans on this Earth.
+
+1027
+00:45:05,640 --> 00:45:08,920
+ So that's a beautiful moment and a reflection.
+
+1028
+00:45:08,920 --> 00:45:10,120
+ Good for those companies.
+
+1029
+00:45:10,120 --> 00:45:12,760
+ Shout out to those companies for being good citizens.
+
+1030
+00:45:12,760 --> 00:45:16,080
+ So next week, we're gonna have a special privacy episode
+
+1031
+00:45:16,080 --> 00:45:18,520
+ that immediately follows my participation
+
+1032
+00:45:18,520 --> 00:45:22,120
+ on the SEC's financial surveillance and privacy round table.
+
+1033
+00:45:22,120 --> 00:45:24,520
+ Don't know how I finagled and invite to that, guys.
+
+1034
+00:45:24,520 --> 00:45:28,800
+ But excited to talk all about, it'll be great.
+
+1035
+00:45:28,800 --> 00:45:32,800
+ Stark where the OGs of ZK, TAC, and all that fun stuff.
+
+1036
+00:45:32,800 --> 00:45:35,520
+ And we are going to have our first ever guess
+
+1037
+00:45:35,520 --> 00:45:37,160
+ on Decks in the City.
+
+1038
+00:45:37,160 --> 00:45:38,400
+ So prize test.
+
+1039
+00:45:38,400 --> 00:45:40,360
+ Surprise test, good luck.
+
+1040
+00:45:40,360 --> 00:45:42,720
+ So we will see you next week.
+
+1041
+00:45:42,720 --> 00:45:45,720
+ That is it for this week's episode of Deck from the City.
+

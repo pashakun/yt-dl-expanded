@@ -1,0 +1,1544 @@
+1
+00:00:00,000 --> 00:00:09,600
+Today I have on Luca as our guest, our guest of honor. He is the founder and CEO of MZERO,
+
+2
+00:00:10,240 --> 00:00:17,200
+which is a decentralized stablecoin protocol and has a corresponding asset, which is M,
+
+3
+00:00:18,720 --> 00:00:26,320
+and is working on a bunch of cool things on top of M, like wrapped stablecoins, wrapped white
+
+4
+00:00:26,320 --> 00:00:33,840
+labeled stablecoins, extensions, and some other really cool stuff that I'm excited to get into
+
+5
+00:00:33,840 --> 00:00:38,560
+in this conversation. But before we kick it off and get into the meat of everything,
+
+6
+00:00:39,120 --> 00:00:45,040
+Luca, it would be awesome if you could give a quick intro. Tell us a little bit about your
+
+7
+00:00:45,040 --> 00:00:54,960
+background, your time at MakerDAO and maybe other experience kind of inspired you to launch and
+
+8
+00:00:54,960 --> 00:01:03,120
+start MZERO. Yeah, absolutely. And thanks for having me, Rhea. We were laughing before starting
+
+9
+00:01:03,120 --> 00:01:07,920
+the recording that I'm here stuck in a thunderstorm in Brazil with no power,
+
+10
+00:01:08,480 --> 00:01:14,000
+doing this from the soul. And so I hope that you can, the listeners can hear the thunders in the
+
+11
+00:01:14,000 --> 00:01:21,520
+background. I never know. Luca is a committed guest. I never know how good the airpods are
+
+12
+00:01:22,160 --> 00:01:29,280
+canceling the background noise. But yeah, I mean, I'll give you like a couple of minutes introduction
+
+13
+00:01:29,280 --> 00:01:35,440
+about myself and the origins of the MZERO project. I'll try not to make it too personal. Today is
+
+14
+00:01:35,440 --> 00:01:42,240
+actually a special date for me. You will understand why in a second, but I am a mathematician by
+
+15
+00:01:42,240 --> 00:01:49,520
+background. I'm a mathematical economist. I started my career working as a consultant for
+
+16
+00:01:49,520 --> 00:01:55,920
+financial institutions at Oliver Wyman and spent the following 15 years advising investing in
+
+17
+00:01:55,920 --> 00:02:02,480
+financials. I joined Morgan Stanley as a financial institutions banker, post-business school
+
+18
+00:02:03,280 --> 00:02:09,360
+in London, then became a hedge fund manager, private equity manager, investing in financial
+
+19
+00:02:09,360 --> 00:02:15,680
+institutions. And most people who haven't spent time with financial institutions wouldn't know that
+
+20
+00:02:15,760 --> 00:02:22,240
+actually serving financial institutions as an industry is a pretty niche thing.
+
+21
+00:02:22,240 --> 00:02:29,200
+Even if you work in Wall Street, there is probably a group of 20% of people that are
+
+22
+00:02:30,640 --> 00:02:36,640
+deep, deep down in financials and understand financial institutions, balance sheet, etc.
+
+23
+00:02:36,640 --> 00:02:40,640
+And the rest of the world has no clue what these guys are doing. And I was one of those.
+
+24
+00:02:41,600 --> 00:02:48,880
+I started working in crypto exactly five years ago, so relatively
+
+25
+00:02:49,840 --> 00:02:56,640
+recent, although I do things a hundred percent. So when I started, I really started. And the
+
+26
+00:02:56,640 --> 00:03:02,560
+reason of my fascination with crypto was not trading, but was actually this idea that some
+
+27
+00:03:02,560 --> 00:03:10,480
+of the early-day DeFi protocols we're having of reinventing money from a first principle
+
+28
+00:03:10,480 --> 00:03:17,120
+perspective. Most people don't know that money is not a payment product. Money is a
+
+29
+00:03:17,120 --> 00:03:22,800
+leverage product. And the way it is actually created is very theoretical, ephemeral, and
+
+30
+00:03:23,520 --> 00:03:28,880
+a product of checks and balances that have always existed in the banking system, but currently
+
+31
+00:03:28,880 --> 00:03:34,880
+exist at the protocol level in crypto. And the project that really started my fascination
+
+32
+00:03:34,880 --> 00:03:40,880
+was Maker. And I said that today is an important day for me because the reason why I had so much
+
+33
+00:03:40,880 --> 00:03:47,920
+time to study this is that five years ago, the first week of COVID, I was forced out of my job
+
+34
+00:03:47,920 --> 00:03:55,920
+because I received the absolutely unexpected diagnosis of cancer. I discovered I was affected
+
+35
+00:03:55,920 --> 00:04:03,280
+by a rare form of block cancer. And I spent the six months after that trying to save my life
+
+36
+00:04:03,280 --> 00:04:10,640
+successfully with isolation and chemotherapy. And during those months in a 20-square-meter room,
+
+37
+00:04:11,280 --> 00:04:17,520
+me and my wife, we had to entertain ourselves. So I started to write a sub-stack that became
+
+38
+00:04:17,520 --> 00:04:23,440
+quite respected in the space called DirtRoads and participate in some of those projects,
+
+39
+00:04:23,440 --> 00:04:30,400
+including Maker. When I came out of the other side alive, it was really clear to me that I
+
+40
+00:04:31,520 --> 00:04:36,560
+wanted to spend my time doing meaningful stuff and building something I believed in
+
+41
+00:04:36,560 --> 00:04:43,600
+instead of making older men richer than what they actually were already. And so I went full on.
+
+42
+00:04:44,640 --> 00:04:51,440
+I spent the following couple of years trying to connect. Maker is a protocol with the real
+
+43
+00:04:51,440 --> 00:04:58,320
+world of lending participating in this initiative called the Real World Asset Initiative,
+
+44
+00:04:58,320 --> 00:05:04,400
+terrible name. And up to the point where I realized that those protocols were great proofs
+
+45
+00:05:04,400 --> 00:05:13,280
+of concept, but they were not really skittable in the institutional space. So after trying to
+
+46
+00:05:14,080 --> 00:05:18,160
+be an activist in this protocol to put more checks and balances, I actually decided to step
+
+47
+00:05:18,160 --> 00:05:25,760
+down. And together with Greg, my co-founder actually launched MZero. And this was December
+
+48
+00:05:25,760 --> 00:05:35,680
+2022. I just want to pause for one second and first of all say congratulations on the five-year
+
+49
+00:05:35,680 --> 00:05:43,360
+mark. And I'm so sorry to hear that you must have had to go through such a grueling physical and
+
+50
+00:05:43,360 --> 00:05:50,640
+mental challenge also at a time when COVID was happening. And yeah, thank you for sharing that
+
+51
+00:05:50,640 --> 00:05:58,160
+story. It's really inspiring to hear. Thanks a lot for the kind words. I'm not sorry at all.
+
+52
+00:05:58,160 --> 00:06:03,440
+I feel it was the greatest privilege of my life to go through this. I think it's the most powerful
+
+53
+00:06:03,440 --> 00:06:09,840
+propeller you have. It transformed me and turbocharged the impact I had on my own life
+
+54
+00:06:10,480 --> 00:06:16,320
+and on the world. So I cannot say I hope other people go through the same stuff, obviously,
+
+55
+00:06:17,200 --> 00:06:22,640
+but what I can say to other people is that I hope they have the strength I had to capitalize on the
+
+56
+00:06:22,640 --> 00:06:29,360
+pain that is inflicted on us sometimes. Thank you just so much for sharing that.
+
+57
+00:06:32,560 --> 00:06:39,040
+Okay. So you brought up Maker now and you mentioned a little bit how, and maybe this
+
+58
+00:06:39,040 --> 00:06:45,520
+wasn't just in reference to Maker DAO, but just generally how maybe such a model wouldn't scale
+
+59
+00:06:45,520 --> 00:06:51,280
+for institutional offerings. Could you talk a little bit about why that's the case?
+
+60
+00:06:52,720 --> 00:06:58,960
+Yes, absolutely. And I also want to clarify that when I talk about institutional
+
+61
+00:06:59,840 --> 00:07:10,640
+offering, I do not mean necessarily the boring regulated hyper stiff banking world. What I mean
+
+62
+00:07:10,640 --> 00:07:17,920
+is an institutional mindset of large scale instead of a retail gamified phenomenon.
+
+63
+00:07:19,440 --> 00:07:22,880
+The institutions could actually be new institutions, right? But I think there is a
+
+64
+00:07:22,880 --> 00:07:29,920
+way of doing things that is professional and institutional like, which was not the way of
+
+65
+00:07:29,920 --> 00:07:35,120
+early day protocols in crypto. And it's obviously always the case, I think, in new companies,
+
+66
+00:07:35,120 --> 00:07:43,520
+new industries. But to be a bit more specific, I don't know how familiar the audience is with
+
+67
+00:07:43,520 --> 00:07:50,960
+Maker or the early day Maker DAO. Maker was the first real decentralized stablecoin protocol.
+
+68
+00:07:51,760 --> 00:08:01,360
+Maker allowed holders of crypto collateral like ETH to start and others who pledged this collateral
+
+69
+00:08:02,080 --> 00:08:08,000
+in a repo form and finance a subset of that collateral in the form of DAI
+
+70
+00:08:09,280 --> 00:08:16,240
+then could have been sold in the open market to expand the long position or just as a financing
+
+71
+00:08:16,240 --> 00:08:21,440
+tool. On the other side, the holders of this decentralized stablecoin called DAI,
+
+72
+00:08:22,480 --> 00:08:26,000
+they had the benefit of having a stablecoin that was decentralized in nature.
+
+73
+00:08:27,040 --> 00:08:36,560
+It was hyper transparent and over collateralized and it's very safe in the backing. I think I found
+
+74
+00:08:36,560 --> 00:08:44,560
+this was incredible. It is still an incredibly powerful mental framework, the so-called CDP
+
+75
+00:08:44,560 --> 00:08:52,480
+based model, which underpins also some of the system design of M0. Now, why I think this was
+
+76
+00:08:52,480 --> 00:08:57,920
+not scalable, I joined Maker thinking that Maker really had the chance to become the central bank
+
+77
+00:08:57,920 --> 00:09:06,320
+of DeFi, so to say. And the idea we had at the time was like, okay, Maker cannot really scale too
+
+78
+00:09:06,320 --> 00:09:14,000
+much because the collateral that is backing DAI is so volatile against the dollar that is very
+
+79
+00:09:14,000 --> 00:09:19,440
+difficult to make this system capital efficient. So you need to pledge a lot of collateral. You need
+
+80
+00:09:19,440 --> 00:09:25,760
+to have very, very thick safety margins to make sure that the currency that is minted as a subset
+
+81
+00:09:25,760 --> 00:09:32,160
+of that value is safe. And so why not using other type of collateral? Like for example,
+
+82
+00:09:33,440 --> 00:09:39,680
+US treasury collateral, which is abundant, is very safe by definition. So you can actually have very,
+
+83
+00:09:39,680 --> 00:09:46,400
+very thin margins and you can actually mint a token based on that type of collateral.
+
+84
+00:09:47,120 --> 00:09:52,000
+And we tried that at Maker, we actually, Maker succeeded at some point, Maker $3 to $5 billion
+
+85
+00:09:52,000 --> 00:09:59,840
+of treasuries that yield for the protocol. Maker at some point was the largest holder of USDC in
+
+86
+00:09:59,840 --> 00:10:05,920
+the world with $5.5 billion USDC and it was not making any money out of it. The problem is that
+
+87
+00:10:05,920 --> 00:10:09,600
+the protocol, first of all, structurally was designed, it was not designed for this.
+
+88
+00:10:10,240 --> 00:10:16,560
+And then the governance of the protocol was heavily gamified. And this is a problem of some
+
+89
+00:10:16,560 --> 00:10:22,640
+of these early day crypto projects. So you had this idea of decentralized governance, anonymous
+
+90
+00:10:22,640 --> 00:10:26,560
+governance, which is not really working because the people who actually bought the tokens were
+
+91
+00:10:26,560 --> 00:10:31,920
+actually buying the tokens as a speculative asset rather than vote. And then you had very few people
+
+92
+00:10:31,920 --> 00:10:38,320
+deciding the fate of DAOs and just like offloading the liabilities, the rest of the DAOs.
+
+93
+00:10:38,320 --> 00:10:46,080
+So it was not a very stable environment for connecting with financial systems. So I think
+
+94
+00:10:46,080 --> 00:10:52,800
+it was a combination of original thin type of design and a governance framework that was
+
+95
+00:10:52,800 --> 00:10:59,520
+optimized for velocity and gamification rather than for scale and thoroughness. I think this is
+
+96
+00:10:59,520 --> 00:11:03,760
+not a problem only of Maker. I think it's a problem of several early day projects. Actually,
+
+97
+00:11:03,760 --> 00:11:11,760
+Maker survived and thrived by changing its mission from that of a decentralized central bank
+
+98
+00:11:11,760 --> 00:11:17,520
+to that of some sort of crypto-native credit fund, which is what it is today.
+
+99
+00:11:17,600 --> 00:11:24,640
+But then something about the model inspired you to launch MZero. And maybe specifically,
+
+100
+00:11:26,080 --> 00:11:33,760
+you describe MZero as a decentralized protocol. And I want to talk a little bit about that and
+
+101
+00:11:33,760 --> 00:11:41,840
+the importance of that relative to other stablecoin models where there is a single centralized
+
+102
+00:11:42,080 --> 00:11:51,360
+issuer that manages collateral in a centralized way. I think that is one of the beauties of the
+
+103
+00:11:51,360 --> 00:12:00,480
+original Maker was that it was decentralized and they did create a mechanism by which the asset
+
+104
+00:12:00,480 --> 00:12:06,400
+that was minted was able to maintain its stability even though it was decentralized.
+
+105
+00:12:06,480 --> 00:12:14,240
+Yeah, and I think the best way to do this is by analogy. Because actually, centralized money
+
+106
+00:12:15,040 --> 00:12:21,600
+frameworks like the ones of Circle and Heather are the weird ones because we do not live in such
+
+107
+00:12:21,600 --> 00:12:30,320
+a world today. And I think I can describe better my analogy. Currently, we live in this dual banking
+
+108
+00:12:30,320 --> 00:12:36,880
+system. And I think that you have commercial banks interacting with the customers, and then
+
+109
+00:12:36,880 --> 00:12:43,360
+those commercial banks are connected through a regulatory system and a central banking
+
+110
+00:12:44,480 --> 00:12:51,920
+actor that is providing liquidity to the system and is also a lender of last resort of sorts.
+
+111
+00:12:51,920 --> 00:12:59,440
+Now, the commercial banks are all different. Now, they create money by crediting our deposits.
+
+112
+00:13:00,640 --> 00:13:05,440
+We think the deposits are all the same. They're not, right? So like if you have money with JP
+
+113
+00:13:05,440 --> 00:13:11,440
+Morgan and money with a regional bank in some US state, for example, the credit profile of those
+
+114
+00:13:11,440 --> 00:13:14,800
+banks is very different. So the money is technically not really fungible.
+
+115
+00:13:15,440 --> 00:13:20,560
+The reason why it's fungible is because there is like this regulatory framework and liquidity
+
+116
+00:13:20,560 --> 00:13:29,200
+framework around it that guarantees some sort of interoperability during normal times. So we actually
+
+117
+00:13:29,200 --> 00:13:34,640
+live in a decentralized money system where you have credit collateral distributed across several
+
+118
+00:13:34,640 --> 00:13:39,680
+institutions. And then you have some sort of like central banking system where you have
+
+119
+00:13:39,680 --> 00:13:44,160
+collateral distributed across several institutions. And then you have some sort of
+
+120
+00:13:45,520 --> 00:13:53,920
+central connection point that glues all those different players. And why is this beneficial?
+
+121
+00:13:53,920 --> 00:14:00,640
+Because obviously there are huge network effects and money is useful when there is utility and
+
+122
+00:14:01,360 --> 00:14:05,920
+interoperability of this form of money. So you know you can spend your money,
+
+123
+00:14:05,920 --> 00:14:09,360
+you can send money to different banks within a system, you can do stuff with it.
+
+124
+00:14:10,320 --> 00:14:15,920
+And this is not the way early day issuers, stable conditioners are working, right? If you are circle,
+
+125
+00:14:16,640 --> 00:14:22,640
+you issue, you keep the reserves, you keep the money, you have this kind of permissioned
+
+126
+00:14:22,640 --> 00:14:28,960
+proprietary token, and then you have to create your ecosystem around that token. It's obviously
+
+127
+00:14:30,400 --> 00:14:35,440
+dystopian to imagine that they would conquer the rest of the whole world with one issuer.
+
+128
+00:14:36,080 --> 00:14:45,520
+And it's also unrealistic that you can have 20, 30, 40, 50 non-interoperable vertical issuers that
+
+129
+00:14:45,520 --> 00:14:50,320
+are competing one against the other. Funnily enough, I have a lot of respect for all the
+
+130
+00:14:50,320 --> 00:14:54,640
+companies innovating in this space, but if you think about the Paxos model where Paxos is developing
+
+131
+00:14:55,760 --> 00:15:00,480
+independent verticals for their clients, you need a stable coin, I'll build a stable coin for you,
+
+132
+00:15:01,440 --> 00:15:04,960
+it's cannibalizing its own business, right? If you have a success story,
+
+133
+00:15:04,960 --> 00:15:09,280
+the next success story is actually eating into the liquidity of the previous
+
+134
+00:15:09,280 --> 00:15:14,880
+success story, and it makes things more and more difficult. So in the maker system instead,
+
+135
+00:15:14,880 --> 00:15:18,960
+it was a different story, right? It was closer to the dual banking system we have
+
+136
+00:15:19,520 --> 00:15:25,120
+today in FIA, where you had different issuers, so different pledgers of collateral,
+
+137
+00:15:25,840 --> 00:15:30,240
+they were storing the collateral in smart contracts, and those issuers were issuing
+
+138
+00:15:30,240 --> 00:15:36,800
+the same token. And the token was the same because ultimately the risk profile and the
+
+139
+00:15:36,800 --> 00:15:43,920
+technological characteristics of those tokens were one. And for us, this was incredibly important.
+
+140
+00:15:43,920 --> 00:15:50,080
+So when we designed the zero, we designed, first of all, a protocol that is, because the debit is
+
+141
+00:15:50,080 --> 00:15:55,280
+always in the detail, right? We decided a settlement protocol that is ossified, permissionless,
+
+142
+00:15:55,920 --> 00:16:00,960
+immutable, and exists on mainnet, a governance module that is trying to control certain
+
+143
+00:16:00,960 --> 00:16:06,400
+parameters of the protocol without the ability to actually ragpull or change the ownership of
+
+144
+00:16:06,400 --> 00:16:15,360
+the stablecoin asset M. But any issuer, let's say anyone who is permissioned to issue M
+
+145
+00:16:16,000 --> 00:16:22,160
+by pledging collateral is actually issuing the same token. So you can actually have
+
+146
+00:16:23,840 --> 00:16:28,000
+something similar to the current banking system where you have a many to one to many infrastructure.
+
+147
+00:16:28,000 --> 00:16:32,160
+You have many collateral, many issuers that use the same standards, the same collateral type
+
+148
+00:16:32,160 --> 00:16:38,400
+standards, and they can issue the same asset. So there is shared liquidity, shared network effects,
+
+149
+00:16:38,400 --> 00:16:43,600
+shared interoperability around this asset. And then on the other side, there are integrators
+
+150
+00:16:43,600 --> 00:16:49,360
+that need to integrate with one asset only and not with tens of different assets, which is very
+
+151
+00:16:49,360 --> 00:16:59,760
+impractical. And for us, for everyone in the maker ecosystem, it was like a crucial characteristic
+
+152
+00:16:59,760 --> 00:17:06,000
+of the model that we think is absolutely non-negotiable and something that not all
+
+153
+00:17:06,000 --> 00:17:11,120
+the newcomers in the crypto world really appreciate until they need to develop those liquidity
+
+154
+00:17:11,120 --> 00:17:15,120
+networks themselves and they realize how expensive and difficult they are.
+
+155
+00:17:16,080 --> 00:17:22,960
+Totally. Saiya, there's two things that I want to touch upon that you mentioned. One is this concept
+
+156
+00:17:22,960 --> 00:17:30,640
+of, especially in the last maybe year, year and a half, you've had the introduction of
+
+157
+00:17:31,760 --> 00:17:39,680
+many more stablecoins to the market. And I think first on one hand, it's very exciting that
+
+158
+00:17:40,640 --> 00:17:48,240
+stablecoins are being adopted more broadly. There is integration of these assets outside of crypto.
+
+159
+00:17:48,240 --> 00:17:54,320
+I think that's awesome. And I think it's great that people are trying different models to see
+
+160
+00:17:54,320 --> 00:18:02,800
+what works. But one thing I think about is that you have these closed loop systems in traditional
+
+161
+00:18:03,040 --> 00:18:09,760
+finance and fintech. But let's just take the example of like PayPal, Venmo,
+
+162
+00:18:09,760 --> 00:18:18,880
+Cash App, and that's only in the US. And I think one of the things that we want to see happen is
+
+163
+00:18:19,440 --> 00:18:26,400
+these closed loop systems to be able to talk to and interoperate with one another. But when
+
+164
+00:18:26,400 --> 00:18:33,920
+you're launching multiple disparate stablecoins without having any kind of underlying
+
+165
+00:18:33,920 --> 00:18:41,200
+interoperability layer, in a sense, you are kind of recreating the silos that exist in
+
+166
+00:18:41,200 --> 00:18:45,680
+fintech and traditional finance. So yeah, have you thought about that?
+
+167
+00:18:47,360 --> 00:18:51,840
+Yes, absolutely. And as you know well, the crypto ethos is very different.
+
+168
+00:18:52,640 --> 00:18:59,280
+The crypto ethos is that of open sourcing, of interoperability, of modularity.
+
+169
+00:19:01,040 --> 00:19:08,480
+And we see that of permissionlessness. We see the benefits of this. And I think this benefit
+
+170
+00:19:09,360 --> 00:19:16,560
+is not 100% appreciated by legacy financial institutions or even legacy fintech
+
+171
+00:19:17,520 --> 00:19:22,240
+dominant financial institutions. They are moving in a completely different direction though.
+
+172
+00:19:22,240 --> 00:19:30,960
+Exactly. We absolutely do not want to do this. And interestingly, I think this is very fresh
+
+173
+00:19:30,960 --> 00:19:38,320
+in our mind, but it's something that I really wanted to share. When we built M0, M0 is a
+
+174
+00:19:38,320 --> 00:19:43,600
+many-to-many middleware. So it's like a dual-sided marketplace ultimately. It's like a centralized
+
+175
+00:19:43,600 --> 00:19:48,720
+balance sheet where on the one hand you have issuers and on the other hand you have users.
+
+176
+00:19:49,440 --> 00:19:55,440
+We went to the issuers and we started chatting with some legacy institution or fintech
+
+177
+00:19:56,400 --> 00:20:02,240
+saying, why don't you issue an interoperable asset? It's much better for you to build
+
+178
+00:20:02,240 --> 00:20:05,920
+equities, et cetera. It was like an ambitious version of what
+
+179
+00:20:06,880 --> 00:20:13,760
+Paxo's Anchorage are trying to do with the global dollar. And those institutions were not very
+
+180
+00:20:13,760 --> 00:20:19,360
+receptive. I think there is an obsession of control and there is also a lack of understanding of
+
+181
+00:20:19,360 --> 00:20:24,320
+certain dynamics, especially of cryptocurrencies and markets. Then we went on the other side
+
+182
+00:20:24,960 --> 00:20:32,080
+and we went to the users. And we went to the users and we said, okay guys, you're building
+
+183
+00:20:32,080 --> 00:20:38,720
+protocols. You can actually embed digital money in your stack. Why do you think about
+
+184
+00:20:38,720 --> 00:20:44,320
+embedding an asset that is pristine, is interoperable, can move around, you can swap
+
+185
+00:20:44,320 --> 00:20:49,120
+it against the ETH and USDC. You can actually partner with each other, creating interoperability
+
+186
+00:20:49,120 --> 00:20:55,040
+in between your use cases. And we will aggregate any type of collateral behind the scenes for you
+
+187
+00:20:55,040 --> 00:21:01,360
+and make it super simple and crypto-native. And they loved it. So suddenly from struggling
+
+188
+00:21:01,360 --> 00:21:06,800
+to actually have five conversations a month with large institutions, we have been inundated
+
+189
+00:21:06,800 --> 00:21:12,080
+by requests of integrators to actually extend the DM token themselves into their own stack.
+
+190
+00:21:12,080 --> 00:21:18,400
+And we have like tens of requests coming every week. And then as soon as you have distribution
+
+191
+00:21:18,400 --> 00:21:24,480
+power, then the other side of the marketplace gets excited and say, oh, wait a second guys,
+
+192
+00:21:24,480 --> 00:21:30,560
+you actually have access to like a huge network of use cases. No, we want to mint this asset.
+
+193
+00:21:31,120 --> 00:21:36,480
+Imagine if today you would give the ability to issuers to actually issue a white label version
+
+194
+00:21:36,480 --> 00:21:42,480
+of Teller they can sell into the market. Everybody would do it. So it's an interesting lesson that
+
+195
+00:21:42,480 --> 00:21:48,080
+we have learned over the last few months. One thing that we didn't mention when we were
+
+196
+00:21:48,080 --> 00:21:56,000
+talking about like why we're seeing so many businesses want to launch their own stable coin
+
+197
+00:21:56,000 --> 00:22:02,880
+or like white label stable coin is that they are not, you know, if they use a stable coin
+
+198
+00:22:02,880 --> 00:22:10,400
+like circles USDC or Tether's USDC, they are not currently getting any of the interest
+
+199
+00:22:10,400 --> 00:22:20,320
+on those assets. So maybe historically the rationale behind launching a native platform
+
+200
+00:22:20,320 --> 00:22:27,120
+specific stable coin was to be able to capture that yield. And yeah, it's definitely interesting
+
+201
+00:22:27,120 --> 00:22:36,880
+to hear that even though you are kind of presenting a solution that allows them to capture that yield
+
+202
+00:22:36,880 --> 00:22:43,680
+and be interoperable with other assets, they are still like, we want control of the infrastructure.
+
+203
+00:22:43,680 --> 00:22:49,600
+Is that an accurate maybe understanding of what you're saying as it relates to like the larger
+
+204
+00:22:49,600 --> 00:22:56,560
+institutions and fintechs today at least? Yes, it is accurate, but I think it's also part
+
+205
+00:22:56,560 --> 00:23:01,760
+of a learning process. I know I cannot mention the institutions, but we have spoken to teams
+
+206
+00:23:01,760 --> 00:23:09,120
+of very large fintech institutions on a global scale that have developed non-interoperable
+
+207
+00:23:09,120 --> 00:23:15,360
+proprietary stable coin stacks that are still useful for their own internal uses, right? To
+
+208
+00:23:15,440 --> 00:23:24,160
+transfer money internationally or to act as a stable lag of their own exchanges, etc. But
+
+209
+00:23:24,160 --> 00:23:29,600
+at the end of the journey, they realized that nobody would have used those instruments outside
+
+210
+00:23:29,600 --> 00:23:36,480
+of the limitations of their apt gardens. And they kind of regret that they had gone in that
+
+211
+00:23:36,480 --> 00:23:41,760
+direction. I think there is a lot of learning here. I think there is some sort of natural tendency
+
+212
+00:23:41,760 --> 00:23:49,520
+towards control in financial institutions plus a genuine concern for regulatory issues. But I think
+
+213
+00:23:50,160 --> 00:23:55,600
+the power of crypto capital markets is exactly this open sourcing and interoperability.
+
+214
+00:23:56,160 --> 00:24:00,160
+So I think it is a process. In the same way you have seen banks at the very beginning
+
+215
+00:24:00,720 --> 00:24:07,360
+promoting the concept of permissioned chains, then they realized that those permissioned
+
+216
+00:24:07,360 --> 00:24:14,160
+blockchains were nothing else then, nothing different from internal databases. And ultimately
+
+217
+00:24:14,160 --> 00:24:21,280
+they have embraced open blockchains because the potential is completely different. And I think
+
+218
+00:24:21,280 --> 00:24:27,360
+this is also a path that will bring us also traditional fintech institutions. I think it is
+
+219
+00:24:27,360 --> 00:24:31,440
+a process. But yes, your point is absolutely correct. Talking about yield only is like looking
+
+220
+00:24:31,440 --> 00:24:36,160
+at a finger pointing at a moon and just obsessing about a finger and not the moon.
+
+221
+00:24:36,640 --> 00:24:40,640
+The yield is one component of control, but there is much more. I mean, ultimately,
+
+222
+00:24:40,640 --> 00:24:44,560
+money's infrastructure is not only yield. It's compliance. It's listing with listing. It's
+
+223
+00:24:44,560 --> 00:24:49,760
+composability. It's much more. But I'm very optimistic that even the most traditional
+
+224
+00:24:49,760 --> 00:24:56,960
+institutions will realize that. I think that with a genius act coming, we will see like tens of
+
+225
+00:24:56,960 --> 00:25:04,000
+hundreds of dollar-delimited stablecoins coming and then some sort of natural Darwinian effect
+
+226
+00:25:04,960 --> 00:25:08,640
+integrating those and making them more open, more interoperable at some level of the stack.
+
+227
+00:25:10,080 --> 00:25:13,760
+I also want to touch on another thing that you mentioned, which is,
+
+228
+00:25:14,320 --> 00:25:19,840
+okay, we were talking to these large institutions. They're going through this process, which they
+
+229
+00:25:19,840 --> 00:25:26,560
+just need to go through to kind of get to the other side. But in that process, you realize that
+
+230
+00:25:26,560 --> 00:25:35,440
+there are integrators and use cases that are today excited about the value proposition of M0.
+
+231
+00:25:35,440 --> 00:25:43,920
+Can you talk a little bit about who is using M0 today and how are they using it? Are they using
+
+232
+00:25:43,920 --> 00:25:52,880
+M the asset natively or are they kind of using this power of wrapping M and extensions as well?
+
+233
+00:25:52,880 --> 00:26:00,240
+Yeah. So these are the early days of M0. We launched the infrastructure, effectively,
+
+234
+00:26:02,240 --> 00:26:10,000
+end of Q3, 2024. We don't know what the equilibrium will be. We really think it's
+
+235
+00:26:10,000 --> 00:26:14,240
+just like a novel money market instrument or some sort of wholesale stablecoin or
+
+236
+00:26:14,240 --> 00:26:20,480
+metastablecoin, however you want to call it. We think really that most use cases will happen
+
+237
+00:26:20,480 --> 00:26:26,320
+around this wrapping concept or extensions concept, as we call it, but we are really
+
+238
+00:26:26,320 --> 00:26:34,080
+receptive to the market. Currently, the end float is very early. Half of it is in wrap M form,
+
+239
+00:26:34,080 --> 00:26:43,120
+which is like the wrap M is simply a DeFi friendly wrapper. So let's say it's in naked form and the
+
+240
+00:26:43,120 --> 00:26:50,080
+rest is in extension form. So we have two extensions live. One is Usual. So Usual,
+
+241
+00:26:50,080 --> 00:26:58,640
+most people know Usual is a DeFi crypto native high yield project. They are basing their reserves
+
+242
+00:26:58,640 --> 00:27:08,560
+though largely on risk-free assets. Now, a not insignificant portion of those reserves is actually
+
+243
+00:27:08,560 --> 00:27:14,560
+sitting in Usual M, which is an extension of M that is dedicated to Usual with certain
+
+244
+00:27:14,560 --> 00:27:19,600
+functionalities of control like wrapping and wrapping, non-interoperability because for
+
+245
+00:27:19,600 --> 00:27:24,880
+security reasons, they use this as a reserve asset. The other issuer, the other extender
+
+246
+00:27:25,520 --> 00:27:31,840
+is Noble. Noble, most people know Noble as the issuer of USDC on Cosmos. Noble is an issuer
+
+247
+00:27:32,560 --> 00:27:39,200
+of assets in the Cosmos ecosystem. We have known the team for a long time and they are awesome.
+
+248
+00:27:39,200 --> 00:27:44,320
+Ultimately, this business is made by humans and we really like each other as human beings.
+
+249
+00:27:45,360 --> 00:27:49,200
+They decided to actually launch their own dollar because they said, okay, we're doing the heavy
+
+250
+00:27:49,200 --> 00:27:53,120
+lifting and doing the distribution for someone else's assets. Why should we do it? Going back
+
+251
+00:27:53,120 --> 00:28:00,560
+to your point, why should we keep making money for Circle or Tether? They built the Noble dollar,
+
+252
+00:28:00,560 --> 00:28:07,680
+USDN entirely on M0 infrastructure. They are actually wrapping M with additional
+
+253
+00:28:07,680 --> 00:28:12,080
+yield distribution functionalities and control and they are issuing it in the ecosystem.
+
+254
+00:28:13,280 --> 00:28:20,000
+We have received tens, probably 30 to 40 requests of integrators of different kinds
+
+255
+00:28:20,800 --> 00:28:26,800
+to actually do the same. I think that really we believe M is going to be some sort of wholesale,
+
+256
+00:28:26,800 --> 00:28:32,560
+behind the scenes, reserve asset, not only asset, reserve infrastructure that actually
+
+257
+00:28:32,560 --> 00:28:38,400
+aggregates collateral, bets collateral, streams yield, takes care of interlock across chains,
+
+258
+00:28:38,400 --> 00:28:45,920
+et cetera. Then distributors will bring this asset to the ultimate clients with additional
+
+259
+00:28:45,920 --> 00:28:49,280
+functionalities. Going back to the analogy I was making before, let's say 10 years ago,
+
+260
+00:28:49,280 --> 00:28:55,120
+the distribution of money where the bank branches, so you had money there with additional features
+
+261
+00:28:55,120 --> 00:29:00,320
+and then behind the bank, there was some sort of central bank line. In the future, we will have
+
+262
+00:29:01,120 --> 00:29:07,120
+branded tokens or fintech applications that are your distribution network and behind the scenes,
+
+263
+00:29:07,120 --> 00:29:11,680
+there is actually M0 infrastructure that is streaming the money and the yield in between them.
+
+264
+00:29:13,840 --> 00:29:21,040
+Very interesting. In the examples that you gave with Usual and Noble's
+
+265
+00:29:21,040 --> 00:29:28,480
+Dollar, are they essentially interoperable with one another? Talk about how the interoperability
+
+266
+00:29:28,480 --> 00:29:35,200
+between those is enabled via M0. It really depends on what every extension wants to do.
+
+267
+00:29:35,760 --> 00:29:38,720
+In the case of Noble and Usual, actually the wrapping and unwrapping is permission.
+
+268
+00:29:40,480 --> 00:29:45,040
+There are very limited parties who can actually wrap and unwrap the end token to go to Usual
+
+269
+00:29:45,040 --> 00:29:51,680
+Dollar or Noble Dollar, but let's say that you are a user that has the ability to do both.
+
+270
+00:29:52,400 --> 00:29:58,400
+You could actually atomically take the Usual and unwrap it and going back to the end source and
+
+271
+00:29:58,400 --> 00:30:06,800
+mint Noble Dollar with M in one block. You could do that. I think that the idea is those extensions
+
+272
+00:30:07,600 --> 00:30:14,240
+or anyone in case an extension has permissionless wrapping and wrapping can unwrap back to the raw
+
+273
+00:30:14,240 --> 00:30:23,600
+material and move this raw material around and rewrap freely. A very practical example is
+
+274
+00:30:23,600 --> 00:30:28,320
+liquidity. Most people who are not in stablecoin land appreciate the importance of liquidity.
+
+275
+00:30:28,320 --> 00:30:36,160
+Liquidity is everything in stablecoins. There is a pool, Uniswap v3 pool currently of around $20
+
+276
+00:30:36,160 --> 00:30:44,880
+million, which is an Uniswap v3 pool. You can swap Uniswap v3 for USDC and up to $20 million or
+
+277
+00:30:44,880 --> 00:30:49,120
+depending on the liquidity there is in the pool, the composition of the pool within one tick,
+
+278
+00:30:49,120 --> 00:30:58,400
+let's say with no slippage. Both Usual and Noble Uniswap v3 are actually pointing towards the same
+
+279
+00:30:58,400 --> 00:31:05,520
+pool. If Usual and Noble want to actually access the USDC liquidity for off-ramping
+
+280
+00:31:05,520 --> 00:31:09,520
+on doing other things, they're actually using the same liquidity value. They don't need to
+
+281
+00:31:09,520 --> 00:31:14,800
+build two liquidity values. This becomes more and more important because contrary to the
+
+282
+00:31:14,800 --> 00:31:23,280
+verticalized system where if you have PayPal USD and then you have global USD and they're different,
+
+283
+00:31:24,480 --> 00:31:28,560
+they are actually fractionalizing their own liquidity here. The more parties you bring
+
+284
+00:31:29,520 --> 00:31:33,680
+in, more liquidity actually centralizing one value and benefits everyone.
+
+285
+00:31:33,680 --> 00:31:37,920
+Yeah, you're getting into having network effects.
+
+286
+00:31:37,920 --> 00:31:40,640
+Exactly. For liquidity, which is very, very important.
+
+287
+00:31:42,800 --> 00:31:48,880
+Yeah, that is a huge issue. I think people underappreciate how difficult it is to
+
+288
+00:31:48,880 --> 00:31:56,320
+bootstrap liquidity for a net new stablecoin, even if you are a large institution. I think that's
+
+289
+00:31:56,320 --> 00:32:03,280
+really interesting. Another thing you mentioned is on and off-ramping. I've been thinking about
+
+290
+00:32:03,280 --> 00:32:10,640
+on and off-ramping a lot. The more stablecoins you have, the more integrations that need to be
+
+291
+00:32:10,640 --> 00:32:21,600
+built. I'm assuming in the M system, if you create an on and off-ramp into M, then that benefits all
+
+292
+00:32:21,600 --> 00:32:27,760
+of the wrapped assets and extensions that built on top of M. Is that right?
+
+293
+00:32:28,480 --> 00:32:30,000
+Correct. Absolutely.
+
+294
+00:32:31,600 --> 00:32:38,560
+Yeah. I think on and off-ramping generally is an underappreciated or an underrated challenge,
+
+295
+00:32:38,560 --> 00:32:46,800
+rather, that people don't talk about enough, but maybe just taking a broader view. What else do
+
+296
+00:32:46,800 --> 00:32:55,520
+you think are the big challenges to stablecoin adoption? Challenges, but I strongly believe we
+
+297
+00:32:55,520 --> 00:33:06,880
+are observing the most relevant paradigmatic shift in finance of our lifetimes. I really
+
+298
+00:33:07,680 --> 00:33:13,120
+think that builders that are building in this space, they should be absolutely excited
+
+299
+00:33:13,680 --> 00:33:20,800
+of the potential this space has. It's immense. I read somewhere that stablecoins currently
+
+300
+00:33:20,800 --> 00:33:30,240
+represent slightly less than 1% of M2 money supply, which is ridiculously low and is enough
+
+301
+00:33:30,240 --> 00:33:34,480
+to have created one company that is more profitable than Goldman Sachs and another company that is
+
+302
+00:33:34,480 --> 00:33:41,680
+also more profitable. The tailwind is incredible. Now, I think that for every paradigmatic shift,
+
+303
+00:33:42,480 --> 00:33:47,760
+it's a bit of a balance because I think that you are breaking... First of all, it's a highly
+
+304
+00:33:47,760 --> 00:33:53,840
+regulated space, partially in good faith, partially because, obviously, incumbents,
+
+305
+00:33:53,840 --> 00:33:59,440
+they survive through regulation. I don't like when people try to survive through regulation.
+
+306
+00:33:59,440 --> 00:34:04,480
+We have seen it also in stablecoin land, thrive through your products, not through lobbying,
+
+307
+00:34:04,480 --> 00:34:10,320
+but obviously, it's a heavily regulated and lobbied environment, so that makes it very
+
+308
+00:34:10,320 --> 00:34:15,920
+challenging. Also, what is challenging is also to understand who is your regulator
+
+309
+00:34:16,640 --> 00:34:21,440
+because we live now, the crypto capital markets and stablecoins, by definition,
+
+310
+00:34:22,080 --> 00:34:26,480
+are a global financial instrument and they move freely around, so who is your regulator?
+
+311
+00:34:27,280 --> 00:34:32,720
+It's very difficult to limit the free flowing of assets that can actually move around in DeFi.
+
+312
+00:34:33,520 --> 00:34:38,880
+You can try, but it's absolutely impossible. I think there needs to be some pragmatic approach
+
+313
+00:34:38,880 --> 00:34:42,960
+of founders to build something that, in principle, makes sense and is very
+
+314
+00:34:43,680 --> 00:34:49,280
+solid and sound, but there is not a regulatory rulebook, unfortunately. One works for the US,
+
+315
+00:34:49,280 --> 00:34:52,640
+the other works for Europe, the other works for Singapore, the other works for
+
+316
+00:34:52,640 --> 00:34:57,760
+Perps or whatever. I think this is difficult because this is something that wasn't existing
+
+317
+00:34:57,760 --> 00:35:03,440
+before. The internet thrived because it was operating in a non-regulated environment.
+
+318
+00:35:03,440 --> 00:35:11,280
+Finance is different. Then there is obviously this cultural shift. I worked in an investment
+
+319
+00:35:11,280 --> 00:35:17,440
+bank myself. Investment banks are very innovative and very frontier-oriented compared to commercial
+
+320
+00:35:17,440 --> 00:35:21,040
+banks, but still, they're hyper-conservative and they're protecting their own turf.
+
+321
+00:35:21,680 --> 00:35:27,440
+That makes it difficult. At the same time, though, and this is the realist in me, not the optimist
+
+322
+00:35:27,440 --> 00:35:36,400
+in me, is the technological and architectural superiority of digital money versus FIA-based
+
+323
+00:35:36,400 --> 00:35:44,080
+money. It's so obvious it ultimately is inevitable. Some of those new projects that emerge
+
+324
+00:35:44,800 --> 00:35:51,760
+in a crypto-native way, they just grow so fast. I think that even building for the
+
+325
+00:35:51,840 --> 00:36:00,320
+native crypto-economy is enough to let this sector explode. Circle always positions itself,
+
+326
+00:36:00,320 --> 00:36:04,240
+for example, we talk only about Circle and Tether because obviously these are the two dominant
+
+327
+00:36:04,240 --> 00:36:12,960
+forces, but Circle always position itself as a tech company, regulatory-friendly, payment-oriented,
+
+328
+00:36:12,960 --> 00:36:19,040
+but the reality is that Circle is where it is because it's dominating DeFi. Crypto-economy is
+
+329
+00:36:19,040 --> 00:36:24,320
+very big and grows very fast. You might spend years trying to pitch a regulated exchange
+
+330
+00:36:24,960 --> 00:36:30,640
+to actually embed your stablecoin and a lot of gatekeepers, and then suddenly someone funds
+
+331
+00:36:30,640 --> 00:36:36,320
+Hyperliquid and Hyperliquid has $2 billion of users' funds floating around in less than two
+
+332
+00:36:36,320 --> 00:36:44,880
+years. I think that the velocity of the newcomers is shockingly high and we are building for those.
+
+333
+00:36:45,360 --> 00:36:48,720
+So we are building for those types of guys, for those builders. People, they want to
+
+334
+00:36:49,520 --> 00:36:54,640
+silence, they want to disrupt, they want to build things, they want to go fast,
+
+335
+00:36:54,640 --> 00:37:01,600
+and they want to build with other builders. Unfortunately, it's more future-proof than
+
+336
+00:37:01,600 --> 00:37:09,280
+traditional incumbents' opinion. I was going to ask you about how you think stablecoins
+
+337
+00:37:10,080 --> 00:37:16,000
+will increasingly be used and diversify their use case over time, and I think
+
+338
+00:37:17,040 --> 00:37:22,240
+most of the time you hear people talking about their adoption within traditional finance,
+
+339
+00:37:22,240 --> 00:37:32,480
+traditional payments, but less so about how they will grow as the set of use cases within this
+
+340
+00:37:32,480 --> 00:37:38,400
+space grows and as more native crypto applications are developed and launched.
+
+341
+00:37:38,400 --> 00:37:42,960
+I think it's a combination. I think that definitely the latter, I believe, but also
+
+342
+00:37:44,720 --> 00:37:55,040
+I think in the 2010s we have seen giant fintech apps coming to market as leak frontend based on
+
+343
+00:37:55,040 --> 00:38:02,800
+antiquated backend. So I remember I lived in London for more than 10 years and I was actually there
+
+344
+00:38:02,800 --> 00:38:08,640
+when the Revolut team pitched at the Google Accelerator for the Revolut pre-seed
+
+345
+00:38:09,360 --> 00:38:15,760
+for their FX credit card. I think it was 2014 or something like that. Yeah, it was actually cool.
+
+346
+00:38:15,760 --> 00:38:19,040
+One of my best friends from business school actually won that competition and I angeled
+
+347
+00:38:19,040 --> 00:38:25,680
+into his company and Revolut was number two and I did not. So it was painful. But apart from the
+
+348
+00:38:25,680 --> 00:38:32,080
+jokes, at the time, Revolut for a long time, they were a beautiful product, but behind it there was
+
+349
+00:38:32,080 --> 00:38:38,160
+Lloyd's TSB, which was definitely not a very innovative traditional bank. So in my opinion,
+
+350
+00:38:38,160 --> 00:38:44,960
+we're going to see an emergence also of new generational fintechs or neobanks 3.0
+
+351
+00:38:45,520 --> 00:38:52,160
+that will build directly on stablecoin and crypto rails. So the users will not see the difference.
+
+352
+00:38:52,160 --> 00:38:57,840
+Yeah, they will have a better experience, but the velocity of new value prop will increase massively
+
+353
+00:38:57,840 --> 00:39:03,360
+because these guys will build on top of decentralized infrastructure, mainly markets
+
+354
+00:39:03,360 --> 00:39:11,360
+and stablecoin rails. Even from a deal flow perspective, we are seeing a lot of companies
+
+355
+00:39:11,360 --> 00:39:20,720
+that are positioning themselves as stablecoin native neobanks, both targeted at individuals
+
+356
+00:39:20,720 --> 00:39:30,560
+and businesses. So I'm very excited to see how financial services powered by stablecoins evolve
+
+357
+00:39:30,560 --> 00:39:37,760
+and introduce new types of products and just make finance generally faster and more efficient
+
+358
+00:39:37,760 --> 00:39:48,560
+and cheaper to access. Yes, absolutely. And it will happen. I think it's inevitable and it's a
+
+359
+00:39:48,560 --> 00:39:59,600
+very exciting time to be alive. So as we wrap up, I guess looking forward into 2025, what has you
+
+360
+00:40:00,400 --> 00:40:07,360
+most excited about what's coming up with M0 and the space more broadly?
+
+361
+00:40:09,280 --> 00:40:15,680
+The fact that stablecoins are now mainstream in the narrative and there is going to be more
+
+362
+00:40:15,680 --> 00:40:21,520
+regulatory clarity around stablecoins. There is more institutional awareness of stablecoins.
+
+363
+00:40:22,640 --> 00:40:28,320
+We are reaching a different stage of maturity. Obviously excites me as a builder in the space.
+
+364
+00:40:28,320 --> 00:40:33,920
+There is so much to do. So M0 is really an inflection point. Our infrastructure is
+
+365
+00:40:33,920 --> 00:40:39,440
+maturing. We are really finding product market fit. We will have tens of integrations by the
+
+366
+00:40:39,440 --> 00:40:47,200
+end of the year, hopefully, and 10X or 20X, the type of liquidity that we have in the system today.
+
+367
+00:40:47,840 --> 00:40:53,840
+And that excites me very much. And as always, it's all about execution and execution keeps
+
+368
+00:40:53,840 --> 00:41:01,760
+you very busy building companies and running companies is an intense experience for everyone.
+
+369
+00:41:01,760 --> 00:41:08,800
+So that's something that excites me a lot to grow M0 as a project and make it relentlessly
+
+370
+00:41:08,800 --> 00:41:18,080
+and obsessively perfectionist. At the same time, the macro is great. So I think that this
+
+371
+00:41:18,080 --> 00:41:24,720
+combination of macro tailwinds, regulatory clarity, institutional maturity, and at the same time,
+
+372
+00:41:25,360 --> 00:41:31,360
+seeing a company that really can step up in terms of scale, capital endowment, integrations,
+
+373
+00:41:31,360 --> 00:41:36,080
+product market fit and TIN, I think is very exciting. And a lot of things will happen in
+
+374
+00:41:36,080 --> 00:41:40,560
+the next nine months. So it's a great time, I think, in this industry. I personally am not
+
+375
+00:41:40,560 --> 00:41:47,840
+really worried about market volatility in crypto and tech in general. I think that very good
+
+376
+00:41:47,840 --> 00:41:52,960
+investors, in my opinion, are not worried either because we're building tech. We're not building
+
+377
+00:41:52,960 --> 00:42:00,640
+trading conduits, but we will see where we'll get there. I was actually very nervous when I saw the
+
+378
+00:42:00,640 --> 00:42:06,320
+excessive excitement at the end of 2024, beginning of 2025 around everything that
+
+379
+00:42:06,320 --> 00:42:11,520
+had connections with crypto. I don't like when the hype becomes too intense.
+
+380
+00:42:11,520 --> 00:42:13,760
+Moves ahead of the product. Yeah, exactly.
+
+381
+00:42:14,720 --> 00:42:23,600
+Agreed. Well, I'm very excited to see the value proposition of M0 play out over the year. I think
+
+382
+00:42:23,600 --> 00:42:30,320
+it's a very elegant and interesting architecture. And I resonate a lot with some of the core ideals
+
+383
+00:42:30,320 --> 00:42:37,120
+around interoperability, especially. I think that is one of the biggest value propositions of
+
+384
+00:42:37,120 --> 00:42:41,440
+the rails that we're building. And I want to thank you so much. It's been such a pleasure
+
+385
+00:42:42,080 --> 00:42:46,880
+to talk to you about everything. So grateful to you for sharing your story with us.
+
+386
+00:42:46,880 --> 00:42:51,360
+Thank you for coming on. Thanks again, Rhea.
+

@@ -1,0 +1,1748 @@
+1
+00:00:00,000 --> 00:00:05,120
+Wyatt here. And on today's segment of Stable Coins in DeFi, I was joined by Dave Taylor,
+
+2
+00:00:05,120 --> 00:00:10,880
+founder of Etherviews. Etherviews issues non-US stable coins and stable bonds for currencies
+
+3
+00:00:10,880 --> 00:00:16,560
+and treasuries with a focus on Mexico, other Latin markets and beyond. I hope you enjoy this
+
+4
+00:00:16,560 --> 00:00:21,200
+episode and here is my conversation with Dave. Matt Walsh and Nick Carter are partners at Castle
+
+5
+00:00:21,200 --> 00:00:24,240
+Island Ventures. All of these expressed by them or the guests on this podcast are solely their
+
+6
+00:00:24,240 --> 00:00:27,680
+opinions and do not reflect the opinions of Castle Island Ventures. Guests and hosts may maintain
+
+7
+00:00:27,680 --> 00:00:30,720
+positions in the assets discussed in this podcast. You should not treat any opinion expressed
+
+8
+00:00:30,720 --> 00:00:34,240
+by anyone on this podcast as a specific inducement to make a particular investment or
+
+9
+00:00:34,240 --> 00:00:37,520
+follow a particular strategy, but only as an expression of their personal opinion.
+
+10
+00:00:37,520 --> 00:00:39,520
+This podcast is for informational purposes only.
+
+11
+00:00:57,680 --> 00:01:17,760
+Dave, founder of Etherviews, thank you for joining us on the podcast. Very excited to chat
+
+12
+00:01:17,760 --> 00:01:21,680
+today. I think you guys are doing some very interesting things. Would love to kick off
+
+13
+00:01:21,680 --> 00:01:25,680
+with a personal introduction from yourself if you don't mind so that we can get to know you a bit
+
+14
+00:01:25,680 --> 00:01:29,680
+better. Yeah, thanks for having me. I really appreciate it. Happy to be here. I do listen to
+
+15
+00:01:29,680 --> 00:01:34,320
+the podcast quite a bit and so it's going to be nice to drive my son to school in the mornings
+
+16
+00:01:34,320 --> 00:01:37,760
+and I listen to it and he's going to hear my voice in the next one. So it's going to be cool.
+
+17
+00:01:37,760 --> 00:01:44,080
+Awesome. My background is computer science. I've worked in security, like software engineering
+
+18
+00:01:44,080 --> 00:01:50,640
+security for quite some time. I started out just in my companies. We call them startups now, but
+
+19
+00:01:50,720 --> 00:01:56,400
+when I was a graduate in Arizona, you just call them companies. I ended up working at Boeing
+
+20
+00:01:56,400 --> 00:02:01,920
+for quite some time. I did PKI management and a lot of like the API design for securely signing
+
+21
+00:02:01,920 --> 00:02:08,400
+software there. Then I went to Apple. I did a lot of network security and a lot of design between
+
+22
+00:02:08,400 --> 00:02:15,360
+how to normalize or standardize how secure software is used at Apple. Felt an awesome need to continue
+
+23
+00:02:15,360 --> 00:02:21,360
+to punish myself and grow and so I decided to go to business school at that point. Having had
+
+24
+00:02:21,360 --> 00:02:26,400
+like 10 years as a computer scientist and I went to business school and I met a good friend of mine.
+
+25
+00:02:26,400 --> 00:02:30,960
+He started this company called SendGrid, which you probably heard of. They were bought by Twilio
+
+26
+00:02:30,960 --> 00:02:35,760
+when we're in business school together. He IPOed and said, hey, I want to start a startup studio.
+
+27
+00:02:36,320 --> 00:02:41,200
+The important part is it kind of got some startup chops or at least some familiarity with how hard
+
+28
+00:02:41,200 --> 00:02:46,480
+it is and how it works. We launched a few companies together. It was a great experience and one of
+
+29
+00:02:46,480 --> 00:02:52,560
+the companies we launched together is Neural Payments. Neural Payments is a huge, huge in-scope
+
+30
+00:02:52,560 --> 00:02:57,600
+payments company in the U.S. Competitor to like Zell. I think they're raising their Series B right
+
+31
+00:02:57,600 --> 00:03:03,120
+now. They've done pretty well in a competitive market, but what was interesting with that is
+
+32
+00:03:03,760 --> 00:03:09,280
+we brought on a CTO at the time, who is now my co-founder, AJ, who's also my brother, by the
+
+33
+00:03:09,280 --> 00:03:15,200
+way, and together we built the mechanism to send money outside of ESA's rails from one account to
+
+34
+00:03:15,200 --> 00:03:21,600
+the next. It was just this crazy feat of how difficult it was, how antiquated it was, how hard
+
+35
+00:03:21,600 --> 00:03:29,360
+it was, and it really became like astonishing to us how what we see is not what happens in our
+
+36
+00:03:29,360 --> 00:03:33,280
+purview or I would say the periphery of what we're focused on. You start to hear the blockchain
+
+37
+00:03:33,280 --> 00:03:38,000
+getting quicker and faster and it just became obvious to us that this was like the future,
+
+38
+00:03:38,560 --> 00:03:41,920
+even though I was pretty comfortable, we were working on some cool stuff.
+
+39
+00:03:41,920 --> 00:03:45,840
+We said, hey, I think the blockchain is the future, so let's get into it.
+
+40
+00:03:46,480 --> 00:03:52,640
+Up until this point of etherfuse, that was my history as an engineer who jumped into business
+
+41
+00:03:52,640 --> 00:03:57,920
+and started some startups and then went headfirst into probably, I would say, one of the more complex
+
+42
+00:03:57,920 --> 00:04:03,760
+things I've ever done in my life. And to be clear, you discovered crypto after you became a businessman
+
+43
+00:04:03,760 --> 00:04:06,160
+in business school. That wasn't during the engineering period.
+
+44
+00:04:06,720 --> 00:04:12,400
+I was always on the sidelines. I always said, oh, I should have bought Bitcoin. I was more into
+
+45
+00:04:12,400 --> 00:04:18,240
+being a software engineer and into cryptography, the old school one. After really feeling the pain
+
+46
+00:04:18,240 --> 00:04:23,840
+of payments, it was real when I started to think about it and go, holy crap, this is the future.
+
+47
+00:04:24,560 --> 00:04:29,840
+And a bit to the point of etherfuse, were you a Bitcoiner early on or were you interested in,
+
+48
+00:04:29,840 --> 00:04:33,920
+it sounds like you highlighted the cryptography piece and maybe what you could do with assets
+
+49
+00:04:33,920 --> 00:04:39,840
+more broadly? I really only focused on PKI, so I wasn't a Bitcoiner back then. In fact,
+
+50
+00:04:39,840 --> 00:04:45,920
+I thought about it, I think in 2013, my neighbor worked for Google, the story kills me.
+
+51
+00:04:46,640 --> 00:04:51,440
+And I went and I bought like a little Arduino or something, because everyone was mining on nothing
+
+52
+00:04:51,440 --> 00:04:55,200
+back then. I was like, oh, I'm going to figure out how to mine. And he stopped me, he said,
+
+53
+00:04:55,200 --> 00:05:00,560
+you're too late, it's already done. And so I just kind of gave up on the idea and I kind of
+
+54
+00:05:00,560 --> 00:05:07,280
+hate him now. That was not correct. But I think it was like 2013 or 2012. So I could have avoided
+
+55
+00:05:07,280 --> 00:05:12,640
+all this stress and just gone straight to owning Bitcoin. Yeah, probably the person who's had the
+
+56
+00:05:12,640 --> 00:05:18,640
+most adverse monetary effect on your life. Exactly. And he doesn't even know it. I haven't even told
+
+57
+00:05:18,640 --> 00:05:24,240
+him so. Speak a little bit more to etherfuse if you don't mind. You guys are broadly in the stable
+
+58
+00:05:24,240 --> 00:05:29,520
+coin space as opposed to the Bitcoin and other asset space. I can take off from where I left
+
+59
+00:05:29,520 --> 00:05:33,520
+off with my personal story into how we started etherfuse, and then that can kind of lead into
+
+60
+00:05:33,520 --> 00:05:39,760
+our mission. But we three years ago said, okay, everyone at the time was proposing that nothing
+
+61
+00:05:39,760 --> 00:05:45,840
+on chain was a security. Like they would probably, this isn't a security. And we just hypothesized,
+
+62
+00:05:45,840 --> 00:05:52,000
+well, what would the workload look like if we said it was a security? It did some research
+
+63
+00:05:52,000 --> 00:05:56,320
+in the US on how we could do it. And it just became overwhelmingly obvious, like we're going to get
+
+64
+00:05:56,320 --> 00:06:02,000
+nowhere in the US. And so our goal was, okay, let's tokenize the security, say it's a security,
+
+65
+00:06:02,000 --> 00:06:07,280
+how do we do that? And so we did a bunch of research on the world and said, where did the
+
+66
+00:06:07,280 --> 00:06:15,440
+incentives lie? Meaning what's the biggest nation where the economy and the demographics of that
+
+67
+00:06:15,520 --> 00:06:20,960
+nation are such that if we could bring in the tokenization of assets on chain,
+
+68
+00:06:20,960 --> 00:06:25,120
+that the government would benefit quite a bit from it and the nation would benefit from it.
+
+69
+00:06:25,680 --> 00:06:30,160
+And if we can find that, then we'll go there because we think if we engage with regulators
+
+70
+00:06:30,160 --> 00:06:35,840
+there that they'll be incentivized to say yes. So back then it was like, we looked at remittance
+
+71
+00:06:35,840 --> 00:06:41,360
+flows, cost of credit, financial access, what percentage of the population has access to finances
+
+72
+00:06:41,360 --> 00:06:46,640
+and the ability to move money. And so back then there were three big ones. It was India, China,
+
+73
+00:06:46,640 --> 00:06:52,720
+and Mexico. Just kind of thought for one second, would China let us come in and build a security
+
+74
+00:06:52,720 --> 00:06:58,160
+on chain and influence their monetary system and felt, no, that's not going to happen. I've actually
+
+75
+00:06:58,160 --> 00:07:04,000
+done a lot of work with India at Apple. And India is a great country, of course, but is also pretty
+
+76
+00:07:04,000 --> 00:07:10,000
+defensive to foreign products. And so we felt, okay, we're going to hit a roadblock here. Look
+
+77
+00:07:10,000 --> 00:07:14,480
+deeper and deeper in Mexico and just felt like, hey, we think we could make an impact here. So
+
+78
+00:07:14,480 --> 00:07:20,080
+three years ago we went to Mexico and we started to interface with, it's a funny story, we literally
+
+79
+00:07:20,080 --> 00:07:26,400
+just went there and were like, okay, where's the lawyer? Where's the bank? And learned how we could
+
+80
+00:07:26,400 --> 00:07:31,920
+interface with the SEC of Mexico, it's called the CNBV, inquired if there's a process for new
+
+81
+00:07:31,920 --> 00:07:37,200
+technology. And we found out there was a process. It's called the sandbox model. They have similar
+
+82
+00:07:37,200 --> 00:07:42,000
+ones around the world. I think it's based off the one in England. But you could engage the CNBV
+
+83
+00:07:42,000 --> 00:07:47,680
+and you could say, hey, we have this new technology, it's a net good for the country. And we propose
+
+84
+00:07:47,680 --> 00:07:52,400
+doing it. And we think this is a security and we think that you should regulate it and tell us how.
+
+85
+00:07:53,120 --> 00:07:58,320
+We worked with them for two years. And the irony is, they came back and told us, we don't think this
+
+86
+00:07:58,320 --> 00:08:03,760
+is a security after the first year. And so then we went back and said, actually, we're pretty sure
+
+87
+00:08:03,760 --> 00:08:07,840
+it's a security, which this is counter to what's happening in the world. Everyone else is like
+
+88
+00:08:07,840 --> 00:08:14,240
+proposing nothing's a security. So we re-engage with them three times. And the third time we
+
+89
+00:08:14,240 --> 00:08:20,000
+asked them to write publicly all the reasons why our protocol does not constitute a security. So
+
+90
+00:08:20,000 --> 00:08:27,200
+the final thing we got from them is a no action letter stating why things designed as they are
+
+91
+00:08:27,200 --> 00:08:31,760
+through our protocol do not constitute a security. And when was that? What year did you get the
+
+92
+00:08:31,760 --> 00:08:35,920
+new action letter? It was like a year and a half ago. No action letter a year and a half ago,
+
+93
+00:08:35,920 --> 00:08:41,440
+that was valuable. What we did is if you go to our app, it gives us a huge competitive advantage
+
+94
+00:08:41,440 --> 00:08:46,480
+in Mexico. And so what we did is we kind of like the FBI does, we blacked out anything that gives
+
+95
+00:08:46,480 --> 00:08:53,120
+a huge competitive advantage. And then we had a judge notarize it, making the statements that say,
+
+96
+00:08:53,120 --> 00:08:59,040
+I agree that this document says, either of you can do what they can do. We've used that to essentially
+
+97
+00:08:59,120 --> 00:09:05,120
+establish the relationships with big banks like BBVA and Actin Ver and Santander and all around
+
+98
+00:09:05,120 --> 00:09:10,080
+the world to integrate with the banking system there. So it's been hugely valuable for us. I
+
+99
+00:09:10,080 --> 00:09:15,280
+think even if you sold our company for parts, it's worth quite a bit. We're the only company in
+
+100
+00:09:15,280 --> 00:09:20,800
+Mexico with any sort of guidance on how to tokenize assets. And Mexico is quite a big economy.
+
+101
+00:09:20,800 --> 00:09:26,320
+So that's how we got started. That's the genesis of Etherfuses. Go out, do some work and get guidance
+
+102
+00:09:26,320 --> 00:09:32,640
+on how to tokenize assets. I love that you guys took the approach of what if everything is a security
+
+103
+00:09:32,640 --> 00:09:36,880
+and where can we go to produce the most value at a time when most people are taking the attitude of
+
+104
+00:09:36,880 --> 00:09:42,080
+what is the biggest market and let's somehow not be a security? Yeah, we looked at it as
+
+105
+00:09:42,960 --> 00:09:48,080
+I felt the blockchain was like the internet. So it's like, okay, I make a website from the U.S.
+
+106
+00:09:48,080 --> 00:09:54,720
+but people from Europe can go there. And so if I can comfortably be regulated somewhere
+
+107
+00:09:55,280 --> 00:10:02,240
+and I can connect to the blockchain, I have a connection to this global economy.
+
+108
+00:10:02,800 --> 00:10:06,960
+We looked at it as like this opportunity. So let's go where the likelihood.
+
+109
+00:10:06,960 --> 00:10:12,320
+I still think it's a contrarian move today, even though we've told people Mexico is really hard.
+
+110
+00:10:12,320 --> 00:10:16,960
+So we did get lucky in some capacity. It's not become like a standard. Like since then,
+
+111
+00:10:16,960 --> 00:10:22,880
+I'd say Debye's become a standard. The Caymans become a standard. Some U.S. treasury loopholes
+
+112
+00:10:22,880 --> 00:10:26,800
+have become a standard, but people still aren't going to Mexico. So it's kind of interesting.
+
+113
+00:10:27,360 --> 00:10:31,600
+Yeah, that was kind of our outlook, though, is where Warren Buffett's shown me the incentives.
+
+114
+00:10:31,600 --> 00:10:36,400
+So we really were like, where are the incentives that raise the probability that we'll have success?
+
+115
+00:10:37,040 --> 00:10:41,120
+To cap off the story, you were telling you guys receive a no action letter in Mexico
+
+116
+00:10:41,680 --> 00:10:46,160
+and what are the products that you guys then venture into that we would see today?
+
+117
+00:10:46,720 --> 00:10:52,160
+So now we have the ability to tokenize anything. And we actually have API access to the stock
+
+118
+00:10:52,160 --> 00:10:58,480
+exchange in Mexico. We're like, okay, what could we do? We could do anything. We tried a few things,
+
+119
+00:10:58,480 --> 00:11:04,000
+but we really kind of had a second order like thought, what do we do that we think we can win?
+
+120
+00:11:04,000 --> 00:11:10,000
+And so we looked around in history and the world and just felt like there's not really the supply
+
+121
+00:11:10,000 --> 00:11:15,840
+for, I would say, the most popular, most boring investments in the world. We see a lot of need
+
+122
+00:11:15,920 --> 00:11:22,800
+in history for government debt on chain. And we see a lot of demand for it. And we don't really see
+
+123
+00:11:22,800 --> 00:11:28,800
+that opportunity on the blockchain. And we don't also see entrepreneurs or people focused on it.
+
+124
+00:11:28,800 --> 00:11:33,120
+We see them focused on US Treasuries, but we don't see them focused on other things. So
+
+125
+00:11:33,840 --> 00:11:40,080
+we decided to take a sliver of our opportunity and potential. And we decided to become the company
+
+126
+00:11:40,160 --> 00:11:46,880
+that will provide the APIs and SDK or contract endpoint to tokenize the world's sovereign debt
+
+127
+00:11:46,880 --> 00:11:52,480
+on chain, to tokenize the shortest term treasuries with the largest amount of liquidity from each
+
+128
+00:11:52,480 --> 00:11:57,760
+country, and to make that available through interest-bearing stablecoins. And so that is
+
+129
+00:11:57,760 --> 00:12:03,760
+our mission statement. That's where we're focused. We did raise a series, a small seed round. And so
+
+130
+00:12:03,760 --> 00:12:09,120
+we said, let's do five assets to prove who we are, make some traction and move forward. So the five
+
+131
+00:12:09,120 --> 00:12:16,240
+assets we tokenized were US Treasuries, European Treasuries, British Treasuries, Brazilian Treasuries,
+
+132
+00:12:16,240 --> 00:12:20,320
+and Mexican Treasuries. And three of those five were the only company in the world who has the
+
+133
+00:12:20,320 --> 00:12:27,120
+ability to do those. Where early on did you see captive demand for those non-US Treasuries on
+
+134
+00:12:27,120 --> 00:12:34,560
+chain? I think more we saw gaps in what happens in Treadfy versus what's happening in the blockchain.
+
+135
+00:12:34,560 --> 00:12:40,080
+So I think if I took that lens, where is the demand in the blockchain? It's a good question,
+
+136
+00:12:40,080 --> 00:12:45,280
+but it assumes that the right people are already on the blockchain. I think a lot of the demands
+
+137
+00:12:45,280 --> 00:12:51,440
+right now are highly speculative protocols, infrastructure. That's what I'm seeing. But I
+
+138
+00:12:51,440 --> 00:12:56,720
+think 10 years from now, it's going to be a totally different ecosystem. So really, we thought what's
+
+139
+00:12:56,720 --> 00:13:02,960
+missing that historically has needed to be there before a nation grew in size. And it was bonds.
+
+140
+00:13:03,040 --> 00:13:08,000
+If you look back, what built Europe, it was bonds, the interface of the bond. It was less
+
+141
+00:13:08,000 --> 00:13:15,120
+demand and more of caten the hatting it. Where is it not? And then also the need. We saw last
+
+142
+00:13:15,120 --> 00:13:21,680
+mile needs everywhere. Everyone wants to send money via remittance wallet, but then you see them
+
+143
+00:13:21,680 --> 00:13:28,640
+and they just wrap like USDC and then nothing. There's this missing last mile that we felt we
+
+144
+00:13:28,640 --> 00:13:34,640
+could fulfill. Since we've issued and promoted and pushed them out, we've partnered with people to
+
+145
+00:13:34,640 --> 00:13:39,760
+enable places that are not in Mexico and Brazil to issue stable coins in those currencies using
+
+146
+00:13:39,760 --> 00:13:44,720
+us a collateral. And we've seen demand there. We've seen that grow there. If you look at DeFi,
+
+147
+00:13:44,720 --> 00:13:49,600
+you look at our MXNE, which is what we call sovereign coin. So it's a stable coin denominated
+
+148
+00:13:49,600 --> 00:13:54,880
+in foreign currency, which uses our assets as collateral. We see quite a bit of activity
+
+149
+00:13:54,880 --> 00:14:00,720
+trading and using those for payments. Yeah, I like the framing there. We pick up efficiencies
+
+150
+00:14:00,720 --> 00:14:06,400
+on chain being faster settlement. Anyone can have an account, but the thought experiment of
+
+151
+00:14:06,400 --> 00:14:11,520
+where do we not see systems exist, where we do in TradFi that create efficient systems.
+
+152
+00:14:12,080 --> 00:14:17,680
+And it just seems like an unsustainable reality that you have US dollars on chain and you're
+
+153
+00:14:17,680 --> 00:14:22,480
+going to have to go off chain to turn into any other sovereign currency when we live in a world
+
+154
+00:14:22,480 --> 00:14:27,120
+with how many sovereign currencies? I don't know the exact number. Well, there are 127 countries,
+
+155
+00:14:27,120 --> 00:14:31,760
+so something close to that number. We all talk about remittances, right? But
+
+156
+00:14:31,760 --> 00:14:38,320
+remittances doesn't work without an off ramp in the alternative country. I feel like the biggest
+
+157
+00:14:38,320 --> 00:14:45,440
+frustration with crypto or the blockchain today is the lack of understanding of where needs are
+
+158
+00:14:45,440 --> 00:14:50,480
+versus like, hey, how much TVL does this product have? That's what I'm going to focus on at the
+
+159
+00:14:50,480 --> 00:14:55,200
+moment. There's a lot of innovation that needs to happen still. We need to make space for that.
+
+160
+00:14:55,200 --> 00:15:00,320
+I guess that's kind of how I feel about it. In recent on chain asset terms, we've had Bitcoin
+
+161
+00:15:00,320 --> 00:15:04,320
+for a long time. We've had Ethereum and Solana and then Longertale for a long time. We've seen
+
+162
+00:15:04,320 --> 00:15:10,960
+the rapid rise of stablecoins now to some $230 billion market cap. Do you see the potential
+
+163
+00:15:10,960 --> 00:15:16,400
+rise of the MXN stablecoin and other stablecoins that you guys operate in as being commercially
+
+164
+00:15:16,400 --> 00:15:22,400
+driven and that people will want to own them for investment purposes? Or do you see it as more of
+
+165
+00:15:22,400 --> 00:15:29,440
+a workflow insert where the on ramp and off ramping from and to USD needs to become more
+
+166
+00:15:29,440 --> 00:15:34,480
+efficient? And because of that, it makes sense to have an MXN stablecoin. I think the first set of
+
+167
+00:15:34,480 --> 00:15:40,240
+demand is going to come from the fact that we are going to make on and off ramping from a local
+
+168
+00:15:40,240 --> 00:15:45,760
+nation near free, free or near free, depending on your use case, free for T plus one for sure.
+
+169
+00:15:46,640 --> 00:15:52,080
+I think that will drive so much demand and trust of being able to on and off ramp that directly
+
+170
+00:15:52,080 --> 00:15:57,280
+to a self custody wallet that we'll see those volumes grow quite a bit. I think people will
+
+171
+00:15:57,280 --> 00:16:02,960
+start to recognize that since they yield for these underlying assets are much higher than like,
+
+172
+00:16:02,960 --> 00:16:09,600
+you know, safer products, that our revenue opportunities are 10x those of normal stablecoins
+
+173
+00:16:09,600 --> 00:16:14,400
+that you'll start to see people pay attention. So I think that's the first order of effect.
+
+174
+00:16:14,400 --> 00:16:21,200
+The second is it's ironic, but everything is happening with tariffs is really good for us.
+
+175
+00:16:21,200 --> 00:16:28,800
+It's our idea. Because if you want to exchange, you know, your USDC or like our Mexican say taste
+
+176
+00:16:28,800 --> 00:16:35,040
+product, it is currently outperforming as a store of value US denominated products. And so there's
+
+177
+00:16:35,040 --> 00:16:41,600
+going to be chaos in my opinion for the next two years as we figure this out. If you wanted to move
+
+178
+00:16:41,600 --> 00:16:46,080
+safe assets on chain into a different product, we're the only company that currently enables
+
+179
+00:16:46,080 --> 00:16:53,120
+you to do that. So I think that there will be a lot of demand once people understand the potential.
+
+180
+00:16:53,120 --> 00:17:01,040
+We built the trust gap and they trust us. And just as an example, like we magnify US products too. So
+
+181
+00:17:01,680 --> 00:17:05,280
+if you go to I'm trying to think what's your blockchain of choice, I'll just pick Solana
+
+182
+00:17:05,280 --> 00:17:10,400
+as an example. If you go to Camino, you could like short a US Treasury and do something with it,
+
+183
+00:17:10,400 --> 00:17:16,400
+or you could invest in one that's there. But it's possible to buy say taste short it and then with
+
+184
+00:17:16,400 --> 00:17:23,520
+that by a US Treasury. And now I've have my US Treasury yields, but I also have any underperformance
+
+185
+00:17:23,520 --> 00:17:29,760
+of that emerging market. So I could boost yields up by five or 6% just by shorting something else
+
+186
+00:17:29,760 --> 00:17:36,400
+first. And this is a huge market in triad five currency forwarding currency options. And DeFi is
+
+187
+00:17:36,400 --> 00:17:42,080
+a better, more efficient place to do it. And so I think once we are effective as a company
+
+188
+00:17:42,080 --> 00:17:47,360
+communicating and people trust us, they see we have the volumes, we have the transparency and the
+
+189
+00:17:47,360 --> 00:17:53,600
+security for those investments, it'll explode. And retail of the individuals are completely
+
+190
+00:17:53,600 --> 00:17:58,560
+excluded from that. Like I can go to cash, but I can't go in my Chase account and say, okay,
+
+191
+00:17:58,560 --> 00:18:05,680
+I want to be in pesos for the next six months. It's impossible. Use a US person right now if you
+
+192
+00:18:05,680 --> 00:18:11,440
+wanted to buy like just Mexican Treasuries, you have to go through like an ETF through JPMorgan
+
+193
+00:18:11,440 --> 00:18:17,280
+Trace here. And they're returning like 6% yields. What are the fees on that? 3%. They're skimming
+
+194
+00:18:17,280 --> 00:18:24,000
+about 3%. You go to us, you get full minus our take. So it's like eight or 9%. So it's way better.
+
+195
+00:18:24,000 --> 00:18:30,240
+It's way more efficient to go through us. In addition to if you wanted to hedge a currency,
+
+196
+00:18:30,240 --> 00:18:34,080
+say you wanted to buy pesos, but you want to hedge it with the dollar, that's a complex
+
+197
+00:18:34,080 --> 00:18:39,520
+triad five product that's not really possible to do with like 300 bucks, but it's totally possible to
+
+198
+00:18:39,520 --> 00:18:45,440
+do on chain. And to your point about the inefficiency that we have, I think a lot of people, especially
+
+199
+00:18:45,440 --> 00:18:50,880
+users of crypto and even traditional financial venues in the US don't have an appreciation
+
+200
+00:18:50,880 --> 00:18:56,080
+of that globally. I've tried to learn myself about the proliferation of Binance peer-to-peer
+
+201
+00:18:56,080 --> 00:19:00,720
+and these peer-to-peer on-ramps that you have, which is such a stark contrast to you have such
+
+202
+00:19:00,720 --> 00:19:06,560
+efficient systems actually outside the US in what I would call traditional payments with things like
+
+203
+00:19:06,560 --> 00:19:11,760
+PIX in Brazil. Are those systems that you guys have integrated with any capacity that you've
+
+204
+00:19:11,760 --> 00:19:16,480
+utilized? And is there a reason that the product potentially functions better outside the US in
+
+205
+00:19:16,560 --> 00:19:20,320
+any capacity like that? Yeah. I mean, you hit the nail on the head. For some reason,
+
+206
+00:19:20,320 --> 00:19:23,680
+we have one of the worst payment systems in the world, probably because we just have a lot of
+
+207
+00:19:23,680 --> 00:19:28,880
+complexity, but in Mexico, there's SPAY. It's real-time, so settlement in seconds. PIX,
+
+208
+00:19:29,600 --> 00:19:35,360
+our goal for each asset is to enable on and off-ramping for free or near free, depending
+
+209
+00:19:35,360 --> 00:19:40,960
+on the scenario. So anytime there's a real-time payment system like PIX, we can do it for free.
+
+210
+00:19:40,960 --> 00:19:45,680
+If you just think about it, we own the asset in that country. We just have to sell it.
+
+211
+00:19:45,680 --> 00:19:50,880
+So if I can send funds to my brokerage immediately, I can also issue a token immediately.
+
+212
+00:19:50,880 --> 00:19:55,680
+If I can burn that and then issue a sell order immediately, I can sell it and send it to you
+
+213
+00:19:55,680 --> 00:20:00,160
+immediately. So Mexico is our first pilot for on and off-ramping that will officially be available
+
+214
+00:20:00,160 --> 00:20:06,800
+to the public next week. We are relatively certain that we'll be able to mint a token on-chain
+
+215
+00:20:06,800 --> 00:20:13,840
+denominated in peso for free and on-ramp fit for free, at least two plus one. And depending
+
+216
+00:20:13,920 --> 00:20:19,600
+if we can get the yield of the volume to match the cost of a microloan, it'll probably also be free
+
+217
+00:20:19,600 --> 00:20:26,240
+to be instant. But worst-case scenario, instant is five to seven BIPs. So it's a huge improvement
+
+218
+00:20:26,240 --> 00:20:33,600
+over what exists today. If you look at TradFi, it's like 7%. If you look at Efficient TradFi,
+
+219
+00:20:33,600 --> 00:20:40,240
+it's three. If you look at current state of stables, it's like 1%. 100 BIPs. So this is like
+
+220
+00:20:40,240 --> 00:20:45,280
+a 10x of the best thing out there. So we're really excited by it and we hope it leads to trust in our
+
+221
+00:20:45,280 --> 00:20:51,040
+asset and that our assets proliferate because of that. So PIX is next. We're almost set up there.
+
+222
+00:20:51,040 --> 00:20:57,120
+Officially, we'll go to PIX in July. I feel like we have an industry-wide innovators dilemma
+
+223
+00:20:57,120 --> 00:21:02,880
+in U.S. fintech and finance because the system is so entrenched and you have people are profiting. So
+
+224
+00:21:03,520 --> 00:21:07,600
+immensely off of the credit cards is off of the way our bank accounts function that
+
+225
+00:21:08,160 --> 00:21:11,680
+my view at least is especially in the context of stablecoins, it's going to be
+
+226
+00:21:11,680 --> 00:21:16,800
+a reverse adoption for us, which is you get it in these other countries with smaller economies
+
+227
+00:21:16,800 --> 00:21:23,360
+and then eventually we'll be the late adopters. I think so. I also think that the reason the U.S.
+
+228
+00:21:23,360 --> 00:21:29,680
+has done so well is historically it's proven to be a good place to start a company and a big economy.
+
+229
+00:21:29,680 --> 00:21:33,840
+And I think that still is. I think you've got to be a little crazy to do what we're doing,
+
+230
+00:21:34,320 --> 00:21:41,280
+go to a country and be like, how's it work here? Where's the bank? It did take a little insanity.
+
+231
+00:21:41,280 --> 00:21:46,240
+I'm happy we were crazy enough to do it. We've gotten all the roadblocks out of the way now for
+
+232
+00:21:46,240 --> 00:21:52,000
+us to just scale efficiently given the right tools and resources. I think it took a little bit of
+
+233
+00:21:52,000 --> 00:21:57,280
+insanity for us to do it. I talked to a prominent startup investor. I said what I was going to do,
+
+234
+00:21:57,280 --> 00:22:02,240
+he's like, don't do that. That's a crazy idea. That's how you know you have to go and do it,
+
+235
+00:22:02,240 --> 00:22:05,440
+right? A little bit of stubbornness. I was like, whatever, man.
+
+236
+00:22:06,720 --> 00:22:09,440
+For clarification, you guys are a U.S. company?
+
+237
+00:22:09,440 --> 00:22:14,400
+We're multinational. We have Etherfuse Inc. It's our cap table, essentially. And then our
+
+238
+00:22:14,400 --> 00:22:21,360
+subsidiaries are in these local countries. So the main one, Etherfuse MX, our regulatory umbrella
+
+239
+00:22:21,360 --> 00:22:26,800
+is through Etherfuse MX. So our operations and the issuance of our assets are all out of Mexico.
+
+240
+00:22:27,360 --> 00:22:32,080
+And then due to some investor feedback, we did set up some operations in Switzerland. So we
+
+241
+00:22:32,080 --> 00:22:37,760
+issue out of Mexico and then we tokenize under Swiss regulation. And I imagine without touching on
+
+242
+00:22:37,760 --> 00:22:42,880
+the secret sauce too much, the entity set up and the structuring here is a big part of the undertaking,
+
+243
+00:22:42,880 --> 00:22:48,640
+I would imagine. Compare Brazil and Mexico. Brazil is pretty sophisticated. It's kind of
+
+244
+00:22:48,640 --> 00:22:54,000
+straightforward how to set up a company. Mexico is super complicated. It's super slow and super
+
+245
+00:22:54,000 --> 00:23:00,160
+costly. So yeah, just setting up an entity that's legal that you can pay taxes on. Paying taxes on
+
+246
+00:23:00,160 --> 00:23:05,280
+crypto is pretty insane in a country that has no kind of guidance. So just getting to where we've
+
+247
+00:23:05,280 --> 00:23:12,960
+gotten stuff nobody sees is like a miracle, to be honest. The fact that we have, we got a regulatory
+
+248
+00:23:12,960 --> 00:23:18,480
+classification, then we needed a tax classification, which was different. So all that stuff was
+
+249
+00:23:18,480 --> 00:23:24,000
+crazy amount of work and stress. And that is done, which is nice. But it was a huge undertaking.
+
+250
+00:23:24,640 --> 00:23:32,000
+Yeah, now the fun part. With stablecoins today, you can hold dollars and send dollars all across
+
+251
+00:23:32,000 --> 00:23:37,040
+the world. That's amazing. Call that a phase one. You guys have built the system you were just talking
+
+252
+00:23:37,040 --> 00:23:42,400
+about. Call that a phase two where hopefully you can hold and send U.S. dollars. You can also hold
+
+253
+00:23:42,400 --> 00:23:47,280
+and send other assets, other treasuries and trade them against each other very easily without this
+
+254
+00:23:47,280 --> 00:23:53,200
+reliance on an institutional account structure, without market hour constraints, all these legacy
+
+255
+00:23:53,200 --> 00:24:00,160
+systems or legacy limitations. Is this crypto's killer use case in your view? Is that what we've
+
+256
+00:24:00,160 --> 00:24:03,520
+been building for maybe at risk of upsetting the Bitcoin folks?
+
+257
+00:24:04,080 --> 00:24:08,560
+I think so. I mean, the Bitcoin folks, they have their use case, which is an awesome product that
+
+258
+00:24:08,560 --> 00:24:14,880
+stores value and it's independent from an economy. But I think crypto has a few other
+
+259
+00:24:14,880 --> 00:24:21,280
+awesome use cases. But I think one is just connecting the world efficiently through DeFi.
+
+260
+00:24:21,360 --> 00:24:25,040
+There's this awesome book called Mystery to Capital, which you should read, you may have read.
+
+261
+00:24:25,920 --> 00:24:31,920
+Just creating a universal process for trading across the world is an insane feat.
+
+262
+00:24:32,480 --> 00:24:37,200
+What I view as crypto's biggest use case is what the world's biggest market is today,
+
+263
+00:24:37,200 --> 00:24:42,720
+which is the forex market. If I can remove an efficiency, like probably the most efficient
+
+264
+00:24:42,720 --> 00:24:49,440
+channel in the world of sending money is the U.S. to Mexico. Our product has increased the yield that
+
+265
+00:24:49,440 --> 00:24:56,640
+you could get by 3% and removed the cost of on and off ramping to near zero. That's the most
+
+266
+00:24:56,640 --> 00:25:02,000
+efficient channel. So now when I start to hit like Nigeria and Bangladesh, it's going to be
+
+267
+00:25:02,000 --> 00:25:08,720
+way more efficient in the future. So I think the biggest opportunity is bringing the security of
+
+268
+00:25:08,720 --> 00:25:16,240
+DeFi or bringing forex onto DeFi and enabling the trust and security of DeFi to facilitate
+
+269
+00:25:16,240 --> 00:25:21,840
+exchange across the globe. The blockchain world has done really well building the function
+
+270
+00:25:22,720 --> 00:25:28,720
+f of x, but no one's really done well building x, which is the input. We're focused on the things
+
+271
+00:25:28,720 --> 00:25:35,280
+people will trade in the x. We've looked at the world and we've said that stable bond we feel
+
+272
+00:25:35,280 --> 00:25:42,000
+solves three problems store value and investment and payments. So if we look at those characteristics
+
+273
+00:25:42,000 --> 00:25:46,640
+across the nations, what are the top 15? So our goal for the next two years is to onboard those
+
+274
+00:25:46,640 --> 00:25:52,960
+top 15 countries that have the highest store value, the highest yields, and are most used for
+
+275
+00:25:52,960 --> 00:25:59,600
+remittances. We think if we can get those 15 assets on chain, we've brought 90% of the forex
+
+276
+00:25:59,600 --> 00:26:05,680
+market on chain and we've made it more efficient, better investment, quicker, more reliable. So I
+
+277
+00:26:05,680 --> 00:26:12,160
+think that is crypto's killer use case. The second is on and off ramping nations. So to me,
+
+278
+00:26:12,160 --> 00:26:17,120
+connecting a nation to crypto or the blockchain is like connecting a nation to the internet
+
+279
+00:26:17,120 --> 00:26:22,320
+or connecting the nation to electricity. So in many cases, we want to be the first person
+
+280
+00:26:22,320 --> 00:26:27,520
+in these remote areas to provide an interest bearing asset denominated that currency that can
+
+281
+00:26:27,520 --> 00:26:33,360
+on and off ramp for near free. And then we felt we've unwrapped that country. Those are like the
+
+282
+00:26:33,360 --> 00:26:39,440
+two kind of scenarios that we really think about. And in those cases, as you guys see continued
+
+283
+00:26:39,440 --> 00:26:44,640
+adoption, do you think people will look at these stable coins and stable bonds each day? Will it be
+
+284
+00:26:44,640 --> 00:26:50,400
+I pull up my phone and my app and I see my balance. I know they're stable coins or will this be hidden
+
+285
+00:26:50,400 --> 00:26:55,200
+behind some, whether it's an agentic system, whether it's a messaging interface, a super app,
+
+286
+00:26:55,200 --> 00:26:59,280
+something like that. I think in a perfect world for us, people don't even really know they're
+
+287
+00:26:59,280 --> 00:27:03,760
+using etherfuse. They look at a wallet, like I'm trying to think of somebody you guys know,
+
+288
+00:27:03,760 --> 00:27:10,000
+like El Dorado. And they think El Dorado has an mxn account. It's not etherfuse state days or
+
+289
+00:27:10,000 --> 00:27:14,800
+etherfuse mxne. It's just abstracted, right? I think that's the killer use case. I think that's
+
+290
+00:27:14,800 --> 00:27:19,600
+when people nobody cares, like the real world doesn't care what it is, you know, or if it was
+
+291
+00:27:19,600 --> 00:27:27,440
+AWS or Azure or GCP, you know, they just want the app to work. So for us, we're trying to not be
+
+292
+00:27:27,440 --> 00:27:32,880
+the last thing you see. We're trying to be like that AWS for sovereign debt. So I think in the
+
+293
+00:27:32,880 --> 00:27:37,200
+future, people won't really know it runs on the blockchain or what it is. It's just a wallet.
+
+294
+00:27:37,840 --> 00:27:44,880
+It's amazing. I've found that the people I know who actually know where stable coins are being used,
+
+295
+00:27:44,880 --> 00:27:50,560
+especially ones who use crypto, are the ones I know who are from the most vulnerable or
+
+296
+00:27:50,560 --> 00:27:56,400
+difficult markets from a geopolitical and economic perspective. I have family in Iran because my dad
+
+297
+00:27:56,400 --> 00:28:02,160
+grew up in Iran and I was talking about crypto in my family and my Iranian grand uncle knew exactly
+
+298
+00:28:02,160 --> 00:28:06,000
+about stable coins and how they move and all that because there's just such a distrust of how money
+
+299
+00:28:06,000 --> 00:28:13,440
+works. Whereas PYUSD and even people I know who might be in the Western Hemisphere and hold dollars
+
+300
+00:28:13,440 --> 00:28:17,920
+through a crypto account, they've no idea it's sitting in stable coins. It is interesting. I think
+
+301
+00:28:18,480 --> 00:28:24,480
+part of that leads to how we got here too. If you grew up or you're familiar with an area where
+
+302
+00:28:24,480 --> 00:28:31,120
+the currency fluctuates, you're yearning for a safe stable asset. In your opinion, that's the dollar.
+
+303
+00:28:31,760 --> 00:28:35,840
+If you go to Argentina like you're saying or Iran, they know what it is. They can finally get
+
+304
+00:28:35,840 --> 00:28:43,280
+access through stable coins. Sometimes I wonder, why are we the only people focusing on non-US assets?
+
+305
+00:28:43,280 --> 00:28:47,840
+And I think it's because we brought the alternative perspective too. So just to play off that, I think
+
+306
+00:28:47,840 --> 00:28:54,960
+it's interesting. We have access to US dollars here in the US, but I don't have access to emerging
+
+307
+00:28:54,960 --> 00:29:00,560
+market investments quite efficiently as I think I should. So it's kind of interesting how where you
+
+308
+00:29:00,560 --> 00:29:06,480
+grew up in the context of your life leads to how you view opportunity too.
+
+309
+00:29:07,200 --> 00:29:12,400
+It's such a world-centric view, especially in the context of history. I was having a conversation
+
+310
+00:29:12,400 --> 00:29:16,960
+the other day where we were talking about how no one knew the Roman Empire fell until hundreds of
+
+311
+00:29:16,960 --> 00:29:21,600
+years later. To take a view that you only ever want to own US dollars is to say that you think
+
+312
+00:29:22,160 --> 00:29:28,640
+the US will be the only dominant currency for the foreseeable future of history ever.
+
+313
+00:29:28,640 --> 00:29:33,360
+Which maybe not. Hopefully, yeah, hopefully for us.
+
+314
+00:29:33,360 --> 00:29:39,760
+I win-win no matter what, but I don't think so, especially if you look at what Europe is doing
+
+315
+00:29:39,760 --> 00:29:46,880
+with mica. It was fundamentally built to protect their sovereignty and their currency. If you look
+
+316
+00:29:46,880 --> 00:29:52,880
+they have restrictions on non-European limits and things like that, that they don't have if your
+
+317
+00:29:52,880 --> 00:29:59,120
+currency is mica compliance and denominator in the euro. I think we're going to see this start to
+
+318
+00:29:59,120 --> 00:30:04,560
+happen more and more across the world where you have these regulatory bodies say almost like these
+
+319
+00:30:04,560 --> 00:30:10,800
+new tariffs. I look at mica as a tariff, to be honest. It's like some added complexity to promote
+
+320
+00:30:10,800 --> 00:30:16,320
+an internal economy. And I think we'll start to see those with stablecoins probably in the next
+
+321
+00:30:16,320 --> 00:30:22,320
+five years or so. Hopefully, we're well-established and we can meet those demands. But yeah, I think
+
+322
+00:30:22,320 --> 00:30:25,360
+we're going to see the world change quite a bit in the next five years.
+
+323
+00:30:25,360 --> 00:30:29,920
+You guys are in a very interesting position because you are going to be offering these assets to what
+
+324
+00:30:29,920 --> 00:30:34,640
+is a really wide demographic of people when you think about the different profiles in these countries.
+
+325
+00:30:35,360 --> 00:30:41,760
+From my perspective, it seems like it's a bit of a jump ball in terms of the offerings of these
+
+326
+00:30:41,760 --> 00:30:46,880
+assets and controlling the end user in the sense that it could be JP Morgan, it could be Apple,
+
+327
+00:30:46,880 --> 00:30:52,000
+your former employer, it could be a government, it could even be NATO or some kind of multinational
+
+328
+00:30:52,000 --> 00:30:57,120
+organization. Maybe that's a bit of a stretch. But I think you understand the sentiment. Do you
+
+329
+00:30:57,120 --> 00:31:02,320
+think they will all try and get into this game? In my view, it's only logical that they would.
+
+330
+00:31:02,320 --> 00:31:08,320
+But I'm curious who you think moves here and then who is the issuer who's controlling the end user
+
+331
+00:31:08,320 --> 00:31:14,800
+and the future? Ironically, I think the only thing that has enabled the legacy financial system
+
+332
+00:31:14,800 --> 00:31:21,360
+to not completely dominate the blockchain ecosystem is fear and regulation because they have a lot
+
+333
+00:31:21,360 --> 00:31:26,640
+to lose. So regulation saved us. Regulation has saved us. This gray area has enabled the
+
+334
+00:31:26,640 --> 00:31:32,720
+opportunity for us to have upward mobility. I mean, just think about it. Like, Tether is
+
+335
+00:31:32,720 --> 00:31:37,680
+about $130 billion. Yeah. No, what's that line? Regulation favors the incumbent, right?
+
+336
+00:31:37,680 --> 00:31:45,280
+Yeah. JP Morgan Chase is $4 trillion. JP Morgan Chase doesn't need Tether and they don't need
+
+337
+00:31:45,280 --> 00:31:51,600
+Circle at all. The second they know how they can operate and it's clear, they're all issuing
+
+338
+00:31:51,600 --> 00:32:00,400
+stablecoins and no one's going to care. I have Chase. If my account is underlying stablecoins,
+
+339
+00:32:00,400 --> 00:32:04,000
+JP Morgan Coin, I won't care. I don't think about it. I trust them enough.
+
+340
+00:32:04,720 --> 00:32:09,920
+I think it's going to be interesting to see what happens in the US. I do believe that the
+
+341
+00:32:09,920 --> 00:32:15,360
+established players like Tether and Circle will survive and they'll have a place. But I think
+
+342
+00:32:15,360 --> 00:32:19,520
+these new ones who are, and I hate to say this because I like a lot of these people and I hope
+
+343
+00:32:19,520 --> 00:32:27,040
+I'm wrong, but I think it'll be a less trusted resource once regulation is clear. Unless you
+
+344
+00:32:27,040 --> 00:32:32,240
+get in the billions of volume or you have some niche, pretty sure that the banks are going to come
+
+345
+00:32:32,240 --> 00:32:38,320
+for us all. Now, our benefit is these emerging markets are way behind in a lot of stuff.
+
+346
+00:32:39,280 --> 00:32:45,040
+When we issue an asset, we're like the first company that comes in to do it. I think we have
+
+347
+00:32:45,040 --> 00:32:50,960
+10 to 15 years to make an impact before those regulatory bodies really do enough work to
+
+348
+00:32:50,960 --> 00:32:56,480
+let their banking systems issue stablecoins. That's our philosophy. 10 to 15 years isn't bad.
+
+349
+00:32:56,640 --> 00:33:02,160
+Not too bad. We can do a lot with that. But especially just looking at Mexico, it's so
+
+350
+00:33:02,160 --> 00:33:08,240
+old. How it works is so bureaucratic compared to the US, which is also slow. I think before banks,
+
+351
+00:33:08,240 --> 00:33:14,400
+and we're talking to a lot of them by the way, so we understand their dilemma, before Mexican banks
+
+352
+00:33:14,400 --> 00:33:20,240
+feel comfortable enough to issue large volumes, a lot has to happen. I think the US has to move
+
+353
+00:33:20,240 --> 00:33:27,600
+first. It was really strange how we heard no's. Some of our assets are in Europe. In the early
+
+354
+00:33:27,600 --> 00:33:32,080
+stages, the problem was finding a custodian who would say yes to us, and we got turned down by a
+
+355
+00:33:32,080 --> 00:33:37,840
+lot of people. Interesting. That was an operation chokepoint 2.0 issue in Europe, just like we
+
+356
+00:33:37,840 --> 00:33:43,600
+have here. It's crazy. These are big banks too. I don't want to name names, but the second Trump
+
+357
+00:33:43,600 --> 00:33:48,560
+won, I had three of them email me back saying, hey, we're looking to be more competitive.
+
+358
+00:33:49,440 --> 00:33:56,160
+I was like, dude, it was really hard to find our initial custodians. All our custodians are large,
+
+359
+00:33:56,160 --> 00:34:01,120
+well trusted. That was part of the problem. I think the US leads and the rest of the world
+
+360
+00:34:01,760 --> 00:34:08,320
+follows their guidance. If you take those banks or any others as an example, were they building
+
+361
+00:34:08,320 --> 00:34:13,440
+crypto product? Were they trying to get ready when Trump wasn't president and we were in a hostile
+
+362
+00:34:13,440 --> 00:34:16,720
+regime? Or do you think they're a little flat-footed? I think they're flat-footed. I think
+
+363
+00:34:16,720 --> 00:34:21,760
+the only emerging, it's not an emerging market, but the only bank that I'd say global that addresses
+
+364
+00:34:21,760 --> 00:34:27,120
+emerging market needs that's really trying, was trying back then, was BBVA. They have a platform
+
+365
+00:34:27,120 --> 00:34:33,200
+in Switzerland. They've been working on something, so they were kind of trying, but the sense of
+
+366
+00:34:33,200 --> 00:34:39,520
+urgency that they should have had was definitely not there. This is a huge disruptor, especially
+
+367
+00:34:39,520 --> 00:34:48,400
+for emerging markets. 50% of BBVA's revenue comes just from Mexico as an example. In my opinion,
+
+368
+00:34:48,400 --> 00:34:55,120
+I would be doing everything I can if I was the CEO of BBVA to ensure that I'm leading this space in
+
+369
+00:34:55,120 --> 00:35:00,960
+Mexico. We work with them. They work with us. They're friendly to us, so maybe we can help them
+
+370
+00:35:00,960 --> 00:35:05,680
+get there. I think that they are now flat-footed and trying to recover quite a bit.
+
+371
+00:35:06,480 --> 00:35:12,720
+In the US, we've made major strides. People get very down on some of these topics, but the Bitcoin
+
+372
+00:35:12,720 --> 00:35:17,920
+ETF exchange trading on traditional brokerages, in terms of just giving normal people access to
+
+373
+00:35:17,920 --> 00:35:25,280
+crypto, my sense is that that's happened a lot less elsewhere. It's funny, in our local circumstance,
+
+374
+00:35:25,280 --> 00:35:29,360
+I think that that is probably actually a stymied DeFi adoption to a sense. In my view,
+
+375
+00:35:29,360 --> 00:35:33,680
+it's people used to go to DeFi because traditional trading opportunities were limited,
+
+376
+00:35:33,760 --> 00:35:38,880
+and now Coinbase is listing more assets. You can go and buy the Bitcoin ETF on various brokerages.
+
+377
+00:35:39,520 --> 00:35:45,920
+Do you think more globally that that lack of crypto trading experience with traditional
+
+378
+00:35:45,920 --> 00:35:49,520
+banks' asset managers pushes people to DeFi? Is that a growth catalyst for DeFi?
+
+379
+00:35:50,240 --> 00:35:55,680
+Yeah, when regulation is unclear, it's the only launchpad. There is CeFi, but is there a central
+
+380
+00:35:55,680 --> 00:36:01,280
+light? I don't know the best way to say CeFi, but... CeFi works. Okay, CeFi. CeFi, in my experience,
+
+381
+00:36:01,280 --> 00:36:06,480
+has felt a lot like extortion, where it's like, hey, we're the only way for you to bridge to the
+
+382
+00:36:06,480 --> 00:36:11,520
+blockchain, so give us a bunch of money and we'll let your token. DeFi has been a way that we could
+
+383
+00:36:11,520 --> 00:36:18,560
+use skills to grow without any gatekeepers. My opinion over the next 10 years, centralized
+
+384
+00:36:18,560 --> 00:36:25,120
+exchanges' influence will be reduced, especially as things become more clear in ways that a wallet
+
+385
+00:36:25,120 --> 00:36:30,720
+could directly bridge you to the blockchain, not necessarily a big company. I think DeFi's influence
+
+386
+00:36:30,720 --> 00:36:38,240
+will increase for a few reasons. Even though regulation clearing up will make it easier
+
+387
+00:36:39,040 --> 00:36:44,480
+for you to get access, there's still going to be this nuance. So if you take equities as an example,
+
+388
+00:36:45,280 --> 00:36:50,880
+we deliberately chose not to engage in equities because once you start selling in equity,
+
+389
+00:36:50,880 --> 00:36:57,200
+there's 100x more issues you have to worry about. In my opinion, all these new equity platforms
+
+390
+00:36:57,200 --> 00:37:01,520
+coming out, they'll have these restrictions, which will make it harder for you to trade,
+
+391
+00:37:02,240 --> 00:37:07,680
+off-ramping, on-ramping, and things like that. So I think DeFi will still have a place where someone
+
+392
+00:37:07,680 --> 00:37:14,240
+who has a regulatory body that is favorable to them that can issue on DeFi will have an asset
+
+393
+00:37:14,240 --> 00:37:19,120
+that is more freely transferable. Both things are going to happen. There'll be better traditional
+
+394
+00:37:19,120 --> 00:37:24,080
+access using blockchain technology available to people in highly regulated areas, but also
+
+395
+00:37:24,640 --> 00:37:31,280
+there will be certain things that can only be done at DeFi like non-restricted tokens that can
+
+396
+00:37:31,280 --> 00:37:36,960
+be freely transferable that someone in Venezuela could buy on DeFi or that'll have to happen on
+
+397
+00:37:36,960 --> 00:37:42,240
+DeFi and there will always be a market for that. And I want to pick your brain on your views for
+
+398
+00:37:42,240 --> 00:37:48,720
+the future a little bit. And first in that vein, you mentioned wallets. For an ether fuse, for example,
+
+399
+00:37:49,600 --> 00:37:53,760
+is better wallets one of the best things that can happen for your guy's business,
+
+400
+00:37:53,760 --> 00:38:01,440
+looking at how you're acquiring users? Best case scenario is you're a big wallet, you get my SDK
+
+401
+00:38:01,440 --> 00:38:06,800
+and you mint and burn directly. Better wallets is our favorite partners, right? There's nothing
+
+402
+00:38:06,800 --> 00:38:12,560
+in between the user and us except for this interface and there's a lot for the wallet to gain
+
+403
+00:38:13,120 --> 00:38:18,720
+and there's a lot for the user to have. So hypothetically... So if you're a wallet listening...
+
+404
+00:38:18,720 --> 00:38:22,640
+Yeah, if you're a wallet, come talk to me. I can enable you multi-currency accounts
+
+405
+00:38:23,200 --> 00:38:28,400
+that are yield bearing that earn you different revenue while you just fundamentally give your
+
+406
+00:38:28,400 --> 00:38:35,120
+users a wise experience. Wise as bank accounts in different currencies, they don't earn yield
+
+407
+00:38:35,120 --> 00:38:39,200
+and they let you send money. I can do that same thing for you just by giving you my SDK if you're
+
+408
+00:38:39,360 --> 00:38:44,400
+a self-custody wallet. It's the best business in the book, isn't it? You just hold assets for
+
+409
+00:38:44,400 --> 00:38:48,720
+someone and earn money for doing it for something that you don't even control or issue? Yeah,
+
+410
+00:38:48,720 --> 00:38:52,560
+and even if you're a self-custody wallet, you're not technically even holding them. It's just
+
+411
+00:38:52,560 --> 00:38:57,120
+you work through our affiliate program and you earn a portion of the yield that that customer
+
+412
+00:38:57,120 --> 00:39:04,240
+generates. So you don't even need an MTL license. That's exactly like Coinbase's circle agreement,
+
+413
+00:39:04,320 --> 00:39:08,000
+right? There's no difference there, really? Yeah, exactly. And Coinbase wallet does this.
+
+414
+00:39:08,640 --> 00:39:12,240
+Coinbase, I don't know what your thoughts are. I think they're going to do really well. The way
+
+415
+00:39:12,240 --> 00:39:19,520
+they're vertically integrated, they already show preference over currencies. And so if you buy
+
+416
+00:39:19,520 --> 00:39:25,040
+MXNE, it would be like a preferred asset. They really get it and they're able to do it because
+
+417
+00:39:25,040 --> 00:39:29,120
+they have the whole stack. I've heard they're going to become a bank here, which is a killer use case
+
+418
+00:39:29,200 --> 00:39:34,240
+too. So it seems like they get it. They're making a push into non-USD stablecoins,
+
+419
+00:39:34,240 --> 00:39:38,000
+as I'm sure you've seen. Yeah, we're a big part of it. If you see their dashboards,
+
+420
+00:39:38,000 --> 00:39:43,040
+MXNE is on it. Well, in that vein, and to close out a bit here, where do you see their fuses or
+
+421
+00:39:43,040 --> 00:39:47,600
+where do you hope their fuses in coming months and years? And what's the worldview that pushes
+
+422
+00:39:47,600 --> 00:39:54,080
+you guys forward in the right direction? Our aim for the next two years is to onboard 90% of all
+
+423
+00:39:54,080 --> 00:39:59,680
+assets used for remittances, the last mile, and that we can on and off ramp onto those assets.
+
+424
+00:39:59,680 --> 00:40:04,400
+You can mint and burn, essentially, from the local banking system. So that's the next two years.
+
+425
+00:40:04,400 --> 00:40:10,320
+The next five years, every country, we have an interest-bearing asset denominated in that currency
+
+426
+00:40:10,320 --> 00:40:15,680
+that can on and off ramp, and we facilitate local stablecoins to nominate those currencies.
+
+427
+00:40:15,680 --> 00:40:22,880
+So that's the goal for us is to on-ramp those countries and bring forex on chain. And we want
+
+428
+00:40:22,960 --> 00:40:31,680
+to be laser focused on building the most robust assets with transparency, with third-party checks
+
+429
+00:40:31,680 --> 00:40:37,280
+and validation and verifications, improving our liquidity-freezed asset, and the utility of on
+
+430
+00:40:37,280 --> 00:40:42,160
+and off ramping those assets. So next five years, we hope to bring forex on chain through our assets
+
+431
+00:40:42,160 --> 00:40:46,800
+on any platform, on any blockchain, and that that is a trusted resource that either fuses a
+
+432
+00:40:46,800 --> 00:40:52,000
+trusted brand just like Circle is or Tether is. Awesome. Well, we'll leave it there with the hopes
+
+433
+00:40:52,000 --> 00:40:57,440
+of a more globally economically interconnected world. Dave, thanks for joining us, and hopefully
+
+434
+00:40:57,440 --> 00:41:02,400
+you'll come back soon. All right. Thanks, Wyatt. Appreciate it. Thanks for listening to another
+
+435
+00:41:02,400 --> 00:41:07,120
+episode of On the Brink with Castle Island. To find out more about Castle Island, visit
+
+436
+00:41:07,120 --> 00:41:15,520
+castleisland.vc. To listen to all of our podcast episodes, please go to onthebrink-podcast.com
+
+437
+00:41:15,520 --> 00:41:21,040
+or just click on the tab in our website. Thanks for listening.
+

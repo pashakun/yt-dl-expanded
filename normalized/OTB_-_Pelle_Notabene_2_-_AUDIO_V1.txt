@@ -1,0 +1,492 @@
+TITLE: Blockchain Compliance and Stablecoin Payments with Pele Brenegard (Nota Bene) [Castle Island Podcast]
+URL: 
+VIDEO_ID: OTB_-_Pelle_Notabene_2_-_AUDIO_V1
+
+TRANSCRIPT:
+Today on the podcast, I sat down with Pele Brenegard, the co-founder and CEO of Nota Bene.
+Nota Bene is a leading compliance software company that enables companies transacting
+on blockchains to comply with the travel rule and other know-your-customer obligations.
+They're also big players in the stablecoin category, and they've launched a new product
+called Flow, which is simplifying payments and compliance for stablecoins. I think you'll
+enjoy this one. So without further ado, here is my conversation with Pele at Nota Bene.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these expressed by them
+or the guests on this podcast are solely their opinions and do not reflect the opinions of
+Castle Island Ventures. Guests and hosts may maintain positions in the assets discussed
+on this podcast. You should not treat any opinion expressed by anyone on this podcast
+as a specific inducement to make a particular investment or follow a particular strategy,
+but only as an expression of their personal opinion. This podcast is for informational
+purposes only. Brought down by bad mortgage investments, Lehman, which has 25,000 employees,
+will be liquidated. The federal government loans American international group, AIG,
+$85 billion. This is a different kind of market and the Fed is asleep. The federal government
+is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage giants that have been
+threatened by the housing crisis. The Bank of England has pumped 75 billion pounds more into
+Britain's ailing economy with a new round of quantitative easing. You print a couple trillion
+dollars and all of a sudden people start to worry. So out of this worry, we have something
+called the Bitcoin Bitcoin. Pele, well, thanks so much for coming back on the show. It's been a
+while since you were on. Yeah. And a lot's happened since then. It must be four years or something.
+That's unbelievable. Well, we've been involved with Nota Bene for a very long time and happy
+enough to be on your board of directors, which has been a lot of fun. Maybe just as a good way
+to start for folks that didn't listen to the first episode, give us a little bit of background on you
+and the company. So I've been involved with crypto payments and identity for a very long time
+and was always really keen to get crypto into the everyday economy and solve a lot of the issues
+that I know a lot of other people in the industry are also keen to doing. Prior to founding Nota
+Bene, we built a lot of the core technology behind decentralized identity at YouPort,
+including a lot of the basics like decentralized identifiers, verifiable credentials that's now
+embedded in seemingly even Apple products, Swiss identity, European identity, a whole bunch of
+different areas around the world now. It's just core tech. The reason we founded Nota Bene was
+when the first hints at regulatory clarity came in 2019, Fadaf released their guidance or the first
+draft guidance of essentially a roadmap for regulatory clarity. And for those who don't know,
+Fadaf is the financial action task force. And what they do is they set recommendations for
+global regulators. And sometimes regulators take them up on it. Sometimes they implement it eagerly.
+But the interesting thing is, this particular guidelines was actually set in place by Trump
+during the first reign, whatever the term is. The first administration, yeah. Where Vincent,
+under his instructions, basically set in place this movement with Fadaf that they wanted regulatory
+clarity globally, because the US actually at that point was the place with most regulatory clarity.
+And that set things in motion that also led us to found Nota Bene. Because one of the requirements
+there was that crypto companies and stable coins, which was very emergent back then,
+companies are required to implement payment regulation, which is known as the travel rule.
+So we set out, then Alice and I and my other co-founders, to build this. And we said,
+sure, clarity is here. Within a year, it's there. It's great. Fantastic.
+And we started building the network. And we were very clear it was a network that has to be built.
+And these things don't happen overnight. But we were still a little bit too optimistic about
+the regulatory clarity. But it's there now. And it's pretty much global. It took some time. But
+it's giving so many opportunities for companies and for the technology right now. So it's very
+exciting to be part of it. I would venture to say that most normal people have not heard of the
+travel rule and don't know what it is. In fact, I was not as familiar with this until about 2015.
+I remember having a conversation with Jerry Brito at CoinCenter around the need for companies to
+emerge that would help bigger financial institutions comply with the travel rule. So I had a prepared
+mind for when we met and you started talking about the travel rule. So maybe a little bit
+of background on just what that rule is and how to be in compliance with it.
+This is going to sound funny for a CEO who founded a company that helps companies implement the
+travel rule. We really wish travel rule, which has been around for many, many years.
+And traditional payments goes back to being something just a technicality that no one actually
+has to deal with. The reason for that is in traditional payments, there's no such thing as
+a travel rule service provider. It's a technical detail. It's a technical requirement that's
+implemented through SWIFT or through Visa or MasterCard or any of these existing payment
+networks. They all implement the travel rule and then it goes into companies' existing transaction
+monitoring frameworks. So people don't know about it and people think it's this new thing
+for crypto. No, it's something that's been around. I think it's been part of the BSA in the US
+since the 90s and really SWIFT implemented it before then anyway. So the requirements
+just basically said, well, transmit the stuff that's part of a regular payment message.
+Just make sure it's accurate and then transmit that along. And that's really what the travel
+rule does is that it requires, and I can just imagine the collective eyes rolling over when
+they hear what the travel means in it, but it's that the information about the originating
+customer and the beneficiary customer travels along with the payment message. That's what
+it comes from. And starting a company during COVID focused on travel rule, it was definitely
+not great for SEO, but you still managed to do it at that particular point.
+But essentially, the only requirement is that you transmit the same information that is part of
+a regular payment message along with it. And crypto didn't have a good way of doing it.
+There wasn't a messaging layer for it. There's a ledger and ledgers are very different than
+messaging layers. The public ledgers are public and this is private information. So you need a
+messaging layer to do it. And some of the early initiatives were trying to do this in public
+blockchains. And we were coming from decentralized identity and privacy preserving technology. We
+were horrified by this. And we said, no, this is going to be so bad. We have to keep pushing.
+We need a swift messaging layer, or it would be really bad for the whole industry.
+I remember some of those early days, you had people that were actually posting on the Bitcoin
+forums and you can read them still. You can go on the Linux pages of the Bitcoin forums and you can
+read these various, hey, we should upgrade Bitcoin to enable travel rule compliance. You had other
+companies that were maybe looking at the op return and just putting personal information in
+the op return. Some of these early implementations were pretty scary. Curious what you thought of
+those and then maybe talk a little bit more about how you guys implemented it.
+I was always horrified by the idea of putting PII on blockchains. I'm still horrified by a lot of
+the initiatives that are coming out right now that people are doing with soulbound tokens and
+ENS names because this is all you exposing PII and tying it to an immutable transaction letter.
+People are just constantly doxing each other and themselves because they don't realize that's
+actually what's happening. What we do is we implement a messaging layer and it's all built
+really behind the scenes using decentralized identity technology.
+For an institution like a crypto exchange or a bank, we help them create a decentralized identity
+and we help them send messages between each other. So that's something that we built first
+as an in-house temporary solution while we were waiting for surely the industry will build an open
+messaging system for this. And it didn't happen. And then Fadaf kept saying, can you help push
+something? And we said, we don't want to go in and implement the public standard. But in the end,
+we had to. So what we do now is we've rolled out a new open public domain messaging protocol.
+It's public domain like the internet, it's public domain like Ethereum or Bitcoin,
+is that it's implemented through improvement proposals. And this solves this way where
+institutions or individuals can go in and send messages around crypto transactions before they
+happen. It's definitely something that most people would interact with this only in the context of
+their crypto exchange or their custodian. They would maybe be getting asked some questions and
+some click throughs, but is it fair to say it's an implementation that the vast, the centralized
+companies are really tasked with? It is. And that's been a struggle for a lot of institutions. And
+we've really been there helping them through this process because it's difficult if you're a crypto
+exchange and you were founded maybe in 2016 or 17, something like that, you had a very simple
+withdrawal mechanism where someone enters a wallet address and maybe you added white listing to it.
+Now you have to essentially ask for the same information that you ask for on a wire transfer
+form. So you have to ask, who are you sending it to? And it's a complicated thing for people to
+start implementing both from a technical and product side, but also from a compliance,
+what do I not do with this information? So typically it's something that the institutions
+do, but it also does provide that information and that step that if it's implemented correctly,
+end users do need to be part of the situation. And one of the reasons I think this is actually
+good is because you shouldn't want a company to transmit stuff that you don't know is happening.
+You should be brought into that situation if you are the end customer. And you can also use it to
+make sure that you're sending the money to the right address. I've been involved with
+Bitcoin since 2010 and early financial crypto projects since the 90s. So I am fully aware of
+what happens when you sign a transaction and it still scares me entering the Bitcoin address.
+I know what's happening. I'm perfectly capable of managing my keys and all of that. I try to avoid
+doing it as much as possible because copying and pasting a blockchain address, a Bitcoin address,
+it's scary. Yeah. It's a white-knuckle experience. Just look at the Bybit incident. There's a lot of
+things that could go wrong. It's so scary. I try to avoid it as much as possible. And travel rule
+actually allows product people to go in and build better, safer products where end users can skip
+that part of it and ensure that the funds are going where they're supposed to go to. Because
+that's actually the reason for the travel rule. It's there to be able to ensure that you're sending
+money to the right place. And honestly, that's great. That's great UX that you can do that.
+But people sometimes try to hide it away behind our users aren't used to it. But it's a benefit.
+It's a superpower for customers. It's also a superpower for institutions because it gives
+them a lot of capabilities that they aren't able to do without the travel rule.
+It's interesting. And it's a little bit of a scary rule in a lot of ways, because if you don't comply
+with this, you could actually go to jail in certain countries. I mean, under the Bank Secrecy Act in
+the US, chief compliance officers and companies have what's called strict liability, I believe
+is the term for some of these violations. So an interesting product to sell probably,
+because it's not a question of, am I going to be in compliance? It's just, how will I be in compliance?
+Also, frankly, it's imperfect right now, because most of the world is implementing it right now.
+And we're seeing the compliance rates really, really go up, which is better for everyone,
+because it makes it easier for the end users to verify that different actions going to the
+right place and easier for compliance officers to do that as well. But it is scary in the beginning.
+But it leads us to a whole bunch of new opportunities for the industry.
+And that's something that we're very focused on. And actually something that the whole reason we
+did this was we decided five years ago, we wanted to build Swift for crypto. And now that's been
+implemented. We have 250 plus institutions with compliance teams that have operationalized this
+built into the product. They're doing real-time authorization. They build trusted networks. They
+perform due diligence on each other. It's integrated in backends, whether they're trading firms,
+whether they're retail. And that is amazing. I mean, it's just really amazing to see the
+enthusiasm, the way people have implemented. And yes, the rules, and as you said, there's
+a reason why people are implementing, but people are actually starting to see the benefits of this
+now. And we started to hear that a lot more from customers who came in from traditional payments
+or traditional finance to say, oh, finally, we can actually do this now because we can actually
+implement payments using the travel rule rather than having to KYC our customers' counterparts,
+which is what you have to do without the travel rule. So it becomes, again, a super power for the
+companies. When we initially invested in Notabene in the seed round, a lot of the action around
+payments was using Bitcoin and Ethereum, but you're starting to see stable coins pop onto the scene.
+And I would say these days, in my mind, that is the killer use case for payments. It's just the
+stable coin. So you guys were really early to seeing that. Maybe talk a little bit about the
+new product that you're launching and how stable coins factors into building this Swift-like system
+for the cryptocurrency ecosystem. So this is something that, Alizan, we've been so excited.
+It's been part of our plan for the last five years. We were waiting for stable coin to get
+the adoption that it has. And I think the final exciting step was Genius Act in the US. Of course,
+there's still more to come in the US. But globally, it's interesting. The first administration of
+Trump's push to fadaf has really created regulatory clarity almost everywhere in the world
+already. So whether it's from the UK, EU, Switzerland, Singapore, Hong Kong, Korea,
+most places, they have really good guidelines now for companies to do it. And we've seen
+already a lot of companies there who are processing significant payment transaction volume that they
+just wouldn't have been able to do in the past. But it's very exciting to see. I said we were
+founded to create Swift for crypto. So now we've realized with stable coins, with the ecosystem,
+with all the fantastic infrastructure providers that are there, we actually can do one better.
+We can now actually build the better Swift. And no, I did not say the better Swift just for stable
+coins. I'm saying the better Swift. And stable coins is part of what makes it better. And everyone
+agrees that stable coins solve so many issues with correspondent banking. But it still needs
+this additional layer to be able to operationalize it.
+And that's really what we've launched here Monday at our second annual summit in New York.
+We launched Notavena Flow, which is a new payment product that sits on top of our existing
+Notavena network. And we've been working with a lot of great design partners who, in many cases,
+are existing customers and partners such as Bitso, who've been a longtime customer and are
+leaders in stable coins in Mexico and Brazil, for example, and Orbital, and also custody players
+like Zodia and wallet providers like Defense. It's been great to get everyone together to talk
+about how do we make this work? Because it's not something a single company can do. You have to
+make sure the economics works, compliance works, the trust works, the different workflows work.
+Just like all of this was built for Swift over actually probably hundreds of years.
+And then every decade or so, there was a new optimization that happened.
+And we've been trying to do all of this over the summer, get all of these companies involved,
+and get them going and integrated. And people are so enthusiastic. They immediately see the
+benefit of this. So what Notavena Flow is, is very different from other stable coin
+payment networks that you might have heard of or stable coin-focused blockchains as well.
+It's a B2B-focused payment network. So when I say B2B-focused, it's designed to be able to
+request payment of an invoice, for example, and have the payment come in and be immediately
+reconciled. So it's designed using all of these trust mechanisms and real-time authorization tools
+that companies are already using at scale globally, taking them in and essentially creating
+this payment network to just basically take the underlying stablecoin movement and operationalize
+it within businesses at scale. And this brings a ton of opportunities because this is where I say
+we're going after the Swift market. We're going after this $120 trillion B2B Swift market.
+And it's available for us because we can do things like tie payments into the workflow
+way better than Swift can because we offer pull payments. That's a unique thing that no one's
+really been able to solve before crypto or stablecoins. There's been some experiments
+trying to get it working with smart contracts, but they're not really going to work at scale
+because you need to create something that works across blockchains, across stablecoins,
+handle fiat conversion, Forex conversion, all of these different aspects of it,
+app permissioning, risk management, fraud management, all of these things have to happen.
+And that's where we built this network that allows companies that are already doing all
+of these different parts, giving them the opportunity and possibilities to then authorize
+a transaction in real time. And these pull transactions can then be tied directly into
+business workflows. What's really appealing about it to me is that if you think about it through
+the context of an exchange, of a VASP, even a business that's trying to meet payroll,
+the reconciliation challenges here are just enormous when you think about the different
+blockchains that transmit stablecoins, spinning up new wallet addresses, the risks that you've
+fat fingered something and send stablecoins into a black hole. So it seems like this is solving not
+only a compliance challenge, but an operational challenge of just sending a payment. Is that a
+fair way to think about it? Yeah, absolutely. And not just for the businesses providing the
+payment services, but for the corporates or businesses using this. It's a massive issue.
+I know from our head of finance, our VP of finance, who's amazing. And he's been one of
+our big internal design partners as we work through this, because we have customers all
+over the world. We have this issue. We send invoices out. We have to trace them. People
+are always asking, can we pay with stablecoins? And we have done it a little bit in the past,
+but it's very, very difficult to tie these transactions into our accounts receivables flow.
+It would be great if we could also perform payments with it, but it's also difficult
+to tie stablecoin transactions into account payable flow. So all of these business
+reconciliations, it's a giant headache. And honestly, SWIFT doesn't necessarily do it
+particularly well, but at least SWIFT Masters has context. And that context is essentially the
+travel rule information, which is the goo. And then it has a memo field. I think it's an 80
+character memo field, which provides context. And that's all you could fit in an old Telex
+back in the day. So that's all you have. And it's funny seeing several of the new
+stablecoin blockchains. They are saying, oh, we'll have a memo field. And I'm like,
+first of all, that better be encrypted. Secondly, a single data field is not enough.
+So we actually, for the first time, allow companies to embed a full invoice using
+the global standard for e-invoice, which is UBL. That can be embedded directly within the payment
+request. So the business who's receiving it, they can forward directly to the accounts payable
+department. It can be handled by them, authorized by them. Then when it gets paid, it ties directly
+to the accounts receivable. So everything gets automatically reconciled. This is why pull
+payments are so powerful. Visa and MasterCard, they do a great job at this. This is why everyone
+says credit cards are expensive and the interchange fee is expensive. But you know what? For a merchant,
+it solves a massive issue. It solves that reconciliation issue. It solves being tied
+directly into the fulfillment process. And if we can do that for larger scale transactions,
+transactions that may not be economical to do using Visa or MasterCard rails,
+that is a great market for the industry to go for. And that's actually how I think we can
+really go for this large market. It's such an interesting market structure right now,
+because I think about you guys as sitting a level or two up the stack from the underlying
+blockchains that are transmitting these stable coins. And then of course, you have the issuers
+that are coming in. And I think you're going to see a lot more issuers come into this market now
+with the Genius Act passing in the United States and just clear regulatory frameworks.
+But it feels very Balkanized both on the blockchain level with these new L1s launching
+that are just doing stable coins and also at the issuer level. So how are you seeing that
+unfolding in terms of just the cast of characters that are issuing these stable coins and the
+underlying databases that are transmitting the stable coins? I think it's great that there are
+a lot of new stable coins coming and we see a lot more in the US. But we also seeing a lot globally.
+And actually having that is going to be fantastic. It's going to give a lot of diversity
+to the market. I was at Stripe's New York tour the other day where they launched their open
+issuance platform, which was fantastic. They also made the point that having this duopoly,
+a circle and tether is bad for industry and people are scared to just rely on either of these two.
+So having some more diversity in there is going to be great. There are still issues there. But
+one of the largest issues I see is liquidity for smaller stable coins. But that's one thing that
+Stripe's been working on as part of this framework, that there's always going to be direct
+one-to-one liquidity between all of the stable coins as part of the open issuance. So that's
+a way of doing it. And I'm sure we'll see many other interesting ways of handling it.
+And when it comes to the layer ones that are stable coin focus, it may initially seem silly
+if you come from a crypto background. Why can't you just use Ethereum or Solana? And they're not
+actually the first, by the way. There's the Gnosis chain, which uses a DAI as its underlying fee
+mechanism as well. And the fee mechanism is really one of the important parts of it.
+Because we've heard for a long time that companies can't pay gas in ETH. They want to pay it in
+dollars. I'm sure people can figure that out eventually. And it wouldn't necessarily be that
+easy. But it's certainly easier that you could do it in a stable coin. So we'll see how that plays
+out. On the performance side, that's also fine. But I'm not 100% bought into. Solana is pretty
+performant. And there are ways for them to localize and optimize payments for
+optimized transactions for payment purposes as well. So I don't know. But let's see. It's
+an interesting market. I'm all for free markets and all for competition. So it's great to see the
+diversity. Yeah, I think you're just going to see different categories emerge. I struggle to see a
+world where any of the existing stable coins that exist today could actually satisfy the need to
+settle an overnight repo transaction that is denominated in the billions of dollars between
+banks. So I think you'll also just see new categories of stable coins that pop up. And
+some are more focused on B2B use cases. Some might be just industrial scale, huge money movement
+overnight transactions between banks or things like that. I would say one issue that I am seeing
+is on a lot of the business who are involved with the space. They're already really struggling with
+their own pre-funding requirements. And one of the promises of stable coin is that there's no
+more correspondent banking. Yet the irony is that, unfortunately, many of these absolutely
+incredible companies who've been able to just really execute and just build fantastic stable
+coin infrastructure, they ironically had to build their own closed correspondent banking networks
+because that's how they have to do to connect a fiat connection. Every fiat connection requires
+essentially a correspondent banking account for them with serious amounts of pre-funding.
+And that's a very, very big issue. It's very expensive to manage all of that,
+not just the pre-funding part, but the technical integrations and legal requirements.
+And what we actually hear from them is that they've seen this advent of stable coins,
+many, many stable coins and many, many blockchains. There's not necessarily a legal agreement,
+a bilateral agreement that they have to do to do that, but they still have the additional
+technical integration and pre-funding. So some of them are quite worried about that.
+But one thing that we are trying to do with Flow, we build it in a way to actually solve
+a lot of these issues that they have. And all of them take this as the largest issues that they
+face. So these operational burdens of having bilateral agreements and pre-funding. So with
+Notabene Flow, we've built it in a way that they can just focus on their particular market.
+So if they want to own a fiat component, they can do so, but they can focus on maybe their locality,
+just where they are, rather than having to build these agreements around the world.
+Because the Flow network automatically handles that. So that at least eliminates some of the
+pre-funding part of it. But ultimately, I think the market will probably handle the rest of this.
+But it was interesting to hear that from our partners that they are actually seeing
+all of these new blockchains as the equivalent of pre-funding that they have to do for liquidity
+purposes. Yeah, you bring up pre-funding. It's very interesting because part of the reason why
+credit cards are so appealing is because you can have deferred settlement. There's effectively
+credit in the system. Do you think that folks will come along and try to do something in the
+stablecoin space? Maybe inject credit into a network like this and allow for people to have
+a deferred settlement? There's no reason why they couldn't do that. Essentially, what we do is we
+just build this messaging system. A merchant sends a payment request to their customer. It then is
+settled through their customer's wallet provider or bank. And how that funds get to the other side,
+we help them negotiate the settlement of the stablecoin. And maybe there's a potential
+liquidity step in there. But there's no reason why we couldn't have a credit aspect of that as well.
+No reason at all. So there's no reason for this somewhat artificial separation or historical
+separation of credit and debit cards. Today, we can actually handle that. It's something that
+someone can just start offering companies within a network or start doing themselves.
+That is probably the accelerant, at least for payments in the US market, where credit cards
+are such a dominant payment device. You see really the growth of stablecoins in my mind.
+The first phase here is just people outside the US that want to store their wealth in dollars has
+been driving a lot of this. But to actually get that deferred settlement, I think would be huge.
+Maybe we could talk a little bit about just how you guys have thought about crafting the financial
+incentives to be a member of this network and to actually participate. Because I think there's
+some very obvious cost savings opportunities on the reconciliation front. Obviously, you're in
+compliance with the travel rule, which is a big win. But how do you see this evolving in terms of
+just the revenue opportunities for some of the folks that are in the network?
+It's a great question and something we've been thinking a lot about. Our initial idea for this
+was to let's make sure all the participants in the transaction flow are fully incentivized through
+the network and through the messaging to it. And then after talking with a lot of our design
+partners, we had a very convoluted idea first of this would be the fairest way of doing it.
+And then the equivalent of the acquiring bank, so the PSP or VASP who starts the payment transaction,
+they said, well, we already have a business model. Don't mess with our business model.
+We're quite happy with what we're doing. So we said, oh, okay, that simplifies things a little
+bit. And then we're realizing if someone needs to do a forex step like a liquidity provider,
+they already have a business model. Wallet providers, they already have business models.
+What we've actually ended up with is somewhat of a variant of the interchange fee,
+the much maligned interchange fee. Even though it's maligned by a lot of people,
+it actually provides a lot of value. This is what's allowed companies like RAM and
+many other very innovative companies start building incredible businesses.
+So we've essentially built a model. It's not as large of an interchange fee,
+but we built a fair model around that where essentially the equivalent of the card issuers,
+which could be crypto wallet providers, exchanges, they can start earning revenue
+because they are number one, they KYC their customers, they make sure that this is a good
+safe customer and they can verify the identity to the merchant. That's a real value.
+Also, they're keeping the funds safe. So they've earned that part similar to that interchange fee,
+but it's going to be a lot more transparent. What the actual pricing settles up to, we're still
+working on, but we're getting there and companies really like it because it protects the existing
+business model, provides some additional revenue, eliminates, again, these complex bilateral
+agreements that everyone hates and that you have to do if you're working with a partner.
+Even at Sablecoins, you're working with a partner who's doing fiat. On the other side,
+now you have to do commercial negotiation. This just provides transparency all along,
+and it's a win for end customers, for the business customers, but also to the businesses within it.
+It provides, I think, also a lot of opportunity for new innovation in the space.
+There's this great book written by Dee Hawk, the founder of Visa. It's called One from Many,
+and it just talks about some of the pain points and just what was breaking with this balkanization
+of credit cards in the early days and the banks having these issues, compliance requirements,
+the merchants all being upset. Then Visa came about almost as this attempt to fix this.
+Originally, it was a consortium and obviously then turned into an operating business, but
+is it oversimplifying to say that this feels a lot like that, where you have this balkanized
+liquidity landscape in stablecoins, you have all these cast of characters that need to engage,
+and you guys are following a similar network playbook here?
+Absolutely. We've been trying to build something that actually makes sense for the businesses who
+are involved, who are actually doing the money movement, keeping funds safe. That's also really
+what Dee discovered. It's a very interesting book. I love it. Actually, I have a favorite quote for
+it where Dee discovered, I believe it was when they were doing... They had a two-week design
+session where they really built the Visa network as it is today. They designed all the processes
+in Sausalito. And the first thing that they realized is the primary function of the card was
+to identify the buyer to seller and seller to buyer. And you brought that up and that's really
+the function of the travel rule. And that's what we've been doing over the last five years.
+When I read that a couple of years ago, I was like, we're along the right path here.
+This is basically what we're doing on this.
+It's a unique book. Even the way it's written, it's a little strange. It has this inner monologue
+throughout the book, but a lot of the same pain points, I think, that exist. And I guess building
+these new payment systems is always complicated, but when you're starting by just solving acute
+pain points, it seems to have been how Visa was able to be so successful.
+You can't come in as a massive player. And Bank of America came in initially as this massive
+player. They said, here's Visa. You just do what we say. And the member banks were not having it.
+And that's also what we're seeing in some of the other initiatives that are happening with
+10,000 pound gorillas and certain markets who are trying to... This is what you do.
+And that's not what you do. If you actually want to build a real network, you need an open loop
+network. And we can argue whether Visa is fully open loop, but they essentially built a great
+de facto open loop network because they were able to really bring people into the governance,
+build agreement on it, and build something that worked for everyone. And that's also what we're
+trying to do here. I'm an old school crypto guy. For me, the open loop is part of crypto.
+It's incredibly important. And you see a lot of companies in the space who are trying to
+build closed networks. And people who come from the industry who should know better are building
+these closed loop networks. And it's very frustrating to me that, okay, now you've achieved
+a certain market power and now let's just close it in. And I'm like, that's not what you build
+your business on. You build your business on an open loop network. And everyone's seeing what's
+happening and no one wants to be part of these closed loop networks. So that's really one of
+our strengths is that we built everything we do around open loop. And obviously, as a business,
+we have limitations where we can do business, but we build it on top of open protocols that anyone
+can be a part of. And at a core, we build the tools to allow companies to manage their own
+risk appetite. Because that's also, I think, a misunderstanding that a lot of crypto libertarians,
+and I am such a crypto libertarian, but a lot of crypto libertarians make the mistake that
+you should be able to transact with whoever you want to transact with. Absolutely true.
+You should also be able to not transact with the people that you don't want to transact with.
+That's also a foundational right of the libertarian argument, but people forget that part of it. And
+we provide people the tools to be able to decide who they want to transact with, who they don't
+want to transact with. That's equally important because otherwise we are essentially in communism.
+And I don't think that's actually what we want. No, that's not what we want. But it's a great
+point. I guess history of financial services would lead you to the conclusion, I think,
+that open networks always win, despite the fact that closed networks are always attempted,
+might be the way I would phrase that. And you see a little bit of that in the crypto ecosystem
+now where you have custodians looking at the tokenized security market and almost wanting
+to displace the DTC and, hey, everything will be custodied at my bank. It's impossible for me to
+imagine that working, just as it would be impossible to imagine a stablecoin issuer owning the network
+and just creating the industry standard on top of their own stablecoin. But I do think we'll
+probably see attempts like that. I'm curious if you agree that it'll be messy here for a while
+before the open system wins. Absolutely. I mean, we've seen it just in the crypto travel rule
+space. And I will not mention names. Anyone who knows what's happening, know exactly who I'm
+talking about. But there's been definitely clear attempts of creating closed-loop networks where
+large players wanted to essentially build a network to control and manage their position.
+And you see now the large players build competing networks to be able to protect themselves against
+their largest competitor's network. And then there have been a few attempts at creating
+public domain open protocols, and none of them have really quite worked.
+And then we've been trying to build an open network, but build a tooling to allow people
+to actually implement this because the open-loop network requires a special set of tooling. And we
+saw that with the internet as well. And I used to run my own email service. I did it for a long time
+until I just gave up and said, okay, Google here, I'm with you. It's fine on that point.
+But it is something that we're still going to see happening. And I think on the travel
+rule part of it, it's mostly settled now that open networks work. And we have significant
+transaction volume. I think we have much more transaction volume, I believe, than the closed
+networks unless you count inter-entity volume between the sponsor institution of said closed
+network. So I think open works. But there will always be these attempts, always be attempts at
+building these closed networks. The temptation is so strong. Oh, yeah, we're going to use a
+market position. We're going to control it. We're going to set the price. We're going to
+prioritize our stablecoin, etc., etc. And people see what it is. And sometimes people want to join,
+just do I have to join? But everyone knows about it and knows what's happening. And they
+know the risk of that, which is also why it's been a very different sales process bringing
+design partners on than in the early days of trying to sell travel rule. People 100%
+want to be part of this and see the value of it.
+This next question is probably outside of the bounds of what you're building now with Nota Bene,
+but you're someone that was involved in the cypherpunk movement. You were crypto before
+blockchains were around. You're in the weeds here. And obviously, Uport was a pretty
+revolutionary concept. If you think about the promise of owning your own data, owning your own
+identity in some of what the world will probably look like in 20 to 30 years around not being a
+contributor to social networks that just monetize your eyeballs and being able to port your social
+graph from service to service and really the consumer being in power with his or her digital
+identity. Where are we in that journey? And curious just around the general blockchain identity
+space, what you're excited about right now. It's a tricky area because I always had
+great hopes for a lot of the possibilities of this technology, but it's a really difficult
+thing to sell to end users and really for it to work. According to the ideals that everyone has,
+you have to sell it to the end users. Business users will be there. That's not the problem,
+but you have to sell it to the end users. And it's been a very, very tricky thing to do.
+And unfortunately, it may be that governments have to push it. And I'm not necessarily a fan
+of that either because I think people need to own their identity. But there's so many
+missed opportunities that have been here. And I think a lot of it is also this idea that,
+oh, we need one identity. But the reality is there's no such thing as one identity.
+We all have many different identities out there. There's work identity. There's a lot of people
+in crypto have multiple Twitter identities or X identities. And there's so many different
+identities in your everyday. Do you really want them all in a centralized profile that maybe you
+control, maybe you don't? Also libertarian ideal that I control all interactions, all data I have.
+But the reality is most of the data you have is related to interactions you have with others.
+So now do you also control their versions of that data? So it starts becoming very tricky.
+And most people are not really looking at that. Blockchains provide some interesting ways of
+doing it where you can prove certain parts of it. But I think it's going to be a while before we see
+a system. And I don't actually think we necessarily want a system. It's quite interesting to see.
+I live in Switzerland and Switzerland has been several votes to the country to approve digital
+identity over the years. And most of them have failed. It actually was just passed a week ago.
+And I was interested to see that the reason why it passed was the past versions were centralized
+identities built on old fashioned open ID technology. But the one that actually passed
+is now based on decentralized identities, like the same identifiers that we built at DuPort.
+I haven't looked into that technology. But okay, that's kind of cool that for government purposes,
+that's also a great thing in Switzerland. They are going to be very, very clear because it's
+really probably one of the most libertarian countries in the world. It's going to be used
+for just specific purposes like government purposes and not for getting a bank account or
+anything like that. So that's great to see. I will say one thing that does worry me constantly is
+the idea that CK starts or CK proofs is the solution. And I think we need to look at these
+as they're just technologies. But in most cases, the reason why identity is important is that you
+want to correlate a person to an activity. And that's true whether it's an identity between
+you and Nick. For example, you're correlating your relationship, being partners and working together.
+It wouldn't work if you couldn't correlate your day-to-day interaction. You need that correlation
+part of it. So the idea of building a non-correlatable identity system, it removes
+the overall point of identity because the point of identity is not to prove that you're not in a
+sanctions list. That's not actually the point. And that's not the point of KYC either. The point of
+KYC is that someone needs to be able to correlate you with your transactions so they can make
+decisions on it. So if you're now building a non-correlatable identity, it doesn't quite work.
+Unfortunately, I see a lot of super smart people fall into the trap that this technology is so
+cool and we can solve everything with it. But then I tend to point out the idea. And I've
+actually seen companies that say, oh, we're CKKYC. And I'm like, you do know the CK negates the second
+K. And people don't quite realize it. And it's sad because it's very cool technology. It's very,
+very cool technology. It has tons of applications, including applications to tie permissioning
+applications. But it's not identity. Provisioning is different than identity.
+And I think there are great applications for it. And once we learn to use it for that,
+I think it's going to be a lot better. And I think once we learn to use it, CK rollups
+is already used at scale. That's a fantastic use case for it.
+Totally. Well, that was a super thoughtful answer. And it'll be really interesting to
+look at how this evolves. Obviously, some of the social networks in the blockchain space are making
+some attempts here. So good place to keep an eye on. Pele, this has been great. Super excited
+about what you're doing with Notabene and Flow, the new product. Where can we send folks to learn
+more? Just go to our website, notabene.id slash flow. You can learn about our great new product
+as well. We have a fantastic white paper that goes into the details of why this is needed and what
+we're doing. Awesome. Well, thanks so much for coming back on. We'll do it again soon.
+Thanks a lot, Matt. Take care. Thanks for listening to another episode of On the Brink with Castle
+Island. To learn more about Castle Island, visit castleisland.vc. And to listen to all of our podcast
+episodes, please visit castleisland.vc slash podcast, or just click on the tab on our website.
+Thanks for listening.

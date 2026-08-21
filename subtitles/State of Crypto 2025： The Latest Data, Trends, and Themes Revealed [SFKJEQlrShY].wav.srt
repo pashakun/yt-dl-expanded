@@ -1,0 +1,2800 @@
+1
+00:00:00,000 --> 00:00:13,000
+ Crypto sure does feel exactly like a 17 year old, right, like just nearing the end of adolescence, starting to step into adulthood, being taken seriously by the other adults in the room, but still plenty of growing up left to do.
+
+2
+00:00:13,000 --> 00:00:22,640
+ Every bank I've ever spoken with wants to talk about stablecoins, every financial institution, and then small companies, merchants, they feel totally inevitable now to the mainstream.
+
+3
+00:00:22,640 --> 00:00:30,900
+ Bitcoin specifically now, it's a top 10 asset in the world. Crypto certainly has become a meaningful part of the modern economy today.
+
+4
+00:00:30,900 --> 00:00:39,880
+ People say people don't care about privacy, whatever. No, of course they care about privacy. People take it for granted. That's what they mean by don't care. But they have expectations.
+
+5
+00:00:51,720 --> 00:01:01,720
+ Welcome to Web 3 with A16Z. I'm your host, Robert Hackett. Today we're taking you behind the scenes of A16Z Crypto's 2025 state of crypto report.
+
+6
+00:01:01,720 --> 00:01:13,720
+ Each year, this report takes stock of where the industry stands, cutting through the noise to capture a snapshot of crypto's evolution across markets, technology, policy, culture, and more.
+
+7
+00:01:13,720 --> 00:01:28,720
+ Now, in its fourth edition, the state of crypto report reflects how this once fringe technology has recently hit all-time highs and gone mainstream, from stablecoins and tokenized assets to rapid recent adoption by major financial firms.
+
+8
+00:01:28,720 --> 00:01:43,720
+ In this episode, we'll dig into the findings and themes from this year's report with some of its authors, including lead author Darren Matzwoka, A16Z Crypto's head of data and funds strategy, and Eddie Lazarin, A16Z Crypto's chief technology officer.
+
+9
+00:01:43,720 --> 00:01:57,720
+ We'll also talk about what's changed since last year, where crypto stands in its stages of development, why stablecoins are suddenly taking over, and how institutions, from fintechs to legacy banks, are embracing the technology.
+
+10
+00:01:57,720 --> 00:02:06,720
+ We'll also look ahead at trends like privacy and tokenization, and what the next phase of crypto's adulthood might look like.
+
+11
+00:02:06,720 --> 00:02:13,720
+ You can find the report in this episode's show notes and at A16Z Crypto dot com slash state of crypto 2025.
+
+12
+00:02:13,720 --> 00:02:19,720
+ Also, be sure to check out our new state of crypto data dashboard, which you can also find on our site.
+
+13
+00:02:19,720 --> 00:02:39,720
+ As always, none of the following should be taken as investment, business, legal, or tax advice. Please see A16Z dot com slash disclosures for more important information, including a link to a list of our investments.
+
+14
+00:02:39,720 --> 00:02:50,720
+ All right, so before we even get into the findings of this year's report, I want to take a step back and ask, "What is the state of crypto report? Why do we do it each year?"
+
+15
+00:02:50,720 --> 00:03:08,720
+ With so much happening, with so much noise, with so much at the technical level, infrastructural level, so much just beneath the surface, I think it is incredibly helpful if someone goes in and sweeps it all together, and just takes a snapshot that allows you to place yourself in the history of the unfolding
+
+16
+00:03:08,720 --> 00:03:19,720
+ of some new kind of technologies, and that's why we do it. A16Z's role is to bring the periphery to the mainstream, the periphery of technology, of course.
+
+17
+00:03:19,720 --> 00:03:40,720
+ And crypto is, although it is mainstreaming in very notable ways, which is a theme of the report, it still remains on the periphery, because it's inscrutability, it's infrastructure, heaviness, the subculture of its people, you know, things make it hard to understand.
+
+18
+00:03:40,720 --> 00:03:49,720
+ And so the report is our attempt to try to crystallize a moment in time every year or so and share it with everyone.
+
+19
+00:03:49,720 --> 00:03:54,720
+ It's like take the unevenly distributed future and distribute it more evenly.
+
+20
+00:03:54,720 --> 00:04:04,720
+ It's also our fourth year doing the report, which sort of gives us a cool lens to kind of see how things have changed and evolved over the years since we started doing this.
+
+21
+00:04:04,720 --> 00:04:15,720
+ And that's also something that we'd like to look at year over year to see what are the trends that are emerging and what is falling off and everything in between.
+
+22
+00:04:15,720 --> 00:04:23,720
+ Yeah, I always have a lot of fun looking at past editions. It's always pretty interesting to see how things have shifted and changed, because there are lots of changes that happen.
+
+23
+00:04:23,720 --> 00:04:33,720
+ Oh, yeah, there's many things unexpected in some way, sometimes unexpectedly prophetic, in other ways, a little goofy. There is goofiness.
+
+24
+00:04:33,720 --> 00:04:39,720
+ But hopefully this report, as you said, it will do our signature move, which is to separate the signal from the noise.
+
+25
+00:04:39,720 --> 00:04:44,720
+ And with that, I think let's dive in. Let's talk about this year's report.
+
+26
+00:04:44,720 --> 00:04:58,720
+ What in your view changed this year compared to last year? I think the surprising thing is that on essentially every front, essentially every front crypto is mainstreaming.
+
+27
+00:04:58,720 --> 00:05:04,720
+ The numbers are becoming clearer, more specific, larger, faster in every dimension.
+
+28
+00:05:04,720 --> 00:05:20,720
+ We talked a lot last year about stablecoins finding product market fit. Well, that has kind of been one of the big themes of 2025, and people have obviously been talking about stablecoins, but I think everyone agrees they are now in a completely different place.
+
+29
+00:05:20,720 --> 00:05:27,720
+ They feel totally inevitable now to the mainstream. We were saying they were inevitable a year ago, and that they had hit product market fit.
+
+30
+00:05:27,720 --> 00:05:42,720
+ Now, I think I've heard the cable news talking about stablecoins. I see headlines about stablecoins. Every bank I've ever spoken with wants to talk about stablecoins, every financial institution, and then small companies, merchants, everybody's talking about them.
+
+31
+00:05:42,720 --> 00:05:56,720
+ There was a great headline, by the way, it was like, there's a new cryptocurrency called stablecoin. Here's what you should know, which is unreal. That's when you really know you made it when the boomers trip over themselves trying to understand you, right? But that's just one example.
+
+32
+00:05:56,720 --> 00:06:06,720
+ You know, ZK proofs have accelerated. Privacy has reached a surprising early stage of some indications of product market fit, not in the same way as stablecoins.
+
+33
+00:06:06,720 --> 00:06:15,720
+ Interesting stuff with X402, AI payments, the agentic economy, as some people say, that's still very nascent in my mind.
+
+34
+00:06:15,720 --> 00:06:27,720
+ But if you take each of these fronts, they're all plugging into different critical aspects of crypto and advancing, and you can see just unmistakable signs of progress and mainstreaming across the entire industry.
+
+35
+00:06:27,720 --> 00:06:39,720
+ That to me is, it's almost like a perfect storm, right? You look down at a hurricane from the sky, right? From way up there, it looks a lot different than when you're in the middle of it or just beside it, right?
+
+36
+00:06:39,720 --> 00:06:50,720
+ It's kind of hard to see the shape, maybe somewhat menacing. But if you see it from orbit, you see the structure, you see the order, you see the accumulation of structure in the thing.
+
+37
+00:06:50,720 --> 00:07:07,720
+ And that's how you know that it's real. That's what makes it a discrete object, like our industry is reaching that point where all the sort of forces are coalescing and connecting together along with the rest of the economy in a way that, to me, underscores its inevitability and its realness.
+
+38
+00:07:07,720 --> 00:07:20,720
+ I think that's a really apt analogy, too. This is an industry that has hurricane force winds, and even when it appears to be nice and pleasant and tranquil, and you're just sort of, you know, things are steady.
+
+39
+00:07:20,720 --> 00:07:28,720
+ You mean when you're off line, Robert? Yeah, when you're off line, usually means it's the eye of the storm, and it's just a brief reprieve until the madness begins again.
+
+40
+00:07:28,720 --> 00:07:43,720
+ Yeah. Another way I like to think about this is I use this kind of silly analogy with crypto as a 17-year-old, right? So the Bitcoin white paper was released in October 2008, actually, which means the industry is now 17 years old, right?
+
+41
+00:07:43,720 --> 00:07:58,720
+ And crypto sure does feel exactly like a 17-year-old, right? Like just nearing the end of adolescence, you know, starting to step into adulthood, you know, being taken seriously by the other adults in the room, but still plenty of growing up left to do, right?
+
+42
+00:07:58,720 --> 00:08:05,720
+ It's kind of right on the cusp of entering adulthood and really kind of stepping into the world.
+
+43
+00:08:05,720 --> 00:08:13,720
+ I think that's right. Yeah. So crypto is moving from its adolescence into its adulthood. Maybe it's early adulthood, but it's adulthood.
+
+44
+00:08:13,720 --> 00:08:23,720
+ Early adulthood. Yeah. None of the less. 17 years old. Yeah. That's right. Soon to be joining the workforce, putting its talents to use for many large financial institutions, for sure.
+
+45
+00:08:23,720 --> 00:08:34,720
+ Yeah. Yeah. So let's talk about the big picture cycle that we like to look at the way the market evolves in this sort of cyclical way.
+
+46
+00:08:34,720 --> 00:08:44,720
+ It undergoes various waves. It has had different periods that have defined those waves that have characterized them based on what was popular at that time.
+
+47
+00:08:44,720 --> 00:08:52,720
+ Where are we now in that cycle? Looking at a price graph is always a scary thing, right? Because you can start to project all types of fantasies onto it.
+
+48
+00:08:52,720 --> 00:08:57,720
+ It's like worse than far worse than tea leaves. You know, I could hear an argument from almost any direction.
+
+49
+00:08:57,720 --> 00:09:06,720
+ I don't think we're in the depths, right? I don't think we're in crypto winter. That's pretty clear because we did hit a new all time high this year with market cap exceeding $4 trillion.
+
+50
+00:09:06,720 --> 00:09:13,720
+ $4 trillion is a lie. So I feel confident in saying that. It also doesn't feel like we're exactly in a frenzy, though.
+
+51
+00:09:13,720 --> 00:09:19,720
+ I think that that's pretty clear. I haven't been getting questions from Uber drivers and stuff like that, right?
+
+52
+00:09:19,720 --> 00:09:27,720
+ I think which a lot of us know that feeling when the normies are all of a sudden curious again. I haven't quite been getting that.
+
+53
+00:09:27,720 --> 00:09:39,720
+ But at the same time, I've been getting other really interesting, strong signals like the financial institution interest where we're hearing concrete, interesting plans from all types of companies who want to integrate specific,
+
+54
+00:09:39,720 --> 00:09:52,720
+ which that sounds like, "Oh, why is that like a speculative thing?" Because in prior cycles, in prior cycles, the corporates got really interested around the peak because of the price action, because of the retail frenzy.
+
+55
+00:09:52,720 --> 00:10:02,720
+ And I'll admit there was something very insincere about it to me. I just kind of didn't buy it. In retrospect, a lot of them did bail when things got a little bit dark.
+
+56
+00:10:02,720 --> 00:10:09,720
+ And that happens. But this time, it doesn't feel like that. This time, it feels like they're actually building real tech that is going to last.
+
+57
+00:10:09,720 --> 00:10:18,720
+ In many cases, not in every case, real tech doesn't always pan out, right? Not every product pans out, but it feels like something they want to follow through.
+
+58
+00:10:18,720 --> 00:10:23,720
+ So that's something that gives me a little bit of a hype cycle vibe, but maybe it's a little bit different.
+
+59
+00:10:23,720 --> 00:10:34,720
+ The regulatory climate has changed radically since last year. That's probably the single, starkest qualitative difference between this year and last year,
+
+60
+00:10:34,720 --> 00:10:45,720
+ is that the regulatory condition has totally inverted. It has gone from near worst case scenario, really bad, to outright jubilee practically.
+
+61
+00:10:45,720 --> 00:10:52,720
+ Yeah, it was not that long ago that you had senators talking about an anti-crypto army as a way to fire up their base.
+
+62
+00:10:52,720 --> 00:10:55,720
+ Right, exactly. And now it's like the exact opposite.
+
+63
+00:10:55,720 --> 00:11:05,720
+ We have sincere bipartisan laws being passed and laws being debated that are mature, serious, and plan for the future, right?
+
+64
+00:11:05,720 --> 00:11:11,720
+ Real serious laws that are trying to structure the industry for long-term success. It's definitely a positive, exciting time.
+
+65
+00:11:11,720 --> 00:11:22,720
+ Well, maybe let me add a contrasting somewhat negative point, which is that it isn't really the case that I see far more crypto developers now than I did in prior years.
+
+66
+00:11:22,720 --> 00:11:29,720
+ I don't think that crypto developers are swarming at an all-time high. I think a lot of them have left to AI.
+
+67
+00:11:29,720 --> 00:11:34,720
+ We have pulled them from other industries in certain cases, so it's a little bit of a wash.
+
+68
+00:11:34,720 --> 00:11:44,720
+ But if we were in the peak of crypto summer, and if it was just a totally ultra-optimistic period, then I think we would be seeing a lot more there.
+
+69
+00:11:44,720 --> 00:11:56,720
+ Right, so the point is there are some signals that indicate that we're not at the exact most outrageously hot, you know, a supercharged time.
+
+70
+00:11:56,720 --> 00:12:07,720
+ But the fundamentals, as I hope the report shows, is maturity and strength in all the most interesting, all the most substantial areas in crypto.
+
+71
+00:12:07,720 --> 00:12:15,720
+ What's very weird about this is we've often talked about this price innovation cycle. You know, the prices go up, and that causes developers to get involved.
+
+72
+00:12:15,720 --> 00:12:26,720
+ That causes new products to get released, and then it sort of kicks off this flywheel, this positive feedback loop of more people getting interested and excited, and the actual tech getting better.
+
+73
+00:12:26,720 --> 00:12:36,720
+ We've seen prices go up, as you mentioned. We went above a $4 trillion total market cap for crypto, which is like on par with the GDP of Japan.
+
+74
+00:12:36,720 --> 00:12:40,720
+ It's come down a little bit since then. Who knows where it'll be by the time this publishes.
+
+75
+00:12:40,720 --> 00:12:47,720
+ But at the same time that we've had these prices increase, the developers have not kept pace, and this is what you were getting at, Eddie.
+
+76
+00:12:47,720 --> 00:12:55,720
+ We're not seeing this same kind of feedback loop as we've seen in previous cycles. At least the data's not showing that.
+
+77
+00:12:55,720 --> 00:13:06,720
+ Yeah, I think this is a really important point to double click into, because it gets at really everything that we do and all of the expertise that we develop from our experience,
+
+78
+00:13:06,720 --> 00:13:15,720
+ and seeding with these entrepreneurs and developers, analyzing and evaluating the kind of whole innovation aspect of the crypto space, right?
+
+79
+00:13:15,720 --> 00:13:23,720
+ Like, not considering kind of the macro price view, but just looking at developers, and as you mentioned, Robert, this price innovation cycle,
+
+80
+00:13:23,720 --> 00:13:33,720
+ we've always believed and invested on the thesis that there is this strong feedback loop between prices, developers, and then ultimately users.
+
+81
+00:13:33,720 --> 00:13:42,720
+ And throughout crypto's history, we've seen this repeat itself, right? Like with the ICO boom, and then the DeFi Summer, and then the NFT surge.
+
+82
+00:13:42,720 --> 00:13:54,720
+ All of these things really kind of generated interest. It increased the prices, and as a result, developers saw the opportunity to come in and build new products that attracted new users, right?
+
+83
+00:13:54,720 --> 00:14:04,720
+ And we've seen this cycle repeat itself throughout crypto's history. I'd say the last sort of uptick in prices that we saw were more so,
+
+84
+00:14:04,720 --> 00:14:12,720
+ if you just look at the kind of external events that happened around those times, it was things like the Bitcoin and Ethereum ETFs that launched.
+
+85
+00:14:12,720 --> 00:14:23,720
+ It was things like the meme coin mania that we saw that brought in new users. But to me, and clearly to developers as well, these things just weren't that interesting to build on, right?
+
+86
+00:14:23,720 --> 00:14:31,720
+ Like, what can you do as a developer to develop a new kind of innovative product or offering with the ETFs?
+
+87
+00:14:31,720 --> 00:14:44,720
+ And by the way, caveat on the ETFs, we're calling them ETFs very casually. They are ETPs, exchange rate products, which indicates that the underlying portfolios are not securities.
+
+88
+00:14:44,720 --> 00:14:51,720
+ I think all of that just kind of speaks to the fact that, you know, we saw a run up in price that was more so driven by these external factors, right?
+
+89
+00:14:51,720 --> 00:15:00,720
+ Not the traditional developer driven bull market like we've seen historically. Now, with all of that said, I actually think we're extremely well positioned right now.
+
+90
+00:15:00,720 --> 00:15:09,720
+ For the next developer driven bull market. And the reason is because we have the stable coin trend that is now bringing in a new type of builder that we've never seen before.
+
+91
+00:15:09,720 --> 00:15:20,720
+ Whether it's from kind of more traditional finance backgrounds or fintechs or whatever. I think there's a huge reason to believe that stable coins is going to draw more developers in.
+
+92
+00:15:20,720 --> 00:15:34,720
+ We also have pending market structure legislation in the US right now, which, you know, by design is meant to kind of attract the next wave of developers in the United States provide kind of the clear rules of the road,
+
+93
+00:15:34,720 --> 00:15:39,720
+ which hopefully should lead to an inflow of talent. And so, yeah, I think we're really well positioned.
+
+94
+00:15:39,720 --> 00:15:45,720
+ Yeah, I feel like feeling really strongly like I have been excoriated in public for being a little critical of meme coins, right?
+
+95
+00:15:45,720 --> 00:15:59,720
+ If I could risk that again, I'd say that, you know, from the perspective of the average entrepreneurial person or developer, meme coins don't present a lot of opportunity except maybe a coin flip to make a bunch of money, right?
+
+96
+00:15:59,720 --> 00:16:14,720
+ Maybe maybe making a launchpad could be interesting. Maybe, you know, I don't know, but in any case, it's, it just is evidently true that that's not something that most entrepreneurs, even most crypto curious entrepreneurs see and say, like, no,
+
+97
+00:16:14,720 --> 00:16:23,720
+ this is this is the future of a technology that I can bet my career on that will last the test of time, right? That's just it just doesn't have those properties.
+
+98
+00:16:23,720 --> 00:16:38,720
+ Whereas I think, you know, stable coins do network tokens if we get like the clarity act do a lot of the interesting ways of trying to create new decentralized marketplaces using some of the tech like we mentioned in the report.
+
+99
+00:16:38,720 --> 00:16:48,720
+ Those things have those potential properties, but those things hadn't had the same type of attention as a result of the price innovation cycle that maybe other things did.
+
+100
+00:16:48,720 --> 00:16:59,720
+ Right. Whereas the ETPs and meme coins and so on did so the cycle got a little bit dislocated. I think there are these exogenous factors and also it may be implicit in what we're saying.
+
+101
+00:16:59,720 --> 00:17:08,720
+ The space has pluralized, right? There are now actually multiple different areas. There's people who I've talked to, which surprise genuinely surprises me.
+
+102
+00:17:08,720 --> 00:17:19,720
+ People who are like experts in stable coin payment flows and exactly how they relate with, you know, payment processors and KYC requirements and these types of things.
+
+103
+00:17:19,720 --> 00:17:25,720
+ And they don't know a damn thing about like what's happening in meme coin launchpad world.
+
+104
+00:17:25,720 --> 00:17:29,720
+ To what extent is AI attracting or drawing people away from crypto?
+
+105
+00:17:29,720 --> 00:17:35,720
+ Look, it's true. Like AI is really exciting. It's really attractive. There's huge opportunity, huge investment.
+
+106
+00:17:35,720 --> 00:17:41,720
+ I think it's a greater obviously our firm is very focused on AI as an exciting productive area.
+
+107
+00:17:41,720 --> 00:17:50,720
+ And I think it's natural and makes sense that a lot of people would be attracted to it, especially when they compare their opportunities in AI with opportunities in crypto.
+
+108
+00:17:50,720 --> 00:17:56,720
+ If they weren't a meme coin person, they're probably more attracted to AI at the peak of AI.
+
+109
+00:17:56,720 --> 00:18:07,720
+ At the same time, if you're a crypto person who doesn't care so much about the hype cycle, the hype and its popularity among certain tech circles or others,
+
+110
+00:18:07,720 --> 00:18:21,720
+ then you also know that this time, the time when the regulatory is at its zenith, when the interest by other startups is maybe somewhat lower,
+
+111
+00:18:21,720 --> 00:18:25,720
+ then you know that that's actually the exact best time to do it.
+
+112
+00:18:25,720 --> 00:18:37,720
+ So I'm not worried because having been investing with our funds for a while now, like I just know that when something is a little bit uncool, that's kind of when it's at its best.
+
+113
+00:18:37,720 --> 00:18:46,720
+ So yeah, AI has taken some attention. At the same time, and you'll see in our slides, basically an equal portion, an equal number of people came from other industries to crypto.
+
+114
+00:18:46,720 --> 00:18:53,720
+ So perhaps reflecting the shift in focus, the shift in interesting thematic areas in crypto.
+
+115
+00:18:53,720 --> 00:19:05,720
+ Yeah, I think the historical context is also important here. I think a lot of people actually don't remember this, but the time between the FTX collapse and the launch of chat GPT was like less than less than a month, right?
+
+116
+00:19:05,720 --> 00:19:11,720
+ And if you think about this dark period, Darren, we've omitted this from history books.
+
+117
+00:19:11,720 --> 00:19:15,720
+ But if you think about what that meant for, you know, a smart kid coming out of college, right?
+
+118
+00:19:15,720 --> 00:19:25,720
+ You see the FTX collapse, and as a result of that, the entire crypto industry was under a full-blown regulatory attack.
+
+119
+00:19:25,720 --> 00:19:30,720
+ And at the same time, there's this exciting new technology that has emerged.
+
+120
+00:19:30,720 --> 00:19:38,720
+ Like, it's a pretty obvious choice, right? Even as people who are in the crypto industry, like it made a lot of sense at the time to do that.
+
+121
+00:19:38,720 --> 00:19:42,720
+ And, you know, that's why we get the question all the time, how much talent have we lost to AI?
+
+122
+00:19:42,720 --> 00:19:47,720
+ And I think it's definitely hard to assess the quality of talent just by looking at some of the numbers we have.
+
+123
+00:19:47,720 --> 00:19:52,720
+ But I think, yeah, we did lose some talent to AI, certainly.
+
+124
+00:19:52,720 --> 00:19:55,720
+ But now things are changing.
+
+125
+00:19:55,720 --> 00:20:05,720
+ Now we have a much better regulatory environment that is encouraging people to come back to crypto or people who are coming out of school to build in crypto.
+
+126
+00:20:05,720 --> 00:20:13,720
+ And, you know, even better to do that in the United States, it's fully kind of now supported by the regulators, which is a very positive signal.
+
+127
+00:20:13,720 --> 00:20:22,720
+ And then also, you know, we talk about this a lot in our report as well, is there are very clear opportunities at the intersection of crypto and AI now, right?
+
+128
+00:20:22,720 --> 00:20:36,720
+ There's lots of, you know, ideas on how crypto can solve some of AI's most pressing challenges.
+
+129
+00:20:36,720 --> 00:20:42,720
+ And so, you know, we're seeing a growing number of people and startups interested in kind of the intersection of what I think are the two most important technology trends, you know, probably of our lifetime.
+
+130
+00:20:42,720 --> 00:20:59,720
+ And I haven't seen this analysis done before, so I think it's really interesting that since the launch of CHAT-TPT, like you said in November 2022, there's been about 1000 net crypto jobs gained from other industries and 1000 net crypto jobs lost to AI startups.
+
+131
+00:20:59,720 --> 00:21:01,720
+ So it kind of nets out.
+
+132
+00:21:01,720 --> 00:21:12,720
+ I think people who don't look at the data might think that crypto has lost more to AI than it has gained from elsewhere. It's interesting to see that it's been kind of even.
+
+133
+00:21:12,720 --> 00:21:18,720
+ Yeah, which like in the grand scheme of things, given how cool AI is, that's a win to me. It's a huge trend.
+
+134
+00:21:18,720 --> 00:21:26,720
+ But let's finish talking about the market dynamics, the sizing it up, who's using crypto, what they're using, how many people are using it.
+
+135
+00:21:26,720 --> 00:21:29,720
+ Let's talk hard numbers around these things.
+
+136
+00:21:29,720 --> 00:21:35,720
+ One, you sort of talked about it, $4 trillion in market cap, you know, we've hit all time highs this year.
+
+137
+00:21:35,720 --> 00:21:38,720
+ And so that's, you know, one way to measure it.
+
+138
+00:21:38,720 --> 00:21:48,720
+ If you look at Bitcoin specifically now, it's a top 10 asset in the world, and all of the top 10 assets are either US tech companies or global commodities.
+
+139
+00:21:48,720 --> 00:21:53,720
+ And so crypto certainly has become a meaningful part of the modern economy today.
+
+140
+00:21:53,720 --> 00:22:02,720
+ You can also look more at kind of the number of people that are using crypto, and we have an updated estimate to our analysis that we put out last year,
+
+141
+00:22:02,720 --> 00:22:11,720
+ which basically says we think there's somewhere between 40 to 70 million unique people using crypto on chain monthly.
+
+142
+00:22:11,720 --> 00:22:17,720
+ And of course, that's a very wide range because it's very difficult to get a precise number there.
+
+143
+00:22:17,720 --> 00:22:28,720
+ But we did sort of construct an analysis bottoms up based on wallet user data, on chain forensics, some discussions with some of our portfolio companies and industry partners.
+
+144
+00:22:28,720 --> 00:22:32,720
+ And we came up with this range of 40 to 70 million.
+
+145
+00:22:32,720 --> 00:22:35,720
+ It's about 10 million more than our estimate last year.
+
+146
+00:22:35,720 --> 00:22:43,720
+ And even that in the context of the broader set of people who just own crypto for purposes of investment or speculation,
+
+147
+00:22:43,720 --> 00:22:52,720
+ it's still just a very small fraction, which presents an opportunity to bring more people on chain from that larger group that owns crypto.
+
+148
+00:22:52,720 --> 00:22:55,720
+ Yeah, and remember, this is transactors, right?
+
+149
+00:22:55,720 --> 00:23:03,720
+ This is people who are actually kicking transactions on chain, individual people, which is the most strenuous, most difficult, you know, highest standard to reach, right?
+
+150
+00:23:03,720 --> 00:23:15,720
+ I think if you ask among your normie contacts, you can validate this ratio, right, that there's many more people who own a little bit on Coinbase or whatever,
+
+151
+00:23:15,720 --> 00:23:23,720
+ versus people who actually withdraw into a wallet, use a smart contract, use DeFi, transact pay for something, whatever.
+
+152
+00:23:23,720 --> 00:23:27,720
+ You'll find, right, in your experience, there's this waterfall, right?
+
+153
+00:23:27,720 --> 00:23:35,720
+ People who just own, people who are kind of frequent engagers, owning, buying and selling, transferring.
+
+154
+00:23:35,720 --> 00:23:41,720
+ People who actually use apps and apps of some type, right, this sort of waterfall.
+
+155
+00:23:41,720 --> 00:23:46,720
+ 40 to 70 million at the sharpest, most difficult point to be in in that funnel.
+
+156
+00:23:46,720 --> 00:23:53,720
+ That's a pretty big number in my mind, because honestly, you know, on our team, like, we're always trying out new stuff and showing each other.
+
+157
+00:23:53,720 --> 00:24:01,720
+ I'm sometimes amazed at how this is a persistent theme for me, how difficult crypto can be to use, how difficult it can be to use safely,
+
+158
+00:24:01,720 --> 00:24:08,720
+ how many cognitive hazards there are in using it and like the things you can, the ways you can make mistakes and whatever.
+
+159
+00:24:08,720 --> 00:24:12,720
+ And it has gotten substantially better, but it still has a long way to go.
+
+160
+00:24:12,720 --> 00:24:16,720
+ You know, $300 trillion into existence by who has been printed 300 trillion back to them.
+
+161
+00:24:16,720 --> 00:24:24,720
+ No, but we shouldn't be not digging anybody. There's mistakes and no harm was done, but it happens to try to buy too.
+
+162
+00:24:24,720 --> 00:24:26,720
+ Yeah, it does exactly.
+
+163
+00:24:26,720 --> 00:24:30,720
+ That is an impressive number to me, right? 40 to 70 million who actually use it.
+
+164
+00:24:30,720 --> 00:24:34,720
+ Now, I should point out that we don't really like break down this 40 to 70.
+
+165
+00:24:34,720 --> 00:24:41,720
+ It would be way too difficult into behavioral cohorts, like segments of like exactly who is doing what and that type of personality.
+
+166
+00:24:41,720 --> 00:24:49,720
+ But I was just at a crypto related kind of meeting yesterday with a bunch of 40 50 really highly informed people
+
+167
+00:24:49,720 --> 00:24:58,720
+ who were primarily focused on South American remittances, South American use, some gentlemen who ran like a Guatemalan bank,
+
+168
+00:24:58,720 --> 00:25:01,720
+ some guys who ran Mexican banks like I was talking with.
+
+169
+00:25:01,720 --> 00:25:05,720
+ They were telling me that something like a third of South Americans interact with crypto.
+
+170
+00:25:05,720 --> 00:25:12,720
+ I think I forget on the frequency. Maybe it was monthly. Maybe it was yearly. But in any case, a huge number.
+
+171
+00:25:12,720 --> 00:25:15,720
+ Maybe indirectly, right? Maybe through using other services, right?
+
+172
+00:25:15,720 --> 00:25:23,720
+ But that is like mind-blowing to me. And that's despite what it candidly is a brutally challenging user experience.
+
+173
+00:25:23,720 --> 00:25:27,720
+ So I see that. I see opportunity, right? People are using it despite its challenges.
+
+174
+00:25:27,720 --> 00:25:36,720
+ And that's a good segue to what I think is one of the more interesting slides in the state of crypto report, which is our sort of geography analysis this year.
+
+175
+00:25:36,720 --> 00:25:44,720
+ We looked at it through two lenses, right? One was mobile wallet usage, which we think is at least a proxy for people that are actually using crypto on chain,
+
+176
+00:25:44,720 --> 00:25:53,720
+ whether it's for buying goods and services, whether it's for remittances or interacting with applications of crypto.
+
+177
+00:25:53,720 --> 00:26:01,720
+ And if you look at the geographic data associated with those indicators of on-chain activity, it's largely coming from developing countries.
+
+178
+00:26:01,720 --> 00:26:14,720
+ Countries like Argentina, Colombia, Pakistan. On the flip side, the other lens that we looked at this through is web traffic associated with the top tokens on on CoinGecko,
+
+179
+00:26:14,720 --> 00:26:23,720
+ which we think is an indicator of interest in sort of trading these tokens that is developed nations, like South Korea, Australia,
+
+180
+00:26:23,720 --> 00:26:40,720
+ which just kind of speaks to the fact that the applications where crypto is needed most today tend to be kind of more geared towards the developing countries where they have unreliable financial infrastructure or economic or political stability.
+
+181
+00:26:40,720 --> 00:26:52,720
+ And I think crypto is serving them well, whereas the developed nations tend to skew more towards trading the tokens in speculation and the other side of crypto maybe.
+
+182
+00:26:52,720 --> 00:26:58,720
+ So two quick things before we move on to the next section. I want to make sure we get to one thing.
+
+183
+00:26:58,720 --> 00:27:04,720
+ There was a notable decline in the number of monthly active addresses this year. Last year, we had 220 million.
+
+184
+00:27:04,720 --> 00:27:18,720
+ This year we have 181 million. That's a pretty notable decline. And in this year, we actually didn't do a comparison as we've done in years past of like monthly active addresses kind of lined up with a chart showing Internet adoption
+
+185
+00:27:18,720 --> 00:27:28,720
+ and kind of showing how these things are playing out at a similar rate. I want to ask about that. Do we know why monthly active addresses might have dipped this year?
+
+186
+00:27:28,720 --> 00:27:41,720
+ We've always been very skeptical of monthly active addresses as sort of any indicator of user activity and its progress, right? We, you know, often will anchor some analysis and assumptions around that.
+
+187
+00:27:41,720 --> 00:27:53,720
+ But we've never sort of led with monthly active addresses as the be all and all for crypto adoption and activity. The short answer is that people can spin up many different addresses.
+
+188
+00:27:53,720 --> 00:28:06,720
+ And there are reasons to do that at times. And, you know, particularly with the crypto industry that has different incentive structures and air drops and farming, like it does become a very gameable metric.
+
+189
+00:28:06,720 --> 00:28:22,720
+ And so we've always treated it with a lot of caution. I will say, and I'd be curious to get Eddie's take here. I think this year, we've seen a little bit less of the air drop farming and kind of that specific type of activity largely because I think people
+
+190
+00:28:22,720 --> 00:28:30,720
+ have caught onto this and they're not, in many cases, just going to blindly air drop to a bunch of addresses. And so I think maybe that subsided a little bit.
+
+191
+00:28:30,720 --> 00:28:40,720
+ I have seen some people, in fact, I've seen even in just the last few weeks, like a little bit of a new meta emerging. I can't wait to follow, which is people saying that air drops are done.
+
+192
+00:28:40,720 --> 00:28:51,720
+ Like air drops are over. They're too farmable. Instead, like whatever. Some alternative. Some people are saying selling tokens. Maybe there's some legal caveats around that.
+
+193
+00:28:51,720 --> 00:29:00,720
+ Some people are saying just partnerships or giving them in partnerships. I saw someone talking about that. Like forget air drop farmers embrace partners, right? Things like that.
+
+194
+00:29:00,720 --> 00:29:06,720
+ So maybe backing up and connecting this with what Dan was saying with your question, Robert.
+
+195
+00:29:06,720 --> 00:29:18,720
+ In prior episodes where we've talked about active addresses and in other podcasts, like where we talked about the air drops and stuff like that, we often talk about the professionalization of air drop farming.
+
+196
+00:29:18,720 --> 00:29:26,720
+ And that's not going to decline. That knowledge won't be lost. The air drop farmers have figured out how to do a great job.
+
+197
+00:29:26,720 --> 00:29:33,720
+ And at the same time, people have figured out how to block or remove or undermine air drop farmers.
+
+198
+00:29:33,720 --> 00:29:43,720
+ In prior years, part of our highlighting active addresses, and we still have the number in here, is because the active addresses is still a kind of a proxy for something.
+
+199
+00:29:43,720 --> 00:29:55,720
+ It's a reflection to some degree of the total capacity of the system. It's a reflection of the interest and willingness of people to even perform anything, whether it's legitimate activity or whether it's farming.
+
+200
+00:29:55,720 --> 00:30:06,720
+ Now that people are becoming a little bit more guarded about air drop farming, we're likely to see that number adjust maybe somewhat closer to something that reflects real usage.
+
+201
+00:30:06,720 --> 00:30:15,720
+ I don't mean one-to-one parity with users and addresses. I use many addresses in my daily use. I mean something that is some kind of a proxy.
+
+202
+00:30:15,720 --> 00:30:24,720
+ Interesting. Okay. So maybe some inklings of a prediction for 2026, beginning to coalesce the meta changing from air drops over to some other new sorts of ways.
+
+203
+00:30:24,720 --> 00:30:43,720
+ Yeah, but as a transaction capacity, as total gas capacity or consensus capacity grows, and the cost of transactions decreases potentially, then the willingness to spin up more addresses for spam goes up because the marginal cost of the spamming declines.
+
+204
+00:30:43,720 --> 00:30:58,720
+ So basically, at the limit, my belief is that the number of active addresses and transactions should converge with the capacity of the system, not only with real use. It's hard to predict.
+
+205
+00:30:58,720 --> 00:31:04,720
+ I'm more willing to bet that the number of monthly active users will go up in a more consistent way.
+
+206
+00:31:04,720 --> 00:31:16,720
+ And it's why we do these estimates, right? Because we recognize that there are flaws in the existing data that's out there, and so we put our heads together, we talk to a bunch of people, we approach it from a lot of different ways, and we try to throw out an estimate
+
+207
+00:31:16,720 --> 00:31:23,720
+ because we think it's useful to know how many people are out there, even if it is a wide range that we're estimating. So that's why we do it.
+
+208
+00:31:23,720 --> 00:31:44,720
+ Another thing I really want to get into is Bitcoin itself. So past year's reports didn't focus so much on Bitcoin, but this year, there is a number of slides on it, in fact, at the very start, because it's been such a big part of the story, the narrative in the crypto industry over the past year.
+
+209
+00:31:44,720 --> 00:31:56,720
+ Over the past three years, Bitcoin has really clawed its way back into being more than 50% of the market share of crypto in aggregate, which is kind of incredible.
+
+210
+00:31:56,720 --> 00:32:04,720
+ And this store of value narrative is really caught on. People are still kind of thinking about how they should regard Bitcoin.
+
+211
+00:32:04,720 --> 00:32:19,720
+ Bitcoin, is it a high risk tech like product? Is it a safe haven kind of thing? Maybe just tell me a little bit about what we're seeing, what we found when it comes to Bitcoin's product market fit.
+
+212
+00:32:19,720 --> 00:32:34,720
+ There's a couple cuts. One is that I don't know that it's the case that the Bitcoin store of value story has caught on as much as I'd say that the need for a store of value has increased.
+
+213
+00:32:34,720 --> 00:32:53,720
+ I like that distinction. I think that that is already a well-accepted story about Bitcoin. The reason I say that, the data point to look at, which we do have a comparison with assets, including gold in the report, if you look at the trend, gold has had a spectacular last two years.
+
+214
+00:32:53,720 --> 00:33:06,720
+ He's not getting a calculator. That I think is an indicator of the same phenomenon. The easiest way to think about it is that now there's gold and there's digital gold. There's track gold and there's new gold.
+
+215
+00:33:06,720 --> 00:33:22,720
+ And Bitcoin has really owned that. And I think it has found a really comfortable sweet spot as this kind of digital gold at a time when people really want gold and evidently, through probably the same motivation, the same impetus, they want Bitcoin.
+
+216
+00:33:22,720 --> 00:33:40,720
+ Another big theme for Bitcoin, which is emerging and interesting, is that there have been a number of attempts to technologize Bitcoin. We've talked a little bit less about Bitcoin in prior years, mostly because Bitcoin from a technological perspective has remained more or less fixed.
+
+217
+00:33:40,720 --> 00:33:51,720
+ It is kind of ossified, as some people say in crypto, where not a lot of changes come. Those changes are infrequent, not huge. They don't really like change the underlying technological characteristics of it.
+
+218
+00:33:51,720 --> 00:33:58,720
+ We actually see that it's attracting a lot of developers. It is like in the top five in numbers.
+
+219
+00:33:58,720 --> 00:34:09,720
+ That is something that has developed a gun to change a little bit for Bitcoin. It never used to be this way. It used to be a very stagnant, don't rock the boat kind of thing with Bitcoin.
+
+220
+00:34:09,720 --> 00:34:13,720
+ But now there seems to be more activity lately focusing on it.
+
+221
+00:34:13,720 --> 00:34:31,720
+ There is. I think that that activity comes from the fact that because the price has done very well, people who have seen the growth and success, which is indisputable of DeFi in Ethereum, in Solana, in the other more smart contract blockchains,
+
+222
+00:34:31,720 --> 00:34:42,720
+ they've seen that success, and they've said, "Look, we have this massive pool of capital, this gigantic commodity asset. How can I make that accessible to DeFi?"
+
+223
+00:34:42,720 --> 00:35:00,720
+ There have been representations of Bitcoin usable in the rest of DeFi, like wrapped Bitcoin and others, but they have set a set of trust assumptions because of the way they work technologically that requires the owner of Bitcoin to maybe compromise on the sovereignty of their holdings.
+
+224
+00:35:00,720 --> 00:35:19,720
+ The theory has been, for a lot of you, I've heard this story many times, the last half of last year, and a couple of times definitely this year here and there, is how can we make Bitcoin without importing new trust assumptions accessible to DeFi because of DeFi's total success?
+
+225
+00:35:19,720 --> 00:35:28,720
+ DeFi has continued to grow. We have slides that allude to that. DeFi is also in a much better regulatory position than it was last year.
+
+226
+00:35:28,720 --> 00:35:40,720
+ Those are serious tailwinds for entrepreneurs who want to unlock the trapped pooled capital over on Bitcoin side, despite its relative lack of programmability.
+
+227
+00:35:40,720 --> 00:36:01,720
+ The store value story plus the DeFi story has led to some people to try to get over that. There have also been some interesting projects. Lightspark has done a great job of innovating on Bitcoin, lightning, and trying to make it genuinely useful for financial institutions that's created a little bit of buzz.
+
+228
+00:36:01,720 --> 00:36:15,720
+ Also, there have been some interesting research projects like BitVM, which a group of people have been collaborating on, trying to find ways to make Bitcoin genuinely programmable without requiring any technological upgrades.
+
+229
+00:36:15,720 --> 00:36:34,720
+ I think it's an area to track. I wouldn't say that it has turned Bitcoin into something that is robustly a tech platform again. It still is in this fixed state, but it's possible that changes. It has made it maybe a little bit more interesting for builders.
+
+230
+00:36:34,720 --> 00:36:52,720
+ I don't think it will surprise anybody that Ethereum, that it sells twos like base, Solana, that these chains have attracted so much interest from builders and developers, but it is kind of interesting that Bitcoin has now gotten into the top five in terms of interest and developer activity.
+
+231
+00:36:52,720 --> 00:37:04,720
+ It's not just a fad. There's real reason for that. The store value stuff that Eddie was talking about, the fact that it doesn't change very often is an interesting property, at the very least as a differentiator.
+
+232
+00:37:04,720 --> 00:37:16,720
+ Exactly. The brand of Bitcoin is unmatched. There is just no other crypto that has the brand and recognition globally that Bitcoin has. There are properties that make this interesting.
+
+233
+00:37:16,720 --> 00:37:30,720
+ They're also facing, because of the way that Bitcoin works, the way that it's public key cryptography works, it also is vulnerable to the eventual development of a quantum computer.
+
+234
+00:37:30,720 --> 00:37:48,720
+ Whenever that happens, maybe in a decade, maybe multiple decades, I don't know, we've got a slide on this, too, where they're actually at this point, 6.7 ish million Bitcoin at risk to this threat to this quantum threat, which is like around $750 billion.
+
+235
+00:37:48,720 --> 00:37:59,720
+ That's a lot. The people in that community are going to face a choice about whether to do something about this or to just sort of, you know, whoever gets the quantum computer gets the Bitcoin.
+
+236
+00:37:59,720 --> 00:38:03,720
+ Or are they going to burn stuff or whatever? I don't know.
+
+237
+00:38:03,720 --> 00:38:12,720
+ It's a complex challenge that I think is worth getting ahead of for sure. The good news is, is we have the tools to be able to transition to a post-quantum world.
+
+238
+00:38:12,720 --> 00:38:23,720
+ We know what needs to be done. The challenge that Bitcoin will have to figure out is, you know, how do you do it? And Bitcoin's community has been resistant to change.
+
+239
+00:38:23,720 --> 00:38:32,720
+ And, you know, this may end up serving as a forcing function to some extent. There are proposals out there for Bitcoin's transition to the post-quantum world.
+
+240
+00:38:32,720 --> 00:38:38,720
+ There are ways to do it. And I think the community will figure it out, although I don't know exactly what the answer will be.
+
+241
+00:38:38,720 --> 00:38:40,720
+ Yeah. Open question.
+
+242
+00:38:40,720 --> 00:38:41,720
+ Yeah.
+
+243
+00:38:41,720 --> 00:38:52,720
+ All right. Let's talk more about adoption. Another big thing that's happened is we've had a new trend of these digital asset treasury companies that are these public companies going out
+
+244
+00:38:52,720 --> 00:39:01,720
+ and snatching up tokens and sort of building up a war chest, a hoard. They're kind of aligning themselves with one chain at a time.
+
+245
+00:39:01,720 --> 00:39:05,720
+ You know, there's like Solana ones, there's ETH ones, there's Bitcoin ones.
+
+246
+00:39:05,720 --> 00:39:14,720
+ So what are the numbers around this? What are the numbers around these digital asset treasury companies, these Dats, and also the uptick in ETPs, ETFs?
+
+247
+00:39:14,720 --> 00:39:25,720
+ It's actually, you know, shocking just how much crypto today is being held in publicly traded vehicles. I think for Bitcoin and Ethereum at least between the ETFs and the Dats.
+
+248
+00:39:25,720 --> 00:39:36,720
+ Now, about 10% of the total token supply is held in publicly traded entities, you know, which I think certainly has had an impact on the market.
+
+249
+00:39:36,720 --> 00:39:42,720
+ I don't know how this will all end, but I think it'll be fun to watch.
+
+250
+00:39:42,720 --> 00:39:48,720
+ But we've fulfilled some social issues. It's fun to watch. I'll say that. I don't know if it'll be fun.
+
+251
+00:39:48,720 --> 00:40:02,720
+ Yeah, I will say I think a lot of things get conflated in the usage of the term debt, right? People often associate it with the sale or ask strategy, which I don't pretend to really understand.
+
+252
+00:40:02,720 --> 00:40:21,720
+ But the issuance of debt to purchase assets and so on. Not my thing, this sort of financial engineering, I don't really totally get it candidly, but they're putting tokens inside of a equity vehicle and making them publicly accessible in some way does create
+
+253
+00:40:21,720 --> 00:40:34,720
+ opportunities to give different types of entities access, like retail and people who want to buy things, but you know, just want to do it through the equity channels because those are easy to access while established.
+
+254
+00:40:34,720 --> 00:40:47,720
+ There might also be types of deals that individual projects that you can make right with another company in like a partnership agreement, like a contractual relationship that you can't make a contract with Bitcoin today.
+
+255
+00:40:47,720 --> 00:41:02,720
+ There's no one to make a business agreement with. There's not really for Ethereum for any and for any truly decentralized or any project that wants to be really decentralized, having a separate entity that is purpose built to make these types of deals
+
+256
+00:41:02,720 --> 00:41:17,720
+ creates a natural counterparty for people who want to make productive agreements in service of the growth of an ecosystem or a token, a token ecosystem. So I think it's a creative type of tool. And I think we haven't really seen all the ways that they will be used.
+
+257
+00:41:17,720 --> 00:41:27,720
+ And I certainly hope it's for more than getting leverage on tokens, but it is definitely a growing phenomenon for sure. So it should be something that we track.
+
+258
+00:41:27,720 --> 00:41:42,720
+ One thing that I think is extremely interesting to note is BlackRock's ETF Bitcoin ETF their ETP product for Bitcoin is the most successful launch of any ETP or ETF product ever.
+
+259
+00:41:42,720 --> 00:41:48,720
+ Like a period ever in the history of these products. Like that is kind of insane.
+
+260
+00:41:48,720 --> 00:42:02,720
+ Yeah, it is. I mean, candidly, a little surprising to me. I mean, I say this with the self-awareness here, but just like, I don't know why you don't just buy the Bitcoin, to be honest, to be honest. But again, evidently I'm wrong.
+
+261
+00:42:02,720 --> 00:42:08,720
+ You're a purist. Yeah, but I'm wrong. And the market is the market has spoken. So I obey.
+
+262
+00:42:08,720 --> 00:42:16,720
+ The market is always right. We've talked a little bit about the market dynamics that are going on, you know, some of the trends that are happening between ETPs and Dats.
+
+263
+00:42:16,720 --> 00:42:30,720
+ I want to talk about institutional adoption, because this really is the thing I think that sets apart this year. It seems like every major financial company, not every single one, but a lot of them.
+
+264
+00:42:30,720 --> 00:42:43,720
+ A lot of them are really getting involved here. Actually, I have PTSD from previous cycles, where, you know, you had these various institutions, like dip in their toe in the water, getting a little interested.
+
+265
+00:42:43,720 --> 00:42:52,720
+ Maybe they're, you know, going to get involved. And then they retreated, pulled back and, you know, yes, things were stalled for years.
+
+266
+00:42:52,720 --> 00:43:03,720
+ But they are embracing it, you know, by every measure, they're launching products. They are getting involved, making acquisitions, striking partnership deals, it's happening.
+
+267
+00:43:03,720 --> 00:43:13,720
+ And I think the big difference between what you were talking about historically and today is that these institutions are no longer just trying to chase the hottest trend.
+
+268
+00:43:13,720 --> 00:43:20,720
+ They actually see the opportunity for crypto to reshape their businesses. And I think that is different than it's ever been.
+
+269
+00:43:20,720 --> 00:43:30,720
+ I think stablecoins are a big reason why that's the case. I think it's very easy for financial institutions to see the stablecoin opportunity and what it could do for their business.
+
+270
+00:43:30,720 --> 00:43:44,720
+ And as a result, we've seen institutions flood in with, you know, real commitments, real product launches, you know, real acquisitions, big IPOs, right, like lots of money at stake here.
+
+271
+00:43:44,720 --> 00:43:47,720
+ And I think it's really, really exciting.
+
+272
+00:43:47,720 --> 00:43:57,720
+ Yeah. I mean, I was around three years ago, Robert. I was around seven years ago. I was even following, like, you know, 10, 11 years ago, like I was following this stuff before I was doing crypto professionally.
+
+273
+00:43:57,720 --> 00:44:04,720
+ I always remember hearing the promises from the institutions and then kind of wincing a little bit and being like, Oh, good.
+
+274
+00:44:04,720 --> 00:44:05,720
+ Okay.
+
+275
+00:44:05,720 --> 00:44:11,720
+ It's even funny to hear you say doing crypto professionally, by the way, just like thinking back to that, like 10 years past.
+
+276
+00:44:11,720 --> 00:44:18,720
+ I think that was a thing that could happen. Yeah. It's a little cringe. I'm even saying that, but because it's so mature in a way now.
+
+277
+00:44:18,720 --> 00:44:24,720
+ But, but the, I remember hearing them say that and not taking it seriously because there were just too many questions.
+
+278
+00:44:24,720 --> 00:44:28,720
+ The legalities were unclear. The business opportunity was unclear.
+
+279
+00:44:28,720 --> 00:44:40,720
+ The infrastructural capability to handle what they wanted was unclear. There was layer after layer after layer of unclear, you know, seven years ago, if like a major retail chain, like chain of retail shops.
+
+280
+00:44:40,720 --> 00:44:45,720
+ I mean, not blockchains, but like tried to accept payments in crypto.
+
+281
+00:44:45,720 --> 00:44:54,720
+ Like the reality was, and this is like the conversations I was having with people is there's just no way to do that in a scalable, affordable way, let alone in a way that had a decent user experience.
+
+282
+00:44:54,720 --> 00:45:03,720
+ The scalability and affordability has been solved. The regulatory is nearly there and the UX has a way to go, but we're running out of excuses.
+
+283
+00:45:03,720 --> 00:45:15,720
+ And now when I talk with some of the people like on the slide we have about some of the largest financial institutions embracing crypto, like this is the type of thing they used to say to me like three years ago, seven years ago.
+
+284
+00:45:15,720 --> 00:45:29,720
+ Yeah, you know, we see all this exciting stuff. You know, the tech is really cool. We want to show that we're, you know, leaders, basically like some innovation lab, not to be critical, very nice people, but like the innovation lab wants to show that the company is not losers.
+
+285
+00:45:29,720 --> 00:45:34,720
+ Right. And then they know cool stuff. That was the problem they were solving. Right.
+
+286
+00:45:34,720 --> 00:45:41,720
+ Now I'm hearing people say, you know, we're cutting costs in this area and we're expanding our line of business in this area.
+
+287
+00:45:41,720 --> 00:45:50,720
+ We're going to offer a whole new bunch of products here. And then in this area, we can just like move way faster while slashing costs, like, and they're being very concrete with me.
+
+288
+00:45:50,720 --> 00:45:54,720
+ That's just not the same conversation. So that's why I feel differently about it.
+
+289
+00:45:54,720 --> 00:46:04,720
+ I would be shocked if five years from now we look back and crypto has not advanced in institutions, whereas if you had asked me seven years from now, if the institutions have been, we'll be using it.
+
+290
+00:46:04,720 --> 00:46:10,720
+ Crypto broadly, I think it would have been like, I think we got some way to go. There's some more cypherpunk stuff you shouldn't look at.
+
+291
+00:46:10,720 --> 00:46:13,720
+ You know, like that's, that's what I would have said, I think so.
+
+292
+00:46:13,720 --> 00:46:23,720
+ The opportunity is massive, right? Because of how much distribution these financial giants have, like, if they are serious about these commitments, if the developments continue, right?
+
+293
+00:46:23,720 --> 00:46:35,720
+ Like, we could see crypto deeply embedded into the financial services that we use every day and we could see crypto, you know, seriously being used by billions of people around the world.
+
+294
+00:46:35,720 --> 00:46:44,720
+ Like that is the size of the opportunity here. And I think, you know, for the first time ever, we've got, got a chance to make that happen with these institutions.
+
+295
+00:46:44,720 --> 00:47:02,720
+ Yeah, I think that's right. I'd love to know which of these companies or who has been most surprising to you getting involved. I mean, if I'm reading the situation, like, casting back to when things were heating up sort of at the end of last year, I feel like the starting gun was stripe acquiring
+
+296
+00:47:02,720 --> 00:47:14,720
+ bridge, which happened pre genius bill passing, pre, you know, they're being to, they're being actual rules of the road for stablecoins in the US. And after the state of crypto report last year, didn't it? And after the state of crypto. Yeah.
+
+297
+00:47:14,720 --> 00:47:22,720
+ And this was after we had gone out there and said that stablecoins have found product market fit, which is kind of cool. We call that one right.
+
+298
+00:47:22,720 --> 00:47:33,720
+ But no, I think stripe was the starting gun because they bought yeah, and I think this got all the other players paying instant attention. They were like, okay, this is this is a real thing we need to start to take seriously.
+
+299
+00:47:33,720 --> 00:47:41,720
+ That's my read on it. I'd love to get with you guys. How do you think this has sort of shaken out among the players and who's been very surprising to you getting involved?
+
+300
+00:47:41,720 --> 00:47:52,720
+ Well, I think stripe, stripe has done more than that since then, right? They have their tempo project, which could be could be interesting, could be Corpo could be crypto and we'll find out, right?
+
+301
+00:47:52,720 --> 00:48:06,720
+ Yes, their own blockchain that they're building. Yeah, they acquired privy, which is a great team working on some wallet infrastructure. So they've continued to advance. I've been continuously impressed by, you know, Robinhood has really leaned into crypto in a hard way, right?
+
+302
+00:48:06,720 --> 00:48:17,720
+ They got their own L2. Yeah, their own L2. They want to tokenize stocks, tokenize equities, bring them on chain, bring them into the app. Super cool plans there.
+
+303
+00:48:17,720 --> 00:48:26,720
+ I've remained impressed by the Revolut team. Super interesting, like bridging plans, integrating with crypto rails plans. That's part of their plan for global domination.
+
+304
+00:48:26,720 --> 00:48:47,720
+ Maybe I'll throw out one to surprise you a little bit, Robert, is that I had a great conversation with some brilliant people at Morgan Stanley not long ago who were shocking to me how thoughtful and specific they were in terms of the types of products that they want to offer to their users.
+
+305
+00:48:47,720 --> 00:48:56,720
+ Not like kind of dip our toes. Yeah, we're going to flirt around with crypto a little bit. Not exactly the opposite of that is what I mean is they specifically saw the opportunity.
+
+306
+00:48:56,720 --> 00:49:11,720
+ They wanted to talk about technical and regulatory challenges in offering that product in a safe and secure way to their users, but they wanted to be as on chain as possible, specifically because they saw opportunities in DeFi opportunities
+
+307
+00:49:11,720 --> 00:49:22,720
+ to offer new types of products, opportunities to help manage their customers' wealth in an ideal way, which is a very interesting kind of cut on it.
+
+308
+00:49:22,720 --> 00:49:39,720
+ Yeah, many of these. BlackRock's Biddle token has been an instrumental building block for a lot of people who want to expand stablecoin issuance and use that as sort of the foundation of their own stablecoin or settlement between categories of stablecoins.
+
+309
+00:49:39,720 --> 00:49:44,720
+ That product is the big kahuna when it comes to tokenized assets so far.
+
+310
+00:49:44,720 --> 00:50:00,720
+ And I will say that does surprise me because when you mention Revolut and Robinhood, it's not terribly surprising that these fintech upstarts are trying to explore this new terrain, but to have a stodgy old legacy incumbent big bank do so.
+
+311
+00:50:00,720 --> 00:50:02,720
+ That is kind of surprising.
+
+312
+00:50:02,720 --> 00:50:03,720
+ That's exactly what I mean.
+
+313
+00:50:03,720 --> 00:50:06,720
+ I just wouldn't have heard a lot from them.
+
+314
+00:50:06,720 --> 00:50:08,720
+ That would have impressed me in prior years.
+
+315
+00:50:08,720 --> 00:50:16,720
+ And remember, you've mentioned Stripe acquiring Bridge as kind of starting all of this, but upstream of that is the stablecoin story.
+
+316
+00:50:16,720 --> 00:50:19,720
+ And even upstream of that is the infrastructure story.
+
+317
+00:50:19,720 --> 00:50:34,720
+ And stablecoins have been around for years now, but it wasn't until recently when we, with years of infrastructure development, improved the underlying blockchains to a point where we could actually make stablecoins a good product for payments.
+
+318
+00:50:34,720 --> 00:50:37,720
+ We could do it in less than a second for less than a cent.
+
+319
+00:50:37,720 --> 00:50:42,720
+ And it was at that moment, I think, that all of the pieces kind of started to come together.
+
+320
+00:50:42,720 --> 00:50:47,720
+ The institutions then really saw the vision, saw the opportunity, and then started to make the bets.
+
+321
+00:50:47,720 --> 00:50:49,720
+ And then they saw other people make the bets.
+
+322
+00:50:49,720 --> 00:50:51,720
+ And now, you know, we're at where we're at.
+
+323
+00:50:51,720 --> 00:50:56,720
+ And I think it's sort of the theme of this year's entire report is that all of the pieces are now coming together.
+
+324
+00:50:56,720 --> 00:50:57,720
+ I like that.
+
+325
+00:50:57,720 --> 00:51:01,720
+ It's also a different cut on the price innovation cycle where it's not number go up.
+
+326
+00:51:01,720 --> 00:51:03,720
+ It's number go down.
+
+327
+00:51:03,720 --> 00:51:10,720
+ Cost go down, stablecoins become usable, and now you unleash this whole wave of like new innovation that's happening.
+
+328
+00:51:10,720 --> 00:51:11,720
+ All right.
+
+329
+00:51:11,720 --> 00:51:17,720
+ So we've been talking a little bit about stablecoins, but let's talk a little bit more specifically about what's going on there.
+
+330
+00:51:17,720 --> 00:51:25,720
+ Over the past year, there's been $46 trillion in stablecoin transaction volume.
+
+331
+00:51:25,720 --> 00:51:27,720
+ Like, I can't even wrap my head around that number.
+
+332
+00:51:27,720 --> 00:51:28,720
+ It's so gigantic.
+
+333
+00:51:28,720 --> 00:51:30,720
+ Like, are those numbers real?
+
+334
+00:51:30,720 --> 00:51:32,720
+ Where is all of this activity coming from?
+
+335
+00:51:32,720 --> 00:51:39,720
+ Well, yeah, I'll let Darren clarify a little bit, but you'll notice there's an unadjusted number and then an adjusted number, right?
+
+336
+00:51:39,720 --> 00:51:57,720
+ So here's one of these nuanced sort of seeming paradoxes that you need to kind of be aware of when you see these things is when it costs less than a penny to move a million, ten million, even a hundred million dollars, then it happens a lot.
+
+337
+00:51:57,720 --> 00:52:03,720
+ Right, because people are rebalancing their internal institutions or rebalancing their portfolios.
+
+338
+00:52:03,720 --> 00:52:06,720
+ Exchanges are recycling through different wallets, right?
+
+339
+00:52:06,720 --> 00:52:09,720
+ All these things happen because they can happen cheaply, right?
+
+340
+00:52:09,720 --> 00:52:21,720
+ Think about if electricity in your house costs like $10,000 per kilowatt hour, you would be incredibly sparing and careful with like every single thing that you do.
+
+341
+00:52:21,720 --> 00:52:27,720
+ If energy costs less than a penny per kilowatt hour, then you don't give a shit at all.
+
+342
+00:52:27,720 --> 00:52:33,720
+ Like, you leave the lights on, you know, like blow dryer ever as long as you want, crank the water heater up.
+
+343
+00:52:33,720 --> 00:52:41,720
+ In other words, the apparently low cost affects these numbers for what may seem like large behaviors to people.
+
+344
+00:52:41,720 --> 00:52:46,720
+ To normal people, and this is reasonable, you wouldn't move around a million dollars willy nilly.
+
+345
+00:52:46,720 --> 00:52:50,720
+ But if it costs you next to nothing, then maybe you actually do.
+
+346
+00:52:50,720 --> 00:53:00,720
+ So, one of the interesting consequences of extremely low gas costs, mature infrastructure, institutional adoption, et cetera, and stable coin proliferation
+
+347
+00:53:00,720 --> 00:53:09,720
+ is that you get huge volume numbers, which may not necessarily reflect meaningful economic activity.
+
+348
+00:53:09,720 --> 00:53:13,720
+ Rebalancing my balance is not real economic activity.
+
+349
+00:53:13,720 --> 00:53:17,720
+ You know, it's like taking your wallet out of your pocket doesn't count as spending.
+
+350
+00:53:17,720 --> 00:53:20,720
+ Whereas actually spending is a different behavior.
+
+351
+00:53:20,720 --> 00:53:31,720
+ This 10 trillion adjusted number is our attempt to filter out many of the most obvious, sort of not economically meaningful transfers
+
+352
+00:53:31,720 --> 00:53:36,720
+ to try to get something a little bit closer to, you know, someone deposited money to an exchange.
+
+353
+00:53:36,720 --> 00:53:38,720
+ You know, that's meaningful.
+
+354
+00:53:38,720 --> 00:53:40,720
+ Someone making a payment, that's meaningful.
+
+355
+00:53:40,720 --> 00:53:49,720
+ Someone depositing into a DeFi protocol to lock it for generating yield or so someone else can lend it, someone borrowing it.
+
+356
+00:53:49,720 --> 00:53:55,720
+ Like those are meaningful uses because it's actually, you know, changing hands or going into a mechanism.
+
+357
+00:53:55,720 --> 00:53:58,720
+ I think we typically like to focus on the adjusted metric.
+
+358
+00:53:58,720 --> 00:54:06,720
+ We reference it multiple times throughout the report because we think it's a better indicator of real genuine user driven activity
+
+359
+00:54:06,720 --> 00:54:10,720
+ and it does filter out those artificially inflationary practices.
+
+360
+00:54:10,720 --> 00:54:15,720
+ And we work with a data provider called Alium to come up with that methodology.
+
+361
+00:54:15,720 --> 00:54:20,720
+ And I think that's maybe the better number to use in most cases.
+
+362
+00:54:20,720 --> 00:54:27,720
+ But still, you know, 10 trillion dollars over the last year, you know, that rivals some of the largest global payment networks
+
+363
+00:54:27,720 --> 00:54:29,720
+ that have been around for decades, right?
+
+364
+00:54:29,720 --> 00:54:38,720
+ Multiple of PayPal's transaction volume right in there with Visa quickly approaching the transaction volume of ACH,
+
+365
+00:54:38,720 --> 00:54:41,720
+ which plums the entire banking system.
+
+366
+00:54:41,720 --> 00:54:49,720
+ So I think very impressive what we've seen in terms of growth in this category in such a short period of time.
+
+367
+00:54:49,720 --> 00:54:51,720
+ Yeah, this number is growing quickly and it's going to keep growing quickly.
+
+368
+00:54:51,720 --> 00:54:56,720
+ So what's happening with stablecoins is because it's programmable on this blockchain,
+
+369
+00:54:56,720 --> 00:54:59,720
+ there's all types of behaviors underneath.
+
+370
+00:54:59,720 --> 00:55:01,720
+ There are genuine payments.
+
+371
+00:55:01,720 --> 00:55:05,720
+ We have some evidence and there have been some interesting reports that show that that is growing.
+
+372
+00:55:05,720 --> 00:55:08,720
+ It's particularly growing in emerging economies.
+
+373
+00:55:08,720 --> 00:55:15,720
+ But there's also things that are, you know, you might say you put $100,000 in a DeFi protocol.
+
+374
+00:55:15,720 --> 00:55:19,720
+ Like, is that the same as spending 100,000 on Visa?
+
+375
+00:55:19,720 --> 00:55:20,720
+ Probably not, right?
+
+376
+00:55:20,720 --> 00:55:23,720
+ Because that 100,000 you spent on Visa is not coming back.
+
+377
+00:55:23,720 --> 00:55:29,720
+ But that 100,000 that you deposited into a DeFi protocol, you could just pull it out the next day freely.
+
+378
+00:55:29,720 --> 00:55:31,720
+ That's how they're designed.
+
+379
+00:55:31,720 --> 00:55:34,720
+ You know, so it is a little bit of an apples to oranges comparison.
+
+380
+00:55:34,720 --> 00:55:42,720
+ But I think you need to appreciate the breadth of the types of activities that are possible just by using stablecoins.
+
+381
+00:55:42,720 --> 00:55:49,720
+ All these types of things are possible behaviors, which is what makes the network so potent, right?
+
+382
+00:55:49,720 --> 00:55:57,720
+ It's so broad in its application, as opposed to other types of networks, which are so specific and narrow in their application.
+
+383
+00:55:57,720 --> 00:56:05,720
+ And to your point about this growing, stablecoin transaction volume continues to increase even when we account for the adjusted numbers.
+
+384
+00:56:05,720 --> 00:56:16,720
+ And that is decoupling from spot crypto trading volume, which would kind of indicate that people are actually using these things for reasons beyond trading or beyond speculation.
+
+385
+00:56:16,720 --> 00:56:22,720
+ For a long time, stablecoins were criticized for only being used to settle speculative crypto trades.
+
+386
+00:56:22,720 --> 00:56:27,720
+ And I think that was the case up until recently when stablecoins found product market fit.
+
+387
+00:56:27,720 --> 00:56:31,720
+ They showed that they had many real organic use cases.
+
+388
+00:56:31,720 --> 00:56:39,720
+ And, you know, since then we've really broken the correlation and we are no longer just going up and down relative to the trading volume.
+
+389
+00:56:39,720 --> 00:56:49,720
+ Tether and circles still dominate, but we're seeing growth of other stablecoins as well. I wonder what you think of that trend, how that'll continue to pan out in the future.
+
+390
+00:56:49,720 --> 00:56:53,720
+ The details there have a lot to do with regulatory conditions.
+
+391
+00:56:53,720 --> 00:57:11,720
+ The passage of the Genius Act after it's had some time to cook and after some of the more specific rules have been settled by regulators will probably open up opportunities for more stablecoin issuers to issue stablecoins and to distribute them through a variety of channels, I'm sure.
+
+392
+00:57:11,720 --> 00:57:27,720
+ You know, Tether and USDC have been popularized by integrations with exchanges in their early days, right? They were primarily used as a means to settle a balance to deposit and withdraw a balance from a crypto exchange.
+
+393
+00:57:27,720 --> 00:57:46,720
+ But we've seen that grow since then. Tether is used globally. We mentioned specifically Ethereum and Tron. I've heard at least anecdotally and seen a little bit of evidence that there's a significant amount of payments being settled in certain countries using Tether on Tron.
+
+394
+00:57:46,720 --> 00:57:57,720
+ There's a lot of data, both anecdotal and quantitative, and you can see a little bit of that in our report. The usage of stablecoins evolves like other technology. It starts for crypto to crypto exchange settlement.
+
+395
+00:57:57,720 --> 00:58:17,720
+ Maybe it goes to developing country payment for certain small, medium businesses, right? Then it becomes for like some DeFi stuff. Then it maybe it becomes for payment stuff as it grows and as the technological properties change like gas fees, like liquidity, like integrations, like bridges all evolve.
+
+396
+00:58:17,720 --> 00:58:27,720
+ The same thing can be reused for another purpose. That's going back to that point I was saying about the transaction volume is like there's a lot of different stuff that makes up that transaction volume.
+
+397
+00:58:27,720 --> 00:58:35,720
+ It's expanding and growing and becoming more complicated, not simpler. So I see it just following the same pattern as everything else.
+
+398
+00:58:35,720 --> 00:58:45,720
+ In the future, we'll probably have more stablecoins. They may be more specialized to specific applications, especially now the regulations are clear and the product market fit is far beyond obvious.
+
+399
+00:58:45,720 --> 00:58:56,720
+ Speaking of expanding and growing, one slide I've got to talk about is this one about the US national debt, which is also expanding and growing at an alarming rate.
+
+400
+00:58:56,720 --> 00:59:09,720
+ Probably that has contributed to the passage of genius. It's crazy. You've got the government scrounging for spare pocket change underneath the couch cushions.
+
+401
+00:59:09,720 --> 00:59:17,720
+ All of a sudden, you discover like these gold bars there, which just happen to be stablecoins, this incredible source of demand for US debt.
+
+402
+00:59:17,720 --> 00:59:37,720
+ You can see in the data that stablecoins now account for there are now a top 20 holder of US treasuries that puts it ahead of Saudi Arabia, South Korea, Israel, Germany, like stablecoins as a category are now holding more US debt than many, many sovereign countries.
+
+403
+00:59:37,720 --> 00:59:40,720
+ Absolutely wild that there is this pent up demand.
+
+404
+00:59:40,720 --> 00:59:44,720
+ I think this is such an important part of the stablecoin story.
+
+405
+00:59:44,720 --> 00:59:53,720
+ On one hand, as you pointed out, we all know the US national debt is growing out of control. We know that the demand for that debt is fading.
+
+406
+00:59:53,720 --> 00:59:59,720
+ For the first time in 30 years, foreign central banks hold more reserves in gold than US treasuries.
+
+407
+00:59:59,720 --> 01:00:03,720
+ This is about everybody's looking for this store of value now.
+
+408
+01:00:03,720 --> 01:00:11,720
+ Exactly. On the other hand, we have now the stablecoin opportunity, which as you pointed out, they are a big source of demand for US debt.
+
+409
+01:00:11,720 --> 01:00:19,720
+ They're holding all of these US treasuries. The category is projected to grow into the trillions of dollars in the next few years.
+
+410
+01:00:19,720 --> 01:00:34,720
+ Yes, Citibank has a really incredible prediction on this, where they say by 2030, they expect it to be growing almost an order of magnitude.
+
+411
+01:00:34,720 --> 01:00:52,720
+ The idea is worth of stablecoins. More than 99% today are denominated in USD. You put those things together, stablecoins are a clear opportunity for the US to sustain dollar dominance in a very uncertain time right now.
+
+412
+01:00:52,720 --> 01:01:00,720
+ Really amazing. Let's talk about privacy. I know you're a big privacy guy, Eddie. You've got a whole privacy stack that you personally use.
+
+413
+01:01:00,720 --> 01:01:14,720
+ Tell us about what's going on in the privacy world. A theme whenever I talk on the pod, I feel like some of my A16 Z neurons that have grown in my brain have a very specific shape.
+
+414
+01:01:14,720 --> 01:01:31,720
+ The shape is that technology develops in this sort of historical way. The best way to predict the future, even though predicting is flawed, is to kind of unfold technology like one layer at a time and try to imagine what happens.
+
+415
+01:01:31,720 --> 01:01:44,720
+ What bottlenecks appear, which second-order consequences occur counterintuitively. That's the way to think about it. Privacy could not be more obvious to me.
+
+416
+01:01:44,720 --> 01:01:55,720
+ It has been for years. I will scream it forever. I don't care if this uptick in privacy is a fad and it goes away. It's going to come back again later. It is inevitable.
+
+417
+01:01:55,720 --> 01:02:12,720
+ The reason no one has cared is because if stuff doesn't work, if no one's using it, you don't need it to be private. At the same time, things being illegible and confusing is often a workable substitute for privacy in the short term.
+
+418
+01:02:12,720 --> 01:02:29,720
+ Crypto has plenty of this illegibility and confusingness. Combine a lack of total mainstream adoption for consumer use cases like payments, which we've been saying may happen, has the signs of happening isn't happening yet.
+
+419
+01:02:29,720 --> 01:02:46,720
+ Consumers don't make their payments with stable coins, but for their to-be payments of stable coins, you need stable coins and you need stable coin adoption and you need institutional acceptance of stable coins and you need transaction fees to be low, etc. All these other things that we've talked about.
+
+420
+01:02:46,720 --> 01:02:59,720
+ Once that becomes the case, people will demand privacy. I know this is like a hotly... This is talked about in crypto all the time. Ad nauseam makes me crazy. People say people don't care about privacy, whatever.
+
+421
+01:02:59,720 --> 01:03:15,720
+ No, of course they care about privacy. They do care about... They won't necessarily articulate it in this way, but if someone comes up and shows you Venmo from 10 years ago, someone shows you all the transactions you've paid and all the comments and it's all out in the wild, people have an adverse reaction.
+
+422
+01:03:15,720 --> 01:03:23,720
+ People take it for granted. That's what they mean by don't care is that they take it for granted. They just assume they have a functional level of privacy.
+
+423
+01:03:23,720 --> 01:03:33,720
+ They don't demand specific cryptography. They don't demand like incredible definitions about the distinction between privacy, anonymity, pseudo-nimity, confidentiality.
+
+424
+01:03:33,720 --> 01:03:37,720
+ They don't do that, but they have expectations.
+
+425
+01:03:37,720 --> 01:03:48,720
+ Once these things become popular tools, blockchains for payments, blockchains for personal finance, blockchains, neobanks, whatever, then people will demand privacy.
+
+426
+01:03:48,720 --> 01:04:01,720
+ And institutions will demand privacy. A very clear theme for me over the last year or so as I've begun to have more conversations and institutions is that they consider privacy a non-negotiable property.
+
+427
+01:04:01,720 --> 01:04:11,720
+ It is a table stakes property they must have. They cannot reveal their behavior to competitors, to the public. They cannot make the public uneasy.
+
+428
+01:04:11,720 --> 01:04:16,720
+ They need to be able to offer this to their customers. They've made it abundantly clear to me.
+
+429
+01:04:16,720 --> 01:04:24,720
+ You might say, "Why don't we have it yet in crypto?" There's two reasons. One is that the ways crypto has been popular so far hasn't really needed it.
+
+430
+01:04:24,720 --> 01:04:33,720
+ If you're just moving a little bit out of an exchange, you're putting it in DeFi, you're just messing around with some meme coins, you're in an emerging economy, you want to hold some dollars.
+
+431
+01:04:33,720 --> 01:04:40,720
+ These don't really demand a profound privacy, and the illegibility of crypto might be good enough for you.
+
+432
+01:04:40,720 --> 01:04:53,720
+ But the minute it starts to get into more private things, salary, payments, personal finance, then people will start to do contrived things to get privacy.
+
+433
+01:04:53,720 --> 01:04:58,720
+ They'll start to make tons of addresses. They'll start to use apps that offer. It's just absolutely going to happen.
+
+434
+01:04:58,720 --> 01:05:12,720
+ The second is that privacy is very difficult technologically and from a compliance perspective. Technologically, we've needed a lot of advancements across different areas in cryptography to try to get closer to privacy.
+
+435
+01:05:12,720 --> 01:05:23,720
+ We've learned a lot of stuff. There's some protocols we allude to in the report. We have some total flows through Railgun. We talk about some cool stuff with Zcash and the Zashi Wallet.
+
+436
+01:05:23,720 --> 01:05:37,720
+ Noir developed by one of our portfolio companies Aztec. These are incredibly complex projects that, even though the products work today, Railgun is live, evidently, it's working.
+
+437
+01:05:37,720 --> 01:05:49,720
+ It has a pretty challenging user experience. Despite this, it is growing. Despite this very challenging user experience that, in my mind, is not yet appropriate for retail. It is still growing.
+
+438
+01:05:49,720 --> 01:05:57,720
+ This is new tech, new cryptography that they have struggled to repurpose for mainstream use.
+
+439
+01:05:57,720 --> 01:06:11,720
+ As crypto starts to become useful in these other domains, where privacy is more important, there will be more demand for the applications of the new types of cryptography that we've developed to make things private.
+
+440
+01:06:11,720 --> 01:06:19,720
+ This is going to happen. Everyone needs to be ready. We have this interesting wave now, and I hope it foretells a growing wave of interest.
+
+441
+01:06:19,720 --> 01:06:35,720
+ I'm just marking a spot on the sand road. Based on what you're saying, and these conversations you're having with institutional players, are we getting ahead of ourselves? Is the adoption running ahead of the technological capabilities that crypto can offer?
+
+442
+01:06:35,720 --> 01:06:51,720
+ It's not that they're running ahead. This is how it works. One head yanks the other as they are racing forward. No one's going to solve the privacy problem until there's a product that you want to launch that needs privacy that isn't going to work without it.
+
+443
+01:06:51,720 --> 01:07:04,720
+ You need to bang your head against the wall and fix that problem. Then vice versa, some products can't take off unless they have privacy built in out the gate and people need to research and push the research ahead to do it.
+
+444
+01:07:04,720 --> 01:07:12,720
+ I don't think that we're getting too far ahead. There are ways to get little cut set privacy and add incrementally more privacy, and there's a lot of people who think about it.
+
+445
+01:07:12,720 --> 01:07:24,720
+ I just see it as a front that's advancing. It's not clear exactly where the bottleneck will be, or if there's one specific bottleneck in that, but I just don't see us in a future without it.
+
+446
+01:07:24,720 --> 01:07:30,720
+ One year from now, Eddie, what percentage of stablecoin transfers do you think would be privacy preserving?
+
+447
+01:07:30,720 --> 01:07:41,720
+ I love it. That's a tough one. That's a tough one. One year from now, less than a percent. Not much. Not because it's not going to work, but because I think people are headed that way.
+
+448
+01:07:41,720 --> 01:07:47,720
+ There's some really cool projects that are doing this. I'm including confidentiality, by the way, like light kinds of privacy.
+
+449
+01:07:47,720 --> 01:08:00,720
+ Basically, just Eddie and his friends. The current stablecoin growth is so strong that the private growth needs to outpace it to exceed more than a percent or ten percent.
+
+450
+01:08:00,720 --> 01:08:08,720
+ I think it's less than a percent, but I think three, four years from now, it's substantial, like double digits. I don't know. I'm probably wrong.
+
+451
+01:08:08,720 --> 01:08:18,720
+ No, that's great. I appreciate your view that necessity is the mother of invention, so it's not that adoption is getting ahead of itself.
+
+452
+01:08:18,720 --> 01:08:24,720
+ It's that it is a prerequisite for these advances to happen. Darren, do you have a prediction on that front?
+
+453
+01:08:24,720 --> 01:08:30,720
+ I'll take the over on Eddie's one-year prediction. I think we could get to more than one percent of stablecoins.
+
+454
+01:08:30,720 --> 01:08:38,720
+ We also have to figure out how to measure it, if it's private. If it's adjusted or unadjusted. Yeah, well, yeah, but we'll see.
+
+455
+01:08:38,720 --> 01:08:51,720
+ Okay, very interesting. That seems like it is the next frontier for people to deal with. Another thing that is quite interesting to see is the tokenization of assets.
+
+456
+01:08:51,720 --> 01:08:59,720
+ We talked about this before. People call them real-world assets. I hate that term because it makes it sound like blockchain assets or fake-world assets.
+
+457
+01:08:59,720 --> 01:09:08,720
+ It's very tantalizing. It's ridiculous. We need to come up with a better terminology here, but for the sake of speaking about it in the way that people do, this RWA trend.
+
+458
+01:09:08,720 --> 01:09:14,720
+ We should just call them big boy assets, Robert. Big boy assets. That's great. But let's talk about this.
+
+459
+01:09:14,720 --> 01:09:25,720
+ There's $30 billion worth of these "real-world assets" now on chain. Obviously, stablecoins are a whole separate kind of kettle of fish.
+
+460
+01:09:25,720 --> 01:09:41,720
+ But if we're talking about these other types of assets, everything from stocks to commodities to debt of all different flavors, there's about $30 billion worth of that on-chain today, and it's growing very rapidly.
+
+461
+01:09:41,720 --> 01:09:57,720
+ In 2020, there was almost nothing to now $30 billion. Rapid, rapid growth in that space. What's going on there? What's driving the growth? Why is this happening? What are the benefits of tokenizing things?
+
+462
+01:09:57,720 --> 01:09:59,720
+ Tell us about this trend.
+
+463
+01:09:59,720 --> 01:10:18,720
+ First of all, I think real-world assets call them that for the purposes of this conversation. I think they're the key to the long-term success of DeFi, because this is the bridge to traditional finance, which, as we know, is many trillions of dollars of size in opportunity.
+
+464
+01:10:18,720 --> 01:10:39,720
+ If we want DeFi to really reach the levels and scale that I think we think it can, I do think we need to bring these real-world assets on-chain, and I think this is pretty critical to the long-term success, which is why it's exciting to see that there are already $30 billion in tokenized assets on-chain.
+
+465
+01:10:39,720 --> 01:10:58,720
+ The growth that we're seeing is obviously something to keep an eye on, but I think it's incredibly early days still here, and there is so much room to grow here, just given the size of traditional assets that can be brought on-chain.
+
+466
+01:10:58,720 --> 01:11:13,720
+ I think the growth that we've seen over the last couple of years benefits from a lot of the institutional adoption that we've seen, I think getting these big institutions on board, like BlackRock, which we talked about, is going to be key to the success here.
+
+467
+01:11:13,720 --> 01:11:20,720
+ You've got Larry Fink out there, the CEO of BlackRock, talking about tokenizing everything. He's preaching the gospel of tokenization.
+
+468
+01:11:20,720 --> 01:11:33,720
+ Yeah, so institutions, and then also, I'd say the regulatory environment is going to play an important role here as well, and I think the favorable conditions that we've seen over the last year, I think are going to work in the favor of this trend.
+
+469
+01:11:33,720 --> 01:11:39,720
+ So something I'm very excited about, maybe crypto's biggest opportunity in front of us right now.
+
+470
+01:11:39,720 --> 01:11:49,720
+ Yeah, I mean, this is a big stack of assets, Robert, and I think, although it's so easy to call them, just kind of bucket them all and call them real-world assets and sort of generalize over them.
+
+471
+01:11:49,720 --> 01:11:53,720
+ I think that the most interesting insights are probably per category.
+
+472
+01:11:53,720 --> 01:12:12,720
+ I'm far from an expert on really any of these, to be honest, but I have heard colloquially that, for example, private credit, which is not a thing that I know a lot about, is just easier to manage in a neutral layer where you can buy it, you can sell it to counter parties, and you don't have to integrate like complicated systems,
+
+473
+01:12:12,720 --> 01:12:22,720
+ or any specific like third party broker, you can just trade it on chain, right? You can send them some stablecoin or pay them out of band, right?
+
+474
+01:12:22,720 --> 01:12:35,720
+ It received the private credit on the blockchain, and it just becomes an easy medium, like literally just an easier medium to transact it, to hold it, to account for it, that type of thing.
+
+475
+01:12:35,720 --> 01:12:38,720
+ That's, I've heard from two private credit people.
+
+476
+01:12:38,720 --> 01:12:44,720
+ And by the way, when we're talking about private credit, private credit accounts for about half of all of these real-world assets.
+
+477
+01:12:44,720 --> 01:12:58,720
+ Yeah, which is amazing to me, I admit it's not a thing I hear a lot about, but it's a thing that when I have heard about it, the explanation is sort of surprisingly simple to me, why they like private credit on chain.
+
+478
+01:12:58,720 --> 01:13:04,720
+ It doesn't mean the off chain is done, but it means that it's something that is at least functionally useful and attractive.
+
+479
+01:13:04,720 --> 01:13:10,720
+ Just to use a really concrete example, you know, one of the assets on here is like Paxos Gold, right?
+
+480
+01:13:10,720 --> 01:13:12,720
+ This is like the Pax G token.
+
+481
+01:13:12,720 --> 01:13:15,720
+ We talked a little bit about gold earlier in the podcast.
+
+482
+01:13:15,720 --> 01:13:23,720
+ Not that long ago, I'm not like bragging about my financial acumen here, Robert, but like a while back I bought a bunch of gold, right?
+
+483
+01:13:23,720 --> 01:13:27,720
+ And I thought about like how I wanted to buy that gold.
+
+484
+01:13:27,720 --> 01:13:33,720
+ I actually looked into buying like gold bullion, like physical bullion, partly because it's hilarious, but also, you know,
+
+485
+01:13:33,720 --> 01:13:37,720
+ maybe it's the best thing, like you can hold some in your backyard.
+
+486
+01:13:37,720 --> 01:13:40,720
+ Yeah, you just hold some gold and like it doesn't have fees, right?
+
+487
+01:13:40,720 --> 01:13:42,720
+ You know, it just sits there and you hold it.
+
+488
+01:13:42,720 --> 01:13:44,720
+ I thought, what's the best way to get access to gold?
+
+489
+01:13:44,720 --> 01:13:48,720
+ And there are some ETF-like products where you can get access to gold.
+
+490
+01:13:48,720 --> 01:13:50,720
+ GLD is like the big one, I think.
+
+491
+01:13:50,720 --> 01:13:52,720
+ Yeah, but you have to pay annualized fees.
+
+492
+01:13:52,720 --> 01:13:54,720
+ That is a real financial innovation.
+
+493
+01:13:54,720 --> 01:13:57,720
+ Take something that you can own and make you pay fees on it.
+
+494
+01:13:57,720 --> 01:14:02,720
+ Yeah, and you don't have to hold it in a specific brokerage and so on, which is not so bad maybe.
+
+495
+01:14:02,720 --> 01:14:09,720
+ But when I looked into it, I genuinely found like the Pax Gold, an attractive way to get gold exposure.
+
+496
+01:14:09,720 --> 01:14:12,720
+ And like honest to God, not just because I'm like a crypto guy.
+
+497
+01:14:12,720 --> 01:14:18,720
+ Like I thought like, wow, actually like the set of trade-offs here and owning the gold through the Pax G token is better for me.
+
+498
+01:14:18,720 --> 01:14:21,720
+ So that's like that's the goal that I have.
+
+499
+01:14:21,720 --> 01:14:27,720
+ Not even for crypto, obviously I'm a little biased if I want to do all the crypto stuff, but like it really is an easy way to do it.
+
+500
+01:14:27,720 --> 01:14:35,720
+ Super easy to sell, super easy to buy, super easy to hold in Coinbase or in self custody if you want, right?
+
+501
+01:14:35,720 --> 01:14:37,720
+ And that's and no fees.
+
+502
+01:14:37,720 --> 01:14:41,720
+ And that set of trade-offs means that it's just generally really simple.
+
+503
+01:14:41,720 --> 01:14:46,720
+ You know, the way I hold my assets, that's just really consistent and easy for me to tack on.
+
+504
+01:14:46,720 --> 01:14:48,720
+ And so that just ended up being a natural choice.
+
+505
+01:14:48,720 --> 01:14:53,720
+ I think if there were other types of assets that had similar financial and technical benefits,
+
+506
+01:14:53,720 --> 01:15:01,720
+ I personally would like to hold them too. And I don't think of myself as like a representative of like a mainstream investor necessarily.
+
+507
+01:15:01,720 --> 01:15:12,720
+ But that is often a sort of tell to me that those benefits are very soon going to be passed on to retail in a way that really makes a large scale difference.
+
+508
+01:15:12,720 --> 01:15:20,720
+ So presumably some of those benefits are like more liquidity, the ability to trade whenever 24/7 lower fees and prices.
+
+509
+01:15:20,720 --> 01:15:25,720
+ 24/7 competitive fees, venue independence, right? You can dispose of it on chain.
+
+510
+01:15:25,720 --> 01:15:28,720
+ You can dispose of it like at a centralized exchange.
+
+511
+01:15:28,720 --> 01:15:30,720
+ Like I think these properties are really attractive.
+
+512
+01:15:30,720 --> 01:15:35,720
+ Is there an area of real world assets that you're most excited about coming on chain?
+
+513
+01:15:35,720 --> 01:15:41,720
+ I think it's very cool and a net plus to bring equities or stocks, you know, company stocks on chain.
+
+514
+01:15:41,720 --> 01:15:45,720
+ It's a really cool idea. I don't think it's a minus for crypto. I think it's a big plus for crypto.
+
+515
+01:15:45,720 --> 01:15:57,720
+ I'll say to a lot of crypto people and I count myself among them, it's maybe like not the most exciting thing because we're trying to create new types of institutions and new types of things to own.
+
+516
+01:15:57,720 --> 01:16:01,720
+ New types of networks, right? Like network tokens like that we've talked a lot about.
+
+517
+01:16:01,720 --> 01:16:03,720
+ That's kind of like the most exciting thing to me.
+
+518
+01:16:03,720 --> 01:16:08,720
+ Tokenizing a company and putting it on chain is maybe only incremental improvement.
+
+519
+01:16:08,720 --> 01:16:16,720
+ But I still think it's exciting in so far as it creates exciting second-order consequences, like stablecoins, right?
+
+520
+01:16:16,720 --> 01:16:23,720
+ Like stablecoin is just dollar on chain. It's not a new asset. It's the old asset, but on a new medium.
+
+521
+01:16:23,720 --> 01:16:29,720
+ And that has profound consequences because of all the profound ways that dollars are used, right?
+
+522
+01:16:29,720 --> 01:16:32,720
+ They're used for payments. They're used to collateral. They're used for settlement.
+
+523
+01:16:32,720 --> 01:16:41,720
+ They're used for all these things. I think for stocks, it could be similar because if people hold a lot of their assets on chain, well, now they're on chain.
+
+524
+01:16:41,720 --> 01:16:46,720
+ And that means now they're interoperable with a lot of other things, which means maybe they're useful in DeFi.
+
+525
+01:16:46,720 --> 01:16:56,720
+ You can go down the whole list of the consequences of an interesting and liquid market asset being in someone's self-custodial crypto wallet.
+
+526
+01:16:56,720 --> 01:17:03,720
+ Those are consequences are very, very interesting, even if we're not exactly inventing a new asset. We're just changing where it's located.
+
+527
+01:17:03,720 --> 01:17:09,720
+ So we've talked a little bit about putting real assets, traditional financial assets on chain.
+
+528
+01:17:09,720 --> 01:17:15,720
+ Let's talk about some of the more crypto-native applications that we've seen arise over the past year.
+
+529
+01:17:15,720 --> 01:17:22,720
+ And perhaps one we could talk about where there's nothing backing it. No asset, no anything, really.
+
+530
+01:17:22,720 --> 01:17:29,720
+ Just some funny meme, maybe. And that would be meme coins. This past year was really the year of meme coins.
+
+531
+01:17:29,720 --> 01:17:36,720
+ And we talked a little bit about this at the start. You mentioned about how you had received some blowback for some of your meme coins.
+
+532
+01:17:36,720 --> 01:17:42,720
+ Which slide is this wrong? I blocked it out of my mind. This is slide 29.
+
+533
+01:17:42,720 --> 01:17:53,720
+ Okay. Go ahead. I'd like to talk about meme coins. I'd like to talk about perps and prediction markets. These three kinds of areas were really, really hot this past year.
+
+534
+01:17:53,720 --> 01:18:00,720
+ But we can take each one and turn. And I'd love to start with meme coins, given that that was maybe the earliest of the three to really take off.
+
+535
+01:18:00,720 --> 01:18:08,720
+ What's going on with meme coins? Are they here to stay? Yeah, they are here to stay. They've been here for 12 years now.
+
+536
+01:18:08,720 --> 01:18:22,720
+ By my accounting, might be more. What has been innovated on and the reason they came back so hard last year or earlier this year was specifically because the underlying technology has improved.
+
+537
+01:18:22,720 --> 01:18:34,720
+ It doesn't make sense to launch hundreds of thousands or millions as we have a meme coins if they were to cost $100 each or even $50 each, just to even have the idea.
+
+538
+01:18:34,720 --> 01:18:39,720
+ If it only costs a few cents, then all of a sudden that becomes a possibility.
+
+539
+01:18:39,720 --> 01:18:43,720
+ And then the same with allowing others to buy it and to speculate on them.
+
+540
+01:18:43,720 --> 01:18:52,720
+ So we saw a proliferation in these launch pads, these so-called meme coin launch pads, like pump, like others.
+
+541
+01:18:52,720 --> 01:18:57,720
+ Like I said earlier, I have been criticized for my being a little cynical about them.
+
+542
+01:18:57,720 --> 01:19:03,720
+ It's just not the most exciting part of crypto for me other than highlighting interesting social trends.
+
+543
+01:19:03,720 --> 01:19:13,720
+ I maybe would take a little bit more of a positive stance here and just say the beautiful thing about crypto is that it's this credibly neutral platform where you can build all sorts of different things on it, right?
+
+544
+01:19:13,720 --> 01:19:23,720
+ Whether it's physical infrastructure networks through kind of the deep in category or real world assets or in this case some form of internet culture, right?
+
+545
+01:19:23,720 --> 01:19:34,720
+ It is open to accept all types of ideas and innovations and meme coins popped up as something and a lot of it was obviously driven by speculation.
+
+546
+01:19:34,720 --> 01:19:43,720
+ But I think it's very worth watching how the space evolves because as we've seen with other categories like NFTs, things can evolve, right?
+
+547
+01:19:43,720 --> 01:19:53,720
+ And in the case of NFTs, we've really transitioned from speculation to more collecting and we have some data that supports that.
+
+548
+01:19:53,720 --> 01:20:01,720
+ And I am unsure what will happen with the meme coin story, but it is cool that anybody can come in and build whatever they want on these blockchains.
+
+549
+01:20:01,720 --> 01:20:05,720
+ And whether you like them or hate them, I think they're an important part of crypto story.
+
+550
+01:20:05,720 --> 01:20:17,720
+ Yeah, I totally agree with that. And I'll say just to counterbalance myself a little bit too is that you never quite know how the most important and impactful lessons will develop.
+
+551
+01:20:17,720 --> 01:20:21,720
+ Often the most interesting things start off looking really, really stupid.
+
+552
+01:20:21,720 --> 01:20:24,720
+ Now, often stupid things start off looking stupid too.
+
+553
+01:20:24,720 --> 01:20:27,720
+ So you have to balance that.
+
+554
+01:20:27,720 --> 01:20:31,720
+ But Chris sticks in to say the next big thing starts off looking like a toy.
+
+555
+01:20:31,720 --> 01:20:33,720
+ That's one of his great aphorisms.
+
+556
+01:20:33,720 --> 01:20:39,720
+ So I think it's important to watch and I have actually seen a lot of interesting and important lessons to learn.
+
+557
+01:20:39,720 --> 01:20:41,720
+ But it's going to come and go and we'll see.
+
+558
+01:20:41,720 --> 01:20:47,720
+ Let's talk about a couple of the other applications that have found some like Perps and prediction markets, right?
+
+559
+01:20:47,720 --> 01:20:50,720
+ Yeah, those two I think are un-ignorable.
+
+560
+01:20:50,720 --> 01:20:52,720
+ They've really risen in the past year.
+
+561
+01:20:52,720 --> 01:20:59,720
+ Perps, for one thing, it was not always clear that perpetual futures, that's what we mean by Perps.
+
+562
+01:20:59,720 --> 01:21:06,720
+ It wasn't always clear that perpetual futures were going to be the product that people who want to speculate on crypto use.
+
+563
+01:21:06,720 --> 01:21:10,720
+ Over the past year, it's kind of become clear that people have gravitated toward it.
+
+564
+01:21:10,720 --> 01:21:18,720
+ Why is that? What about Perps has been so appealing to people looking to place bets on the price direction of crypto.
+
+565
+01:21:18,720 --> 01:21:23,720
+ I kind of think it's emerged as like you said, really the ideal product for crypto speculators.
+
+566
+01:21:23,720 --> 01:21:34,720
+ From a product experience standpoint, it is like the easiest and most intuitive way to open a leveraged position long or short on an asset in crypto.
+
+567
+01:21:34,720 --> 01:21:44,720
+ And I think protocols like Hyper Liquid have done a very good job of building the product experience for those type of crypto speculators.
+
+568
+01:21:44,720 --> 01:21:54,720
+ And we've seen the results of that, which is trillions of dollars of volume and Hyper Liquid is now on a billion dollar revenue run rate.
+
+569
+01:21:54,720 --> 01:21:56,720
+ Yeah, I agree with that completely.
+
+570
+01:21:56,720 --> 01:21:59,720
+ When we say Perps, of course, perp decks is also, right?
+
+571
+01:21:59,720 --> 01:22:02,720
+ It's not just perpetual futures, it's perp decks.
+
+572
+01:22:02,720 --> 01:22:06,720
+ So it's perps as powered by some kind of decentralized system.
+
+573
+01:22:06,720 --> 01:22:16,720
+ They've been around for some time, right? I would say the first perp decks in a form that is very similar to the current form.
+
+574
+01:22:16,720 --> 01:22:18,720
+ It was DY DX.
+
+575
+01:22:18,720 --> 01:22:22,720
+ DY DX was definitely a popular product for its time.
+
+576
+01:22:22,720 --> 01:22:38,720
+ And there have been innovations by DY DX, by Hyper Liquid, by Lighter, by these projects that are really trying to layer on incremental improvement after incremental improvement to make them into better and better products.
+
+577
+01:22:38,720 --> 01:22:58,720
+ Maybe to capture what you really get out of one for the audience is that there have been a variety of ways, as Darren was talking about, to take $100 and try to get more than $100 of leverage exposure to some assets for the purposes of speculating.
+
+578
+01:22:58,720 --> 01:23:11,720
+ I mean, more like gambling, speculating, right? Kind of a little bit less than value investing. Maybe not what Warren Buffett would be doing, right?
+
+579
+01:23:11,720 --> 01:23:16,720
+ To do that requires composing together several types of tools.
+
+580
+01:23:16,720 --> 01:23:30,720
+ It requires some mechanism for lending, for depositing collateral, and then lending some way to actually exchange and to represent some type of order and get matched with a counterparty for that order.
+
+581
+01:23:30,720 --> 01:23:39,720
+ Some way to handle automatic liquidations for that, as in, your position is no longer supported by enough collateral, so we have to solve the collateral.
+
+582
+01:23:39,720 --> 01:23:49,720
+ The perp decks is a highly refined product to deliver the composition of those things while maintaining as much liquidity as possible.
+
+583
+01:23:49,720 --> 01:23:57,720
+ Liquidity is in counterparties who you can trade with so that you can get something as close to the fair price for that asset as possible.
+
+584
+01:23:57,720 --> 01:24:01,720
+ They work really, really well for what they do. I think they work better than they've ever worked.
+
+585
+01:24:01,720 --> 01:24:15,720
+ And I think maybe to connect with what we were saying about meme coins, I think maybe the falling off in meme coins has come partly because people have been able to get this wild asymmetric exposure to assets without needing to get the meme coins.
+
+586
+01:24:15,720 --> 01:24:25,720
+ You don't have to go and identify some obscure brand new meme coin that you think is going to take off to get that huge asymmetric upside.
+
+587
+01:24:25,720 --> 01:24:32,720
+ Now you can get a highly levered position against a blue chip asset, like an ETH or Bitcoin or something like that.
+
+588
+01:24:32,720 --> 01:24:39,720
+ Which means you maybe don't need to wade too deeply into the swamp or the trenches as they say.
+
+589
+01:24:39,720 --> 01:24:51,720
+ In order to get that risky exposure, you can do that in a more orderly system where there is maybe less asymmetric information and less predators lurking in the forest.
+
+590
+01:24:51,720 --> 01:25:10,720
+ So I tend to think that's not a coincidence, right? Is that the speculator kind of like casino-y side of crypto has long wanted this type of way to risk some bucks to make mega bucks and perptexes are a really, really highly engineered way to deliver that product?
+
+591
+01:25:10,720 --> 01:25:24,720
+ One question that I have about this, given that we're now on the other side of what was not quite a flash crash but was a pretty large market drawdown, are people playing with fire here?
+
+592
+01:25:24,720 --> 01:25:26,720
+ Has this introduced something dangerous into the system?
+
+593
+01:25:26,720 --> 01:25:28,720
+ Well, anytime you're playing with leverage, you're playing with the system.
+
+594
+01:25:28,720 --> 01:25:36,720
+ Let me say that incredibly clearly, and this is of course not financial advice ever, but anytime you're taking a lot of leverage, you're taking a lot of risk.
+
+595
+01:25:36,720 --> 01:25:41,720
+ I think leverage is crazy. I think leverage is a great way to lose everything.
+
+596
+01:25:41,720 --> 01:25:45,720
+ So yeah, you are playing with fire. There's no question about that.
+
+597
+01:25:45,720 --> 01:25:52,720
+ Now, as far as whether the perptexes specifically are culpable for the flash, it's a little harder to say.
+
+598
+01:25:52,720 --> 01:25:57,720
+ We haven't done some sort of deep analysis that could say that.
+
+599
+01:25:57,720 --> 01:26:04,720
+ I will say that anytime a system has a lot of leverage, which the system has gotten better at creating more leverage, right?
+
+600
+01:26:04,720 --> 01:26:09,720
+ That it has become more effective at delivering more leverage at a lower price.
+
+601
+01:26:09,720 --> 01:26:23,720
+ Then when there is a market shock where market makers need to pull back and protect themselves and there's an unwinding of leverage, then that can exacerbate crashes to some degree.
+
+602
+01:26:23,720 --> 01:26:30,720
+ But of course, better design systems are better able to handle that type of instability as well.
+
+603
+01:26:30,720 --> 01:26:37,720
+ They can liquidate faster, more efficiently, in a way that protects the users more, and I think that that was also true.
+
+604
+01:26:37,720 --> 01:26:48,720
+ There is a subtle or slight irony in that crypto, this thing that was sort of invented out of a desire to move away from the fractional reserve banking system.
+
+605
+01:26:48,720 --> 01:26:53,720
+ And now we're back at kind of introducing all this leverage back into the system.
+
+606
+01:26:53,720 --> 01:26:54,720
+ It's sort of like...
+
+607
+01:26:54,720 --> 01:26:58,720
+ One way to put it, Robert, is that why do they get to have all the fun?
+
+608
+01:26:58,720 --> 01:27:00,720
+ That's a good point.
+
+609
+01:27:00,720 --> 01:27:02,720
+ That's a good point.
+
+610
+01:27:02,720 --> 01:27:09,720
+ There was a really funny gwart tweet about this, about how I'm sorry that you lost your son's college fund.
+
+611
+01:27:09,720 --> 01:27:19,720
+ But it wasn't at Marvelous how gracefully the dealer swept away the chips and how effectively you were liquidated at the casino.
+
+612
+01:27:19,720 --> 01:27:26,720
+ Yeah, so I would caution people against using leverage unless you really know what you're doing.
+
+613
+01:27:26,720 --> 01:27:30,720
+ Let's move on to prediction markets because that has been another big story.
+
+614
+01:27:30,720 --> 01:27:42,720
+ And the irony there with prediction markets is that if you were a betting man, a betting person, and you were going to say whether prediction markets would stick around after the election,
+
+615
+01:27:42,720 --> 01:27:48,720
+ a lot of people said that they expected it to fizzle out, that there wouldn't be interest to sustain this thing.
+
+616
+01:27:48,720 --> 01:27:51,720
+ And that seems not to have been the case.
+
+617
+01:27:51,720 --> 01:28:04,720
+ Prediction markets have, I think, one of the most fascinating histories of anything in crypto, like starting in the early days of Auger, which actually came out of after the rise and fall of intrade.
+
+618
+01:28:04,720 --> 01:28:10,720
+ There was early experimentation in this category that, like, essentially didn't work.
+
+619
+01:28:10,720 --> 01:28:20,720
+ And then we had polymarket come onto the scene and they were sort of doing stuff and it wasn't clear what would happen and then, you know, it was popular around the elections, but then it wasn't.
+
+620
+01:28:20,720 --> 01:28:22,720
+ And it was this weird history.
+
+621
+01:28:22,720 --> 01:28:30,720
+ And I think, like, many things we've talked about today, a lot of the pieces just finally came together in a very interesting way.
+
+622
+01:28:30,720 --> 01:28:34,720
+ And now it's become one of the hottest categories in crypto, right?
+
+623
+01:28:34,720 --> 01:28:41,720
+ Like, polymarket and calcium are fiercely competing for what seems to be a growing pie of users.
+
+624
+01:28:41,720 --> 01:28:51,720
+ Like, the intersection with sports betting has now become inevitable, right?
+
+625
+01:28:51,720 --> 01:29:02,720
+ There are some regulatory tailwinds that have really, like, unleashed this category, still kind of to be determined the exact role that crypto is going to play, although we think there are some really interesting avenues to explore further there.
+
+626
+01:29:02,720 --> 01:29:11,720
+ But it's just a very interesting, kind of, weird history with this space and it's awesome to see that it's finally having its moment.
+
+627
+01:29:11,720 --> 01:29:18,720
+ And, you know, I personally couldn't be more excited to finally kind of be seeing this in more of a mainstream way.
+
+628
+01:29:18,720 --> 01:29:24,720
+ So I personally got into crypto from my exploration with Augur back in 2016.
+
+629
+01:29:24,720 --> 01:29:33,720
+ That's what I was going to say. You were a crypto convert because of prediction markets. I mean, you shouldn't bury that. That is like, that's what brought you in, isn't it?
+
+630
+01:29:33,720 --> 01:29:34,720
+ Absolutely. Yeah.
+
+631
+01:29:34,720 --> 01:29:38,720
+ And it's fun to see that 10 years later we're here.
+
+632
+01:29:38,720 --> 01:29:40,720
+ It's finally manifesting.
+
+633
+01:29:40,720 --> 01:29:48,720
+ Okay. Well, on the subject of predictions, what predictions do you two have for 2026?
+
+634
+01:29:48,720 --> 01:29:58,720
+ Let me preface this by saying, I asked you this last year, and Eddie, you said that you hoped that all of the new block space would be put toward productive ends.
+
+635
+01:29:58,720 --> 01:30:02,720
+ We did get meme coins after that. We'll put that aside.
+
+636
+01:30:02,720 --> 01:30:09,720
+ Darren, you said that you hope that the application section of this report would be longer than the infrastructure section.
+
+637
+01:30:09,720 --> 01:30:15,720
+ And I think maybe that did come to be the case because we didn't spend too much time talking about infrastructure here.
+
+638
+01:30:15,720 --> 01:30:18,720
+ We were mostly talking about how people are using this stuff.
+
+639
+01:30:18,720 --> 01:30:22,720
+ So I think you both were on the money last year with your predictions.
+
+640
+01:30:22,720 --> 01:30:25,720
+ And I would love to hear what you think is going to happen in 2026.
+
+641
+01:30:25,720 --> 01:30:38,720
+ Yeah, that's a really interesting question. I mean, yeah, I mean, taking productive charitably, of course, the spirit of my comment last year was that we have all this new capacity, the capacity needs to be used.
+
+642
+01:30:38,720 --> 01:30:53,720
+ The pattern of the history of technology has been that we figure out how to create some surplus, and then some time passes during which entrepreneurial types figure out how to exploit that surplus and use it for something.
+
+643
+01:30:53,720 --> 01:31:00,720
+ What they use it for can be difficult to predict, but surpluses don't sit around long like nature doesn't tolerate this.
+
+644
+01:31:00,720 --> 01:31:11,720
+ So I feel that that has been vindicated to some degree. If I had to predict like the next year to me is where, you know, we continue to see advances in the places we've seen them.
+
+645
+01:31:11,720 --> 01:31:18,720
+ There will be more infrastructural improvements, more capacity, all those things, you know, we haven't talked too much about that today, but I think that will continue.
+
+646
+01:31:18,720 --> 01:31:30,720
+ But what I think we will really see is all the integrations and promises and applications and wiring together that we've started to hear about like this year, those will be tested.
+
+647
+01:31:30,720 --> 01:31:37,720
+ They will launch, they will be live. We will see interesting uses of them, and we will see their flaws as well.
+
+648
+01:31:37,720 --> 01:31:45,720
+ I alluded to one of them today, which is like, maybe we will see the emperor has no clothes and privacy is actually a very strict prerequisite for many people.
+
+649
+01:31:45,720 --> 01:31:52,720
+ Maybe maybe we will, maybe we won't, maybe we'll have some Band-Aid solutions while more sophisticated cryptographic solutions come online.
+
+650
+01:31:52,720 --> 01:32:03,720
+ You know, when financial institutions start putting assets on chain because of the way regulations shake out, maybe some of them will require certain types of credentials, maybe certain types of KYC to access them.
+
+651
+01:32:03,720 --> 01:32:05,720
+ You know, I don't really know.
+
+652
+01:32:05,720 --> 01:32:18,720
+ But the point is, as people get to the finish line in launching these new products and showing the culmination of these interests that have been exposed, we will figure out what shortcomings exist.
+
+653
+01:32:18,720 --> 01:32:28,720
+ And whenever there are obvious bottlenecks, obvious problems in the development of new goods and services, entrepreneurs come and try to fix them.
+
+654
+01:32:28,720 --> 01:32:36,720
+ And they say, "Okay, you have this huge problem that's blocking you. Okay, I can actually solve that problem for this person, this person, this person, this person."
+
+655
+01:32:36,720 --> 01:32:38,720
+ And that makes a business.
+
+656
+01:32:38,720 --> 01:32:41,720
+ So we will start, we will see the evolution of those things.
+
+657
+01:32:41,720 --> 01:32:52,720
+ I also cautiously think that we will see maybe more applications, maybe that looks more like self-custodial, neo-banky stuff, maybe agentic paymentsy stuff.
+
+658
+01:32:52,720 --> 01:33:10,720
+ You know, I'm not exactly sure, but my feeling is that as stablecoins get wired up and payments become a possibility and more people have wallets, that it will get easier from a user experience perspective to shift them from like, actually, I only have like a little savings in this thing
+
+659
+01:33:10,720 --> 01:33:20,720
+ into, "Oh, I can make a payment with it, and I can use this product easily," or "Oh, I can defer to some agent to spend on my behalf," which is controlled by blah, blah, blah, blah.
+
+660
+01:33:20,720 --> 01:33:26,720
+ I'm not exactly sure, but I think we will see the consequences of the applications and the partnerships.
+
+661
+01:33:26,720 --> 01:33:27,720
+ Excellent.
+
+662
+01:33:27,720 --> 01:33:35,720
+ Okay, so we'll see new application areas open up and we'll also be able to identify bottlenecks and shortcomings with the current state of the technology.
+
+663
+01:33:35,720 --> 01:33:41,720
+ And coupling this with your statement earlier, your earlier bet with Darren on privacy.
+
+664
+01:33:41,720 --> 01:33:44,720
+ I'm hoping privacy will be a big deal, but we'll see.
+
+665
+01:33:44,720 --> 01:33:50,720
+ Yeah, people will recognize that we need privacy, but maybe still won't be using it all that much in a year's time.
+
+666
+01:33:50,720 --> 01:33:52,720
+ All right, Darren, let's hear from you.
+
+667
+01:33:52,720 --> 01:33:55,720
+ What are your predictions for 2026?
+
+668
+01:33:55,720 --> 01:34:02,720
+ So I've been saying that crypto is a 17-year-old, so next year it's going to turn 18, which means it's going to be coming.
+
+669
+01:34:02,720 --> 01:34:06,720
+ It can finally vote, right? A full-on adult.
+
+670
+01:34:06,720 --> 01:34:12,720
+ And now it's fully legally liable for its own actions.
+
+671
+01:34:12,720 --> 01:34:17,720
+ And I think that will kind of, I think it'll present itself on the regulatory side, right?
+
+672
+01:34:17,720 --> 01:34:22,720
+ I think it'll become an adult with kind of real clear rules and regulations.
+
+673
+01:34:22,720 --> 01:34:29,720
+ I think it'll become an adult with respect to institutional adoption, kind of the commitments will materialize.
+
+674
+01:34:29,720 --> 01:34:34,720
+ People really will take crypto seriously as an industry.
+
+675
+01:34:34,720 --> 01:34:40,720
+ And kind of, I hope that just kind of continues from the early signs that we're seeing this year.
+
+676
+01:34:40,720 --> 01:34:46,720
+ Maybe the one thing I'll say a little bit more specific in terms of predictions this year.
+
+677
+01:34:46,720 --> 01:34:55,720
+ We've heard a lot of talk about how kind of stablecoins and other things can make things faster or cheaper or better than the traditional way of doing things.
+
+678
+01:34:55,720 --> 01:35:03,720
+ And while that is all true and we've got a lot of data to support that, I think the real opportunity for bringing the world on chain,
+
+679
+01:35:03,720 --> 01:35:08,720
+ the real opportunity for kind of rebuilding these global payment rails around stablecoins.
+
+680
+01:35:08,720 --> 01:35:14,720
+ The real opportunity for crypto is the ability to now do things differently, right?
+
+681
+01:35:14,720 --> 01:35:24,720
+ Like the experimentation that we will hopefully see around new ways to do payments altogether, things that we're not even thinking about today.
+
+682
+01:35:24,720 --> 01:35:31,720
+ That's what I'm most excited for, not kind of bringing the fees down from 2% to less than 1%, right?
+
+683
+01:35:31,720 --> 01:35:40,720
+ Like I think the new opportunities that get unlocked as a result of us kind of rebuilding the financial system, creating this new internet.
+
+684
+01:35:40,720 --> 01:35:42,720
+ That's what I'm excited for and I hope we start to see that next year.
+
+685
+01:35:42,720 --> 01:35:46,720
+ Yeah, I think people come for the savings and they stay for the network.
+
+686
+01:35:46,720 --> 01:35:48,720
+ That's what's really going to happen.
+
+687
+01:35:48,720 --> 01:35:58,720
+ The consequences of people having custody, having keys, having programmable assets, having composable assets, those are much larger.
+
+688
+01:35:58,720 --> 01:36:07,720
+ When you say come for the savings, you mean flocking to the sort of store of value narrative and then going from there and saving on transaction fees, saving on payment.
+
+689
+01:36:07,720 --> 01:36:20,720
+ Payment processors, treasury management, all these sort of basic things, I think those popularize stablecoins and the consequences are much bigger than just the savings.
+
+690
+01:36:20,720 --> 01:36:22,720
+ Very interesting.
+
+691
+01:36:22,720 --> 01:36:23,720
+ All right.
+
+692
+01:36:23,720 --> 01:36:26,720
+ We'll have to see next year how things shake out.
+
+693
+01:36:26,720 --> 01:36:27,720
+ Thank you to Darren Eddy.
+
+694
+01:36:27,720 --> 01:36:28,720
+ Thanks so much for joining.
+
+695
+01:36:28,720 --> 01:36:30,720
+ This has been a pleasure.
+
+696
+01:36:30,720 --> 01:36:45,720
+ And for everybody who is listening, we will put links in the show notes to our 2025 state of crypto report, just released, as well as our new state of crypto data dashboard, which updates these numbers more regularly.
+
+697
+01:36:45,720 --> 01:36:49,720
+ And you can follow those metrics that we're tracking there.
+
+698
+01:36:49,720 --> 01:36:51,720
+ Eddie, Darren, thanks so much for coming on.
+
+699
+01:36:51,720 --> 01:36:52,720
+ Thanks, Robert.
+
+700
+01:36:52,720 --> 01:37:14,720
+ It's a pleasure.
+

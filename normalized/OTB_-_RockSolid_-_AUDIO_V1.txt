@@ -1,0 +1,366 @@
+TITLE: RockSolid DeFi Vaults and Yield Strategies with Ben Ward and Steve Pak [Castle Island Ventures]
+URL: 
+VIDEO_ID: OTB_-_RockSolid_-_AUDIO_V1
+
+TRANSCRIPT:
+Today, I sat down with Ben Ward and Steve Pak, founders of RockSolid protocol.
+RockSolid is a DeFi application that enables users to deposit into vaults and earn yield on assets,
+with a target focus on Rocketpool's RE and other Ethereum ecosystem assets.
+Castle Island is an investor in RockSolid and it was a pleasure to discuss what lies ahead for
+the protocol with Ben and Steve. I hope you enjoy our conversation.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these expressed by them
+or the guests on this podcast are solely their opinions and do not reflect the opinions of
+Castle Island Ventures. Guests and hosts may maintain positions in the assets discussed in
+this podcast. You should not treat any opinion expressed by anyone on this podcast as a specific
+inducement to make a particular investment or follow a particular strategy, but only as an
+expression of their personal opinion. This podcast is for informational purposes only.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac,
+the two mortgage giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing. You print a couple trillion dollars and all
+of a sudden people start to worry. So out of this worry, we have something called the Bitcoin,
+Bitcoin. Ben and Steve, pleasure to have you guys on our first time doing the podcast together. So
+appreciate you joining. Told you to be here. Awesome to be here. I want to kick off. Congratulations.
+You guys raised $3 million, announced it recently. We lad are excited to partner with you guys.
+Can you speak to what is Rock Solid and why does it exist? What's the origin? Rock Solid is a single
+click experience to access the best of DeFi and earn rewards on your crypto assets. The most common
+way this is referred to is the Liquid Vault, so our Liquid Vault platform. And yeah, we're launching
+now and with the Rocker Pool protocol. So we're the official Liquid Vault for Rocker Pool.
+Yeah, that's really the origin story, actually. To understand sort of where Rock Solid
+Vaults came from, it's really Rocker Pool. So I was a Rocker Pool node operator. For those who
+don't know, Rocker Pool is a decentralized liquid staking protocol. So people stake ETH and they get
+a token in return and then node operators come along, they contribute some ETH,
+and they run the validators for Ethereum. And I'm an Ethereum, I don't know if I'd say maxi,
+but definitely a supporter. A supporter, yeah. Strong supporter. One of the really crucial things
+is that Ethereum is this credibly neutral decentralized L1. And the only way that happens
+is when you have a distribution of stake. So you know that like a single part of your entity can't
+rewrite history. And Rocker Pool is a huge part of that. And that's partly what got me into it.
+Also, it's better economics as a node operator. And so I was part of this community. And by the
+way, go join the Rocker Pool Discord. It's insanity in a good way. And so yeah, I was running a node
+for Rocker Pool. And I really got the feeling that Rocker Pool was, for a while there, losing
+against Lido. And if you might remember, a few years ago, Lido was getting up to this 33% of
+stake. And that was a big deal. And so I kind of started to look at what would be better? Like,
+how should we compete against Lido? And I was really, at the time, focused on APR. That was
+one difference. There was a slightly lower APR. And that's when I got talking to Ben about this.
+So we were working together. And we really just started to dig in what drives the LST market.
+And what we actually found was it wasn't so much the APR. It was actually more about the
+utility of LSTs in DeFi. Because the core of a lot of DeFi out there is really the base return
+is almost the staking rewards on Ethereum. And so that's where it starts. And then it's composed
+and built upon and leveraged and whatever else. But that's where it starts. And so that's where
+Ben and I started to really understand that actually it's the DeFi integration and the
+utility of an LST that drives it. And so we started to explore that space much more. And
+that led us to look at things like ETH and EtherFi and look at what Lido did.
+And what we realized is that that's what Rocketpool was missing. It didn't have that
+the level of integration or these single-click experience where it's like,
+I'm an RE folder. What can I do with this? Where can I put this to earn better returns?
+And just to make it super clear, literally you could watch every day on the Rocketpool
+Discord someone come in and say, I just learned about the project. I love it. I love what you
+guys are doing. What can I do with this in DeFi? And our answer as a community was,
+oh, there's this spreadsheet called Rfield DeFi. Go take a look. So it was kind of like,
+okay, we can do better. We can do better than that. That's where this journey started.
+Yeah. I think for people listening who might be familiar or might be less familiar with some of
+these DeFi markets, it's like a pretty compelling offering because what you can essentially do with
+these LST or liquid staking token assets is you can own an Ethereum liquid staking token,
+which earns a native yield of a few percent. And then you can borrow, let's say USDC off of it.
+And so you maintain the underlying ETH exposure, your earning yield on your ETH,
+which almost offsets your borrow rate for the USDC. So it's very attractive naturally.
+I'm curious how you guys see the landscape of offerings for, let's say LIDO. What were you
+able to do with LIDO tokens? Is it that instance I just mentioned? And what is most important to
+people who are these liquid staking token holders or to yield token holders in general?
+Yeah, I think the most important thing is, as Steve said, it's about integrations. It's about
+what you can do with the token. And as you just said, Wyatt, like the whole value prop there is
+having this thing that you can then go and take and do other stuff with in other places.
+And if you can't do that other stuff in other places, then that LST product kind of isn't
+serving its core use case. And so really having that asset being integrated in lots of places,
+different DeFi protocols that you can use it on, borrow land, leverage, all this sort of stuff.
+I guess a new kind of wave of use cases that emerged about 12 months ago or 18 months ago
+with these points campaigns and liquidity and incentive farming. And so it's, oh, new hyped
+L1 is launching or new hyped L2 is launching. They offer these points and incentives to deposit
+assets to see liquidity in their ecosystem. As an LST holder, you want the LST that you're holding
+being incentivized in that ecosystem. And what we saw was that often it was kind of LIDO's state
+DEATH and maybe ETHify's EETH and make it ETH, wrapped ETH. And that was kind of it that was
+being accepted in these campaigns because they were the biggest and they were doing the best BD,
+frankly. And so what we wanted to see was we love the rockable community. We think our ETH is a
+great asset. It's the most credibly neutral. It's the most decentralized of all the LSTs.
+And so we wanted to see our ETH kind of participating in that party, if that makes sense.
+You touched on a little bit, but I was curious why in your view, LIDO was the one that got this
+headstart when it came to integrations and when it came to having these markets exist elsewhere.
+Interestingly, I think it's a cultural thing. Having been in Rockapool for a while, it is a
+group of very motivated, very smart, very Ethereum-aligned people that actually came
+together and formed this DAO and operated like one of the very few DAOs that actually operates
+like a DAO. Things are voted on according to whether you are staking the token. And there is
+a lot of focus and energy on the technology, on the decentralization, on supporting Ethereum.
+I don't think the core team would mind saying this. There's not the same energy on the core
+team or the DAO. It just wasn't the culture of the community. And that's what makes it actually
+very strong in some ways, because you know that that's what the focus is. It's being a
+decentralized LST. But ultimately, I think we've learned as a community that this defile layer
+is critical. Your asset needs to be integrated everywhere. And for that, you need some BD.
+So yeah, concentrating, pooling your assets in a place where you can enable a team like ours
+and our partners to go and strike deals and improve integration, that's what's needed.
+So I think it was just a focus thing, a culture and a focus early on,
+but nothing that can't actually quickly be rectified.
+Maybe the other thing I'd add to that is Rockapool is one of these OG projects, as Steve said,
+that really does live and breathe decentralization and lives the values that we're all supposed to
+care about. But also, as a result of that, and because they're an older,
+vintager project, they kind of emerged before this absolute mega-raise, money bazooka style,
+VC funded sort of project started in that kind of later vintage. And so what that means is,
+and I think of a project like EtherFi, for example, and I think EtherFi are great,
+they're doing great work, but they have a money bazooka that they can spray around
+and sort of provide incentives to get their asset integrated. Rockapool doesn't have that.
+Because it's just fundamentally a different model. So yeah, I think that really does make
+a difference when it comes to integrations. So you have this almost $3 billion pool of
+not heavily utilized underlying theorem, it's ARIES, but how do you guys interact or exist
+in the context of that community, to your point, Steve? How do you insert yourselves?
+Do you become like an external BD arm, or what's your role in your view?
+That's a really interesting one. There's no official thing, right? That's one of the
+beauties of crypto. We can't force people to deposit their ARIES into their vault,
+but we can show a future that's possible. We're kind of known in the community anyway, just as
+being node operators, I've been part of just personally a bunch of tokenomics discussions,
+I've met a lot of the community in person at events, et cetera. So it helps, that helps,
+but yeah, we're there as not official in terms of the protocol. There's nothing in the protocol
+that makes our vault special, but yeah, we do have the endorsement of the core team that
+this is the vault for ARIES. We have the pitch, and the pitch is that you can deposit
+your ARIES here. And we, in partnership with our partners, we have two great partners, by the way,
+Lagoon Finance for our smart contract architecture and Trulip for capital,
+as our asset manager, also known as curator. We together can take this ARIES and both deploy it
+in the best risk-optimized way that exists today. So looking at what exists on MainNet,
+on L2 today, for these things we talked about, borrow land opportunities, incentive campaigns,
+could be liquidity provisioning, leverage looping, and doing that in a way that's responsive to
+funding rates as incentives move, that we move with the market. So there's the pitch of how we
+can deploy assets today, but also that if you value what we're talking about of seeing ARIES
+better integrated to make it stronger, put your ARIES here as a way to support the ecosystem,
+because we're going to be out there, we already are out there, negotiating to have ARIES integrated.
+Like you want ARIES? New chain, new protocol? Create a pool for it, create incentives for it.
+And here it is. It's really just messaging the community that we think this is the best place to
+put your ARIES. Yeah, no, I like the messaging. It's interesting that you guys have spent this
+time with the community. You've got to know people a little bit. I think in terms of traditional
+finance, if you have a pension fund, you have a general idea of where the capital comes from.
+You could say the same thing about an endowment. Again, $3 billion of ARIES, like who are these
+people? Where is it coming from? How would you characterize them?
+It's a funny question, because again, due to the truly decentralized nature of the Rockapool
+community and the ARIE community, it's not actually easy to answer that question. I mean,
+you can do on chain analytics and you can see what wallet addresses the ARIE is sitting in,
+and there's a bunch of exchanges, a bunch of DeFi protocols, but there's also a lot of
+undoxed wallets, probably liquid funds, probably early Ethereum people, but it's not clear with
+other assets, it's possible to just pick up the phone and talk to the LIDAR core team and say,
+hey, okay, put us in touch with the top 20 state deep holders. It's kind of not possible with
+Rockapool because it is this anonymous decentralized community, which is cool,
+cool for all the reasons that we said, because it is actually living the values that we're all
+supposed to believe in. It makes the sort of BD and go to market challenge a little bit harder,
+but that's why we're trying to sort of demonstrate to the community and to the
+protocol, like this is the value that we're bringing to ARIE, and so we just need to win
+those customers, so to speak, organically by having a good product, which is kind of what
+a business should be. Instead of a lot of the shenanigans that you see in crypto around, you
+know, incentives and private TVL deals and stuff like that, like we're just putting a product out
+to the market and engaging the community. And I mean, I think having the endorsement of the
+core team helps with that. Having the distribution, you know, one thing I guess we haven't
+explicitly mentioned yet is that we're integrated into the Rockapool front end,
+we're integrated into the Rockapool staking flow. So there'll be opportunities for organic
+customer acquisition that way. So yeah, they're kind of the go-to-market pillars we're leaning on.
+It's actually terrifying as a product guy, right? Like first time founder, it's like build it and
+they will come. Second time founder, it's like, what is the exact problem for the exact customer
+I'm going to solve and solve that? He asked me what our ideal customer profile is. They're like,
+they're there, right? There's $3 billion over there. And we do, we have some insights, but just
+big funny anecdote, like there was a time when ARIE was at risk of being delisted. I think it was
+as collateral for Dai, so like being delisted from Maker. And someone just posted this in one of the
+many channels on the Rockapool discord and like it was 20 million ARIE was minted like five minutes
+later. So it's like, it's out there. To your point, it wouldn't exist if that wasn't the ethos,
+right? Like that's what's attracted this community. It's like a vibrant discord or subreddit,
+except in terms of capital and people have been attracted to it because of the ethos.
+Yeah. I think there's a bunch of Ethereum OGs in there as well. You know, people like ICO
+evaluate the values there. And are those people, or say the community in general,
+are they supportive of what you guys are doing? So far, yes. I don't doubt there will be a few
+folks in the community who will point out, oh, hold on, there are some centralized aspects to this.
+Like when there's a new strategy proposed, for example, like should the vault deploy to ARIE?
+Like that's not something that's DAO driven, right? That's something that's driven internally.
+There'll be folks who are like, no, I only do full decentralization maximum. And that's great.
+But that's, I think, you know, the minority. For most people, they can see like ARIE is the
+absolute decentralized core, like to remain strong needs this like defile layer. And actually,
+that defile layer is more efficiently run with some trade-offs, like still a smart contract.
+You can look at the code. You can see the fees are transparent. The wallet addresses are
+transparent. You can see how everything is deployed, but there are some centralization
+aspects in terms of the strategy. And changing gears a little bit, let's talk about the vaults
+and the vaults you guys have, and maybe vaults more generally. I guess to start, the term gets
+thrown a lot. It's one of those ones in DeFi that it feels like it can almost describe many things
+because of how frequently you guys use it, or not you guys, people use it. So in your guys' words,
+what is a vault in the context of what you guys are doing? And what does your strategy offer?
+What does it do? I would say like just from first principles basis, a vault, and I agree with you
+actually, Wyatt, that people use the term vault in a variety of different ways. And it means
+different things to different people. But what it means to us simply is a smart contract that wraps
+around strategies. The vault handles accounting, NAV calculation, and asset deployment. But it's
+a way to abstract away DeFi complexity. It provides a single click experience for users
+to deposit an asset. And then the vault architecture can deploy that into any arbitrary
+number of underlying DeFi strategies. Now, what that means from a user perspective is that
+I, as a user, don't need to go around hunting for opportunities to deploy my asset in DeFi.
+I don't need to be managing my positions, monitoring my positions, monitoring funding
+rates, all this sort of stuff, checking that exploits aren't occurring. I'm deferring that
+to the vault and the operators of the vault. And I'm, as a result, passively earning a return
+on my assets that I've deployed. And I think why this is an important primitive is because
+if we believe this feature that DeFi is supposedly building towards, which is
+the financial plumbing for the whole world and replacing the existing TradFi ecosystem,
+there has to be simplicity and there has to be a better user experience.
+Like right now, DeFi is hard. DeFi is complex. There's exploits all the time. As of the time
+we're recording, there was this package manager exploit not that long ago. And if you're not on
+Crypto Twitter 24 seven, if you're not technical, if you don't know what you're signing, it's very
+possible for you to lose all your money and either you lose your money and never come back,
+or you become very disgruntled. And so, yeah, to reach normies and to be the plumbing of the
+global financial system, all this complexity and risk has to be abstracted away. And vaults are
+a really interesting architecture of wrapping a smart contract around that and just providing
+a really simple single click user experience to people. Well, I think it's a very powerful
+thing because anyone can really create a vault strategy, obviously, so long as they take on
+security hygiene, social norms and do so in a responsible way. And anyone can deposit versus
+I've always thought one of the tragedies of our financial system is inherently the best
+investment products are not accessible to the wide mass of people. You can't get into the
+best venture funds. You can't get into the best hedge funds. You see assets offered to you by
+brokerages and different places where you can trade via an exchange model, but it's a beautiful
+thing, the permissionless vault or permissionless strategy that anyone has access to.
+And actually, it's a good point. I mean, the thing I'd add to that as well is, and actually,
+I did a talk about this at ETH Denver earlier in the year, is that one thing I learned after being
+a founder in DeFi, and maybe this reflects on my naivety before, but once I was on the inside,
+you realize that so much of this TVL and so much of this BD is just kind of backroom deals, right?
+As a sort of naive user, an optimistic user, perhaps you could say, logging on and saying,
+oh, wow, there's a billion dollars of TVL in this protocol. Like, oh, wow, it's like a ton
+of people using it. If you broke that down onto like who owns that TVL, it's maybe like
+10 liquid funds that are being paid to be there. And there's 50 million of retail deposits in there.
+And so, I call this like the sort of dirty secret of DeFi is that a lot of this is not
+decentralized. It's all kind of mercenary capital. But why I bring that up is on this like access
+point that you just talked about, Wyatt, is that, again, as a naive retail user, like you're not
+getting access to these deals that these liquid funds and whales essentially getting paid and
+bribed to be in these protocols. We're trying to democratize that. And by having this pool of
+capital in our vault, as Steve said, we're doing these BD deals and negotiating with new chains
+and things like that and saying, hey, if you want this, we've got 50 million of our ETH TVL, for
+example. It's like collective bargaining. Yeah, exactly. There's kind of two parts to that,
+that part I love, actually, because when you first kind of peel back the curtain,
+you realize what's happening. It's like, oh, that's not the way this was meant to be.
+So, we love being able to bring, especially to the Rockaboo community, access to those incentives.
+Also, you said it's kind of cool in crypto that people, there's less gatekeeping, right? But
+there's also risk associated with that. So, one product I like, DeFi Saver, has access to a bunch
+of just DeFi strategies that are out there. Even there, I'm just looking through at some of the
+strategies we'll launch with. One thing we do is leverage looping on our ETH. And so, that's one
+thing that is great for a protocol. For those who don't know, it's like you deposit our ETH on Aave,
+borrow some ETH, you can mince some more out of that, deposit that. And as long as the borrow
+weight is less than what you're getting from the LST, you make a bit of money. So, if you leverage
+it, you make more. Now, those rates can change, right? And it can go negative. And that happened
+recently. And so, if you're not monitoring that, you start losing money. And then your positions
+can also start getting liquidated. So, it's great that in crypto, you can do that, we think, like
+the people who have access to crypto and want to do it. But it's very easy just to lose your money
+that way. And that's just one strategy, right? And it goes for all of them, like LPing into a
+Uniswap pool. There's permanent loss, where just directionally the thing moved against you. You
+might be earning fees, but you lost your capital. So, these things are accessible. But if you really
+want to fully embrace DeFi, you kind of have to become like a mini hedge fund with your
+monitoring and risk allocation and all that stuff. And again, that's part of what you try to
+bring to a liquid vault. It's like the systems happen on the back end. We have
+professional partners that help us. So, you, you depositor, you just get it. You just get the
+benefit, but you don't have to have all the operational overhead. Do you think over time,
+most or a lot of the capital in DeFi, in crypto, gravitates towards these vault strategies versus
+individual yield seeking for these reasons that you guys highlight?
+I do. I think that's why vaults have kind of had their moment. I even just saw one recently,
+just like one minor example. It was a tokenized leverage looping strategy. And it was like,
+click a button and you can do leverage looping. And then it just has a big red box says,
+but you need to go and monitor funding rates every day on Aave. And if they go negative,
+then you should unwind, come back here and unwind really quickly or it will break.
+And it's like, that is not the user experience that anybody is looking for.
+So, in terms of simplicity, absolutely. In terms of being able to pool capital and use that,
+you said for collective bargaining, absolutely. It's just kind of a nice
+packaging almost of both user experience and underlying technology.
+Actually, Ben, is it worth talking about the DATS thing here as well?
+I was just about to say that actually. You read my mind. You said, is the majority of
+TVL going to be in these products? I think even a question that's above that one,
+a first order question is where is the TVL going to come from? And I think what we're seeing right
+now is this flow, this flood of institutional capital coming on chain. And right now in this
+moment, that's being driven by DATS, these digital asset treasury companies.
+I've never heard of those. What are they? That's a whole other topic in rabbit hole
+that maybe we don't want to go down, but they are driving a lot of TVL on chain right now.
+And the next wave of capital, if they live up to their promises, stable coins,
+put all this together and it's trillions and trillions of dollars of capital.
+But if we talk about DATS specifically, all this institutional capital specifically,
+these institutions aren't going to be on chain monitoring all these positions and they've got
+risk appetites. They've got levels of technical competence. And frankly, for DATS specifically,
+publicly listed companies, they've got reporting requirements, accounting standards to comply with,
+blah, blah, blah, blah. So actually, Volts, I think, are really well placed to serve these
+institutional style customers because they're fully bespoke, fully customizable. Strategies can
+be tailored depending on the risk appetite of the fund. You can wrap legal wrappers and accounting
+structures around them to satisfy any reporting and regulatory requirements. So yeah, I think the
+majority of TVL on chain will be in these Volts, but I think actually it'll be driven by the weight
+of capital that's coming from institutions because this product is so well suited for them.
+I find it so funny that you get these DATS or digital asset treasury companies
+that have their assets supplying TVL to DeFi and DeFi Volts now because I feel like for so long,
+you've heard the argument of, oh, smart contracts are risky, Volts are risky, so users shouldn't
+directly interact. Alternatively, what you clearly need to do is invest in a biotech equity wrapper
+phantom stock so that the underlying ETH can then be deposited into these strategies.
+Indeed, right. Preaching to the converter.
+It's a remarkable timeline. Yeah, exactly. So you have those participants.
+So can anyone deposit into these Volts or who can use them?
+Yeah, anyone can deposit. Anyone can interact directly with the smart contract. But using our
+front end, we block sanctioned jurisdictions and it's not available to residents in the UK,
+US, Singapore and Australia. But outside of that, any user can deposit assets into the
+Vault, like be those institutions, retail, something accessible product.
+And how does the RockSolid protocol or any other Vault provider make money in these arrangements?
+Yeah, the Vault business role is really simple. There's a service fee. In TradFi,
+that would be like an AUM fee. So for the RE Vault, it's 1% and there's a 10% fee on performance.
+One of the nice things just using smart contracts for these things, you can encode the rules,
+right? And people can see the rules. And so one of the nice things with the performance fee is
+it's only earned on the way up and it's kind of like recorded at a high watermark. So if the
+Vault loses value for any reason and then catches back up, there's no fee there. It's just on net
+new performance. So yeah, 1% service fee, 10% performance fee.
+Broadly, as you guys are building the protocol, how do you measure success
+or what are you looking for? Yeah, I got to say for me as a leader,
+like TVL is just a beautiful metric. It's something we can rally all the teams around.
+It's a clear one for VD folks who are helping us get new protocols on board to launch their own
+vaults. It's good too for product engineering to be focused on what are the things we're doing
+to drive TVL. Number go up.
+Number go up, right? And it's just directly like it means that we're building the products
+that people want. So very much TVL. But I think you can be blinded if you don't think about
+what is driving the TVL. Why is this good? And to take the RE example, we were talking about
+how many new incentives did we negotiate on behalf of the Rocket Pool protocol, right?
+How many new integrations happened because there was concentrated pool of liquidity in this vault?
+Those are things that we're already tracking that feed that TVL number. But I think that's how we
+know that we're helping our customers. When I say our customers like the protocol, right,
+be successful by helping their token holders be successful.
+Where do you guys see opportunity moving forward? And with that in mind,
+where do you hope to be and help for the protocol to be in a few years time?
+I mean, our immediate plan and our immediate objective is to build a similar product for
+other protocols. So you know, we're launching with Rocket Pool. Once this podcast is published,
+we'll be live. And yeah, we'll see how well that product is going. And you know, we're expecting
+it to be embraced by the Rocket Pool community. And at that point, we'll have a proof point that
+we can point to and say, look at how we were able to build this product, which helped the
+Rocket Pool community generated rewards for their users. And from the perspective of Rocket Pool,
+there was no lift required, like the Rock Solid team was able to kind of do all the work and
+integrate this thing for them. So yeah, it's building this product for other protocols out
+there and sort of helping them and helping their asset holders. And then the other kind of, I guess,
+leg of this is that institutional customer base that we sort of talked about earlier. As I said,
+I think vaults are really well placed to serve this wave of institutional capital that's coming
+online. And the key to winning that customer base, I think, is three things. One, there has to be
+some lindiness and some proof points in the market already, which we now have with Rocket Pool.
+There has to be, I think, a really high touch sort of integration and support model and a really
+custom tailored set of strategies and architectures, policies, rules, controls that suit that type of
+customer base. And the third thing that has to be qualified custodian integration, because a lot of
+these types of customers, they need to keep their assets in QCs because of their sort of corporate
+governance reasons. And so having something that natively plugs into that will be able to serve
+those customer needs. And so yeah, I think going after that institutional customer base, that's
+where the wave of capital, I think, is going to come from in DeFi. We're sort of actively pursuing
+that now as well. Yeah, I think serving more protocols, anywhere there's a stablecoin balance,
+anywhere there's an ERC20 balance, anywhere that DATs are holding assets that could be better
+served, like we want to be there, be that in wallets, custodians, exchanges, et cetera.
+I think when I look a bit further forward, and even we've talked about how Rocket Pool got
+started as an OG Ethereum project, one thing that's happened recently, I think you said the
+timeline, right? We've gone from an actively hostile administration in the US, for example,
+to the treasury secretary talking about that stablecoins are a great way to sell US treasuries
+to the world, right? The world is very different now. And stablecoins have done a great job
+of helping people in, for example, hyper-inflating currency economies to protect the savings.
+That's just this beautiful example of permissionless systems and how people
+can really benefit from this. And for the longest time, people have been quite happy
+to earn 0% on those balances because the bigger problem they're dealing with is inflation, right?
+And I think as the industry grows and as things like vaults and rock-solid vaults become integrated
+everywhere, I don't think people need to accept 0% interest or half of the underlying treasury bill
+interest. I think we'll start to see more and more that rock-solid vaults, for example, are
+just there wherever you are, where your balances are held, and you can just opt in to start earning
+additional rewards. Yeah, I'd love to see that everywhere. Yeah, I think that the end state is
+vaults power everything, DeFi powers everything, and vaults abstract away that DeFi and just
+become this plumbing that is everywhere. And so, yeah, we're looking forward to that future.
+I mean, they're not that different structurally from like an ETF or some kind of index product,
+right? Yeah, at some level, like those products do abstract complexity and give a single interface.
+Yeah, so there's definitely a good comparison there.
+Well, guys, thanks for coming on and chatting. Congratulations on all the progress. I'm excited
+for what's ahead. Yeah, now it's exciting times. Appreciate you being board-wide and having us on
+today. Go deposit. Yeah, cool. Have a good one.

@@ -1,0 +1,391 @@
+TITLE: Decentralized Stablecoins and MZERO Innovations with Luca (MZERO CEO) [Podcast]
+URL: 
+VIDEO_ID: On_the_Brink_-_M0_v2_01
+
+TRANSCRIPT:
+Today I have on Luca as our guest, our guest of honor. He is the founder and CEO of MZERO,
+which is a decentralized stablecoin protocol and has a corresponding asset, which is M,
+and is working on a bunch of cool things on top of M, like wrapped stablecoins, wrapped white
+labeled stablecoins, extensions, and some other really cool stuff that I'm excited to get into
+in this conversation. But before we kick it off and get into the meat of everything,
+Luca, it would be awesome if you could give a quick intro. Tell us a little bit about your
+background, your time at MakerDAO and maybe other experience kind of inspired you to launch and
+start MZERO. Yeah, absolutely. And thanks for having me, Rhea. We were laughing before starting
+the recording that I'm here stuck in a thunderstorm in Brazil with no power,
+doing this from the soul. And so I hope that you can, the listeners can hear the thunders in the
+background. I never know. Luca is a committed guest. I never know how good the airpods are
+canceling the background noise. But yeah, I mean, I'll give you like a couple of minutes introduction
+about myself and the origins of the MZERO project. I'll try not to make it too personal. Today is
+actually a special date for me. You will understand why in a second, but I am a mathematician by
+background. I'm a mathematical economist. I started my career working as a consultant for
+financial institutions at Oliver Wyman and spent the following 15 years advising investing in
+financials. I joined Morgan Stanley as a financial institutions banker, post-business school
+in London, then became a hedge fund manager, private equity manager, investing in financial
+institutions. And most people who haven't spent time with financial institutions wouldn't know that
+actually serving financial institutions as an industry is a pretty niche thing.
+Even if you work in Wall Street, there is probably a group of 20% of people that are
+deep, deep down in financials and understand financial institutions, balance sheet, etc.
+And the rest of the world has no clue what these guys are doing. And I was one of those.
+I started working in crypto exactly five years ago, so relatively
+recent, although I do things a hundred percent. So when I started, I really started. And the
+reason of my fascination with crypto was not trading, but was actually this idea that some
+of the early-day DeFi protocols we're having of reinventing money from a first principle
+perspective. Most people don't know that money is not a payment product. Money is a
+leverage product. And the way it is actually created is very theoretical, ephemeral, and
+a product of checks and balances that have always existed in the banking system, but currently
+exist at the protocol level in crypto. And the project that really started my fascination
+was Maker. And I said that today is an important day for me because the reason why I had so much
+time to study this is that five years ago, the first week of COVID, I was forced out of my job
+because I received the absolutely unexpected diagnosis of cancer. I discovered I was affected
+by a rare form of block cancer. And I spent the six months after that trying to save my life
+successfully with isolation and chemotherapy. And during those months in a 20-square-meter room,
+me and my wife, we had to entertain ourselves. So I started to write a sub-stack that became
+quite respected in the space called DirtRoads and participate in some of those projects,
+including Maker. When I came out of the other side alive, it was really clear to me that I
+wanted to spend my time doing meaningful stuff and building something I believed in
+instead of making older men richer than what they actually were already. And so I went full on.
+I spent the following couple of years trying to connect. Maker is a protocol with the real
+world of lending participating in this initiative called the Real World Asset Initiative,
+terrible name. And up to the point where I realized that those protocols were great proofs
+of concept, but they were not really skittable in the institutional space. So after trying to
+be an activist in this protocol to put more checks and balances, I actually decided to step
+down. And together with Greg, my co-founder actually launched MZero. And this was December
+2022. I just want to pause for one second and first of all say congratulations on the five-year
+mark. And I'm so sorry to hear that you must have had to go through such a grueling physical and
+mental challenge also at a time when COVID was happening. And yeah, thank you for sharing that
+story. It's really inspiring to hear. Thanks a lot for the kind words. I'm not sorry at all.
+I feel it was the greatest privilege of my life to go through this. I think it's the most powerful
+propeller you have. It transformed me and turbocharged the impact I had on my own life
+and on the world. So I cannot say I hope other people go through the same stuff, obviously,
+but what I can say to other people is that I hope they have the strength I had to capitalize on the
+pain that is inflicted on us sometimes. Thank you just so much for sharing that.
+Okay. So you brought up Maker now and you mentioned a little bit how, and maybe this
+wasn't just in reference to Maker DAO, but just generally how maybe such a model wouldn't scale
+for institutional offerings. Could you talk a little bit about why that's the case?
+Yes, absolutely. And I also want to clarify that when I talk about institutional
+offering, I do not mean necessarily the boring regulated hyper stiff banking world. What I mean
+is an institutional mindset of large scale instead of a retail gamified phenomenon.
+The institutions could actually be new institutions, right? But I think there is a
+way of doing things that is professional and institutional like, which was not the way of
+early day protocols in crypto. And it's obviously always the case, I think, in new companies,
+new industries. But to be a bit more specific, I don't know how familiar the audience is with
+Maker or the early day Maker DAO. Maker was the first real decentralized stablecoin protocol.
+Maker allowed holders of crypto collateral like ETH to start and others who pledged this collateral
+in a repo form and finance a subset of that collateral in the form of DAI
+then could have been sold in the open market to expand the long position or just as a financing
+tool. On the other side, the holders of this decentralized stablecoin called DAI,
+they had the benefit of having a stablecoin that was decentralized in nature.
+It was hyper transparent and over collateralized and it's very safe in the backing. I think I found
+this was incredible. It is still an incredibly powerful mental framework, the so-called CDP
+based model, which underpins also some of the system design of M0. Now, why I think this was
+not scalable, I joined Maker thinking that Maker really had the chance to become the central bank
+of DeFi, so to say. And the idea we had at the time was like, okay, Maker cannot really scale too
+much because the collateral that is backing DAI is so volatile against the dollar that is very
+difficult to make this system capital efficient. So you need to pledge a lot of collateral. You need
+to have very, very thick safety margins to make sure that the currency that is minted as a subset
+of that value is safe. And so why not using other type of collateral? Like for example,
+US treasury collateral, which is abundant, is very safe by definition. So you can actually have very,
+very thin margins and you can actually mint a token based on that type of collateral.
+And we tried that at Maker, we actually, Maker succeeded at some point, Maker $3 to $5 billion
+of treasuries that yield for the protocol. Maker at some point was the largest holder of USDC in
+the world with $5.5 billion USDC and it was not making any money out of it. The problem is that
+the protocol, first of all, structurally was designed, it was not designed for this.
+And then the governance of the protocol was heavily gamified. And this is a problem of some
+of these early day crypto projects. So you had this idea of decentralized governance, anonymous
+governance, which is not really working because the people who actually bought the tokens were
+actually buying the tokens as a speculative asset rather than vote. And then you had very few people
+deciding the fate of DAOs and just like offloading the liabilities, the rest of the DAOs.
+So it was not a very stable environment for connecting with financial systems. So I think
+it was a combination of original thin type of design and a governance framework that was
+optimized for velocity and gamification rather than for scale and thoroughness. I think this is
+not a problem only of Maker. I think it's a problem of several early day projects. Actually,
+Maker survived and thrived by changing its mission from that of a decentralized central bank
+to that of some sort of crypto-native credit fund, which is what it is today.
+But then something about the model inspired you to launch MZero. And maybe specifically,
+you describe MZero as a decentralized protocol. And I want to talk a little bit about that and
+the importance of that relative to other stablecoin models where there is a single centralized
+issuer that manages collateral in a centralized way. I think that is one of the beauties of the
+original Maker was that it was decentralized and they did create a mechanism by which the asset
+that was minted was able to maintain its stability even though it was decentralized.
+Yeah, and I think the best way to do this is by analogy. Because actually, centralized money
+frameworks like the ones of Circle and Heather are the weird ones because we do not live in such
+a world today. And I think I can describe better my analogy. Currently, we live in this dual banking
+system. And I think that you have commercial banks interacting with the customers, and then
+those commercial banks are connected through a regulatory system and a central banking
+actor that is providing liquidity to the system and is also a lender of last resort of sorts.
+Now, the commercial banks are all different. Now, they create money by crediting our deposits.
+We think the deposits are all the same. They're not, right? So like if you have money with JP
+Morgan and money with a regional bank in some US state, for example, the credit profile of those
+banks is very different. So the money is technically not really fungible.
+The reason why it's fungible is because there is like this regulatory framework and liquidity
+framework around it that guarantees some sort of interoperability during normal times. So we actually
+live in a decentralized money system where you have credit collateral distributed across several
+institutions. And then you have some sort of like central banking system where you have
+collateral distributed across several institutions. And then you have some sort of
+central connection point that glues all those different players. And why is this beneficial?
+Because obviously there are huge network effects and money is useful when there is utility and
+interoperability of this form of money. So you know you can spend your money,
+you can send money to different banks within a system, you can do stuff with it.
+And this is not the way early day issuers, stable conditioners are working, right? If you are circle,
+you issue, you keep the reserves, you keep the money, you have this kind of permissioned
+proprietary token, and then you have to create your ecosystem around that token. It's obviously
+dystopian to imagine that they would conquer the rest of the whole world with one issuer.
+And it's also unrealistic that you can have 20, 30, 40, 50 non-interoperable vertical issuers that
+are competing one against the other. Funnily enough, I have a lot of respect for all the
+companies innovating in this space, but if you think about the Paxos model where Paxos is developing
+independent verticals for their clients, you need a stable coin, I'll build a stable coin for you,
+it's cannibalizing its own business, right? If you have a success story,
+the next success story is actually eating into the liquidity of the previous
+success story, and it makes things more and more difficult. So in the maker system instead,
+it was a different story, right? It was closer to the dual banking system we have
+today in FIA, where you had different issuers, so different pledgers of collateral,
+they were storing the collateral in smart contracts, and those issuers were issuing
+the same token. And the token was the same because ultimately the risk profile and the
+technological characteristics of those tokens were one. And for us, this was incredibly important.
+So when we designed the zero, we designed, first of all, a protocol that is, because the debit is
+always in the detail, right? We decided a settlement protocol that is ossified, permissionless,
+immutable, and exists on mainnet, a governance module that is trying to control certain
+parameters of the protocol without the ability to actually ragpull or change the ownership of
+the stablecoin asset M. But any issuer, let's say anyone who is permissioned to issue M
+by pledging collateral is actually issuing the same token. So you can actually have
+something similar to the current banking system where you have a many to one to many infrastructure.
+You have many collateral, many issuers that use the same standards, the same collateral type
+standards, and they can issue the same asset. So there is shared liquidity, shared network effects,
+shared interoperability around this asset. And then on the other side, there are integrators
+that need to integrate with one asset only and not with tens of different assets, which is very
+impractical. And for us, for everyone in the maker ecosystem, it was like a crucial characteristic
+of the model that we think is absolutely non-negotiable and something that not all
+the newcomers in the crypto world really appreciate until they need to develop those liquidity
+networks themselves and they realize how expensive and difficult they are.
+Totally. Saiya, there's two things that I want to touch upon that you mentioned. One is this concept
+of, especially in the last maybe year, year and a half, you've had the introduction of
+many more stablecoins to the market. And I think first on one hand, it's very exciting that
+stablecoins are being adopted more broadly. There is integration of these assets outside of crypto.
+I think that's awesome. And I think it's great that people are trying different models to see
+what works. But one thing I think about is that you have these closed loop systems in traditional
+finance and fintech. But let's just take the example of like PayPal, Venmo,
+Cash App, and that's only in the US. And I think one of the things that we want to see happen is
+these closed loop systems to be able to talk to and interoperate with one another. But when
+you're launching multiple disparate stablecoins without having any kind of underlying
+interoperability layer, in a sense, you are kind of recreating the silos that exist in
+fintech and traditional finance. So yeah, have you thought about that?
+Yes, absolutely. And as you know well, the crypto ethos is very different.
+The crypto ethos is that of open sourcing, of interoperability, of modularity.
+And we see that of permissionlessness. We see the benefits of this. And I think this benefit
+is not 100% appreciated by legacy financial institutions or even legacy fintech
+dominant financial institutions. They are moving in a completely different direction though.
+Exactly. We absolutely do not want to do this. And interestingly, I think this is very fresh
+in our mind, but it's something that I really wanted to share. When we built M0, M0 is a
+many-to-many middleware. So it's like a dual-sided marketplace ultimately. It's like a centralized
+balance sheet where on the one hand you have issuers and on the other hand you have users.
+We went to the issuers and we started chatting with some legacy institution or fintech
+saying, why don't you issue an interoperable asset? It's much better for you to build
+equities, et cetera. It was like an ambitious version of what
+Paxo's Anchorage are trying to do with the global dollar. And those institutions were not very
+receptive. I think there is an obsession of control and there is also a lack of understanding of
+certain dynamics, especially of cryptocurrencies and markets. Then we went on the other side
+and we went to the users. And we went to the users and we said, okay guys, you're building
+protocols. You can actually embed digital money in your stack. Why do you think about
+embedding an asset that is pristine, is interoperable, can move around, you can swap
+it against the ETH and USDC. You can actually partner with each other, creating interoperability
+in between your use cases. And we will aggregate any type of collateral behind the scenes for you
+and make it super simple and crypto-native. And they loved it. So suddenly from struggling
+to actually have five conversations a month with large institutions, we have been inundated
+by requests of integrators to actually extend the DM token themselves into their own stack.
+And we have like tens of requests coming every week. And then as soon as you have distribution
+power, then the other side of the marketplace gets excited and say, oh, wait a second guys,
+you actually have access to like a huge network of use cases. No, we want to mint this asset.
+Imagine if today you would give the ability to issuers to actually issue a white label version
+of Teller they can sell into the market. Everybody would do it. So it's an interesting lesson that
+we have learned over the last few months. One thing that we didn't mention when we were
+talking about like why we're seeing so many businesses want to launch their own stable coin
+or like white label stable coin is that they are not, you know, if they use a stable coin
+like circles USDC or Tether's USDC, they are not currently getting any of the interest
+on those assets. So maybe historically the rationale behind launching a native platform
+specific stable coin was to be able to capture that yield. And yeah, it's definitely interesting
+to hear that even though you are kind of presenting a solution that allows them to capture that yield
+and be interoperable with other assets, they are still like, we want control of the infrastructure.
+Is that an accurate maybe understanding of what you're saying as it relates to like the larger
+institutions and fintechs today at least? Yes, it is accurate, but I think it's also part
+of a learning process. I know I cannot mention the institutions, but we have spoken to teams
+of very large fintech institutions on a global scale that have developed non-interoperable
+proprietary stable coin stacks that are still useful for their own internal uses, right? To
+transfer money internationally or to act as a stable lag of their own exchanges, etc. But
+at the end of the journey, they realized that nobody would have used those instruments outside
+of the limitations of their apt gardens. And they kind of regret that they had gone in that
+direction. I think there is a lot of learning here. I think there is some sort of natural tendency
+towards control in financial institutions plus a genuine concern for regulatory issues. But I think
+the power of crypto capital markets is exactly this open sourcing and interoperability.
+So I think it is a process. In the same way you have seen banks at the very beginning
+promoting the concept of permissioned chains, then they realized that those permissioned
+blockchains were nothing else then, nothing different from internal databases. And ultimately
+they have embraced open blockchains because the potential is completely different. And I think
+this is also a path that will bring us also traditional fintech institutions. I think it is
+a process. But yes, your point is absolutely correct. Talking about yield only is like looking
+at a finger pointing at a moon and just obsessing about a finger and not the moon.
+The yield is one component of control, but there is much more. I mean, ultimately,
+money's infrastructure is not only yield. It's compliance. It's listing with listing. It's
+composability. It's much more. But I'm very optimistic that even the most traditional
+institutions will realize that. I think that with a genius act coming, we will see like tens of
+hundreds of dollar-delimited stablecoins coming and then some sort of natural Darwinian effect
+integrating those and making them more open, more interoperable at some level of the stack.
+I also want to touch on another thing that you mentioned, which is,
+okay, we were talking to these large institutions. They're going through this process, which they
+just need to go through to kind of get to the other side. But in that process, you realize that
+there are integrators and use cases that are today excited about the value proposition of M0.
+Can you talk a little bit about who is using M0 today and how are they using it? Are they using
+M the asset natively or are they kind of using this power of wrapping M and extensions as well?
+Yeah. So these are the early days of M0. We launched the infrastructure, effectively,
+end of Q3, 2024. We don't know what the equilibrium will be. We really think it's
+just like a novel money market instrument or some sort of wholesale stablecoin or
+metastablecoin, however you want to call it. We think really that most use cases will happen
+around this wrapping concept or extensions concept, as we call it, but we are really
+receptive to the market. Currently, the end float is very early. Half of it is in wrap M form,
+which is like the wrap M is simply a DeFi friendly wrapper. So let's say it's in naked form and the
+rest is in extension form. So we have two extensions live. One is Usual. So Usual,
+most people know Usual is a DeFi crypto native high yield project. They are basing their reserves
+though largely on risk-free assets. Now, a not insignificant portion of those reserves is actually
+sitting in Usual M, which is an extension of M that is dedicated to Usual with certain
+functionalities of control like wrapping and wrapping, non-interoperability because for
+security reasons, they use this as a reserve asset. The other issuer, the other extender
+is Noble. Noble, most people know Noble as the issuer of USDC on Cosmos. Noble is an issuer
+of assets in the Cosmos ecosystem. We have known the team for a long time and they are awesome.
+Ultimately, this business is made by humans and we really like each other as human beings.
+They decided to actually launch their own dollar because they said, okay, we're doing the heavy
+lifting and doing the distribution for someone else's assets. Why should we do it? Going back
+to your point, why should we keep making money for Circle or Tether? They built the Noble dollar,
+USDN entirely on M0 infrastructure. They are actually wrapping M with additional
+yield distribution functionalities and control and they are issuing it in the ecosystem.
+We have received tens, probably 30 to 40 requests of integrators of different kinds
+to actually do the same. I think that really we believe M is going to be some sort of wholesale,
+behind the scenes, reserve asset, not only asset, reserve infrastructure that actually
+aggregates collateral, bets collateral, streams yield, takes care of interlock across chains,
+et cetera. Then distributors will bring this asset to the ultimate clients with additional
+functionalities. Going back to the analogy I was making before, let's say 10 years ago,
+the distribution of money where the bank branches, so you had money there with additional features
+and then behind the bank, there was some sort of central bank line. In the future, we will have
+branded tokens or fintech applications that are your distribution network and behind the scenes,
+there is actually M0 infrastructure that is streaming the money and the yield in between them.
+Very interesting. In the examples that you gave with Usual and Noble's
+Dollar, are they essentially interoperable with one another? Talk about how the interoperability
+between those is enabled via M0. It really depends on what every extension wants to do.
+In the case of Noble and Usual, actually the wrapping and unwrapping is permission.
+There are very limited parties who can actually wrap and unwrap the end token to go to Usual
+Dollar or Noble Dollar, but let's say that you are a user that has the ability to do both.
+You could actually atomically take the Usual and unwrap it and going back to the end source and
+mint Noble Dollar with M in one block. You could do that. I think that the idea is those extensions
+or anyone in case an extension has permissionless wrapping and wrapping can unwrap back to the raw
+material and move this raw material around and rewrap freely. A very practical example is
+liquidity. Most people who are not in stablecoin land appreciate the importance of liquidity.
+Liquidity is everything in stablecoins. There is a pool, Uniswap v3 pool currently of around $20
+million, which is an Uniswap v3 pool. You can swap Uniswap v3 for USDC and up to $20 million or
+depending on the liquidity there is in the pool, the composition of the pool within one tick,
+let's say with no slippage. Both Usual and Noble Uniswap v3 are actually pointing towards the same
+pool. If Usual and Noble want to actually access the USDC liquidity for off-ramping
+on doing other things, they're actually using the same liquidity value. They don't need to
+build two liquidity values. This becomes more and more important because contrary to the
+verticalized system where if you have PayPal USD and then you have global USD and they're different,
+they are actually fractionalizing their own liquidity here. The more parties you bring
+in, more liquidity actually centralizing one value and benefits everyone.
+Yeah, you're getting into having network effects.
+Exactly. For liquidity, which is very, very important.
+Yeah, that is a huge issue. I think people underappreciate how difficult it is to
+bootstrap liquidity for a net new stablecoin, even if you are a large institution. I think that's
+really interesting. Another thing you mentioned is on and off-ramping. I've been thinking about
+on and off-ramping a lot. The more stablecoins you have, the more integrations that need to be
+built. I'm assuming in the M system, if you create an on and off-ramp into M, then that benefits all
+of the wrapped assets and extensions that built on top of M. Is that right?
+Correct. Absolutely.
+Yeah. I think on and off-ramping generally is an underappreciated or an underrated challenge,
+rather, that people don't talk about enough, but maybe just taking a broader view. What else do
+you think are the big challenges to stablecoin adoption? Challenges, but I strongly believe we
+are observing the most relevant paradigmatic shift in finance of our lifetimes. I really
+think that builders that are building in this space, they should be absolutely excited
+of the potential this space has. It's immense. I read somewhere that stablecoins currently
+represent slightly less than 1% of M2 money supply, which is ridiculously low and is enough
+to have created one company that is more profitable than Goldman Sachs and another company that is
+also more profitable. The tailwind is incredible. Now, I think that for every paradigmatic shift,
+it's a bit of a balance because I think that you are breaking... First of all, it's a highly
+regulated space, partially in good faith, partially because, obviously, incumbents,
+they survive through regulation. I don't like when people try to survive through regulation.
+We have seen it also in stablecoin land, thrive through your products, not through lobbying,
+but obviously, it's a heavily regulated and lobbied environment, so that makes it very
+challenging. Also, what is challenging is also to understand who is your regulator
+because we live now, the crypto capital markets and stablecoins, by definition,
+are a global financial instrument and they move freely around, so who is your regulator?
+It's very difficult to limit the free flowing of assets that can actually move around in DeFi.
+You can try, but it's absolutely impossible. I think there needs to be some pragmatic approach
+of founders to build something that, in principle, makes sense and is very
+solid and sound, but there is not a regulatory rulebook, unfortunately. One works for the US,
+the other works for Europe, the other works for Singapore, the other works for
+Perps or whatever. I think this is difficult because this is something that wasn't existing
+before. The internet thrived because it was operating in a non-regulated environment.
+Finance is different. Then there is obviously this cultural shift. I worked in an investment
+bank myself. Investment banks are very innovative and very frontier-oriented compared to commercial
+banks, but still, they're hyper-conservative and they're protecting their own turf.
+That makes it difficult. At the same time, though, and this is the realist in me, not the optimist
+in me, is the technological and architectural superiority of digital money versus FIA-based
+money. It's so obvious it ultimately is inevitable. Some of those new projects that emerge
+in a crypto-native way, they just grow so fast. I think that even building for the
+native crypto-economy is enough to let this sector explode. Circle always positions itself,
+for example, we talk only about Circle and Tether because obviously these are the two dominant
+forces, but Circle always position itself as a tech company, regulatory-friendly, payment-oriented,
+but the reality is that Circle is where it is because it's dominating DeFi. Crypto-economy is
+very big and grows very fast. You might spend years trying to pitch a regulated exchange
+to actually embed your stablecoin and a lot of gatekeepers, and then suddenly someone funds
+Hyperliquid and Hyperliquid has $2 billion of users' funds floating around in less than two
+years. I think that the velocity of the newcomers is shockingly high and we are building for those.
+So we are building for those types of guys, for those builders. People, they want to
+silence, they want to disrupt, they want to build things, they want to go fast,
+and they want to build with other builders. Unfortunately, it's more future-proof than
+traditional incumbents' opinion. I was going to ask you about how you think stablecoins
+will increasingly be used and diversify their use case over time, and I think
+most of the time you hear people talking about their adoption within traditional finance,
+traditional payments, but less so about how they will grow as the set of use cases within this
+space grows and as more native crypto applications are developed and launched.
+I think it's a combination. I think that definitely the latter, I believe, but also
+I think in the 2010s we have seen giant fintech apps coming to market as leak frontend based on
+antiquated backend. So I remember I lived in London for more than 10 years and I was actually there
+when the Revolut team pitched at the Google Accelerator for the Revolut pre-seed
+for their FX credit card. I think it was 2014 or something like that. Yeah, it was actually cool.
+One of my best friends from business school actually won that competition and I angeled
+into his company and Revolut was number two and I did not. So it was painful. But apart from the
+jokes, at the time, Revolut for a long time, they were a beautiful product, but behind it there was
+Lloyd's TSB, which was definitely not a very innovative traditional bank. So in my opinion,
+we're going to see an emergence also of new generational fintechs or neobanks 3.0
+that will build directly on stablecoin and crypto rails. So the users will not see the difference.
+Yeah, they will have a better experience, but the velocity of new value prop will increase massively
+because these guys will build on top of decentralized infrastructure, mainly markets
+and stablecoin rails. Even from a deal flow perspective, we are seeing a lot of companies
+that are positioning themselves as stablecoin native neobanks, both targeted at individuals
+and businesses. So I'm very excited to see how financial services powered by stablecoins evolve
+and introduce new types of products and just make finance generally faster and more efficient
+and cheaper to access. Yes, absolutely. And it will happen. I think it's inevitable and it's a
+very exciting time to be alive. So as we wrap up, I guess looking forward into 2025, what has you
+most excited about what's coming up with M0 and the space more broadly?
+The fact that stablecoins are now mainstream in the narrative and there is going to be more
+regulatory clarity around stablecoins. There is more institutional awareness of stablecoins.
+We are reaching a different stage of maturity. Obviously excites me as a builder in the space.
+There is so much to do. So M0 is really an inflection point. Our infrastructure is
+maturing. We are really finding product market fit. We will have tens of integrations by the
+end of the year, hopefully, and 10X or 20X, the type of liquidity that we have in the system today.
+And that excites me very much. And as always, it's all about execution and execution keeps
+you very busy building companies and running companies is an intense experience for everyone.
+So that's something that excites me a lot to grow M0 as a project and make it relentlessly
+and obsessively perfectionist. At the same time, the macro is great. So I think that this
+combination of macro tailwinds, regulatory clarity, institutional maturity, and at the same time,
+seeing a company that really can step up in terms of scale, capital endowment, integrations,
+product market fit and TIN, I think is very exciting. And a lot of things will happen in
+the next nine months. So it's a great time, I think, in this industry. I personally am not
+really worried about market volatility in crypto and tech in general. I think that very good
+investors, in my opinion, are not worried either because we're building tech. We're not building
+trading conduits, but we will see where we'll get there. I was actually very nervous when I saw the
+excessive excitement at the end of 2024, beginning of 2025 around everything that
+had connections with crypto. I don't like when the hype becomes too intense.
+Moves ahead of the product. Yeah, exactly.
+Agreed. Well, I'm very excited to see the value proposition of M0 play out over the year. I think
+it's a very elegant and interesting architecture. And I resonate a lot with some of the core ideals
+around interoperability, especially. I think that is one of the biggest value propositions of
+the rails that we're building. And I want to thank you so much. It's been such a pleasure
+to talk to you about everything. So grateful to you for sharing your story with us.
+Thank you for coming on. Thanks again, Rhea.

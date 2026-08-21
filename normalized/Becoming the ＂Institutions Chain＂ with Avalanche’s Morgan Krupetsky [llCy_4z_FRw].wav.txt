@@ -1,0 +1,216 @@
+TITLE: Becoming the "Institutions Chain" with Avalanche’s Morgan Krupetsky
+URL: https://www.youtube.com/watch?v=llCy_4z_FRw
+VIDEO_ID: llCy_4z_FRw
+
+TRANSCRIPT:
+Because that's what I'm trying to to drive forward. But, you know, it's interesting, I think if you ask a certain cohort or segment of the community, they think about avalanche. They think about gaming and others think about it as like sports and entertainment, consumer and others think about it as very much institutional. I think at one point we were called the Fed chain, which I actually took to be a compliment.
+ But I think interesting, like the overarching or the umbrella kind of theme that spans founders across different industries and verticals within avalanche is that generally the founders within our ecosystem and the companies within our ecosystem are building for real world adoption.
+ And are solving real world pain points and are striving for mass adoption.
+ Here we are with Morgan Krupetsky, the head of on team finance at Avelabs. We're then so great to have you here.
+ So great to be here. Thank you for having me.
+ Very excited to chat with you about one of the biggest themes in crypto and a big thing for avalanche as well. From the start, I've always kind of known avalanche for its connection with institutions.
+ Can you talk to me about this approach and how you think avalanche differentiates from other chains?
+ Yeah, so I mean, one of the main reasons that I'm at Avelabs is to your point, it's a really great mix of academics, engineers and business people.
+ There are a lot of the business people come from the traditional financial services space, whether it's the buy side of different asset managers or the sell side at various banks, myself included.
+ And that's really one of the kind of big things that drew me to the firm because they were focused on bringing kind of institutional and mass adoption through institutional adoption.
+ So the forefront to avalanche really from the beginning, the firm's mission has always been digitized and tokenized the world's assets.
+ So it's something that I'm a cultural perspective from a business development from a strategic perspective has always been top of mind and therefore really is something that kind of drew me drew me to the firm.
+ And I think the firm has always done things very kind of thoughtfully and strategically.
+ You know, there's obviously a wide kind of spectrum of different types of companies out there taking different approaches.
+ And I was really kind of drawn to more of the professional approach that the firm has taken.
+ And I think that that has really served us well when it has come to drawing various enterprises and institutions into the avalanche ecosystem.
+ I think specifically from an institutional perspective, because we bring a lot of that, try to find experience, we've really been able to kind of cultivate trusted advisor relationships with a lot of the banks and asset managers and FMIs that we've worked with.
+ Where it's really kind of towing the line in both worlds where we can go to the digital asset innovation teams or even the business teams of the various institutions and kind of speak their language and really kind of bring them along the journey in terms of blockchain and digital asset adoption.
+ So I think that's something that we've really driven forward over the past few years and continue to do that.
+ And I think it's been really reflected in our early success.
+ Would it bother you if I could be again in gaming and consumer sports entertainment as well as in financial services, but it's very much focused on, you know, real world use cases, bringing GDP on chain, less of kind of like the crypto casino type of use cases and more about actually using the tech as an enabler to build net new product services for again, from asset options.
+ I think it's a really smart way to look at it because it's not about kind of a rivalry between sectors, you know, kind of institutions versus consumer, but more of like threading this line of just like real world adoption across all these sectors.
+ Exactly, exactly.
+ When you speak to enterprises and institutions, what are their needs in terms of what they want to see from their blockchain pilots, like blockchain use cases and how is avalanche falling down.
+ Yeah, so I think depending on what type of institution you're talking to, we'll kind of dictate what is relevant or what's most important for them.
+ I think crypto likes to bulk together institutions in one big bucket and in reality.
+ And I think, you know, when people think about institutions as it relates to crypto, they think largely their mind goes to incumbent.
+ So a lot of the, you know, big banks that everyone knows about or FMI is like Euroclear NASDAQ, New York Stock Exchange and then asset managers like BlackRock and Apollo and Wellington wasn't free.
+ And even within that cohort, it's very nuanced.
+ But then in addition to that, you have a whole cohort of fintechs in neo banks and well tech platforms.
+ So like web two companies that are, you know, challengers to the incumbents, as well as more kind of web three or crypto native institutions, whether they're, you know, infrastructure partners or, or funds themselves.
+ So it's pretty varied.
+ I think in general, when we're talking to asset issuers, a lot of the times they want to ensure that, you know, their assets are widely adopted in the context of blockchain in tokenized form.
+ And so to that extent, what's really important to them is that there is a robust DeFi ecosystem that there is various, again, use cases in companies that could in turn leverage their products and services in the context of their businesses, which, you know, we can talk about as well.
+ But that's really what's been relevant for them.
+ When it comes to talking to banks, many of which you might be building actually applications and capabilities on chain as opposed to issuing assets.
+ That's when it starts to really be important when we talk about avalanche L ones, a lot of banks historically are used to building on what we call enterprise chains.
+ So blockchains like Hyperledger and Corda and Quorum.
+ And I think over time they've come to realize that that infrastructure is not necessarily that the target state and they've come to really appreciate the benefits of public permissionless ecosystems.
+ And especially after the election last year, they've really done a 180 in terms of wanting to kind of tap into all of the activity and innovation that is happening on public permissionless ecosystems.
+ So with avalanche L ones, they're really able to get the best of both their, you know, the compliance and control and end to end ownership that these enterprise chains historically has afforded them, but also gives them the ability to kind of tap into stable coin DeFi and other types
+ of infrastructure integrations that exist on public permissionless networks like avalanche state chain.
+ So long when did I was saying it really depends on kind of who you're talking to and what they're building.
+ But I'm really proud to say that from an ecosystem perspective, we've built a lot of different use cases and applications and infrastructure that facilitates, again, broader adoption while, you know, providing the underlying infrastructure to to those institutions and enterprises that may want to build their own kind of purpose built chain.
+ Can we talk more about the avalanche architecture and how it facilitates tokenization.
+ So you mentioned about how, you know, L ones are well suited for enterprises.
+ Like, yeah, just type up a deep wrong kind of the architecture.
+ Yeah.
+ So I think in general, when we talk to different companies, we're not necessarily prescriptive to say you have to launch this app or this asset on on the sea chain or on this given L one or you have to launch your own L one.
+ It very much depends on what is the use case or series of use cases.
+ What is the product and what are the various kind of requirements, whether that's technical or regulatory and that will in turn dictate the kind of optimal blockchain architecture or expression for that particular network.
+ And obviously, if you're a gaming company or if you're a government agency or if you're a financial services institution, the reasons why you're leveraging blockchain are obviously very different.
+ And so from an L one standpoint, the capabilities are such that you can really customize the protocol layer, the blockchain layer to that particular use case.
+ So the things that have really resonated, especially with, I would say, government agencies, FMIs and banks in particular who are building applications for wholesale finance and for financial services kind of at scale where it's like institution to institution, training and transacting.
+ Things that have really resonated with them are the concept of permissioning.
+ So from an avalanche L one standpoint, you're able to implement permissioning at multiple different layers at the validator layer.
+ So for example, a lot of companies want to ensure that the validators are co located in a particular geography so that from a data protection perspective, all the data remains within a particular country or region.
+ And so that's really resonated with them, the validator permissioning, there's also the context concept of trans actor permissioning.
+ So you can ensure that, for example, only customers that are KYC'd by a particular bank are able to transact or only investors who are considered accredited investors can transact.
+ And then finally, smart contract deploy or permissioning.
+ So who's able to actually deploy various assets and applications within that environment and that can all be again expressed at the blockchain level and dictated by the particular entity or entities that is deploying on that blockchain.
+ Other things that are relevant for them include the fact that they don't need a native token to power transactions or for gas.
+ In some cases, institutions are interested in using tokenized deposits for gas or stablecoins for gas like USDC. And so that's been very interesting, I think, for a lot of institutional partners.
+ And then other things are, you know, by default network level privacy and then on top of that leveraging
+ Avilabs, kind of, Avilab privacy solutions to layer on top of that privacy is obviously extremely topical these days. And I think from an institutional perspective, we're not really going to get kind of institutional levels of liquidity and transactions on chain until we implement that really at scale.
+ So that's become very topical.
+ So a lot of these things are and have been kind of very interesting to and exciting to institutions as they explore leveraging Avalanche L1s because, you know, from an Avalanche L1 standpoint,
+ it doesn't necessarily mean that you're, you know, putting everything out there in a public permissionless general purpose network. But importantly, I think the other thing that really has resonated with these institutions is that
+ there is native, and we'll talk about this, but native intra network interoperability built into the Avalanche network such that you don't necessarily have to rely on third party bridges or third party trust assumptions to facilitate interactions between, let's say, two permission bank networks.
+ Where today, if you have two instances of, let's say, Hyperledger, the only way for those two to interoperate is through a third party solution.
+ You know, obviously, there's many out there, but it does introduce additional trust assumptions, which isn't necessarily the case between Avalanche L1s.
+ Yes, you're using this kind of a messaging layer across the ones to do that. Yes, exactly. So I think from the beginning and you going back to the white paper, it was always this concept of a network of customizable
+ and natively interoperable networks. The, the approach to scaling was always kind of horizontal scaling at the L1 layer to just basically add more black space there, but importantly, needed to be interoperable.
+ And natively so, which isn't necessarily the case with, let's say, L2s out there today. And so the idea is that you really have this, the Avalanche C chain, which is kind of the public permissionless liquidity hub.
+ It's where most of the native DeFi primitives exist in DeFi ecosystem, native stablecoin integrations, custodians, exchanges and all those things that kind of make a public permissionless ecosystem.
+ But then allows various L1s to kind of tap into that permissionless ecosystem and therefore bootstrap their ecosystem much more quickly and effectively and efficiently compared to, you know, others where they're kind of building on an island.
+ And in addition to that, the native interoperability capabilities, again, allow two permissioned L1s, especially in the context of, let's say, two government entities or two banks to be able to transact or communicate with each other.
+ They can send messages, they can send assets, payments, whatever that might be, while only relying on their two already known and presumably trusted validator sets, which again is really resonated with a lot of these entities where, you know, a lot of these cases.
+ The L1s are permissioned, right? It's either that company or agency running those validators or it's even it's a consortium of institutions, but they're all kind of part of some kind of trusted entity where they would be happy to kind of trust the validators of the other kind of comparable network.
+ One of the main use cases to take off in tokenization has been money market funds, like tokenized US thresholds and so on. There are many examples of these on Avalanche.
+ Can you talk about them? And also, you know, about how they work and what's an important proof of concept or tokenization?
+ Sure, so I think the industry has honed in on stable coins as really the kind of the quintessential real world asset or tokenized asset and some even call it the killer use case for crypto at this point.
+ And I think there's about 300 billion in market cap in stable coins today across USDC and USDT and many more and probably many more to come. And I think a natural kind of extension of that is money market funds.
+ I mean, there's a lot of asset managers out there who traditionally manage money market funds for their customers off chain or in the traditional way today.
+ And I think a lot of them kind of saw the opportunity on chain to potentially convert some of that stable coin holding into money market funds because traditionally, we're inherently a lot of stable coins don't naturally pay out interest.
+ And so to the extent that there's various holders, whether it's retail or institutions that are holding stable coins, I think you can almost think about a money market fund as like a digital savings account.
+ And I think that, you know, at this point, we've seen obviously not a huge surge in terms of interest, but there has been a definitive growth, especially since they've launched a couple of years ago.
+ And I think that that growth is set to continue to date what we've seen a lot of the kind of uptake in tokenized money market funds has really been among stable coin issuers and synthetic dollar issuers.
+ So they've been using a lot of the money market funds as kind of the part of the collateral mix backing their stable coin or synthetic dollar offerings.
+ And I think that that will probably continue to grow.
+ And it will also, I think, continue to grow as we see a lot more of these integrations between tokenized assets and more traditional distribution channels.
+ That's something that we've been really focused on from an Apple Labs perspective is great. We have this whole arsenal and very good quality assets apply on Avalanche, whether it's money market funds from a whole host of different asset managers or other types of products.
+ How do we ensure that there is now, you know, the demand side, not just from crypto natives and integrating these assets into the on chain DeFi ecosystem, which we're definitely doing.
+ But how do we integrate these things into more web to and more traditional distribution channels, whether that's fintechs or wealth tech platforms for neo banks that are in not just the US, but really globally in La Tam and the rest of the global south and really reaching historically underbanked populations through a combination of stable coins and tokenized money market funds.
+ And so that's something that I'm very excited about. I think there is, you know, net new capabilities that the tokenized money market funds have been offering. For example, the ability to earn yield on like a minute by minute basis, being able to kind of really quickly, atomically, even subscribe to and redeem from money market fund holdings into stable coins.
+ And even the ability to upload the money market funds into digital wallets and card products and being able to spend down from your money market fund directly through, you know, a visa type card product to anywhere Apple pays, except any more visas accepted.
+ So these are kind of some of the really cool characteristics that, you know, putting these money market funds on chain is affording and really, again, bringing net new product services and capabilities to both crypto native, but also, you know, more me, more me is really globally.
+ Totally.
+ Are there any live examples of this or is this something that's still kind of in that kind of the work? One of our big partners in the in the avalanche ecosystem, their company called open trade, which you should definitely need.
+ They're one of our partners. We call them a tech enablement partner. So their go to market is very much B2B to see.
+ They're the ones that provide the infrastructure that plugs into these various kind of neo banks who in turn have customers who are accessing these products and services and they may or may not know or care that, you know, they're able to access these products because it's, you know, powered by black chain or that it's even tokenized.
+ So open trade services various neo banks, the ones that have been publicly announced are Lydia, which is a Colombian based neo bank, Bwembit and Bello, all of them are kind of plugging in their, their infrastructure to open trade who in turn subscribes to funds from Franklin Templeton and wisdom tree and others.
+ And so it's this way where a lot of these asset managers historically wouldn't necessarily face directly a lot of those end customers, but through tech enablement partners like open trade, they're able to kind of reach a wider investor base through through these types of partnerships.
+ That's super interesting, especially like you mentioned for maybe emerging markets, Latin America, I mean, you know, users who don't wouldn't usually have access to this total instrument.
+ Yeah, exactly. And I think it's really interesting. Like the order of operations that we see is, you know, the first, the first kind of area of interest is just pure access to dollars and that access to dollars is afforded via stable coins.
+ Then once you have that, how do you think about earning interest on those dollars through a digital savings account product is kind of like the next path.
+ And then from there, how do you attach various stable coin enabled card products to allow that person to spend down or against that holding without having to offer and that's where partners are as like rain come in, who actually issue these card products.
+ And, and I'm really kind of completes the loop in that way, which is, which I think is really cool.
+ What's next after these kind of savings, money, market, fund products, you know, in the tokenization area.
+ So I would say like a very big theme that has emerged this year in particular is definitely tokenized equities.
+ There's a lot of different players in the space that are driving forward.
+ The idea of tokenized equity is taking a variety of different regulatory approaches.
+ The main kind of partner in the avalanche ecosystem to date has been a firm called Denori that built the Denori financial network on its own L1.
+ And again, is also you can think about them kind of as a tech enablement partner, where again, Bill plug into various new banks and crypto exchanges like Gemini, for example, they announced a partnership with and others.
+ And that in turn allows their customers like the Gemini's, the world to offer tokenized equities to their customers.
+ And the idea would be to allow their customers not just to access equities, but to be able to swap, atomically, one equity or one share for another without having to, you know, to sell out of the share.
+ And then buy a new one through, you know, DeFi primitives and capabilities in the back end, as well as potentially LP, like a long term equity holding and a lot of things.
+ I think that, you know, that DeFi or on chain capabilities enable.
+ So that's one theme that I think, especially with NASDAQ now pushing forward commentary to ultimately allow access to and trading of tokenized equities.
+ I think that that theme is definitely here to stay.
+ Another one that I'm very excited about that we're extremely focused on is the private credit space and specifically asset backed finance and structure credit.
+ It's an area where I think that almost at the polar opposite of tokenized equities, it's a space that is really dominated, let's say by the top 15 to 20 private credit firms.
+ And part of the big reason why that that is the case is a lot of these firms have the operational backbone to invest in and compete in that space.
+ They have 80% of their staff in middle and back office actually processing incoming loan requests, confirming whether the loan requests kind of match the terms of a credit facility processing payouts as well.
+ And so it's extremely kind of operationally cumbersome. And I think therefore, you know, blockchain, smart contracts, tokenization are really right to be able to kind of upgrade that whole process from an operational standpoint.
+ And therefore allow smaller funds or emerging managers, even family offices to participate in the private credit lending arena, because they no longer need that many people to have to kind of operationalize any given deal.
+ And so it's something that we're doing, you know, a lot of not just in the more kind of web three space from like an originator standpoint, but really using this technology to offer competing facilities to web to FinTech originators.
+ And so it's really it's been really great to kind of go to some of those companies, the web to the FinTechs of the world and sell them not just a better infrastructure, but better money, which has really resonated with them.
+ And I'm really excited, you know, the rest of this year and beyond to really kind of grow out that space.
+ Can you talk more about how a blockchain makes private credit more efficient? Yeah. So I'm honing in on one of the initiatives that we're doing. It's with a capital partner called Valinor and the FinTech originator called Otphi.
+ Otphi's business is to make V and embedded finance model loans to businesses, working capital loans. And today, when they receive loan requests from various businesses, they take almost half a day every week to reconcile the incoming loan requests against the terms of the current facility that they have
+ and reconcile it via Excel sheet manually. And then they're only able to really draw down from the facility that they have on a weekly basis at best. In the interim, they have to draw down from their own expensive equity dollars to facilitate the loans.
+ So instead, what we're doing with them in the context of leveraging blockchain solutions, because we embed the terms of the facility basically into an NFT, the incoming loan request is automatically and programmatically kind of vetted against those terms, and you can kind of determine much more quickly, therefore, if a particular loan is eligible or not from not facility.
+ In addition, because we're using stablecoins, we're able to facilitate daily draws from the facility as opposed to weekly draws, which ends up saving that originator a lot of money.
+ And so that's kind of where the better money term comes in because it's, it is a facility, but it's better because it's programmatic and because you can draw down from it much more frequently than using traditional rails.
+ Very cool. Do you think that just, you know, talking about how these terms are reconciled, if AI could be used there too?
+ Yeah, I think it definitely can. We have another partner within the Avalanche ecosystem called Intane that uses a combination of blockchain and AI. AI really took to do a lot of kind of loan verification.
+ So fully agree. I think that there's a really good intersection between AI and blockchain. Like a lot of people at one point were kind of talking about those two technologies competing, but I think they can be very complimentary.
+ Yeah, really fascinating. Yeah, great example of like a very inefficient, just like manual process on how it can be streamlined.
+ Yeah. You mentioned how all these different tokenization products can plug into DeFi. For that to happen, you really do need an interoperable network.
+ And I think like the big concern, like the first thing that people think about when describing this like network of like thousands of other ones is like, wouldn't that just like break interoperability?
+ Wouldn't it fragment liquidity? So I know you touched on this a little bit before, but just like focusing on this question about how can Avalanche avoid this liquidity fragmentation?
+ Because like, even if you can't tap into a C chain, they're still going to be more friction, right? When doing it from from an L1, how to kind of minimize side, how are projects working through that and also kind of the interoperability aspect?
+ Yeah. So I think within Avalanche, you have this concept of native interoperability. And I think it's therefore incumbent upon the various builders out there to abstract that kind of complexity from the end user.
+ And so I think, you know, the industry historically has not done, we've not done ourselves any favors. Like, we've made a lot of the web three experience very difficult and full of friction.
+ I do think the UX and UI is improving just in web three or at large. I think builders and various companies are doing a lot better in terms of abstracting a lot of those complexities, whether it's through gasless relayers or through things, you know, via, you know, while an enabled product.
+ So I think it's just a matter of ensuring that whichever builder it is that is building whatever product service and capabilities for an end user that they take the time to just abstract a lot of that away.
+ I think, you know, one good example is one of our partners inversion that is being built again on their own L1.
+ They, you know, plan to create, you know, a DeFi ecosystem and various things like women's capabilities and others and to the extent that they end up tapping into things like Avalanche D chain or other L1s.
+ If you're building an app for regular users in Mexico or other parts of La Tam and especially if they're not crypto native, you want to make a seamless of an experience as possible such that they frankly that they don't even know or care that they're using Avalanche or that they're using inversion.
+ But that it's pulling different capabilities and liquidity and capabilities from different networks in a way that is fully abstracted for them.
+ So I think a lot of it comes down to ensuring just like a seamless user experience for an end user, especially if they're not crypto new for, you know, putting myself in the shoes of a DeFi trader.
+ Or even an investor who would want to be exposed to just like tokenization on Avalanche.
+ What's kind of the best way in which you kind of, is it like to the tokens of these projects or just like actively participating and just like, you know, buying these money markets, fun tokens or, I don't know, like how to like actually participate.
+ So it really depends on the type of fund that it is. There are some funds within our ecosystem whose mandate it is to is to buy tokenized assets.
+ They have certain kind of return hurdles and profiles in terms of the types of assets that they're looking for.
+ And so we'll work with them to, you know, introduce them to the various teams that are building on Avalanche that might be interesting for them to learn more about.
+ And then they ultimately decide, is this, you know, asset interesting for me, is it within kind of the scope of my mandate?
+ And then in that case, to your point, it's a lot about actually buying kind of the underlying and tokenized asset itself.
+ There may be an element where they get exposure to the token of that project too, but it's very much I would say like on a case by case basis.
+ There's another path where there's a whole cohort of VCs whose thesis is really forming around tokenization.
+ And so in that case, I mean, obviously, there's a combination of equity and tokens as well there.
+ And then from a more of like a DeFi fund perspective, I think that they've been looking at money market funds as like a way where if they have cash on the sidelines, they can kind of easily go in, in and out of the money market fund as a way to keep cash on the sidelines,
+ but make sure that it's, you know, generating some kind of yield in the meantime.
+ Oftentimes, and again, it even depends if it's like a directional fund or if it's a market neutral fund that will kind of also dictate what they can and cannot do from an investment perspective.
+ But those are just some examples. It all it ultimately depends on like the type and kind of what is their mandate and that will dictate the best way for them to get involved.
+ Speaking of these strategies for different investors and also kind of on the path forward for reaching distribution partners and so on, I'm curious as to what our labs approach is to having like in this business development effort.
+ Right now there's a lot of discussion about what marketing foundations role should be, whether they should be more involved or more hands off or. So yeah, I'm curious on, on whatever labs approach is.
+ Yeah, so I would say that I pride ourselves in that a lot of the value add that we bring to the ecosystem partners building on avalanche is business development kind of support.
+ And there's a lot of different ways that we kind of provide that support, but one of the big ways is through kind of joint go to market and you know, be the advisory type of work where we'll sit down with the partner, especially if they're more be to be to see
+ or even be to be and we understand their, you know, value add and how they pitch themselves and where they're focused from a geographic perspective and will go out and literally do BD for them or with them.
+ We are constantly reaching out via LinkedIn at conferences like a lot of the BD that we do is of course bringing more of these tech enablement partners to avalanche, but it's ultimately also bringing a lot of potential customers of these partners to them.
+ Where at that point, you know, we facilitate introductions between potential clients of theirs to them and they're the ones who sell the business case, the use case right why that particular company should care about x y and z product.
+ And in that conversation, we're not really pitching avalanche we're pitching the so what the implication like why should you care why does this matter for your business.
+ And then to the extent that it's interesting for them. The use case or the application or the initiative is deployed on avalanche.
+ In other cases, there are teams out there that are definitely building various kind of blockchain enabled products and services in which case of course we do deep dive and talk about avalanche versus competitors and why it might be more compelling to build on avalanche but there's a ton of different
+ different again fintechs well tech platforms new banks out there who either are not ready not not already thinking about blockchain or don't know where to start and that's where we bring to bear a lot of these kind of key primitives whether it's in the tokenization space
+ and we bring to bear kind of this whole ecosystem to those partners and are really starting to cultivate this this ecosystem of of users that represents net new capital net new users and stickier users to the ecosystem
+ which is very exciting for me because it that's like a sign of real world adoption.
+ Speaking of like untamed finance more broadly on avalanche, so including DeFi or WA's stable claims. How do you think that will contribute to avalanches growth more broadly.
+ Do you think that growth will it come from more stable things being issued or more of these kind of RW a like other organization use cases will it be from like more more degenerate trading and yeah for avalanche more broadly.
+ It'll be kind of the main driver of its growth. Can I say yes to all the I want it all.
+ No I mean I think it's no secret stable coins have had this huge resurgence this year and I think that that is not going away I think basically every company that has distribution is thinking about launching your own stable coin.
+ Obviously whether they whether or not they succeed is a different story but I think we'll see a lot more issuance of stable coins in in the future. I think we'll continue to see a proliferation of RWAs.
+ I think a lot of web to anyone like web to point five companies are looking at integrating DeFi primitives in the back end and creating earn capabilities for their customers.
+ So I think like you know I've been an avalanche for a little over three years and initially I joined to just focus on institutional or wholesale finance.
+ And since then the worlds of trad fi DeFi see fi tokenization have really converged I think will continue to converge. And so to that end you know you mentioned these various verticals that really forms like the whole on chain finance team.
+ There's the space for an on avalanche and a lot of those initiatives are not necessarily mutually exclusive. And so there's a lot of times where sure there's a sub vertical lead that is like leading the relationship or leading the partnership
+ but there is a ton of kind of collaboration and effort between various teams. So for example when we have a new stable coin launch.
+ First kind of step is to integrate it into the DeFi ecosystem where it's kind of like a top of the funnel type of rollout but really from there we introduce that issue or to various builders on avalanche that are actually using stable
+ coins as a key part of their business model, whether that's remittances or beaded payments or cross or another types of wholesale finance treasury management. And so there's like a whole kind of rollout that spans sub verticals so I'm excited to really kind of
+ make a whole on chain finance or on fi world grow within avalanche as kind of a unified umbrella if you are. And again like, do you see this thing the main growth driver for avalanche as a whole.
+ Well, this is where I'm focused so I hope no but honestly like I think it's really interesting. I think that we're seeing.
+ Obviously a lot of traction in the space in terms of prediction markets and I think that that will that will actually find a growing segment within avalanche and we and really I guess related to that is also a very large segment
+ that's continuing to grow with an avalanche around kind of sports and entertainment. Our team has worked with everyone from like the Cleveland Cavaliers to the Detroit Pistons and a bunch of other large kind of partnerships in the pipeline.
+ Almost on kind of upgraded loyalty rewards programs, but the next step is payments right on chain payments are in app payments or whatever you want to call them. Well, that's obviously powered by stable coins
+ and so I think that and it's also interesting from like a thematic perspective, a lot of different platforms, whether they're platforms like Twitter or or X or or any company that is not necessarily financially focused.
+ I'm already thinking about how to embed finance and financial service capabilities into their apps. And so even though it's not necessarily like a singularly focused financial services application, I think a lot of them are thinking about how to embed finance
+ and the quickest and easiest way is through blockchain enabled products and services. So, even if it's not within specifically the vertical, I think you'll see a proliferation of financial capabilities in other verticals as well.
+ Yeah, I think it's senior totally right it's it's a result of, you know, blockchain becoming this value layer of the Internet as a whole. So that means that it's just easy to just plug in money rails financial rails on on any application.
+ And just to wrap up more kind of long term vision for avalanche and specifically kind of hunting finance part of avalanche. And where do you see avalanches role growing into like do you see most of financial assets coming on chain on avalanche.
+ There would be more kind of a shared ecosystem with all the blog chains are kind of what's the national vision there. I mean, I think if you were to ask anyone, everyone say they believe in a multi chain future so, you know, I think that as we grow the pie there's
+ obviously room for that I mean it's like the Internet like if every every company is going to end up becoming a blockchain company by default. There's a lot of opportunity.
+ But I think for us, like we have remained committed to tokenization that could be tokenization of financial assets that could also be tokenization of non financial assets.
+ So I think that that is going to be a common thread that continues into the into the future. And I think kind of going back to the beginning of our discussion.
+ People really be the place where we bring real GDP on chain, like whether that's again in gaming government agency or government and financial services or sports entertainment like I think we're really focused on leading the charge in terms of real world adoption,
+ which I'm, which I'm very excited about.
+ The other thing that I would kind of add to that as something that is really interesting is with the the moves of a lot of companies that have distribution, whether it's Coinbase or circle or stripe building effectively their own purpose built chains I think avalanche
+ and all ones are poised to really be that kind of layer for if and when companies are ready to deploy their own chains I mean obviously from an avalanche standpoint I think we have about 80 in production L ones with FIFA and maple story being two of them.
+ I think that that will that will continue there's going to be many companies out there that don't want to or frankly don't need to have the resources to really develop their own blockchain infrastructure and manage that in that case I think avalanche is really well poised to be able to capture a lot of that
+ in production. Awesome. Morgan, thank you so much for your time. This is great. Thank you for having me.

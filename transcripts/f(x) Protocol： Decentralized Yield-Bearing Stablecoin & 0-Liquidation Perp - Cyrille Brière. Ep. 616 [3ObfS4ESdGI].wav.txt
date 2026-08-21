@@ -1,0 +1,518 @@
+ FX offers two products. The first one is a leverage product. It delivers leverage
+ on ETH and BTC without funding costs, without borrowing costs, users just pay a one-time
+ opening and closing fee. And that's it and in most cases they won't have to pay any fundings.
+ And the difference with regular CDP is that we abstract the looping so we give overexposure
+ to the collateral and we have this very innovative liquidation mechanism that prevents any hard
+ liquidation. FX protocol is an evolved CDP. Whenever people are longing the collateral,
+ it involves selling the stablecoin for more collateral. Different peg keeping mechanisms.
+ The first one is that stability tool. On FFX, the stability tool is a yeast strategy that takes
+ both FX USD and USDC as base assets. Each time FX USD is traded below one,
+ the USDC from the yeast strategy will buy FX USD in the market to put it closer to peg
+ and its change is traded above one, it's sold back for USDC and goes back to the stability tool.
+ Hey guys, I want to tell you about Gnosis, a collective of builders creating real tools
+ for real people on the open internet. Gnosis has been around since 2015. In fact,
+ it started as one of Ethereum's very first projects and today it's grown into a whole ecosystem
+ designed to make open finance actually work for everyday people. At the center of it all is Gnosis
+ Chain. It's a low-cost, highly decentralized layer one that's compatible with Ethereum and secured by
+ over 300,000 validators. So whether you're building a DAP, experimenting with DeFi,
+ or working on autonomous agents, Gnosis Chain gives you a solid, neutral foundation to build on.
+ But Gnosis is more than just infrastructure. It's also tools that people can actually use,
+ like circles for example, lets anyone issue their own digital currency through networks of trust,
+ not banks. And then there's Metri, it's their smart contract wallet that makes it easy to access
+ circles, manage group currencies, and even spend anywhere Visa has accepted thanks to their
+ integration with Gnosis Pay. All this is governed by Gnosis Dow, where anyone can propose, vote,
+ and help guide the network. And if you want to get involved, running a validator is super easy.
+ All you need is one GNO and some basic hardware. To learn more and start building on the open
+ internet, head to Gnosis.io. Gnosis, building the open internet, one block at a time.
+ Welcome to Epicenter. The show which talks about technologies, projects, and startups driving
+ decentralization and the global blockchain revolution. I'm Sebastian Guccio, and today I'm here with
+ Cyril, who is our core contributor at FX protocol. FX is a really interesting,
+ yield-bearing stablecoin that also utilizes a purpose market. There's an interesting stability
+ mechanism there that we'll get into. And also right now, I think it's probably one of the best
+ yielding stablecoins on the market, with their stability pool yielding somewhere around like 12,
+ 13%. So that's really sort of compelling and interesting. And I wanted to talk to Cyril today
+ about FX and understand the core mechanism and also how they fit in the broader stablecoin landscape.
+ So nice to see you today. Thanks for joining. Hey, thanks Sebastian for having me. It's a
+ real pleasure to be here today. So you're actually based in France. I see you've got the Ethereum
+ France T-shirt. What's your background? How did you get interested in DeFi? Have you
+ worked at any of the big French protocols? I started DeFi because I got direct with the crypto
+ markets and I figured I wanted to make yields and that getting yield on stablecoins would be
+ somehow more predictable income than just betting on the market volatility. And I had a bit of
+ funds on my company, actually, and I went to the bank and I asked for yield opportunities to the
+ bank. And as a professional in France, they would offer me 0.15% APR with a six-month
+ lookup. And I figured it's 0.15% or 15%? No, no, 0.15, 0.15% with not 1%. Yeah, yeah.
+ So I figured it was a theft and I should find something else. And I heard about DeFi at that
+ point. And actually, I didn't hear about DeFi. I heard about Celsius. That was offering something
+ like 8% and next so as well. And I started putting euro there at that time. And I figured, okay,
+ how do these guys actually make yields? And this is how I heard about DeFi. And it was
+ right after the DeFi summer. And I bumped into a French community called DeFi France.
+ It sprinkles to maybe lobster dow, but for French people. And it's a group of DeFi passionate people
+ talking mostly about DeFi and with zero bullshit. It's mostly doing about building stuff. And there's
+ a lot of builders, actually, in the group. And I started by reading everything, every single message
+ in that group for months. And I learned a lot of stuff starting practicing DeFi as well and getting
+ involved into DeFi France by sharing what I learned from the community and organizing meetups
+ in Toulouse. And I've organized almost a meetup a month for the past three years. I just stopped
+ before this summer. And this is how I got to meet with people that came to the meetup to
+ talk about their projects and stuff like that. And how I got people to reach out to me to get my
+ opinion on different stuff. And regarding F of X, I did a meetup about F of X in September 23.
+ So right after the first iteration launch, I've been following Aladdin Dow, which is the
+ the Dow behind F of X and as well as concentrator and clever protocols. I've been following the
+ DAF since the beginning. And when I first read about F of X, I just loved the design. So I figured
+ I should make a meetup about it and share it on the community. And this is how I started to
+ contribute to the project. Cool. I think like doing meetups is such an underrated kind of low
+ lift thing that you can do early in your crypto journey. I organize a few meetups back in the day
+ Lil and the North of France. And like, yeah, I know, like, you know, Brian, my co-founder here at
+ epicenter, like also organize like quite a few minutes in Berlin. And it's such a great way,
+ like meet people who, you know, you don't necessarily see online, right? But like, they come out of
+ the woodwork for the meetups, right? And they built it's like great, great way to build connection.
+ Yeah, exactly. Yeah. One of this few cost systems left in which you can easily access to people that
+ make the ecosystem. And you can just give to the community and it will just bring so many
+ opportunities, you know, just by being genuinely sharing stuff, just meet people and it brings
+ opportunity. Yeah, I guess what I'm trying to say is like even, you know, even like 15 years
+ into crypto, there's still opportunity for people to like have to, like, encourage anybody to do
+ that. And like, what's the relationship? Like, well, what is Aladdin down in the relationship there?
+ And, you know, someone was already working on effects before you started contributing to it.
+ Yeah, it's a good question. Aladdin Dow is the Dow that builds F of X protocol. So it's the same
+ team, basically. And Aladdin started as an investment Dow, something like four years ago. And but it
+ quickly created its first protocol to just to get what was missing to them in the Defiled Enscape.
+ So they launched, I wasn't there, I wasn't contributing there at that point, but I was a user, actually.
+ The launch concentrator, I believe in 2021, maybe, or 22. And then clever, so considerate in a nutshell
+ is an auto-compounder protocol. So it auto compounds your yields, but instead of compounding
+ into the underlying, it lets you compound into another yield bearing asset, such as Steve, for
+ instance, or since Aladdin has been very close with the curve ecosystem in the first days,
+ you can compound your CRV, for instance, instead of compounding stablecoins. So it's kind of,
+ it's a protocol that lets you DCA with your DeFi farming, basically. And so that's the first
+ protocol, it's still around with over 100 million TVL. And the second is a clever that lets you
+ leverage your CVX farming, basically, with without liquidation. And so the first two protocols are
+ very deep into the curve and convex ecosystem, while the third one, which is F of X, solves the
+ problem of decentralized stablecoins, basically. And what I love about the design is that it brings
+ real decentralized alternative into the stablecoin landscape. And it was the origin of F of X is
+ actually the USDCT peg in March 23, because Aladdin Dow, with the existing two protocols,
+ had a treasury, mostly made of USDCT. And they just figured it's such a nonsense
+ to build DeFi on the most decentralized infrastructure and to rely on centralized stablecoins and to
+ depend on on trotify events such as the SVB failure. And this is how the idea of F of X
+ was raised in the first place. And it evolved to what it is today. And today we managed to bootstrap
+ FX USD to over 100 million market cap as well, while having no VC funding, while doing things
+ 100% organically. Yeah, no, I agree. It feels like a huge failure on the part of the ecosystem.
+ Sometimes I think the fact that centralized stablecoins have dominance over the stablecoin
+ market deals like a pretty big failure on the part of proponents of decentralized tech.
+ And it's really unfortunate that protocols like die and other decentralized
+ stablecoins haven't picked up more adoption than they have. I mean, there's sizable adoption,
+ but it's nowhere near where USDCT and Tether are at. There's a lot of regulatory risk there,
+ and also you have DPG risks and these sorts of off-chain risks. What is the core
+ value that you think? There's a sort of core tenets that a decentralized stablecoin protocol
+ should embody. If you had to put characteristics on what an ideal decentralized stablecoin protocol
+ looks like, what would those be? Yeah, I think for a decentralized stablecoin to work, people need to
+ trust it to be reliable. So it needs to have a good peg, obviously, and to be liquid enough so
+ that you can come and buy it and set it in size. And it needs to be collateralized so that the
+ peg actually stays. So it's not just liquidity, but it's actually a good peg by design and good
+ backing, and it also needs to be scalable. It all goes back to the stable controllima. It needs to be,
+ in my opinion, mostly on-chain, because so that you can abstract trust from it and just trust the
+ code instead of trusting entities and people. And yeah, that's... And it also brings censorship
+ resistance by being on-chain. So that's all these different key components, I guess, that makes a
+ good decentralized stablecoin. In my opinion, the beauty of Ethereum and decentralization is that
+ it abstracts trust. And abstracting trust from finance reduced the risk, right? And it's just like
+ people just forget about this. And just like the trust fight is used to trust and to have someone
+ to sue if anything goes wrong, why we can't just avoid trusting people using Ethereum.
+ And in my opinion, it makes love sense to embrace that technology and to bring... And this is actually
+ what we do with FOX. We manage to deliver higher risk with lower risk, because there is no trust
+ involved. And in my opinion, that's a paradigm change that will come at some point with when
+ the most of the new trust fight guys would be crypto-native and understand that value proposition.
+ Yeah, I certainly hope so. I mean, there's a centralized stablecoins have a lot of tailwinds.
+ I think for that to happen, it could happen that decentralized stablecoins take over. But
+ there would have to be some catastrophic event that really erodes the trust in Tether or USDC
+ to the point where decentralized stablecoins can come in and start taking that. I don't know
+ that I think that decentralized stablecoins can slowly start creeping up and building up
+ issuance to really surpass in a meaningful way the main state of centralized ones.
+ I don't think they will take over because the centralized one will probably always be more
+ convenient and scalable. That's a fact. But I also believe that centralized stablecoin will
+ all eventually disappoint at some point. And at that point, people will need a reliable
+ alternative to use. And why would you use a more risky stablecoin? So more trusted stablecoin
+ with low risks while you can most of the time use a decentralized one with higher yields.
+ The idea is just to offer a reliable alternative. And this is what we're doing and looks like.
+ People understand it since the protocol has grown pretty well lately.
+ Yeah, that makes sense. I think also maybe there's still some lingering fear about decentralized
+ stablecoins, where with USDC, so that might also contribute a little bit. I think also to
+ generally, they're harder to understand than a centralized stablecoin. Hey, there's an institution
+ behind this. There's all these banks. There's KPMG audits to save the monies there. I get that
+ because that's the model that most people are familiar with. With a decentralized stablecoin,
+ you have to listen to hour one podcast like this to understand what the fuck's going on.
+ Again, it goes back to that trust paradigm of the old world in a way. But yeah, definitely,
+ there's a PTSD of USDC. And lots of people I meet, and the first question they ask about
+ FXUSD is, is it an algorithmic stablecoin? Because they heard about this.
+ Dangerous. And yeah, now it's fully collateralized with exogenous collateral.
+ This is a decentralized stablecoin. Cool. Yeah, well, let me get into a little bit of how it works.
+ And the first time we chatted, you described it as an evolution on the CDP model that maker
+ introduced the world back in 2016. So maybe using that as a comparison, because I think
+ a lot of people have that model and understand that model. How does it work and what are the
+ different components? Yeah, for people used to the CDP model, it's the easiest way to
+ understand how FX works. It's indeed an evolved CDP design in the way that so FX offers two products.
+ The first one is a leverage product. So it delivers leverage on ETH and BTC or BTC, you can choose.
+ Directional leverage without funding costs, without borrowing costs, users just pay a one-time
+ opening and closing fee. And that's it. And in most cases, they won't have to pay any funding.
+ It can happen in very rare occasions. But so it brings predictability in the cost.
+ And the difference with regular CDP is that we abstract the looping. So we give overexposure
+ to the collateral, just like if you would use a CDP with looping protocols such as DeFi Saver or
+ Contangor stuff like that to get directional leverage. We abstract it. We include it into the
+ product. So that's called expositions for the longs, expositions for the short. You get directional
+ leverage up to 7X, predictable cost, just a one-time fee. And we have this very innovative
+ liquidation mechanism that prevents any hard liquidation. So you don't get the half or the
+ entire position wiped out if the market goes on the opposite side. And you get this very
+ progressive liquidation that keeps you as much exposure as possible and reduce the risk.
+ So on the leverage side, in a way, it's a zero-stress leverage. It's just a zen
+ perp, if you want, using the CDP model in the back end. Okay. So maybe we'll stop it there and
+ go over those different parts yet. So comparing to the CDP model, CDP, you borrow against collateral,
+ but leverage doesn't include in the protocol. Typically, people get that leverage by going through
+ some external protocol like DeFi Saver or maybe Instadap. And they're exporting the looping
+ functionality to that protocol and then bring the collateral back. Yeah, it's a huge pain in
+ the ass. I've done this. It's just really painful and scary to do. And then you bring the collateral
+ back and then you're doing this loop and you may get some leverage from that. FFX has this built
+ in. So you can do up to 7X leverage. And then the other part that you mentioned is that there's a
+ gradual liquidation mechanism, which means that your collateral isn't liquidated in sort of a
+ single transaction. It's very progressive. It's progressive, right? So and I guess I've never thought
+ of this, but what makes that possible and why is it that typically letting protocols don't have a
+ progressive... It's a very good liquidation mechanism. Yeah, thank you for asking this.
+ Why the other CDP don't do this is because most of that... We're just lending protocols,
+ basically. Why wouldn't Aave kind of have this progressive letting mechanism?
+ Can't do this because they handle each leverage positions individually. So to make the
+ liquidation profitable, it needs to be large enough so that the keeper, the liquidator,
+ will actually be profitable by handling the liquidation. And the main difference with
+ FFX is that all the leverage positions are handled together based on the price ticks,
+ basically. So we aggregate every position at risk together to process the liquidations,
+ meaning the liquidations are profitable even if the individual liquidation is very small.
+ So to illustrate the design, if you're familiar with the LTV concept, each time your leverage
+ position crosses 88% LTV, the protocol puts it back at 88% LTV, no matter the amount it represents,
+ the dollar amount, the value of the liquidation, so that your position never reaches 95%
+ hard liquidation LTV. If that process ever fails and your position reaches 95% LTV,
+ at that point, the whole position is liquidated. But in most cases, it shouldn't happen because
+ it works. So you're kind of socializing the liquidation mechanism. Is that exactly where we're
+ looking at it? Yeah, it's a good way of saying it. It's socialized. Okay, interesting. And no
+ other DeFi protocol does this, like your landing protocol. Yeah, recently, Fluid came up with a
+ similar approach. They have this whole base liquidity layer, but it's a way bigger machine,
+ because it's a whole lending protocol and decks and so on. It's on the FX side, it's way simpler.
+ It's just two collaterals and a CDP, but they have a similar approach. In a way,
+ the main difference on their side is, I believe, is that the liquidation penalty can fluctuate,
+ while on F of X, it's fixed two on five. On Fluid, I believe it goes from one person to eight percent.
+ Okay, so maybe just to put this another way, say we compare with Aave, like Aave, each position
+ is can be liquidated and has to be liquidated individually to protect the underlying collateral.
+ Here, the underlying collateral is kind of pooled to represent all of the positions.
+ That collateral is going to secure your position as much as it's going to secure
+ someone else's. And the different positions may have different collateral ratios,
+ relative to the overall collateral, which is where you get this kind of socialization mechanism.
+ So someone else's collateral is kind of like backing your position, right?
+ Not exactly. Your position is actually like your position collateral ratio is
+ monitored. So there's no, you're not actually, each long position has its own collateral,
+ but it's all pooled together and all the leverage positions are monitored together.
+ So and instead of of liquidating each position individually, you look at what's at risk on each
+ position, considering the current price, and you liquidate everything altogether. Is that, is that
+ easier in your way? Yeah, I think, I think that makes more sense. Okay. And what kind of
+ complications this is in this, this, because there's always trade-offs, right? So like, what's the,
+ so trade-off of this approach? Regarding other lending, lending,
+ liquidation design, or, or even CTP, I think it's just, it's just better, because it enables
+ higher LTV. This is how we, we managed to deliver up to seven X wide on RV, for instance,
+ you would get like five X stops on, on E for BTC. It gives us like, by liquidating way more
+ progressively, it's, it's, it's, it's kind of, it's more secure in a way.
+ Right. But is it, are there like unintended trade-offs like, for example, like the, the, you know,
+ the, the fees you can charge a lower, or like, you know, liquidations, liquid, like, liquidators
+ are less efficient. Like, there must be some, some trade-off, right? On the liquidation side,
+ no, I don't think, I don't, I don't think, I can't think of any trade-off here. It's actually a
+ more efficient way of, of doing things. Now, I don't think of any trade-off on that, on that side.
+ Actually, the, the cost of liquid, of the liquidations is like the liquidation penalty,
+ which is a keeper bounty. It's actually the same. It's way lower than on, on other money markets,
+ for instance. If you compare with Aave, when you get liquidated in Aave, I believe it's,
+ it's at least five percent penalty, or maybe ten. And, and the, the liquidation of the TV on,
+ on E, or, or Steve, is something like 80%, why did it, it's 88, on F of X. And, and when you get
+ liquidated, you can get up to 50 percent of your position instantly with repaid. That's a hit, you
+ know, on F of X, it can be as small as just 0.1 percent of your position, like that. If the price
+ just touches it and goes up again, you don't, don't get wiped more, the penalty is 0.5 percent.
+ Our money market, it's, it's way more secure and efficient, and it brings like a relief in terms of
+ how you see liquidations. To compare with a, a regular centralized perp, it's still, since it's
+ on-chain, it's the, the liquidation of the TV, even if it's a partial progressive
+ liquidation, is still lower than on, on their centralized perp, because liquidations are
+ processed with a 90, 90.5 percent of the TV on, on Binance, for instance. But it's a, it's just a
+ different approach, you know, it's, and so with this approach, you have near capital, 100% capital
+ efficiency, like, border lending is really 100%. Now it's, it's still over collateralized, but it,
+ it's since, since it's more efficient, we, it's, we can have a lower collateral, overall collateral
+ ratio than on other CDPs. So it's more capitalization than, than previous CDPs. It's still, obviously,
+ less scalable than a centralized table coin, obviously, because it's over collateralized, but
+ still, it brings a better compromise than anything before.
+ Okay. I'm looking at the website, it says that four billion dollar, well, almost five billion
+ dollars have been liquidated last month on other perp solutions and FX has zero liquidations.
+ Yeah, because, like the hot liquidations only happened once, it was in the first days of the,
+ the current iteration of the protocol, when there wasn't enough keepers processing the, the, the,
+ the liquidation break. So that's the, some position reaches, reached, reached 95% LTV and got
+ liquidated. But since that events, it wasn't on February 2nd or something like that, there was a
+ massive liquidation event on the market. And since that dates, there was no hot liquidations
+ on FX. Some got proportionally reduced in a way, but there was no hot liquidations.
+ And the main, the main, the main point of, of this design is that the leverage users keep as much
+ exposure as possible to recover with the market, if the market ever recovers. If they made a bad
+ trade, it won't, it won't save them. You know, if the market just crashes and goes to zero, they
+ would go to zero, you know, but way more progressively than on any other on-chain leverage solution.
+ And another thing you mentioned is that there's no funding rate for the leverage trades. You just
+ have this one-time fee. Yeah, that's great. What's unique, what's unique about this approach?
+ What is it an able? It's been, it has been done before by liquidy, for instance,
+ with the LUSD. It was similar in a way. People would just pay a one-time opening fee. But the
+ main difference here is that LUSD couldn't scale because they had massive tag issues.
+ Like the, the LUSD tag is not reliable enough to actually hold the LUSD because you end up buying
+ it at 1.05 and setting it at 0.99. So it's not reliable enough. And we fixed this by still having this
+ just fixed one-time opening fee and closing fee. But we only add a small funding
+ if the stable current is ever de-pegged. And that funding is just like most of the fees generated
+ by the protocol are distributed to a stability pool that acts as a peck keeper, to attract more
+ USDC, earning that, that's organic gains and helping with supporting FX/USD spec.
+ So we have this organic peck keeping mechanism that, that just work and that
+ lets FX/USD scale pretty well since we launched earlier this year.
+ Yeah, let's, let's talk about the, that stability mechanism, the stability pool. And there's,
+ there's also, I think, like, I guess FX save is also related here.
+ Yeah, correct. Yeah. So, so, like, what's really impressive here, I think is the yields,
+ which range between like 10 and 20%. Now, you know, those, those approach
+ Terra level, anchor level yields, but yeah, why, why, why is this sustainable? How, how is this
+ sustainable? Yeah, it's, it's a good question. Indeed, FX save, which is the main yield strategy
+ on the FFX protocol has since we launched it has been one of the best yield, stable yield in DeFi.
+ If you look at the dashboard created by inverse finance called stable yields.info,
+ you can compare all the main yield bearing stable strategies around such as FX save,
+ obviously, Estola, stake USR, SCRV, USD, SUSD and stuff like that and most of them.
+ And if you look at this on different timeframes, you see that FX save has been
+ both all the time and like the next one is like four points below FX save. And, and that's,
+ that's a huge success for us. We're very, very proud of this. And most, and the main thing is
+ that most of this yield is 100% organic and doesn't imply any human active management.
+ It's 100% small contracts on chain. There's, yeah, nothing to trust as than the code, you know.
+ And so to understand what, how it works, maybe I can break down the different,
+ the, the, the peg keeping of FX, USD. So if you understand that
+ FX protocol is an evolved CDP, whenever people are longing the collateral, it involves selling
+ the stable coin, right? Because in the backend, the stable coin is sold for more collateral.
+ So it brings selling pressure. And this is, this is why, for instance,
+ LUSD ended up under peg or, or, or the, the people getting leverage on liquidity ended up being
+ redeemed, because LUSD was massively sold. And we sold it with different peg keeping mechanisms.
+ The first one is that stability pool. On FFX, the stability pool is a YIT strategy that takes
+ both FX USD, the decentralized stable coin, and USDC as pays assets. And it acts as a peg keeping
+ mechanism. Each time FX USD is traded below one on, on the main liquidity pool, which is on curve
+ against USDC. Each time FX USD is traded below one, the USDC from the year strategy will buy
+ FX USD in the market to put it closer to peg. And each time it's traded above one, it's sold back
+ for USDC and goes back to the stability pool. So that strategy keeps FX USD's peg. And to
+ attract capital, the incentives comes from all the org, the, the fees generated by the protocol.
+ At the moment, the protocol generates close to $1 million a month. And most of it is distributed
+ to the stability pool or the governance token lockers. Okay. So just, just to stop there for a second.
+ So, so the protocol does rely on, on USDC, at least in the stability mechanism to find its price.
+ Yeah, it's not backed by USDC at any point. But like USDC is the, like, if you wanna, if you wanna
+ any assets on chain to be pegged to USD, it's, it's pegged to USDC or USDT. And actually on chain,
+ USDC is the most liquid. So this is why USDC currently is the most liquid,
+ DeFi stablecoin around. So if you want, is it safe to say that, like, this mechanism, it wouldn't be
+ possible without an on-chain stablecoin that has a really high peg stability?
+ The other option would be companies that could handle their redemption with real dollars, for
+ instance. But yeah, since we don't wanna rely on, I guess the biggest company that does this
+ currently is, is Circle and, and, and Tether. But the most liquid on-chain is, is Circle with USDC.
+ Right. Okay.
+ That's, currently the obvious choice. At some point, if we scale a FX USD enough,
+ we may not need it anymore. And people will build liquidity with FX USD because they want
+ to be paired with FX USD. But when you build the stablecoin, if you want it to be liquid and at
+ peg, you need to build liquidity with currently the, the most obvious choice is USDC.
+ Right. And, and so if there was a USDC deep peg, you know, highly unlikely, but like it happened
+ before, right? What happened before? And they actually triggered the creation of F of X.
+ If the stability pool cannot accept USDC, like the USDC peg is monitored. And when,
+ if the other deep pegs, the stability pool won't accept more, any more USDC. So it's exposed,
+ but protected from USDC deep peg. So you get exposure to both assets, FX USD and USDC,
+ but it's protected from any USDC deep peg. So the main risk here in that strategy,
+ for any LP is the FX USD peg. And this is why there's different layers of peg keeping. The first one
+ is the stability pool itself. And, and, and so the, the yield comes from the protocol economic
+ activities. So people taking leverage, they pay this one time, she told you about, they can have in
+ some situation a funding and I'll go through this in a, in a second. And, and most of the leverage
+ positions are backed by yield generating assets such as wrap state if, and that yield also goes to
+ the stability pool. So if, but if it's not enough, so actually whenever FX USD is traded
+ below one is actually below 0.998, the stability pool buys FX USD to the market. But if there's not
+ enough USDC into the stability pool, so whenever the ratio of USDC goes below 5%, we may not have
+ enough USDC to support the peg. So in that very situation, all the leverage positions get a small
+ funding cost applied to their position. It's temporary and it's, it's here to support the peg. And that
+ funding cost is the RV boring cost of USDC. And that goes to the stability pool to attract more USDC
+ deposits that will support the peg and, and then cut the funding because as soon as the distribution
+ of USDC goes above 5% again, then the funding is off. But if it's not enough, there's, you know,
+ different layers, you always have to, you know, anticipate what could go wrong. If it's not enough,
+ and FX USD starts to debug for too long. It means when the EMA 42 minutes of FX USD on curve
+ goes below 0.998, so it's pretty small debug, but long enough to be
+ modicable, we trigger what I call the debug mode. And in, in that situation, people can no longer
+ open any long positions. So it prevents any further selling pressure on FX USD.
+ And at that point, a second layer of funding is applied to their leverage positions,
+ which is way higher. It's 5 or 10 times the USDC boring costs. I don't believe it happened yet,
+ because the previous layer of the keeping were always been enough. But in that situation,
+ it brings a very high incentive for leveragers to, for either leveragers to repay to close their
+ loans, because they can buy FX USD cheaper and close with a bigger profit, and they can avoid
+ these high fundings. If they keep their loans open, then it brings a very like massive yield
+ to the stability pool, just attracting USDC that will
+ cut, repack FX USD quickly and cut the fundings. And there is one last layer of
+ peg keeping mechanism, which is the redemption. When FX USD is in, in the peg mode, people can,
+ can buy it and redeem it against the collateral minus a 0.5% redeeming fee. So that sets the
+ worst-case scenario of peg at 0.995, basically.
+ One question here, like, you know, I'm looking at the stable yields dashboard, which is great, by the way.
+ And, you know, the yield, the 30 average is almost six points above the second position,
+ but only has, well, has less than half the, the TBL. And if you look at Athena, Athena has
+ 5.7 billion in TBL with also about the same 30 average. There's about 100 million in TBL as
+ we're recording this on September 3rd. You know, with yields, with yields so attractive and a mechanism
+ that appears to be sustainable and sort of safe. Why, in your view, why isn't there more TBL on FX?
+ There's probably different reasons for that. First thing is that we are doing things
+ 100% organically. There is no VC backing. So there's, so we don't get it. We had to make all
+ our connections ourselves, you know, just by reaching out to people and meeting people into
+ events and stuff like that. And the overall protocol TBL is over 400 million now, and it's been built
+ 100% organically. So it takes, and I guess it takes time to build, as you said it previously,
+ it takes time to build trust towards a decentralized stablecoin. So for people to actually understand
+ that the team won't regret pull, that it's actually secure and there's the liquidation mechanism
+ works and the pecking mechanism works and so on. And that the yield will also be
+ sustainable. The stablecoin will be liquid enough so that people can come and exit in size and
+ stuff like that. It takes time to build that. And we've done that and we keep doing it and reaching
+ out to getting in touch with more and more people. But I guess it takes longer when you're doing
+ this just organically and without any massively backed token, a TGE event to come and stuff like
+ that, you know, because the token has been liquid from scratch with fixed emissions over the next
+ 50 years. And yeah, there's, it's probably less speculative in a way than other VC-backed projects.
+ And then obviously ifina is not exactly a DeFi product, it's highly centralized and realized on
+ uncentralized fundings, which makes it obviously more scalable. And if we were having five billion
+ right now, the yield wouldn't be that high. But what we observed over the past few months and
+ scaling the protocol to over 400 million is that it actually scales by growing progressively.
+ The more trivial there is into the stability, the more leverage activity we observe on the
+ leverage side and the more fees we collect. And when you look at the collected fees over each month,
+ it's pretty clear that there's a pattern of of, of, of stabilizing these fees and having them
+ weigh more steady over time and growing steady. I don't know if I exactly answered your questions,
+ I went to all different topics, but I guess doing things, you can do not VCs and 100% on-chain.
+ It's, it's the primary harder to, to, to, to scale a protocol that way. But in my opinion,
+ and our mission with F of X and added in that was to build stuff that will last for decades,
+ if not centuries. And so yeah, we're in here for the long term.
+ Do you think that like with, you know, the track record now that you've built, you know,
+ this TVL and, and a, you know, a, a, a pack that has held and kind of demonstrated that this works,
+ do you think that it would be useful to now go and like raise money to accelerate growth,
+ to accelerate, you know, fundraising into the protocol, marketing, etc. Is that something you
+ consider? We don't consider raising money from VCs because it's, but people are free to buy the
+ token on, on the market. And it's, if people do it actually helps because there's other strategies,
+ which are incentivized with the, the token. But we're, but it, it definitely helps on one side is
+ that when we talk to new funds and stuff like that, and it's way easier now that the, the stable
+ coin is more liquid and, and the protocol is bigger than in the beginning. So it helps to, to raise,
+ in a way, stable TVL for the stability pool, because the more TV and there is in the stability pool,
+ the more volume we can process on the leverage side because it keeps, and so yeah, it helps on,
+ and we, and we've definitely seen the difference. For instance, we were discussing it with Paul,
+ another team member that went to ETH CC with me this year, as well as last year,
+ and we've seen a major difference between the two editions in how people were interacting with us.
+ Like when we were talking to people and other builders last year, it, we felt like they were,
+ oh, that's interesting. Let's see how it goes, you know, and now it was mostly, wow, guys,
+ congrats on the, congrats on the growth. And it definitely, it's way easier to, to build
+ partnerships when people already heard about the protocol and, and start trusting it.
+ So I wanted to switch gears a little bit. You, you guys published an article a couple of days ago
+ on your Twitter, it's your theorem security model and strategic importance of decentralized
+ stable coins. Yeah, give me a gist of like what you're arguing for in this article and,
+ you know, how, how you're thinking about, you know, theorem security long term.
+ Yeah, so yeah, the idea of the article, this was, it was to, to point out that the value secured
+ bar, if you're in, in, in centralized asset mostly, which is, which are real-world assets
+ and use dt and use dt and stuff like that, is going so high that at some point, these guys and,
+ and today, instead of tomorrow, it could be another entity has a major weight into any,
+ into the, the, the, the protocol security. For instance, if there is any,
+ half fork tomorrow for a new update, for instance, and that, that major centralized entity doesn't
+ want to support it. What's going to happen, you know, and by supporting all these centralized
+ entities, we make that possible. We make, it's made, it may not, it may not be a technical issue,
+ because obviously it's, it's very hard to compromise proof of stake. But it could be a
+ political issue, at some point, and, and, and economic issue. And, and the idea is not to say,
+ as I told you earlier, that we should replace centralized stablecoins with decentralized,
+ but the idea is, is that we want to make sure that there's always an, an alternative that you
+ can use in most cases, and just use centralized solutions when it's absolutely needed. And I like
+ to compare some decentralization with privacy, for instance. It's not, it's not white or black,
+ you know, it's not, it's not binary. You don't, you cannot be totally private and anonymous on
+ internet. It's, it's a, it's a scope, you know, and I know people decentralize this decentralization,
+ this scope is some kind of a meme, but it's actually true. You do your best, you just do your best,
+ and if you can, you can use private product in most cases, like let's say, in for search
+ engines, you can use DuckDuckGo most of the time, and if you don't find the answer,
+ then you'll go on Google, and it's actually better than using Google all the time and giving them
+ all your private data. And it's, I think it's pretty much the same thing. If, if you can
+ achieve what you want to achieve with your stables using a decentralized one,
+ there is no point in using a centralized one. So if you can get better yields while staying
+ decentralized, you should just do it. And whenever you want to off-ramp because today on, on off-ramp
+ goes through centralized solutions, then you can go with the centralized solution for that very
+ moment. But in, yeah, that's, I guess that's the main idea of what we wanted, the, the message we
+ wanted to pass with that article. I mean, I think, I think it makes sense to
+ kind of promote the use of decentralized stablecoins, but like, yeah, as we were saying earlier in
+ the conversation, it's like, you know, at this point, USDC and Tether are so ingrained. It's like,
+ it, it almost feels like a little bit of like Ethereum's Achilles heel that, you know, we've built,
+ like the ecosystem has built all this amazing decentralized infrastructure only to recreate,
+ kind of similar systems that exist in tradfi. And yeah, that the, it's not, it's not clear like
+ what, what the solution is there to kind of mitigate for this as a, as a space.
+ Yeah, I think it's shame, especially when there are actual, actual reliable alternatives. It's always
+ a compromise between decentralization and, and convenience, you know, if it's convenient, if it's
+ not convenient, you won't do it. It's just like ecology as well is, is, is very similar.
+ People won't recycle if it's a pain to recycle. If they can just do it very easily, they will do it.
+ And, and, and, and, and now that I believe we, we brought a design that is a convenient, reliable,
+ secure, and, and, and with act, attractive yields, then why are you using anything else, you know?
+ Now, one, one other thing I wanted to talk about is kind of where FX sits within the broader
+ Perps landscape. So, you know, you guys are competing with gearbox and GMX and hyperliquid
+ and D Y DX. And it's a, it's a market that's very dynamic and that's changing all the time.
+ It's like two years ago, D Y DX was, you know, sort of leading that market, had a lot of traction.
+ And now that's sort of lost prominence. Now everyone's kind of focused on hyperliquid.
+ And I think it is, there is a big part of that that is driven by incentives that's also like
+ driven by capital and, you know, like hyperliquid has a lot of money. How do you guys succeed in
+ that space and, you know, maintain relevance long term when we know that like really well
+ capitalized projects like D Y DX, you know, have lost prominence in, in such a, in such a
+ short period. And who knows me? Like maybe hyperliquid in two years when I was like totally irrelevant
+ and something new came along and it was much more interesting. Yeah, maybe even unknown.
+ Yeah, I think we mostly do our own path in that market in that very competitive market as you stated.
+ But we have our own blue ocean. I don't know if you heard about that book, but it's like we
+ have our niche market in a way because we're not exactly a perp. We're not exactly a CDP.
+ We're kind of in between delivering zero stress leverage. And for many people getting a leverage
+ position just is a headache, you know, they don't sleep well and they are very nervous and they get
+ liquidated. We've seen that James when guy getting liquidated all the time. I mean, if that guy
+ had been longing or trading on f of X, he would still be rich, you know, and, and we, we bring a
+ solution to these guys basically. I don't know, I don't know who that is, but I feel his pain.
+ Yeah, it's a guy on on X that shares his trades and people just observe. And there was another one
+ fund. I don't remember the name. And these guys just keep getting liquidated in a hyper liquid.
+ And I've seen there's even a meme saying hyper liquidated. That's a good one because the other
+ thing is that on all these semi centralized solutions, there is more risk and on the hyper liquid side,
+ there is a massive trust me pro stuff on the on the Oracle side. And we've seen it recently.
+ People got liquidity for no reasons on I don't recall what what ticker it cannot happen on f of
+ X. Everything is hundred person on chain. There's no, there's no, there's no, I mean,
+ to play devil's advocate here, like, like, you know, there is kind of an oracle and that oracle
+ is the US is like the treasury bonds that are like backing the USDC,
+ they're backing the USDC peg, right? Because that that's a mechanism that enables the stability pool
+ to function. So I think like, sure, there's there's no oracle and there's maybe no centralized oracle,
+ but there is a reliance on some centralized thing that. Yeah, of course, f of X relies on chain link
+ as an oracle, just like all DeFi. And obviously, we were talking about Taylor being a
+ Democles sword for DeFi earlier and and Chaining is another one, obviously. But yeah, as
+ yeah, there is a reliance on on Chaining on on f of X. And and on USDC spec, yes,
+ and no, not not exactly because as I told you, like, for instance, the stability pool and FXA,
+ which is built on top of the stability pool is protected from from any USDC.
+ Okay, maybe not vulnerable, but like it relies on on the price on that price feed, if you will,
+ like that, that's kind of the price the equivalent of a price feed. Yeah, but we believe that so far
+ Chaining is the most secure and reliable oracle provider. And if Chaining fails on the E for PTC
+ oracle, I guess f of X is going to be the list of your problems. Yeah, yeah. Yeah, it'd be great
+ to have just like a simulation where that happens just to see like, you know, how we just all get
+ rugged, like a DeFi dystopian story. Yeah, yeah, just just like build the simulation where, you know,
+ the chain link oracle price for either BTC just goes off haywire and then what happens?
+ Well, I don't have because I'm not the technical guy in the team. I don't recall the exact oracle
+ design. But if I recall correctly, there's different safeguards in the oracle design
+ on f of X. Looking to the future, like Ethereum aspires to secure hundreds of billions, trillions
+ in in RWAs, like stable coins are becoming a large part of the kind of crypto narrative.
+ Institutions are hopping on the stable coin sort of train.
+ There, I think we all kind of anticipate a proliferation of stable coins with many branded stable coins,
+ like PayPal is just like one of many, I think that will come. What are the opportunities here?
+ I think for us as an ecosystem and where does f of X fit in there? Yeah, so again, a very good
+ question. We actually already see your opportunities. And I think I will also answer in a different
+ way. One of your previous questions regarding how we can compete and why the TVL is lower than
+ Athena's, for instance. These products, since they are not hot core defying away, they're CD5 stuff,
+ they are already institution ready. You know, they can talk to institutions and they can build,
+ they can sign contracts, actual legal contracts, not spark contracts with these guys. And so that
+ these institutions can deploy capital. And for instance, usual scale like crazy by onboarding
+ capital that was had no idea about crypto in the first place. That's crazy. They managed to scale
+ to 2 billion, if I recall correctly, with people from all around the world that had never done any
+ transaction. And as a DeFi protocol, this is way harder because these institutions don't want to
+ hear about this. And hopefully, there's solutions now and there's new protocols filling that gap
+ between OG DeFi in a way, and institutions. And we're currently working on a product with
+ different partners such as Lagoon Finance, 9 Summit, Nexus-Mootwald, APC custody solutions to build
+ tailored product for institutions. So that's institutions could harness the FX save yield
+ in a very safe way. And you're actually the first person I talk about it publicly.
+ The idea is to call this FX save, because it would be the FX save without the DeFi risks,
+ all created and institution ready. So that's a way to embrace the arrival of an institutional money.
+ And the other way is all these new stablecoins you mentioned. I don't really see them as
+ competitors, because most of them are very attracted with organic yields, and some of them are already
+ harnessing them. Many of these new yield-based bearing stablecoins are made of other yield-winning
+ stablecoins on harnessing on-chain or off-chain yields. And they actually use FX save or stability
+ pool in the back end. So they contribute to our growth in a way. So it's not just centralized
+ solution versus decentralized solutions. There is a synergy between the two words, and it's actually
+ good, because in the first places I could see it in the good guys and the bad guys away,
+ but actually we can build synergies. And these guys can help us build the
+ alternative to what they're doing. Well, that's a great note to end on.
+ Said hey, thanks so much for spending the time on Epicenter day. And yeah, looking forward to seeing
+ FX go up and to the right. Yeah, thank you very much for having me. If you enjoyed that episode,
+ feel free to join the Aladdin Dow Discord. It's a very open community. We all started by popping up
+ on the Discord and asking questions and sharing ideas about the design. So it's always a pleasure
+ to meet new people and discuss things, discuss DeFi between passionate people.
+ Great. Thanks again. Cheers. Thank you very much. Bye.

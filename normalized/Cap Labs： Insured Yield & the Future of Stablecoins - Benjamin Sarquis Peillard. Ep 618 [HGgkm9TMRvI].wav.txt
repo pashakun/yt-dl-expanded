@@ -1,0 +1,877 @@
+TITLE: Cap Labs: Insured Yield & the Future of Stablecoins - Benjamin Sarquis Peillard. Ep 618
+URL: https://www.youtube.com/watch?v=HGgkm9TMRvI
+VIDEO_ID: HGgkm9TMRvI
+
+TRANSCRIPT:
+This episode is brought to you by Gnosis, building the open internet one block at a time.
+ Gnosis was founded in 2015 and it's grown from one of Ethereum's earliest projects
+ into a powerful ecosystem for open user-owned finance.
+ Gnosis is also the team behind products that had become core to my business and that of
+ so many others like Safe and CowSwap.
+ At the center is Gnosis Chain.
+ It's a low fee layer one with zero downtime in seven years and is secured by over 300,000
+ validators.
+ It's the foundation for real-world financial applications like Gnosis Pay and Circles.
+ All of this is governed by Gnosis Dow, a community-run organization where anyone with a GNO token
+ can vote on updates, fun new projects, and even run a validator from home.
+ So if you're building a Web3 or you're just curious about what financial freedom can look
+ like, start exploring at gnosis.io.
+ Welcome to Epicenter.
+ The show which talks about the technologies, projects, and people driving decentralization
+ and the blockchain revolution.
+ I'm Sebastian Cuccio and I'm here today with Ben Benjamin who's the founder of CAP and
+ CAP is a stablecoin protocol that has insured yield.
+ I know insurance can trigger some people, but we'll get into all of that and how the
+ protocol actually ensures it's deposits and how it generates yields.
+ We'll talk about the restaking component here, how it uses symbiotic to secure the
+ deposits and a whole bunch of other stuff.
+ Hey Benjamin, thanks for joining.
+ Thanks for having me, man.
+ Super excited about this.
+ So you're currently in China.
+ I'm curious just what's your impression of, yeah, what's your high level of impression
+ in China?
+ Is it the first time you've been there?
+ No, I've been to China many times.
+ I speak Chinese, so I come every year to practice Chinese actually.
+ And so this year I kind of combined my language practice with meeting some crypto people, but
+ yeah, I love China, it's a wonderful place.
+ Did you live there for a while?
+ I studied here for a year in Beijing during college, yeah.
+ And what's your sense of, because I think for a lot of people in the West, it's kind
+ of hard to put a finger on what Chinese life is like.
+ I recently listened to this Lex Readme episode, but this woman who was Chinese and sort of
+ like a Chinese economic and policy expert.
+ And she gave a really sort of like, she gave me sort of an eye-opening look on what life
+ in China is like, what people's aspirations are like, how people sort of deal with the
+ things that sort of in the West, we see as like state control and sort of bad, right?
+ But people actually thrive in these conditions, like, what's your sense of like, what life
+ is like in China and what are the biggest kind of misconceptions that people have about
+ China?
+ Yeah, I mean, I think there's like the people that have been to China and the people that
+ haven't.
+ And I love you that haven't have a very macro view of China.
+ So like politics, economics, world power, like struggles, right?
+ But I'm from a small country.
+ I'm from Chile.
+ From my point of view, China is the same as the US, right?
+ They remind me very much of the US, like big country type of culture with a lot of diversity,
+ obviously big economy, you know, I was just in the rural China last week or like early
+ this week, which is, you know, very different from Shanghai where I am right now.
+ But they're miles ahead of everywhere else, man.
+ Like all the cars are electric, super clean, it's very safe.
+ You know, the absorption of technology or the adoption of technology in everyday life,
+ I think it's higher, at least consumer technology compared to the West, especially Europe, right?
+ Like it's not even close, they don't use cash, they didn't use cards.
+ It's all like we chatter, Alipay.
+ So it's the digitalization of the countries, it's already there, it's been there for many
+ years.
+ Yeah, it's super impressive.
+ I think like that's probably one of the things that I've not been to mainland China, like
+ I'm in the Hong Kong, but like adoption of technology, I think like in Asia, it's just
+ like.
+ Oh, it's very different.
+ I think Hong Kong is like, it's amazing.
+ I love Hong Kong.
+ I like to start up with the Hong Kong, but mainland China, it's a different thing.
+ It's a different, completely different place, in my opinion.
+ From a living standard, obviously not from a political point of view.
+ Yeah, it's crazy how like, you know, being in Europe, and I don't want to make this all
+ about this, but it's just interesting to kind of get your perspective on this.
+ How like in recent years, there's been kind of a reversal in like rejection of technology
+ almost in Europe, and I wonder if that has to do with the fact that like a lot of technology
+ in Europe is owned and operated by US companies, if it's more of a kind of geopolitical rejection
+ than an actual technology rejection, but it is worrying to see like European people and
+ European kind of political discourse be like super anti-technology.
+ It's like, it's just so weird.
+ It's at least 40 years behind China, at least, like if you compare Berlin, oh my god, they're
+ used to use cash, you don't know what elevators are, like what's like all the ACs, not in most
+ places, and then you come to like Shanghai, I just shared an elevator ride with a robot,
+ you know, that was delivering something to me in the hotel.
+ So it's just like, you really can't compare, I mean love Germany, I actually came up with
+ the idea of cap in Berlin, but no man, it's just like crazy how different, and people
+ really don't think about that, because again, people's idea of China is very like a macro
+ about politics, about economics.
+ Cool, well, let's set that topic aside, but it's funny, like fighting Germany is fine.
+ Yeah, yeah, we'll use that as a hot take clip, but yeah, like we know you studied in Germany,
+ sorry, you studied in China, and you came up with the idea for cap in Germany, but what's
+ your journey, and how did you end up here, like how did you end up in a podcast talking
+ about your talking about your China journey and your founding of this company?
+ You know, life is crazy, right, who knew we would be here together talking about cryptocurrencies
+ in a podcast?
+ No, so I mean, I've been in crypto for quite some time, I started in the Hedera Hashcraft
+ space doing some infrastructure there, I started a stablecoin four or five years ago on Polygon,
+ so been in the stablecoin space for a while, and then obviously most recently, I started
+ a cap about a year ago, a little over a year ago, and yeah, that's kind of my little short
+ spiel about crypto.
+ What was the stablecoin project you were doing before?
+ Cheetahou, QIDEO, it was like very different, right, it's like at the height of the five
+ summer type of project, no fundraising, you know, max aloe to the community, air dropping
+ strangers, I don't even know who owns the token, like the largest whales, it's like
+ random people, but yeah, it was a wonderful project, it was the first cross-chain stablecoin.
+ Okay, and this is what I'm polygon.
+ Yeah, well, polygon started then Phantom, Avalanche, before you had OFT or ERXRC, we invented this
+ idea that the token when you bridge it from different chains should remain the same, it
+ should be fungible.
+ For us, that wasn't the case, right, you would have Wormhole, Avalanche, USDC, or, you know,
+ Layer Zero, Wormhole, Avalanche, USDC, Ethereum, like some long string like that.
+ And so you had some crazy pools on Solana, for example, with all the different versions.
+ So before the show, I was asking you about your hot take, and you said that you think
+ that stablecoins are less safe than what people think they are.
+ Can you expand on that?
+ Why should people be worried about their stablecoins?
+ I mean, I don't, I want to say you should be worried, but I do think you should be cautious
+ about, you know, where you put your money, because what happens every cycle is that,
+ you know, we learn certain lessons about, you know, what is safe and it's not safe.
+ But it's usually the people that get burned that actually retain the lessons, because if
+ you lose money, you really remember, you know, these kind of lessons.
+ If you don't lose money, or if you weren't there, then you don't know what to look for.
+ And so there are a few things that, you know, are kind of being done again in this cycle
+ that I'm worried about that have been done in the past, for example, over trusting third
+ party bridges, right, even though we have these token standards that's supposed to have
+ minting limits.
+ The minting limits are the size of the market capital of the tokens, right?
+ So there's like not really any like, you know, protections there.
+ When it comes to, you know, DeFi, we're, we're rebuilding Celsius and have, and all these
+ different, like, what's it called, like CD5 lending platforms that we're building them
+ on chain.
+ And they didn't suddenly become safe, right?
+ It's the same issue of unsecured lending to teams, but now we're doing it on chain.
+ And I think that's very unsafe and I'm worried about how that's going to end up.
+ So yeah, in general, I just think we should be very cautious about money because it's
+ money in the end of the day.
+ It's not a game and people can, you know, get hurt.
+ So you know, we used to talk about stablecoins in three buckets, or at least, you know, I
+ think like around 2021, people would talk about stablecoins as like there was the algorithmic,
+ you know, the likes of overall, you know, and then you had like sort of CDP, you know,
+ over collateralized and then, and then centralized, like USD C or something like that.
+ Do you think those categories still stand today and, or, or do you think that we're sort
+ of finding new types of stablecoins?
+ Yeah, I think that definitely one of those kind of died or it's like not very big anymore.
+ CDPs are not big anymore.
+ I think in general synthetic stablecoins, at least in number, they're not that big, right?
+ Like there's one big synthetic stablecoin right now that's extremely successful and
+ it's Athena, right?
+ Synthetic meaning is not fully backed by dollars.
+ It's partially backed by other things that are not dollars.
+ By and large, more stable, most stablecoins today are eventually redeemable for the dollar,
+ whether it be TBOs, etc.
+ So yeah, CDPs have definitely gone down in size.
+ Obviously, algorithmic ones are gone.
+ So really, now we find ourselves in, you know, world where there's two main buckets, I think,
+ where you have yield bearing stablecoins and there's many different kinds of yield bearing
+ stablecoins and you have these like non yield bearing stablecoins that are, you know, backed
+ by bank deposits and they're, you know, a genius at compliant like PYUSD, like USDC,
+ etc.
+ Why do you think the over collateralized model didn't work so well, right?
+ Because I mean, like, I think the starting principle of say something like MakerDAO was
+ to have a highly decentralized stablecoin with no kind of like, no USD collateral or
+ at least no reliance on centralized stablecoins as collateral.
+ And I think for people, a lot of people in crypto that got into crypto as a rejection
+ of the fiat system, that's like a very powerful idea, you know, today, like size, maybe, you
+ know, in the top five, but certainly a lot in the top two, which is dominated by USDC
+ and UST.
+ And then we have projects like FX, right, that claim to be super decentralized.
+ But, you know, I talked to them on last episode and it turns out that, you know, the dollar
+ peg is actually based on sort of relies on USDC.
+ Yeah, why do you think those like haven't really taken off and would you think they should?
+ Like, do you think there's a space for highly decentralized stablecoins that are over collateralized?
+ I mean, we have to acknowledge what the discourse is today in DeFi, right?
+ In the last cycle, it was decentralization, right?
+ How can we stay away from the traditional banking system?
+ And this is largely due to how regulators viewed crypto.
+ They did not want to engage with us, you know, they were going after teams.
+ And so you saw the rights of projects like liquidity, which is arguably the only decentralized
+ stablecoin, right, in crypto.
+ Now it's different.
+ What everybody cares about now, institutions, institutions, institutions, right?
+ How can we partner with banks?
+ How can we connect to the traditional finance system?
+ And these traffic guys don't want to play any games, right?
+ They don't want a stablecoin that's not backed by dollars, because that is risky.
+ Objectively is very risky, right, because we're not the US government.
+ We can't print dollars, and so this kind of push to be compliant or at least adjacent
+ to tradfi has pushed our whole industry to forget about decentralization and focus more
+ on scalability.
+ You think the industry is really forgetting about decentralization?
+ Yeah.
+ Yeah, I mean, yeah, I mean, I don't sound like a Debbie Downer, but like for real, I think
+ like people just don't, they don't value it as much as they care about scalability, right?
+ If you're looking at, you know, centralized L2s, if you're looking at every single stablecoin
+ that's coming out, right, is centralizing nature either because of their collateral or
+ because of the team's administrative power over, you know, the protocols, you know, we're
+ no longer counting how many multi-six signers there are on these multi-six.
+ We're no longer worrying about time logs, right, the idea of fully open sourcing your
+ code base is no longer the standard.
+ So just as like a review of where we are as an industry, it's just factual to say that
+ decentralization for D5 protocols in general is not at all at the top of mind.
+ Hmm.
+ Do you think that's a positive development and if that's the case, then why do we still,
+ why would we still call it D5?
+ Like, what is the distinction that like, I mean, is it just like, is it just FinTech
+ with better tech?
+ Is that like the direction we're going in or like, is there still some viability in
+ the D part of I?
+ Well, I think blockchain is not just decentralization, right?
+ There are many things about the blockchain that are good for finance.
+ Possibility is one that really comes to mind, right?
+ Like a lot of people talk about rebuilding Swift.
+ We already have it.
+ You know, literally any chain in the world with tokens can just, can be Swift, right?
+ It's just send and receive between wallets and there you go, it's done.
+ And so, you know, that's very powerful.
+ That's interesting.
+ I've never heard it.
+ I don't think it's negative.
+ I just think it's like, it's part of any industry, right?
+ You know, like right now AI probably is in a, like a moment of high, uh, romanticization
+ of what you can do with, with AI, whereas crypto, we've definitely gone through this
+ solution then.
+ And now we're looking at mass adoption.
+ And when you look at mass adoption, you have to get rid of the things that most people
+ don't care about.
+ You have to focus on the things that most people care about.
+ And for us, you know, boomers in crypto, that, you know, maybe we cared a lot about max decentralization
+ in the past.
+ You know, if we want the world to use crypto, maybe we need to think about what everybody
+ else cares about too.
+ What do you think is like, if there's one thing that the industry needs to kind of maintain
+ as a core principle, um, when interacting with the tradfi world or like traditional finance
+ kind of regulated world, like what is, what is the one property or the one thing that
+ like we can't deviate from in order to remain successful and like have a future where, you
+ know, this whole project has not been in vain.
+ Well, part of us maturing us in this sheet mean that means that we're no longer, um, sort
+ of unified in values.
+ We're definitely in a multipolar world, um, within crypto, where different groups have
+ different values, right?
+ Things that they think we should keep.
+ Personally, um, the group that I find myself in is, uh, that of safety.
+ I really think that, um, the transparency of smart contracts, the immutability of smart
+ contracts can provide a lot of safety, um, and if we can maintain that, um, then we can
+ make finance better than it is today.
+ I want to kind of come back to what you said earlier where decentralization is, uh, less
+ of a, is a value that is like sort of, um, not, not as coveted as it was perhaps previously,
+ right?
+ Or towards, um, we're moving away from, from the decentralized aspect of crypto.
+ Do you think that like, isn't, isn't it true that the infrastructure layers need to remain
+ decentralized?
+ Otherwise, they just kind of like, there's just databases, right?
+ And I like this entire project has been kind of useless.
+ We could have just built new data, we could just like done this on databases.
+ Is there some amount of value, right?
+ Like is it, is it like that maybe the higher layers of the stack are less decentralized?
+ Um, but the lower end of the stack are still like DeFi, I'm talking about like DeFi.
+ I'm talking about stable coins, right?
+ Stable coins DeFi people don't care about decentralization as much as they used to.
+ Um, for base layers, they do and, and the writing saw on the wall, who has the most stable
+ coins in crypto, it's Ethereum and nobody comes close, right?
+ We've seen so many people try to make their own stable coin chains for many years, there
+ have been many and they really haven't kicked off, right?
+ The L2s don't have a lot of stable coins at all.
+ And it's because at scale, money's not dumb, right?
+ At scale, people care about principal protection.
+ And so that's why they're on Ethereum, using the applications on Ethereum.
+ And some of those applications might be, you know, less central, decentralized that we
+ would want them to be.
+ But at least as you said, people care about the base infrastructure being decentralized.
+ Hmm.
+ Well, I think we'll come back to this maybe a little bit later, but, um, let's talk about
+ caps design.
+ And so, you know, broadly speaking, there's different participants within the protocol.
+ We have also sort of like different technical modules, different smart contract modules.
+ And, um, and cap utilizes restaking to ensure its deposits.
+ So give us a high level and maybe we can kind of drill down into the different parts.
+ Yeah.
+ So cap is a stable coin protocol to generate yield for users in a way that, um, we can
+ one, ensure the peg at all times and two, we can protect, um, users from the activities
+ that must be done to generate yield, right?
+ Uh, and the way that we do that is by two products.
+ One is CUSD, which is a digital dollar.
+ And this digital dollar you can mint it with others, stable coins, like USDC or money market
+ funds, like Benji and Biddle, um, what's great about that is one, you don't need liquidity,
+ right?
+ Cause at any point you can just redeem a hundred percent of the market cap, no slippage and,
+ and then you're good.
+ So you don't need to spend money on curve or, or any sort of, uh, AMMs, uh, which is quite
+ nice for us.
+ Um, and it also means for users, they can leave whenever they want, right?
+ They don't need to be worried about, uh, about the peg.
+ The other product that we build is, uh, you know, the staked version of it, which generates
+ yield and this yield comes from two sources, primarily at the beginning from the base yield
+ of each asset.
+ So for example, all the money market funds earned the US Treasury's yield, uh, and then
+ the stable coins, which are not allowed to share the yield because of Genius Act, um,
+ we use some, um, different strategy for each of them, depending on their circumstance.
+ For example, USDC, you would put it on Ave, um, because it's an over collateralized lending
+ market.
+ Uh, but that's, that's not the exciting part.
+ The exciting part is the other kind of source of yield.
+ Uh, and we've built this sort of allocation engine where third parties, uh, like regulated
+ financial institutions or DeFi protocols can compete with each other to generate yield
+ for our protocol.
+ And the way they do that is that they provisioned loans from our reserve, um, and pay some sort
+ of fee right in exchange for the loan, uh, and they go off and they all execute their
+ own strategy.
+ So there could be a thousand, 10,000 of these kind of yield generators competing at one
+ time to generate yield on the stable coin, um, but we don't trust any of them.
+ And so before they can come to our protocol and generate yield, they need to convince
+ a restaker on symbiotic or eigenlayer to vouch for them with their cryptocurrencies.
+ Um, and if the yield generator were to default and not pay back, we can slash whoever vouched
+ for them.
+ Yeah.
+ I'll stop there.
+ There's a lot you can go into.
+ But that's the high level.
+ Yeah.
+ It's, that's, that's great thing.
+ So, so there's two products.
+ There's the CUSD, which is the non-year yield bearing stable coin and then you have SDC
+ USD, uh, which, which generates yield, like why would someone hold CUSD over USDC?
+ What's, what's fundamentally the difference?
+ What's all about integrations, right?
+ In, in a lot of integrations in DeFi, like perp, Texas or, um, you know, pools, et cetera,
+ you can't use, uh, yield bearing assets.
+ You need a pegged asset.
+ And so, um, if you look at some of the larger, um, yield bearing stable coins today that have
+ a staking, uh, module, um, they all have lower than 70% staking rates.
+ And that's because of these integrations.
+ Yeah.
+ Okay.
+ That makes sense.
+ And so, like, so if we just kind of recap here, so the, the user deposits some, some
+ collateral.
+ And in this case, it's, it's a stable point.
+ So USDC or USDT, um, that goes into the protocol, um, and then you have the operators that
+ are hedge funds, um, primarily institutions that will use those, those coins to go and
+ generate yield.
+ So they're implementing their own strategy and some of those, some of those might be
+ implementing like super high risk strategies, others may be implementing like lower risk
+ strategies, but there's like a basket of strategies there.
+ And then we have restakers that are acting essentially as the backstop as the insurance
+ fund for, uh, against those USDCs, like against those deposits.
+ Insurance fund is a very passive term.
+ I would say there's sort of, uh, the decision makers.
+ So instead of having a Dow, say, you know, we're going to put our money here, we're going
+ to put our money there, restakers say, you know, Susquehana, you get to generate yield
+ for cap on $10 million or amber group you get to, you get to borrow $20 million to generate
+ yield.
+ And so they decide who gets to make yield, but in order to do that, they need to vouch
+ for them.
+ And so it's a bilateral relationship.
+ It's not like I as a restaker, I vouch for winter mute.
+ And now with amber group defaults, uh, I'm, I'm getting slashed.
+ I, I'm only exposed to whoever I vouch for.
+ And why is that important?
+ Because these, um, yield generators, what do they want to do?
+ It's not their money.
+ So they want to generate as much yield as possible so that their spread is very high.
+ Restakers, what do they want?
+ Well, they want yield, right?
+ Because, um, Bitcoin and ETH don't make yield compared to the dollars, not even close.
+ You know, the cryptocurrencies are not productive assets like the dollar.
+ And so they come to restaking land to get some sort of yield.
+ They don't want to get slashed above all else.
+ And so they're never going to underwrite extremely risky strategies or extremely risky, um,
+ third parties.
+ And so that kind of balances out the system.
+ So I don't know if you're familiar with this protocol.
+ I mean, it's, it's still like in the early phases of develop developments.
+ It's not released yet.
+ They have like a website, but, um, mezzanine where they have like kind of risk tranching.
+ Yeah, the tranching stuff.
+ Yeah.
+ I mean, there's, yeah, so it makes sense to have like risk tranching here.
+ So where, you know, you might have like low risk right where you're getting kind of like
+ the treasury yield and then maybe some higher risk and then like some very high risk.
+ And then that, all those different sort of yield sources are, um, are being combined
+ to provide the yield to the end user.
+ But there is some amount of like kind of backstop where the higher tranches are protecting the
+ lower tranches.
+ Yeah.
+ So here's the thing.
+ Retail has the mind to be making these decisions.
+ And so we abstracted away, um, you're right to say, you know, we have all these strategies,
+ but the dollar holders don't get any exposure to the risk, right?
+ If you're holding Stake CUSD, you are not exposed to the risk of the strategies.
+ Who is exposed is the restakers, right?
+ And so it doesn't really matter.
+ You don't have to tranch it.
+ Cause what would you tranch?
+ There's no risk to tranch, um, the tranching is on the other side where restakers can
+ choose like, Hey, I am super risk-averse.
+ I'm either fine.
+ So I'm only going to delegate to Bank of America, just to give you a random example.
+ Or maybe I'm risk taker XYZ and I want to get as much yield as possible.
+ Let me delegate to a crypto native market maker, right?
+ And so you'll, you'll have these different tranching on the other side and it's important
+ to keep it on the, you know, protocol or B to B side always tranching because, uh, there's
+ a lot of complexities, right, when either five delegates to, uh, institution, they're
+ not just trusting them, right?
+ They're signing some legal paperwork on the side to arrange what will happen if they get
+ sludge, et cetera, et cetera.
+ Who is in a good position to sue Bank of America, right?
+ It's not some, you know, uh, small farmer at all, right?
+ It's, um, these big projects that have raised millions of dollars.
+ They're in a good position to sue.
+ And so we're kind of shifting a lot of the burden of these, um, decisions and management
+ to the restakers, um, obviously not for nothing, right?
+ They get more yield than Ethan, Bitcoin have ever seen.
+ Okay.
+ Right.
+ So, so the restakers have legal agreements with the operators, the market makers, the
+ crypto, the crypto, private equity funds, et cetera.
+ Um, and those agreements lay out the types of strategies will have kind of like wrist
+ management, uh, provisions, et cetera.
+ And the restakers are on the hook for those operators doing their job right.
+ Exactly.
+ And the operators are on the hook to the restakers.
+ So you could put it like this, the stable coin holders are protected by smart contracts.
+ They don't need to trust anybody.
+ The restakers are protected by the law.
+ And so then, um, they should only delegate to good counterparties, right?
+ Uh, so scrijana may lose money sometimes.
+ Like everybody can lose money, but they are, are a good counterparty, right?
+ If they owe you money, they'll pay you back, right?
+ And so, um, that reduces the risk for the restakers.
+ So what, what constitutes the slashing event then and how are like, what's the flow of
+ capital for end users to be made whole if like one of the operators, you know, loses
+ all the money, you know, like, yeah, so we are a completely on chain platform.
+ Everything's smart contracts.
+ And so we don't really know if the borrower lost the money or not, right?
+ What do we know?
+ We know how much money they borrowed and we know how much money they've been delegated.
+ And so we track the collateral to debt ratio.
+ So how much delegated value is compared to the amount of loans and if that ratio falls
+ below a certain threshold, then that's when we liquidate sort of how over collateralized
+ lending markets track loads, like Avi and more full.
+ Right.
+ Okay.
+ So I guess one way to look at it would be that it's under collateralized lending where
+ the trenching happens between the operator and the restaker.
+ And it's kind of like abstracted away from the end user.
+ Sort of.
+ Yeah.
+ I mean, it's like, it's a three set of marketplace, which allows for, you know, three different
+ interpretations of the model, right, depending on where you're looking at it from.
+ From the point of view of the stable conholder, it's a miracle, right?
+ You're having an over collateralized lending market that's giving you three times the
+ rate of lava, right?
+ And you're like, what's what's going on, right?
+ And it's because you have this coincidence of once and needs of these three different
+ parties coming together.
+ Yeah.
+ I love a good cow coincidence of once.
+ Yeah.
+ Cool.
+ Okay.
+ So, and so who are the operators, like practically speaking, who are you working with and like,
+ what kind of strategies are they implementing?
+ I mean, if you, I guess like you don't know unless you're talking to them, which I suspect
+ you are.
+ Yeah.
+ We know, because they tell us things, which is nice.
+ So we launched a month ago.
+ And for the first two weeks, we focus purely on setting up the reserve, right, bootstrapping
+ it with USTC.
+ We got just over a hundred million in organic user deposits from in USTC.
+ And recently we started onboarding the restakers and the operators.
+ Now in terms of the operators, there's ample demand for liquidity.
+ Right now there's, there's a lot of market volatility.
+ There are a lot of opportunities to make yield.
+ And so demand for loans is pretty high.
+ We have operators like Amber Group or like GSR who are blue chip market makers in crypto.
+ We also have Susquehana, IMC and flow traders, which are their counter parties in the track
+ five world.
+ You know, these are huge enterprises over 200 billion in AUM.
+ So it's not just some random, you know, companies that we've put together.
+ And then finally, we also have some, um, define native names, right?
+ Like gauntlet soon to have RE7 as well.
+ So there's definitely a mix.
+ And that's the, that's the goal, right?
+ Because right now you have all these stable coins that are just making yields from treasuries
+ or maybe basis trade.
+ I can come to you and say, well, we're going to make yields from anything that the dollar
+ can touch because we can have a theoretically unlimited amount of operators to the extent
+ that restakers are willing to on the right, a theoretically unlimited amount of operators.
+ Okay.
+ So this is kind of like where that kind of like insured or covered loan, um, component
+ comes in where like the restakers are covering the loan.
+ We look at it as guarantees.
+ Right.
+ Right.
+ Okay.
+ Um, has there been a slashing event?
+ I mean, as you like, you launched a month ago, but, um, that's what I suspect now.
+ No.
+ And you know, we're, we're going through great pains to make sure that there's no slashing
+ events within at least the first year, um, because that would, that would be bad.
+ Right.
+ You know, people get spooked for all sorts of reasons in crypto.
+ Um, and so at the beginning, we are whitelisting who gets to borrow.
+ So even though the final say is actually at the restaker level, cap as a team is, can
+ can block certain people from borrowing, even if they have delegations.
+ And this is because the last thing we want is for somebody to start up a restaking protocol
+ and delegate to a meme coin trader and lose all their money and get slashed because then
+ all the other restakers are going to look really bad and their users are going to start
+ getting scared.
+ Like, or we next, even though, um, you know, a meme coin trader has nothing to do with
+ us.
+ It's completely different risk profile.
+ So which restaking protocols are you integrated with?
+ Right now every single major restaking protocol is either delegating or is in the process
+ of delegating to cap.
+ Some of them are faster than others.
+ We're very happy with, you know, Renzo as our first, uh, delegator on symbiotic and
+ concrete, the next one, but then sticks to an, a hyper rhythm, I've already delegated
+ this week as well.
+ So very happy with them, uh, and obviously excited to work with all the other ones that
+ are on the way.
+ Yeah.
+ I know you guys are working with symbiotic.
+ We're like, what's, what's unique about symbiotic that kind of like, um, makes this all work
+ as opposed to say, like other protocols, like, I can layer have to be political here.
+ Um, you know, they're both great projects with great teams.
+ And we are integrating both eventually right now.
+ We're in audit for, for I can layer, but we started with symbiotic, we actually finished
+ the coding fab and we've audited five times with like trail of bits, spear bit, um, recon
+ share like a bunch of, uh, top tier auditors.
+ Um, what do I like about symbiotic?
+ Well, it works.
+ Right.
+ All the, uh, all the kind of, uh, um, features that we needed are, we're live when we needed
+ them.
+ And so we were able to launch their, um, the team is very, um, you know, high quality.
+ They know how to ship.
+ And so everything kind of worked the way we wanted it to work.
+ Uh, and then finally obviously the modularity is actually pretty interesting, uh, because
+ obviously cap is not the original intended use of restaking, right?
+ It's not the original intended use case of, of, um, shared security as a whole.
+ Um, what could argue is one of the best, in my opinion, uh, but we can go into, uh, what
+ I think about shared security later.
+ Um, but yeah, that's, that's why I like symbiotic.
+ Yeah.
+ What, what do you think about shared security, like what are the really valid use cases for
+ shared security other than like this guarantee, this, this loan guarantee, which I agree.
+ I think it's like a really cool implementation and like, uh, use case for restaking.
+ Yeah.
+ I mean, I think it's, it's interesting that, you know, when I read eigen layers white paper,
+ I saw universal marketplace of trust, which I interpreted as, you know, you have people
+ with money, which is ETH, right?
+ And they have nothing to do with it because ETH doesn't have as many use cases as the
+ dollar.
+ And then you have people with skills, right?
+ And there's some sort of trust economy where the people with money can guarantee the actions
+ of the people with skills.
+ And then in practice, everybody was starting to build these POS, uh, like networks where,
+ um, they were just validating off chain data.
+ And I thought to myself, why are we limiting, um, this technology to just validating off
+ chain data?
+ If you think about it, validating data is not a very high margin business, right?
+ So can you really pay, um, the high cost of shared security just to validate data?
+ And the answer is no, right?
+ Right now these, um, validation systems are generating zero dollars in fee, not a cent,
+ not 10 cents.
+ They're generating zero.
+ And that's because, you know, you have to constantly validate a state, but you don't
+ constantly generate fees.
+ And the only way to make up for that, um, in balance in the accounting is to issue incentives.
+ And that's why Ethereum has inflation.
+ Sometimes that's why, you know, Bitcoin gives the token, right?
+ At the whole point of Eigen layer and symbiotic is that you don't need to have another token
+ and you just reuse the value of these tokens to have real value.
+ But if you, if you don't generate yield, then how do you pay?
+ Right?
+ Um, anyways, so I was not very happy with most folks focusing on validating data.
+ And I thought that we should really expand the use case of these guarantees to any sort
+ of activity.
+ It's just so happened that I'm using it to allocate funds of the stable coins collateral
+ to generate yield, but it really can be anything.
+ You know, earlier where we're talking about kind of like decentralization and, um, whether
+ or not, like, you know, it continues to be relevant, do you think that this particular
+ use case for restaking that is using a decentralized validator set and the, um, the assets that
+ gain value due to that decentralization to secure or act as kind of like on chain insurance,
+ do you think that that's a use case that can grow and kind of scale and become, you know,
+ the, the reasonable debts for, for restaking?
+ Cause like, I, I agree this whole like data validation, like doesn't seem like a really
+ good business long term.
+ Yeah.
+ I, I think guarantees in general, um, are definitely the way that restaking will survive
+ and will thrive.
+ Um, if you look at a lot of, um, you know, asset managers, both, both bracket banks,
+ um, one thing that they really like about crypto is obviously the composability.
+ The other part is smart contracts, right, because a big problem in tradFi is having
+ to trust other people trust is the biggest issue with finance.
+ And so smart contracts can alleviate that and organization systems like symbiotic can
+ alleviate that.
+ And so I think there's ample PMF for it.
+ Uh, and that's one, like the demand side on the supply side in terms of like ETH and,
+ and Bitcoin, these assets have a lot of value and I don't think we're paying taxes in Bitcoin
+ anytime soon.
+ And so there's not going to be a lot of use cases for Bitcoin compared to the dollar.
+ So this use case of restaking or using your assets to delegate to other people, I, I think
+ it will have a lot of PMF for a long time.
+ So we touched on this a little bit, but you mentioned the genius act, um, and, you know,
+ that some stablecoin projects were not like genius, I compliant and others probably won't
+ be.
+ Um, what do you think will be the dividing line there?
+ And, you know, for those projects that are genius, I compliant, um, is it mostly then just
+ kind of like having access to the US traditional financial system and maybe that's the dividing
+ line between what we consider to be kind of like the degen projects and those that are
+ not degen.
+ Um, yeah, what's your, what's your kind of like long term take on that?
+ Yeah.
+ I mean, I think we definitely live in a multipolar world outside of crypto as well.
+ So there's, is not the case that, you know, the US says this is what we need to do and
+ everybody does it.
+ Um, there will be folks that are not compliant and they're just maybe, you know, putting
+ their foundations in the payments and living in another country and, and kind of like just
+ not paying attention to American laws at all, you know, changing their UIs to block Americans.
+ So they can say, you know, we don't have to follow the laws.
+ Um, cap is our first round was with Susquehanna and our last round was Franklin Templeton to
+ great American institutions.
+ There's no hiding from US regulations, right?
+ We're also American.
+ And so the way we're going is the way of compliance, right?
+ And if regulators have a problem with us, we're, we're prepared to, um, to change things,
+ right?
+ And I think if you want to get big, if you want to be a large financial institution in
+ the future from the landscape of crypto, um, complying with American regulations is key
+ because that's where all of the world's money lives.
+ Yeah.
+ I agree.
+ I think like this change, this change in the administration, um, really has opened up
+ the gates for a lot of capital to come into the space.
+ And I think like a lot of people see it as like, Oh, like this legitimizes crypto in the
+ US, et cetera.
+ But the offshoot of that is that there's just like potentially hundreds of billions of dollars
+ that can flow into the ecosystem and, um, and that's not going to happen in probably
+ not in places like Europe, where the political discourse is very different.
+ Um, although I think there has been some, there has been some departure a little bit,
+ like at the E level from the CBDCs now that they've seen kind of like what the genius
+ act includes and what it can mean for US companies.
+ There is a little bit, at least I've, I've, I've kind of seen on Twitter as of some back
+ tracking, uh, to, to something that looks more like the US system.
+ Um, yeah.
+ What, what are your thoughts on the kind of like, yeah, you mentioned multi polarity.
+ Um, where do you think things go from here?
+ If we look at like, you know, the big polls, right?
+ So like US, Europe, BRICS and China.
+ Well, I'm not worried about Europe too much from a capital markets perspective.
+ Um, most of these large institutions that are involved in crypto within Europe are, uh, invested
+ in us.
+ So I'm see flow traders, edge capital, flow desk.
+ They're all, uh, not only investors in cap, but they're also operators, meaning they are
+ prepared to borrow and generate yield for a stablecoin protocol.
+ Uh, and so that's, that's all you need to see, right?
+ The, the people that need to be involved are involved and we'll have to see what regulators
+ do about that.
+ Um, obviously there's nothing to say about South America, right?
+ Because they're having fun.
+ They use crypto.
+ They don't care about, you know, the tokens, they, they've been using stablecoins for a
+ while and they're continuing to use stablecoins in the future, uh, because they're a wonderful
+ use case down there.
+ Um, our, our job is going to be to try to tap into as many of these regions as possible.
+ And the way that we're doing that is by accepting collateral assets that are integrated in each
+ area.
+ So, you know, America will have the stablecoins that are popular in America.
+ Uh, Europe will have, you know, the money market funds and the stablecoins are, uh, are
+ popular there.
+ Our job for CSV side, all of that is collateral.
+ So if you want to enter our yield system from Singapore, you can do that maybe through
+ UOB or if you want to enter our system from Germany, maybe you can do it via Deutsche
+ Bank's, you know, money market fund.
+ And so no matter where you are, capital will be able to connect, uh, via these kinds of
+ integrations with the money market funds and with the stablecoins.
+ Yeah.
+ I think my, my kind of high level view on the Europe, US situation, so that the US very
+ early, I mean, even like, I think US institutions, maybe, maybe the government, uh, like the
+ previous administration didn't see it this way, but at least like institutions saw crypto
+ and stablecoins as a, um, as like, a technology that could, uh, improve, uh, composability,
+ improve, um, reliability and, and, um, and security of the system as like something that
+ needed to be adopted by the industry with the administration kind of giving that a green
+ light.
+ And if it feels like it's, you know, full steam ahead, I think European banks and European
+ financial institutions, at least like the most more traditional ones, um, are more risk
+ averse.
+ And I think there's, um, there's like regulators and policymakers are kind of, um, sitting
+ in this really uncomfortable position where pushing stablecoins or the advancements of
+ stablecoins in Europe kind of undermines the power of traditional banks.
+ Um, and probably it will take a really long time for stablecoins to be kind of fully adopted
+ in Europe in the same way that it, you know, Europe was kind of behind the US in terms
+ of its adoption of e-commerce.
+ Any technology in Europe just takes a long time because institutions have so much political
+ power and at the same time, I mean, not that they don't have political power in the US,
+ but they're very risk averse.
+ They're very adverse to change.
+ They're very comfortable in their position, they're not pro-innovation.
+ I mean, all traditional industries are true, but I think, I think in Europe, there's an
+ even stronger sense of, uh, wanting to sort of like sit on your laurels and, uh, sit on
+ your established, uh, uh, rule, like position as an incumbent, which, um, kind of informs
+ policy.
+ Yeah.
+ I don't want to say too much about politics.
+ I, I might, our marketing, uh, person's going to be looking at, at this interview and, you
+ know, pulling their hair out.
+ So I, I wanted to maybe like, let's, let's just kind of do a thought experiment here
+ and, you know, let's kind of overlap stablecoins on the traditional finance system.
+ Um, so, you know, if, if we look at, if we look at, you know, kind of trad fire, right?
+ Like, let's, let's take a country like France, um, you know, the central bank, or at least
+ the European Central Bank, like issue zeros, flows down to the French Central Bank, the,
+ the French Central Bank, um, then lends those year, those euros out to, uh, lens out those
+ years out to, to, to banks, right, regulated banks and, um, and then those banks then like
+ issue their own kind of stablecoin, right?
+ Their own, uh, version of the euro, uh, to, to depositors, right?
+ To like their, their, um, uh, to their customers.
+ And you know, we have like, you don't, you don't see it as a, as a user of the system,
+ but in reality you have like a, you know, for Americans, these bank names are not going
+ to mean anything.
+ You have the banks, right, like that are issuing their own version of the euro, and that's
+ kind of abstracted away, um, but it works because you have this really good interoperability
+ between all of these systems because we have like kind of nationwide payment systems, and
+ then, and there's the backstop and it's underwritten by the central bank, which itself is underwritten
+ by like trust and institutions and their ability to lock people up, right?
+ Um, in crypto, it's a little bit more complicated because, um, we don't have this kind of like
+ institutional backstop and the interoperability is, is also there's, there's sort of complexity
+ in the interoperability aspect as well, where like, you know, your CUSD is not, um, as fluently
+ interoperable with any other stablecoin because the risks are kind of like different.
+ Do you, do you kind of like see this parallel as kind of being relevant and where, how do
+ we get to a point where anybody can just be using any stablecoin and they're, they're
+ not kind of encumbered by this, um, uh, this problem that like the different risk profiles
+ of the protocol introduces where these different coins are not interoperable.
+ Yeah.
+ I think it's a matter of, um, like the design of the mechanism, right?
+ Cap works with every single on ramper off, ramper, every single payment provider, you
+ know, every single bridge.
+ Why?
+ Because we're instantly redeemable for USDC, right?
+ And you can, within our reserve, you can sub within all the, the tokens, right, between
+ the money market funds, between the different stablecoins.
+ So, you know, you tell me there's an issue of interoperability, certainly not a cap,
+ right?
+ Because that's how we've designed the system.
+ And you'll see that happen, uh, with larger companies, like Coinbase, for example, you
+ know, they take PYUSD deposits, um, as USD, just like they take USDC.
+ And so it's just a matter of who trusts who cap trust, Franklin Templeton, and also they
+ trust BlackRock.
+ And so now we can act as like a bridge between them, uh, Coinbase trust circle and they trust
+ PayPal.
+ So now they can act as, uh, they can act as a bridge between them.
+ And so as, uh, as long as you kind of grow this pie of trust, you can start seeing this,
+ these connections.
+ And it's very similar to the banking system where overseas banks can connect to each
+ other via, you know, this wire system that we have, um, in, in TratFi with the added benefit
+ of, uh, of how elegant crypto is right for, uh, organizing token transfers, but it's not
+ a very difficult problem.
+ I, I just, I just think we need, if you have a good design, then interpretability is pretty
+ easy.
+ I want to like kind of zoom into this trust aspect.
+ And this kind of circles back to what we were talking about earlier.
+ Like, you know, a lot of people in crypto got into crypto because of kind of this rejection
+ of the fiat monetary system.
+ So if you talked early Bitcoiners and like early Ethereum folks, like this, this, this
+ idea that fiat, which actually, um, the etymology of that word kind of comes from the word trust,
+ right?
+ It's a monetary system where you, where you trust others.
+ Um, crypto kind of felt like it was a rejection of that.
+ I mean, it didn't feel like it was a rejection of that, um, of that, of that idea.
+ And you know, hearing you speak now, it sounds like you're talking like we're going back
+ into kind of a trust based system, um, but with one kind of one, uh, distinction is that
+ because risk is now kind of spread across different, uh, restakers, uh, different,
+ uh, kind of funds, et cetera, in the case of cap, it creates a, a more opaque central kind
+ of like, authority to who is responsible, right?
+ So it actually makes things more complicated for the end user, uh, who has like suffered
+ some damages because of misconduct, right?
+ Well, it depends on how you do it.
+ Like, for example, like with us, you know, we take Benji, we take UCC as collateral and
+ you can track and see, you know, these are the collaterals we take.
+ It gets more complicated if, you know, you're, uh, backed by Eve, but then you also put money
+ in Ave.
+ And then who knows where I have is putting that money and, and you have like these more complicated
+ systems.
+ And there are such stable coins where you don't really know where the money's being put.
+ And so I agree with you that the, the question of, okay, I lost money, who, who's fault wasn't,
+ will become more complicated when you have these stable coins that are kind of acting
+ like hedge funds and putting their money in all sorts of places.
+ But it's certainly not the case of cap, because we're all DeFi PTSD, you know, survivors.
+ And we've built cap in a way that you're able to track what you've just described, right?
+ Who, who is responsible for maintaining the quality of the collateral?
+ I guess it's not a reflection on cap, but just kind of like as the, uh, for the industry
+ as a whole.
+ So where the risk is more spread, perhaps it means that the chances of something happening
+ that, yeah, the chance of something happening is, is reduced, but, you know, it's increased,
+ but it's like the, the, the penalty of it happening is lower.
+ Sorry.
+ The penalty, the penalty may be less, right?
+ Um, but also like the crypto world operates in a space where, you know, there is a lot
+ of opacity around like where operators are situated and certainly like, I think regulation
+ can kind of kind of help with that where, you know, there may be like clear, um, pass
+ to litigation when that happens, but yeah, I mean, look at what happened to multi-chain
+ the bridge.
+ They got hacked by the Chinese government or like a local government and all the money
+ got stolen.
+ So finance, froset, circle, froset, telefroset, they haven't returned the penny to users.
+ And the Phantom Foundation has been suing Binance and all these teams to give the money back
+ and they've refused to do it.
+ And, and they haven't been able to get the money back because, you know, that's just how
+ regulations are.
+ Um, and so you're, you're right.
+ Um, I see, and that's kind of why we built cap the way we built it because I really just
+ don't think that users are in a place to get any sort of recourse.
+ If your favorite yield bearings, they will coin at the pegs, you're going to be suing
+ some random Cayman entity, right with, um, you know, a director who is the same director
+ for every other, uh, Cayman entity in crypto and you're going to find yourself without
+ a nickel of recourse.
+ Yeah, I think, I think this is where like regulation will play a huge role is where these
+ entities need to be kind of like local in their jurisdictions where they're situated
+ and where, um, they become highly sort of entangled with the traditional finance system, central
+ banks, et cetera.
+ Uh, but I think we're like really long way until that happens.
+ Yeah, that's why you have to choose like, do you want to trust the government or do you
+ want to start, trust more contracts?
+ And I think any project that's in the middle where you're not trusting smart contracts,
+ you're not trusting the government, you actually trust is some random developer team.
+ I am very scared of those projects because I know I can trust the government somehow
+ a little bit.
+ And I know I can definitely trust more contracts.
+ I know darn well, I can't trust random developer teams.
+ Yeah.
+ Well, some, some, some people would definitely not agree with you that you can trust the
+ government a little bit, but that's a conversation for another trust like regulators more than
+ I trust a random, you know, startup in general.
+ Yeah.
+ Yeah.
+ Yeah.
+ Yeah.
+ I think some people might that agree with that.
+ But yeah, obviously.
+ Where the kind of proliferation of stable coins does excel is offering these different
+ trust assumptions.
+ So you have like stable coins that are fully centralized where you don't have to trust
+ anyone.
+ And then you have stable coins that are fully centralized and you have like sort of things
+ in between where you're relying on centralized stable coin deposits, but those deposits are
+ backed by a decentralized asset in the case of cap, right?
+ So like you're, you're backing the, you're backing the centralized stable coin deposit
+ in the form of USDC USDT with an insurance or a guarantee that is secured by a decentralized
+ asset.
+ And that might be like the, the middle ground that we need to scale, but then also remain
+ decentralized.
+ How could I disagree with such a beautiful explanation?
+ Well, Benjamin, thanks for coming on.
+ Anything you want to share before we wrap up?
+ I would say that, you know, a lot of people have said recently that the stable coin space
+ is extremely crowded and there are too many stable coins, but I think they're wrong.
+ I think they're not that many stable coins that are differentiated in crypto.
+ And so if you are, you know, a founder that's trying to make a new stable coin, make it,
+ you know, I want there to be a hundred new stable coins, a thousand new stable coins because
+ the more innovation that happens, the more liquidity we're going to get on chain.
+ And that will benefit everybody because it's much easier to convince somebody that's using
+ another stable continuous yours than it is for you to convince somebody that has money
+ like Bank of America to use your stable coin.
+ And so yeah, I just, I will have a call to, you know, not be discouraged by, you know,
+ how many stable coins there are in crypto.
+ Cool.
+ Well, thanks for coming on.
+ Enjoy the rest of your time in China and good luck with this.
+ - Thank you.

@@ -1,0 +1,4528 @@
+1
+00:00:00,000 --> 00:00:02,820
+ There's just a fundamental misunderstanding
+
+2
+00:00:02,820 --> 00:00:05,680
+ of what DeFi is, what a protocol is,
+
+3
+00:00:05,680 --> 00:00:09,360
+ who's involved, who has, to your point,
+
+4
+00:00:09,360 --> 00:00:11,480
+ what is control, what's not control.
+
+5
+00:00:11,480 --> 00:00:16,080
+ And it's really been tough to try to educate them
+
+6
+00:00:16,080 --> 00:00:17,760
+ to fully understand it.
+
+7
+00:00:17,760 --> 00:00:21,760
+ - At what point does ongoing judgment turn rule-based
+
+8
+00:00:21,760 --> 00:00:25,680
+ compliance or rule-based risk management into human control?
+
+9
+00:00:25,680 --> 00:00:28,280
+ And that's what I can't quite figure out in this bill.
+
+10
+00:00:28,280 --> 00:00:31,160
+ It's actually very ambiguous to me
+
+11
+00:00:31,160 --> 00:00:33,280
+ that even if you do sanction screening
+
+12
+00:00:33,280 --> 00:00:35,000
+ or some other compliance measure
+
+13
+00:00:35,000 --> 00:00:37,320
+ through a fully automated mechanism,
+
+14
+00:00:37,320 --> 00:00:39,640
+ you could still be exercising control.
+
+15
+00:00:39,640 --> 00:00:47,080
+ - Hi all and welcome to DeX in the city
+
+16
+00:00:47,080 --> 00:00:50,160
+ where the wallets are cold and the takes are hot.
+
+17
+00:00:50,160 --> 00:00:52,320
+ First we have Jesse, web three prosecutor turned,
+
+18
+00:00:52,320 --> 00:00:54,320
+ web three protector at Rivet Capital.
+
+19
+00:00:54,320 --> 00:00:56,120
+ - Hi guys, what a morning.
+
+20
+00:00:56,120 --> 00:01:00,160
+ - And we've been seeing it from the SEC to web three.
+
+21
+00:01:00,160 --> 00:01:01,760
+ - Hey everyone.
+
+22
+00:01:01,760 --> 00:01:04,200
+ - And I'm your host, Katherine, KK,
+
+23
+00:01:04,200 --> 00:01:06,200
+ fluent in trad fine and conversing in deep tech
+
+24
+00:01:06,200 --> 00:01:08,120
+ over at stark wearer.
+
+25
+00:01:08,120 --> 00:01:11,440
+ So first, before we get going, remember we're lawyers
+
+26
+00:01:11,440 --> 00:01:12,520
+ but we're not your lawyers.
+
+27
+00:01:12,520 --> 00:01:14,360
+ So nothing you hear on DeX in the city
+
+28
+00:01:14,360 --> 00:01:15,920
+ is legal or financial advice.
+
+29
+00:01:15,920 --> 00:01:18,200
+ It doesn't create an attorney-client relationship
+
+30
+00:01:18,200 --> 00:01:20,000
+ and for the fine print, as always,
+
+31
+00:01:20,000 --> 00:01:23,000
+ check unchainedcrypto.com.
+
+32
+00:01:23,000 --> 00:01:26,720
+ Today we have a jam-packed episode as always.
+
+33
+00:01:26,720 --> 00:01:27,960
+ I know, I know.
+
+34
+00:01:27,960 --> 00:01:32,480
+ You want to hear about crypto market structure legislation.
+
+35
+00:01:32,480 --> 00:01:35,560
+ The big news is a new markup on that bill
+
+36
+00:01:35,560 --> 00:01:37,240
+ dropped late last night.
+
+37
+00:01:37,240 --> 00:01:39,360
+ We're gonna explain what that means.
+
+38
+00:01:39,360 --> 00:01:42,240
+ And we have a very special guest joining us
+
+39
+00:01:42,240 --> 00:01:43,440
+ a little later in the program,
+
+40
+00:01:43,440 --> 00:01:47,160
+ Summer Mercinger, CEO of the Blockchain Association,
+
+41
+00:01:47,160 --> 00:01:51,240
+ one of the premier trade organizations for crypto in DC.
+
+42
+00:01:51,240 --> 00:01:53,520
+ We are going to give you all of the alpha
+
+43
+00:01:53,520 --> 00:01:55,200
+ and the intel on that markup
+
+44
+00:01:55,200 --> 00:01:58,880
+ and what that means for you as builders, lawyers,
+
+45
+00:01:58,880 --> 00:02:01,880
+ individuals trading or interested in crypto.
+
+46
+00:02:01,880 --> 00:02:05,320
+ But I want to start with something else.
+
+47
+00:02:05,320 --> 00:02:07,080
+ So stay with us.
+
+48
+00:02:07,080 --> 00:02:08,680
+ We are gonna shift to that topic then.
+
+49
+00:02:08,680 --> 00:02:09,880
+ For the next few minutes,
+
+50
+00:02:09,880 --> 00:02:12,040
+ we wanted to raise the news yesterday
+
+51
+00:02:12,040 --> 00:02:17,080
+ that Tether actually froze 182 million in USDT tied
+
+52
+00:02:17,080 --> 00:02:19,160
+ to five Tron addresses.
+
+53
+00:02:19,160 --> 00:02:20,840
+ So this was also big news.
+
+54
+00:02:20,840 --> 00:02:23,960
+ Somewhat overshadowed by crypto market structure.
+
+55
+00:02:23,960 --> 00:02:26,480
+ But you guys, this is Tether.
+
+56
+00:02:26,480 --> 00:02:28,880
+ For a while, Tether was kind of the bad guy
+
+57
+00:02:28,880 --> 00:02:30,560
+ in the stablecoin mix.
+
+58
+00:02:30,560 --> 00:02:32,120
+ They've changed a lot.
+
+59
+00:02:32,120 --> 00:02:34,840
+ It follows their voluntary wallet freezing policy
+
+60
+00:02:34,840 --> 00:02:38,280
+ introduced in, we believe December 23
+
+61
+00:02:38,280 --> 00:02:41,880
+ to align with treasury and OFAC sanctions compliance.
+
+62
+00:02:41,880 --> 00:02:44,680
+ And I think the major thing we want to discuss
+
+63
+00:02:44,680 --> 00:02:46,960
+ is this freeze forces at question,
+
+64
+00:02:46,960 --> 00:02:48,680
+ the industry keeps dodging.
+
+65
+00:02:48,680 --> 00:02:51,160
+ When we ask for regulation,
+
+66
+00:02:51,160 --> 00:02:53,320
+ what power are we agreeing to trade away
+
+67
+00:02:53,320 --> 00:02:55,760
+ and who gets to wield it in the meantime?
+
+68
+00:02:55,760 --> 00:02:58,840
+ Jesse, tell us more about this and why it matters.
+
+69
+00:02:58,840 --> 00:03:00,360
+ - Gotta think about this so much.
+
+70
+00:03:00,360 --> 00:03:02,680
+ So I'm so glad you framed it that way.
+
+71
+00:03:02,680 --> 00:03:05,200
+ But you gave a framing on what happened
+
+72
+00:03:05,200 --> 00:03:06,240
+ with the Tether freeze.
+
+73
+00:03:06,240 --> 00:03:08,480
+ And Tether has frozen before,
+
+74
+00:03:08,480 --> 00:03:11,120
+ so has circle and lots of other entities.
+
+75
+00:03:11,120 --> 00:03:12,760
+ So that is not the new story.
+
+76
+00:03:12,760 --> 00:03:15,800
+ But it is a really huge amount,
+
+77
+00:03:15,800 --> 00:03:17,960
+ which I think is worth commenting on here,
+
+78
+00:03:17,960 --> 00:03:21,840
+ which is over $180 million on Tron.
+
+79
+00:03:21,840 --> 00:03:25,280
+ And what's going on with the Tether freeze matters today
+
+80
+00:03:25,280 --> 00:03:26,480
+ on market structure day,
+
+81
+00:03:26,480 --> 00:03:28,880
+ but also just generally for the crypto industry
+
+82
+00:03:28,880 --> 00:03:31,160
+ because freezing is no longer an edge case,
+
+83
+00:03:31,160 --> 00:03:34,680
+ it's becoming a design assumption that's built in
+
+84
+00:03:34,680 --> 00:03:37,360
+ and it's becoming to be baked into legislation
+
+85
+00:03:37,360 --> 00:03:40,560
+ like Genius and now sections of the newest draft structure,
+
+86
+00:03:40,560 --> 00:03:42,520
+ market structure bill, which we'll talk about.
+
+87
+00:03:42,520 --> 00:03:43,640
+ So in other words,
+
+88
+00:03:43,640 --> 00:03:47,560
+ issue or level control already exists.
+
+89
+00:03:47,560 --> 00:03:50,280
+ And what I think is really, really concerning
+
+90
+00:03:50,280 --> 00:03:51,840
+ and we should be talking about is that
+
+91
+00:03:51,840 --> 00:03:53,640
+ most people don't understand it.
+
+92
+00:03:53,640 --> 00:03:56,160
+ They don't understand how, when, and why,
+
+93
+00:03:56,160 --> 00:03:58,640
+ and who gets to control your money.
+
+94
+00:03:58,640 --> 00:04:01,600
+ But before we get into that sort of debate,
+
+95
+00:04:01,600 --> 00:04:03,880
+ let's be really precise about what happened.
+
+96
+00:04:03,880 --> 00:04:06,480
+ So we use the words freeze,
+
+97
+00:04:06,480 --> 00:04:08,400
+ but that's very different than seizure.
+
+98
+00:04:08,400 --> 00:04:10,280
+ And I wanna make sure that we don't use them
+
+99
+00:04:10,280 --> 00:04:12,200
+ interchangeably like many do,
+
+100
+00:04:12,200 --> 00:04:14,040
+ because they are not the same thing.
+
+101
+00:04:14,040 --> 00:04:16,160
+ A seizure, which we're not talking about here,
+
+102
+00:04:16,160 --> 00:04:17,880
+ but has happened a lot in the past,
+
+103
+00:04:17,880 --> 00:04:19,840
+ is a court authorized action.
+
+104
+00:04:19,840 --> 00:04:22,960
+ So it's the government actually taking control of assets.
+
+105
+00:04:22,960 --> 00:04:26,000
+ That can be subject to a seizure warrant,
+
+106
+00:04:26,000 --> 00:04:29,520
+ which is like a search warrant under the Fourth Amendment.
+
+107
+00:04:29,520 --> 00:04:30,880
+ But a freeze is gonna be different.
+
+108
+00:04:30,880 --> 00:04:34,040
+ So that's issuer level control, like what happened here.
+
+109
+00:04:34,040 --> 00:04:37,040
+ The funds are still in chain, but they just can't move.
+
+110
+00:04:37,040 --> 00:04:39,560
+ So it doesn't matter how many jumps you are
+
+111
+00:04:39,560 --> 00:04:43,600
+ from the tether being issued or the USDT being issued,
+
+112
+00:04:43,600 --> 00:04:47,400
+ you can still programably be frozen in your wallet, right?
+
+113
+00:04:47,400 --> 00:04:48,880
+ That's very new.
+
+114
+00:04:48,880 --> 00:04:51,640
+ For enforcement, it's very new for issuers.
+
+115
+00:04:51,640 --> 00:04:53,760
+ So the freeze can happen after a court order.
+
+116
+00:04:53,760 --> 00:04:56,240
+ So it can be like a search or seizure warrant
+
+117
+00:04:56,240 --> 00:04:59,880
+ that says you have to freeze, but frequently it's earlier.
+
+118
+00:04:59,880 --> 00:05:02,840
+ So in response to a request from law enforcement,
+
+119
+00:05:02,840 --> 00:05:04,400
+ which sounds like what happened here
+
+120
+00:05:04,400 --> 00:05:07,080
+ because there is reporting it's tied to law enforcement,
+
+121
+00:05:07,080 --> 00:05:10,360
+ sanctions exposure, or just risk analysis.
+
+122
+00:05:10,360 --> 00:05:12,840
+ So let's be clear, like banks do this too.
+
+123
+00:05:12,840 --> 00:05:14,760
+ This isn't just crypto.
+
+124
+00:05:14,760 --> 00:05:18,120
+ What's different here is that it can be outside of the,
+
+125
+00:05:18,120 --> 00:05:20,440
+ what you think to be control,
+
+126
+00:05:20,440 --> 00:05:23,960
+ I'm putting quotes up for people not watching the video,
+
+127
+00:05:23,960 --> 00:05:26,040
+ but like it can be outside that what you thought
+
+128
+00:05:26,040 --> 00:05:28,360
+ was the control of tether because you're on Tron,
+
+129
+00:05:28,360 --> 00:05:29,560
+ you're like in your own wallet,
+
+130
+00:05:29,560 --> 00:05:31,000
+ you're in a different jurisdiction,
+
+131
+00:05:31,000 --> 00:05:34,880
+ but in fact, they can actually impact your funds.
+
+132
+00:05:34,880 --> 00:05:38,360
+ So now that we have the explainers out of the way,
+
+133
+00:05:38,360 --> 00:05:41,760
+ let's acknowledge why this all makes us a bit uneasy.
+
+134
+00:05:41,760 --> 00:05:44,520
+ A private company is immobilizing your money
+
+135
+00:05:44,520 --> 00:05:46,880
+ before a court has spoken
+
+136
+00:05:46,880 --> 00:05:49,600
+ and they can do so anywhere in the world.
+
+137
+00:05:49,600 --> 00:05:52,800
+ Sort of the opposite of what we talk about in crypto
+
+138
+00:05:52,800 --> 00:05:54,520
+ and what crypto has been building, right?
+
+139
+00:05:54,520 --> 00:05:56,640
+ Isn't that sort of the whole point
+
+140
+00:05:56,640 --> 00:05:58,560
+ of a lot of what we're building here?
+
+141
+00:05:58,560 --> 00:06:01,680
+ So I guess it just to get back to what you were saying,
+
+142
+00:06:01,680 --> 00:06:04,400
+ KK is like, when we ask for regulation,
+
+143
+00:06:04,400 --> 00:06:06,520
+ what trade offs are we actually making?
+
+144
+00:06:06,520 --> 00:06:08,680
+ I'm not saying the trade offs aren't worth it.
+
+145
+00:06:08,680 --> 00:06:11,960
+ I'm saying that I don't know if people fully understand them
+
+146
+00:06:11,960 --> 00:06:13,680
+ and are considering them when we talk about
+
+147
+00:06:13,680 --> 00:06:15,040
+ how we want to build our regulation.
+
+148
+00:06:15,040 --> 00:06:19,040
+ So freezing exists because many of the worst actors
+
+149
+00:06:19,040 --> 00:06:22,600
+ in crypto will never show up in the US courtroom.
+
+150
+00:06:22,600 --> 00:06:26,080
+ You can't reach the person, but you can reach the money.
+
+151
+00:06:26,080 --> 00:06:27,680
+ I did this all the time.
+
+152
+00:06:27,680 --> 00:06:30,880
+ So I'm not hating on freezing under the right circumstances
+
+153
+00:06:30,880 --> 00:06:32,760
+ and we did it with court permission,
+
+154
+00:06:32,760 --> 00:06:36,520
+ but we had child pornography cases where Bitcoin
+
+155
+00:06:36,520 --> 00:06:39,920
+ and other sort of forms of tokens were involved
+
+156
+00:06:39,920 --> 00:06:42,320
+ that don't necessarily exist or any more.
+
+157
+00:06:42,320 --> 00:06:43,760
+ And we were able to freeze them.
+
+158
+00:06:43,760 --> 00:06:46,520
+ More importantly, it happens all the time for DPRK,
+
+159
+00:06:46,520 --> 00:06:50,000
+ North Korea cases, Iranian cases, Hamas cases.
+
+160
+00:06:50,000 --> 00:06:53,280
+ That was a big part of the Hamas case I worked on.
+
+161
+00:06:53,280 --> 00:06:55,120
+ Well, with these new bills,
+
+162
+00:06:55,120 --> 00:06:57,960
+ issue level freezes are moving just from practice.
+
+163
+00:06:57,960 --> 00:06:59,520
+ That happens, you know,
+
+164
+00:06:59,520 --> 00:07:02,520
+ this issuer decides to do it here and maybe not here,
+
+165
+00:07:02,520 --> 00:07:04,400
+ but rather a policy.
+
+166
+00:07:04,400 --> 00:07:07,520
+ But I want to like pause and take a second
+
+167
+00:07:07,520 --> 00:07:09,640
+ to give a little credit to the bills
+
+168
+00:07:09,640 --> 00:07:12,840
+ because it's not just saying everyone has to do this,
+
+169
+00:07:12,840 --> 00:07:14,680
+ but rather the market structure draft
+
+170
+00:07:14,680 --> 00:07:17,200
+ that we got late, late last night,
+
+171
+00:07:17,200 --> 00:07:20,160
+ why we all look exhausted or I look exhausted
+
+172
+00:07:20,160 --> 00:07:23,240
+ is that the draft doesn't invent the power.
+
+173
+00:07:23,240 --> 00:07:25,800
+ It's actually trying to discipline it a little bit,
+
+174
+00:07:25,800 --> 00:07:27,080
+ like for better or for worse,
+
+175
+00:07:27,080 --> 00:07:29,760
+ it's trying to put rules around it
+
+176
+00:07:29,760 --> 00:07:31,440
+ rather than just saying, okay, well,
+
+177
+00:07:31,440 --> 00:07:34,200
+ Tethers deciding to freeze in this circumstance
+
+178
+00:07:34,200 --> 00:07:37,320
+ while circle's doing in a different circumstance, et cetera.
+
+179
+00:07:37,320 --> 00:07:38,840
+ But what we need to pay attention here
+
+180
+00:07:38,840 --> 00:07:42,080
+ is like what kind of control are we codifying in these bills?
+
+181
+00:07:42,080 --> 00:07:44,120
+ And maybe this part of the bill isn't getting
+
+182
+00:07:44,120 --> 00:07:46,120
+ as much attention because, you know,
+
+183
+00:07:46,120 --> 00:07:48,640
+ it's not the things that we're going to talk about later,
+
+184
+00:07:48,640 --> 00:07:51,040
+ like the DeFi portion of the bill
+
+185
+00:07:51,040 --> 00:07:53,880
+ or the stablecoin interest or many other aspects
+
+186
+00:07:53,880 --> 00:07:56,120
+ that crypto Twitter are talking about this morning.
+
+187
+00:07:56,120 --> 00:07:58,120
+ And we will too, 'cause they are important,
+
+188
+00:07:58,120 --> 00:08:00,840
+ but I just don't want us all to overlook it
+
+189
+00:08:00,840 --> 00:08:05,840
+ because we as crypto users ultimately bear the consequences
+
+190
+00:08:05,840 --> 00:08:08,760
+ of how this is exercised and when,
+
+191
+00:08:08,760 --> 00:08:10,360
+ and we need to make sure we understand
+
+192
+00:08:10,360 --> 00:08:13,200
+ what the trade-offs are and are we okay with them?
+
+193
+00:08:13,200 --> 00:08:15,760
+ - Jessie, first, I need to say you look great.
+
+194
+00:08:15,760 --> 00:08:17,560
+ You do not look tired, okay?
+
+195
+00:08:17,560 --> 00:08:19,740
+ And I hate when people say you look tired.
+
+196
+00:08:19,740 --> 00:08:23,500
+ - Yes, I mean, we have physical jobs, we work hard.
+
+197
+00:08:23,500 --> 00:08:27,720
+ Second, I want to move on to crypto market structure,
+
+198
+00:08:27,720 --> 00:08:31,640
+ but before I do, I want to highlight something really important
+
+199
+00:08:31,640 --> 00:08:35,920
+ and that is the power of economic sanctions more generally.
+
+200
+00:08:35,920 --> 00:08:37,240
+ It's interesting, like, you know,
+
+201
+00:08:37,240 --> 00:08:41,280
+ I spent years in private practice defending offshore entities,
+
+202
+00:08:41,280 --> 00:08:45,440
+ sometimes in sanctions related allegations.
+
+203
+00:08:45,440 --> 00:08:48,760
+ And in many ways, OFAC has more power.
+
+204
+00:08:48,760 --> 00:08:50,560
+ And you know, obviously this is up for debate
+
+205
+00:08:50,560 --> 00:08:52,760
+ that any other US regulator,
+
+206
+00:08:52,760 --> 00:08:54,480
+ including the Department of Justice,
+
+207
+00:08:54,480 --> 00:08:56,480
+ because you have an offshore entity
+
+208
+00:08:56,480 --> 00:08:58,160
+ and they get indicted by DOJ.
+
+209
+00:08:58,160 --> 00:08:59,520
+ It's like, okay, fine.
+
+210
+00:08:59,520 --> 00:09:01,840
+ Maybe I'm in a non-extradition jurisdiction.
+
+211
+00:09:01,840 --> 00:09:04,240
+ Maybe I just, you know, stop my executives
+
+212
+00:09:04,240 --> 00:09:06,120
+ from going to the United States.
+
+213
+00:09:06,120 --> 00:09:11,120
+ But OFAC and economic sanctions effectively cut off
+
+214
+00:09:11,120 --> 00:09:15,520
+ individuals or entities from anything touching the US dollar,
+
+215
+00:09:15,520 --> 00:09:19,000
+ which if you know anything about financial services
+
+216
+00:09:19,000 --> 00:09:21,280
+ and crypto to some degree still,
+
+217
+00:09:21,280 --> 00:09:25,840
+ everything revolves around those wires that process,
+
+218
+00:09:25,840 --> 00:09:30,120
+ that engagement with kind of the US dollar, frankly.
+
+219
+00:09:30,120 --> 00:09:32,960
+ So the fact that Tether is doing this
+
+220
+00:09:32,960 --> 00:09:36,040
+ and one of the, when the drivers of this kind of freezer
+
+221
+00:09:36,040 --> 00:09:38,680
+ is their policy that they change to adhere
+
+222
+00:09:38,680 --> 00:09:42,280
+ to kind of sanctions and AML, it's powerful.
+
+223
+00:09:42,280 --> 00:09:45,000
+ And it means that you're always going to have projects
+
+224
+00:09:45,000 --> 00:09:48,200
+ crypto or tradfi where first and foremost,
+
+225
+00:09:48,200 --> 00:09:51,120
+ they consider how they ensure that they don't end up
+
+226
+00:09:51,120 --> 00:09:53,520
+ on the wrong side of this.
+
+227
+00:09:53,520 --> 00:09:56,640
+ So that just cannot be understated.
+
+228
+00:09:56,640 --> 00:10:00,240
+ Shifting to market structure actually really quick,
+
+229
+00:10:00,240 --> 00:10:03,160
+ really quick departure before we get into the meat of things.
+
+230
+00:10:03,160 --> 00:10:05,000
+ We're going to have summer on later.
+
+231
+00:10:05,000 --> 00:10:07,060
+ So I think now is actually a perfect time
+
+232
+00:10:07,060 --> 00:10:09,520
+ to very briefly call out our crypto good news
+
+233
+00:10:09,520 --> 00:10:11,080
+ and then we're going to completely shift
+
+234
+00:10:11,080 --> 00:10:12,240
+ because I don't want to forget this
+
+235
+00:10:12,240 --> 00:10:13,880
+ and we're going to run out of time at the end.
+
+236
+00:10:13,880 --> 00:10:16,480
+ So the one quick shout out I wanted to do on crypto
+
+237
+00:10:16,480 --> 00:10:18,840
+ good news before we shift to market structure
+
+238
+00:10:18,840 --> 00:10:20,520
+ is the giving block.
+
+239
+00:10:20,520 --> 00:10:23,200
+ So guys, I don't know if you've been asked about this.
+
+240
+00:10:23,200 --> 00:10:25,600
+ It's kind of like you're a lawyer at the family reunion
+
+241
+00:10:25,600 --> 00:10:27,520
+ and everyone asks you about their will
+
+242
+00:10:27,520 --> 00:10:29,880
+ and you're like, I have no idea what you're talking about.
+
+243
+00:10:29,880 --> 00:10:33,840
+ I have actually informally advised a number of 501c3s
+
+244
+00:10:33,840 --> 00:10:35,080
+ that have nothing to do with crypto
+
+245
+00:10:35,080 --> 00:10:38,200
+ that want to start accepting crypto donations.
+
+246
+00:10:38,200 --> 00:10:40,760
+ And in certain cases, I have recommended
+
+247
+00:10:40,760 --> 00:10:43,040
+ that they explore the giving block
+
+248
+00:10:43,040 --> 00:10:45,040
+ and it's super cool it acts as a bridge
+
+249
+00:10:45,040 --> 00:10:47,960
+ between nonprofits and crypto donors.
+
+250
+00:10:47,960 --> 00:10:49,200
+ It's actually a platform.
+
+251
+00:10:49,200 --> 00:10:52,640
+ It helps establish organizations accept and process
+
+252
+00:10:52,640 --> 00:10:55,680
+ crypto in a way that fits into their existing workflows.
+
+253
+00:10:55,680 --> 00:10:57,240
+ I think that's a beautiful thing.
+
+254
+00:10:57,240 --> 00:11:01,360
+ We need more things that are going to facilitate crypto
+
+255
+00:11:01,360 --> 00:11:03,040
+ and normies talking to each other
+
+256
+00:11:03,040 --> 00:11:04,880
+ and working with each other.
+
+257
+00:11:04,880 --> 00:11:06,920
+ So quick shout out to the giving block.
+
+258
+00:11:06,920 --> 00:11:07,760
+ - Yay.
+
+259
+00:11:07,760 --> 00:11:09,360
+ - Woo, okay.
+
+260
+00:11:09,360 --> 00:11:12,320
+ On to crypto market structure, which is fantastic
+
+261
+00:11:12,320 --> 00:11:13,480
+ but also complicated.
+
+262
+00:11:13,480 --> 00:11:15,640
+ It's not a straightforwardness for no good news.
+
+263
+00:11:15,640 --> 00:11:17,800
+ So I want to hand this over to Bee
+
+264
+00:11:17,800 --> 00:11:19,760
+ who has really been at the front lines
+
+265
+00:11:19,760 --> 00:11:21,680
+ of crypto policy on a number of fronts.
+
+266
+00:11:21,680 --> 00:11:23,800
+ But before I do, I want to remind everyone
+
+267
+00:11:23,800 --> 00:11:26,120
+ how a bill becomes a law.
+
+268
+00:11:26,120 --> 00:11:27,600
+ It's introduced.
+
+269
+00:11:27,600 --> 00:11:31,400
+ It is referred and reviewed by committees.
+
+270
+00:11:31,400 --> 00:11:36,120
+ There is a floor debate and a vote in both chambers.
+
+271
+00:11:36,120 --> 00:11:38,280
+ There is a conference committee
+
+272
+00:11:38,280 --> 00:11:39,600
+ that works out of compromise
+
+273
+00:11:39,600 --> 00:11:41,680
+ if there's different versions.
+
+274
+00:11:41,680 --> 00:11:43,480
+ There's presidential action.
+
+275
+00:11:43,480 --> 00:11:44,520
+ We're all familiar with that.
+
+276
+00:11:44,520 --> 00:11:45,360
+ He can sign it.
+
+277
+00:11:45,360 --> 00:11:46,280
+ He can veto it.
+
+278
+00:11:46,280 --> 00:11:48,120
+ And then the law is implemented.
+
+279
+00:11:48,120 --> 00:11:49,880
+ So where are we with a markup
+
+280
+00:11:49,880 --> 00:11:52,760
+ and what does actually a markup need?
+
+281
+00:11:52,760 --> 00:11:57,040
+ It actually means that the bill is formerly debated,
+
+282
+00:11:57,040 --> 00:12:00,120
+ amended, reviewed by the committee
+
+283
+00:12:00,120 --> 00:12:02,880
+ before it can move forward in the lawmaking process.
+
+284
+00:12:02,880 --> 00:12:04,480
+ And the reason this is important
+
+285
+00:12:04,480 --> 00:12:09,360
+ is if the markup goes badly, the bill can die.
+
+286
+00:12:09,360 --> 00:12:12,960
+ The markup is also kind of in many ways the last chance
+
+287
+00:12:12,960 --> 00:12:16,480
+ to make and consider any changes to the bill.
+
+288
+00:12:16,480 --> 00:12:19,400
+ So the big news this week was we were supposed to have
+
+289
+00:12:19,400 --> 00:12:21,920
+ both a financial services committee markup
+
+290
+00:12:21,920 --> 00:12:25,480
+ and an agriculture to separate committee markups.
+
+291
+00:12:25,480 --> 00:12:29,800
+ On Jan 15th, AG has punted into later in the month,
+
+292
+00:12:29,800 --> 00:12:31,720
+ financial services is moving forward.
+
+293
+00:12:31,720 --> 00:12:35,080
+ And now we're all looking at this revised bill.
+
+294
+00:12:35,080 --> 00:12:37,680
+ Some parts of crypto are very happy with parts of it.
+
+295
+00:12:37,680 --> 00:12:39,440
+ Other parts are very upset.
+
+296
+00:12:39,440 --> 00:12:44,520
+ One big, big point of contention is defy the, tell us more.
+
+297
+00:12:44,520 --> 00:12:49,160
+ - Yeah, so there's a lot of new stuff in this bill.
+
+298
+00:12:49,160 --> 00:12:52,360
+ But I wanted to focus on defy in particular
+
+299
+00:12:52,360 --> 00:12:54,400
+ just because there's a lot of new stuff
+
+300
+00:12:54,400 --> 00:12:56,080
+ in that section in particular.
+
+301
+00:12:56,080 --> 00:12:58,920
+ And it's just been one of the most hotly debated parts
+
+302
+00:12:58,920 --> 00:12:59,760
+ of the bill.
+
+303
+00:12:59,760 --> 00:13:04,400
+ So I'll just start out by saying or acknowledging
+
+304
+00:13:04,400 --> 00:13:07,400
+ that like Congress has a really hard job, right?
+
+305
+00:13:07,400 --> 00:13:09,840
+ There's I think always this tension
+
+306
+00:13:09,840 --> 00:13:14,760
+ between what you enshrine into the statute
+
+307
+00:13:14,760 --> 00:13:18,520
+ and what you leave to regulators to deal with
+
+308
+00:13:18,520 --> 00:13:21,720
+ or what you just don't enforce or don't regulate at all, right?
+
+309
+00:13:21,720 --> 00:13:24,960
+ And I think it's really hard to strike the right balance,
+
+310
+00:13:24,960 --> 00:13:28,480
+ especially when you're talking about a technology
+
+311
+00:13:28,480 --> 00:13:33,080
+ that is very new and also still evolving sometimes quickly, right?
+
+312
+00:13:33,080 --> 00:13:36,200
+ So I think, you know, they have a very hard job
+
+313
+00:13:36,200 --> 00:13:39,680
+ and nowhere is that more like acute to me
+
+314
+00:13:39,680 --> 00:13:41,520
+ than in the defy section.
+
+315
+00:13:41,520 --> 00:13:44,360
+ So again, we've all had very limited time
+
+316
+00:13:44,360 --> 00:13:45,760
+ to review the new language,
+
+317
+00:13:45,760 --> 00:13:47,760
+ but I did want to give some initial thoughts
+
+318
+00:13:47,760 --> 00:13:49,720
+ just on what I'm seeing.
+
+319
+00:13:49,720 --> 00:13:51,160
+ So at a high level,
+
+320
+00:13:51,160 --> 00:13:53,800
+ the draft is trying to draw a bright line
+
+321
+00:13:53,800 --> 00:13:58,200
+ between decentralized protocols and infrastructure
+
+322
+00:13:58,200 --> 00:14:01,760
+ and protocols or parties where, you know,
+
+323
+00:14:01,760 --> 00:14:04,760
+ there's some sort of control over trading,
+
+324
+00:14:04,760 --> 00:14:07,760
+ execution, custody, or access.
+
+325
+00:14:07,760 --> 00:14:11,920
+ And that side would potentially be regulated
+
+326
+00:14:11,920 --> 00:14:13,320
+ as brokers, exchanges,
+
+327
+00:14:13,320 --> 00:14:16,800
+ or some sort of regulated financial intermediary.
+
+328
+00:14:16,800 --> 00:14:20,840
+ So all of it really comes down to this concept of control.
+
+329
+00:14:20,840 --> 00:14:23,560
+ But I think the difficulty here,
+
+330
+00:14:23,560 --> 00:14:24,920
+ and it's something that, you know,
+
+331
+00:14:24,920 --> 00:14:28,760
+ we as crypto lawyers have been thinking about for years,
+
+332
+00:14:28,760 --> 00:14:33,160
+ this concept of control is actually really hard to define, right?
+
+333
+00:14:33,160 --> 00:14:36,640
+ So the way that the current language tries to define it
+
+334
+00:14:36,640 --> 00:14:39,000
+ is, I would say like in three different ways.
+
+335
+00:14:39,000 --> 00:14:43,840
+ One is, is there discretion over trading or execution, right?
+
+336
+00:14:43,840 --> 00:14:47,200
+ So do you route trades, do you match counter parties?
+
+337
+00:14:47,200 --> 00:14:49,080
+ Do you decide execution timing?
+
+338
+00:14:49,080 --> 00:14:51,400
+ Do you modify prices or priority?
+
+339
+00:14:51,400 --> 00:14:55,960
+ Do you intervene in execution outside of like pre-coded rules?
+
+340
+00:14:55,960 --> 00:14:58,600
+ Another way they define control is,
+
+341
+00:14:58,600 --> 00:15:02,080
+ do you have unilateral authority to do things
+
+342
+00:15:02,080 --> 00:15:05,960
+ like alter issuance or distribution parameters
+
+343
+00:15:05,960 --> 00:15:08,200
+ to change execution logic,
+
+344
+00:15:08,200 --> 00:15:10,400
+ to restrict access to the protocol?
+
+345
+00:15:10,400 --> 00:15:12,560
+ That's a really important one that we'll come back to.
+
+346
+00:15:12,560 --> 00:15:14,000
+ Or to pause?
+
+347
+00:15:14,000 --> 00:15:16,720
+ Sorry to interrupt, but one important thing about this,
+
+348
+00:15:16,720 --> 00:15:18,240
+ and you can confirm your thoughts
+
+349
+00:15:18,240 --> 00:15:19,920
+ as you're talking about control,
+
+350
+00:15:19,920 --> 00:15:22,200
+ is one of the things that I see in this bill
+
+351
+00:15:22,200 --> 00:15:25,480
+ is that they're effectively leaving this decision on control
+
+352
+00:15:25,480 --> 00:15:30,200
+ and what is DeFi treasury, which is very scary to me.
+
+353
+00:15:30,200 --> 00:15:32,560
+ Like I think as well.
+
+354
+00:15:32,560 --> 00:15:35,400
+ Yeah, well, so actually, I think, Jesse,
+
+355
+00:15:35,400 --> 00:15:36,600
+ do you wanna talk about that later?
+
+356
+00:15:36,600 --> 00:15:38,520
+ 'Cause I think you've been following that part of the bill
+
+357
+00:15:38,520 --> 00:15:39,360
+ a lot more closely.
+
+358
+00:15:39,360 --> 00:15:40,680
+ We should definitely come back to that
+
+359
+00:15:40,680 --> 00:15:42,160
+ 'cause that's a really important part of it.
+
+360
+00:15:42,160 --> 00:15:44,120
+ And that's obviously that concept
+
+361
+00:15:44,120 --> 00:15:45,640
+ is very offensive to DeFi journalists.
+
+362
+00:15:45,640 --> 00:15:49,080
+ Yes, yeah, it's a lot and it's concerning.
+
+363
+00:15:49,080 --> 00:15:50,800
+ But Jesse, why don't you cover that later?
+
+364
+00:15:50,800 --> 00:15:54,440
+ I'll just, I'll finish kind of explaining how I read
+
+365
+00:15:54,440 --> 00:15:56,440
+ how it defines control more generally.
+
+366
+00:15:56,440 --> 00:15:57,600
+ So the other thing it says is,
+
+367
+00:15:57,600 --> 00:16:01,840
+ if you can do something like pause or restart trading,
+
+368
+00:16:01,840 --> 00:16:03,240
+ if you have discretion to do that,
+
+369
+00:16:03,240 --> 00:16:06,400
+ that could potentially fall under the standard of control.
+
+370
+00:16:06,400 --> 00:16:10,680
+ And then the third category is about user interfaces
+
+371
+00:16:10,680 --> 00:16:13,360
+ or front-ends, right? So like websites or apps
+
+372
+00:16:13,360 --> 00:16:15,880
+ that allow you to access the DeFi protocol.
+
+373
+00:16:15,880 --> 00:16:19,200
+ And the question there is, can you restrict who can trade?
+
+374
+00:16:19,200 --> 00:16:22,320
+ Do you exercise discretion over which assets
+
+375
+00:16:22,320 --> 00:16:26,020
+ or pools or strategies that users can have access to?
+
+376
+00:16:26,020 --> 00:16:30,160
+ Can you intervene in execution and do you route orders
+
+377
+00:16:30,160 --> 00:16:33,600
+ or somehow like materially modify the outcome, right?
+
+378
+00:16:33,600 --> 00:16:36,240
+ So I have a few thoughts on this.
+
+379
+00:16:36,240 --> 00:16:37,800
+ First is a substantive one,
+
+380
+00:16:37,800 --> 00:16:41,920
+ which is I'm concerned that there are a lot of ways
+
+381
+00:16:41,920 --> 00:16:45,280
+ that this control standard could be interpreted
+
+382
+00:16:45,280 --> 00:16:50,280
+ to sweep in, in my opinion, pretty much all real-world DeFi
+
+383
+00:16:50,280 --> 00:16:52,040
+ as it exists today.
+
+384
+00:16:52,040 --> 00:16:55,280
+ And I know that's like a really spicy take,
+
+385
+00:16:55,280 --> 00:16:58,640
+ but I think the language is too broad and a little too.
+
+386
+00:16:58,640 --> 00:17:01,640
+ - And other changes, like L2, L2, that's what I want.
+
+387
+00:17:01,640 --> 00:17:02,640
+ - Yeah, totally.
+
+388
+00:17:02,640 --> 00:17:04,840
+ So yeah, so I'll just, I'll give a few examples.
+
+389
+00:17:04,840 --> 00:17:07,040
+ And I think for us, this will hit especially close to home
+
+390
+00:17:07,040 --> 00:17:09,640
+ because all three of us have done a lot of thinking
+
+391
+00:17:09,640 --> 00:17:12,160
+ and writing about like different kind of measures
+
+392
+00:17:12,160 --> 00:17:16,060
+ that DeFi protocols use and have been experimenting with
+
+393
+00:17:16,060 --> 00:17:20,160
+ to try to keep users safe and to respond
+
+394
+00:17:20,160 --> 00:17:22,040
+ to like emergencies or things like that, right?
+
+395
+00:17:22,040 --> 00:17:26,200
+ So like one example is asset curation, right?
+
+396
+00:17:26,200 --> 00:17:30,100
+ So I mentioned some of the ways in which asset curation
+
+397
+00:17:30,100 --> 00:17:32,360
+ could be considered control and thus subject
+
+398
+00:17:32,360 --> 00:17:37,360
+ to user regulation, the reality is that many DeFi protocols
+
+399
+00:17:37,360 --> 00:17:41,240
+ decide which tokens or pools are supported
+
+400
+00:17:41,240 --> 00:17:43,160
+ to manage risk and to protect users, right?
+
+401
+00:17:43,160 --> 00:17:46,760
+ But under this bill, that sort of discretion could be read
+
+402
+00:17:46,760 --> 00:17:50,080
+ as control over trading, even when it's transparent
+
+403
+00:17:50,080 --> 00:17:52,120
+ or rules-based.
+
+404
+00:17:52,120 --> 00:17:54,520
+ And then another example that I'm sure a lot of people
+
+405
+00:17:54,520 --> 00:17:58,480
+ are familiar with, many DeFi protocols, I would say,
+
+406
+00:17:58,480 --> 00:17:59,880
+ I mean, I don't know if it's most of them,
+
+407
+00:17:59,880 --> 00:18:03,480
+ but many DeFi protocols, including a lot of the ones
+
+408
+00:18:03,480 --> 00:18:06,560
+ that like people have been using for years
+
+409
+00:18:06,560 --> 00:18:09,640
+ and that people generally think of as like pure DeFi,
+
+410
+00:18:09,640 --> 00:18:12,240
+ they have some form of a kill switch
+
+411
+00:18:12,240 --> 00:18:16,120
+ that allows a centralized party or like some small number
+
+412
+00:18:16,120 --> 00:18:19,400
+ of parties on a multi-sig to pause the protocol,
+
+413
+00:18:19,400 --> 00:18:24,240
+ to respond to security incidents like hacks or exploits, right?
+
+414
+00:18:24,240 --> 00:18:27,840
+ So it doesn't allow you to unilaterally reroute
+
+415
+00:18:27,840 --> 00:18:31,240
+ or like withdraw funds, it just lets you pause things
+
+416
+00:18:31,240 --> 00:18:33,680
+ and sometimes just for like a defined period, right?
+
+417
+00:18:33,680 --> 00:18:37,240
+ So under the new DeFi language, this alone
+
+418
+00:18:37,240 --> 00:18:38,800
+ could mean that they're no longer exempt
+
+419
+00:18:38,800 --> 00:18:42,400
+ and potentially have to register as like a broker or something.
+
+420
+00:18:42,400 --> 00:18:45,280
+ And not to mention, like I think it can be very nuanced, right?
+
+421
+00:18:45,280 --> 00:18:47,360
+ So like there are a lot of different ways
+
+422
+00:18:47,360 --> 00:18:51,240
+ that kill switches are activated or a lot of different ways
+
+423
+00:18:51,240 --> 00:18:52,200
+ that they're designed, right?
+
+424
+00:18:52,200 --> 00:18:55,080
+ So some DeFi protocols have kill switches
+
+425
+00:18:55,080 --> 00:18:59,040
+ that are centrally triggered, but they're subject to a time lock
+
+426
+00:18:59,040 --> 00:19:04,000
+ of like 24 hours where users or token holders can vote
+
+427
+00:19:04,000 --> 00:19:05,320
+ to veto the pause, right?
+
+428
+00:19:05,320 --> 00:19:08,360
+ So like what a situation like that or a mechanism like that
+
+429
+00:19:08,360 --> 00:19:11,000
+ would that count as unilateral control?
+
+430
+00:19:11,000 --> 00:19:13,360
+ And the same issue arises with other kinds
+
+431
+00:19:13,360 --> 00:19:15,360
+ of emergency risk controls, right?
+
+432
+00:19:15,360 --> 00:19:20,360
+ Doing things like temporarily lowering allocation caps
+
+433
+00:19:20,360 --> 00:19:23,800
+ or increasing collateral or like responding
+
+434
+00:19:23,800 --> 00:19:28,240
+ to an Oracle failure, disabling a function during an exploit.
+
+435
+00:19:28,240 --> 00:19:32,720
+ Like all of these things I think are just basic safety engineering
+
+436
+00:19:32,720 --> 00:19:35,040
+ and a lot of times they're done in ways that are transparent
+
+437
+00:19:35,040 --> 00:19:38,560
+ and pre-programmed and automated, but even so,
+
+438
+00:19:38,560 --> 00:19:42,880
+ under the new language, I think all of those kinds of actions
+
+439
+00:19:42,880 --> 00:19:45,600
+ could be treated as impermissible control
+
+440
+00:19:45,600 --> 00:19:47,480
+ over trading conditions.
+
+441
+00:19:47,480 --> 00:19:49,440
+ And you know, this even applies to things like--
+
+442
+00:19:49,440 --> 00:19:51,080
+ - Really scary 'cause we don't want
+
+443
+00:19:51,080 --> 00:19:53,800
+ to disincentivize projects from doing this.
+
+444
+00:19:53,800 --> 00:19:55,880
+ And I'll also use like we don't have time
+
+445
+00:19:55,880 --> 00:19:59,680
+ to go into this in depth, but some people missed this
+
+446
+00:19:59,680 --> 00:20:04,680
+ just yesterday, the US FTC Federal Trade Commission,
+
+447
+00:20:04,680 --> 00:20:09,120
+ which is often in charge of kind of consumer protection,
+
+448
+00:20:09,120 --> 00:20:12,040
+ issued a proposed complaint against the Nomad Bridge,
+
+449
+00:20:12,040 --> 00:20:14,800
+ the Nomad Token Bridge, late to a hack.
+
+450
+00:20:14,800 --> 00:20:17,080
+ And one of the things it said is they made
+
+451
+00:20:17,080 --> 00:20:19,400
+ a number of highly problematic kind of concerning statements
+
+452
+00:20:19,400 --> 00:20:21,720
+ in this, so I would check it out if you're not familiar.
+
+453
+00:20:21,720 --> 00:20:24,160
+ - But including that the company failed
+
+454
+00:20:24,160 --> 00:20:26,760
+ to incorporate circuit breakers or a kill switch
+
+455
+00:20:26,760 --> 00:20:29,760
+ that could immediately cease the option of the bridge.
+
+456
+00:20:29,760 --> 00:20:30,600
+ - Yeah, right.
+
+457
+00:20:30,600 --> 00:20:31,680
+ - So this is inherently contradictory.
+
+458
+00:20:31,680 --> 00:20:32,520
+ - I'm bad.
+
+459
+00:20:32,520 --> 00:20:34,920
+ - That's a kill switch, but you can't have a kill switch
+
+460
+00:20:34,920 --> 00:20:38,920
+ because they-- - Yeah, and the prosecutors
+
+461
+00:20:38,920 --> 00:20:41,520
+ in the tornado cache made the same argument, right?
+
+462
+00:20:41,520 --> 00:20:44,880
+ Because the defense was, this was like fully autonomous,
+
+463
+00:20:44,880 --> 00:20:48,440
+ like we don't have the ability to stop or block anything.
+
+464
+00:20:48,440 --> 00:20:51,800
+ And they said, well, you should have built that in, right?
+
+465
+00:20:51,800 --> 00:20:54,080
+ So but this bill is saying if you built that in,
+
+466
+00:20:54,080 --> 00:20:55,920
+ you're no longer decentralized.
+
+467
+00:20:55,920 --> 00:20:59,000
+ And so I think there is just a lot of conflicts here.
+
+468
+00:20:59,000 --> 00:21:03,440
+ Yeah, like is that what Congress is really like intending
+
+469
+00:21:03,440 --> 00:21:07,600
+ to do here is to discourage things that like protocols
+
+470
+00:21:07,600 --> 00:21:10,000
+ might want to implement in order to like respond
+
+471
+00:21:10,000 --> 00:21:13,200
+ to emergencies and to keep users safe and that sort of thing.
+
+472
+00:21:13,200 --> 00:21:15,040
+ I think that's a really important question to address.
+
+473
+00:21:15,040 --> 00:21:16,560
+ - Josh, it's so hard.
+
+474
+00:21:16,560 --> 00:21:19,560
+ - And the other thing is I want to be clear,
+
+475
+00:21:19,560 --> 00:21:22,160
+ before Jesse weighs in, I want to be clear
+
+476
+00:21:22,160 --> 00:21:25,400
+ that I think all of us are in favor of legislation.
+
+477
+00:21:25,400 --> 00:21:28,240
+ Like my fear is that we don't have legislation
+
+478
+00:21:28,240 --> 00:21:29,840
+ and we have a different administration.
+
+479
+00:21:29,840 --> 00:21:33,080
+ So it's always a little scary for as a GC
+
+480
+00:21:33,080 --> 00:21:36,840
+ to more vocally criticize clarity and any bill
+
+481
+00:21:36,840 --> 00:21:40,640
+ because I don't want the perfect to be the enemy of the good.
+
+482
+00:21:40,640 --> 00:21:42,800
+ But a lot of the things we're saying constructively,
+
+483
+00:21:42,800 --> 00:21:44,680
+ this is why it's important to see these things
+
+484
+00:21:44,680 --> 00:21:47,360
+ during the markup period so they can be changed
+
+485
+00:21:47,360 --> 00:21:48,840
+ before they become law.
+
+486
+00:21:48,840 --> 00:21:50,160
+ Sorry, Jesse, go ahead.
+
+487
+00:21:50,160 --> 00:21:52,080
+ - Like this bill is humongous
+
+488
+00:21:52,080 --> 00:21:53,600
+ and will change a lot of things.
+
+489
+00:21:53,600 --> 00:21:55,760
+ So we want to make sure people understand it
+
+490
+00:21:55,760 --> 00:21:57,880
+ and know the pros and cons and then be able to make
+
+491
+00:21:57,880 --> 00:22:00,680
+ their own decision about whether to support it or not.
+
+492
+00:22:00,680 --> 00:22:03,760
+ I guess what I was going to talk about is control.
+
+493
+00:22:03,760 --> 00:22:05,680
+ It's such a hard concept.
+
+494
+00:22:05,680 --> 00:22:08,880
+ And I think we've all sort of put that out there
+
+495
+00:22:08,880 --> 00:22:10,920
+ as a test to think about.
+
+496
+00:22:10,920 --> 00:22:12,760
+ And it makes sense legally.
+
+497
+00:22:12,760 --> 00:22:15,280
+ And it's been something that lawyers in crypto
+
+498
+00:22:15,280 --> 00:22:18,280
+ have been talking about forever as something to focus on.
+
+499
+00:22:18,280 --> 00:22:22,640
+ But perhaps that we've over-indexed a bit
+
+500
+00:22:22,640 --> 00:22:27,040
+ on the risk associated with using the word control
+
+501
+00:22:27,040 --> 00:22:30,000
+ and the concept of it because in the real world,
+
+502
+00:22:30,000 --> 00:22:32,280
+ for example, sanctions at illicit finance,
+
+503
+00:22:32,280 --> 00:22:35,720
+ like it often requires continuous interaction with tooling,
+
+504
+00:22:35,720 --> 00:22:37,720
+ not binary control.
+
+505
+00:22:37,720 --> 00:22:40,000
+ And yet we're looking for this answer.
+
+506
+00:22:40,000 --> 00:22:41,760
+ And I don't think we're going to solve this right now
+
+507
+00:22:41,760 --> 00:22:45,040
+ on this pod, but we're looking for this answer of like,
+
+508
+00:22:45,040 --> 00:22:48,960
+ how do we have a clear decision for developers
+
+509
+00:22:48,960 --> 00:22:51,680
+ on whether they're looped in or they're not?
+
+510
+00:22:51,680 --> 00:22:54,400
+ And control seems to be a good way to do it.
+
+511
+00:22:54,400 --> 00:22:57,040
+ But the more that we build and the more
+
+512
+00:22:57,040 --> 00:23:00,080
+ that there's different types of projects doing different types
+
+513
+00:23:00,080 --> 00:23:01,920
+ of things with different incentives,
+
+514
+00:23:01,920 --> 00:23:05,160
+ it's hard to say that this line, whether if you control
+
+515
+00:23:05,160 --> 00:23:07,080
+ or anything is the right way to go.
+
+516
+00:23:07,080 --> 00:23:08,120
+ And we have Summer.
+
+517
+00:23:08,120 --> 00:23:09,440
+ So I will just say that.
+
+518
+00:23:09,440 --> 00:23:13,280
+ Hi! Hello! Today's episode is sponsored by Figure,
+
+519
+00:23:13,280 --> 00:23:16,560
+ which is transforming financial services using blockchain.
+
+520
+00:23:16,560 --> 00:23:19,960
+ They're the largest non-bank mortgage lender in the US,
+
+521
+00:23:19,960 --> 00:23:23,640
+ with over $19 billion unlocked on their lending platform.
+
+522
+00:23:23,640 --> 00:23:27,080
+ Now they're offering industry low crypto-backed loans
+
+523
+00:23:27,080 --> 00:23:32,080
+ at 8.91% interest rates at 50% LTV for BTC, ETH, and Sol.
+
+524
+00:23:32,080 --> 00:23:35,120
+ They differentiate themselves
+
+525
+00:23:35,120 --> 00:23:37,840
+ by offering decentralized MPC custody,
+
+526
+00:23:37,840 --> 00:23:40,840
+ which protects your crypto ownership in a segregated wallet.
+
+527
+00:23:40,840 --> 00:23:43,520
+ They've also recently launched Liquidation Protection
+
+528
+00:23:43,520 --> 00:23:46,560
+ to protect you from liquidation during large price drops.
+
+529
+00:23:46,560 --> 00:23:49,280
+ Whether you're funding a major purchase, investing,
+
+530
+00:23:49,280 --> 00:23:52,760
+ or even buying more Bitcoin, figure makes it transparent.
+
+531
+00:23:52,760 --> 00:23:55,920
+ Visit figuremarkets.co/unchained
+
+532
+00:23:55,920 --> 00:23:59,480
+ to take advantage of their crypto-backed loans today.
+
+533
+00:23:59,480 --> 00:24:02,640
+ We talk a lot about hair on this podcast, it's over.
+
+534
+00:24:02,640 --> 00:24:03,880
+ Hey, Arishan, are you?
+
+535
+00:24:03,880 --> 00:24:05,520
+ I hate to blow dry my hair.
+
+536
+00:24:05,520 --> 00:24:07,400
+ It's like my vein of my existence.
+
+537
+00:24:07,400 --> 00:24:10,200
+ And so I just keep going shorter and shorter
+
+538
+00:24:10,200 --> 00:24:12,600
+ and fine to save time in the morning.
+
+539
+00:24:12,600 --> 00:24:14,880
+ I can't work for the pinky hot cut.
+
+540
+00:24:14,880 --> 00:24:16,080
+ It looks very chic.
+
+541
+00:24:16,080 --> 00:24:17,400
+ It looks very chic.
+
+542
+00:24:17,400 --> 00:24:18,240
+ Thank you.
+
+543
+00:24:18,240 --> 00:24:20,560
+ Okay, to our listeners,
+
+544
+00:24:20,560 --> 00:24:23,360
+ I'm gonna pass this to V to introduce our very special guest,
+
+545
+00:24:23,360 --> 00:24:25,200
+ but we're so happy to have you.
+
+546
+00:24:25,200 --> 00:24:26,400
+ Okay, yes, hi, Summer.
+
+547
+00:24:26,400 --> 00:24:27,960
+ Thanks so much for joining.
+
+548
+00:24:27,960 --> 00:24:29,640
+ So she needs no introduction,
+
+549
+00:24:29,640 --> 00:24:31,560
+ but Summer Mercinger is the CEO
+
+550
+00:24:31,560 --> 00:24:33,120
+ of the Blockchain Association
+
+551
+00:24:33,120 --> 00:24:35,720
+ and a former CFTC commissioner.
+
+552
+00:24:35,720 --> 00:24:38,080
+ We're so grateful that she's taking time
+
+553
+00:24:38,080 --> 00:24:41,120
+ out of what is maybe like one of the most eventful weeks
+
+554
+00:24:41,120 --> 00:24:43,080
+ we've ever had in crypto policy
+
+555
+00:24:43,080 --> 00:24:45,600
+ to kind of just like give us an update and her outlook.
+
+556
+00:24:45,600 --> 00:24:47,720
+ And actually Summer, I was so curious to see
+
+557
+00:24:47,720 --> 00:24:50,600
+ if you'd be like zooming in from a broom closet
+
+558
+00:24:50,600 --> 00:24:53,400
+ in the Dirksen building in between readings or something today,
+
+559
+00:24:53,400 --> 00:24:55,040
+ but it looks like you're in a natural office.
+
+560
+00:24:55,040 --> 00:24:57,080
+ So that's good.
+
+561
+00:24:57,080 --> 00:24:59,200
+ Okay, so thank you again for joining us.
+
+562
+00:24:59,200 --> 00:25:01,000
+ We don't want to take up too much of your time.
+
+563
+00:25:01,000 --> 00:25:02,920
+ I know you're really busy,
+
+564
+00:25:02,920 --> 00:25:04,520
+ but I just wanted to start off by asking
+
+565
+00:25:04,520 --> 00:25:06,720
+ like how you're feeling right now,
+
+566
+00:25:06,720 --> 00:25:09,520
+ especially given the midnight text
+
+567
+00:25:09,520 --> 00:25:12,320
+ that was released last night.
+
+568
+00:25:12,320 --> 00:25:15,200
+ There's a lot of new stuff in there
+
+569
+00:25:15,200 --> 00:25:19,040
+ that I think we're all still working through,
+
+570
+00:25:19,040 --> 00:25:23,040
+ but what is your general take so far on the latest draft?
+
+571
+00:25:23,040 --> 00:25:26,200
+ Do you think the markup on Thursday is really gonna happen?
+
+572
+00:25:26,200 --> 00:25:28,680
+ I know the Senate Agriculture Committee Committee
+
+573
+00:25:28,680 --> 00:25:29,920
+ has already punted on there.
+
+574
+00:25:29,920 --> 00:25:31,840
+ So what are your thoughts on everything?
+
+575
+00:25:31,840 --> 00:25:35,480
+ - Yeah, I think the markup will definitely happen.
+
+576
+00:25:35,480 --> 00:25:37,520
+ At this point, there's the question of
+
+577
+00:25:37,520 --> 00:25:40,360
+ is it a bipartisan markup or a partisan markup?
+
+578
+00:25:40,360 --> 00:25:43,720
+ The text came out as bipartisan,
+
+579
+00:25:43,720 --> 00:25:45,480
+ but what we were hearing this morning
+
+580
+00:25:45,480 --> 00:25:50,480
+ is that there were no Democrats supporting the text,
+
+581
+00:25:50,480 --> 00:25:51,760
+ has it yet?
+
+582
+00:25:51,760 --> 00:25:54,520
+ But these are very fluid conversations
+
+583
+00:25:54,520 --> 00:25:57,400
+ and they're going on constantly.
+
+584
+00:25:57,400 --> 00:26:00,680
+ So I could very well see a situation
+
+585
+00:26:00,680 --> 00:26:02,600
+ where they have a markup on Thursday
+
+586
+00:26:02,600 --> 00:26:05,840
+ and they have some bipartisan support.
+
+587
+00:26:05,840 --> 00:26:08,120
+ If that happens and they get out of committee
+
+588
+00:26:08,120 --> 00:26:09,960
+ with a good bipartisan vote,
+
+589
+00:26:09,960 --> 00:26:14,440
+ I think we're on a fast track to seeing this
+
+590
+00:26:14,440 --> 00:26:18,800
+ move to the Senate floor within a month.
+
+591
+00:26:18,800 --> 00:26:20,280
+ They're not less.
+
+592
+00:26:20,280 --> 00:26:23,560
+ Agriculture, I think the fact that they punted
+
+593
+00:26:23,560 --> 00:26:27,520
+ to last week and January, I think that was good,
+
+594
+00:26:27,520 --> 00:26:29,560
+ they really wanted to be a bipartisan markup
+
+595
+00:26:29,560 --> 00:26:32,960
+ with the Agriculture Committee, they weren't there yet.
+
+596
+00:26:32,960 --> 00:26:35,600
+ And they just felt like if they had a few more weeks,
+
+597
+00:26:35,600 --> 00:26:37,880
+ they could get to a good place.
+
+598
+00:26:37,880 --> 00:26:40,440
+ And I know they are talking daily,
+
+599
+00:26:40,440 --> 00:26:44,920
+ they're having negotiations on some of the last issues
+
+600
+00:26:44,920 --> 00:26:47,880
+ that are outstanding between the two sides.
+
+601
+00:26:47,880 --> 00:26:51,640
+ So it's all moving in the right direction.
+
+602
+00:26:51,640 --> 00:26:53,400
+ I always say legislation is so hard
+
+603
+00:26:53,400 --> 00:26:55,400
+ because something completely unrelated
+
+604
+00:26:55,400 --> 00:26:57,680
+ could totally throw it off track.
+
+605
+00:26:57,680 --> 00:27:01,320
+ So it's hard to predict, but things feel
+
+606
+00:27:01,320 --> 00:27:03,680
+ like they're moving in the right direction.
+
+607
+00:27:03,680 --> 00:27:08,680
+ And I feel like maybe I was more pessimistic last week.
+
+608
+00:27:08,680 --> 00:27:15,120
+ And this week I felt a lot more kind of optimistic
+
+609
+00:27:15,120 --> 00:27:19,440
+ about the potential for this to get to the Senate floor.
+
+610
+00:27:19,440 --> 00:27:23,200
+ - Okay, so that makes me feel better at least.
+
+611
+00:27:23,200 --> 00:27:26,400
+ So you've been in the room for a lot of these meetings
+
+612
+00:27:26,400 --> 00:27:28,080
+ that have taken place,
+
+613
+00:27:28,080 --> 00:27:31,260
+ including with participants from the traffic side.
+
+614
+00:27:31,260 --> 00:27:34,880
+ So like some of the big banks and organizations like SIFMA,
+
+615
+00:27:34,880 --> 00:27:36,920
+ can you tell us what that's been like?
+
+616
+00:27:36,920 --> 00:27:41,600
+ And like how much are you talking to them directly?
+
+617
+00:27:41,600 --> 00:27:44,760
+ - Yeah, so I know on a lot of the DeFi stuff,
+
+618
+00:27:44,760 --> 00:27:48,680
+ they brought in the stakeholders directly,
+
+619
+00:27:48,680 --> 00:27:50,840
+ DeFi and SIFMA and just said,
+
+620
+00:27:50,840 --> 00:27:52,680
+ can you guys get to an agreement?
+
+621
+00:27:53,680 --> 00:27:56,200
+ And you know, I think those conversations
+
+622
+00:27:56,200 --> 00:27:59,440
+ have generally been going well.
+
+623
+00:27:59,440 --> 00:28:03,040
+ And I think sometimes it is you just get people in a room
+
+624
+00:28:03,040 --> 00:28:05,400
+ and they sort of cross someone one another
+
+625
+00:28:05,400 --> 00:28:09,680
+ and it gets hard to throw bombs at each other
+
+626
+00:28:09,680 --> 00:28:11,600
+ when you're sitting face to face.
+
+627
+00:28:11,600 --> 00:28:14,800
+ And so I do think that having those stakeholders
+
+628
+00:28:14,800 --> 00:28:18,600
+ in a room talking has been very beneficial.
+
+629
+00:28:18,600 --> 00:28:21,520
+ I've been spending a lot of time on the rewards issue.
+
+630
+00:28:21,520 --> 00:28:26,040
+ I would say the TreadFi has been less willing
+
+631
+00:28:26,040 --> 00:28:29,040
+ to negotiate on that.
+
+632
+00:28:29,040 --> 00:28:30,800
+ They really feel like they have the upper hand
+
+633
+00:28:30,800 --> 00:28:35,520
+ in that they can just push through an amendment
+
+634
+00:28:35,520 --> 00:28:37,960
+ and get what they want.
+
+635
+00:28:37,960 --> 00:28:40,560
+ That's been a little frustrating.
+
+636
+00:28:40,560 --> 00:28:43,800
+ But I think the good news is we have the White House
+
+637
+00:28:43,800 --> 00:28:45,160
+ on our side on that issue.
+
+638
+00:28:45,160 --> 00:28:49,060
+ We have a lot of Chairman Scott and a lot of his,
+
+639
+00:28:50,360 --> 00:28:52,160
+ the members on the Republican side
+
+640
+00:28:52,160 --> 00:28:54,640
+ on our side with the rewards issue.
+
+641
+00:28:54,640 --> 00:28:59,400
+ So I think ultimately we can get to a good place.
+
+642
+00:28:59,400 --> 00:29:01,400
+ I don't know if the text is there yet.
+
+643
+00:29:01,400 --> 00:29:07,320
+ But again, it's trying to have these conversations,
+
+644
+00:29:07,320 --> 00:29:12,920
+ real time and you're working line by line and word by word.
+
+645
+00:29:12,920 --> 00:29:16,040
+ And it just takes a long time to get everybody
+
+646
+00:29:16,040 --> 00:29:17,920
+ to a good place.
+
+647
+00:29:17,920 --> 00:29:20,960
+ - Yeah, I'm a rewards issue, I just wanna remind our listeners
+
+648
+00:29:20,960 --> 00:29:22,880
+ what Summer's referring to is the fact
+
+649
+00:29:22,880 --> 00:29:25,480
+ that a lot of the banks have been fighting.
+
+650
+00:29:25,480 --> 00:29:28,960
+ I would say any crypto market structure legislation
+
+651
+00:29:28,960 --> 00:29:31,520
+ more generally, but particularly this one issue
+
+652
+00:29:31,520 --> 00:29:34,880
+ where there are rewards linked to stablecoins
+
+653
+00:29:34,880 --> 00:29:37,160
+ 'cause obviously it compromises
+
+654
+00:29:37,160 --> 00:29:41,160
+ a fundamental value proposition for their business.
+
+655
+00:29:41,160 --> 00:29:43,600
+ So just wanted to explain that really briefly.
+
+656
+00:29:43,600 --> 00:29:46,760
+ On that piece Summer, the other thing that has arisen
+
+657
+00:29:46,760 --> 00:29:49,760
+ quite dramatically out of the blue is,
+
+658
+00:29:49,760 --> 00:29:51,280
+ as I think everyone knows,
+
+659
+00:29:51,280 --> 00:29:54,120
+ just recently the president tweeted his support
+
+660
+00:29:54,120 --> 00:29:58,920
+ in cutting off credit card interest rates at 10%.
+
+661
+00:29:58,920 --> 00:30:02,280
+ This is not a crypto thing, but this would be very devastating
+
+662
+00:30:02,280 --> 00:30:04,880
+ economically for credit card issuers
+
+663
+00:30:04,880 --> 00:30:09,240
+ and cause some major market movement in trad buy.
+
+664
+00:30:09,240 --> 00:30:11,840
+ And there is a sense that banks are really exerting
+
+665
+00:30:11,840 --> 00:30:14,000
+ a lot of authority and fighting clarity
+
+666
+00:30:14,000 --> 00:30:17,120
+ and now they have to shift their resources to fight
+
+667
+00:30:17,120 --> 00:30:18,440
+ the credit card thing.
+
+668
+00:30:18,440 --> 00:30:21,800
+ And like this to me feels very Washington chess game.
+
+669
+00:30:21,800 --> 00:30:24,080
+ Like what is your take on that?
+
+670
+00:30:24,080 --> 00:30:28,480
+ - And not to mention the CCRA, no notice that came out.
+
+671
+00:30:28,480 --> 00:30:30,000
+ I guess this morning from Trump.
+
+672
+00:30:30,000 --> 00:30:33,000
+ So I'd love just all of that a response as well.
+
+673
+00:30:33,000 --> 00:30:35,360
+ - Don't forget to define CCRA for our list app.
+
+674
+00:30:35,360 --> 00:30:39,000
+ - Yeah, the Credit Card Responsibility Act,
+
+675
+00:30:39,000 --> 00:30:41,360
+ it's had so many names.
+
+676
+00:30:41,360 --> 00:30:43,840
+ I was working on this issue when I was in the Hill
+
+677
+00:30:43,840 --> 00:30:45,360
+ from early 2000s.
+
+678
+00:30:45,360 --> 00:30:50,120
+ I mean, this is the, like this issue comes up all the time.
+
+679
+00:30:50,120 --> 00:30:53,640
+ You see the word interchange to any financial services staff
+
+680
+00:30:53,640 --> 00:30:55,280
+ on the Hill and they, you know,
+
+681
+00:30:55,280 --> 00:30:57,760
+ wanna go on a corner and hide.
+
+682
+00:30:57,760 --> 00:31:00,160
+ So there's, it's kind of a,
+
+683
+00:31:00,160 --> 00:31:03,020
+ this issue comes up all the time.
+
+684
+00:31:03,020 --> 00:31:07,160
+ You know, it's never had the votes
+
+685
+00:31:07,160 --> 00:31:10,440
+ to get added to any legislations
+
+686
+00:31:10,440 --> 00:31:12,360
+ or when it's been close to having votes
+
+687
+00:31:12,360 --> 00:31:13,760
+ to get added to legislation,
+
+688
+00:31:13,760 --> 00:31:17,280
+ if shut down the amendment process on the Senate floor.
+
+689
+00:31:17,280 --> 00:31:21,040
+ So that particular bill,
+
+690
+00:31:21,040 --> 00:31:26,040
+ and again, this would cap interchange fees on credit cards.
+
+691
+00:31:26,040 --> 00:31:28,320
+ So that particular approach,
+
+692
+00:31:28,320 --> 00:31:31,600
+ that particular bill has had many opportunities
+
+693
+00:31:31,600 --> 00:31:33,840
+ to make it to the floor, to make it to a floor vote.
+
+694
+00:31:33,840 --> 00:31:37,280
+ And politically, it's just not occurred.
+
+695
+00:31:37,280 --> 00:31:40,080
+ Having the President weigh in is probably
+
+696
+00:31:40,080 --> 00:31:41,880
+ definitely changing the game,
+
+697
+00:31:41,880 --> 00:31:43,840
+ changing the landscape here.
+
+698
+00:31:43,840 --> 00:31:47,600
+ I agree, the bankers have been fighting so hard
+
+699
+00:31:47,600 --> 00:31:49,400
+ on the rewards yield issue.
+
+700
+00:31:49,400 --> 00:31:53,120
+ And they have activated the community banks on it too,
+
+701
+00:31:53,120 --> 00:31:55,840
+ claiming that this is going to harm community banks.
+
+702
+00:31:55,840 --> 00:32:00,840
+ Well, this is a much bigger issue for those same banks,
+
+703
+00:32:00,840 --> 00:32:03,400
+ you know, having a cap on the interchange fees.
+
+704
+00:32:03,400 --> 00:32:06,840
+ It's, this pays for a lot of marketing material
+
+705
+00:32:06,840 --> 00:32:08,400
+ that those companies do.
+
+706
+00:32:08,400 --> 00:32:11,760
+ The, you know, when they, when they white label those cards,
+
+707
+00:32:11,760 --> 00:32:14,240
+ they get a lot of, they get a lot of revenue
+
+708
+00:32:14,240 --> 00:32:16,560
+ from those interchange fees.
+
+709
+00:32:16,560 --> 00:32:20,000
+ So this is a bigger issue for the bankers
+
+710
+00:32:20,000 --> 00:32:21,800
+ to have to focus on.
+
+711
+00:32:21,800 --> 00:32:24,880
+ And I think, you know, that was part of,
+
+712
+00:32:24,880 --> 00:32:26,640
+ probably what the President was doing here
+
+713
+00:32:26,640 --> 00:32:28,680
+ is maybe reminding them,
+
+714
+00:32:28,680 --> 00:32:30,080
+ hey, you need to play ball
+
+715
+00:32:30,080 --> 00:32:33,160
+ because it's not just about rewards and yield.
+
+716
+00:32:33,160 --> 00:32:35,720
+ There's a lot of other things that can come up.
+
+717
+00:32:35,720 --> 00:32:38,200
+ And, you know, it doesn't take,
+
+718
+00:32:38,200 --> 00:32:41,560
+ you're not, you're not the fan favorite right now.
+
+719
+00:32:41,560 --> 00:32:42,400
+ Yeah.
+
+720
+00:32:42,400 --> 00:32:45,480
+ And just be careful what, what you're putting out there
+
+721
+00:32:45,480 --> 00:32:48,240
+ and where you're, you know, pressing buttons.
+
+722
+00:32:48,240 --> 00:32:50,800
+ Yeah, I think we're still all digesting
+
+723
+00:32:50,800 --> 00:32:52,880
+ like a lot of the new language from the draft,
+
+724
+00:32:52,880 --> 00:32:55,920
+ but it looks like where the stable coin rewards stuff landed
+
+725
+00:32:55,920 --> 00:32:59,240
+ for now is that you can't get rewards or yields
+
+726
+00:32:59,240 --> 00:33:01,960
+ on merely holding balances,
+
+727
+00:33:01,960 --> 00:33:04,440
+ but for other kinds of activity you can.
+
+728
+00:33:04,440 --> 00:33:07,760
+ So I think some people are kind of looking at that
+
+729
+00:33:07,760 --> 00:33:10,240
+ as like a partial victory at least for the banks.
+
+730
+00:33:10,240 --> 00:33:13,760
+ Like, what are you, what are you thinking of it right now?
+
+731
+00:33:13,760 --> 00:33:16,720
+ And do you think it's close to where
+
+732
+00:33:16,720 --> 00:33:19,200
+ it's something that like BA could get behind?
+
+733
+00:33:19,200 --> 00:33:21,920
+ Yeah, and we've been working on this with stakeholders
+
+734
+00:33:21,920 --> 00:33:23,520
+ very closely and this is where I'm like,
+
+735
+00:33:23,520 --> 00:33:25,840
+ we've been going word by word, line by line.
+
+736
+00:33:25,840 --> 00:33:30,880
+ The draft text that came out, you know,
+
+737
+00:33:30,880 --> 00:33:33,480
+ it had pieces of what has been offered
+
+738
+00:33:33,480 --> 00:33:36,160
+ on the stable coin side.
+
+739
+00:33:36,160 --> 00:33:37,560
+ There's some new language in there
+
+740
+00:33:37,560 --> 00:33:40,920
+ that's probably not, you know, palatable.
+
+741
+00:33:40,920 --> 00:33:43,720
+ But I guess the question,
+
+742
+00:33:43,720 --> 00:33:44,760
+ what we have to figure out,
+
+743
+00:33:44,760 --> 00:33:47,960
+ what we have to think about is there are the votes
+
+744
+00:33:47,960 --> 00:33:52,080
+ for an amendment that probably is a little more restrictive.
+
+745
+00:33:52,080 --> 00:33:55,440
+ Senator Alsoprux has been looking at language
+
+746
+00:33:55,440 --> 00:33:58,320
+ that would, you know, again, restrict to deposits,
+
+747
+00:33:58,320 --> 00:34:03,320
+ but also include anti-evasion act language
+
+748
+00:34:03,320 --> 00:34:06,720
+ and also language that would create a study
+
+749
+00:34:06,720 --> 00:34:09,720
+ and deposit flights and then allow the regulators
+
+750
+00:34:09,720 --> 00:34:13,640
+ to have a rulemaking based on whatever they find in that study.
+
+751
+00:34:13,640 --> 00:34:17,240
+ That's a hard no for stakeholders.
+
+752
+00:34:17,240 --> 00:34:21,920
+ So I think what everyone is trying to decide right now
+
+753
+00:34:21,920 --> 00:34:26,920
+ is can we get somewhere that we can hold the votes,
+
+754
+00:34:26,920 --> 00:34:30,400
+ we can prevent an amendment that's gonna be worse
+
+755
+00:34:30,400 --> 00:34:34,080
+ from getting adopted in committee
+
+756
+00:34:34,080 --> 00:34:37,080
+ and try to find, you know,
+
+757
+00:34:37,080 --> 00:34:39,440
+ language that people, nobody's gonna love the language,
+
+758
+00:34:39,440 --> 00:34:40,480
+ it's not gonna be perfect.
+
+759
+00:34:40,480 --> 00:34:43,240
+ In fact, even the fact that we're dealing with this
+
+760
+00:34:43,240 --> 00:34:46,440
+ in market structure is frustrating
+
+761
+00:34:46,440 --> 00:34:49,880
+ because Genius was just passed in July of last year
+
+762
+00:34:49,880 --> 00:34:52,120
+ that he just started the rulemaking process.
+
+763
+00:34:52,120 --> 00:34:54,960
+ So it's kind of unfortunate that we are going back
+
+764
+00:34:54,960 --> 00:35:00,040
+ and reopening a bill that just went through pretty,
+
+765
+00:35:01,320 --> 00:35:04,320
+ you know, a pretty major negotiating process
+
+766
+00:35:04,320 --> 00:35:07,120
+ to get to where, you know, to get Genius done.
+
+767
+00:35:07,120 --> 00:35:10,360
+ So I think that we're kind of weighing that,
+
+768
+00:35:10,360 --> 00:35:12,840
+ like what is the path forward here?
+
+769
+00:35:12,840 --> 00:35:15,080
+ I think the amendments that we see
+
+770
+00:35:15,080 --> 00:35:18,280
+ on the Senate Bank Committee has told their members
+
+771
+00:35:18,280 --> 00:35:21,480
+ if they want an amendment, they must file it by 5 p.m.
+
+772
+00:35:21,480 --> 00:35:24,000
+ Those will be listed on their website.
+
+773
+00:35:24,000 --> 00:35:26,640
+ That'll give us a really good idea of, okay,
+
+774
+00:35:26,640 --> 00:35:29,640
+ where are people going on this issue?
+
+775
+00:35:29,640 --> 00:35:31,560
+ Where are their villa?
+
+776
+00:35:31,560 --> 00:35:36,240
+ And, you know, how do we handle that kind of a next step?
+
+777
+00:35:36,240 --> 00:35:39,440
+ So it's a very kind of touch and go process.
+
+778
+00:35:39,440 --> 00:35:42,880
+ - Yeah, can we shift to DeFi for just a second,
+
+779
+00:35:42,880 --> 00:35:44,880
+ which is kind of like one of the other big,
+
+780
+00:35:44,880 --> 00:35:48,720
+ very like hard fought, hotly contested issues in this bill?
+
+781
+00:35:48,720 --> 00:35:50,840
+ So there's a lot of new--
+
+782
+00:35:50,840 --> 00:35:53,200
+ - We're gonna get to DeFi, which is really meaty.
+
+783
+00:35:53,200 --> 00:35:54,600
+ I just wanna ask really quick,
+
+784
+00:35:54,600 --> 00:35:57,120
+ Summer's take on this weird ETF thing.
+
+785
+00:35:57,120 --> 00:35:59,680
+ 'Cause like that's very, yeah,
+
+786
+00:35:59,680 --> 00:36:01,560
+ 'cause I wanna have a meaty conversation on DeFi,
+
+787
+00:36:01,560 --> 00:36:03,400
+ but the other thing in the bill that a bunch of people
+
+788
+00:36:03,400 --> 00:36:07,600
+ are very upset about is it exempts crypto assets
+
+789
+00:36:07,600 --> 00:36:10,920
+ that have existing ETFs as of Jan 1
+
+790
+00:36:10,920 --> 00:36:12,800
+ from certain disclosure requirements.
+
+791
+00:36:12,800 --> 00:36:14,120
+ - So radiant.
+
+792
+00:36:14,120 --> 00:36:15,720
+ - What is your take on that?
+
+793
+00:36:15,720 --> 00:36:17,320
+ 'Cause I think that's really upsetting
+
+794
+00:36:17,320 --> 00:36:20,000
+ a bunch of crypto market participants.
+
+795
+00:36:20,000 --> 00:36:22,720
+ - Yeah, so it's an interesting fix, you know,
+
+796
+00:36:22,720 --> 00:36:26,280
+ I think the idea behind it was, you know,
+
+797
+00:36:26,280 --> 00:36:29,160
+ some of these disclosures are so onerous
+
+798
+00:36:29,160 --> 00:36:32,360
+ that you're almost looking like you're doing public,
+
+799
+00:36:32,360 --> 00:36:34,960
+ you know, like your public company
+
+800
+00:36:34,960 --> 00:36:37,360
+ and that level of disclosure.
+
+801
+00:36:37,360 --> 00:36:38,760
+ And for some of these, you know,
+
+802
+00:36:38,760 --> 00:36:40,960
+ kind of more mature blockchain,
+
+803
+00:36:40,960 --> 00:36:43,960
+ you know, I think going that route
+
+804
+00:36:43,960 --> 00:36:46,400
+ was gonna be really, it's gonna be really tough.
+
+805
+00:36:46,400 --> 00:36:49,200
+ And when you think about these ETFs,
+
+806
+00:36:49,200 --> 00:36:50,760
+ by having those products,
+
+807
+00:36:50,760 --> 00:36:52,920
+ there's been some level of, you know,
+
+808
+00:36:52,920 --> 00:36:56,320
+ kind of the SEC has looked into them.
+
+809
+00:36:56,320 --> 00:36:58,520
+ They've been these as commodities already.
+
+810
+00:36:58,520 --> 00:37:02,280
+ So these are, you know, their products on commodities
+
+811
+00:37:02,280 --> 00:37:05,360
+ and there are disclosures involved with the ETF.
+
+812
+00:37:05,360 --> 00:37:10,360
+ So I think the idea was, well, if you have an ETF trading,
+
+813
+00:37:10,360 --> 00:37:12,320
+ you know, there's already disclosures there.
+
+814
+00:37:12,320 --> 00:37:15,360
+ Some of the due diligence has already been done.
+
+815
+00:37:15,360 --> 00:37:18,160
+ So let's carve that group out.
+
+816
+00:37:18,160 --> 00:37:19,320
+ I think this is really interesting.
+
+817
+00:37:19,320 --> 00:37:21,360
+ This is where blockchain association
+
+818
+00:37:21,360 --> 00:37:24,560
+ can be probably most helpful in this whole process.
+
+819
+00:37:24,560 --> 00:37:27,160
+ I think there's a path forward, you know,
+
+820
+00:37:27,160 --> 00:37:29,440
+ it could be that that data is a little bit too narrow
+
+821
+00:37:29,440 --> 00:37:32,400
+ and maybe we try to span it out a little bit.
+
+822
+00:37:32,400 --> 00:37:37,000
+ But I do think we can get members in a good place,
+
+823
+00:37:37,000 --> 00:37:41,280
+ both those who, it's really important to have that ETF carve out
+
+824
+00:37:41,280 --> 00:37:44,560
+ and those who may want to use that at a later date,
+
+825
+00:37:44,560 --> 00:37:48,640
+ but wouldn't be able to do it by the date in the bill.
+
+826
+00:37:48,640 --> 00:37:52,160
+ So this is an area where we are literally getting members together.
+
+827
+00:37:52,160 --> 00:37:53,800
+ We're talking, we're going back and forth.
+
+828
+00:37:53,800 --> 00:37:57,120
+ We hope to have some sort of negotiated language
+
+829
+00:37:57,120 --> 00:37:59,080
+ that we can send up to the Senate
+
+830
+00:37:59,080 --> 00:38:03,200
+ and say this works for both sides.
+
+831
+00:38:03,200 --> 00:38:04,720
+ - Absolutely.
+
+832
+00:38:04,720 --> 00:38:05,640
+ - Yeah.
+
+833
+00:38:05,640 --> 00:38:07,560
+ So with respect to DeFi,
+
+834
+00:38:07,560 --> 00:38:10,600
+ I think it's very meaty like Catherine was saying.
+
+835
+00:38:10,600 --> 00:38:15,160
+ We were just talking about this right before you jumped on,
+
+836
+00:38:15,160 --> 00:38:18,840
+ but it seems like the framework really revolves around
+
+837
+00:38:18,840 --> 00:38:20,960
+ this idea of control.
+
+838
+00:38:20,960 --> 00:38:24,520
+ And I sort of have a number of issues with that,
+
+839
+00:38:24,520 --> 00:38:28,560
+ but one is I think that that idea conflates the idea
+
+840
+00:38:28,560 --> 00:38:31,360
+ of decentralization and permissionlessness,
+
+841
+00:38:31,360 --> 00:38:34,640
+ which actually are not the same thing.
+
+842
+00:38:34,640 --> 00:38:38,040
+ And what it incentivizes, I think,
+
+843
+00:38:38,040 --> 00:38:41,640
+ is like it disincentivizes protocols
+
+844
+00:38:41,640 --> 00:38:46,640
+ from implementing any kind of user or market safety measures,
+
+845
+00:38:46,640 --> 00:38:48,960
+ even if they're fully automated,
+
+846
+00:38:48,960 --> 00:38:51,200
+ that could trigger regulation.
+
+847
+00:38:51,200 --> 00:38:54,360
+ And I just, I don't know if that's what Congress intended to do.
+
+848
+00:38:54,360 --> 00:38:56,080
+ So I think as an industry,
+
+849
+00:38:56,080 --> 00:38:59,000
+ we should look at this language really carefully.
+
+850
+00:38:59,000 --> 00:39:01,320
+ But the other question I had for you,
+
+851
+00:39:01,320 --> 00:39:06,320
+ especially because you used to be a commissioner at the CFTC.
+
+852
+00:39:06,320 --> 00:39:08,480
+ So I'm really curious your thoughts here.
+
+853
+00:39:08,480 --> 00:39:11,000
+ The other issue I was thinking of
+
+854
+00:39:11,000 --> 00:39:12,480
+ with respect to the new DeFi language
+
+855
+00:39:12,480 --> 00:39:14,640
+ is really like a process one.
+
+856
+00:39:14,640 --> 00:39:19,640
+ Like to me, it seems highly unusual for Congress
+
+857
+00:39:19,640 --> 00:39:25,480
+ to legislate with this level of technical granularity.
+
+858
+00:39:25,480 --> 00:39:29,240
+ Like I think typically this level of like definition
+
+859
+00:39:29,240 --> 00:39:32,520
+ and technical parameters and rules are typically left
+
+860
+00:39:32,520 --> 00:39:36,080
+ to the agencies to figure out through like rulemaking
+
+861
+00:39:36,080 --> 00:39:39,520
+ or guidance or decisions whether to enforce against
+
+862
+00:39:39,520 --> 00:39:41,480
+ like a company or not.
+
+863
+00:39:41,480 --> 00:39:43,640
+ And just in my opinion, some of the stuff in here
+
+864
+00:39:43,640 --> 00:39:45,360
+ is really technical.
+
+865
+00:39:45,360 --> 00:39:47,560
+ It's really in the weeds.
+
+866
+00:39:47,560 --> 00:39:49,720
+ And it's like, I don't know
+
+867
+00:39:49,720 --> 00:39:52,080
+ that Congress should be weighing in at that level.
+
+868
+00:39:52,080 --> 00:39:55,200
+ And certainly I think Congress should be giving us
+
+869
+00:39:55,200 --> 00:39:57,600
+ more than 24 hours to weigh in
+
+870
+00:39:57,600 --> 00:39:59,960
+ as market participants and stakeholders.
+
+871
+00:39:59,960 --> 00:40:02,400
+ So this is just a process issue, right?
+
+872
+00:40:02,400 --> 00:40:04,720
+ So like I'd love your thoughts on that.
+
+873
+00:40:04,720 --> 00:40:06,520
+ Like is this the kind of stuff
+
+874
+00:40:06,520 --> 00:40:11,080
+ that you would typically expect the CFTC and the SEC
+
+875
+00:40:11,080 --> 00:40:13,000
+ to weigh in on as opposed to Congress.
+
+876
+00:40:13,000 --> 00:40:15,920
+ Like defining with like 50 different factors
+
+877
+00:40:15,920 --> 00:40:17,440
+ what control means.
+
+878
+00:40:17,440 --> 00:40:20,320
+ - Yeah, this has been interesting
+
+879
+00:40:20,320 --> 00:40:24,120
+ because normally you would say you want technology neutral
+
+880
+00:40:24,120 --> 00:40:26,360
+ bill language so that you're not locking
+
+881
+00:40:26,360 --> 00:40:29,000
+ in any one particular technology.
+
+882
+00:40:29,000 --> 00:40:31,480
+ Let the regulators who have a little more flexibility
+
+883
+00:40:31,480 --> 00:40:35,760
+ and you slide the parameters but don't lock it into law.
+
+884
+00:40:35,760 --> 00:40:37,680
+ But everyone is coming off of this
+
+885
+00:40:37,680 --> 00:40:40,480
+ like Gary Gensler nightmare.
+
+886
+00:40:40,480 --> 00:40:43,880
+ And there's a lot of people who are so afraid
+
+887
+00:40:43,880 --> 00:40:48,240
+ to turn over details to the administrative agencies
+
+888
+00:40:48,240 --> 00:40:50,720
+ that they've really asked for, you know,
+
+889
+00:40:50,720 --> 00:40:54,120
+ very specific language in different areas
+
+890
+00:40:54,120 --> 00:40:56,720
+ where you would normally leave it to rulemaking.
+
+891
+00:40:56,720 --> 00:40:59,000
+ I don't think around that's what we're looking at
+
+892
+00:40:59,000 --> 00:41:01,560
+ with this issue but I've seen it a lot
+
+893
+00:41:01,560 --> 00:41:04,480
+ throughout this process that people are just kind of scared
+
+894
+00:41:04,480 --> 00:41:06,280
+ of the regulator's writing rules.
+
+895
+00:41:06,280 --> 00:41:09,160
+ And so they're asking Congress to be more specific.
+
+896
+00:41:09,160 --> 00:41:13,440
+ There's, you know, the DeFi stuff is really interesting.
+
+897
+00:41:13,440 --> 00:41:17,000
+ Section five, they got it right.
+
+898
+00:41:17,000 --> 00:41:20,080
+ It's in a good place but they added some new things
+
+899
+00:41:20,080 --> 00:41:25,080
+ in section three around illicit finance that are not okay.
+
+900
+00:41:25,080 --> 00:41:28,720
+ And so it's like whack-a-mole, right?
+
+901
+00:41:28,720 --> 00:41:31,280
+ You get one area in a good place
+
+902
+00:41:31,280 --> 00:41:33,600
+ and then another one pops up.
+
+903
+00:41:33,600 --> 00:41:38,120
+ I think we've been on the hill talking to senators
+
+904
+00:41:38,120 --> 00:41:42,160
+ about, you know, how do we maybe get some
+
+905
+00:41:42,160 --> 00:41:45,120
+ of these sections out, get them removed,
+
+906
+00:41:45,120 --> 00:41:48,520
+ and how do we move forward with amendments on this?
+
+907
+00:41:48,520 --> 00:41:51,960
+ You know, it's tough when you are up there talking
+
+908
+00:41:51,960 --> 00:41:53,040
+ to members and staff.
+
+909
+00:41:53,040 --> 00:41:55,800
+ There's just a fundamental misunderstanding
+
+910
+00:41:55,800 --> 00:41:58,680
+ of what DeFi is, what a protocol is,
+
+911
+00:41:58,680 --> 00:42:02,360
+ who's involved, who has, to your point, you know,
+
+912
+00:42:02,360 --> 00:42:04,520
+ what is control, what's not control.
+
+913
+00:42:04,520 --> 00:42:09,040
+ And it's really been tough to try to educate them
+
+914
+00:42:09,040 --> 00:42:10,840
+ to fully understand it.
+
+915
+00:42:10,840 --> 00:42:14,200
+ And a lot of times what we see in the text is, you know,
+
+916
+00:42:14,200 --> 00:42:16,360
+ a reflection of the lack of understanding.
+
+917
+00:42:16,360 --> 00:42:19,560
+ You know, you can even talk a little more
+
+918
+00:42:19,560 --> 00:42:23,760
+ about the specifics of what you think is maybe going too far
+
+919
+00:42:23,760 --> 00:42:26,280
+ on the DeFi illicit finance side of it.
+
+920
+00:42:26,280 --> 00:42:28,200
+ So it's something we've talked a lot about
+
+921
+00:42:28,200 --> 00:42:30,320
+ and I know we've all had meetings on the hill
+
+922
+00:42:30,320 --> 00:42:34,680
+ about this topic and have had thrown out different proposals
+
+923
+00:42:34,680 --> 00:42:38,760
+ to touch grace on them, some included, some not.
+
+924
+00:42:38,760 --> 00:42:43,760
+ - Yeah, yeah, I mean, some of it is this idea that, you know,
+
+925
+00:42:43,760 --> 00:42:49,360
+ that you would have somebody constantly keeping up
+
+926
+00:42:49,360 --> 00:42:53,080
+ with some of the, you know, if you put something in place
+
+927
+00:42:53,080 --> 00:42:55,880
+ that you would have to constantly monitor that.
+
+928
+00:42:55,880 --> 00:43:00,120
+ And then that suddenly is like, is there control, you know,
+
+929
+00:43:00,120 --> 00:43:04,200
+ I think there's some questions around, you know,
+
+930
+00:43:04,200 --> 00:43:07,000
+ front ends, although they have a new term for that
+
+931
+00:43:07,000 --> 00:43:08,460
+ in this language.
+
+932
+00:43:08,460 --> 00:43:12,920
+ I don't have my crutch with me, Lindsey Frazier,
+
+933
+00:43:12,920 --> 00:43:16,000
+ who's amazing, who knows all the stuff much better than I do.
+
+934
+00:43:16,000 --> 00:43:18,600
+ I bring her with me everywhere I go.
+
+935
+00:43:18,600 --> 00:43:22,600
+ But it's really this, there's a lot of new definitions
+
+936
+00:43:22,600 --> 00:43:23,680
+ that do not make sense.
+
+937
+00:43:23,680 --> 00:43:26,280
+ There's some conflicting definitions in there.
+
+938
+00:43:26,280 --> 00:43:31,280
+ And it's creating kind of new requirements
+
+939
+00:43:31,280 --> 00:43:34,560
+ and responsibilities that just don't work for DeFi.
+
+940
+00:43:34,560 --> 00:43:37,560
+ And so if we get rid of that section
+
+941
+00:43:37,560 --> 00:43:39,680
+ and recognize that it's not gonna work.
+
+942
+00:43:39,680 --> 00:43:41,440
+ - Well, it's important just to get out the fact
+
+943
+00:43:41,440 --> 00:43:44,200
+ that Lindsey who recently joined PA has had a policy,
+
+944
+00:43:44,200 --> 00:43:46,520
+ was former had a policy for Uniswap.
+
+945
+00:43:46,520 --> 00:43:49,040
+ So that kind of comes in handy when you've been
+
+946
+00:43:49,040 --> 00:43:52,080
+ in the middle of DeFi as part of this conversation.
+
+947
+00:43:52,080 --> 00:43:53,040
+ So that's great.
+
+948
+00:43:53,040 --> 00:43:56,560
+ I'm sure she's trading on that, understanding and information.
+
+949
+00:43:56,560 --> 00:43:58,080
+ - Absolutely.
+
+950
+00:43:58,080 --> 00:44:00,800
+ - So Jesse, we were gonna touch on this
+
+951
+00:44:00,800 --> 00:44:02,040
+ right before you joined summer,
+
+952
+00:44:02,040 --> 00:44:03,760
+ but actually I would love your thoughts on this.
+
+953
+00:44:03,760 --> 00:44:08,360
+ Jesse, do you wanna talk about how you think
+
+954
+00:44:08,360 --> 00:44:10,680
+ the control definition or the control standard
+
+955
+00:44:10,680 --> 00:44:14,360
+ in the new DeFi section would apply to something
+
+956
+00:44:14,360 --> 00:44:19,360
+ that in reality, almost every DeFi front end does today,
+
+957
+00:44:20,880 --> 00:44:24,120
+ even the ones that everyone considers pure DeFi,
+
+958
+00:44:24,120 --> 00:44:25,520
+ which is sanctioned screening.
+
+959
+00:44:25,520 --> 00:44:27,400
+ And it's usually automated, but yes.
+
+960
+00:44:27,400 --> 00:44:28,240
+ Can you talk about that?
+
+961
+00:44:28,240 --> 00:44:29,560
+ And then summer we would love your thoughts.
+
+962
+00:44:29,560 --> 00:44:31,960
+ - You know, Jesse and I, like summer,
+
+963
+00:44:31,960 --> 00:44:33,640
+ yeah, have a special place in our heart
+
+964
+00:44:33,640 --> 00:44:35,640
+ for programmable risk management.
+
+965
+00:44:35,640 --> 00:44:38,680
+ And all these things that DeFi can and should do
+
+966
+00:44:38,680 --> 00:44:42,520
+ to make it safer, but obviously we don't want that to mean
+
+967
+00:44:42,520 --> 00:44:45,720
+ that they all of a sudden get swept into regulation.
+
+968
+00:44:45,720 --> 00:44:46,880
+ - Full, yeah.
+
+969
+00:44:46,880 --> 00:44:51,240
+ - I did read your paper, so-- - Oh, we're here.
+
+970
+00:44:51,240 --> 00:44:54,000
+ - We'll put it in the show notes yet again.
+
+971
+00:44:54,000 --> 00:44:54,840
+ - Okay.
+
+972
+00:44:54,840 --> 00:44:56,400
+ - Out of bread and self promotion.
+
+973
+00:44:56,400 --> 00:44:58,600
+ I think why you, Jesse, sorry, go ahead.
+
+974
+00:44:58,600 --> 00:44:59,840
+ - Yeah, absolutely.
+
+975
+00:44:59,840 --> 00:45:02,560
+ I think that more and more projects
+
+976
+00:45:02,560 --> 00:45:04,480
+ are overlaying sanctions checks,
+
+977
+00:45:04,480 --> 00:45:06,960
+ but also just sort of like illicit finance tools
+
+978
+00:45:06,960 --> 00:45:08,560
+ that also help with cybersecurity.
+
+979
+00:45:08,560 --> 00:45:09,960
+ It's not just about sanctions,
+
+980
+00:45:09,960 --> 00:45:11,880
+ but it's also identifying actors
+
+981
+00:45:11,880 --> 00:45:14,120
+ that could potentially hack your protocol, right?
+
+982
+00:45:14,120 --> 00:45:16,960
+ And so we all know about chain analysis, TRM,
+
+983
+00:45:16,960 --> 00:45:19,200
+ there's many others, block aid, predicate,
+
+984
+00:45:19,200 --> 00:45:21,920
+ and these provide really important tools
+
+985
+00:45:21,920 --> 00:45:25,800
+ that you can frequently set it and forget it for a while,
+
+986
+00:45:25,800 --> 00:45:28,480
+ but that's not really how it works
+
+987
+00:45:28,480 --> 00:45:32,120
+ and that's not really how we encourage projects to use it
+
+988
+00:45:32,120 --> 00:45:34,240
+ because then it doesn't really help them
+
+989
+00:45:34,240 --> 00:45:36,200
+ and it doesn't really protect their users
+
+990
+00:45:36,200 --> 00:45:38,160
+ in a way that's continuous.
+
+991
+00:45:38,160 --> 00:45:42,040
+ And so I feel like the bill tries to make this line
+
+992
+00:45:42,040 --> 00:45:45,880
+ between discretionary control and everything else,
+
+993
+00:45:45,880 --> 00:45:49,400
+ but like risk management doesn't fit cleanly into anything
+
+994
+00:45:49,400 --> 00:45:52,360
+ because in practice, layering these tools on
+
+995
+00:45:52,360 --> 00:45:54,600
+ and enforcing sanctions isn't binary,
+
+996
+00:45:54,600 --> 00:45:57,640
+ just like cybersecurity protections aren't binary.
+
+997
+00:45:57,640 --> 00:46:00,080
+ To me, like the bill doesn't really resolve
+
+998
+00:46:00,080 --> 00:46:02,680
+ what continued or action puts you over the line of why.
+
+999
+00:46:02,680 --> 00:46:05,720
+ So like, let's do a tangible example, right?
+
+1000
+00:46:05,720 --> 00:46:07,480
+ So let's talk about chain and TRM.
+
+1001
+00:46:07,480 --> 00:46:10,040
+ Most projects have that in some form
+
+1002
+00:46:10,040 --> 00:46:14,880
+ or they use it just to stop any explicit sanction address
+
+1003
+00:46:14,880 --> 00:46:18,440
+ that is listed by OFAC or other like sanctioning entity
+
+1004
+00:46:18,440 --> 00:46:19,600
+ and another government.
+
+1005
+00:46:19,600 --> 00:46:23,960
+ But over time, overlaying that requires updating lists,
+
+1006
+00:46:23,960 --> 00:46:26,880
+ tuning heuristics, responding to false positives
+
+1007
+00:46:26,880 --> 00:46:28,440
+ and coordinating with counterparty.
+
+1008
+00:46:28,440 --> 00:46:31,960
+ So like, at what point does ongoing judgment
+
+1009
+00:46:31,960 --> 00:46:35,600
+ turn rule-based compliance or rule-based risk management
+
+1010
+00:46:35,600 --> 00:46:37,080
+ into human control?
+
+1011
+00:46:37,080 --> 00:46:39,360
+ And that's what I can't quite figure out in this book.
+
+1012
+00:46:39,360 --> 00:46:41,360
+ - Well, so you know what I would add to that?
+
+1013
+00:46:41,360 --> 00:46:44,200
+ It's actually very ambiguous to me
+
+1014
+00:46:44,200 --> 00:46:46,320
+ that even if you do sanction screening
+
+1015
+00:46:46,320 --> 00:46:48,040
+ or some other compliance measure
+
+1016
+00:46:48,040 --> 00:46:50,360
+ through a fully automated mechanism,
+
+1017
+00:46:50,360 --> 00:46:52,720
+ you could still be exercising control, right?
+
+1018
+00:46:52,720 --> 00:46:55,920
+ Because one of the parts of the definition is it,
+
+1019
+00:46:55,920 --> 00:46:57,240
+ do you control access?
+
+1020
+00:46:57,240 --> 00:47:00,120
+ It doesn't say whether it's automated or discretionary.
+
+1021
+00:47:00,120 --> 00:47:04,320
+ Do you restrict which tokens can be allowed, right?
+
+1022
+00:47:04,320 --> 00:47:08,120
+ Do you exclude low quality collateral from your protocol?
+
+1023
+00:47:08,120 --> 00:47:11,440
+ Like all of these things could potentially sweep you
+
+1024
+00:47:11,440 --> 00:47:13,200
+ into the definition of control.
+
+1025
+00:47:13,200 --> 00:47:16,080
+ But these are all things that DeFi protocols do every day,
+
+1026
+00:47:16,080 --> 00:47:18,000
+ and it shouldn't mean that they should be regulated
+
+1027
+00:47:18,000 --> 00:47:19,440
+ like as brokers, right?
+
+1028
+00:47:19,440 --> 00:47:21,280
+ These are just like smart engineering.
+
+1029
+00:47:21,280 --> 00:47:22,120
+ - Totally.
+
+1030
+00:47:22,120 --> 00:47:24,200
+ And one more point on X predicate, for example,
+
+1031
+00:47:24,200 --> 00:47:26,240
+ that puts policies in and can change them.
+
+1032
+00:47:26,240 --> 00:47:29,840
+ Do they become that for all the projects
+
+1033
+00:47:29,840 --> 00:47:31,080
+ that they're working for?
+
+1034
+00:47:31,080 --> 00:47:32,960
+ Like, where is the line?
+
+1035
+00:47:32,960 --> 00:47:34,440
+ - And the other thing, Summer, like,
+
+1036
+00:47:34,440 --> 00:47:36,200
+ I want you to opine on this before.
+
+1037
+00:47:36,200 --> 00:47:38,600
+ And you obviously, the three of us feel very passionate about this.
+
+1038
+00:47:38,600 --> 00:47:39,920
+ - We don't have any opinions.
+
+1039
+00:47:39,920 --> 00:47:43,760
+ - You have an evening perspective as an X CFTC commissioner.
+
+1040
+00:47:43,760 --> 00:47:45,680
+ And I have never been a regulator,
+
+1041
+00:47:45,680 --> 00:47:47,720
+ but I've dealt with regulators my entire career,
+
+1042
+00:47:47,720 --> 00:47:49,600
+ especially doing white-collar defense.
+
+1043
+00:47:49,600 --> 00:47:51,680
+ To some degree, I often say to crypto,
+
+1044
+00:47:51,680 --> 00:47:54,200
+ we have to give regulators a degree of credit
+
+1045
+00:47:54,200 --> 00:47:56,160
+ in terms of there's a lot of regulators,
+
+1046
+00:47:56,160 --> 00:47:58,360
+ yourself included while you were at the commission,
+
+1047
+00:47:58,360 --> 00:48:00,840
+ that were highly pragmatic and reasonable.
+
+1048
+00:48:00,840 --> 00:48:03,680
+ And, you know, this is true of enforcement as well.
+
+1049
+00:48:03,680 --> 00:48:06,200
+ Like, there is a spectrum, Jesse knows this,
+
+1050
+00:48:06,200 --> 00:48:07,280
+ DOJ in particular.
+
+1051
+00:48:07,280 --> 00:48:10,080
+ They're not gonna indict unless they can convince, for example.
+
+1052
+00:48:10,080 --> 00:48:11,840
+ But how do you feel about this provision
+
+1053
+00:48:11,840 --> 00:48:14,240
+ where there is a theoretical possibility,
+
+1054
+00:48:14,240 --> 00:48:17,040
+ which is scary for crypto having been burned,
+
+1055
+00:48:17,040 --> 00:48:18,840
+ of kind of this overreach?
+
+1056
+00:48:18,840 --> 00:48:22,200
+ - Yeah, I mean, and again, this is like a demonstration
+
+1057
+00:48:22,200 --> 00:48:24,880
+ of the fundamental misunderstanding of how this works.
+
+1058
+00:48:24,880 --> 00:48:27,560
+ I'm sure whoever is working on this section
+
+1059
+00:48:27,560 --> 00:48:30,480
+ thought that it was a sudden forget-it-type thing
+
+1060
+00:48:30,480 --> 00:48:32,520
+ and that, you know, nobody ever had to go back
+
+1061
+00:48:32,520 --> 00:48:36,280
+ and make sure it was still operating the way it should.
+
+1062
+00:48:36,280 --> 00:48:41,080
+ And, you know, I think trying to get in front of those folks
+
+1063
+00:48:41,080 --> 00:48:43,400
+ to make them understand what this means
+
+1064
+00:48:43,400 --> 00:48:47,960
+ and what they've created by with this language.
+
+1065
+00:48:47,960 --> 00:48:50,960
+ So, you know, that's that piece of it,
+
+1066
+00:48:50,960 --> 00:48:52,440
+ at least with the legislation, you know,
+
+1067
+00:48:52,440 --> 00:48:55,360
+ going on the regulatory piece of it,
+
+1068
+00:48:55,360 --> 00:48:56,800
+ it was always interesting to me,
+
+1069
+00:48:56,800 --> 00:48:59,440
+ we'd bring these DeFi cases.
+
+1070
+00:48:59,440 --> 00:49:01,520
+ I always just sent it on them.
+
+1071
+00:49:01,520 --> 00:49:04,840
+ And it wasn't necessarily because I was saying,
+
+1072
+00:49:04,840 --> 00:49:07,120
+ "Oh, I think this protocol."
+
+1073
+00:49:07,120 --> 00:49:08,960
+ And, you know, I didn't know enough.
+
+1074
+00:49:08,960 --> 00:49:10,240
+ I didn't have enough information.
+
+1075
+00:49:10,240 --> 00:49:13,600
+ I couldn't have said this is absolutely decentralized.
+
+1076
+00:49:13,600 --> 00:49:15,480
+ I didn't have all that information.
+
+1077
+00:49:15,480 --> 00:49:17,840
+ What I knew was that they found somebody
+
+1078
+00:49:17,840 --> 00:49:22,080
+ that they could go to and threaten with the lawsuit
+
+1079
+00:49:22,080 --> 00:49:26,720
+ and they did and they never explained to them,
+
+1080
+00:49:26,720 --> 00:49:28,640
+ well, here's how you could,
+
+1081
+00:49:28,640 --> 00:49:31,480
+ here are different ways you could abide by
+
+1082
+00:49:31,480 --> 00:49:33,560
+ the existing regulations.
+
+1083
+00:49:33,560 --> 00:49:36,320
+ And so, to me, it was always more of a like,
+
+1084
+00:49:36,320 --> 00:49:38,560
+ there's gotta be a way where, again,
+
+1085
+00:49:38,560 --> 00:49:40,360
+ you stay technology neutral.
+
+1086
+00:49:40,360 --> 00:49:44,240
+ You don't try to get into these debates about, you know,
+
+1087
+00:49:44,240 --> 00:49:47,880
+ control and, you know, who is doing what.
+
+1088
+00:49:47,880 --> 00:49:51,240
+ And just look at it more from the standpoint of, you know,
+
+1089
+00:49:51,240 --> 00:49:54,080
+ how is somebody supposed to operate
+
+1090
+00:49:54,080 --> 00:49:57,680
+ within the broader context of what's legal,
+
+1091
+00:49:57,680 --> 00:50:00,720
+ what's allowed under the regulations.
+
+1092
+00:50:00,720 --> 00:50:02,800
+ So, you don't have a future administration
+
+1093
+00:50:02,800 --> 00:50:05,800
+ that just uses the law and the rules
+
+1094
+00:50:05,800 --> 00:50:09,520
+ as a weapon against something they don't understand.
+
+1095
+00:50:09,520 --> 00:50:11,040
+ - Absolutely.
+
+1096
+00:50:11,040 --> 00:50:12,480
+ Summer, we're almost at time.
+
+1097
+00:50:12,480 --> 00:50:14,960
+ So, I just wanna take a moment to say thank you so much
+
+1098
+00:50:14,960 --> 00:50:18,360
+ for joining us, taking the time on a really busy stretch.
+
+1099
+00:50:18,360 --> 00:50:19,440
+ Although, we are in crypto.
+
+1100
+00:50:19,440 --> 00:50:20,360
+ We always pay that.
+
+1101
+00:50:20,360 --> 00:50:21,920
+ Like, what is there a time when we're like,
+
+1102
+00:50:21,920 --> 00:50:23,200
+ "Oh, it's really chill."
+
+1103
+00:50:23,200 --> 00:50:24,040
+ And this is-
+
+1104
+00:50:24,040 --> 00:50:24,880
+ - That's the biggest.
+
+1105
+00:50:24,880 --> 00:50:25,720
+ - I would say though.
+
+1106
+00:50:25,720 --> 00:50:28,000
+ - I'd say it's like, "Buds were on that note."
+
+1107
+00:50:28,000 --> 00:50:28,840
+ - Absolutely.
+
+1108
+00:50:28,840 --> 00:50:31,520
+ I think we don't have to do that every day.
+
+1109
+00:50:31,520 --> 00:50:34,360
+ - It's just an action for like the busiest week ever.
+
+1110
+00:50:34,360 --> 00:50:36,040
+ - Yeah, yeah.
+
+1111
+00:50:36,040 --> 00:50:36,880
+ - Don't say that.
+
+1112
+00:50:36,880 --> 00:50:37,720
+ It will get worse.
+
+1113
+00:50:37,720 --> 00:50:38,880
+ - It will get worse.
+
+1114
+00:50:38,880 --> 00:50:39,720
+ - Absolutely.
+
+1115
+00:50:39,720 --> 00:50:40,560
+ - Absolutely.
+
+1116
+00:50:40,560 --> 00:50:41,720
+ Friday, good play.
+
+1117
+00:50:41,720 --> 00:50:44,120
+ Thank you for your leadership at BA.
+
+1118
+00:50:44,120 --> 00:50:46,120
+ BA is doing a lot of really great work
+
+1119
+00:50:46,120 --> 00:50:49,840
+ on behalf of crypto in Washington Blockchain Association.
+
+1120
+00:50:49,840 --> 00:50:50,880
+ Check it out, listeners.
+
+1121
+00:50:50,880 --> 00:50:52,520
+ If you aren't familiar.
+
+1122
+00:50:52,520 --> 00:50:55,640
+ And, you know, I, again, as Jesse said,
+
+1123
+00:50:55,640 --> 00:50:58,720
+ keep doing God's work and thank you so much for joining us.
+
+1124
+00:50:58,720 --> 00:50:59,560
+ - Oh, thank you.
+
+1125
+00:50:59,560 --> 00:51:00,400
+ - Thank you so much.
+
+1126
+00:51:00,400 --> 00:51:01,240
+ - Thank you, Summer.
+
+1127
+00:51:01,240 --> 00:51:02,080
+ - This was fine.
+
+1128
+00:51:02,080 --> 00:51:04,280
+ - And on that note, that for this episode
+
+1129
+00:51:04,280 --> 00:51:07,360
+ of Decks in the City, thanks to you, our listeners,
+
+1130
+00:51:07,360 --> 00:51:08,720
+ and a lot of yours for me.
+
+1131
+00:51:08,720 --> 00:51:11,160
+ And we'll see you next week.
+
+1132
+00:51:11,160 --> 00:51:12,320
+ Have a great week.
+

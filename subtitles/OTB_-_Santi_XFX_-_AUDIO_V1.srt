@@ -1,0 +1,648 @@
+1
+00:00:00,000 --> 00:00:05,680
+Welcome to On the Brink. My name is Sean Judge. Today on the show, I sat down with Santi Alvarado,
+
+2
+00:00:05,680 --> 00:00:13,040
+CEO and co-founder of XFX. Earlier this week, we announced Castle Island invested in XFX's seed
+
+3
+00:00:13,040 --> 00:00:21,360
+round of financing alongside Han Ventures, Oak HCFT, Maya Capital, Coinbase, Paxos, and others.
+
+4
+00:00:21,360 --> 00:00:24,720
+Please enjoy today's conversation with Santi Alvarado.
+
+5
+00:00:24,720 --> 00:00:28,080
+Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these expressed by them
+
+6
+00:00:28,080 --> 00:00:31,040
+or the guests on this podcast are solely their opinions and do not reflect the opinions of
+
+7
+00:00:31,040 --> 00:00:34,160
+Castle Island Ventures. Guests and hosts may maintain positions in the assets discussed in
+
+8
+00:00:34,160 --> 00:00:37,680
+this podcast. You should not treat any opinion expressed by anyone on this podcast as a specific
+
+9
+00:00:37,680 --> 00:00:41,440
+inducement to make a particular investment or follow a particular strategy, but only as an
+
+10
+00:00:41,440 --> 00:00:44,800
+expression of their personal opinion. This podcast is for informational purposes only.
+
+11
+00:00:58,400 --> 00:01:01,920
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac,
+
+12
+00:01:01,920 --> 00:01:05,120
+the two mortgage giants that have been threatened by the housing crisis.
+
+13
+00:01:05,120 --> 00:01:08,960
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+14
+00:01:08,960 --> 00:01:12,400
+with a new round of quantitative easing. You print a couple trillion dollars and all
+
+15
+00:01:12,400 --> 00:01:16,560
+of a sudden people start to worry. So out of this worry, we have something called the Bitcoin.
+
+16
+00:01:18,400 --> 00:01:23,600
+Welcome to On the Brink. My name is Sean Judge. Today I'm sitting down with Santi Alvarado,
+
+17
+00:01:23,600 --> 00:01:27,440
+CEO and co-founder of XFX. Santi, thanks for joining me.
+
+18
+00:01:27,440 --> 00:01:29,440
+Thank you for having me, Sean. Pleasure to be here.
+
+19
+00:01:30,000 --> 00:01:34,400
+I guess just to start, it would be great if you could share your personal background and
+
+20
+00:01:34,400 --> 00:01:38,720
+how you arrived at working in crypto. I'm actually Peruvian, although I haven't
+
+21
+00:01:38,720 --> 00:01:44,800
+lived in Peru for over a decade. And in what I call my past life, I did something very different
+
+22
+00:01:44,800 --> 00:01:51,040
+to what I'm doing now. I'm a civil engineer and I worked on infrastructure development across Latin
+
+23
+00:01:51,040 --> 00:01:57,360
+America, mostly in energy and transportation, then got an MBA degree at Harvard Business School.
+
+24
+00:01:57,360 --> 00:02:02,720
+And after that is when my fintech career started, I had the opportunity to launch and scale a
+
+25
+00:02:02,720 --> 00:02:09,440
+digital bank called Tempo in Chile. Interestingly, that's the first time I actually bought Bitcoin.
+
+26
+00:02:10,160 --> 00:02:15,520
+It was out of frustration with my bank trying to send money back home to Peru,
+
+27
+00:02:16,160 --> 00:02:20,160
+where I got stuck in what I call swift limbo, right? Where you don't know where the money's
+
+28
+00:02:20,160 --> 00:02:24,480
+going to arrive, the fees that you're going to pay. Ultimately, the money ended up arriving
+
+29
+00:02:24,480 --> 00:02:31,280
+seven days later. And they usually charged me around $150, which I thought was unacceptable.
+
+30
+00:02:31,920 --> 00:02:36,800
+So I opened an account at a Chilean exchange, an account at a Peruvian exchange, and I started
+
+31
+00:02:36,800 --> 00:02:43,200
+buying Bitcoin with Chilean pesos and selling it for Peruvian soles. And it took me 15 minutes
+
+32
+00:02:43,200 --> 00:02:48,160
+and a fraction of a glass. I thought there was something very powerful there. Although, of course,
+
+33
+00:02:48,160 --> 00:02:53,760
+the user experience was still a bit tricky. So I decided to create a cross-border payments business
+
+34
+00:02:53,760 --> 00:02:58,560
+leveraging blockchain. And Bitcoin specifically, stablecoins were not a thing back then.
+
+35
+00:02:59,280 --> 00:03:05,520
+And a friend of mine from business school, who was the CFO at Bitsol, told me, why don't you join
+
+36
+00:03:05,520 --> 00:03:11,760
+Bitsol and do this business with us? So about five years ago, I joined Bitsol to launch what was then
+
+37
+00:03:11,760 --> 00:03:19,360
+called the cross-border payments business unit, which ended up becoming Bitsol Business, which is
+
+38
+00:03:19,360 --> 00:03:24,880
+Bitsol's B2B business unit. It's amazing. I mean, I give Bitsol a lot of credit for thinking about
+
+39
+00:03:24,880 --> 00:03:30,000
+that five years ago. I mean, it's obviously very in vogue today, but five years ago, it was less
+
+40
+00:03:30,000 --> 00:03:36,720
+obvious that this would be a huge opportunity. So you had your experience there. XFX, you just
+
+41
+00:03:36,720 --> 00:03:42,560
+raised for earlier this week, and we were proud to be investors in that round. What is the high
+
+42
+00:03:42,560 --> 00:03:49,520
+level overview of XFX? And who did you start this with? In a nutshell, the way that I would describe
+
+43
+00:03:49,520 --> 00:03:57,280
+XFX is a financial infrastructure for international settlement. And what we provide is,
+
+44
+00:03:58,000 --> 00:04:04,000
+we give access to institutions to wholesale FX liquidity and real-time settlement,
+
+45
+00:04:04,640 --> 00:04:08,480
+saving in capital costs by not having to pre-fund origin or destination accounts.
+
+46
+00:04:09,120 --> 00:04:16,240
+I started this business with my two co-founders called Jason Loesch and Alberto, we call him Beto,
+
+47
+00:04:16,240 --> 00:04:24,080
+Sanchez Tello, and we all met at Bitsol. So Jason used to lead the engineering team at Bitsol,
+
+48
+00:04:24,080 --> 00:04:30,400
+and Beto led the markets team, which is basically a team that's in charge of the liquidity in the
+
+49
+00:04:30,400 --> 00:04:36,240
+exchange for both retail and institutional business units. Zooming out a little bit,
+
+50
+00:04:36,240 --> 00:04:42,240
+for those listeners that are maybe less familiar with the FX market or cross-border payments
+
+51
+00:04:42,240 --> 00:04:46,800
+market, I think it's pretty jarring when you dig into the numbers. Can you share just how big of
+
+52
+00:04:46,800 --> 00:04:54,000
+a market this is and maybe how it operates today? So the FX market is the largest financial market
+
+53
+00:04:54,080 --> 00:05:01,200
+in the world in terms of TPB. It moves $7.5 trillion a day. And if you think about it,
+
+54
+00:05:01,200 --> 00:05:06,240
+it makes sense because ultimately, most of financial services actually have to go through
+
+55
+00:05:06,240 --> 00:05:11,600
+an FX transaction. If you're thinking about international trade, trading commodities,
+
+56
+00:05:11,600 --> 00:05:17,360
+if you're thinking about global equity or debt, this usually have an FX transaction embedded in
+
+57
+00:05:18,000 --> 00:05:23,840
+it. It's an absolutely massive market, but it has its complexities that I'm happy to talk about.
+
+58
+00:05:23,840 --> 00:05:30,640
+So let's start with a settlement piece. Most people have heard about Swift, and Swift really
+
+59
+00:05:30,640 --> 00:05:37,520
+is only a messaging system between banks. But the actual money movement happens across
+
+60
+00:05:37,520 --> 00:05:43,280
+correspondent banks, meaning that each of these banks in that payment chain need to have what
+
+61
+00:05:43,360 --> 00:05:49,600
+are called Nostro and Vostro accounts at each other in the corresponding currency for
+
+62
+00:05:49,600 --> 00:05:56,640
+different types of currency pairs. There are $4 trillion of tied up capital in this Nostro-Vostro
+
+63
+00:05:56,640 --> 00:06:02,720
+account. So if you actually think about the cost breakdown of the average cross-border payments
+
+64
+00:06:02,720 --> 00:06:10,560
+transaction, around 60% is composed of the cost of capital of that tied up capital and the FX
+
+65
+00:06:10,560 --> 00:06:16,640
+price. So that's on the settlement side, right? And then on the trading side, there are also
+
+66
+00:06:16,640 --> 00:06:22,080
+complexities, right? Usually the market, and this is very strange for such a large market,
+
+67
+00:06:22,720 --> 00:06:29,440
+is very opaque. If you ask anyone that's engaged regularly with FX providers, they always feel
+
+68
+00:06:29,440 --> 00:06:34,320
+like they're being taken advantage of. There's very little transparency on whether you're actually
+
+69
+00:06:34,320 --> 00:06:41,040
+getting a competitive price. And also behind the scenes, there are settlement and cost of capital
+
+70
+00:06:41,040 --> 00:06:47,040
+problems. For instance, if you want to trade at the spot rate in the Mexican FX market,
+
+71
+00:06:47,600 --> 00:06:54,320
+the funds settle P plus 2. That also means quite a bit of working capital tied up in the system.
+
+72
+00:06:54,880 --> 00:07:00,640
+And it's no wonder that if you want to trade from Monday to Wednesday, you can get a better rate
+
+73
+00:07:00,640 --> 00:07:05,760
+that if you want to trade Thursday and Friday, because if you trade Thursday, the funds will
+
+74
+00:07:05,760 --> 00:07:12,560
+settle on Monday. Therefore there's an additional cost of capital due to the weekend. Incredible
+
+75
+00:07:12,560 --> 00:07:19,360
+that that's the way the market exists today in 2025. That's largely been unchanged literally
+
+76
+00:07:19,360 --> 00:07:24,320
+since the late seventies. And then I guess that's where stable coins come in. So most of our listeners
+
+77
+00:07:24,320 --> 00:07:29,200
+will be familiar with stable coins, but maybe in your words, why do you see stable coins as
+
+78
+00:07:29,200 --> 00:07:35,120
+improving upon the existing ways in which money moves cross border? A lot of that tied up capital.
+
+79
+00:07:35,840 --> 00:07:40,640
+The most exciting thing for me about stable coins is that for the first time, we have
+
+80
+00:07:41,360 --> 00:07:47,360
+a standard that the ecosystem can agree upon and actually build according to that standard for
+
+81
+00:07:47,360 --> 00:07:53,120
+cross border payments. Not only that, but unlike Swift, which is only the messaging system,
+
+82
+00:07:53,680 --> 00:07:58,560
+stable coins are both things. They're the messaging system and the movement of value.
+
+83
+00:07:59,200 --> 00:08:03,920
+A few relevant components that are missing for the asset class, and by asset class I mean stable
+
+84
+00:08:03,920 --> 00:08:10,880
+coins, to truly deliver its intended value proposition, which is real-time cross-border
+
+85
+00:08:10,880 --> 00:08:16,240
+settlement without pre-funding requirements so that it can actually out-compete the
+
+86
+00:08:16,240 --> 00:08:21,840
+trade-fine mechanisms today. That's why we're actually building XFX because we think we can
+
+87
+00:08:21,840 --> 00:08:27,200
+actually build that base layer infrastructure to make sure that that value proposition happens.
+
+88
+00:08:27,840 --> 00:08:32,000
+It makes a lot of sense. Now, were there experiences that you've had just in your journey
+
+89
+00:08:32,000 --> 00:08:39,440
+working in fintech and eventually working in crypto where you felt like this just had to exist?
+
+90
+00:08:39,440 --> 00:08:46,240
+It just was very obvious. Maybe just on that, if you could explain in a little bit more detail
+
+91
+00:08:46,800 --> 00:08:53,440
+who the key players are involved in a cross-border stable coin transaction and where things were
+
+92
+00:08:53,440 --> 00:08:56,880
+starting to break and what you guys are building to help facilitate that.
+
+93
+00:08:57,680 --> 00:09:04,560
+Let's talk about one use case where this is very visible and where the system is broken,
+
+94
+00:09:04,560 --> 00:09:10,560
+which are remittances and e-commerce. On the remittance side, you have money transmitters.
+
+95
+00:09:11,120 --> 00:09:18,240
+Those money transmitters promise their end users same-day settlement, but the money does not arrive
+
+96
+00:09:18,240 --> 00:09:23,040
+same day, meaning that there's a gap that they need to pre-fund in order for them to actually
+
+97
+00:09:23,040 --> 00:09:29,600
+meet their payments as late. The same is true for a PSP that offers same-day settlement for
+
+98
+00:09:29,600 --> 00:09:36,080
+a foreign merchant. So the foreign merchant hires the PSP to manage all the collections domestically
+
+99
+00:09:36,080 --> 00:09:40,640
+and then they need to settle with them whichever jurisdictions are incorporated in or have their
+
+100
+00:09:40,640 --> 00:09:46,000
+bank accounts at. And the same working capital problem happens. In fact, it's actually even worse
+
+101
+00:09:46,000 --> 00:09:51,440
+because they need to process the domestic card network, which usually settles in two days,
+
+102
+00:09:51,440 --> 00:09:56,160
+and then you have the swift problem. Depending on the origin destination, they could be pre-funding
+
+103
+00:09:56,160 --> 00:10:02,080
+up to, let's say, five days of TPB to meet their SLAs with their customers. And that actually makes
+
+104
+00:10:02,080 --> 00:10:07,200
+no sense, right? Especially if you think about all of the real-time payment networks that are
+
+105
+00:10:07,200 --> 00:10:13,120
+appearing in different markets like PICS in Brazil, Spain, Mexico, FedNow in the US. Why does the
+
+106
+00:10:13,120 --> 00:10:18,800
+cross-border payments space still need to happen in batch? That's to a large degree the problem
+
+107
+00:10:18,800 --> 00:10:24,400
+that stable coins can get to solve. That can happen from a programmatic standpoint,
+
+108
+00:10:24,400 --> 00:10:30,320
+but the liquidity is still not there. So the problem that we're solving at XFX is making sure
+
+109
+00:10:30,320 --> 00:10:35,600
+that regardless of the amount that you want to trade, first that you can do it programmatically
+
+110
+00:10:35,600 --> 00:10:41,040
+and that you can access the most competitive liquidity consistently at all times for that
+
+111
+00:10:41,040 --> 00:10:46,560
+asset plus. Therefore, really trying to make the cross-border payments a value chain real-time on
+
+112
+00:10:46,560 --> 00:10:52,160
+a per-transaction basis instead of on a batch basis. As we've talked about a bunch, we're
+
+113
+00:10:52,160 --> 00:10:58,720
+investors in Felix Pago. And from an end user's perspective, the digital remitters that emerged
+
+114
+00:10:58,720 --> 00:11:03,840
+15 years ago are able to kind of do, and I'm using quotation marks, instant payments because
+
+115
+00:11:03,840 --> 00:11:08,880
+for the user, it feels that way. But those digital remitters are forced to kind of park capital all
+
+116
+00:11:08,880 --> 00:11:14,320
+over the world to facilitate that. Whereas with stable coins, there's the opportunity to kind of
+
+117
+00:11:14,320 --> 00:11:20,720
+actually do it instant with less capital tied up. The only issue there is, is there liquidity on
+
+118
+00:11:20,720 --> 00:11:24,720
+the other end, which is kind of where you guys come into play? And not only that, I would have
+
+119
+00:11:24,720 --> 00:11:30,960
+an additional problem that goes beyond the parked capital. It's that all of the rebalancing has to
+
+120
+00:11:30,960 --> 00:11:37,680
+happen in batch and it usually happens in an analog manner, literally via phone call or a WhatsApp
+
+121
+00:11:37,680 --> 00:11:43,840
+channel with your relationship manager at a bank or FX provider. Can you share, I guess,
+
+122
+00:11:43,840 --> 00:11:49,680
+just on the product side, what does the product look like today for businesses looking to move
+
+123
+00:11:49,680 --> 00:11:56,240
+money and then maybe what it looks like for the FX market maker side? There are three main product
+
+124
+00:11:56,240 --> 00:12:01,360
+pillars in our product offering. The first is the settlement layer, where we actually give
+
+125
+00:12:01,360 --> 00:12:06,560
+access to the domestic banking rails for the currency pairs that we want to support,
+
+126
+00:12:06,560 --> 00:12:11,840
+as well as the stablecoin networks that we want to support. The second is the trade execution
+
+127
+00:12:11,840 --> 00:12:17,760
+capabilities, which is an RFQ system plus the trade execution capabilities,
+
+128
+00:12:17,760 --> 00:12:22,640
+which always happen in real time. And with full transparency, you'll always be able to audit
+
+129
+00:12:23,360 --> 00:12:29,520
+the trade breakdown with the system. And third are the post-trade settlement capabilities,
+
+130
+00:12:29,520 --> 00:12:35,920
+which in essence give payments institutions the ability to even improve their working capital
+
+131
+00:12:35,920 --> 00:12:41,200
+further, where they can actually execute a trade with us and then settle T plus one, T plus two,
+
+132
+00:12:41,200 --> 00:12:48,240
+or T plus three. As you guys are talking to folks in the market, are there core aspects of the
+
+133
+00:12:48,240 --> 00:12:53,520
+settlement platform that makes XFX stand out for institutional clients? Is it that post-trade
+
+134
+00:12:53,520 --> 00:13:02,240
+settlement component? So I'd say that the first thing is the consistency in price and depth for
+
+135
+00:13:02,240 --> 00:13:08,000
+all the currency pairs that we support. It makes no sense to integrate to a platform
+
+136
+00:13:08,000 --> 00:13:15,040
+that cannot deliver on that consistency and visibility for the trade. And unfortunately,
+
+137
+00:13:15,040 --> 00:13:21,600
+that's not the case for stablecoins, particularly in less liquid markets like Latin markets.
+
+138
+00:13:22,320 --> 00:13:27,360
+Second is the settlement speed. All the settlement happens in real time,
+
+139
+00:13:28,000 --> 00:13:34,560
+and that equates to no pre-funding, no tied up capital. The third thing is the transparency.
+
+140
+00:13:35,120 --> 00:13:40,640
+So if we actually agree on commercial terms, you'll always be able to audit, regardless of
+
+141
+00:13:40,640 --> 00:13:46,320
+the mechanism and the trade size, that that is the spread that you are actually getting,
+
+142
+00:13:46,320 --> 00:13:52,560
+which is, let's say, Bloomberg market rate plus X basis points. And the third thing is the
+
+143
+00:13:52,560 --> 00:13:58,080
+programmability to make sure that you have the flexibility to operate either via Web UI and OTC,
+
+144
+00:13:58,640 --> 00:14:04,480
+but most importantly, you can actually automate this whole operation via a great set of APIs.
+
+145
+00:14:05,360 --> 00:14:10,400
+To get going, obviously you'll have plans to expand, but here initially,
+
+146
+00:14:10,400 --> 00:14:15,040
+what pairs do you plan to support? We're starting with three currency pairs,
+
+147
+00:14:15,040 --> 00:14:24,240
+which are USDFIA against MXN, USDC against MXN, and USDT against MXN. But our plan is to remain
+
+148
+00:14:24,240 --> 00:14:30,400
+always agnostic to the stablecoin that we want to route volume through. We'll always follow the
+
+149
+00:14:30,400 --> 00:14:37,600
+optimal path for settlement speed and liquidity. In terms of roadmap, we want to move to the rest
+
+150
+00:14:37,600 --> 00:14:45,680
+of Spanish-speaking Latam. We believe that the places where this technology is really 10X better
+
+151
+00:14:45,680 --> 00:14:51,440
+than the existing trade fair alternatives is in the less liquid, more exotic markets.
+
+152
+00:14:52,080 --> 00:14:56,160
+So we'll start there, but the idea is to build a global business.
+
+153
+00:14:57,120 --> 00:15:02,080
+Well, I think with this infrastructure, which will enable even more interesting business and
+
+154
+00:15:02,080 --> 00:15:07,040
+consumer applications to get built on top of you guys, now that it's making it just that much more
+
+155
+00:15:07,040 --> 00:15:13,840
+efficient. Well, this has been awesome, Santi. Where can people learn more about XFX and you?
+
+156
+00:15:14,800 --> 00:15:22,720
+You can go to our website, which is xfx.io, or follow us on X. The handle is at officialxfx.
+
+157
+00:15:23,440 --> 00:15:27,040
+Well, congrats again on the seat around. Super pumped to be partnered with you
+
+158
+00:15:27,040 --> 00:15:29,440
+and the team. And thanks so much for joining today.
+
+159
+00:15:30,000 --> 00:15:31,280
+Thank you, Sean. It's been a pleasure.
+
+160
+00:15:32,560 --> 00:15:36,880
+Thanks for listening to another episode of On the Brink with Castle Island. To find out
+
+161
+00:15:36,880 --> 00:15:43,360
+more about Castle Island, visit castleisland.vc. To listen to all of our podcast episodes,
+
+162
+00:15:43,360 --> 00:15:50,400
+please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for listening.
+

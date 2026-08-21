@@ -1,0 +1,625 @@
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by Bad Mortgage Investments, Lehman, which has 25,000 employees, will be liquidated.
+The federal government loans American International Group, AIG, $85 billion.
+This is a different kind of market, and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+This is Wyatt Kazushahi, and today I sat down with Nikhil Ragubira, founder of Predicate.
+Predicate is a software solution for embedding rules into blockchain transactions.
+Predicate enables partners to seamlessly perform KYC, wallet checks, and other forms of verification
+on users, creating a more sound and secure on-chain environment.
+Ultimately, Predicate will work with large companies and financial players, startups,
+and DeFi protocols alike.
+Nikhil personally comes from a background in public policy and economics, and I deeply
+value hearing his views on how the industry will evolve.
+Without further ado, I hope you enjoy my conversation with Nikhil.
+Nikhil, thank you for joining us.
+Thanks for having me.
+What are the issues in crypto today that Predicate seeks to solve?
+Let's start there.
+So maybe taking a step back first, our vision at Predicate, and I think many folks share
+this, is that blockchains become the global financial settlement system.
+And so if that's the case, then what we are actually thinking about to advance and accelerate
+the movement of capital onto blockchain-based systems is that you are navigating across
+regulated and unregulated markets.
+So we're talking about businesses, users, organizations living and operating across
+regulated and unregulated markets.
+So if that's the case, then really you're building different types of financial products
+that are on-chain.
+Why on-chain?
+You get 24-7 access, global liquidity, composability, all of those things.
+From there, then, what Predicate sits is we are essentially the policy infrastructure
+that allows organizations and developers to be able to build their financial products
+while navigating the true realities of operating and traversing regulated markets.
+Now that doesn't mean that everything has to be hard-regulated, it's just that, hey,
+you're thinking about the fact that your users are in regulated markets, so there are certain
+things you just have to navigate.
+And so we really build the underlying infrastructure that can address all those problems.
+What are the use cases you'd isolate there where you think Predicate becomes pretty immediately
+valuable?
+The ones that we've seen so far, and I think this will continue evolving as the industry
+evolves, but the ones that we've seen very immediately are in the RWA space.
+So real-world assets, how do you set programmatic rules for what types of assets can flow into
+an RWA product, such as a yield product?
+So stablecoin requirements, I think you're going to see a lot of requirements as it relates
+to Genius and Stable in the United States.
+Singapore has also passed a law, and you, of course, have Mika in Europe, but you're
+going to have requirements, particularly around AML, anti-money laundering, and counterterrorism
+for stablecoin issuers, just because that's how it's being articulated, and you're having
+organizations that are operating stablecoin companies in the United States, and they want
+to think about, hey, we want the stablecoin to be used by fintechs, businesses, people
+in these markets, and so as a result, you're going to have AML requirements here.
+So predicate, we've been looking at a lot of those use cases.
+Another big one has been privacy, just because privacy just has to have some type of minimal
+requirements, and I don't think actually KYC is the right solution for privacy.
+I think it just creates all these opportunities for data leaks and things like that, but you
+do need to have some semblance of clean liquidity and clean usage of privacy, and so how can
+we actually solve for that?
+So that's another big use case for us.
+And then I think over time, you're just going to see other use cases around vaults and
+dex pools and things like that, where we've been getting a good bit of activity.
+For example, we're doing a lot of work with Paxos on liquidity pools that involve Uniswap.
+So I would say stables, RWAs, liquidity pools that are interfacing with regulated organizations,
+and privacy.
+So does a company that wants to do KYC or AML in a seamless way or want to increase
+the level of privacy, do they reach out to you?
+Or how do these engagements happen, and what do they look like?
+We do no real marketing, and this is intentional.
+Our whole approach at the moment has been word of mouth and education, because we think
+that's the best way to validate a need before doing an aggressive marketing push.
+The other thing we won't do, I think a lot of crypto projects will do this as infrastructure,
+they will pay organizations to use their technology.
+We won't do that.
+The whole idea here is that you use our tech, you integrate it, you build on it.
+The way we get reach out is usually, you know, a different group is already using us, and
+so they'll hear about it.
+Or it's just in our conversation, and the way we take our BD is just, look, we just
+want to understand what you're trying to solve for, and then we'll go from there, right?
+So what is the AML problem that you're trying to solve for?
+What is the KYC problem you're trying to solve for?
+Just what are you trying to do?
+And then if we can solve for that, great.
+We'll work with you, and we can do kind of the way we've taken so far is a white glove
+approach.
+And if it doesn't, we'll say, we're happy to recommend other solutions if it doesn't
+make sense for us, or say, hey, look, you're trying to solve something that just our technology
+doesn't do.
+But it's all about, in this case, building trust, right?
+And it's about building something that is actually just valuable and useful for an organization.
+If not, then we'll say, look, it's not worth our time, it's not worth your time either
+on this.
+And so it's just having a very, very good understanding of what that organization is
+trying to solve for.
+There's probably a self-selection bias, but I imagine there's a varying degree to which
+companies in the crypto space want to engage with the kinds of services that you're offering
+whether it be around compliance, privacy, or just things that bolster the validity of
+these transactions.
+100%.
+It is usually organizations that are either already on day one saying, oh, we have to
+think about the markets that we're operating and the users that we're talking to.
+Or it's your larger projects, right, who are like, we are scaling.
+And so as we're scaling, we have to be more sophisticated, because we are actually thinking
+about real capital.
+We're not thinking about only small amounts of capital anymore.
+We are thinking about really very real volume.
+It ends up being those organizations.
+Which ones do you think this moves the needle for the most?
+Or who are the adopters of what you guys have created?
+So a few examples of this on privacy, someone like Alio, where for them, we are critical
+infrastructure for Alio to operate.
+They passed a governance proposal saying that they need various types of requirements for
+who can bridge into the Alio blockchain.
+And this was a governance proposal, not even something set by their labs entity.
+And it's because they're saying that for us to exist, for us to ensure that we can even
+build what we want on our infrastructure, we need something like Predicate in place.
+So all of Alio's interop uses Predicate.
+Another different use case in the RWA space is someone like Plume.
+Plume's a really interesting one, because they built this RWA-oriented L2.
+I see it almost like a fintech platform, right, where you're saying, how do you have this
+mix of traditional capital as well as crypto capital intersect with one another?
+But you're trying to create almost like a curated platform for that entire thing.
+So for Plume Nest, which is our vault system that provides yield, and the yield comes from
+different types of tokenized assets, treasuries, private credit, those kinds of things.
+Predicate was needed there.
+It wasn't about enforcing KYC requirements.
+It's about enforcing flow of funds requirements, because you can't have assets originating
+from high-risk users, users that have been involved in sanctioned activities, terrorist
+financing, human trafficking, all of those things.
+The requirement here was not for KYC, but you need to have some view of assurance that
+the liquidity coming in is not tied to malicious actors.
+And so that's a really, really great use for Predicate, because all this happens while
+the user has no idea what's happening on the background.
+All they're doing is they're going and depositing funds.
+Predicate is operating on the background for them.
+So that was one in which I remember we basically had to be live and ready for Nest to go live.
+And then a different one entirely is our work with Paxos.
+So we build Uniswap infrastructure that allows you to set programmatic rules for who can
+LP or swap.
+In the case of Paxos, regulated financial institution that's registered in New York,
+in ADGM, in Singapore, now recently Europe, all these different places.
+For their specific asset, Lyft Dollar, which is a yield-bearing asset, they can't sell
+to certain customers.
+It's a yield-bearing asset.
+So to the United States, that is a money market fund, essentially.
+So Wyatt, for you and I sitting here, we should not actually be able to go and get direct
+access to USDL.
+Now, if it happens on secondary market, fine, but on primary market, you can't have that.
+And so for Paxos' supply liquidity for this, they need to actually enforce some geolocation
+requirements as well as AML-CFT requirements for this.
+And so if to do that, they can actually use our predicate infrastructure that uses Uniswap.
+So that's another use case for them as they're saying, hey, we want to build the usage of
+USDL and tie more financial products to this.
+They need to have some amount of control over that.
+So all of these are really critical use cases for these organizations as they're looking
+to fundamentally scale.
+It's helpful to frame what it looks like in practice.
+Can you explain what's happening with the technology that you guys are enabling in the
+background?
+Yeah.
+So let's use the Plume Nest example for simplicity.
+So the user connects their wallet and they're going to make a deposit.
+Before they can make a deposit, essentially a call is made to the predicate network.
+In this case, the Plume team has set a requirement that uses a few different data providers and
+is checking for associations to sanction addresses, so not just sanctioned addresses, but any
+immediate relationship, associations to terrorist financing, human trafficking, major instances
+of fraud, child sexual exploitation, all these different things.
+Predicate network essentially then leverages different data providers as selected by Plume.
+And what happens is they'll check that address and then the predicate network then issues
+a signature.
+All of this is sub-second latency.
+So for the user, when they go and hit submit on their transaction, you know how like on
+your metamask or whatever shows all this like text.
+Within that is a signature embedded in the transaction object and that signature is from
+the predicate network.
+So when you hit submit, the transaction only goes through and gets accepted by the smart
+contract because it has a signature from the predicate network.
+If you try to go and submit a transaction to the smart contract without a predicate
+signature, you will not be able to actually submit the transaction.
+The transaction gets rejected.
+So the general process is you have to receive a signature from the predicate network.
+When you submit, signature is included.
+So when you submit, you have a signature there.
+The smart contract accepts the transaction and then the signature is verified by our
+smart contract to say, okay, cool, this is actually coming from the predicate network
+and not someone else trying to spoof our create a fake signature here.
+It's almost like a multi-signature where you need a signatory.
+It's like a traditional finance legal sign off in a way.
+It's almost like a notary service, but yeah, that's right.
+And it's all about getting a signature on the back end.
+What are some of the more creative uses?
+Because I think the compliance ones are probably more intuitive, but I imagine you guys can
+do a lot of more creative things around looking into user wallets potentially or looking at
+thresholds that someone might want to meet to enable someone to make a specific transaction
+if you look at like where something like airdrops could go.
+Other things that we can do that starts getting interesting are you can have different forms
+of rate limits or volume based things.
+Predicate we can use any type of historical on-chain or off-chain data.
+So this goes into the world of compute as well.
+So you can look at how much has a user interacted with a certain system and that can inform
+how much they can deposit or where they can even deposit in the first place.
+You start going to the world of market integrity as well.
+So think of like how much capital can flow into a system when we start looking at the
+world of market makers and liquidity pools.
+So if you're like, okay, cool, this asset is not very liquid.
+We have to actually set some type of controls to ensure that you don't have some massive
+incident that causes a token price to drop dramatically.
+You can enforce those kinds of requirements as well.
+I think civil resistance is another big one.
+We've talked a lot around AI agent guardrails as well.
+I think AI agents still are going to take time for on-chain activity.
+To be honest, we haven't seen any like massive true use cases of, oh, AI agent control my
+transaction flow and go and execute transactions for me.
+But you can use predicate to actually set guardrails for that AI agent and say, okay,
+great, you should not be interacting with a contract that's going to drain my wallet.
+And so let's set some parameters there or don't spend all my money within a day.
+Like at least extend this out.
+I don't care how lucrative the yield looks like to you.
+Don't blow it all in one.
+So you can actually set AI agent guardrails as well.
+So that's like another interesting use case that predicate can be used for all with our
+same design.
+Or so that you don't get the mark injuries in use case where your agent suddenly spins
+up a meme coin.
+Yeah, that's right.
+Exactly.
+Or even, I mean, we've talked about like, don't spin up a meme coin and then market
+it and then be like, oh yeah, you should buy this coin and now all your other AI agents
+are looking at it as well.
+You can set guardrails for these kinds of things.
+I think of that as like a little bit more like future oriented.
+But the whole point of the way we design Predicate is that it should be both relevant today as
+well as the ability to evolve over time to meet future needs.
+Where do you think Predicate stands in relation to the tokenization that we're seeing of traditional
+financial markets, which is happening increasingly?
+It's timely because Robinhood yesterday announced some of their tokenized markets.
+It seems like you guys would sit squarely in the potential integration stack there.
+Yes.
+The ways we can sit, it really comes down to how those systems are built.
+So take a Robinhood L2 or even a Deutsche Bank L2.
+In that case, they're generally creating these KY seed environments.
+Now the other thing is you're going to have as an L2 ability to bridge into those L2s.
+So how do you set the requirements for who can bridge in?
+Because they're not coming straight from an on ramping through Robinhood, you're coming
+from other sites.
+So how do you set those requirements?
+That's something that we're actually really well designed for.
+We work with Layer 0 and Axelor on interop policies.
+The other one is for all of these security types of assets, they have transfer requirements
+and things like that baked into the asset, but then you also will have liquidity pools
+for this.
+And so then the question is how do you actually enforce your requirements to the liquidity
+pools themselves?
+That's something that Predicate can be used for.
+So you can actually set the requirements there.
+So that way you have requirements for the liquidity pools and then when you have a user
+who picks up the asset, there's restrictions for transfer and all of those things.
+For example, one thing we've been starting to work with, kind of a traditional asset
+management fund, they have their tokenized assets on chain and they're on a few different
+chains and they have a soul bound identity.
+One question they've had is, OK, so we have this liquidity that's sitting on a few different
+chains, but if I'm a user on Ethereum, how can I go and access a yield that's sitting
+on this other chain, even though I have a soul bound identity?
+So our system actually can facilitate that.
+You need to be able to have those checks for those liquidity pools on other chains.
+That's where Predicate is really well designed because as a user, you can only then access
+a pool if you receive a signature from the Predicate network.
+This gets down to the question a little bit of do stable coins trade on Solana or Ethereum
+or do they trade on like stable plasma, Canton, one of these new stable coin chains?
+Do you view Predicate's technology as being a partial part of a Solana ecosystem where
+you are catering to the cleaner, more compliant or even just more thought out transactions?
+Or do you see a future state where there's a lot of volume on a certain chain, maybe
+a future chain and you guys are a part of every transaction on that chain?
+It could go either way here.
+I think when it comes to a Solana or an Ethereum or more traditional L2, I think you're going
+to have a world of both markets on those chains that are more tied towards traditional markets
+that interface and interact with users in regulated markets.
+And then I think you'll have other aspects in that chain that will be more black market,
+gray market.
+So we'll kind of be the ones who are honing in a bit more on that regulated market and
+potentially some of those gray market areas as well, right?
+Because at the end, we are able to facilitate the intersection of those markets.
+Then you're building policy networks is where we end up going.
+We can talk about that in a little bit.
+On your traditional chains, we can help curate user technology to enable those markets.
+Then you have these more custom L1s or L2s.
+In that case, either they can build their own system, ground up themselves, or they
+can use predicates technology within those systems to be able to enforce their requirements
+more holistically across the chain.
+It really just depends on what are their requirements and what are they trying to solve for.
+We remain fully agnostic.
+So again, this is why you build something that is generalizable and we can kind of see
+where the market goes.
+But the way I see it is that on your traditional chains, you're going to have like a continuum
+of different markets.
+And on some of these other custom L1s and L2s, you might not have that same type of
+continuum.
+But in both cases, our tech can be used.
+To the policy network point you made, what do you view as being the end game there?
+At the end of the day, what we really see is there's some lessons here from Web2.
+If I send you money and you're in Canada, that payment happens really quickly and happens
+at a pretty low cost.
+You can use Wwise or you can even do a bank transfer.
+If I send money from here to, let's say, South Africa or India, it's a lot more expensive.
+The reason why is there's actually a lot more financial controls and you don't have the
+same data sharing types of agreements.
+And a lot of this comes down to custodian banks.
+Custodian banks are the ones who facilitate transactions internationally.
+They just don't have the same coverage.
+And a big reason for that is actually the AML component.
+What that means is you can actually create aligned policies across groups.
+And we've seen that for custodian banks, we've seen that with FATF, we've seen that with
+DTCC and clearing houses, all of those things.
+All of these are aligned.
+You're basically creating financial networks and policy networks here.
+So for Predicate, where we started going from a policy network standpoint is, you know,
+you've done a check on one place, right?
+Let's say your stablecoin is already kind of deemed as like some form of like compliant
+because it is in the US.
+And then you want to go and deposit into a vault system that's also in the US.
+You may not actually need to do a policy check in both cases.
+You only need to do it once because you already know that that stablecoin is checked for some
+period of time.
+You'll have to do it again at some other point in time, but the idea is you've already done
+it once.
+So what that means is it starts reducing overhead or you actually don't have to do the same
+amount of checks every single instance because you're creating a policy network across systems.
+And then the way we see it is that KYC was kind of one approach to that.
+And it's like, oh, you can create this KYC network and now you have all these users and
+those things.
+But I think KYC is a bit of a hammer when a scalpel is needed for most of these types
+of requirements.
+And so then you're actually what we envision as a continuum of different types of requirements.
+If that's the case, we can actually think about the alignment and the overlapping requirements
+across all of these.
+And you can think about how transaction flows across blockchains and across networks.
+All that means that, you know, once you're in the predicate network for policy checks,
+you have the ability to tap into liquidity in other places, assuming your policy overlaps
+with them.
+All of that can be routed and be programmatic.
+That seems really compatible with some of these consortium models, too, where you want
+to establish a standard that goes beyond a siloed network or a siloed closed end system
+of like one company or one institution.
+That's right.
+And that's exactly how financial systems have operated for the entire time that we know
+of financial institutions.
+But the great part here in blockchain technology is that can be much more programmatic.
+It's not KYC based.
+It's just programmatic rule based off of a number of different holistic needs that different
+financial institutions and different organizations and users all need.
+You have a background in politics to some degree, like some of the folks from our firm.
+So I want to ask some larger picture questions, I guess.
+What happens to cash in this outcome?
+I feel as though it seems almost non-intuitive that the government would continue to allow
+cash to exist unless it's something that is just so staunchly defended by people in a
+context where you have traditional financial transactions which have our embedded financial
+system, which have the corresponding banking system, and now you guys are making on-chain
+transactions also much more compliant and basically giving thresholds and cash transactions
+seem like they're going to become the de facto illicit way of moving currency around.
+I mean, if I remember correctly, the usage of cash is continuing to go down.
+At some point in time, maybe we stop using cash entirely.
+But I think then there's just an infrastructure question, too, across these different countries.
+Not just, I mean, in the United States, but also many countries of do you have sufficient
+access to digital infrastructure so that you don't need printed money?
+The US still doesn't have complete 100% penetration of internet, which is crazy, but we should
+keep that in mind that even the United States doesn't.
+I think some Asian countries have the highest.
+Now the stablecoin issuers like Circle, I think, are trying to say that, oh, we are
+the digital dollar, right?
+And so you don't need to launch, for example, a CBDC, which has been the other question
+that government could launch a CBDC.
+Now you've essentially shifted from just pure cash to a digital currency.
+Europe has spent a lot of time thinking about this.
+China, of course, has a CBDC.
+The United States is still probably grappling with that question.
+But I think the way that, at least my view is that you're going to have digital currencies
+that are issued by private entities, i.e. a Circle or a Tether.
+Now you will have some countries that will have a CBDC and say, OK, we also have our
+digital currency and your private money would be linked to that.
+Then I think you might have certain countries that just say, we're not going to have a CBDC.
+You can use digital money, private digital money, if you want, you can use that.
+Otherwise, you can have more digital money that is not blockchain based.
+That's at least the world I see.
+So it's going to be you'll still have cash for some time.
+Some countries might have a CBDC.
+If not, they will still have digital money that is not blockchain based.
+And then you'll have private money that is digital currency based.
+And in that scenario, there are certain stablecoins that trade on certain chains that I imagine
+will not be as readily embedded with predicates, transaction policies.
+Do you think those eventually become heavily regulated in favor of those that accept policies
+as standards?
+Or do you think there will be a lag there?
+Because a lot of the stablecoin volume that we've looked at, I would say, is probably
+in that camp that they won't be embedding these policies.
+I think that's the state that we've been in so far.
+And I think that's also a factor of crypto not really being regulated well.
+If we want blockchains to become the global financial settlement system, presumably then
+more and more of that volume is happening in normal regulated markets and capital markets
+just as a share of everything else.
+Right now, I would say if you want to do a very compliant transaction, you're probably
+not going to use crypto.
+It's just something you're fundamentally not going to do.
+And if you're a business in the United States, you're going to take the regulated pathways
+to use stablecoins.
+Most of stablecoin usage is not really in the United States, it's in emerging markets
+regardless.
+So in that case, I think you will continue having the usage of stablecoins in markets
+that aren't fully regulated.
+And that's fine.
+That's great.
+But I think you're also going to have more and more usage of stablecoins in regulated
+markets over time because that is where at least if we want blockchains to become a global
+financial settlement system, we have to have that.
+If not, we're going to perpetually sit within this world of, great, we've basically built
+a gray market.
+That's going to be the extent of what we built.
+I don't think that realizes the full extent of the technology or the money and time that
+we spent into building all of this, not just for Predicate, but I would say the industry
+as a whole.
+How do you look at the way that blockchains will hopefully continue to serve people who
+maybe can't satisfy certain policy thresholds that might be expectations of large financial
+institutions or companies in a world where we're going to have displaced people and you
+have people who might not have traditional bank accounts who would love to hold JP Morgan
+back stablecoin granted they live thousands of miles away.
+This is a really good question.
+And I should also say, like my background, I've also spent time working on financial
+inclusion before Predicate, even before I entered crypto.
+So like one of my big reasons for entering crypto was, hey, the traditional financial
+services system actually doesn't service many people and it's not incentivized to do so.
+There's no real financial or monetary reason that they need to.
+And that's across globally.
+That's not in any one specific market.
+I think that's holistically across the board.
+This is where I also believe that blockchains are built really well for this in that you
+should have a holistic set of different markets and products.
+So if you are someone who is actually not able to access a traditional bank account,
+you shouldn't be blocked from financial services.
+And that's the way the current world operates.
+It actually should be that you have other options as well.
+And maybe they are gray markets, that's fine.
+But the tooling for that and the development of that really does matter.
+And I would say particularly in emerging markets where you don't necessarily have all the financial
+infrastructure.
+And so you should be able to have access to other resources and tools to be able to use.
+Maybe you don't need all the same things in the United States.
+That being said, actually, there's plenty of people in the United States who also don't
+have complete access to financial systems.
+But you need a holistic set of market options.
+Right now you don't.
+And we've essentially gate kept that entire market entirely.
+Ideally, we have a continuum of different things.
+This is also why from a Predicate standpoint, I don't think that KYC is the answer for all
+of this, because there's plenty of people who don't have an ID.
+That doesn't mean that you shouldn't be able to bank them or you shouldn't be able to provide
+financial services.
+There's just other needs that you should be able to check for, right?
+If I'm going to do a financial transaction with someone and even if I have a corner shop,
+if I have a corner store and I'm taking money from someone or if I'm a person going and
+buying from a corner store, I'm not going and doing KYC of the person to say, oh, I'm
+going to buy Coke from you.
+All I need to know really at the end is like, is this stolen goods?
+If it's so, then I might not go there for my own personal reasons.
+But I'm not KYC-ing everyone.
+And so I think in that case, what I really see is that you're going to have traditional
+capital markets, regulated businesses, users depending on what you need to do.
+But then there are many cases in which you actually don't need all of these different
+pieces and we should envision a world of a full continuum and a holistic set of different
+really user requirements.
+This reminds me of Economics 101 a little bit.
+You guys are trying to ensure that transactions that should occur in a perfect market economy
+do occur.
+Whereas otherwise, they either couldn't or shouldn't.
+Exactly.
+And again, this is why it said, I think my view was always that pure KYC is the wrong
+way to do it because in that case, you're trying to put everyone into the same bucket.
+That's not how a market works.
+That is an inefficient market in my mind.
+Instead, there are different requirements, different needs across different products,
+different users, different countries, all of those different things.
+And we should actually envision that type of market because we have such a unique opportunity
+to actually build that programmatically ground up, whereas you could not do that before.
+And you can't do that in Web 2 Rails.
+What are your views on where Bitcoin evolves to in the wake of this?
+And I say that because Bitcoin on its base blockchain is not geared towards integrating
+predicates or being composable.
+So do you think this is threatening to Bitcoin?
+Do you think Bitcoin, I see a world where maybe it just sits sort of like deposits and
+is almost immobile on the main chain and then it's moving around in other places that
+can have this embedded security?
+But what are your views on that?
+We haven't dove as heavily into Bitcoin just from a bandwidth standpoint.
+I will say we've had some Bitcoin projects who've reached out to us, but more for them
+because they're thinking about building structured products that might sit on an L2 or some type
+of side chain.
+And in that case, it's because they're then targeting large holders of Bitcoin.
+We're like, okay, great, we're creating vault systems and things like that.
+Bitcoin does have sanctioned addresses and all of those things, and they have malicious
+actors as well.
+So if I'm a business in the United States and I'm saying, okay, great, let me put some
+of my Bitcoin to work with these structured products and structured vaults, they'll have
+some questions around co-mingling of funds and things like that.
+That's the way I see it.
+But otherwise, you hold Bitcoin and then if you want to earn additional yield, then you
+go and turn to different financial products.
+These are all financial products that are on chain, so if I'm going to go and use a
+financial product on chain, there's going to be certain requirements.
+Is there any analogous to what you guys have built that you think is an unlock for on chain
+finance?
+Because presumably, you'll hopefully be enabling the build out of something like an interest
+bearing stable coins and other products to exist in a way where the rules or policies
+behind it become more streamlined.
+I'd love to hear about the categories that you're excited about and then sort of what
+else is necessary to make the realities that you guys are trying to make real happen.
+So your question here is new emerging products that we're excited by that we think that Predicate
+can fit in really well.
+And what else is needed?
+I still think securities markets over time are interesting, not just in the form of tokenized
+stocks, but I think the holistic set of structured financial products that are on chain, right?
+Yield bearing assets that are on chain that are able to take advantage of blockchain programmability
+and composability to deliver yield in a much more efficient manner that is also like a
+higher yield.
+That to me is really interesting.
+I think we're going to see a lot more work around that.
+I think there's still a lot to be done on privacy, to be honest.
+Privacy is one of those things that there's been a lot of thinking on, a lot of research.
+It hasn't gotten product market fit.
+But I do think privacy is going to matter for a lot of these pieces as we move forward
+in the long term.
+Yield bearing stables, not possible yet still from a regulated standpoint.
+So MECA doesn't allow for yield bearing stables, Genius and Stable in the US also will not
+allow for yield bearing stables.
+I think over time, it just comes down to a user experience standpoint and having yield
+bearing stables to me just makes way more sense than just holding a flat stable.
+So that to me is really interesting.
+So let me start with those.
+I think for let's say the privacy component, I think the thing that still has to really
+be sorted out are true use cases of it.
+It seems like payments might be a good angle there, but I'm not going to opine on like
+what is the best go to market strategy for privacy.
+If I had that, I would probably be working on a privacy protocol as well.
+But I think those questions around where is the adoption happen?
+How do you bootstrap that activity?
+How do you ensure that it's able to kind of meet also align with the liquidity across
+other places?
+You almost have this fragmentation right between public and private.
+So either you're saying that everything has to shift to private or you're able to intersect
+those things better.
+Those are tools that need to be in place.
+For a yield bearing stable, the technology is there.
+I think that's the real blocker is regulation at the moment.
+And then securities markets.
+This one's interesting because you have different thinking around how do you have acid based
+requirements in the technology stack.
+So that's fine.
+How do you start creating liquidity pools as well?
+I think the real unlock will then be one, how do you get sufficient adoption of it?
+I'm very curious to see how Robinhood does it because they have so many users.
+And then from there, how do you wrap that in with additional composable products?
+I think that's the unlock there, but we're not quite there yet.
+Who would you like to speak with in general of anyone that you could be talking to that
+you would be creating policies for for their on-chain transactions or for their integrations?
+Top the list of someone we have not spoken to would be Robinhood.
+We have a generally a pretty good network, so I think we've talked to many people that
+we do want to talk to.
+I would say Robinhood is very high up on the list because I want to understand that.
+And then the other one would be more understanding what Stripe is thinking about for their future
+because they made acquisitions recently, right?
+So what are they thinking about?
+How does digital assets actually fit into their overall roadmap and their plan?
+So that's the second one.
+And then the third one would be someone like a Fidelity.
+This is more the TradFight world, right?
+And so what are they thinking about?
+How do they see their participation?
+What are the things that they envision to deploy actually on-chain versus keep an arm's
+length away?
+So it's understanding when do they fully dive in and what are those different things that
+they're anticipating?
+I'll leave you with a final question I want your view on, but what's your perception on
+timeline when it comes to some of the use cases?
+You mentioned securities or other assets, yield-bearing assets.
+Probably with an eye towards a market structure bill, I imagine.
+I'm curious if that's even how most of the partners that you guys are talking to are
+thinking about it.
+Sort of post-market structure.
+Well, here's what we can do if they're still in their eyes ambiguity.
+How long do you think that takes and what does the step function look like to get there?
+Some of it happens through market structure, but even then market structure will then basically
+When Congress passes market structure, it then actually goes to the different regulators.
+The regulatory bodies then start defining specific rules and policies for all the different
+pieces and market structure gives a high level overview.
+Market structure is like, here's who's responsible.
+It's the SEC for this.
+It's a CFTC for this.
+But then the SEC and the CFTC have to go and make more explicit their position and their
+rules.
+So it still has to sort of trickle down.
+As a result, I think that for these more securities types of products in the United States, my
+hunt should be at least another year or two before you have really, really good clarity.
+But I think the cool part right now is you see folks like SuperState and Solana Policy
+Institute submitting proposals to the SEC to go ahead and start doing some of this work
+with the sandbox and approval from the SEC.
+There's actually a really good opportunity for that.
+So we can front run some of that now to basically start putting these into place.
+Now the question is, is when does all that capital actually come on, Shane?
+I would still say maybe my hunt should be at least another two years, if not longer
+for complete adoption.
+And it seems like maybe stable points are the first way to at least get more meaningful
+capital flow.
+Well, we'll have to have you back in two years then to check on where we landed.
+Maybe you'll be sooner, cautiously optimistic and sooner.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes, please go to onthebrink-podcast.com or just
+click on the tab in our website.
+Thanks for listening.

@@ -1,0 +1,320 @@
+Today, I was joined by Kioni Han, co-founder of the Monad Foundation.
+In 2022, Kioni, together with his co-founders Eunice Schiarta and James Hunsiker, set out
+to build a financial settlement system better than any before.
+Having spent a decade in high-frequency trading and understanding the roots of financial markets,
+he and the team understood that blockchains could entirely reimagine financial markets
+and create a unified marketplace for assets, but not in their current form.
+With that in mind, Monad, the now almost fully mature brainchild of this vision, is a re-architected
+version of the Ethereum blockchain built to be faster, cheaper, and more efficient while
+maintaining a decentralized structure.
+After over three years of development building an entirely new financial piping, Monad is
+now on the verge of its imminent launch.
+I had the fortune to sit down with Kioni and discuss the potential of on-chain financial
+markets, the importance of decentralized systems, and his personal experience in this journey.
+For disclosure, Castle Island is an investor and strong supporter of Monad.
+Without further ado, I hope you enjoy our conversation.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+liquidated.
+The federal government loans American International Group, AIG, $85 billion.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+Bank of England has pumped £75 billion more into Britain's ailing economy with a new round
+of quantitative easing.
+You print a couple trillion dollars and all of a sudden, people start to worry.
+So out of this worry, we have something called the Bitcoin.
+Bitcoin.
+Deoni, thanks for sitting down today.
+It's a really interesting moment in that you guys are really close to a major launch here,
+which I think a lot of people are excited about.
+I want to get started maybe more broadly to ask what gets you excited today about on-chain
+investments, maybe going back to why you got into the industry and why you're still here.
+What do you say to people from the outside when they ask about what gets you excited?
+I've been in the finance space for about 10 years outside of crypto, working as a high-frequency
+trading quant.
+It's very clear that certain markets are very well capitalized, in particular the Western
+markets and especially the American market.
+But there's a much broader set of businesses out there that lack access to capital, lack
+the ability to get listed on a credible exchange.
+And just generally, there's a lot of innovation that's going on outside of America that doesn't
+have access to the same financial tools.
+So I think that on-chain finance is incredibly exciting because it offers everyone access
+to the same tools in the form of personal finance and also for businesses access to
+capital and ultimately things that help grow their business.
+It's interesting because I think we had the proliferation of exchanges in the stock market
+and that let, for example, anyone living in the U.S. for the most part trade on a certain
+exchange.
+But there's still a disparate exchange system of where equities trade globally.
+And it's not like it's seamless for me to go own and ask to trade on the other side
+of the world.
+I think that's something we almost forget about or take for granted.
+But you have to imagine in a perfectly efficient market economy, there are a lot of transactions
+that aren't happening because people just can't access an opportunity they don't know
+about or they might otherwise be depositing into.
+And from your perspective, do those sorts of transactions then happen on-chain once
+you have faster on-chain systems?
+Is that really the inspiration for Monad or what will be enabled in this future state
+that you think isn't happening today?
+Yeah, it's truly bidirectional.
+It is giving people who have capital access to a broader set of investments.
+And it's also giving people that maybe don't have as much capital there in a developing
+country access to, first of all, dollars themselves in the form of dollar stablecoins, which even
+that in and of itself can be a huge boost for a lot of people that are in economies
+with currencies rapidly inflating.
+But then beyond that, also giving them access to American and more generally global products.
+I think that makes sense in particular for people who are getting access to dollars for
+the first time when you might live in an inflationary currency.
+And are those going to be the adopters to you, people who don't have as many options
+to begin with?
+I imagine it's a bit of a harder sell to people who might be in the US, you're like a family
+office that already has a lot of opportunities, granted this will give you more.
+I think it's strictly greater for everyone.
+And the beauty of it is that in a permissionless, decentralized system that is truly borderless,
+gives access for people regardless of their circumstance to a greater set of tools than
+they currently have.
+And with that in mind, people listening this conversation will have varying levels of familiarity
+with Monad.
+So why Monad in the context of that future state?
+Monad is a new blockchain system with a ton of new software architecture.
+It's a rebuild from scratch of the Ethereum blockchain with a bunch of new improvements
+that I think the Ethereum community is really excited about, which include parallel execution,
+asynchronous execution, which is decoupling the two components of a blockchain consensus
+and execution from each other for efficiency reasons.
+It introduces pipeline aid, it introduces a optimized database for storing the kind
+of state that blockchains track and a new consensus mechanism that allows for really
+frequent blocks and really fast time to finality of this system.
+For context, Ethereum is a blockchain that produces blocks every 12 seconds and that
+has roughly 12 minute time to finality.
+That means that if you submit a transaction on Ethereum, first of all, your transaction
+only gets loaded into a train car every 12 seconds, so you're waiting quite a bit and
+then it only gets finalized 12 minutes later.
+So that entire time, you wouldn't be sure that your transaction has been enshrined into
+the ledger and is irreversible.
+Whereas with Monad, blocks are every 400 milliseconds and finality is after 800 milliseconds, so
+it's just much faster.
+The confluence of all of these improvements is a system that can process a billion transactions
+per day as compared to 1 million transactions per day for Ethereum.
+So it's a thousand acts improvement and we think that this is just the start of what
+ultimately our team can do, but it is a significant step change that can enable a much greater
+level of adoption.
+And you come from a deep training background where you had to understand these systems
+at a relatively deep level.
+I think this is a topical conversation because two weeks ago to the day, we had a relatively
+meaningful market fallout and I think people forget about the problems of how often transactions
+are settled on Ethereum.
+I'll even go to say things like the exchange level, you had assets trading at different
+prices across exchanges that day.
+So maybe as a case example, could you walk through what some of the problems that emerge
+are when you have these volatile market periods and how Monad makes that different?
+Blockchains are ultimately there to define a stable source of truth that can allow many
+different people to coordinate.
+And that's really valuable in our world because right now in the non crypto space, we live
+in a world with many different servers that are all talking to each other and trying to
+stay coordinated.
+Whereas blockchain allows for a single source of truth that's available globally and through
+consensus mechanisms, we keep all the nodes in sync and crypto in general.
+The point of blockchain systems is to enable that single source of truth and that shared
+global state while also being resilient to people that are running nodes, potentially
+wanting to be malicious.
+It's resilient to those malicious actors as well.
+That unlocks incredible capabilities on top of that that can be built on top of this
+coordination layer.
+I think the particular example that you were talking about from two weeks ago is a story
+about a bunch of disparate centralized exchanges that are all connected together using
+blockchain as this means of settlement.
+When you want to withdraw your coins, you can withdraw them onto one of these blockchains.
+And then once that transaction is processed and finalized, now the tokens are in your
+account.
+And then if you want to transfer to a different exchange or something other than an exchange
+as well, you wanted to buy something at the Tesla dealership or whatever it is, you wanted
+to do a peer to peer payment with your friend, all of that is possible as well.
+But the point is that the blockchain system is the underlying fabric that's keeping all
+of these different venues, different centralized exchange venues, different stores and so on
+all in sync with each other.
+But the problem is if there's a lot going on, the real world is moving very quickly
+and prices are moving very quickly.
+It could be very difficult for these prices to stay in line and for liquidity to move
+from exchange to exchange and for liquidity to move where it is most demanded in a reasonable
+amount of time.
+And the latency of 12 minutes of finality or more is actually a significant impediment
+to allowing liquidity to move from place to place.
+And that's just one story about the implications of slow finality and slow systems.
+But there are many others that are happening every day with respect to how enterprises
+are managing their money, how frequently they can switch from non-yield bearing forms of
+dollar deposits to yield bearing ones.
+When you have high efficiency, when it's really seamless to be able to move money from one
+place to another, it unlocks a ton of efficiencies.
+I agree with everything you highlighted.
+One piece that frustrated me a couple of weeks ago was because of these inefficiencies, partly
+around speed, around cost, and then some architecture of how the market structure works today.
+You saw the asset prices in the order books fall very low on some of these assets.
+And as a user, you didn't necessarily see the opportunity to buy assets at those prices
+and marks across exchanges were changing drastically.
+And that brings me to another topic, which is very central to Monad, which is centralization
+or decentralization.
+Because I think people forget about the risks of centralization.
+We're seeing a lot of what I would argue fairly centralized blockchain architectures emerge
+now.
+But in that market structure, if an exchange owns a blockchain and they're in a period
+of distress and they want to switch off your ability to settle, they can do that.
+And because of that, you might lose out on what might be the best trading moment of the
+year, or you might not be able to get out of your positions, which could be potentially
+worse.
+Can you speak to why and how you guys think about decentralization in that vein and why
+you think it's important?
+I will start by saying that building decentralized systems is harder than building centralized
+ones because you're basically handling for all the corner cases ahead of time and building
+in fault tolerance.
+For users, the benefit of trading on a decentralized exchange, a truly decentralized exchange,
+is that all the rules are well defined ahead of time and there aren't corner cases and
+there isn't a human who can just make an arbitrary decision and decide to freeze your account
+or prevent you from trading or put on a trade actually without your authorization, which
+is one of the big complaints from two weeks ago is that a lot of people that did have
+profitable trades, like if they were short somewhere, that short position got automatically
+closed out through a process called auto deleveraging that a bunch of centralized exchanges have.
+And it's crazy because in my experience as a quant trader for a number of years, the
+expectation as a trader is that the only trades that will happen will be trades that are the
+result of orders that you send.
+So if I send an order to buy Apple at $100.01, then that's a guarantee that if I am filled
+on that order, I'm filled at a price that is either that price or a better price.
+And that order will persist in the order book until I submit a cancel or if it's good until
+the end of the day order, then until the end of the trading session.
+And it would be very shocking to have a position on an exchange and then find out that the
+inserted another order maybe in the opposite direction of my position right now, and that
+closed me out.
+So now I thought I had a position, but I'm actually flat because I never sent that order.
+I never authorized it.
+And one of the crazy anecdotes from two weeks ago is that a lot of people had positions
+or thought they had positions and then found out that they didn't have positions because
+the exchange just put in an order on their behalf.
+And not because it was necessarily to the customer's benefit, but rather because it
+was to the exchange's benefit to reduce the overall amount of leverage in the system.
+And I think that people will sometimes in our industry say that decentralization doesn't
+matter, that it's fine to take a centralized system's operator's word for what they said.
+And the problem is that it's true until it's not.
+And you think that decentralization doesn't matter until you find out one day that it
+really does.
+And the benefit of decentralized systems with open source code that anyone can look at and
+audit and verify the behavior of is that it creates accountability and it removes the
+possibility of person operating in the system to arbitrarily make a decision.
+Yeah, it's a major problem, this individual discretion that you have in the centralized
+system.
+I heard an argument about it the other day that I hadn't heard before, but I thought
+was compelling, which was also that in today's day and age, the most common cyber attack
+are these social engineering attacks or these single point of failure attacks.
+So if you're operating on a centralized venue in any form, you're essentially reliant that
+that person is controlling it, even if all of goodwill, that they're not going to be
+individually cyber attacked, which you saw with the Bybit exploit, which was a massive
+exploit.
+Speaking of these functional improvements, are you passionate specifically about creating
+better financial systems?
+Is this a problem solving endeavor for you and the team or why are you seeking to accomplish
+this?
+I think that any great startup is the combination of a very clear mission that's solving a very
+urgent problem that is also combined with just the fit of the team and the team's expertise
+and the team's passion for solving those problems and the team's passion for engineering really
+well thought out solutions to the problems.
+So for us, it is both really fun.
+I love what I do.
+It's really energizing to be working on it every day.
+The problems are hard, but they're very interesting and the approach that the Monad team in general
+has taken to rebuilding everything from scratch and introducing a bunch of HFT style optimizations
+to Ethereum and building a new decentralized system that is truly decentralized, that is
+supporting a truly globally distributed set of validator nodes, creating a borderless
+system that's really decentralized and also really performant.
+It's really motivating to our whole team and it's also a very urgent problem to solve.
+It's just the problem of supporting all of finance and supporting all of commerce eventually
+through a base layer fabric that allows many different people to all coordinate in a shared
+global state.
+And speaking of the team, I have a lot of respect for the team that you've built.
+You guys are a global organization now accomplishing a lot.
+I've had the pleasure of meeting a lot of them.
+How have you gone about acquiring the best talent and building the best team in the scope
+of what you guys are trying to do and what goes into that?
+I'm really proud of our team and really grateful for everyone that's joined us on the journey.
+I think that it's what a lot of other startup people will say, which is that it's recognition
+that building something new, building something hard is a very intensive effort.
+And I think we've just ended up attracting people who are attracted to that really intensive effort.
+We spend a lot of time together.
+We work on a wide variety of different issues.
+So it's people that are really passionate about being the best at what they do and being
+part of a group that has very high talent density and also a lot of people that someday
+want to start their own startup.
+And for me and for the other leaders in the team, we actually be really excited if people
+that are on our team right now someday leave us and start their own startup.
+So there's a very strong entrepreneurial culture as well.
+On that note, it's a nice segue.
+I think a lot of founders or founding teams are tasked with making this transition that
+I imagine you've had to make over time, which is you go from being a founder, maybe there
+are two or three people on the team and you're performing tasks, you're doing a specific
+body of work, and then you transition into running an organization with tens, hundreds
+of people.
+And I imagine your role changes and you wear a lot of different hats.
+So how has that transition been for you and how do you do that effectively?
+Yeah, it's really fun.
+It is very challenging because I've been forced to learn new skills that I didn't have,
+learning how to be a better manager of a bigger org, learning how to communicate really efficiently,
+learning how to delegate.
+I mean, these all sound like very obvious things, but it is understandable actually
+why when you listen to very notable founders talk about how they think about organizations
+and how they think about running their team, oftentimes they have very specific, very strong
+views about how a team should work together and they put in place a lot of rules that
+sound crazy, but also are actually very understandable.
+So for me, it reminds me a little bit of the, I don't know if you've ever watched Silicon
+Valley, but they portray Peter Gregory as a really very eccentric character who you'll
+start talking to him about something and he'll be like, I don't want to talk about that.
+I want to talk about burger buns and the seeds on the buns or whatever it is.
+And from the outside, it might seem like that's a crazy person, but then I think after you
+have been executing for a while, you realize, oh no, actually it is very valuable to be
+extremely direct and to redirect or to have strong opinions about how we all work together
+because ultimately it's a very intensive effort.
+The stakes are high and everyone here wants to be part of a team that's doing really well
+and we'll learn a lot from the process.
+So maybe not being afraid of being weird.
+And to that point, it's great when you attract the people you want to space on the mission
+that you guys have taken on.
+I meant to mention on that note, one of the pieces I've heard of what makes you guys run
+effectively, what shows that you've done a very good job is that you and the team are
+quite brilliant but receptive at the same time, which can be a rare quality in founders
+or frankly people building things because I think you'll often get people who are brilliant
+but in that vein, not very receptive to other ideas or to changing course or taking feedback
+as needed.
+So a lot of kudos to you and all others out there who are doing that.
+I did want to ask in two to three years time, what will be a measure looking back of whether
+Monad's been successful and to what extent it's been successful in your mind?
+I think we will have been successful if people think about blockchains pretty differently
+a couple of years from now.
+I think that right now the general public sees blockchain as an emerging technology
+that's exciting but also very hard to understand and I think that success will mean far more
+people being comfortable with using decentralized systems and excited about the fact that decentralized
+systems are actually giving them back control of their assets and their data and their access
+to systems.
+I hope for the same and maybe as a last question, I want to ask you, what's the first thing
+you'll do once Monad Mainnet is live?
+I personally am really excited about many apps that different builders in the Monad ecosystem
+have been working on for months or years.
+So first thing is just to try everything out and basically just get to be a fan of all
+of the products that have gotten to the stage and are in production or launching.
+So it's not only the launch of Monad itself and what our decentralized system but also
+of amazing apps.
+Yeah, I enjoyed.
+I was at the demo that you guys had recently and I got to see you tweeting about one of
+the projects, Symfony, the next day and your experience using it.
+So I love to see that kind of engagement.
+Kioni, it's been a pleasure.
+Thanks for making time, enjoyed chatting and hopefully we can do it again soon, excited
+for the next few weeks.
+Of course.
+Thanks so much for having me live.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To learn more about Castle Island, visit castleisland.vc and to listen to all of our podcast episodes,
+please visit castleisland.vc slash podcast or just click on the tab on our website.
+Thanks for listening.

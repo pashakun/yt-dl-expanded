@@ -1,0 +1,1883 @@
+TITLE: Crypto’s Killer App? Why Everyone’s Really Into Stablecoins Right Now
+URL: https://www.youtube.com/watch?v=BRKxLO0LAy0
+VIDEO_ID: BRKxLO0LAy0
+
+TRANSCRIPT:
+These are networks and networks have network effects,
+ meaning they get more valuable
+ the more nodes on the network.
+ And we're in a situation here with stablecoins
+ where 99% of the nodes that matter are highly regulated.
+ I mean, it's kind of remarkable
+ that we have trillions of dollars in monthly volume
+ where 99% of the participants of the network
+ feel like they can't join the network right now.
+ So the big unlock is one actual rules
+ that protect you from an FTX.
+ And then number two is now you've suddenly unlocked
+ this 99% of the world to join this network, right?
+ Here, the benefit is just so obvious
+ that I think it's gonna be clearly dominant.
+ (upbeat music)
+ - Welcome to Web3 with A16Z, I'm Robert Hackett.
+ Today we're taking a deep look at why stablecoins have emerged
+ as one of the most promising applications in crypto today
+ and how they could reshape everything
+ from international remittances to point of sale payments.
+ I'm joined by Chris Dixon, founder and managing partner
+ of A16Z Crypto, an author of the New York Times
+ best-selling book, Read, Write Own, and Sam Bronner,
+ a deal partner at A16Z Crypto
+ who focuses on stablecoins.
+ Together, we unpack the technical
+ and regulatory foundations of stablecoins,
+ we explore the cracks in the current payment system,
+ and we look ahead to what becomes possible
+ once digital dollars go mainstream.
+ We also dig into why the future of money
+ might end up looking a lot more like email
+ or the web than a bank.
+ As a reminder, none of the content should be taken
+ as tax, business, legal, or investment advice.
+ Please see A16Z.com/disclosures
+ for more important information,
+ including a link to a list of our investments.
+ - The internet has done a terrific job
+ in some respects removing intermediaries.
+ You could look at the way that the web
+ has challenged legacy media,
+ how the internet and connectivity
+ has kind of supercharged open source code,
+ getting around proprietary software.
+ What has taken so long for the internet
+ to challenge payments and finance?
+ And why is it stablecoins that have emerged
+ as a potentially compelling solution to this?
+ - The first and biggest answer
+ is that you need a global system of account.
+ You need a way for you to track where all this money is
+ until we have blockchains where we have credible,
+ trustless, global access to one ledger.
+ You're always gonna be giving your trust
+ to someone like Visa.
+ And so that system like did work,
+ but we had to rely on Visa in order to make it happen.
+ And then of course they got extracted.
+ That's what an extractive network is.
+ That's sort of a large part of the read-write on thesis.
+ What we see now is we have this capability,
+ but we still have a lot of problems
+ because the payments infrastructure was embedded
+ since 1970 and it had a long time to get pretty good.
+ So we need blockchains to get even better
+ and until about 18 months ago,
+ when L2s could process payment transactions
+ in less than one second and less than one cent,
+ until that happened crypto payments
+ just weren't as good as legacy payment rails.
+ But now they are and people are beginning to build
+ the connective tissue that'll actually allow it to compete
+ and be wherever users are today.
+ And so that's sort of the next phase
+ is how do we get to table stakes payments functionality
+ and sort of default on integration with the distribution,
+ with where people are today?
+ And so we're seeing that happen.
+ We're seeing people who wanna save money in U.S. dollars
+ in the global South,
+ people who wanna do international transfers
+ from countries that aren't well connected.
+ They're beginning to say,
+ hey, this is some hurdles still here.
+ The technology isn't perfect yet,
+ but already stable coins are beginning to meet my needs.
+ And then we're gonna expand the market
+ by building integration into apps people already use.
+ So my new bank app, my Venmo,
+ my card processor in a restaurant,
+ as we begin to light up those interfaces
+ and even larger segment of the market
+ is gonna come online.
+ But it all had to start with cost and speed competitiveness,
+ which is about 18 months old.
+ And so now we get this exciting
+ Cambridge explosion of opportunities as people take advantage
+ of that new capability.
+ - So let me just reframe it.
+ So the promise of stable coins, right?
+ What are stable coins?
+ They are blockchain-based systems
+ where you layer on dollars and other kind of quote-unquote
+ fiat money on top of these systems.
+ The simple way I've been explaining
+ like when I talked to non-tech folks,
+ for example, the policymakers,
+ the simple way I explain blockchains is
+ they're technologies that allow you
+ to build digital services that don't have intermediaries.
+ That's a little bit simplified,
+ but it directionally,
+ I think a very useful way to think of it.
+ So that what that means is you can,
+ if you do it right, build services
+ that function very similarly to how our payment system works,
+ but you don't have these companies
+ like Visa and payment processors and so forth.
+ In the middle, why is that important?
+ Because by putting it in the middle,
+ you're giving them power and that power lets them take money
+ and also lets them kind of wield control.
+ So sort of two dimensions, there's financial
+ and then kind of governance control.
+ The financial one, I think, is the easiest to focus on
+ because it's so visible and you can clearly improve that.
+ And it's significant, I mean, two and a half percent.
+ You know, we're in the tech world,
+ we're used to these 70% margin businesses.
+ Most of the world is much lower margin.
+ - And we did that analysis for grocery stores
+ where it's like a grocery store is making 2% profit.
+ We're talking about doubling profitability
+ of a grocery store.
+ There is this triple regressive tax going on here too
+ where the biggest retailers in the US
+ are negotiating custom rates
+ that are maybe 10 times cheaper, you know,
+ 10% of the fee that your local grocery store pay,
+ Kroger's like paying much less than that.
+ And the wealthiest users get these rewards back.
+ And so in many ways, the average consumer
+ is really getting screwed by these extractive fees.
+ - This is truly scandalous and it's something
+ that people don't think enough about.
+ It's really the deck is stacked against the little guy
+ in this situation.
+ - It's true in all finance.
+ Like, you know, if you have a lot of money in savings,
+ you go and put them in treasury bills
+ and you get 4% and chase, you get 0%.
+ If you want to cash or paycheck, you know,
+ if you have money, it's effectively free.
+ And if you don't, you do pay a loan.
+ So like all of this stuff is highly regressive.
+ Okay, so there's the removing intermediaries.
+ One thing you do is you lower fees.
+ The other thing you do is you are essentially building these
+ as, you know, I think of it as, instead of being dependent
+ on Visa and their APIs and all of their other kinds of things.
+ Now you have a thousand companies with different APIs
+ and who knows what the rules are building on top of them.
+ I think if you go look inside of these payment processor
+ companies like Stripe, they have these massive teams
+ that are going and dealing with all of these special cases.
+ And then that's what makes the businesses valuable
+ is that they've done so much kind of grind work.
+ So if you imagine a world where you have sort of
+ this blockchain based infrastructure and the ideal case,
+ you have this unified global network payments become
+ like email in the web or it's just sort of this global protocol
+ and you're running, you know, I'm sending you dollars
+ or euros and you have these compliance
+ and charge back services on top kind of bundled.
+ Then you have this sort of, you know, universal global APIs
+ is what we call composability.
+ You can build services on top that a relatively small company
+ without this giant integration teams can build a service
+ that's like a fraud service or a charge back service.
+ Or, you know, like, look, a big, big problem right now
+ is invoice fraud.
+ Most businesses right there sending out a lot of them
+ are sending out millions of dollars a day
+ and they're basically getting a PDF or a piece of paper
+ and it says you owe me $100,000 and they've checked the address
+ and you'll see all these notices now, like,
+ make sure you call them.
+ So like the best practice now is to actually,
+ like, literally pick up the phone
+ and make sure you hear the person's voice and...
+ - Very efficient, very efficient process.
+ - Really that secure.
+ I mean, in a world where we're all carrying around these,
+ you know, supercomputers that have perfect facial detection
+ and cryptography, like it just seems kind of strange, right?
+ And so, you know, these companies like Stripe,
+ because they've kind of done what a blockchain would do
+ and built this integration layer with all of these services,
+ they can then start to build, essentially,
+ reputation services on top that say,
+ okay, this sender is valid and this one is, you know,
+ like a whitelist approach, the way you do with email.
+ But if you had this global blockchain payment system,
+ you could imagine a world where then all these people
+ are building lots of startups and big companies
+ are building essentially reputation services
+ and other kinds of things around it,
+ which I think would have all these secondary benefits
+ beyond just the fee reduction, right, it would reduce fraud,
+ make it more reliable, you could build reputation systems.
+ You could do all the things you'd done on the internet.
+ Like you think about email as a protocol,
+ we now have all these interesting services on top
+ because it was a global open protocol.
+ - And we see that in the market.
+ Like I spent a lot of them talking to Fintechs to say,
+ how are you looking to expand your payment capabilities?
+ And a lot of them are saying stablecoins
+ because now instead of them having to go to 190 countries
+ and run a complicated regulatory complex,
+ but also technically complex.
+ Like I guess it's great that we're paying Stripe
+ to handle this complexity today.
+ But obviously we should be in a world
+ where there's an entrepreneur in Guatemala
+ who's connecting to stablecoins
+ and then like they own the relationship with the banks
+ and they help people offer it.
+ Or users just get the money on their phone
+ and they don't have to deal with the offering
+ in the first place, but you don't want to be in a world
+ where you're beholden to a couple of large players
+ to make the global payment system look coherent,
+ even though it fundamentally isn't coherent.
+ And that's what we're at now.
+ - Let's talk about that.
+ We've got a global financial system.
+ It's not as though you can't move money.
+ What's wrong with what we have right now?
+ - I think people would really underestimate just how broken
+ the system is, but also specifically how many people
+ are in the loop on simple payment transactions
+ that we all take for granted.
+ So we did a big study on people paying
+ from Vietnam to Mexico.
+ There's a bunch of intermediaries in there
+ looking at pieces of paper
+ and they're deciding a payment can go through.
+ And each of those do use a correspondent bank.
+ They might take $20.
+ They can't even estimate that amount of money in advance.
+ Like that's how broken the system is,
+ that when you go to make that transaction,
+ you don't even really know what the person
+ that aside will necessarily get.
+ So FX fees that are getting taken,
+ they're correspondent bank things.
+ You send a thousand bucks, you might be paying a hundred.
+ I mean, the numbers are, they differ quite a bit.
+ Like if you use modern infrastructure, it could be better.
+ But these are what I'd call closed loop systems
+ where if you want to use wise,
+ a great company, a portfolio company of ours,
+ they do a great job with this.
+ They've really worked within that system
+ to improve it as much as possible.
+ But you're still paying maybe 20 bucks.
+ Your FX is pretty high.
+ That should really be a dollar,
+ a cent, you know, an inch and a half and immediately.
+ - I remember we funded a company that was not in the US
+ and we wired traditional money to them.
+ And it was like a week and a half,
+ some crazy amount of time later.
+ And they were like, where's the money?
+ So then we went and our finance department went
+ and tried to track it down.
+ And the craziest thing to me also was,
+ not only was it, it ended up taking like two weeks,
+ but when we asked where it was,
+ no one seemed to know none of the banks.
+ But they were like, don't worry,
+ there's a number, a Fed reference number.
+ So you're okay.
+ And I'm kind of like, well,
+ this shouldn't have money be somewhere.
+ And like, shouldn't someone know where it is?
+ That's a lot of money.
+ So actually that was the moment where we were like,
+ we made the finance group,
+ like you guys got to switch to stablecoins.
+ But that was the craziest part to me.
+ They didn't even seem to know.
+ And I guess they have some system
+ where they can always recall it or refund you or something.
+ So they seem very confident about it.
+ But you know, just intuitively,
+ you're like, well, shouldn't the money be somewhere?
+ And like, shouldn't somebody know where the money is?
+ - What happened there is someone was looking
+ at a piece of paper with the transfer amount.
+ And it is didn't ship it off to the next intermediary.
+ Like that is really the kind of thing that's going on.
+ - It's literally sitting on someone's desk on paper
+ somewhere and that's when they don't know more.
+ - I mean, maybe it's in the email.
+ Maybe it's in a review system.
+ - Well, and I think, and I think it goes to,
+ I mean, the analogy, one analogy that we like
+ and people have used before is text messaging
+ prior to WhatsApp and these so-called over-the-top networks,
+ right?
+ So the idea was, you know, back then
+ you really had a patchwork of networks.
+ You had Verizon, AT&T, now they would cut deals
+ to do interoperate and then they would do international deals.
+ And for those old enough to remember,
+ you'd get these text messages if you traveled internationally
+ that said you're now on this different plan
+ and the fees were much higher.
+ And if you were texting someone across countries,
+ you'd get additional fees because it was not a true network.
+ There was not one network.
+ There were many networks.
+ I mean, that's also like companies like Stripe.
+ If you don't know the payments industry,
+ like why are there so many payments startups?
+ Like every week you'll see a FinTech payments startup.
+ You know, like, it's kind of weird that there's this huge
+ industry and by the way, very successful and profitable
+ Visa and MasterCard are worth over a trillion dollars
+ in market cap and they're just one of many intermediaries.
+ You know, of course, the market cap is a reflection
+ of Wall Street's expectations of profits.
+ So sometimes people say, oh, these costs are necessary
+ for fraud in this app.
+ But the reality is that these are actually profitable.
+ Many of these are very profitable,
+ so which means they're making excess above the fees.
+ - But to comment on that, like in FinTech,
+ in payments is a very high regulatory burden.
+ And so people have used that as an excuse
+ to vertically integrate.
+ I need to manage all this complexity.
+ The technology, the regulatory, the user relationship.
+ And when you get that kind of market dynamic,
+ you do have the ability to take a lot of profits.
+ You're the only solution in there.
+ What I find really fascinating about Stablecoins
+ is it's a horizontal layer
+ that people can build on really readily.
+ So you'll actually end up with a lot stronger
+ competitive dynamics on top of the payment rail
+ where today those are mostly captured by Visa,
+ by MasterCard, by the other payment intermediaries.
+ - I mean, the naive tech view, you know,
+ if you just build a new payment system
+ about actually understanding how the existing one works.
+ And naive view is, oh, you could just do this
+ for the cost of blockchain fees or something.
+ There are real costs, specifically fraud.
+ Now, of course, with tech,
+ hopefully you can reduce the fraud
+ and we can talk about that.
+ But then chargebacks, you know, a lot of these systems
+ promise to consumers that they can recall their money
+ if their merchant doesn't deliver.
+ And then KYCML, meaning there's legal requirements
+ on payment companies to make sure money
+ doesn't go to North Korea and, you know,
+ other kinds of things like that.
+ And those things do cost money.
+ The question is, you know,
+ if you look at retail credit card payments in the US,
+ whatever averages 2.5% in fees,
+ does it cost 2.5% in fees?
+ We know the answer is no,
+ because these companies have profits,
+ some significant profits.
+ So we know that, like, the high end of that,
+ what it should cost, quote unquote, you know,
+ is half of that, let's say, or something
+ because of the profits, but really,
+ because they're also so inefficient,
+ because of this patchwork, there's credible reasons
+ of thinking it can be significantly lower.
+ So if right now it's 2.5%, which is 250 basis points,
+ like in your analysis, Ham,
+ you think it can get down to 30 or something,
+ is that right or even less?
+ That's about right.
+ I think the cost of doing these payments could be 30.
+ It actually could be a lot less.
+ So you brought up these things.
+ What is Visa saying is creating these costs?
+ They're saying fraud, they're saying sort of
+ table stakes, payments products, KYC, AML.
+ Well, like, first of all, chargebacks?
+ That is something that we know of in the US,
+ but if you're using PIX in Brazil,
+ or you're using WeChat in China,
+ you're not expecting the payment processor
+ to manage your charge direct for it, out-of-band systems
+ that do that, that you can selectively pay for.
+ So you don't need to bundle these services then.
+ It seems better, because like, why is it just so happened
+ that this company that's good of payments
+ is also gonna be mediating disputes?
+ Like, it's just-
+ Especially 'cause you want vertical specific mediation.
+ If I'm in a coffee shop and I buy a coffee,
+ there's not a fraud risk there.
+ If I buy something on Amazon,
+ I probably would be willing to work
+ with like a merchant relations chargeback person.
+ And if I buy something from a sketchy website,
+ 'cause I want like a new Supreme Drop,
+ then maybe I pay for bespoke chargeback insurance there.
+ But these are three very different categories of product.
+ And right now they're all being bundled into one
+ two and a half to 4% fee that these and the issues are taking.
+ Yeah, just to add to that,
+ and this goes to, for those interested,
+ this is what my book read right on,
+ is about like basically the idea that in summary,
+ the interesting thing we do with the internet
+ is we build networks on top.
+ You know, Twitter, email, the web,
+ like the most powerful digital services are networks.
+ The network is a digital service
+ that gets more valuable, the more people use it.
+ They're important because they help solve
+ information distribution and coordination problems.
+ And the basic thesis of the book
+ is that there's three known ways to build networks.
+ There's the sort of the original way
+ that the internet built networks,
+ which I call protocol networks,
+ and then it's just called protocols.
+ That's email in the web, they're standards,
+ they're almost like a language.
+ Everyone sort of gets together and says,
+ "We'll speak English, we'll speak HTTP."
+ And then they all build software and services
+ that connect to that kind of lingua franca.
+ And what's great about that is you end up
+ with something that looks a lot like a public good,
+ like email, like no one controls email,
+ and there's no one who can take money,
+ kind of extract money.
+ And protocols solve a political problem
+ to kind of a coordination problem.
+ When you build a network,
+ you need all the kind of participants of the network
+ to wanna join that network.
+ And if they know it's a public good,
+ that they can safely build on top,
+ and one of their competitors won't sort of secretly
+ own it and rug them,
+ they're gonna be more likely to join that network.
+ Then there are corporate networks.
+ Corporate networks are Facebook, Twitter, Visa.
+ It's a network, but it's very simple,
+ actually, architecturally, just owned by a company.
+ They just owned it.
+ Now the problem with corporate networks
+ is you're essentially handing all this power
+ over to that company.
+ And so, of course, a Visa and Mastercard is an example.
+ Post started as nonprofits,
+ flipped to four profits later,
+ jacked up their fees,
+ and a lot of banks weren't happy with that.
+ So, you know.
+ - There's a great book on this,
+ A Piece of the Action by Jonah Sarah.
+ - Yeah, it's a good thing to really read about.
+ So now, the third kind of network or blockchain networks,
+ in my core argument in my book,
+ is that it's sort of the best of both worlds.
+ You get a lot of the advanced functionality
+ of corporate networks and protocol networks
+ couldn't deliver,
+ but also the kind of public good nature and low fees
+ and so forth of protocol networks.
+ The way I would think about this in the payment context,
+ imagine kind of a toy scenario
+ where you have an imaginary country with 10 banks
+ that want to build a payment system together.
+ Okay, they have those three choices.
+ Now, the problem is,
+ the protocol networks in computer science parlance
+ are stateless, state meaning storage in the computers,
+ and you don't have storage,
+ and there's no kind of ledger or place to keep balances,
+ just this architecturally, this is the way it works.
+ So, with email, like I sent an email to somebody,
+ and then they received email,
+ but there's no central place
+ where the emails are kept and the records are kept.
+ Now, money is just different than email in that sense,
+ and that you do need to keep central records, right?
+ If you look back 20, 25 years ago,
+ there were various attempts.
+ There's a originally HDP itself, the web, had a spec,
+ I think it was a 402, was the error code.
+ There was a payment required.
+ There was a placeholder put in there
+ that were gonna have payments.
+ Yeah, more people are probably familiar
+ with error 404 when a website URL can't be found,
+ but there is an error 402, like you're saying, with payments.
+ So, you can't do that.
+ And then if you go ask these guys,
+ the Goldman Sachs, or the Chase Banks, or Citibanks,
+ or whatever, hey, let's go do it,
+ and I'm gonna start a company,
+ and it'll be the intermediary,
+ and it'll run the network.
+ None of them will trust me.
+ They'll like, why would we do that?
+ Because you're just gonna do what everyone does
+ when they build a network.
+ They'll start with low fees,
+ and then they'll raise the fees as they gain power, right?
+ And you can try the non-profit thing,
+ but of course, we've seen many cases
+ where non-profits flip to for-profits.
+ That doesn't really mean much.
+ The other challenge is,
+ if you defang the intermediary,
+ corporate intermediary too much,
+ then how do they go hire people?
+ How do they, like, they need to themselves become valuable
+ to recruit people, and build a company,
+ and build great technology?
+ Right, if they don't extract,
+ their lunch is gonna get eaten
+ by another corporation that does extract.
+ Yeah, that's right.
+ The competitive dynamics of tech
+ are such that it's very hard,
+ like, just as is how it works.
+ So, blockchains are really powerful
+ in that they kind of are the best of both worlds.
+ You can build stateful protocols,
+ you can keep a ledger,
+ you can do all these powerful things
+ you wanna do with payments,
+ but you can do it in a way
+ that there is no central, powerful intermediary.
+ Architecturally, that's the core innovation of a blockchain,
+ is that you have these so-called consensus mechanism,
+ game theoretic mechanism pioneered by Bitcoin
+ and expanded on by later blockchains.
+ And I think about what Bitcoin is.
+ Bitcoin, what it essentially is, right,
+ is it's a centralized ledger.
+ It keeps track of who has how many Bitcoins,
+ but it does it in a way that there's no Bitcoin company.
+ There's no one behind it, right?
+ It's a group of people coming together
+ using this kind of game theoretic mechanism
+ that provides the core service
+ of a financial network, a payment network,
+ without any intermediary.
+ Now it has pros and cons and its architecture and fees,
+ and you can have a whole debate about it.
+ There's been a lot of work since then,
+ and specifically in what we will call
+ the programmable blockchain world of like Ethereum and Solana,
+ to kind of expand on that, reduce the fees,
+ improve the functionality, performance reliability,
+ and so forth.
+ And that's gotten us to a point now,
+ which as of a year and a half ago,
+ Sam was saying we've now had an important milestone
+ of you can now send stablecoins under one second
+ and under one penny.
+ And by the way, this is not the theoretical download
+ coin-based wallet, and then try it.
+ I just tried it yesterday to double confirm it.
+ - I've got a fun, a fun story for you about this.
+ I was playing basketball the other day.
+ I rent out this gym,
+ and so I collect payment from everyone at the end of the day.
+ And this guy comes up to me and he's like,
+ hey, you're saying, I see you on Twitter.
+ You love stablecoins.
+ So he says, what do I pay you in USDC?
+ So yeah, it's 20 bucks.
+ Here's my ETH address, so I'm SamBroner. ETH.
+ He sends me 20 bucks, costs like a small fraction of a cent.
+ And I then put that into a lending protocol.
+ So I'm like earning yield on it.
+ And about 24 hours later,
+ I've made enough in interest that I paid back the fee.
+ Now, like what a crazy dynamic that is.
+ Like, I mean, now I've made more than 20 bucks.
+ If that was in Venmo, I wanted the money right away.
+ It would have taken me three days to get it out of Venmo,
+ let alone like the nonsense interest rate
+ I'm getting in my bank.
+ So I get the money in a second.
+ It's mine. I can send it to someone else.
+ Or I can sweep as in and just like,
+ put that money into saying that's earning interest.
+ And suddenly I'm out on top of games on Saturday
+ by like Monday afternoon.
+ I've made my money back.
+ And you just can't do that on normal rails at all.
+ - That's really interesting
+ when you consider a lot of FinTech business models.
+ I mean, you mentioned Venmo.
+ They're just banking on a lot of people
+ leaving money in their accounts.
+ And then they get to collect interest on them.
+ - Yeah.
+ - But you're able to actually earn interest
+ on the stablecoins that you were sent.
+ - Yeah, yeah, absolutely.
+ So look, these institutions, they money in a couple of ways.
+ That interest, we call it Nim, this net interest margin.
+ There's other ways to get paid.
+ Like they'll also charge you when you try to take the money out.
+ And so like, if you try to withdraw money from Venmo
+ immediately rather than waiting the normal three or four days,
+ they'll also charge you 3% there.
+ And so no matter how you slice it,
+ you're getting a pretty raw deal.
+ What is so interesting is that because only certain institutions
+ have permission from the government,
+ they have regulatory lock-in to hold your money,
+ there's not a very competitive market here.
+ We should all be getting 4% interest on our savings.
+ That's a little bit better than inflation.
+ And we should benefit from the sort of growth of the economy.
+ That's how the world should work.
+ Instead, Bank of America or Venmo or PayPal
+ is sitting on your money and giving you nothing
+ while they take that home for,
+ "Look, they've got a nice product,
+ but I think we could recreate in a weekend
+ what we couldn't recreate is the network effects that they have.
+ And so they get to be extracted with those network effects.
+ And that's what they've done to date.
+ But there is a better way like this basketball scenario
+ where I get the money on day one,
+ and then I get interest as well.
+ - It reminds me of AOL, for the longest time,
+ was just collecting fees from zombie accounts.
+ People who hadn't actually severed their relationship.
+ They're just paying subscriptions every year,
+ thinking like that's how they get internet access,
+ just making lots of money off this,
+ well beyond the point when you need to actually pay
+ for that subscription to get internet access.
+ So how long is that interest generating business model
+ going to be sustaining these FinTechs?
+ - So look, we're seeing the first use cases
+ of stablecoin payments happen in the wild right now.
+ And it's different by geography and by user.
+ In the US for wealthy users,
+ they're thinking my credit card rocks.
+ I get 3% off everything.
+ It's accepted everywhere.
+ I don't really need to change.
+ But the PSPs, so Stripe,
+ whoever runs sort of the payment terminal at a coffee shop,
+ these guys are getting like 10 basis points
+ and they're actually giving most of the money
+ to the issuing banks and Visa.
+ And so those payment service providers,
+ they have an incentive to switch over to crypto rails
+ 'cause they can offer users a better product
+ while taking maybe 10 X more fees.
+ Like they could charge 0.5% instead of 0.1%
+ while still offering the merchant a better deal.
+ So that dynamic will encourage payment service providers
+ in the US to switch.
+ - They can raise their fees, get more money
+ and yet still drop the cost for customers.
+ - 'Cause they're cutting out the intermediary
+ and it's an unbelievable opportunity.
+ We've seen Stripe start to go in this direction.
+ So they're the first to turn it on
+ so they get this first mover advantage.
+ They're charging 1.5% for stablecoin payments.
+ That's pretty high.
+ I think they're probably making 1% on every transaction
+ but it's still a great deal for merchants
+ because merchants are used to paying 3%.
+ The merchants love it and Stripe loves it
+ 'cause they take home a lot more money at the end of the day.
+ So in the US, I think that's where we'll first see it
+ where users aren't gonna realize
+ that they're using crypto necessarily
+ but the payment service providers
+ are gonna be really pushing this new angle.
+ In lower income or high inflation countries,
+ people actually wanna hold stablecoins directly.
+ They'll interact with it.
+ They'll pay with it.
+ We do have a ways to go though
+ until everyone feels really comfortable with stablecoins.
+ We need to create what some people call a stablecoin mullet.
+ It's stablecoins in the back
+ but it looks like you're used to in the front
+ and people just get cheaper products that work better
+ but they integrate where users already are.
+ Another example just to linger on this for a second is Skype.
+ People think of it as sort of video conferencing
+ but when it first got started,
+ one of the key features they enabled
+ is that from your computer,
+ you could call someone's landline.
+ And so that interoperability
+ is part of what created the onboarding.
+ Stablecoins probably need to have that moment
+ where from my wallet that holds stablecoins,
+ I can hit anyone else's account
+ no matter what denomination or technology it is.
+ That backwards could be huge.
+ And then eventually we're gonna end up with WhatsApp
+ and FaceTime and things like once people fully get oriented
+ to this new world,
+ but we need to have Skype-like technology
+ to integrate and be backwards compatible.
+ - How do you achieve that backwards compatibility?
+ I mean, if we're talking about how stablecoins
+ and blockchains disintermediate,
+ how are you gonna get existing players on board with that?
+ - One of the things that we think about the most
+ on the investing side is who is really gonna help us,
+ help the world move forward with this new technology?
+ The banks probably aren't gonna do it.
+ They love the current situation.
+ They're very stagnant.
+ The FinTechs are extremely excited.
+ They think, wow, I can go to market in 190 countries.
+ I can be universally on everywhere.
+ I can work with service providers,
+ basically entrepreneurs who are building functionality.
+ I don't wanna deal with.
+ I wanna focus on my core product
+ and let them move the rest forward.
+ There are things also that we need to build
+ on top of stablecoins to reach table stakes payments capability.
+ So Chris mentioned chargebacks earlier,
+ but like we also need escrow subscriptions, refunds.
+ We need vaulting, which is where you store
+ a payment credential on a website.
+ Like when you go to Amazon, the credit card's already there.
+ We need promotions.
+ We need people to be able to easily discount.
+ We need integration into ERPs,
+ enterprise resource planning tools
+ so that the CFO can look at the state of their business
+ and say, I've got this many stablecoins.
+ I'm gonna pay my supplier tomorrow.
+ They're gonna get it in exchange for this invoice.
+ Those are the integrations that need to be built
+ if we wanna reach mass market.
+ And there's a huge opportunities
+ in each of those capabilities
+ for people to reach traditional payment rail parity.
+ There's another issue that I love talking about
+ 'cause I was briefly working at the Boston Federal Reserve Bank,
+ but the singleness of money,
+ which is that I trust that a dollar in my wallet
+ is the same as a dollar in your bank account
+ and is worth a dollar in Chris's Venmo.
+ That singleness of money took a long time to develop.
+ I wrote a piece on the history of banking
+ and how that relates to stablecoins.
+ And before 1910, you really weren't positive
+ that a dollar bill in your hand was worth a dollar bill
+ in your hand 'cause you had to trust the credit worthiness
+ of the bank that it was associated with.
+ These were bank-issued dollars.
+ And today, through a huge amount of regulation,
+ but also sophisticated risk management, interoperability,
+ clearinghouses, we've created a world
+ where we do get dollar parity,
+ where we have this trust that dollars are always worth the same.
+ Today, we don't have that in stablecoins.
+ - But that's a big part of why regulation's so important.
+ - Let's jump in with the regulation question.
+ - Currently, there is no kind of clear regulation
+ around stablecoins and just more broadly in crypto.
+ There's laws passed in the 1930s and later
+ that can arguably be interpreted to apply here,
+ but there's a lot of confusion.
+ - When you say things that could apply
+ from the 1930s, are we talking about like--
+ - Yeah, securities law, how we test.
+ And this is like 1930s kind of stuff.
+ And like certain tokens or commodities,
+ the regulators in the US have said
+ that Bitcoin and Ethereum are commodities
+ and other tokens might be securities
+ and where do you draw the line?
+ And what we want, what entrepreneurs want
+ are very clear, bright line rules
+ so they know they can stay within them
+ that allow for innovation, but put guardrails around
+ and prevent another FTX from happening.
+ I mean, I think these catastrophic failures,
+ Terra Luna FTX, first and foremost,
+ we're devastating to the customers
+ who lost money and things.
+ But also we're devastating to the industry, right?
+ I mean, destruction of trust
+ and just sort of general harm to the broader
+ blockchain technology movement was huge.
+ And that looms over us.
+ When you take stablecoins, I think there's a chance
+ that that could happen again right now.
+ And it's just simply the volumes.
+ I mean, the stablecoins are 2X last month
+ or roughly or something, Visa's volume.
+ I mean, these are trillions of dollars in volumes.
+ - The first quarter of this year,
+ stablecoins had the most transaction volume
+ that they've ever had.
+ - So I know I'm not saying anything negative
+ about a specific project or anything like that,
+ but you just say like, if we had another catastrophe,
+ where would it be?
+ It's the things where the really high volumes are, right?
+ So the point is just like, first and foremost,
+ let's make sure there isn't a catastrophe.
+ And so what would you do?
+ This is what the pending proposed bills in Congress do,
+ is they have requirements.
+ So for example, the requirements essentially
+ that you're fully asset backed by high quality,
+ short-term financial products of treasury bills,
+ things like this.
+ If the user thinks they have a dollar,
+ that means they're literally in a audited US bank.
+ There's something that's a lot like a dollar,
+ like either of dollars or treasury bills.
+ And so the bill spells out what those assets are,
+ what the reserve requirements are,
+ spells out auditing requirements.
+ So you don't just take my word for it that the bank, right?
+ They have an actual auditor.
+ And all of these things would have prevented things like FTX.
+ I mean, it also has rules around interoperating
+ across countries.
+ It's essentially like reciprocity ideas
+ so that if other countries want to interoperate
+ with these systems, they have to have similar rules.
+ So, you know, this would set the template,
+ which would hopefully propagate out.
+ It's kind of a no-brainer.
+ I mean, look, we think a much bigger policy issue
+ is the broader confusion.
+ And so that's why that would hopefully be addressed
+ by what people are calling a market structure bill,
+ which is similar to a bill
+ that passed to House Representatives last year called 521.
+ That's really the high-level policy fix here.
+ Stable coins are a lower priority for us,
+ but it's just such a kind of no-brainer obvious thing to do
+ that we think should be done.
+ Like, why wouldn't you have regulation on these things
+ and have all this ambiguity?
+ And so that's kind of the late land.
+ I mean, we're hoping that there's some momentum now
+ to get these sort of two potential bills passed this year,
+ which would, I think, really clarify both stable coins
+ and the rest of the space.
+ That would also have this sort of trickle-down effect,
+ which is to regulate the stable coin itself,
+ which is kind of the app layer of these things.
+ But it also would put requirements
+ around, like, if a bank is going to issue a stable coin,
+ they need to make sure the underlying infrastructure
+ meets certain requirements as well.
+ So that's sort of the blockchain layer,
+ like Ethereum and Solana and those things.
+ So it's going to have this kind of trust-propagating fact
+ where you're going to have all of the infrastructure
+ will kind of have to level up and be more mature,
+ because that's another risk right now.
+ I think one other thing to think about with regulation
+ is it not only has the literal laws and policies
+ passed, but it's also an important signaling effect,
+ which is a lot of these institutions in the financial space
+ are very risk-averse.
+ They're very heavily regulated.
+ They're honestly very scared of doing anything
+ that gets even remotely close to something
+ they perceive as risky.
+ And to have, specifically, legislation.
+ So, I mean, legislation is the highest form of regulation.
+ It's the most powerful.
+ It's Congress, the United States of America,
+ passing a law, which is kind of from a signaling and longevity
+ and just all the other kinds of atmospheric surrounded
+ by far the strongest statement that a government can make
+ beyond, sort of, let's say, an agency
+ putting out guidance as an example.
+ And so that will be very important, too.
+ I think it will really legitimate this technology
+ and allow a lot of institutions who right now are on the fence.
+ And I've heard this, and I think Sam,
+ you probably have, too, directly from these institutions.
+ They're waiting for that kind of stamp of approval
+ that legislation would provide.
+ - It's probably where it's quickly summarizing
+ the state of regulation on stablecoins.
+ And we have these two acts, Genius and Stable Act,
+ that are currently being talked about in Congress and seem.
+ You know, really exciting.
+ It's, like, clear rules for the road.
+ It's robust consumer protections.
+ And it's AML, KYC, that makes sense for payments.
+ And then the OCC has greenlit bank crypto activities.
+ So now bank's concussity.
+ Crypto assets hold, typical reserves.
+ And then the SEC has clarified that
+ stablecoins are not securities if they're used for payments,
+ if they're appropriately backed.
+ Things that work with the proposed demo coin bills,
+ the Genius and Stable Acts.
+ - The Fed also recently withdrew its bank guidance
+ where it required banks to seek permission
+ if they were gonna do anything crypto related.
+ So now that's cleared a way for them to get into this.
+ - Yeah, but you don't think you build, like, I don't know.
+ I mean, I've spent my career on the internet
+ and I've just very influenced by how the internet policy worked.
+ But what was so important for the internet
+ was legislation passed in the '90s.
+ And specifically, the '96 Telecom Act
+ was a landmark bill that had a whole bunch of things,
+ including Section 230,
+ which is really the foundation
+ of how you could build on the internet,
+ because you knew that, I mean, it can be changed,
+ but it's in practice, effectively permanent,
+ because it's very hard to change.
+ And Section 230 as an example,
+ enabled marketplaces and social networks to exist,
+ because it said that without that,
+ all these things would have gotten sued into oblivion,
+ and it gave them some reasonable kind of safe harbor
+ that tried to balance protections for users and platforms.
+ And that's very important,
+ because if you're an entrepreneur and back in the 2000s,
+ for example, who was thinking of devoting your life
+ to building this,
+ you wanted to know that it wouldn't be something
+ that would just get turned off
+ with a new political environment, right?
+ You need to solve a foundation to build on.
+ And so that was passed, and that was the foundation.
+ I mean, the internet wouldn't have existed.
+ The US wouldn't be the leader in the internet, in my view.
+ And so we just want to have a similar thing here.
+ And at Sam's point, there's different details on the bills.
+ Like one controversial aspect in the stablecoin bill
+ is whether the stablecoins can provide yield
+ directly to consumers as someone who believes tech
+ should mostly benefit consumers.
+ I think that would be good.
+ If consumers could get there 4% and not 0%.
+ - For what it's worth,
+ that's not an issue that I particularly care about.
+ - Look, I mean, there's a political realities,
+ which is that stablecoins as payments,
+ which would mean sort of no giving yield,
+ is something we can get political alignment around.
+ If you start to give yield,
+ you start to really compete with the banks,
+ and then it becomes a much more fraught political discussion
+ because it's a huge industry, incumbent industry.
+ We're going to oppose things.
+ So yes, and also I think the other thing I would say
+ is from an incentive point of view,
+ if you want these to be used as payments,
+ if you're getting 4%,
+ you're not going to want to give it up as much, right?
+ Like, so if there's 0%,
+ you're going to have much higher velocity.
+ And so they are going to be like,
+ let this bill pass as it is, build this payment system,
+ and you can build other systems for building yield.
+ - That's how I would like it to play out.
+ I mean, I want the distributors,
+ people who are giving people stablecoins
+ to be able to have a small cut at the apple
+ to get a benefit for distributing stablecoins.
+ And so we're going to build a more competitive environment
+ where people are going to get more of their yield.
+ And look, there's a difference between spending money
+ and saving money.
+ I'm happy if when you're saving,
+ you put it into a DeFi protocol where you get 5%,
+ or you leave it with Coinbase where you get 5%.
+ But when you're spending it, you get zero,
+ and then you use the programability of stablecoins
+ to sweep it back into that yield-bearing holding spot.
+ The key thing is we need to get legislation done
+ so that people can actually use these things for payments
+ and make for a better product overall.
+ - Again, going back, these are networks,
+ and networks have network effects,
+ meaning they get more valuable
+ to more nodes on the network.
+ And we're in a situation here with stablecoins
+ where 99% of the nodes that matter are highly regulated.
+ I mean, it's kind of remarkable
+ that we have trillions of dollars in monthly volume
+ where 99% of the participants of the network
+ feel like they can't join the network right now.
+ So the big unlock is one actual rules
+ that protect you from an FTX.
+ And then number two is now you've suddenly unlocked
+ this 99% of the world to join this network.
+ - Are you expecting those volumes to explode then
+ after regulation gets passed?
+ - I think it'll be like anything, right?
+ Like the stripes of the world, the super smart FinTechs
+ have already done it, they're already at volume scale,
+ and they'll just ramp that, right?
+ Here, the benefit is just so obvious
+ that I think it's gonna be clearly dominant.
+ Specific timing is harder to predict.
+ - Look, the ones that are really innovative
+ are already doing this, and they're reaching out to us
+ and saying, yo, who do we work with to make this happen?
+ And then some of the banks are reticent
+ 'cause they don't want to give up the current model
+ where they get a lot of the benefit of how payments work.
+ And so over the next six months, 12 months, two years,
+ I expect to see a lot of people helping FinTechs,
+ helping these banks move forward and adopts Democrats
+ 'cause they're just so obvious
+ that it's a better solution for them,
+ even if they don't want to do it today.
+ - Yeah, at some point, the bit flips
+ where like if you're most of the world
+ they're conservative middle managers or whatever.
+ At some point, the bit flips where it's now
+ greater risk to your career to not do it than to do it,
+ right, and it works hard from that point,
+ but at some point, that will flip.
+ - Network effects do have a lot of gravity.
+ Like if 30% of people or a lot of people in one geography
+ have access to stablecoins,
+ you don't actually need on and off ramp infrastructure anymore,
+ but you need it in order to get there.
+ And so there's gonna be a point where
+ stablecoins become default on, everyone has to have it.
+ That's when the network effect is really strong,
+ and that's where we're gonna see
+ that the laggards are gonna get killed
+ until they update their infrastructure
+ to allow stablecoins to be integrated natively.
+ - So the value to consumers seems pretty clear,
+ cheaper, faster, global, instant payments,
+ but from a business perspective,
+ if you are dealing with stablecoins,
+ if you're issuing them, distributing them,
+ is this a good business to be in?
+ As more competition enters, as interest rates decline,
+ as different players start offering yield,
+ if that's allowed, I mean PayPal is now offering
+ close to 4% yields on stablecoin holdings
+ in their Venmo and PayPal wallets.
+ As you start having this competition
+ and these different kind of macroeconomic changes happen,
+ does the stablecoin business remain a good business to be in?
+ - So right now, if you are not a financial institution,
+ you are not in the payments business anyway.
+ You have to pay these guys
+ in order to use payment rails every time you do it.
+ So if you're a business who's thinking,
+ "I've got a cool feature.
+ "I think if we did 10 cents for a like or tipping creators,
+ "you've got to go find a service provider
+ "that you're paying a lot of money to
+ "in order to implement that feature."
+ In the world with stablecoins,
+ you can just build it just as easily
+ as you can set up a database.
+ So is it worthwhile to get into stablecoins?
+ Well, maybe for the banks,
+ this is not the best thing in the world.
+ But if you are an innovative business
+ that wants to include money,
+ one of the most basic things that we use all day
+ in your product without going and dealing
+ with some extractive entity,
+ you're so excited about the opportunity
+ you now have with stablecoins.
+ Now, for the FinTechs,
+ they're also beholden to the banks in some ways.
+ So they're gonna be the first to adopt.
+ It makes their infrastructure a lot easier to manage
+ and build.
+ And then there's gonna be some innovative banks
+ who say, "Look, we've got this amount of deposits today.
+ "We're getting that interest margin on it,
+ "but we're not gonna go away.
+ "We're in the tail end of our ability
+ "to have deposits be locked up in this account.
+ "And so we're gonna have to start working
+ "with modern rails, offer new tooling.
+ "And banks are always resistant to new tooling.
+ "But they're gonna have to get on board
+ "when they realize that that's how payments work going forward.
+ "And for the really innovative ones,
+ "they're actually gonna be able to expand
+ "their net interest margin to dollars
+ "that are off their platform.
+ "And so an innovative bank would say,
+ "Actually, we could expand our deposits
+ "by embracing stablecoins.
+ "But so far, the banks haven't been that forward looking.
+ "I'm excited to see the first banks who do do that
+ "because they're gonna get a lot of market share that way
+ "and expand revenue.
+ "We just haven't seen it from the banks yet."
+ - Yeah, I mean, it's a good question.
+ I mean, like in our job, what we do right is we say,
+ "Okay, what are the big trends coming
+ "and how do we bet on them?"
+ And so the stablecoins are probably
+ the biggest, most obvious trend happening in this area.
+ And we've had this conversation
+ like how do we make a bet on them?
+ And to be candid, it's much harder than in most tech trends.
+ And that is because of the things we were saying earlier
+ in the podcast, which is, it's kind of a public good.
+ I mean, it's just like building kind of a highway system
+ for the people to send stuff cheaply
+ you're removing the intermediary.
+ So you can't invest in the intermediary as an example
+ because that's the whole point as you're removing them.
+ There's a typical effect of these kinds of information
+ and internet businesses is you grow the market,
+ you grow GDP, you grow usage.
+ So they'll be, if this works, you lower fees
+ and there'll be more payments and more economic activity.
+ But the take rates will go down, right?
+ The amount of sort of extract will go down.
+ Now, that said, with all these new opportunities,
+ there's always like often there are, you know,
+ new software businesses and example,
+ like if every bank suddenly wants stable an infrastructure,
+ they would presumably want to buy that software
+ and not build it.
+ So if somebody will provide that software
+ and that's sort of a classic enterprise software business,
+ but that's like, you know, that's a software model
+ where you sell them licensed software
+ or subscription software or whatever it is.
+ But to me, honestly, the most obvious investment opportunity
+ is in the underlying infrastructure, right?
+ These stablecoins run on blockchains.
+ And specifically the dominant, I think by far,
+ right now is Ethereum is the dominant one for stablecoins
+ and then you have others like so on.
+ - Tron also with tether is.
+ - And then I think, unfortunately,
+ with some of the other ones like that, like Tron,
+ like I don't think that's a, you know,
+ that has the right security characteristics.
+ - And it's expensive.
+ - Yeah, it's very, it's like, has shocked at the fees
+ I saw recently, like $6.00.
+ - Yeah, $4.00 to $6.00, yeah.
+ - It's not really decentralized.
+ So it's not, I mean, you haven't really removed
+ the intermediary.
+ So, you know, if you take the subset of blockchains
+ where stablecoins are popular
+ and I think have the proper kind of security
+ and trust characteristics,
+ you end up with things like, you know,
+ Ethereum, Solana, L2s,
+ you also need kind of layers on top of that.
+ So you need bridges,
+ you need other kinds of infrastructure.
+ Yeah, and that's sort of a bank shot
+ as an investment that's sort of indirect.
+ But I think that, I don't know,
+ at least from my thinking about it,
+ that's kind of what I come back to is like,
+ okay, this is going to popularize all of this infrastructure.
+ And, you know, maybe there'll be some adjacent software stuff,
+ but it is probably the least investable crypto thing
+ that's happened since the beginning, I would say almost.
+ It is much harder to directly invest in.
+ - It's like such a paradox.
+ Like it is the thing that's popping off the journey.
+ - That's the irony.
+ And using crypto, it's easier to invest than to get usage.
+ And here's the opposite.
+ It's like, this is something that's like clear product
+ market fit and usage and it's harder to invest in.
+ - There really are opportunities.
+ I mean, I spent a lot of time talking to businesses
+ that are building on top of stablecoins.
+ - I think Jam is more,
+ I'm a little more bullish on this than I am.
+ I feel like it's more of a public good,
+ but yeah, go ahead, sir.
+ - Yeah, yeah, yeah.
+ I mean, look, I think we have to have valuations
+ be it appropriately priced.
+ Like these are FinTech businesses.
+ These are not crypto businesses with network effects.
+ But if you're offering table stakes payments,
+ subscriptions, refunds, chargebacks,
+ vaulting, promotions, we invested in a loop who does that.
+ Like, you know, that's a real business
+ that people really need if they want to use stablecoins
+ in the real world.
+ And then you've got the enterprise integrations.
+ We've got on and off ramping.
+ I think that there's huge improvements they'd be made
+ in with, on top of account abstraction
+ to make it easier for people to have a wallet
+ where they custody their own assets.
+ Of course, like we're going to need a little bit better
+ privacy, but compliant privacy in payments.
+ And that's more at the infrastructure level,
+ but people are going to feel that at the app layer.
+ And for enterprises, like there's features
+ like treasury management and collateral ability.
+ These are all large FinTech oriented opportunities
+ that I'm extremely eager to see entrepreneurs build.
+ And they're going to have to have deep understanding
+ of stablecoins.
+ And I guess to tie back into our focus,
+ which is on blockchain networks,
+ there's a lot of ways to use blockchain incentives
+ to build those networks so they're stronger,
+ identifiable earlier, you know, break the log jam
+ of extractive networks.
+ And so I'm excited to visit that do that in particular
+ who build these sort of more FinTech oriented ideas,
+ but with blockchain ideals.
+ And we're starting to see it.
+ We're starting to meet them now.
+ - Yeah, I guess I would just say I look at the,
+ well, my historically and just one of my area of focus
+ has always been network effect businesses.
+ That's what I've always done, not enterprise software.
+ So there probably are in fairness,
+ like kind of like temper my statement earlier,
+ probably a lot of sort of enterprise software business,
+ et cetera, which is not what I've personally
+ historically done or been good at.
+ But that goes to the just one last thing is that
+ that's the whole point of stablecoins.
+ Is it you're removing the ability for investors
+ and entrepreneurs to extract,
+ which I think is a good thing for the world.
+ And I think it's a good thing for blockchains
+ and generally to have this as a use case.
+ But to me, it undermines kind of what I typically
+ have tried to invest in mature kind of networks.
+ - Yeah, the big network that has not been solved yet
+ is liquidity.
+ And liquidity has a surprisingly strong network effect.
+ Today, if you tried to switch.
+ - It's an equity, I mean, like interoperability
+ between like switching from one blockchain.
+ - Switching from one currency to another.
+ So if I wanna take 10 million USDC
+ and turn it into 10 million in Pi USD, two stablecoins,
+ both I think highly compliant, well-backed.
+ I'm gonna get some slippage there.
+ And by slippage, I mean, instead of 10 million on the other side,
+ I'm gonna get 9,900,000 even on the deepest liquidity pools.
+ And that's a network effect in that
+ as more people use these currencies,
+ we'll have deeper liquidity and much tighter spreads.
+ Whoever cracks that, whoever figures out,
+ I make sure that we can redeem one stablecoin
+ for another stablecoin at par
+ is gonna have a huge and exciting network effect.
+ - Interesting.
+ So your point being that if you wanna use this money,
+ if you wanna use it across various networks,
+ various apps, whatever, if you're transacting,
+ you might actually lose a little bit of the value there
+ that might go to the system.
+ And in order for this to really take off,
+ consumers are gonna want to know that one USDC,
+ one Pi USD always equals one dollar.
+ Users know that today, but at the largest scales
+ and in the most esoteric scenarios,
+ it breaks down a little bit.
+ And we need to build systems that make sure
+ that it's always true.
+ We get this true singleness of money.
+ And there's a lot of ways to solve it.
+ One is through clearinghouses,
+ another is through shared collateral,
+ a third might be through regulations combined
+ with really well-tuned AMMs or intent protocols.
+ I think we've got a lot of people working on the problem,
+ but it's one of the large outstanding problems
+ that probably needs to be solved first.
+ - I wanna zoom out for a second,
+ because I think some of our listeners might ask themselves,
+ why is a blockchain necessary at all
+ to do some of these things?
+ I mean, you could look at some services that are coming up,
+ like you've got the PIX real-time payment system in Brazil
+ that manages to do really, really instant cheap fast payments.
+ So what is the advantage of using a blockchain?
+ Why is that superior or necessary compared to
+ perhaps more traditional approaches
+ or just alternate approaches
+ that could conceivably be applied?
+ - So PIX is amazing.
+ Like we should all congratulate the Brazilian government
+ on implementing a great new payment rail.
+ But there's two problems with it.
+ One is really clear,
+ and one is a little bit harder to think through.
+ So the first is that you can't pay
+ someone internationally via PIX.
+ So it really is a closed loop system
+ where it's not so hard to build on top PIX,
+ but it's hard to have PIX interoperability
+ with other countries.
+ And so if you wanna do international payments,
+ which happen all the time in enormous volumes,
+ then you can't use that system.
+ And the second thing is,
+ I don't really want to have the government
+ running my payment rails that directly.
+ It has a couple of negative externalities.
+ One is this less competition.
+ What happens when something better than PIX comes out?
+ Is the government really gonna replace it?
+ Probably not.
+ But on blockchain rails,
+ you could incrementally improve the quality of the product.
+ The second is around monetary expansion.
+ We wanna make sure that we can have institutions like banks,
+ lending, keeping the economy active,
+ making dynamic choices to help people in communities
+ invest, save, earn, spend,
+ without it being tied to a central bank, digital currency.
+ That would be very constrictive,
+ and it would erode privacy, erode trust,
+ and wouldn't lead to the competitive environment
+ that we wanna see where entrepreneurs can build
+ new monetary systems that allow people to take risks
+ and do so safely and spend money freely.
+ So PIX is impressive,
+ but I don't think it's the way
+ we wanna have international payments work,
+ and it's probably also not the way that in the U.S.
+ we wanna have local payments work
+ because it leads to this sort of constrained supply of cash.
+ - And like this is going back to the book,
+ I was talking about the different kinds of networks.
+ I mean, one way to think about blockchains
+ is they solve not just a technical problem,
+ but a political problem.
+ Political in a sense of getting a bunch of parties
+ who don't fully trust each other to agree on something.
+ And so in that case, let's just say PIX,
+ they go and maybe they convince some friendly governments,
+ but are they really gonna convince
+ whatever it is, 190 key governments to agree to something?
+ The answer is none of them are gonna agree to something
+ unless I think it's truly neutral.
+ Blockchains are the first thing that have come along
+ since the advent of the internet
+ that have the functionality sufficient
+ to do these kinds of use cases like payments,
+ but also are truly credibly neutral.
+ And they're credibly neutral
+ because they don't have an owner,
+ they're open source code running on these decentralized blockchains.
+ And so they have the same kind of trust properties
+ as open source software.
+ I mean, that's why things like Linux have been so successful, right?
+ Is it you can dislike the makers of Linux
+ and dislike the country they live in?
+ It doesn't matter because you just have the code, right?
+ You can trust the code and blockchains have that same property.
+ - That's a really good articulation.
+ So you're in the design space,
+ you're trading off how centralized or decentralized
+ you're gonna have.
+ And when you go with a centralized approach like PIX,
+ you get platform risk, trust dependencies,
+ and maybe a lack of interoperability on a kind of global scale.
+ Whereas when you go in a decentralized direction,
+ you get this sort of credibly neutral platform
+ that everybody can join,
+ comfortable knowing they can't get rubbed or biased against.
+ I've got a question about the branding for stablecoins.
+ It is sort of like incredibly good marketing.
+ On the one hand, I mean,
+ there's a question of like, we call them stablecoins.
+ Are they stable? I think regulation will go
+ toward helping solve that.
+ But then there's also the coin question.
+ We had some of our other teammates on a recent podcast
+ where we talked about the differences
+ in types of tokens that are out there.
+ And there's a lot of confusion around people thinking about
+ them as cryptocurrencies or coins.
+ And I wonder if calling them stablecoins
+ is that lens through which we look at stablecoins
+ as coins, as payment, as currency,
+ does that limit our imagination
+ about what we can do with these types of instruments?
+ - Yeah, I don't know.
+ I mean, I think like a lot of things in tech
+ and specifically crypto, these naming notes,
+ there wasn't like a committee that sat around
+ and did a study of this, some hacker somewhere,
+ and then it became popular.
+ And it's probably not the greatest name, to be honest,
+ for both stable and coin, right?
+ I mean, maybe at some point people just call them
+ ideally just dollars, you know?
+ Like you just go to your account and you see dollars
+ and it's a new rail.
+ There will probably be, I think in the legislation,
+ some kind of actual control of the words.
+ You know, you can't put the word dollar
+ if you're not doing certain things, which is important.
+ So I think it's a good point, I don't know.
+ Like in tech, the products end up being the marketing.
+ Not the words as much.
+ So like the words sort of matter,
+ but then at some point they don't like,
+ there's been so many bad brand names in history of tech.
+ People debated Google and Twitter and all these things.
+ Yahoo!
+ But what happened is the product was so overwhelmingly good.
+ I think I'll say in the case of Google
+ that it almost just changed what the words mean, right?
+ - It also might remain a investing term
+ because when we see stable coins go mainstream,
+ I don't think people are gonna be thinking
+ about this category name.
+ They're just gonna say,
+ "Oh, I've got some money in my wallet
+ and I can send it to you immediately."
+ I mean, what do you call your Venmo bounce?
+ Like you don't really say Venmo bucks.
+ So I'll keep calling it stable coins
+ when I'm looking for companies,
+ but I'm not sure our end users are gonna,
+ you know, use that term in the long term.
+ - So from a consumer perspective,
+ you're expecting that this is going to be abstracted away.
+ - Yeah.
+ - Okay, so based on where we are now
+ with the adoption of stable coins,
+ really there's incredible growth going on.
+ I mean, last year the circulating supply of stable coins
+ was like 130 billion.
+ Now it's like not quite double that, but almost.
+ Yeah, okay, so maybe it is double.
+ So there's incredible growth.
+ What changes about crypto, about the crypto industry,
+ what becomes possible with this new piece of infrastructure,
+ this new technology?
+ And what changes about the world around us
+ and the tech and the products that we use?
+ - Yeah, this is my sort of favorite thing to talk about.
+ It's like, if stable coins win, everybody succeeds.
+ What happens next?
+ Well, I'm making payments in stable coins.
+ What if I wanted to get alone on my stable coin holdings?
+ But I want to track where a package is on blockchain rails.
+ But I wanna use a social network that has my identity
+ that is tied to my payments.
+ There's a lot of services that once I'm paying every day,
+ want to move on chain due to that gravity.
+ Identity is the most obvious.
+ Then social networks begin to form on top of that.
+ Then so do you customer to merchant relationships and so forth.
+ And so stable coins are just sort of the first step,
+ but all of the other on chain products that we know of
+ seem much more likely to succeed
+ when people are already using dollars on chain.
+ - This is partly 'cause it's such a big, like right now,
+ the UX of getting money onto a blockchain is just,
+ there's a hurdle.
+ And so if you can provide this initial use case
+ and get people on there, they have a wallet,
+ they've got the software, they've got some money there
+ that you've gotten over a major hurdle
+ that was inhibiting growth.
+ - And so as you begin to move payments on chain,
+ a lot of additional things begin to quickly follow.
+ And those opportunities are potentially even like bigger
+ and more creative than just the simple payments,
+ just the simple exchange.
+ Now we go category by category and say,
+ for this industry, if you were to move payments on chain,
+ what are the other things you'd wanna have
+ be tied into payments?
+ Identity is the most obvious.
+ Fraud protection is another one.
+ Lending is a third, but we see in basically every category,
+ there are services you might wanna add to payments
+ that should also be on chain,
+ living with that atomic payment product.
+ And once people start using payments,
+ the rest of the on-chain ecosystem is gonna continue to grow.
+ - If you had to make an informed guess,
+ how long would you expect this to play out?
+ - I think that in two years,
+ we're gonna see stablecoins turned on as an option
+ in many, many, many places.
+ Already, merchants are offering online,
+ stablecoins very readily.
+ I think international, it's gonna be even more popular
+ because internationally, credit cards,
+ users are less beholden to credit cards.
+ And so it'll be easier to add a new rail.
+ But there's many ways that adoption's gonna happen.
+ So one is this consumer scenario
+ that we're walking through right now.
+ The consumer scenario is a little harder in the US.
+ It has to be driven by payment service providers.
+ But in countries with inflationary currencies
+ or with lower card penetration
+ or more challenging payment technology,
+ stablecoins might be a first-class citizen from day one
+ or people are like, oh, I can pay for my phone.
+ This is unbelievable and this option didn't exist.
+ I wanna hold money in dollar-denominated
+ stablecoins in particular.
+ Anyway, there's a huge, huge structural demand
+ for dollars in much of the global south.
+ And then internationally, for businesses that work internationally,
+ they're gonna be saying,
+ I did not like dealing with the banks
+ when I was doing international money movement.
+ It takes a long time.
+ I have to have a whole team dedicated
+ to managing the process.
+ It's a major headache.
+ And I'm gonna switch small businesses.
+ This is medium business, large enterprises
+ with sophisticated treasury management.
+ All of them are gonna move to stablecoins
+ 'cause they're strictly better technology.
+ So these three groups, PSPs in the US,
+ regular consumers in the global south,
+ and then enterprise driven demand
+ in the international business community.
+ Those are probably the three different drivers of adoption.
+ When will you see it?
+ When you go online to buy something
+ or when you go into a restaurant?
+ Well, if you use Blackbird, you can see it right now.
+ And if you use Stripe, you can see it right now online.
+ But when you're gonna see it everywhere
+ and if you're really gonna notice it,
+ it's gonna probably require some go-to-market energy
+ using the savings in order to incentivize users
+ to switch to the new payment rail.
+ And then it's gonna require the growing network effects
+ and growing acceptance of stablecoins
+ as just another dollar two to five years.
+ Is the simple answer to your question,
+ but that's the longer story.
+ Let's zero in on that just for one second.
+ We talk about stablecoins as being global by default,
+ but the world is a big place.
+ What regions or markets do you expect to get uptake first?
+ How is this gonna play out on global scale?
+ I mean, we cannot overstate the structural demand for dollars.
+ A huge number of people,
+ they have a currency that's very inflationary
+ and their version of savings is having money in dollars.
+ It's not putting money in this hot market.
+ It's having physical cash, US dollars.
+ I talked last, last quarters,
+ last like three months or so
+ to about 30 companies that were doing remittances
+ on stablecoin rails.
+ And many of them were growing at 10% a month
+ on top of $1 million to $10 million total payment volume a month.
+ So we're talking just like sort of an industry
+ that's growing it at 10% a month, unbelievable growth.
+ And that's because if you're in Argentina,
+ you used to have to go to a,
+ I mean, I did this.
+ I was in Argentina two years ago.
+ I had brought specifically,
+ 'cause a friend who recommended it,
+ crisp new $100 bills.
+ They prefer the crisp new ones.
+ I get in my hotel.
+ They call a guy who looks like a drug dealer to come in.
+ He's got a bag full of Argentinian pesos.
+ I gave him my $100.
+ He double checks with the new ones.
+ He gives me the preferred exchange rate
+ because the new dollars are so valuable.
+ This is not an exchange rate I could get in a bank, by the way.
+ This is like a illegal exchange rate.
+ And to show practices, guys,
+ he's just churning, counting money to give me pesos.
+ That gives you a sense for how badly people want dollars there.
+ They prefer the crisp new US dollars because,
+ I mean, who doesn't?
+ It's nice.
+ It's nice.
+ You know, no bends and wrinkles and folds.
+ No, but it's because people are like treating this
+ as their savings.
+ So they want it to be really premium.
+ They want to know it's like the most accepted version
+ of the dollar.
+ But this is just so fun.
+ It's like you bought your friendly card to be,
+ you have the clean metal like, you want to make a sound
+ when you drop it on the table when you want to have to flex
+ your biceps to hold your credit card.
+ But there's just like an absolutely better solution now,
+ which is you could just hold stablecoins.
+ Maybe you don't need paper at all.
+ You might not need paper at all.
+ I think that, you know,
+ one thing that's interesting to think through
+ is what the state of issuers is going to be.
+ So right now, 90% of stablecoins are dollar-denominated,
+ fiat reserve, so backed by treasuries.
+ I think the market share is like,
+ Tether has 60% and Circle has maybe 40%.
+ Is that right?
+ Or maybe I'm overestimating--
+ Of the 90%, that's right.
+ The other 10% of stablecoins are either
+ what I would call asset backed,
+ but there's CDPs collateralized debt deposit stablecoins.
+ It's like Maker is the most famous.
+ And I kind of like these CDPs, actually.
+ They've proven to be very resilient, very safe,
+ but they're not super capital efficient.
+ They actually kind of mimic what banks do today
+ where they take in assets like mortgages and loans
+ and they turn that into monetary expansion.
+ So I think that we're actually going to see more CDPs.
+ There's other things like these strategy backed
+ synthetic dollars that I think of more like a dollar hedge fund
+ that I actually don't count those as stablecoins
+ because those seem to me to be an investment product
+ where you should really diligence
+ the underlying strategy being used.
+ Anyway, so we look at these sort of three categories.
+ Fiat Reserve is so large.
+ I wonder if we're going to see more competition in that space.
+ Already we're starting to see Fiat Reserve stablecoins
+ with a more default on way of distributing yield
+ to people who help distribute it.
+ So let's say I make a new payments app,
+ peer to peer payments app like FEMMO that uses stablecoins.
+ Maybe I could get a piece of the net interest margin
+ that the issuer has as an incentive
+ for bringing more people on the platform.
+ I would like to see more variety in stablecoins.
+ And I think we're going to end up seeing that,
+ although the transition's going to take a little bit of time
+ and there's going to be competitive dynamics in it.
+ 'Cause you have a circle and tether of great businesses
+ and they've done a phenomenal job with distribution.
+ The question would be like,
+ are they going to end up looking like Diners Club
+ where the Visa is actually a consortium model?
+ Or are they going to end up looking like
+ maybe like a JP Morgan check when the real solution
+ is the American clearing house of checks.
+ So there's these new systems that we can imagine
+ that allow for a lot more distribution much more quickly
+ than having just one or two issuers
+ run a lot of on-chain money right now.
+ - So basically the question that you're asking is,
+ are the current, the status quo
+ when it comes to stablecoins,
+ is that what the technology is going to look like
+ moving forward?
+ You mentioned Diners Club,
+ that was sort of like the proto credit card
+ before credit cards.
+ And then the Bank of America card came
+ and you could use it not just at like a few restaurants,
+ you could use it all at a whole bunch of merchants.
+ And then that's sort of the way the industry shifted
+ was toward this much more generalizable, useful product.
+ - That's right.
+ That's exactly what I'm getting at.
+ I mean, the Diners Club made relationships
+ with a bunch of basically New York LA restaurants
+ and said like, charges card, we'll pay back,
+ he'll be good, Bank of America card launched
+ in a kind of Sacramento area, I think.
+ - Fresno was the first drop.
+ - Fresno was the first drop.
+ It's kind of the origin story of the air drop by the way,
+ which is a hilarious little detail.
+ We've got a good podcast on that actually
+ all about air drops people can tune into.
+ - But then it became a consortium
+ where a lot of people were incentivized
+ to grow the network.
+ And I think we probably need that.
+ I think we probably need to share the incentives
+ that grow adoption and grow distribution.
+ And we can't just have Diners Club
+ or one service provider attempt to go it alone.
+ We wanna create a credibly neutral network
+ that's gonna require sharing incentives.
+ My question here is, you know,
+ tether and circle, they dominate stablecoins today.
+ Are they basically going to be Visa MasterCard,
+ you know, Coke and Pepsi, Uber and Lyft,
+ or is there gonna be a proliferation
+ of other options and alternatives?
+ - Okay, so this is actually the timing on that.
+ It's perfect.
+ I don't know when this podcast is gonna come out,
+ but Circle announced the payment network,
+ MasterCard announced Deep Stablecoin integration,
+ and Visa has announced a stablecoin payment product also.
+ And so the three big incumbents
+ just fighting to preserve their position in the market.
+ Part of why I like investing in this category
+ is because the future's not clear yet.
+ It could go any way.
+ The only thing I feel confident in
+ is that in order to get widespread adoption,
+ we're gonna have to incentivize distribution.
+ And so specifically what that means is
+ Circle or Tether or MasterCard or Visa
+ is gonna have to open up their pocketbook
+ and share some of the money they're making
+ for managing these payments.
+ I think we shouldn't be deceived.
+ Like we can't allow a centralized institution
+ to open up their pocketbook
+ and then close the door later.
+ We don't wanna get into a situation
+ where we're in an extractive network again.
+ And so the best possible outcome in my mind
+ is a competitive marketplace built
+ on top of incredibly neutral decentralized global network
+ on top of a blockchain.
+ And I think we're gonna get there,
+ but the history has not even written
+ and we're gonna continue to make investments
+ to help us get into that future as much as we can.
+ 'Cause we think that's sort of the way
+ that leads to the most prosperity for everyone.
+ - Sam, from what you're describing,
+ it sounds like if you wanna understand
+ how things are going to unfold,
+ how this industry is going to evolve,
+ it helps to think about crypto speedrunning
+ the history of finance.
+ And so if you wanna understand how it's gonna play out,
+ look to how finance unfolded.
+ - I think that's a reasonable thing to say.
+ But there is a core change here,
+ which is that we spent 50 years
+ on top of a legacy technology payment stack
+ that was actually holding entrepreneurs back.
+ And so when we look at the next generation
+ sort of payments products,
+ they can get much more creative than the last generation.
+ And so it's not just that we're gonna speedrun
+ banking history, but we're gonna unlock
+ very large new opportunities.
+ So there's products that you never would have attempted
+ because they would have been too complicated to do before.
+ Streaming payments is one.
+ Let's say I pay my electricity at the end of the month.
+ Could I be paying them on a day-by-day basis?
+ People have tried it, but the structural costs
+ were pretty high, the program ability
+ of legacy payment rails was pretty low.
+ Well, now you could build a streaming payment product
+ where you're sending payment as you use something
+ pretty trivially.
+ And the benefit is significant.
+ It might not have been worth the cost before
+ because it was so complicated
+ and so expensive to run existing payment rails,
+ but now you could build that business pretty easily
+ and people are going to do that.
+ I mean, electricity companies want to be paid more quickly
+ and users want lower fees, which they can do
+ because they're not taking out a loan
+ from the electricity company.
+ It's sort of a weird setup that you are getting
+ a 60-day loan for electrical power in your house.
+ And there's other things we've got
+ at Portfolio Company, Blackbird,
+ they're doing integrated payments
+ and rewards for restaurants.
+ Well, there's kind of a reason why
+ there wasn't a restaurant rewards product
+ that also handled payments.
+ The TAM was always large, but the cost to build it
+ meant that it would be hard to get off the ground.
+ And look, that's now possible.
+ And that's because payments are getting a lot cheaper.
+ You can track loyalty points on chain as well.
+ You can track restaurant information on chain.
+ Restaurants aren't scared.
+ The Blackbird is going to aggregate
+ and squeeze them because they're on
+ incredibly neutral decentralized blockchains.
+ We see it also with agent to agent payments.
+ Why would the large AI companies
+ allow just one centralized entity
+ to run all of the agent to agent transactions?
+ No, they want it to be on incredibly neutral rails.
+ And so there's a very long list of things
+ that only become possible now
+ that we've got stablecoin payments
+ and we've got this incredibly neutral infrastructure
+ to build additional products on top of.
+ And the whole thing's going to work in tandem
+ as we grow the TAM of the payments industry.
+ - That's a really great point
+ that as much as stablecoins represent an evolution
+ of progress in the financial system,
+ they also represent a step change.
+ We're actually entering this new regime
+ where things that were once not possible now become possible.
+ And some of your examples like the confluence
+ of how stablecoins and crypto might coincide
+ with AI agent payments.
+ That's one really great example of the kind of thing
+ that you maybe could not have prior to this development.
+ - Yeah, we reached parity.
+ Steelcoins are as good as traditional payrolls.
+ Next up is copy table stakes functionality.
+ And then after that,
+ we're going to enjoy the benefit of a step change forward
+ in what entrepreneurs can build on top of stablecoins.
+ And it's going to touch every industry.
+ - Looking forward to seeing what people cook up.
+ You guys, thank you for listeners out there.
+ If you would like to learn more about this,
+ check out a16zcrypto.com.
+ Sam and Chris have written some really great pieces
+ about stablecoins.
+ Sam's written about how stablecoins
+ are going to eat the payments industry
+ and also how you can look toward the history
+ of the US banking system
+ to understand how stablecoins are going to unfold.
+ And Chris, you've written a great piece
+ on how stablecoins are payments without intermediaries.
+ Thank you guys both for coming on the show
+ and talking about stablecoins.
+ - Great job, thank you both.
+ (upbeat music)
+ (upbeat music)

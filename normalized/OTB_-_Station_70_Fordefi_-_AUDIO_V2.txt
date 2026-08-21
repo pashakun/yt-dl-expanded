@@ -1,0 +1,647 @@
+TITLE: Failover Wallet for Disaster Recovery (Adam Healy & Josh Schwartz) [Castle Island Podcast]
+URL: 
+VIDEO_ID: OTB_-_Station_70_Fordefi_-_AUDIO_V2
+
+TRANSCRIPT:
+Today on the podcast, I sat down with Adam Healy, the co-founder of Station 70, and Josh
+Schwartz, the co-founder of Fortify, both Castle Island Portfolio Companies.
+Station 70 and Fortify recently announced a collaboration to create the industry's
+first failover wallet solution for disaster recovery.
+This is an impressive product release.
+I was super excited to talk about it on the podcast because I think it's a great thing
+for the industry.
+I think you'll enjoy hearing more about this one.
+So without further ado, here's my conversation with Adam and Josh.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Down by bad mortgage investments, Lehman, which has 25,000 employees, will be liquidated.
+The federal government loans American International Group, AIG, 85 billion dollars.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+All right.
+Well, Adam and Josh, really excited to have two Castle Island founders on the podcast
+again.
+I guess this is a multiple time repeat guest situation here.
+So thanks for joining us.
+Glad to be here.
+But we've never been here together, I think.
+That's right.
+That's right.
+We're really excited about the announcement that you guys are collaborating here on the
+product side.
+So maybe just so we know who's talking here, we could just start with some quick intros,
+maybe start with you, Adam, just introduction on yourself and then hop over to Josh.
+Sure.
+So I'm the CEO and co-founder at Station70.
+We provide a number of security solutions to the Web3 space, best known for Bunker,
+which is our disaster recovery platform, business continuity platform.
+I've been in the industry about eight years, was the CISO at Block5.
+Before that was the CISO at Back.
+Seen a lot of things in those roles.
+And the idea around founding Station70 was providing generalized security solutions that
+used to only be available to the most sophisticated institutions.
+Awesome.
+So Josh, how about you?
+Yeah.
+So CEO and co-founder of Fortify, we're one of the leading institutional MPC wallet providers.
+We're working with over 170 institutions, including some of the largest trading firms,
+asset managers, protocols, exchanges, tokenization firms and other Web3 companies who want to
+interact on-chain but need institutional controls as well as DeFi security and functionality
+to run their business effectively.
+We launched the product about three years ago and our clients collectively are transacting
+over 10 billion on-chain.
+Like Adam, I also have been about eight years in the space, all within the wallet in custody
+area.
+I started out at BitGo where I ran global sales and then was chief operating officer
+of Curve, which we later sold to PayPal.
+It's funny how that 2017 era of crypto where everybody's at now, I feel like.
+Yeah, it's crazy.
+I mean, you go back and look at where people started and a lot of people have started companies,
+which is great.
+I guess that's a sign of a healthy ecosystem.
+Yeah, indeed.
+Well, Josh, I want to start with you on the Fortify side here.
+Obviously, this collaboration, this announcement, I think is just a big deal from a user perspective.
+I'd love to get your impression of just what the wallet landscape looks like now, what
+some of the trends you're seeing, and then maybe dovetail that into why you wanted to
+do this collaboration with Station70.
+We've definitely started to see, I say now over eight years, but even over the four years
+that Fortify has been around, we've seen some additional wallets come around.
+We've started to see many wallets fall into particular areas or buckets that they focus
+on.
+I like to think of the world in four main areas.
+You have the QCs, or regulated custodians, who are holding other people's assets.
+You have the on-chain wallets that folks know as safe and squads.
+You have embedded wallets, which enable folks to launch end user, our secure retail hold
+who have wallets.
+And then you have more of the institutional non-custodial wallets.
+We Fortify fit into the last two.
+So we offer clients who want to hold their own assets, whether trading firms or asset
+managers want to hold their own assets.
+And then at the same time, we enable exchanges and other retail-facing platforms to launch
+embedded end user wallets securely into their applications.
+As you know, our story was where the first use case for digital assets was just buying
+and huddling tokens and maybe using it for supply settlement.
+Most of the V1 wallets were just built to protect transfers.
+And all of a sudden, about four years ago, we started seeing institutional DeFi takeoff
+at a real scale where we started seeing access to liquidity yield and other on-chain use
+cases.
+And the wallet infrastructure was just not able to handle that.
+It just weren't built for that.
+So we heard all the stories of people blindsigning really large transactions, or the fact that
+someone had a wallet that enabled them to dab on a particular chain.
+But all of a sudden, if an asset manager wanted to go after some other opportunity, they're
+like, wait, my wallet doesn't even support this chain.
+I always give the example, imagine a traditional asset manager saying, I have one platform
+to trade IBM stock, but if I want to trade Tesla one day, I'm screwed.
+And so the idea, these were the main three differentiators that we launched Fortify with
+as connectivity.
+So we built our own browser extension that works completely across chains.
+So if users are on Uniswap, Jupyter, or Osmosis, they have the exact same workflow.
+We support over 90 chains and we support connectivity to any gap on those chains, over 90% of TBL.
+The second is clarity.
+So we provide smart contract enrichment and transparency so you actually know what it
+is you're going to sign before you sign.
+And then of course, are the controls.
+Before Fortify, there were controls that enabled when I want to do a transfer to a particular
+address require the following rules.
+But if I wanted to do something on chain, if I want to interact with a contract or change
+allowances, there just was no context to be able to create those types of rules.
+I want to get both of your guys' impression on this, but since the last time either of
+viewers on this podcast, we have had major league security incidents in this industry.
+The Bybit hack, which I think was the largest hack, probably the largest financial crime
+of all time.
+You guys, or security guys, you see something like this.
+What's your reaction just from a crypto macro perspective on what the industry is doing
+here?
+I'll start off with my points and Josh can jump in.
+I would say Bybit is maybe second to FTX.
+I think FTX was bigger.
+It's not the largest, but the second largest.
+And some of us know way more about the FTX debacle than any of us would like to think
+we do.
+I think at the end of the day, things like Bybit, it manifested at Bybit, but it was
+root cause some very bad, what I would just call like web to security hygiene over it's
+safe.
+So we won't get too deep into that, I think on this podcast, but at the end of the day,
+I think the basics matter.
+And what we saw at safe was they weren't doing the basic, the 101 level security stuff wasn't
+getting done.
+And we honestly have seen that time and time and time again, I've been on a bit of a tirade
+on LinkedIn lately talking about some of these like 101 levels security failures that we've
+seen industry wide and even beyond the crypto and digital asset industry.
+And I think as I think about our station 70 and Fortifier working together as it relates
+to the recently announced partnership, I wouldn't say it's 101 level because it's really hard
+to do right.
+Josh and I can both attest it took us a very long time to integrate and build this.
+It's very complicated when you're doing things that involve large sums of money and cryptography.
+It's got to work.
+It's a no fail mission.
+There is no oops, we can do that differently next time.
+It has to work every time and the first time.
+So when I think about the big security challenges that we've seen in the industry going back
+number of years, safe slash bybit being the most recent and being massive in terms of
+dollar loss and some of the downstream consequences we've yet to see if the threat actor group
+that's associated with that ends up being true, which I believe it is, is through this
+partnership, what we're arming customers with, what we're enabling customers to solve are
+really just putting in place more of those safeguards.
+Josh talked a little bit about traditional finance a second ago that are common in the
+traditional finance space.
+If you're a hedge fund, you likely have prime broker accounts with multiple firms.
+You don't just have all of your eggs in one basket.
+And that's what we've been able to accomplish with this partnership is through Fortify standby
+wallet and through some new features, a feature we call SWOT, secure wallet account transfer
+at station 70 bunker product, which is our flagship institutional disaster recovery platform
+for self custody wallets.
+We've been able to integrate that standby wallet with the bunker capability and the
+SWOT feature to really provide customers resiliency across wallet provider.
+So let's think about a world where your primary wallet provider for some reason isn't Fortify.
+I don't know why that would be the case these days, but for some reason it's not Fortify.
+You have a primary wallet provider and they have an outage.
+What do you do?
+At station 70, you can get your keys, you can rehydrate new wallets, you can do things,
+but that's really not the experience that customers want.
+We've gotten feedback from a number of tier one customers that say, yeah, we don't ever
+want to have to take control of our keys without some type of wallet as a service as an intermediary.
+So we got to thinking about that.
+We said, well, what if we can get a wallet partner like Fortify to provide something
+like a standby wallet where then at station 70, if your primary wallet provider has an
+outage, you can just log into station 70 and essentially push your MPC key backups
+to Fortify, run through a secure import process.
+This is all done in a zero knowledge way and get back to business.
+I think in the traditional finance context, it's very much a no brainer in the crypto
+and digital assets space.
+Nothing like this exists anywhere else.
+We wouldn't have built it if there was something else that was similar, but no one has this
+technology.
+It took us a very long time to build.
+And then we talk about data breaches and coming back to the security discussions.
+Let's say it's not an operational outage.
+We just saw a very large power outage for 12 plus hours in Western Europe in the last
+24 hours.
+But let's say it's not an operational issue or some grid down issue or a large cloud provider
+issue.
+Let's say it's a data breach.
+So your primary wallet provider sends the famous tweet that is famous in crypto.
+We're taking our systems down for unexpected maintenance.
+That's the tweet that basically the next 10 tweets are going to be.
+We had a data breach.
+That's the first one that lands.
+Let's say that happens.
+You as the customer are now effectively in a race condition with the bad guy because
+at the end of the day, it's a self-custody wallet ecosystem that we're talking about.
+So you need to sweep your assets to net new addresses that have never touched your primary
+wallet partner, your primary wallet service.
+So how do you do that?
+You log into station 70 using our bunker product, you use the SWAT feature to shift your keys
+over to a firm like Fortify that has standby wallet implemented.
+Then can enable you to then within Fortify, sweep all of your assets to net new addresses.
+And now you have essentially clean addresses that were never impacted by that data breach.
+There's obviously some complexity there with some staked assets and some other things,
+but we're talking disaster mode.
+We're talking data breach mode.
+So those are some of the tools that really should be table stakes.
+I'm shocked as a multi-company see-saw that a lot of the stuff doesn't exist.
+And that's why we're building station 70 and across multiple products, because these are
+tools that we either wanted and we built in-house or we wanted and we never built, but we accepted
+those risks.
+I think those risks are just unacceptable today as the industry grows.
+So between Fortify standby wallet and station 70 bunker products, specifically our SWAT
+feature, you now can move your assets through moving the private keys cross wallet platform
+to solve for some of those operational or security resiliency problems.
+It's just fascinating that this is actually technically possible.
+I've had this on the wishlist for a while, but I feel like it seems really complicated.
+And I know we're not going to get into the details necessarily on how the math works
+on this, but the fact that it's even possible seems pretty amazing to me.
+Josh and I have been talking about this for a year.
+Matt, you and I have been talking about this for probably more than a year.
+When I first thought of this as an idea, I literally had no idea if we could build it.
+But I think on both sides of the team, we have some really smart folks.
+Josh, you probably have some other views on that.
+Look, I think in general, folks have been asking the question, as long as I've been
+in this space, what happens if my wallet provider gets hacked?
+And firms who are security minded go through some good steps like rigorous vendor selection
+process.
+They always ask what are the best security, best practices.
+And by the way, back to that, if I've been hacked, it's good that we have people that,
+of course, when these things happen, what happened here and what can we do to prevent
+this? These are always good steps people take.
+And of course, the other thing they do is they diversify their assets through multiple
+wallet providers.
+And this is what we see at traditional.
+That's a match made ever since Lehman Brothers.
+No one had only one PB.
+So the idea of having multiple wallets to protect.
+And that's great, although it doesn't actually handle the problem of what if I need this
+particular address?
+The blockchain is always on, but my interactions may be tied to a particular address.
+And so think about two very pointed examples.
+Say I'm an exchange and I have thousands and thousands of addresses that I've spun up for
+each individual user of the exchange.
+And I have this so that when each user deposits crypto into the exchange, I have user attribution.
+And I know that when this address gets a deposit, that's Adams.
+And when this address gets a deposit, that's Matt's.
+And I've done a lot of work in order to build the right wallet infrastructure to protect
+that. Well, now, all of a sudden, my wallet's becoming accessible and I have no access to
+any of this.
+I basically shut down as an exchange and having other wallets that I could spin up doesn't
+really help because it takes a lot of time to then spin up that kind of setup and tell
+all my users this is your new addresses, et cetera.
+Another good example.
+Think of all the OTC and institutional trading that's happening between asset managers and
+trading firms.
+And everyone has your settlement instructions.
+And imagine if all of a sudden those settlement instructions all have to stop.
+So if this talking about even just a couple of days, in effect, institutional crypto market
+stops if someone loses access to their actual addresses that they're used to interacting
+with. Until now, this did not exist.
+Even though you could have had another wallet and you could transfer funds into another
+wallet, to be able to control the same addresses that you created with one wallet provider
+and now control them securely with another wallet provider without compromising the
+security integrity of the keys itself, it really almost sounds like magic upon magic.
+I joke like NPC already for many people.
+Sounds like magic.
+This is like magic upon magic.
+I mentioned this before, but there was a story back when I worked at Bloomberg just about
+10 years ago, there was a story of the UK had to halt a treasury auction while I was
+there because the Bloomberg terminal was down.
+This is in 2015.
+It made us realize, of course, this is insane.
+I literally can't raise money because technology is just inaccessible.
+And it makes us realize that how much in general we have a reliance on technology.
+The beauty of digital asset markets is supposed to be that this is always on, that this is
+resilient. And yet this was a major gap in the market where we still had the same problem
+where institutions were dependent on their particular wallet provider to access their
+addresses. And the fact that with Adam and his team and with us, we're able to actually
+solve for this. You can completely continue always on, always operational.
+It's just a really cool story.
+That's crazy about the Bloomberg outage that actually impacting the treasury market.
+That'd be a convenient excuse if you ever have a failed treasury auction coming up anyway.
+Just tell Bloomberg to go down, I guess.
+Josh, the other use case that comes to mind is if you are engaging in activity with a
+smart contract that has maybe a vesting schedule attached to it where you have to
+engage with the same wallet address for the next four to seven years.
+This just feels like a better way to ensure resilience in that type of a setup as well.
+Yeah, that's right. So when we first talked about importing private
+keys into Fortify, the first time we encountered it was exactly because since our lead
+differentiator, we started the company was around DeFi and we did have people who were
+locked in long term staking or vesting contracts.
+And they say, hey, we love Fortify, but I can't move because of following.
+So we already had to solve helping clients import private keys and we've done so.
+We helped an exchange import over 200,000 addresses into Fortify and completely moved.
+I think those are a little different because in those use cases, it can be planned.
+Time is not really working against you there.
+You can create a process for transition.
+And sometimes, depending on what it is, we always have clients that want to come to us
+from another wallet provider. Sometimes it's just cleaner and simpler to just, if you're
+not tied to those addresses, just spin up new wallets under Fortify, transfer your assets
+and unchain and that's easy.
+To your point, sometimes they can't because they're locked in contracts where they need
+control of that address.
+And so we've been able to help import that.
+I think what's really unique here is the SWOT and the standby wallets specifically
+happened at a time when you didn't plan for it.
+This is something that you have to know.
+This is BCP.
+You have to make sure that when this thing happens, you can instantly fail over and then
+continue operations.
+And that's why we needed this partnership to work.
+And for any other pieces that many times point, even sometimes when someone is doing just
+their own transition, many clients don't want to ever hold their backup keys.
+We always tell clients that even though we enable it's a self-custodial wallet, so in
+theory, clients can hold their own backup keys.
+We always recommend that they use folks like Station 70 because this is what they do.
+This is what they're good at.
+And a lot of times you need to deal with smaller funds.
+For example, traders, they're not entirely sure where their backup key is, how to secure
+their backup key.
+And then sometimes they don't even realize this is the whole thing.
+If you lose this, you're really in trouble.
+So I think in general, having someone like Station 70 securing their keys is already
+available. And therefore, even if they're doing a transition, not during a time of
+failover, they can, of course, trigger that transition also through swapping Station
+70.
+You're going to hop in there, Adam?
+Yeah, Josh is 100% right.
+We really see Bunker as a toolbox for disaster recovery.
+However you want to use those tools, we believe in empowering the customer, empowering
+the users. It is self-custody, as Josh said.
+It's your sovereign assets.
+We're not going to dictate to you how you use the tools or the technology.
+We certainly have some opinions on backup quorums and some other security policy things
+that we've just seen dozens and dozens and dozens of these now as we've been onboarding
+customers over the last eight or so months.
+So we certainly have some opinions on it.
+But I think at the end of the day, where I think the industry is going from a maturity
+perspective, from a security perspective, from a resiliency perspective, some of that's
+going to be driven by regulators, some of that's going to be driven by firms not wanting
+to be negligent. Some of that's going to be driven by just good hygiene for operational
+best practices, is things like standby wallets, things like having redundant wallet
+capabilities. We're already seeing that with some of the more sophisticated firms.
+They want multiple wallet providers using the Prime Broker example from TradFi.
+And then us sitting there in the middle as the disaster recovery business continuity
+toolbox, having tools like SWOT within that overall Bunker product set that allows you
+to really have full control of your keys, because that's what I care about.
+Customers, firms having that full control and doing it safely.
+We don't want to set folks up for failure.
+We've seen that time and time again in the industry where the tooling lacks.
+Josh, you mentioned blind signing.
+We've seen these scenarios unfold so many times.
+And to me, as a security professional who really cares, I feel really bad when that
+happens, knowing that those things could have been solved if the UX was better, the
+tech was better. And I think what we've built together is shockingly good, super
+complex. I've even had, I've talked to some firms and they're like, is this real?
+Is it here today or is this coming in six months?
+No, no, like we can demo it for you.
+We can, no joke, show you how this works across wallet platforms.
+Assets end up at fortified.
+And then from there, you're back in control.
+That's where a lot of the industry is going to go.
+As we continue to mature, you guys can probably attest to this also.
+Every cycle, there's a major blow up, whether it's legal blow ups across major
+players, whether it's financial crimes, whether it's data breaches.
+My hope is as bad as it was for some data breach was the blow up for this cycle.
+And now we, the cycle will continue to play out and we're going to be knock on
+wood in a good place and there's nothing worse that happens.
+And I feel like the way that we solve it as an industry to prevent future cycles,
+this cycle from things that are worse from happening is we have to be very serious
+about resiliency, better tools, security, good operational hygiene.
+We have to, we have to treat this like it's a real asset class.
+Cause it is now shocking.
+We've all been working towards this for a long time and it's here.
+And I think stable coin adoption.
+We were talking about this before we started recording, Matt, that seems
+to be growing exponentially, banking infrastructure seems to be growing
+exponentially, so in parallel with that cybersecurity infrastructure, wallet
+infrastructure and overall resiliency has to grow in parity.
+That's where I kind of want to go next.
+And hopefully it's not a blow up, but one thing that is super obvious from where I
+sit is that a lot of the banks and the broker dealers are starting to get a lot
+more active over the last three months.
+It's clearly regulatory driven, right?
+Saab 121 going away and we're going to get a market structure bill.
+The OCC and the FDIC have both eased up on crypto related activities.
+So we're going to be living in a world this year where there are big banks that
+are trying to custody Bitcoin and other types of cryptocurrencies.
+I look at this and I just say, how many people on planet earth really understand
+MPC and are they working at those banks?
+These are bearer assets that I don't think a lot of these banks have
+experienced safeguarding, so I worry about that.
+How do you guys see that playing out?
+We have a crypto CISO chat group that is kind of all the key players that we would
+all know it's all the CISOs from across the industry that have been around a long
+time and I've said in that group many times over the years that there's probably
+a hundred people in the world that could actually design custody.
+45 of them are in this group chat.
+You layer an MPC, it's a small number.
+People that really get it and then can intersect it not only at an academic
+level, but in a practical level for at scale wallets, that's a really small
+number and I don't think many of them work at banks and I would judge that
+based on some of the conversations I've had with some of the banks.
+They're looking for partners and I think that's probably the right model for them.
+And I think one of the failure modes that I've seen, whether it was it backed as
+part of kind of the broader ICE ecosystem, which is obviously an
+intercontinental exchange, just to be very clear ICE is a loaded term in
+the algorithm these days, but whether it was there or at other banks that I've
+spoken with in the last handful of years is they treat a lot of their wallet
+infrastructure that they've built in house as just other network devices.
+So that HSM is just sitting there in Iraq next to all the other HSMs and that
+signing service is sitting there on a VMware box sitting next to 500 other
+virtual workloads and that's a very dangerous and very bad way of looking at
+it because to use the word that you just use, Matt, these are bear assets
+and there's no clawback, it's not just wire transfers.
+So I think that there's a combination of real enterprise cybersecurity
+knowledge, MPC knowledge, custody knowledge, wallet operations knowledge
+that I haven't been super impressed by that cross section of knowledge
+existing at any bank.
+Josh, what's your take on this?
+It's a race, right?
+All these banks are going to have to be in the game.
+What's your take on how this unfolds over the next year?
+I agree with that.
+And I think that there's definitely a knowledge gap there and we see it from
+the conversations that we're having with them.
+I think the other piece that these banks have to also think about is how they
+will first dip their toes in the water versus how they'll eventually go out
+their overall infrastructure.
+The first business which is going after the ETF custody business is a little
+more plain vanilla custody that you're sort of okay probably with deliberately
+slow and clunky process, which actually has some operational benefits in a
+sense for that particular use case.
+But as the banks start thinking about what it actually means to offer a full
+stack of on-chain transaction capabilities, obviously this is where things
+like MPC come into play, this is where you have to have an always on and
+always capable to transact infrastructure.
+And of course, that's where the impact vectors of the risks increase.
+And I think there is a gap there.
+We see it again, just from the number of conversations that we've had over
+the last couple of months have been increasing.
+I think the likely path for them will be to partner some of them as expected.
+We'll try to go out on their own and then at this point, we'll either fail or
+realize that because it's a race, it'll just take too long and it'll be easier
+for them to partner.
+I would just add to that.
+I think it's partner or smartly acquire.
+And when I say smartly, I don't mean how banks normally acquire things and then
+suck them into the vortex of bank processes and systems.
+One analog that I use often is the way Walmart did e-commerce.
+And we can argue, maybe they missed the boat and Amazon and all these things,
+but they've got big Walmart and then they have Walmart Labs, which used to be
+called Walmart Labs out in Brno.
+And it was really separate lab, the separate ecosystem that was charged
+with moving e-commerce forward.
+And if a bank were to take that approach, if they maybe were fundamentally
+opposed to partnering, which I think is probably the best option for most
+of the banks to be clear, and they were to go the other path.
+My word of caution to anyone at the banks that will listen to this, because
+Matt has a very diverse audience, is do it smartly and think about it as almost
+a separate entity, similar to kind of how like the Walmart Labs piece as a case
+study unfolded when they were getting e-commerce up and running, if you pull
+it into Borg, try and make it part of the bank, it's going to fail and you're
+going to have the same problems that we've seen with other large acquisitions.
+Yeah, I agree with that.
+I think you'd have to look at the Bell Labs model or even look at how some of
+the successful traditional financial firms have entered crypto to date.
+Fidelity comes to mind as putting it separate from the core entity.
+Josh, I want to double click into something you said, and it teases
+something I've been thinking about a lot.
+So you bring up non-MPC custody for deep cold in the Bitcoin use case.
+But I wonder if you're going to see this trend of MPC being the desired platform,
+even for assets that aren't bearer assets.
+And so we had the Canton network guys on the podcast a few weeks ago and, you
+know, repo agreement, the collateral actually does live off chain, but you
+could see the policy engine of something like what you've built actually being
+the core reason why you'd want to have an MPC set up to something like that.
+So I wonder if you're seeing that as maybe the buying persona is diverse
+in terms of why they like MPC.
+First, I would probably separate the MPC from the policy controls.
+Hosted institutional wallet in a sense has three main components, leaving
+aside defile the rest of the pieces of our stack, but three main components,
+you have the key management layer, you have the policy and authorization layer,
+and then you have a blockchain connectivity.
+The fact that it's hosted, pushing the chain monitoring for status, et cetera.
+The middle layer, which is the governance tools, the policies, et cetera.
+To your point, this is always very valuable as an out of band policy
+enforcement process, but that could actually happen regardless of whether
+it's MPC, whether it's multisig, whether it's some other form, smart wallets.
+And so actually we've thought about this also.
+Should we, at some point when the rage of the kind of
+abstraction wallets should come into play, it's not our policy approval
+process is not specific to having to use an MPC as a management layer.
+So I think like that part is certainly true that it's not trivial to build
+the entire policy approval process and enforcement process that's independent
+from the choice of using MPC, which of course has its benefits and speed
+and the trade-off between security and utility.
+The fact that there are MPC cold as well, where some of the shares
+can actually be completely off their gap.
+But even independent, the fact that you can have shares online, but completely
+never having come together, think like MPC is the best iteration today of
+key management that works cross-chain that really optimizes between security
+and utility, but that's different than your point, the fact that people really
+like a secure hosted wallets because they also have all three of these
+pieces, specific to policy and governance piece.
+That's a helpful way to frame it.
+I hadn't thought about it that way.
+So I guess the policy engine being discreet does make a ton of sense.
+And yeah, you could see that being just a popular feature in and of
+itself in a lot of these use cases.
+Adam kind of gets to something we've talked about over the years around
+crypto exporting things to the real world that we invent here.
+Do you get the sense that this MPC wave here, we're going to be using it for
+way more than just moving Ethereum around on a blockchain?
+I hope so.
+I think it's one of the most novel uses of cryptography, the digital assets
+side of the ecosystem that we've seen in a very long time, obviously the
+white paper and all of these things fundamentally have shifted the way a lot
+of us think about monetary policy and moving assets, but MPC specifically is,
+I would say like on that level of game changing technology and where we are
+today.
+So I think for us at station 70, we're in the business of building security
+products and Bunker is a generalized cipher text management platform.
+That's the way that we often describe it to some folks that has a robust
+set of security policies and hardware based encryption and other things.
+So along the lines ish of what Josh was saying, whether you're storing
+other types of backup material within Bunker or MPC backups, it doesn't really
+matter.
+It's cipher text by the time we see it anyways, because we have it all set up
+in a zero knowledge way.
+So there's a lot of extensible use cases, I think, for Bunker and some of the
+other features within Bunker, whether that's SWOT or something like custom
+upload, which is another feature we have.
+Bunker is very quickly becoming a very, very advanced cipher text management
+platform that really is being used for business continuity and disaster recovery,
+but as a lot of other use cases.
+And then, you know, for us and just being super selfish, we have some other
+products in the pipeline that will be coming out that we think will actually
+solve some very real challenges in web three, but also back into web two
+enterprise context, specifically around identity.
+We're excited to be talking about those at some point in the not too distant
+future, but we will see how adoption goes across the different web two versus web
+three space, especially for our identity product.
+But I think it would be very obvious if I was sitting in like a web two cyber
+security shop or a web two VC or a web two enterprise to start looking at some
+things that are really on the forefront of cryptography, like MPC.
+And so these security tech that's being built in web three.
+Yeah, it's fascinating.
+And hopefully we continue to see more of this exporting things that were created
+for the crypto ecosystem into the real world.
+You've seen it a lot in financial products, I suppose, with the perpetual
+swap and the AMM and things like that.
+But it's really leveraging the math itself is probably the most powerful
+thing, especially when you look at password managers and two face solutions
+that are really bad.
+Last pass, we can look at some of the problems there.
+Anything centralized is often going to be bad from a security perspective, unless
+you do security really well.
+There's a lot of things that could be solved where we've solved them or we have
+good plans to solve them in web three, because the stakes are just so much higher.
+We're talking again, bearer assets that can't be clawed back, but have a lot of
+value attached to these private keys.
+Something I say a lot to folks is whether it's from like station 70, or it's a
+wallet provider like Fortify, or it's a custodian, the qualified custodian, your
+business in most ways that you could describe it is you have to be really good
+at private key management and security around private keys, whether they're MPC
+key shares or whatever it is, you have to be really good at that.
+And then now go look at other enterprises outside of those three
+demographics I just mentioned.
+I've seen the inside of a lot of fortune 500 companies, of a lot of tech firms,
+and none of them were really good at private key management.
+Like it's like, none of them were like world-class at it, with the
+exception of maybe like one.
+So being able to say, Hey, we built a lot of really sophisticated security and
+operational product within web three.
+Here's some use cases that we can solve in web two.
+I think that's great for all of us.
+And it would allow us to export some things beyond some of these financial
+products, some of the cool tech that we've built into some of the broader
+enterprises, the broader industries, just beyond digital assets.
+That makes sense.
+Guys, this has been great so far.
+I want to go a little bit deeper on just how people can learn more
+about how this product works.
+I don't think it's the type of thing you'd be able to intuit based on
+just a podcast episode here.
+So how would you think about directing people to learn more about this?
+So I think there's two things, one, both station seven and Fortify are
+very accessible companies.
+I think we both have very good customer service, but what we're going to be
+doing in the next couple of weeks, and we'll make sure there's a link, we'll
+send it over to Matt and we'll make sure there's a link in the description of
+this podcast is we're going to be doing a webinar where we'll be able to talk a
+bit deeper.
+We'll have some more time.
+We'll have some of the technical experts on the line to talk about the standby
+wallet architecture with the bunker slot architecture, how that works.
+And then we'll actually be able to show a demo of it during that webinar.
+We've had plenty of people that think it's not possible, but we'll show you
+how it works.
+I think that'll be pretty impactful.
+Aside from that webinar, which we hope all of you show up for info at station
+70.com is a great way to get ahold of us.
+Josh, I'm sure you want to chime in too.
+Yeah, sure.
+Reach us at our website, fortify.com.
+I would just say that we're continuously iterating and innovating new use cases
+for clients to interact.
+Even most recently, we talked a little bit about that stack and how these are
+actually different building blocks of the keys, the policies, the backups, and
+you can enable some really cool things like collaborative wallet use cases for
+triparty.
+We've had some interesting examples of new durations where asset owners keep
+their own custody and enable advisors to transact on their behalf.
+And all this stuff is really great.
+But at the same time, the reason I think we're so excited about this is as we
+continue to innovate new use cases, it is so super important for providers like
+us and station 70 doing what we can to make sure that the institution is
+resilient, to make sure that this market is always on and to make sure that that
+story that I saw 10 years ago with the treasury auction in Bloomberg does not
+happen in our ecosystem.
+So our goal is to make this super frictionless.
+This is a pure play BCP plan.
+I don't see how anyone would not want to have this pricing wise will be very,
+very aggressive and almost it's set up to be a no brainer because I think this is
+the role of folks like us in this space to make sure that we prevent stuff from
+happening.
+Definitely sounds like a complete no brainer and congrats to you guys for
+building this together.
+This is something that's just good for the overall health of the ecosystem,
+obviously really good for both of your companies, which I'm excited about as
+well. So really appreciate you guys coming on the podcast today.
+Thanks for having us, Matt.
+Thanks, Matt.
+Thanks for listening to another episode of on the brink with Castle Island.
+To find out more about Castle Island, visit Castle Island dot VC to listen to
+all of our podcast episodes.
+Please go to on the brink dash podcast dot com, or just click on the tab in our
+website. Thanks for listening.

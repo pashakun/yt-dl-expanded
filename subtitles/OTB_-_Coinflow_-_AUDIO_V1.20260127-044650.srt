@@ -1,0 +1,1576 @@
+1
+00:00:00,400 --> 00:00:06,960
+Today, I sat down with Daniel Lev, the founder of CoinFlow. CoinFlow is a payment service provider
+
+2
+00:00:06,960 --> 00:00:12,320
+that uses stablecoins to offer faster settlement of both card payments and payouts for businesses.
+
+3
+00:00:13,200 --> 00:00:17,520
+Daniel's vision for CoinFlow was inspired by his previous work at e-commerce startups.
+
+4
+00:00:18,160 --> 00:00:22,560
+He had experienced delays and inefficiencies common in payment settlement and realized that
+
+5
+00:00:22,560 --> 00:00:27,760
+stablecoins could create a better offering. Without further ado, I hope you enjoy my conversation
+
+6
+00:00:27,760 --> 00:00:31,840
+with Daniel. Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these
+
+7
+00:00:31,840 --> 00:00:34,880
+expressed by them or the guests on this podcast are solely their opinions and do not reflect
+
+8
+00:00:34,880 --> 00:00:38,080
+the opinions of Castle Island Ventures. Guests and hosts may maintain positions in the assets
+
+9
+00:00:38,080 --> 00:00:41,360
+discussed in this podcast. You should not treat any opinion expressed by anyone on this podcast
+
+10
+00:00:41,360 --> 00:00:45,200
+as a specific inducement to make a particular investment or follow a particular strategy,
+
+11
+00:00:45,200 --> 00:00:48,480
+but only as an expression of their personal opinion. This podcast is for informational
+
+12
+00:00:48,480 --> 00:00:54,400
+purposes only. Brought down by bad mortgage investments, Lehman, which has 25,000 employees,
+
+13
+00:00:54,480 --> 00:00:59,760
+will be liquidated. The federal government loans American International Group, AIG, $85 billion.
+
+14
+00:01:00,160 --> 00:01:04,320
+This is a different kind of market and the Fed is asleep. The federal government is stepping in to
+
+15
+00:01:04,320 --> 00:01:08,560
+stabilize Fannie Mae and Freddie Mac, the two mortgage giants that have been threatened by
+
+16
+00:01:08,560 --> 00:01:12,960
+the housing crisis. The Bank of England has pumped 75 billion pounds more into Britain's ailing
+
+17
+00:01:12,960 --> 00:01:16,800
+economy with a new round of quantitative easing. You print a couple trillion dollars and all of
+
+18
+00:01:16,800 --> 00:01:20,960
+a sudden people start to worry. So out of this worry, we have something called the Bitcoin.
+
+19
+00:01:21,520 --> 00:01:26,240
+Bitcoin. Daniel, thanks for coming on the podcast. Excited to chat today.
+
+20
+00:01:26,240 --> 00:01:32,080
+It's probably overdue at this point. I'd love for you to start by touching on what was the premise
+
+21
+00:01:32,080 --> 00:01:38,800
+for CoinFlow? Why did you guys start the business and what have you hoped to build from the day one?
+
+22
+00:01:38,800 --> 00:01:43,360
+That's a great question. Quick background is I've been building financial products for quite some
+
+23
+00:01:43,360 --> 00:01:49,120
+time in the quote unquote fintech space and I've been building crypto since I was an engineer in
+
+24
+00:01:49,120 --> 00:01:55,040
+college. And in between, I was at a hyper growth fintech. I was leading a big project in there.
+
+25
+00:01:55,040 --> 00:01:59,520
+We went through hyper growth, got pretty bloated. So I had some time to dabble in side projects.
+
+26
+00:02:00,160 --> 00:02:06,160
+Ended up starting a side project turned company. That was a fantasy sports protocol and so on.
+
+27
+00:02:06,160 --> 00:02:12,960
+We got a lot of free users and classic like VC back company that goes free,
+
+28
+00:02:12,960 --> 00:02:17,760
+strive freemium and convert. The free users couldn't convert because everything was on
+
+29
+00:02:17,760 --> 00:02:21,440
+blockchains and smart contracts. So you needed stable coins to buy things when people try to
+
+30
+00:02:21,440 --> 00:02:25,680
+convert. This was four and a half years ago. So people, you know, stable coins really were.
+
+31
+00:02:25,680 --> 00:02:30,880
+I barely knew what stable coins were when we're trying to use them in our project and no one who
+
+32
+00:02:30,880 --> 00:02:36,640
+convert. So we started using on ramps. Those had horrible conversion and I was pretty blown away
+
+33
+00:02:36,640 --> 00:02:42,320
+how like this infrastructure piece of like, hey, someone wants to pay you and you can't get paid
+
+34
+00:02:42,320 --> 00:02:46,240
+like doesn't exist for anyone in the crypto community. So it went down like a huge payments
+
+35
+00:02:46,240 --> 00:02:51,360
+rabbit hole and then realized that this doesn't exist. And what we were solving for is like,
+
+36
+00:02:51,360 --> 00:02:57,520
+hey, connect a traditional credit card or any form of payment acceptance to a smart contract.
+
+37
+00:02:57,520 --> 00:03:02,880
+And as soon as that form factor of like credit card is authorized, you can instantly the merchant
+
+38
+00:03:02,880 --> 00:03:07,760
+is being you didn't receive those funds. So that didn't exist. But if that existed, that would
+
+39
+00:03:07,760 --> 00:03:12,320
+actually like create order of magnitude improvement and what exists today in payment processing,
+
+40
+00:03:12,320 --> 00:03:17,040
+which is you swipe a card and takes three, four or five days for the merchant to get the money.
+
+41
+00:03:17,600 --> 00:03:21,200
+So I was like, okay, someone should build this. We'll build it in-house built it in-house. And
+
+42
+00:03:21,200 --> 00:03:24,400
+then people started asking us like, hey, who's like your infrastructure under the hood?
+
+43
+00:03:24,400 --> 00:03:28,080
+And immediately we're like, okay, I've seen this writing on the wall like I've seen this before
+
+44
+00:03:28,080 --> 00:03:32,400
+because the other startup I was at became a new corn. It started as a neo bank that created their
+
+45
+00:03:32,400 --> 00:03:36,080
+own loan iteration software and banks started asking for it. I was like, okay, this is great.
+
+46
+00:03:36,080 --> 00:03:39,600
+Like I've seen this before people are asking for this product. We don't have it.
+
+47
+00:03:39,600 --> 00:03:44,880
+Let's totally spin this out. And my background is building this. So yeah, we built it TLDR built
+
+48
+00:03:44,880 --> 00:03:49,360
+out of self need, but like going down the rabbit hole, like that self need, we understood the market
+
+49
+00:03:49,360 --> 00:03:54,400
+and like the general gap for it and decided to dive into it. And since then, it's just like
+
+50
+00:03:55,200 --> 00:04:00,720
+more and more revelations of like how deeply the system is broken and leaving us like for tons of
+
+51
+00:04:00,720 --> 00:04:07,280
+room of innovation. You touched on this, but what actually happens with a card payment today?
+
+52
+00:04:07,280 --> 00:04:08,000
+Let's start there.
+
+53
+00:04:08,800 --> 00:04:12,240
+Yeah. I mean, at a super high level, there's like a few different players.
+
+54
+00:04:12,240 --> 00:04:17,920
+There's a card network. So your Visa, MasterCard, Amex, Discover, et cetera, your merchant. So the
+
+55
+00:04:17,920 --> 00:04:24,480
+person that, hey, you were a consumer buying something from there is the issuer. So the person
+
+56
+00:04:24,480 --> 00:04:28,560
+that issues the card to the consumer that swipes your card. And then on the other side of that,
+
+57
+00:04:28,560 --> 00:04:32,800
+for the merchant, there's a payment service provider, someone like CoinFlow and oftentimes
+
+58
+00:04:32,800 --> 00:04:37,760
+an acquiring bank. So someone that helps underwrite and communicate to the card networks.
+
+59
+00:04:38,320 --> 00:04:43,680
+All those parties have to communicate. And what's gotten really good in terms of user
+
+60
+00:04:43,680 --> 00:04:48,800
+experience is people swiping the cards. Like the consumer has no issues with that, right?
+
+61
+00:04:48,800 --> 00:04:54,080
+You swipe your card, you see right away that the payment's authorized. So the payment service
+
+62
+00:04:54,080 --> 00:04:58,560
+provider helps the merchant capture that payment. So within seconds, you know, like, hey, why it has,
+
+63
+00:04:58,560 --> 00:05:02,880
+or whoever the user is, has money in their accounts and it's going to be good.
+
+64
+00:05:02,880 --> 00:05:07,280
+And it will eventually get to the merchants after that step. So like after it says, hey, money is
+
+65
+00:05:07,280 --> 00:05:12,720
+there, you're good to go. That's where the money starts moving between all those counterparties.
+
+66
+00:05:12,720 --> 00:05:17,200
+And things happen very, very, very slowly. So that's where really like the core of it
+
+67
+00:05:17,200 --> 00:05:23,040
+is. And a lot of the, I would say, industry and innovation has happened on the front end,
+
+68
+00:05:23,040 --> 00:05:26,560
+making sure that it's like super easy for you, the end user to spend your money.
+
+69
+00:05:27,120 --> 00:05:32,080
+And even in post-fact, spending your money, like you're insured, like if something goes wrong,
+
+70
+00:05:32,080 --> 00:05:36,400
+you can call to the bank and say, hey, like I was buying an ice cream cone from Dan.
+
+71
+00:05:36,400 --> 00:05:40,160
+He promised me vanilla, gave me chocolate. Like I should get a refund.
+
+72
+00:05:40,160 --> 00:05:45,840
+So that whole process is like very smooth and I would say more or less solved. But for the
+
+73
+00:05:45,840 --> 00:05:50,480
+businesses, like when I sold you that ice cream cone in this hypothetical instance, it took me
+
+74
+00:05:50,480 --> 00:05:55,840
+three days to get my money because what happens as soon as it's authorized, then the issuer
+
+75
+00:05:56,560 --> 00:06:00,880
+gets pulled their funds, which is the person in the bank that issued your card. They get their
+
+76
+00:06:00,880 --> 00:06:05,280
+money pulled. The card network is the middleman. They give it to the acquiring bank and the
+
+77
+00:06:05,280 --> 00:06:08,480
+acquiring bank has to send it to the payment service provider, payment service provider,
+
+78
+00:06:08,480 --> 00:06:13,040
+so it will release those funds to the merchant. And all those are on traditional banking rails.
+
+79
+00:06:13,840 --> 00:06:17,360
+And if you're doing that transaction globally, then it's like via the SWIFT network, which
+
+80
+00:06:17,360 --> 00:06:22,640
+adds counterparty banks. And if there's one bank holiday in one country or one delay somewhere,
+
+81
+00:06:22,640 --> 00:06:26,960
+then like that whole food chain can slow down. So until we are.
+
+82
+00:06:26,960 --> 00:06:31,840
+Yeah, it's like a system that's been built for comfort for the end user with a host of structural
+
+83
+00:06:31,840 --> 00:06:36,560
+debt underneath. That's a very good summary. Exactly. It's been built for the consumer,
+
+84
+00:06:36,560 --> 00:06:41,920
+the ton of structural debt, but it works for them. So like the average person is not complaining.
+
+85
+00:06:41,920 --> 00:06:46,320
+Right. And it's funny because one of the pushbacks I get on stable coins, particularly in the US,
+
+86
+00:06:46,320 --> 00:06:50,800
+is people will say, oh, my card network or my card payments works very well. Like I don't have any
+
+87
+00:06:50,800 --> 00:06:55,520
+issues. And it's this point that it's built to suit that person, but maybe not the vendor or maybe
+
+88
+00:06:55,520 --> 00:07:01,520
+not someone else who's involved in that chain. Yeah, totally. Like I use stable coins in business,
+
+89
+00:07:01,520 --> 00:07:07,280
+obviously, every day. And our company uses it 100,000 times a day in transactions. But as an end
+
+90
+00:07:07,280 --> 00:07:12,960
+user, I use my card in order of magnitude more. I think that's like because of the rewards,
+
+91
+00:07:12,960 --> 00:07:17,920
+everything else we get with it. So I totally get that. I don't know if stable coins will fully
+
+92
+00:07:18,480 --> 00:07:22,880
+replace... I don't want to go down this rabbit hole, but as of right now, there's no stable coin
+
+93
+00:07:22,880 --> 00:07:27,680
+product that means the end user would rather use my credit card for day-to-day purchases.
+
+94
+00:07:27,680 --> 00:07:33,360
+But if I'm buying something that cards can't accept, so like a high ticket item, I'm paying
+
+95
+00:07:33,360 --> 00:07:39,440
+my rent, I'd much rather do that via a stable coin. I think rent payments are like a mortgage
+
+96
+00:07:39,440 --> 00:07:43,840
+or a card payment, something like that that's larger that someone won't accept a credit card
+
+97
+00:07:43,840 --> 00:07:48,800
+for. That makes sense with stable coins. So I totally get where your friends or people are
+
+98
+00:07:48,800 --> 00:07:56,400
+coming from. So how does CoinFlow's workflow compare to the traditional payments networks
+
+99
+00:07:56,400 --> 00:08:01,920
+that you mentioned? Yeah, so in that process, let's just go back to that ice cream shop example.
+
+100
+00:08:01,920 --> 00:08:06,320
+I own an ice cream shop. I sell you ice cream cone. In that traditional example, let's say we're using
+
+101
+00:08:06,960 --> 00:08:11,440
+like a legacy provider, let's call it like Stripe. As soon as you swipe your card and it says,
+
+102
+00:08:11,440 --> 00:08:16,960
+hey, authorized ice cream cone, and I give you the ice cream cone, then it takes Stripe has to
+
+103
+00:08:16,960 --> 00:08:20,560
+release those funds. Once they get it, let's say they get it instantly from their bank,
+
+104
+00:08:20,560 --> 00:08:24,560
+which is impossible. Let's say they do. They still have to release those funds to me, the ice cream
+
+105
+00:08:24,560 --> 00:08:31,120
+owner and some type of bank payments. Let's call that ACH because that's most banks, not all banks
+
+106
+00:08:31,120 --> 00:08:35,760
+take real-time payments. It's going to be ACH. That takes one to three business days. It's Tuesday,
+
+107
+00:08:36,080 --> 00:08:42,960
+quick guess, I'll get my money on Wednesday evening, but likely Friday. That's like if I'm
+
+108
+00:08:42,960 --> 00:08:48,320
+the ice cream shop owner using Stripe. I'll get my money one to three days from when you paid.
+
+109
+00:08:49,040 --> 00:08:52,480
+CoinFlow, what we do as soon as you swipe your card, we get that authorization
+
+110
+00:08:52,480 --> 00:08:56,560
+because we know the money is coming from the card networks. We trust Visa will give us the money
+
+111
+00:08:56,560 --> 00:09:02,720
+they're legally obligated to. As soon as the card swipe happens, we instantly settle funds
+
+112
+00:09:02,720 --> 00:09:07,040
+to the ice cream shop's owner in their digital wallet via stable coins. It looks like a bank
+
+113
+00:09:07,040 --> 00:09:13,280
+dashboard where they have money in their wallet. It says US dollars. Then if they hit withdraw,
+
+114
+00:09:13,280 --> 00:09:17,600
+if they want to move it to their bank account, we can then instantly pay out to that bank account
+
+115
+00:09:17,600 --> 00:09:21,760
+or do it through that same bank payout method. It's there instantly. It can be used. We can
+
+116
+00:09:21,760 --> 00:09:26,720
+attach a credit card into the spend. It can be sent cross-border. It can be done with whatever,
+
+117
+00:09:26,720 --> 00:09:30,080
+if they send it to another vendor, whatever it is. That's the difference. Instead of waiting
+
+118
+00:09:31,040 --> 00:09:33,840
+one to three business days, they get their money in five seconds.
+
+119
+00:09:34,560 --> 00:09:40,480
+Are you guys funding that leg off of your balance sheet or do you have access to a line of credit
+
+120
+00:09:40,480 --> 00:09:45,600
+or how do you ensure that you can maintain that instant settlement when you might have times where
+
+121
+00:09:45,600 --> 00:09:50,960
+there's a lot of flow coming in? Yeah, a little bit of all the above. Some of it is balance sheet
+
+122
+00:09:50,960 --> 00:09:58,000
+capital. Some of it is partner capital. Then a lot of it is payouts as well. We get tons of payouts
+
+123
+00:09:58,000 --> 00:10:02,480
+of people like, hey, I actually don't need my money for three days. So I'm going to choose a
+
+124
+00:10:02,480 --> 00:10:08,080
+cheaper payout option. I think yesterday we had like a $10 million, I think ACH of wire and they're
+
+125
+00:10:08,080 --> 00:10:13,840
+like, yeah, we need to get the funds on Friday. So that goes into our liquidity engine and that
+
+126
+00:10:13,840 --> 00:10:18,400
+ice cream shop owner can leverage that. That goes into play as well. A little bit of all above.
+
+127
+00:10:18,400 --> 00:10:22,720
+And then the cool thing is that we are starting to get settlements from acquiring banks, none of the
+
+128
+00:10:22,720 --> 00:10:27,200
+U.S. have been in Europe via stablecoins five days a week and Visa is rolling that out seven days
+
+129
+00:10:27,200 --> 00:10:32,080
+a week. So yeah, not only is it structurally an issue that payment service providers can't
+
+130
+00:10:32,080 --> 00:10:37,360
+give their merchants funds 24-7-365, but the card networks don't actually have ways to access,
+
+131
+00:10:38,000 --> 00:10:41,760
+send their payment service providers a coin flow. Let's say this was, let's go back to the
+
+132
+00:10:41,760 --> 00:10:47,040
+Stripe example. If Visa wanted to settle faster, they actually couldn't. We're aware right now
+
+133
+00:10:47,040 --> 00:10:51,920
+without stablecoins. So Visa and other card networks are rolling out pilots and yeah,
+
+134
+00:10:51,920 --> 00:10:56,160
+we're starting to settle, get those funds seven days a week. It's not going to be T plus five
+
+135
+00:10:56,160 --> 00:11:00,800
+seconds like coin flow does it, but that window on like fronting it goes down. So there's definitely
+
+136
+00:11:00,800 --> 00:11:06,720
+some man behind the curtain going on that we're solving for with both like financial products,
+
+137
+00:11:06,720 --> 00:11:13,200
+balance sheet, our own liquidity engine. But it's cool to see that gap diminish. And we have all the
+
+138
+00:11:13,200 --> 00:11:17,760
+infrastructure and technology to manage those different ledgers because you're managing an
+
+139
+00:11:17,760 --> 00:11:22,560
+instant ledger, which is the blockchain with traditional rails. So you're connecting those
+
+140
+00:11:22,560 --> 00:11:26,560
+two together, not only moving money between them, but like connecting those two ledgers and marrying
+
+141
+00:11:26,560 --> 00:11:31,840
+them together, which you've all done in-house in the like battle test out scale. And maybe
+
+142
+00:11:31,840 --> 00:11:37,200
+stating the obvious, your guy's job would become much easier if initial payments actually started
+
+143
+00:11:37,200 --> 00:11:42,080
+to become made in stablecoins because then you just become an orchestrator of stablecoins to
+
+144
+00:11:42,080 --> 00:11:45,760
+whoever the end recipient is or the middleman that you need to route to, correct?
+
+145
+00:11:46,640 --> 00:11:50,800
+Yeah, that's right. Like we take in the stablecoin payments today. I don't know if much easier. It's
+
+146
+00:11:50,800 --> 00:11:55,280
+just a little bit different. Like we orchestrate between a bunch of different payment methods.
+
+147
+00:11:56,000 --> 00:12:02,560
+And in no world is there going to be like one payment acceptance winner of some type of method,
+
+148
+00:12:02,560 --> 00:12:08,800
+right? Like today, even for example, we have merchants who do 95% of their volume in credit
+
+149
+00:12:08,800 --> 00:12:13,280
+cards, but they still have like 3% acceptance in bank payments and then like 2% acceptance
+
+150
+00:12:14,000 --> 00:12:19,440
+in stablecoins or evidence. And even though like in my mind, bank payments is a way should your
+
+151
+00:12:19,440 --> 00:12:25,440
+options pay for like, I don't know, this is a red bull, like to buy a red bull, right? But if 3% of
+
+152
+00:12:25,440 --> 00:12:30,720
+your users want to do it, you're not going to be like, oh no, screw 3% of my revenue. I'm not going
+
+153
+00:12:30,720 --> 00:12:37,200
+to accept it. So the job of people at CoinFlow is going to be accept a larger amount of payment
+
+154
+00:12:37,200 --> 00:12:44,000
+options and continue to drive the speed of settlement down to closest instant. So I think
+
+155
+00:12:44,000 --> 00:12:49,680
+that's why like stablecoins, I'm so bullish as an infrastructure play, because it's really the only
+
+156
+00:12:49,680 --> 00:12:56,320
+way to connect all these very disparate systems and get as close to real time as possible for
+
+157
+00:12:56,320 --> 00:13:01,360
+settlement. I'm a believer that over time we'll have more rather than less payment methods too.
+
+158
+00:13:01,920 --> 00:13:06,560
+When a lot of these software companies become fintechs at the same time and you have money
+
+159
+00:13:06,560 --> 00:13:11,920
+accounts associated with a lot of them and you'll probably have a rise of more digital banks,
+
+160
+00:13:11,920 --> 00:13:14,880
+curious for your perspective, but that's the way I see things going.
+
+161
+00:13:14,880 --> 00:13:19,600
+A hundred percent. There's more and more payment networks. So like, yeah, I guess like that digital
+
+162
+00:13:19,600 --> 00:13:24,640
+bank example you called out or apps that become like more fintech that you can pay with those
+
+163
+00:13:24,640 --> 00:13:29,760
+balances. See, I think there's going to be more and more payment networks, both crypto networks,
+
+164
+00:13:29,760 --> 00:13:34,800
+traditional fintech network, et cetera. But there needs to be a way to like interoperate them,
+
+165
+00:13:34,800 --> 00:13:40,000
+because the goal of if you have money in an account, those people want to monetize in those
+
+166
+00:13:40,000 --> 00:13:44,960
+balances. And the only way to monetize on them is one, keep them in there or to like allow them to
+
+167
+00:13:44,960 --> 00:13:48,880
+spend those balances. So if they spend those balances, they need a way to transact. And like
+
+168
+00:13:49,440 --> 00:13:53,680
+the only way to do that easily globally is either through like issuing a card off that balance
+
+169
+00:13:54,240 --> 00:14:00,240
+or to making a stablecoin of your transfer. So you touched on payouts and we've talked about
+
+170
+00:14:00,240 --> 00:14:07,680
+payments acceptance. Could you highlight CoinFlow's range of offerings and at the same time
+
+171
+00:14:08,720 --> 00:14:13,280
+where you guys have gone based on where you see gaps in offerings from Stripe,
+
+172
+00:14:13,280 --> 00:14:16,960
+Adyen, Shift4 and larger existing payments players?
+
+173
+00:14:17,760 --> 00:14:21,600
+Yeah, for sure. I would say there's like two main products. One is like allowing
+
+174
+00:14:21,600 --> 00:14:25,840
+our merchants to accept payments globally and instantly receive funds instead of waiting
+
+175
+00:14:25,840 --> 00:14:30,720
+buckle days. So like all those people you said, at least one, two business days to get your money,
+
+176
+00:14:30,720 --> 00:14:36,640
+we do in five seconds. And then also none of them help you like get rid of fraud. They help you
+
+177
+00:14:36,640 --> 00:14:40,560
+prevent some of the fraud. The difference between CoinFlow is like we'll eat all the chargeback
+
+178
+00:14:40,560 --> 00:14:45,440
+risk. So the value prop is like, hey, get your money instantly and don't lose any money to fraud.
+
+179
+00:14:46,160 --> 00:14:50,240
+So that's what the payment acceptance side. But once you get your money, a lot of businesses,
+
+180
+00:14:51,040 --> 00:14:55,440
+marketplaces, remittance companies, gaming companies, crypto exchanges,
+
+181
+00:14:55,440 --> 00:15:00,560
+anything that has a consumers that need to cash out, fintechs, etc. will not only receive money
+
+182
+00:15:00,560 --> 00:15:05,440
+from users but need to pay out to their end users. So there's a payout component and that's other
+
+183
+00:15:05,440 --> 00:15:10,800
+products. We have that in like 70 plus countries. I would say the biggest gap that we've seen in the
+
+184
+00:15:10,800 --> 00:15:16,960
+market is combining those two products together. So when all those types of companies like especially
+
+185
+00:15:16,960 --> 00:15:22,400
+marketplaces where you have, let's say that ice cream shop example, let's say there is,
+
+186
+00:15:23,200 --> 00:15:26,960
+I don't know, digital marketplace for ice cream shops and you can buy these gift cards.
+
+187
+00:15:26,960 --> 00:15:31,680
+Now I'm the marketplace and I have all these sellers on my site. You're buying stuff from them.
+
+188
+00:15:31,680 --> 00:15:37,040
+So not only do I have end users consuming and spending, you also need to go pay out these ice
+
+189
+00:15:37,040 --> 00:15:42,080
+cream shop owners and they can be globally. So I think connecting those two products between
+
+190
+00:15:42,080 --> 00:15:48,000
+ledgering, holding funds on platform, which is very easy to like digital wallets, fraud, etc.
+
+191
+00:15:48,000 --> 00:15:52,000
+That's probably the biggest gap we've seen in the market. And then there's just a lot of payout gaps
+
+192
+00:15:52,960 --> 00:15:58,720
+because of how pre-funding works. So connecting stablecoins to that has been like a huge,
+
+193
+00:15:58,720 --> 00:16:05,520
+huge win. I'll give you an example. So like say you are a business in the US and you need to pay out
+
+194
+00:16:06,320 --> 00:16:11,440
+suppliers over the weekend or whatever it may be. You can pay people out through Visa Direct. If
+
+195
+00:16:11,440 --> 00:16:16,240
+there's small purchases up to 50 grand Visa Direct. So you enter your debit card and get paid out
+
+196
+00:16:16,240 --> 00:16:21,600
+or real-time payment network. But to get there, you actually pre-fund the bank account to be a
+
+197
+00:16:21,600 --> 00:16:26,480
+buyer. So like before 5 p.m. on Friday. So if you don't get your wire in like 2 p.m. on Friday,
+
+198
+00:16:26,480 --> 00:16:29,600
+you actually can't use a real-time payment network. So it's kind of contradicting.
+
+199
+00:16:30,480 --> 00:16:35,200
+Let's say you don't get your wire in, but you send stablecoins to us. That's still a proof of good
+
+200
+00:16:35,200 --> 00:16:41,040
+funds. We know that money's there and then we can burn those funds and then pay off from that
+
+201
+00:16:41,040 --> 00:16:46,800
+balance over the weekend. So this like pre-funding dilemma has more or less been solved if you can
+
+202
+00:16:46,800 --> 00:16:51,840
+use stablecoins for payouts. So that's another big gap. I think the biggest gap is still that like
+
+203
+00:16:52,800 --> 00:16:57,440
+connecting the pay in and payout piece and making both instance. People have done a good job of
+
+204
+00:16:57,440 --> 00:17:03,680
+making like the payout piece instant by pre-funding, but it's not like all that instant if you have to
+
+205
+00:17:03,680 --> 00:17:06,880
+use your own balance sheet or somehow figure out a way to pre-fund before bank hour close.
+
+206
+00:17:07,520 --> 00:17:10,800
+Yeah, definitely. That example is helpful. It makes a lot of sense.
+
+207
+00:17:11,360 --> 00:17:17,760
+You touched on the fraud piece. I think that's easy to overlook. How do you guys eat the risk
+
+208
+00:17:17,760 --> 00:17:22,400
+of fraud? That seems very attractive if I were a vendor, for example.
+
+209
+00:17:23,040 --> 00:17:28,960
+Yeah, no, it definitely is. So the play really is like it's an AI model and it's mixed between like
+
+210
+00:17:28,960 --> 00:17:34,480
+insurance and a fraud model. It's going more and more towards like the fraud model and insurance is
+
+211
+00:17:34,480 --> 00:17:40,240
+like making sure that we can cover it fully. The fraud model has like 100,000 variables
+
+212
+00:17:40,240 --> 00:17:45,040
+and it's an AI model. So it continuously learns as fraud attacks happen. Fraud is like a cat and mouse
+
+213
+00:17:45,040 --> 00:17:50,800
+game where like you find the problem, you stomp it and then like they come back like whatever
+
+214
+00:17:50,800 --> 00:17:55,520
+interval, hopefully in months or years later, but they keep finding new routes. And that's why like
+
+215
+00:17:55,520 --> 00:18:01,840
+the AI is so helpful because if you have a deterministic model, so for example, like what
+
+216
+00:18:01,840 --> 00:18:10,480
+that means is, hey, Wyatt is a fraudster and he is figuring out that I'm the ice cream shop owner
+
+217
+00:18:10,480 --> 00:18:15,040
+and if I buy a $500 ice cream cone or more, we actually don't do any checks because we think
+
+218
+00:18:15,040 --> 00:18:19,440
+that's like a VIP customer. They want gold sprinkled in the ice cream cone and that's like super low
+
+219
+00:18:19,440 --> 00:18:25,040
+risk to us. So say you as Wyatt the fraudster figure that out and only buy gold sprinkled ice cream
+
+220
+00:18:25,040 --> 00:18:30,160
+cones now. Me as an ice cream shop owner in like two or three weeks, I get those chargebacks.
+
+221
+00:18:30,160 --> 00:18:34,800
+I'll figure out like, oh, hey, like maybe we actually shouldn't allow people to buy $500
+
+222
+00:18:34,800 --> 00:18:41,200
+ice cream cones or do like really strong KYC, make Wyatt tell us his kid's first name,
+
+223
+00:18:41,760 --> 00:18:46,480
+do an eyeball scan, which is going to kill conversion. So that's why these deterministic
+
+224
+00:18:46,480 --> 00:18:50,800
+models don't really work because like, sure, you can stop it. You can find out what's happening,
+
+225
+00:18:50,800 --> 00:18:56,240
+duct tape it. But when you duct tape it, you actually kill real users. But these AI models
+
+226
+00:18:56,240 --> 00:19:01,520
+will learn really quickly. Okay, like we used to only sell one gold plated ice cream cone a month.
+
+227
+00:19:01,520 --> 00:19:06,240
+We sold 10 today. Like what is going on? And the model will learn, hey, saying this is suspicious
+
+228
+00:19:06,240 --> 00:19:11,840
+activity. Let's stop it. The other beauty is unlike the blockchain and what the car networks
+
+229
+00:19:11,840 --> 00:19:17,200
+are starting to embrace and at least these have put in the rules is something like proof of
+
+230
+00:19:17,200 --> 00:19:21,120
+deliverability. So in the ice cream example, it doesn't really work well because it's a physical
+
+231
+00:19:21,120 --> 00:19:26,720
+good. Well, let's just say like a digital good, a Fortnite skin is a good example. If you were
+
+232
+00:19:26,720 --> 00:19:31,760
+dispute right now in Fortnite, like, hey, I didn't get my skin. There's really no good way for the
+
+233
+00:19:31,760 --> 00:19:36,320
+car network to have insight into if that good was delivered to you because it's a digital good.
+
+234
+00:19:36,320 --> 00:19:42,000
+How that good is delivered is a switch in for nice database, like saying, hey, why it's a count?
+
+235
+00:19:42,000 --> 00:19:48,000
+Why is the beast now has the dragon skin? Very, very hard to prove because like Fortnite,
+
+236
+00:19:48,000 --> 00:19:52,320
+it's not going to be like, hey, here we say, here's my database keys. Go see this. I'll just
+
+237
+00:19:52,320 --> 00:19:57,920
+show like an email. It can be altered. It's not very good. It doesn't win with blockchain.
+
+238
+00:19:57,920 --> 00:20:02,480
+Everyone can see it, including the PSP that the item was delivered right away if it's shown on
+
+239
+00:20:02,480 --> 00:20:07,280
+chain. So you can actually see the transaction happen like, hey, why I paid with the card funds
+
+240
+00:20:07,280 --> 00:20:10,800
+were sold to the merchant and that same transaction that skin was released.
+
+241
+00:20:11,600 --> 00:20:15,760
+That transaction can be attached to the payment to visa while a transaction happens.
+
+242
+00:20:15,760 --> 00:20:20,480
+So if a dispute then later happens, we can be like, hey, no, why saying he never got this?
+
+243
+00:20:21,360 --> 00:20:27,200
+Look, look, visa, look, bank that was actually given. So that's still like very early days.
+
+244
+00:20:27,200 --> 00:20:31,920
+But for a lot of use cases, there's like the digital goods. It works very well. It even works
+
+245
+00:20:31,920 --> 00:20:35,520
+better for things like remittance or when people are popping up into accounts,
+
+246
+00:20:36,080 --> 00:20:40,640
+for example, like adding money to an exchange. Very hard to argue if you have a wallet
+
+247
+00:20:41,360 --> 00:20:45,040
+that has received sample coins that you didn't actually get those sample coins.
+
+248
+00:20:45,040 --> 00:20:50,480
+It's very easy to prove in a matter of seconds and you can tie it to that exact transaction.
+
+249
+00:20:50,480 --> 00:20:55,200
+So there's a ton of innovation happening there behind the scenes, which isn't like talked about
+
+250
+00:20:55,200 --> 00:20:58,960
+because one, it's early and it's not sexy. But I read something the other day that like a
+
+251
+00:20:58,960 --> 00:21:03,680
+hundred billion dollars of losses happened to merchants last year just by friendly fraud.
+
+252
+00:21:03,680 --> 00:21:07,520
+What that means is like people know that if they call our bank and complain
+
+253
+00:21:08,080 --> 00:21:12,400
+that something wasn't right with the thing they bought, the bank will likely sound at them,
+
+254
+00:21:12,400 --> 00:21:17,440
+which is called friendly fraud. Even though that, hey, like this red bull tasted funny,
+
+255
+00:21:18,080 --> 00:21:22,160
+the bank will probably honor that. And now the merchant has a chargeback.
+
+256
+00:21:23,040 --> 00:21:28,320
+And I, as a consumer, just got my like $5 back for this red bull. So yeah, there's a lot of
+
+257
+00:21:28,320 --> 00:21:35,280
+innovation happening there and I'm excited to see. I think it will like definitely be a sleeper to
+
+258
+00:21:35,280 --> 00:21:39,440
+look for in the next few years. Yeah. I mean, from my perspective, there are
+
+259
+00:21:40,240 --> 00:21:45,920
+just multiple layers of compensation and issues happening. Like the banks are willing to eat that
+
+260
+00:21:45,920 --> 00:21:50,960
+because they get to keep essentially all of the interest or whatever they're making on your
+
+261
+00:21:50,960 --> 00:21:54,640
+deposits and that business is too good. So they'll pay you back for your red bull. But
+
+262
+00:21:55,280 --> 00:22:01,120
+realistically, then in a way it becomes the end merchant losing, which is a messed up system. So
+
+263
+00:22:01,840 --> 00:22:06,560
+there's a lot to be fixed. A single ledger to your point is very attractive, I think,
+
+264
+00:22:06,560 --> 00:22:12,720
+when it comes to tracking something like fraud. Have you guys built your fraud engine in-house
+
+265
+00:22:12,720 --> 00:22:17,120
+or what are you using? Yeah, I would say our fraud engine is in-house
+
+266
+00:22:17,680 --> 00:22:21,200
+and then like any other fintech, we've bundled like 10 different providers.
+
+267
+00:22:21,840 --> 00:22:27,520
+See, we have a bunch of different providers, whether we're using even like some AI models,
+
+268
+00:22:27,520 --> 00:22:32,320
+we have Gemini, we have another platform that has their own AI model called insure.ai.
+
+269
+00:22:32,320 --> 00:22:37,040
+We use them for part of the insurance. We have our own engine that plugs into all these things
+
+270
+00:22:37,040 --> 00:22:44,480
+and calculates the risk of fraud. Plus a lot of it is like data orchestration to feed into these
+
+271
+00:22:44,480 --> 00:22:50,400
+models. So yeah, I think most things in fintech are built as close to the rails as possible.
+
+272
+00:22:50,400 --> 00:22:56,000
+And like orchestrated together without end users knowing anything's there. It just works.
+
+273
+00:22:56,720 --> 00:23:01,520
+In the backdrop of some innovation, similar to what we've been talking about, where you're having
+
+274
+00:23:01,520 --> 00:23:09,440
+more pay with crypto cards, pay with stocks, pay with treasuries type payment cards. Do you think
+
+275
+00:23:09,440 --> 00:23:17,040
+the fraud tooling and infrastructure anti-fraud mechanisms are getting better? Are you seeing
+
+276
+00:23:17,040 --> 00:23:22,560
+interesting innovation on that front, especially when it comes to more on-chain assets,
+
+277
+00:23:22,560 --> 00:23:27,920
+more assets of different types, et cetera? I would say they're getting better. Nothing has
+
+278
+00:23:27,920 --> 00:23:34,320
+been fully cracked yet. And I think it's because it's so early and only in the last year or two
+
+279
+00:23:34,320 --> 00:23:39,440
+have been like a new wave of companies building and innovating just generally around the stable
+
+280
+00:23:39,440 --> 00:23:44,880
+coin space. There's market leaders like Coinbase, Circle, Altair, there's been people doing it.
+
+281
+00:23:45,520 --> 00:23:52,640
+But now we have hundreds of companies. And when you're a market leader like Coinbase, Tether,
+
+282
+00:23:53,520 --> 00:23:58,560
+whatever, Circle, you all have your own fraud teams. Sure, you need this infrastructure,
+
+283
+00:23:58,560 --> 00:24:01,440
+but at some point you're like, this doesn't exist. We're just going to have our own team
+
+284
+00:24:01,440 --> 00:24:06,480
+building internally. But when there's hundreds of thousands of companies, technology, every company
+
+285
+00:24:06,480 --> 00:24:11,520
+can't just have their own fraud team, figure it out. You want to use infrastructure providers
+
+286
+00:24:11,520 --> 00:24:15,280
+or at least supplement it. So I think that's where the innovation stemming of like, okay,
+
+287
+00:24:15,280 --> 00:24:20,560
+now there is a bunch of demand for people to build this type of apps or infrastructure,
+
+288
+00:24:20,560 --> 00:24:23,760
+and then there'll be other infrastructure to support it. So that's what we're seeing here.
+
+289
+00:24:23,760 --> 00:24:29,520
+I think it's still pretty early days though. Do that make sense? And it seems like over time,
+
+290
+00:24:29,520 --> 00:24:34,400
+regardless, these more complex types of transactions like global are going to be more
+
+291
+00:24:34,400 --> 00:24:40,240
+advantaged. I was curious to ask you in that vein, how much of what you guys do is US to non-US or
+
+292
+00:24:40,240 --> 00:24:48,560
+non-US to US versus domestic? Yeah, I think we're probably in a very unique spot in terms of most
+
+293
+00:24:48,560 --> 00:24:54,320
+stable coin companies, quote unquote, right? Most of our volume is US, probably at least 75% is like
+
+294
+00:24:54,320 --> 00:25:03,360
+both pans and pads are domestic. And it just shows because like, our banking rails are so archaic
+
+295
+00:25:03,440 --> 00:25:10,160
+and so slow that, yeah, speeding up payments using a better rail in between is the example.
+
+296
+00:25:10,160 --> 00:25:15,520
+I think like the best example is our biggest category now is marketplaces. So when there's
+
+297
+00:25:16,080 --> 00:25:19,200
+a merchant is the marketplace and there's buyers and sellers on both sides.
+
+298
+00:25:19,200 --> 00:25:22,080
+This is for digital goods or real goods or could be either?
+
+299
+00:25:22,080 --> 00:25:26,400
+It can be anything. It can be anything. I think the issue with these companies right now is
+
+300
+00:25:27,280 --> 00:25:33,760
+the money movement is very slow. And you tell any marketplace, like I got my haircut this week
+
+301
+00:25:33,760 --> 00:25:38,160
+and I use the marketplace called Squire. It's a place for barbers. So my barber,
+
+302
+00:25:38,160 --> 00:25:44,320
+instead of like setting up a Stripe account, managing taxes, managing like the booking,
+
+303
+00:25:44,320 --> 00:25:48,400
+Squire does that. Squire is a marketplace and all the barbers have to do is go sign in.
+
+304
+00:25:48,400 --> 00:25:52,720
+He enters the dates and you can pay there. You can do everything there.
+
+305
+00:25:52,720 --> 00:25:58,240
+On Squire, they use Stripe. My barber gives me a haircut on Friday. I pay via Stripe. He
+
+306
+00:25:58,240 --> 00:26:03,360
+gives his money Tuesday. I asked that same barber like, hey, would you want to get paid today?
+
+307
+00:26:03,360 --> 00:26:07,520
+His answer is going to be like, yes, I want to get paid today. My girlfriend,
+
+308
+00:26:07,520 --> 00:26:11,600
+my friends want to get drinks. I would love to use the money I made today from your tip
+
+309
+00:26:11,600 --> 00:26:16,480
+to go buy everyone drinks. Can't happen, right? Coincidentally, Stripe most of their volume,
+
+310
+00:26:16,480 --> 00:26:21,200
+I think 70% of their volume or something, 60 to 75. I don't know exact numbers. Majority
+
+311
+00:26:21,200 --> 00:26:25,440
+comes from their marketplace product. So you can think about this as like everyone who's selling
+
+312
+00:26:25,440 --> 00:26:30,800
+an item through that marketplace is like, hey, I want to get my money faster and they can't.
+
+313
+00:26:30,800 --> 00:26:34,640
+And that's all domestic. Like my barber is domestic, et cetera. And that's Stripe's volumes,
+
+314
+00:26:34,640 --> 00:26:41,520
+mainly domestic too. So the long story is most of volumes US, unlike most stable coin companies,
+
+315
+00:26:41,520 --> 00:26:45,440
+but there's still huge things that are broken in very large industries like marketplaces
+
+316
+00:26:46,080 --> 00:26:51,120
+in the US that just having a stable coin in the back end can make way more efficient.
+
+317
+00:26:51,920 --> 00:26:58,560
+In that example, do you think the cost of delivering a free payment will come down
+
+318
+00:26:58,560 --> 00:27:04,320
+to zero or an instant payment, I should say? Or do you think that there will be some kind
+
+319
+00:27:04,320 --> 00:27:09,600
+of a credit market there where you're paying some rate in order to get instant payments versus
+
+320
+00:27:09,600 --> 00:27:14,560
+whatever would be a two, three day latency? I don't think it'll go to zero because it
+
+321
+00:27:14,560 --> 00:27:19,200
+doesn't need to go to zero. Consumers are willing to pay a lot, like right now, a lot of money for
+
+322
+00:27:19,200 --> 00:27:24,960
+it, right? I don't know what the average rate to borrow is right now, but it's 8% for a year-ish,
+
+323
+00:27:24,960 --> 00:27:29,440
+right? Even if you're a small business, yeah. Let's call it 8 to 10, right? Let's call it 10
+
+324
+00:27:29,440 --> 00:27:37,680
+high side. Consumers are paying like 200 basis points, 2% to get one payment instantly from Venmo,
+
+325
+00:27:38,720 --> 00:27:43,760
+Coinbase, Cash App, et cetera. And most people on Venmo are doing the instant payments,
+
+326
+00:27:43,760 --> 00:27:49,760
+that's in the US. So every time they receive a payment, that's 2%. So that one payment that
+
+327
+00:27:49,760 --> 00:27:56,000
+they just paid for instant payment is 25% of the cost of capital to take that as a business for a
+
+328
+00:27:56,000 --> 00:28:01,760
+year. So you can think about how many times that could get recycled. And sure, it might be cheaper,
+
+329
+00:28:01,760 --> 00:28:06,560
+but it won't go to zero because people are just willing to pay for it. And if it's marginally
+
+330
+00:28:06,560 --> 00:28:11,280
+more expensive, let's call it, instead of 2%, the majority of people on Venmo are willing to pay 2%,
+
+331
+00:28:12,240 --> 00:28:17,600
+let's cut it 90% and call it like 20 basis points. That's still a solid margin. And on the credit
+
+332
+00:28:17,600 --> 00:28:23,840
+market, that's still pretty good for one transaction. So I think there's like a lot of room to play with
+
+333
+00:28:23,840 --> 00:28:30,400
+even if it goes down 90%. Yeah, I completely agree. In the three years you've been working on
+
+334
+00:28:30,400 --> 00:28:36,800
+in this area, essentially, how has the environment around you changed, both from a perspective of
+
+335
+00:28:36,800 --> 00:28:42,480
+companies and regulatory attitudes? Yeah, I mean, companies, there wasn't many people
+
+336
+00:28:42,480 --> 00:28:48,160
+building this. It was all very crypto centric. I would say infrastructure was only being I mean,
+
+337
+00:28:48,160 --> 00:28:54,720
+people talked about like, letting non crypto customers use crypto rails. Since I've been in
+
+338
+00:28:54,720 --> 00:28:59,120
+crypto for the last like decade, like, oh, yeah, people are gonna use Bitcoin, people use this and
+
+339
+00:28:59,120 --> 00:29:04,480
+that same thing in stable coins. Like there was some, I think the 2020 bull market saw some of
+
+340
+00:29:04,480 --> 00:29:10,720
+that people come on chain, or businesses come on chain, primarily NFTs. And I think a lot of like
+
+341
+00:29:10,720 --> 00:29:15,360
+PR stunts, even ones that did wall got shut down, like DraftKings had an NFC marketplace that did
+
+342
+00:29:15,360 --> 00:29:20,000
+pretty well and they shut it down. Or it did really well relative to other NFC marketplace,
+
+343
+00:29:20,000 --> 00:29:24,240
+and they still shut it down. It probably didn't do as well as their actual business that makes
+
+344
+00:29:24,240 --> 00:29:29,040
+money. So there just wasn't many businesses servicing anything outside of crypto and crypto
+
+345
+00:29:29,040 --> 00:29:33,520
+was just really down. But I think there was like a cohort of believers of like, hey, like,
+
+346
+00:29:33,520 --> 00:29:39,440
+this core structure does work. And it's just a matter of time. And then between like the 2021
+
+347
+00:29:39,440 --> 00:29:44,400
+2022 bear market happened, or like bull market ended to a bear market. It was pretty crazy,
+
+348
+00:29:44,400 --> 00:29:47,840
+because most people that were building infrastructure were servicing crypto companies,
+
+349
+00:29:47,840 --> 00:29:54,960
+a number of crypto companies went down. So like, your core ICP shrunk. And then not only that
+
+350
+00:29:54,960 --> 00:30:00,160
+happened, but regulatory environment got more hostile. So if you're building in something
+
+351
+00:30:00,160 --> 00:30:05,920
+that's like financial, they were cracking down on banks in the US, plus on crypto.
+
+352
+00:30:05,920 --> 00:30:11,920
+So like, your ICP is going down, and people are out to get you. So that was a pretty crazy time
+
+353
+00:30:11,920 --> 00:30:18,960
+the last few years. And then I would say like right around the Trump election, some companies
+
+354
+00:30:18,960 --> 00:30:23,840
+are getting scale, using stable coins as infrastructure, the larger companies weren't
+
+355
+00:30:23,840 --> 00:30:29,360
+slowing down. And more and more companies like coin flow and others started getting
+
+356
+00:30:29,360 --> 00:30:36,560
+traditional web two businesses to use and adapt these tools. And then I think there's a bunch
+
+357
+00:30:36,560 --> 00:30:44,720
+of catalysts, but probably the Trump election just sparked a huge insurgence of like, businesses
+
+358
+00:30:45,440 --> 00:30:49,680
+want to learn more about stable coins, using stable coins. And then you basically saw like
+
+359
+00:30:49,680 --> 00:30:54,480
+every major fintech, and even some before the Trump admin, like PayPal is one that you can call
+
+360
+00:30:54,480 --> 00:30:58,960
+out because like, they launched PayPal usb and started talking about stable coins, during the
+
+361
+00:30:58,960 --> 00:31:04,960
+Biden administration, etc. But then there's, and Visa was doing this, there's only a few call out
+
+362
+00:31:04,960 --> 00:31:07,760
+and I was telling banks like, hey, look, PayPal is doing it, Visa is doing it, trust me, it's
+
+363
+00:31:07,760 --> 00:31:12,800
+going to be a thing. And then, so people started like looking at it. But they still looked at it
+
+364
+00:31:12,800 --> 00:31:18,720
+like a little weird or squinted. And then when Trump got elected, and acquisitions are happening,
+
+365
+00:31:18,720 --> 00:31:24,880
+every fintech star announced their self stable coins came from like sideline to like, oh my gosh,
+
+366
+00:31:24,880 --> 00:31:30,080
+everyone has to go and at least do research and development and make a press release if they're
+
+367
+00:31:30,080 --> 00:31:37,440
+doing research development about it. So yeah, huge tailwinds on like fintechs. And then from merchants,
+
+368
+00:31:38,160 --> 00:31:42,560
+or like from businesses that we serve, I would say the biggest change has been like,
+
+369
+00:31:42,560 --> 00:31:46,320
+they're seeing that news, they're seeing that like, hey, like this isn't going away. And
+
+370
+00:31:46,400 --> 00:31:49,360
+consensus, this is a better tool. I think they were just scared, like,
+
+371
+00:31:50,000 --> 00:31:53,840
+talking in person about it, like, cool, they get all the value process. But then again,
+
+372
+00:31:53,840 --> 00:31:59,600
+the tools are using, they work, there's a way to optimize it. But the mental model they were
+
+373
+00:31:59,600 --> 00:32:03,440
+looking at was like, okay, we can get our money instant. But the thing we're getting the money
+
+374
+00:32:03,440 --> 00:32:07,680
+through stable coins, you know, it's all infrastructure. But let's say the Biden
+
+375
+00:32:07,680 --> 00:32:11,200
+administration got elected again, or whoever got elected, and they were like anti like,
+
+376
+00:32:11,200 --> 00:32:14,560
+they could just make that illegal. Now, like, sure, we're getting this thing faster. But the
+
+377
+00:32:14,560 --> 00:32:19,040
+company that servicing us came and operated more. So that's not a huge one. So that risk is out of
+
+378
+00:32:19,040 --> 00:32:22,000
+the picture now, which is awesome. Yeah, it's an important point. It feels like there's a
+
+379
+00:32:22,000 --> 00:32:28,080
+sustainability now. Dan, in closing, I wanted to ask to that point you just made, if there is a
+
+380
+00:32:28,080 --> 00:32:34,080
+seller of goods, a vendor out there who is in this paradigm, where you take a payment on Friday,
+
+381
+00:32:34,080 --> 00:32:41,120
+you receive funds on Tuesday, how should they proceed towards trying to iterate towards
+
+382
+00:32:42,080 --> 00:32:46,800
+next generation instant ask payment system internally?
+
+383
+00:32:47,600 --> 00:32:50,800
+Yeah, I mean, they can just talk to us and we can do it all for them. So yeah,
+
+384
+00:32:50,800 --> 00:32:55,360
+if they want to get in contact with us, we're very reachable, like our websites coin flow dot cash.
+
+385
+00:32:56,000 --> 00:32:59,840
+Or you can hit me up on my Twitter or I'm sure it'll be attached to this. But yeah,
+
+386
+00:32:59,840 --> 00:33:04,640
+reach out to anyone from the coin flow team and we're happy to help and map out your flow funds,
+
+387
+00:33:04,640 --> 00:33:08,480
+map out your roadmap, etc. Yeah, I think this is where the world's going. Because the value
+
+388
+00:33:08,480 --> 00:33:11,600
+prop is very simple. It's hard to find someone who doesn't want to get paid
+
+389
+00:33:12,320 --> 00:33:17,600
+for what they're doing as soon as they do it. Yeah, makes sense. Well, Dan, thanks for joining
+
+390
+00:33:17,600 --> 00:33:20,960
+us and hopefully we can sit down again sometime soon. Yeah, man. Thanks for having me. It's been
+
+391
+00:33:20,960 --> 00:33:26,480
+a pleasure. Thanks for listening to another episode of On the Brink with Castle Island.
+
+392
+00:33:26,480 --> 00:33:32,720
+To find out more about Castle Island, visit castleisland.vc. To listen to all of our podcast
+
+393
+00:33:32,720 --> 00:33:39,840
+episodes, please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for
+
+394
+00:33:39,840 --> 00:33:43,840
+listening.
+

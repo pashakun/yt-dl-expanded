@@ -1,0 +1,368 @@
+TITLE: Pendle Fixed Yield Offerings and the Shift to Stablecoin Yield (Tien) [Castle Island Ventures]
+URL: 
+VIDEO_ID: OTB_-_TN_Pendle_-_AUDIO_V1
+
+TRANSCRIPT:
+This is Wyatt and on today's episode I was joined by TN co-founder Pendle. We discussed Pendle's
+fixed yield offerings and the migration towards earning yield and stable coins over other assets.
+I hope you enjoy our conversation. Matt Walsh and Nick Carter are partners
+at Castle Island Ventures. All of these expressed by them or the guests on this podcast are solely
+their opinions and do not reflect the opinions of Castle Island Ventures. Guests and hosts may
+maintain positions in the assets discussed in this podcast. You should not treat any opinion
+expressed by anyone on this podcast as a specific inducement to make a particular investment or
+follow a particular strategy, but only as an expression of their personal opinion.
+This podcast is for informational purposes only. Brought down by bad mortgage investments,
+Lehman, which has 25,000 employees, will be liquidated. The federal government loans
+American International Group AIG $85 billion. This is a different kind of market and the Fed
+is asleep. The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two
+mortgage giants that have been threatened by the housing crisis. The Bank of England has pumped
+75 billion pounds more into Britain's ailing economy with a new round of quantitative easing.
+You print a couple trillion dollars and all of a sudden people start to worry. So out of this
+worry, we have something called the Bitcoin. Tien from Pendle. Thanks for joining us on the
+podcast. Excited to have you. Would love to hear a little bit more about your background to kick
+off maybe. Yeah, thanks for having me. I'm Tien, the CEO, co-founder of Pendle. Pendle is a protocol
+for the trading and the tokenization of yield. So we started out in 2020 and eventually found
+pretty healthy traction product market fit in late 2023, early 2024 with the whole points tokenization
+mania. And then right now we're also very focused on stable coin. But before Pendle, I was part of
+the founding team member of Kyber. So I've had the privilege of watching DeFi growth from probably
+front row perspective and knew about Compound ETH land, which is now known as Aave from pretty long
+ago. So it's been a while, but it's really good to stick around and see how the landscape has
+evolved. And I'm just feeling very, very privileged to be part of the movement. Why did you start
+Pendle? I was farming shitcoins with my co-founders. True story. DeFi summer. I think we had the first
+taste of farming with YAM finance and we were putting in not a lot of money, but maybe two,
+$300, something like that. Did you get into crypto for shitcoins and meme coins? So I was
+experimenting with different parts of crypto. Between 2019 and 2020, I actually spent some time
+helping out with Rockminer, which is one of the larger miners. And then also did DevOps. So operated
+an entity that is Google partner. And then we built solutions for the likes of EOS and Tezos,
+some of these first generation, second generation at once. Then eventually we saw what happened
+with Compound firstly in 2020. And then Yern really popularized that whole yield farming notion.
+And then I think what was more interesting was with YAM, they took in synthetics, land token,
+comm token, link, and they had all these different tribes pitted them against each other. There's
+link marines and synthetics. Yeah, a couple of others. And these assets suddenly became
+more valuable because of that interest from community. So overnight, our few hundred dollars
+ballooned to thousands of dollars, but unfortunately there was a bug in the governance system. So
+suddenly the value collapsed, but it was my first introduction to yield farming.
+And then from there on, we were pretty diligently looking out for yield sources. But as much as we
+liked the 20, 30,000% APY, there just wasn't a way for us to lock in the rates because we knew that
+these APYs we're not going to sustain. We've been hopping around and we're not the only ones doing
+so. That 20,000% APY, even if we could lock in at a hundred percent, that would be pretty sweet,
+but no instrument there. So that was, I think the first time we started to think about building a
+product. I think just for a bit more context, my co-founders and I, we used to work together.
+One of them was with me at Kyber and then the other ones, I am token and Digix. So we've always
+wanted to build a product, but 2019, 2020, the market wasn't really exactly the best.
+Opportunities were relatively limited. So that's why we were doing services because we needed to
+find an income source. And without any track record, it was just very difficult to build product.
+So when we saw an opportunity to build a fixed rate product by enabling yield bearing assets
+to be stripped into PTYT and traded independently of each other, we thought that would be a
+meaningful addition to the DeFi landscape. So that was our core motivation. And many would say
+DeFi's killer use case in a way is this yield generation and a natural market discovery of
+rates that people will lend and borrow in response to what you can then go speculate on
+and how speculative people in that economy are feeling. But to your point, it's not the best
+user experience when your rates could fluctuate by hundreds of percent on a day-to-day basis.
+So to circle back, you guys, to my knowledge, created Pendle with that problem in mind
+and the point you're making that you want to offer fixed rate, more stable lending and
+better yield offerings in general. That is correct. We also had the benefit of,
+we were mostly cross-referencing the state of DeFi to what a mature financial ecosystem should
+look like. And we noticed that in any financial market, fixed income products are typically
+one of the most important verticals. And if we believe that more money is going to flow into
+crypto space, then that vertical has to exist. But at that point in time, some five years ago,
+it was largely absent. So that gave us fair amount of confidence to want to work on this
+particular opportunity. You mentioned PTYT, can you speak briefly to how Pendle works at a high level?
+Sure. So Pendle works primarily with yield bearing assets. So I want to give a little
+bit of context to why we decided to work with yield bearing asset. Because in 2020,
+Compound and Aave, if I recall correctly, they were already sitting on maybe collectively
+$20 billion in TBL. So what we didn't want to do was to compete for liquidity against this big boys.
+And what we thought was the right thing to do was to build on top of Compound and Aave. So basically
+the AUSDC from Aave or A tokens or C tokens from Compound. So that was the way we were thinking
+about it. So taking these assets from Aave and Compound and then strip them into PT and YT.
+With respect to A tokens, when you deposit a base asset like USDC into Aave, you get AUSDC in return.
+And this AUSDC is a proof of your deposit firstly, and it also operates as a receipt token. So that
+whatever interest that your position accrues will be streamed to your wallet. So what we do
+is effectively strip out these two functionalities and represent them in PT and YT. So YT is where the
+yield accrues to and then PT is where the original deposit gets represented. Now by making these two
+parts independent of each other, then we can enable them to be traded independently as well.
+So with Pendle, there's a very, very important relationship between PT and YT. In every asset
+that Pendle strips, PT plus YT has to equal to the value of one underlying. So PT and YT are
+naturally inversely related to each other. That means if PT increases in price, then YT has to
+come down in value. So when you add these two components together, they should always equal
+to the value of one underlying. This is really one of the most important fundamentals of Pendle.
+And with that understanding, you can figure out the pricing for these two components independently.
+And how do those adjust in price? What causes them to move? How does that happen over time?
+Yeah, so YT actually gravitates towards zero as time passes. And PT, on the other hand,
+will increase in value to par. So at maturity, one PT is redeemable for one underlying,
+whereas YT will, by then YT would become $0 in value. But the good thing about YT is that
+it is typically the smaller component of a yield-bearing asset. And that means when it's
+stripped out, it is a lot cheaper compared to the PT counterpart. As an example, using STEath,
+let's say it generates for 5% in APY. So in a typical context of PTYT stripping with an
+expected 5% APY, YT would probably be priced at around, let's just say 5%. And then the PT
+would be the remaining 95%. So effectively, what that means is one PT would be equivalent to
+0.95 ETH and then one YT would be 0.05 ETH in value. And the PT plus the YT tier point
+equals the price of one STEath. Correct. So the use cases are, broadly speaking,
+two types of use cases. With PT, users who are interested in locking in the fixed yield,
+they can buy PT. So that means if today the PT of STEath is priced at 0.95 STEath, you acquire it,
+hold it until maturity to redeem it for one STEath. So your input is 0.95, holding it until
+maturity, the output is one STEath. On the other hand, all the yield that YT accrues will go into
+the holder of YT. And then over time, the value of YT will diminish to zero. But the gains that is
+paid out by the underlying protocol, in this case LIDL, will accrue to the YT holder. For users who
+are more on the speculating of yield side, if they believe that the underlying APY could be 10%
+in a year, but right now it's priced at 5%, then they should purchase YT. This regarding the
+underlying principle and then just focus on the yield. So the payout is 0.05 and the year's time,
+if it's worth 10% APY, then the gain is effectively doubled.
+Yeah, makes sense because they're taking the other side of that trade. How do you guys select
+for assets that will be listed on Pendle? Yeah, so we're typically very, very thematic
+in our approach. So we've had multiple rounds of experiments with narratives. So I'd say with
+the launch of Pendle V2 at the end of 2022, one of the first narratives we experimented with,
+but wasn't very successful, was NFT. We actually listed Apoin and Luke's Rare, Luke's Token Market.
+Were those yield bearing? Yeah, they were yield bearing. So you could stake Luke's to get,
+I can't remember the ticker now, but yeah, stake Luke's for example. And then Apoin,
+you would be generating more Apoin by staking Apoin. That's the yield bearing part that we
+tokenize. They weren't too successful, but in the first half of 2023, we figured out a way to
+affiliate the Pendle brand with some of the heavyweights. We position Pendle as the top layer
+on Rocket, and then on Rocket ETH, our ETH, and then Balancer and Aura. So we basically tokenize
+the Aura and users who will participate in the pool would be entitled to yield from Aura,
+Balancer, and Rocket. So the effective APY there was fairly attractive. So I remember it going as
+high as 17% at one point in time for ETH APY fixed rate. So that was, I think, the first
+breakthrough for us. And then eventually we also pivoted a little bit and structured a narrative to
+align with Arbitrum. We also did real world asset towards the Q3, Q4 of 2023. So that was with the
+launch of FUSDC from Flux and Sparks SDI. Last year, we were primarily focused on
+Eigen and its ecosystem, LRTs. Athena was a big contributor of our growth. And then end of the
+year was Bitcoin narrative. So Babylon and its ecosystem. This year, we focused a lot of our
+efforts in identifying high quality and promising stablecoin products and have the markets listed
+on Pendle. And to your experience, and for anyone who's tried, typically if you want to
+earn yield in DeFi, you're exploring 20, 30 different protocols and the rates are all over
+the place and fluctuate with you. So to tie a bow on some things we've discussed, what you guys have
+done is brought that all to one source. People can access those sources at multiple levels,
+as you mentioned with the RE and Balancer. And you've also created this fixed rate structure,
+which just makes user experience infinitely better. Yes, we do our best, but it's a lot of learning
+and product iteration over time. It didn't start off this way. We also didn't imagine
+points to blow up the way it did. We were basically using the same protocol mechanics on a
+slightly different product, but the output was much bigger than we thought. So now my view is
+that points have already become a very essential part of the go-to-market strategy for projects.
+And we want to continue to serve this segment. So constantly improving the product and identifying
+the best opportunities for users. Historically, we've had a lot of yield offerings to the point
+that you made earlier, APE coin and you earn more APE coin and maybe you earn APE points on top of
+that, which can go very well, especially when the market's doing very well. But I think my view is
+eventually we will probably collectively gravitate towards something like US dollars and you're
+earning yield in US dollars or at least assets, ETH being more comparable where there's more of
+a definitive value behind it, or at least you sleep a little better at night earning what feels like
+a true yield in that asset. Do you see a lot of the offerings you guys will have being stablecoin
+based or blue chip token based as opposed to the longer tail of assets and points?
+Yeah, I believe so. I think now more and more protocols generating revenue, they would prefer
+to do the payouts in stablecoins or one of the major assets. You're seeing that increasingly?
+Yes, we do. We do. There are still implementations like SINA, which has worked out quite well.
+Generally, if a user is bullish on the prospect of Athena, which I believe that to be the case,
+buying into SINA or PTSINA, YTSEINA, these are fairly good ways to express that view. But that
+aside, most of the time we see users preferring payouts in USDC or USDT or even ETH. But
+increasingly, I think the preference for ETH has declined. While the price has gone down?
+Yes. But at one point in time, protocols that were giving real yield, they had their assets
+payout denominated in ETH. So there was one point in time it was very relevant.
+Does Pendle have a staking program? Do you distribute fees or revenues to
+token holders? Yes, we do. So with Pendle, the fees are distributed to V-Pendle holders.
+So in this case, Pendle on its own does not have too much of a utility. It needs to be locked up
+between one week to two years. So the duration is fairly flexible. And with that, the user is
+entitled to voting rights. And with the voting rights, V-Pendle holder can choose which pool on
+Pendle to vote for. And when the pool generates fees, these fees will be prorated and distributed
+back to the V-Pendle holder in the form of previously up until recently it was ETH. But
+this month onward, it would be USDC. Great. The gravitation towards rewards in
+real dollars. Yeah. I just want to ask, you live outside the US. I wanted to ask about your view on
+non-USD stablecoins. Or if you think that USD stablecoins are the future.
+Yeah. Well, I think in the near term, the demand for US dollar denominator stablecoins will continue
+to dominate because it is still the most accepted currency anywhere. And it just makes accounting a
+lot easier. I can very comfortably see how much I'm earning in US dollar terms versus ETH. And then
+I have to make mental adjustments just to see how much I'm earning for tax purposes,
+for personal tracking, various considerations. I think gradually we should be seeing more
+forms of stablecoins that are not necessarily USD denominated to show up. In Asia, I believe
+Singapore, Hong Kong, there are already attempts to get stablecoins denominated in SGD Hong Kong
+I'm sure several other jurisdictions are also experimenting with this stablecoin
+implementation. And then Euro, there are a couple of operators as well, to my knowledge,
+and we are exploring having Euro market on Pendle. To that extent, I'm fairly certain that there will
+be a broader diversity of stablecoins. And then the yield sources will also be pretty diverse as
+well. Not just coming from T-bills, but yeah, other forms of real-world asset revenues or yield
+generation. Do you think non-USD stablecoins are used in DeFi? Or do you think those are more
+fintech products? I would think more fintech. I think they're good for transactions, but in
+terms of yield generation, I still think the US denominated ones will be much more accepted.
+And what assets are popular on Pendle that are the new ones you're launching currently?
+Yeah, so I think the biggest for us is still Athena's USDE and SUSDE. Recently,
+with the PT of EUSDE and SUSDE getting listed on Aaveco market, that has increased
+the total circulation of SUSDE and EUSDE PT assets. That aside, the newer ones that are
+gaining very, very healthy traction, as far as we're concerned, is I would say OpenAidin.
+We're seeing over $100 million in TVL on Pendle already. This is after two to three weeks,
+and I think there's a bit more potential for growth there. LevelUSD is another one.
+Yeah, cool product. They were on the podcast a few weeks ago.
+Nice, yeah. SuperUSD is also doing pretty well. I want to say very recently,
+Falcon's USDF is also gaining traction on Pendle. So these are, I think top of mind,
+resolve, usual. They've done well, quite consistently. We'll just have to figure
+out ways to sustain the hype and interest in these opportunities.
+Why do you think people like Athena so much?
+I think they're not quite the first mover, but I want to say they're definitely one of the most
+competent teams that we've worked with. Guy and his team, they have a very clear idea of where
+they want to be, and their execution is actually very, very strong. And I think with stable coins,
+the playbook is typically more bd-heavy than tech-heavy. So the partnership
+lineups that they have is very impressive. And then to be able to have markets set up on
+Bybit and a couple of other exchanges. So basically having USD pair, I think that helps
+tremendously as well. So figuring out ways to get their asset distributed,
+I think that has been a very, very strong proposition of Athena. And I can see them
+growing even more from here. Yeah. I don't think you can underscore the value of those partnerships.
+We're naturally very herd mentality. People who deposit in DeFi, no one wants to deposit
+into the stable coin with $500,000 of supply because you just don't have the trust factor yet.
+Yes. In your view, is it the same user who was earning Apecoin yield a couple of years ago that
+is earning Athena or earning level USD yield now, or is it a different user profile?
+I think the profile has not changed all that much. I think people who are speculating on YTs,
+at least from our observation, they are largely retail users because it's very capital efficient.
+If you want to speculate on the potential return of say, Athena points, there's a good amount of
+multiplier to offer that margin of safety. PTs on the other hand, we see a lot more bigger funds,
+bigger ticket size participating in that segment of the market. I think for us, even though the
+product is fairly complicated, especially if you don't really understand derivative, I think
+understanding Pendle can take a little bit of time. With that knowledge, we were still quite
+insistent on targeting the sophisticated retail first, more so than targeting the institutional
+users. This is something that we learned over time and it applies to how we go to market for
+various stable coins or even something like Boros. With respect to product like ours,
+especially because it involves some form of speculation, the target user group that we
+should be focusing on in the beginning are likely the sophisticated retail. They are the ones that
+typically have higher risk tolerance and then they would be more willing to try out new products and
+they would be very interested in that outside's earning. We just have to focus on this core group
+of users. Then we realized that over time, when the traction of this segment improved,
+because these are probably users who are punting on YT's, it also creates a very good opportunity
+on the PT side. When PT becomes cheaper, then the big funds have a reason to come in and scoop up
+like the PT's. That's how we established that dynamic and the equilibrium between the YT and
+PT side. Do you think that DeFi yields outpace or remain competitive to traditional yields,
+especially as on-chain and traditional systems blend together? Yes, I do believe that to be the
+case. Broadly speaking, how I think about the yield at DeFi is that it will very likely be
+higher than whatever Trefi offers for two reasons. One is that the composability aspect of crypto
+assets that makes it a lot more appealing from an APY standpoint. This was something that we
+took advantage of when we launched ETH market back in 2023. We were basically stacking up the
+yield of Rocket, Aura and Balancer. That would be a lot harder to achieve outside of DeFi context.
+With that, very important offerings. I do think that the yield in crypto should be higher,
+naturally. Secondly, crypto like DeFi is generally more efficient. I think protocols across the board
+don't need to have a lot of headcount to monitor transactions. That should help with the margin.
+Without incurring a lot of overhead, the cost to the protocol operator also lowers.
+All things considered, assuming status quo on the yield between the DeFi and DeFi products,
+I think DeFi, because of the lower overhead and the cost is lower, the effective return
+would be more attractive for participants. Yeah, and you have natural capital efficiency
+because if you have a staked ETH, you can then take that staked ETH where you're already earning
+the yield for staking it and earn rewards for depositing it into a two-sided pool.
+You're getting the trading and staking yield. Correct.
+What other protocols are you interested in? What assets do you think we'll see emerge
+in the near future that you guys would work with or see as being high potential?
+I maintain the view that yield on Bitcoin is
+quite inevitable, but right now we don't have a very good way to generate yield on Bitcoin.
+Is that the number one desired thing for users in your view?
+I'm not sure about the broader user base, but at least for me, that would be the case.
+Earning yield on stables is attractive and I think it will continue to exist.
+But just given the sheer size of Bitcoin right now, to be able to generate, I don't know,
+like two or 3% of Bitcoin, that would be pretty sweet. I'm sure there are multiple sources of
+yield on Bitcoin right now, but they might not be on-chain. So lending seems to me to be the one
+that is most consistent and broad-based. And then we also have structured products. Some of the
+OTC desk, they could be structuring products that offer yield on Bitcoin. But beyond that,
+I'm not seeing too many opportunities. And then if you look at money markets,
+red BTC on Aave, the APY is generally very low. I think that is definitely an avenue that
+would be interesting. But in the near term, I'm not too sure what needs to take place
+before we see greater adoption in that particular segment.
+Yeah, we completely agree. It almost feels like an irony that we haven't created
+good yield around Bitcoin when the things that crypto has produced are Bitcoin and yield.
+Whereas if you want to go borrow Bitcoin outside of DeFi through CIFI off-chain,
+it's typically double digit percent. So it shows you that the yield is there.
+It just hasn't been created in DeFi yet. I'm curious, why do people borrow Bitcoin?
+Is it too short? That's a good question. I don't know why people borrow Bitcoin. I think there are
+a number of reasons. Potentially to have more exposure to Bitcoin, right? Yeah, I'm curious.
+You use your Bitcoin collateral and borrow more Bitcoin?
+No, I don't. I use it as a sort of value, personally.
+Right. I'm saying some people could though. Yeah, some people do that, yes.
+Yeah, I think it's just people who want to have as much exposure to Bitcoin as they possibly can.
+Okay, okay. Fair enough.
+But yeah, the rates are in the 10 plus percent.
+I'm told, yes.
+What are the wrapped BTC rates on Aave actually that now that you mentioned? I haven't checked.
+It's definitely less than 1%. Yeah, I'm not too sure at this point. Big difference, yeah?
+Yeah, no kidding. That's quite a spread. We clearly haven't gotten to efficiency quite yet.
+On that point about Bitcoin, I also wanted to ask you, how do you view the different
+blockchains in making business decisions? Because there's obviously a core difference
+when we talk about native Bitcoin here versus Bitcoin existing on other chains.
+And how do you guys select for chains and assets?
+Yeah, so for us, it's fairly straightforward because we are a second order derivative.
+So that means without the primitives and then without the TBL, it really wouldn't make sense
+for Pendle to exist. We need deal bearing assets before Pendle would make sense.
+So when we evaluate whether to go onto a new chain or a new ecosystem,
+we would typically just observe whether there are good assets for Pendle to work with.
+And then if they are, how's the TBL traction?
+If the TBL traction is still very low, that means it might be premature.
+And then we'll give it some time to observe.
+And if it grows to, let's say, a couple of hundred million dollars in TBL size,
+then it might make sense for Pendle to deploy there.
+Because from our perspective, whether it's five mil in TBL or $500 million in TBL,
+the effort to deploy is consistent. We still need to work with Oracle.
+We still need to maintain an infrastructure to run the products.
+So it would make sense for us to prioritize the one with higher TBL,
+just because the return would be more meaningful.
+Sure. Makes sense. So you guys wait until you tell that there's something meaningful
+in an ecosystem and then you go versus trying to go to the new chain pre-launch
+and know that it's going to work.
+That's right. There's no first-world advantage for Pendle.
+You guys have emerged and done incredible things in the space.
+I think a lot of people in the DeFi sphere would say to the point that people in conversation
+talk about Uniswap, talk about Athena, talk about Aerodrome, talk about Pendle.
+Do you think DeFi activity will center around a number of these really meaningful applications
+or do you think there will be a longer tail?
+How do you think activity spreads out eventually?
+I think activities will likely concentrate around a few core protocols.
+I think people generally gravitate toward familiarity.
+And especially in DeFi, with new products, there are always
+risks that you might not be able to see, especially if it's very fresh in the market.
+For example, like Athena, it's been around and Uniswap, it's been around for years now.
+The trust level for these products is very high.
+And the fact that these products have processed many, many billions of dollars
+is definitely very valuable.
+Relative to a product that has only been around for two days and processed maybe
+$100 in trading volume, as a user, you would naturally feel more comfortable with a product
+that is a lot more established.
+And I think that wouldn't change with time.
+And you guys are doing an assessment of how trusting your users will be of those partners,
+right? Because when they use Pendle in an Athena offering,
+it's two degrees of trust they're implementing.
+Yes, which is why I think it's important for us to know who we're dealing with.
+We are more open now from an infrastructure standpoint,
+but even then, we still need to do our best to do a basic due diligence on the counterparts.
+Do you expect you'll one day have tokenized equities on Pendle,
+earning yield in DeFi somehow?
+Potentially, yes. I would like that, yeah.
+Is that in the near future? How long do you think it takes us to get there?
+I think it ultimately depends on the protocol that issues equities.
+Yeah, so if they tokenize equities on chain,
+that is potentially something that we can work with.
+And then the yield accrued, the YT would be maybe dividends.
+That's interesting. I mean, I hope you can also,
+when we have tokenized equities in DeFi, earn yield on them as you would with DeFi assets,
+just by providing liquidity to a pool or something along those lines.
+Yeah, we'll see, perhaps.
+I wanted to ask you in closing, is there anything that keeps you up at night,
+or anything that you worry about when it comes to the ecosystem currently or Pendle?
+I want to say that as we grow and as we scale up,
+because we have also increased the surface area that we're operating,
+there are a lot more problems that we are encountering.
+But in a way that I can really appreciate, because I think when we were smaller,
+we had maybe problems, but they were a lot more miniscule.
+Right now, we're operating a much bigger protocol.
+And then we also have a lot more problems compared to before.
+But I think this is a good sign that we have grown.
+And fortunately for me, by now, we have a very, very capable team of operators.
+So each and every one of us, we take care of our own vertical.
+And that allows me to sleep more peacefully at night.
+But that aside, there are definitely a lot of considerations.
+How do we continue to scale up?
+Because ultimately, I'd like for Pendle to not exist only for two years.
+I'd like for Pendle to continue to be relevant for a long, long time,
+and grow into new segments, take on new challenges,
+and be world-class in our product offerings.
+And then thinking about how the ecosystem could change,
+what kind of things that we should be anticipating and prepare.
+These are definitely something that I think about very much.
+That makes sense. And I'll leave it there.
+Thanks, Tim, for coming on the podcast.
+We'd love to have you back at some point.
+And it was a pleasure.
+Yeah, thanks for having me.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes,
+please go to onthebrink-podcast.com or just click on the tab on our website.
+Thanks for listening.

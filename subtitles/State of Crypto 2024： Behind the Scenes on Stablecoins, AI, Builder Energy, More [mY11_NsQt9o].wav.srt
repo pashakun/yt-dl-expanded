@@ -1,0 +1,4656 @@
+1
+00:00:00,000 --> 00:00:02,580
+ (upbeat music)
+
+2
+00:00:02,580 --> 00:00:06,260
+ - Welcome to Web3 with A16Z.
+
+3
+00:00:06,260 --> 00:00:09,800
+ I'm Robert Hackett, and today we've got a special episode.
+
+4
+00:00:09,800 --> 00:00:11,280
+ We're taking you behind the scenes
+
+5
+00:00:11,280 --> 00:00:14,800
+ of our newly released annual State of Crypto report,
+
+6
+00:00:14,800 --> 00:00:18,320
+ A16Z crypto's analysis of the latest data and trends
+
+7
+00:00:18,320 --> 00:00:21,080
+ that have defined the industry in 2024.
+
+8
+00:00:21,080 --> 00:00:24,800
+ This year's report features some brand new insights
+
+9
+00:00:24,800 --> 00:00:28,040
+ from estimating the number of real crypto users globally
+
+10
+00:00:28,040 --> 00:00:30,400
+ to understanding how much interest in crypto
+
+11
+00:00:30,400 --> 00:00:33,040
+ swing states may have ahead of the US election.
+
+12
+00:00:33,040 --> 00:00:35,840
+ We also dig into infrastructure improvements
+
+13
+00:00:35,840 --> 00:00:38,640
+ to blockchains and key applications,
+
+14
+00:00:38,640 --> 00:00:43,240
+ including stablecoins, AI, and so-called deep in.
+
+15
+00:00:43,240 --> 00:00:47,800
+ Be sure to visit a16zcrypto.com for all this and more,
+
+16
+00:00:47,800 --> 00:00:50,560
+ including a new builder energy dashboard,
+
+17
+00:00:50,560 --> 00:00:52,520
+ which we'll discuss on today's show.
+
+18
+00:00:52,520 --> 00:00:55,040
+ Joining me to talk about the findings
+
+19
+00:00:55,040 --> 00:00:57,600
+ are our lead data scientist and report author,
+
+20
+00:00:57,600 --> 00:01:01,120
+ Darren Matsuoka, and CTO Eddie Lazarin.
+
+21
+00:01:01,120 --> 00:01:03,800
+ The first voice you'll hear after mine is Darren's,
+
+22
+00:01:03,800 --> 00:01:05,200
+ then Eddie's.
+
+23
+00:01:05,200 --> 00:01:07,280
+ As always, none of the content should be taken
+
+24
+00:01:07,280 --> 00:01:10,240
+ as tax, business, legal, or investment advice.
+
+25
+00:01:10,240 --> 00:01:14,480
+ See a16z.com/disclosures for more important information,
+
+26
+00:01:14,480 --> 00:01:17,240
+ including a link to a list of our investments.
+
+27
+00:01:17,240 --> 00:01:22,160
+ This is our third year doing this.
+
+28
+00:01:22,160 --> 00:01:25,320
+ We've put together three of these State of Crypto reports.
+
+29
+00:01:25,320 --> 00:01:26,640
+ Why do we do it?
+
+30
+00:01:26,640 --> 00:01:28,280
+ I think we'd like to use this report
+
+31
+00:01:28,280 --> 00:01:32,320
+ as an opportunity each year to really take a step back,
+
+32
+00:01:32,320 --> 00:01:35,080
+ kind of look at the industry holistically,
+
+33
+00:01:35,080 --> 00:01:38,040
+ analyze all of the data that we have access to.
+
+34
+00:01:38,040 --> 00:01:41,200
+ We consult with various experts across the industry
+
+35
+00:01:41,200 --> 00:01:43,600
+ and ultimately bring it all together
+
+36
+00:01:43,600 --> 00:01:45,520
+ into a single perspective.
+
+37
+00:01:45,520 --> 00:01:46,360
+ Yeah, I think that's right.
+
+38
+00:01:46,360 --> 00:01:48,000
+ And I don't want to get too lofty with this,
+
+39
+00:01:48,000 --> 00:01:53,000
+ but crypto as an industry was born in the social media age.
+
+40
+00:01:53,840 --> 00:01:57,320
+ And that means that information is constantly
+
+41
+00:01:57,320 --> 00:01:59,760
+ being streamed in real time.
+
+42
+00:01:59,760 --> 00:02:02,080
+ So I like to see the State of Crypto report
+
+43
+00:02:02,080 --> 00:02:05,040
+ as a way to pause for a second
+
+44
+00:02:05,040 --> 00:02:09,240
+ and sort of appreciate what's happened in the stream.
+
+45
+00:02:09,240 --> 00:02:10,360
+ When you're in the mix of it
+
+46
+00:02:10,360 --> 00:02:14,960
+ and things are getting blasted at you multiple times a day,
+
+47
+00:02:14,960 --> 00:02:19,120
+ it can be hard to get a sense of the cumulative progress,
+
+48
+00:02:19,120 --> 00:02:22,520
+ let alone to remember what was getting streamed to you
+
+49
+00:02:22,520 --> 00:02:25,520
+ at full speed a year or two years ago.
+
+50
+00:02:25,520 --> 00:02:29,280
+ So I think the State of Crypto report is a chance for us
+
+51
+00:02:29,280 --> 00:02:32,040
+ to take a step out of the fire hose
+
+52
+00:02:32,040 --> 00:02:34,800
+ and take a look at what's actually transpired.
+
+53
+00:02:34,800 --> 00:02:38,000
+ And to that point, like our goal is not to just say
+
+54
+00:02:38,000 --> 00:02:40,080
+ that the crypto industry is great
+
+55
+00:02:40,080 --> 00:02:42,760
+ and get that message out regardless of what we're seeing.
+
+56
+00:02:42,760 --> 00:02:45,160
+ We really try to be intellectually honest
+
+57
+00:02:45,160 --> 00:02:48,400
+ based on data and what we're seeing out there.
+
+58
+00:02:48,400 --> 00:02:53,320
+ Another thing I'll say is that crypto has a very overdeveloped
+
+59
+00:02:53,320 --> 00:02:57,080
+ in-group language, not just because of the memes
+
+60
+00:02:57,080 --> 00:02:59,400
+ and the jokes and the personalities,
+
+61
+00:02:59,400 --> 00:03:03,000
+ but also because of the technical complexity.
+
+62
+00:03:03,000 --> 00:03:04,480
+ All those things together create
+
+63
+00:03:04,480 --> 00:03:06,520
+ this really strong in-group language.
+
+64
+00:03:06,520 --> 00:03:10,640
+ And I think of our report as a way to try to mainstream
+
+65
+00:03:10,640 --> 00:03:12,520
+ some of those big things.
+
+66
+00:03:12,520 --> 00:03:14,520
+ We try to avoid in-group language
+
+67
+00:03:14,520 --> 00:03:16,800
+ and make things very accessible through charts,
+
+68
+00:03:16,800 --> 00:03:19,320
+ through very simple explanations.
+
+69
+00:03:19,320 --> 00:03:21,560
+ And it's an opportunity to do that too.
+
+70
+00:03:21,560 --> 00:03:25,480
+ - Also, it's a way to shift the way people talk about crypto
+
+71
+00:03:25,480 --> 00:03:28,400
+ because crypto is just filled with like really difficult
+
+72
+00:03:28,400 --> 00:03:32,640
+ concepts and terms and to be able to kind of peel back
+
+73
+00:03:32,640 --> 00:03:35,960
+ the layers and talk about what is actually happening
+
+74
+00:03:35,960 --> 00:03:40,440
+ in a way that people can understand is a unique challenge.
+
+75
+00:03:40,440 --> 00:03:42,120
+ Let's talk about how the report opens.
+
+76
+00:03:42,120 --> 00:03:44,800
+ So we're trying to summarize the State of Crypto
+
+77
+00:03:44,800 --> 00:03:47,240
+ in the past year.
+
+78
+00:03:47,240 --> 00:03:49,600
+ So first up is sizing the market.
+
+79
+00:03:49,600 --> 00:03:51,120
+ 'Cause if we're talking about crypto,
+
+80
+00:03:51,120 --> 00:03:52,680
+ the first question you might have is,
+
+81
+00:03:52,680 --> 00:03:53,800
+ what are we talking about here?
+
+82
+00:03:53,800 --> 00:03:54,720
+ How big is the industry?
+
+83
+00:03:54,720 --> 00:03:56,440
+ How big is the market?
+
+84
+00:03:56,440 --> 00:04:00,400
+ And so that's the first question that we tackle here.
+
+85
+00:04:00,400 --> 00:04:02,000
+ Darren, you wanna hit us off?
+
+86
+00:04:02,000 --> 00:04:04,400
+ - Sure, for many years in the past,
+
+87
+00:04:04,400 --> 00:04:07,800
+ we've been mostly focused on building the infrastructure
+
+88
+00:04:07,800 --> 00:04:08,920
+ to make all of this work.
+
+89
+00:04:08,920 --> 00:04:12,000
+ And so there really wasn't that big of a market
+
+90
+00:04:12,000 --> 00:04:15,680
+ for users of these crypto-based applications.
+
+91
+00:04:15,680 --> 00:04:19,480
+ But I think in 2024, we really did hit a tipping point
+
+92
+00:04:19,480 --> 00:04:21,080
+ with infrastructure improvements.
+
+93
+00:04:21,080 --> 00:04:23,760
+ These blockchains are becoming more and more accessible.
+
+94
+00:04:23,760 --> 00:04:25,200
+ They're cheaper to use.
+
+95
+00:04:25,200 --> 00:04:27,040
+ And as a result, we're starting to see
+
+96
+00:04:27,040 --> 00:04:28,960
+ applications come online.
+
+97
+00:04:28,960 --> 00:04:30,720
+ And now that we have these applications,
+
+98
+00:04:30,720 --> 00:04:33,440
+ I think it's really starting to come to life.
+
+99
+00:04:33,440 --> 00:04:36,080
+ And I think in the years to come,
+
+100
+00:04:36,080 --> 00:04:38,920
+ this will be an increasingly important question.
+
+101
+00:04:38,920 --> 00:04:41,680
+ - Yeah, I think that's right because beforehand,
+
+102
+00:04:41,680 --> 00:04:43,200
+ the technology is still coming together.
+
+103
+00:04:43,200 --> 00:04:45,720
+ And in many cases, it is still coming together.
+
+104
+00:04:45,720 --> 00:04:49,080
+ But we're actually beginning to see some applications.
+
+105
+00:04:49,080 --> 00:04:50,720
+ And that's something that if you haven't been paying attention
+
+106
+00:04:50,720 --> 00:04:52,920
+ to crypto, you might not realize.
+
+107
+00:04:52,920 --> 00:04:53,760
+ - Totally.
+
+108
+00:04:53,760 --> 00:04:55,800
+ And I think the results speak for themselves, right?
+
+109
+00:04:55,800 --> 00:04:58,000
+ Active addresses across all of the blockchains
+
+110
+00:04:58,000 --> 00:04:59,880
+ that we tracked, hit an all-time high,
+
+111
+00:04:59,880 --> 00:05:03,920
+ this last month of 220 million mobile wallet users.
+
+112
+00:05:03,920 --> 00:05:06,920
+ So data that we get from mobile app stores
+
+113
+00:05:06,920 --> 00:05:10,200
+ that also recently hit an all-time high of 27 million.
+
+114
+00:05:10,200 --> 00:05:13,640
+ And so the numbers do kind of speak to this idea
+
+115
+00:05:13,640 --> 00:05:17,240
+ that we are now seeing some of these breakout applications
+
+116
+00:05:17,240 --> 00:05:22,160
+ that are bringing real on-chain transactions and usage.
+
+117
+00:05:22,160 --> 00:05:23,320
+ - Let's go through each of those.
+
+118
+00:05:23,320 --> 00:05:26,440
+ You mentioned that active addresses are at an all-time high.
+
+119
+00:05:26,440 --> 00:05:30,560
+ Now, this is a kind of controversial metric.
+
+120
+00:05:30,560 --> 00:05:34,200
+ Not everybody loves talking about active addresses.
+
+121
+00:05:34,200 --> 00:05:35,680
+ One of the things they have going for them
+
+122
+00:05:35,680 --> 00:05:38,000
+ is that they are easy to measure.
+
+123
+00:05:38,000 --> 00:05:40,720
+ It's something that you can very easily quantify.
+
+124
+00:05:40,720 --> 00:05:44,800
+ - I think to really understand why active addresses
+
+125
+00:05:44,800 --> 00:05:48,400
+ has become such a hot topic recently,
+
+126
+00:05:48,400 --> 00:05:52,840
+ I think we need to look at some of the historical context.
+
+127
+00:05:52,840 --> 00:05:54,440
+ I think in traditional software,
+
+128
+00:05:54,440 --> 00:05:57,840
+ most people tend to understand the basic concept of a user.
+
+129
+00:05:57,840 --> 00:06:01,280
+ Of course, there's ways to measure the quality of the user.
+
+130
+00:06:01,280 --> 00:06:04,160
+ There's a whole field of growth analytics around this topic.
+
+131
+00:06:04,160 --> 00:06:06,040
+ But in its most simple form,
+
+132
+00:06:06,040 --> 00:06:09,440
+ I think people can grok the idea of a daily active user
+
+133
+00:06:09,440 --> 00:06:10,560
+ or a monthly active user.
+
+134
+00:06:10,560 --> 00:06:15,080
+ It's just the number of people that are using your product
+
+135
+00:06:15,080 --> 00:06:17,240
+ in service on a daily or monthly basis.
+
+136
+00:06:17,240 --> 00:06:19,120
+ It's fairly straightforward.
+
+137
+00:06:19,120 --> 00:06:22,280
+ But in crypto, things are a lot trickier.
+
+138
+00:06:22,280 --> 00:06:24,960
+ And the reason is because on blockchains,
+
+139
+00:06:24,960 --> 00:06:27,440
+ user identities are pseudonymous.
+
+140
+00:06:27,440 --> 00:06:30,480
+ This means that it's very easy for one person to create
+
+141
+00:06:30,480 --> 00:06:33,960
+ and control a group of public addresses or identities.
+
+142
+00:06:33,960 --> 00:06:37,920
+ This is called a Sible. And up until recently,
+
+143
+00:06:37,920 --> 00:06:41,760
+ a lot of the most popular blockchains had very limited capacity,
+
+144
+00:06:41,760 --> 00:06:43,840
+ which resulted in high transaction fees,
+
+145
+00:06:43,840 --> 00:06:46,160
+ which created this natural barrier
+
+146
+00:06:46,160 --> 00:06:51,320
+ or spinning up and using thousands or hundreds of different addresses
+
+147
+00:06:51,320 --> 00:06:54,400
+ because it would come with significant monetary costs.
+
+148
+00:06:54,400 --> 00:06:57,760
+ But recently, we've seen that crypto infrastructure
+
+149
+00:06:57,760 --> 00:07:01,120
+ has become more scalable via L2s
+
+150
+00:07:01,120 --> 00:07:03,120
+ and new high throughput layer ones,
+
+151
+00:07:03,120 --> 00:07:05,880
+ which has reduced the cost of transactions
+
+152
+00:07:05,880 --> 00:07:09,120
+ on many of these blockchains to nearly zero.
+
+153
+00:07:09,120 --> 00:07:10,600
+ And maybe you might ask,
+
+154
+00:07:10,600 --> 00:07:14,840
+ isn't it also near zero costs to create multiple identities
+
+155
+00:07:14,840 --> 00:07:17,360
+ on traditional internet applications?
+
+156
+00:07:17,360 --> 00:07:19,840
+ And I'd say, yes, that's true for the most part.
+
+157
+00:07:19,840 --> 00:07:23,320
+ I can create multiple email addresses pretty easily.
+
+158
+00:07:23,320 --> 00:07:26,360
+ But the key difference here is that in the crypto world,
+
+159
+00:07:26,360 --> 00:07:29,960
+ we have very strong incentives for this type of behavior.
+
+160
+00:07:29,960 --> 00:07:31,640
+ - Yeah, Google doesn't give you money
+
+161
+00:07:31,640 --> 00:07:34,240
+ for opening a new Gmail account, unfortunately.
+
+162
+00:07:34,240 --> 00:07:35,160
+ - Exactly.
+
+163
+00:07:35,160 --> 00:07:36,960
+ And a lot of new tokens today
+
+164
+00:07:36,960 --> 00:07:39,320
+ actually bootstrapped their circulating supply
+
+165
+00:07:39,320 --> 00:07:41,000
+ by doing something called an airdrop
+
+166
+00:07:41,000 --> 00:07:45,080
+ where you're rewarding retroactively users of the protocol
+
+167
+00:07:45,080 --> 00:07:47,640
+ based on a predefined set of addresses.
+
+168
+00:07:47,640 --> 00:07:49,880
+ And so as long as people believe
+
+169
+00:07:49,880 --> 00:07:52,720
+ that these tokens could be valuable,
+
+170
+00:07:52,720 --> 00:07:55,840
+ there is a strong incentive for them to try to game the system
+
+171
+00:07:55,840 --> 00:07:59,480
+ by creating and transacting under many different identities.
+
+172
+00:07:59,480 --> 00:08:02,120
+ This is commonly known as airdrop farming.
+
+173
+00:08:02,120 --> 00:08:04,400
+ - Yeah, there's no reason that one person
+
+174
+00:08:04,400 --> 00:08:07,960
+ couldn't spin up hundreds of millions of addresses
+
+175
+00:08:07,960 --> 00:08:11,920
+ and just go wild engaging in totally useless
+
+176
+00:08:11,920 --> 00:08:15,240
+ and inauthentic activity in order to try to maximize
+
+177
+00:08:15,240 --> 00:08:19,520
+ their likelihood of extracting as many rewards as possible.
+
+178
+00:08:19,520 --> 00:08:22,600
+ And what we've seen over the last four or five years
+
+179
+00:08:22,600 --> 00:08:27,440
+ that we've had airdrops and yield farms and so on,
+
+180
+00:08:27,440 --> 00:08:30,680
+ there's been a profound professionalization
+
+181
+00:08:30,680 --> 00:08:34,800
+ of the efforts to pull out those rewards.
+
+182
+00:08:34,800 --> 00:08:37,160
+ People have gotten really, really, really good.
+
+183
+00:08:37,160 --> 00:08:39,560
+ And I wanna make it really clear to anybody
+
+184
+00:08:39,560 --> 00:08:42,040
+ who thinks that it is a giga brain take
+
+185
+00:08:42,040 --> 00:08:46,000
+ to say monthly active addresses is simpleable.
+
+186
+00:08:46,000 --> 00:08:48,200
+ Yes, we know that.
+
+187
+00:08:48,200 --> 00:08:52,200
+ And if you have a better way to measure using public data,
+
+188
+00:08:52,200 --> 00:08:55,800
+ that's verifiable by everyone or that is easy to trust,
+
+189
+00:08:55,800 --> 00:08:59,400
+ I'd love to hear it, tell me a better way.
+
+190
+00:08:59,400 --> 00:09:03,160
+ I'm thirsty for it, tell me, let's work together
+
+191
+00:09:03,160 --> 00:09:05,680
+ and let's figure it out because the space deserves
+
+192
+00:09:05,680 --> 00:09:08,600
+ really high quality transparent metrics.
+
+193
+00:09:08,600 --> 00:09:09,960
+ And that's what we're trying to do.
+
+194
+00:09:09,960 --> 00:09:12,920
+ - Yeah, and so given what we know about these behaviors,
+
+195
+00:09:12,920 --> 00:09:14,680
+ how many users are there, right?
+
+196
+00:09:14,680 --> 00:09:17,520
+ Is it 10 million, is it 50 million, is it 100 million?
+
+197
+00:09:17,520 --> 00:09:19,840
+ This is the question that we've put a lot of work in
+
+198
+00:09:19,840 --> 00:09:22,640
+ and we're going to publish some of our thoughts
+
+199
+00:09:22,640 --> 00:09:24,600
+ around estimating that.
+
+200
+00:09:24,600 --> 00:09:26,400
+ And we'll include that blog post in the show notes,
+
+201
+00:09:26,400 --> 00:09:29,240
+ but maybe you could walk us through how you think
+
+202
+00:09:29,240 --> 00:09:31,880
+ about actually getting from this big number,
+
+203
+00:09:31,880 --> 00:09:34,520
+ this 220 million number, if that's the number of addresses,
+
+204
+00:09:34,520 --> 00:09:36,120
+ how do we get down to humans?
+
+205
+00:09:36,120 --> 00:09:38,280
+ How do we reduce that to the number of users,
+
+206
+00:09:38,280 --> 00:09:43,200
+ the actual flesh and bones on the other end of the screen?
+
+207
+00:09:43,200 --> 00:09:45,720
+ - I think one approach sounds kind of obvious,
+
+208
+00:09:45,720 --> 00:09:49,880
+ which is we've got these 220 million monthly active addresses.
+
+209
+00:09:49,880 --> 00:09:54,280
+ What if we could filter out what we suspect are bots
+
+210
+00:09:54,280 --> 00:09:56,000
+ and sibbles?
+
+211
+00:09:56,000 --> 00:09:58,320
+ And the way that we can do this is some techniques
+
+212
+00:09:58,320 --> 00:10:01,840
+ using on-chain analytics and forensics.
+
+213
+00:10:01,840 --> 00:10:06,840
+ One method is to filter out addresses that received funds
+
+214
+00:10:06,840 --> 00:10:10,120
+ from something called a dispersion contract.
+
+215
+00:10:10,120 --> 00:10:12,680
+ This is a smart contract whose sole purpose
+
+216
+00:10:12,680 --> 00:10:15,560
+ is to take in funds and automatically distribute them
+
+217
+00:10:15,560 --> 00:10:17,480
+ across many different addresses.
+
+218
+00:10:17,480 --> 00:10:19,720
+ Of course, there could be false positives here,
+
+219
+00:10:19,720 --> 00:10:23,640
+ but the activity implies that the destination addresses
+
+220
+00:10:23,640 --> 00:10:25,880
+ all received funds from a single source
+
+221
+00:10:25,880 --> 00:10:28,200
+ and therefore they're connected in some way.
+
+222
+00:10:28,200 --> 00:10:30,960
+ So there's certain types of filtering you can do
+
+223
+00:10:30,960 --> 00:10:33,760
+ around dispersion contracts specifically
+
+224
+00:10:33,760 --> 00:10:37,480
+ that can eliminate a lot of the bots that you might see.
+
+225
+00:10:37,480 --> 00:10:41,040
+ The other approach involves looking at addresses
+
+226
+00:10:41,040 --> 00:10:44,520
+ that have a near zero balance at both the beginning
+
+227
+00:10:44,520 --> 00:10:47,720
+ and end of the period that you're aggregating over.
+
+228
+00:10:47,720 --> 00:10:51,280
+ For example, if you're trying to find the real number
+
+229
+00:10:51,280 --> 00:10:53,920
+ of monthly active users in September,
+
+230
+00:10:53,920 --> 00:10:56,760
+ you can look at addresses that had a zero balance
+
+231
+00:10:56,760 --> 00:10:59,880
+ on both September 1st and September 30th.
+
+232
+00:10:59,880 --> 00:11:02,560
+ This criteria implies that the addresses
+
+233
+00:11:02,560 --> 00:11:04,840
+ were transient in nature.
+
+234
+00:11:04,840 --> 00:11:08,360
+ I think bots and sibbles typically want to clean up
+
+235
+00:11:08,360 --> 00:11:11,320
+ their balances after taking actions on-chain,
+
+236
+00:11:11,320 --> 00:11:14,920
+ whereas real human users usually like to keep some balance
+
+237
+00:11:14,920 --> 00:11:17,840
+ in their wallets to cover future transaction fees.
+
+238
+00:11:17,840 --> 00:11:19,520
+ So this is like an address popped up
+
+239
+00:11:19,520 --> 00:11:21,880
+ and then within like some period of time,
+
+240
+00:11:21,880 --> 00:11:23,520
+ people dumped into another thing
+
+241
+00:11:23,520 --> 00:11:26,040
+ and the address never was revived after that.
+
+242
+00:11:26,040 --> 00:11:27,760
+ - Exactly, this is the type of behavior
+
+243
+00:11:27,760 --> 00:11:29,600
+ where it received a source of funds,
+
+244
+00:11:29,600 --> 00:11:32,600
+ it took some action and then it pushed all of those funds
+
+245
+00:11:32,600 --> 00:11:35,480
+ outside so it's a very transient type of activity.
+
+246
+00:11:35,480 --> 00:11:38,640
+ That's often associated with bots and sibbles.
+
+247
+00:11:38,640 --> 00:11:40,080
+ The other thing that we've looked into
+
+248
+00:11:40,080 --> 00:11:42,880
+ is just like the frequency of transactions
+
+249
+00:11:42,880 --> 00:11:45,520
+ and so you can analyze these distributions
+
+250
+00:11:45,520 --> 00:11:48,120
+ to look at did the address transact one time,
+
+251
+00:11:48,120 --> 00:11:50,080
+ two times, three times, four times,
+
+252
+00:11:50,080 --> 00:11:53,160
+ five or more times during the period addresses
+
+253
+00:11:53,160 --> 00:11:56,160
+ that have just one or two transactions.
+
+254
+00:11:56,160 --> 00:12:00,000
+ At best they're a low quality user, at worst they're a bot
+
+255
+00:12:00,000 --> 00:12:03,640
+ or a sibble and especially over longer periods of time.
+
+256
+00:12:03,640 --> 00:12:05,560
+ This type of analysis can help you
+
+257
+00:12:05,560 --> 00:12:07,480
+ in some of that filtering.
+
+258
+00:12:07,480 --> 00:12:10,120
+ You can also specifically look at addresses
+
+259
+00:12:10,120 --> 00:12:12,200
+ that transacted very, very frequently
+
+260
+00:12:12,200 --> 00:12:14,000
+ over very short periods of time.
+
+261
+00:12:14,000 --> 00:12:16,480
+ Humans can only reasonably through a wallet
+
+262
+00:12:16,480 --> 00:12:19,560
+ or app interface process a certain number of transactions
+
+263
+00:12:19,560 --> 00:12:22,240
+ whereas bots can do things much faster
+
+264
+00:12:22,240 --> 00:12:25,080
+ and so you can do some filtering there.
+
+265
+00:12:25,080 --> 00:12:28,760
+ And then on the flip side, you can optimistically include
+
+266
+00:12:28,760 --> 00:12:32,280
+ addresses that are tied to some sort of identity protocol
+
+267
+00:12:32,280 --> 00:12:34,680
+ that requires some sort of setup cost.
+
+268
+00:12:34,680 --> 00:12:37,840
+ For instance, addresses that are tied to an ENS name
+
+269
+00:12:37,840 --> 00:12:41,320
+ or a Farkaster ID or some other linked social identity
+
+270
+00:12:41,320 --> 00:12:43,840
+ off chain, those are likely to be real human users.
+
+271
+00:12:43,840 --> 00:12:46,960
+ So obviously it's very complicated, requires a lot of
+
+272
+00:12:46,960 --> 00:12:50,000
+ on-chain data and analytics and forensics,
+
+273
+00:12:50,000 --> 00:12:52,960
+ but we've done an internal analysis taking this approach
+
+274
+00:12:52,960 --> 00:12:56,280
+ and I think we've come up with some decent estimates.
+
+275
+00:12:56,280 --> 00:12:57,760
+ - Okay, so the first method is basically
+
+276
+00:12:57,760 --> 00:12:59,280
+ you're starting with the number of active addresses
+
+277
+00:12:59,280 --> 00:13:00,840
+ and you're trying to whittle it down
+
+278
+00:13:00,840 --> 00:13:04,080
+ based on culling the wheat from the chaff,
+
+279
+00:13:04,080 --> 00:13:08,280
+ culling out the addresses that seem transient,
+
+280
+00:13:08,280 --> 00:13:11,880
+ bot-like or low quality.
+
+281
+00:13:11,880 --> 00:13:13,680
+ - Yeah, so this is reducing the ceiling.
+
+282
+00:13:13,680 --> 00:13:15,000
+ We know what the ceiling is.
+
+283
+00:13:15,000 --> 00:13:17,960
+ If there's 220 million monthly active addresses,
+
+284
+00:13:17,960 --> 00:13:19,720
+ then we're trying to lower the ceiling.
+
+285
+00:13:19,720 --> 00:13:22,040
+ And then we can use other methods to try to get
+
+286
+00:13:22,040 --> 00:13:24,360
+ at a reasonable estimate of the floor.
+
+287
+00:13:24,360 --> 00:13:26,600
+ - Okay, so let's walk through method number two then.
+
+288
+00:13:26,600 --> 00:13:28,600
+ So method number two says,
+
+289
+00:13:28,600 --> 00:13:30,520
+ rather than looking at active addresses,
+
+290
+00:13:30,520 --> 00:13:32,160
+ let's look at some other sources of data
+
+291
+00:13:32,160 --> 00:13:35,600
+ that we might have access to, particularly off-chain data.
+
+292
+00:13:35,600 --> 00:13:39,280
+ And I think an obvious place to start here is wallet users.
+
+293
+00:13:39,280 --> 00:13:41,760
+ For example, in February MetaMask,
+
+294
+00:13:41,760 --> 00:13:44,120
+ which is a popular Ethereum wallet,
+
+295
+00:13:44,120 --> 00:13:47,520
+ reported that they had 30 million monthly active users.
+
+296
+00:13:47,520 --> 00:13:50,160
+ And specifically they define an active user
+
+297
+00:13:50,160 --> 00:13:52,320
+ as someone who either loads a page
+
+298
+00:13:52,320 --> 00:13:53,960
+ within the MetaMask extension,
+
+299
+00:13:53,960 --> 00:13:55,800
+ or opens the mobile app at least once
+
+300
+00:13:55,800 --> 00:13:58,400
+ during any 30-day period.
+
+301
+00:13:58,400 --> 00:14:00,640
+ And assuming that we're looking to estimate
+
+302
+00:14:00,640 --> 00:14:01,840
+ transacting users,
+
+303
+00:14:01,840 --> 00:14:03,640
+ we need to make some sort of assumption
+
+304
+00:14:03,640 --> 00:14:06,640
+ on what percentage of MetaMask users
+
+305
+00:14:06,640 --> 00:14:08,680
+ actually end up transacting.
+
+306
+00:14:08,680 --> 00:14:10,680
+ And that requires some research.
+
+307
+00:14:10,680 --> 00:14:12,440
+ I don't think we're gonna find the perfect number.
+
+308
+00:14:12,440 --> 00:14:14,840
+ We do have some sources that we can cite
+
+309
+00:14:14,840 --> 00:14:18,800
+ that say that 30% of users of MetaMask,
+
+310
+00:14:18,800 --> 00:14:21,840
+ at least on a daily basis, actually end up transacting.
+
+311
+00:14:21,840 --> 00:14:24,360
+ And so let's say 30 to 50 million,
+
+312
+00:14:24,360 --> 00:14:26,880
+ you can use some sort of assumption there.
+
+313
+00:14:26,880 --> 00:14:31,880
+ And based on that, you have 10 to 15 million users
+
+314
+00:14:31,880 --> 00:14:33,960
+ that we believe are transacting
+
+315
+00:14:33,960 --> 00:14:36,320
+ through the MetaMask wallet products.
+
+316
+00:14:36,320 --> 00:14:39,200
+ And then all we need to do is try to understand
+
+317
+00:14:39,200 --> 00:14:42,960
+ what MetaMask's market share in the wallet space is.
+
+318
+00:14:42,960 --> 00:14:44,480
+ Of course, the exact data here
+
+319
+00:14:44,480 --> 00:14:46,240
+ is not gonna be readily available,
+
+320
+00:14:46,240 --> 00:14:49,600
+ but we can make some educated guesses based on what we know.
+
+321
+00:14:49,600 --> 00:14:52,640
+ For example, we do get pretty good estimates
+
+322
+00:14:52,640 --> 00:14:56,240
+ of MetaMask's market share on the mobile wallet side
+
+323
+00:14:56,240 --> 00:14:58,920
+ based on some data that we get from sensor tower.
+
+324
+00:14:58,920 --> 00:15:01,720
+ And so once we are able to estimate
+
+325
+00:15:01,720 --> 00:15:03,400
+ what MetaMask's market share is,
+
+326
+00:15:03,400 --> 00:15:06,040
+ we can simply extrapolate an estimate
+
+327
+00:15:06,040 --> 00:15:07,800
+ for the total number of crypto users
+
+328
+00:15:07,800 --> 00:15:11,560
+ from that 10 to 15 million that we discussed earlier
+
+329
+00:15:11,560 --> 00:15:14,600
+ and then compare the results to approach number one,
+
+330
+00:15:14,600 --> 00:15:17,120
+ the filtering from active addresses
+
+331
+00:15:17,120 --> 00:15:20,640
+ to sort of triangulate on at least a range
+
+332
+00:15:20,640 --> 00:15:22,800
+ that we feel is in the right ballpark.
+
+333
+00:15:22,800 --> 00:15:24,920
+ And by the way, it doesn't just have to be MetaMask.
+
+334
+00:15:24,920 --> 00:15:26,920
+ We can also run this exact analysis
+
+335
+00:15:26,920 --> 00:15:29,200
+ for other wallet providers
+
+336
+00:15:29,200 --> 00:15:31,440
+ who have either reported their numbers publicly
+
+337
+00:15:31,440 --> 00:15:33,960
+ or are willing to share their proprietary data.
+
+338
+00:15:33,960 --> 00:15:34,880
+ And then as I mentioned,
+
+339
+00:15:34,880 --> 00:15:37,720
+ just kind of triangulate on a range based on
+
+340
+00:15:37,720 --> 00:15:39,520
+ all of the information that we have.
+
+341
+00:15:39,520 --> 00:15:40,840
+ So we have done this.
+
+342
+00:15:40,840 --> 00:15:43,280
+ We have done this internal analysis.
+
+343
+00:15:43,280 --> 00:15:45,000
+ It is definitely not perfect.
+
+344
+00:15:45,000 --> 00:15:49,120
+ I'm not claiming at all that we are super, super scientific
+
+345
+00:15:49,120 --> 00:15:51,440
+ about this, but we feel comfortable saying
+
+346
+00:15:51,440 --> 00:15:54,280
+ that we think there are 30 to 60 million
+
+347
+00:15:54,280 --> 00:15:58,600
+ real monthly transacting crypto users today.
+
+348
+00:15:58,600 --> 00:16:01,040
+ Of course, this is still a small percentage
+
+349
+00:16:01,040 --> 00:16:03,200
+ of the monthly active addresses.
+
+350
+00:16:03,200 --> 00:16:05,800
+ It's 14 to 27%.
+
+351
+00:16:05,800 --> 00:16:07,680
+ And an even smaller percentage actually
+
+352
+00:16:07,680 --> 00:16:10,960
+ of the total number of people who own crypto,
+
+353
+00:16:10,960 --> 00:16:13,240
+ but do not necessarily transact with crypto,
+
+354
+00:16:13,240 --> 00:16:15,480
+ it's actually only five to 10%
+
+355
+00:16:15,480 --> 00:16:19,320
+ of the 617 million reported by crypto.com,
+
+356
+00:16:19,320 --> 00:16:21,320
+ which means there's a huge opportunity here, right?
+
+357
+00:16:21,320 --> 00:16:23,720
+ To convert existing crypto owners
+
+358
+00:16:23,720 --> 00:16:27,320
+ into active crypto users by bringing them on chain.
+
+359
+00:16:27,320 --> 00:16:30,360
+ - So the point is to say is not that,
+
+360
+00:16:30,360 --> 00:16:32,920
+ well, the Sibil analysis is perfect.
+
+361
+00:16:32,920 --> 00:16:37,200
+ And we can end up at a flawless classification
+
+362
+00:16:37,200 --> 00:16:39,760
+ of which addresses are real humans and not.
+
+363
+00:16:39,760 --> 00:16:43,160
+ The point here is to get sort of an order of magnitude range
+
+364
+00:16:43,160 --> 00:16:45,360
+ so that we can look at growth.
+
+365
+00:16:45,360 --> 00:16:46,280
+ That's the goal.
+
+366
+00:16:46,280 --> 00:16:49,160
+ The goal is to be able to look back retrospectively
+
+367
+00:16:49,160 --> 00:16:51,720
+ and say, we're bigger than we were last year.
+
+368
+00:16:51,720 --> 00:16:53,920
+ We're bigger than we were before that.
+
+369
+00:16:53,920 --> 00:16:57,200
+ And see approximately how things are developing.
+
+370
+00:16:57,200 --> 00:16:58,920
+ - I also have this kind of like funny way
+
+371
+00:16:58,920 --> 00:17:01,600
+ of thinking about this too, where I'm like,
+
+372
+00:17:01,600 --> 00:17:04,320
+ well, maybe we're entering this new internet world
+
+373
+00:17:04,320 --> 00:17:08,000
+ where actually AI and bots and these things
+
+374
+00:17:08,000 --> 00:17:11,240
+ that are farming right now for rewards
+
+375
+00:17:11,240 --> 00:17:13,200
+ and trying to snatch up incentives
+
+376
+00:17:13,200 --> 00:17:15,360
+ that certain projects are offering.
+
+377
+00:17:15,360 --> 00:17:18,000
+ Maybe we're entering an internet where like bots and AI
+
+378
+00:17:18,000 --> 00:17:20,080
+ are just infused everywhere.
+
+379
+00:17:20,080 --> 00:17:23,680
+ Like why are humans the major metric?
+
+380
+00:17:23,680 --> 00:17:26,160
+ - Yeah, and look, I don't wanna get too sci-fi,
+
+381
+00:17:26,160 --> 00:17:29,360
+ but everything is many to many now.
+
+382
+00:17:29,360 --> 00:17:31,640
+ Everything in a networked world is many to many.
+
+383
+00:17:31,640 --> 00:17:34,240
+ By that, I mean like, does one person have a credit card?
+
+384
+00:17:34,240 --> 00:17:35,480
+ No, you have many.
+
+385
+00:17:35,480 --> 00:17:37,400
+ Is a credit card only used by one person?
+
+386
+00:17:37,400 --> 00:17:41,480
+ No, like there are many internet accounts, cars.
+
+387
+00:17:41,480 --> 00:17:45,120
+ Just everything is totally intertwined and entangled.
+
+388
+00:17:45,120 --> 00:17:48,760
+ And as we add AI agents and other such things,
+
+389
+00:17:48,760 --> 00:17:51,240
+ it's gonna get even crazier.
+
+390
+00:17:51,240 --> 00:17:54,320
+ In a way, what we really want is we want to measure
+
+391
+00:17:54,320 --> 00:17:58,880
+ the attentional capacity that things command, right?
+
+392
+00:17:58,880 --> 00:18:01,640
+ The total amount of like cognitive bandwidth
+
+393
+00:18:01,640 --> 00:18:04,200
+ that they are commanding from the environment.
+
+394
+00:18:04,200 --> 00:18:07,160
+ But that's a really like sci-fi way out there
+
+395
+00:18:07,160 --> 00:18:10,360
+ getting kind of kooky conversation to have, Robert.
+
+396
+00:18:10,360 --> 00:18:11,720
+ - Next year's state of crypto report,
+
+397
+00:18:11,720 --> 00:18:14,560
+ can we measure cognitive bandwidth?
+
+398
+00:18:14,560 --> 00:18:17,880
+ All right, so if we're sizing up the market,
+
+399
+00:18:17,880 --> 00:18:20,200
+ when we're looking at actual users
+
+400
+00:18:20,200 --> 00:18:22,840
+ and trying to think about the people who are using
+
+401
+00:18:22,840 --> 00:18:25,320
+ interacting with crypto on a monthly basis,
+
+402
+00:18:25,320 --> 00:18:30,320
+ actual humans, we're looking at around 30 to 60 million,
+
+403
+00:18:30,320 --> 00:18:33,400
+ which is, as you said, 5 to 10% of the people
+
+404
+00:18:33,400 --> 00:18:35,360
+ who own crypto globally,
+
+405
+00:18:35,360 --> 00:18:38,520
+ and also a fraction of the active addresses too.
+
+406
+00:18:38,520 --> 00:18:40,040
+ Why such a wide range?
+
+407
+00:18:40,040 --> 00:18:41,240
+ Why 30 to 60?
+
+408
+00:18:41,240 --> 00:18:43,720
+ Like, can you not get any more precise about it?
+
+409
+00:18:43,720 --> 00:18:45,240
+ - I think if anybody has a problem
+
+410
+00:18:45,240 --> 00:18:46,880
+ after they hear the methodology,
+
+411
+00:18:46,880 --> 00:18:49,360
+ they might complain that it's not wide enough, right?
+
+412
+00:18:49,360 --> 00:18:50,520
+ And maybe it should be wider.
+
+413
+00:18:50,520 --> 00:18:53,280
+ Maybe it's 20 to 70 or 20 to 80 or something.
+
+414
+00:18:53,280 --> 00:18:55,880
+ It's hard to say exactly, very open to that.
+
+415
+00:18:55,880 --> 00:19:00,440
+ We're not pretending that this is a totally flawless analysis.
+
+416
+00:19:00,440 --> 00:19:02,360
+ The reason for the range is just contained
+
+417
+00:19:02,360 --> 00:19:03,720
+ in Darren's reasoning, right?
+
+418
+00:19:03,720 --> 00:19:05,160
+ Like, we had to make some estimates.
+
+419
+00:19:05,160 --> 00:19:06,680
+ There's some things you have to kind of guess,
+
+420
+00:19:06,680 --> 00:19:08,720
+ like the ratio of monthly active users
+
+421
+00:19:08,720 --> 00:19:12,280
+ is reported by minimask to the proportion of them
+
+422
+00:19:12,280 --> 00:19:15,240
+ that actually do transact per month
+
+423
+00:19:15,240 --> 00:19:17,640
+ they were by becoming an active address, right?
+
+424
+00:19:17,640 --> 00:19:20,440
+ Like, those are just things that we have to estimate.
+
+425
+00:19:20,440 --> 00:19:22,040
+ - And I think it helps even just to think
+
+426
+00:19:22,040 --> 00:19:25,360
+ in orders of magnitude, like what we're looking at here.
+
+427
+00:19:25,360 --> 00:19:28,600
+ The fact that active monthly users of crypto
+
+428
+00:19:28,600 --> 00:19:31,000
+ is about tens of millions
+
+429
+00:19:31,000 --> 00:19:34,880
+ and global owners of crypto is hundreds of millions.
+
+430
+00:19:34,880 --> 00:19:37,000
+ There is a gap, there's a gulf there,
+
+431
+00:19:37,000 --> 00:19:40,480
+ but we're beginning to see the sort of outline
+
+432
+00:19:40,480 --> 00:19:43,760
+ of the market that we're trying to size up here.
+
+433
+00:19:43,760 --> 00:19:44,760
+ - That's right.
+
+434
+00:19:44,760 --> 00:19:47,640
+ - One thing that will be apparent to anybody
+
+435
+00:19:47,640 --> 00:19:50,120
+ who looks at this report is that
+
+436
+00:19:50,120 --> 00:19:53,280
+ it's not just that active addresses are at an all-time high,
+
+437
+00:19:53,280 --> 00:19:55,400
+ it's that there are a few blockchains
+
+438
+00:19:55,400 --> 00:19:57,240
+ that are driving this.
+
+439
+00:19:57,240 --> 00:19:58,680
+ One of them is Solana.
+
+440
+00:19:58,680 --> 00:19:59,880
+ Solana is far and away,
+
+441
+00:19:59,880 --> 00:20:03,160
+ got the most active addresses of any blockchain network
+
+442
+00:20:03,160 --> 00:20:04,760
+ that we looked at.
+
+443
+00:20:04,760 --> 00:20:07,380
+ It's got 100 million or so.
+
+444
+00:20:07,380 --> 00:20:09,840
+ What's going on there?
+
+445
+00:20:09,840 --> 00:20:12,440
+ - Well, I think the obvious answer here is that
+
+446
+00:20:12,440 --> 00:20:16,240
+ the blockchains that have the most active users
+
+447
+00:20:16,240 --> 00:20:20,080
+ are the ones that it's cheapest to transact on, right?
+
+448
+00:20:20,080 --> 00:20:24,280
+ And so blockchains like Solana are very, very cheap,
+
+449
+00:20:24,280 --> 00:20:28,800
+ which means it's very low cost to set up bots and sibbles.
+
+450
+00:20:28,800 --> 00:20:31,680
+ We also got some interesting data from the Artemis team,
+
+451
+00:20:31,680 --> 00:20:34,520
+ and we have found that on blockchains like Solana,
+
+452
+00:20:34,520 --> 00:20:38,240
+ a large portion of the activity is simply one-time use
+
+453
+00:20:38,240 --> 00:20:40,880
+ or two-time use, which indicates that
+
+454
+00:20:40,880 --> 00:20:43,880
+ there is a larger percentage of bots and sibbles
+
+455
+00:20:43,880 --> 00:20:45,280
+ on these low-cost chains.
+
+456
+00:20:45,280 --> 00:20:49,120
+ And so I would take all of the face value
+
+457
+00:20:49,120 --> 00:20:52,120
+ monthly active addresses by chain data
+
+458
+00:20:52,120 --> 00:20:54,520
+ with a big grain of salt because there, of course,
+
+459
+00:20:54,520 --> 00:20:57,000
+ is lots of nuance associated with this.
+
+460
+00:20:57,000 --> 00:20:58,560
+ But with all that being said,
+
+461
+00:20:58,560 --> 00:21:01,920
+ base and Solana were some of the top destinations
+
+462
+00:21:01,920 --> 00:21:03,880
+ for crypto users in 2024.
+
+463
+00:21:03,880 --> 00:21:07,440
+ I don't want to take away from the great growth
+
+464
+00:21:07,440 --> 00:21:11,680
+ and development that those ecosystems have seen this year.
+
+465
+00:21:11,680 --> 00:21:13,600
+ - Yeah, base has the most active addresses
+
+466
+00:21:13,600 --> 00:21:15,760
+ of any Ethereum chain that we looked at
+
+467
+00:21:15,760 --> 00:21:18,440
+ at 22 million exceeding even Ethereum,
+
+468
+00:21:18,440 --> 00:21:20,040
+ which has 6 million.
+
+469
+00:21:20,040 --> 00:21:22,280
+ So clearly, they've struck a chord.
+
+470
+00:21:22,280 --> 00:21:23,120
+ - Totally.
+
+471
+00:21:23,120 --> 00:21:25,880
+ - I was also interested to see Bitcoin up there.
+
+472
+00:21:25,880 --> 00:21:29,880
+ Like, Bitcoin's got 11 million by our count.
+
+473
+00:21:29,880 --> 00:21:32,440
+ - Totally, and to keep going on this point,
+
+474
+00:21:32,440 --> 00:21:36,520
+ like the cost to transact on Bitcoin is not near zero, right?
+
+475
+00:21:36,520 --> 00:21:39,960
+ Which means there is likely to be less bots
+
+476
+00:21:39,960 --> 00:21:43,000
+ and sibbles on the Bitcoin blockchain.
+
+477
+00:21:43,000 --> 00:21:47,640
+ And so you can kind of take that number more at face value,
+
+478
+00:21:47,640 --> 00:21:50,240
+ certainly Bitcoin has been an ecosystem
+
+479
+00:21:50,240 --> 00:21:52,960
+ that we've seen more builders actually try
+
+480
+00:21:52,960 --> 00:21:55,760
+ to build new products and applications
+
+481
+00:21:55,760 --> 00:21:57,280
+ on the Bitcoin blockchain.
+
+482
+00:21:57,280 --> 00:22:01,000
+ And I think it's gotten very mainstream attention
+
+483
+00:22:01,000 --> 00:22:03,840
+ with a lot of top politicians talking about it.
+
+484
+00:22:03,840 --> 00:22:07,520
+ So I think definitely a good year for Bitcoin.
+
+485
+00:22:07,520 --> 00:22:08,360
+ - Definitely.
+
+486
+00:22:08,360 --> 00:22:10,240
+ I mean, like the strategic Bitcoin reserve,
+
+487
+00:22:10,240 --> 00:22:14,360
+ once a niche idea is becoming more mainstream.
+
+488
+00:22:15,280 --> 00:22:17,680
+ - Yeah, and to add to Darren's point, all in all,
+
+489
+00:22:17,680 --> 00:22:19,760
+ I think it's a lot more difficult
+
+490
+00:22:19,760 --> 00:22:21,520
+ to look at Bitcoin activity and say
+
+491
+00:22:21,520 --> 00:22:23,920
+ that it's largely driven by sibbles.
+
+492
+00:22:23,920 --> 00:22:27,440
+ I think that's just a lot more difficult to believe.
+
+493
+00:22:27,440 --> 00:22:29,920
+ So if activity is positive on Bitcoin,
+
+494
+00:22:29,920 --> 00:22:33,320
+ the implication is that there's probably an increase
+
+495
+00:22:33,320 --> 00:22:36,040
+ in real activity across the rest of the space.
+
+496
+00:22:36,040 --> 00:22:37,600
+ I mean, take with a grain of salt,
+
+497
+00:22:37,600 --> 00:22:40,080
+ but I think that that's likely to be true.
+
+498
+00:22:40,080 --> 00:22:42,200
+ - So we're talking about some of these blockchain networks
+
+499
+00:22:42,200 --> 00:22:46,040
+ that have had a lot of activity and interest
+
+500
+00:22:46,040 --> 00:22:47,240
+ over the past year.
+
+501
+00:22:47,240 --> 00:22:50,080
+ We mentioned Solano, base, even Bitcoin.
+
+502
+00:22:50,080 --> 00:22:52,280
+ One of the most exciting things I think
+
+503
+00:22:52,280 --> 00:22:53,880
+ about this year's state of crypto report
+
+504
+00:22:53,880 --> 00:22:58,880
+ is this segment that we've dedicated to builder energy.
+
+505
+00:22:58,880 --> 00:23:02,280
+ This idea of looking at everything that founders
+
+506
+00:23:02,280 --> 00:23:05,400
+ are telling us about where they're building,
+
+507
+00:23:05,400 --> 00:23:06,480
+ what they're interested in,
+
+508
+00:23:06,480 --> 00:23:10,320
+ and where their activities and energies are directed toward.
+
+509
+00:23:10,320 --> 00:23:13,760
+ I think that that is gonna be a mainstay feature
+
+510
+00:23:13,760 --> 00:23:15,760
+ of future reports.
+
+511
+00:23:15,760 --> 00:23:18,040
+ - The big context is that I think the heartbeat
+
+512
+00:23:18,040 --> 00:23:19,720
+ of the crypto industry is, of course,
+
+513
+00:23:19,720 --> 00:23:22,880
+ all of the builders who are building the products
+
+514
+00:23:22,880 --> 00:23:25,240
+ and infrastructure to make this all work.
+
+515
+00:23:25,240 --> 00:23:29,000
+ And we meet with and engage with thousands of companies
+
+516
+00:23:29,000 --> 00:23:32,200
+ every year as part of our course of business
+
+517
+00:23:32,200 --> 00:23:36,480
+ through investment team research, our crypto startup accelerator.
+
+518
+00:23:36,480 --> 00:23:39,440
+ We do some external deal tracking.
+
+519
+00:23:39,440 --> 00:23:43,080
+ And for the first time, we now have a lot of tools internally
+
+520
+00:23:43,080 --> 00:23:46,480
+ that allow us to normalize a lot of that data,
+
+521
+00:23:46,480 --> 00:23:50,960
+ aggregate it in a way that we can share some of that data
+
+522
+00:23:50,960 --> 00:23:54,520
+ externally so that people could see the bigger trends here
+
+523
+00:23:54,520 --> 00:23:58,840
+ across blockchains, geographies, technologies and categories.
+
+524
+00:23:58,840 --> 00:23:59,840
+ And we've done that.
+
+525
+00:23:59,840 --> 00:24:02,360
+ We've made actually a dashboard that we call
+
+526
+00:24:02,360 --> 00:24:04,520
+ the builder energy dashboard.
+
+527
+00:24:04,520 --> 00:24:09,120
+ It has some very cool interactive data visualizations
+
+528
+00:24:09,120 --> 00:24:10,960
+ around all this data.
+
+529
+00:24:10,960 --> 00:24:15,320
+ And you can check it out at builderenergy.a16zcrypto.com.
+
+530
+00:24:15,320 --> 00:24:17,960
+ - One thing I'll point out is we were talking about
+
+531
+00:24:17,960 --> 00:24:20,160
+ blockchains that have the most active addresses.
+
+532
+00:24:20,160 --> 00:24:22,400
+ And it's interesting to me that it sort of lines up
+
+533
+00:24:22,400 --> 00:24:25,480
+ with where builders are interested in building on
+
+534
+00:24:25,480 --> 00:24:27,000
+ and what they are building on.
+
+535
+00:24:27,000 --> 00:24:31,920
+ We've seen more and more builders interested in Solana.
+
+536
+00:24:31,920 --> 00:24:34,080
+ And actually building projects on Solana.
+
+537
+00:24:34,080 --> 00:24:36,720
+ That was the biggest jump in interest
+
+538
+00:24:36,720 --> 00:24:41,600
+ that any blockchain had seen between this year and last year.
+
+539
+00:24:41,600 --> 00:24:44,040
+ Base as well, super high up there.
+
+540
+00:24:44,040 --> 00:24:46,120
+ And even Bitcoin in slot number three
+
+541
+00:24:46,120 --> 00:24:48,880
+ had a really big bump in people who want to build on it.
+
+542
+00:24:48,880 --> 00:24:51,920
+ - Yep. And maybe just to add one clarifying point here,
+
+543
+00:24:51,920 --> 00:24:54,840
+ the way that we source this data comes from a question
+
+544
+00:24:54,840 --> 00:24:56,880
+ that we ask founders and builders.
+
+545
+00:24:56,880 --> 00:24:59,800
+ We ask them simply what blockchain ecosystems
+
+546
+00:24:59,800 --> 00:25:01,400
+ would you be interested in building on?
+
+547
+00:25:01,400 --> 00:25:04,280
+ So it does not mean that there are this many builders
+
+548
+00:25:04,280 --> 00:25:06,200
+ specifically deploying contracts
+
+549
+00:25:06,200 --> 00:25:08,640
+ or that there are a certain number of protocols
+
+550
+00:25:08,640 --> 00:25:09,560
+ on these blockchains.
+
+551
+00:25:09,560 --> 00:25:12,600
+ It simply just means kind of where generally speaking
+
+552
+00:25:12,600 --> 00:25:15,440
+ are these builders interested in building on.
+
+553
+00:25:15,440 --> 00:25:20,280
+ And I'd say still today, Ethereum and all of the layer twos,
+
+554
+00:25:20,280 --> 00:25:24,480
+ including base and arbitrum and optimism and ZK sync
+
+555
+00:25:24,480 --> 00:25:27,080
+ and the others still capture a majority
+
+556
+00:25:27,080 --> 00:25:28,920
+ of the builder mind share.
+
+557
+00:25:28,920 --> 00:25:30,800
+ So I think those were the key takeaways from that data.
+
+558
+00:25:30,800 --> 00:25:32,360
+ But you can check it out yourself
+
+559
+00:25:32,360 --> 00:25:34,240
+ by looking at the dashboard.
+
+560
+00:25:34,240 --> 00:25:35,280
+ - Excellent.
+
+561
+00:25:35,280 --> 00:25:37,560
+ So this is an election year
+
+562
+00:25:37,560 --> 00:25:42,240
+ and crypto has become a part of the national conversation.
+
+563
+00:25:42,240 --> 00:25:45,320
+ People are talking about it, politicians are talking about it,
+
+564
+00:25:45,320 --> 00:25:47,400
+ candidates for the office of the president
+
+565
+00:25:47,400 --> 00:25:49,240
+ are talking about it.
+
+566
+00:25:49,240 --> 00:25:54,240
+ What have we found about how crypto has sort of changed
+
+567
+00:25:54,240 --> 00:25:57,360
+ from last year when we did the report to this year
+
+568
+00:25:57,360 --> 00:26:00,920
+ when it comes to a policy perspective?
+
+569
+00:26:00,920 --> 00:26:04,080
+ - Yeah. So crypto has become political in this sense
+
+570
+00:26:04,080 --> 00:26:08,120
+ that the crypto industry believes that political engagements
+
+571
+00:26:08,120 --> 00:26:11,880
+ can help resolve some of its major challenges.
+
+572
+00:26:11,880 --> 00:26:15,440
+ And a big question is whether that has made it
+
+573
+00:26:15,440 --> 00:26:16,840
+ to the mainstream or not.
+
+574
+00:26:16,840 --> 00:26:20,000
+ Have the crypto industry's issues become something
+
+575
+00:26:20,000 --> 00:26:24,600
+ that some voters or enough voters care about?
+
+576
+00:26:24,600 --> 00:26:26,640
+ - Probably for me, the most interesting slide
+
+577
+00:26:26,640 --> 00:26:28,640
+ in the policy section of this report
+
+578
+00:26:28,640 --> 00:26:33,000
+ is this analysis of the crypto interest
+
+579
+00:26:33,000 --> 00:26:37,040
+ that we're seeing within various states of the union.
+
+580
+00:26:37,040 --> 00:26:39,560
+ Walk us through this analysis that you did here
+
+581
+00:26:39,560 --> 00:26:41,000
+ and what you found.
+
+582
+00:26:41,000 --> 00:26:43,960
+ - I think everybody knows that this presidential election
+
+583
+00:26:43,960 --> 00:26:46,040
+ is shaping up to be a very tight race.
+
+584
+00:26:46,040 --> 00:26:48,840
+ I think it will likely be decided by a handful of counties
+
+585
+00:26:48,840 --> 00:26:50,800
+ in a handful of swing states.
+
+586
+00:26:50,800 --> 00:26:53,720
+ And so we wanted to at least understand
+
+587
+00:26:53,720 --> 00:26:57,280
+ is the interest based on some of the data that we have,
+
+588
+00:26:57,280 --> 00:27:01,080
+ is it growing or shrinking across these different states?
+
+589
+00:27:01,080 --> 00:27:04,400
+ And so we basically used Google Trends data.
+
+590
+00:27:04,400 --> 00:27:07,280
+ We looked at a basket of search terms
+
+591
+00:27:07,280 --> 00:27:08,520
+ that were relevant to crypto.
+
+592
+00:27:08,520 --> 00:27:12,080
+ So we looked at Bitcoin, Ethereum and crypto.
+
+593
+00:27:12,080 --> 00:27:16,200
+ And we looked specifically at the relative change
+
+594
+00:27:16,200 --> 00:27:19,760
+ in search interest as defined by Google Trends
+
+595
+00:27:19,760 --> 00:27:22,400
+ from 2020 to 2024.
+
+596
+00:27:22,400 --> 00:27:25,040
+ And we looked at which ones increased in rank
+
+597
+00:27:25,040 --> 00:27:27,720
+ and which states decreased in rank.
+
+598
+00:27:27,720 --> 00:27:30,280
+ And then we basically plotted that on a map
+
+599
+00:27:30,280 --> 00:27:32,720
+ and showed which ones had the highest growth,
+
+600
+00:27:32,720 --> 00:27:34,960
+ which once had the highest declines
+
+601
+00:27:34,960 --> 00:27:37,720
+ and then basically plotted all of that data.
+
+602
+00:27:37,720 --> 00:27:40,320
+ And I think if we look at the swing states specifically,
+
+603
+00:27:40,320 --> 00:27:42,800
+ I think the most interesting takeaway is that
+
+604
+00:27:42,800 --> 00:27:46,560
+ Pennsylvania and Wisconsin actually had top five.
+
+605
+00:27:46,560 --> 00:27:49,280
+ I think there were fourth and fifth in the ranks
+
+606
+00:27:49,280 --> 00:27:53,600
+ by change in this relative crypto related search interest
+
+607
+00:27:53,600 --> 00:27:54,720
+ since 2020.
+
+608
+00:27:54,720 --> 00:27:57,600
+ And these are some of the tightest races currently
+
+609
+00:27:57,600 --> 00:28:00,720
+ as indicated by various prediction markets.
+
+610
+00:28:00,720 --> 00:28:04,280
+ And so I think there is many different factors at play
+
+611
+00:28:04,280 --> 00:28:07,000
+ and you need to be careful in what you conclude
+
+612
+00:28:07,000 --> 00:28:10,400
+ from a very simple analysis like this alone.
+
+613
+00:28:10,400 --> 00:28:12,240
+ But I think there is some evidence to suggest
+
+614
+00:28:12,240 --> 00:28:17,280
+ that crypto is relevant here and could have an impact.
+
+615
+00:28:17,280 --> 00:28:19,160
+ - Yeah, I mean, it's not a sentiment analysis.
+
+616
+00:28:19,160 --> 00:28:21,520
+ So we don't know exactly what those people
+
+617
+00:28:21,520 --> 00:28:24,000
+ who are searching for these crypto terms
+
+618
+00:28:24,000 --> 00:28:25,480
+ actually think about crypto.
+
+619
+00:28:25,480 --> 00:28:29,200
+ But we do know that they are searching for crypto terms
+
+620
+00:28:29,200 --> 00:28:31,520
+ which just kind of indicates general interest
+
+621
+00:28:31,520 --> 00:28:35,840
+ and is pretty interesting to note in and of itself.
+
+622
+00:28:35,840 --> 00:28:38,560
+ You mentioned Pennsylvania and Wisconsin in the top five.
+
+623
+00:28:38,560 --> 00:28:40,020
+ Michigan is I believe number eight.
+
+624
+00:28:40,020 --> 00:28:42,160
+ So that's in the top 10.
+
+625
+00:28:42,160 --> 00:28:44,040
+ And then there were some declines.
+
+626
+00:28:44,040 --> 00:28:46,840
+ Some states saw a little bit of a drop in interest.
+
+627
+00:28:46,840 --> 00:28:48,560
+ One of those is Nevada,
+
+628
+00:28:48,560 --> 00:28:51,720
+ a place that has the city of Las Vegas,
+
+629
+00:28:51,720 --> 00:28:53,200
+ which is often associated with gambling.
+
+630
+00:28:53,200 --> 00:28:57,960
+ So if there's less crypto interest in Nevada,
+
+631
+00:28:57,960 --> 00:29:00,640
+ I don't know that that's necessarily a bad thing.
+
+632
+00:29:00,640 --> 00:29:02,360
+ But it is really interesting to see that, yeah,
+
+633
+00:29:02,360 --> 00:29:05,920
+ this election could come down to a few counties
+
+634
+00:29:05,920 --> 00:29:07,960
+ in a few states and these are places
+
+635
+00:29:07,960 --> 00:29:11,080
+ where there is increasing interest in crypto,
+
+636
+00:29:11,080 --> 00:29:14,440
+ especially since last election in 2020.
+
+637
+00:29:14,440 --> 00:29:16,160
+ - And just to add clarifying detail,
+
+638
+00:29:16,160 --> 00:29:18,320
+ all of this data is by default
+
+639
+00:29:18,320 --> 00:29:20,640
+ from Google Trends population adjusted.
+
+640
+00:29:20,640 --> 00:29:24,360
+ So they are representing this data as a percentage
+
+641
+00:29:24,360 --> 00:29:27,240
+ of the total searches in the region.
+
+642
+00:29:27,240 --> 00:29:28,800
+ We don't actually have visibility
+
+643
+00:29:28,800 --> 00:29:32,680
+ into the actual total numbers by state.
+
+644
+00:29:32,680 --> 00:29:33,520
+ - That's right.
+
+645
+00:29:33,520 --> 00:29:35,760
+ And total numbers anyway would be sort of skewed
+
+646
+00:29:35,760 --> 00:29:39,280
+ just toward the states that have the biggest populations,
+
+647
+00:29:39,280 --> 00:29:42,040
+ which wouldn't be extremely informative.
+
+648
+00:29:42,040 --> 00:29:43,560
+ Another really big thing that happened this year
+
+649
+00:29:43,560 --> 00:29:46,680
+ from a policy perspective was the Bitcoin
+
+650
+00:29:46,680 --> 00:29:50,400
+ and Ethereum exchange traded products were approved.
+
+651
+00:29:50,400 --> 00:29:53,960
+ And I'm deliberately calling them exchange traded products,
+
+652
+00:29:53,960 --> 00:29:58,080
+ ETPs and not ETFs because ETFs,
+
+653
+00:29:58,080 --> 00:30:00,360
+ while they are a form of ETP,
+
+654
+00:30:00,360 --> 00:30:03,640
+ the underlying portfolios of them would have securities.
+
+655
+00:30:03,640 --> 00:30:07,760
+ Whereas in this case, these crypto ETPs were registered
+
+656
+00:30:07,760 --> 00:30:09,840
+ with the SEC in a way that indicates
+
+657
+00:30:09,840 --> 00:30:11,600
+ the underlying portfolios are not securities.
+
+658
+00:30:11,600 --> 00:30:13,320
+ Anyway, that's a really important point,
+
+659
+00:30:13,320 --> 00:30:17,320
+ but it is the first time we've ever had these market products
+
+660
+00:30:17,320 --> 00:30:20,880
+ accessible on major stock markets.
+
+661
+00:30:20,880 --> 00:30:22,560
+ It's kind of a big deal.
+
+662
+00:30:22,560 --> 00:30:23,760
+ - I think it's a very big deal.
+
+663
+00:30:23,760 --> 00:30:26,640
+ I think it legitimizes crypto as an asset class.
+
+664
+00:30:26,640 --> 00:30:29,800
+ I think it puts us on a path to really having crypto
+
+665
+00:30:29,800 --> 00:30:32,400
+ be a part of every diversified portfolio
+
+666
+00:30:32,400 --> 00:30:34,280
+ and then just makes it much more accessible,
+
+667
+00:30:34,280 --> 00:30:36,200
+ which I think is a good thing.
+
+668
+00:30:36,200 --> 00:30:40,440
+ In the report, we do look at these kind of net inflow numbers
+
+669
+00:30:40,440 --> 00:30:42,240
+ because crypto is all on chain.
+
+670
+00:30:42,240 --> 00:30:46,560
+ We can see when the ETFs are accumulating
+
+671
+00:30:46,560 --> 00:30:50,000
+ and distributing crypto out of these products,
+
+672
+00:30:50,000 --> 00:30:53,400
+ they haven't been all that high relative to expectations.
+
+673
+00:30:53,400 --> 00:30:56,120
+ Maybe it has underwhelmed a bit,
+
+674
+00:30:56,120 --> 00:30:57,440
+ but I have talked to some experts
+
+675
+00:30:57,440 --> 00:31:00,280
+ and they do say that getting the distributors activated
+
+676
+00:31:00,280 --> 00:31:02,640
+ is just something that's gonna take time.
+
+677
+00:31:02,640 --> 00:31:05,360
+ You need to go through a long process.
+
+678
+00:31:05,360 --> 00:31:07,240
+ You need to get it into the model portfolios.
+
+679
+00:31:07,240 --> 00:31:09,200
+ You need to discuss it with your clients.
+
+680
+00:31:09,200 --> 00:31:12,200
+ And I think that could be a multi-year process.
+
+681
+00:31:12,200 --> 00:31:14,440
+ And so I'd keep an eye on those inflow numbers
+
+682
+00:31:14,440 --> 00:31:15,880
+ over the next few years
+
+683
+00:31:15,880 --> 00:31:17,160
+ because now that we have them,
+
+684
+00:31:17,160 --> 00:31:20,440
+ I think a tremendous tailwind for the industry.
+
+685
+00:31:20,440 --> 00:31:22,960
+ - Yeah, I think it absolutely does broaden access
+
+686
+00:31:22,960 --> 00:31:24,440
+ to a whole new segment of investors
+
+687
+00:31:24,440 --> 00:31:27,680
+ that otherwise would not have dabbled with crypto beforehand.
+
+688
+00:31:27,680 --> 00:31:29,160
+ I'm thinking about my dad for one.
+
+689
+00:31:29,160 --> 00:31:30,520
+ He's like, where's the ETF?
+
+690
+00:31:30,520 --> 00:31:32,920
+ Where's the ETP as it were?
+
+691
+00:31:32,920 --> 00:31:35,600
+ 'Cause he's probably not gonna set up a hardware wallet.
+
+692
+00:31:35,600 --> 00:31:36,440
+ All right, okay.
+
+693
+00:31:36,440 --> 00:31:38,600
+ Anyway, so let's dig into some of the other things
+
+694
+00:31:38,600 --> 00:31:40,000
+ we found in this report.
+
+695
+00:31:40,000 --> 00:31:41,120
+ People always ask this question,
+
+696
+00:31:41,120 --> 00:31:42,960
+ where are the crypto applications?
+
+697
+00:31:42,960 --> 00:31:45,200
+ But there's one that's kind of been staring people
+
+698
+00:31:45,200 --> 00:31:47,840
+ on the face for a long time.
+
+699
+00:31:47,840 --> 00:31:50,160
+ And that is stablecoins.
+
+700
+00:31:50,160 --> 00:31:55,160
+ Stablecoins are a product that people are using a lot.
+
+701
+00:31:55,160 --> 00:31:57,840
+ It's a crypto product.
+
+702
+00:31:57,840 --> 00:31:59,440
+ I think people discount that.
+
+703
+00:31:59,440 --> 00:32:03,040
+ - Well, stablecoins have been in crypto for a long time.
+
+704
+00:32:03,040 --> 00:32:05,200
+ In the earlier days, people used to think of them
+
+705
+00:32:05,200 --> 00:32:09,040
+ as something that would end up being for payments.
+
+706
+00:32:09,040 --> 00:32:14,040
+ And very interestingly, what we found in 2021, 2022,
+
+707
+00:32:14,520 --> 00:32:18,240
+ as the stablecoin supply has really started to pop off,
+
+708
+00:32:18,240 --> 00:32:20,400
+ was that they were primarily being used
+
+709
+00:32:20,400 --> 00:32:24,120
+ as a means of settlement between centralized exchanges
+
+710
+00:32:24,120 --> 00:32:28,280
+ and also as collateral for DeFi protocols,
+
+711
+00:32:28,280 --> 00:32:31,120
+ something people could supply and lend in a protocol
+
+712
+00:32:31,120 --> 00:32:34,080
+ and then enable other people to borrow
+
+713
+00:32:34,080 --> 00:32:37,200
+ and create debts denominated in dollars,
+
+714
+00:32:37,200 --> 00:32:38,960
+ which is a lot easier to reason about
+
+715
+00:32:38,960 --> 00:32:42,400
+ than a debt denominated in Ethereum
+
+716
+00:32:42,400 --> 00:32:44,760
+ or some other volatile asset.
+
+717
+00:32:44,760 --> 00:32:47,120
+ Another reason why stablecoins make a lot of sense
+
+718
+00:32:47,120 --> 00:32:49,720
+ as collateral is that if you're borrowing
+
+719
+00:32:49,720 --> 00:32:52,120
+ a fair amount on chain,
+
+720
+00:32:52,120 --> 00:32:56,520
+ it may be totally reasonable to pay a 30, 50
+
+721
+00:32:56,520 --> 00:33:00,920
+ or even $100 transaction fee to perform that borrow
+
+722
+00:33:00,920 --> 00:33:04,040
+ because it still may be meaningfully more affordable
+
+723
+00:33:04,040 --> 00:33:08,480
+ than other ways to engage in an over collateralized loan.
+
+724
+00:33:08,480 --> 00:33:12,280
+ And that is really the type of use case that we saw
+
+725
+00:33:12,280 --> 00:33:17,280
+ for people in 2021 through 2023 period for stablecoins.
+
+726
+00:33:17,280 --> 00:33:22,760
+ But as a result of the infrastructural improvements in 2024,
+
+727
+00:33:22,760 --> 00:33:26,360
+ where lots has come online, not just 4844,
+
+728
+00:33:26,360 --> 00:33:31,080
+ but the proliferation of L2s in Ethereum world generally.
+
+729
+00:33:31,080 --> 00:33:33,720
+ - 4844 being the Denkoon upgrade
+
+730
+00:33:33,720 --> 00:33:36,920
+ that Ethereum went through in March of this year,
+
+731
+00:33:36,920 --> 00:33:38,440
+ also called Protodanksharding.
+
+732
+00:33:38,440 --> 00:33:41,640
+ - Yeah, so as a result of those infrastructural improvements,
+
+733
+00:33:41,640 --> 00:33:45,800
+ as well as increasing adoption in newer generation,
+
+734
+00:33:45,800 --> 00:33:49,640
+ newer architecture or blockchains like Solana,
+
+735
+00:33:49,640 --> 00:33:51,720
+ Sui, many others.
+
+736
+00:33:51,720 --> 00:33:55,920
+ Now sending stablecoins in a single transaction
+
+737
+00:33:55,920 --> 00:33:59,080
+ often costs a penny or less.
+
+738
+00:33:59,080 --> 00:34:01,720
+ So because of this, so just this year,
+
+739
+00:34:01,720 --> 00:34:04,640
+ because of these improvements,
+
+740
+00:34:04,640 --> 00:34:06,760
+ I think a lot of people are talking about stablecoins
+
+741
+00:34:06,760 --> 00:34:09,040
+ as a medium for payment again.
+
+742
+00:34:09,040 --> 00:34:09,960
+ It's really interesting to me
+
+743
+00:34:09,960 --> 00:34:14,360
+ because I can't emphasize enough how in 2022,
+
+744
+00:34:14,360 --> 00:34:15,920
+ this was just a non-start.
+
+745
+00:34:15,920 --> 00:34:16,960
+ Everyone had given up on it.
+
+746
+00:34:16,960 --> 00:34:19,720
+ I don't think I heard the word payment in 2022,
+
+747
+00:34:19,720 --> 00:34:22,320
+ except to debunk the possibility
+
+748
+00:34:22,320 --> 00:34:25,200
+ that stablecoins were being used for payments.
+
+749
+00:34:25,200 --> 00:34:28,160
+ Whereas now it's something that I'm hearing about all the time
+
+750
+00:34:28,160 --> 00:34:31,240
+ and it's not just in a conventional pay for your coffee
+
+751
+00:34:31,240 --> 00:34:33,720
+ with crypto setting, although that is actually
+
+752
+00:34:33,720 --> 00:34:37,240
+ a real possibility Coinbase had a pay for a coffee
+
+753
+00:34:37,240 --> 00:34:39,600
+ with the USDC day in New York, not long ago.
+
+754
+00:34:39,600 --> 00:34:42,560
+ It was a lot of fun, but more concretely,
+
+755
+00:34:42,560 --> 00:34:45,760
+ now people can play with blockchains
+
+756
+00:34:45,760 --> 00:34:47,800
+ as a piece of infrastructure
+
+757
+00:34:47,800 --> 00:34:52,120
+ to potentially bring down interchange fees
+
+758
+00:34:52,120 --> 00:34:55,360
+ and merchant network fees, all the types of fees
+
+759
+00:34:55,360 --> 00:34:59,560
+ that go into settling an actual consumer payment
+
+760
+00:34:59,560 --> 00:35:00,400
+ for something.
+
+761
+00:35:00,400 --> 00:35:03,160
+ I just pre-ordered a book from Stripe Press
+
+762
+00:35:03,160 --> 00:35:06,440
+ with the new Stripe Pay with Crypto feature.
+
+763
+00:35:06,440 --> 00:35:10,160
+ USDC on Solana was fantastic, it was just a really straightforward
+
+764
+00:35:10,160 --> 00:35:11,000
+ experience for me.
+
+765
+00:35:11,000 --> 00:35:13,120
+ Of course, I already have crypto on my wallet,
+
+766
+00:35:13,120 --> 00:35:17,880
+ so that made it pretty convenient, but these are real things.
+
+767
+00:35:17,880 --> 00:35:20,000
+ Right, this is because you've got to still onboard
+
+768
+00:35:20,000 --> 00:35:24,840
+ to like a layer two network, say, an L2, a roll up,
+
+769
+00:35:24,840 --> 00:35:26,400
+ where the fees would be lower.
+
+770
+00:35:26,400 --> 00:35:28,440
+ But once you're there, it becomes quite seamless
+
+771
+00:35:28,440 --> 00:35:30,480
+ to transact and move around.
+
+772
+00:35:30,480 --> 00:35:33,520
+ Yeah, and there's still very meaningful UX challenges.
+
+773
+00:35:33,520 --> 00:35:36,120
+ But the point is to say is like, now this is in the story
+
+774
+00:35:36,120 --> 00:35:37,720
+ and there's a lot of crypto projects
+
+775
+00:35:37,720 --> 00:35:40,160
+ that are interested in trying to improve payments
+
+776
+00:35:40,160 --> 00:35:42,440
+ or aspects of payments or take advantage
+
+777
+00:35:42,440 --> 00:35:46,200
+ of the ease of settling payments internationally,
+
+778
+00:35:46,200 --> 00:35:47,880
+ computationally.
+
+779
+00:35:47,880 --> 00:35:50,320
+ There's all kinds of ways that payments really ought
+
+780
+00:35:50,320 --> 00:35:52,440
+ to be programmed and experimented with.
+
+781
+00:35:52,440 --> 00:35:54,560
+ And now just this year, that's a possibility.
+
+782
+00:35:54,560 --> 00:35:56,960
+ So just to set people's expectations like the way
+
+783
+00:35:56,960 --> 00:36:00,280
+ I like to think about it is now that there is a glut
+
+784
+00:36:00,280 --> 00:36:05,200
+ of supply for being able to transact stablecoin,
+
+785
+00:36:05,200 --> 00:36:08,400
+ dollar-denominated payments, how long will it take
+
+786
+00:36:08,400 --> 00:36:13,480
+ for builders to consume that extra supply
+
+787
+00:36:13,480 --> 00:36:15,400
+ in terms of interesting applications?
+
+788
+00:36:15,400 --> 00:36:17,440
+ It's not instant, people don't realize this,
+
+789
+00:36:17,440 --> 00:36:20,600
+ people kind of like see new technology, it sort of appears.
+
+790
+00:36:20,600 --> 00:36:25,040
+ But from my perspective, it takes at a minimum six months
+
+791
+00:36:25,040 --> 00:36:28,320
+ to start to see people really talk about it.
+
+792
+00:36:28,320 --> 00:36:31,720
+ And then it takes about two years for people
+
+793
+00:36:31,720 --> 00:36:34,800
+ to soak up all of the excess.
+
+794
+00:36:34,800 --> 00:36:37,440
+ This reminds me a lot of the midwitt meme
+
+795
+00:36:37,440 --> 00:36:40,680
+ where it's like maybe it is as simple as just,
+
+796
+00:36:40,680 --> 00:36:43,400
+ when the fees come down, stablecoins work well, right?
+
+797
+00:36:43,400 --> 00:36:46,200
+ When the fees are really high, stablecoins kind of suck.
+
+798
+00:36:46,200 --> 00:36:50,600
+ And so I think to all of the points that Eddie made in 2024,
+
+799
+00:36:50,600 --> 00:36:53,200
+ we made a ton of infrastructure improvements.
+
+800
+00:36:53,200 --> 00:36:55,800
+ It brought fees down just to share some data
+
+801
+00:36:55,800 --> 00:36:57,320
+ from our report on this.
+
+802
+00:36:57,320 --> 00:37:00,680
+ In 2021, to send USDC on Ethereum
+
+803
+00:37:00,680 --> 00:37:03,680
+ using the average gas price, it was about $12.
+
+804
+00:37:03,680 --> 00:37:05,040
+ That's a lot of money.
+
+805
+00:37:05,040 --> 00:37:07,760
+ That was my lunch that I just had today.
+
+806
+00:37:07,760 --> 00:37:09,840
+ - Yeah, and as people took for granted,
+
+807
+00:37:09,840 --> 00:37:11,880
+ that's obviously totally unacceptable
+
+808
+00:37:11,880 --> 00:37:13,320
+ for a payment setting.
+
+809
+00:37:13,320 --> 00:37:16,560
+ Unless you're moving tens of thousands of dollars,
+
+810
+00:37:16,560 --> 00:37:17,760
+ then it actually may be better,
+
+811
+00:37:17,760 --> 00:37:20,240
+ but there's a smaller number of people
+
+812
+00:37:20,240 --> 00:37:21,640
+ who are in that situation.
+
+813
+00:37:21,640 --> 00:37:22,480
+ - Definitely.
+
+814
+00:37:22,480 --> 00:37:27,480
+ Today, if you use USDC on Ethereum, post EIP 4.44,
+
+815
+00:37:27,480 --> 00:37:29,240
+ it's like $1.
+
+816
+00:37:29,240 --> 00:37:33,000
+ But if you use USDC on base, which is a layer two,
+
+817
+00:37:33,000 --> 00:37:34,160
+ it's less than a cent, right?
+
+818
+00:37:34,160 --> 00:37:35,800
+ And so that makes all the difference
+
+819
+00:37:35,800 --> 00:37:38,040
+ when it comes to stablecoin adoption.
+
+820
+00:37:38,040 --> 00:37:42,280
+ And it's no coincidence that 2024 was the year
+
+821
+00:37:42,280 --> 00:37:44,600
+ that stablecoins found product market fit.
+
+822
+00:37:44,600 --> 00:37:46,560
+ And it's I think because it's as simple
+
+823
+00:37:46,560 --> 00:37:48,480
+ as just the infrastructure got better,
+
+824
+00:37:48,480 --> 00:37:50,360
+ these came down and now it works.
+
+825
+00:37:50,360 --> 00:37:52,920
+ - It's really amazing to wrap your head around this
+
+826
+00:37:52,920 --> 00:37:57,560
+ that just a few years ago, it cost $12 to transact.
+
+827
+00:37:57,560 --> 00:37:58,400
+ - Exactly.
+
+828
+00:37:58,400 --> 00:38:00,880
+ It totally changes the applications that are possible.
+
+829
+00:38:00,880 --> 00:38:02,240
+ And I think there's a number of examples
+
+830
+00:38:02,240 --> 00:38:04,640
+ that we can point to that are only now possible
+
+831
+00:38:04,640 --> 00:38:05,800
+ in a low fee environment.
+
+832
+00:38:05,800 --> 00:38:07,920
+ And we do our best to highlight
+
+833
+00:38:07,920 --> 00:38:10,600
+ those emerging applications in the report.
+
+834
+00:38:10,600 --> 00:38:13,160
+ - This doesn't just speak to stablecoins,
+
+835
+00:38:13,160 --> 00:38:16,160
+ it also speaks to other sorts of applications
+
+836
+00:38:16,160 --> 00:38:17,760
+ that weren't possible before.
+
+837
+00:38:17,760 --> 00:38:20,320
+ I mean, I would say the most striking thing to me
+
+838
+00:38:20,320 --> 00:38:24,000
+ in this report compared to past reports was,
+
+839
+00:38:24,000 --> 00:38:28,120
+ look, NFTs were going crazy a few years ago.
+
+840
+00:38:28,120 --> 00:38:30,680
+ The secondary markets, NFTs were trading on them
+
+841
+00:38:30,680 --> 00:38:33,040
+ for billions of dollars regularly.
+
+842
+00:38:33,040 --> 00:38:35,680
+ That activity has subsided.
+
+843
+00:38:35,680 --> 00:38:39,040
+ But now, because fees have come down,
+
+844
+00:38:39,040 --> 00:38:41,480
+ we're seeing totally different sorts
+
+845
+00:38:41,480 --> 00:38:45,000
+ of consumer behaviors arise around NFTs.
+
+846
+00:38:45,000 --> 00:38:48,360
+ I think a lot of people might think that NFTs happened
+
+847
+00:38:48,360 --> 00:38:51,040
+ and then they went away and they're over and done.
+
+848
+00:38:51,040 --> 00:38:54,200
+ And your sort of mainstream listener here
+
+849
+00:38:54,200 --> 00:38:58,040
+ might not realize that they've actually stuck around
+
+850
+00:38:58,040 --> 00:39:00,640
+ and they're just gained traction
+
+851
+00:39:00,640 --> 00:39:02,640
+ in a completely different context.
+
+852
+00:39:02,640 --> 00:39:05,040
+ - Being honest, the NFT market has faced
+
+853
+00:39:05,040 --> 00:39:07,160
+ some pretty tremendous challenges.
+
+854
+00:39:07,160 --> 00:39:10,120
+ There was a lot of speculative activity in prior years.
+
+855
+00:39:10,120 --> 00:39:14,440
+ Very high trading volume, high priced premium collections.
+
+856
+00:39:14,440 --> 00:39:17,840
+ We definitely got over our skis a bit as an industry.
+
+857
+00:39:17,840 --> 00:39:21,240
+ As a result, we've seen a 90 plus percent decrease
+
+858
+00:39:21,240 --> 00:39:23,360
+ in trading volume over the last few years.
+
+859
+00:39:23,360 --> 00:39:25,280
+ There's been a ton of drama around
+
+860
+00:39:25,280 --> 00:39:27,680
+ how creators can enforce royalties.
+
+861
+00:39:27,680 --> 00:39:29,720
+ And so we have faced a lot of challenges
+
+862
+00:39:29,720 --> 00:39:31,720
+ and I think there are some data points
+
+863
+00:39:31,720 --> 00:39:33,920
+ that you can look at that say,
+
+864
+00:39:33,920 --> 00:39:37,640
+ wow, the NFT market really is not what it once was.
+
+865
+00:39:37,640 --> 00:39:40,360
+ And I think that is very true in all senses.
+
+866
+00:39:40,360 --> 00:39:43,400
+ But I think what's also happened at the same time
+
+867
+00:39:43,400 --> 00:39:45,520
+ is to the point we were just discussing
+
+868
+00:39:45,520 --> 00:39:47,720
+ about the infrastructure getting better,
+
+869
+00:39:47,720 --> 00:39:51,040
+ these infrastructure improvements enabled NFTs
+
+870
+00:39:51,040 --> 00:39:54,120
+ to be exchanged and traded and interacted with
+
+871
+00:39:54,120 --> 00:39:57,880
+ at much lower costs, which really kind of shifted
+
+872
+00:39:57,880 --> 00:40:01,200
+ the behavior away from these high volume,
+
+873
+00:40:01,200 --> 00:40:03,880
+ high price speculative secondary markets
+
+874
+00:40:03,880 --> 00:40:08,600
+ into these newer low cost social collecting experiences.
+
+875
+00:40:08,600 --> 00:40:10,480
+ For example, if you look at the number
+
+876
+00:40:10,480 --> 00:40:14,200
+ of NFT collections with 50 plus unique mentors,
+
+877
+00:40:14,200 --> 00:40:16,080
+ the trend is actually very positive.
+
+878
+00:40:16,080 --> 00:40:19,120
+ It means that people are still interacting
+
+879
+00:40:19,120 --> 00:40:21,480
+ and using these NFTs and collecting these NFTs,
+
+880
+00:40:21,480 --> 00:40:24,280
+ but they're doing it much different than they had
+
+881
+00:40:24,280 --> 00:40:26,880
+ in prior years, and this is only possible
+
+882
+00:40:26,880 --> 00:40:28,760
+ in a low fee environment.
+
+883
+00:40:28,760 --> 00:40:30,960
+ You can look at products like Zora today,
+
+884
+00:40:30,960 --> 00:40:32,840
+ you can look at products like Rodeo today,
+
+885
+00:40:32,840 --> 00:40:36,200
+ and there are some really fascinating, cool, new,
+
+886
+00:40:36,200 --> 00:40:40,240
+ emerging cultural behaviors around this social collecting
+
+887
+00:40:40,240 --> 00:40:43,360
+ that I think many people would find really interesting.
+
+888
+00:40:43,360 --> 00:40:46,880
+ And so I would say the NFT market is very much alive,
+
+889
+00:40:46,880 --> 00:40:48,560
+ but I think behavior has shifted
+
+890
+00:40:48,560 --> 00:40:51,000
+ and I think it's all driven by the infrastructure developments
+
+891
+00:40:51,000 --> 00:40:52,600
+ in 2024.
+
+892
+00:40:52,600 --> 00:40:54,200
+ - Yeah, I don't know that there's a perfect way
+
+893
+00:40:54,200 --> 00:40:56,600
+ to communicate what this new behavior is
+
+894
+00:40:56,600 --> 00:40:59,480
+ other than like people like to collect stuff,
+
+895
+00:40:59,480 --> 00:41:01,800
+ and on a social network, you're probably familiar
+
+896
+00:41:01,800 --> 00:41:05,920
+ with liking posts, and I've heard people describe
+
+897
+00:41:05,920 --> 00:41:07,920
+ this new sort of social collecting experience
+
+898
+00:41:07,920 --> 00:41:10,440
+ as a kind of super like behavior,
+
+899
+00:41:10,440 --> 00:41:12,480
+ where you're just expressing
+
+900
+00:41:12,480 --> 00:41:14,560
+ that you're interested in something.
+
+901
+00:41:14,560 --> 00:41:17,440
+ - And critically, it's on the order of magnitude
+
+902
+00:41:17,440 --> 00:41:20,920
+ of like one to two cents per collecting in prior years.
+
+903
+00:41:20,920 --> 00:41:22,840
+ We were paying tens of thousands or hundreds
+
+904
+00:41:22,840 --> 00:41:24,600
+ of thousands of dollars, which of course,
+
+905
+00:41:24,600 --> 00:41:26,640
+ only very few people can afford.
+
+906
+00:41:26,640 --> 00:41:29,520
+ But now we're opening it up to a much broader audience,
+
+907
+00:41:29,520 --> 00:41:33,160
+ which I think is a net positive for the NFT market.
+
+908
+00:41:33,160 --> 00:41:35,880
+ - We gotta recall that the way crypto has developed
+
+909
+00:41:35,880 --> 00:41:37,480
+ is the first thing that you can do,
+
+910
+00:41:37,480 --> 00:41:40,400
+ and actually the simplest thing to do computationally
+
+911
+00:41:40,400 --> 00:41:43,080
+ is just to buy and own the thing.
+
+912
+00:41:43,080 --> 00:41:46,440
+ That is the novel component is being able
+
+913
+00:41:46,440 --> 00:41:50,280
+ to directly own the underlying asset
+
+914
+00:41:50,280 --> 00:41:52,000
+ on this big shared state computer.
+
+915
+00:41:52,000 --> 00:41:56,720
+ Doing more complicated things, like transacting
+
+916
+00:41:56,720 --> 00:41:58,720
+ or mutating the state of a program,
+
+917
+00:41:58,720 --> 00:42:02,720
+ these require much more computational capacity,
+
+918
+00:42:02,720 --> 00:42:05,520
+ in addition to creativity from application designers,
+
+919
+00:42:05,520 --> 00:42:07,560
+ in addition to user experience improvements
+
+920
+00:42:07,560 --> 00:42:10,040
+ to make it easier to do those things.
+
+921
+00:42:10,040 --> 00:42:12,680
+ We're seeing advances on all of those fronts,
+
+922
+00:42:12,680 --> 00:42:14,680
+ and so you should expect the complexity
+
+923
+00:42:14,680 --> 00:42:16,960
+ of what people do with blockchains
+
+924
+00:42:16,960 --> 00:42:18,880
+ to increase over time.
+
+925
+00:42:18,880 --> 00:42:21,240
+ Starting from the simplest, which is just owning
+
+926
+00:42:21,240 --> 00:42:23,360
+ and moving to the more complex things,
+
+927
+00:42:23,360 --> 00:42:25,560
+ interacting with programs.
+
+928
+00:42:25,560 --> 00:42:28,120
+ - Even just the mentorship that it takes to understand
+
+929
+00:42:28,120 --> 00:42:31,720
+ what is activity on a blockchain,
+
+930
+00:42:31,720 --> 00:42:35,840
+ it's affected by this evolution,
+
+931
+00:42:35,840 --> 00:42:38,160
+ where it's not just a money payment system,
+
+932
+00:42:38,160 --> 00:42:40,920
+ it's actually a shared state computer, as you call it, Eddie.
+
+933
+00:42:40,920 --> 00:42:43,760
+ And these interactions can be interactions with applications,
+
+934
+00:42:43,760 --> 00:42:47,480
+ just like people are interacting with websites or something.
+
+935
+00:42:47,480 --> 00:42:51,120
+ All these interactions can be much more expansive
+
+936
+00:42:51,120 --> 00:42:52,880
+ than this sort of limited view of crypto,
+
+937
+00:42:52,880 --> 00:42:54,440
+ just as like a money thing.
+
+938
+00:42:54,440 --> 00:42:55,920
+ - Yeah, and I wanna sketch out like,
+
+939
+00:42:55,920 --> 00:42:58,400
+ there's a pattern to how these things unfold, right?
+
+940
+00:42:58,400 --> 00:43:03,400
+ Just buying an NFT when the costs are very high.
+
+941
+00:43:03,400 --> 00:43:06,240
+ That's the simplest thing you can do,
+
+942
+00:43:06,240 --> 00:43:08,160
+ that's the best supported thing you can do,
+
+943
+00:43:08,160 --> 00:43:09,000
+ and that's probably the only thing
+
+944
+00:43:09,000 --> 00:43:13,200
+ that's reasonable to afford, but NFTs are programmable.
+
+945
+00:43:13,200 --> 00:43:15,760
+ Experimenting with what that looks like
+
+946
+00:43:15,760 --> 00:43:17,640
+ requires low gas fees.
+
+947
+00:43:17,640 --> 00:43:21,240
+ So what I expect, like the exact pattern I would expect
+
+948
+00:43:21,240 --> 00:43:26,240
+ would be speculative boom, with very simple uses,
+
+949
+00:43:26,240 --> 00:43:29,480
+ where most of the interesting things that happen
+
+950
+00:43:29,480 --> 00:43:31,320
+ in the very, very earliest stages
+
+951
+00:43:31,320 --> 00:43:33,960
+ are actually the themes and the ideas that come through
+
+952
+00:43:33,960 --> 00:43:37,080
+ as people sort of imagine what's possible.
+
+953
+00:43:37,080 --> 00:43:39,920
+ You see glimmers of the very exciting things.
+
+954
+00:43:39,920 --> 00:43:42,120
+ Of course, then they run into the pragmatic reality
+
+955
+00:43:42,120 --> 00:43:45,120
+ that it's too expensive, it's developing too slow,
+
+956
+00:43:45,120 --> 00:43:47,200
+ there are certain pragmatic limits.
+
+957
+00:43:47,200 --> 00:43:51,960
+ As those things scale, then experimentation returns,
+
+958
+00:43:51,960 --> 00:43:56,080
+ and then as experimentation develops, more complex
+
+959
+00:43:56,080 --> 00:43:59,320
+ and interesting applications start to take place.
+
+960
+00:43:59,320 --> 00:44:01,720
+ We just described that with stable points.
+
+961
+00:44:01,720 --> 00:44:05,040
+ The exact same thing is gonna happen with NFTs
+
+962
+00:44:05,040 --> 00:44:06,800
+ and with all these different settings.
+
+963
+00:44:06,800 --> 00:44:08,240
+ It's not a crypto specific thing,
+
+964
+00:44:08,240 --> 00:44:11,600
+ I think that's how AI is developing as well.
+
+965
+00:44:11,600 --> 00:44:13,640
+ - Because you mentioned AI,
+
+966
+00:44:13,640 --> 00:44:15,520
+ I think people listening will recognize
+
+967
+00:44:15,520 --> 00:44:18,280
+ that AI is one of the biggest trends of the past year.
+
+968
+00:44:18,280 --> 00:44:20,320
+ But what's interesting is that it's not just a trend
+
+969
+00:44:20,320 --> 00:44:25,000
+ within tech, it's also a trend within crypto.
+
+970
+00:44:25,000 --> 00:44:27,480
+ Maybe it's unsurprising that crypto influencers
+
+971
+00:44:27,480 --> 00:44:30,400
+ are talking about AI, but what is more surprising
+
+972
+00:44:30,400 --> 00:44:33,120
+ is that the people likeliest to visit the websites
+
+973
+00:44:33,120 --> 00:44:35,320
+ of various AI tools like chat GPT
+
+974
+00:44:35,320 --> 00:44:38,160
+ are also the likeliest to visit
+
+975
+00:44:38,160 --> 00:44:40,600
+ some of the top crypto websites out there.
+
+976
+00:44:40,600 --> 00:44:42,320
+ And that goes to this sort of inference
+
+977
+00:44:42,320 --> 00:44:46,840
+ that could possibly be drawn that there is strong overlap
+
+978
+00:44:46,840 --> 00:44:50,520
+ between the user bases of these kind of frontier technologies.
+
+979
+00:44:50,520 --> 00:44:52,760
+ - Yeah, I mean, definitely it's a hot area.
+
+980
+00:44:52,760 --> 00:44:56,720
+ And AI was clearly the breakaway narrative in 2024,
+
+981
+00:44:56,720 --> 00:45:00,600
+ even among crypto social circles relative to other topics.
+
+982
+00:45:00,600 --> 00:45:02,960
+ And so clearly people are thinking about this.
+
+983
+00:45:02,960 --> 00:45:04,760
+ And a lot of the top crypto sites
+
+984
+00:45:04,760 --> 00:45:09,360
+ are highly, highly overlapping with chatgpt.com,
+
+985
+00:45:09,360 --> 00:45:12,040
+ which indicates that there may be an overlap
+
+986
+00:45:12,040 --> 00:45:15,120
+ in crypto and AI users.
+
+987
+00:45:15,120 --> 00:45:16,640
+ And the fact that there is,
+
+988
+00:45:16,640 --> 00:45:19,960
+ I do think reinforces this point that it's a hot area.
+
+989
+00:45:19,960 --> 00:45:23,120
+ And I think we should expect to see more innovation
+
+990
+00:45:23,120 --> 00:45:25,800
+ in this pocket of crypto specifically.
+
+991
+00:45:25,800 --> 00:45:28,640
+ - So let's cover some more emerging applications.
+
+992
+00:45:28,640 --> 00:45:30,840
+ The cost of transacting on blockchain networks
+
+993
+00:45:30,840 --> 00:45:32,800
+ is coming down, like we said,
+
+994
+00:45:32,800 --> 00:45:35,720
+ it can cost as little as cents on the dollar now
+
+995
+00:45:35,720 --> 00:45:37,600
+ or even less than a cent,
+
+996
+00:45:37,600 --> 00:45:41,600
+ just a tremendous plummeting of costs there.
+
+997
+00:45:41,600 --> 00:45:44,480
+ What other territory does this open up?
+
+998
+00:45:44,480 --> 00:45:47,520
+ - Yeah, some areas that have popped up include D-pin.
+
+999
+00:45:47,520 --> 00:45:51,920
+ There are new forming marketplaces for energy,
+
+1000
+00:45:51,920 --> 00:45:55,040
+ for wireless span width, for mapping,
+
+1001
+00:45:55,040 --> 00:45:57,040
+ for weather, for food delivery.
+
+1002
+00:45:57,040 --> 00:46:00,080
+ - This is decentralized physical infrastructure networks.
+
+1003
+00:46:00,080 --> 00:46:03,360
+ So it's where the digital world meets the physical world,
+
+1004
+00:46:03,360 --> 00:46:06,800
+ like using a digital overlay to manage resources
+
+1005
+00:46:06,800 --> 00:46:08,160
+ in the physical world.
+
+1006
+00:46:08,160 --> 00:46:09,680
+ - Yeah, and the difference, you know,
+
+1007
+00:46:09,680 --> 00:46:12,400
+ of course we have these things like with Uber and Lyft
+
+1008
+00:46:12,400 --> 00:46:16,360
+ and so on, you could call those like web to D-pin networks.
+
+1009
+00:46:16,360 --> 00:46:19,400
+ The key difference is that in a blockchain,
+
+1010
+00:46:19,400 --> 00:46:21,240
+ there's a degree of credible neutrality
+
+1011
+00:46:21,240 --> 00:46:22,600
+ about the underlying platform.
+
+1012
+00:46:22,600 --> 00:46:25,160
+ That means that people who build on top of it,
+
+1013
+00:46:25,160 --> 00:46:28,640
+ including not just the suppliers of the good
+
+1014
+00:46:28,640 --> 00:46:29,840
+ and not just the people buying it,
+
+1015
+00:46:29,840 --> 00:46:31,560
+ but also people who build applications
+
+1016
+00:46:31,560 --> 00:46:33,640
+ to make the whole thing work better,
+
+1017
+00:46:33,640 --> 00:46:36,200
+ can take for granted what they're building on
+
+1018
+00:46:36,200 --> 00:46:38,000
+ and not risk being rent collected
+
+1019
+00:46:38,000 --> 00:46:40,840
+ or Sherlock by the underlying platform.
+
+1020
+00:46:40,840 --> 00:46:43,040
+ And if you can make payments affordably,
+
+1021
+00:46:43,040 --> 00:46:47,280
+ if you can update reputation systems,
+
+1022
+00:46:47,280 --> 00:46:50,120
+ incorporate all kinds of interesting identity systems,
+
+1023
+00:46:50,120 --> 00:46:52,840
+ all these things that these marketplaces need,
+
+1024
+00:46:52,840 --> 00:46:55,400
+ then they can finally exist.
+
+1025
+00:46:55,400 --> 00:46:57,800
+ So those have been emerging.
+
+1026
+00:46:57,800 --> 00:47:01,640
+ Maybe a final category, which we give a little glimpse of
+
+1027
+00:47:01,640 --> 00:47:05,920
+ in the report is decentralized social networks,
+
+1028
+00:47:05,920 --> 00:47:09,400
+ Farcaster, which is another portfolio company of ours.
+
+1029
+00:47:09,400 --> 00:47:13,000
+ It's an incredible place for builders to experiment
+
+1030
+00:47:13,000 --> 00:47:16,080
+ with different types of tools, different types of toys,
+
+1031
+00:47:16,080 --> 00:47:19,360
+ to extend and improve the experience
+
+1032
+00:47:19,360 --> 00:47:21,280
+ for all types of users.
+
+1033
+00:47:21,280 --> 00:47:24,320
+ And I know for a fact, just having spent a bunch of time
+
+1034
+00:47:24,320 --> 00:47:28,760
+ with the Farcaster team that they are totally capacity limited.
+
+1035
+00:47:28,760 --> 00:47:30,480
+ They're working really hard to allow the network
+
+1036
+00:47:30,480 --> 00:47:34,680
+ to post more and more people while remaining
+
+1037
+00:47:34,680 --> 00:47:36,560
+ totally decentralized.
+
+1038
+00:47:36,560 --> 00:47:39,880
+ And you can see in the report, a lot of projects
+
+1039
+00:47:39,880 --> 00:47:42,000
+ where people have been experimenting with software
+
+1040
+00:47:42,000 --> 00:47:43,440
+ on top of this network.
+
+1041
+00:47:43,440 --> 00:47:44,920
+ - Even in our builder energy dashboard,
+
+1042
+00:47:44,920 --> 00:47:47,280
+ we're seeing that a lot of builders
+
+1043
+00:47:47,280 --> 00:47:49,840
+ are interested in social networks.
+
+1044
+00:47:49,840 --> 00:47:54,680
+ I think 10% of the founders that we've talked to
+
+1045
+00:47:54,680 --> 00:47:58,520
+ and looked at are building social related projects.
+
+1046
+00:47:58,520 --> 00:48:00,880
+ So I think people see this opportunity
+
+1047
+00:48:00,880 --> 00:48:02,960
+ and they expect that it's gonna be a thing
+
+1048
+00:48:02,960 --> 00:48:05,280
+ given how big it was in web too.
+
+1049
+00:48:05,280 --> 00:48:06,760
+ - Yeah, then there's prediction markets.
+
+1050
+00:48:06,760 --> 00:48:09,400
+ Of course, those have been huge this year.
+
+1051
+00:48:09,400 --> 00:48:12,680
+ No surprise given the incredible dynamics
+
+1052
+00:48:12,680 --> 00:48:15,680
+ and volatility related to the election.
+
+1053
+00:48:15,680 --> 00:48:17,520
+ - Yeah, prediction markets is an idea
+
+1054
+00:48:17,520 --> 00:48:19,840
+ that people have been talking about for decades,
+
+1055
+00:48:19,840 --> 00:48:21,640
+ but have been hamstrung.
+
+1056
+00:48:21,640 --> 00:48:26,160
+ And people are actually coming around to their value.
+
+1057
+00:48:26,160 --> 00:48:29,280
+ An ability to source up knowledge
+
+1058
+00:48:29,280 --> 00:48:31,920
+ from disparate parts of the world
+
+1059
+00:48:31,920 --> 00:48:35,320
+ and kind of get a better, more informed picture
+
+1060
+00:48:35,320 --> 00:48:36,240
+ of the state of the world
+
+1061
+00:48:36,240 --> 00:48:38,680
+ and how things might shake out.
+
+1062
+00:48:38,680 --> 00:48:41,040
+ It's interesting to see that it's actually finally
+
+1063
+00:48:41,040 --> 00:48:43,760
+ getting some traction when it's a very old idea
+
+1064
+00:48:43,760 --> 00:48:46,640
+ that has been stalled for so long.
+
+1065
+00:48:46,640 --> 00:48:48,520
+ All right, Eddie, we've been putting out reports
+
+1066
+00:48:48,520 --> 00:48:49,920
+ for three years.
+
+1067
+00:48:49,920 --> 00:48:53,520
+ What's been most surprising looking at this year's report
+
+1068
+00:48:53,520 --> 00:48:55,880
+ compared to earlier reports?
+
+1069
+00:48:55,880 --> 00:49:00,240
+ - I don't know, stepping back, I'd say,
+
+1070
+00:49:00,240 --> 00:49:02,720
+ when we're deep in the mix, like we are,
+
+1071
+00:49:02,720 --> 00:49:06,240
+ it often feels like nothing is coming fast enough.
+
+1072
+00:49:06,240 --> 00:49:07,520
+ I feel that all the time.
+
+1073
+00:49:07,520 --> 00:49:11,220
+ I want it right now, right now, I'm sick of waiting.
+
+1074
+00:49:11,220 --> 00:49:15,320
+ And there are some areas that have definitely lagged,
+
+1075
+00:49:15,320 --> 00:49:19,840
+ but at the same time, it is a little bit unbelievable
+
+1076
+00:49:19,840 --> 00:49:22,200
+ when you look back at the progress.
+
+1077
+00:49:22,200 --> 00:49:24,480
+ Let's be very conservative in our estimates
+
+1078
+00:49:24,480 --> 00:49:26,760
+ and let's say we have 30 million monthly
+
+1079
+00:49:26,760 --> 00:49:29,400
+ active users of blockchains.
+
+1080
+00:49:29,400 --> 00:49:31,440
+ That's pretty damn good.
+
+1081
+00:49:31,440 --> 00:49:34,000
+ Like I'm pretty happy with where that is
+
+1082
+00:49:34,000 --> 00:49:37,160
+ given the historical infrastructure limits.
+
+1083
+00:49:37,160 --> 00:49:40,720
+ Like about a year ago, we were all debating
+
+1084
+00:49:40,720 --> 00:49:43,960
+ how long it would take things to start to heat up
+
+1085
+00:49:43,960 --> 00:49:46,880
+ in terms of on-chain usage.
+
+1086
+00:49:46,880 --> 00:49:51,120
+ And where I ended up was that six months after Denkoon,
+
+1087
+00:49:51,120 --> 00:49:54,960
+ six months after '48, '44, is when we'd start to see
+
+1088
+00:49:54,960 --> 00:49:57,080
+ like new types of stories
+
+1089
+00:49:57,080 --> 00:49:59,560
+ because that's about how long it takes.
+
+1090
+00:49:59,560 --> 00:50:03,760
+ And we're just like six months after.
+
+1091
+00:50:03,760 --> 00:50:05,920
+ And I think that that's exactly what's happening.
+
+1092
+00:50:05,920 --> 00:50:08,680
+ Like I think the payments thing is one of those things.
+
+1093
+00:50:08,680 --> 00:50:10,200
+ And I think some of these new networks,
+
+1094
+00:50:10,200 --> 00:50:13,680
+ some of these like deep in networks are examples of that.
+
+1095
+00:50:13,680 --> 00:50:17,440
+ So it feels very on track to me and I'm very pleased with that.
+
+1096
+00:50:17,440 --> 00:50:20,000
+ That's kind of surprising, maybe in a certain way.
+
+1097
+00:50:20,000 --> 00:50:23,840
+ That is surprising to me that it feels very kind of like
+
+1098
+00:50:23,840 --> 00:50:26,880
+ we are thinking it's going unfold.
+
+1099
+00:50:26,880 --> 00:50:31,440
+ If you had to cast your prediction a year ahead,
+
+1100
+00:50:31,440 --> 00:50:32,800
+ what do you think is going to be the theme
+
+1101
+00:50:32,800 --> 00:50:35,160
+ of State of crypto 2025?
+
+1102
+00:50:35,160 --> 00:50:37,840
+ - I hope that all the extra block space is filled
+
+1103
+00:50:37,840 --> 00:50:40,760
+ with something, something productive.
+
+1104
+00:50:40,760 --> 00:50:41,760
+ That's what I hope it's about.
+
+1105
+00:50:41,760 --> 00:50:43,880
+ It's about what fills that block space.
+
+1106
+00:50:43,880 --> 00:50:47,280
+ We just started creating all these L2s and new block chains.
+
+1107
+00:50:47,280 --> 00:50:50,320
+ And maybe something that we didn't put in the report
+
+1108
+00:50:50,320 --> 00:50:52,480
+ 'cause it can be challenging to present
+
+1109
+00:50:52,480 --> 00:50:53,680
+ in a very straightforward way.
+
+1110
+00:50:53,680 --> 00:50:56,560
+ But bridges are great for people in crypto.
+
+1111
+00:50:56,560 --> 00:50:58,640
+ You know that three years ago,
+
+1112
+00:50:58,640 --> 00:51:00,680
+ there were very few bridges and they were terrible
+
+1113
+00:51:00,680 --> 00:51:02,560
+ and they were slow and they were expensive
+
+1114
+00:51:02,560 --> 00:51:04,200
+ and they were error prone.
+
+1115
+00:51:04,200 --> 00:51:06,440
+ There's just a lot wrong with them.
+
+1116
+00:51:06,440 --> 00:51:09,560
+ Now bridges, there's myriad options,
+
+1117
+00:51:09,560 --> 00:51:13,120
+ really high quality, fast, super affordable,
+
+1118
+00:51:13,120 --> 00:51:14,640
+ great connectivity.
+
+1119
+00:51:14,640 --> 00:51:16,680
+ That's like no question.
+
+1120
+00:51:16,680 --> 00:51:19,120
+ Anyone in crypto would agree with that.
+
+1121
+00:51:19,120 --> 00:51:20,600
+ Well, now that we have good bridges
+
+1122
+00:51:20,600 --> 00:51:21,760
+ and now we have good L2s,
+
+1123
+00:51:21,760 --> 00:51:24,320
+ we're getting tons more L2s and tons more bridges
+
+1124
+00:51:24,320 --> 00:51:28,240
+ and tons more interoperability questions and fragmentation.
+
+1125
+00:51:28,240 --> 00:51:30,440
+ So as always happens with technology,
+
+1126
+00:51:30,440 --> 00:51:33,160
+ you solve one problem, you create another.
+
+1127
+00:51:33,160 --> 00:51:35,320
+ I'm beginning to see signs
+
+1128
+00:51:35,320 --> 00:51:38,280
+ that there are really, really great strategies
+
+1129
+00:51:38,280 --> 00:51:41,400
+ to solve interoperability.
+
+1130
+00:51:41,400 --> 00:51:44,640
+ And so I hope the combination of good interoperability
+
+1131
+00:51:44,640 --> 00:51:49,560
+ plus good block space means finally great user experience
+
+1132
+00:51:49,560 --> 00:51:52,400
+ for a family of applications.
+
+1133
+00:51:52,400 --> 00:51:54,640
+ If that was the case at the end of 2025,
+
+1134
+00:51:54,640 --> 00:51:56,960
+ I would be really pleased.
+
+1135
+00:51:56,960 --> 00:51:58,800
+ That's great for the wishlist.
+
+1136
+00:51:58,800 --> 00:52:01,200
+ I really hope that in the coming years,
+
+1137
+00:52:01,200 --> 00:52:04,000
+ our section on infrastructure gets smaller
+
+1138
+00:52:04,000 --> 00:52:06,520
+ and our section on applications gets bigger.
+
+1139
+00:52:06,520 --> 00:52:08,800
+ I think there's still a place to report
+
+1140
+00:52:08,800 --> 00:52:10,520
+ on key infrastructure developments,
+
+1141
+00:52:10,520 --> 00:52:13,400
+ which I think will continue to happen over the coming years,
+
+1142
+00:52:13,400 --> 00:52:15,880
+ but I think it should be hopefully more
+
+1143
+00:52:15,880 --> 00:52:19,880
+ about how do we just overall improve the user experience.
+
+1144
+00:52:19,880 --> 00:52:23,200
+ There's account abstraction protocols, interoperability,
+
+1145
+00:52:23,200 --> 00:52:26,000
+ various developments that we can report on,
+
+1146
+00:52:26,000 --> 00:52:28,760
+ but I hope that that does not be main story.
+
+1147
+00:52:28,760 --> 00:52:32,200
+ I hope the main story of 2025 and the years following
+
+1148
+00:52:32,200 --> 00:52:35,680
+ is that we now have a new set of applications
+
+1149
+00:52:35,680 --> 00:52:39,040
+ that are proving to be real use cases
+
+1150
+00:52:39,040 --> 00:52:42,240
+ for this technology that is attracting people.
+
+1151
+00:52:42,240 --> 00:52:45,680
+ And so that is my hope for the years to come.
+
+1152
+00:52:45,680 --> 00:52:47,680
+ We've made a lot of progress on infrastructure,
+
+1153
+00:52:47,680 --> 00:52:51,360
+ but hopefully from here going forward,
+
+1154
+00:52:51,360 --> 00:52:53,880
+ the improvements are more on the margin.
+
+1155
+00:52:53,880 --> 00:52:55,120
+ Maybe in the years ahead,
+
+1156
+00:52:55,120 --> 00:52:57,800
+ there won't even be a need for a state of crypto report.
+
+1157
+00:52:57,800 --> 00:53:00,120
+ We will all just be using these applications
+
+1158
+00:53:00,120 --> 00:53:02,880
+ and won't even know that there's crypto on the back end.
+
+1159
+00:53:02,880 --> 00:53:03,920
+ Could be.
+
+1160
+00:53:03,920 --> 00:53:06,720
+ We'll have to wait to know for sure.
+
+1161
+00:53:06,720 --> 00:53:07,880
+ Thank you both for joining.
+
+1162
+00:53:07,880 --> 00:53:08,840
+ Thank you, Robert.
+
+1163
+00:53:08,840 --> 00:53:10,000
+ Thank you, Robert.
+
+1164
+00:53:17,680 --> 00:53:20,260
+ (upbeat music)
+

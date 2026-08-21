@@ -1,0 +1,1005 @@
+Today, I sat down with Stepan Simkin, the founder of Squads.
+Squads started in 2021 as a multi-signature wallet product,
+effectively a crypto savings account
+for Solana-based protocols and companies.
+Over time, the company has evolved
+into a much fuller financial platform,
+serving the treasury and financial operations needs
+of a significantly wider set of global customers
+using stablecoins.
+Today, that broader business finance account platform
+is called Altitude, while Squads continues on
+as the original crypto native account for protocols.
+Stepan and I discussed the company's evolution
+into being a financial services provider,
+how stablecoins are changing banking
+and the impact on global currencies.
+I hope you enjoy our conversation.
+Matt Walsh and Nick Carter are partners
+at Castle Island Ventures.
+All of these expressed by them or the guests
+on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets
+discussed on this podcast.
+You should not treat any opinion expressed
+by anyone on this podcast as a specific inducement
+to make a particular investment
+or follow a particular strategy,
+but only as an expression of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by bad mortgage investments,
+Lehman, which has 25,000 employees, will be liquidated.
+The federal government loans
+American International Group, AIG, $85 billion.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in
+to stabilize Fannie Mae and Freddie Mac,
+the two mortgage giants that have been threatened
+by the housing crisis.
+The Bank of England has pumped 75 billion pounds more
+into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple of trillion dollars
+and all of a sudden people start to worry.
+So out of this worry,
+we have something called the Bitcoin, Bitcoin.
+Stepin, thanks for sitting down with us today.
+I wanna kick off with how do you describe Squads
+and how do you describe the company you guys are today?
+First of all, thanks so much for having me.
+I think the way we describe the company
+has evolved over time,
+just like we evolved and the industry evolved as well.
+The way we think about Squads today
+is we're a financial services company.
+That is a very short description.
+And then a longer one would be
+we're a stable coin powered financial services company,
+building infrastructure and services layer
+for the stable coin economy.
+And yeah, I'm excited to dive into
+what that actually means on the podcast today with you.
+How do you map who you consider to be the other core players
+in stable coin stack or who else do you rely on?
+Cause you have issuers like a Circle or Tether,
+and then you have other custody providers
+like maybe an Anchorage who are also in the banking space
+or Fireblocks.
+So where do you feel like you guys sit
+and what do you think are the important businesses
+at a high level longer term?
+So when I think about the stack,
+you have more the regulated and the more Fiat connected part.
+So that includes issuers, that includes orchestrators,
+that includes card providers and card assurers.
+That's one bucket.
+Then you have the custody bucket,
+which like you mentioned, there's Anchorage,
+there is Fireblocks, there's Coinbase custody,
+there's all these players.
+And then I think where we exist is on one hand,
+we're essentially on even a lower level,
+even closer to the chain,
+because we are building programmable accounts,
+programmable wallet infrastructure
+that is directly connected to the blockchain.
+Obviously I'm biased,
+but I think if you also look at the market today,
+the orchestration part, for example,
+gets commoditized relatively quickly at this point,
+while the real sort of knowledge and expertise
+is how do you build on top of the stablecoin rails,
+on top of the blockchain,
+in a way that actually converts to real business outcomes
+that is secure, that actually allows you to take most
+out of this sort of new financial infrastructure.
+And so I think the closer you are to the source,
+the more valuable you are in the stack.
+But it's also important to mention
+that just that layer is completely useless,
+at least in the current state.
+So we need all the layers.
+You also have, we didn't talk about the scheme management
+as well, which is like its own layer.
+We need all the layers today,
+but I think from a long-term perspective,
+the way I think about the stablecoin space
+is that we should all be, our North Star as an industry,
+a subset of crypto, should be end-to-end stablecoin settlement
+because the way the market is structured today
+is that we're using all these intermediaries,
+again, which are amazing companies, amazing businesses.
+But when I'm thinking about stablecoin backed cards,
+the amount of intermediaries, the fees in the middle,
+the complexity that we're enduring,
+just to get to the same state,
+basically where I can tap the phone at the point of sale
+and buy a cup of coffee,
+I think I should be scanning a QR code
+and doing a single transactional change
+from one account to another.
+And that should be the settlement,
+as opposed to doing all this sort of jujitsu
+with the seven different vendors in the middle,
+a lot of them being the old vendors
+and using legacy tech stack to, again,
+achieve sort of the same outcome
+we have today on Web2Rails.
+Yeah, it makes sense.
+And you are obviously coming from the salon ecosystem
+where you have an environment
+that is built around seamless money movement.
+So it makes sense.
+To that point, I wanted to ask you,
+because I know you guys started,
+I'd say predominantly, and correct me if I'm wrong,
+but as a multi-sig product facing
+costing assets for protocols in that ecosystem,
+was the move to being
+a stablecoin-centric financial services provider
+proactive from you guys,
+or was it something that the market
+and customers pushed you to do?
+What we started with,
+the way we think about it now in hindsight,
+is we first had to build this capital aggregation layer,
+which is the protocol.
+And the way it happened is we had all this demand
+from crypto-native companies and protocols
+that wanted a secure account on-chain
+where they can store their assets
+and then manage them with different workflows.
+What were they doing before?
+It was a mix of CLI wallets,
+single, essentially like a ledger,
+like a cold wallet that they would manage the authority with.
+And so there was a lot of duct tape, basically,
+and they didn't really work.
+When we actually entered the market,
+there was plenty of competition.
+There were different multisigs that were being developed.
+And the way we always thought about
+this chapter of our company history
+is that this is the first stage.
+This is a very crypto-native focus,
+and it allows us to create the secure foundation
+that today we think about.
+To a crypto company,
+what we have on the protocol layer is a multisig,
+it's a smart account.
+To a non-crypto-native customer
+that we're interfacing through Altitude,
+which is our business account product,
+Squad Protocol is more of a bank and PSP.
+It's a protocol that allows you
+to create an account to store value.
+There are different permissions that you can
+create around how that value's gonna be managed,
+and then there's different workflows you can apply.
+And so it really depends on
+who you're interfacing as a customer,
+but the stack is that versatile, right?
+That it does very simple things.
+You create an account where you can store
+and share assets and move them around.
+Yep, understood.
+That makes sense.
+And who are you serving
+when it comes to non-crypto customers?
+Or how do you interact with them differently?
+What makes them come to you guys?
+So I think one interesting distinction is that
+as we launched Altitude, which is our business account,
+which one way to think about it would be
+that if Multisig is very crypto native,
+Altitude is very much looking at
+serving traditional businesses and traditional operators,
+because even in a crypto startup,
+one of the reasons Altitude really came about
+and we decided to make this push
+and build out this product
+is because we would have a customer on the Multisig side.
+We originally onboarded them by interfacing with the CTO
+and with the development team and maybe with the CEO.
+And then at some point, as these projects matured,
+they started having COOs and CFOs
+and they started having foundations.
+And thinking about accounting.
+So you grew with them in a way.
+Exactly.
+And then at that point,
+you have a CFO who never touched the ledger,
+who never signed the transaction on the blockchain.
+And now they're tasked with managing corporate finances,
+essentially, regardless of that project
+being attached to crypto.
+And so even within a crypto startup,
+there is very traditional and Web2 side
+to a lot of these businesses
+where they need to do all the regular things.
+They need corporate cards for expenses
+when the employees travel,
+they need to reconcile the ledger
+and essentially file taxes
+and they need to make payouts in stablecoin or fiat.
+And so that is where we are very much today.
+We're onboarding crypto businesses,
+but from a very different side.
+And then the alternative is a permission of product,
+like anybody can apply and get verified.
+So we are seeing inflow of businesses
+that we didn't expect to realize.
+Like there's corporate services providers, law firms,
+and a lot of them are based in offshore jurisdictions.
+A lot of them already service crypto businesses.
+And so the way to think about our ICP today
+is if you're already one way or the other
+exposed to stablecoins
+and you're looking for a better solution
+to manage your financial operations as a business
+and those operations include stablecoins,
+this is where you come to us today.
+But I think as we expand the idea is that
+obviously we want to democratize access
+to really high quality premium grade fintech
+in places where there's just no fintech ecosystem at all,
+either because there's just no tech broadly in that geo
+or because it's just non-viable from economics perspective
+to go and onboard customers with low median flow
+and low card volume spans.
+But I think because we're doing it
+on these different rails,
+the economics become very different, right?
+Because for us to go to a new jurisdiction
+and serve a business customer there,
+we don't need to now obtain all these licenses
+and invest that much capital and time to actually expand
+because we're doing it in a self-custodial way
+relying on this sort of new financial infrastructure.
+So the way you guys map it is you have squads,
+the traditional product, which call it
+is a crypto custody product facing,
+Russians say custody,
+but crypto wallet product facing crypto companies.
+And then you have Altitude,
+which is a stable coin dollar savings product for companies,
+which might be in crypto, others that may not.
+That's correct.
+There's a couple of caveats.
+The way you think about Multistake is like,
+it's a treasury product, it's a institutional product
+because it is not custody, it's self-custody.
+So we're not actually taking custody of the funds,
+but the ethos of the way we build products,
+the way we build infrastructure is that
+we're making self-custody feel like custody.
+You should be able to still recover your account.
+There's different ways for you to do QFA
+and essentially for your enterprise
+to interact with the Sunchain primitive.
+And so that's on the Multistake side.
+On the Altitude side, you're exactly right,
+but we strongly believe that stable coins
+are not just about dollars.
+We need all major currencies to be tokenized
+if we're really expects the sort of FinTech
+to move on these new financial rails.
+And so today we have used D&E Euro,
+and as we're progressing,
+we're gonna be expanding to major currencies,
+I guess, starting with pounds and hopefully Singapore dollars
+if we can find the right provider.
+And then there's BRL and Maxsan,
+which are also in high demand at this point.
+Yeah, and you mentioned a couple of points
+I wanna touch on.
+One is on the Altitude side,
+do you expect your customers to save money
+in the currency of the country they're in?
+Do you expect the Mexican customers
+to store in Mexican pesos
+and British customers being great British pounds,
+or do you expect that US dollar stable coins
+will be an asset that people save in outside?
+I think from a business perspective,
+they're gonna be always important.
+I think that like for the Altitude customer,
+they're gonna keep in dollars, right?
+And they're gonna probably opt in
+to earn US treasury yield
+and then earn yield on dollars through DeFi.
+And we're about to announce a couple other
+yield integrations as we progress.
+But I would say a business has obligations
+usually in different currencies.
+You have contractors around the world,
+you have employees,
+you have different vendors you need to pay.
+And I would say from that perspective,
+the reason we believe in non-USD stable coins
+is because maybe even if your treasury
+is gonna be in dollars,
+you still need to do some payouts
+at the end of the month in pounds.
+And so the idea is that
+because we're doing this on purely programmable rails,
+you can have just in time effects on chain
+for when sort of it's the best price
+and then go deeper into exploring
+what the genetic violence could mean.
+An agent managing your Altitude account
+will be able to do that effect scheduling
+essentially for you
+and then settle your obligation
+when that needs to happen.
+And so from that perspective,
+we think you do need to solve that last mile use case
+because right now you have all these different orchestrators
+in different countries
+where they give you just in time effects
+for when they're actually doing the payout.
+I think if you're a consumer,
+that's probably okay for you
+because then you're just withdrawing
+from your dollar savings account,
+you're withdrawing from your local bank account
+because now you need to pay some bills
+or you need some obligations locally.
+For a business, I think that's a very different story.
+You don't want to find out what effects is gonna be
+at the moment when they're actually doing the payout.
+You want to hedge that in advance,
+particularly if you know that
+you're gonna have these obligations,
+you're gonna have to meet in that currency anyway.
+You wanna hedge that in advance and then pay one to one.
+And that also allows you to make sure
+that you understand exactly what your costs
+for the payout is
+as opposed to getting this variability
+just in time when they actually need to do the payout.
+Do most businesses that you work with
+have a pre-existing bank account
+or are they establishing their financial footprint
+for the first time with you with Altitude?
+I think right now,
+definitely they all have some form of a bank account.
+For example, obviously, U.S. is really well-served
+in terms of FinTech, particularly for businesses.
+The existing solutions
+already give you great stable coin focus workflows.
+So that's why we're seeing a bunch of customers come in.
+And then also any good head of ops should diversify.
+Definitely.
+You should have multiple bank accounts.
+You should have multiple options to the payout, right?
+And so that is our kind of wedge in
+both on the stable coin side.
+If you are dealing with stable coins,
+we're gonna give you a better solution
+than existing solutions in the market,
+or you just need to diversify for a great option.
+Definitely in the future,
+we would love to essentially enable net new customers
+that didn't really have access to banking
+or had access to very old legacy rail banking
+using UIs from 1990,
+now actually getting access for the first time
+to a great FinTech experience
+that is with Altitude as a product.
+And to your point,
+what businesses do you think benefit
+from the entry of something like Altitude the most?
+Right now, it's probably two buckets.
+If you're touching stable coins
+and you want to do atomic workflows,
+like for example, you have,
+you're looking to move your workforce
+onto stable coin rails.
+You want to pay your contractors and employees
+through stable coins.
+Why is that most of the time when you see it?
+Is it because they have global employees,
+what's the push there most of the time?
+Correct, they have global employees.
+Or for example,
+they're already doing it in stable coins,
+but it's all over the place.
+Like somebody wants to get paid out through Tron,
+everybody has a different wallet,
+and it's really messy.
+But because you have a global workforce,
+they already prefer to get paid in stable coins.
+And so that's like one example
+where if you want to streamline that experience,
+we're going to give you the best way to do this.
+I'm already touching stable coins buckets.
+Or again, there's a lot of businesses
+that some customers paying them
+or some vendors paying them in stable coins
+and they need a reliable way to receive that payment.
+Maybe they want to keep a portion of that to earn yield
+and they want access to better yield opportunities.
+And then they want to do the payout at some point
+into the bank account.
+So that's one bucket.
+I'm already in doing something with stable coins
+as a business and I'm looking for the right solution.
+I think the second bucket,
+which is we are looking to expand that
+as we sort of progress,
+but I don't really have a proper bank account experience
+for whether I'm a merchant on Shopify.
+There aren't that many options for me
+other than using the actual storefront platforms
+like Shopify themselves,
+which are giving you some financial features.
+But then again, there's a lot of geographical innovations
+and we are seeing a bunch of inflow of customers
+from that side.
+I think the second bucket,
+we definitely would love to see grow,
+but I understand the first need to solve the very core
+and we actually need to,
+there's a lot of features we're shipping right now,
+which we consider just to be table stakes,
+whether it's the CFO stack, accounting, bill pay, invoicing.
+These are not things we're innovating,
+but we're putting them on stable coin rails
+and giving you exactly the same experience you expect,
+but without touching the legacy tech stack.
+And then there's a lot of room for innovation,
+whether it's giving access to internet capital markets
+or different yield sources
+and different automations and programmability
+that you can essentially enable
+when you have an operations person running that account.
+And so we are really happy
+that we have this group of 500 to 1,000 customers
+that already love squads, love the products,
+really trust us, trust our infrastructure
+that are willing to give us the benefit of the doubt
+as we're essentially building out business banking solutions
+without the bank.
+We're super grateful for
+and we definitely don't want to accelerate too far
+and too much right now,
+because we think that the motions we're seeing right now
+are valuable to actually get to the right end state
+of what this product should look like.
+It's interesting you mentioned
+the behavior of a lot of your customers
+as using something like squads for yield opportunities
+or they'll store money in U.S. dollar stable coins
+because they can earn U.S. treasury rate on it
+or presumably even invest in some kind of other product
+from that experience,
+because I think you hear about people
+where they're in a country with high inflation
+and they move into U.S. dollars
+because it's just a better store of value
+and a little bit less about that treasury behavior
+and their different behaviors.
+So I did want to ask you,
+there's currency flight in the traditional,
+like, oh, move to stable coins
+because it's a better alternative
+than the domestic currency,
+but do you think we'll get almost an equal measure
+people who move on to stable coins
+or U.S. dollar stable coins as a rail
+because they just think of better financial opportunities
+and that becomes almost an alternative form
+of currency flight that's happening?
+Yeah, certainly we do that.
+And I think if you listen to interviews
+with John and Patrick Olson back from like 2021,
+where they would talk about how they obsess
+over how much literal friction there is in the world
+and how removing that in software,
+like solving the very little things
+and thinking ahead about what the user journey might be
+and like where they want to click,
+giving that information earlier,
+this is the level of obsession we got in Web2 and in SaaS.
+And now we're getting to do that
+in essentially financial infrastructure.
+And so even if you think about access to yield,
+like even if I'm as a business
+can access the same yield opportunities
+and I have enough access in Web2 rails
+and I'm getting access to the same opportunities
+through stable coins and essentially blockchain infrastructure,
+even when we talk to customers,
+the idea of just daily liquidity,
+the fact that you can withdraw in seconds
+and you can deposit in seconds,
+there's no T plus one, there's no T plus three,
+even that's a huge appeal for DeFi.
+That also, by the way,
+when you think about the businesses assessing risk
+and thinking about, okay,
+am I going to go into the DeFi protocol
+where I get six or 7% yield,
+but where I can withdraw any time
+or I'm going to go into some structured product
+that the bank is offering me
+where I'm locked in for 30 days,
+I don't actually control this relationship.
+A lot of the businesses are choosing to go into DeFi
+just because that idea of pure efficiency,
+that it's one click away and it's pure software,
+there's no like human in the middle managing this for me.
+Even from that perspective,
+it's a good example of where I think,
+also I heard that before with people saying
+stable coins are going to be irrelevant in the US.
+They're only going to be relevant in places
+where you have people trying to move to dollars
+because they don't trust local currencies.
+It depends how you sort of view stable coins.
+I really think that stable coins and blockchains
+is just the new financial rail.
+It's just superior infrastructure.
+And I think over time,
+everything's just going to migrate over to these new rails.
+I don't think it's going to be on a single blockchain.
+I think it's going to be on a network of blockchains,
+but it is an inevitable future.
+It will just take a while.
+It will take maybe five to 10 years to fully get there,
+but it's just a natural evolution of where we're going.
+And so I think even in the US,
+you're going to see a financial services company like ours
+just build better products and better experiences
+where customers will be like,
+well, they're giving me exactly the same thing,
+but it's better, cheaper, faster doing it
+with stable coins on chain.
+Why don't I just go there?
+Well, you see the demand for instant
+with Venmo or Robinhood
+because the revenue that PayPal and Robinhood do
+from the instant payouts
+where they charge one to 3% is incredibly meaningful.
+I think it's a natural human behavior.
+I know there's a couple of wallets in the slot ecosystem
+that one of their like main revenue drivers
+is instant unstaking of solve.
+And it's the idea that you don't want to wait 48 hours
+or whatever the 24 hours.
+I want this now.
+Same goes for even Phantom swaps.
+I can go to a sec, two more clicks,
+and I'm in Jupiter directly.
+I don't pay the 0.85% fee,
+but it's just the pure efficiency and the speed.
+Like I just want this right now.
+It's relevant for consumers, it's relevant for businesses.
+And I think, again, just the more programmability
+and the more pure software you have
+and when it comes to managing money,
+the more you can deliver those experiences.
+And so I think it touches businesses,
+it touches consumers in a similar way.
+Thinking about this need to have
+relatively quick transactions,
+the fact that you guys have customers
+who store money in US dollars and other currencies,
+are you by nature a believer
+in non-US dollar stable coins being at scale?
+Because seemingly in that lens,
+it might make sense that you need to have
+Mexican pesos on a blockchain,
+you need to have euros on a blockchain at scale,
+but it hasn't happened yet, which I think is interesting.
+I think it's gonna take a while.
+I definitely believe in non-US stable coins.
+I think we're gonna see
+at least all the major currencies tokenized
+because stable coins, it's a movement not about dollars,
+it's a movement about just better, more efficient technology.
+And then if that's your thesis,
+then why would it stop at dollars?
+If I'm trying to build
+a better financial services company in Mexico
+and I want to deliver better experiences for my customers
+and blockchains and stable coins allow me to do that,
+I'm just gonna move to those rails.
+The companies that are best positioned
+to do these tokenized currencies are the orchestrators
+because we've seen examples of this, right?
+Like where you have different tokenized currencies on chain
+without the orchestration component.
+And I think that is useless.
+You need that to be, you need a virtual account
+so somebody can pay in.
+I can receive the value of stable coins
+in that native currency and then be able to do the payout.
+You need both.
+And then over time, that one is much harder to solve.
+You do need also people to spend on the card
+because right now the stable coin back cards we have,
+there's FX rates all over.
+If they're issued out of Hong Kong,
+if you're spending them,
+if you're using to spend anywhere outside of Hong Kong,
+you're paying the FX fees.
+Same goes for if you're doing it in the US and so on.
+So that is definitely gonna happen
+if it's gonna take a bit more time.
+The way, at least we're thinking about it right now
+on Altitude, we're gonna be supporting
+multiple payout routes for using local rail.
+It's gonna be sort of VRL, MXN over time,
+where do you do SEPA ECH for dollars and euros.
+And I think where we'll see most demand,
+this is where we'll lobby for essentially having
+this currency tokenized.
+Because for our customers,
+it is the way we think about the business use case,
+you do need to do FX hedging, FX forwarding.
+And then I think in some cases,
+there's interesting yield opportunity.
+When you think about different government bonds
+from emerging markets,
+where it's higher risk, but higher reward,
+we're gonna see that as well.
+The next major tokenized currency
+will be one of the sort of letdown ones, I'm pretty sure.
+I know Bitso is doing some work there.
+I know there's a couple of companies
+trying to do a general purpose VRL
+or MXN stable coin.
+I think we're gonna see that first
+before we see anything else.
+And why do you think that US dollar stable coins
+have had the incumbency that they've had?
+Do you think it's a result of lendiness
+where it started working early on
+and it just continued to because of momentum?
+Or why do you think that paradigm has taken shape
+versus an alternative, more diversified set
+of on-chain payment products?
+Look, I think we, at least today,
+we still live in a dollar denominated world.
+When you're thinking about the value of your assets,
+you think about the value of assets you don't own yet,
+you're really thinking in dollar terms.
+The way stable coins came about,
+and I know you guys talked about this at length
+on the podcast as well,
+is like it started from some sort of changes.
+And again, this was about how do you trade
+against another asset?
+And so I think it's natural
+that we started with stable coins.
+Also, majority of the innovation around stable coins
+and fintech generally is coming from DS.
+So it's natural that dollars are there first.
+But as you know, the technology can use to propagate
+because of different jurisdictions.
+We'll definitely see more of these come about.
+I live in the UAE.
+I also think in dollar terms.
+I don't think in,
+their common is not how I evaluate
+my financial life and wealth.
+And I don't think in our lifetime
+that's probably gonna change that much.
+But at least from a technology perspective,
+from a usability perspective,
+we're gonna see more of these currencies.
+And I do imagine dollars will stay very much dominant,
+but we do need the other currencies to exist as well.
+Yeah, it's one thing to have the mental model,
+but when people have access to dollars globally
+and that continues to expand
+and access to US treasuries,
+financial products in other countries,
+do you think that destabilizes other currencies
+or even other financial products, other treasuries?
+To an extent, for sure.
+From like a saving perspective,
+because at the end of the day,
+you're still gonna have local obligations
+that you're gonna have to meet in local currency,
+whether you're paying rent, you're paying utilities,
+most likely you're still gonna go into your local currency.
+But from a saving perspective.
+You don't think those can be disintermediated?
+They can.
+I think they technically can.
+Also keep in mind,
+like in a lot of these places
+where the local currency is really weak,
+there is also great risk of government control
+and currency controls
+that can really prevent that happening.
+And so I think that is much more of a regular question
+than it is a technology question.
+And again, if some of these countries actually adopt dollars
+as like, look, we're just gonna live on dollars now,
+I think this is where you're really gonna see
+the shift happening.
+Some of these economies already live on UDT
+and they're really happy with it.
+We'll see how that evolves.
+But I think we're, it's a bit too early to tell,
+but I am kind of excited to see where this goes.
+And I do think dollar dominance
+is not really going away anytime soon.
+Do you think that other banks,
+but even let's say other neo banks,
+will move into offering comparable services
+to what you guys do?
+Absolutely, they already are doing that.
+I think the interesting component of this
+is they have to honor the legacy tech stack.
+They have to maintain it
+and they have to figure out a way
+how to connect it to systems.
+And that on one hand gives them a bunch of opportunities.
+They already have a lot of the licensing
+and the regulatory status.
+On the other hand, that makes them much slower.
+And this is where we have a real opportunity,
+but opportunity is not there forever.
+Do have to accelerate.
+And the ones that are the most successful,
+it's gonna be the ones that realize today
+that we're gonna have to rebuild
+majority of our stack from scratch.
+And we're gonna have to figure out
+how to exist in the stablecoin world,
+as opposed to saying,
+oh, it's a short-term trend
+that let's adopt in some shape or form
+to stay in a board meeting that we did.
+And so I think whoever treats stablecoin seriously today
+and invests in the build out,
+Stripe is doing a great job at that.
+Whoever recognizes that this is the future
+of technological rails,
+or at least being that there's a really high chance
+of that happening and invests heavily
+in making sure that they don't miss that trend.
+I think that will be really successful
+and they will be the most interesting
+and serious competitors to what we're trying to do here.
+But we're coming from a completely different entry point
+where our problems are much less about
+how do we solve self-custody security recovery?
+How do we build the FinTech experiences
+of stablecoin rails?
+Our questions are,
+what is the minimum viable regulatory stack
+that we need to build?
+Which license do we need to get?
+It's just very interesting to see this evolve
+and I think there will be a natural equilibrium
+that we're gonna see.
+But some of these major FinTech companies
+will be just displaced by stablecoin-first businesses
+because of sheer speed and efficiency
+that you can gain by building those stablecoin rails.
+Well, it feels like there's an innovator's dilemma as well.
+These banks are just not going to be compelled
+to move into areas that are first off,
+in some ways, just not quite as safe
+from a regulatory perspective,
+looking forever forward at the same time,
+not necessarily serving their core audience.
+It feels like they have to go out on a limb
+to make this their core business or core offering.
+From a regulatory perspective, that's a big aspect,
+but even if you think about it,
+majority of the traditional financial system,
+the way they make money is on the inefficiency,
+is on the slowness.
+If I'm paying you in 30 days,
+why am I paying you in 30 days?
+Why am I stopping this in 30 days?
+Because I'm earning yield on the float
+while the delay is happening.
+That is my business model.
+And so the moment you're saying like,
+well, it's just going to be self-custody,
+instant settlement, sub-central transactions.
+You're like, well, you're killing my business model.
+And that is like the chart
+of when you let technology into a market,
+the prices collapse, there's education that's going up
+and like all those things
+where the government is involved, for example,
+and then you have TVs that are becoming much cheaper,
+you know, year by year.
+I think the same thing here,
+you kind of let technology really go much deeper
+into the market.
+You just collapse all of these business models
+and for a lot of these businesses,
+they can't really imagine,
+they don't want to believe that this technology
+is that transformative because again,
+it kills their business.
+And it's really hard to say,
+oh, I'm just going to rebuild everything from scratch
+and reinvest in this when you're feeling good and cozy
+in the apparent situation.
+Yeah, it's funny.
+On the East coast in the US,
+we have two trains run by a company called Amtrak.
+One is called the Excella
+and one is called the Northeast Regional.
+And they're very similar.
+The Excella train is slightly nicer,
+but more importantly, it's always on time.
+And the Northeast is delayed all the time.
+And so this is the analogy I use sometimes
+is that they can charge more for the Excella
+because if you have to be on time,
+you have to take the Excella.
+So it's like-
+It's a good analogy.
+Right, exactly.
+It's why would they give away when they can charge
+for premium instant payment experience
+in comparison to a slow one?
+Do you think local banks can survive in this paradigm
+or do you think digital banks
+and even say incumbent banks take away market share?
+I don't live in the US.
+And so for me when,
+because I'd travel through Europe.
+I spent a couple of months, a year in Europe.
+I live in UAE.
+I don't really think the concept of local banks
+is at least very familiar to me.
+Getting in the US,
+you have a lot of these smaller banks
+that have existed for a while.
+And building a bank is an actual business you can go into.
+I don't think in the EU at this point,
+all the credit regulations,
+like starting a bank is even a possible opportunity
+for anybody even if they have enough resources.
+In UAE, obviously a lot of major, larger banks
+that can run everything.
+And I do think the barbell
+is you're either gonna have these giant banks
+or really cutting edge innovative, you know, fintechs.
+If it's a bank that is embracing innovation,
+then we're seeing more of that happen in the US now.
+You have new bank charters being issued
+to very tech forward banks
+that are trying to adopt stablecoins from the start,
+that are trying to be both the bank and the fintech.
+I think those banks will do really well.
+Without Cross River or Lead Bank,
+we wouldn't have a lot of innovation we have today.
+And so I think it just depends on what kind of,
+because I'm sure Lead Bank is not the level of JP Morgan,
+but the way they're building their business is fantastic
+because they are adopting all these new technologies
+and working with all these new providers
+to essentially allow banks to participate in the innovation.
+And I think those banks will do really well.
+Yeah, it's funny, what I've seen behaviorally
+from the regional banks in the US at least
+is they'll be really entrenched
+in a very specific business for a long time.
+So it'll be something like we serve manufacturers
+in Cleveland, Ohio, and they'll do that for 75 years
+until they realize that they literally cannot survive anymore
+if they don't adapt.
+And it'll be like, okay, now we serve cannabis companies.
+They go all the way out on the risk curve,
+and then they'll do that for however long they can
+and then recycle.
+And in 75 years, they serve only whatever
+the regulatory dangerous situation
+or the emerging market is in that case.
+But to your point, we've seen these companies
+serve crypto as a result.
+Absolutely, but that's why you have to try to think
+ahead long-term and don't try to react in the moment
+because things are not working.
+Like I think it's thinking about where this is all going.
+And I think banks and finance is becoming much less local
+because it's moving on, it's now on the internet.
+It's not online.
+And that is kind of naturally becoming more global.
+And so I think from that perspective,
+it used to make a lot more sense of like,
+it's a bank that would know me.
+I live the same place as it exists.
+That made sense, I think, some time ago
+or past those days and so you're gonna have to figure out
+like how you're gonna specialize.
+The location itself, I guess, is not enough anymore.
+Who is your guys future customer set in your mind ideally?
+If you're running your business online,
+in the long run, we want you to be our customer.
+Whether you're building a startup
+and you're selling software
+or you're selling goods and you're a merchant,
+from a startup and SMB perspective,
+if you're doing stuff on the internet,
+we want you to be our customer.
+But again, we're talking specifically
+for two businesses now.
+From an enterprise side, there's a lot of demand we're seeing
+and spending a lot of time with larger enterprises
+who are thinking about treasure management with stable coins.
+Interesting opportunity that we're still exploring,
+but there's definitely a lot of room to improve there.
+Because if you're like a multinational corporation,
+you've got 40 entities around the world.
+If you're like an Apple scale, you'd have an in-house bank,
+so a dedicated company that has all the bank relationships,
+all the bank accounts that is doing essentially,
+its only purpose is to do treasure management.
+The fact scheduling and all the things we talked about here,
+I think moving that on the stable coin rails
+is like a very, from a sales perspective,
+it's actually a very easy motion once you do the work,
+because you can say, look, here's how much you're paying
+in Swifties now, like here's how many bank accounts
+you have to maintain,
+and here's how much it's gonna cost
+if you move all of that onto stable coins.
+I think that is like a powerful exercise
+and we're already seeing Stripe themselves are doing that.
+I think they were talking about it.
+To an extent, the SpaceX was doing that
+with Bridger in the early days, a few years ago,
+and I think they're still doing it.
+We're starting to see elements of that,
+but there's a great opportunity for something like us as well
+to come in and volunteer style, say,
+okay, what is your current banking setup?
+Let us map all of it onto stable coin rails.
+And even starting with inter-company obligations,
+you have a subsidiary in Ireland that owns the IP,
+and you're gonna have to pay that every month
+or every quarter you pay royalties.
+Do that in a stable coin,
+settle those obligations internally,
+24-7, instantly and for free,
+instead of moving money through the banks
+when you just need to settle internal obligations.
+Yeah, oh, it completely resonates.
+I think that visual you paint of showing people
+just how much they like for like costs is insightful.
+Well, Steppen, it's been a pleasure
+hearing some of your insights,
+especially from the experience that you have day to day
+looking at the emerging banking space, I would call it.
+But I wanted to ask you, if people wanna get in touch,
+if people wanna use Altitude, learn more,
+what's the best way for them to do that?
+Who can get in touch with you guys?
+Who can explore being a client?
+Anybody who listens to this conversation
+and either has any ideas, feedback,
+or wants to be a customer, you should DM me on X.
+My DMs are always open.
+It's ads, you can step on.
+Let's talk, I'm excited to hear more.
+That's true founder-led outreach,
+just get in touch with you and learn about Altitude.
+Exactly.
+Well, thank you again.
+I hope to have you back on at some point
+and congrats on everything so far.
+Thank you so much, thanks for coming.
+Thanks for listening to another episode
+of On the Brink with Castle Island.
+To learn more about Castle Island,
+visit castleisland.vc.
+And to listen to all of our podcast episodes,
+please visit castleisland.vc slash podcast,
+or just click on the tab on our website.
+Thanks for listening.

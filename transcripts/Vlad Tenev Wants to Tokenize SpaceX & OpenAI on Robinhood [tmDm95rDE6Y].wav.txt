@@ -1,0 +1,498 @@
+ We wrote an op-ed actually in the Washington Post a couple months ago that I published
+ that makes the case for tokenizing private securities.
+ So if you think about it, right now it's hard to invest in OpenAI or SpaceX as a private company.
+ And I think crypto can help solve that.
+ So if you tokenize private companies, it'll be good for the companies and also for investors.
+ It's crazy to me that you can't invest in companies like SpaceX and OpenAI.
+ But you know, we have clarity on meme coins and people can basically invest in those freely.
+ Welcome to Bankless where we explore the frontier of internet money and internet finance.
+ Today on the show I'm talking to Vlad Tenev, the CEO of Robinhood.
+ Robinhood is increasingly becoming a power player in the world of crypto,
+ mainly just due to their sheer size of their user base in AUM.
+ Robinhood entered crypto markets long ago both with making crypto accessible in the Robinhood app,
+ but also the Robinhood wallet, a non-cassodial crypto wallet.
+ Robinhood's furthering of their own frontier in the crypto space has really been put on pause
+ due to the regulation by enforcement stance of the previous SEC, but now that is behind us.
+ So I'm looking to learn a little bit more about what's next for Robinhood when it comes to integrating crypto
+ into their product offerings now that they have gotten the green light from the SEC.
+ Then completely coincidentally, the week that I recorded with Vlad, Robinhood announced some pretty big new product lines.
+ These are Robinhood banking, strategies and cortex.
+ So I was also able to talk to Vlad about all of those things as well.
+ And then also maybe the most interesting part of the interview, definitely my favorite part,
+ was the dual discussion of the increasingly high hurdles it takes for companies to go public
+ in today's traditional stock market and how that fact is interacting with the tokenization movement.
+ Some of the biggest, most exciting companies of the modern age, SpaceX, OpenAI and Thoropic,
+ these are all private companies with no formal market, even though equity does change hands in the private market.
+ Vlad thinks tokenization can play a big role here to give liquidity to these private companies
+ while also giving financial opportunities to end investors who want access to private equity
+ that is working on the technological frontier.
+ I think that is a match made in heaven and it would make sense if that marketplace was found on Robinhood.
+ Anyways, I really enjoyed this conversation with Vlad, even though Robinhood is not entirely a bankless platform,
+ I enjoy Robinhood putting pressure on old archaic traditional finance because that's just good for everyone.
+ So let's go ahead and get right into the podcast, but first a moment to talk about some of these fantastic sponsors
+ that make this show possible.
+ In the Wild West of DeFi, stability and innovation are everything, which is why you should check out Frax Finance,
+ the protocol revolutionizing stablecoins, DeFi and rollers.
+ The core of Frax Finance is Frax USD, which is backed by BlackRock's institutional fiddle fund.
+ Frax designed Frax USD for best-in-class yields across DeFi, T-bills and carry trade returns all in one.
+ Just head to Frax.com, then stake it to earn some of the best yields in DeFi.
+ Want even more?
+ Bridge your Frax USD over to the Frax still layer two for the same yield plus Frax still points
+ and explore Frax still's diverse layer two ecosystem with protocols like Curve, Convex and more, all rewarding early adopters.
+ Frax isn't just a protocol, it's a digital nation powered by the FXS token and governed by its global community.
+ Acquire FXS through Frax.com or your go-to decks, stake it and help shape Frax nation's future.
+ Ready to join the forefront of DeFi?
+ Visit Frax.com now to start earning with Frax USD and Staked Frax USD.
+ And for Bankless listeners, you can use Frax.com/r/bankless when bridging to Fraxel for exclusive Fraxel perks and boosted rewards.
+ Introducing UniChain.
+ Built for DeFi, empowered by Uniswap, UniChain is the fast, decentralized layer two designed to tackle blockchain speed and cost challenges.
+ With this mainnet now live, you can enjoy transactions at up to 95% cheaper than the E player one,
+ all while benefiting from an impressive one second block time that will be getting even faster very soon.
+ UniChain is the first layer two to launch as a stage one roll-up on day one.
+ That means it comes with a fully functional, permissionless proof system.
+ From the start, increasing transparency and further decentralizing the chain.
+ More than 80 apps are joining the UniChain community, including Coinbase, Circle, Lido, Morpho and Uniswap.
+ You'll be able to bridge, swap, borrow, lend and launch new assets and more from day one.
+ Built by Uniswap Labs, the team behind the protocol that's processed over 2.75 trillion in all-time volume with zero hacks,
+ UniChain truly enhances DeFi experiences with faster, cheaper and seamless transactions even across chains.
+ And soon, the UniChain validation network will allow anyone to run a node and earn by securing the network.
+ Visit Uniswap.org and swap on UniChain today.
+ The Arbitrum Portal is your one-stop hub to entering the Ethereum ecosystem. With over 800 apps, Arbitrum offers something for everyone.
+ Dive into the epicenter of DeFi, where advanced trading, lending and staking platforms are redefining how we interact with money.
+ Explore Arbitrum's rapidly growing gaming hub from immersed role-playing games, fast-paced fantasy MMOs to casual, luck-battle mobile games.
+ Move assets effortlessly between chains and access the ecosystem with ease via Arbitrum's expansive network of bridges and onrifts.
+ Step into Arbitrum's flourishing NFT and creator space, where artists, collectors and social converge and support your favorite streamers all on chain.
+ Find new and trending apps and learn how to earn rewards across the Arbitrum ecosystem with limited-time campaigns from your favorite projects.
+ Empower your future with Arbitrum.
+ Visit portal.arbitrum.io to find out what's next on your web-free journey.
+ Bankless Nation, I'm here with Vlad, 10F, the CEO of Robinhood.
+ This is Vlad's third time on the show. Each time, there are some exciting new things happening in the world of Robinhood.
+ And also, each time that Vlad has come on, Robinhood has gotten a little bit deeper into the world of crypto as well.
+ Vlad, excited to have you back on. Welcome to Bankless.
+ Thanks for having me. Always a pleasure.
+ So you guys just came out of some pretty big product announcements.
+ Robinhood Strategies, Robinhood Banking, Robinhood Cortex. Pretty good timing for this podcast episode, but that was actually a coincidence.
+ I want to, we're going to get there.
+ I first want to talk about some more crypto-native subjects, mainly this new era of regulation in crypto, crypto inside of the United States.
+ So this new administration has unlocked many doors for the crypto industry inside of the United States,
+ especially for institutions who have always wanted to enter the crypto industry,
+ but have really been too uncertain or risk averse due to just regulatory uncertainty.
+ So now with this new administration, what doors have specifically been unlocked for Robinhood?
+ What can you guys do now that you couldn't do before, and which doors are you going to go through first?
+ Yeah, I think the immediate thing was the cessation of regulation by enforcement.
+ So just a big improvement is to not be under all-out assault over all aspects of the crypto business.
+ So there was the announcement that the SEC closed its investigation into crypto along with the crypto businesses of some other companies in the industry.
+ And I think what you felt was immediate relief, the feeling that we can just move forward as a company and as an industry without having to deal with this relentless onslaught,
+ where it was very, very clear that the previous administration had a view that crypto shouldn't exist in substantive form,
+ and should certainly not be allowed to integrate with the traditional financial system.
+ So I think that was a big boon.
+ And now there's two big things that are underway legislatively.
+ So I should be clear, I mean, cessation of enforcement is a big thing.
+ There was also clarity on meme coins, which you probably saw the SEC issued a memo on meme coins,
+ specifically saying that they were not securities.
+ And this was basically something that was not very controversial.
+ I mean, the whole thing with meme coins is it was a fairly easy legal analysis to determine that they don't qualify as securities,
+ but everyone was kind of independently doing this analysis for every coin.
+ The folks that were doing a good job at this, including Robinhood were doing rigorous analysis for every coin, including a security analysis.
+ And that was expensive and burdensome, so having this sort of clarity was very useful.
+ And similarly, there's more clarity about staking, whether staking is a security.
+ And that's a great thing as well, because if you think about staking, people are contributing their own compute to supporting the blockchain.
+ There's staking providers that aim to reduce the complexity of that.
+ And generally, that results in more yield, more crypto in customers' pockets.
+ So lack of clarity there was actually just hurting U.S. consumers because they couldn't generate as much yield from platforms that are more regulated.
+ And so having clarity there is good, and there's two big legislative initiatives right now, stablecoin and market structure.
+ Stablecoin is going to come first, and I think that'll be welcome and it's good.
+ But market structure is what we're really excited about.
+ And I think that's the mechanism by which we'll have clarity on how we can incorporate crypto technology into real world, trad-fi assets, like securities, also like yield-bearing stablecoins, as well as prediction markets.
+ We'll have to outline what qualifies as a crypto asset security versus a crypto asset commodity.
+ And also, what steps we would need to take as a platform to list crypto asset securities?
+ And what would it take as a company or as an issuer to actually issue crypto asset securities to the American public?
+ I think those are the big questions and getting legislation to help us answer the questions is what's going to unlock the true power of crypto technology.
+ So that's what we're very excited about.
+ And you had mentioned companies that are working on connecting stablecoin.
+ So you can essentially do banking backed by stablecoin, where your stablecoin is staked or put into some kind of pool that generates yield.
+ I think crypto market structure legislation would actually unlock those types of products, and you'd have more competition in the banking sector.
+ I don't think stablecoin is quite there because it doesn't stipulate yield-bearing stablecoins.
+ So more regulatory clarity is needed to actually put that on firmer footing.
+ But we're optimistic it'll come.
+ And we're engaged in Washington to help in this legislation, and I think it's heading in a positive direction.
+ So we're feeling good.
+ I think maybe if I'm hearing your answer, there are a bunch of product lines that theoretically exist that are out there, that we really need that market structure bill to get through Congress, so that we can stop being in this exploratory phase, this ideation phase, and actually stop being in this building phase.
+ Is that correct?
+ Yeah, 100%. So effectively, a stablecoin, for example, that bears yield, that pays interest directly to holders, resembles a money market fund, right?
+ Which is a stablecoins themselves resemble money market funds because there literally are money market funds that hold treasuries.
+ And so that's where stablecoins being treated a little bit differently and has been for a while.
+ But I think that's where the regulatory clarity can come in.
+ What about the vertical of tokenization?
+ Because I think that is just a super hot topic with anything that is in the world of traffic.
+ Because I think that's really kind of the conduit between the world of banking, traditional finance, and the world of crypto is like, let's tokenize some more assets and start to leverage and lean into the value of public permission.
+ Unless blockchains.
+ Where is Robin Hood's role in this tokenization movement?
+ I'm assuming you guys are bullish on it.
+ Do you guys see yourself as an issuer, a platform?
+ Will Robin Hood create tokenized products?
+ Are you just interested in being the marketplace for these things?
+ Where do you guys stand in this tech stack of tokenization?
+ Yeah, so tokenization by this definition is taking a non-crypto native asset and assigning it representation on a blockchain so that it's freely tradable.
+ So we already have it with stablecoins.
+ And also, you know, Paxos has a tokenized gold product.
+ For example, that's a very interesting product.
+ And we actually partnered with Paxos and a few other companies on USDG, the Dollar Global Network, which aims to build a stablecoin that's available globally that pays an attractive yield to holders.
+ And the next step would obviously be tokenization of securities, which we're very excited about.
+ So that allows you to have ownership in companies.
+ In the same way that stablecoin legislation ensures USD dominance globally, which I think is why people are excited about and you're having so much excitement, particularly in Washington around it.
+ And everyone wants USD in US treasuries to be accepted and purchased and for there to be high demand for those products globally, particularly as more countries are moving away from US treasuries.
+ So stablecoin is viewed, I think, rightly as an area that could increase demand among individuals overseas as governments become prone to diversifying away from holding treasuries.
+ So in the same way that stablecoin legislation can kind of push forward US dollar dominance, I think tokenized securities can really push forward US company dominance in the global market.
+ So we increase the pool of shareholders for US companies.
+ Right now it's very difficult to invest in a US company if you're overseas.
+ And so in the same way that stablecoins made it easy to get dollars, tokenized securities will make it easily easy to access US companies.
+ So we're excited about that.
+ I think that's good for the companies.
+ That's good for people outside the US because they'll have access to these effective wealth building tools, which is another way to diversify.
+ If they have loss of purchasing power due to local currencies that are devaluing sharply.
+ So I think that's exciting.
+ And I think it's also good for entrepreneurs in capital formation.
+ If you make it easier to raise capital in the US by tapping into a global crypto market, you get a lot more interesting companies.
+ So we wrote an op-ed actually in the Washington Post a couple months ago that I published that makes the case for tokenizing private securities.
+ So if you think about it, right now it's hard to invest in open AI or SpaceX as a private company.
+ And I think crypto can help solve that.
+ So if you tokenize private companies, it'll be good for the companies and also for investors.
+ It's crazy to me that you can't invest in companies like SpaceX and open AI, but you know, we have clarity on meme coins and people can basically invest in those freely.
+ If I'm putting some of the pieces together, there is like a market for SpaceX equity out there.
+ I guess not crazy to have a friend who just managed to find a way to access SpaceX, SpaceX equity.
+ And so I think what you're kind of saying is like, well, since there's already a market out there, it's in the private market sector,
+ we could tokenize that equity and make that into a more formalized, more structured market using crypto rails to do that.
+ And then I would imagine Robin Hood would love to be the marketplace to service tokenize equities.
+ At least if I'm putting pieces two and two together, that seems like a very viable future.
+ Is this kind of the roadmap that you see and how close are we?
+ How close are we into tokenize SpaceX equity on Robin Hood?
+ Yeah, I think Robin Hood sits at the intersection of tradfi and crypto.
+ So we have all the crypto technology.
+ We have all the traditional financial infrastructure.
+ We have all the new data to the ecosystem.
+ And I think in the future, this will look something like an ETF issuer.
+ So ETF issuers, you know, there's ETFs that hold a basket of securities and then issue shares of the ETF.
+ In a way, that's a precursor to tokenize securities, right?
+ And there's a creation redemption process where if you have, if you come to the ETF issuer with a basket of those securities,
+ they'll redeem it for a share of the ETF and vice versa.
+ You can redeem the ETF for the underlying basket of securities.
+ So I think that's an analogy of what already happens in tradfi that tokenization can kind of evolve using crypto technology.
+ There's been not a substantial decline, but the trend of public market IPOing is towards a lower number.
+ It's simply just because costs of IPOing are just so high, so prohibitive for companies.
+ Like the bar just seems to be getting higher and higher for companies to get over in order to access public capital markets.
+ Do you think that because of this trend, that that will also push tailwinds towards this kind of private market tokenization frontier?
+ Or is that just too difficult in terms of just like nation state compliance and unwieldy in terms of just like what finance norms are?
+ What do you think about that?
+ Yeah, I think the way it's headed is tokenization of securities kind of paves the way towards an IPO alternative.
+ I think that'll happen.
+ And even if it doesn't happen in the US soon, it'll happen internationally, right?
+ Because many countries are setting up their frameworks for issuing crypto asset securities and crypto by its nature is global.
+ So if you can issue a token of a company on a blockchain regulated in one jurisdiction,
+ you sort of immediately tap into this global market that's getting increasingly more liquid and has hundreds of millions of participants around the world.
+ So I think that makes it an inevitability that it's embraced by the US as well.
+ And I think there's two use cases.
+ If you're a private company at the absolute early stages of company formation, this is primary capital, right?
+ It's the equivalent of a traditional IPO where you're raising capital from shareholders.
+ I think primary capital is very, very useful at the earliest stages because I remember being an entrepreneur running a seed stage company.
+ When you're in fundraising mode, it takes up a ton of your mind share and resources.
+ And those resources are really, really meaningful when you're a small company.
+ So if I had an option to just tap into a global pool for raising capital and get my fund raised on very, very quickly,
+ that's a compelling value proposition for an early stage founder.
+ So I think it could help.
+ It was get a lot more companies.
+ You'll get a lot more companies, a lot more projects, and a lot more exposure at earliest stages where the risk is highest, but also the upside opportunity is greatest for investors.
+ And for a late stage private company, something like an open AI or SpaceX, the value proposition shifts.
+ So I think it's less interesting to the founders of those companies at that point because they've already raised a ton of money.
+ Maybe they're planning an IPO or other things, but it becomes very interesting to employees.
+ Some of these companies have thousands or tens of thousands of employees.
+ They're looking for liquidity. They don't have visibility as to when there's going to be an IPO or liquidity event.
+ And so the employees are interested in diversifying a little bit.
+ And that becomes a strong value proposition.
+ And you have secondary platforms, platforms like Equities and or Forge or some others that operate in the space.
+ And they actually right now go to employees.
+ They reach out to employees of these companies because that's the receptive audience for diversifying and selling secondary shares.
+ Now the problem with those models is the liquidity is actually split.
+ So the platform itself has to go out and figure out how to get supply and bring it on.
+ Whereas crypto benefits from interoperability where you just have to get it on the blockchain is freely tradable
+ and you immediately access that global liquidity, which is why I think that it's such a great technology solution.
+ There seems to be just a handful of different trends that are just clearly pointing in this direction.
+ And there's just a bunch of cool companies out there, SpaceX, OpenAI that are just private and not seemingly interested in going public.
+ Just all of these AI labs for just a broad category, just don't have public equity or they're like Facebook or Google or just something way too large,
+ where it's just like too dilutive of an investment vehicle to get closer to AI.
+ If you want exposure to AI as a retail investor, your options are incredibly limited.
+ I mean, you have like Nvidia, which is multi trillion, alphabets multi trillion and Tesla, of course.
+ But there's a huge gap. You can't get exposure to open AI or anthropic or perplexity or any of these interesting AI companies.
+ Yeah. And if you just look at the public markets, you just see the multi decade long trends of the opportunities are getting today in the modern age.
+ Opportunities are no longer in the public markets. They are in the private markets.
+ Partly what I said earlier is just the costs of the compliance costs of IPOing is just getting higher and higher and higher.
+ And meanwhile, crypto is like offering the technology to be an answer to that.
+ I just see like multiple different tailwinds pointing towards this inevitable conclusion of tokenizing private market equity.
+ And that actually becoming more or less the pseudo public markets of sorts.
+ Yeah. Okay. So I also kind of want to get into the world of prediction markets because this is something that Robinhood has also entered into.
+ I think there's this like tagline of Robinhood of markets for everything.
+ Am I hallucinating that? Or is there some sort of like actually official brand of just like, that's where your guys' goal is filling the gap of my understanding here?
+ Yeah. I mean, we haven't used that tagline specifically as Robinhood.
+ Okay. So I did imagine that.
+ The name of the company is Robinhood markets, right? That's our parent company.
+ And so the mission which you probably heard is democratized finance for all.
+ And what that means is generally speaking, if there's a market, we believe in markets and we think that if there's a market that we should facilitate it and allow our traders to access it.
+ And generally, if it's an institutional market and retail is interested in it, retail should be allowed to access it on a level playing field to institutions as well.
+ So those are a few of the sort of like North Stars about offering markets.
+ So that applies to prediction markets as well.
+ But I think prediction markets have an additional value for me personally, which is there's a societal benefit for that market being robust outside of just trading, which is having a robust prediction market means you have better predictions
+ across a wide variety of events.
+ We saw this in the election where the prediction markets gave you that information hours or even days before the traditional media.
+ And I think you're going to see it across multiple different categories.
+ So I think prediction markets are truth machines and they're an evolution of the news.
+ They're an evolution of the newspaper where in some cases you even get the news via prediction markets before it happens, which I think is super interesting.
+ Yeah, I hosted an election party like many people do and of course we had mainstream media on the news, but I'm just primarily friends with crypto people. And so in addition to having mainstream media, we also had poly market on a screen and everyone was slipping back
+ and forth between poly market and the mainstream media and poly market was actually the more interesting thing to look at because it was actually giving us the data that we felt was much more real time.
+ So in a recent announcement out of the Robinhood, let me just read this and we'll kind of get into the prediction markets section more more definitively.
+ Recently, Robinhood announced a prediction markets hub directly within the Robinhood app, giving customers the opportunity to trade the outcomes of some of the world's biggest events.
+ At launch, the hub will allow customers to trade contracts for what the upper bound of the target feds fund rate will be in May, as well as the upcoming men's and women's college basketball tournaments to very different markets.
+ So I think you kind of already answered my first question, which is what motivated the integration of a prediction market into Robinhood.
+ But notably this prediction market product is also powered by Kalashi.
+ Maybe you could go into that actual partnership between Kalashi was Kalashi's role and the prediction market that's found in Robinhood.
+ Yeah, so Kalashi is designated contract market, a DCM, and you can think of DCM as akin to an exchange, a stock exchange.
+ So in in equities land, there's exchanges like the NASDAQ and the New York Stock Exchange, brokers, including Robinhood connect to exchanges or market makers that trade on these exchanges where the buyers and sellers are actually crossed.
+ And the exchange essentially creates a market. So in equities land, Robinhood's a broker, we have an introducing and clearing broker.
+ We route to market makers. We also route directly to exchange and exchanges are where the individual buy and sell orders cross.
+ In futures land, CFTC land, there's designated contract markets DCM's which are like the exchanges where the buyers and sellers meet, and then FCM's future commissions merchants, which is what Robinhood is in this case where an FCM.
+ So we're responsible for the customer relationship, the interface, and then we route to DCM's and via market makers for the orders to be crossed.
+ So, yeah, you can think of Kalashi as analogous to the NASDAQ or Nicie, and we're playing the role that we always play as a broker.
+ And we also, for the presidential election, we connected to a different DCM called forecast tax, which is a subsidiary of interactive brokers.
+ So we have the capability of connecting to multiple DCM's and offering different products offered by those exchanges.
+ And actually, the DCM is who has the ultimate responsibility for listing the contract.
+ So all the contracts that we list have to be listed on a DCM in order for us to offer them.
+ Okay, so you can offer your own prediction markets, it has to be on a third party DCM.
+ Correct, yeah.
+ And actually, one of the reasons why a polymarket, which you mentioned, polymarket prediction markets are not available in the US is because they're not a DCM, right there.
+ This crypto technology approach, and I think this is one of those things that's going to need to be clarified in that market structure legislation that we were talking about a little bit earlier.
+ So, obviously, the CFTC regulates these things as commodities, they have licensure.
+ So would polymarket style prediction markets be handled under that regime, or is there going to be some other regime because it's crypto?
+ So those are kind of the big prediction markets questions that we need legislation before allowing something like polymarket to operate in the US.
+ Yeah, I think everyone listening to this would definitely enjoy being able to access polymarket inside of the United States.
+ One last question on the prediction markets side of this thing. So we are starting with the Fed funds rate and also men's and women's basketball.
+ But what next? What are the future prediction market bets that people can make on Robinhood in the near term future?
+ Yeah, so with this latest round of contracts of markets that we listed, we've gone from having the capabilities to list one at a time to listing hundreds.
+ And of course, the operational complexity of clearing and paying out and setting up new contracts that are depending on previous contracts.
+ That's really, you know, the men's and women's college basketball really has put that to the test.
+ So we're soon going to have the capability to go from hundreds to thousands, which really opens up all types of prediction markets.
+ So we're excited about economic. I'm excited about artificial intelligence progress.
+ You know, there's some very cool prediction markets that give clarity on, you know, different AI developments, which I think our customers are very, very interested in.
+ But really, I think it should be the newspaper, right? There's front page, which is what's trending right now in the world that people are curious about.
+ There's your sports section, your business section, arts and leisure style.
+ I think that's a good microcosm for what we need prediction markets on.
+ Those are basically the categories.
+ Yeah, prediction markets as a truth machine, I think is one of the reasons why crypto people are so peeled on prediction markets.
+ And there's been examples in the past of pretty like big and also sensitive geopolitical events that have happened as Israel versus Iran when the missiles were going across the border.
+ There was a prediction market or set of prediction markets on poly market that was actually truly informative about what people thought about the future events.
+ And at the same time, highly consequential, kind of sensitive subjects.
+ But also, you know, high stakes and very important because I think, you know, if we are entering a unstable geopolitical future, people would appreciate understanding what the market thinks about the likelihood of certain outcomes.
+ How do you think about this as like the idea of integrating high stakes global macro geopolitical prediction markets inside of Robinhood?
+ I think that it's important for society, right?
+ I think that there's a current CFTC guideline for prediction markets and event contracts as they're called.
+ And basically, it stipulates that, you know, prediction markets that are contrary to public interest shouldn't be listed.
+ And I think that that's a somewhat vague general category of thing, but we should make sure that we cabin that as much as possible because I really think the vast majority of prediction markets are in the public interest.
+ Imagine a world where your day-to-day banking runs on a blockchain.
+ That's exactly what Mantle is building, powered by a $4 billion treasury and poised to become the largest sustainable on-chain financial hub.
+ As part of their 2025 expansion, Mantle is introducing three new core innovation pillars that bridge traditional finance with decentralized technology.
+ First is their enhanced index fund, aiming for $1 billion in AUM by Q1.
+ It provides optimized exposure to Bitcoin, E, Solana, and USC, complete with built-in yield opportunities.
+ Next, Mantle banking promises to revolutionize global value transfer through seamless blockchain-powered banking services, bridging crypto into your daily life.
+ Finally, Mantle X blends the AI with DeFi to deliver an intelligent user-friendly experience for everyone.
+ And the best part is that this is all in addition to their already launched products, like Mantle Network, ME, and FBTC.
+ Ready to step into the future of finance? Follow Mantle on X at Mantle_official and join the on-chain revolution today.
+ Sello is transitioning from a mobile-first, EVM-compatible layer 1 blockchain to a high-performance Ethereum layer 2, built on OP stack with EigenDA and one-block finality, all happening soon with a hard fork,
+ with over 600 million total transactions, 12 million weekly transactions, and 750,000 daily active users.
+ Sello's meteoric rise would place it among one of the top layer 2s, built for the real-world and optimized for fast, low-cost, global payments.
+ At home of the Sablecoins, Sello hosts 13 native Sablecoins across seven different currencies, including native USDT on Opera MiniPay, and with over 4 million users in Africa alone.
+ In November, Sablecoin volumes hit $6.8 billion, made for its seamless on-chain FX trading.
+ Plus, users can pay gas with ERC-20 tokens like USDT and USDC and send crypto to phone numbers in seconds.
+ But why should you care about Sello's transition to a layer 2?
+ Layer 2's Unify Ethereum, L1's fragmented. By becoming a layer 2, Sello leads the way for other EVM-compatible layer 1s to follow.
+ Follow Sello on X and witness the great Sello Havening, where Sello cuts its inflation in half as it enters its layer 2 era and continuing its environmental leadership.
+ You may have already heard about Infinex. Infinex has, in my opinion, the nicest cross-chain swap and bridge feature that you will find anywhere.
+ It is called Switch, swap and bridge, and we're going to show you what it looks like.
+ First, we're going to log into my Infinex account with a PASKI. Now, there's no seed phrases in Infinex.
+ This is just a one-click set up with biometric PASKIs. But in addition to that, my Infinex account is fully non-custorial.
+ So, bam, I just logged in, it was two clicks, and I'm already into my Infinex account.
+ So, let's go make a switch. I'm going to go switch my USDC that is on base, and I'm going to buy Barra Chain, which is a completely different chain.
+ So, we're going to switch this. I'm going to press that button, and then Infinex is going to execute this order.
+ This cross-chain order for me. And now it is done.
+ But actually, I'm not really feeling Barra-ish anymore, so I'm going to go from Barra to Penguins.
+ I'm going to buy Penguin on Solana, so I'm going from the Barra Chain to Solana.
+ See, no transaction signing, no gas to worry about. You just switch across whatever chain that you want with Infinex.
+ That was so easy. Go check out Infinex and try your first switch today.
+ Okay, so let's get into some recent product announcements that just happened this week.
+ We all had a pretty big event, a Robinhood Summit of sorts, and three different new verticals out of Robinhood.
+ We announced Robinhood Strategies, Robinhood Banking, and then Robinhood Cortex.
+ So, maybe we can kind of go one by one through these things, and maybe we can talk about the motivations for building each one of these verticals.
+ I think, start with Robinhood Banking, because I think that's the product that I think is the most interesting to me.
+ So, give me the details on that and what motivated that creation of that product line in the first place.
+ Yeah, I mean, the overall inspiration for the gold event is we want to give all of our customers the same access opportunities and strategies that a high net worth individual would have their team of financial experts that help them with their financial life.
+ So, high net worth individuals have private bankers. They have investment advisors. They have research assistants that help them scour the entire world, private and public for opportunities.
+ And with technology, we can actually provide the value of a lot of these services to customers for a very, very low fee.
+ So, that's kind of the north star. We want to put a sophisticated, high net worth family office like financial team into everyone's pocket and give it to our gold subscribers for as little as $5 a month.
+ And I think that's sort of like the promise of something like the iPhone applied to financial services. How can you give someone a luxury product, a product that people are proud to use and be associated with because it's high end?
+ But can you offer that at a price point that makes it truly accessible to everyone, where everyone just sees the extreme value?
+ And so, that's the thread behind the three products we announced at the Gold Event. Strategies is your digital investment advisor. Cortex is your research assistant and Robin Hood banking serves as your private banker.
+ And I think in the future, there's also the first AI product that we've rolled out within Robin Hood.
+ So, I think in the future, you'll see the latest intelligence models and reasoning models actually imbued further and further into the product experience, further stitching these two together and really providing you a great experience where everything is aware of everything else.
+ Yeah, when I was reading this announcement, I saw the Robin Hood Cortex, and I was like, "What? Robin Hood is releasing an AI agent?" But then, of course, reading into it makes a little bit more sense.
+ Maybe you can kind of just give us an example of how someone might use Robin Hood Cortex. I'm assuming it's going to be in the Robin Hood app, the Canonical Robin Hood app, and then you just ask it questions about stuff that's going on in finance.
+ Is it just kind of like an LLM that's financially themed? Like, pop up in the hood a little bit more and color that in for us.
+ Yeah, so right now, there's basically two applications of it within the Robin Hood app. One is to answer the question of what's going on with a stock right now.
+ So, if you use Robin Hood from time to time, we send notifications about market movements. If a stock's up or down 5%, then a very typical use case is to go to the stock and figure out what's going on.
+ I don't know if you've had that experience. Certainly, yeah. But yeah, Cortex answers this. On the stock detail page, you go to the stock and it'll explain what's driving that movement to the best of its ability.
+ So, those are stock digests. And we also wanted to tackle another use case, which is around options trading. So, options are very confusing.
+ You have to really process a lot of information and you have to be quite experienced in order to construct an options trade, particularly one that has multiple legs, like a multi leg options trade.
+ And what Cortex does via trade builder is it takes a prediction about what a stock's going to do at some point in the future and creates and constructs options trades that help you execute on that prediction.
+ And it's a quite magical experience. We did a demo at the gold event where you go to a particular stock, make a prediction, and then it's sort of like outputs trades that you can execute on directly.
+ Or it can put you into our new side by side options chain, which is rolling out starting next week, which is an amazing experience for entering multi leg options chains all from one screen.
+ Is the idea here just translating human English expressed intent or preferences in a trade ingesting that into an AI, having the AI process that and then spit back out some potential options.
+ Or like a package of like here's some potential trades that you might be interested in.
+ So the idea is just coupling human language inputs into like potential like option option traits is that the idea? Yeah, well, a little bit more than that because we also take all of the information that's out there.
+ So that includes market data, which is quantitative information, technicals, news updates from various sources. And we try to synthesize that and actually assist and provide a helpful tool for generating the prediction in the first place so that
+ you have some insights, some data, some news right there that can help you as an individual in making your prediction.
+ Can we talk about what is actually in the DNA of this LLM? I'm assuming this is not just a chat GPT rapper. There's a little bit more precision going on behind the scenes.
+ So like what's unique about like the data that is trained upon or any sort of information about like the post training or anything that really makes this a Robinhood financed themed LLM?
+ How is it unique? Yeah, so most typical LLMs don't have real time market data or financial data.
+ They have stale data, so they can't really without integrating external tools, even tell you what the stock price is of a stock right now.
+ And basically when they provide financial information, they hallucinate because they don't actually have access to the real time data.
+ And so what we've built is a layer of technology on top that ensures that the data that you get is going to be interpretable and hallucination free.
+ So that solves the two biggest problems that typical LLMs have.
+ Yeah, I would imagine that hallucinating inside of a finance context could be catastrophic if we do not get that right.
+ Yeah, 100%. But the benefit is we have a source of truth. So unlike writing a history essay where whether or not you're hallucinating is somewhat ambiguous.
+ If it's financial data, we have the data so we can build guardrails and we know we can identify the hallucinations precisely.
+ And this is maybe the competitive advantage that Robinhood has in the endeavor of creating a finance AI assistant, which is you guys also have real time market data.
+ You guys have user data. You guys have a bunch of finance related data.
+ And so I'm sure that's just being coupled right into the value of the LLM itself.
+ Yeah, that's one advantage. The other is that you can actually transact within our app.
+ So if we can make cortex contextual to where you want to perform an action, then it can be more useful.
+ Yeah, what we didn't want to do is just put a chat box in the app. Yeah, because people don't know how to use that.
+ It can provide output that's superfluous and wordy and has hallucination problems.
+ So I think that would be the naive solution that we just wanted to avoid.
+ Getting into the strategies side of this going back there for a quick second.
+ Is there a potential future where this same strategies product is pointed towards crypto assets?
+ Because anyone in the crypto industry, anyone listening to this podcast probably has all their friends asking them,
+ "Hey, what do I buy?" or "How should I invest in crypto?" because they don't know.
+ It would be really nice to have some pretty sophisticated, crypto-focused strategies that contain crypto assets.
+ What's it take to point this strategy's product towards the crypto industry?
+ Yeah, there's no technical reason why we hadn't done it.
+ I mean, we have literally a list of probably dozens, maybe even hundreds of features that we could bring to strategies.
+ And we want to see what customers want most.
+ I think we've got a great foundation. We wanted to start with individual stocks because most other digital advice platforms offer ETFs only.
+ So we built the capability to put individual assets and individual stocks in the portfolios.
+ We, of course, support ETFs as well.
+ And we built a really nice interface where we have a ring that clarifies your asset allocation.
+ We can rebalance on customers' behalf.
+ So it's as close as possible to just an invest hands-off button as you can get.
+ And crypto is definitely something we considered for the launch.
+ It's something that we can add along with other assets.
+ So I think you'll see strategies continue to evolve.
+ But yeah, we're excited.
+ It's available right now.
+ Customers can try it.
+ We're already starting to get good, positive feedback.
+ And people are moving their portfolios.
+ Well, I should say the one huge differentiator for strategies is it inverts and breaks the traditional advice pricing model.
+ So all other advisors out there, pretty much all, I wouldn't say, not absolutely.
+ But your typical advisor charges an asset management fee.
+ So, you know, it's somewhere between 1% for a traditional advisor, 0.25% for a robo advisor on the low end.
+ And what that means is, as your portfolio grows, the amount your piece grows with that.
+ But the amount of value that your digital advisor is offering doesn't scale linearly.
+ I mean, having a robo manage a million dollar portfolio isn't 10 times as valuable or 10 times as hard or even significantly different than managing a $100,000 portfolio.
+ But you're paying 10 times as much.
+ So this had the nasty side effect of if you're a wealthy customer and you're putting more and more money into one of these services, you're sort of like getting less and less happy as that as time goes on.
+ Which is not what you want as a customer, but it's not what you want as a business.
+ You want customers to get happier as their wealth with you grows.
+ And so Robinhood strategies introduced an innovative cap fee model where you're not going to be paying more than $250 in fees regardless of how big your portfolio is.
+ So if you have a million dollars, the value proposition of switching into Robinhood strategies is actually quite high.
+ How does that change the incentives of this product then? Because this has not become like an AUM incentivized business.
+ This becomes more of a quantity of customers incentivized business.
+ So how does Robinhood benefit from like big growth of strategies as a product if you guys are capping the fees that you charge to just $250 max per customer?
+ Yeah, well, I mean, it incentivizes the, it's a huge incentive for customers that have significant assets outside of Robinhood to move them in.
+ And we benefit from that with the asset management fee, we benefit from that from the Robinhood Gold subscription.
+ And what we're seeing is once you become Robinhood Gold subscriber and you have a good chunk of your wealth with us, let's say you put $1,000 in there, you're starting to see the value at that point.
+ And you will tend to use more and more of our services, including the credit card and the self directed trading capabilities.
+ Yeah, it's really about getting as much of that financial relationship as possible and making it easy for you to put all of your dollars into Robinhood.
+ And then, you know, we do see our revenue scaling with the number of dollars that we have in there.
+ One thing I want to ask is this cash delivery service. Oh, yeah, I'll describe as like Uber eats, but for cash, I think is maybe pretty accurate. Can you talk about like why? Why did you guys need to build a Uber eats for cash?
+ And then how does it all, how does it work? So like popping up in the hood? How does like money get transferred around?
+ We're getting into the logistics business, which is also very exciting for me. Yeah, so this is a private banking high end service and two things.
+ One is we don't have branch offices. So we asked ourselves, how can we bring, how can we give you digital banking where you're not actually making sacrifices?
+ And without a branch office, one of the sacrifices is if you need cash, which by the way, 16% of all payments in the US are still cash payments.
+ So, you know, it's decreasing, but certainly not obsolete. So cash is still important for a lot of people for various, for various needs.
+ But if you need cash, you have to go to a 711 or a CVS or something like that.
+ If you're a digital banking customer and another neo bank and nothing says private high net worth banking, then going to the 711 to pick up cash.
+ Right. So obviously that didn't work. We need a new solution. So we asked ourselves, what would it take to have the bank come to you?
+ And nowadays, you know, these on demand logistics platforms have gotten very, very robust. They can bring stuff to you in 10 or 15 minutes.
+ You can buy an iPhone and get it delivered to your house, right? And that's a small big ticket, high dollar amount, valuable item.
+ So this is a solved problem. So we're going to be announcing who we're partnering with. We're obviously not doing the entire end-to-end logistics chain ourselves, but we're working with partners.
+ And it's a complex endeavor, but we think it's going to provide a lot of value.
+ You know, as a matter of fact, I was a first republic customer before the merger. And one of the really valuable things that first republic had was cash delivery to your house.
+ But of course, the cash was in much larger amounts and it came in an armored vehicle, right? And so it is a high net worth feature to get cash delivered to your house.
+ And we kind of asked ourselves, how can we make it available to the mass market?
+ Interesting. I would imagine that the minimum on this feature is going to be something higher than like $100.
+ Well, in the demo, I demoed $200, but I think it's still, yeah, it's still kind of open to discussion.
+ So as it rolls out, we'll learn a lot more about how this works and what the hard parts are and also what customers want and what the typical ticket sizes.
+ I anticipate the average ticket size is going to be in the low hundreds of dollars.
+ Getting back into the crypto topic, crypto sphere topics, win more crypto assets in Robinhood because there are not that many crypto assets available inside of the Robinhood app.
+ What are the plans to just list a wider variety of crypto assets in the Robinhood marketplace?
+ Yeah, I think we've been adding a lot of assets since the election and I think we offer most of the high volume ones that customers are interested in trading.
+ Trump, coin, we listed the day of the inauguration, so that was very popular.
+ We've been adding a lot of assets and I think now there's a ton of new assets created each week.
+ You know, tens, I think I've heard hundreds of thousands.
+ And so I think we recognize that we need to sort of like rethink the approach with assets.
+ And I think what you should see, what you should expect to see is Robinhood Wallet, which actually is a DeFi on chain product, which thus far has been like very disjoint from the main Robinhood app.
+ We'll get closer together over time since we're getting more and more clarity over time and you should see the custody app, the main Robinhood app, get some on chain features.
+ And also the Wallet app will make it easier for you to bring fiat in and take fiat out.
+ So I think these things at Robinhood and also industry wide will probably converge a little bit more.
+ There will be less of an onus on listing and listing will almost be like an optimization that we do on the back end if we want to make things more efficient and streamlined if we're seeing a lot of volume.
+ But I think the way it's going is customers will have more and more choice going forward.
+ And Robinhood aims to facilitate that while also making sure that if you're in a world where there's hundreds of new tokens every week, customers could get confused.
+ It's going to get hard to distinguish high quality from low quality.
+ And we also have to have to figure that out and make sure that, you know, we're not just facilitating, you know, unreputable tokens and, you know, making it too easy for customers to do things that they don't want to do.
+ So you have the Robinhood wallet, the core Robinhood app. There's also Robinhood credit card, which is, I think, also where Robinhood banking is going to be, if I'm understanding that correctly.
+ Robinhood credit cards becoming Robinhood banking.
+ Understood. Okay. So that's three applications. Is it division between these things? Is that all just like regulation and compliance?
+ And is there a vision to just kind of consolidate everything into one gigantic financial super app?
+ Yeah, we started out with the idea that everything should be in one app. The problem with everything in one app is the home screen becomes very, very important, right?
+ And maybe the home screen experience that you need if you're an active trader is not the same one as if, you know, you're a banking customer that, you know, uses our credit card.
+ So I do think most customers have a mental model where their default interface for trading differs from the one with banking.
+ And I think it's possible to actually unify them and combine them, but it hasn't really been done with too much success before.
+ So basically what my philosophy is is I'm open to experimentation, like the super app thing I'm intrigued by.
+ We could probably get it to work, but I'm not dogmatic about necessarily having everything in one app.
+ I think what's important is having unified KYC and easy money movement between accounts and otherwise, you know, let the best interface win.
+ We probably will be, you know, adding more things to the main Robinhood app. We're also open to our teams creating their own apps and, you know, we might end up with more than three.
+ And then, like Uber and Uber Eats, we might end up like recombining and splitting over time, depending on what we learn.
+ As we wrap up this interview, I kind of just want to speak freely for a moment about Robinhood and its relationship with crypto and its relationship with FinTech because, as you know, this podcast is called Bankless.
+ And we promote going Bankless, self custody of one's own finances, a self custody of one's own one's crypto assets.
+ Parts of Robinhood are very banky. In fact, incredibly, like you guys are actually launching a banking product.
+ And I think crypto, and especially DeFi, has had the kind of like free real estate of competing with traditional finance and their 0.25% APY savings accounts that you will get in Wells Fargo, just like, you know, terrible products and innovation coming from old tradFi.
+ And yet, I appreciate Robinhood coming into the market and actually providing some real competition in the world of traditional finance.
+ But also, at the same time, I'm like, well, they're not completely bankless. But nonetheless, I also see more and more crypto products and features coming online into the Robinhood product suite.
+ So I guess I'm kind of loosely asking, like, how bankless am I? How bankless are you? How bankless will Robinhood be in the future?
+ And like, kind of where do you guys fall on that? Where do you think the equilibrium lies in the bankless or non-bankless side of Robinhood?
+ How could you be so bankless?
+ Yeah, so we actually, I mean, literally, we are bankless. We don't have a banking charter. And, you know, sometimes I get this question of like, how are we going to get the charter?
+ What does that look like? Because we also get compared against traditional financial companies that have bank charters.
+ There are reasons to get charters, you know, plugging into Fedwire, the system, plugging into, you know, Zell and all these other things, being able to lend.
+ But what we do now, we're neutral platform. We partner with banks whenever, you know, we need banking for different things.
+ We have great partners that provide that coastal community bank on the credit side and banking, as well as a bunch of other partners that are part of our cash sweep program.
+ A lot of the big crypto and DeFi protocols actually need banking relationships on the backside. If you want to actually take your fiat dollars and get them on chain, a bank is part of the process.
+ And I think over time, if we have clarity, there will be crypto banks, which are basically banks that need that will get some sort of licensure that have restrictions that are hopefully less onerous than an OCC national banking charter, but still govern, you know, treasury management
+ and reserves and all those sorts of things. Because, you know, if there's no rules, customers also get burned. You remember anchor protocol, probably with the Terra Luna and, you know, Celsius and all these things that, you know, actually
+ seem bank-like in their presentation, but don't have some of the critical things. So I'm really, as we started, a fan of markets, level playing field competition.
+ And I think these worlds are likely to converge more than diverge. And there's good things about the traditional banking system that need to make their way into crypto.
+ And obviously the reverse. There's amazing things about crypto technology that makes sense to incorporate into the banking system.
+ And I think we're now at the precipice of being able to bring these two together. And that's going to be an exciting time for the crypto industry and for the customer.
+ There'll be more utility. So I think if we can make some small contribution as Robinhood to driving that convergence, I think that'll be really good.
+ I think it's also worthwhile to note that it is useful to have Robinhood to provide some competition on the crypto exchange side of things as well, because there aren't that many crypto exchanges out there.
+ And so entering into the market and being a competitive force in our side of the financial line, I think is also useful. Vlad, thank you for coming on Bankless today.
+ I've really just learned a lot in this interview. I'm just kind of pretty honestly pretty excited about the future of Robinhood.
+ Thanks. We've got a lot to build, but yeah, I appreciate the time. Bankless nation. You guys know the deal. Crypto is risky. You can lose what you put in, but nonetheless, we are headed west.
+ This is Frontier. It's not for everyone, but we are black. Glad you are with us on the Bankless journey. Thanks a lot.
+ [MUSIC PLAYING]

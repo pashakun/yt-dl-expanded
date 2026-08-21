@@ -1,0 +1,609 @@
+TITLE: Euler: The DeFi Super App - Michael Bentley. Ep. 615
+URL: https://www.youtube.com/watch?v=ZVMR-jeHxSg
+VIDEO_ID: ZVMR-jeHxSg
+
+TRANSCRIPT:
+Early lending and borrowing protocols were mistricts and just like the short tail of
+ assets. So like ETH and USDC and Bitcoin. So we started building Euler as like an integration
+ with Uniswap at the time actually to enable people to lend and borrow not just the short
+ tail but also the long tail of assets. If you get liquidated on Euler, because it's a fair
+ auction, the bonus tends to be basically the fair market rate. Like however much it should
+ cost to do the liquidation, push a little bit extra. The actual cost of it might be a few hundred
+ dollars, whereas the cost of it on another platform might be able to treat hundreds of thousands or
+ millions of dollars. When the tap is draining protocol, a lot of the assets come back in terms
+ of like USDC or USTT, right, and circle and tether. If they get requests from law enforcement or they
+ know that funds are clearly being stolen, they have the ability to put freezes on assets. A lot of
+ attackers will just effectively auto-comvert any stolen funds into ETH or an asset that's
+ like more decentralized and more difficult to kind of freeze basically. So that's what this guy did.
+ The recovery period where we were tracking down and negotiating the recovery, the price of ETH
+ rallied. And so actually it was kind of like the attack upon a long position on behalf of all of our
+ users. Welcome to Epicenter. The show is talks about the technologies, projects and people driving
+ key centralization in the blockchain revolution. I'm Ryan Craig and today I'm speaking with Michael
+ Bentley, who is the CEO and co-founder of Euler Labs, Euler Finance, which is a very innovative
+ DeFi lending protocol. So I'm really excited to talk with Michael about that. So just before we
+ get started, we'd like to share a few words from our sponsors this week. If you're looking to stake
+ your crypto with confidence, look no further than Chorus 1. More than 150,000 delegators,
+ including institutions like BitGo, Pantera Capital and Ledger, trust Chorus 1 with their assets.
+ They support over 50 blockchains and are leaders in governance or networks like
+ Cosmos Ensuring Your Stake is responsibly managed. Thanks to their advanced MEV research, you can
+ also enjoy the highest staking rewards. You can stake directly from your preferred wallet,
+ set up a white label note, restake your assets on eigenneo or symbiotic or use the SDK for multi-chain
+ staking in your app. Learn more at chorus.1 and start staking today. Hey guys, I want to
+ tell you about Gnosis, a collective of builders creating real tools for real people on the open
+ internet. Gnosis has been around since 2015. In fact, it started as one of Ethereum's very first
+ projects and today it's grown into a whole ecosystem designed to make open finance actually work for
+ everyday people. At the center of it all is Gnosis Chain. It's a low cost, highly decentralized layer
+ one that's compatible with Ethereum and secured by over 300,000 validators. So whether you're building
+ a DAP, experimenting with EFI, or working on autonomous agents, Gnosis Chain gives you a solid
+ neutral foundation to build on. But Gnosis is more than just infrastructure. It's also tools that
+ people can actually use. Like circles, for example, let's anyone issue their own digital currency
+ through networks of trust, not banks. And then there's Metri. It's their smart contract wallet
+ that makes it easy to access circles, manage group currencies, and even spend anywhere Visa has
+ accepted thanks to their integration with Gnosis Pay. All this is governed by Gnosis Dow, where
+ anyone can propose, vote, and help guide the network. And if you want to get involved, running a
+ validator is super easy. All you need is one GNO and some basic hardware. To learn more and start
+ building on the open internet, head to gnosis.io. Gnosis, building the open internet, one block at a
+ time. Cool. Thanks so much for coming on, Michael. I'm really excited and looking forward to this one.
+ Here is, tell us maybe a little bit about yourself and how did you get into crypto first?
+ Yeah. So first, thanks for having me on. Looking forward to it. How did I get involved? Well,
+ I used to be before before this life. I used to be a research scientist. I used to be an academic.
+ My specialism was evolutionary gain theory. So I used to do lots of population modeling of
+ biological systems and how they change over time effectively. I was more on the math side, but I
+ used to collaborate a lot with computer scientists, biologists, and other people. I started as a bit
+ of a script of skeptic when I first said about it in 2015. Didn't think it sounded very cool. I
+ just mistook it, mistook Ethereum for some kind of boring database solution or something. I wasn't
+ interested. But by 2017, maybe late 2016, early 2017, the markets had got a bit frothy and I got
+ drawn in at that time and started, I think later that year, I started building trading bots and
+ things for some of the primitive decentralized exchanges a lot of times. There's something called
+ IDEX that I used to trade on and eat the delta. I don't remember that one. These are like literal
+ order books on Ethereum. So quite slow and quite plunky, but they were kind of like a good
+ introduction to markets and how Ethereum works and stuff. And then, yeah, stuck around as things
+ like deteriorated in terms of market conditions over the next few years and got more interested in
+ a bunch of other stuff in 2019 and early 2020, like DeFi was sort of starting to emerge as like
+ this kind of force to be reckoned with. It was like Unislop and Yern and things like that would
+ becoming popular. And that's when I got sucked in and started studying interest rates and things.
+ And so I actually started Euler off the back of doing hackathon project where I'd created a novel
+ interest rate setting mechanism that was more decentralized for like less dependent on third
+ parties than the ones that were being used on compound at the time.
+ Well, it's the original vision for Euler.
+ So we wanted to make something where you could lend and borrow any asset. A lot of the early
+ lending and borrowing protocols were restricted to interest like the short tail of assets. So like
+ ETH and USDC and Bitcoin, and maybe a handful of others. And yeah, I guess in my hackathon, I was
+ sort of inspired by how do you set interest rates if you want to expand that set to like everything.
+ And you need an interest rate model that can adapt over time and adapt itself. You don't want
+ necessarily like a slow process of governance or third party like changing interest rate models.
+ So we wanted to see could we could we let lending and borrowing happen for anything.
+ And so we started building Euler as like an integration with Uniswap at the time actually.
+ So Uniswap V2 had oracles for an inbuilt oracle for the value of assets. We plan to use that
+ to enable people to lend and borrow not just the short tail, but also the long tail of assets
+ create lending and borrowing markets for all of all things. Didn't actually work out like that.
+ We had to pivot a few times as the project grew, but that was one of the early visions I think.
+ Okay, okay. And then I'm curious, is this it sounds like something where maybe your evolutionary
+ game theory was that background knowledge very applicable here?
+ Oh, I mean massively, right? It's um, yeah, I mean, in that day job, you're often like,
+ what was what was it actually doing? You know, how do you build these models? You like
+ consider like a set of things or entities, people, biological organisms, and they're like kind of
+ playing strategies in this big like competitive game and they interact a lot. And so you have
+ to like model that out and think, you know, what would be the like equilibrium state of
+ if you've got like two different entities playing different strategies, right? And that's very
+ similar to what happens in markets, right? You have like lenders and borrowers, you have like
+ people striving to like optimize profitability, optimize some kind of metric like risk adjusted
+ return or whatever. And so, yeah, there's a huge amount of overlap in terms of designing a like a
+ DeFi protocol that can facilitate like markets and designing a model about how how yeah populations
+ change in response to their environment. It's yeah, if you just abstract everything, then it's
+ actually very, very similar kind of task. So yeah, it was, yeah, definitely my background
+ was very relevant to what I do now. So I imagine you're pretty unique among DeFi protocol founders
+ having like that kind of perspective and background. Do you think that, you know, did that just help
+ you maybe design or learn a little bit, you know, have better models for different risk events? Or
+ do you think it also ended up, you know, just in a different protocol design because of that
+ background you had? I think, yeah, I think it's, I mean, yeah, I mean, DeFi founders tend to come
+ from really varied backgrounds, right? And then there's like trade offs having different
+ to all those backgrounds, you know, like, I think famously, we're very like engineering driven,
+ a lot of the things that we build are like really, really strong on the engineering front and well,
+ like, well architected. And so we have like, very strong attention to detail to like low level
+ processes and mechanisms and things. So like, for instance, liquidations on Euler, I think we
+ have the best liquidation during in all of DeFi, a lot of, a lot of liquidations when they happen
+ on other learning growing protocols. Effectively, the borrower just has like some of their collateral
+ like slashed and sacrificed. And then that's used as a reward for the, the people that are
+ performing in liquidations. And it's often really costly, really, really costly, especially if you're
+ a big borrower, you got like, you know, tens of millions of dollars at risk. These bonuses, you
+ know, this, these kind of slashings can be, and that can be worth like hundreds of thousands of
+ dollars or millions of dollars. On Euler, we use, we use a different mechanism. So we don't take
+ like a fixed amount of the collateral. Instead, we have this like auction that plays out. It's a
+ Dutch auction that plays out on the bonus that's distributed. What's neat about that is that if
+ you get liquidated on Euler, the, because it's a fair auction, the bonus tends to be basically the
+ fair market rate, like however much it should cost to do the liquidation plus a little bit extra
+ to kind of justify it. And so like the equivalent, if you're a large borrower in Euler and you get
+ liquidated, the actual cost of it might be, I don't know, a few hundred dollars, whereas the cost of
+ it on another platform might be literally hundreds of thousands or millions of dollars. And to that,
+ just think that like process that like focus on auctions and how they can drive efficient
+ outcomes, I think was very much driven by like who we are as builders at Euler, which is effectively
+ just a team of engineers or scientists. Yeah. All of our backgrounds are like a strong influence
+ over how Euler is architected, I think. Yeah, certainly, certainly always been a bit different
+ to other platforms in that regard. And so the high level vision then where you guys ended up
+ was basically like a lending protocol where you can borrow like any asset and use any asset as
+ collateral. That's kind of the thing that was the, that was the original vision. And then as we,
+ as we adapted, as we grow over time, we realized actually allowing anything to use this class all
+ is there are other factors that come into play, right? Like even if you could do that, you need
+ to find like counterparty, so we're willing to sit here the side of that trade. And the truth is
+ that there's just not a market for that. Like there's, I'd love to use my like long tail mean coins
+ or whatever that I've got in my wallet as collateral. But who wants to lend to that? Like who's going
+ to take the other side of that trade? There's just not really anyone available. And it's kind of like,
+ you know, the that's that's true in real life, right? Some some assets just make really good
+ collateral and you can go to a bank and say you want to take our loan against a certain stock
+ portfolio or so or a house or car or whatever. But but some things just, you know, don't make
+ the good collateral, even though they're paper value might be quite high. I mean that they're
+ strong collateral. So yeah, I think there were a lot of learnings we made in those early years
+ as well about like actually those sort of things you can technically do, but whether or not they,
+ they have like product market fit is a very different question.
+ So if you kind of go back to, you know, sort of history boiler, right? So you talked about this
+ hackathon and then how it evolved into this vision of having this, you know, very flexible lending
+ protocol. I know at some point you guys had a big hack. I don't know when when did that
+ or like can you tell a bit like how did things progress from that point onwards?
+ Yeah, so we there was a there was a big exploit, unfortunately, and yeah, in 2023. So it was
+ actually at the time when the oil protocol being like growing very rapidly and taking market
+ share from incumbents at that time. Oil V1 was like a very, very heavily audited platform,
+ like we've had more audits than most people. We, you know, we worked with Satora who do formal
+ verification. We had the largest bug bounty of anyone in that kind of a vertical. So we took
+ security really seriously. But what happened effectively was that we had this, we had this
+ bug bounty open and somebody came and reported a pretty matte and a bug on oil. So there's this
+ smaller, smaller issue that first deposit is in a bright, whenever you open a brand new market,
+ the first deposit has some funds at risk. And because it was a funds at risk bug, we awarded
+ them a bounty, a pretty small bounty because the amount of funds at risk wasn't huge. But
+ because there were some funds at risk, our security partners, when we talked to them, said, yeah,
+ you could probably fix this, right? So we developed the fix and it looked, it looked good on paper
+ and we had it reordered it. So we were with our security partners, they audited the fix.
+ But I think ultimately the fix, probably when you when you do a full audit the first time around,
+ you're considering absolutely everything, you're not just looking at them, a small part of a
+ protocol. And so when you know, full audits are fantastic, right? But when when they were auditing
+ this smaller fix, and when we were developing this like solution for this much smaller issue,
+ it was much more of a contained, you know, it was more like a focus on that thing.
+ And then we weren't both ourselves and the auditors were when seeing that bigger like
+ holistic vision. And it turns out that by developing that fix, we'd actually inadvertently
+ introduced a much more fundamental error of much more fundamental issue into the protocol. And that's
+ how nine months after we deployed that fix, somebody was able to come in and effectively
+ exploit a large amount of funds and take a large amount of funds from what everyone
+ which brought down the impotite protocol. What was that error that you guys introduced? So the
+ solution to the problem, well, just very briefly, I mean, the problem itself was caused by an
+ uninitialized exchange rate, the very very brand new markets created and there's no users yet or
+ anything. There was one exchange rate between the receipt token and the deposits that was uninitialized.
+ It turns out that for technical reasons, an exploiter could potentially front run a deposit
+ if they set up a bot or something. They'd have to do quite a bit of work for it, but potentially
+ they could like front run the first deposit and only that deposit and then use that to take some
+ of the first deposits as funds. So the fix that we developed was well, you know, why don't we take
+ the first deposits deposit? And we will, before they actually add the deposit to the account,
+ we'll use like one way or like some really small amount of that deposit to initialize the exchange
+ rate. So there was this function that added to the code base called donate to reserves and
+ the donate to reserves function was only intended to be used as a way to initialize this exchange
+ rate. And, you know, first deposits wouldn't even know it's happening. Now what it turns out,
+ so what someone realized, unbeknownst to us, was that you could use donate to reserves as a borrower
+ as you donate your collateral to the reserves. If you do it in some unique circumstances,
+ you could drive yourself towards like a less collateralized position. And then if you can
+ force yourself into a liquidatable state, you could then lose money and liquidate the account.
+ And so you might be thinking, well, why would anyone want to lose money? It turns out, we remember
+ we talked about as liquidation bonuses earlier, turns out that there was some like parameter space
+ effectively where you could lose, lose less money on the liquidatable account than you could make
+ as the person liquidating. So the person liquidate would get the bonus. And so it wasn't a huge
+ difference, but it doesn't need to be because it turns out that the attacker could then effectively
+ kind of like loop to amplify both the losses and the gains. And so with this looping strategy,
+ they were able to withdraw a lot more and drain more funds from the protocol than normally it
+ would allow. And so that was, yeah, that's how it happened. What was it like TVL back then,
+ and how much did the hacker manage to steal? So we had, I think total deposits were sort of around
+ five, 600 million. The attacker was able to take out 200 million from the protocol.
+ Yeah, big numbers. And, you know, I can talk about like the recovery process, but we did, I
+ should say, up for we recovered all of the money and more. So we were able to recover 240 million
+ from the exploiter over a period of several weeks following the attack. So we were able to track
+ them down and negotiate the return of all the stolen funds.
+ Oh, so, yeah, tell us about that. Like, how did, how did you go extract the guy down and how did
+ you, why did they agree to return these funds? There could be an entire, like, I am not kidding,
+ like an entire documentary series on this exploit. It was one of the most harrowing moments of my
+ life, but also retrospectively now if you look back on it, one of the most interesting sort of
+ the exploits and tipi history, I think. So, yeah, I mean, firstly, the reason it was particularly
+ awful, I mean, it's awful for everybody involved when something like this happens. But for me
+ personally, it was only four days after the birth of my son. So I was on, yeah, like the
+ the weekend, my son was born, like, you know, the early hours of Friday morning. By Friday afternoon,
+ there was a banking crisis in the US and circle asset USDC was depegging. So it's called
+ Interaction to like deal with this crisis issue with USDC over the weekend. So it really gets
+ chance to spend any time with my son there. And then on Monday morning, I had some alarms going
+ off and assumed it was related to the USDC, depegg event, but it turns out it was actually
+ an Euler specific attack. And so, yeah, my, yeah, the next few weeks were then spent
+ with him, my son, like, in the background and me, like, maybe trying to negotiate return of all
+ this money. The actual, I mean, there was so many twists and turns, the exploiter, like, tried to,
+ yeah, well, you know, we tried them down through various means that I can't really reveal all of
+ them, but, you know, you have to do a lot like a huge amount of data gathering and so you figured
+ out the identity of the person. Eventually, yes, although not, not initially. I mean, we had to,
+ like, I think we had a list of around 10 candidates, can't remember, but like, we developed a list of
+ people that we quite quickly, over about 24 hours, we had a list of people that we thought could be
+ involved based on available evidence. And, but yeah, we didn't actually know the identity of the
+ person until quite a long, long time after, like, even when we first started talking to them, we,
+ we, we wanted them to believe that we knew who they were, but we didn't actually know which person
+ they were our bad list or whether they're on our list at all. In fact, but yeah, they were, they,
+ they started getting, I mean, they tried to do a donation to the North Korean address to make it
+ look like it was a North Korean exploit, because if North Korea exploits a protocol, the funds
+ don't come back, right? You don't, then they're, they're gone from North Korea. No, no, I mean,
+ so, so it's over. So I suppose that I suppose he was, his gambit there was, hey, if they think it's
+ North Korea, then maybe, maybe they'll just like go away. But at that point, there was already like
+ strong indications from our side that we, that we knew it wasn't North Korea. So we were kind of
+ able to call his bluff on, on, on those, on those donation gambit and, and then try to provoke more
+ of a response from him and then try and, try and just get closer and closer whilst trying to,
+ you know, negotiate the turn. And then the funds started coming back in dribs and drabs. It wasn't
+ like they all came back in one big block. Actually, they were probably, they came back in maybe
+ batch of batches of like, I don't know, yeah, maybe like eight different times, like different
+ amounts of funds, like would come back and he tried to play games, like trying to put this,
+ pretend to be multiple attackers at one point and, and do all sorts of like really crazy stuff. So
+ it was a wild goose chase and it lasted for weeks. Yeah. Wow. Wow. Interesting. And then in the end,
+ he said, you recovered more than what he had stolen? Yeah. And I mean, in taller terms, because the,
+ he, when when when the SAP is draining protocol, they, a lot of the assets come back in, in, in
+ terms of like USDC or USDT, right? And circle and tether if they get requests from law enforcement,
+ or they know that funds are clearly being stolen, they have the ability to put freezes on assets.
+ So a lot of assets, a lot of attackers will just effectively auto, auto convert any stolen funds
+ into a or an asset that's like more, more decentralized and more difficult to kind of freeze,
+ basically. So that's what this guy did. And then in the period of the recovery period,
+ where we were tracking down and negotiating the recovery, the price of ETH rallied.
+ And so actually, it was kind of like the attack up on a long position on behalf of all of our
+ users. Yeah. Whilst it was going up in price. So when, when we finally recovered, you know,
+ all of the funds, the, the users got back. It was the next, it was the surplus, a 40 million dollar
+ surplus of, of assets, basically. So, yeah. Wow. So then you guys paid that out to the users. So how
+ did you? Yeah. I mean, yeah, we, yeah, it was all paid out users. I mean, it's a very complex
+ calculation, figuring out how much users, you know, have in a protocol, a, you know, a, a lending
+ buying protocol, like the users held like an absolute value, right, a snapshot point in time. But that,
+ that net asset value changes a lot over a period of three weeks that can, depending on what kind
+ of positions you got, have you got loans and you just got the posits, you just lending and so on.
+ But yeah, it was all distributed back to the, to the users. So that was the recovery period,
+ which itself took, you know, a long time and was very, very difficult. And because the TBL went down
+ to, when did they went down to three months zero, or, I mean, the protocol wasn't viable after that
+ happened. I mean, yeah, so it wasn't like there was, it wasn't, it wasn't like there was a live
+ protocol anymore. It was basically a dead, dead protocol. So it had to be the, the, the option was
+ effectively, it turns out, by the way, that there was the way to prevent this was like a, it was like
+ a single, single thing missing funds donates reserves function. The donates reserves by itself wasn't
+ there. Wasn't the biggest, wasn't wasn't the issue. It was just there was a missing like check
+ in this, in this function. And so had that function had the missing check, then it would have been
+ fine. So in principle, at that point, we could have just, if we wanted to, to continue from there,
+ we could have just made that, that fixed to donate to reserves and then relaunched all of v1.
+ Because it was a very good protocol. And I think it's, there's actually a fork of it,
+ somebody else has been using on one of the other networks. I forget its name that's been going
+ strong ever since. So, yeah, it's, it's a very good protocol, aside from that, that one crucial
+ flaw. But we, we decided for, for, for other reasons, actually, to not, to not go with relaunching v1,
+ you know, we decided as a team to stick together after that. It took us a while to come to that
+ decision, like a few weeks. But, you guys also think of like, just shutting down or?
+ Oh, yeah. Yeah. Of course. I mean, it was extremely traumatizing for the team.
+ And obviously going to be really hard to recover from that. But we had a very good reputation,
+ indeed, fire, think up to that point, you know, it wasn't like, this had happened out of carelessness,
+ or because, you know, there's, we hadn't got the audits or whatever. We were like, we went,
+ a button beyond the, you know, with all the, all the gold standards at that time were kind
+ of followed. And so, we had a lot of support from the Board of DeFi community and from the
+ security community and so on to, to continue. And the question was, could we, could we restore
+ the faith of like potential users though, right? Like, it's, it's one thing having a security
+ reach is that researchers say, well, yeah, they, they, you know, they did their best and still,
+ still this happened. But it's another like finding that faith with the users again. So,
+ there's a lot of concern, I suppose that like, even if we wanted to, we wouldn't be able to
+ come back to reputationally from, from this. But, yeah, we talked about it a lot and decided
+ that we all liked each other and wanted to work in DeFi still and try and try and try to keep
+ moving the space forward and that we had, had kind of a special team. And so, we thought,
+ we would rather than disperse and go and like, join new projects or and try and rebuild a new
+ project. We thought, we'll, we'll give it a go. We, you know, we still had, we still had the
+ finances to do it, fortunately, for my investors. We had the backing of all of our investors to
+ go out and rebuild. And so, yeah, we said, so let's, let's give it a shot. And so, that's how we
+ started building on it, on a B2 at that point. And what were the biggest changes in B2?
+ Yeah, quite a lot to be honest. I mean, V1 was, we had a lot of, we learned a lot about
+ from V1, about like the market and the product market fit. Like, we discussed earlier about,
+ you know, what, like, it's one thing to just build something, but like, does it really have
+ demand? The main thing we learned, I think, was that there's, there's not just like a one-size-fits-all
+ indeed, five for lending and borrowing. Like, every single user has a slightly different risk
+ reward preference. You know, some people, like, really conservative, like, simple markets that are
+ low, lower yielding, but they do one thing and do it really well. Others like, things like Aave,
+ which are more like, larger, monolithic protocols, probably like, more capital efficient, but like,
+ with an elevated level of risk. And so, like, it's not clear that there's, you know, there's,
+ there's just this, like, one perfect way to do credit markets that fits all users. There's,
+ there's a diversity of preferences. And so we thought, how can we, and by the way, all the,
+ like, an increasingly, like, diverse number of assets as well. So there's, like, lots of,
+ you know, new stable cons and, like, state teeth and things were emerging and so on. So,
+ lots of different asset types. And so, what we realized was rather than building, like,
+ this one protocol that's, like, designed as a, as a particular product for a specific user set,
+ we said, why don't we build a, why don't we build the, the infrastructure for making
+ credit market products? So, we decided to build more of, like, a modular, a modular protocol,
+ where you could have these, like, plug and play pieces that you can fit them together,
+ effectively, to then rebuild products. And so, you can rebuild Euler V1 using this toolkit that
+ we've got for Euler V2, but you can also build other types of credit markets as well that might
+ have a different design that might be more conservative on the risk spectrum or whatever.
+ And then the idea with V2 is that other people can then come and build products in their own image
+ and tailor them to the, the user bases that they have in mind and the risk reward demands that they,
+ they have on the protocol. So, all of V2 is, is not a product, a single product. It's a,
+ it's a, it's like a rainbow of products. It's just all sorts of, all sorts of different types of
+ things going on with V2 and different operators as well for those products. There's lots of things,
+ lots of entities called risk-curators or, of curators that come and build their own,
+ build their own credit markets in Euler. And that wasn't really something we had in V1.
+ So, does it make sense to think of, like, today, if you think on, like,
+ lending credit protocols, you have, like, are they, that's, you know, of course, the best known,
+ and, which is, you know, very simple protocol. And then I guess morpho is a bit more flexible,
+ and then you guys are even more flexible and even more modular. Is that like a reasonable way of,
+ or, like, how do you compare Euler sort of in the landscape of different DeFi lending protocols?
+ Yeah, I think, I think I would say, like, at its core, it's a toolkit for making DeFi protocols.
+ So you can build morpho with Euler, or you can build Aave with Euler, or build something in between
+ those two, but you, that's not true the other way around, right? You can't, you can't build the
+ primitive using their, their toolkit. So, like, morpho fundamentally as these things call markets.
+ And markets in morpho are just, like, collateral debt pairs, they're simple isolated pairs.
+ And then they have many, many pairs. And then on top, they have allocators. So capital allocators
+ will then push capital into the different pair, into the different pair markets and borrows will,
+ will borrow from those pairs. Aave, by contrast, is this big monolithic market. So it's a market,
+ but it's rather than having just a pair of assets, it's got, you know, 30 or 40 assets in it, right?
+ And then they cross collateralized and so on. So it's, it's more capital efficient, but higher
+ on the risk spectrum, because now you don't have this, yeah, you don't have this isolation,
+ essentially. So if an asset, it makes them more capital efficient, because basically,
+ Aave has like one pool of USDC and, you know, and there's like one borrow rate and versus like,
+ for example, morpho, there would be like various different types of USDC pools. And maybe some are
+ like, used to the max and some others are barely used. So, and that kind of, yeah.
+ Yeah. So on morpho, I mean, just like the, if you think about the design trade-off,
+ say a little bit like there's, there's, there's fragmented USDC pools. Now, morpho tries to solve
+ that for the lenders by effectively having like a higher level allocator balls. And most lenders
+ deploy into their like allocator ball, and then that disperses those funds into these lower level
+ markets. And that's, that's fine for the lenders to a degree, but on the borrows, on the borrowing side,
+ it still means you have this huge, a huge amount of fragmentation, which means still leads to like,
+ variable rates and, and, and less capital efficiency there. The other thing about morpho is that the
+ collateral is always held in like an escrowed state, which means it's not, it's not re-hypoticated at
+ all. In Aave, the market's cross-classifies. And often, if you're taking a loan, let's say you're
+ using ETH to borrow a USDC. The ETH is re-hypoticated, which means that somebody else can be borrowing
+ the, the ETH from you whilst you're using its collateral. And that makes it more capital efficient
+ because as a, as a, I'm borrowing USD on Aave, or re-hypoticated market, like we have an oil as well.
+ It means that I'm earning interest on the, on the ETH side, and I'm paying interest on the, on the
+ debt. And like, sometimes the two carat, how cancel each other out, sometimes it's actually even
+ profitable to kind of take loans like that. Whereas on morpho, your, your ETH would typically just be
+ starting in, in kind of escrow and it wouldn't earn actually yield. So it might cost you more.
+ If you look at the, what's called the utilization rate of these markets, which is like the, the,
+ the average, if you look across all possible positions,
+ of like the amount of, you know, the, the, basically the fraction of, the fraction of assets which are
+ borrowed on oil, the fraction of assets, which are borrowed is around 50% over on, on, on, on
+ morpho, by contrast, it would be like low 30s. So there's a big gap between the capital efficiency
+ of, of markets, which have re-hypotication or enable that as a feature, and the ones that don't,
+ and that's one of the, yeah, one of the trade-off and design decision differences between oil and
+ morpho. And so oil, you also has, have re-hypotication like in Aave. Yeah, so on, on oil, you, our
+ primitive unit is not a market, but actually even smaller than that, it's just a single vault,
+ and users can deploy assets into vaults, and then they can use those assets as collateral,
+ or they can lend and borrow them from the vault. Now, if you want to re-create a morpho pair,
+ you, you basically connect two vaults together. You, you have like one vault, which does the
+ lending and borrowing, and one vault, it's just all the collateral. It's got a single connection.
+ But on oiler, you can, because it's a toolkit, and it's the modular toolkit, you can actually
+ extend that. You can say that I'm going to act, I'm going to accept multiple clathables, and then
+ I'd have like, you know, different types of clathables for my lending and borrowing role,
+ but you can go, you can also do the relationship both ways. So you can say that A can borrow B,
+ and B can borrow A. So if you start to build up markets where you have lots of vaults,
+ which all cross-reference one of those as collateral, that's effectively what Aave is.
+ So yeah, under the hood, you can reconstruct an Aave. The simplest, the simplest possible Aave,
+ would be something where you have just, yeah, people can deposit ETH and borrow USDC,
+ and people can deposit USDC and borrow ETH, right? That would be like the simplest possible
+ Aave with rehab publication. There's a protocol called Silo, which allows those kind of markets
+ to be developed. And yeah, oiler has those too, right? We have some markets which are just that
+ simple. They're like the simplest possible Aave's, but we have some markets where there's,
+ there's also many assets, and they start to, you know, the market gets much bigger and starts to
+ resemble more like Aave itself. And where do you see the most traction today?
+ Mainnet, it was in networks where we're deployed across 12 different networks.
+ And ETH Mainnet, I think, is the home of finance today or the home of DeFi today,
+ but we've got a lot of traction on Avalanche more recently as well. Recently deployed to
+ Linnea, which is growing quickly, and arbitrum. Yeah, it depends on which network you are,
+ and what the asset base is there, that all users have different profiles and different networks
+ we found. And so you see very different types of markets developing on different networks.
+ And yeah, I mean, stable coins, you'll bring stable coins and stable more generally is,
+ has been the thing that's driven the explosive growth of both Euler and also Martha, I think,
+ is the diversity of yield-bearing assets and demand the borrower. So yield-bearing
+ stable coins where people will like deposit the yield-bearing stable coin and then they borrow
+ against it. That's right, yeah. So like USDA or like what are the top yield-bearing stable
+ coins in Euler? I think USDA will be like a massive one. We also have like some open
+ need and stuff as well, lots of Pendle tokens. So I mean, the basic trade that's super popular
+ these days on Euler and other lending protocols is you deposit your yield-bearing stable. Let's
+ say it's paying 10%. And you borrow a non-yield-bearing stable from a lending market and maybe you have
+ to pay 7% to borrow. So yeah, if you do that and then you loop that, yeah, so that you,
+ rather than getting just your 10%, you can effectively earn the 10% plus the number you can get that
+ 3% or 4% spread, but on a loop. So you amplify your exposure to the interest rates and you take
+ on board risk, if the stable coin depegs and it falls in price, you collapse will decrease in
+ price and you risk liquidation. But assuming you're not worried about that risk, then you can
+ effectively amplify the interest rate you earn by kind of looping a yield-bearing stable against
+ a non-yield-bearing stable and try and perform what's called like a carry trade. It's very popular
+ in TransFi as well as DeFi, but in DeFi, this has been the big trade of the past year, so it's
+ some kind of carry trade on yielding non-yielding stables. What do you think the future looks like?
+ I'm curious, I mean, I guess in the traditional financial market, right, like fixed rate lending
+ is a huge part. I mean, I would guess probably the majority of that is fixed, although you
+ probably know better what the breakdown is there. Whereas in, I think, DeFi, right, we have
+ mass majority of lending happens with variable rates. Do you think this is going to change?
+ I think it will change, yeah, for sure. I mean, we've got new products coming on OLLO, which are
+ more targeted to fixed rate borrowing. We've got two products coming actually in that regard,
+ but we're not alone, right? I think the other competitors have products coming to.
+ The reason why they're in such huge demand, I believe, is that it's not so much less.
+ Lenders are probably fairly happy with variable rates, but the variable rate is probably the
+ fair rate that you should be getting at any one point in time. The rate reflects the demand
+ to borrow in the market, and then compensation should get a lot as a lender based on the
+ recipe of taking it out of that time. So think for lenders, they're fine with it, but for borrowers,
+ these carry trades become a bit unwieldy to carry out. If the thing you're borrowing is very
+ variable, right? You might have your yield-bearing stable that's at 10%. And yeah, maybe you start,
+ and you open up a trade, and you're borrowing at like 7%, or 8%, but then the rate spikes.
+ Now it's actually more costly to borrow the thing than the thing you're using as collateral. So now
+ you're in like this negative carry trade, where you're actually losing money on a loop as well.
+ So you're actually amplifying your losses. And so that's, again, increasingly frustrated with
+ that, right? They would much rather maybe pay a premium initially to kind of lock in a fixed rate.
+ So maybe the variable may pull 7%, but maybe they're happy to pay 8%, as long as they know
+ that they can lock in and it will grow above 8%. So a huge demand on the borrow side, I would say,
+ for borrowers to be able to lock in fixed cost-borrowing positions for short to medium to amount of time.
+ Okay, and then I guess on the lender side, they would also have to accept the fixed rate.
+ Yeah, this is the question, right? Is the lender going to be just as happy with this?
+ The fixed rate products are definitely favorable for borrowers. Are they favorable for lenders?
+ And do you have a product market fit on both sides of the plane here?
+ I think on the for lenders, they would expect a premium, right? Because they're also sacrificing,
+ like the sacrificing this fair rate that they're getting. The borrower should be prepared to pay
+ this premium because it's clearly an advantage for that party. So they're effectively trading
+ the playing premium to lock in a profit. So yeah, that premium goes to the lenders,
+ and maybe that premium's enough, but maybe it's a not. The other thing the lender's
+ forego, I guess, is that flexibility to withdraw. A lot of lenders like to have that flexibility,
+ so just like withdraw whenever they want, right? A lot of lending protocols are designed with
+ that in mind. So they often have this unutilized portion of the pool or idle capital and pool,
+ which allow the lenders to withdraw at any one point in time. If you lock in at a fixed rate,
+ however, you typically kind of get locked into a more of a fixed term as well, which means you're
+ losing that flexibility to access your capital when you need it. So yeah, there's that clear
+ tension between lenders and borrowers. And one thing we know is that markets are a really good
+ way to find a resolution for that tension. So it'll be interesting to see when these products
+ shoot. I think it sounds like all postcards are developing slightly different types of fixed
+ rate products. It'd be interesting to see which ones get the best product market fit and satisfy
+ the needs of both the lenders on the borrowers in a way that balances out on this fare.
+ Do you think the demand on both sides will be mostly sort of short, like, I don't know, a month,
+ or maybe even shorter duration? Or do you also see markets developing for a more long-term debt?
+ I think initially it's going to be driven by most borrowers are kind of like traders,
+ and they're working on time horizons that are months, not usually years.
+ As a borrower, if you're doing these strategies, you could, in principle, be rebalancing every day.
+ You can probably optimize you by finding the best strategy every day or rebalancing very frequently,
+ but then you have the cost of rebalancing, which is not just gas costs, but your time planning,
+ like, then the added risk of repetitively rebalancing, you might make a mistake in one of those things.
+ So rebalancing too frequently is kind of not something people tend to do.
+ So yeah, usually borrowers, in my opinion, will be looking to lock trades in for weeks,
+ or maybe like several months at a time. So yeah, we see this kind of thing with a
+ Pendle, right? Pendle offers fixed rate products, and allow borrowers typically all like more like lenders,
+ as opposed to kind of like locking for three month to six month periods as well.
+ And I suspect we'll see fixed rate products that kind of match that sort of time frame,
+ so that like, yeah, one month to six months of range, should probably
+ where I put my money on being the most popular.
+ So you mentioned Pendle, why are you doing Pendle?
+ Pendle is not a DeFi protocol that has gotten like a lot of traction.
+ My understanding of Pendle is that it's a lot of
+ around points, and basically someone will earn some
+ unknown amount of some other token, and then they basically sell those for some fixed interest.
+ And then they get these PT tokens out of a specific maturity,
+ and I guess they could then use that as collateral in something like Euler to borrow and to loop it.
+ Yeah, exactly.
+ Would you also think, or I don't know if it's possible to build something like Pendle directly in Euler?
+ It would. Yeah, I mean, you could definitely definitely do that with the kind of fixed rate
+ products we've got coming. But like you say, I think Pendles, but Pendles are exceptionally
+ powerful is, but it allows people to effectively convert intangible incentives and rewards
+ into like a concrete fixed rate. So you have people earning points and other things,
+ which are like quite hard to value. And so they don't really know what they're worth,
+ and they like sell them off for kind of like lock-ins and like make it real, basically,
+ like make those points real and turn them into like something that they can actually trade
+ on a proper secondary market. And that's where like Pendle services that need.
+ And yeah, as you said, then once you've converted that into kind of like a real kind of yield,
+ then people want to loop that yield and like amplify it on less is like Euler,
+ whether come in and use collateral as a Pendle token and do a carry trade and borrow non-yielding
+ staples there. The loopers end up being kind of like junior capital. They're taking like seeking
+ higher risk, but like taking, sorry, seeking more reward, but taking on higher risks,
+ liquidation and performing all these loops and all the rest of it. And then the lenders on the
+ other side of that trade become more like senior capital where they're not getting paid as much,
+ but they're kind of protected and they're protected through effectively the overclassicalization
+ of the borrowers. That's been the big popular trade, I would say, on that front. But yeah,
+ you can build Pendle and Euler, but it's not like where there's no plans to build that Pendle
+ laptop to not in Euler, frankly. There's a different kind of fixed rate that I think people want to
+ lock in for. What do you see as the future for Euler? I mean, I think all the finance is coming,
+ so I've been saying this for years. I think all the finance is going to come on-chain.
+ I think if you use swap products and you're a swapper, you have no loyalty to who you use,
+ right? You just put it through one inch or a cow swap or whatever else and just getting the best
+ possible swap rate you can. But on credit markets, people don't do that. There's not going to be one
+ winner. There's going to be a diverse selection of protocols because people want to diversify the
+ risk. If you're putting assets into somewhere or taking out loans over extended periods,
+ you're exposed to extended periods at risk. The only free lunch in finance is like diversification.
+ I think Euler is going to be one of the largest credit protocols in the future of finance,
+ frankly. I think we won't be the only one. There'll be other big protocols too, but certainly we'll
+ be up there. Over time, I imagine that we'll all slightly specialize. Usually what happens in
+ markets is you find specialization. Euler will develop a specialization for certain
+ classes of trades, probably, and do those better than anybody else whilst although competitors end
+ up specializing on other things as well. In the short term, I think right now we're still dealing
+ with very cryptonative forms of credit, but I think there's increasing amounts of more traditional
+ forms of credit coming on chain. Euler is very well set up. The architecture of Euler is very
+ welcoming for real-world assets, I would say. That's something that I think we'll be pushing
+ forward on in the months and years to come. You think in terms of you mentioned that
+ different protocols will specialize in different ways, so you think for Euler it will be more around
+ RWA's? I think real-world assets will be a big part of it. We also have a swap protocol that's
+ built on top of Euler swap, which works extremely well with real-world assets and can open up growth
+ opportunities for real-world assets that aren't really there today. I think that's today that's
+ something that we see as a competitive advantage, certainly. When you talk about real-world assets,
+ what do you think are the type of real-world assets that will get the most traction?
+ Well, in the short term, I think DeFi has always been a very risk on environments. I think tokenizing
+ credit funds will be popular because they'll generate more yield, and those yields then get
+ will get passed on to lenders through looping, where we get senior junior tranches.
+ Just like we have with the DeFi assets today, I think initially that's right. But that's credit
+ funds where people basically, I don't know, for example, a fund that lends dollars to, for example,
+ businesses. That kind of thing, and then they somehow tokenize the fund and put it on chain.
+ Yeah, that's right. I think those kind of things. They're definitely higher up the risk spectrum.
+ But that's the kind of DeFi is a very risk on environment, generally. I think the people
+ we have here today, that would probably be quite popular. But over time, I think the space will
+ continue to mature. We see all sorts of FinTechs coming on more traditional institutions coming
+ on chain as well. Then we'll start to see the emergence of much lower risk types of real-world
+ assets coming on chain and being popular as well. There's already some of those hits.
+ But they're just not widely used. We see Biddle. It's tokenized tea bills,
+ all those kind of things. They don't provide juicy yields, and therefore, they're not that
+ popular to trade among DeFi protocols today. There's friction to using them as well. There's
+ extra constraints with moving these assets around. Oil and oil swap helps lower those
+ frictions. I think it makes them more efficient. But even with those efficiencies, you still need
+ the types of people that want to trade those assets. In tradfi, you have repo markets and
+ money markets and things where you see really large sums of money changing hands over short
+ periods of time. There's just nowhere near enough liquidity in DeFi today to support those kind of
+ trades. But increasingly, that's changing. I think that will be very popular in the years to
+ come as the space matures. I know one of the things that was often discussed as a big bottleneck
+ to getting more financial institutions on chain is privacy. What do you think is the role of
+ privacy in the future of DeFi? It's an interesting one. There's a huge tension between the desire
+ for privacy, but then the desire for transparency as well. Where you sit on that spectrum,
+ I think depends a lot on your own personal background, your experiences, how you think it's
+ more like a political thing. I think if you look historically at protocols that are provided
+ like a really high degree of privacy in DeFi, it's been fairly heavy use of illicit finance by bad
+ actors. That puts traditional finance off, actually. Then you're not going to see institutions mixing
+ funds with illicit funds that are taken in hacks and mixing with illicit finance. That's
+ one form of privacy that I think is going to struggle to get adoption, honestly. But on the
+ other hand, institutions also don't want to always know what they're trading, especially if it's
+ a directional trade. I don't want to be putting on a trade on Bitcoin or whatever else and let
+ everybody else just pick me off because they can see that I'm long when I've got certain types of
+ exposure. There's a huge tension and I don't know where it will resolve. I don't think it's
+ not like it's not that we don't have the technical capabilities to make these protocols. It's more
+ of like a political thing and how much should we trade off between transparency, which tends to
+ make fair markets versus privacy, which is arguably fairer for individuals and their personal freedoms.
+ Yeah, I just don't know. In most regulations in DeFi seem to be driving towards more transparency,
+ not less. But if you ask any individual person, like, should I have more privacy, I think most
+ people would want more privacy, right? And that's that's only right. So yeah, there's this huge, huge
+ societal and tension between those two things. Yeah, and I guess the other thing, I mean, maybe
+ that is a solvable issue, right? But of course, one of the advantage of DeFi on the transparency of DeFi
+ is also much easier to assess where the risks are. I mean, hard enough, but at least the
+ information is there and someone can try to do it. But then if you add more privacy,
+ that probably also makes it much harder to understand where the risks are and if this fails,
+ what else does it result in? Yeah, I mean, I was I entered the like labor market in
+ August 2008, and I joined a bank in the UK called the World Bank of Scotland,
+ just as the entire system was like collapsing, right? And I remember hearing from that, you know,
+ after that, after people like went through the went through everything afterwards, and I tried to
+ like piece it all together, and it was just like an absolute nightmare. And I still don't think
+ people completely understand what happened, because like actually mapping it all out and
+ like, you know, looking at when all these different banks collapse and everything like what what
+ actually went wrong, what was the the trigger and like, whether you know, whether the funds
+ flowing on us, it is very hard to like process it. And I think that at least in DeFi, that's all
+ easily mappable on chain. And if someone wants to do it, they can. It's not not necessarily like
+ easy, as you say, but it's much, much more transparent in that regard. And I think that
+ will be healthier for financial markets in the long run, even though it does pose its own challenges.
+ There may be, you know, we may see yet see technologies emerge, which actually are able to kind of
+ balance that all that tension out where, yeah, you can kind of have like, like, privacy is like
+ the de facto norm, but like it can kind of, you can like under certain conditions,
+ like reveal certain things or whatever if it's, if it's essential to do so to make sure that
+ you aren't, you aren't like mixing funds with illicit finance and so on. But I didn't, I don't know.
+ I mean, it's not something, it's not something that I'm working on personally or at the moment.
+ We were working with what we've got, which right now is, it's mostly like max transparency, I would
+ say, on open public blockchains. What's your biggest focus right now?
+ Oh, I mean, personally, we have new products coming, we've discussed on fixed rates side,
+ we've been working on growing our swap post call. And for my side, like a lot of my time is spent
+ like going and meeting new new types of users, like institutions and other people and talking to
+ them about how our oil works effectively and educating them about how the system works and
+ seeing if they can be encouraged to come and use the protocol, you know, new types of asset issuers
+ and so on. There's just almost not enough hours in the day at the moment. Like it really, there's,
+ yeah, there's just a massive, massive shift in the past year and growth opportunities
+ absolutely everywhere in DeFi right now, I would say.
+ What do you think about the impact AI is going to have on DeFi?
+ Oh, I mean, as we mentioned, I think like one thing that's certainly certainly likely to happen,
+ you know, we've talked about like rebalancing strategies and all the rest of it and making sure
+ that you're able to able to kind of monitor positions and so on. I imagine that that's
+ something that's going to be handled by AI. We've already like internally like played with some
+ like machine learning algorithms for like optimizing yield basically by like rebalancing like landing
+ positions and so on. I think you could do that with AI as well. I have like smart oaring basically
+ where you rather than you having to sit at the computer, like well, you spreadsheets like the,
+ you know, the financial analyst going through things pouring over data like like really
+ intelligent bots that can basically under some constraints move move the funds on your behalf
+ to either optimize the yield is like the the senior transfer to to optimize the lending and
+ borrowing positions is the kind of dream year. It's interesting. So I think that will be,
+ yeah, we'll we'll change things a lot and lead to more efficient markets overall. There's huge
+ inefficiencies in DeFi today. Rate optimization is not really a thing. It's this protocols like
+ iPod and others and that's, you know, do it like it's the kind of what year and introduce like
+ when I first started back in 2020, like, I think was we're doing this kind of thing, but it's still
+ it's still a very inefficient market, you know, by and large, I think they are just going to change
+ that. Cool. Well, thank you so much for coming on. It was really cool to dive into oiler and yeah,
+ I think, I think what you've funded out before, like, you know, if a traffic and then RWA is coming
+ on chain, a lot more capital on coming on chain. This is going to be an, you know, I think DeFi
+ will continue to be an extremely interesting space. So I'm really excited for what you guys are
+ building. Thank you. Yeah. Thanks for having me on. That was a really good chat. Lots of different
+ topics since it was great. There's just so much to do right now. So very, very excited time.

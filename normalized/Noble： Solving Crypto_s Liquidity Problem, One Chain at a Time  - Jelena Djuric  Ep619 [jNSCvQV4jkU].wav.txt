@@ -1,0 +1,347 @@
+TITLE: Noble: Solving Crypto's Liquidity Problem, One Chain at a Time  - Jelena Djuric  Ep619
+URL: https://www.youtube.com/watch?v=jNSCvQV4jkU
+VIDEO_ID: jNSCvQV4jkU
+
+TRANSCRIPT:
+Really, it's only now I would say that we've had proper scalable infrastructure like ready to
+ take stablecoins to the masses. Noble is neutral purpose-built infrastructure for the
+ transmission and proliferation of the stablecoins. I do believe and can anticipate that the launch
+ of the app layer will be like a new era for for Noble because again, we've never actually had
+ a DeFi on Noble itself, which is kind of crazy. And yet, there's all of this traction.
+ It's cosmos finally dead, Yelena. But I guess that's the question I want to ask you. It's like, do you think?
+ This episode has brought you by Gnosis, building the open internet one block at a time. Gnosis
+ was founded in 2015 and it's grown from one of Ethereum's earliest projects into a powerful ecosystem
+ for open user-owned finance. Gnosis is also the team behind products that had become core to my
+ business and that of so many others like Safe and Cowswap. At the center is Gnosis Chain. It's a low
+ fee layer one with zero downtime in seven years and is secured by over 300,000 validators. It's the
+ foundation for real-world financial applications like Gnosis Pay and Circles. All of this is governed
+ by Gnosis Dow, a community-run organization where anyone with a GNO token can vote on updates,
+ fun new projects, and even run a validator from home. So if you're building a Web3
+ or you're just curious about what financial freedom can look like, start exploring at gnosis.io.
+ Welcome to the epicenter of the show, which talks about the technologies projects and people
+ driving decentralization and the blockchain revolution. I'm Sebastian Guccio and I'm here with
+ Yelena Jerick who's the CEO at Noble. Noble is a cosmos chain that's purpose built for native
+ issuance of stablecoins and RWA's. They are one of the key players in the USDC ecosystem.
+ I believe they're probably fifth or sixth in issuance now. You'll correct me on Yelena,
+ but if I think I'd check USDC.cool and you guys are sitting somewhere around $350 million of USDC
+ issued on Noble. You also have your own USD, stablecoin, USDN, which we'll talk about,
+ but yeah, how are you doing? How's everything going for you?
+ Yeah, no, thanks so much for having me on. It's been great. Obviously, it's stablecoin
+ summer that is going into the fall, I guess, now that it's October 1st. It's been great.
+ There's a lot of things going on, obviously, in the stablecoin space and I'm excited to talk
+ about that and also some exciting updates on the Noble front. So thanks for having me.
+ So you mentioned stablecoin summer and actually, I think it's a very apt way to talk about it,
+ because the stablecoin market is now surpassed, USD$250 billion. It's up, I think, something like 45%
+ this year alone. There's much clearer US rules now. We have lots of announcements.
+ I'll say a few here, Paxos just announced their privacy-focused stablecoin. I also read that
+ circle is going to enable things like reversible transactions. Obviously, we have plasma that just
+ launched there in Neobank. It seems like everyone is trying to get a piece of this stable coin pie.
+ A little bit reminds me of other hype cycles we have in the space, like NFTs and DeFi Summer
+ and meme coins. If we look at those, a lot of that innovation and certainly the valuations
+ have dropped off a lot. Why are stablecoins different? Why should we treat stablecoins differently?
+ Should we treat stablecoins differently? Will we still be at this level of hype and excitement in
+ a year from now? Yeah, it's a really good question. So I think it's important to distinguish to your
+ question, what is different about this time around? I think inevitably, there will be overhyped
+ projects that maybe don't sustain themselves and don't last into functioning products and
+ businesses. But despite that potentiality, there is something concrete happening now,
+ which is maybe different than previous hype cycles that we've had in crypto, to your point,
+ whether that's NFTs or meme coins or the like. And that reason is pretty simple. That's
+ legislation. So we had obviously the passing of genius a couple of months ago, where it was signed
+ into law by President Trump. We've had a very concerted effort by multiple interest groups that
+ actually want to see genius operational and in full force. One part of that interest group,
+ of course, is the crypto lobby, but it's also actually bigger than that, right? Basically,
+ what genius is simply a revolution in payments, right? And so if you think about like the payments
+ industry, and you think about kind of what payments are and how payments kind of work today,
+ it's pretty antiquated, right? And a lot of this payments infrastructure is running on legacy
+ infrastructure that is pretty old and antiquated. And so what is genius? Genius basically set the
+ standard, a legal framework to issue stablecoins as payment instruments, right? And obviously,
+ you know, for crypto native people such as yourselves, we've been very familiar with stablecoins
+ for quite some time. You know, some of us maybe, you know, do payroll and stablecoins,
+ get paid in stablecoins ourselves as employees myself. I've paid rent in stablecoins in the past,
+ you know, we're very familiar with these products, not to mention the trading DeFi use cases.
+ But if you think about what genius is, and the framework it establishes kind of a more mainstream
+ legacy level, it actually allows, first of all, like legacy payments businesses to like legally,
+ let's say innovate, and, you know, offer really interesting, you know, kind of innovative products
+ that may be are cheaper, more seamless, etc. But then it also allows crypto projects like
+ Noble to kind of play a role within that. So yeah, as you said, right now, it's about a $275
+ billion market, Citibank just, you know, they had a report that said that by 2030 will be at 1.6
+ trillion. They then actually upped that prediction to 1.9 trillion by by 2030. And unlike, let's
+ remember, like five years ago or five and a half years ago, we were at half a billion. So yeah,
+ I mean, today, you know, today and in the last year, we're up 50%. But basically, we have a much,
+ much longer way to go. And that is in a large part due to genius and the appetite from the legacy
+ mainstream world to basically bring payment into the 21st century. Yeah, I think one of the kind of
+ key insights in what you just said is that it enables, or what I take away from it is that it
+ enables a new form of infrastructure for payment, for payment issuance, issuers repayment systems
+ issuers. And in many ways, that's, I think, what we've kind of wanted blockchains to be, you know,
+ there's this idea that we've been circling for a long time now is like that we want
+ blockchains and DeFi to be the rails of the financial system. And I feel like stablecoins
+ may be the catalyst that actually makes that finally the case, right? It sort of makes it
+ possible. And so like this sort of institutional sentiment has really flipped. I think coin desk
+ had this figure that 83% of investors are now playing more crypto exposure. Tablecoins, I think,
+ are a big part of that because there's yield, you know, a lot of stablecoins are sort of promising
+ yield. How do you look at that? And, you know, how should how should investors institutional or even
+ retail sort of be assessing the different yield sources, right? Because 4.5% over here, 10% over here
+ may not be, you know, not all yield is created equal. And people need to be more familiar and
+ sort of aware of that. How do you look at that? Yeah. Well, okay. So I mean, first of all, like,
+ let me just back it up for a second. So basically, you know, to your point, obviously, like the
+ promise of blockchain rails was, of course, you know, a lot of the kind of use cases and kind of
+ ideals was around payments. It was, you know, peer to peer payment systems. Obviously, this idea of
+ financial disintermediation, even in the original Bitcoin white paper, you had this vision for
+ Bitcoin as a payments mechanism. Of course, that is now not the case. Bitcoin is not used as,
+ you know, most often in the majority of cases is not used as a payments instrument. It's obviously
+ a speculative asset that is traded and, you know, at this point, quite commoditized.
+ So on the one hand, like it did take us actually quite some time to get to this point where we
+ actually do have the infrastructure and we actually have stable points again as a product that are
+ instruments that will not only have, you know, very sound legislation kind of governing their
+ their utility, but we also have the infrastructure and the actual, again, blockchain rails kind of
+ ready and able to transmit and proliferate these stablecoins across, you know, a wide variety of
+ use cases and distribution channels. And so I will just emphasize like before we talk about like yield
+ and stablecoins that really it's only now I would say that we've had again, like proper scalable
+ infrastructure like ready to take stablecoins to the masses. And I would also like kind of love to
+ talk about why that is and how far we've come. And again, like what is this infrastructure that
+ we're talking about that is suited for bringing stablecoins to mainstream? But yeah, to your question
+ around yield, I mean, it's interesting, right? So first of all, when we talk about like yield
+ as release of stablecoins, we're typically talking about yield that is generated from
+ short term treasury bills. Obviously, that is the mechanism that I would call classic traditional
+ stablecoins are collateralized by. And so obviously with ingenious, there is very clear
+ distinctions around how that yield is passed on. So kind of out of the box, it's actually not
+ compliant to pass on that yield sort of passively, right? So you have to basically have a mechanism
+ where that yield is claimed, or where distribution kind of partners or entities like a coin base
+ can actually take that USDC and pass on the yield by having people hold that USDC on the coin base
+ platform. So there has been a bit of nuance and like legally how stablecoins are able to pass on
+ yield. And another big part of this question, of course, is the clarity act. And basically,
+ that is more governing around DeFi and just generally kind of crypto tokens are perhaps
+ almost speculative, but that will also kind of have some guidelines on again, like passing
+ of yield and how that's kind of compliant. And basically for for for noble, and this is like one
+ of the principles that we have held very dear to our heart since the beginning is noble is
+ neutral purpose built infrastructure for the transmission and proliferation of these stablecoins.
+ So noble itself is a protocol, okay, noble itself is a layer one. We of course are not
+ ourselves a stablecoin issuer. You kind of mentioned in the intro that we have noble dollar,
+ we're of course working with N0 on that product. M0 is a stablecoin issuance protocol,
+ which works with a network of off chain mentors and issuers recently Stripe or Bridge was announced
+ as one of their partners. But basically, noble is distinct from the circles or the stripes of the
+ world in the sense that we are crypto infrastructure again for the transmission of these stablecoins,
+ right? So we like to work with wide variety diverse set of issuers. And so yeah, to your question
+ around, I guess, like yield and like how this will kind of play out, I would say like the issuers
+ themselves are kind of at the forefront of these discussions. Like again, when it comes to noble,
+ we are crypto native. Obviously, DeFi will continue to exist. But as an issuer, that kind of
+ consideration or on how you pass on the yield, if at all, two end users is basically within their
+ purview, right? So basically, you're going to have a situation where obviously, you know,
+ like what currently exists, which will probably what the reality kind of after genius is operational
+ lines, but you'll have a situation where the issuer themselves like a circle can't by default
+ pass on that yield. But the distribution partner, like a Coinbase, like an Aave, like a finance,
+ really any entity, whether it's an exchange, or even a DeFi protocol, can of course, you know,
+ pass on yield in ways that is like safe and, you know, makes sense. So anyways, we can we can try
+ a little bit more about that and how kind of noble thinks about it with composable yield as it was
+ a noble dollar. But basically, the rules are just like now being established. And there's no
+ one path yet, because the rules of the road have yet to be written by the OCC in the US and as it
+ relates to things like passing on yield. Well, I'm glad you brought up composable yield, because I
+ think it's it's a perfect segue into the next question I wanted to ask you, which is currently,
+ I think most of the yield that these you have this kind of floor that we see around like four
+ four four or five percent comes from treasuries. You mentioned short term and long term treasuries
+ and having sort of a mix there. Some stable coins, you know, recently we had cap on we also had
+ FX protocol. And of course, like these are these are stable coin issuers like different from
+ from from noble, but they're generating yield in different ways. Like FX has this stability pool
+ that generates yield basically from, you know, sort of deposits in its per protocol. You know,
+ I feel like probably, you know, we can we can keep juicing these yields for some time, but they'll
+ probably dry up like the native DeFi yields will start drying up unless new sources of yield start
+ coming on chain actual cash flows from off chain businesses. So yeah, how do you think about sort
+ of like the bringing more yield on chain and how are you guys integrated then to this? So your yield
+ strategy and composable yields moving forward. Yeah, I mean, composable yield is actually quite
+ simple. And we don't like to complicate things as it relates to noble dollar itself, like the core
+ product. Obviously, there's like, you know, kind of funky things that could be built on top of that,
+ but as it relates to noble dollar itself, it composable yield basically is as follows. So you
+ have USDN, which is actually over collateralized 103% by by short term treasury bills. Of course,
+ that collateral pool is again, managed and governed by the M zero protocol. But our implementation
+ of USDN takes that yield component and basically makes it programmable and programmatic at the
+ same time. So we tell distribution partners or we, you know, encourage distribution partners like,
+ like a, like a, like a DEX, a payments app, really give you off chain distribution,
+ on chain distribution, we really don't distinguish. We basically say, take that yield accumulation that
+ is kind of happening in real time on a per block basis. And you can program it and direct it to
+ any source or any destination that kind of fits your use case. So you could obviously take that
+ yield revenue and you could distribute it to validators. You could do it by and burn up your
+ token. You could keep it as revenue. And basically, noble's thesis, again, is on chain distribution.
+ It's making sure that the noble protocol can service app builders and make sure that there
+ is proper incentives and like safety and like liability around that distribution of the underlying
+ table yield. And we've had some pretty pretty good success. So a few months ago, we ran a points
+ campaign where we wanted to kind of demonstrate like this utility of composable yield, right?
+ And so we basically said, okay, so people can participate in this points campaign. They can get,
+ you know, points, noble points by depositing their noble dollar into the into a points vault.
+ But by doing so, you actually for forfeit or give up the T bill yield that you would otherwise
+ get by holding noble dollar. And what happened to that table yield, that actually got distributed
+ to a second vault, which is a boosted yield vault. And basically, we told people you can also just,
+ you know, deposit your USDN into this budget yield vault, where you don't get points, but you get
+ all of the yield that the people in the points vault gave up. And that was generating about 15
+ to 20% yields. And that ran for about four or five months. And basically, you know, why we did
+ that and like a lot of people were kind of asking, well, how is that 50% yields generated? Like,
+ is there something like happening on the back end, like, like, like through like lending or
+ something funky in that way? And the answer was no, like, it's literally fundamentally
+ treasury bill yield that just got redistributed in a way that was quite simple. If you think about it,
+ where it was basically all the people that gave it up, it just got redirected to this other
+ group of holders. And the reason we were able to do 15, you know, to 20% consistently was because
+ obviously, overwhelmingly, the distribution or the ratio of deposits was within the points vault.
+ And so basically, you know, on the one hand, we want to show, you know, noble dollar. Look,
+ it's like a thing that exists. It's very powerful. And of course, the composable yield is like,
+ kind of interesting new mechanism, where you can start implementing it in, you know, a wide variety
+ of ways, and you could gamify it and create incentives around that. And again, it's all possible because
+ the token itself has been designed and engineered to allow for that composability of that yield
+ component. Makes sense. And so the USDN campaign, how successful was it? Yeah, it was quite successful.
+ We reached about 125 million at an all time high, all organic demand across 30,000 unique wallets.
+ And so, you know, it was very, very great to see that kind of organic, you know,
+ demand kind of popping up. And yeah. I want to talk about cosmos a little bit. I mean,
+ so noble is a cosmos app chain and, you know, launched at a time, I think, when cosmos was
+ struggling from the downfall of UST quite some time afterwards. But I think, you know, I think
+ UST and the collapse of Luna, I think had a pretty significant impact on the cosmos ecosystem overall,
+ you know, feel like at some of the all time highs there and like the the FTVs of most of the chains
+ that were around in 2020, 2021, 2022, a lot of liquidity got, you know, removed out of the ecosystem
+ in in one one moment. I think when when noble came online, a lot of people were expecting lots
+ of USD liquidity to come into cosmos. In some house, right? I mean, 350 million or some chain
+ trades is nothing to sneeze at. Do ID X also coming to the ecosystem. At the same time, I think was
+ very much anticipated. And people saw that as a positive sign. And I think, I think the
+ app chain thesis generally and so the sovereign option thesis continues to stand up and and people
+ across the ecosystem, across crypto, I think still believe that's the case. But the cosmos ecosystem
+ as a as a DeFi ecosystem has not really done very well in the last, you know, two to three years.
+ Despite all of this, right, despite noble coming there, despite having native UST, despite,
+ you know, lots of chains of using cosmos tech, what's happening? What do you think? Why do you
+ think that it is cosmos finally dead, Yolana? But I guess that's the question I want to ask you.
+ It's like, do you think? No, it's not dead. Yeah, I mean, I think it's kind of a
+ misnomer of a question because basically, if you look at what cosmos is, it's fundamentally
+ the stack, right? It's tenderman. It's common BFT. It's the SDK. It's cause and laws. It's IBC.
+ And if you look at all metrics across those, like levels of the stack, it's actually quite strong.
+ What's not strong to your point is cosmos native token performances. So if you look at a chart,
+ a coin market cap, and you kind of look at, you know, a token that is like an IBC token,
+ that like launches, like, unfortunately, there isn't as much, you know, retail kind of demand
+ for those tokens. It's, you know, partially why noble, of course, is launching this L2 on EVM,
+ which is the noble app player and why the noble token will be an Ethereum token, not a cosmos
+ token. But basically, as it relates to like the stack itself and it relates to adoption, I mean,
+ again, by all accounts, it is the most performant stack to build an app chain, right? And whether
+ you use IBC or not, I think also kind of dictates whether you're kind of considered to be like
+ cosmos. So like noble, for example, right, we, of course, are have IBC out of the box. We,
+ you know, a lot of like volume, of course, liquidity routing is via IBC, but we also have CCTP
+ circles bridge. We also have wormhole. We also have hyperlane support, you know,
+ probably will have other bridges supported by, you know, through noble. And so, you know,
+ I think that a lot of the times, you know, when you kind of look at what happened with Terra,
+ like, you know, how much of Terra's success was because they were cosmos or because they had a
+ great product. I would argue they had a great product for its time. Obviously, that was not
+ sustainable. Obviously, UST was fundamentally unsound, but, you know, anchor and what they,
+ you know, did with the Terra protocol was obviously, you know, very valuable in some level. And that's
+ why you had UST at a 40 billion dollar market cap. And you know, you had, you know, all of this,
+ like, like, you know, liquidity mining of UST and you had these like crazy, like APIs and
+ anyways, you also had like a lot of like really great DeFi on Terra. And so basically, yeah, Terra
+ was cosmos and it was cosmos because it's the best way to build an app chain. But they also just
+ had like a good product story and good use like a really, you know, bullish community. And so I
+ think again, like, it's not to say that that can't happen again, right? Like, it's all about the
+ product. It's all about the, you know, like what you're actually building who's a four. Is it
+ useful? Does it work? Is it broken? Is there a good UX? All of these things. And so I think when
+ you look at like what's happened since UST collapsed, obviously, there was like a really serious bear
+ market. You know, you had FTX, you had Celsius, bankruptcy, you had things happen. And then what
+ happened after that was somewhat of a burger market that was started basically within the
+ slauna ecosystem. Why product? What was the product mean coins? And so again, like,
+ cosmos showed you could build really performant, uh, app chain infrastructure for DeFi for stable
+ coins for trading for like all sorts of things. Slauna showed that you could get incredible
+ mind share and retail adoption of mean coins. And of course, there is like some performance
+ reason for that because of the way that slauna works. But basically, it's to say that if you look
+ at any major L one, L two ecosystem, typically it's like power law distribution of like where
+ the activity and liquidity is. And it's usually concentrated among a handful of products and
+ applications. So like even slauna, right? Like, yes, pumped off on like kind of kicked off,
+ you know, the trend, you had bonk, you had, obviously, you know, then there's like things
+ like Gito, but like overwhelmingly, a lot of that activity and liquidity in mind share was around
+ pump, doh fun. And then you know, you look at, you know, things like, you know, hyper liquid
+ overwhelmingly now, that's kind of maintaining a lot of mind share. And so basically, you know,
+ I would say that on the one hand cosmos, of course, can never be dead because you have
+ the stack, which will continue to be like the best stack. Like, I mean, even talk about like
+ stable coin chains, like circle, of course, is building, uh, their stable coin layer one,
+ hold arc. And that uses common BFT, uh, for consensus, you know, you have obviously noble,
+ which of course, leverages some parts of the cosmos stack. And of course, has this like separate
+ execution layer around the EDM. But yeah, I think there's definitely no logical way you could see
+ that cosmos is dead. Yeah, that that's, that's really great. I think it kind of aligns with how
+ I've seen and talked about cosmos over the years and that the analogy I often use is none of the,
+ none of the nerds that were fighting over the right distribution of Linux to use back in the 90s
+ got rich because Apple devices and every Android device uses it uses a Linux kind of like core
+ kernel. The nerds will come at me and tell me that's what I said is inaccurate. But basically,
+ that like most devices nowadays use Linux infrastructure. And I think cosmos is kind of
+ similar, right? It is, it is really the best stack to build stop sovereign app chain infrastructure,
+ just that, you know, unfortunately, there isn't a mechanism by which Adam holders get rich or
+ so the cosmos token holders get rich because your circle built circle builds their, their app
+ chain using a common PFT. And I think to some extent, Ethereum does suffer a little bit from a
+ similar fate with the roll up roadmap where value from all these roll ups doesn't necessarily
+ accrue to Ethereum. And but you know, the EDM is the best way to write smart contracts and write
+ applications on blockchains that has the most amount of developers and etc. So I think a lot of stacks
+ are kind of reeling with the same sorts of problems of value capture. And I don't know what the way
+ around us, you know, do we have licenses where those who use the stack for commercial purposes need to
+ pay some some fee or some licensing fee back to the token holders, I mean, it seems very difficult
+ to manage. So I don't know what the what the solution is here, maybe the solution is just I
+ mean, maybe there is some solution and just people have to accept that just because someone's using
+ your stack doesn't mean that someone's using the stack that, you know, that that you invested in
+ some other token doesn't mean that you're necessarily going to benefit from that.
+ Well, I'll give you like an analogy here. Just because I have an app in the Apple App Store doesn't
+ mean my app will be successful. I think that stands up pretty well. So just because I have
+ quote unquote distribution through the app store doesn't mean it's going to be in the top 20
+ used apps because it has to ultimately be a good app. So I think like this idea that just because
+ you're building something else law on it means, oh, all of a sudden, it's like the next pumped off
+ fun, like does make any sense, right? Just because I'm building, you know, on Ethereum means I'm
+ going to now get all of the liquidity of Ethereum DeFi, like that doesn't make any sense. So yeah,
+ I mean, I think that the same goes for Cosmos. I think the difference maybe is because like
+ from a narrative perspective, the app chain thesis has been focused on apps, right? And so we
+ understand like apps is where the value accrues. And if you don't have a good app, then you won't
+ get value and neither will perhaps that value trickle out to other app chains within that same
+ ecosystem. And so I think like with Tara, obviously, we had a very successful app, right? Very successful
+ app chain for its time. And then of course, it destroy itself. But what did that show? It showed
+ that value can accrue to the app player, it could accrue to the app chain, it could accrue to the
+ token holders. And you know, you could argue, Oh, well, that's why, you know, other Cosmos
+ app chains did well. I think that's a bit of rewriting of history. Like it was also just generally a bull market and many applications did well, not just in a cosmos, but also
+ Ethereum. But basically, if like your only source of like demand for your token or your app is because
+ like your neighbor is doing a good job, like that's not a sustainable moat. And so basically, you have to kind of think about, okay, well, how will distribution happen in the future?
+ Where will demand come from? What is the product? Is it sustainable? Is there a moat? Is it easy to use? Is it differentiated? So, you know, basically, I think crypto people like have to build real businesses. And I think that's a good thing.
+ And, you know, I think Cosmos is still the stack itself is still a very solid stack.
+ Yeah, I agree. I mean, I think all that makes sense. And it bears repeating and it bears reminding ourselves and folks in the ecosystem altogether, you know, Cosmos people.
+ So I think the last time we spoke when you were on the interop was quite a while ago. And there were some, you were talking at that time about having an EVM on Noble. How has that, yeah, sort of share the latest on that?
+ Yeah, so this is something we're working towards and really excited about. So we're going to be launching something called the Noble App Layer. We'll probably be branding at something different. But for now, we're calling it the Noble App Layer.
+ And basically, the Noble App Layer is an EVM L2 using Celestia for data availability, you know, kind of speaking of Cosmos, speaking of the stack. There's quite a couple, you know, a few reasons why we decided to build the EVM component as an L2 versus
+ adding it on top of the Noble L1, which of course is the Cosmos L1, which is currently, of course, in production and quite, you know, significant in terms of volume and routing and adoption.
+ And basically, the reasons kind of ours follows one, you know, there is a lot of exciting innovation taking place, like in the Ethereum world as it relates to performance.
+ You know, Celestia, I think, is obviously like a huge part of, you know, what makes, I guess, like Ethereum more delightful to build on top of kind of given their, you know, data availability innovations.
+ And so, you know, that's one part of it. We wanted to, you know, also make sure that we were exposed to the EVM ecosystem and just, you know, historically, EVM on Cosmos has been challenging to say the least.
+ And so, you know, we figured, first of all, there was a huge product need for smart contracts and programmability, you know, for Noble and adding an EVM layer on top of Noble was not necessarily the best engineering decision.
+ And so we figured, let's deploy basically an L2 on top of Noble that would be validated and secured by the Noble Layer 1, but which could act as a distinct execution layer for...
+ Sorry to interrupt here, but even with the Cosmos EVM stack, yeah, here is why you chose to do an L2 rather than use that stack, which has the EVM kind of built into it.
+ Well, so the EVM is actually not super well maintained, right? If you kind of look at like how the EVM kind of software has developed over time, you have like EVMOS, now you have other kind of players attempting to maintain that.
+ But I mean, I'm sure you understand, like, EVM is as a software, you know, it needs to be maintained to make sure that it's like secure and that there's like, you know, de-risking from like a bugs perspective.
+ And so basically, we felt a lot more comfortable in the maintenance and the, you know, software of EVM proper kind of on, you know, as it relates to Ethereum.
+ So that was, you know, very much like a concern around, again, like stability, security, making sure we're always properly following major releases and that the software that we use is well maintained.
+ And so it just made sense to, again, build this EVM app layer basically as an L2 using Slesia for DA and then again, performance, right?
+ Like our EVM app layer, you know, I think like yesterday, we were doing some benchmark testing and it's like 100 millisecond block times, right? Super fast.
+ That's faster than Noble Core, right? Noble Core is like 1.2 seconds, which is fast, but it's not, call it fast, like, like the app layer, which can support, you know, all sorts of things that Core can't support from like an execution perspective.
+ And so, you know, that was an obvious decision for us. Again, we love working with the Slesia team.
+ We think the, you know, the kind of software that is maintained, again, is very solid and it just kind of made sense for us.
+ Also, again, like talking about like the power of like the cosmic stack, like, you know, it, not that this was like trivial work.
+ It was definitely a lot of hard work, but there is also a world where, of course, Noble Core validates and secures the L2 and that's also was a big part of the discussion.
+ Like, can we have a single sequencer L2 running on Slesia DA secured by the Noble validator set in a very secure manner?
+ The answer was yes. And so we're very excited to be basically championing that model.
+ I did a long tweet thread on kind of what makes this model perhaps different than like other kind of roll up designs within the Ethereum space,
+ which maybe like we can link them in the notes, but basically a lot of what we've done with the Noble Core validating and securing the L2 is very similar to kind of like the native roll up vision.
+ I believe Vitalik and others put forward. And yeah, we think it's pretty interesting. I mean, of course, it's different where the Noble Core is a proof of authority chain, right? So we don't have like a proof of stake kind of economic security model with like, you know, a bunch of token stakes.
+ But we actually think that the proof of authority model works very well for our use cases, which are stable point centric. So, anyways, it's a lot of different decision making factors that kind of led us to where we are today.
+ But I think that kind of speaks to like our approach and our philosophy, which is like, let's be very methodical. Let's be very considerate around the architecture.
+ Let's not rush things just because everyone else is doing it one way. We want to make sure that the way we do it fits our use case and fits our principles.
+ And basically, I do believe and can anticipate that the launch of the app layer will be like a new era for for Noble, because again, we've never actually had DeFi on Noble itself, which is kind of crazy. And yet there's all of this traction.
+ So, yeah, we'll see what happens. And he talked a bit about the role of the Noble token in this, in this new L2 and in this DeFi ecosystem that you want to build.
+ Yeah, definitely. And we'll have some really exciting announcements actually on the Noble token very, very soon. But at a high level, we're talking, we're thinking of the Noble token in like two ways.
+ So one, it will be the base fee token for the app layer. Basically, will users can still pay fees in stable coins as they currently do on court, but there'll be a mechanism where those fees are swapped into Noble token kind of on the back end.
+ And there's like a kind of a pay master's like account system around the kind of fee mechanism for the app layer, which again is Noble token at the hood. So again, assuming there's a lot of activity and users and products on Noble app layer that are well adopted,
+ that will be positive for the Noble token. And then the other piece is actually governance. So we are keeping the proof of authority model for validation.
+ So there will not most likely be staking, but there will be governance. What does that mean?
+ Similar to, you know, kind of other models where basically you can use them like the governance token to have certain incentives or have certain auctions for, let's say, you know, deploying liquidity into certain pools.
+ You know, what we call like bribes in the curve model, where you have like a V, in this case, a V Noble token. That's all kind of on the roadmap. And we actually think, again, DeFi is at this point battle tested and we have some pretty interesting applications kind of in the works.
+ And if you can learn a Noble token on top of that, where you get the community kind of excited and incentivize and motivated to kind of govern those various applications, I think there could be some interesting interesting things.
+ Where do you expect stable coins to be in three to five years? And what will be Noble's role in that ecosystem?
+ Yeah, honestly, I think it's just the beginning. Obviously, we have all of plethora of purpose built as stable coin chains launching, which I think is ultimately positive. One of the ways that I like to think about differentiation among those app chains and, you know, perhaps
+ Noble's kind of role within that differentiation is basically as follows, right? The TAM for stable coins for stable coin payments is massive, right? Like we mentioned earlier, this kind of 1.9 trillion figure from from city.
+ I've seen, you know, I've seen predictions as high as poor trillion from financial institutions. But if that is to be the case, you're going to have specialization within the payments landscape.
+ That basically leverages certain stable coin infrastructure, right? So for Noble, if we think about Noble's app player, if you think about Noble core and performance and stability there, I do see Noble playing a significant role in this future payments kind of revolution
+ around stable coins, whether that is more on the B2C side, you know, is something we can kind of anticipate, but we've had some pretty exciting conversations with, you know, legacy traditional players.
+ Kind of coming into the space, looking at the space and saying, basically, we have a need to transform our payments infrastructure. Let's think about how kind of Noble and again, layer ones kind of fit into that landscape.
+ So Noble will continue to always exist as this kind of router activity as a origin chain for the minting for the redemption of these stable coins because of our performance, because of our battle tested infrastructure.
+ And basically, we want to see Noble and the app player do a lot of stuff on the consumer facing side. So obviously, it's early days. But again, it's exciting days and there's a lot more to come.
+ Great. Well, you know, thanks for coming on the show. It's been great chatting with you, getting an update on Noble and also getting a glimpse into the future. So excited for Noble and the things ahead.
+ Amazing. Thank you, sir.

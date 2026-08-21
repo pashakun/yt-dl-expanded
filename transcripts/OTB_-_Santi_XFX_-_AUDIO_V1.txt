@@ -1,0 +1,162 @@
+Welcome to On the Brink. My name is Sean Judge. Today on the show, I sat down with Santi Alvarado,
+CEO and co-founder of XFX. Earlier this week, we announced Castle Island invested in XFX's seed
+round of financing alongside Han Ventures, Oak HCFT, Maya Capital, Coinbase, Paxos, and others.
+Please enjoy today's conversation with Santi Alvarado.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these expressed by them
+or the guests on this podcast are solely their opinions and do not reflect the opinions of
+Castle Island Ventures. Guests and hosts may maintain positions in the assets discussed in
+this podcast. You should not treat any opinion expressed by anyone on this podcast as a specific
+inducement to make a particular investment or follow a particular strategy, but only as an
+expression of their personal opinion. This podcast is for informational purposes only.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac,
+the two mortgage giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing. You print a couple trillion dollars and all
+of a sudden people start to worry. So out of this worry, we have something called the Bitcoin.
+Welcome to On the Brink. My name is Sean Judge. Today I'm sitting down with Santi Alvarado,
+CEO and co-founder of XFX. Santi, thanks for joining me.
+Thank you for having me, Sean. Pleasure to be here.
+I guess just to start, it would be great if you could share your personal background and
+how you arrived at working in crypto. I'm actually Peruvian, although I haven't
+lived in Peru for over a decade. And in what I call my past life, I did something very different
+to what I'm doing now. I'm a civil engineer and I worked on infrastructure development across Latin
+America, mostly in energy and transportation, then got an MBA degree at Harvard Business School.
+And after that is when my fintech career started, I had the opportunity to launch and scale a
+digital bank called Tempo in Chile. Interestingly, that's the first time I actually bought Bitcoin.
+It was out of frustration with my bank trying to send money back home to Peru,
+where I got stuck in what I call swift limbo, right? Where you don't know where the money's
+going to arrive, the fees that you're going to pay. Ultimately, the money ended up arriving
+seven days later. And they usually charged me around $150, which I thought was unacceptable.
+So I opened an account at a Chilean exchange, an account at a Peruvian exchange, and I started
+buying Bitcoin with Chilean pesos and selling it for Peruvian soles. And it took me 15 minutes
+and a fraction of a glass. I thought there was something very powerful there. Although, of course,
+the user experience was still a bit tricky. So I decided to create a cross-border payments business
+leveraging blockchain. And Bitcoin specifically, stablecoins were not a thing back then.
+And a friend of mine from business school, who was the CFO at Bitsol, told me, why don't you join
+Bitsol and do this business with us? So about five years ago, I joined Bitsol to launch what was then
+called the cross-border payments business unit, which ended up becoming Bitsol Business, which is
+Bitsol's B2B business unit. It's amazing. I mean, I give Bitsol a lot of credit for thinking about
+that five years ago. I mean, it's obviously very in vogue today, but five years ago, it was less
+obvious that this would be a huge opportunity. So you had your experience there. XFX, you just
+raised for earlier this week, and we were proud to be investors in that round. What is the high
+level overview of XFX? And who did you start this with? In a nutshell, the way that I would describe
+XFX is a financial infrastructure for international settlement. And what we provide is,
+we give access to institutions to wholesale FX liquidity and real-time settlement,
+saving in capital costs by not having to pre-fund origin or destination accounts.
+I started this business with my two co-founders called Jason Loesch and Alberto, we call him Beto,
+Sanchez Tello, and we all met at Bitsol. So Jason used to lead the engineering team at Bitsol,
+and Beto led the markets team, which is basically a team that's in charge of the liquidity in the
+exchange for both retail and institutional business units. Zooming out a little bit,
+for those listeners that are maybe less familiar with the FX market or cross-border payments
+market, I think it's pretty jarring when you dig into the numbers. Can you share just how big of
+a market this is and maybe how it operates today? So the FX market is the largest financial market
+in the world in terms of TPB. It moves $7.5 trillion a day. And if you think about it,
+it makes sense because ultimately, most of financial services actually have to go through
+an FX transaction. If you're thinking about international trade, trading commodities,
+if you're thinking about global equity or debt, this usually have an FX transaction embedded in
+it. It's an absolutely massive market, but it has its complexities that I'm happy to talk about.
+So let's start with a settlement piece. Most people have heard about Swift, and Swift really
+is only a messaging system between banks. But the actual money movement happens across
+correspondent banks, meaning that each of these banks in that payment chain need to have what
+are called Nostro and Vostro accounts at each other in the corresponding currency for
+different types of currency pairs. There are $4 trillion of tied up capital in this Nostro-Vostro
+account. So if you actually think about the cost breakdown of the average cross-border payments
+transaction, around 60% is composed of the cost of capital of that tied up capital and the FX
+price. So that's on the settlement side, right? And then on the trading side, there are also
+complexities, right? Usually the market, and this is very strange for such a large market,
+is very opaque. If you ask anyone that's engaged regularly with FX providers, they always feel
+like they're being taken advantage of. There's very little transparency on whether you're actually
+getting a competitive price. And also behind the scenes, there are settlement and cost of capital
+problems. For instance, if you want to trade at the spot rate in the Mexican FX market,
+the funds settle P plus 2. That also means quite a bit of working capital tied up in the system.
+And it's no wonder that if you want to trade from Monday to Wednesday, you can get a better rate
+that if you want to trade Thursday and Friday, because if you trade Thursday, the funds will
+settle on Monday. Therefore there's an additional cost of capital due to the weekend. Incredible
+that that's the way the market exists today in 2025. That's largely been unchanged literally
+since the late seventies. And then I guess that's where stable coins come in. So most of our listeners
+will be familiar with stable coins, but maybe in your words, why do you see stable coins as
+improving upon the existing ways in which money moves cross border? A lot of that tied up capital.
+The most exciting thing for me about stable coins is that for the first time, we have
+a standard that the ecosystem can agree upon and actually build according to that standard for
+cross border payments. Not only that, but unlike Swift, which is only the messaging system,
+stable coins are both things. They're the messaging system and the movement of value.
+A few relevant components that are missing for the asset class, and by asset class I mean stable
+coins, to truly deliver its intended value proposition, which is real-time cross-border
+settlement without pre-funding requirements so that it can actually out-compete the
+trade-fine mechanisms today. That's why we're actually building XFX because we think we can
+actually build that base layer infrastructure to make sure that that value proposition happens.
+It makes a lot of sense. Now, were there experiences that you've had just in your journey
+working in fintech and eventually working in crypto where you felt like this just had to exist?
+It just was very obvious. Maybe just on that, if you could explain in a little bit more detail
+who the key players are involved in a cross-border stable coin transaction and where things were
+starting to break and what you guys are building to help facilitate that.
+Let's talk about one use case where this is very visible and where the system is broken,
+which are remittances and e-commerce. On the remittance side, you have money transmitters.
+Those money transmitters promise their end users same-day settlement, but the money does not arrive
+same day, meaning that there's a gap that they need to pre-fund in order for them to actually
+meet their payments as late. The same is true for a PSP that offers same-day settlement for
+a foreign merchant. So the foreign merchant hires the PSP to manage all the collections domestically
+and then they need to settle with them whichever jurisdictions are incorporated in or have their
+bank accounts at. And the same working capital problem happens. In fact, it's actually even worse
+because they need to process the domestic card network, which usually settles in two days,
+and then you have the swift problem. Depending on the origin destination, they could be pre-funding
+up to, let's say, five days of TPB to meet their SLAs with their customers. And that actually makes
+no sense, right? Especially if you think about all of the real-time payment networks that are
+appearing in different markets like PICS in Brazil, Spain, Mexico, FedNow in the US. Why does the
+cross-border payments space still need to happen in batch? That's to a large degree the problem
+that stable coins can get to solve. That can happen from a programmatic standpoint,
+but the liquidity is still not there. So the problem that we're solving at XFX is making sure
+that regardless of the amount that you want to trade, first that you can do it programmatically
+and that you can access the most competitive liquidity consistently at all times for that
+asset plus. Therefore, really trying to make the cross-border payments a value chain real-time on
+a per-transaction basis instead of on a batch basis. As we've talked about a bunch, we're
+investors in Felix Pago. And from an end user's perspective, the digital remitters that emerged
+15 years ago are able to kind of do, and I'm using quotation marks, instant payments because
+for the user, it feels that way. But those digital remitters are forced to kind of park capital all
+over the world to facilitate that. Whereas with stable coins, there's the opportunity to kind of
+actually do it instant with less capital tied up. The only issue there is, is there liquidity on
+the other end, which is kind of where you guys come into play? And not only that, I would have
+an additional problem that goes beyond the parked capital. It's that all of the rebalancing has to
+happen in batch and it usually happens in an analog manner, literally via phone call or a WhatsApp
+channel with your relationship manager at a bank or FX provider. Can you share, I guess,
+just on the product side, what does the product look like today for businesses looking to move
+money and then maybe what it looks like for the FX market maker side? There are three main product
+pillars in our product offering. The first is the settlement layer, where we actually give
+access to the domestic banking rails for the currency pairs that we want to support,
+as well as the stablecoin networks that we want to support. The second is the trade execution
+capabilities, which is an RFQ system plus the trade execution capabilities,
+which always happen in real time. And with full transparency, you'll always be able to audit
+the trade breakdown with the system. And third are the post-trade settlement capabilities,
+which in essence give payments institutions the ability to even improve their working capital
+further, where they can actually execute a trade with us and then settle T plus one, T plus two,
+or T plus three. As you guys are talking to folks in the market, are there core aspects of the
+settlement platform that makes XFX stand out for institutional clients? Is it that post-trade
+settlement component? So I'd say that the first thing is the consistency in price and depth for
+all the currency pairs that we support. It makes no sense to integrate to a platform
+that cannot deliver on that consistency and visibility for the trade. And unfortunately,
+that's not the case for stablecoins, particularly in less liquid markets like Latin markets.
+Second is the settlement speed. All the settlement happens in real time,
+and that equates to no pre-funding, no tied up capital. The third thing is the transparency.
+So if we actually agree on commercial terms, you'll always be able to audit, regardless of
+the mechanism and the trade size, that that is the spread that you are actually getting,
+which is, let's say, Bloomberg market rate plus X basis points. And the third thing is the
+programmability to make sure that you have the flexibility to operate either via Web UI and OTC,
+but most importantly, you can actually automate this whole operation via a great set of APIs.
+To get going, obviously you'll have plans to expand, but here initially,
+what pairs do you plan to support? We're starting with three currency pairs,
+which are USDFIA against MXN, USDC against MXN, and USDT against MXN. But our plan is to remain
+always agnostic to the stablecoin that we want to route volume through. We'll always follow the
+optimal path for settlement speed and liquidity. In terms of roadmap, we want to move to the rest
+of Spanish-speaking Latam. We believe that the places where this technology is really 10X better
+than the existing trade fair alternatives is in the less liquid, more exotic markets.
+So we'll start there, but the idea is to build a global business.
+Well, I think with this infrastructure, which will enable even more interesting business and
+consumer applications to get built on top of you guys, now that it's making it just that much more
+efficient. Well, this has been awesome, Santi. Where can people learn more about XFX and you?
+You can go to our website, which is xfx.io, or follow us on X. The handle is at officialxfx.
+Well, congrats again on the seat around. Super pumped to be partnered with you
+and the team. And thanks so much for joining today.
+Thank you, Sean. It's been a pleasure.
+Thanks for listening to another episode of On the Brink with Castle Island. To find out
+more about Castle Island, visit castleisland.vc. To listen to all of our podcast episodes,
+please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for listening.

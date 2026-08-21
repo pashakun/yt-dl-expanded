@@ -1,0 +1,637 @@
+TITLE: How Payroll, Stablecoins & Regulation Are Reshaping Global Economies | Megan Knab
+URL: https://www.youtube.com/watch?v=KrhLzAc2WHk
+VIDEO_ID: KrhLzAc2WHk
+
+TRANSCRIPT:
+I think there's also sometimes like in coverage of it, a little bit of a backwards view in
+ my opinion, which is like the fact that PayPal and Stripe getting involved in stablecoins
+ is so good for the stablecoin industry.
+ But in reality, it's like these guys are going to get disrupted, they have this massive
+ legacy tech stack, and they need this technology to stay competitive.
+ Welcome to the Defiant Podcast, I'm your host Vinny, and today we're talking to Megan
+ Knapp, a co-founder and CEO of Franklin, a crypto-first payroll company.
+ Before that, she was VP of Finance at Cyrotonan, a Web3 marketing firm, and yeah, you've been
+ working in accounting in the crypto space for I guess the better part of 10 years now,
+ right?
+ Almost.
+ What about ages?
+ No, it makes you wise and experienced.
+ Yeah, it's been a minute.
+ Yeah, so I'd love to talk about your background in accounting.
+ It's one of those, you know, less glamorous parts of what makes the world go round.
+ Can you share a little bit about your early experiences in crypto and how that intersected
+ with your work in accounting, and how that all eventually led to the creation of Franklin?
+ Yeah, for sure.
+ So right out of school, I got a job working on Wall Street in a back office doing the
+ very kind of like office space grunt work that I think a lot of people think about when
+ they think about accounting.
+ Paper cushion?
+ Yeah, pushing papers around, manually confirming wires with the bank.
+ And Hurricane Sandy hit New York, actually, we, like me and another person in the department
+ had to actually go in, like I walked from my apartment in Queens downtown to run payroll
+ for the company.
+ You got your steps in?
+ Yeah, for sure.
+ Yeah.
+ I mean, you know, if it wasn't clear that and something needed to change, like, yeah.
+ So I worked as an accountant for about five years.
+ I was going to Baruch to get my MBA at night, and learned about Ethereum actually in business
+ school, which was, yeah, random I had a like very progressive forward thinking professor.
+ Was it part of the curriculum or just it came out in conversation?
+ It was so Nate Popper, who's a New York Times journalist, I think had just come out with
+ his book Digital Gold, and he came and gave a lecture to our class.
+ And kind of simultaneously, I had uncovered this, like, multi-million dollar accounting
+ fraud happening at the company that I was working at.
+ And it was just this weird confluence of a lot of things happening at the same time.
+ And I was like, Ethereum is the solution for corporate greed, and got really excited about
+ it.
+ I like rage quit my job.
+ I was, I was like, this is really edible.
+ Yeah.
+ I got a job working at consensus, and I was basically like, I am an accountant, but I'll
+ do anything.
+ And that's kind of the first few steps I took into crypto, that was some 2016.
+ So there was nobody doing crypto accounting for the most part then.
+ So yeah, I think there are a lot of things that led to the genesis of Franklin.
+ But that's the kind of base of like having this kind of like traditional skill set and
+ yeah, jumping into emerging markets.
+ So yeah, and so you've built back office systems within Web3.
+ Can you tell us about some of the lesser known challenges in doing that?
+ Yeah, I mean, it's changed so much over like even just the last two years before I think
+ like there was a big problem with like data availability.
+ And so that in a lot of ways has been solved where you can like find human readable information
+ about transactions on chain.
+ There's so many subledgers out there.
+ So I think that that's been really helpful.
+ Something that I was struggling with when I was running finance at serotonin was just
+ figuring out how do we have real world bills.
+ We are getting in revenue in crypto.
+ We need to pay people out in cash or crypto.
+ And so figuring out like how to like merge these two worlds like there are very few companies
+ that can really just totally operate on chain.
+ And so yeah, prototype Franklin within serotonin thinking about like, okay, let's see if we
+ can streamline all of these inflows and outflows and it worked great.
+ And there really wasn't anything else going on in the market at the time.
+ So that's how it started.
+ And like, how do you approach, you know, the volatility of crypto because like I'm thinking
+ about, you know, payroll with, for example, Ethereum, which just a couple months ago was
+ worth a lot less and six months ago, a lot more, right?
+ So how do you kind of like deal with that volatility when you're dealing with bills and
+ payroll that that's going to be probably USD versus crypto.
+ Yeah.
+ Yeah.
+ I mean, I think like there, yeah, I mean, it depends a little bit on like where you are
+ thinking about in the financial stack with payroll and like, yeah, like bill pay in general,
+ like there are a lot of regulations, like there are a lot of labor laws in the United
+ States about how people can be paid.
+ And it actually kind of emanates back to like Appalachia, where people were getting like
+ who worked for coal mining companies were getting paid in like companies certificates.
+ But it meant that they could never actually like leave their town.
+ They could never get out from grapes of wrath.
+ Yeah.
+ Yeah.
+ After that, yeah, there are a bunch of like state labor laws sort of like came about.
+ So, and they actually apply to crypto now as well.
+ So if you are working for a company and you're an employee in the United States, you can't
+ legally just be paid in that token, you have to be paid in a fiat equivalent currency.
+ And so taking a look at some of like the rules that we know exist was kind of like one of
+ the first things we did.
+ And when we, yeah, launching Franklin, we offered a bunch of different currencies.
+ We had a couple companies that used wrapped Bitcoin or wrapped it to pay out bonuses.
+ But most companies and most of our customers today still just use stablecoins.
+ Yeah.
+ Going off of that, I noticed that you that Franklin often works with ERC 20 tokens like
+ wrapped Bitcoin or stablecoins.
+ Was there a reason you wanted to work with those instead of a native token like Bitcoin
+ Ethereum Solana?
+ Yeah.
+ It's because we're smart contract based.
+ So just ERC 20s work with smart contracts.
+ We're also EVM based.
+ So yeah, from a technical perspective, that was the reason why path of least resistance.
+ Path of least resistance, but also it's like a really beautiful technical solution to something
+ that in the trad by world is like really patched together like super manual and a smart contract
+ automates a lot of that processing logic.
+ So that's kind of the genesis for it.
+ The coders in our audience are going to be really, really happy with that take.
+ So in a 2022 coin desk article, you highlighted how intermediaries like payday lenders and
+ check cashers cost Americans $15 billion annually, which is kind of a lot.
+ Yeah, it's a lot.
+ So given crypto's focus on getting rid of intermediaries, something we're very hyped
+ on, how could eliminating these middlemen positively impact employees?
+ Yeah, for sure.
+ There's a lot of ways.
+ And so one of the innovations at Franklin is actually it's like a self custodial payroll
+ platform.
+ So we're actually never taking custody of our customer's funds.
+ It's literally just a peer to peer transaction that happens on chain, which is cool.
+ That is not like a paradigm that exists in trad by at all.
+ There's also just like the power of stable coins.
+ There's a lot of upside to them.
+ But one of them is that you can just move money a lot faster.
+ That makes moving money a lot cheaper.
+ So we could think about like the different ways that businesses will start having to incentivize
+ their teams going forward when you have this new paradigm that's a lot cheaper to use.
+ There are some companies that use programs called Earned Wage Access, where it's supposed
+ to be like a perk where you can claim your paycheck a little bit early.
+ But it's actually sort of these like complex loan agreements.
+ And it's a modern payday lending type situation.
+ And so our theory is just like we can just pay it out faster.
+ You can hold on to your cash for longer and it's a better experience for everybody.
+ Eliminate the T plus three.
+ Yeah.
+ Yeah.
+ Yeah.
+ Yeah.
+ So many crypto companies are remote first and many of them have employees all around the
+ world, which we love, you know, it's more decentralized, more cool, more global.
+ But of course that can create some friction when we're talking about payroll.
+ So can you tell us more about how crypto first payroll infrastructure can support employers
+ and employees beyond the, you know, the obvious, you know, cross-border payments that stable
+ coins make way easier?
+ Yeah.
+ I mean, I think that it's interesting to see like how employment trends have changed over
+ the last like five years or so serotonin by a company that I was running finance at,
+ where I started Franklin started during the pandemic and it was a hundred percent remote.
+ Like they still don't have an office, I think.
+ And being able, I think like when you are running an international business, and this
+ is, sorry, I meant to say like a trend that other businesses have taken up as well, like
+ it is much more in vogue to hire globally now than it ever was before.
+ One good outcome of the pandemic.
+ Yeah.
+ One good outcome.
+ Yeah.
+ Yeah.
+ Exactly.
+ Right.
+ Yeah.
+ And I think that having a global team, you almost in the past had to have a bunch of local
+ infrastructure in every jurisdiction where you had people.
+ You still now have to comply with obviously like labor laws for wherever people are.
+ But yeah, operating on Shane, you just have one network to deal with instead of a bunch
+ of different banks, a bunch of different FX providers, things like that.
+ So simplicity.
+ Yeah.
+ Beautiful thing.
+ You've also stated that quote payroll is one of the fundamental building blocks for
+ the health and wealth of society.
+ Can you elaborate a little bit on that?
+ Yeah.
+ For sure.
+ At least in the United States, all of our social services boil down to a paycheck.
+ If you have to pay child support, or if you have to have your wages garnished, that flows
+ through to a paycheck, you know, our health insurance, all of that stuff.
+ Social security.
+ It's a really complex data problem, and it is, there are lots of examples of these kinds
+ of industries, but it is highly monopolized by the largest players.
+ Shocking.
+ Yeah.
+ Right.
+ So for us, when I was starting Franklin, it was actually really hard to figure out like
+ how do you actually calculate a paycheck?
+ So the tax code is open source, but it's actually not available anywhere.
+ Like there's no central repo for it.
+ And that was one of the first problems.
+ One of the first problems we had to think about how to solve.
+ So, you know, there are two large companies that basically have a tax database that you
+ can all payroll companies purchase.
+ And so for us, being able to move money faster, we want to be able to have more real-time
+ information, and so building our own tax calculator is one of the first things that we had to
+ do.
+ But yeah, it's the basis of society, Medicare, all of our social services, and it all boils
+ down to a paycheck.
+ Yeah.
+ That's fascinating.
+ Obviously, money rules the world.
+ So I was thinking in that context, but yeah, whenever you're thinking about, you know, how
+ we support one another, paying taxes and all that, like, yeah, it can't get complicated.
+ Yeah, yeah.
+ It's the ultimate community tool.
+ So.
+ Right.
+ The PR Genius is a top crypto PR and growth marketing agency, helping brands globally
+ with expert PR and strategic growth marketing.
+ They've worked with 300 plus projects like movement labs and IO.net.
+ Unlike traditional agencies, they charge only on performance.
+ Their services include earned PR opportunities and marketing services to help boost wallet
+ holders and organic ex followers.
+ Learn more at www.theprgenius.com.
+ So let's talk a little bit more about stable coins.
+ There are, of course, you know, one of the biggest, you know, trends in the news right
+ now as far as mainstream coverage of crypto.
+ Yeah.
+ And a lot of that is because of certain bills getting passed, not passed.
+ So let's talk a little bit about the Genius bill.
+ What are your thoughts on this bill and its potential implications?
+ Yeah.
+ I mean, if I zoom out and just thinking about it as an American citizen, it's kind of interesting
+ that crypto is the only kind of like bipartisan issue going through Congress right now.
+ Specifically, the Genius Act, I think, is a net positive for the industry.
+ We have generally had to rely on stable coin issuers being trustworthy.
+ And you know, the industry has come up with some standards or pressure, peer pressure,
+ to have some level of disclosure in stable coin reserves.
+ And so the Genius Act really makes it, you know, sets a standard for the kinds of disclosures
+ and audit requirements for issuers and also kind of gives a permission structure for trad
+ five financial institutions to start playing in the stable coin space.
+ So I think overall, it's a net positive.
+ We'll see what happens in its final form and how, yeah, how it might interact with some
+ of the other legislation that's also, you know, moving forward.
+ Net positive, I would say.
+ I think stable coins are like having a moment and hopefully it continues.
+ So it's going to be like hot stable coin summer.
+ Yeah.
+ Yeah.
+ Yeah.
+ Somebody should meme that.
+ Like, started here.
+ So one of the Genius Bill's requirements is for firms to hold a reserve of assets that
+ is equal to the value of issued stable coins.
+ I can't help but point out that banks are not held to the same standard.
+ Do you think that is a good thing?
+ Do you think it's, you know, a hindrance?
+ What's your take?
+ Yeah.
+ I mean, I think it's kind of almost just saying the obvious in some ways where, yeah, like
+ in tradfi, we have fractional reserve banking where banks can lend out a certain percent
+ of their balance sheet.
+ And that's, you know, how our money supply grows.
+ You know, I think like, I think a lot about maker Dow from like back in the day and how
+ their protocol actually evolves from having a single source of collateral and then having
+ multiple sources of collateral.
+ This kind of requirement is sort of, yeah, like drawing on some of the evolution from
+ like the maker Dow protocol days, I think.
+ But I think it's, you know, good for consumer protection.
+ It's good for US dollar global dominance.
+ There will be an increase in desire for T bills and things like that.
+ So if you care about that stuff, that's, you know, it's not positive.
+ I think it's good for the end consumer as well.
+ Yeah.
+ And seeing a lot of work in the crypto sphere that's talking about like benchmark rates
+ on chain.
+ Now we're talking about stable coins being more widespread, you know, stripe and PayPal
+ or both utilizing stable coins.
+ So do you think that these kinds of assets within the crypto realm are going to kind
+ of be that gateway for more traditional investors and maybe, you know, normies who they hear
+ about crypto and they're like, what?
+ Yeah.
+ I mean, I think like a lot of the crypto industry right now, there's just like a lot
+ of good vibes around some of these bigger brand names getting involved in stable coin
+ tech.
+ One thing that I think we should be careful about as an industry and as, you know, people
+ who operate on chain and operate in this space is sort of like capture by these bigger sort
+ of like payments players or even like government players where if you look at the current iteration
+ of the stripe stable coin products, it's like extremely expensive to use.
+ Like we looked at it like maybe we integrated at Franklin and it's insanely expensive to
+ use.
+ Really?
+ Yeah.
+ And yeah, it's like kind of like, well, you know, maybe prices, more price compression
+ will happen as more players get involved, but you know, if Visa, you know, just start,
+ we don't want stable coins to all be sitting on it, the Visa rails, you know, the innovation
+ behind this technology is that it is peer to peer.
+ And it should stay that way.
+ And if stripe and PayPal want to come in and participate, they're welcome.
+ But I think it's something to be wary of a little bit like you can come to the party,
+ but don't bogart the party.
+ Yeah.
+ Exactly.
+ Exactly.
+ Yeah.
+ I think there's also sometimes like in coverage of it, a little bit of a backwards view in
+ my opinion, which is like the fact that PayPal and Stripe getting involved in stable coins
+ is so good for the stable coin industry.
+ But in reality, it's like these guys are going to get disrupted that they have this
+ massive legacy tech stack and they need this technology to stay competitive.
+ And so that's kind of the angle that I approach it from.
+ It's like, yeah, took you long enough.
+ So yeah.
+ Get 20% APY on ETH with the high growth vault by KELP in one click.
+ High gain uses blue chip DeFi strategies with restaked ETH across AVE, PENDLE, USUAL,
+ and ELEXER, managed by strategy pros, ultra yield and upshift to deliver highest rewards
+ on ETH.
+ All in just one click, deposit your ETH, receive high gain ETH, and stay liquid in
+ DeFi.
+ Trade or use high gain ETH on platforms like PENDLE and Balancer while still stacking
+ rewards.
+ Follow along these steps to get started.
+ Some critics of the Genius Bill, including our fave Elizabeth Warren, our favorite hater
+ Elizabeth Warren, they've called the Genius Bill insufficient.
+ And she's even gone to say no bill would be better than a weak one.
+ Do you agree or disagree with this perspective?
+ Yeah, philosophically, a weak bill is not great.
+ I think that a lot of US politics, you're talking about one subject, but you're really
+ talking about something else.
+ And so I read a bunch of her comments, she is concerned about the Trump Organization
+ getting involved in crypto with issues around self-dealing, and my understanding is trying
+ to hold this bill a little bit to try and create accountability elsewhere.
+ It's a strategy, I don't like it as somebody who works in the stablecoin space, but I think
+ this kind of discourse is important to have.
+ I think it's an okay perspective to bring up, but ultimately the US has got to kind of
+ get moving on crypto.
+ We are very far behind in terms of creating a sane regulatory regime for startups, for
+ businesses.
+ So let's get it moving.
+ Well, and this lack of regulation is hurting people.
+ I always wonder how much of this is part of their game to make crypto look bad because
+ we don't have regulation for how the organizations should be set up, and that's how you get
+ an FTX collapse.
+ That's how we get all of these headlines that make us look like we're an industry of scammers.
+ How do we approach regulation on that way?
+ No, I think that's a really good point.
+ This will throw ignorance or not wanting to take it as a serious issue has caused a lot
+ of harm like FTX being a massive example of that.
+ There's some level of the US has the most sophisticated capital markets infrastructure
+ in the world, and moving slowly is a feature and a bug, and there's also some level of
+ you don't want regulators or legislators to get so far ahead of the ball where the technology
+ is evolving so quickly, I'm of the view like having audit requirements and disclosures.
+ Those are good things.
+ Let's mandate them.
+ And if there's something else that we need to do secondary to that, pass another bill.
+ The fact that Congress is just not going to do your job.
+ That's what I would say is some rules are better than no rules.
+ And let's just get it out there.
+ I think that a lot of the stuff that's in the Genius Act is common industry practice,
+ and so let's just put the stamp on it and keep going.
+ It's so funny to me when it's like, "Yeah, of course you should have some guardrails
+ in place."
+ Yeah.
+ I think crypto is sometimes split down the middle when it comes to the people who are
+ pro-regulation for everything we're discussing, then the people who are maybe anti-regulation
+ because regulation can stifle growth.
+ Yeah.
+ So crypto being literally a global thing, it seems like they have to be really smart
+ about just how are stablecoins specifically going to benefit or be bad for the American
+ people?
+ Yeah.
+ And I think that should be the main driver between the regulation versus these conversations
+ around whether the president is going to benefit or not.
+ I feel like the attention should be on the American people, not on an individual.
+ I think the thing that scares me about crypto in the United States is that it is becoming
+ more of a political issue and really it is not a political technology.
+ It is meant to really operate separately from governments.
+ In spite of government, Bitcoin was born out of the 2008 financial crisis.
+ And so there's some reality here where it's like, "I'm a U.S. citizen, I want to service
+ U.S. businesses, I want to follow the rules, but I want to not have so much intervention
+ where you're hamstrung from moving forward or from offering a good service."
+ I think that in the past couple of years, the biggest winners in the crypto industry
+ for a large part have been law firms.
+ You get your venture funding in and then spend a lot of time with lawyers trying to figure
+ out corporate structuring risk management policies and ultimately, there has not been
+ a clear path for a lot of founders, for a lot of people who want to operate on chain,
+ up until now.
+ I think it's generally good, but arm's length, it'll be a win if we get it done, I think.
+ Yeah, I love that you brought up lawyers because I have found that when you're talking to
+ people in crypto and specifically in DeFi, it starts to feel like you are interviewing
+ a legal team.
+ You know what I mean?
+ It's like they're clearly saying whatever they're allowed to say and not a word over
+ it.
+ And I mean, do you think that's just because of fear of the SEC or just the government
+ getting mad at them retroactively?
+ Because that's something I think a lot of people don't see.
+ Because of the lack of regulation, you might see a form of insider trading or a form of
+ these nefarious activities, but because it's not in the code, it's not technically illegal.
+ But people are still very careful about what they're going to say.
+ Sure.
+ Yeah, I mean, I think there's some level of discipline that great founders have around
+ sticking to talking points.
+ Yeah, I think, but yeah, I mean, there's a lot of fear.
+ I think like when I was starting at Franklin three years ago, the idea that we were going
+ to launch in the United States was I feel like some of our early investors were kind
+ of like, yeah, she's crazy.
+ Let's try it.
+ Like going to market in the US like in a very highly like regulated market is insane.
+ Right.
+ But you know, in some ways like there, because there were more rules for like around labor
+ regulations, it's almost easier because we have some framework already to try and operate
+ in.
+ But yeah, the lawyers, I think do a good job of scaring people and, you know, it's necessary.
+ I'm subject to it too.
+ Like my lawyers like a great friend.
+ So shout out Teddy, but yeah, totally.
+ So there are a lot of stablecoins out there and more and more coming out each day.
+ Even earlier this year, we have the Trump backed crypto firm world liberty financial launching
+ USD one.
+ And I know that stablecoin is probably part of what Elizabeth Warren and other Democrats
+ are thinking about when they're talking about wanting to stop Trump from, you know, benefiting
+ financially from stablecoin legislation.
+ But with so many options out there, how do you decide which ones to utilize both on a
+ personal level and with your business?
+ Yeah.
+ Well, the position of Franklin is like, we're never prescriptive to our customers about
+ like what assets they should use.
+ We have some limitations like we won't transmit or help transmit securities because we're
+ not a licensed broker dealer.
+ But for the most part, it's kind of, you know, the assets that you want to be using.
+ You can use them, check a couple boxes to make sure it's legal, go for it.
+ You know, personally, I think like there are a lot of things to consider and there are
+ going to be way more in the very near future as more institutions start playing in the space.
+ So like Santander, for example, announced, I think today that they were launching their
+ own stablecoin.
+ Like, I think we'll see that kind of playbook play out from a lot of different banks.
+ Oh my God.
+ Yeah.
+ I'm so dystopian to me for some reason.
+ I can't imagine why.
+ It's going to be weird.
+ It's going to be so weird.
+ I would love, you know, dollar sign, JPM stablecoin, I mean, they had JPM coin.
+ So which, you know, these like interbank settlement processes are so complex like this.
+ And I used to, I had a moment working in equities brokerage, like being able to, yeah, settle
+ transactions between institutions, like a blockchain, a public blockchain is a perfect
+ solution to these kinds of things.
+ But yeah, the vibes are going to be weird.
+ Like, it's also weird to me, like the Van Eck Twitter handle is like very de-gen.
+ And I'm like, who are you guys like, what, what, you know, who did what intern did you
+ hire?
+ Yeah, exactly.
+ Exactly.
+ So I think we'll, yeah, we'll see more of it.
+ You know, personally, I like assets that are not like, yeah, within a closed network.
+ So, you know, I, it's not really around as much anymore.
+ But like make or doubt, like those were, I think we'll all look back as an industry and
+ be like single collateral die, the multicolateral die upgrade, like that was maybe the coolest
+ thing that crypto has ever produced.
+ I'd love to hear more on that.
+ What made it so cool for you?
+ Yeah, I think it's just this idea that it could operate autonomously on chain as just
+ like, you know, I think crypto itself, like at a technology level is like pretty simple
+ tech, you know?
+ It aims to be, right?
+ Yeah, like smart contracts, right?
+ If then statements, like it's not, it's not like quantum, you know, or something like
+ that.
+ And just like being able to have that kind of like application use case to be able to
+ create money from your own money is just like genius, like, oh, so cool.
+ Yeah.
+ And I think it actually makes those concepts a little more accessible to people because,
+ you know, it's really interesting working in DeFi and getting to see the convergence
+ of traditional finance and how to enhance it or make it more available to the public
+ through blockchain technology.
+ And so I'll be curious to see how stable coins and how, you know, collateralized debt
+ can like really bring new wealth to people who don't work in the banking industry or
+ who don't have that expertise.
+ Yeah.
+ Yeah, for sure.
+ And I think that like, you know, this kind of like scarcity is really like there are people
+ in areas of the world that don't have access to traditional financial services that do
+ use this.
+ Like if you walk around when a sire is right, like a lot of you can pay out a lot of point
+ of sale systems using stable coins on Tron as an example.
+ And that's been, you know, if there are other examples of that and it's almost like here
+ where we have very sophisticated financial infrastructure, it is so slow to adopt.
+ But yeah, it's going to be wild.
+ Oh, that's a great point. Yeah, places that are still developing might just skip all the
+ stuff that we've been dealing with for the last few decades and go straight to.
+ Yeah.
+ A hundred more coins.
+ A hundred percent.
+ Why not?
+ Yeah, yeah.
+ Skip the line.
+ Goat network is the first sustainable BTC yield chain powered by decentralized sequencers
+ using multi-coin POS.
+ Goat's mission is to transform BTC and Doge from passive holdings into active yield generating
+ assets through a one-of-a-kind economic model that tokenizes sequencer revenues, unlocking
+ the full potential of BTC-Fi and meme-fi in a way that's never been done before, and
+ creating new yield opportunities for Bitcoin and Dogecoin holders.
+ Supply BTC or Doge earn BTC in perpetuity.
+ Let's start it through our user rewards onboarding portal, onepiece.goat.network.
+ A lot of the time when we think about crypto in places like Latin America or Africa, we
+ think about the ability to use an asset like Bitcoin as a store of value against something
+ like the Argentine peso, which can drop 80% in value overnight and we've seen this happen
+ in recent years, so do you think stablecoins are a better asset for these more developing
+ economies versus something like Bitcoin or Ethereum?
+ Yeah, I mean, I think a couple things about that.
+ One, I think of Paul Brody, who runs the global blockchain business at Ernst & Young.
+ He says Bitcoin is the asset and Ethereum is the platform, and he's trying to draw this
+ distinction of like, yes, Bitcoin is store value, I think the narrative around it being
+ digital gold is like, it trades closer to gold now than it does other assets.
+ Yeah, I saw that on the news and I was like, well, digital gold, I guess we have.
+ Yeah, yeah, by gold.
+ The other thing I think is like, a stablecoin is stable to what, you know, like we, stablecoins
+ are largely an orchestration of the US dollar right now, and so if you are pegging a stablecoin
+ to a currency that is volatile, that stablecoin will still have, you know, the same, it's
+ really just a layer of, you know, whatever fiat you're dealing with.
+ And so, you know, to me it's kind of like, you know, we can actually, not that we should,
+ you know, get the US dollar into more areas of the global economy, like I think it's going
+ to really cement like US monetary policy or like monetary, yeah, dollar dominance.
+ Yeah.
+ Interesting.
+ I've definitely seen conflict with the US government and something like Bitcoin because
+ Bitcoin is kind of positioned itself to be anti-USD, right, to be not working together,
+ but like something you want to have instead of.
+ Do you see stablecoins kind of flipping that script and maybe being something that the
+ government might be more welcoming to because it is potentially going to share that dominance
+ of USD throughout the world?
+ Yeah.
+ I mean, well, on the Bitcoin point, I think it's so weird, this industry in so many ways
+ where like a lot of people lauded the Bitcoin ETFs where it's like, okay, we're putting
+ Bitcoin on traditional like equities rails so that more asset managers can get exposure
+ to it.
+ And it's like, you know, ETFs on Bitcoin would be cool or ETFs on, you know, another like
+ chain like theory, like that would be real innovation, you know, and so like let's not
+ lose the plot, I think, to your point.
+ Yeah, we may not have a political ideology, but there is an ideology there.
+ Yeah, exactly.
+ So I think, yeah, stablecoins really are, yes, a kind of an antithesis to that Bitcoin
+ value prop, but maybe it's a Trojan horse, yeah, it could be, right, and technically,
+ you know, like the Fed and like the issuer of like monetary policy in the United States
+ is separate from like the elected government, right, but and like hopefully it stays that
+ way.
+ Yeah, you know, if I were a government leader, you know, having assets on a public blockchain
+ is a great tool for power.
+ And it's a little scary, like I think that's another thing that we should all be aware
+ of is like you can see everything happening on chain.
+ You can very easily exclude people or, you know, like Blacklist them off.
+ So you know, should a government like take up issuing stablecoins, sure, it's a great
+ idea for a government like, is it a great idea for its population?
+ Like, maybe not, whoa, careful, we're going to start giving the Trump administration some
+ ideas.
+ I'm sure there's no new new ideas here, but yeah, yeah, no, it's it's really fascinating
+ to see what's happening.
+ And I didn't really, I didn't see stablecoins as being the thing that would get us into
+ these conversations and having, you know, the words crypto coming out of so many politicians
+ mouths.
+ Yeah.
+ Yeah.
+ Are there any other pieces of legislation that you're kind of hoping will come out of this
+ or come next?
+ There is something that I'm kind of hoping for, it's not exactly related, it's not at
+ all related to stablecoins, but the SEC has rules around accredited investors that I think
+ are just so wack, I mean, to change where basically people who are not already rich cannot participate
+ in certain kinds of markets and get access to certain kinds of investments.
+ Yeah.
+ And the buy-in is crazy, right?
+ It's like you have to make $200,000 a year for three years in a row.
+ And or have a million dollars in the bank.
+ Yeah.
+ It's like, you know, definitely working on that.
+ Yeah, right.
+ Like, but yeah, don't have enough Bitcoin to be investing in anything.
+ Right.
+ And also to get an accreditation, like a lot of these evaluators like still won't touch
+ crypto and stuff like that.
+ So you have people who have, yeah, like crazy crypto network that like can't get, still can't
+ get that kind of, I think it's changing.
+ But yeah, I think it's just fundamentally like so unfair and it's meant to protect consumers
+ where, you know, the idea is if you have assets, you're smarter than everybody else or whatever.
+ I mean, of course, rich people are the smartest.
+ So I think, you know, like, I have a lot of people I think acknowledge that it has to
+ change and has to repress that the SEC crypto's favorite commissioner has been a big, big advocate
+ of that.
+ Yeah, it's like an other thing, like, let's just get it done.
+ So absolutely.
+ I mean, I think this is something that really needs to change in, you know, 10 years ago,
+ really.
+ Yesterday is just how do we make sure that Americans have the access to instruments that
+ will help them build wealth?
+ Because we're really seeing, you know, this stagnation in wages, we're seeing, you know,
+ it's really hard for Gen X millennials and Gen Z to own properties.
+ So like, what is going to be the solution here if all of these other routes to making
+ money and building wealth are now too expensive for young people?
+ What's the plan here?
+ And can it please be better than investing in Pepecoin?
+ Yeah.
+ Yeah, for sure.
+ And I think also like if you talk to the average crypto investor, like they know a lot
+ of stuff like they understand a lot about what they're doing and yeah, like they're gambling
+ or whatever, but I think a lot of people in this industry are extremely educated about
+ what they're doing.
+ And you kind of have to be though, right?
+ Yeah.
+ It's like, it's not easy to get into crypto, like I feel like there's so many, that's
+ kind of, ironically, one of the benefits of there being so many steps to being able to
+ like buying the crypto and then putting it into your hardware wallet and like all of this,
+ right?
+ So it requires you to do a little bit of research, but yeah, by that same token, it's keeping
+ other people out who either just listen to the bad news or are not willing to do all
+ those steps.
+ Yeah.
+ 100%.
+ And yeah, I think to your point, like one, when I first started working and actually
+ had money for the first time in my life, I tried to set up an account at Schwab, I think,
+ and they wouldn't let me do it because they had, they were like, well, we'll only open
+ up an account if you can deposit X amount of money.
+ And I was like, I can't just invest like $500 in the stock market.
+ This is why Robinhood has really changed the game in a lot of ways.
+ I used to work at a digital broker called Drive Wealth where they powered investing for
+ like cash app and a bunch of other, these like digital wallets.
+ So I think that there's certainly like a renaissance going on in like equities brokerage and things
+ like that.
+ And it needs to happen more in crypto.
+ Absolutely.
+ Yeah.
+ So why don't we finish off with a quick lightning round, quick hits, ready to be struck.
+ Yes.
+ Okay.
+ Fable, favorite stable coin, single collateral die BTC price at the end of 2025.
+ Let's go with a cool million love the sound of that.
+ And are we looking at another DeFi summer?
+ Yeah.
+ I mean, every summer is DeFi summer now.
+ So for sure.
+ Well, thank you so much, Megan, for being here with us.
+ Where can our audience find you to follow for more tips and tricks and more payroll insights?
+ Yeah, for sure.
+ Follow us at @FranklinPayroll on Twitter.

@@ -1,0 +1,2072 @@
+1
+00:00:00,000 --> 00:00:04,640
+ FX offers two products. The first one is a leverage product. It delivers leverage
+
+2
+00:00:04,640 --> 00:00:10,240
+ on ETH and BTC without funding costs, without borrowing costs, users just pay a one-time
+
+3
+00:00:10,240 --> 00:00:14,880
+ opening and closing fee. And that's it and in most cases they won't have to pay any fundings.
+
+4
+00:00:14,880 --> 00:00:19,920
+ And the difference with regular CDP is that we abstract the looping so we give overexposure
+
+5
+00:00:19,920 --> 00:00:26,080
+ to the collateral and we have this very innovative liquidation mechanism that prevents any hard
+
+6
+00:00:26,080 --> 00:00:32,720
+ liquidation. FX protocol is an evolved CDP. Whenever people are longing the collateral,
+
+7
+00:00:32,720 --> 00:00:37,840
+ it involves selling the stablecoin for more collateral. Different peg keeping mechanisms.
+
+8
+00:00:37,840 --> 00:00:43,440
+ The first one is that stability tool. On FFX, the stability tool is a yeast strategy that takes
+
+9
+00:00:43,440 --> 00:00:49,280
+ both FX USD and USDC as base assets. Each time FX USD is traded below one,
+
+10
+00:00:49,280 --> 00:00:55,280
+ the USDC from the yeast strategy will buy FX USD in the market to put it closer to peg
+
+11
+00:00:55,280 --> 00:00:59,920
+ and its change is traded above one, it's sold back for USDC and goes back to the stability tool.
+
+12
+00:00:59,920 --> 00:01:05,200
+ Hey guys, I want to tell you about Gnosis, a collective of builders creating real tools
+
+13
+00:01:05,200 --> 00:01:10,080
+ for real people on the open internet. Gnosis has been around since 2015. In fact,
+
+14
+00:01:10,080 --> 00:01:14,880
+ it started as one of Ethereum's very first projects and today it's grown into a whole ecosystem
+
+15
+00:01:14,880 --> 00:01:19,680
+ designed to make open finance actually work for everyday people. At the center of it all is Gnosis
+
+16
+00:01:19,680 --> 00:01:24,880
+ Chain. It's a low-cost, highly decentralized layer one that's compatible with Ethereum and secured by
+
+17
+00:01:24,880 --> 00:01:29,760
+ over 300,000 validators. So whether you're building a DAP, experimenting with DeFi,
+
+18
+00:01:29,760 --> 00:01:35,040
+ or working on autonomous agents, Gnosis Chain gives you a solid, neutral foundation to build on.
+
+19
+00:01:35,040 --> 00:01:40,560
+ But Gnosis is more than just infrastructure. It's also tools that people can actually use,
+
+20
+00:01:40,560 --> 00:01:45,360
+ like circles for example, lets anyone issue their own digital currency through networks of trust,
+
+21
+00:01:45,360 --> 00:01:50,160
+ not banks. And then there's Metri, it's their smart contract wallet that makes it easy to access
+
+22
+00:01:50,160 --> 00:01:55,840
+ circles, manage group currencies, and even spend anywhere Visa has accepted thanks to their
+
+23
+00:01:55,840 --> 00:02:02,160
+ integration with Gnosis Pay. All this is governed by Gnosis Dow, where anyone can propose, vote,
+
+24
+00:02:02,160 --> 00:02:07,600
+ and help guide the network. And if you want to get involved, running a validator is super easy.
+
+25
+00:02:07,600 --> 00:02:12,800
+ All you need is one GNO and some basic hardware. To learn more and start building on the open
+
+26
+00:02:12,800 --> 00:02:18,480
+ internet, head to Gnosis.io. Gnosis, building the open internet, one block at a time.
+
+27
+00:02:18,480 --> 00:02:23,600
+ Welcome to Epicenter. The show which talks about technologies, projects, and startups driving
+
+28
+00:02:23,600 --> 00:02:28,160
+ decentralization and the global blockchain revolution. I'm Sebastian Guccio, and today I'm here with
+
+29
+00:02:28,160 --> 00:02:33,440
+ Cyril, who is our core contributor at FX protocol. FX is a really interesting,
+
+30
+00:02:33,440 --> 00:02:40,800
+ yield-bearing stablecoin that also utilizes a purpose market. There's an interesting stability
+
+31
+00:02:40,800 --> 00:02:45,440
+ mechanism there that we'll get into. And also right now, I think it's probably one of the best
+
+32
+00:02:45,440 --> 00:02:51,840
+ yielding stablecoins on the market, with their stability pool yielding somewhere around like 12,
+
+33
+00:02:51,840 --> 00:02:58,560
+ 13%. So that's really sort of compelling and interesting. And I wanted to talk to Cyril today
+
+34
+00:02:58,560 --> 00:03:07,360
+ about FX and understand the core mechanism and also how they fit in the broader stablecoin landscape.
+
+35
+00:03:07,360 --> 00:03:13,120
+ So nice to see you today. Thanks for joining. Hey, thanks Sebastian for having me. It's a
+
+36
+00:03:13,120 --> 00:03:18,240
+ real pleasure to be here today. So you're actually based in France. I see you've got the Ethereum
+
+37
+00:03:18,240 --> 00:03:26,240
+ France T-shirt. What's your background? How did you get interested in DeFi? Have you
+
+38
+00:03:26,240 --> 00:03:33,520
+ worked at any of the big French protocols? I started DeFi because I got direct with the crypto
+
+39
+00:03:33,520 --> 00:03:38,640
+ markets and I figured I wanted to make yields and that getting yield on stablecoins would be
+
+40
+00:03:38,640 --> 00:03:49,680
+ somehow more predictable income than just betting on the market volatility. And I had a bit of
+
+41
+00:03:49,680 --> 00:03:57,680
+ funds on my company, actually, and I went to the bank and I asked for yield opportunities to the
+
+42
+00:03:57,680 --> 00:04:04,800
+ bank. And as a professional in France, they would offer me 0.15% APR with a six-month
+
+43
+00:04:04,800 --> 00:04:14,560
+ lookup. And I figured it's 0.15% or 15%? No, no, 0.15, 0.15% with not 1%. Yeah, yeah.
+
+44
+00:04:14,560 --> 00:04:22,720
+ So I figured it was a theft and I should find something else. And I heard about DeFi at that
+
+45
+00:04:22,720 --> 00:04:28,880
+ point. And actually, I didn't hear about DeFi. I heard about Celsius. That was offering something
+
+46
+00:04:28,880 --> 00:04:36,480
+ like 8% and next so as well. And I started putting euro there at that time. And I figured, okay,
+
+47
+00:04:36,480 --> 00:04:41,280
+ how do these guys actually make yields? And this is how I heard about DeFi. And it was
+
+48
+00:04:41,280 --> 00:04:47,440
+ right after the DeFi summer. And I bumped into a French community called DeFi France.
+
+49
+00:04:47,440 --> 00:04:54,000
+ It sprinkles to maybe lobster dow, but for French people. And it's a group of DeFi passionate people
+
+50
+00:04:54,000 --> 00:05:02,240
+ talking mostly about DeFi and with zero bullshit. It's mostly doing about building stuff. And there's
+
+51
+00:05:02,240 --> 00:05:07,760
+ a lot of builders, actually, in the group. And I started by reading everything, every single message
+
+52
+00:05:07,760 --> 00:05:12,720
+ in that group for months. And I learned a lot of stuff starting practicing DeFi as well and getting
+
+53
+00:05:12,720 --> 00:05:19,760
+ involved into DeFi France by sharing what I learned from the community and organizing meetups
+
+54
+00:05:19,760 --> 00:05:26,000
+ in Toulouse. And I've organized almost a meetup a month for the past three years. I just stopped
+
+55
+00:05:26,000 --> 00:05:33,280
+ before this summer. And this is how I got to meet with people that came to the meetup to
+
+56
+00:05:33,280 --> 00:05:39,680
+ talk about their projects and stuff like that. And how I got people to reach out to me to get my
+
+57
+00:05:40,800 --> 00:05:49,280
+ opinion on different stuff. And regarding F of X, I did a meetup about F of X in September 23.
+
+58
+00:05:49,280 --> 00:05:54,800
+ So right after the first iteration launch, I've been following Aladdin Dow, which is the
+
+59
+00:05:54,800 --> 00:06:01,200
+ the Dow behind F of X and as well as concentrator and clever protocols. I've been following the
+
+60
+00:06:01,200 --> 00:06:07,360
+ DAF since the beginning. And when I first read about F of X, I just loved the design. So I figured
+
+61
+00:06:07,360 --> 00:06:13,280
+ I should make a meetup about it and share it on the community. And this is how I started to
+
+62
+00:06:13,280 --> 00:06:22,000
+ contribute to the project. Cool. I think like doing meetups is such an underrated kind of low
+
+63
+00:06:22,000 --> 00:06:29,040
+ lift thing that you can do early in your crypto journey. I organize a few meetups back in the day
+
+64
+00:06:29,040 --> 00:06:35,040
+ Lil and the North of France. And like, yeah, I know, like, you know, Brian, my co-founder here at
+
+65
+00:06:35,040 --> 00:06:39,040
+ epicenter, like also organize like quite a few minutes in Berlin. And it's such a great way,
+
+66
+00:06:39,040 --> 00:06:44,480
+ like meet people who, you know, you don't necessarily see online, right? But like, they come out of
+
+67
+00:06:44,480 --> 00:06:49,760
+ the woodwork for the meetups, right? And they built it's like great, great way to build connection.
+
+68
+00:06:49,760 --> 00:06:58,320
+ Yeah, exactly. Yeah. One of this few cost systems left in which you can easily access to people that
+
+69
+00:06:58,320 --> 00:07:08,080
+ make the ecosystem. And you can just give to the community and it will just bring so many
+
+70
+00:07:08,080 --> 00:07:18,400
+ opportunities, you know, just by being genuinely sharing stuff, just meet people and it brings
+
+71
+00:07:18,400 --> 00:07:23,360
+ opportunity. Yeah, I guess what I'm trying to say is like even, you know, even like 15 years
+
+72
+00:07:23,360 --> 00:07:30,160
+ into crypto, there's still opportunity for people to like have to, like, encourage anybody to do
+
+73
+00:07:30,160 --> 00:07:35,520
+ that. And like, what's the relationship? Like, well, what is Aladdin down in the relationship there?
+
+74
+00:07:35,520 --> 00:07:40,000
+ And, you know, someone was already working on effects before you started contributing to it.
+
+75
+00:07:40,000 --> 00:07:47,280
+ Yeah, it's a good question. Aladdin Dow is the Dow that builds F of X protocol. So it's the same
+
+76
+00:07:47,280 --> 00:07:54,720
+ team, basically. And Aladdin started as an investment Dow, something like four years ago. And but it
+
+77
+00:07:54,720 --> 00:08:02,320
+ quickly created its first protocol to just to get what was missing to them in the Defiled Enscape.
+
+78
+00:08:02,320 --> 00:08:08,240
+ So they launched, I wasn't there, I wasn't contributing there at that point, but I was a user, actually.
+
+79
+00:08:08,240 --> 00:08:20,560
+ The launch concentrator, I believe in 2021, maybe, or 22. And then clever, so considerate in a nutshell
+
+80
+00:08:20,560 --> 00:08:29,600
+ is an auto-compounder protocol. So it auto compounds your yields, but instead of compounding
+
+81
+00:08:29,600 --> 00:08:35,360
+ into the underlying, it lets you compound into another yield bearing asset, such as Steve, for
+
+82
+00:08:35,360 --> 00:08:42,320
+ instance, or since Aladdin has been very close with the curve ecosystem in the first days,
+
+83
+00:08:42,320 --> 00:08:49,440
+ you can compound your CRV, for instance, instead of compounding stablecoins. So it's kind of,
+
+84
+00:08:49,440 --> 00:08:58,880
+ it's a protocol that lets you DCA with your DeFi farming, basically. And so that's the first
+
+85
+00:08:58,880 --> 00:09:06,160
+ protocol, it's still around with over 100 million TVL. And the second is a clever that lets you
+
+86
+00:09:06,160 --> 00:09:16,400
+ leverage your CVX farming, basically, with without liquidation. And so the first two protocols are
+
+87
+00:09:16,400 --> 00:09:22,880
+ very deep into the curve and convex ecosystem, while the third one, which is F of X, solves the
+
+88
+00:09:24,080 --> 00:09:30,880
+ problem of decentralized stablecoins, basically. And what I love about the design is that it brings
+
+89
+00:09:30,880 --> 00:09:39,360
+ real decentralized alternative into the stablecoin landscape. And it was the origin of F of X is
+
+90
+00:09:39,360 --> 00:09:45,600
+ actually the USDCT peg in March 23, because Aladdin Dow, with the existing two protocols,
+
+91
+00:09:45,600 --> 00:09:53,040
+ had a treasury, mostly made of USDCT. And they just figured it's such a nonsense
+
+92
+00:09:53,040 --> 00:10:03,920
+ to build DeFi on the most decentralized infrastructure and to rely on centralized stablecoins and to
+
+93
+00:10:03,920 --> 00:10:11,600
+ depend on on trotify events such as the SVB failure. And this is how the idea of F of X
+
+94
+00:10:11,600 --> 00:10:20,720
+ was raised in the first place. And it evolved to what it is today. And today we managed to bootstrap
+
+95
+00:10:20,720 --> 00:10:30,080
+ FX USD to over 100 million market cap as well, while having no VC funding, while doing things
+
+96
+00:10:30,080 --> 00:10:40,240
+ 100% organically. Yeah, no, I agree. It feels like a huge failure on the part of the ecosystem.
+
+97
+00:10:40,240 --> 00:10:46,880
+ Sometimes I think the fact that centralized stablecoins have dominance over the stablecoin
+
+98
+00:10:46,880 --> 00:10:53,760
+ market deals like a pretty big failure on the part of proponents of decentralized tech.
+
+99
+00:10:53,760 --> 00:10:58,720
+ And it's really unfortunate that protocols like die and other decentralized
+
+100
+00:10:58,720 --> 00:11:05,200
+ stablecoins haven't picked up more adoption than they have. I mean, there's sizable adoption,
+
+101
+00:11:05,200 --> 00:11:12,160
+ but it's nowhere near where USDCT and Tether are at. There's a lot of regulatory risk there,
+
+102
+00:11:12,160 --> 00:11:19,280
+ and also you have DPG risks and these sorts of off-chain risks. What is the core
+
+103
+00:11:19,280 --> 00:11:24,480
+ value that you think? There's a sort of core tenets that a decentralized stablecoin protocol
+
+104
+00:11:24,480 --> 00:11:30,960
+ should embody. If you had to put characteristics on what an ideal decentralized stablecoin protocol
+
+105
+00:11:30,960 --> 00:11:38,240
+ looks like, what would those be? Yeah, I think for a decentralized stablecoin to work, people need to
+
+106
+00:11:38,240 --> 00:11:45,760
+ trust it to be reliable. So it needs to have a good peg, obviously, and to be liquid enough so
+
+107
+00:11:45,760 --> 00:11:53,200
+ that you can come and buy it and set it in size. And it needs to be collateralized so that the
+
+108
+00:11:53,200 --> 00:11:58,640
+ peg actually stays. So it's not just liquidity, but it's actually a good peg by design and good
+
+109
+00:11:58,640 --> 00:12:08,160
+ backing, and it also needs to be scalable. It all goes back to the stable controllima. It needs to be,
+
+110
+00:12:08,160 --> 00:12:15,840
+ in my opinion, mostly on-chain, because so that you can abstract trust from it and just trust the
+
+111
+00:12:15,840 --> 00:12:26,480
+ code instead of trusting entities and people. And yeah, that's... And it also brings censorship
+
+112
+00:12:26,480 --> 00:12:34,800
+ resistance by being on-chain. So that's all these different key components, I guess, that makes a
+
+113
+00:12:34,800 --> 00:12:41,200
+ good decentralized stablecoin. In my opinion, the beauty of Ethereum and decentralization is that
+
+114
+00:12:41,200 --> 00:12:47,680
+ it abstracts trust. And abstracting trust from finance reduced the risk, right? And it's just like
+
+115
+00:12:47,680 --> 00:12:55,120
+ people just forget about this. And just like the trust fight is used to trust and to have someone
+
+116
+00:12:55,120 --> 00:13:00,400
+ to sue if anything goes wrong, why we can't just avoid trusting people using Ethereum.
+
+117
+00:13:00,400 --> 00:13:07,680
+ And in my opinion, it makes love sense to embrace that technology and to bring... And this is actually
+
+118
+00:13:07,680 --> 00:13:18,560
+ what we do with FOX. We manage to deliver higher risk with lower risk, because there is no trust
+
+119
+00:13:18,560 --> 00:13:26,640
+ involved. And in my opinion, that's a paradigm change that will come at some point with when
+
+120
+00:13:26,640 --> 00:13:33,440
+ the most of the new trust fight guys would be crypto-native and understand that value proposition.
+
+121
+00:13:33,440 --> 00:13:43,120
+ Yeah, I certainly hope so. I mean, there's a centralized stablecoins have a lot of tailwinds.
+
+122
+00:13:47,120 --> 00:13:54,080
+ I think for that to happen, it could happen that decentralized stablecoins take over. But
+
+123
+00:13:54,080 --> 00:13:59,840
+ there would have to be some catastrophic event that really erodes the trust in Tether or USDC
+
+124
+00:13:59,840 --> 00:14:06,080
+ to the point where decentralized stablecoins can come in and start taking that. I don't know
+
+125
+00:14:06,080 --> 00:14:12,240
+ that I think that decentralized stablecoins can slowly start creeping up and building up
+
+126
+00:14:13,840 --> 00:14:20,000
+ issuance to really surpass in a meaningful way the main state of centralized ones.
+
+127
+00:14:20,000 --> 00:14:27,360
+ I don't think they will take over because the centralized one will probably always be more
+
+128
+00:14:27,360 --> 00:14:34,960
+ convenient and scalable. That's a fact. But I also believe that centralized stablecoin will
+
+129
+00:14:34,960 --> 00:14:41,280
+ all eventually disappoint at some point. And at that point, people will need a reliable
+
+130
+00:14:41,280 --> 00:14:48,320
+ alternative to use. And why would you use a more risky stablecoin? So more trusted stablecoin
+
+131
+00:14:48,320 --> 00:14:57,360
+ with low risks while you can most of the time use a decentralized one with higher yields.
+
+132
+00:14:57,360 --> 00:15:07,200
+ The idea is just to offer a reliable alternative. And this is what we're doing and looks like.
+
+133
+00:15:08,640 --> 00:15:13,440
+ People understand it since the protocol has grown pretty well lately.
+
+134
+00:15:13,440 --> 00:15:20,960
+ Yeah, that makes sense. I think also maybe there's still some lingering fear about decentralized
+
+135
+00:15:20,960 --> 00:15:32,320
+ stablecoins, where with USDC, so that might also contribute a little bit. I think also to
+
+136
+00:15:32,320 --> 00:15:38,000
+ generally, they're harder to understand than a centralized stablecoin. Hey, there's an institution
+
+137
+00:15:38,000 --> 00:15:46,160
+ behind this. There's all these banks. There's KPMG audits to save the monies there. I get that
+
+138
+00:15:46,160 --> 00:15:51,520
+ because that's the model that most people are familiar with. With a decentralized stablecoin,
+
+139
+00:15:51,520 --> 00:15:54,880
+ you have to listen to hour one podcast like this to understand what the fuck's going on.
+
+140
+00:15:54,880 --> 00:16:04,240
+ Again, it goes back to that trust paradigm of the old world in a way. But yeah, definitely,
+
+141
+00:16:04,240 --> 00:16:11,600
+ there's a PTSD of USDC. And lots of people I meet, and the first question they ask about
+
+142
+00:16:11,600 --> 00:16:15,680
+ FXUSD is, is it an algorithmic stablecoin? Because they heard about this.
+
+143
+00:16:15,680 --> 00:16:23,600
+ Dangerous. And yeah, now it's fully collateralized with exogenous collateral.
+
+144
+00:16:23,600 --> 00:16:30,720
+ This is a decentralized stablecoin. Cool. Yeah, well, let me get into a little bit of how it works.
+
+145
+00:16:30,720 --> 00:16:37,920
+ And the first time we chatted, you described it as an evolution on the CDP model that maker
+
+146
+00:16:37,920 --> 00:16:48,080
+ introduced the world back in 2016. So maybe using that as a comparison, because I think
+
+147
+00:16:48,080 --> 00:16:55,280
+ a lot of people have that model and understand that model. How does it work and what are the
+
+148
+00:16:55,280 --> 00:17:00,560
+ different components? Yeah, for people used to the CDP model, it's the easiest way to
+
+149
+00:17:00,560 --> 00:17:11,680
+ understand how FX works. It's indeed an evolved CDP design in the way that so FX offers two products.
+
+150
+00:17:11,680 --> 00:17:19,280
+ The first one is a leverage product. So it delivers leverage on ETH and BTC or BTC, you can choose.
+
+151
+00:17:19,280 --> 00:17:26,480
+ Directional leverage without funding costs, without borrowing costs, users just pay a one-time
+
+152
+00:17:26,480 --> 00:17:31,200
+ opening and closing fee. And that's it. And in most cases, they won't have to pay any funding.
+
+153
+00:17:31,200 --> 00:17:41,680
+ It can happen in very rare occasions. But so it brings predictability in the cost.
+
+154
+00:17:41,680 --> 00:17:46,800
+ And the difference with regular CDP is that we abstract the looping. So we give overexposure
+
+155
+00:17:46,800 --> 00:17:54,880
+ to the collateral, just like if you would use a CDP with looping protocols such as DeFi Saver or
+
+156
+00:17:54,880 --> 00:18:00,880
+ Contangor stuff like that to get directional leverage. We abstract it. We include it into the
+
+157
+00:18:00,880 --> 00:18:07,200
+ product. So that's called expositions for the longs, expositions for the short. You get directional
+
+158
+00:18:07,200 --> 00:18:14,080
+ leverage up to 7X, predictable cost, just a one-time fee. And we have this very innovative
+
+159
+00:18:14,080 --> 00:18:22,240
+ liquidation mechanism that prevents any hard liquidation. So you don't get the half or the
+
+160
+00:18:22,240 --> 00:18:30,000
+ entire position wiped out if the market goes on the opposite side. And you get this very
+
+161
+00:18:30,000 --> 00:18:37,840
+ progressive liquidation that keeps you as much exposure as possible and reduce the risk.
+
+162
+00:18:37,840 --> 00:18:43,360
+ So on the leverage side, in a way, it's a zero-stress leverage. It's just a zen
+
+163
+00:18:44,400 --> 00:18:53,520
+ perp, if you want, using the CDP model in the back end. Okay. So maybe we'll stop it there and
+
+164
+00:18:53,520 --> 00:19:01,520
+ go over those different parts yet. So comparing to the CDP model, CDP, you borrow against collateral,
+
+165
+00:19:01,520 --> 00:19:06,480
+ but leverage doesn't include in the protocol. Typically, people get that leverage by going through
+
+166
+00:19:06,480 --> 00:19:13,920
+ some external protocol like DeFi Saver or maybe Instadap. And they're exporting the looping
+
+167
+00:19:13,920 --> 00:19:20,400
+ functionality to that protocol and then bring the collateral back. Yeah, it's a huge pain in
+
+168
+00:19:20,400 --> 00:19:25,280
+ the ass. I've done this. It's just really painful and scary to do. And then you bring the collateral
+
+169
+00:19:25,280 --> 00:19:33,360
+ back and then you're doing this loop and you may get some leverage from that. FFX has this built
+
+170
+00:19:33,360 --> 00:19:40,400
+ in. So you can do up to 7X leverage. And then the other part that you mentioned is that there's a
+
+171
+00:19:40,400 --> 00:19:48,400
+ gradual liquidation mechanism, which means that your collateral isn't liquidated in sort of a
+
+172
+00:19:48,400 --> 00:19:58,480
+ single transaction. It's very progressive. It's progressive, right? So and I guess I've never thought
+
+173
+00:19:58,480 --> 00:20:05,520
+ of this, but what makes that possible and why is it that typically letting protocols don't have a
+
+174
+00:20:05,520 --> 00:20:12,080
+ progressive... It's a very good liquidation mechanism. Yeah, thank you for asking this.
+
+175
+00:20:12,080 --> 00:20:17,520
+ Why the other CDP don't do this is because most of that... We're just lending protocols,
+
+176
+00:20:17,520 --> 00:20:22,400
+ basically. Why wouldn't Aave kind of have this progressive letting mechanism?
+
+177
+00:20:22,400 --> 00:20:28,400
+ Can't do this because they handle each leverage positions individually. So to make the
+
+178
+00:20:28,400 --> 00:20:34,000
+ liquidation profitable, it needs to be large enough so that the keeper, the liquidator,
+
+179
+00:20:34,000 --> 00:20:40,080
+ will actually be profitable by handling the liquidation. And the main difference with
+
+180
+00:20:40,080 --> 00:20:48,000
+ FFX is that all the leverage positions are handled together based on the price ticks,
+
+181
+00:20:48,000 --> 00:20:55,200
+ basically. So we aggregate every position at risk together to process the liquidations,
+
+182
+00:20:55,200 --> 00:21:01,040
+ meaning the liquidations are profitable even if the individual liquidation is very small.
+
+183
+00:21:02,000 --> 00:21:09,520
+ So to illustrate the design, if you're familiar with the LTV concept, each time your leverage
+
+184
+00:21:09,520 --> 00:21:17,520
+ position crosses 88% LTV, the protocol puts it back at 88% LTV, no matter the amount it represents,
+
+185
+00:21:17,520 --> 00:21:23,040
+ the dollar amount, the value of the liquidation, so that your position never reaches 95%
+
+186
+00:21:23,040 --> 00:21:29,600
+ hard liquidation LTV. If that process ever fails and your position reaches 95% LTV,
+
+187
+00:21:29,600 --> 00:21:36,160
+ at that point, the whole position is liquidated. But in most cases, it shouldn't happen because
+
+188
+00:21:36,160 --> 00:21:47,360
+ it works. So you're kind of socializing the liquidation mechanism. Is that exactly where we're
+
+189
+00:21:47,360 --> 00:21:55,120
+ looking at it? Yeah, it's a good way of saying it. It's socialized. Okay, interesting. And no
+
+190
+00:21:55,120 --> 00:22:02,880
+ other DeFi protocol does this, like your landing protocol. Yeah, recently, Fluid came up with a
+
+191
+00:22:02,880 --> 00:22:09,760
+ similar approach. They have this whole base liquidity layer, but it's a way bigger machine,
+
+192
+00:22:09,760 --> 00:22:16,480
+ because it's a whole lending protocol and decks and so on. It's on the FX side, it's way simpler.
+
+193
+00:22:16,480 --> 00:22:23,840
+ It's just two collaterals and a CDP, but they have a similar approach. In a way,
+
+194
+00:22:23,840 --> 00:22:31,600
+ the main difference on their side is, I believe, is that the liquidation penalty can fluctuate,
+
+195
+00:22:31,600 --> 00:22:40,640
+ while on F of X, it's fixed two on five. On Fluid, I believe it goes from one person to eight percent.
+
+196
+00:22:40,640 --> 00:22:45,840
+ Okay, so maybe just to put this another way, say we compare with Aave, like Aave, each position
+
+197
+00:22:45,840 --> 00:22:51,280
+ is can be liquidated and has to be liquidated individually to protect the underlying collateral.
+
+198
+00:22:51,280 --> 00:22:56,560
+ Here, the underlying collateral is kind of pooled to represent all of the positions.
+
+199
+00:22:56,560 --> 00:23:03,360
+ That collateral is going to secure your position as much as it's going to secure
+
+200
+00:23:03,360 --> 00:23:09,680
+ someone else's. And the different positions may have different collateral ratios,
+
+201
+00:23:09,680 --> 00:23:16,320
+ relative to the overall collateral, which is where you get this kind of socialization mechanism.
+
+202
+00:23:16,320 --> 00:23:20,960
+ So someone else's collateral is kind of like backing your position, right?
+
+203
+00:23:20,960 --> 00:23:28,000
+ Not exactly. Your position is actually like your position collateral ratio is
+
+204
+00:23:28,000 --> 00:23:38,080
+ monitored. So there's no, you're not actually, each long position has its own collateral,
+
+205
+00:23:38,080 --> 00:23:46,080
+ but it's all pooled together and all the leverage positions are monitored together.
+
+206
+00:23:46,080 --> 00:23:54,400
+ So and instead of of liquidating each position individually, you look at what's at risk on each
+
+207
+00:23:54,400 --> 00:24:00,800
+ position, considering the current price, and you liquidate everything altogether. Is that, is that
+
+208
+00:24:00,800 --> 00:24:08,400
+ easier in your way? Yeah, I think, I think that makes more sense. Okay. And what kind of
+
+209
+00:24:08,400 --> 00:24:13,040
+ complications this is in this, this, because there's always trade-offs, right? So like, what's the,
+
+210
+00:24:13,040 --> 00:24:19,600
+ so trade-off of this approach? Regarding other lending, lending,
+
+211
+00:24:19,600 --> 00:24:28,400
+ liquidation design, or, or even CTP, I think it's just, it's just better, because it enables
+
+212
+00:24:28,400 --> 00:24:34,080
+ higher LTV. This is how we, we managed to deliver up to seven X wide on RV, for instance,
+
+213
+00:24:34,080 --> 00:24:42,880
+ you would get like five X stops on, on E for BTC. It gives us like, by liquidating way more
+
+214
+00:24:42,880 --> 00:24:48,400
+ progressively, it's, it's, it's, it's kind of, it's more secure in a way.
+
+215
+00:24:48,400 --> 00:24:56,720
+ Right. But is it, are there like unintended trade-offs like, for example, like the, the, you know,
+
+216
+00:24:56,720 --> 00:25:03,680
+ the, the fees you can charge a lower, or like, you know, liquidations, liquid, like, liquidators
+
+217
+00:25:03,680 --> 00:25:09,360
+ are less efficient. Like, there must be some, some trade-off, right? On the liquidation side,
+
+218
+00:25:09,360 --> 00:25:15,680
+ no, I don't think, I don't, I don't think, I can't think of any trade-off here. It's actually a
+
+219
+00:25:15,680 --> 00:25:24,000
+ more efficient way of, of doing things. Now, I don't think of any trade-off on that, on that side.
+
+220
+00:25:24,000 --> 00:25:28,160
+ Actually, the, the cost of liquid, of the liquidations is like the liquidation penalty,
+
+221
+00:25:28,160 --> 00:25:35,520
+ which is a keeper bounty. It's actually the same. It's way lower than on, on other money markets,
+
+222
+00:25:35,520 --> 00:25:40,640
+ for instance. If you compare with Aave, when you get liquidated in Aave, I believe it's,
+
+223
+00:25:40,640 --> 00:25:46,720
+ it's at least five percent penalty, or maybe ten. And, and the, the liquidation of the TV on,
+
+224
+00:25:46,720 --> 00:25:54,960
+ on E, or, or Steve, is something like 80%, why did it, it's 88, on F of X. And, and when you get
+
+225
+00:25:54,960 --> 00:26:02,240
+ liquidated, you can get up to 50 percent of your position instantly with repaid. That's a hit, you
+
+226
+00:26:02,240 --> 00:26:09,840
+ know, on F of X, it can be as small as just 0.1 percent of your position, like that. If the price
+
+227
+00:26:09,840 --> 00:26:17,680
+ just touches it and goes up again, you don't, don't get wiped more, the penalty is 0.5 percent.
+
+228
+00:26:17,680 --> 00:26:27,440
+ Our money market, it's, it's way more secure and efficient, and it brings like a relief in terms of
+
+229
+00:26:27,440 --> 00:26:37,760
+ how you see liquidations. To compare with a, a regular centralized perp, it's still, since it's
+
+230
+00:26:37,760 --> 00:26:42,640
+ on-chain, it's the, the liquidation of the TV, even if it's a partial progressive
+
+231
+00:26:42,640 --> 00:26:48,800
+ liquidation, is still lower than on, on their centralized perp, because liquidations are
+
+232
+00:26:48,800 --> 00:26:55,680
+ processed with a 90, 90.5 percent of the TV on, on Binance, for instance. But it's a, it's just a
+
+233
+00:26:55,680 --> 00:27:03,280
+ different approach, you know, it's, and so with this approach, you have near capital, 100% capital
+
+234
+00:27:03,280 --> 00:27:10,720
+ efficiency, like, border lending is really 100%. Now it's, it's still over collateralized, but it,
+
+235
+00:27:10,720 --> 00:27:18,560
+ it's since, since it's more efficient, we, it's, we can have a lower collateral, overall collateral
+
+236
+00:27:18,560 --> 00:27:25,920
+ ratio than on other CDPs. So it's more capitalization than, than previous CDPs. It's still, obviously,
+
+237
+00:27:25,920 --> 00:27:31,120
+ less scalable than a centralized table coin, obviously, because it's over collateralized, but
+
+238
+00:27:31,920 --> 00:27:36,880
+ still, it brings a better compromise than anything before.
+
+239
+00:27:36,880 --> 00:27:44,160
+ Okay. I'm looking at the website, it says that four billion dollar, well, almost five billion
+
+240
+00:27:44,160 --> 00:27:48,800
+ dollars have been liquidated last month on other perp solutions and FX has zero liquidations.
+
+241
+00:27:48,800 --> 00:27:58,320
+ Yeah, because, like the hot liquidations only happened once, it was in the first days of the,
+
+242
+00:27:58,320 --> 00:28:06,240
+ the current iteration of the protocol, when there wasn't enough keepers processing the, the, the,
+
+243
+00:28:06,240 --> 00:28:13,920
+ the liquidation break. So that's the, some position reaches, reached, reached 95% LTV and got
+
+244
+00:28:13,920 --> 00:28:20,080
+ liquidated. But since that events, it wasn't on February 2nd or something like that, there was a
+
+245
+00:28:20,080 --> 00:28:27,120
+ massive liquidation event on the market. And since that dates, there was no hot liquidations
+
+246
+00:28:27,120 --> 00:28:35,360
+ on FX. Some got proportionally reduced in a way, but there was no hot liquidations.
+
+247
+00:28:35,360 --> 00:28:43,680
+ And the main, the main, the main point of, of this design is that the leverage users keep as much
+
+248
+00:28:43,680 --> 00:28:50,240
+ exposure as possible to recover with the market, if the market ever recovers. If they made a bad
+
+249
+00:28:50,240 --> 00:28:54,400
+ trade, it won't, it won't save them. You know, if the market just crashes and goes to zero, they
+
+250
+00:28:54,400 --> 00:29:00,160
+ would go to zero, you know, but way more progressively than on any other on-chain leverage solution.
+
+251
+00:29:00,160 --> 00:29:07,600
+ And another thing you mentioned is that there's no funding rate for the leverage trades. You just
+
+252
+00:29:07,600 --> 00:29:12,160
+ have this one-time fee. Yeah, that's great. What's unique, what's unique about this approach?
+
+253
+00:29:12,160 --> 00:29:18,240
+ What is it an able? It's been, it has been done before by liquidy, for instance,
+
+254
+00:29:18,240 --> 00:29:26,000
+ with the LUSD. It was similar in a way. People would just pay a one-time opening fee. But the
+
+255
+00:29:26,000 --> 00:29:34,720
+ main difference here is that LUSD couldn't scale because they had massive tag issues.
+
+256
+00:29:34,720 --> 00:29:42,960
+ Like the, the LUSD tag is not reliable enough to actually hold the LUSD because you end up buying
+
+257
+00:29:42,960 --> 00:29:51,600
+ it at 1.05 and setting it at 0.99. So it's not reliable enough. And we fixed this by still having this
+
+258
+00:29:51,600 --> 00:30:00,640
+ just fixed one-time opening fee and closing fee. But we only add a small funding
+
+259
+00:30:00,640 --> 00:30:06,960
+ if the stable current is ever de-pegged. And that funding is just like most of the fees generated
+
+260
+00:30:06,960 --> 00:30:13,200
+ by the protocol are distributed to a stability pool that acts as a peck keeper, to attract more
+
+261
+00:30:13,200 --> 00:30:21,920
+ USDC, earning that, that's organic gains and helping with supporting FX/USD spec.
+
+262
+00:30:21,920 --> 00:30:28,080
+ So we have this organic peck keeping mechanism that, that just work and that
+
+263
+00:30:28,080 --> 00:30:34,320
+ lets FX/USD scale pretty well since we launched earlier this year.
+
+264
+00:30:35,680 --> 00:30:41,040
+ Yeah, let's, let's talk about the, that stability mechanism, the stability pool. And there's,
+
+265
+00:30:41,040 --> 00:30:46,560
+ there's also, I think, like, I guess FX save is also related here.
+
+266
+00:30:46,560 --> 00:30:52,480
+ Yeah, correct. Yeah. So, so, like, what's really impressive here, I think is the yields,
+
+267
+00:30:52,480 --> 00:30:59,120
+ which range between like 10 and 20%. Now, you know, those, those approach
+
+268
+00:30:59,120 --> 00:31:06,560
+ Terra level, anchor level yields, but yeah, why, why, why is this sustainable? How, how is this
+
+269
+00:31:06,560 --> 00:31:11,840
+ sustainable? Yeah, it's, it's a good question. Indeed, FX save, which is the main yield strategy
+
+270
+00:31:11,840 --> 00:31:18,960
+ on the FFX protocol has since we launched it has been one of the best yield, stable yield in DeFi.
+
+271
+00:31:18,960 --> 00:31:24,960
+ If you look at the dashboard created by inverse finance called stable yields.info,
+
+272
+00:31:24,960 --> 00:31:30,160
+ you can compare all the main yield bearing stable strategies around such as FX save,
+
+273
+00:31:30,160 --> 00:31:38,000
+ obviously, Estola, stake USR, SCRV, USD, SUSD and stuff like that and most of them.
+
+274
+00:31:38,000 --> 00:31:42,640
+ And if you look at this on different timeframes, you see that FX save has been
+
+275
+00:31:42,640 --> 00:31:50,480
+ both all the time and like the next one is like four points below FX save. And, and that's,
+
+276
+00:31:51,600 --> 00:31:57,920
+ that's a huge success for us. We're very, very proud of this. And most, and the main thing is
+
+277
+00:31:57,920 --> 00:32:05,040
+ that most of this yield is 100% organic and doesn't imply any human active management.
+
+278
+00:32:05,040 --> 00:32:11,840
+ It's 100% small contracts on chain. There's, yeah, nothing to trust as than the code, you know.
+
+279
+00:32:11,840 --> 00:32:19,760
+ And so to understand what, how it works, maybe I can break down the different,
+
+280
+00:32:19,760 --> 00:32:23,760
+ the, the, the peg keeping of FX, USD. So if you understand that
+
+281
+00:32:23,760 --> 00:32:31,200
+ FX protocol is an evolved CDP, whenever people are longing the collateral, it involves selling
+
+282
+00:32:31,200 --> 00:32:35,920
+ the stable coin, right? Because in the backend, the stable coin is sold for more collateral.
+
+283
+00:32:35,920 --> 00:32:40,320
+ So it brings selling pressure. And this is, this is why, for instance,
+
+284
+00:32:40,320 --> 00:32:48,080
+ LUSD ended up under peg or, or, or the, the people getting leverage on liquidity ended up being
+
+285
+00:32:48,080 --> 00:32:55,600
+ redeemed, because LUSD was massively sold. And we sold it with different peg keeping mechanisms.
+
+286
+00:32:55,600 --> 00:33:02,080
+ The first one is that stability pool. On FFX, the stability pool is a YIT strategy that takes
+
+287
+00:33:02,080 --> 00:33:10,320
+ both FX USD, the decentralized stable coin, and USDC as pays assets. And it acts as a peg keeping
+
+288
+00:33:10,320 --> 00:33:17,680
+ mechanism. Each time FX USD is traded below one on, on the main liquidity pool, which is on curve
+
+289
+00:33:17,680 --> 00:33:24,400
+ against USDC. Each time FX USD is traded below one, the USDC from the year strategy will buy
+
+290
+00:33:24,400 --> 00:33:29,600
+ FX USD in the market to put it closer to peg. And each time it's traded above one, it's sold back
+
+291
+00:33:29,600 --> 00:33:37,920
+ for USDC and goes back to the stability pool. So that strategy keeps FX USD's peg. And to
+
+292
+00:33:37,920 --> 00:33:44,800
+ attract capital, the incentives comes from all the org, the, the fees generated by the protocol.
+
+293
+00:33:44,800 --> 00:33:51,440
+ At the moment, the protocol generates close to $1 million a month. And most of it is distributed
+
+294
+00:33:51,440 --> 00:33:58,640
+ to the stability pool or the governance token lockers. Okay. So just, just to stop there for a second.
+
+295
+00:33:58,640 --> 00:34:06,640
+ So, so the protocol does rely on, on USDC, at least in the stability mechanism to find its price.
+
+296
+00:34:07,840 --> 00:34:17,040
+ Yeah, it's not backed by USDC at any point. But like USDC is the, like, if you wanna, if you wanna
+
+297
+00:34:17,040 --> 00:34:24,320
+ any assets on chain to be pegged to USD, it's, it's pegged to USDC or USDT. And actually on chain,
+
+298
+00:34:24,320 --> 00:34:29,920
+ USDC is the most liquid. So this is why USDC currently is the most liquid,
+
+299
+00:34:29,920 --> 00:34:37,920
+ DeFi stablecoin around. So if you want, is it safe to say that, like, this mechanism, it wouldn't be
+
+300
+00:34:37,920 --> 00:34:44,080
+ possible without an on-chain stablecoin that has a really high peg stability?
+
+301
+00:34:44,080 --> 00:34:53,360
+ The other option would be companies that could handle their redemption with real dollars, for
+
+302
+00:34:53,360 --> 00:35:01,200
+ instance. But yeah, since we don't wanna rely on, I guess the biggest company that does this
+
+303
+00:35:01,200 --> 00:35:07,600
+ currently is, is Circle and, and, and Tether. But the most liquid on-chain is, is Circle with USDC.
+
+304
+00:35:07,600 --> 00:35:09,440
+ Right. Okay.
+
+305
+00:35:09,440 --> 00:35:14,240
+ That's, currently the obvious choice. At some point, if we scale a FX USD enough,
+
+306
+00:35:14,240 --> 00:35:19,840
+ we may not need it anymore. And people will build liquidity with FX USD because they want
+
+307
+00:35:19,840 --> 00:35:24,480
+ to be paired with FX USD. But when you build the stablecoin, if you want it to be liquid and at
+
+308
+00:35:24,480 --> 00:35:29,920
+ peg, you need to build liquidity with currently the, the most obvious choice is USDC.
+
+309
+00:35:29,920 --> 00:35:39,200
+ Right. And, and so if there was a USDC deep peg, you know, highly unlikely, but like it happened
+
+310
+00:35:39,200 --> 00:35:43,280
+ before, right? What happened before? And they actually triggered the creation of F of X.
+
+311
+00:35:44,960 --> 00:35:52,480
+ If the stability pool cannot accept USDC, like the USDC peg is monitored. And when,
+
+312
+00:35:52,480 --> 00:35:59,120
+ if the other deep pegs, the stability pool won't accept more, any more USDC. So it's exposed,
+
+313
+00:35:59,120 --> 00:36:05,200
+ but protected from USDC deep peg. So you get exposure to both assets, FX USD and USDC,
+
+314
+00:36:05,200 --> 00:36:11,200
+ but it's protected from any USDC deep peg. So the main risk here in that strategy,
+
+315
+00:36:11,760 --> 00:36:19,280
+ for any LP is the FX USD peg. And this is why there's different layers of peg keeping. The first one
+
+316
+00:36:19,280 --> 00:36:26,960
+ is the stability pool itself. And, and, and so the, the yield comes from the protocol economic
+
+317
+00:36:26,960 --> 00:36:33,520
+ activities. So people taking leverage, they pay this one time, she told you about, they can have in
+
+318
+00:36:34,880 --> 00:36:41,680
+ some situation a funding and I'll go through this in a, in a second. And, and most of the leverage
+
+319
+00:36:41,680 --> 00:36:48,560
+ positions are backed by yield generating assets such as wrap state if, and that yield also goes to
+
+320
+00:36:48,560 --> 00:36:56,320
+ the stability pool. So if, but if it's not enough, so actually whenever FX USD is traded
+
+321
+00:36:57,440 --> 00:37:06,000
+ below one is actually below 0.998, the stability pool buys FX USD to the market. But if there's not
+
+322
+00:37:06,000 --> 00:37:14,480
+ enough USDC into the stability pool, so whenever the ratio of USDC goes below 5%, we may not have
+
+323
+00:37:14,480 --> 00:37:20,640
+ enough USDC to support the peg. So in that very situation, all the leverage positions get a small
+
+324
+00:37:20,640 --> 00:37:27,680
+ funding cost applied to their position. It's temporary and it's, it's here to support the peg. And that
+
+325
+00:37:27,680 --> 00:37:34,640
+ funding cost is the RV boring cost of USDC. And that goes to the stability pool to attract more USDC
+
+326
+00:37:34,640 --> 00:37:41,840
+ deposits that will support the peg and, and then cut the funding because as soon as the distribution
+
+327
+00:37:41,840 --> 00:37:49,840
+ of USDC goes above 5% again, then the funding is off. But if it's not enough, there's, you know,
+
+328
+00:37:49,840 --> 00:37:54,320
+ different layers, you always have to, you know, anticipate what could go wrong. If it's not enough,
+
+329
+00:37:54,320 --> 00:38:01,440
+ and FX USD starts to debug for too long. It means when the EMA 42 minutes of FX USD on curve
+
+330
+00:38:01,440 --> 00:38:08,160
+ goes below 0.998, so it's pretty small debug, but long enough to be
+
+331
+00:38:08,160 --> 00:38:16,000
+ modicable, we trigger what I call the debug mode. And in, in that situation, people can no longer
+
+332
+00:38:16,000 --> 00:38:21,120
+ open any long positions. So it prevents any further selling pressure on FX USD.
+
+333
+00:38:21,120 --> 00:38:28,560
+ And at that point, a second layer of funding is applied to their leverage positions,
+
+334
+00:38:28,560 --> 00:38:37,600
+ which is way higher. It's 5 or 10 times the USDC boring costs. I don't believe it happened yet,
+
+335
+00:38:39,440 --> 00:38:46,080
+ because the previous layer of the keeping were always been enough. But in that situation,
+
+336
+00:38:46,080 --> 00:38:53,280
+ it brings a very high incentive for leveragers to, for either leveragers to repay to close their
+
+337
+00:38:53,280 --> 00:38:59,440
+ loans, because they can buy FX USD cheaper and close with a bigger profit, and they can avoid
+
+338
+00:38:59,440 --> 00:39:06,640
+ these high fundings. If they keep their loans open, then it brings a very like massive yield
+
+339
+00:39:06,640 --> 00:39:10,480
+ to the stability pool, just attracting USDC that will
+
+340
+00:39:10,480 --> 00:39:19,440
+ cut, repack FX USD quickly and cut the fundings. And there is one last layer of
+
+341
+00:39:19,440 --> 00:39:26,320
+ peg keeping mechanism, which is the redemption. When FX USD is in, in the peg mode, people can,
+
+342
+00:39:26,320 --> 00:39:32,720
+ can buy it and redeem it against the collateral minus a 0.5% redeeming fee. So that sets the
+
+343
+00:39:33,280 --> 00:39:36,960
+ worst-case scenario of peg at 0.995, basically.
+
+344
+00:39:36,960 --> 00:39:42,640
+ One question here, like, you know, I'm looking at the stable yields dashboard, which is great, by the way.
+
+345
+00:39:42,640 --> 00:39:54,720
+ And, you know, the yield, the 30 average is almost six points above the second position,
+
+346
+00:39:55,360 --> 00:40:04,240
+ but only has, well, has less than half the, the TBL. And if you look at Athena, Athena has
+
+347
+00:40:04,240 --> 00:40:11,200
+ 5.7 billion in TBL with also about the same 30 average. There's about 100 million in TBL as
+
+348
+00:40:11,200 --> 00:40:19,360
+ we're recording this on September 3rd. You know, with yields, with yields so attractive and a mechanism
+
+349
+00:40:19,360 --> 00:40:29,040
+ that appears to be sustainable and sort of safe. Why, in your view, why isn't there more TBL on FX?
+
+350
+00:40:29,040 --> 00:40:37,200
+ There's probably different reasons for that. First thing is that we are doing things
+
+351
+00:40:37,200 --> 00:40:44,400
+ 100% organically. There is no VC backing. So there's, so we don't get it. We had to make all
+
+352
+00:40:44,400 --> 00:40:50,880
+ our connections ourselves, you know, just by reaching out to people and meeting people into
+
+353
+00:40:50,880 --> 00:40:58,480
+ events and stuff like that. And the overall protocol TBL is over 400 million now, and it's been built
+
+354
+00:40:58,480 --> 00:41:05,120
+ 100% organically. So it takes, and I guess it takes time to build, as you said it previously,
+
+355
+00:41:05,120 --> 00:41:10,960
+ it takes time to build trust towards a decentralized stablecoin. So for people to actually understand
+
+356
+00:41:10,960 --> 00:41:18,560
+ that the team won't regret pull, that it's actually secure and there's the liquidation mechanism
+
+357
+00:41:18,560 --> 00:41:24,960
+ works and the pecking mechanism works and so on. And that the yield will also be
+
+358
+00:41:24,960 --> 00:41:31,680
+ sustainable. The stablecoin will be liquid enough so that people can come and exit in size and
+
+359
+00:41:31,680 --> 00:41:40,480
+ stuff like that. It takes time to build that. And we've done that and we keep doing it and reaching
+
+360
+00:41:40,480 --> 00:41:47,120
+ out to getting in touch with more and more people. But I guess it takes longer when you're doing
+
+361
+00:41:47,120 --> 00:41:57,200
+ this just organically and without any massively backed token, a TGE event to come and stuff like
+
+362
+00:41:57,200 --> 00:42:02,880
+ that, you know, because the token has been liquid from scratch with fixed emissions over the next
+
+363
+00:42:02,880 --> 00:42:12,640
+ 50 years. And yeah, there's, it's probably less speculative in a way than other VC-backed projects.
+
+364
+00:42:12,640 --> 00:42:21,040
+ And then obviously ifina is not exactly a DeFi product, it's highly centralized and realized on
+
+365
+00:42:21,040 --> 00:42:30,640
+ uncentralized fundings, which makes it obviously more scalable. And if we were having five billion
+
+366
+00:42:30,640 --> 00:42:38,240
+ right now, the yield wouldn't be that high. But what we observed over the past few months and
+
+367
+00:42:38,240 --> 00:42:45,440
+ scaling the protocol to over 400 million is that it actually scales by growing progressively.
+
+368
+00:42:45,440 --> 00:42:50,480
+ The more trivial there is into the stability, the more leverage activity we observe on the
+
+369
+00:42:50,480 --> 00:43:00,160
+ leverage side and the more fees we collect. And when you look at the collected fees over each month,
+
+370
+00:43:00,160 --> 00:43:07,920
+ it's pretty clear that there's a pattern of of, of, of stabilizing these fees and having them
+
+371
+00:43:07,920 --> 00:43:15,520
+ weigh more steady over time and growing steady. I don't know if I exactly answered your questions,
+
+372
+00:43:15,520 --> 00:43:23,680
+ I went to all different topics, but I guess doing things, you can do not VCs and 100% on-chain.
+
+373
+00:43:24,800 --> 00:43:32,480
+ It's, it's the primary harder to, to, to, to scale a protocol that way. But in my opinion,
+
+374
+00:43:32,480 --> 00:43:38,960
+ and our mission with F of X and added in that was to build stuff that will last for decades,
+
+375
+00:43:38,960 --> 00:43:43,920
+ if not centuries. And so yeah, we're in here for the long term.
+
+376
+00:43:43,920 --> 00:43:54,240
+ Do you think that like with, you know, the track record now that you've built, you know,
+
+377
+00:43:54,240 --> 00:44:03,760
+ this TVL and, and a, you know, a, a, a pack that has held and kind of demonstrated that this works,
+
+378
+00:44:03,760 --> 00:44:09,520
+ do you think that it would be useful to now go and like raise money to accelerate growth,
+
+379
+00:44:09,520 --> 00:44:16,880
+ to accelerate, you know, fundraising into the protocol, marketing, etc. Is that something you
+
+380
+00:44:16,880 --> 00:44:24,720
+ consider? We don't consider raising money from VCs because it's, but people are free to buy the
+
+381
+00:44:24,720 --> 00:44:31,920
+ token on, on the market. And it's, if people do it actually helps because there's other strategies,
+
+382
+00:44:31,920 --> 00:44:39,200
+ which are incentivized with the, the token. But we're, but it, it definitely helps on one side is
+
+383
+00:44:39,200 --> 00:44:47,440
+ that when we talk to new funds and stuff like that, and it's way easier now that the, the stable
+
+384
+00:44:47,440 --> 00:44:54,800
+ coin is more liquid and, and the protocol is bigger than in the beginning. So it helps to, to raise,
+
+385
+00:44:54,800 --> 00:45:01,600
+ in a way, stable TVL for the stability pool, because the more TV and there is in the stability pool,
+
+386
+00:45:01,600 --> 00:45:08,080
+ the more volume we can process on the leverage side because it keeps, and so yeah, it helps on,
+
+387
+00:45:08,080 --> 00:45:13,360
+ and we, and we've definitely seen the difference. For instance, we were discussing it with Paul,
+
+388
+00:45:13,360 --> 00:45:19,520
+ another team member that went to ETH CC with me this year, as well as last year,
+
+389
+00:45:19,520 --> 00:45:25,680
+ and we've seen a major difference between the two editions in how people were interacting with us.
+
+390
+00:45:25,680 --> 00:45:31,120
+ Like when we were talking to people and other builders last year, it, we felt like they were,
+
+391
+00:45:32,160 --> 00:45:37,760
+ oh, that's interesting. Let's see how it goes, you know, and now it was mostly, wow, guys,
+
+392
+00:45:37,760 --> 00:45:44,480
+ congrats on the, congrats on the growth. And it definitely, it's way easier to, to build
+
+393
+00:45:44,480 --> 00:45:49,280
+ partnerships when people already heard about the protocol and, and start trusting it.
+
+394
+00:45:49,280 --> 00:45:55,920
+ So I wanted to switch gears a little bit. You, you guys published an article a couple of days ago
+
+395
+00:45:55,920 --> 00:46:00,320
+ on your Twitter, it's your theorem security model and strategic importance of decentralized
+
+396
+00:46:00,320 --> 00:46:07,680
+ stable coins. Yeah, give me a gist of like what you're arguing for in this article and,
+
+397
+00:46:07,680 --> 00:46:11,840
+ you know, how, how you're thinking about, you know, theorem security long term.
+
+398
+00:46:11,840 --> 00:46:20,560
+ Yeah, so yeah, the idea of the article, this was, it was to, to point out that the value secured
+
+399
+00:46:20,560 --> 00:46:26,720
+ bar, if you're in, in, in centralized asset mostly, which is, which are real-world assets
+
+400
+00:46:26,720 --> 00:46:34,000
+ and use dt and use dt and stuff like that, is going so high that at some point, these guys and,
+
+401
+00:46:34,000 --> 00:46:42,080
+ and today, instead of tomorrow, it could be another entity has a major weight into any,
+
+402
+00:46:42,080 --> 00:46:47,680
+ into the, the, the, the protocol security. For instance, if there is any,
+
+403
+00:46:48,960 --> 00:46:56,880
+ half fork tomorrow for a new update, for instance, and that, that major centralized entity doesn't
+
+404
+00:46:56,880 --> 00:47:04,320
+ want to support it. What's going to happen, you know, and by supporting all these centralized
+
+405
+00:47:04,320 --> 00:47:10,720
+ entities, we make that possible. We make, it's made, it may not, it may not be a technical issue,
+
+406
+00:47:10,720 --> 00:47:16,800
+ because obviously it's, it's very hard to compromise proof of stake. But it could be a
+
+407
+00:47:16,800 --> 00:47:23,360
+ political issue, at some point, and, and, and economic issue. And, and the idea is not to say,
+
+408
+00:47:23,360 --> 00:47:28,160
+ as I told you earlier, that we should replace centralized stablecoins with decentralized,
+
+409
+00:47:28,160 --> 00:47:34,160
+ but the idea is, is that we want to make sure that there's always an, an alternative that you
+
+410
+00:47:34,160 --> 00:47:41,760
+ can use in most cases, and just use centralized solutions when it's absolutely needed. And I like
+
+411
+00:47:41,760 --> 00:47:48,800
+ to compare some decentralization with privacy, for instance. It's not, it's not white or black,
+
+412
+00:47:48,800 --> 00:47:55,440
+ you know, it's not, it's not binary. You don't, you cannot be totally private and anonymous on
+
+413
+00:47:55,440 --> 00:48:01,360
+ internet. It's, it's a, it's a scope, you know, and I know people decentralize this decentralization,
+
+414
+00:48:01,360 --> 00:48:06,960
+ this scope is some kind of a meme, but it's actually true. You do your best, you just do your best,
+
+415
+00:48:06,960 --> 00:48:14,400
+ and if you can, you can use private product in most cases, like let's say, in for search
+
+416
+00:48:14,400 --> 00:48:20,240
+ engines, you can use DuckDuckGo most of the time, and if you don't find the answer,
+
+417
+00:48:20,240 --> 00:48:24,800
+ then you'll go on Google, and it's actually better than using Google all the time and giving them
+
+418
+00:48:24,800 --> 00:48:29,600
+ all your private data. And it's, I think it's pretty much the same thing. If, if you can
+
+419
+00:48:29,600 --> 00:48:34,160
+ achieve what you want to achieve with your stables using a decentralized one,
+
+420
+00:48:35,440 --> 00:48:40,320
+ there is no point in using a centralized one. So if you can get better yields while staying
+
+421
+00:48:40,320 --> 00:48:48,560
+ decentralized, you should just do it. And whenever you want to off-ramp because today on, on off-ramp
+
+422
+00:48:48,560 --> 00:48:53,760
+ goes through centralized solutions, then you can go with the centralized solution for that very
+
+423
+00:48:53,760 --> 00:48:59,760
+ moment. But in, yeah, that's, I guess that's the main idea of what we wanted, the, the message we
+
+424
+00:48:59,760 --> 00:49:06,080
+ wanted to pass with that article. I mean, I think, I think it makes sense to
+
+425
+00:49:06,080 --> 00:49:11,600
+ kind of promote the use of decentralized stablecoins, but like, yeah, as we were saying earlier in
+
+426
+00:49:11,600 --> 00:49:17,680
+ the conversation, it's like, you know, at this point, USDC and Tether are so ingrained. It's like,
+
+427
+00:49:17,680 --> 00:49:23,680
+ it, it almost feels like a little bit of like Ethereum's Achilles heel that, you know, we've built,
+
+428
+00:49:23,680 --> 00:49:29,120
+ like the ecosystem has built all this amazing decentralized infrastructure only to recreate,
+
+429
+00:49:30,720 --> 00:49:37,840
+ kind of similar systems that exist in tradfi. And yeah, that the, it's not, it's not clear like
+
+430
+00:49:37,840 --> 00:49:42,800
+ what, what the solution is there to kind of mitigate for this as a, as a space.
+
+431
+00:49:42,800 --> 00:49:50,720
+ Yeah, I think it's shame, especially when there are actual, actual reliable alternatives. It's always
+
+432
+00:49:50,720 --> 00:49:58,640
+ a compromise between decentralization and, and convenience, you know, if it's convenient, if it's
+
+433
+00:49:58,640 --> 00:50:03,600
+ not convenient, you won't do it. It's just like ecology as well is, is, is very similar.
+
+434
+00:50:03,600 --> 00:50:08,640
+ People won't recycle if it's a pain to recycle. If they can just do it very easily, they will do it.
+
+435
+00:50:08,640 --> 00:50:20,160
+ And, and, and, and, and now that I believe we, we brought a design that is a convenient, reliable,
+
+436
+00:50:21,280 --> 00:50:28,560
+ secure, and, and, and with act, attractive yields, then why are you using anything else, you know?
+
+437
+00:50:28,560 --> 00:50:36,880
+ Now, one, one other thing I wanted to talk about is kind of where FX sits within the broader
+
+438
+00:50:36,880 --> 00:50:47,440
+ Perps landscape. So, you know, you guys are competing with gearbox and GMX and hyperliquid
+
+439
+00:50:47,440 --> 00:50:54,160
+ and D Y DX. And it's a, it's a market that's very dynamic and that's changing all the time.
+
+440
+00:50:54,160 --> 00:51:02,240
+ It's like two years ago, D Y DX was, you know, sort of leading that market, had a lot of traction.
+
+441
+00:51:02,240 --> 00:51:06,320
+ And now that's sort of lost prominence. Now everyone's kind of focused on hyperliquid.
+
+442
+00:51:06,320 --> 00:51:15,680
+ And I think it is, there is a big part of that that is driven by incentives that's also like
+
+443
+00:51:15,680 --> 00:51:22,160
+ driven by capital and, you know, like hyperliquid has a lot of money. How do you guys succeed in
+
+444
+00:51:22,160 --> 00:51:27,280
+ that space and, you know, maintain relevance long term when we know that like really well
+
+445
+00:51:27,280 --> 00:51:32,080
+ capitalized projects like D Y DX, you know, have lost prominence in, in such a, in such a
+
+446
+00:51:32,080 --> 00:51:35,920
+ short period. And who knows me? Like maybe hyperliquid in two years when I was like totally irrelevant
+
+447
+00:51:35,920 --> 00:51:40,880
+ and something new came along and it was much more interesting. Yeah, maybe even unknown.
+
+448
+00:51:40,880 --> 00:51:50,800
+ Yeah, I think we mostly do our own path in that market in that very competitive market as you stated.
+
+449
+00:51:50,800 --> 00:51:56,240
+ But we have our own blue ocean. I don't know if you heard about that book, but it's like we
+
+450
+00:51:56,240 --> 00:52:01,040
+ have our niche market in a way because we're not exactly a perp. We're not exactly a CDP.
+
+451
+00:52:01,040 --> 00:52:06,720
+ We're kind of in between delivering zero stress leverage. And for many people getting a leverage
+
+452
+00:52:06,720 --> 00:52:11,600
+ position just is a headache, you know, they don't sleep well and they are very nervous and they get
+
+453
+00:52:11,600 --> 00:52:17,520
+ liquidated. We've seen that James when guy getting liquidated all the time. I mean, if that guy
+
+454
+00:52:17,520 --> 00:52:25,760
+ had been longing or trading on f of X, he would still be rich, you know, and, and we, we bring a
+
+455
+00:52:25,760 --> 00:52:29,840
+ solution to these guys basically. I don't know, I don't know who that is, but I feel his pain.
+
+456
+00:52:31,040 --> 00:52:38,560
+ Yeah, it's a guy on on X that shares his trades and people just observe. And there was another one
+
+457
+00:52:38,560 --> 00:52:43,600
+ fund. I don't remember the name. And these guys just keep getting liquidated in a hyper liquid.
+
+458
+00:52:43,600 --> 00:52:51,680
+ And I've seen there's even a meme saying hyper liquidated. That's a good one because the other
+
+459
+00:52:51,680 --> 00:53:02,560
+ thing is that on all these semi centralized solutions, there is more risk and on the hyper liquid side,
+
+460
+00:53:02,560 --> 00:53:08,560
+ there is a massive trust me pro stuff on the on the Oracle side. And we've seen it recently.
+
+461
+00:53:08,560 --> 00:53:16,000
+ People got liquidity for no reasons on I don't recall what what ticker it cannot happen on f of
+
+462
+00:53:16,000 --> 00:53:21,840
+ X. Everything is hundred person on chain. There's no, there's no, there's no, I mean,
+
+463
+00:53:21,840 --> 00:53:29,680
+ to play devil's advocate here, like, like, you know, there is kind of an oracle and that oracle
+
+464
+00:53:29,680 --> 00:53:35,360
+ is the US is like the treasury bonds that are like backing the USDC,
+
+465
+00:53:38,160 --> 00:53:47,040
+ they're backing the USDC peg, right? Because that that's a mechanism that enables the stability pool
+
+466
+00:53:47,040 --> 00:53:53,680
+ to function. So I think like, sure, there's there's no oracle and there's maybe no centralized oracle,
+
+467
+00:53:53,680 --> 00:54:02,000
+ but there is a reliance on some centralized thing that. Yeah, of course, f of X relies on chain link
+
+468
+00:54:03,520 --> 00:54:11,440
+ as an oracle, just like all DeFi. And obviously, we were talking about Taylor being a
+
+469
+00:54:11,440 --> 00:54:20,720
+ Democles sword for DeFi earlier and and Chaining is another one, obviously. But yeah, as
+
+470
+00:54:20,720 --> 00:54:33,120
+ yeah, there is a reliance on on Chaining on on f of X. And and on USDC spec, yes,
+
+471
+00:54:33,120 --> 00:54:38,480
+ and no, not not exactly because as I told you, like, for instance, the stability pool and FXA,
+
+472
+00:54:38,480 --> 00:54:42,640
+ which is built on top of the stability pool is protected from from any USDC.
+
+473
+00:54:42,640 --> 00:54:49,680
+ Okay, maybe not vulnerable, but like it relies on on the price on that price feed, if you will,
+
+474
+00:54:49,680 --> 00:54:55,760
+ like that, that's kind of the price the equivalent of a price feed. Yeah, but we believe that so far
+
+475
+00:54:55,760 --> 00:55:05,280
+ Chaining is the most secure and reliable oracle provider. And if Chaining fails on the E for PTC
+
+476
+00:55:05,280 --> 00:55:16,160
+ oracle, I guess f of X is going to be the list of your problems. Yeah, yeah. Yeah, it'd be great
+
+477
+00:55:16,160 --> 00:55:21,520
+ to have just like a simulation where that happens just to see like, you know, how we just all get
+
+478
+00:55:21,520 --> 00:55:28,560
+ rugged, like a DeFi dystopian story. Yeah, yeah, just just like build the simulation where, you know,
+
+479
+00:55:28,560 --> 00:55:35,040
+ the chain link oracle price for either BTC just goes off haywire and then what happens?
+
+480
+00:55:35,040 --> 00:55:43,440
+ Well, I don't have because I'm not the technical guy in the team. I don't recall the exact oracle
+
+481
+00:55:43,440 --> 00:55:49,040
+ design. But if I recall correctly, there's different safeguards in the oracle design
+
+482
+00:55:49,920 --> 00:56:00,480
+ on f of X. Looking to the future, like Ethereum aspires to secure hundreds of billions, trillions
+
+483
+00:56:00,480 --> 00:56:08,240
+ in in RWAs, like stable coins are becoming a large part of the kind of crypto narrative.
+
+484
+00:56:08,240 --> 00:56:12,080
+ Institutions are hopping on the stable coin sort of train.
+
+485
+00:56:14,720 --> 00:56:20,560
+ There, I think we all kind of anticipate a proliferation of stable coins with many branded stable coins,
+
+486
+00:56:20,560 --> 00:56:28,240
+ like PayPal is just like one of many, I think that will come. What are the opportunities here?
+
+487
+00:56:28,240 --> 00:56:36,800
+ I think for us as an ecosystem and where does f of X fit in there? Yeah, so again, a very good
+
+488
+00:56:36,800 --> 00:56:43,360
+ question. We actually already see your opportunities. And I think I will also answer in a different
+
+489
+00:56:43,360 --> 00:56:50,880
+ way. One of your previous questions regarding how we can compete and why the TVL is lower than
+
+490
+00:56:50,880 --> 00:56:59,360
+ Athena's, for instance. These products, since they are not hot core defying away, they're CD5 stuff,
+
+491
+00:56:59,360 --> 00:57:04,160
+ they are already institution ready. You know, they can talk to institutions and they can build,
+
+492
+00:57:04,160 --> 00:57:10,720
+ they can sign contracts, actual legal contracts, not spark contracts with these guys. And so that
+
+493
+00:57:10,720 --> 00:57:18,240
+ these institutions can deploy capital. And for instance, usual scale like crazy by onboarding
+
+494
+00:57:18,240 --> 00:57:24,400
+ capital that was had no idea about crypto in the first place. That's crazy. They managed to scale
+
+495
+00:57:24,400 --> 00:57:29,920
+ to 2 billion, if I recall correctly, with people from all around the world that had never done any
+
+496
+00:57:29,920 --> 00:57:38,400
+ transaction. And as a DeFi protocol, this is way harder because these institutions don't want to
+
+497
+00:57:38,400 --> 00:57:48,000
+ hear about this. And hopefully, there's solutions now and there's new protocols filling that gap
+
+498
+00:57:48,000 --> 00:57:58,400
+ between OG DeFi in a way, and institutions. And we're currently working on a product with
+
+499
+00:57:58,400 --> 00:58:06,480
+ different partners such as Lagoon Finance, 9 Summit, Nexus-Mootwald, APC custody solutions to build
+
+500
+00:58:07,520 --> 00:58:14,080
+ tailored product for institutions. So that's institutions could harness the FX save yield
+
+501
+00:58:14,080 --> 00:58:19,440
+ in a very safe way. And you're actually the first person I talk about it publicly.
+
+502
+00:58:19,440 --> 00:58:28,000
+ The idea is to call this FX save, because it would be the FX save without the DeFi risks,
+
+503
+00:58:28,960 --> 00:58:39,120
+ all created and institution ready. So that's a way to embrace the arrival of an institutional money.
+
+504
+00:58:39,120 --> 00:58:43,360
+ And the other way is all these new stablecoins you mentioned. I don't really see them as
+
+505
+00:58:43,360 --> 00:58:52,000
+ competitors, because most of them are very attracted with organic yields, and some of them are already
+
+506
+00:58:52,000 --> 00:58:58,320
+ harnessing them. Many of these new yield-based bearing stablecoins are made of other yield-winning
+
+507
+00:58:58,320 --> 00:59:06,880
+ stablecoins on harnessing on-chain or off-chain yields. And they actually use FX save or stability
+
+508
+00:59:06,880 --> 00:59:16,160
+ pool in the back end. So they contribute to our growth in a way. So it's not just centralized
+
+509
+00:59:16,160 --> 00:59:23,760
+ solution versus decentralized solutions. There is a synergy between the two words, and it's actually
+
+510
+00:59:23,760 --> 00:59:29,200
+ good, because in the first places I could see it in the good guys and the bad guys away,
+
+511
+00:59:29,200 --> 00:59:36,480
+ but actually we can build synergies. And these guys can help us build the
+
+512
+00:59:36,480 --> 00:59:41,360
+ alternative to what they're doing. Well, that's a great note to end on.
+
+513
+00:59:41,360 --> 00:59:47,040
+ Said hey, thanks so much for spending the time on Epicenter day. And yeah, looking forward to seeing
+
+514
+00:59:48,800 --> 00:59:55,680
+ FX go up and to the right. Yeah, thank you very much for having me. If you enjoyed that episode,
+
+515
+00:59:55,680 --> 01:00:03,040
+ feel free to join the Aladdin Dow Discord. It's a very open community. We all started by popping up
+
+516
+01:00:03,040 --> 01:00:09,200
+ on the Discord and asking questions and sharing ideas about the design. So it's always a pleasure
+
+517
+01:00:09,200 --> 01:00:14,800
+ to meet new people and discuss things, discuss DeFi between passionate people.
+
+518
+01:00:16,480 --> 01:00:20,480
+ Great. Thanks again. Cheers. Thank you very much. Bye.
+

@@ -1,0 +1,1764 @@
+1
+00:00:00,720 --> 00:00:05,360
+Today on the podcast, I sat down with Mike Cagney, the founder of Figur. Figur is a company
+
+2
+00:00:05,360 --> 00:00:08,960
+that went public in September and that has several exciting lines of business,
+
+3
+00:00:08,960 --> 00:00:13,520
+including a HELOC origination business and a markets division. They also started the
+
+4
+00:00:13,520 --> 00:00:18,000
+Provenance blockchain, which is the underlying technology for many of its core activities.
+
+5
+00:00:18,000 --> 00:00:22,000
+It was great to chat with Mike, really like talking about the impact of stablecoins in
+
+6
+00:00:22,000 --> 00:00:25,680
+the banking sector and some of the issues that are being debated with respect to the
+
+7
+00:00:25,680 --> 00:00:29,840
+market structure bill and how Figur is thinking about that. I think you'll enjoy this one.
+
+8
+00:00:29,840 --> 00:00:34,080
+So without further ado, here is my conversation with Mike Cagney of Figur.
+
+9
+00:00:34,800 --> 00:00:37,920
+Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these expressed
+
+10
+00:00:37,920 --> 00:00:41,120
+by them or the guests on this podcast are solely their opinions and do not reflect the opinions of
+
+11
+00:00:41,120 --> 00:00:44,160
+Castle Island Ventures. Guests and hosts may maintain positions in the assets discussed
+
+12
+00:00:44,160 --> 00:00:47,840
+in this podcast. You should not treat any opinion expressed by anyone on this podcast as a specific
+
+13
+00:00:47,840 --> 00:00:51,600
+inducement to make a particular investment or follow a particular strategy, but only as an
+
+14
+00:00:51,600 --> 00:00:54,960
+expression of their personal opinion. This podcast is for informational purposes only.
+
+15
+00:00:55,760 --> 00:01:01,040
+Brought down by Bad Mortgage Investments, Lehman, which has 25,000 employees, will be liquidated.
+
+16
+00:01:01,040 --> 00:01:06,240
+The federal government loans American International Group, AIG, 85 billion dollars. This is a
+
+17
+00:01:06,240 --> 00:01:10,640
+different kind of market and the Fed is asleep. The federal government is stepping in to stabilize
+
+18
+00:01:10,640 --> 00:01:15,200
+Fannie Mae and Freddie Mac, the two mortgage giants that have been threatened by the housing crisis.
+
+19
+00:01:15,200 --> 00:01:19,440
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy with a new
+
+20
+00:01:19,440 --> 00:01:23,440
+round of quantitative easing. You print a couple trillion dollars and all of a sudden people start
+
+21
+00:01:23,440 --> 00:01:27,440
+to worry. So out of this worry, we have something called the Bitcoin, Bitcoin.
+
+22
+00:01:28,560 --> 00:01:30,960
+Mike, thanks for joining us on the podcast today.
+
+23
+00:01:30,960 --> 00:01:32,160
+Thanks for having me.
+
+24
+00:01:32,160 --> 00:01:36,640
+I guess congrats are in order. First of all, you went public I think less than a month ago. So was
+
+25
+00:01:36,640 --> 00:01:39,680
+it on September 11th? So congratulations. What's that been like?
+
+26
+00:01:40,400 --> 00:01:45,520
+It's been good. Like, I mean, being public is a step in a long process. We're in this for the
+
+27
+00:01:45,520 --> 00:01:50,000
+long game and we see an enormous amount of value that we're going to be able to create out of the
+
+28
+00:01:50,000 --> 00:01:54,240
+public blockchain and its application of financial services. But it was an important milestone.
+
+29
+00:01:54,960 --> 00:01:59,840
+Great for the team's testament to all the work that's gone in, especially given the last four
+
+30
+00:01:59,840 --> 00:02:04,160
+years of regulatory Edwin that we've had, being able to come out public, not just to make it
+
+31
+00:02:04,160 --> 00:02:08,240
+through the regulatory process, but have the public markets want to have access to blockchain
+
+32
+00:02:08,240 --> 00:02:12,640
+businesses, public blockchain businesses. It's great to see and I think super encouraging for
+
+33
+00:02:12,640 --> 00:02:13,680
+the ecosystem.
+
+34
+00:02:13,680 --> 00:02:18,560
+When we started to shift from a political and regulatory climate, did you see that
+
+35
+00:02:18,560 --> 00:02:22,160
+line of sight towards going public? Was that a catalyst for your business?
+
+36
+00:02:22,960 --> 00:02:27,360
+Yeah. I mean, if you think about last year, 2024, we were trying to go public.
+
+37
+00:02:27,360 --> 00:02:31,360
+We were down profitable last year and the regulators just made it really, really difficult.
+
+38
+00:02:31,920 --> 00:02:37,040
+We were a blockchain business. We did a lot of stuff in crypto. We had a lot of infrastructure
+
+39
+00:02:37,040 --> 00:02:42,000
+around blockchain and crypto. In an effort to try to go public, I split the company in two.
+
+40
+00:02:42,720 --> 00:02:46,080
+And I said, well, look, I'll take the really heavy blockchain stuff and put it over into figure
+
+41
+00:02:46,080 --> 00:02:50,480
+markets. And I brought in my canapop to run figure and my guy worked together for a long time.
+
+42
+00:02:50,480 --> 00:02:53,120
+He was the chief revenue officer at SoFi when I was CEO there.
+
+43
+00:02:53,760 --> 00:02:57,520
+She became apparent that we weren't going to be able to go by splitting the business.
+
+44
+00:02:57,520 --> 00:03:03,680
+So what happened in November when the election occurred, we started thinking, well, this has
+
+45
+00:03:03,680 --> 00:03:09,520
+pretty significant ramifications for the SEC. And that was one of the considerations, but it was also,
+
+46
+00:03:09,520 --> 00:03:11,280
+is there a public market appetite?
+
+47
+00:03:12,240 --> 00:03:16,880
+I went to the bankers and I said, hey, does it make sense to recombine the business?
+
+48
+00:03:16,880 --> 00:03:21,760
+I gave them the story of why we would recombine and the direction that we would take the business.
+
+49
+00:03:21,760 --> 00:03:26,080
+And they said, yeah, that makes absolute sense. The reality was it was going to be hard to take
+
+50
+00:03:26,080 --> 00:03:31,280
+them public separate anyway, because there was so much interdependence. Investors don't like being
+
+51
+00:03:31,280 --> 00:03:36,640
+invested in a public entity when there's a private entity that's critical to the operations. And I
+
+52
+00:03:36,640 --> 00:03:41,120
+understand that. We said, all right, well, let's go ahead and do this recombination. And we started
+
+53
+00:03:41,200 --> 00:03:46,480
+talking about retesting the IPO waters. And it was actually one of my investors that came and said,
+
+54
+00:03:46,480 --> 00:03:51,440
+this is the incredible time we need to do this. And we just got through this massive pain of
+
+55
+00:03:51,440 --> 00:03:56,160
+separating the business. That was brutal, miserable. And I'm like, all right, it's a sunk cost.
+
+56
+00:03:56,160 --> 00:03:59,680
+They can't make the decision based on how miserable that experience was. We had to think
+
+57
+00:03:59,680 --> 00:04:05,120
+about what is best for our shareholders. And it became pretty clear pretty quick that recombining
+
+58
+00:04:05,120 --> 00:04:09,520
+was best. But in the beginning, when we were working through with the bankers, Goldman was
+
+59
+00:04:09,520 --> 00:04:13,600
+left on our S1. And Goldman went through and they're like, I really want to tone down the
+
+60
+00:04:13,600 --> 00:04:19,200
+blockchain stuff. And they really wanted to make it like a fintech 2.0, which SoFi pioneered.
+
+61
+00:04:19,200 --> 00:04:22,960
+And I'm like, but it's not that. And they're like, yeah, but you need to talk about your loan
+
+62
+00:04:22,960 --> 00:04:27,200
+origination system. And I'm like, but we give the loan origination system away for free.
+
+63
+00:04:27,200 --> 00:04:30,880
+We want to talk about the blockchain and the fact that we built a total market on blockchain.
+
+64
+00:04:30,880 --> 00:04:34,480
+And we're the only ones who have done that. And it creates liquidity and all this hugely
+
+65
+00:04:34,480 --> 00:04:39,440
+differentiated stuff. And I literally just fought with the bankers for like the first couple of
+
+66
+00:04:39,440 --> 00:04:44,880
+months. And they're like, don't use the word DeFi. And I'm like, what do you mean? I'm a very
+
+67
+00:04:45,600 --> 00:04:50,960
+true decentralized blockchain person. There's lots of entities like Coinbase other than base,
+
+68
+00:04:50,960 --> 00:04:55,600
+which is moderately decentralized. But it's a centralized brokerage exchange. And I'm a
+
+69
+00:04:55,600 --> 00:05:00,720
+decentralized person. And I don't take custody of anything. And I believe in the true premise of
+
+70
+00:05:00,720 --> 00:05:05,680
+decentralization and the value that brings through blockchain. I see three value props
+
+71
+00:05:05,680 --> 00:05:09,440
+of blockchain. There's transactional efficiency, there's liquidity, and there's DeFi from a
+
+72
+00:05:09,440 --> 00:05:14,480
+financing standpoint. To me, DeFi is the most powerful thing. When you connect sources and
+
+73
+00:05:14,480 --> 00:05:20,960
+uses of capital, you unlock huge opportunities of rent disintermediation. The whole premise is
+
+74
+00:05:20,960 --> 00:05:26,400
+we're trying to get the DeFi. DeFi is the promised land here. When we no longer have warehouses with
+
+75
+00:05:26,400 --> 00:05:31,280
+new Goldman Sachs, it's all on it. And they're like, yeah, you know, that scares people. Don't
+
+76
+00:05:31,280 --> 00:05:36,240
+talk about that, blah, blah, blah. I mean, well, I'm absolutely going to talk about it. I'm fighting
+
+77
+00:05:36,240 --> 00:05:41,520
+the whole time. And then the circle goes public. And then they come back to like, hey, Mike,
+
+78
+00:05:41,520 --> 00:05:46,240
+really think you should emphasize DeFi. Put a little blockchain on it. All the stuff that you're
+
+79
+00:05:46,240 --> 00:05:52,640
+doing. And I'm like, you're kidding. Oh, okay. You guys are right. Good thing we've got you bankers
+
+80
+00:05:52,640 --> 00:06:00,240
+here to help us. I love that story. Let's emphasize DeFi. The buy side was there from the very
+
+81
+00:06:00,240 --> 00:06:06,320
+beginning. What we had with the buy side was a discussion that I think we made very accessible
+
+82
+00:06:06,320 --> 00:06:12,000
+to them. What we did is we talked through, hey, we use credit to demonstrate two of these three
+
+83
+00:06:12,000 --> 00:06:15,280
+things. We've demonstrated transactional efficiency, we demonstrated liquidity.
+
+84
+00:06:15,920 --> 00:06:20,000
+And now what we're trying to do is demonstrate DeFi and the financing side. We launched this
+
+85
+00:06:20,000 --> 00:06:24,480
+product, democratized prime. That's how we're doing the DeFi approach. But we're also taking
+
+86
+00:06:24,480 --> 00:06:30,080
+assets to other L1s. I was on a call this morning. We're taking yields, which is our stable coin and
+
+87
+00:06:30,080 --> 00:06:36,800
+loan participation onto Solana and SWE and other networks as part of what our ambitions are.
+
+88
+00:06:36,800 --> 00:06:42,240
+We've demonstrated that on the credit side. And what I said is, look, I'm going to do something
+
+89
+00:06:42,240 --> 00:06:47,840
+very interesting for you, the buy side. I'm going to do a second QC. I'm going to do a second version
+
+90
+00:06:47,840 --> 00:06:55,120
+of figure. I'm going to try to launch a second QC. And that equity will be peri-pursuit to the
+
+91
+00:06:55,120 --> 00:07:00,000
+NASDAQ security. Same rights to profit, same governance, same everything. But it's only going
+
+92
+00:07:00,000 --> 00:07:04,400
+to be on the blockchain. It's not going to be on DTCC. It's not going to trade on the NASDAQ. It's
+
+93
+00:07:04,400 --> 00:07:10,000
+going to trade on our alternate trading system. And our ATS is unique in that it's an actual deep
+
+94
+00:07:10,000 --> 00:07:16,320
+IATS. You and I face off directly and transact there. There's no intermediation, no custodial
+
+95
+00:07:16,320 --> 00:07:21,360
+construct, just bilateral settlement. And I think it's the only ATS that can do that by the way
+
+96
+00:07:21,360 --> 00:07:25,280
+other people might argue with me on that. And they're like, well, that's great, Mike,
+
+97
+00:07:25,280 --> 00:07:29,840
+but why would you do that? The NASDAQ works fine. And I said, it does. And so let's be
+
+98
+00:07:29,840 --> 00:07:35,120
+cognizant about where the value prop is. I think there's some transactional efficiency here.
+
+99
+00:07:35,120 --> 00:07:40,000
+Just like I cut 150 basis points of costs out of the securitization process. I'll cut some
+
+100
+00:07:40,000 --> 00:07:43,600
+costs out of this. Like the transfer agent now is just listening to the blockchain. I have
+
+101
+00:07:43,600 --> 00:07:49,280
+notification. There's some opportunity costs. That's not a huge number. And they're like,
+
+102
+00:07:49,280 --> 00:07:53,440
+oh, is it liquidity? Are we going to trade this 24-7? And I'm like, well, you can,
+
+103
+00:07:54,160 --> 00:07:59,200
+but I don't know how valuable that is. A lot of people are touting 24-7. It's so important,
+
+104
+00:07:59,200 --> 00:08:04,880
+blah, blah, blah. I've been on FTX to lift them out of bankruptcy. And they had a US equity
+
+105
+00:08:04,880 --> 00:08:10,800
+per business that traded 24-7. And I can tell you if all that mattered was 24-7, that business
+
+106
+00:08:10,800 --> 00:08:17,120
+would have been flying and it wasn't. And it was sideways. 24-7 isn't actually a real value
+
+107
+00:08:17,120 --> 00:08:22,960
+prop either. But here's where it's going to matter for you guys. Around D5, you're going to be able
+
+108
+00:08:22,960 --> 00:08:27,360
+to take that equity and cross-collateralize it and buy Bitcoin. And vice versa. You're going to be
+
+109
+00:08:27,360 --> 00:08:31,600
+able to use Bitcoin to buy that equity in a way that's fully integrated and seamless. You can't
+
+110
+00:08:31,600 --> 00:08:37,600
+do that through prime brokerage. You can't do that in your Robinhood because it's segmented out.
+
+111
+00:08:37,600 --> 00:08:44,160
+But more interesting, today when you guys lend stock out and it goes on special, it's suddenly
+
+112
+00:08:44,160 --> 00:08:50,400
+yielding 40% because there's a squeeze. You don't get the 40%. Your prime broker is still paying
+
+113
+00:08:50,400 --> 00:08:56,640
+funds or not funds anymore, silver or whatever you're indexing to. But now you hold the stock.
+
+114
+00:08:56,640 --> 00:09:00,560
+You control it. You let it out yourself. You set the rate and you get the economic.
+
+115
+00:09:01,200 --> 00:09:05,120
+And they're like, that sounds really cool. But what if they don't trade in sync? I'm like,
+
+116
+00:09:05,120 --> 00:09:09,680
+I will set it up where our treasury will swap the NMS security for the blockchain security
+
+117
+00:09:10,640 --> 00:09:16,320
+one for one. And that way, by definition, how much liquidity there is on the NMS side,
+
+118
+00:09:16,320 --> 00:09:19,600
+there's the same amount of liquidity on the blockchain side and vice versa.
+
+119
+00:09:20,160 --> 00:09:23,920
+Whether it's jump or others, I will get them to come in and make market on this and cut across.
+
+120
+00:09:24,640 --> 00:09:30,160
+And that's when everyone was like, well, what does that mean for DTCC? And I'm like, no, no,
+
+121
+00:09:30,160 --> 00:09:35,680
+you're not thinking about it the way I'm thinking about it, which is, yeah, there's no DTCC here.
+
+122
+00:09:35,680 --> 00:09:41,760
+You don't need a registry. DTCC, I think they generate like $2 billion a year of revenue and
+
+123
+00:09:41,760 --> 00:09:47,120
+they hold about $50 billion of stream capital. That's rent. That's great to release back into
+
+124
+00:09:47,120 --> 00:09:53,680
+the ecosystem. But it's tiny in the big realm of economics here. The more interesting thing,
+
+125
+00:09:53,680 --> 00:09:58,480
+and what I think the security is going to demonstrate is, well, you don't need DTCC,
+
+126
+00:09:59,120 --> 00:10:06,080
+but you also don't trade on the NASDAQ. You trade on a DEX. You and I can take our MetaMask or
+
+127
+00:10:06,080 --> 00:10:12,320
+Phantom or figure wallets and attach to that DEX trade. Not only is there no centralized exchange,
+
+128
+00:10:12,320 --> 00:10:18,960
+there's no introducing broker. So we don't need a Robinhood account or Schwab account or whatever.
+
+129
+00:10:18,960 --> 00:10:23,440
+We just attach to the DEX trade. And it's like, well, if you don't have that introducing broker,
+
+130
+00:10:23,440 --> 00:10:29,840
+who deals with margin and who deals with stock loan? DeFi. There's no prime brokeraging. Goldman
+
+131
+00:10:29,840 --> 00:10:33,600
+Prime, which on the sell side, the prime brokerage is the crown jewel of the business. And they
+
+132
+00:10:33,600 --> 00:10:39,200
+generate a ton of money for these guys. All goes away. That's what this is going to be able to
+
+133
+00:10:39,200 --> 00:10:44,320
+demonstrate, which is, blockchain has two aspects. There's the disruption of existing financial
+
+134
+00:10:44,320 --> 00:10:48,880
+infrastructure and there's the greenfield. Equity is clearly a disruption of existing financial
+
+135
+00:10:48,880 --> 00:10:53,600
+structure. And I think we have a very defined path of how that's going to work. And I was out,
+
+136
+00:10:53,600 --> 00:10:59,440
+I think we did 150 investor pitches as part of IPO Roadshow. And about a third of the way through,
+
+137
+00:10:59,440 --> 00:11:03,840
+I started pitching everybody on the buy side and they were like, yes. I'm like, and what I need you
+
+138
+00:11:03,840 --> 00:11:09,600
+to do is I need you to then say, hey, this is so good. I'm going to go to my other portfolio
+
+139
+00:11:09,600 --> 00:11:14,480
+companies and say, why don't you have a second CUSIP on the blockchain? Because it's way better
+
+140
+00:11:14,480 --> 00:11:19,840
+for me for both the margining standpoint and the stock market standpoint. And I have the same
+
+141
+00:11:19,840 --> 00:11:24,960
+liquidity, I have the same transactional economics. Why don't you do this? And I think we're going to
+
+142
+00:11:24,960 --> 00:11:30,800
+be able to affect change from within the way we've always done it, which is we go first.
+
+143
+00:11:30,800 --> 00:11:35,680
+On the other side with credit, that's greenfield. There is no marketplace for credit. We created
+
+144
+00:11:35,680 --> 00:11:40,640
+that, but we did it with our loans first. Now we have 170 third parties that originate on our
+
+145
+00:11:40,640 --> 00:11:45,920
+platform and were a small amount of that production, but we had to be the first ones to do it.
+
+146
+00:11:46,560 --> 00:11:52,240
+My hope is by the end of this year, we'll have demonstrated the full vertical and the defi on
+
+147
+00:11:52,240 --> 00:11:59,360
+credit and the horizontal expansion into a new asset class being equity, all native on chain,
+
+148
+00:11:59,360 --> 00:12:05,760
+where we have a greenfield example and a disruption example that indisputably demonstrate
+
+149
+00:12:05,760 --> 00:12:10,560
+why blockchain is so important, so powerful. I love that. And you've gotten into market
+
+150
+00:12:10,560 --> 00:12:14,880
+structure in a way that I just love to geek out on. I'd love to get your take on just what
+
+151
+00:12:14,880 --> 00:12:18,480
+this looks like almost from a regulatory perspective, four or five years from now,
+
+152
+00:12:18,480 --> 00:12:23,360
+where you have the NMS market, then you have these blockchain venues, whether they're somewhat
+
+153
+00:12:23,360 --> 00:12:28,800
+decentralized, fully decentralized. The existing buy side firms and the broker dealers, do you see
+
+154
+00:12:28,800 --> 00:12:34,320
+them having a fiduciary obligation to connect to these venues? How is best bid best offer? How is
+
+155
+00:12:34,320 --> 00:12:40,960
+that going to work, do you think? So one, this is being hotly contested as part of clarity.
+
+156
+00:12:41,520 --> 00:12:47,600
+The challenge we have with clarity is with Genius Act, there was a lot of momentum and a lot of
+
+157
+00:12:47,600 --> 00:12:52,960
+political reason why no one wanted to stand in front of that. And it went through pretty quickly.
+
+158
+00:12:52,960 --> 00:12:57,520
+Now the banks all feel they got bamboozled on it because post execution, they realized Coinbase is
+
+159
+00:12:57,520 --> 00:13:03,600
+paying interest on USDC balances. Since it's not circle paying interest, it satisfies the Genius
+
+160
+00:13:03,600 --> 00:13:07,280
+Act, but you're still getting interest on Coin, which is what the banks are trying to avoid.
+
+161
+00:13:07,280 --> 00:13:14,480
+With clarity, you're in a much different situation where you've got the centralized exchanges that
+
+162
+00:13:14,480 --> 00:13:21,680
+have a very different perspective to the decentralized folks like myself. I care a lot about how do you
+
+163
+00:13:21,680 --> 00:13:25,920
+deal with a transfer agent in DeFi? And to me, those are things that are super important. Well,
+
+164
+00:13:25,920 --> 00:13:30,880
+a centralized exchange doesn't care about that. And then you have the existing players like ICE
+
+165
+00:13:30,880 --> 00:13:37,280
+and NASDAQ, DTCC that are like, well, how do we take the system we have and apply it to the crypto
+
+166
+00:13:37,280 --> 00:13:43,760
+or blockchain assets? And I view as lipstick on the pig in terms of that process because the
+
+167
+00:13:43,760 --> 00:13:49,040
+benefit here is to rip everything and start over. The challenge from the regulatory standpoint in
+
+168
+00:13:49,040 --> 00:13:55,040
+best acts is a big issue. DTCC have this view of, hey, we're going to be able to take a DTCC
+
+169
+00:13:55,040 --> 00:13:58,960
+security, we're going to vault it and we're going to sell a security entitlement to it.
+
+170
+00:13:58,960 --> 00:14:02,960
+And that security entitlement can be used in DeFi, it can be a blah, blah, blah, blah.
+
+171
+00:14:02,960 --> 00:14:07,680
+When they told me this, we were at a dinner when they were talking about this. And I'm like,
+
+172
+00:14:07,680 --> 00:14:10,800
+there's no way you can do this, at least not under the current regulatory structure.
+
+173
+00:14:10,800 --> 00:14:15,200
+Sure enough, after they explained this to me, Commissioner Purse did that memo that said,
+
+174
+00:14:15,200 --> 00:14:18,640
+by the way, a security entitlement of an MS security is still an MS security,
+
+175
+00:14:18,640 --> 00:14:24,000
+it's still subbing best acts. The issue with best execution is you basically have to direct
+
+176
+00:14:24,000 --> 00:14:29,840
+to best bid best offer, at least for a portion of the transaction. It's unfortunate because
+
+177
+00:14:29,840 --> 00:14:35,440
+NMS is sort of classic, the road to hell is paved with good intentions. It actually is not a good
+
+178
+00:14:35,440 --> 00:14:40,720
+thing for people in my view. But the reason was it was there to prevent you from being gouged by
+
+179
+00:14:40,720 --> 00:14:46,560
+your broker, sending it to off market exchanges and so forth. It's actually created a huge market
+
+180
+00:14:46,560 --> 00:14:51,920
+for order flow and other things that aren't necessarily created to consumer market participants.
+
+181
+00:14:52,480 --> 00:14:58,400
+But the issue is you have to be able to route to best execution. So, a blockchain exchange where
+
+182
+00:14:58,400 --> 00:15:02,800
+you and I are both encumbering the asset and bilaterally transaction, that's the whole
+
+183
+00:15:02,800 --> 00:15:06,240
+definition of blockchain exchange or decentralized exchange. We don't take on a part of your
+
+184
+00:15:06,240 --> 00:15:12,400
+settlement risk, but that means when I lift your offer or you hit my bid, we swap those assets.
+
+185
+00:15:12,400 --> 00:15:17,120
+We do not then go and look at cross 12 other pools of liquidity as to where we're going to route the
+
+186
+00:15:17,120 --> 00:15:24,000
+trade. A blockchain native ecosystem won't work in an NMS construct. This is a gap that I think
+
+187
+00:15:24,000 --> 00:15:28,480
+a lot of people in the space are just getting their arms around and realizing because I think
+
+188
+00:15:28,480 --> 00:15:31,440
+some of the brokerage firms are like, oh, we're going to send up our own blockchain and we're
+
+189
+00:15:31,440 --> 00:15:35,920
+going to trade securities on it. We're going to be able to trade Tesla and Intel and Coinbase,
+
+190
+00:15:35,920 --> 00:15:41,760
+whatever. No, you're not because those are NMS securities. This is why when I talk about what
+
+191
+00:15:41,760 --> 00:15:47,920
+I'm trying to do, I have to do it as a second Q-Serve because it can't be the same security.
+
+192
+00:15:47,920 --> 00:15:52,240
+I can't take the NASDAQ security and put it on the blockchain because that's an NMS security,
+
+193
+00:15:52,240 --> 00:15:56,800
+no matter how I do it. So, it has to be a different security that doesn't touch a
+
+194
+00:15:56,800 --> 00:16:01,920
+national market exchange. Then you have the ability to create a blockchain native ecosystem
+
+195
+00:16:01,920 --> 00:16:07,360
+where you can transact bilaterally and sell several self-clear. And the key is to keep that locked in.
+
+196
+00:16:08,000 --> 00:16:12,240
+There's a convertibility aspect that you can do at the treasury side to swap that security.
+
+197
+00:16:12,240 --> 00:16:15,680
+Now, there's a bunch of Reg M considerations, other regulatory considerations you have to have
+
+198
+00:16:15,680 --> 00:16:21,120
+as part of this. So, it's not trivial at all, but it's doable. That's kind of what I'm trying to lean
+
+199
+00:16:21,120 --> 00:16:26,400
+in on. Yeah, that's fascinating. And you brought up the clarity bill. I mean, how do you handicap
+
+200
+00:16:26,400 --> 00:16:31,040
+that getting through at this point? This is one of many issues that people are debating. It just
+
+201
+00:16:31,040 --> 00:16:35,760
+seems a lot more complicated than the stablecoin bill. There's sort of two aspects to it, which is
+
+202
+00:16:36,400 --> 00:16:42,240
+what is the immediacy of it in terms of its value to the ecosystem? I think Chairman Atkins has been
+
+203
+00:16:42,240 --> 00:16:48,720
+very clear that, for example, they don't view DeFi as being under SEC purview. There's a question of
+
+204
+00:16:48,720 --> 00:16:54,080
+how do we define DeFi? Is DeFi decentralized custody or is it all logic on smart contracts?
+
+205
+00:16:54,080 --> 00:17:00,080
+Is it governance of the market system, et cetera, et cetera? And so, in the near term, I don't know
+
+206
+00:17:00,080 --> 00:17:04,640
+that it's as important to all of us because I think the SEC, the first thing they did that was
+
+207
+00:17:04,640 --> 00:17:09,840
+huge is they said, we're not using enforcement as a policy tool. And that allowed lots of us to be
+
+208
+00:17:09,840 --> 00:17:14,640
+able to wake up in the morning without fear of an arrest warrant being out there or the Friday
+
+209
+00:17:14,640 --> 00:17:19,360
+afternoon Wells notices or all the things that were happening, give us some degree of comfort.
+
+210
+00:17:19,920 --> 00:17:26,080
+They've enacted a set of policies or announced a set of intentions that have given a pretty
+
+211
+00:17:26,080 --> 00:17:30,400
+clear indication to the industry what you can do and what you can't do. The problem is it's not
+
+212
+00:17:30,400 --> 00:17:36,000
+codified in the law. So, just as this is interpretive to the current chairperson,
+
+213
+00:17:36,560 --> 00:17:41,360
+another chairperson coming in, they go back to the way it was before. I think we have a longer
+
+214
+00:17:41,360 --> 00:17:46,720
+runway with clarity. It's not that we have to get it done this year or the industry is going to suffer.
+
+215
+00:17:46,720 --> 00:17:51,440
+We've got to get it done in the next two and a half to three years or we're going to introduce
+
+216
+00:17:51,440 --> 00:17:57,440
+a huge amount of uncertainty as to our businesses function against election cycles. That's not a
+
+217
+00:17:57,440 --> 00:18:02,160
+good thing. No, it's definitely what we want to avoid. You brought up that dinner we were at and
+
+218
+00:18:02,160 --> 00:18:07,520
+you had some really interesting comments around the banking sector and how certain folks in the
+
+219
+00:18:07,520 --> 00:18:12,000
+banking sector are really freaking out about deposit flight with stable coins. How do you
+
+220
+00:18:12,000 --> 00:18:16,800
+think about this? And maybe I'll ask a follow-up question just around what would you be doing if
+
+221
+00:18:16,800 --> 00:18:23,680
+you're a bank right now? I've spoken to a bunch of bank CEOs about this. The reality is I think if
+
+222
+00:18:23,680 --> 00:18:28,080
+you're a regional or a super regional bank, your liabilities are going to come under attack and
+
+223
+00:18:28,080 --> 00:18:32,880
+you're going to lose a lot of them. There are some bank CEOs that say, oh, the government will never
+
+224
+00:18:32,880 --> 00:18:37,280
+let that happen. We're going to go with community banking or blah, blah, blah, blah. I don't know
+
+225
+00:18:37,280 --> 00:18:42,160
+if you understand this administration, the populist band of this administration, which is around
+
+226
+00:18:42,160 --> 00:18:46,800
+Main Street, not bailing banks out or allowing banks to have these enterprise franchise models
+
+227
+00:18:46,800 --> 00:18:51,920
+that they always underpaid on FDIC insurance historically. And I think there's a recognition
+
+228
+00:18:51,920 --> 00:18:57,280
+of that in the administration. You're going to be under attack. What do you do when that happens?
+
+229
+00:18:58,000 --> 00:19:01,600
+Part of what we're doing and going out and doing a road show and that we're meeting a bunch of
+
+230
+00:19:01,600 --> 00:19:05,040
+these banks and we're saying, hey, look, there's three things we want to talk to you about. One is
+
+231
+00:19:05,600 --> 00:19:11,520
+this macro event of stable coins. Treasury did a study that says if interest was paid on these
+
+232
+00:19:11,520 --> 00:19:16,240
+coins, 6.6 trillion would leave the bank liability side, not just retail, but business deposits as
+
+233
+00:19:16,240 --> 00:19:21,520
+well. I agree with that 100%. I think that that's very correct. And I think it's inevitable.
+
+234
+00:19:21,520 --> 00:19:25,760
+You already have interest being paid on this indirectly. And because of that,
+
+235
+00:19:25,760 --> 00:19:30,640
+you will just get to direct interest in the not so distant future. And so that deposit
+
+236
+00:19:30,640 --> 00:19:36,400
+flight is going to occur. What do you do? Part of what we're saying is, hey, look, we can show you
+
+237
+00:19:36,400 --> 00:19:41,520
+how to originate assets on blockchain, how to create liquidity and marketplaces on blockchain,
+
+238
+00:19:41,520 --> 00:19:47,200
+and then how to use DeFi to finance those assets. The paradox of this is the money financing those
+
+239
+00:19:47,200 --> 00:19:52,880
+assets in DeFi used to be in the bank deposit. You and I taking our deposits out, now putting it
+
+240
+00:19:52,880 --> 00:19:57,760
+in yielding coin, and then making the decision that, hey, rather than SOFR, we want to make
+
+241
+00:19:57,760 --> 00:20:02,720
+6% or 7% or 8% on a DeFi marketplace lending against loans on an over collateralized basis.
+
+242
+00:20:03,280 --> 00:20:08,560
+We're just reallocating those liabilities away from the centralized bank capital allocator to
+
+243
+00:20:08,560 --> 00:20:15,040
+the decentralized people allocator, where we all make the decision of allocating to finance those
+
+244
+00:20:15,040 --> 00:20:20,720
+assets. But that capital needs to get tapped. And we saw this and the banks got to preview this
+
+245
+00:20:20,720 --> 00:20:28,320
+at the end of 22. When the Fed started to tighten, bank deposits went from 18.2 trillion to 17.2
+
+246
+00:20:28,320 --> 00:20:34,000
+trillion. And the banks at a miserable time, they were selling assets on a prior sale basis,
+
+247
+00:20:34,000 --> 00:20:38,480
+trying to get everything off the balance sheet. This is a trillion dollars of liabilities.
+
+248
+00:20:38,480 --> 00:20:43,440
+So 2 trillion goes or 6.6 trillion, which is the treasury study for interest burning goes,
+
+249
+00:20:43,920 --> 00:20:48,000
+what's going to happen? Well, absent a solution, you have a financial calamity.
+
+250
+00:20:48,000 --> 00:20:51,600
+Government's not going to let a financial calamity happen. Regulatory step in,
+
+251
+00:20:51,600 --> 00:20:56,320
+the Fed could do like extending health type structures to create leverage and liquidity
+
+252
+00:20:56,320 --> 00:21:01,280
+for private capital to step into the bank balance sheet void. It's not enough on its own.
+
+253
+00:21:01,280 --> 00:21:08,160
+Again, the reality is that 6.6 trillion isn't all going to sit in treasuries. You and I aren't going
+
+254
+00:21:08,160 --> 00:21:13,360
+to be content with a 4% yield when we can allocate directly on an over collateralized basis and get
+
+255
+00:21:13,600 --> 00:21:17,840
+seven or eight or whatever it is. The big thing that we're showing the banks is,
+
+256
+00:21:17,840 --> 00:21:21,440
+here's a roadmap to do this. Now, the second thing that we're talking to them about is,
+
+257
+00:21:21,440 --> 00:21:27,280
+and by the way, JP is going to take your deposits. JP coin is going to come and they're going to be
+
+258
+00:21:27,280 --> 00:21:31,200
+able to outcompete you. And some of these regional banks, I think are a little bit delusional. They're
+
+259
+00:21:31,200 --> 00:21:35,360
+like, oh, no, no, we're going to be able to have XYZ coin and be competitive. And I'm like, you're
+
+260
+00:21:35,360 --> 00:21:39,920
+not. This is why you can't win and chase bottom rewards. You just can't. They're not going to
+
+261
+00:21:39,920 --> 00:21:45,920
+beat them in this fight. Why don't we give you our yielding stable coin? We have a coin called
+
+262
+00:21:45,920 --> 00:21:50,800
+yields and it's actually a security. So it's not subject to the genius act. So it can pay interest.
+
+263
+00:21:51,360 --> 00:21:56,880
+Why don't we give you the yielding coin? By the way, we can hold in treasuries or bank deposits.
+
+264
+00:21:56,880 --> 00:22:01,840
+Your customer puts a dollar into yields. We'll hold it on your balance sheet as liability. You've
+
+265
+00:22:01,840 --> 00:22:06,320
+got to pay interest on it. It's not a free deposit anymore, but you don't have all the costs that you
+
+266
+00:22:06,320 --> 00:22:10,800
+had of managing that deposit. Historically, you get efficiencies that come off of that.
+
+267
+00:22:10,800 --> 00:22:16,000
+That gives you a defensive position because now you have an explicit yielding coin whereas JP and
+
+268
+00:22:16,000 --> 00:22:19,600
+the genius act doesn't. The deposit is staying with you. The customer relationship is staying
+
+269
+00:22:19,600 --> 00:22:25,520
+with you. The economic scrape is staying with you. But you have to be cognizant of you're either going
+
+270
+00:22:25,520 --> 00:22:29,360
+to have a higher cost deposit or it's going to be in treasuries. And either way, it's going to have
+
+271
+00:22:29,360 --> 00:22:33,760
+some impact on your liabilities. And that's why you need this blockchain ecosystem. We're going out
+
+272
+00:22:33,760 --> 00:22:38,640
+on a roadshow to do this. I joke, the bankers are going to think this is the roadshow of doom
+
+273
+00:22:38,640 --> 00:22:43,680
+where I should just show up and I'm like, everything in your world is over. But it's not.
+
+274
+00:22:43,680 --> 00:22:49,600
+I'm saying if you lean in and embrace this technology, you can actually gain a lot of
+
+275
+00:22:49,600 --> 00:22:54,000
+market share from your competitors who have their heads in the sand and are like, this will never
+
+276
+00:22:54,000 --> 00:22:59,120
+happen. It must be a fascinating thing to be one of these executive teams that's actually zoned in
+
+277
+00:22:59,120 --> 00:23:02,720
+on the problem. I get the impression there's quite a few that just aren't aware of it even
+
+278
+00:23:02,720 --> 00:23:07,440
+yet, which is shocking. But it's not just the liability side of the balance sheet that's
+
+279
+00:23:07,440 --> 00:23:11,280
+getting chipped away. It's just the asset side is also getting chipped away. If you just look
+
+280
+00:23:11,280 --> 00:23:15,920
+at the growth of private credit, who's financing buyouts these days, banks getting out of certain
+
+281
+00:23:15,920 --> 00:23:20,960
+lines of business. So if you almost just do a thought experiment on what it would take
+
+282
+00:23:20,960 --> 00:23:26,560
+to save the banks from a liability perspective right now, it would be like unlimited FDIC
+
+283
+00:23:26,560 --> 00:23:30,800
+insurance. And you could actually build stable coins on top of bank deposits within a genius
+
+284
+00:23:30,800 --> 00:23:35,040
+framework. It's almost like you should be going big and bold with your lobbying efforts.
+
+285
+00:23:35,760 --> 00:23:41,200
+I think what's interesting is almost all the banks recognize this as an issue and all the
+
+286
+00:23:41,200 --> 00:23:45,600
+bank boards are talking about it. But some of them do not want to have a discussion about what the
+
+287
+00:23:45,600 --> 00:23:51,440
+solution is. It is very topical. When we were on our road show at one point, COVID today,
+
+288
+00:23:51,440 --> 00:23:55,760
+we have a bank that wants to talk about this. Mike, would you be willing to go over and talk
+
+289
+00:23:55,760 --> 00:24:00,080
+to them? I'm like, sure. And so he comes back, he's like, yeah, they thought you were too
+
+290
+00:24:00,080 --> 00:24:06,240
+scary. And they didn't want you to talk to them. They wanted somebody else at house. I'm not that
+
+291
+00:24:06,240 --> 00:24:12,480
+scary. More like a pragmatist in terms of what this is. But we're at a point where this will
+
+292
+00:24:12,480 --> 00:24:17,920
+go slow and then all at once. But the genie is out of the bottle. With genius, they're not going to
+
+293
+00:24:17,920 --> 00:24:23,360
+be able to put it back in. And this is the beginning of narrow banking as it affects the
+
+294
+00:24:23,360 --> 00:24:27,600
+regional banks. It will not be for the money centers because the money centers will actually
+
+295
+00:24:27,600 --> 00:24:32,400
+benefit because part of the genius act is you can hold treasuries or you can hold bank deposits.
+
+296
+00:24:32,960 --> 00:24:38,560
+JP will hold bank deposits. And ultimately, the margin in stables will go to zero because
+
+297
+00:24:39,120 --> 00:24:43,440
+it's a competitive product and people will figure out ways to pay rewards out.
+
+298
+00:24:44,000 --> 00:24:47,840
+There's homogeneity in the product too. Why is one stable better than the other?
+
+299
+00:24:47,840 --> 00:24:52,000
+The margin will go to the point where the consumer gets the benefit of the bulk of
+
+300
+00:24:52,000 --> 00:24:58,720
+the carrier to flow. And then it becomes rewards and application and use cases and other things
+
+301
+00:24:58,720 --> 00:25:03,120
+that I think banks like Chase are going to dominate. What could have happened is the
+
+302
+00:25:03,120 --> 00:25:08,240
+government could have taken a more utilitarian approach and said, we're going to create
+
+303
+00:25:08,960 --> 00:25:15,840
+effectively a uniform payment rail for all coin where no coin can be accepted or denied.
+
+304
+00:25:15,840 --> 00:25:19,200
+Anything that's conforming as a genius at coin is available for this rail. And here's the
+
+305
+00:25:19,200 --> 00:25:24,560
+infrastructure. That's not necessarily a capitalistic approach to do it. And why I
+
+306
+00:25:24,560 --> 00:25:30,400
+don't think they did it that way. There would have been a utility to it. Unlike in the past,
+
+307
+00:25:30,400 --> 00:25:34,160
+when banks would collude together with things like the Visa network and so forth, I don't think
+
+308
+00:25:34,160 --> 00:25:37,760
+that's going to happen here. I think the big money centers are going to lean in and say,
+
+309
+00:25:37,760 --> 00:25:40,880
+you know what? We can just take this market and they're going to try to do it.
+
+310
+00:25:41,680 --> 00:25:46,160
+I want to rewind the clock a little bit. You were the first person in this industry that really took
+
+311
+00:25:46,160 --> 00:25:51,760
+a big market. I'm talking about Helox now, infused them with this technology. So what was it that
+
+312
+00:25:51,760 --> 00:25:56,240
+you originally saw that illuminated the fact that a blockchain could be a good implementation for
+
+313
+00:25:56,240 --> 00:26:00,960
+this and thorny issues there to figure out around MNPI and just curious how you went around
+
+314
+00:26:00,960 --> 00:26:06,800
+operationalizing it. The original thesis that we had was we could originate any private credit,
+
+315
+00:26:07,440 --> 00:26:12,160
+aggregate, securitize it on blockchain and create some savings. That's the first of those three
+
+316
+00:26:12,160 --> 00:26:18,640
+value props of transaction efficiency. The issue for us, one was MNPI. The issue that we had
+
+317
+00:26:19,280 --> 00:26:24,480
+when we started was proof of work was still the predominant chain. So Ethereum was still on
+
+318
+00:26:24,480 --> 00:26:28,640
+proof of work at that point. Bitcoin obviously was a proof of work chain. Proof of stake was coming
+
+319
+00:26:28,640 --> 00:26:33,680
+to fruition and proof of history with Solana. But the problem with those networks was they function
+
+320
+00:26:33,680 --> 00:26:38,960
+like a golden data set. So you put a loan on one of those networks, goes out to all the validators.
+
+321
+00:26:38,960 --> 00:26:44,320
+You now have PI at 100 different anonymous entities you can't control. You can't do that.
+
+322
+00:26:44,320 --> 00:26:49,120
+We ended up building a blockchain called Provenance that went through a couple of iterations. The
+
+323
+00:26:49,120 --> 00:26:53,600
+whole premise on Provenance is one of my loans is five gigs of data. I put it on Provenance.
+
+324
+00:26:54,160 --> 00:27:00,320
+That data goes to an encrypted object store and what goes to the validators is a hash of that data
+
+325
+00:27:01,040 --> 00:27:06,320
+that they then write such that if I trade a loan with you six months from now, they're going to
+
+326
+00:27:06,320 --> 00:27:09,680
+reference that data into the encrypted object and you're going to be able to tell whether or not
+
+327
+00:27:09,680 --> 00:27:14,160
+that was an actual artifact. So it's acting as a data validation agent as a virtual gold data set.
+
+328
+00:27:14,880 --> 00:27:20,720
+We made Provenance public. We own 20% of the utility token on it called hash. The 80% bulk
+
+329
+00:27:20,720 --> 00:27:24,720
+of it's in the foundation and there's private parties that hold it and trade it. That was a
+
+330
+00:27:24,720 --> 00:27:30,240
+necessary condition, but not sufficient. That's what I thought would work and I went to a bunch
+
+331
+00:27:30,240 --> 00:27:34,240
+of banks. I've told this story lots of times where I'm like, hey, you can do this on blockchain.
+
+332
+00:27:34,240 --> 00:27:38,800
+We'd like to be the 10th bank to do this. That's when we said, all right, we'll do it ourselves.
+
+333
+00:27:39,360 --> 00:27:45,440
+In doing it ourselves, we had to be very cognizant of we want to fight it out with rocket on first
+
+334
+00:27:45,440 --> 00:27:50,320
+lien mortgage or SoFi on personal loans while we're trying to convince the market to use
+
+335
+00:27:50,320 --> 00:27:56,480
+blockchain. It's not going to work. We had to find, again, the greenest field we could play in on
+
+336
+00:27:56,480 --> 00:28:01,520
+credit where we think we could originate a valuable asset and not have to compete with anyone to do it.
+
+337
+00:28:02,400 --> 00:28:08,880
+That's why we chose HemiCredit. It's a mortgage and it is a mortgage asset, but it's one that
+
+338
+00:28:08,880 --> 00:28:13,200
+hasn't been done well and hasn't been used well. Product market fit historically has been poor for
+
+339
+00:28:13,200 --> 00:28:17,840
+it. It's a great substitute for personal loans, for example. What we were able to do is bring the
+
+340
+00:28:17,840 --> 00:28:22,880
+personal loan experience, so a couple minute application process, your money in a couple days
+
+341
+00:28:23,600 --> 00:28:28,960
+into something that historically took 45 days to get, but was a better product downstream.
+
+342
+00:28:28,960 --> 00:28:33,200
+What a lot of people don't understand, and when we think about moats and competitive moats,
+
+343
+00:28:33,760 --> 00:28:36,960
+what we had to do in the beginning is leave a lot of money on the table.
+
+344
+00:28:37,520 --> 00:28:42,480
+Notably, in the beginning, people would come to us and say, I'll buy your loan. I don't want to
+
+345
+00:28:42,480 --> 00:28:47,520
+buy it on blockchain. Pay you more if you don't make me buy it on blockchain. My capital market
+
+346
+00:28:47,520 --> 00:28:51,680
+people were like, can you just sell them $50 million not on blockchain and the rest can be
+
+347
+00:28:51,680 --> 00:28:57,200
+on blockchain? I'm like, no, absolutely not. We left a lot of money on the table. Then we had
+
+348
+00:28:57,200 --> 00:29:03,120
+people come to us and say, hey, I don't like your credit box. If you originate to my credit box,
+
+349
+00:29:03,120 --> 00:29:07,840
+I'll pay one, two, three points more for the loans. Same situation. You do that and then you
+
+350
+00:29:07,840 --> 00:29:13,120
+don't have ubiquity of the asset and liquidity that you can create off of that ubiquity.
+
+351
+00:29:13,120 --> 00:29:18,960
+The reality is most entities don't have the ability to leave that money on the table.
+
+352
+00:29:18,960 --> 00:29:23,360
+If you're a mortgage company, you run razor-thin margins and you take the money when it's there.
+
+353
+00:29:23,360 --> 00:29:28,800
+If you're a startup, that requires a decent amount of capital and persistence and patient
+
+354
+00:29:28,800 --> 00:29:34,320
+investors where they're like, well, why don't you just be FinTech 2.0? Because we're building
+
+355
+00:29:34,320 --> 00:29:40,640
+FinTech 3.0. They had that experience on multiple fronts early on. My board giving me crap about,
+
+356
+00:29:40,640 --> 00:29:45,600
+well, this online lender is doing better than you, blah, blah. I was like, well,
+
+357
+00:29:45,600 --> 00:29:49,040
+because I'm building into something bigger. Then I got all kinds of grief about, well,
+
+358
+00:29:49,040 --> 00:29:54,080
+BlockFi and FTX are doing better than you. I was like, well, because I'm not trying to do
+
+359
+00:29:54,080 --> 00:29:59,600
+what they're trying to do. Ultimately, the long game won. I think that's what we've always
+
+360
+00:29:59,600 --> 00:30:04,560
+persisted and why we've been very particular on the private capital side and trying to do so on
+
+361
+00:30:04,560 --> 00:30:10,240
+the public capital side as well is get investors that buy into that long-term vision because
+
+362
+00:30:10,240 --> 00:30:17,360
+there's a lot of distractions and diversions that come up on the road that seem like near-term
+
+363
+00:30:17,360 --> 00:30:21,360
+better opportunity, but take you away from that long-term objective of building real value.
+
+364
+00:30:21,360 --> 00:30:26,320
+That makes total sense. On the markets business, just talking about the long-term here,
+
+365
+00:30:26,320 --> 00:30:30,560
+you don't have to squint too hard to see that this technology and people building things on
+
+366
+00:30:30,560 --> 00:30:35,360
+top of it like yourselves could be a real competitive disruption to CME and some of these
+
+367
+00:30:35,360 --> 00:30:39,840
+bigger shops. How do you think about that and just competing against some of these incumbents and
+
+368
+00:30:39,840 --> 00:30:44,960
+what their reaction function will look like? I've never shied away from competing against
+
+369
+00:30:44,960 --> 00:30:50,320
+entrenched interests. When we started SoFi, obviously, we were pushing hard against banks
+
+370
+00:30:50,320 --> 00:30:54,880
+in general, and I think we were very successful building our business off of that. I think we
+
+371
+00:30:54,880 --> 00:30:59,680
+figure it's even broader. It's not just the banks per se. In fact, the banks are more partners with
+
+372
+00:30:59,680 --> 00:31:04,480
+us, a good figure than competitors, but a lot of the market structure. I think that's been one of
+
+373
+00:31:04,480 --> 00:31:11,520
+the challenges with blockchain in that generally innovation happens marginal first order. DTCC
+
+374
+00:31:11,520 --> 00:31:16,880
+figures out a way to get from T plus one to T plus zero as we've gotten from T plus three to two
+
+375
+00:31:16,880 --> 00:31:22,800
+to one. What blockchain's doing is basically just blowing everything up and doing it in a completely
+
+376
+00:31:22,800 --> 00:31:28,320
+different way. Blowing it up means that their model doesn't work anymore. There is no marginal
+
+377
+00:31:28,320 --> 00:31:34,080
+innovation. I always joke about this when I see like visas running stablecoin experiments. Well,
+
+378
+00:31:34,080 --> 00:31:38,640
+stablecoin really worked. There wouldn't be a visa network because there's no charge tax.
+
+379
+00:31:38,640 --> 00:31:42,320
+People don't understand what visas value properly is. It's the management of that charge
+
+380
+00:31:42,320 --> 00:31:48,800
+tax process and we're stablecoin. It's cash. There is no pullback or redemption. If they really
+
+381
+00:31:48,800 --> 00:31:54,240
+embraced it, they wouldn't have a model. It'd be a completely different business. To me, that's what
+
+382
+00:31:54,240 --> 00:32:00,320
+the opportunity is, and it goes back to those factions of interest within clarity. I don't
+
+383
+00:32:00,320 --> 00:32:07,360
+think that the winning game is to try to promote a centralized ecosystem into blockchain and crypto
+
+384
+00:32:07,360 --> 00:32:12,800
+assets because I think that the established players are very, very good at that centralized
+
+385
+00:32:12,800 --> 00:32:19,760
+ecosystem. I don't think that any crypto exchange, for example, can stand up against what NASDAQ and
+
+386
+00:32:19,760 --> 00:32:26,240
+ICE have built on a prairie pursuit basis. I think what you can do is you can do it decentralized
+
+387
+00:32:26,240 --> 00:32:31,360
+because they'll never do it that way and because their model won't work that way. Decentralization
+
+388
+00:32:31,360 --> 00:32:37,040
+is better. I can go through the custodians. There was a period of time that Anchorage had this
+
+389
+00:32:37,040 --> 00:32:42,000
+wonderful moat because they were a regulated entity that tested crypto. While they don't have
+
+390
+00:32:42,000 --> 00:32:46,240
+the moat in, they're being aggressive. They're trying to work with Tether and others on product
+
+391
+00:32:46,240 --> 00:32:52,000
+and I commend them for that, but it's a much more competitive dynamic in centralized custody.
+
+392
+00:32:52,000 --> 00:32:59,200
+Decentralized custody MPC is, in my mind, the better solution, but it doesn't involve any of
+
+393
+00:32:59,200 --> 00:33:03,200
+those entities, at least in the capacity in which they've always participated. They can still be
+
+394
+00:33:03,200 --> 00:33:08,080
+node operators on an MPC network. That's not the same as them holding the asset or the economics
+
+395
+00:33:08,080 --> 00:33:14,160
+from that. I'm not afraid of the entrenched interests because a lot of what we're doing
+
+396
+00:33:14,720 --> 00:33:19,600
+when you dial it back and look at the true infrastructure is Greenfield. Even the equities
+
+397
+00:33:19,600 --> 00:33:24,720
+trading that I talked about, it's not that I'm trying to build a better NASDAQ or ICE. I don't
+
+398
+00:33:24,720 --> 00:33:29,760
+want the centralized exchange. I'm trying to build a DAX to do this. There, there isn't that
+
+399
+00:33:29,760 --> 00:33:34,560
+competition. Maybe one of the last things I'll ask you is just around provenance. You guys were
+
+400
+00:33:34,560 --> 00:33:39,520
+really early to this, this concept of getting behind your own chain, birthing it. Stripe's
+
+401
+00:33:39,520 --> 00:33:43,920
+doing that now. Circle's doing that now. What do you think about that and are we going to see more
+
+402
+00:33:43,920 --> 00:33:50,000
+of these corporate birthed public blockchains versus the Ethereum style blockchain origins?
+
+403
+00:33:50,720 --> 00:33:55,840
+One of the things that I've come to terms with, I used to think one blockchain to rule them all.
+
+404
+00:33:55,920 --> 00:33:59,760
+I don't view that anymore. I think that there's got to be lots of blockchains and requirement of
+
+405
+00:33:59,760 --> 00:34:04,880
+lots of interoperability. I think that the value proposition of those blockchains will
+
+406
+00:34:04,880 --> 00:34:10,720
+differ significantly and that some will create value. There's certain idiosyncratic aspects
+
+407
+00:34:10,720 --> 00:34:15,840
+of provenance that don't exist on networks like Solana or SWE, where there's ways for them to
+
+408
+00:34:15,840 --> 00:34:19,760
+extract value off of that in terms of people using it. You can just say there's value props
+
+409
+00:34:19,760 --> 00:34:24,160
+in those other networks too. SWE and Solana are both much faster than provenance. I would argue
+
+410
+00:34:24,160 --> 00:34:30,880
+none of them are as fast as NASDAQ right now. That's a pragmatic limitation that will be solved.
+
+411
+00:34:30,880 --> 00:34:35,680
+We will fix that problem. It's technology. It will be fixed. It's just not necessarily relevant
+
+412
+00:34:35,680 --> 00:34:39,760
+or prevalent today. Five years ago, people were building chains because they're like,
+
+413
+00:34:39,760 --> 00:34:44,000
+hey, we can issue this token and people will pay a lot of money for it. People were pitching
+
+414
+00:34:44,000 --> 00:34:47,120
+in these use cases and I'm like, I don't understand why you need a blockchain. Well,
+
+415
+00:34:47,120 --> 00:34:52,720
+because we can sell the token. I was like, but blockchain is very limiting in what it does,
+
+416
+00:34:52,720 --> 00:34:57,280
+which is if you do not have a native digital asset on the chain, it's basically workless
+
+417
+00:34:57,280 --> 00:35:02,400
+technology. Obviously, again, lots of heat from other people in the ecosystem on this and
+
+418
+00:35:02,400 --> 00:35:06,320
+arguing to me about how valuable oracles are and all this other stuff. But to me,
+
+419
+00:35:06,320 --> 00:35:10,640
+if you create a new digital asset, the blockchain has a lot of value. If you don't, it doesn't.
+
+420
+00:35:10,640 --> 00:35:16,640
+A lot of people today are also looking at that in the same way as to, oh, they look at the market
+
+421
+00:35:16,640 --> 00:35:21,600
+cap of Solana, for example, and they're like, well, wow, we have that. I don't know if things
+
+422
+00:35:21,600 --> 00:35:25,520
+are going to converge up to the market cap of Solana or things are going to go the other
+
+423
+00:35:25,520 --> 00:35:31,440
+direction. I don't know if it's the Dapps that live on chain that extract the economics or the
+
+424
+00:35:31,440 --> 00:35:35,840
+L1 itself. Obviously, if you look at the market cap of MasterCard and Visa, it's over a trillion
+
+425
+00:35:35,840 --> 00:35:42,160
+dollars. Okay, well, blockchain could displace that. It's not crazy to think a blockchain would
+
+426
+00:35:42,160 --> 00:35:47,040
+have a trillion dollar market cap because it's displacing that economic structure. But is it the
+
+427
+00:35:47,040 --> 00:35:51,360
+blockchain or is it the smart contracts and the other applications that are built on top of it
+
+428
+00:35:51,360 --> 00:35:54,640
+that are extracting that? Or does it all just go back to the ecosystem?
+
+429
+00:35:54,640 --> 00:35:56,880
+Is it consumer surplus at the end of the day?
+
+430
+00:35:56,880 --> 00:36:02,240
+That's right. I think we're in the very nascent stages of all this. And so I understand why
+
+431
+00:36:02,240 --> 00:36:06,960
+everyone wants their own blockchain. I just don't think that it's practical.
+
+432
+00:36:06,960 --> 00:36:10,320
+Well, Mike, I feel like I get smarter every time I hear you talk. Thanks for coming on.
+
+433
+00:36:10,320 --> 00:36:12,400
+And where can we send people to learn more about Figure?
+
+434
+00:36:12,960 --> 00:36:18,160
+You can go to figure.com for figure stuff, figuremarkets.com for the crypto blockchain
+
+435
+00:36:18,160 --> 00:36:22,240
+stuff, and providence.io for what we're working on with that protocol.
+
+436
+00:36:22,240 --> 00:36:25,440
+Awesome. Well, congrats on all the success and thanks again for coming on.
+
+437
+00:36:25,440 --> 00:36:26,240
+Thanks for having me.
+
+438
+00:36:26,880 --> 00:36:31,680
+Thanks for listening to another episode of On the Brink with Castle Island. To learn more
+
+439
+00:36:31,680 --> 00:36:37,680
+about Castle Island, visit castleisland.vc. And to listen to all of our podcast episodes,
+
+440
+00:36:37,680 --> 00:36:43,520
+please visit castleisland.vc.com slash podcast, or just click on the tab on our website.
+
+441
+00:36:43,520 --> 00:36:49,200
+Thanks for listening.
+

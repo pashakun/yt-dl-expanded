@@ -1,0 +1,453 @@
+TITLE: DeFi’s Dance with Fintech: Choreographing Tomorrow’s Finance with Paul Frambot
+URL: https://www.youtube.com/watch?v=pOS2N3Ce508
+VIDEO_ID: pOS2N3Ce508
+
+TRANSCRIPT:
+Technology is eating the world and Fintech's first disrupted distribution and DeFi is disrupting
+ infrastructure and there is a very natural wedding to happen between the DeFi world and the Fintech
+ world in order to actually say, "Hey, by the way, all those Fintechs that had amazing distribution that
+ was plugging all of this into the tradfi businesses were actually not switching to our own
+ infrastructure." And then tradfi looks at this and is like, "Oh, we need to come on chain as well
+ because otherwise we're going to lose all the distribution that we used to have." And all of a
+ sudden, everybody, they used to operate into black box with like 3D fat margins to be frank,
+ end up operating in an open environment where competition is actually fierce and where the value
+ accrues to the edges of the network, which is the consumer, as opposed to like in a centralized
+ back-end banking infrastructure. And that's really what excites me about DeFi and about crypto in
+ general is like, how do we essentially take all the value at the center of the financial networks
+ and how do we bring it to the edges.
+ All right, here we are with Paul from Paul, the co-founder of Morpho. Paul, it's great to have
+ you finally on the Defined podcast. Welcome. Thanks for having me. I'm really happy to be here.
+ Awesome. And at ECC, no less. Yeah, no, it's a great, great weather, a bit too great even, like too
+ hot, but it's great. So Paul, Morpho has quickly emerged as one of the leading lending protocols in
+ DeFi and you've done that taking a bit of a different approach than other lenders. We were
+ talking right now about you having between four to six billion of TVL depending on, you know, how
+ you count those numbers. So yeah, we would love kind of the first, the backstory on what got you
+ there. What gave you the idea of founding Morpho? Sure. So I started as a student, actually. I was
+ studying consensus algorithms, distributed computing in France, actually, in Paris. And this is what
+ got me into blockchains and then obviously crypto and then DeFi and then eventually landing. And so
+ we started actually building on top of lending protocols. So we looked at compound, we looked at
+ Ave, we saw that there was an important spread between the landing rate and the borrowing rates.
+ And our first protocol that we now call Morpho V0 was called was essentially a way to optimize the
+ interest rates of the Ave by matching their users peer to peer. And so we built on top of Ave,
+ this protocol that got traction very fast. We got actually to $2 billion with this protocol. It was
+ actually, I think, at the time, the largest user of Ave itself. And this is our entry into
+ lending that was like two, three years ago almost now. And this first step had us realize that a few
+ things needed to change if we truly wanted to be ambitious about on chain lending. And this is
+ what sparked the idea of what we call now Morpho V1, which is the protocol today that has more than
+ $6 billion of deposits, is the idea that the protocol should be permissionless, should be
+ immutable, and it should allow anyone to actually create their lending products. So you can think
+ of Ave as a fund, you deposit your money and Ave Dow is going to manage it for you. Think of Morpho
+ as an infrastructure for funds, where anyone can deploy their own funds. We call them Vault Creators,
+ and today we have 25, and they're going to create lending products that could look like an Ave,
+ for example, with the similar risk profile, but also something that could be more risky, much less
+ risky, much more conservative, different compliance, different risk, different fees, etc. And Morpho
+ just gets to provide the permissionless immutable infrastructure, and then risk curators and distributors,
+ and the building, the lending use case that they need for their specific users, right? And so this
+ way, we couldn't quote like more B2B, couldn't quote, while Ave is more B2C, like Ave would address
+ directly the end users, while Morpho addresses like direct businesses. So for example, Coinbase uses
+ for their loans. So you should take a loan on Coinbase, for example, we use Morpho behind the scenes,
+ but a bunch of wallets as well, like ledger, wallet, finance, wallet, trust wallets, safe
+ wallet, for example, they all have their own version of Morpho that they deploy, that they configure to
+ their specific use case, in order to tailor to their specific audience. So, and this is fully
+ permissionless? It is. So any business or any individual user come to Morpho and create their
+ own lending product? Exactly. If you're like a Latin fintech, and you want to create like a vault
+ that generate yield on USD, Bitcoin, or local money, you can do that extremely easily on Morpho.
+ But it's permissionless. So the fun story is that the first day on Morpho, we had actually like
+ people trying to scam all the users and create fake markets, which obviously at the application
+ level were not shown, but literally a few hours before we deployed the protocol, you know, the same
+ way you have on Uniswap, you have those fake pairs that are created. So it could range from
+ anything. Like the most like largest institution or like asset managers in the world could create
+ markets as well as like, you know, a very DJ and use case, for example. So it doesn't require
+ Morpho to allow specific assets to be deposited and use as collateral. Like anyone can use any
+ type of collateral. We have zero control over the contracts. Contracts are immutable. Really exactly
+ like Uniswap to this regard. You know, I have no say in what tokens should Coinbase use for
+ example, right? And that's part of the value prop. Like Coinbase wants to own the financial
+ infrastructure as well. And they want to be able to say, hey, like, you know, we don't want to ask
+ part if we can do one thing or the other. It's all permissionless, right? And it's the same thing
+ for for everyone in the protocol. Yeah. So that's a crucial difference with Avi, which does have
+ to approve which collateral gets up gets on board it. Yeah, you can think of Avi as something that
+ could have been built on top of Morpho actually compounds that used to be a competitor to Avi
+ is now moving to Morpho. So they have Morpho volts now that they run and that they use the Morpho
+ infrastructure for, right? So they used to have like the compound V free protocol. And now the
+ latest are Morpho volts. Interesting. So how do you manage risk? Because obviously, you know,
+ very volatile, low liquidity collateral could be added easily to Mars. So how do you segregate
+ those types of assets? It's a good question. The protocol does not. The protocol enables anyone
+ to create any form of risk, any form of compliance, etc. It's agnostic of the risk. It's the vault
+ manager, the vault curator whose job is to actually decide, okay, what collateral asset am I going
+ to expose my users to? What oracle am I, you know, going to be using? What liquidation,
+ loan to value, what liquidity, etc. And so we have specialized firms whose job is actually to do
+ this, right? So for example, like there was the gauntlet team, the stake house team, like RE7,
+ block analytics, we have a very, very long list, energy capital. I could go on forever
+ of risk managers, if you may, that deploy those vaults and whose job is actually to do the work,
+ right? But the risk management piece has been externalized from the protocol. I don't get
+ to have a say in what risk management, how risk management is in Morpho. So with these risk management
+ teams, what measures can they take to protect end users? Well, it's fairly like, you know,
+ there are a few things. Morpho in itself is quite simple protocol, right? So you have to make sure
+ that the collateral that you're exposing the lenders to is safe. Say, like for example,
+ WVTC or STEs, etc. are recognized as like pretty safe, like collateral in general.
+ Then you need a safe oracle that you configure properly. That in case of like market
+ hunters, like you are able to price accurately the assets, as well as a good
+ liquidation on two values. So you want to make sure that there is enough collateralization of Bitcoin
+ in order that in case there is a market crash and Bitcoin price is divided by two in just like a
+ few minutes in an extreme scenario. You want to be making sure that the bars that are borrowing the
+ USDC will be liquidated and that they will actually come back to repay because they're being liquidated.
+ And so that's the job of the vote manager to do. But I think something that's important to
+ understand is that Morpho is not looking to have all the possible like risk reward
+ vault in the spectrum. So you could go very far down the risk curve and you could have something
+ that's extremely risky if you wanted to that has a very high yield. And yes, maybe it will take
+ some losses from time to time, but that's like the price of the risk quote unquote. And so we
+ don't want to be like, we want to be the infrastructure where you can build any sort of like learning
+ product that you would want. So your vision is like you said, a lot more B2B focused and you are
+ now all about institutions. And it seems like it's the right time for that or at least there
+ seems to be a shift in crypto where there is more institutions are more open to exploring crypto
+ and even DeFi. So we would love more context from you from how are those conversations going from
+ how has that developed? From when you first started approaching institutions to today,
+ have you seen that shift? Oh, yeah, of course. So the shift is really, really
+ incredible. It's been really impressive. A year ago, I was having already a lot of
+ conversations with institutions, but it was much more sort of like research driven talking mostly
+ to innovation labs and, you know, they were experimenting and building like internal knowledge.
+ Nothing was business driven at all. And the main difference now is that there is so much money on
+ chain that all those institutions see an opportunity, a business opportunity, not just a research
+ opportunity. And so as a result, in those large companies, the people we get to talk to now are
+ the business units that have KPIs to match and that are actually driven by the outcomes,
+ the product outcomes, not by like the experiment. And so this makes a world complete new difference,
+ right? Because you can actually start building very interesting products together with
+ those institutions. And institutions is a broad term, but you have everybody ranging from like
+ the exchanges, the FinTechs, the Neo Banks, to the asset managers and the banks, right? So there's
+ the wide spectrum of like, from most crypto native to least crypto native. And good news is that
+ DeFi protocols, especially when they're positioned as an infrastructure and permissionless, etc,
+ they can serve all the risk and compliance spectrum. All right. And so we get to work with all the
+ spectrum. And there is interest from everyone. And at the end of the everybody will be connected
+ in a single protocol. So that's very exciting. So what types of use cases are institutions
+ interested in right now? So it really depends like, again, it depends on what we mean by
+ institution, but for example, here, an asset manager, right, large stratification manager,
+ well, more for is an asset management protocol. You can deploy vaults, you can manage phones,
+ and expose it to different risks, etc. So that could be an interesting use case for them, right?
+ Right now, when you look at tradfi, they are tokenizing a lot of stuff. But in practice,
+ what does that mean? Is that they have a phone that is off chain running on off chain rails,
+ like traditional backends, etc. And they're just going to tokenize the share. And so they do this
+ because there's a lot of money on chain and they want to benefit from the distribution.
+ But the reality is that it's really awesome. But it's still a bit of a frank inch time, right?
+ Because you're sort of plugging in the DeFi protocol token, it was actually a representation
+ of something that's highly complex chain, right? The idea of world is that we bring the off chain
+ part on chain, right? And this is kind of like what more for is meant to be, right? Like a,
+ you know, a non chain protocol that lets people actually manage phones, right? And risk on chain
+ in compliance, etc, etc. And so to that regard, that's an interesting use case for banks, for asset
+ managers, etc, etc. It's okay. So it's interesting that the framing, because, you know, to me,
+ morpho is about lending and borrowing. And that's, I think like the, if I'm not mistaken,
+ the first major institutional use case has been Coinbase, you're saying morpho for their users
+ to lend against their Bitcoin, right? Okay. But you're now talking about morpho as like a
+ fund infrastructure. So say like BlackRock, which is, you know, they have, you're talking about like
+ tokenized funds, they have their TVL fund. How would that look like if BlackRock were to actually
+ issue funds directly on chain on morpho? You're right. So I should clarify,
+ morpho is a multi-setting market. You have lenders, you have borrowers. So you have use case for both
+ kind of institutions. On the borrower side, you have what we do with Coinbase, for example, where,
+ you know, you can use the morpho infrastructure to build borrowing markets for your users, right?
+ And then you have the lending side, where you have to manage funds to allocate to borrowers, right?
+ And so for example, the middle is, in some way, a morpho vault off chain, where essentially the
+ idea is that you manage a portfolio of bonds, right? And it's state bonds. So essentially,
+ BlackRock gets capital and then allocates this capital to bars. And so in that case,
+ it would be the state or it would be a repo market, whatever. All of this could be in theory
+ and practices stuff, but in theory, it could be reproduced on chain, where the MMF is, the money
+ market fund is a morpho vault that collects money and then it's going to directly lend the money
+ to a state, right? It could be through the form of bonds, whatever, whatever instrument.
+ And the vault in itself becomes the MMF, right? And it's not some kind of like off chain,
+ like instrument that gets tokenized on chain. It's like the fund is actually running on chain
+ and is recognized like on chain. There are obviously some, you know,
+ regulatory like bottlenecks to have like securities recognized in blockchains without having to
+ tokenize them in the U.S. specifically. In Europe, you can have like, you can have more and more,
+ like, especially in France, we have like some regimes that allow you to mint like securities
+ and those kind of funds directly on chain without having enough chain representation.
+ Everything can be done on chain natively. Interesting. Yeah. Yeah, because like that would be
+ then like the next step after real world assets. Exactly. Right?
+ The PR Genius is a top crypto PR and growth marketing agency, helping brands globally with
+ expert PR and strategic growth marketing. They've worked with 300 plus projects like movement labs
+ and IO.net. Unlike traditional agencies, they charge only on performance. Their services include
+ earned PR opportunities and marketing services to help boost wallet holders and organic ex-followers.
+ Learn more at www.thePRGenius.com. Our WIs are all the rage and everyone, you know, is talking about
+ like tokenizing assets off chain to represent on chain. Exactly. But this would be like a step
+ further. Exactly. Like bringing issuing assets directly on chain. Yeah, no 100%. Like native issuance
+ or we need a name like like we have for real world assets, all those kind of things. But having the
+ actual other side of the market. So usually it could be credit, it could be state bonds, etc.
+ Having them natively issued on the chain would be really like the key unlock to have like old
+ tratify actually porting their technologies on chain. And yeah. And so this is what I'm personally
+ excited about. It's a bit, as you said, a few steps forward after a tokenization as we think
+ about it right now. But it has to be the future. It has to be the next step because that's what's
+ going to unlock the most, you know, amount of efficiency, network effects, etc. To have everything
+ in one single state machine, which is the blockchain. Do you think like the logical first step for
+ that is like equity on chain? Like if if companies started just like issuing their shares on chain
+ without having them ever be obtained. That would be awesome. So I think the first example we've seen
+ of that, if I'm not mistaken, it's already been live from Sockgen. So Sockgen is a French bank and
+ they're leveraging this pilot regime for DLT's in France that allows them to mint securities and
+ depth instruments whose registry of ownership is the blockchain. And it's natively on chain
+ and there is no such thing as like an blockchain registry for those, right? And experimenting with
+ those kind of like regulations, I think super important to be able to welcome like, you know,
+ all the securities on a decentralized ledger. And you know, we definitely see that this is where the
+ world is going. Like if you look at what Robinhood announced yesterday, for example, it was, you know,
+ they're launching like those stock tokens on Europe. And this is definitely the direction.
+ So in the case of stock tokens, it's still a representation of something that's off-chain,
+ but eventually that would definitely be the direction I'm guessing.
+ Super interesting. So, okay, let's come back to the press and that's like a very futuristic
+ vision. So you're seeing a lot of interest from institutions. Can you reveal like some of the,
+ I don't know if names would like implementations that we might see on more for coming forward?
+ Well, I obviously can't give names specifically, but I think general idea is that what we've done
+ was Coinbase, which I think is truly amazing in the sense that it was the very first time
+ that we were giving access with web to feature parity. Like the users,
+ the 100 million users of Coinbase have no idea that Coinbase loans is a DeFi product, right?
+ And they should not be aware of that, right? The only thing is that when they
+ perform their loan at the very, very end, it's written powered by Morpho, which is the only sign
+ that could make them guess that this thing is not like, is there something more to it?
+ But it's truly amazing because now Coinbase is able to access global liquidity outside of
+ the Coinbase ecosystem. Like the lending liquidity that the bars are taking is coming outside of
+ comments, actually coming from other fintechs that are depositing liquidity into Coinbase,
+ right? Which is crazy, right? Because now Coinbase uses base as a global back-end that connects
+ liquidity from many different sources. And I think this integration end-to-end from the chain,
+ to the protocol, to the tokenization of VTC, gas subtraction, wallet subtraction,
+ pass keys, etc. All that together was what was needed to prove that you can build better products
+ on chain with feature parity with web2. And this inspired a lot of other people, right?
+ And I've been very, very impressed by how this was embedded into the pitch deck of like
+ every single bank, every single asset manager, every single player I've been talking to,
+ oh yeah, Coinbase, Morpho, Bitcoin, my loans. And this has been really impressive. And even
+ for Morpho, it was a true zero to one, right? In terms of like how fast our conversations were moving.
+ And yeah, and so, sort of like the playbook for us has been like, hey, how can we replicate this
+ playbook with other players and build this global network of liquidity in which you have, obviously,
+ Coinbase, but also like other fintechs, other exchanges, etc. that could do the same. And maybe
+ even like more institutional players that come together in like one single network of liquidity,
+ that's going to benefit everyone, right? For example, Coinbase would be like super happy
+ if we can bring on more lenders coming from other, you know, venues that could even be
+ their competitors, right? Because that would bring them more liquidity, so better pricing,
+ better efficiency, etc, etc. And so yeah, and so that's what we've spent most of our time in the
+ last six months, I would say. It's so interesting how using DeFi as a backend to fintechs or banks
+ can unlock so much, like just instead of having, you know, one closed company, one wall garden,
+ like you said, you now Coinbase by integrating DeFi in the backend, it just has access to it,
+ like, that's awesome, right? Like just like a global liquidity, that wasn't possible before.
+ It's actually the title of my talk tomorrow at ECC is DeFi as the backend for fintech,
+ and goes through essentially the four reasons why you want to use DeFi as a backend, which is
+ number one, you said it is global liquidity and global accessibility, like that gives you like,
+ so deeper liquidity, better pricing for your end users. The second one is super easy to integrate,
+ like it's all open source, like Coinbase open source, some of their integration code
+ for the Coinbase Bitcoin back loans and other stuff. And so frankly, like now with AI,
+ you can spin off your new bank application that plugs into Morpho in like literally a day, right?
+ And that to me, that's insane, right? Number three is transparency. And you know,
+ transparency has been a bit like the meme where people don't really care that much as the end
+ user, the things are transparent at the end of the day. And this is something we've been repeating
+ over and over as an ecosystem. That said, in the case of crypto back loans with Coinbase,
+ well, if you take FTX, for example, a lot of people got burnt, right? By, okay, they put
+ their collateral in the thing to take a loan, but they'll never see their collateral again,
+ because it was rare authenticated into a la media, for example. And so having the chance to,
+ how should I say? Coinbase is now able to prove to everyone that every single
+ dollar of Bitcoin that is deposited in this use case happens to be in self custody of every user
+ in the morpher smart contract. And you can verify that you don't have to take Coinbase for the word
+ for it, which is really incredible. And the fourth reason is ownership. And so what does that mean?
+ Well, Coinbase and all those Fintechs, like their own distribution, but they don't own,
+ in many cases, the infrastructure. Like if you are Robin Hood, or if you are
+ revolutionaries, et cetera, usually you would rely on a bunch of other partners, brokers,
+ et cetera, in order to operate your financial services. You don't own the financial service
+ yourself. And what's awesome about Robin Hood chain that they announced yesterday is that they're
+ moving away from not owning the infrastructure, to actually owning the infrastructure, right?
+ And so now they'll be able to build financial products, and to end from distribution to
+ infrastructure that they can shape into whatever they want in order to build the best possible
+ product for the Revolut or the Robin Hood use base. And to me, that's really exciting,
+ the fact that they can rely on immutable code that they have to trust no one, and they can
+ build the financial product that really makes sense for them is one of the key value proposition
+ of DeFi. For sure. Okay, but in the end, like all of that, the great benefits. But in the end,
+ users will obviously look at what's the most profitable. Can, how do DeFi rates compete with
+ tradfi or like fintech rates? It's funny because I got a few calls from landing desk in the last few
+ months. And the guys asked me, hey, how come retails on Coinbase app get 5% out of their loan?
+ Well, institutional rates are at 8% right now. And I'm like, wait, how do you get 8% that's very,
+ very high, right? It's like, hey, you know, look at my book. So they have their internal like trading
+ book and stuff. And I see the orders and the reality is that because those books are closed,
+ there is no competition, right? No one can come in and say, hey, 8% is too much. I'll take it right.
+ Whereas in DeFi, everything is open. So the competition is truly like the market is so much
+ more efficient. Because if for example, Coinbase borrows starts to pay, you know, 6 or 7% lenders
+ will come because the opportunity is visible to everyone. Whereas if you have a private OTC
+ lending desk, no one knows there is an 8% opportunity of Bitcoin secured lending. I would take it.
+ Like it's a good yield, 8% for Bitcoin back loan. It's a very safe product. And so the fact that
+ everything is open unleashes a very strong competition between lenders. And this is what drives efficiency,
+ like the network effects of everybody can come together and arbitrage the rate in a way that's
+ completely open. It's really what drives better pricing, better liquidity, better efficiency,
+ et cetera, et cetera. Yeah, that makes sense. So I think on the crypto native side,
+ the connection to DeFi is obviously a lot easier and very obvious. And it's kind of like a straightforward
+ path. But what do you think is missing for more like traditional banks and FinTechs even to actually
+ use DeFi on the back. And like from conversations, you're having like what are some of the roadblocks
+ that they're seeing? FinTech's not so many roadblocks, frankly, just like execution and time now.
+ Okay. Frankly, obviously exchanges even better. Banks is different. Banks still have much,
+ much heavier regulatory requirements in order to operate. And so it's very tough for them to
+ move into permissionless blockchain environments. For example, GP Morgan and I believe are still
+ using like Onix or like their pride blockchain for repo. And you know, I think eventually everybody
+ understands now, I think everybody now understands that permissionless blockchains are much better
+ eventually. Before the reason I just mentioned before, which is like, more open means more
+ competition means better pricing, means bigger liquidity, more efficiency, et cetera. So the more
+ you can welcome anybody at one single place, the more efficiency you'll drive. And so everybody gets
+ this, but there are still some regulatory roadblocks in order to be able to, for them to interact with
+ permissionless blockchain. I don't want to talk too much about what those specifically are because
+ I'm not sure to be transparent. And also just as a fact that there is a lot for them to learn still
+ as organizations on how they operate on chain. Now they all want to, which is great. But there
+ is still a gap in like knowledge and understanding. A gap that is tightening is getting smaller and
+ smaller. Fast. I'm very impressed, by the way, by the people in like those institutions. But still,
+ still a gap, prison. Do you think is privacy a concern?
+ It's a good question. I think at scale, it will be for sure a concern. I think the time
+ to market for privacy is not there, though. Super, super, super, super important, obviously.
+ And by the way, I think this is like most of the focus of italic, like having were listening to
+ italic yesterday. And he would like emphasize privacy and the privacy roadmap for, like, you know,
+ for at least like 10 minutes during his talk. And so there are really two kinds of privacy for D5.
+ You have the anonymization of the address and the amount. So what does that mean?
+ You are interacting with the D5 protocol. All the transactions are visible. So someone can see
+ that someone interacted. Can they know it's you? Can they know it? So that's one first question.
+ And the second question is like, okay, you can see that people are transacting. Can they see how
+ much you're transacting, right? The first one is much easier to achieve than the second one.
+ Second one requires like very complex cryptography in order to be able to like anonymize the amount.
+ It trades with the efficiency of D5 protocols. It also requires to reshape completely
+ D5 protocols overall. The first one is much easier. It's much more of a UX things like, you know,
+ you have this thing in crypto where if you have a payment in crypto, you don't want to share
+ your main address because it's just going to leak your entire portfolio. So you would usually share
+ a new fresh address, then receive the money, then send it to an exchange, then get the exchange to
+ send to another account. And this UX is a bit clunky. And there are solutions to be able to like,
+ you know, give just a name. And like the system does the key management for you in the private way.
+ This I believe is going to be needed sooner than later. The other part, which is anonymizing
+ the amounts, much later down the path, probably needed though, down if we truly want to achieve
+ scale for like, you know, capital markets and institutional markets, etc. Definitely.
+ Yeah, I think, you know, from my conversations, that's like concern number one with transacting
+ block deals. Yeah. Yeah. What if sending crypto felt more human? Pulse just launched red packets,
+ a new way to give tokens with meaning. It's gasless, gamified and claimable inside group chats only.
+ Think air drops meet social cues on chain. Backed by smart wallet tech and live across
+ major L2s, red packets turned communities into microeconomies of gratitude and growth. No seed
+ phrases, no friction, just connection with value. Check it out at pulse dot social.
+ Okay. Now, changing topics to the DeFi lending market overall. I recently did a piece for the
+ Define newsletter. That was, you know, looking at how the ecosystem has changed from the very
+ early days. And it's really interesting because early days it was basically
+ compound filmmaker. And, you know, in the past couple years, the ecosystem has become
+ a lot more diverse. Like I said, at the beginning of the conversation,
+ Marvel has really been one of the kind of the star emerging lenders.
+ But Avi has continued to gain market share, even as kind of diversity increases.
+ So your thoughts on kind of where that is going. Is it some sort of network effect for Avi that's
+ just very hard to compete against them right now? Or I guess the pie just grows for everyone.
+ But how do you view competition among lenders in DeFi?
+ Right. So I think Avi is an awesome bank for crypto users.
+ Morpho is an infrastructure for banks, for crypto users. And so there regard the long-term game
+ of Morpho and the long-term game of Avi, I think is very different, right? And if you look at both
+ of our upcoming versions, which is Avi before and Morpho V2 respectively, it goes really in
+ two very different directions, right? Morpho is going the free market route where we're letting
+ and unleashing completely like lending markets and letting the ability for any creators to do,
+ to price the risk of any asset, to fix rates, etc, etc. While Avi is putting even more under
+ the control of token owners with bridges, etc, etc, like interest rate models, whatever.
+ And so what I mean by this is that I don't think we have the same long-term game at all and the
+ same market, quote-unquote. Avi, for example, is much more fully integrated as they do risk
+ management and compliance management themselves. For example, they built like this horizon,
+ which is like, quote-unquote, institutional product that allows people to tokenize their
+ funds and use them as collateral to borrow USD. But they get, it's an investment product that
+ they manage, right? Horizon. Morpho is an infrastructure for anyone to build those kind of use cases.
+ And, you know, the hope on the morphosides is that the person competing with Avi are our
+ builders, like the creators on top of Morpho are the one competing with Avi. And they've been growing
+ a lot. And most interestingly, the creators of today, maybe they're going to partner with the
+ creators of tomorrow. And those guys are probably much bigger than Avi themselves, right? And so
+ my point is that in the world where the number of tokens increases, and I believe we're like
+ orders of magnitude away of the number of tokens that we'll have on chain, you can't
+ manage everything yourself. You have to open the blockade to anyone to be able to do risk
+ management, to be able to go down to, and that collateral is lending and to do credit, you can't
+ be like managing every single line of credit in the world with token orders. I don't think that's
+ scalable. However, if you have an open system, it takes much more time. It's a much longer route.
+ But then you build a builder ecosystem where people can manage funds on top of you and create
+ actual businesses, hire people. And then all of a sudden, you end up with 25 companies that are
+ building on top of the Morpho network, reinvesting resources in the Morpho network. And that will
+ constantly chase new risk and grow the pie. So I hope it makes sense, but there is a
+ regard. It's like a very different long-term game. And I've been doing great as a single
+ manager model where the bank, there are the bank. And I think eventually some of our banks
+ that are built on top of our infrastructure will do even better.
+ Interesting. That's a bold claim. How big do you think that the lending market can be?
+ Today in Tretai, just a repo market, which is over-claturized lending, with, let's say, treasury is
+ as collateral to bar cash, is trillions of dollars of volume every day. So Aave, I think, is like 30
+ something total deposits, a billion dollars of deposits, Morpho is 6. We are very, very small
+ compared to deciding what Tretai can bring. And this is why, again, I think the infrastructure
+ plays really interesting, because you want the big guys to leverage an existing infrastructure
+ to build their own thing that they own. And so whenever they come in, they will be the guys that
+ make the most amount of volume on crypto rails. And so it's a 10 trillion dollar market,
+ like over-claturized lending. Not even speaking of under-claturized lending,
+ which Morpho is also chasing, eventually, as part of Morpho V2 and other stuff we're cooking.
+ Which is an even bigger market, right? But that's another story, right?
+ Let's actually get into that. I'm interested in your thoughts on how if I can get to unsecured
+ lending? Two questions. I thought a lot about that. And I wrote a piece that I published a few
+ weeks ago, one month ago, two months ago, that is called The Price of Trust. And what this piece
+ discusses is essentially the eight-year that, for the last seven, eight years in D5, we've thought
+ about protocols as an entity that's going to issue loan in a risk-free manner. So what do I
+ mean by this is that we were thinking, hey, the role of lending protocol is to issue loan and to
+ secure that loan and make sure that there is no loss of capital, right? And what we ended up
+ concluding with Morpho is that it's not the role of the protocol to issue the loans, it's the role
+ of the markets, right? And that's also a main difference with Avi, right? Avi is the protocol
+ issuing the loan, deciding which collateral is accepted. And so you take money from Avi, right?
+ And Morpho would provide infrastructure for the market to give a price to things and say, hey,
+ I'd be willing to lend my USDC against BTC as collateral. And I would price this 6%, right?
+ And so in the Morpho world, what creators are doing is that they're giving a price
+ to a commitment of future value, right? So a borrower is making a promise and is saying, hey,
+ I'm going to come back with the money at one point. And so the lender is like, okay,
+ why would I trust you for? Well, they say, here is some collateral. And by the way,
+ you can seize it. And there is enough liquidity you'll be able to liquidate it. Sometimes it's
+ not true and it becomes under collateralized, right? But and so that's why the lender trusts the borrower
+ and decides to give it a price, right? Maybe if they're not so sure, they'll give it like 10%.
+ If they are very comfortable, they'll give it like four or like software rates. And it's very
+ important to understand that this, the interest rate is the price of trust, right? And trust is
+ conveyed with liquidatable collateral today. There's really nothing preventing another trust
+ assumption to come in. So let's say, okay, I'm Paul. I sign a message saying, hey, I would like to take,
+ you know, 100k loan at 25% to buy a house. If I submit this intent in the Morphin network,
+ no guarantee is nothing, right? I think some creators would give me the loan. Why? Because they trust me,
+ right? And so then they would have me pay the price of this trust, right? Or the risk of me
+ not repaying, if you may, right? Obviously, that's a very weak commitment that I'm making. I'm just
+ like on honor and on my reputation, etc. You could do much better than that, right? You start having
+ identity primitives. So you could say, hey, here first, I can prove I'm a human. I can prove that,
+ you know, my name is XYZ. Or if I don't want to disclose my name, I could say, oh, I can prove
+ that my risk or off chain is XYZ. And also, here is a legal document under the laws of the US that
+ states that if I don't repay, my credit score gets impacted, or those kind of things, right?
+ Or maybe it's under the laws of France, whatever, right? As soon as you can broadcast this and you
+ can show to the lender why you can be trusted, then the market, the creators can look at all of
+ this and say, hey, okay, I'll give you like 25%, or I give you 20, etc. And the intuition here is
+ that it's not for the protocol anymore to like algorithmically issue the loan for all those individual
+ lenders. It's a market where creators can give a price to whatever trust assumption the bar is
+ bringing. Collateral being one trust assumption, but it's not exclusive at all. Could be much more
+ than that, right? And so this is just the general direction. If you go to permissionless route,
+ the free market route, which Morfoy is taking, there is a very natural path to under collateral
+ as lending and credit, where the bars can, you know, with identity primitives, with some like legal
+ primitives, etc. You can bring trust. And we won't specify like a specific, you know, legal,
+ like module, etc. It's just like, it could be anything. It could be under the laws of like,
+ you know, whatever, France or Kenya or the US. And then it's for the lender to assess, okay,
+ do I trust this contract? Do I do not, etc. So yeah, does that make sense?
+ Yeah. Is that like something that's actually in the works or is still kind of a thought experiment?
+ It is. It is something we've been, you know, actually thinking about, yeah,
+ Internet Morfoy. Interesting. Okay. And about that. And to start wrapping up,
+ what are some of the, you know, like big milestones that we should expect from Morfoy this year?
+ So this year,
+ and just we, I just hope we help bring more real world use cases that are not into crypto
+ on chain. And we help them discover the full power of being on chain, right? And we help them
+ understand that if they have their yield solution that is off chain and they move it on chain,
+ they get much better yields. We have them understand that if, you know, they do this,
+ it would be super easy to integrate and they won't have to deal with like a clunky API,
+ but it's like a half a day integration for their engineers.
+ And finally, have them understand that if they have the distribution, they are the king,
+ and they don't have to rely on track for anymore, they can actually own their own
+ financial infrastructure. And they can rely on DeFi and blockchains to do that.
+ Awesome. So what's kind of the end goal? Like Morfoy teaming up with FinTechs to overcome
+ or like take over finance? Well, I think, you know, there's a few things.
+ Morfoy wants to be the internet protocol for financing, right? Anybody that has an
+ excess of capital that wants to generate yields should be matched with someone that has a need
+ for financing, right? In the most efficient way possible for Morfoy, right? And as part of this,
+ there is this disruption that is needed, right? And I think the game plan is really
+ technology is eating the world and FinTechs first disrupted distribution
+ and DeFi is disrupting infrastructure. And there is a very natural
+ wedding to happen between the DeFi world and the FinTech world in order to actually say,
+ "Hey, by the way, all those FinTechs that had amazing distribution that was plugging all of this
+ into the tradfi businesses, we're actually going to now switching to our own
+ infrastructure." And then tradfi looks at this and is like, "Oh, we need to
+ come on chain as well because otherwise we're going to lose all the distribution that we used to have."
+ And all of a sudden everybody, they used to operate into black box, you know, with like
+ really fat margins to be frank, end up operating in an open environment where competition is
+ actually fierce and where the value accrues to the edges of the network, which is the consumer,
+ as opposed to like in the centralized back end of banking infrastructure. And that's really what
+ excites me about DeFi and about crypto in general is like, how do we essentially take all the value
+ at the center of the financial networks and how do we bring it to the edges?
+ It seems like such an ambitious and kind of, you know, like really long term view for DeFi,
+ but to me it's been exciting to see some of the biggest FinTechs actually using crypto in,
+ you know, this past few months with like Robinhood announcement yesterday and we had, you know,
+ Stripe paper and so on. So it's like we're actually starting to see a glimmer of that future that
+ you described. Yeah, awesome. Yeah, we just like in the past like three weeks we integrated like
+ with five or six different FinTechs like from Lemon and like Argentina to like the block in France
+ and a bunch of others. And it's really happening. It's really exciting. It is happening. Awesome.
+ Well, thank you so much for joining me. This was amazing. Likewise.

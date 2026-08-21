@@ -1,0 +1,473 @@
+ I'm not bullish on any of them because you need like a very specific set of circumstances to be true for a liquid staking to repeat the kind of success story that it has on Ethereum.
+ The first thing that I understand about ETFs in general is like they will basically all compete on price.
+ That's why staking ETFs are going to have a big advantage of a non-staking ETFs just because they can pay you right from the rewards, like your balance is still going to grow.
+ It is actually a very good and like attractive product.
+ From talking about restaking and talking about institutional demand, like the problem here was like in both cases that the staking setup that Lydo gave you was not flexible enough, right? It was opinionated.
+ It was not putting your money in restaking.
+ If we are getting the same returns as everybody else, we are not able to choose we or not or better.
+ And like what made me be released they use and if they use DVT or not.
+ And so I think the idea of vaults is a very kind of organic one. Create your own staking setup with your own notobreaders and then have the ability to mint the liquid staking token like an archaic staking ETH against that.
+ With a collateral ratio that is based on that vaults risk profile.
+ Hello and welcome to Epicenter the show which talks about technologies, projects and people driving decentralization and devolution revolution.
+ I am Brian Crane and today I am speaking with Hausu who is a crypto researcher and writer and strategic advisor to Lydo.
+ Of course Lydo needs much of an introduction although we will introduce it but Lydo is the leading liquid staking protocol and one of the leading staking projects.
+ So really exciting to talk about Lydo and some of the evolutions that Lydo has gone through and that are upcoming for Lydo so really excited for that.
+ Now just before we go and talk with Hausu we would like to share a few words from our sponsors this week.
+ If you are looking to stake your crypto with confidence, look no further than chorus 1.
+ More than 150,000 delegators including institutions like BitGo, Pintera Capital and Ledger Trust Chorus 1 with their assets.
+ They support over 50 blockchains and are leaders in governance on networks like Cosmos Ensuring Your Stake is responsibly managed.
+ Thanks to their advanced MEV research you can also enjoy the highest staking rewards.
+ You can stake directly from your preferred wallet, set up a white label note.
+ We stake your assets on eigenneo or symbiotic or use the SDK for multi-chain staking in your app.
+ Learn more at chorus.1 and start staking today.
+ This episode is proudly brought to you by Gnosis, a collective dedicated to advancing a decentralized future.
+ Gnosis leads innovation with circles, gnosis pay and metric, reshaping, open banking and money.
+ With Hashi and Gnosis VPN they are building a more resilient privacy-focused internet.
+ If you are looking for an L1 to launch your project, Gnosis Chain offers the same development environment as Ethereum with lower transaction fees.
+ It is supported by over 200,000 validators making Gnosis Chain a reliable and credibly neutral foundation for your applications.
+ Gnosis Dow drives Gnosis governance where every voice matters.
+ Join the Gnosis community in the Gnosis Dow forum today.
+ Deploy on the EVN compatible Gnosis Chain or secure the network with just one GNO and affordable hardware.
+ Start your decentralization journey today at Gnosis.io.
+ Cool. Actually, you have been on me for almost four and a half years, so a long time ago.
+ It's good to have you back on.
+ Yeah, the episode was a long time ago, I think, with Kane from Synthetics or something like that.
+ I remember correctly.
+ That's right.
+ Yeah, I got liquidity mining.
+ Yeah, when all of that started, it's crazy that liquidity mining was this topic.
+ That was a time when liquidity mining was so new that we had to discuss it on the podcast.
+ That's what it meant.
+ Yeah, it was the stone ages of DeFi back then when you were still using a manual living in a cave but starting to DeFi.
+ Right.
+ So how did you first get involved in crypto?
+ What's your crypto journey?
+ Yeah, I think the kind of short version is I was a professional poker player for 10 years.
+ During that time, you know, what started as a hobby and like, you know, an activity where you, if you, you know, you were motivated and you were somewhat intelligent, you could make a decent living like it became much more, you know, a sport over time.
+ I would say like kind of became professionalized in many ways and if you wanted to be a top player, you had to work with, you know, what's now known as solvers, like kind of type of like chess computers, but for poker.
+ You had to, you know, build software. You had to study a lot using the software to improve your game and I, over time, I became more and more play poker, but then you'd have software to help you decide what hands to play.
+ So, no, so you weren't allowed to use any of the software and, you know, in real time, the same way if you go to like chess.com, you're not allowed to use a chess computer on the side that would be considered cheating, right?
+ So, if poker, how do you check that? Is it sort of an honor space?
+ So, at the time, basically, you know, the kind of poker solvers weren't really commonplace yet, I would say, and the ones that were out there were like pretty crude.
+ So, it was actually not easy technically, I think, to even try to get that to work, to use it in real time. Today, it's a different story.
+ If I like today, you can get those things for like, very cheap. They're very fast. And so, yeah, like today, actually, you know, pretty much anybody could cheat, probably an online poker, if they want it.
+ And that's why, is a big reason why the game is kind of dying. And the main games or like the biggest games now are played exclusively between people who know each other.
+ And it's like reputation-based. And, you know, a lot of cases, also, people just play offline, or maybe you don't have the same challenges, right?
+ That's interesting, right? That's kind of like maybe general, you know, it's interesting to think about that, because with AI, I guess that's going to happen for like all kinds of stuff, right?
+ They so far had like humans compete, and then you're like, "Yeah, this is not really work for getting work." Yeah, I mean, did you see this, I don't know, the other amount of there was a scandal about somebody had like invented a systematic way to basically cheat in job interviews online using AI?
+ So, of course, well, we have this issue, like, all the time, right? So, we have it all. First of all, you know, we ask like questions when people apply, sort of like essay-written questions.
+ And then I think, you know, I mean, our team is like, "Ah, this is an AI-generated answer." But, you know, of course, I don't know how, what's the detection rate is here.
+ And, but then I think we've also had various cases where, you know, a team like suspected, or where clearly people, either clearly people are using, you know, life in real time, as they're getting asked questions using like chat GPT to get answers.
+ But then I think in some cases, they're like, "Okay, that's definitely happening." But then other cases, they're like, "Not sure." And it's very tricky.
+ Yeah, so, I mean, chess had this problem before poker, because chess computers existed, you know, probably a decade or two before poker, like poker servers did.
+ And they have, I mean, they have killed poker data chess that's played for money, like to a big degree, like that used to be played for money.
+ Same as backgammon and those games got basically solved, and like cheating became too easy. And so, you know, the trust problem was basically insurmountable.
+ But there are also forms of chess. It's called centaur chess. Centaur, because, you know, it's like, you know, the centaur is like half-horse, half-human, right?
+ And like a centaur chess is basically like half-human, half AI. And so, it's the idea that, you know, you can have AI's compete with each other.
+ You can have humans compete with each other, but if you throw like a human and an AI together, it's still a challenge, right?
+ Like, you know, to beat another human and another AI in combination. And so, it's the idea in a lot of ways that, you know, yes, like,
+ AI's will play a much bigger role, but like an AI that's somehow bundled with a human or controlled by a human will always be more effective than just a human or just an AI.
+ And so, that's the case for chess that like human plus AI beats AI?
+ Yes, it actually did, yeah. Like, because, I mean, there are many cases where, I don't know how it works now, right?
+ Like, but in Foka, there were many situations where the AI was actually completely indifferent between choosing like one of two or one of three options in a given situation.
+ And whenever something is closed, I think human intuition can, you know, can play a pretty big role.
+ Also, AI, like, depending on how good the abstraction was that basically the game was solved on, because you, you know, Poka is too big to solve like the full game quote unquote, like you have to make a simpler game.
+ That is kind of an abstraction of the bigger game, then you can solve that, but then you have this abstraction step also back right.
+ So, because you may in the solution, you see like, oh, I'm supposed to play this situation in this way. But like, if you're an expert in solvers, then you know that the AI probably never got to look at this exact situation.
+ This is only part of like a bucket of like one million similar situations that it's all grouping together.
+ And so, you know, if you are, if you know these things, then you can add a lot of kind of intuition and like nuance on top of maybe what the AI is already suggesting.
+ I mean, that is, I guess, the great hope we all have noticed that like somehow, you know, we'll be able to like leverage or merge and cooperate with AI in ways that, you know, we can amplify what humans can do and you're not just become made redundant by the computers.
+ Yeah, I think so, right? And this goes back to what we were talking about in job interviews and so on. I like to the degree that we're still trying to test human capability.
+ I mean, we now need to test like human plus AI capability, right? How good are you in working with AI? And I mean, the most obvious thing is like the things we test for can become much more complex.
+ Like much bigger in scope, right? Where previously you would send someone like five questions to answer. Maybe you now give them a much more expansive work test that fully is just that.
+ That is a great point, right? Maybe one way to go with the, or maybe that is the inevitable thing to go is that you say like, hey, we're going to do this interview and you explicitly are allowed to use AI.
+ And then we're going to see, but I don't know, it's tricky one too. I guess you'll have to totally redefine how interviews work.
+ Yeah, yeah. And I mean, you can even include, you know, let me watch you use AI or like document, you know, give me, give me your prompt history, right?
+ Because even the way that like somebody talks, I'm like, okay, so I like a lot of people I know are saying, I mean, I'm not a manager. I'm more than I see it.
+ But I used to be a manager in the past. And I think the way that you manage people, especially more junior people, is very similar to basically how you would prompt an AI.
+ Like I see a lot of parallels and I think a lot of my friends who are managers saying the exact same thing, they really see very little difference between like how you correctly prompt an AI and how you, you know, you delegate a task, for example, right?
+ And, you know, that is a thing that you, you know, first of all, like humans are going to get much better at delegation, I think, and management as a result of having an eye because all of us have like, you know, 1000 junior employees, if we want, like from now on.
+ And, you know, you can test those things, right? Like in the past, it used to be actually pretty hard to test someone's management skills in an interview setting.
+ But now you can, you know, you can have a really kind of simulated management relationship even just by looking at someone's prompt history is very interesting.
+ Yeah, okay, okay, very interesting. But let's come back to the topic, to the crypto question. So you're playing poker and then.
+ Yeah, so I was playing poker, but I realized over time I became, you know, film one laugh with the studying aspect of the game, this way of like working with the solvers, but like mostly like thinking about the game and talking about the game with other people.
+ And kind of like unraveling, you know, its mysteries and, you know, finding new ways to think about it.
+ And, you know, I was always part of a group with other people and we were kind of coaching each other, and I was coaching some people, you know, I realized that this coaching, this like studying and coaching aspect.
+ Like I was much more motivated by learning and teaching other people than I was at some point by competing. And I knew that, you know, when I am done with poker, I want to do that full time.
+ I didn't know what topic, but I knew basically the form factor that that activity would have to take. And when I, you know, later found crypto, I like crypto was always kind of maybe a little just like rights outside my, you know, my orbit, basically.
+ I knew a bunch of my friends were already like buying crypto since 2013, 2014, you know, making money and dabbling with like trading and also we were using it to send funds back and forth occasionally.
+ When I then started to actually look into it, I very quickly fell down the rabbit hole and that decided that, you know, this would be the thing that I want to spend.
+ Probably the next at least decade of my life on and, you know, I already knew what form factor I wanted that activity to have. And so I, for the first couple years, I only basically focused on studying crypto from many different angles.
+ And write about it, tweet about it, make a podcast about it.
+ And luckily it turned out that I would say crypto is actually uniquely well suited to such an approach, just because it's so complex and so interdisciplinary.
+ You know, you really need to kind of understand a lot of different aspects ranging from economics, politics, law, computer science, game theory, like you can look at this from so many different angles and always find like new interesting ways.
+ A lot of good insights come from putting those different perspectives together.
+ Yet crypto was the so new as an industry that somebody could come in from like totally kind of the outside and, you know, just by being a generalist, you know, catch up to whatever is the frontier of that industry within maybe two years, and then start making net new contributions to the industry.
+ And I think when you come into, I don't know, like, math or physics or really like really many, even AI probably, like, come into many other industries, you won't be able to do that.
+ What were the things, maybe before Lido that, you know, the rabbit holes even down on that really, I don't know, like, got you most excited or obsessed.
+ At the beginning, I was very focused on Bitcoin. I thought this was the, you know, the main thing to understand first, which sent me down, you know, the rabbit hole of, well, what is money, you know, what is, how does it work, what is banking.
+ Like, I could tell that there was some truth to I think what Bitcoiners were saying about maybe money in the banking system, but also there was so much stuff that they were saying that was like simply wrong, right?
+ Like, I think all of the ideas that Bitcoin people have about fractional reserve banking, you know, like all of that stuff and fiat money in a lot of ways is just like completely not true.
+ But there are still a kind of interesting, like, they were right about some parts. I mean, the relationship between, like, government and money, I think, is like one good example or the way that money can be weaponized and, you know, all like these two control people in societies.
+ And so I thought there days, you know, an interesting connection here, but I think I mean, I quickly ended up thinking that Bitcoin competes much more with gold than with the dollar.
+ Yet at the same time, there's like a hierarchy of money in on which like both gold and the dollar also exists, right? And so it was kind of, for me, that was a very like formative, I think, couple of years, like just like getting building up all of these mental models to make sense.
+ And, you know, Bitcoin for me was very interesting. Like, I could see the value for sure. And once I did, once I had that part kind of locked down, it was more about like, okay, how does it actually work?
+ How does it, how does it evolve? Like, how does it evolve? How is it governed? What are like the social systems kind of on top of maybe the technical system that is Bitcoin? What if we, what if we have, you know, we have this model of like how Bitcoin works?
+ But what if we play it out 10 years into the future 20 years into the future? How does it change?
+ And like, for me, for example, the idea of Bitcoin security model and the block subsidy that that's going to run out, that was like a very clear, like that wasn't even a long tail risk. There was just a fat tail risk, right? That for some reason was like illegal to talk about.
+ Yeah, that's still something that worries you a lot when it comes to Bitcoin.
+ I, I think it does. I mean, it, it now worries me a bit less than it has. Not be, I mean, fees are still very low on Bitcoin, but I think now that Bitcoin is starting to have a bit of a layer two roadmap and, you know, we, there is actually,
+ we are starting to see some reasons why people need to use that I won, you know, maybe for DA, maybe for settlement between different layer two. So I think it is at least easier to envision that.
+ That transaction fees at some point, like there is enough kind of an economy on top of Bitcoin that, you know, you don't have to worry maybe so much about that.
+ Yeah. Yeah. Yeah. It still worries me as well. I do think it's a big kind of thing that people in Bitcoin just, I think it's also the sort of software.
+ People talk about the risk for a while, worry about it, but then they're like, is there anything actionable? You can do really hard, right, to do anything.
+ And then you just sort of forget about it. And then you ignore, right, because it's like, well, the risk was discussed, you know, it didn't go anywhere.
+ So then like no point to sort of like people are interested in revisiting that discussion. So I feel like now it's really, I feel the only time when this will become a big topic is when it's actually when there's actually real security issues.
+ Yeah. I actually thought the other day. I was asking myself if I had become like more jaded and like more, I don't know, less kind of willing to like push for big things in crypto because when I, you know, when I was new to crypto is very much like, Oh, yeah, the security budget in Bitcoin.
+ And that's clearly a problem. Let me write, you know, like, let me tweet about that. Like, and write articles about it and go on podcasts and discuss it with everybody, like seek out people to discuss it with try to lobby for not even for changing something in the
+ thing, but like for getting people to agree that it's a problem so we can have a discussion about how to how to address that and I was, you know, there was like an uncomfortable time, right, but also like in time of basically like extreme
+ and now I mean, I doubt still, of course, like things that I would change in crypto, but I was wondering if I kind of still have that, you know, same maybe energy and like this confrontational energy as well, right, to kind of go out and
+ and like just single handedly push for like something to change. And yeah, it was a kind of interesting maybe look in the mirror. So, you know, maybe it's time to go maybe go back more towards that.
+ Yeah, of course, it's so hard to make changes when it comes to some of these things.
+ How did you get involved in Lido?
+ Yeah, I mean, from Bitcoin, Bitcoin is very simple scripting language. You couldn't, I mean, I am not very technical, but it was clear to see that you can't do very much with that, right?
+ Like when you were in Bitcoin, you don't have much maybe of an appreciation for what Ethereum is trying to do in the beginning, but for me, the time when I started to really pay attention was maybe about like 2019 when some of the first DeFi apps started to launch.
+ And for me, that was a sign that, wow, this is really interesting because this isn't just a kind of fork of Bitcoin that may be doing like some things differently.
+ This is really adding a new dimension to what Crypto can do, right? The idea that you can build smart contract platforms, you can have these decentralized smart contracts.
+ And in some ways, it's like a superset of Bitcoin, right? Because like any token can exist, like a token is just a smart contract, right?
+ It's just like a smart contract account where people have like, you know, balances, like, you know, signatures and balances, right?
+ And so, yeah, for me, that was really eye-opening kind of to see those DeFi apps. And at this point, I think I gradually started to spend like more and more of my time looking at Ethereum and looking at DeFi in particular, because all the prior research and like education that had already done on
+ like how finance works and money and those things. For me, I think for me, DeFi clicked much earlier than for other people because of that then because I had done that education in Bitcoin.
+ And I mean, you still have like, just I locked on Twitter yesterday and, you know, there was like a thread from like a top tier VC who was like talking about how we can bring like Elgo Stables back and like whether this or that hasn't been tried.
+ Like this, just like extreme misunderstanding of like how banking works and like how money works. And I'm like, yeah, like, you know, sometimes you don't, it's hard to appreciate like, you know, what do you know or like how that's not, you know, you shouldn't take that for granted in that sense.
+ So there's like a lot of people even like Ethereum who don't know even like the first thing about finance and so on. And like we asked, I think we are still like early in kind of understanding DeFi and appreciating that.
+ And yeah, so like more and more DeFi happened on Ethereum.
+ And then I think at this time I was, you know, you had George was on the show probably a couple times. I like we were very close. Back then he was still, Joseph was still living in Europe.
+ At the time, and we were working very closely together writing like a lot of research articles and doing kind of just like explorative stuff in the ecosystem.
+ But we were very, you know, when this was before, yeah, P1559 happened and we were very focused on topics on MEV and, you know, transaction fee mechanisms, which also like grew out of my interest to what transaction fee mechanisms
+ and Bitcoin and how if we maybe changed that, we can change the way that like, like how much fee revenue can be raised from people transacting, right? And so it was very natural for me then to ask those questions in Ethereum.
+ And I gravitated a lot towards this EIP1559 proposal, which Vitalik had made, I think already like two years before, and it got, but it didn't, you know, you never really pushed for it. It didn't really catch on.
+ And so it kind of laid dormant. And then there was a kind of push to revive it and bring it back. And we were like, we were doing, I think some data like simulation based analysis about that and writing articles about it.
+ And, you know, one of the topics that we were interested in was basically staking pools, because Ethereum at the time was about to switch to Proof of Stake or like Proof of Staking or happen in the works for many years, but that was one of the things we wrote about.
+ We wrote an article about kind of staking pools and like the difference between centralized and decentralized staking pools and staking derivatives.
+ And we basically concluded that in Ethereum, there was like a really good setup to create a decentralized staking pool. And between, and like for this staking pool also to have advantages over of a centralized staking.
+ That would kind of give them a lack of an adoption. And between those staking pools, you had a real, or at least we thought you had a real kind of winner take most dynamic, because you could introduce a staking derivative.
+ That could itself become a building block for like other things and like be used in other applic in other DeFi apps and so on.
+ Because, you know, like if like tokens themselves are just like, you know, have liquidity effects and network effects and like, and so on, we thought that basically because staking derivatives are going to be winner take most, that means that staking pools would also be winner take most.
+ And yeah, that article was very influential at the time. And we, well, I mean, paradigm was already an investor in, in LIDO and I connected with the LIDO team over that article.
+ And we got to talking for a couple months and, you know, maybe like, like a half year later, I became an official advisor to the team.
+ Yeah, I mean, we were also, of course, one, I think we started talking about, you know, like liquid staking idea in 2018, right? Like, right when we started it, I mean, it's such an obvious idea, right?
+ And then we were, I think we did built the first like liquid staking thing for Cosmos and like a hackathon in 2019, I guess.
+ Yeah, also a long time ago now that we wrote this big kind of paper on, you know, the risks and how to do it. And although it was kind of a little bit focused on Cosmos, actually a memory we were also thinking about it here a bit at the time.
+ But we were like, ah, withdrawal thing, like, how can you do it? Like, you know, that was one thing, of course, then having the kind of multi-sig initially, or, you know, if the threshold signature was like, and then the other thing was like, oh, but LDO, it's just like, looks a lot like a security in some ways.
+ But I think in the end, um, in the end, I think the choices, right. And the button, of course, we were already involved, like, launching it from the very beginning.
+ But I think in the end, it's also something where we kind of saw a lot of people were much more conservative back then in terms of regulatory risks, right? And I think we've kind of seen that.
+ Yeah, just the winning path of, I think it was been just to, you know, go ahead and do it, right? And you did it in an ethical way and try to have decentralization and be honest, stuff like that.
+ The right level of risk in business is almost never no risk, right? You know, there's almost like a form of control risk that you want to take. And I think what, I mean, what matters at the end of the day is that, you know, you do stuff that, like, lets you still look in the mirror at the end of the day.
+ Yeah, there's like so many things you can do that are risky, but that are also unethical. And there's like things you can do that, you know, maybe are risky, but not, you know, in a way that you hope is going to become less risky over time and also that, you know, you have no problem justifying to yourself.
+ Because there's no other people getting hurt from that, right? Like, it's like not good for the word, I think. So, yeah, I think that's definitely one of those examples.
+ So, of course, in the beginning, right, Lido, yeah, so there was basically kind of like a multi-sig in a way that was later removed, right, when they started having withdrawals, you know, smart contract controlled.
+ Yeah, the problem was that, like, you know, you had this separation between the, you know, the beacon chain and the kind of the regulator, the chain, right? And so, the beacon chain, we were not able to own a beacon chain validator with a smart contract yet because the beacon chain did not, I think, like, support smart contracts.
+ Like, the technology didn't exist. Like, you, only EOS could own, could control these, like, beacon chain validators. And so, the best you could actually do here was a kind of, like, MPC secured, like, multi-sig, right?
+ You couldn't do a smart contract. Like, that was added only later.
+ Yeah, and then so in the beginning, right, so it was basically that, and then you had five validators, it was the initial set, and, you know, people could just deposit their ETH, get staked ETH.
+ And, you know, it had a huge amount of traction, I think probably the, I mean, my view is there was, like, two big reasons for it.
+ Maybe, maybe it was the third little bit of a reason, but I think the biggest reason was the withdrawals, right? So, where you basically, you had to stake your ETH, and then you wouldn't be able to un-stake it until actual, the merge happened, which, you know, you didn't know how long it was going to take.
+ Three months, six months, a year, who knows, right? So, of course, huge amount of uncertainty. And then no native delegation, right? So Ethereum, I think...
+ I mean, my view, Ethereum is a kind of an example where the staking design, the system of staking design was a bit of a failure in some way.
+ From the perspective that, like, it was designed around the idea that people will run their own validators at home, and no in-protocol delegation.
+ And I was just completely ignoring what people actually want, and then Lido kind of built the thing that people actually want, which is just a simple thing where you can just stake any amount.
+ So, then I think Lido really... Right, we saw also even today, right? Liquid staking on Ethereum, there's, like, way, way, way more adoption than on any other chain.
+ I think for these reasons, like, I mean, I've seen so many different liquid staking protocols launched.
+ I mean, every chain has, like, three to five different liquid staking protocols. Like, even chains that have yet to launch, right? Like, there's, like, three different liquid staking protocols on Monad, and there's, like, two on Mega Eve and whatever, right? Like, every chain has them.
+ And I'm not bullish on any of them, because you need, like, a very specific set of circumstances to be true for liquid staking to repeat the kind of success story that it has on Ethereum.
+ And, you know, one big one was basically the fact that, like, if you staked, it was taken, it was, like, a one-way door, right? Like, the merge ended up taking, you know, how long did it end up taking?
+ Two years, right? Like, I think it was, like, locked up for two years. Yeah. Yeah, I think so.
+ Or maybe, like, maybe it was 18 months, right? But, like, I think the, like, most optimistic estimates were, like, around 12 to 15 months, right?
+ So, you know, and, like, the conservative ones was, okay, you know, maybe it's, like, two, three years, or even never, right?
+ It's like, you were taking a risk. And, I mean, the risk was less of the problem, which is, like, the discomfort from basically locking up your money for a long time.
+ And so, the two solutions to that were exchange staking. If they offered you a derivative, then you, at least you could sell the staked position inside the exchange, right?
+ So, maybe they could also issue, like, the derivative on chain and, you know, to trade it, et cetera.
+ But, like, exchange staking, like, we were very anti-that because we didn't want, like, exchanges to play.
+ Like, it's already the most valuable players in the crypto ecosystem at the time.
+ And we thought if they also control, you know, the chain itself, like, wow, that's really bad, right?
+ And so, and the other was staking in multiples of 32 ETH. Like, maybe ETH was, like, one or two K or whatever at the time, maybe it was even higher, but, like, it was, like, 50 K plus to stake.
+ And you couldn't stake in, like, lower increments. There was very bad also, right?
+ And so, I mean, those two things were basically, those were, like, the golden ticket, right, in a sense.
+ Like, why a liquid-staking pool would do so well on Ethereum, but, like, all the liquid-staking ratios are super low.
+ Like, virtually every other chain, other than ETH. Like, even Solana, it has, like, one percent or two percent, like, liquid-staking penetration.
+ I think it's a bit higher now.
+ Yeah, it might have increased, like, since I last checked, yeah. But it's very small. Like, it's not really comparable.
+ I think that was, like, a good, I mean, like, both were necessary because, like, otherwise, everything would be captured by exchanges.
+ And, like, a good environment for LIDO to launch into, I would say, yeah.
+ Yeah, absolutely. So, when you think of LIDO and the history of LIDO, what are the main, um, the main evolutions in the protocol,
+ the main, the main changes that have been enacted since the launch?
+ Yeah, I mean, I think, I mean, the launch itself is interesting. I would, in some sense, I would call it, like, the Proq Medic Age, right?
+ Like, the V1 is, like, all about pragmatism, because, as you were saying, like, yes, like, there was a small number of notobriders
+ and the tokens were controlled by a multi-sick.
+ And, like, it was all basically for technical reasons, right? Like, you couldn't do, you couldn't actually control, like, beacon chain validators with a smart contract yet.
+ And, like, the baseline also, at the time, it was people taking on exchanges, like, because people didn't want to lock up their funds for two plus years, right?
+ They, you know, they wanted some liquidity, at least, like, all of the big capital did, right? And so it was, like, is this better?
+ Is this better? A, is this better than, like, taking on an exchange? And B, does it have a path to decentralization, right?
+ Like, those were the two questions that LIDO was asking itself. And, like, it made all of the right choices, that were, like, very pragmatic choices,
+ as well, that, kind of, you needed to balance, you know, growth and, like, health for Ethereum, because you didn't want the funds to end up on an exchange.
+ And, and, and, like, path to decentralization, I would say. So, then, when, I think, two years later, like, the merge happened, and this allowed, you know, LIDO then also to add withdrawals to the protocol.
+ I think, took maybe, like, a couple more months for that than to happen. And I would say LIDO has always been on, kind of, two tracks. You know, one is basically, you know, serving users and, like, making the best possible product, and the other is about decentralization.
+ And it was always about balancing these two things. And so the, the first track, I think, in a lot of ways, is about simplicity, you know, like, just, like, click one button and, like, have me, you know, stake my E for you, like, give you the most rewards, right?
+ And the other is, I think, you know, also, like, integrations, liquidity. So, you can actually, with a token that you get in return, you can actually go and use it, right? Like, you can borrow against it in learning markets.
+ I think that really was the biggest thing, like, unlocking, making, making, like, state, state E on the beaten chain, turning that into, like, a collateral asset, like, unlocking the collateral value of that, just made, made it so much more valuable.
+ And this would later, I think, this, this, like, track, like, of just, like, making the best possible product for, for as many users as possible.
+ There were, then, I think, motivate, like, V3, as well, as we're going to talk about in a minute. The other track was always about decentralization.
+ So having, like, a really good node operator set, having, like, always, like, growing the number of node operators that stake is distributed across, making sure it's geo-distributed, it's client-distributed.
+ All of the node operators are following, following, like, best practices around how to run their staking setups, like, you know, make sure that nobody's ever getting set up.
+ Nobody's ever getting slashed. So it was a, a big deal. And then, the other two are kind of making withdrawals permission us.
+ So the idea that if you, if you actually hold any state E, if you can always go to the protocol and you can redeem it for even, nobody can stop you.
+ Right? That is, that is a, that is a big, kind of, north-star goal. And one step towards that is, like, going to be triggerable with drives.
+ So that's, you know, I think there was added in the last hard fork, I think, in theorem. And the other one is dual governance, right?
+ So the idea, I mean, so first of all, you need, you need a way for, like, someone to programmatically trigger with drives from the beacon chain, in the sense that, like, the node operator with the funds are delegated to, you know, just getting ejected.
+ So they have no way to, like, stall it out or something. So that was important.
+ It was for people to be able to withdraw without governance having anywhere to stop that. And so that is the idea of dual governance.
+ And so dual governance is an upcoming upgrade to LIDO, where, you know, any, where basically state E4 does have a way to escalate and, like, freeze the governance system when they think, like, a contentious proposal is happening.
+ And that gives enough time for everybody to withdraw. And so, you know, it's, you know, it's, what this really gives you as a state guy is, you know, you can always withdraw.
+ Like, that nothing can happen in governance, really, like, as long as you assume that, like, a small number of parties is paying attention to act on time and then the protocol can be frozen.
+ And, like, everybody can withdraw their money. And so that, that would then basically make withdrawals entirely permissionless, which is a huge deal.
+ Yeah, because they're probably not all listeners remember this or follow this back then. But for a while, LIDO was very controversial.
+ So I think there was different reasons for it. Right? One was that LIDO ended up getting very big, getting up to about the third of all the ifstake was in LIDO.
+ And so, of course, people are like, oh, if there's more than one third, then, and then I think the other big concern right here was that you had the LIDO token, which the governance token of the LIDO protocol.
+ And so you, of course, had like, oh, well, if now we have all this each, that's kind of, you know, controlled by the LIDO token and then, you know, maybe the LIDO token or they could, like, do something to, I don't know, control the protocol extract value.
+ So, of course, that was never really, it was never risk, I would say, in the sense that it wasn't the LIDO philosophy or values or goals.
+ And I think LIDO was very conscious of these concerns, right? So I think then the dual governance kind of, yeah, I mean, I wouldn't say that it wasn't a risk.
+ I mean, the risk never materialized. Like, it's not, it's not, so, I mean, these two things are related, right? Like, I mean, like the fact that LIDO controlled one third of if, I mean, what does it control mean, right?
+ That's, that's the big question. And so, the reality was that LIDO could really extract some amount of control, like, over the, over the stake, right?
+ And it couldn't really control, like, the hundreds of node operators that the stake is distributed to. But it could, with some reason, like, it could, for example, prevent people from withdrawing at the time.
+ Like, if that's, if that's a proposal that, like, you want to make and that passes, like, the votes on chain.
+ So it's really like, the question is, how do you fix those holds, right? And like, a very big part is like kind of neutering the ability for LIDO to make any decisions that would actually be bad for users and bad for Ethereum.
+ And so I think then, you know, there's, that, that, like a tech factor becomes closed.
+ You know, that said, like, even people, like on the LIDO side, or I mean, there were many people, this was a thing that the community was very divided by, right?
+ Because even like many people weren't working on LIDO were in favor of, like, not self-limiting the growth.
+ And the reason was that the other, you know, the alternative, like, self-capping was also seen as risky. Like, it had its own risks, right?
+ And that was the idea that, um, if the market really is, like, if the market for staking derivatives really is, will not take all, will not take most.
+ And if, like, the good guys, basically, like, self-cap and, like, the bad guys don't, then you just end up losing, you know, the entire market, right?
+ And so that was, I think, a big kind of rationale at the time. And I think we're, like, fortunate that it didn't play out this way.
+ But I don't think it was a given, right? I think we, we ended up seeing that, like, the demand side of the market ended up fragmenting more than we thought.
+ And then that led to, like, basically, like, fragmentation on the supply side as well, which we will, we can get into.
+ And do you want to talk about institutional staking or LIDO V3? Maybe we go with LIDO V3 first.
+ Yeah, we go with V3 first. There's one more thing on, like, I have on decentralization, which is the other big North Star.
+ There's, like, you know, having a good note over the set, having a commissioner withdraws, and the other, the third and, like, final one is having permissionless note operation.
+ So not just the ability for people, like, for stakers to join and leave, like, permissionlessly, but also for note operators to do the same thing.
+ And, you know, that is basically, like, happening, also in major ways, is to community staking module that made, you know, staking permissionless.
+ And it's slow, it's like slowly being scaled up. There's also, like, dbt distributed, like, technology module.
+ It's just the idea that you have, if you have, you know, let's say, like, you know, you have, like, a multi-sake of five and you have, like, three, note operators in that set who are either curated, i.e. like, secured by reputation, or, like, CSM valid us, i.e. secured by a bond.
+ Then you can just add two more, right? And they, you know, they can't control the data, right? Like, they can, you know, it's like another way to, like, make it so that people can join permissionlessly.
+ Maybe it was, like, an even lower bond, or secured by, like, a smaller amount of reputation.
+ But yeah, so just the idea that, like, you can make the protocol more permissionless over time.
+ And also the way that, like, stake is routed across these modules becomes basically, like, more and more automated over time.
+ Yeah. So I was saying before, one staking relative didn't end up winning, you know, didn't end up growing, you know, to, to, like, the majority of the market.
+ And that was because it turned out that, you know, there were, you know, at the time staking was seen as, like, where one staking set up is, like, the same as every other staking set up, you know.
+ So then liquidity became a real differentiator and, and integrations and, and, and that kind of stuff.
+ But as it turned out, I, you basically saw two big trends. And the one was the rise of restaking.
+ So the idea that, like, people were staking, like, they wanted to, like, stake the ETH on a big chain, but also then kind of stake that value that I, again, in some setup where they were maybe earning extra rewards.
+ And I don't did not participate in that. It was, like, seen as not, you know, in the values of the protocol to do that, to kind of take, you know, to re-hypoticate people's stake.
+ And, you know, it basically gave rise to this new, to new protocols that, that did that, that ended up, like, taking more risk, but also paying more rewards.
+ And I mean, mostly, or like, not mostly, but, like, it was entirely fueled by kind of, you know, organic growth incentives.
+ So we were talking about liquidity mining in the beginning, right? It was like all liquidity mining in the sense that there's nobody actually using, you know, actually using that, like, that stake and is actually paying any, like, organic rewards.
+ And there's also no slashing or anything. So, you know, it's just purely, like, building the supply side, paying people points and, ultimately, like, egg layer tokens, for example.
+ And, you know, that ended up soaking up a lot of ETH. And a lot, that this was, like, a big use case that Lido didn't serve.
+ And the other was, like, more institutional forms of staking.
+ So I think as, as, like, more and more, like, institutional players decided to come into crypto.
+ What he ended up seeing was they had different, oftentimes, you know, either, like, risk management, like, more internal-based or, like, more regulatory, i.e., like, external-based kind of constraints and desires about what they wanted to do.
+ So, for example, if you, if you have a, if you have a constraint, like, you need to know the node already you're delegating to, and you actually need to have, like, a pen on paper, like, actual legal contact with them, then that was a thing that, like, Lido did not serve.
+ You at the time, right?
+ Aside from, of course, running, you know, Lido violated, so we started using it, and it's a few, also a while ago now, but I think there was one very elegant design was the stakewise design.
+ And the stakewise design basically allowed you to have different vaults, so, you know, we could have a, we could have a public vault that people stake with, or we could have a vault just for a particular customer where, like, no other assets would be.
+ And then, of course, you can have whatever fee agreement you wanted, you know, you could decide, or different, maybe, DVG for one or not, like, you could have one value to a different set.
+ It was extremely flexible, but then the thing that stakewise also allowed you to do is that all of these different vaults, and there was no fee from the protocol on any of these vaults.
+ But it would allow people to then still mint a liquid-saking token or a thief that was shared across all the vaults, and then, you know, for example, I can layer out of the thief, right?
+ So then you could say, okay, I can put this with an eigenlayer, right?
+ Or I could do, you know, we have this vault now, where you could do leverage-saking, right?
+ Where you can basically take the OSE, put it in all, they bore against it, and loop it, so, like, that, I think, was a very, very elegant design.
+ And that, I think, also, inspired.
+ Yes, absolutely.
+ I saw the same way that liquid-staking had been around, like, two, three years, at least before I'd all launched, like, the idea of vaults, I think, is similar.
+ I think a lot of people in the, like, liquid-staking space, or staking space in general, you know, had been having, like, the same idea,
+ or, like, you know, roughly the same idea, but it wasn't the same priority, or, like, timing, I think, for everyone.
+ I think that, staking-wise, you know, I think they definitely had, you know, great products.
+ And, you know, it's a very strong, I would say, inspiration for Li2V3.
+ Because, so, if you, you know, if we kind of, from talking about restaking and talking about institutional, you know, demand,
+ like, the problem here was, like, in both cases, that the staking setup that Li2V3 was not flexible enough, right? It was opinionated, right?
+ So, it was not putting your money in restaking.
+ You were getting the same returns as everybody else.
+ You did not, were not able to choose who you're not or whether it is, and, like, what made me be released they use, and if they use DVD or not, right?
+ So, it was all, like, one big pull.
+ And so, I think the idea of what's, then, to kind of put that, like, on top of what Li2 already has, is a very kind of organic one,
+ in the sense that you, when you have that, you've already explained it perfectly, right?
+ The world is just, you know, it's the idea to, like, create your own staking setup with your own valid, with your own notabreaders,
+ and, and then have the ability to mint the liquid staking token, like, an archaic stick with against that, with a, like, with a collateral ratio that is based on, on that world's risk profile.
+ And, I mean, I would say that there's a big difference, still, between, like, walls in Li2 and walls in Stakewise, and it's just, like, staked eve is, like, just, like, a thousand times or whatever, like, more liquid, right?
+ Like, that is, that is, like, a big difference, right?
+ And so, the ability to, to be able to mint the most liquid and most integrated staking derivative, that is, that does make it, like, a much better product.
+ Yeah, absolutely. Of course, I think, where Stake eve is absolutely, no doubt, by far, number one, right, is, in terms of liquidity for Stake eve and integrations in, you know, all kinds of places,
+ but, you know, I guess, especially deeper protocols.
+ And, yeah, for sure. So, that, that is something where it's a very compelling offering.
+ So, now, basically, what that means is anyone, or, like, can you explain to us how it works?
+ Can, can now anyone go and create a vault, or is there some kind of, like, permissioning, or, you know, only certain parties, or how does that thing work?
+ And then, also, how does it work with the collateral ratio, right?
+ Because in the end, in the end, right, one of the challenges is that in LIDO, you say, like, okay, we kind of managed to risk by, you know, through all these ways, right, through the distribution, through vetting node operators, at least for the curated set.
+ And now, if people do their own vault, you don't really have control anymore about what they do.
+ Yeah, so anybody can create a vault. Like, a vault is just a kind of immutable primitive.
+ A vault has, you know, someone who can put, like, the stake into it.
+ It has a node operator that the stake is then going out to and being staked with.
+ And you can also have a curator, so very similar to, like, how it works, maybe on, like, more for, and, like, you know, all the new, like, generation of landing markets.
+ You know, a vault can have a curator that's, like, setting, like, the parameters of the vault, and, like...
+ You can have one, or, or, or, or multiple node operators.
+ I think two.
+ I think one. So, did you ask about node operators or curators?
+ No, node operators.
+ Oh, okay. Yeah. I think you can have several. I think it's, like, you know, up to you.
+ So what, what a vault doesn't have by default is the ability to mint stake div.
+ Right. So that, that is, you need, basically, starting with, like, zero percent collateral ratio.
+ Like, you're, you know, you're, you're, your vault is, like, able to mint, like, zero percent worth, like, stake div against your, the collateral, that's, that's in the vault.
+ Or maybe it's starting from some low ratio.
+ I don't know, like, the exact details, but, you know, you can, you basically need, like, commission from the ladder down in order to be able to mint the stake div.
+ I think it's working the same way in, in, in, in stakewise as well.
+ I think all everyone can mint, always see if in stakewise.
+ Now, uh, but I think by default, it has a, it doesn't allow you to mint the entire amount.
+ But that's exactly what it means to me.
+ It's like a very, yeah, they said like a very conservative ratio.
+ And I think that's, that's how it would work as well, probably in, in LIDO.
+ Yeah. So by default, in seguise, I think every world can mint, I think 95%. And then some vaults, I think it's actually just the course one vault and the genesis vault.
+ Uh, they have some, uh, special, like, okay, has to get to certain size.
+ It has to have some spice token collateral has to go through governance.
+ And then they can do a hundred percent.
+ Yeah. And I'm the, the way that I would like encourage people to think about that is, like, modules in LIDO, like right now, stake is coming in.
+ And then there's a thing, the quote is taking router and it's like giving basically, you know, the right, like, mint, stake, and steady to different modules.
+ Right. And like that distribution function today is, is permission because it's necessary for risk management.
+ Like they are, we have ideas for like automating that in the future and like moving to kind of a policy based type of governance, like your governance only sets the policy, but the policy is then like implemented automatically.
+ And, you know, this is another, this isn't technically a module, but it's like, it's like a module in the sense that like the, the DAO sets, you know, risk limits basically for, for vaults, like, vaults as a whole.
+ And then can set like, you know, what, what types of vaults, like, can get like what type of collateral ratio and like, what is their, their, their minting ability.
+ So that's very important.
+ So that basically will mean like someone creates a vault.
+ And let's say, of course, one creates a vault or someone else gets a vault.
+ And then you want to allow this vault to mint OAC against it.
+ You will go through the LIDO governance process to get vaults whitelisted for this or approved.
+ I mean, in LIDO DAO, we're not fans of like making these like very like low level decisions. So I think more likely there's like a governance vote to unlock a certain amount of like overall wall liquidity to mint stake if maybe like, let's say, like, initially like 2%, then 5%, and then 10%.
+ That of all staked vaults outstanding. And there's like a committee, like a risk management committee that is basically then charged with like, allocating that, that capacity to different vaults.
+ So, I mean, you know, if you, you know, if that would be your touchpoint then as well, like, if you're a chorus one and you're launching a vault.
+ And what's the timeline on the LIDO v3 rollout and other different phases to it?
+ So, yeah, we are in a pre-launch phase right now. So, I mean, right now, there's like a kind of simulated way to do vaults. It's like not technically a vault, but it's like kind of like trying to simulate that through like off-chain refunds and like giving you some ability to do custom setups,
+ but like the actual v3. And like, we're like also working with like many different parties right now, basically, like getting them ready to kind of adopt it when it goes live.
+ And like the actual v3 launch is going to be in summer 2025. So, in maybe like one quarter.
+ Cool. That's very exciting. Yeah. And I guess maybe that ties in a little bit with the institutional state inside, right? I mean, I think that ties, certainly the whole thing about, "Hey, I want to have a contract with my node operator. I want to have an SLA."
+ Like all of that stuff, of course, becomes possible then. I guess the other big thing is ETFs or kind of sort of products that are traded in the traditional financial world.
+ But that represent underlying state Ethereum where redemption is a big issue, right? So basically, they generally have to serve redemption as like, you know, T plus one.
+ So someone says, "I want to get my ETH out. They have to send it the next day." But then that's a problem, right? Because the ETH on bonding period is much longer than that.
+ And then on the size of the exit, yeah, exactly. Yeah, I mean, as you're saying, right? So first of all, between non-staking ETFs and sticking ETFs, the first thing that I understand about ETFs in general is they will basically all compete on price.
+ ETFs is like a commodity and commodities compete on price. Brand plays some role, but not that much. And so that's why staking ETFs are going to have a big advantage over non-staking ETFs,
+ just because they can, you know, like a non-staking ETF actually needs to charge you like a fee. Whereas a staking ETF, they can actually pay you, right, from the rewards, like your balance is still going to grow.
+ And they can just like charge a much more like invisible kind of fee from that. And so I think it's like, it is actually a very good and like attractive product.
+ And within the set of staking ETFs, you're basically competing on how much you can stake. Like you want, you're going to maximize like your returns by staking as much as possible.
+ And that in turn is controlled by the size of the door or like how many doors there are. And so if you're, if, because you need to be able to, as you were saying exactly right, like you need to be able to serve the redemption requests when they come in.
+ And when you, when you use like native staking, well, just like go through, you know, just put your money directly on lithium beacon chain, you basically have like one door, right? Like the door is the exit queue from the beacon chain back to the execution layer.
+ And so that door, you know, you don't really know how big it is like it's like it's like sometimes it's like, you know, can move a lot of money through, but then other times it's clocked and very often they will clock at the exact time when you like don't, you need it to like not clock right because everybody wants out at the same time for the same reasons.
+ And so what staking derivatives give you is a second door next to the smaller like official door that's like a backdoor, right? And so that's the idea of, you know, you can't just, you can't just unstake your if to the beacon chain.
+ You can also save your steak if to willing bias in the secondary market. And those buyers, especially if the steak if is trading at a discount, they have all the reason to wait to hold it on the balance sheet.
+ And then maybe redeem it like a week later, or like two weeks later, like that's like, that's like, there's a near risk free arbitrage trade for them. And so you can expect that the like size of the kind of second door, the like secondary market
+ is going to be a really good way to kind of exit your like, expand the total amount of exit liquidity that these ETFs have available and just allow them to stay more and thus charge like much lower fees.
+ And so that's why using the exact right staking setup is that it, that is, I think, you know, that probably is going to be like the siding between winning and losing for these ETFs.
+ Absolutely. Absolutely. Anything else you want to talk about with regards to institutional staking?
+ I mean, we are, we are in advanced stages of discussion, I would say, with all of the major ETF issuers.
+ And yeah, I think it's, you know, it's going to happen like at some point. I think LIDO is in a really good position, because nobody else can offer like the size of the door.
+ That that staking can. Yeah, absolutely. So maybe we can do a final topic a little bit and talk a bit about Ethereum more generally.
+ I think there has been a perception of a, well, I would say a state of crisis, right, a bit in Ethereum.
+ I mean, for one, you've had Ethereum actually perform pretty badly as an asset for a while.
+ So it's massively on the platform Bitcoin, massively on the platform to Lana for a few years now.
+ You've had the sort of crisis, big questions around all the L2s and does value really go to Ethereum and what makes Ethereum valuable.
+ And what is Ethereum in the first place? Is it the world computer or is it this kind of some sort of digital gold, like money, a bit like Bitcoin and like, and then how should the Ethereum Foundation work?
+ And now you have the leadership changes at the Ethereum Foundation with new executive directors.
+ And so actually speaking with a lot of VCs in the last months, I felt there was a really widespread bearishness on Ethereum.
+ How do you feel about things?
+ Yeah, I think I tend to like not get so overhyped when things are going well and like mostly focus always on like the negatives.
+ And when everybody is like dunking on a thing, I try to see more of its positives.
+ So I think I'm more from my character, more of a like flat line, you know, in that sense, like emotionally.
+ And I mean, I think in this, in this particular case, it's like a positive.
+ So I think Ethereum has never been like, like that downbeat, like I think as like people were saying, very often, I think like price performance comes first and then people are trying to backfill like a narrative for why has it has it done poorly.
+ I think this is there's probably some some effect here like that where like something is performing poorly and then people are making up a narrative for why that's the case and that narrative is very convincing to other people.
+ But then also sell it reinforced the narrative.
+ When you just look purely at the fundamentals, then like, yes, like Solana has caught up to Ethereum in some of the metrics that matter.
+ But it is also leading in like many metrics that matter.
+ In your view, what is, I don't know if you have like under one or two or maybe a max three metrics that you think are most important to look at.
+ What are they?
+ Well, I think it's like number of like number of VC backed protocols launched, like on Solana versus like Ethereum plus layer two.
+ So I think would be my, this is a very big one.
+ I think TBI is another big one. That one's hard to fake.
+ Like those two, those two would be pretty big.
+ And then maybe deck, something like text trading volume, maybe because I'm most care about like finance.
+ The thing is like when you, I think people are like looking for, I mean, I'm coming from the MEV space, of course.
+ And so, and like, I mean, so I know that like in Ethereum, we see actually like MEV, like MEV becomes basically protocol revenue as like proposes auction off the right to order transactions in a block.
+ We see that as like a, that's almost like a negative indicator for like how well the chain is doing.
+ Like if that number is very high, it means there's a lot of MEV, it means a lot of users like market makers and stuff are like basically getting their money extracted from them.
+ And it's, it's, it's a super bad UX and it's, you know, gonna make people like not come back, etc.
+ And so we have worked very hard for like many years to build an MEV supply chain where people don't get front run.
+ They don't suffer like the worst. They don't get sandwich. They don't get like, they don't pay like this.
+ They are max slippers tolerances for apps to build.
+ If you have the tools and the knowledge, etc. to build, you know, MEV resistant applications and stuff.
+ And then you're like in Solana in a lower ways, it's like totally like the wide west, like Ethereum, like four or five years ago, where like every user is getting sandwiched in like almost every trade, everybody's paying their max slippers.
+ And you combine that with these like coins and like use cases that are extremely speculative, right?
+ Like meme coins where, you know, if I have a very short time horizon, I know I'm buying this thing to sell it like today or tomorrow.
+ I don't care about as much about my execution, right?
+ So in this case, I'm fine with paying like a 5% transaction fee or like a 10% transaction fee, even in some cases, because it's so volatile, you know, and my time horizon is so short.
+ And so I think when you look at that, it's just like extremely, you know, first it's bad because it's literally like money taking from users, but it's also extremely unsustainable.
+ And because a chain that has this level of MEV extraction is, you know, never going to be able to scale to like use cases beyond the ultra like short term.
+ So I'm not saying a problem won't get solved because I think it will make the, we know the GTO team pretty well, like they are very, like they are aware of all of the problems and like very sensible and smart.
+ I mean, also like the revenue numbers that like Solana, Stakers and like GTO are making are like, they're not good and, and they're also not sustainable.
+ Yeah, for sure. I think that's definitely one place where Ethereum is far ahead of Solana and where I think there's still a ton of work to do to make the whole transaction supply chain and MEV more.
+ Kind of, I don't know, reasonably managed.
+ Yeah, I agree with that. And I think the majority of the DFI ecosystem is also something where I think Ethereum is still far ahead.
+ Yeah, I mean, that's not even, I mean, it's just like by, I don't know, buying something on Solana the other week and like the, I mean, the exchanges are on like a different level of quality, but like not in a good way.
+ I mean, there's like, you know, I'm very used to like Solana, like using Cowshop, for example, like on Ethereum, like disclosure, I'm, I'm an investor, but just like, I'm also like a user.
+ And like the idea that, you know, I can have a little bit so I was compete to give me the best execution.
+ My traits are MEV protected. I can pay my gas fees and like the output, like all of that stuff, right? Like, it just doesn't exist right on Solana. And it's like not a good experience.
+ Like, I know people say they love the UX and I think the wallets are, you know, the like, kind of wallet is a, is a, is a good UX.
+ But just like, in terms of just the basic, just like getting the basics of DeFi right beyond meme crunchy, I think they still have like some ways to catch up and frame the different way.
+ Like, I think the maturity of the DeFi ecosystem, like all in all Ethereum is still pretty far ahead.
+ Yeah, I agree with that. But to come sort of to this point about, you know, the sentiment about the Ethereum and the performance as an asset, what do you think it will take for this to turn around and for Ethereum to again be something that, you know,
+ grows up and creates excitement and you feel this momentum and people like bullish about it and they want to buy more of it and like, well, what does it take?
+ What does it take? I mean, so I think the same way that like narratives reinforce, like snowball and reinforce themselves on the downward, they do so on the upward as well.
+ I mean, the way that you would expect this to turn around is like people are really, you know, they're really just like fed up with Ethereum and, you know, there's like bad news can't really face them anymore because all they expect is like bad news, right?
+ And so it takes like very little good news to like maybe with slightly more positive at some point and then like, you know, you can have a kind of snowball in the other direction. I think that's very often like how these things work.
+ So you can try to make up like, okay, we need like fundamental changes, but very often days are like a cyclicality to these things that shouldn't be ignored. I think fundamentally, like the leadership changes at the F. I think that that was good.
+ Like hands down, I think that Ethereum has been like, I mean, Ethereum is research led in the sense that like it has very long roadmaps and like things are in discussion for a very long time and it's trying to have a very decentralized development process.
+ It's also research led in the sense that like the quad apps and like the F researchers that they are the ones driving the roadmap and for a very long time, like industry involvement in that roadmap was seen as not desired, right?
+ And like, you know, you can have this at a time when you're the only chain, but when you're competing with other chain ecosystems for the same developers.
+ At some point, you need to start paying more attention to the ecosystem. And like, I mean, the DeFi people can tell you like everybody building in DeFi can tell you like at least one very bad experience about like working with the F in the sense that like they're there.
+ Either they are like very dismissive of like the thing you're building in the sense that like I love Vitalik, but also like his word carries a lot of weight. And so when he's like maybe writing that he doesn't like DeFi or he thinks that like, you know, crypto shouldn't be used for that.
+ And he hopes that there would be other use cases, etc. Like, you know, it feels very dismissive for like the people working on that, for example, right?
+ Or another is like when they have ideas for how the protocol should be improved because they, you know, it's their users, right? They know, you know, what they get like a million support tickets for every year.
+ And like, they know what they're suffering with. I mean, then, and you try to turn that like into an EIP and you're already meeting a little resistance in the sense that like, are you trying to like crop the protocol you're trying to take over the protocol.
+ Like, I mean, those are like very bad experiences. And I think those are things where I think you have now the full recognition that like, hey, that hasn't been maybe so good.
+ And like, what can we do to change that?
+ Like, there's a new energy, I would say, and like people getting like the right people getting promoted into the right positions, including the two new Eds. And especially to Marsh from Nevermind, he has built in like a very like large and successful organization in Nevermind.
+ And they are very commercially minded, right? It's amazing how they have built a successful, very big successful company on the back of creating an Ethereum.
+ Client, right? Which really, you shouldn't be able to like commercialize that, right? But they have managed to, like they're not making money to the client, but like they have built everything around that.
+ And to me, that's like an extremely good sign. Like he has extremely deep roots in industry and knows all of the builders.
+ And so I think you're seeing a new kind of energy around making Ethereum more commercially open and commercially minded. And I think that is, if there was one thing that I would change, then it would have been that for sure. And so, and we're seeing that.
+ So that's very positive for me.
+ I agree, I agree. No, I think I think that's that's probably one of the big thing is also just a sense of like, you know, core development moves a bit faster, more programmatic, you know, tries to I think I think some degree of scale faster scaling.
+ I think it's an important one too.
+ That is the other thing. Yeah. I mean, if you listen to apps, then yeah, you would have scaled the layer one, right? Like, so there's a kind of related, but maybe it's still worth talking about separately, but I think in terms of roadmap.
+ Like, I think there must be an understanding that there is now an understanding that like, you shouldn't give up on the layer one. Like, I mean, a lot of what makes great system center for rollups to build on.
+ Ethereum is the quality of the layer one. It's speed. It's finality. You know, it's the A costs and transaction costs. So we need opcodes for ZK verification, like stuff like that, right? And so, like, there's a bit more of the understanding where, yes, we want to have a roll up central program.
+ That means roll ups are a big group of customers. So let's think about what they need holistically.
+ And a lot of what they need, we can only give them by making the layer one better.
+ And so I think you're seeing a real revitalization also of that conversation.
+ And so I think anybody who's like buying Ethereum is also underwriting the thesis that like these two, like the people who want to push for those two things
+ can basically, you know, break through like the resistance and like, you know, a lot of the entrenched like interests, like inside these processes and like this bureaucracy that has built up, right?
+ Because Ethereum is a very like procedural kind of community.
+ And like decision making in a lot of places has historically grown to be very decentralized for better or worse.
+ And, you know, in some areas, you have like, there's the understanding that like, well, this like this group of people maybe, or like, you know, I mean, the core developers are like the main example, right?
+ Like you have the client teams and like client teams decide what goes into the fork.
+ And that's, you know, maybe that is like one of the very big assumption that like needs to be challenged in the sense that like often, you know, core developers do the implementing, but maybe they shouldn't, you know, they shouldn't be the decision makers for what actually goes into it
+ because like Ethereum is not the type of protocol where you can have, you can be like an extremely talented engineer, but you can also still have that kind of like strategic vision and like, keep the whole protocol in your head and like know what it needs
+ like at what time, like at least like the set of stakeholders who get to make this decision needs to be like expanded.
+ Cool. I think that's a great note to end on. And I'm also excited to see sort of what this new energy will bring to Ethereum. So thanks so much for coming on House. We really enjoyed this conversation.
+ Thanks, Brian. It was really fun. Thank you.

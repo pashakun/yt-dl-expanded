@@ -1,0 +1,876 @@
+1
+00:00:00,000 --> 00:00:06,720
+Welcome to On the Brink. My name is Sean Judge. Today, I'm joined by Gita Panchapakasan, CEO
+
+2
+00:00:06,720 --> 00:00:11,760
+and founder of Tesser. We recently announced we would have a $4.5 million seed round of financing
+
+3
+00:00:11,760 --> 00:00:18,480
+into Tesser alongside Strobe, Anthemist, and Digital Currency Group. Panchapakasan has spent nearly 20
+
+4
+00:00:18,480 --> 00:00:25,600
+years in payments across MasterCard, PayPal, MoneyGram, Fiserv, Visa, and most recently Circle.
+
+5
+00:00:25,600 --> 00:00:30,880
+She's now helping enable financial institutions to utilize stablecoins. Without further ado,
+
+6
+00:00:30,880 --> 00:00:33,680
+here's my conversation with Gita Panchapakasan.
+
+7
+00:00:55,760 --> 00:01:00,560
+Down by bad mortgage investments, Lehman, which has 25,000 employees, will be liquidated.
+
+8
+00:01:00,560 --> 00:01:05,280
+The federal government loans American International Group, AIG, $85 billion.
+
+9
+00:01:05,280 --> 00:01:08,000
+This is a different kind of market and the Fed is asleep.
+
+10
+00:01:08,000 --> 00:01:11,520
+The federal government is stepping it to stabilize Fannie Mae and Freddie Mac,
+
+11
+00:01:11,520 --> 00:01:14,720
+the two mortgage giants that have been threatened by the housing crisis.
+
+12
+00:01:14,720 --> 00:01:18,640
+The bank of England has pumped 75 billion pounds more to Britain's ailing economy
+
+13
+00:01:18,640 --> 00:01:20,160
+with a new round of quantitative easing.
+
+14
+00:01:20,160 --> 00:01:23,360
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+15
+00:01:23,360 --> 00:01:26,880
+So out of this worry, we have something called the Bitcoin. Bitcoin.
+
+16
+00:01:28,000 --> 00:01:30,400
+Welcome to On the Brink. My name is Sean Judge.
+
+17
+00:01:30,400 --> 00:01:35,840
+Today, I'm sitting down with Gita Panchapakasan. Gita, welcome to On the Brink.
+
+18
+00:01:35,840 --> 00:01:38,640
+Thank you so much, Sean, and you did my name very well. I'm impressed.
+
+19
+00:01:39,760 --> 00:01:44,320
+Worked on it. Just to start, Gita, if you could just share your personal background and
+
+20
+00:01:44,320 --> 00:01:47,680
+how you arrived at working in crypto.
+
+21
+00:01:47,680 --> 00:01:51,520
+Absolutely. I landed in payments with a job at MasterCard,
+
+22
+00:01:51,600 --> 00:01:57,760
+no particular reason. And then tried a few things, meandered a bit, landed at Moneygram,
+
+23
+00:01:57,760 --> 00:02:01,760
+did cross-border payments, loved it. And then meandered a little bit more.
+
+24
+00:02:01,760 --> 00:02:04,720
+And from Moneygram to doing stablecoins for cross-border payments,
+
+25
+00:02:04,720 --> 00:02:08,400
+just eventual thing that had to happen. So here I am.
+
+26
+00:02:08,400 --> 00:02:14,160
+That's great. And within payments, what is it specifically about payments that interests you?
+
+27
+00:02:14,160 --> 00:02:18,000
+It's going to sound cliche, but it's the reality of it, the usefulness of it.
+
+28
+00:02:18,000 --> 00:02:21,120
+It's something that everyone has to do. And especially when I started doing
+
+29
+00:02:21,120 --> 00:02:25,120
+cross-border payments, regular payments, you're paying for goods and services can be a little
+
+30
+00:02:25,120 --> 00:02:29,840
+boring, but when you start sending money overseas and it feels like much more real value to it.
+
+31
+00:02:29,840 --> 00:02:34,320
+Definitely something that I appreciated a lot. Little anecdote was that while I was at Moneygram,
+
+32
+00:02:34,320 --> 00:02:39,120
+I set up US to Philippines, US to Mexico, and then I set up US to India, and then I sent money
+
+33
+00:02:39,120 --> 00:02:43,760
+to my in-laws. I was like, oh, this is real. I'm actually using it. So there's something very,
+
+34
+00:02:43,760 --> 00:02:44,800
+very real about it.
+
+35
+00:02:44,800 --> 00:02:50,160
+That's great. And so you've obviously worked at a number of large payments companies before
+
+36
+00:02:50,160 --> 00:02:56,560
+arriving at Circle. What major shifts have you seen occur in payments before even stablecoins?
+
+37
+00:02:56,560 --> 00:03:00,720
+That's a very good question. There's a lot, right? But if I were to step back and say,
+
+38
+00:03:00,720 --> 00:03:04,960
+what are the big things? Domestic real-time payments with governments actually stepping
+
+39
+00:03:04,960 --> 00:03:10,400
+in to push that within their countries. I think that's a big one. The UPI. UPI I think is about
+
+40
+00:03:10,400 --> 00:03:15,440
+10 years old in India. PIX is, I think, closer to five years old. PIX in Brazil. But I think
+
+41
+00:03:15,440 --> 00:03:20,000
+real-time payments generally has become pretty popular, pretty big, pretty important.
+
+42
+00:03:20,000 --> 00:03:24,960
+I think the other thing you see is a lot of this open banking, API-based payments,
+
+43
+00:03:24,960 --> 00:03:28,800
+like account-to-account payments, that whole thing. I'm clubbing into one big thing, but
+
+44
+00:03:28,800 --> 00:03:34,560
+going beyond card to make payments, it's still more popular in markets where card is not that
+
+45
+00:03:34,560 --> 00:03:40,000
+prevalent, but it has become a big trend. Plaid exists because of that, for example.
+
+46
+00:03:40,000 --> 00:03:44,240
+The other interesting thing is wallets, which were primarily payment methods.
+
+47
+00:03:44,640 --> 00:03:49,120
+A lot of the rest of the world wallets are used for lending, so you can actually,
+
+48
+00:03:49,120 --> 00:03:54,160
+from your wallet, I think, ATM does it, Alipay does it. All these super apps you can do. Loans
+
+49
+00:03:54,160 --> 00:03:58,880
+from your wallet, insurance from your wallet, investing from your wallet, which even I think
+
+50
+00:03:58,880 --> 00:04:04,160
+Revolute offers. I think the wallet becoming a gateway to overall financial services has
+
+51
+00:04:04,160 --> 00:04:07,040
+actually been very, very interesting to see. It makes a lot of sense. Then,
+
+52
+00:04:07,040 --> 00:04:12,240
+diving into Tesser, you started Tesser earlier this year. We were thrilled to lead the seed
+
+53
+00:04:12,240 --> 00:04:18,960
+round there. What is the high-level overview of Tesser? Tesser was built basically to enable
+
+54
+00:04:18,960 --> 00:04:25,040
+traditional financial institutions to access blockchain in a very simple and easy manner.
+
+55
+00:04:25,040 --> 00:04:30,240
+Traditional financial institutions, which we define as banks, PSPs, MSPs, they move
+
+56
+00:04:30,240 --> 00:04:35,680
+trillions of dollars today, but they don't move it very efficiently. We now have a very
+
+57
+00:04:35,680 --> 00:04:40,480
+efficient way to move value. Why not try to find an easy way to get access to that?
+
+58
+00:04:40,560 --> 00:04:47,040
+Basically, Tesser was created as a one-stop shop, simple, widely-built technology solution for
+
+59
+00:04:47,040 --> 00:04:53,120
+traditional financial institutions. Was there a specific moment before or at Circle
+
+60
+00:04:53,760 --> 00:04:57,440
+that shaped your conviction in the space around stablecoins?
+
+61
+00:04:58,000 --> 00:05:04,640
+It's the journey. Having been in cross-border for so long, it's very much at MoneyGram spending
+
+62
+00:05:04,640 --> 00:05:08,480
+six months with my partner in the Philippines, who is a bank, trying to figure out how much
+
+63
+00:05:08,480 --> 00:05:12,800
+money we need to keep there and if they will give us any interest and what will we do if the money
+
+64
+00:05:12,800 --> 00:05:18,800
+runs out. It was so painful. The fact that there's constant tracking of the working capital that's
+
+65
+00:05:18,800 --> 00:05:22,960
+sitting in these places, I used to come running to my Treasury guy and go, we've run out. Can you
+
+66
+00:05:22,960 --> 00:05:27,200
+please move some more money instantly? All of that, by the time I got to Circle, I was like,
+
+67
+00:05:27,200 --> 00:05:34,000
+this makes sense. Where are those legacy payments companies today as it relates to stablecoin
+
+68
+00:05:34,000 --> 00:05:39,920
+strategies? You see a lot of headlines. Are people really engaging with these things? Where are they
+
+69
+00:05:39,920 --> 00:05:44,960
+and their journey into being able to send stablecoins? They're all over the place, is a simple
+
+70
+00:05:44,960 --> 00:05:50,160
+answer. Even when I was at Circle, I think two to three years ago, some of the big ones like
+
+71
+00:05:50,160 --> 00:05:55,200
+Worldpay, Visa, Stripe, all these guys started actively looking at stablecoins and using it.
+
+72
+00:05:55,200 --> 00:06:01,200
+So there are some PSPs who got into the game early, specifically PSPs, a few banks, but primarily
+
+73
+00:06:01,200 --> 00:06:06,320
+PSPs. But then ever since the Stripe bridge announcement, it's become, it's really accelerated.
+
+74
+00:06:06,320 --> 00:06:10,800
+A lot of the PSPs have tried to get in, they're doing partnerships, they're trying to figure out
+
+75
+00:06:10,800 --> 00:06:16,560
+what makes sense. Banks have been a lot more cautious because they are much more cautious about
+
+76
+00:06:16,560 --> 00:06:21,360
+regulatory impact on them. So they have been much more cautious, although like Standard
+
+77
+00:06:21,360 --> 00:06:26,880
+Chart had gotten the game early. And even now banks are like, okay, I will maybe provide a way to
+
+78
+00:06:26,880 --> 00:06:30,800
+invest in digital assets. I'm not exactly sure what to do with stablecoins, but they
+
+79
+00:06:30,800 --> 00:06:35,200
+know they need a stablecoin strategy. So they're all working on that. There are, of course, there's
+
+80
+00:06:35,200 --> 00:06:40,480
+still some that need a stablecoin 101. So it is all over the place. On Tesser, if financial
+
+81
+00:06:40,480 --> 00:06:47,280
+institution wants to have the alternative to send stablecoins, what infrastructure is lacking today
+
+82
+00:06:47,280 --> 00:06:53,680
+for them to do that? Or said differently, what is Tesser building to enable this as an option?
+
+83
+00:06:53,680 --> 00:06:59,440
+Truthfully, the infrastructure exists, but it's very fragmented. So it's all over the place.
+
+84
+00:06:59,520 --> 00:07:04,320
+If you have to go understand what custody options you have, what makes sense for you,
+
+85
+00:07:04,320 --> 00:07:07,920
+and then you have to figure out what what providers to use, if they can actually do
+
+86
+00:07:07,920 --> 00:07:12,240
+exactly what you need to do, especially when you're a regulated FI, then you have to figure out
+
+87
+00:07:12,240 --> 00:07:16,240
+where do you go for on-ramp. And then which token should I use? Which chain should I use?
+
+88
+00:07:16,240 --> 00:07:21,120
+Wait, this is new chain. Should I use that? What exactly should I do? And then what is gas?
+
+89
+00:07:21,120 --> 00:07:27,120
+There's all that stuff. And then at the end of the day, we bring all of that together in one
+
+90
+00:07:27,120 --> 00:07:32,960
+package solution where they can plug in and go and be able to offer stablecoin payments, either as
+
+91
+00:07:32,960 --> 00:07:38,400
+offering it to their customers as an option or even using the rails in more efficient ways
+
+92
+00:07:38,400 --> 00:07:43,120
+to find a new revenue opportunity, lots of new things that they haven't thought about. We're
+
+93
+00:07:43,120 --> 00:07:48,080
+able to bring it to them in one piece. It would take them upwards of 12 months to build this.
+
+94
+00:07:48,080 --> 00:07:52,960
+They can build it with us in like two to four weeks. At the end of it, they do payments on behalf
+
+95
+00:07:52,960 --> 00:07:58,080
+of others. So they have to account for every cent. So we do all of the reconciliation, the reporting,
+
+96
+00:07:58,080 --> 00:08:02,880
+the cleanup, all of that for them, which makes it a lot, lot easier. So technically from an
+
+97
+00:08:02,880 --> 00:08:08,240
+infrastructure perspective, yeah, things exist, but it's difficult. It sounds like these financial
+
+98
+00:08:08,240 --> 00:08:12,080
+institutions are a little bit all over the map to your point in terms of where they are in their
+
+99
+00:08:12,080 --> 00:08:18,240
+stablecoin journey. But what is your view in these conversations on how stablecoins will benefit
+
+100
+00:08:18,240 --> 00:08:24,160
+a financial institution? I mean, so many ways. A lot of what we are seeing people realise is that
+
+101
+00:08:24,160 --> 00:08:32,320
+settlement as a use case is a very big one. Banks have grown up on this Nostro-Vostro concept. So
+
+102
+00:08:32,320 --> 00:08:37,680
+they have accounts everywhere, friends in other banks, they hold funds on all of these banks,
+
+103
+00:08:37,680 --> 00:08:43,520
+and it's a painful thing to manage. Treasury across multiple currencies, multiple banking
+
+104
+00:08:43,520 --> 00:08:49,040
+partners, when you can settle with a bearer instrument where once the value is transferred,
+
+105
+00:08:49,040 --> 00:08:53,600
+it's yours. You don't need to hold value there in order to have it ready to be transferred,
+
+106
+00:08:53,600 --> 00:08:58,640
+but you can transfer it at a moment's notice. And the value now has actually been transferred.
+
+107
+00:08:58,640 --> 00:09:03,760
+That is an incredible innovation. So for a lot of these banks that move money, they don't need to
+
+108
+00:09:03,760 --> 00:09:08,480
+do this anymore. They don't need to hold funds with other banks anymore. They can instantly move
+
+109
+00:09:08,480 --> 00:09:14,960
+value with stablecoins. That to me is fundamentally like an operational efficiency in leaps and bounds.
+
+110
+00:09:14,960 --> 00:09:19,920
+It's also, by the way, a lot of the dollar accounts, we talk about dollar accounts in like
+
+111
+00:09:19,920 --> 00:09:24,560
+Argentina and places where there's volatility, but I don't know if you noticed wise announced
+
+112
+00:09:24,560 --> 00:09:29,440
+recently they were hiring a new person. It was all over the news and they're hiring somebody to
+
+113
+00:09:29,440 --> 00:09:34,560
+actually look at what they're specifically the digital holding strategy is. How do you actually
+
+114
+00:09:34,560 --> 00:09:40,480
+provide capability to their customers to hold funds in dollars? And that's basically what people
+
+115
+00:09:40,480 --> 00:09:44,560
+are saying is that de-dollarization, notwithstanding, there's actually a lot of demand for holding
+
+116
+00:09:44,560 --> 00:09:49,440
+dollars globally. And this is a very simple and easy way to do it. And just thinking about
+
+117
+00:09:49,440 --> 00:09:55,760
+starting this, starting Tesla a few years ago versus right now, you mentioned it feels Stripes
+
+118
+00:09:55,760 --> 00:10:01,120
+acquisition of bridge was the starting gun for a lot of traditional web two companies,
+
+119
+00:10:01,120 --> 00:10:05,280
+as well as just financial institutions broadly saying, hey, we should start to look at this
+
+120
+00:10:05,280 --> 00:10:10,880
+stablecoin space. But I think more importantly, recently, with regulatory clarity, how is
+
+121
+00:10:10,880 --> 00:10:16,720
+the Genius Act shifted conversations you're having with banks and fintechs?
+
+122
+00:10:17,280 --> 00:10:22,640
+That's an interesting question because the Genius Act is focused on the issuance, right? It's not
+
+123
+00:10:22,640 --> 00:10:27,840
+really focused on how does a bank account for stablecoins and what can they lend against it and
+
+124
+00:10:27,840 --> 00:10:31,440
+how does it look on the balance sheet? It doesn't say any of those things. It basically says these
+
+125
+00:10:31,440 --> 00:10:36,240
+are the rules. If you want to be an issuer, you have to be, I think it's called a PPSI, but these
+
+126
+00:10:36,240 --> 00:10:42,160
+are the rules if you want to issue a stablecoin. That being said, near fact of the existence of
+
+127
+00:10:42,160 --> 00:10:46,480
+the Genius Act has actually opened up a lot of doors because people are like, oh, okay, so it's
+
+128
+00:10:46,480 --> 00:10:55,120
+not a bad thing. We can actually, in some ways, we can engage with it in some way. So I think that
+
+129
+00:10:55,120 --> 00:10:59,920
+has been extremely helpful and needless to say the US sets the standard. So although Mika in
+
+130
+00:10:59,920 --> 00:11:04,400
+Europe has been around for a while and it's much more comprehensive, it's not focused on issuance,
+
+131
+00:11:04,400 --> 00:11:09,920
+once the Genius Act has happened, other countries are also at least willing to engage and talk about
+
+132
+00:11:09,920 --> 00:11:14,960
+it, although they're probably a lot slower. There's been a tremendous amount of infrastructure
+
+133
+00:11:14,960 --> 00:11:21,120
+that's been built over the last five years or so that have made it easier for individuals to hold
+
+134
+00:11:21,120 --> 00:11:27,360
+and send digital assets. What other infrastructure could you enable today that wasn't maybe quite
+
+135
+00:11:27,360 --> 00:11:32,160
+built a few years ago? There's a bunch of tooling underneath Tesser. The way I think about it is
+
+136
+00:11:32,160 --> 00:11:37,040
+there are two or three different kind of broad areas from pure tech perspective. I don't think
+
+137
+00:11:37,040 --> 00:11:42,240
+you could do payments on Ethereum five years ago. What was it like? 15 transactions,
+
+138
+00:11:42,240 --> 00:11:47,280
+seconds, some ridiculously small number, it was very expensive, but that has significantly
+
+139
+00:11:47,280 --> 00:11:53,760
+become better. The chains are able to compete with visas like 65,000 transactions per second.
+
+140
+00:11:53,760 --> 00:11:59,040
+You have layer twos that can actually do that. I think that's a big step forward because you can
+
+141
+00:11:59,040 --> 00:12:04,080
+actually take this to a bank that does payments or a PSP that does payments and say, this is very
+
+142
+00:12:04,080 --> 00:12:08,720
+similar. You can get the same kind of throughput you used to get with other payment methods.
+
+143
+00:12:08,720 --> 00:12:13,440
+From a technology front, there are some of those things like custody infrastructure also,
+
+144
+00:12:13,440 --> 00:12:17,920
+whereas you had Bitcoin anchorage, which were meant for large holders where it's not easy to
+
+145
+00:12:17,920 --> 00:12:21,520
+move in and out. You need to look at something and people are starting to actually shift towards
+
+146
+00:12:21,520 --> 00:12:28,160
+more of a payments based custody options, which are also secure and tight. I think from a technology
+
+147
+00:12:28,160 --> 00:12:32,400
+perspective, those things are there. There's then the ecosystem. There's on and off ramps have
+
+148
+00:12:32,400 --> 00:12:35,920
+continued to grow without that you couldn't do anything in payments. I wouldn't have been able
+
+149
+00:12:35,920 --> 00:12:40,560
+to take this to a bank and say, hey, look, we can build you an ecosystem. We can connect you
+
+150
+00:12:40,560 --> 00:12:47,040
+to the ecosystem because it's there. It exists. That's been a big shift, but honestly, I think
+
+151
+00:12:47,040 --> 00:12:53,520
+it's the maturation of the space overall has been why Tesser, we're doing this at the right time.
+
+152
+00:12:54,080 --> 00:12:57,840
+It's the visas of the world that push to say, well, we're going to do this.
+
+153
+00:12:57,840 --> 00:13:02,240
+We're going to be an early adopter. It's the regulations. It's the fact that
+
+154
+00:13:02,240 --> 00:13:08,240
+regulations have been enforced on exchanges and other crypto biggest FIs so that there's
+
+155
+00:13:08,240 --> 00:13:13,200
+now trust in that as well, that they're responsible for AML. They have AML obligations.
+
+156
+00:13:13,200 --> 00:13:18,720
+They have KYC, KYB obligations. All of those things have brought in a certain amount of trust
+
+157
+00:13:18,720 --> 00:13:26,160
+into the ecosystem. I am able to build Tesser for this specific audience only now because of all
+
+158
+00:13:26,160 --> 00:13:31,040
+these things that have actually happened. I guess with the Tesser product, what does the product
+
+159
+00:13:31,040 --> 00:13:37,440
+look like today for businesses looking to move money? You touched a little bit on some of the
+
+160
+00:13:37,440 --> 00:13:43,920
+reconciliation or reporting piece. What are some of the core aspects of the product that really
+
+161
+00:13:43,920 --> 00:13:50,960
+stand out for FIs as they evaluate other providers in the space and other ways to engage with stable
+
+162
+00:13:50,960 --> 00:13:57,760
+coins? Absolutely. The MVP, by the way, is going out tomorrow and the core platform,
+
+163
+00:13:57,760 --> 00:14:03,600
+the MVP actually does cover most of the plan for the core platform. The core platform is,
+
+164
+00:14:04,320 --> 00:14:12,160
+it's a packaged end-to-end for the FIs. FIs today are talking to payments networks, other
+
+165
+00:14:12,160 --> 00:14:17,200
+access to stable coin infrastructure, but they don't really have the pieces that need to plug in
+
+166
+00:14:17,200 --> 00:14:22,960
+number one. We provide the custody infrastructure, which the plan is to have multiple options,
+
+167
+00:14:22,960 --> 00:14:28,800
+depending on the kind of FI you are, depending on the specific needs you have. It could be a
+
+168
+00:14:28,880 --> 00:14:33,920
+custodial option, an MPC wallet. Based on what it is that you're looking for, we have different
+
+169
+00:14:33,920 --> 00:14:40,000
+options. Starting from that, we can plug you in with the right on-ramp providers, depending on your
+
+170
+00:14:40,000 --> 00:14:46,160
+geo, depending on your risk appetite, et cetera. Then there is all of the treasury management,
+
+171
+00:14:46,160 --> 00:14:51,760
+the gas management. We are plugged into multiple chains. We offer multiple tokens today, the MVPs,
+
+172
+00:14:51,760 --> 00:14:58,160
+USDC and USDT, but eventually we plan to add a lot more. All of that, you have access to immediately.
+
+173
+00:14:58,400 --> 00:15:02,880
+We're managing your treasury for you in the sense that today the MVP is all about tracking your
+
+174
+00:15:02,880 --> 00:15:08,720
+balances based on sending money to Nigeria. Yesterday, the rate was one thing. Today,
+
+175
+00:15:08,720 --> 00:15:12,880
+the rate is another. You may not have enough money to match that. We make sure that your
+
+176
+00:15:12,880 --> 00:15:18,480
+treasury is ready to make the payments for your day. We are obviously doing the payments. The
+
+177
+00:15:18,480 --> 00:15:22,800
+payments are almost the BAU piece of it, like everybody's doing the payments. We are plugged
+
+178
+00:15:22,800 --> 00:15:27,440
+in to the right off-ramp providers. We're enabling the payments. We're executing on the payments.
+
+179
+00:15:27,440 --> 00:15:33,360
+But then, like you said, the important piece is the reconciliation because we ensure, again,
+
+180
+00:15:33,360 --> 00:15:38,400
+for you as a service provider to others as an FI, we ensure that we get you all of the data that
+
+181
+00:15:38,400 --> 00:15:42,960
+you need in your transactions so you can take entire everything at the end of it. That's basically
+
+182
+00:15:42,960 --> 00:15:48,480
+the end-to-end of what we provide. I'm fairly confident there's nobody else that provides this
+
+183
+00:15:48,480 --> 00:15:53,440
+out there in this particular form for an FI. We'll provide bits and pieces. Again, I think it's
+
+184
+00:15:53,440 --> 00:15:58,720
+fragmented. You can use other service providers who have their own regulatory framework and
+
+185
+00:15:58,720 --> 00:16:02,800
+operational framework. But if you want to build this within your own framework and do it quickly,
+
+186
+00:16:02,800 --> 00:16:08,960
+this is the best way for you to do it. It's amazing. As you're building, Tesser, if you could
+
+187
+00:16:08,960 --> 00:16:14,640
+fast-forward one regulatory or technical development, what would that be today?
+
+188
+00:16:15,200 --> 00:16:19,760
+Honestly, even though I was saying regulations would move forward, the truth for the matter is
+
+189
+00:16:19,760 --> 00:16:24,960
+banks, especially banks, are still a little skittish about, okay, I don't know if I can hold
+
+190
+00:16:24,960 --> 00:16:31,840
+stables. Can you find me a way in which somebody can hold it on my behalf? And that's primarily
+
+191
+00:16:31,840 --> 00:16:36,720
+because in a lot of jurisdictions, including the US, you don't exactly know what it means to hold
+
+192
+00:16:36,720 --> 00:16:43,120
+stables. In a lot of the jurisdictions in Latam, for example, stables are neither a good or a bad.
+
+193
+00:16:43,120 --> 00:16:47,440
+It's just gray. When it's gray, you're like, what happens if they come knocking on my door and I
+
+194
+00:16:47,440 --> 00:16:51,920
+don't really have an answer? I wish that would accelerate. I think it's going to. I wish it
+
+195
+00:16:51,920 --> 00:16:56,880
+would accelerate a lot faster than it does. Well, this is great. We invested earlier this year.
+
+196
+00:16:56,880 --> 00:17:01,360
+What are some of the key hires that you need to get going on here in the next year or so?
+
+197
+00:17:02,080 --> 00:17:08,160
+We've done an initial hire already. We've got very deep product people. We've got BD people.
+
+198
+00:17:08,160 --> 00:17:14,480
+We needless to say, we've got our key engineers. We are going to probably hire some folks on the
+
+199
+00:17:14,480 --> 00:17:19,440
+operational side once our design partners get up and running. We'll continue to build out the
+
+200
+00:17:19,440 --> 00:17:22,960
+engineering team, although we're really, the engineering team is trying to see how much they
+
+201
+00:17:22,960 --> 00:17:28,320
+can use AI to keep it tight. And then we'll see. We'll see what else we need as we go. But we're
+
+202
+00:17:28,320 --> 00:17:32,160
+now five and a half or six people, five and a half, because one of them is actually about.
+
+203
+00:17:32,800 --> 00:17:38,640
+Well, congrats on the launch at Money 2020. And I'm sure people will be excited to see that next
+
+204
+00:17:38,640 --> 00:17:44,960
+week. In the meantime, where can people learn more about Tesser? Yeah, for sure. If you're at
+
+205
+00:17:44,960 --> 00:17:51,200
+Money 2020, please come see us at BoothSU 13, which is the startup area. But otherwise,
+
+206
+00:17:51,200 --> 00:17:56,240
+Tesser.xyz, of course. And in that, by the way, if you go down to the bottom, you can actually
+
+207
+00:17:56,800 --> 00:18:01,600
+reach out to the team and get a meeting going. So do that. If you want to talk to us,
+
+208
+00:18:01,600 --> 00:18:06,800
+there's a link to our calendars. You can find us all on LinkedIn and we've all posted at various
+
+209
+00:18:06,800 --> 00:18:12,160
+times. So you'll be able to look up Tesser on LinkedIn and be able to find the people that
+
+210
+00:18:12,160 --> 00:18:17,200
+work there and reach out to any of us on LinkedIn as well. So those are some good places to start.
+
+211
+00:18:17,200 --> 00:18:22,640
+Great. Well, Geeta, thanks so much for joining us today. Super excited to be partnered with you
+
+212
+00:18:22,640 --> 00:18:28,240
+and the team at Tesser. Awesome. Thank you so much. Really appreciate Castle Island for
+
+213
+00:18:28,240 --> 00:18:32,400
+believing in us, trusting in us and getting us up and going. So yeah, we'll do this journey
+
+214
+00:18:32,400 --> 00:18:36,720
+together. Awesome. Look forward to having you on in a couple of years. Thank you so much. To talk
+
+215
+00:18:36,720 --> 00:18:41,680
+about all the big financial institutions that are using Tesser. Yeah, for sure. Awesome. Thanks,
+
+216
+00:18:41,680 --> 00:18:47,840
+Geeta. Thank you. Thanks for listening to another episode of On the Brink with Castle Island. To
+
+217
+00:18:47,840 --> 00:18:54,320
+learn more about Castle Island, visit castleisland.vc. And to listen to all of our podcast episodes,
+
+218
+00:18:54,320 --> 00:19:00,560
+please visit castleisland.vc. slash podcast or just click on the tab on our website. Thanks for
+
+219
+00:19:00,560 --> 00:19:04,560
+listening.
+

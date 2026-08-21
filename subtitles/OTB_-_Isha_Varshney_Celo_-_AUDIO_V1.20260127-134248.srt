@@ -1,0 +1,2768 @@
+1
+00:00:00,000 --> 00:00:05,400
+This is Wyatt, and on today's episode, I was joined by Isha Varshney, Head of Ecosystem
+
+2
+00:00:05,400 --> 00:00:07,120
+at Sellout Foundation.
+
+3
+00:00:07,120 --> 00:00:11,640
+We talked at length about digital money usage in Sub-Saharan Africa and global stablecoin
+
+4
+00:00:11,640 --> 00:00:13,120
+adoption patterns.
+
+5
+00:00:13,120 --> 00:00:15,520
+I hope you enjoy our conversation.
+
+6
+00:00:15,520 --> 00:00:17,880
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+7
+00:00:17,880 --> 00:00:20,500
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+8
+00:00:20,500 --> 00:00:22,640
+and do not reflect the opinions of Castle Island Ventures.
+
+9
+00:00:22,640 --> 00:00:25,200
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+10
+00:00:25,200 --> 00:00:28,760
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+11
+00:00:28,760 --> 00:00:32,400
+to make a particular investment or follow a particular strategy, but only as an expression
+
+12
+00:00:32,400 --> 00:00:33,400
+of their personal opinion.
+
+13
+00:00:33,400 --> 00:00:36,560
+This podcast is for informational purposes only.
+
+14
+00:00:36,560 --> 00:00:40,960
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+
+15
+00:00:40,960 --> 00:00:41,960
+liquidated.
+
+16
+00:00:41,960 --> 00:00:46,160
+The federal government loans American International Group AIG $85 billion.
+
+17
+00:00:46,160 --> 00:00:49,200
+This is a different kind of market and the Fed is asleep.
+
+18
+00:00:49,200 --> 00:00:53,360
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+
+19
+00:00:53,360 --> 00:00:55,860
+giants that have been threatened by the housing crisis.
+
+20
+00:00:55,860 --> 00:00:59,660
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+21
+00:00:59,660 --> 00:01:01,220
+with a new round of quantitative easing.
+
+22
+00:01:01,220 --> 00:01:04,500
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+23
+00:01:04,500 --> 00:01:07,620
+So out of this worry, we have something called the Bitcoin.
+
+24
+00:01:07,620 --> 00:01:08,620
+Bitcoin.
+
+25
+00:01:08,620 --> 00:01:11,660
+Isha, thanks for joining us on the podcast.
+
+26
+00:01:11,660 --> 00:01:13,180
+Excited to talk to you today.
+
+27
+00:01:13,180 --> 00:01:14,180
+Thank you for having me.
+
+28
+00:01:14,180 --> 00:01:15,860
+I'm really excited about our conversation today.
+
+29
+00:01:15,860 --> 00:01:19,700
+I'm excited to be into a couple of really fun things that we've chatted about earlier.
+
+30
+00:01:19,700 --> 00:01:21,200
+Me as well.
+
+31
+00:01:21,200 --> 00:01:25,180
+If you don't mind, please give a bit of a personal background and talk about what you're
+
+32
+00:01:25,500 --> 00:01:26,500
+doing these days.
+
+33
+00:01:26,500 --> 00:01:27,500
+Happy to.
+
+34
+00:01:27,500 --> 00:01:28,500
+My name is Isha Varshney.
+
+35
+00:01:28,500 --> 00:01:31,780
+I head Ecosystem at Sallow Foundation.
+
+36
+00:01:31,780 --> 00:01:37,220
+Sallow for people that are not aware is an EBM layer two blockchain and I've been head
+
+37
+00:01:37,220 --> 00:01:41,100
+of Ecosystem here for two years and then I was hired to be head of DeFi.
+
+38
+00:01:41,100 --> 00:01:45,340
+Prior to this, I have a really interesting background, very not crypto native.
+
+39
+00:01:45,340 --> 00:01:48,140
+So did traditional finance before this.
+
+40
+00:01:48,140 --> 00:01:54,780
+I'm an accountant by profession, did M&A at a KPMG for a few years, did an MBA.
+
+41
+00:01:55,380 --> 00:01:58,820
+I did what everybody does typically after the MBA, went into traditional finance and
+
+42
+00:01:58,820 --> 00:02:00,220
+private equity.
+
+43
+00:02:00,220 --> 00:02:03,540
+But the interesting thing about all of this is that I'm actually born and raised in Kenya.
+
+44
+00:02:03,540 --> 00:02:07,740
+After MBA, I went back home for a couple of holidays to see my parents and there was this
+
+45
+00:02:07,740 --> 00:02:12,020
+massive fintech revolution happening on the continent, specifically in that region of
+
+46
+00:02:12,020 --> 00:02:13,020
+the world.
+
+47
+00:02:13,020 --> 00:02:16,020
+I had friends that had never been to Kenya, moving to Kenya to do all of these really
+
+48
+00:02:16,020 --> 00:02:19,860
+cool interesting fintech jobs and I was like, oh shit, I think I'm missing out and I never
+
+49
+00:02:19,860 --> 00:02:21,140
+done tech before.
+
+50
+00:02:21,140 --> 00:02:26,420
+So I just rolled the dice, took a sabbatical for three months and I joined a regional bank
+
+51
+00:02:26,420 --> 00:02:30,380
+that was setting up the digital banking unit and that was my first foray into tech.
+
+52
+00:02:30,380 --> 00:02:34,740
+We set up the digital bank and the product is still a market leader in that region and
+
+53
+00:02:34,740 --> 00:02:37,500
+then did a bunch of fintech consulting work.
+
+54
+00:02:37,500 --> 00:02:43,020
+You name it from lending to wealth advisory to like payments and that helped me understand
+
+55
+00:02:43,020 --> 00:02:46,900
+what building a product and building a team in the tech space looks like, post which
+
+56
+00:02:46,900 --> 00:02:50,300
+I had my own startup obviously as you do when you work in tech, you have to do something
+
+57
+00:02:50,300 --> 00:02:51,300
+of your own.
+
+58
+00:02:51,300 --> 00:02:57,180
+So I have a wealth tech robot advisory startup that was successfully bought out in a few
+
+59
+00:02:57,180 --> 00:02:58,180
+years.
+
+60
+00:02:58,180 --> 00:03:01,580
+This was, think of it like the Acorn, those few that are familiar.
+
+61
+00:03:01,580 --> 00:03:06,020
+It was very similar to the Acorn, focused in the Indian market and that did really well
+
+62
+00:03:06,020 --> 00:03:07,020
+so did that.
+
+63
+00:03:07,020 --> 00:03:12,080
+And then once I got bought out, it was also COVID, had just moved to America, wasn't allowed
+
+64
+00:03:12,080 --> 00:03:16,940
+to work because of regulations around re-immigration here and so had this period of what am I doing?
+
+65
+00:03:16,940 --> 00:03:21,100
+What is the next iteration of technology and then also what is the next iteration of finance?
+
+66
+00:03:21,100 --> 00:03:24,900
+Because I went from traditional finance to fintech and then obviously DeFi was the next
+
+67
+00:03:24,900 --> 00:03:26,220
+obvious move.
+
+68
+00:03:26,220 --> 00:03:30,660
+And so I joined Solo as head of DeFi like I mentioned and at that point we just announced
+
+69
+00:03:30,660 --> 00:03:32,440
+something called DeFi for the People.
+
+70
+00:03:32,440 --> 00:03:37,360
+It was a hundred million dollar allocation to liquidity and grants and just encouraging
+
+71
+00:03:37,360 --> 00:03:39,220
+the DeFi ecosystem in Solo.
+
+72
+00:03:39,220 --> 00:03:42,180
+And then as luck would have it, FTX happened straight after I joined.
+
+73
+00:03:42,180 --> 00:03:45,300
+And so that hundred million dollar evaporated very, very quickly.
+
+74
+00:03:45,300 --> 00:03:49,540
+But I think in my mind, excellent timing because I learned how to build in the bear.
+
+75
+00:03:49,540 --> 00:03:51,780
+I've been in the ecosystem during the bear.
+
+76
+00:03:51,780 --> 00:03:53,580
+Oh, we're only going to do DeFi.
+
+77
+00:03:53,580 --> 00:03:55,140
+Oh, what is actual utility?
+
+78
+00:03:55,140 --> 00:03:57,180
+What is product market fit for Web3?
+
+79
+00:03:57,180 --> 00:04:01,020
+And that's been a really interesting journey, especially at Solo because Solo was built
+
+80
+00:04:01,020 --> 00:04:02,400
+for the real world.
+
+81
+00:04:02,400 --> 00:04:06,100
+We're constantly thinking about not only the crypto native community per se, but we're
+
+82
+00:04:06,100 --> 00:04:09,580
+thinking about how do we onboard users in emerging markets.
+
+83
+00:04:09,580 --> 00:04:14,360
+So when our typical user is somebody sitting in Kenya, in Nigeria, and also given my background,
+
+84
+00:04:14,360 --> 00:04:17,680
+it's really interesting to me because then we're thinking about, oh, what do these people
+
+85
+00:04:17,680 --> 00:04:18,680
+need?
+
+86
+00:04:18,680 --> 00:04:22,520
+How do we bring them on chain and bring them on chain in a way that we abstract the technology
+
+87
+00:04:22,520 --> 00:04:23,520
+away?
+
+88
+00:04:23,520 --> 00:04:27,600
+How do we make it easier for them to interact on chain without them knowing they're interacting
+
+89
+00:04:27,600 --> 00:04:28,600
+on chain?
+
+90
+00:04:28,600 --> 00:04:30,720
+And what is product market fit for this user base?
+
+91
+00:04:30,720 --> 00:04:34,480
+And so we'll talk a little bit more around how the ecosystem is built around a couple
+
+92
+00:04:34,480 --> 00:04:36,080
+of things that I'm really passionate about.
+
+93
+00:04:36,080 --> 00:04:38,880
+But yeah, that's a little bit of my background and how I ended up at Solo.
+
+94
+00:04:38,880 --> 00:04:44,280
+You have a very holistic financial markets background, which is helpful for this subject.
+
+95
+00:04:44,280 --> 00:04:48,600
+What did you see in Kenya when you mentioned that financial revolution you talked about?
+
+96
+00:04:48,600 --> 00:04:49,600
+And when was this also?
+
+97
+00:04:49,600 --> 00:04:52,640
+So Kenya is a really interesting market.
+
+98
+00:04:52,640 --> 00:04:55,120
+We're talking about 2016, 2017.
+
+99
+00:04:55,120 --> 00:04:58,480
+M-Pesa is just starting up and it's just proliferating the market.
+
+100
+00:04:58,480 --> 00:05:02,700
+And so you're thinking about in Nairobi, even today, I just carry my phone and I know that's
+
+101
+00:05:02,700 --> 00:05:05,320
+happening more and more in the U.S. where you use Apple Pay everywhere.
+
+102
+00:05:05,320 --> 00:05:07,360
+But in Nairobi, I've been doing this for years.
+
+103
+00:05:07,360 --> 00:05:10,080
+You just take your phone and you have M-Pesa on your phone and then that's it.
+
+104
+00:05:10,080 --> 00:05:13,600
+You don't carry your wallet and you can make every single payment through M-Pesa.
+
+105
+00:05:13,600 --> 00:05:17,640
+And in that region on the M-Pesa app, you have robo-advisory on the M-Pesa app, you
+
+106
+00:05:17,640 --> 00:05:19,320
+have insurance on the M-Pesa app.
+
+107
+00:05:19,320 --> 00:05:20,320
+Your whole world.
+
+108
+00:05:20,320 --> 00:05:21,320
+It's like a super app.
+
+109
+00:05:21,320 --> 00:05:24,160
+It's become this super app system, but it just started with payments.
+
+110
+00:05:24,160 --> 00:05:27,040
+And so all your payments happen through M-Pesa.
+
+111
+00:05:27,040 --> 00:05:30,440
+Can you talk about what M-Pesa is for the audience?
+
+112
+00:05:30,440 --> 00:05:32,160
+M-Pesa is mobile money.
+
+113
+00:05:32,160 --> 00:05:34,280
+It's run by Safaricom.
+
+114
+00:05:34,280 --> 00:05:36,640
+It was essentially started as mobile money.
+
+115
+00:05:36,640 --> 00:05:39,940
+What they saw in Nairobi and in Kenya and a couple of different countries was getting
+
+116
+00:05:39,940 --> 00:05:42,240
+access to fiat was difficult.
+
+117
+00:05:42,240 --> 00:05:46,920
+So people started trading airtime, literally airtime, minutes on their phone.
+
+118
+00:05:46,920 --> 00:05:49,600
+Mostly people in the US and the developed world have plans and you don't think about
+
+119
+00:05:49,600 --> 00:05:51,960
+minutes on your phone or data minutes.
+
+120
+00:05:51,960 --> 00:05:56,000
+But people started trading data minutes and they were like, oh, wow, this is interesting.
+
+121
+00:05:56,000 --> 00:05:58,140
+We can make this into a currency.
+
+122
+00:05:58,140 --> 00:05:59,720
+It's the literal utility token.
+
+123
+00:05:59,720 --> 00:06:01,680
+Literally the utility token.
+
+124
+00:06:01,680 --> 00:06:05,160
+So they made it into a currency and they got nominated into the dollar, into the Kenya
+
+125
+00:06:05,160 --> 00:06:06,880
+Shillings or the dollar.
+
+126
+00:06:06,880 --> 00:06:07,960
+It's literally mobile money.
+
+127
+00:06:07,960 --> 00:06:11,360
+So I can send you mobile money as actual currency.
+
+128
+00:06:11,360 --> 00:06:12,360
+It started with airtime.
+
+129
+00:06:12,360 --> 00:06:14,980
+It went into digitization of their currency.
+
+130
+00:06:14,980 --> 00:06:17,880
+So that's M-Pesa and it started with just the payment system.
+
+131
+00:06:17,880 --> 00:06:22,980
+And then I think the beauty of this system was why it really shot up was you have this
+
+132
+00:06:22,980 --> 00:06:27,200
+mobile money on your phone, but if you want cash for it, there's little vendors, little
+
+133
+00:06:27,200 --> 00:06:31,320
+stalls everywhere that you can go and it's similar to the off-ramping problem that we
+
+134
+00:06:31,320 --> 00:06:32,760
+have currently in Web3.
+
+135
+00:06:32,760 --> 00:06:35,120
+You can go to these kiosks, they're called there.
+
+136
+00:06:35,120 --> 00:06:38,760
+Then every little shop is a kiosk and you can go to the kiosk and say, hey, I have this
+
+137
+00:06:38,760 --> 00:06:39,760
+much M-Pesa.
+
+138
+00:06:39,760 --> 00:06:40,760
+Can you give me cash?
+
+139
+00:06:40,760 --> 00:06:42,040
+There's usually a spread for it.
+
+140
+00:06:42,040 --> 00:06:45,880
+And so most people don't want to off-ramp into actual cash, but you can do it if you
+
+141
+00:06:45,880 --> 00:06:46,880
+want.
+
+142
+00:06:46,880 --> 00:06:50,440
+And then even to on-ramp, you can go give them cash and then they can give you M-Pesa.
+
+143
+00:06:50,440 --> 00:06:54,280
+And how much do you need cash given that M-Pesa is in the system?
+
+144
+00:06:54,280 --> 00:06:55,920
+Today, zero.
+
+145
+00:06:55,920 --> 00:06:57,240
+Every single person takes cash.
+
+146
+00:06:57,240 --> 00:07:00,280
+When you think about micropayments in Kenya, at least the way I think about micropayments
+
+147
+00:07:00,280 --> 00:07:03,360
+in Kenya, I'm not talking about the coffees and the food and stuff like that.
+
+148
+00:07:03,360 --> 00:07:07,000
+I'm thinking about the guy that is taking money for parking.
+
+149
+00:07:07,000 --> 00:07:10,320
+And so it's not ticketed like this as an actual person that's taking money for parking.
+
+150
+00:07:10,640 --> 00:07:11,640
+It's 10 or 20 shillings.
+
+151
+00:07:11,640 --> 00:07:13,520
+It's a very minimal amount.
+
+152
+00:07:13,520 --> 00:07:15,680
+120 shillings is one dollar.
+
+153
+00:07:15,680 --> 00:07:17,320
+So I'm talking about 10 or 20 shillings.
+
+154
+00:07:17,320 --> 00:07:18,320
+It's nothing.
+
+155
+00:07:18,320 --> 00:07:19,400
+It's fractions of the dollar.
+
+156
+00:07:19,400 --> 00:07:21,400
+And then even that person will take M-Pesa.
+
+157
+00:07:21,400 --> 00:07:23,880
+So every single person you interact with will take M-Pesa.
+
+158
+00:07:23,880 --> 00:07:27,640
+The guy who's selling you tea and tea there is in a little stall on the road selling it
+
+159
+00:07:27,640 --> 00:07:30,060
+on a little stool while sitting on another little stool.
+
+160
+00:07:30,060 --> 00:07:31,060
+Even he'll take M-Pesa.
+
+161
+00:07:31,060 --> 00:07:35,500
+So I don't remember the last time I saw the shilling as a note, but that's just me.
+
+162
+00:07:35,500 --> 00:07:40,060
+And so it's ubiquitous in that region with that because you digitize this.
+
+163
+00:07:40,060 --> 00:07:41,820
+You digitize money.
+
+164
+00:07:41,820 --> 00:07:45,060
+With that came so many interesting use cases.
+
+165
+00:07:45,060 --> 00:07:49,460
+With that, the fact that you could scan your phone records, scan your SMS, and every time
+
+166
+00:07:49,460 --> 00:07:53,580
+you do an M-Pesa transaction, you get an SMS saying, oh, a hundred shilling deposited
+
+167
+00:07:53,580 --> 00:07:55,820
+or 200 shilling taken out of your account.
+
+168
+00:07:55,820 --> 00:08:01,460
+I could then, as a fintech, just ask you for the digital records of your messages and understand
+
+169
+00:08:01,460 --> 00:08:02,660
+your entire financial history.
+
+170
+00:08:02,660 --> 00:08:04,900
+I'm not asking a bank for your financial statement.
+
+171
+00:08:04,900 --> 00:08:06,600
+I'm literally asking you for messages.
+
+172
+00:08:06,600 --> 00:08:09,500
+And so it opens up so many different use cases.
+
+173
+00:08:09,500 --> 00:08:11,820
+For instance, lending became really popular.
+
+174
+00:08:11,820 --> 00:08:13,380
+Peer-to-peer lending?
+
+175
+00:08:13,380 --> 00:08:14,380
+Fintech lending.
+
+176
+00:08:14,380 --> 00:08:18,100
+For a retail user, money in that region is really, really expensive.
+
+177
+00:08:18,100 --> 00:08:22,620
+I remember there was a period of time where I've seen with my own self, 20% per month
+
+178
+00:08:22,620 --> 00:08:25,340
+is the rate of interest that you're paying and it accumulates.
+
+179
+00:08:25,340 --> 00:08:27,240
+You can imagine what that number becomes.
+
+180
+00:08:27,240 --> 00:08:31,500
+On an annualized basis, it's a ridiculous number if you're paying 20% interest per month.
+
+181
+00:08:31,500 --> 00:08:36,460
+But this allowed other players to go in and say, oh, actually, we can lend money to you.
+
+182
+00:08:36,500 --> 00:08:40,020
+The rates at which they were lending money wasn't competitive to what you get money at
+
+183
+00:08:40,020 --> 00:08:44,740
+from a bank in the U.S., but to the public in general on the ground over there, they
+
+184
+00:08:44,740 --> 00:08:47,060
+were like, oh, wow, this is so much cheaper.
+
+185
+00:08:47,060 --> 00:08:51,380
+And that's why fintech lending became so big there because you could do M-Pesa transactions.
+
+186
+00:08:51,380 --> 00:08:55,900
+Even e-commerce became a thing there because you digitize money and the minute you digitize
+
+187
+00:08:55,900 --> 00:08:59,900
+money, and we are all talking about this in the crypto ecosystem, but the minute you digitize
+
+188
+00:08:59,900 --> 00:09:01,860
+money, so much more is possible.
+
+189
+00:09:01,860 --> 00:09:04,460
+And I'm talking like 2015, 10 years from today.
+
+190
+00:09:04,460 --> 00:09:07,660
+So it was a really interesting period to see that transition.
+
+191
+00:09:07,660 --> 00:09:11,180
+Another thing to maybe mention for your audience, and I'm sure they're not aware of this.
+
+192
+00:09:11,180 --> 00:09:15,300
+In the U.S., you can go into any bank and say, I want a retail banking account.
+
+193
+00:09:15,300 --> 00:09:18,540
+Most can kind of go in and say, hey, I want a retail banking account.
+
+194
+00:09:18,540 --> 00:09:22,660
+In some parts of the world, especially Sub-Saharan Africa, retail banking is not a profitable
+
+195
+00:09:22,660 --> 00:09:23,660
+business.
+
+196
+00:09:23,660 --> 00:09:28,060
+So even to get a bank account is really, really difficult.
+
+197
+00:09:28,060 --> 00:09:32,620
+So what do you love with when you're hoarding cash in your house and crime levels are so
+
+198
+00:09:32,620 --> 00:09:33,620
+high?
+
+199
+00:09:33,780 --> 00:09:37,380
+It's so revolutionary because you're like, oh, now I get access to banking without actually
+
+200
+00:09:37,380 --> 00:09:38,860
+having to go to a bank.
+
+201
+00:09:38,860 --> 00:09:42,140
+And it's funny when I was working at the bank, I was like, oh, wow, we're going to set up
+
+202
+00:09:42,140 --> 00:09:43,420
+a retail banking unit.
+
+203
+00:09:43,420 --> 00:09:47,340
+So now we providing access to retail banking to a large part of the population.
+
+204
+00:09:47,340 --> 00:09:51,540
+And what we saw was your salary would sweep into your account and there was an instant
+
+205
+00:09:51,540 --> 00:09:52,540
+sweep out.
+
+206
+00:09:52,540 --> 00:09:58,060
+Literally instant where they sweep the entire monthly salary out into the M-Pesa wallet.
+
+207
+00:09:58,060 --> 00:10:02,620
+So even when you gave them a bank account, because it had been so many years without
+
+208
+00:10:02,620 --> 00:10:05,140
+banking, they were like, okay, we prefer the M-Pesa system.
+
+209
+00:10:05,140 --> 00:10:07,380
+So that's an interesting part of the world.
+
+210
+00:10:07,380 --> 00:10:13,620
+So I'm going to play this skeptic for a second, which is if M-Pesa works, why does currency
+
+211
+00:10:13,620 --> 00:10:15,060
+need to be on chain?
+
+212
+00:10:15,060 --> 00:10:17,700
+Because M-Pesa is not on chain.
+
+213
+00:10:17,700 --> 00:10:20,540
+M-Pesa works, yes, but it works only in Kenya.
+
+214
+00:10:20,540 --> 00:10:24,380
+And people are trying to replicate the M-Pesa use case across even African countries and
+
+215
+00:10:24,380 --> 00:10:26,820
+it hasn't picked up for many different reasons.
+
+216
+00:10:26,820 --> 00:10:31,620
+M-Pesa works because you have this massive kiosk system that are on and off-run providers.
+
+217
+00:10:31,620 --> 00:10:33,780
+That system isn't there anywhere else in the world.
+
+218
+00:10:33,780 --> 00:10:35,260
+It's like Binance P2P.
+
+219
+00:10:35,260 --> 00:10:36,700
+Exactly like Binance.
+
+220
+00:10:36,700 --> 00:10:40,100
+Why is Binance so prolific in one specific region and not the others?
+
+221
+00:10:40,100 --> 00:10:41,440
+It's because of the P2P.
+
+222
+00:10:41,440 --> 00:10:44,620
+You have to know that you have access to your money and at a given point in time, and that's
+
+223
+00:10:44,620 --> 00:10:45,980
+why M-Pesa works.
+
+224
+00:10:45,980 --> 00:10:46,980
+Why are we digitizing?
+
+225
+00:10:46,980 --> 00:10:50,380
+So even with M-Pesa, and we're seeing a lot of stable coin usage in Kenya, and we can
+
+226
+00:10:50,380 --> 00:10:53,500
+talk about that a little bit more, but we're seeing a lot of stable coin usage in Kenya
+
+227
+00:10:53,500 --> 00:10:57,980
+is because the M-Pesa is pegged to the shilling and the shilling as a currency against the
+
+228
+00:10:57,980 --> 00:11:01,020
+dollar is not necessarily the strongest currency.
+
+229
+00:11:01,020 --> 00:11:06,340
+And that's why you need to digitize and getting access to dollars is more important in a lot
+
+230
+00:11:06,340 --> 00:11:09,460
+of the world than most of us understand.
+
+231
+00:11:09,460 --> 00:11:15,780
+So given that M-Pesa has worked because of those vendors who will offer redemption, do
+
+232
+00:11:15,780 --> 00:11:22,360
+you think that is the unlock to mobile money systems, whether on-chain or otherwise in
+
+233
+00:11:22,360 --> 00:11:23,780
+other markets?
+
+234
+00:11:23,780 --> 00:11:27,820
+Or do you think there will be institutionalized on-ramping, off-ramping, which will happen
+
+235
+00:11:27,820 --> 00:11:28,820
+first?
+
+236
+00:11:28,820 --> 00:11:29,820
+That's a really good question.
+
+237
+00:11:29,820 --> 00:11:31,740
+It depends on which markets.
+
+238
+00:11:31,740 --> 00:11:33,540
+You think it'll be different in each one?
+
+239
+00:11:33,540 --> 00:11:35,500
+I think it'll depend on every market.
+
+240
+00:11:35,500 --> 00:11:38,580
+Also, I think we were talking about 2015.
+
+241
+00:11:38,580 --> 00:11:39,580
+Technologies move so much.
+
+242
+00:11:39,580 --> 00:11:44,260
+I want to say 70% of my personal financial transactions happen online now as opposed
+
+243
+00:11:44,260 --> 00:11:46,540
+to actually physical interactions.
+
+244
+00:11:46,540 --> 00:11:51,380
+So if you don't have off-ramping in the physical world, not so critical now.
+
+245
+00:11:51,380 --> 00:11:53,500
+But again, depends on which country and which region.
+
+246
+00:11:53,500 --> 00:11:57,540
+I'm sure some of the emerging markets having vendors and offering providers on the ground,
+
+247
+00:11:57,540 --> 00:12:00,940
+little kiosks everywhere, will be critical for mass adoption.
+
+248
+00:12:00,940 --> 00:12:01,940
+But that's just my take.
+
+249
+00:12:01,940 --> 00:12:02,940
+Who knows?
+
+250
+00:12:02,940 --> 00:12:06,420
+Yeah, it's interesting because it's always hard to imagine here in the U.S.
+
+251
+00:12:06,420 --> 00:12:10,520
+And I guess the reason for that is because each leg of our transaction is handled.
+
+252
+00:12:10,520 --> 00:12:15,020
+We have Venmo for peer-to-peer and we have payment at a storefront.
+
+253
+00:12:15,020 --> 00:12:18,940
+But getting cash is still arguably a bit more of a pain than it should be in my life, for
+
+254
+00:12:18,940 --> 00:12:19,940
+example.
+
+255
+00:12:19,940 --> 00:12:20,940
+I don't know if you've the same experience.
+
+256
+00:12:20,940 --> 00:12:23,940
+I don't remember the last time I used cash to be honest.
+
+257
+00:12:24,340 --> 00:12:28,060
+But again, I mean, you're removing cash from your financial transactions completely in
+
+258
+00:12:28,060 --> 00:12:30,620
+the U.S. and in some of the more developed world.
+
+259
+00:12:30,620 --> 00:12:33,140
+But cash is king in a lot of countries even now.
+
+260
+00:12:33,140 --> 00:12:36,620
+And so in those countries where cash is king and where you're actually doing a lot of daily
+
+261
+00:12:36,620 --> 00:12:40,740
+transactions in cash, you still need off-ramp providers that will go from any Web3 currency
+
+262
+00:12:40,740 --> 00:12:46,060
+or even stablecoin to cash so that at least having that as an option is important to onboard
+
+263
+00:12:46,060 --> 00:12:47,060
+users.
+
+264
+00:12:47,060 --> 00:12:51,220
+And then eventually when all your transactions and all your financial transactions go online
+
+265
+00:12:51,220 --> 00:12:53,340
+or on-chain, then it won't matter.
+
+266
+00:12:53,340 --> 00:12:59,340
+I've also learned that consumer behavior changes very quickly if it's convenient and inexpensive.
+
+267
+00:12:59,340 --> 00:13:04,140
+If it reduces cost, time, effort, consumer behavior is easier to change than you would
+
+268
+00:13:04,140 --> 00:13:05,140
+think.
+
+269
+00:13:05,140 --> 00:13:06,140
+Definitely.
+
+270
+00:13:06,140 --> 00:13:08,220
+Especially if there's not a great alternative.
+
+271
+00:13:08,220 --> 00:13:13,660
+So given that experience set, did Celo find you or did you find Celo or how did that come
+
+272
+00:13:13,660 --> 00:13:14,660
+about?
+
+273
+00:13:14,660 --> 00:13:17,400
+I tell people this job was made for me.
+
+274
+00:13:17,400 --> 00:13:23,220
+So I was exploring Web3 and I did this fellowship program that Gitcoin used to run called Kernel
+
+275
+00:13:23,380 --> 00:13:26,980
+and one of the co-founders of Celo came to give an intro to Celo, just what he thought
+
+276
+00:13:26,980 --> 00:13:27,980
+about Web3.
+
+277
+00:13:27,980 --> 00:13:30,700
+He wasn't even talking about Celo, he was talking about Web3 and the Mycelium network
+
+278
+00:13:30,700 --> 00:13:31,700
+and things like that.
+
+279
+00:13:31,700 --> 00:13:34,340
+And if you've ever heard Sebs, he's one of the co-founders of Celo.
+
+280
+00:13:34,340 --> 00:13:37,800
+If you've ever heard any of his talks, you will have heard Mycelium and how everything
+
+281
+00:13:37,800 --> 00:13:40,980
+is interconnected and how financial systems are all interconnected and how we need to
+
+282
+00:13:40,980 --> 00:13:45,880
+generate this whole new world where we think differently from the existing structures.
+
+283
+00:13:45,880 --> 00:13:49,060
+And so he came on and I was like, well, that's a really good way to think about financial
+
+284
+00:13:49,060 --> 00:13:52,380
+systems and how we can reimagine financial systems.
+
+285
+00:13:52,380 --> 00:13:55,980
+And the Celo team was also doing this Kernel cohort.
+
+286
+00:13:55,980 --> 00:13:58,900
+And so I reached out to them once he came on and I was like, oh, I'd love to learn more.
+
+287
+00:13:58,900 --> 00:13:59,900
+And they were like, oh, cool.
+
+288
+00:13:59,900 --> 00:14:00,900
+Let's reach out.
+
+289
+00:14:00,900 --> 00:14:04,300
+And they were like, oh, you have a bunch of developing country experience and we're looking
+
+290
+00:14:04,300 --> 00:14:05,300
+for someone.
+
+291
+00:14:05,300 --> 00:14:06,900
+Would you consider interviewing?
+
+292
+00:14:06,900 --> 00:14:08,780
+And the rest, as I say, is history.
+
+293
+00:14:08,780 --> 00:14:09,780
+It's a great fit.
+
+294
+00:14:09,780 --> 00:14:13,180
+I know the regions that we target really well and work in those regions.
+
+295
+00:14:13,180 --> 00:14:15,700
+So it's like a really great fit.
+
+296
+00:14:15,700 --> 00:14:21,700
+Mycelium exposure is the extent of a Netflix documentary called Fantastic Fungi, but I'll
+
+297
+00:14:21,780 --> 00:14:25,340
+have to get up to speed on the financial network side of it.
+
+298
+00:14:25,340 --> 00:14:29,580
+He describes it similar to how financial networks could be like the Fungi network, how it's
+
+299
+00:14:29,580 --> 00:14:30,580
+all APEC connected.
+
+300
+00:14:30,580 --> 00:14:31,580
+Did I buy that?
+
+301
+00:14:31,580 --> 00:14:34,040
+It's an interesting conversation.
+
+302
+00:14:34,040 --> 00:14:39,180
+So what was Celo's mission when you joined and how has it evolved or stayed the same?
+
+303
+00:14:39,180 --> 00:14:42,780
+So we're very mission focused chain and our mission is prosperity for all.
+
+304
+00:14:42,780 --> 00:14:45,500
+And I don't think we've changed the mission.
+
+305
+00:14:45,500 --> 00:14:49,020
+So when you think about prosperity for all, everybody has a different take on this and
+
+306
+00:14:49,020 --> 00:14:50,460
+you could have prosperity for all.
+
+307
+00:14:50,460 --> 00:14:54,740
+So the way I kind of understand it is prosperity for all translates into financial inclusion
+
+308
+00:14:54,740 --> 00:14:56,140
+just because I'm a finance background.
+
+309
+00:14:56,140 --> 00:15:00,540
+To me, I take it in from a financial perspective, but prosperity for all from a different perspective
+
+310
+00:15:00,540 --> 00:15:01,540
+is also very refi.
+
+311
+00:15:01,540 --> 00:15:08,500
+And so the Celo mission is essentially built and designed for real world adoption of Web3
+
+312
+00:15:08,500 --> 00:15:11,260
+that unlocks this mission of prosperity for all.
+
+313
+00:15:11,260 --> 00:15:15,260
+And when you think about real world adoption, because the chain we thought about emerging
+
+314
+00:15:15,260 --> 00:15:20,060
+markets as a really big part of the world, the chain is built in a way that is focused
+
+315
+00:15:20,060 --> 00:15:21,460
+on inclusivity.
+
+316
+00:15:21,460 --> 00:15:23,220
+So we're very mobile first.
+
+317
+00:15:23,220 --> 00:15:26,540
+So all applications with Celo are mobile focused.
+
+318
+00:15:26,540 --> 00:15:28,460
+We have things such as fee abstraction.
+
+319
+00:15:28,460 --> 00:15:33,540
+So gas in the ecosystem can be paid in stablecoins because we understand.
+
+320
+00:15:33,540 --> 00:15:38,060
+My first crypto transaction didn't go through and I was sweating because I was like, oh,
+
+321
+00:15:38,060 --> 00:15:39,060
+why is this not going through?
+
+322
+00:15:39,060 --> 00:15:41,860
+And then I realized, oh, I need another token for gas.
+
+323
+00:15:41,860 --> 00:15:45,140
+But if you're in this ecosystem or when you're onboarding to this ecosystem, let's suppose
+
+324
+00:15:45,140 --> 00:15:49,140
+you have only one wallet and there's stablecoin on that wallet, you shouldn't be able to do
+
+325
+00:15:49,180 --> 00:15:50,660
+the transaction with just the stablecoin.
+
+326
+00:15:50,660 --> 00:15:52,180
+And that's the thought behind Celo.
+
+327
+00:15:52,180 --> 00:15:55,740
+OK, you can have one wallet, but just a USDT or a USDC.
+
+328
+00:15:55,740 --> 00:15:58,580
+And then the transaction will go through because you can pay for gas.
+
+329
+00:15:58,580 --> 00:16:00,380
+So fee extraction is a really big thing.
+
+330
+00:16:00,380 --> 00:16:04,260
+There's ultra green money, which is inbuilt into the chain, which is essentially like
+
+331
+00:16:04,260 --> 00:16:08,100
+portion allocation of the gas fee goes towards carbon offsetting.
+
+332
+00:16:08,100 --> 00:16:10,980
+Like I mentioned, phone number mapping is really important because we think most of
+
+333
+00:16:10,980 --> 00:16:14,740
+the world interacts with technology through their mobile phone as opposed to like a browser
+
+334
+00:16:14,740 --> 00:16:15,820
+or laptop.
+
+335
+00:16:15,860 --> 00:16:21,020
+The chain is built for, like I said, everyday use, everyday user, but also the technology
+
+336
+00:16:21,020 --> 00:16:22,020
+is really frontier.
+
+337
+00:16:22,020 --> 00:16:26,460
+We were the first POS chain and we're at this really cool intersection of frontier tech
+
+338
+00:16:26,460 --> 00:16:27,580
+and real world use case.
+
+339
+00:16:27,580 --> 00:16:29,860
+And I think that's where Celo will always remain.
+
+340
+00:16:30,420 --> 00:16:35,500
+I'm curious how you guys look at the balance given you're in the stablecoin space at a
+
+341
+00:16:35,500 --> 00:16:41,780
+global level between trying to provide better native systems for people globally versus
+
+342
+00:16:41,900 --> 00:16:46,860
+some would say there's value to offering dollars to people globally as an alternative to their
+
+343
+00:16:46,860 --> 00:16:48,180
+local financial systems.
+
+344
+00:16:48,540 --> 00:16:52,580
+So how do you strike the balance and which if one of the two is more mission aligned
+
+345
+00:16:52,580 --> 00:16:53,540
+with what you guys are doing?
+
+346
+00:16:54,020 --> 00:16:55,180
+That's a really good question.
+
+347
+00:16:55,500 --> 00:16:59,500
+I don't think we are picking a side because I don't think there's a side to be picked.
+
+348
+00:16:59,660 --> 00:17:04,820
+You need dollars in the world and access to dollars is really important for users in
+
+349
+00:17:04,820 --> 00:17:05,900
+specific countries.
+
+350
+00:17:05,900 --> 00:17:09,140
+Nigeria, for instance, is a really good example for that, where your currency kind of
+
+351
+00:17:09,140 --> 00:17:11,060
+fluctuates on a weekly basis.
+
+352
+00:17:11,140 --> 00:17:13,860
+It's a 20, 30 percent fluctuation on a weekly basis.
+
+353
+00:17:13,980 --> 00:17:18,260
+All of us talk about Bitcoin to be the store of value, but actually, for some people in
+
+354
+00:17:18,260 --> 00:17:20,100
+the world, dollars are the store of value.
+
+355
+00:17:20,220 --> 00:17:23,540
+So having nominated stablecoins is really important in an ecosystem.
+
+356
+00:17:23,540 --> 00:17:28,820
+And so, like I mentioned, we have native USDC and USDT and CUSD as dollar denominated
+
+357
+00:17:28,820 --> 00:17:31,580
+stablecoins that are all gas currencies in the ecosystem.
+
+358
+00:17:31,820 --> 00:17:35,820
+But it's interesting when you provide access to dollars, then a lot of really interesting
+
+359
+00:17:35,820 --> 00:17:40,380
+cool applications get built on top of it and then users then want to go, OK, so if
+
+360
+00:17:40,380 --> 00:17:43,820
+dollars are store of value, but we actually need to do everyday transactions.
+
+361
+00:17:43,860 --> 00:17:46,780
+And so you need their local currencies for everyday transactions.
+
+362
+00:17:46,980 --> 00:17:51,340
+So currently in the ecosystem, we have, I think, 22 plus native stablecoins.
+
+363
+00:17:51,700 --> 00:17:55,140
+And then I think that's between 12 to 14 different currencies.
+
+364
+00:17:55,340 --> 00:17:59,940
+And so a user can store value in dollar, but then can move that to their local currency
+
+365
+00:18:00,260 --> 00:18:02,500
+and then use it for everyday transactions.
+
+366
+00:18:02,700 --> 00:18:06,340
+And then the other thing that I think most of us don't think about is if you just have
+
+367
+00:18:06,340 --> 00:18:09,820
+dollars in any ecosystem, then how does lending happen?
+
+368
+00:18:09,940 --> 00:18:14,260
+Because if you're in markets where your local currency evaluates on a regular basis,
+
+369
+00:18:14,460 --> 00:18:18,060
+then not only are you paying interest on that loan, you're also paying currency
+
+370
+00:18:18,060 --> 00:18:22,420
+fluctuation, which becomes really expensive sometimes to definitely local currencies
+
+371
+00:18:22,420 --> 00:18:25,180
+for some of these interesting use cases like lending.
+
+372
+00:18:25,660 --> 00:18:30,740
+Have you historically faced any pushback from nations or local regulators when
+
+373
+00:18:30,740 --> 00:18:33,180
+you're potentially offering dollars to people globally?
+
+374
+00:18:33,700 --> 00:18:37,460
+Not yet. We're also committed to working with jurisdictions in every region that we
+
+375
+00:18:37,500 --> 00:18:40,380
+operate and we've prioritized for compliance and benefits of users.
+
+376
+00:18:40,580 --> 00:18:44,900
+But to be honest, we are not a stablecoin issuer per se, we're just an ecosystem
+
+377
+00:18:44,900 --> 00:18:48,780
+where stablecoins that are issued by other entities live within our ecosystem.
+
+378
+00:18:49,300 --> 00:18:50,100
+Yeah, that makes sense.
+
+379
+00:18:50,540 --> 00:18:53,300
+We're also really committed to making sure that we do our due diligence when
+
+380
+00:18:53,300 --> 00:18:57,260
+anything launches in our ecosystem to make sure that they're talking to regulators
+
+381
+00:18:57,260 --> 00:18:58,940
+or in specific conversations with them.
+
+382
+00:18:59,460 --> 00:19:03,860
+Why do you think non-USD stablecoins haven't emerged at broader scale yet?
+
+383
+00:19:04,380 --> 00:19:06,500
+Depends on what you think is broader scale.
+
+384
+00:19:06,740 --> 00:19:10,580
+So firstly, there were not so many non-USD stablecoins a year ago.
+
+385
+00:19:10,900 --> 00:19:15,060
+I think a lot more issuers are issuing non-USD stablecoins within the last six to
+
+386
+00:19:15,060 --> 00:19:17,780
+12 months. I've seen a lot more non-USD stablecoins.
+
+387
+00:19:18,020 --> 00:19:21,540
+I also think that what is the product market fit for non-USD stablecoins is
+
+388
+00:19:21,540 --> 00:19:23,540
+lending and the FX markets.
+
+389
+00:19:23,740 --> 00:19:27,820
+And for some of this to be true, it becomes a world in which you have to make sure
+
+390
+00:19:27,820 --> 00:19:31,420
+that there's a lot of depth of liquidity for this to make sense at all.
+
+391
+00:19:31,780 --> 00:19:35,260
+And you have to explain to the world what the use cases for this are.
+
+392
+00:19:35,500 --> 00:19:38,660
+So when you think about FX, when I used to live in, for instance, Africa, when I
+
+393
+00:19:38,660 --> 00:19:41,900
+was working in Africa, if you needed to go from the shilling to the Guinean CD,
+
+394
+00:19:42,140 --> 00:19:45,740
+you had to go shilling dollar and then you would spread there and then dollars
+
+395
+00:19:45,820 --> 00:19:49,260
+Guinean CD. But now there's on-chain stablecoins where you can go directly.
+
+396
+00:19:49,500 --> 00:19:53,140
+Mento Protocol is in protocol in the ecosystem, which is doing a lot of FX.
+
+397
+00:19:53,660 --> 00:19:55,300
+They were on the podcast last week.
+
+398
+00:19:55,820 --> 00:19:57,300
+That's perfect. I love that team.
+
+399
+00:19:57,460 --> 00:19:58,420
+They're a really great team.
+
+400
+00:19:58,420 --> 00:20:01,140
+And I'm sure they talked about how you can go from one currency to the other
+
+401
+00:20:01,340 --> 00:20:03,260
+without going through the dollar and things like that.
+
+402
+00:20:03,260 --> 00:20:04,660
+I think are revolutionary.
+
+403
+00:20:04,820 --> 00:20:06,460
+I just don't think the world's caught on yet.
+
+404
+00:20:06,740 --> 00:20:08,940
+I think with some of this patience is important.
+
+405
+00:20:09,140 --> 00:20:12,180
+We're a little bit ahead of what people are thinking about long term.
+
+406
+00:20:12,260 --> 00:20:14,380
+And again, depth of liquidity is really important.
+
+407
+00:20:14,660 --> 00:20:18,020
+So for this to be relevant and true, you would need institutional capital
+
+408
+00:20:18,020 --> 00:20:19,860
+providers to come in and deepen liquidity.
+
+409
+00:20:19,860 --> 00:20:21,180
+And I don't think that's happened yet.
+
+410
+00:20:21,180 --> 00:20:22,860
+And I think they're coming slowly, slowly.
+
+411
+00:20:22,860 --> 00:20:24,060
+They're looking at all of this slowly.
+
+412
+00:20:24,460 --> 00:20:26,180
+Yeah, I agree. I think it'll be lucrative.
+
+413
+00:20:26,660 --> 00:20:28,860
+It's so great. It's all on chain.
+
+414
+00:20:28,980 --> 00:20:30,740
+Host of transacting is what?
+
+415
+00:20:30,740 --> 00:20:32,300
+Nothing. Gas is nothing.
+
+416
+00:20:32,300 --> 00:20:33,260
+And spreads are incredible.
+
+417
+00:20:33,260 --> 00:20:34,740
+And it's also twenty four seven.
+
+418
+00:20:34,740 --> 00:20:36,780
+The effects markets on chain are twenty four seven.
+
+419
+00:20:36,780 --> 00:20:38,620
+Imagine trading that can happen.
+
+420
+00:20:38,620 --> 00:20:42,820
+Do you guys have an interest in also pursuing non fiat
+
+421
+00:20:42,820 --> 00:20:46,860
+nominated stable coins or stable coin flat coin like products
+
+422
+00:20:46,860 --> 00:20:51,340
+that might be tied to real estate or equities or other asset classes like that?
+
+423
+00:20:51,860 --> 00:20:53,580
+I think those are really interesting.
+
+424
+00:20:53,580 --> 00:20:58,420
+I remember the promise of RWAs early days of all of this tokenization of their assets.
+
+425
+00:20:58,580 --> 00:21:03,180
+Again, for some of this, I really believe truly that liquidity is a key driver.
+
+426
+00:21:03,420 --> 00:21:09,700
+Am I going to tokenize a random mining asset and I'm expecting retail to buy it?
+
+427
+00:21:09,700 --> 00:21:11,060
+No, not really.
+
+428
+00:21:11,060 --> 00:21:14,500
+I think retail will buy a small slice in that whole bar.
+
+429
+00:21:14,740 --> 00:21:19,660
+So with the institutional capital providers looking at Web 3, more scrutiny here in Web 3,
+
+430
+00:21:19,660 --> 00:21:22,460
+more liquidity coming to Web 3, I think would make all of these things interesting.
+
+431
+00:21:22,660 --> 00:21:25,140
+Like I said, on chain markets are twenty four seven,
+
+432
+00:21:25,260 --> 00:21:26,900
+which is not the case in any other markets.
+
+433
+00:21:26,900 --> 00:21:29,580
+So I think it'll be good to have tokenized versions of these assets.
+
+434
+00:21:29,780 --> 00:21:32,020
+But who's buying these assets is really important to look at.
+
+435
+00:21:32,580 --> 00:21:33,580
+From what we're seeing,
+
+436
+00:21:33,580 --> 00:21:37,220
+it feels like the remittance apps will be an early catalyst
+
+437
+00:21:37,220 --> 00:21:42,220
+and that all of a sudden you'll have real inflections in volume of different stable coins.
+
+438
+00:21:42,580 --> 00:21:46,380
+And once you have that, that starts to tease in the liquidity providers
+
+439
+00:21:46,380 --> 00:21:48,140
+because they're like, OK, it's going to be lucrative
+
+440
+00:21:48,140 --> 00:21:51,260
+if I can take the other side of this very hefty trade.
+
+441
+00:21:51,500 --> 00:21:54,660
+And then maybe they'll stick around and start to stand up other markets.
+
+442
+00:21:54,660 --> 00:21:58,460
+Because the point you made, you can literally stand up FX markets,
+
+443
+00:21:58,500 --> 00:22:02,540
+which will be high volume relative to an amount of liquidity provided
+
+444
+00:22:02,540 --> 00:22:04,060
+and should be a high return.
+
+445
+00:22:04,060 --> 00:22:05,900
+Absolutely. Just speaking of remittance,
+
+446
+00:22:05,900 --> 00:22:07,780
+I want to say remittance is a use case.
+
+447
+00:22:07,780 --> 00:22:12,700
+In my mind is the perfect product market fit for Web 3 where we are right now
+
+448
+00:22:12,780 --> 00:22:14,700
+and stable coins for where we are right now.
+
+449
+00:22:14,700 --> 00:22:18,220
+To give you an example, we talked about Africa Focus for so much,
+
+450
+00:22:18,220 --> 00:22:21,140
+and we haven't talked about one of our main products, which is Opera Mini Pay.
+
+451
+00:22:21,140 --> 00:22:24,140
+It's a collaboration with Opera, which is a browser product.
+
+452
+00:22:24,220 --> 00:22:26,700
+We integrated a stable coin wallet into the browser
+
+453
+00:22:26,740 --> 00:22:29,900
+and we've onboarded seven million plus users on that browser product.
+
+454
+00:22:30,100 --> 00:22:31,620
+It's a stable coin only wallet.
+
+455
+00:22:31,620 --> 00:22:35,300
+So you could only have USDC, USDT and CUSD on that wallet.
+
+456
+00:22:35,540 --> 00:22:37,820
+Seven million plus people have onboarded to it.
+
+457
+00:22:37,980 --> 00:22:41,300
+And then recently we went and like made it into a standalone apps.
+
+458
+00:22:41,300 --> 00:22:45,980
+It's currently available for all of you on Android or iOS and you can download it.
+
+459
+00:22:46,140 --> 00:22:50,820
+And in my mind, that will be the biggest catalyst for cross border remittance.
+
+460
+00:22:50,980 --> 00:22:54,740
+I mean, to be honest, the other day I sent my mom just on Mother's Day.
+
+461
+00:22:54,820 --> 00:22:57,820
+I couldn't find flowers online and it was really late at night.
+
+462
+00:22:57,860 --> 00:22:59,020
+But I'd forgotten Mother's Day.
+
+463
+00:22:59,020 --> 00:23:00,340
+I'm not a great daughter.
+
+464
+00:23:00,340 --> 00:23:03,540
+Just sent her some money saying, hey, can you please buy yourself flowers today?
+
+465
+00:23:03,740 --> 00:23:06,020
+It's super simple. It settled in one second.
+
+466
+00:23:06,180 --> 00:23:08,420
+It was great. And I'm talking about a really trivial use case.
+
+467
+00:23:08,420 --> 00:23:13,220
+But remittance just in and out of Africa is double digit a million on an annual basis.
+
+468
+00:23:13,220 --> 00:23:16,860
+And so if you can capture even a slice of this market, that's big money.
+
+469
+00:23:17,220 --> 00:23:20,740
+We've done cross border remittance of the traditional sons in and out of Africa.
+
+470
+00:23:20,740 --> 00:23:23,460
+It takes seven days sometimes through the banking network.
+
+471
+00:23:23,460 --> 00:23:25,300
+And the spreads are ridiculous.
+
+472
+00:23:25,300 --> 00:23:27,780
+And if you're doing this on stable coins, you have no spreads.
+
+473
+00:23:28,020 --> 00:23:30,420
+It's cents on the dollar for gas and then you're done.
+
+474
+00:23:30,740 --> 00:23:33,260
+So I'm really excited about the MiniPay standalone app.
+
+475
+00:23:33,540 --> 00:23:37,460
+I would imagine a lot of the remittance piece gets captured in there.
+
+476
+00:23:37,860 --> 00:23:39,620
+I was going to touch on opera.
+
+477
+00:23:39,620 --> 00:23:43,500
+So you brought it up in timely fashion with your business background.
+
+478
+00:23:43,700 --> 00:23:50,300
+Do you think adoption will be more so through an opera or a finance
+
+479
+00:23:50,460 --> 00:23:55,940
+or yellow card product that to some degree are accounts that are a little bit more free form
+
+480
+00:23:55,940 --> 00:23:58,940
+where they give you access and it's a little bit of do what you like with it
+
+481
+00:23:59,180 --> 00:24:04,220
+or more of a transfer wise Felix type experience where it's a purpose
+
+482
+00:24:04,220 --> 00:24:07,660
+built remittance product that links with existing accounts.
+
+483
+00:24:08,140 --> 00:24:12,220
+So it's funny. You've mentioned opera, finance and yellow card as competitors.
+
+484
+00:24:12,220 --> 00:24:16,740
+But it's interesting that opera actually uses yellow card and finance for on and off.
+
+485
+00:24:17,660 --> 00:24:18,740
+I meant a group, though.
+
+486
+00:24:18,740 --> 00:24:20,500
+I shouldn't say I don't think they're competitors.
+
+487
+00:24:20,500 --> 00:24:22,340
+I think they have parallels.
+
+488
+00:24:22,340 --> 00:24:25,940
+They're all like bundled into one product for some of your audience
+
+489
+00:24:25,940 --> 00:24:29,300
+that may not be familiar in some of the markets that we're talking about.
+
+490
+00:24:29,420 --> 00:24:31,260
+When you show somebody a dollar,
+
+491
+00:24:31,260 --> 00:24:34,980
+when you show them a dollar fiat currency, they don't know what that is.
+
+492
+00:24:35,340 --> 00:24:37,140
+For them, dollar is USDT.
+
+493
+00:24:37,140 --> 00:24:40,940
+Really, in Nigeria, there's some areas where they think of dollar as USDT.
+
+494
+00:24:41,180 --> 00:24:44,220
+In these areas, do I think the transfer wise will come on top?
+
+495
+00:24:44,380 --> 00:24:45,700
+Maybe not.
+
+496
+00:24:45,700 --> 00:24:47,940
+Do I think products like opera will come on top?
+
+497
+00:24:47,940 --> 00:24:50,660
+Absolutely. So it depends market to market.
+
+498
+00:24:50,940 --> 00:24:55,060
+But I also think that this market is so big, there is space for everybody to play.
+
+499
+00:24:55,340 --> 00:24:58,580
+It's also just a world in which a lot of this money movement.
+
+500
+00:24:58,580 --> 00:24:59,820
+It's a bunch of trust.
+
+501
+00:24:59,820 --> 00:25:02,420
+So opera specifically, I think they're well positioned
+
+502
+00:25:02,420 --> 00:25:06,180
+because they have trust with the users from their browser product already.
+
+503
+00:25:06,300 --> 00:25:09,700
+It's not a brand new branding going into the market and saying,
+
+504
+00:25:09,700 --> 00:25:12,460
+hey, users for cross border remittance, people trust them.
+
+505
+00:25:12,820 --> 00:25:15,060
+So I think we have a really good finding chance.
+
+506
+00:25:15,060 --> 00:25:17,140
+But I also think that there's space for everybody to play.
+
+507
+00:25:17,180 --> 00:25:18,300
+This is a big market.
+
+508
+00:25:18,300 --> 00:25:21,300
+I think if transfer wise comes up tomorrow, and I don't know if they're already doing it,
+
+509
+00:25:21,300 --> 00:25:22,580
+I'm sure they're looking at this already.
+
+510
+00:25:22,580 --> 00:25:25,460
+But if transfer wise comes up tomorrow and says, hey, we'll do cross border remittance
+
+511
+00:25:25,460 --> 00:25:28,780
+through stable coins, I think there's a world in which everybody plays in this market.
+
+512
+00:25:28,900 --> 00:25:30,660
+Different markets, I think, will have different people,
+
+513
+00:25:30,660 --> 00:25:35,220
+different products being taken up in Kenya, Nigeria and some of these markets.
+
+514
+00:25:35,220 --> 00:25:38,340
+Are you seeing a lot of business USDT accounts?
+
+515
+00:25:38,820 --> 00:25:40,620
+Yeah, it's not us.
+
+516
+00:25:40,620 --> 00:25:42,620
+That's just so much already.
+
+517
+00:25:42,620 --> 00:25:44,420
+Sub-Saharan Africa, I will club.
+
+518
+00:25:44,460 --> 00:25:50,100
+Sub-Saharan Africa does so much cross border settlement with Asia and a lot.
+
+519
+00:25:50,140 --> 00:25:53,380
+I want to say 70% of that settlement happens in USDT.
+
+520
+00:25:53,580 --> 00:25:54,940
+If I don't have my facts right.
+
+521
+00:25:54,940 --> 00:25:57,420
+And again, it's not official numbers that I'm getting.
+
+522
+00:25:57,700 --> 00:26:01,020
+But just based on what I know, 70% of that settlement happens in USDT.
+
+523
+00:26:01,300 --> 00:26:02,660
+So it's funny you say this.
+
+524
+00:26:02,660 --> 00:26:05,380
+We had launched MiniPay as a retail product.
+
+525
+00:26:05,380 --> 00:26:08,700
+And what we learned was some of these people that were settling B2B
+
+526
+00:26:08,700 --> 00:26:12,740
+settlements used to come and park some of their USDT on MiniPay
+
+527
+00:26:12,740 --> 00:26:15,780
+when it was just a product in the browser in Africa only,
+
+528
+00:26:15,940 --> 00:26:19,060
+because the yield on USDT on MiniPay was really high.
+
+529
+00:26:19,500 --> 00:26:20,860
+What was the yield?
+
+530
+00:26:20,860 --> 00:26:23,140
+It was a ridiculous amount, just on board.
+
+531
+00:26:23,140 --> 00:26:27,860
+And we were, again, for context, the average balance on MiniPay wallet
+
+532
+00:26:27,940 --> 00:26:31,100
+in Africa is between $10 plus minus.
+
+533
+00:26:31,140 --> 00:26:32,740
+So these balances aren't very high.
+
+534
+00:26:32,740 --> 00:26:37,740
+So when you give them like a yield of hypothetically 25% per annum or more,
+
+535
+00:26:38,020 --> 00:26:40,860
+that yield is not too much for the retail user.
+
+536
+00:26:41,140 --> 00:26:43,900
+But when you look at it from a commercial perspective,
+
+537
+00:26:43,900 --> 00:26:47,860
+if you're getting 25% on a dollar denominated stablecoin, that's a lot.
+
+538
+00:26:47,900 --> 00:26:50,100
+Nobody's giving you 25% yield on the dollar.
+
+539
+00:26:50,100 --> 00:26:52,500
+And so we saw a bunch of people park their money,
+
+540
+00:26:52,740 --> 00:26:55,940
+like the B2B settlers and cross-border payments guys,
+
+541
+00:26:56,020 --> 00:26:58,220
+some of their money into MiniPay accounts.
+
+542
+00:26:58,220 --> 00:27:00,420
+And then we were like, oh, we're going to have cap
+
+543
+00:27:00,420 --> 00:27:03,460
+upper limits to balances for this yield activity.
+
+544
+00:27:03,780 --> 00:27:06,820
+But it was great to see people found it very organically.
+
+545
+00:27:07,380 --> 00:27:09,980
+And are you seeing financial products come on chain
+
+546
+00:27:09,980 --> 00:27:11,540
+in those local economies?
+
+547
+00:27:11,980 --> 00:27:13,780
+Yeah. So I'll give you an example.
+
+548
+00:27:13,780 --> 00:27:17,500
+We have a protocol in the ecosystem called Heraka that does.
+
+549
+00:27:17,740 --> 00:27:21,500
+So, again, I'm a really big proponent of meet users where they're at
+
+550
+00:27:21,500 --> 00:27:24,940
+and not give them like, hey, this is a solution we've come up with.
+
+551
+00:27:25,140 --> 00:27:27,620
+You don't have to fit your behavior to this solution.
+
+552
+00:27:27,700 --> 00:27:29,860
+And so in these regions, for instance,
+
+553
+00:27:29,860 --> 00:27:33,020
+sacos or savings and lending groups are very popular.
+
+554
+00:27:33,180 --> 00:27:34,940
+And they're called different things in India.
+
+555
+00:27:34,940 --> 00:27:36,140
+They're called kitties.
+
+556
+00:27:36,140 --> 00:27:38,380
+And in Kenya, they're called sacos.
+
+557
+00:27:38,380 --> 00:27:40,860
+And these groups are very prevalent across emerging markets.
+
+558
+00:27:41,100 --> 00:27:43,420
+And so we have a protocol in the ecosystem called Heraka,
+
+559
+00:27:43,420 --> 00:27:45,860
+which does micro loans and then now starting savings.
+
+560
+00:27:45,860 --> 00:27:48,220
+So essentially, it's just like a savings and lending group
+
+561
+00:27:48,220 --> 00:27:51,300
+where you save and lend within a specific user group.
+
+562
+00:27:51,300 --> 00:27:54,940
+So you, me and three of our friends form a group and we save
+
+563
+00:27:54,940 --> 00:27:56,900
+and lend within each other.
+
+564
+00:27:56,900 --> 00:27:58,100
+And that's how it's done.
+
+565
+00:27:58,100 --> 00:28:01,580
+It's behavioral that's happened across generations in these regions.
+
+566
+00:28:01,620 --> 00:28:05,260
+And so when you bring that behavior on chain, it becomes really easy.
+
+567
+00:28:05,300 --> 00:28:06,500
+Then you can do settlement.
+
+568
+00:28:06,500 --> 00:28:08,300
+You can do accounting. Everything is on chain.
+
+569
+00:28:08,540 --> 00:28:11,020
+So Heraka, I think, is a really good example of that.
+
+570
+00:28:11,300 --> 00:28:13,900
+We're seeing people do employee payments.
+
+571
+00:28:14,180 --> 00:28:18,780
+There's a protocol called Franklin that is doing stablecoin payments for payroll.
+
+572
+00:28:18,980 --> 00:28:21,620
+One of my favorite examples that just came online
+
+573
+00:28:21,620 --> 00:28:24,220
+in the ecosystem is this protocol called Bando.
+
+574
+00:28:24,220 --> 00:28:27,500
+And you can buy gift cards to places like Target, Chipotle,
+
+575
+00:28:27,500 --> 00:28:32,140
+Starbucks in the US, but very specific to even the regions that we service.
+
+576
+00:28:32,140 --> 00:28:35,660
+So in Kenya and South Africa, you can get a gift card to ShopRite,
+
+577
+00:28:35,660 --> 00:28:37,100
+which is the target of that region.
+
+578
+00:28:37,140 --> 00:28:38,940
+And they have similar things in South America.
+
+579
+00:28:38,940 --> 00:28:41,940
+So really interesting products are coming on chain.
+
+580
+00:28:42,100 --> 00:28:44,460
+Some of them financial, some of them non-financial.
+
+581
+00:28:44,620 --> 00:28:46,660
+I'm going to give a shout out of one specific product
+
+582
+00:28:46,660 --> 00:28:49,340
+that is non-financial that I'm very fond of in the ecosystem.
+
+583
+00:28:49,420 --> 00:28:51,420
+It's a music streaming app called a Bando.
+
+584
+00:28:51,700 --> 00:28:53,620
+So think of it like Spotify.
+
+585
+00:28:53,620 --> 00:28:58,220
+The reason it's on MiniPay right now is because you can pay on a daily basis.
+
+586
+00:28:58,220 --> 00:28:59,820
+You can take a daily subscription.
+
+587
+00:28:59,820 --> 00:29:02,500
+And again, for you and me, this seems ridiculous.
+
+588
+00:29:02,500 --> 00:29:05,340
+Like, why would I want a daily subscription to a music streaming app?
+
+589
+00:29:05,420 --> 00:29:07,420
+But for some of the regions that we're talking about,
+
+590
+00:29:07,420 --> 00:29:10,300
+the monthly music streaming subscription is really expensive.
+
+591
+00:29:10,380 --> 00:29:12,700
+So there's some days you can afford it and some days you can't afford it.
+
+592
+00:29:12,940 --> 00:29:15,980
+And so the fact that you can break it down to such minute levels
+
+593
+00:29:15,980 --> 00:29:19,140
+and do it on chain with a little bit of a stable coin is really interesting.
+
+594
+00:29:19,140 --> 00:29:22,620
+And in Bando, if you guys are listening, has excellent music.
+
+595
+00:29:22,620 --> 00:29:24,060
+It's Afrobeat. I love it.
+
+596
+00:29:24,060 --> 00:29:27,060
+It's what's playing in the background when I'm doing deep focused work.
+
+597
+00:29:27,260 --> 00:29:28,420
+But really great.
+
+598
+00:29:28,420 --> 00:29:30,820
+We're constantly thinking about on chain financial.
+
+599
+00:29:30,820 --> 00:29:33,460
+But like when some of these use cases come online where you're like,
+
+600
+00:29:33,500 --> 00:29:36,180
+hey, there's a music streaming app that I could pay with stable coins.
+
+601
+00:29:36,420 --> 00:29:37,460
+That's cool.
+
+602
+00:29:37,460 --> 00:29:40,420
+I want to ask you one more question as we close out here,
+
+603
+00:29:40,420 --> 00:29:42,820
+which was given all this framing you've offered,
+
+604
+00:29:42,940 --> 00:29:46,980
+I'm a major believer that where we'll see value in this on chain economy
+
+605
+00:29:46,980 --> 00:29:49,780
+is in these real use cases, real assets.
+
+606
+00:29:50,180 --> 00:29:55,740
+Do you think blockchain platforms, applications need to have native tokens
+
+607
+00:29:55,820 --> 00:29:58,140
+or tokens for themselves?
+
+608
+00:29:58,140 --> 00:30:00,860
+Do you think that we need to have these,
+
+609
+00:30:01,060 --> 00:30:04,900
+I would call them internet money tokens that the industry has been known for
+
+610
+00:30:04,900 --> 00:30:05,900
+for a long time?
+
+611
+00:30:05,900 --> 00:30:08,460
+Or do you think eventually that fades into the background?
+
+612
+00:30:08,900 --> 00:30:10,020
+Funny you call them internet money.
+
+613
+00:30:10,020 --> 00:30:12,620
+My mom calls it magic bean money.
+
+614
+00:30:12,620 --> 00:30:15,100
+So I don't know whether we should have them or not.
+
+615
+00:30:15,100 --> 00:30:19,260
+I know that in my ecosystem, the seller token is there for decentralized
+
+616
+00:30:19,260 --> 00:30:22,540
+governance, and I think that's really, really critical.
+
+617
+00:30:22,700 --> 00:30:26,060
+I think one of the things that we're trying to do in some form or the other,
+
+618
+00:30:26,060 --> 00:30:30,100
+and whether you explicitly say it or not, is rebuild
+
+619
+00:30:30,340 --> 00:30:33,220
+how any organization works or how financial systems work.
+
+620
+00:30:33,540 --> 00:30:34,580
+That's why we're all in Web3.
+
+621
+00:30:34,580 --> 00:30:36,340
+We're trying to reimagine some of this.
+
+622
+00:30:36,340 --> 00:30:38,940
+I think decentralized governance is one of those areas.
+
+623
+00:30:38,940 --> 00:30:41,180
+But I'm really like, this is a really cool thing.
+
+624
+00:30:41,380 --> 00:30:44,180
+I believe in collective intelligence.
+
+625
+00:30:44,180 --> 00:30:47,580
+And so decentralized governance is a really good example of collective intelligence.
+
+626
+00:30:47,740 --> 00:30:51,020
+So the seller token, honestly, one of the big primary reasons
+
+627
+00:30:51,020 --> 00:30:55,100
+to have seller token is decentralized governance, where the ecosystem
+
+628
+00:30:55,100 --> 00:30:58,740
+and everybody in the community decides what is the future for the chain.
+
+629
+00:30:58,860 --> 00:31:01,420
+So, for instance, to give you a really good example,
+
+630
+00:31:01,420 --> 00:31:04,220
+we went from a layer one blockchain to a layer two blockchain.
+
+631
+00:31:04,220 --> 00:31:06,300
+We successfully migrated to a layer two blockchain.
+
+632
+00:31:06,300 --> 00:31:10,500
+But every single decision for the infrastructure was done in public
+
+633
+00:31:10,500 --> 00:31:12,300
+through decentralized governance.
+
+634
+00:31:12,300 --> 00:31:16,140
+And so every stack put out massive forum proposals
+
+635
+00:31:16,260 --> 00:31:18,940
+on the seller forum to say, hey, this is why you should pick us.
+
+636
+00:31:18,940 --> 00:31:22,740
+So we had proposals from OBStack, from Arbitrum, from Polygon ZK,
+
+637
+00:31:22,740 --> 00:31:24,380
+from Matterlabs and things like that.
+
+638
+00:31:24,380 --> 00:31:27,380
+And there was such an incredible healthy discussion in the community around
+
+639
+00:31:27,420 --> 00:31:28,660
+which stack we should pick.
+
+640
+00:31:28,660 --> 00:31:30,020
+So it wasn't centralized decision.
+
+641
+00:31:30,020 --> 00:31:32,540
+It wasn't seller foundation or C-Lab taking the decisions.
+
+642
+00:31:32,660 --> 00:31:33,780
+It's the community came together.
+
+643
+00:31:33,780 --> 00:31:36,980
+And I think some of the things that came up in some of those community decisions,
+
+644
+00:31:36,980 --> 00:31:39,700
+I was like, oh, wow, we weren't even thinking about this.
+
+645
+00:31:39,900 --> 00:31:43,140
+And so I think collective intelligence is really, really interesting.
+
+646
+00:31:43,380 --> 00:31:46,100
+Also, what it did was we've heard from different sources.
+
+647
+00:31:46,140 --> 00:31:50,500
+If you're picking a layer two stack, seller forum is like Wikipedia.
+
+648
+00:31:50,660 --> 00:31:53,020
+People actually go into the best seller forum to look at, oh,
+
+649
+00:31:53,140 --> 00:31:55,700
+when they're doing a stacking decision, they go into seller forum and look at,
+
+650
+00:31:55,700 --> 00:31:57,140
+oh, these are the things that were discussed.
+
+651
+00:31:57,140 --> 00:31:58,540
+This is what the answers were.
+
+652
+00:31:58,540 --> 00:32:01,500
+So I think decentralized governance is a really good example
+
+653
+00:32:01,500 --> 00:32:04,540
+of why you need native tokens or magic bean money.
+
+654
+00:32:04,820 --> 00:32:07,780
+Do I think we need as many as we have right now?
+
+655
+00:32:08,020 --> 00:32:10,300
+I think there will be a world of consolidation,
+
+656
+00:32:10,300 --> 00:32:13,020
+but I don't know when that world will be. But it's interesting.
+
+657
+00:32:13,340 --> 00:32:14,820
+We were talking about collective intelligence.
+
+658
+00:32:14,820 --> 00:32:17,780
+I think one of the reasons we specifically have been successful
+
+659
+00:32:17,780 --> 00:32:20,900
+as an ecosystem is because we have regional DAOs also.
+
+660
+00:32:20,900 --> 00:32:22,460
+So we have a DAO in Africa.
+
+661
+00:32:22,460 --> 00:32:24,100
+We have a Latam DAO.
+
+662
+00:32:24,100 --> 00:32:25,540
+We have a Thailand DAO.
+
+663
+00:32:25,540 --> 00:32:26,780
+We have a Philippines DAO.
+
+664
+00:32:26,780 --> 00:32:29,860
+And because we think that every region should have a say
+
+665
+00:32:29,860 --> 00:32:32,500
+in how we represent in that region.
+
+666
+00:32:32,900 --> 00:32:34,940
+And these DAO communities have been incredible
+
+667
+00:32:34,940 --> 00:32:37,260
+and also very active in our governance process.
+
+668
+00:32:37,420 --> 00:32:41,220
+And so as we're thinking about how do we do a go-to-market strategy
+
+669
+00:32:41,220 --> 00:32:44,460
+for that specific DAO, it's been really helpful to have the communities
+
+670
+00:32:44,460 --> 00:32:47,100
+in there have a massive say in some of those decision-makings.
+
+671
+00:32:47,500 --> 00:32:49,940
+I'm a big proponent, again, of decentralized governance.
+
+672
+00:32:49,980 --> 00:32:51,580
+I know it has some flaws.
+
+673
+00:32:51,580 --> 00:32:53,860
+We've all experienced some flaws at decentralized governance.
+
+674
+00:32:53,860 --> 00:32:56,060
+But I think overall, if you're able to manage it,
+
+675
+00:32:56,060 --> 00:32:58,940
+I think incredible concept and excited to see where it by balls
+
+676
+00:32:58,940 --> 00:33:00,380
+in the next five years.
+
+677
+00:33:00,380 --> 00:33:03,100
+I guess if you're going to have a digital financial system
+
+678
+00:33:03,100 --> 00:33:05,460
+or monetary system, you should have some form of
+
+679
+00:33:05,460 --> 00:33:07,740
+democratic monetary decision-making.
+
+680
+00:33:08,340 --> 00:33:10,900
+A hundred percent. We're a hundred percent aligned on that.
+
+681
+00:33:11,340 --> 00:33:12,860
+Well, Isha, thank you for coming on.
+
+682
+00:33:12,860 --> 00:33:14,980
+Hope you come back to chat with us again soon.
+
+683
+00:33:15,580 --> 00:33:16,540
+Thank you all for having me.
+
+684
+00:33:16,540 --> 00:33:17,860
+This was a lovely conversation.
+
+685
+00:33:17,860 --> 00:33:20,500
+I'm excited to see where this podcast grows and scales.
+
+686
+00:33:21,140 --> 00:33:23,980
+Thank you. Appreciate it.
+
+687
+00:33:24,020 --> 00:33:27,620
+Thanks for listening to another episode of On the Brink with Castle Island.
+
+688
+00:33:27,780 --> 00:33:31,940
+To find out more about Castle Island, visit castleisland.vc.
+
+689
+00:33:32,380 --> 00:33:34,540
+To listen to all of our podcast episodes,
+
+690
+00:33:34,860 --> 00:33:38,220
+please go to onthebrink-podcast.com
+
+691
+00:33:38,460 --> 00:33:40,740
+or just click on the tab in our website.
+
+692
+00:33:40,740 --> 00:33:41,540
+Thanks for listening.
+

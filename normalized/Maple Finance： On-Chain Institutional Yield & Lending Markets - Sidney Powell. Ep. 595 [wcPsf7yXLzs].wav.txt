@@ -1,0 +1,350 @@
+TITLE: Maple Finance: On-Chain Institutional Yield & Lending Markets - Sidney Powell. Ep. 595
+URL: https://www.youtube.com/watch?v=wcPsf7yXLzs
+VIDEO_ID: wcPsf7yXLzs
+
+TRANSCRIPT:
+The mix on the borrow side has been it shifted more towards primes.
+ They provide margin to their clients and then they do a significant amounts of OTC trading,
+ but also on-chain hedge funds and yield funds.
+ So they might want to borrow from us against collateral that is actually forming part of a yield strategy they're doing on-chain,
+ but they borrow from us to lever those strategies.
+ And then the other one would be liquid token funds.
+ So they might have a position they have high conviction in.
+ It's too expensive for them to finance a position using perps and they don't want to risk a liquidation.
+ So instead what they do is they could purchase the position,
+ post it to us as collateral, borrow dollars and lever up that position or invest in other deals that they want to.
+ Increasingly what shifted this year is we've started taking in more family offices and high net worths.
+ You know, they might want to purchase real estate using crypto holdings that they've accumulated over a number of years.
+ From us, what they're looking for is certainty on rates,
+ making sure that they almost never are in danger of getting liquidated.
+ So they'll post significant over collateralization and then counterparty risk.
+ Welcome to At the Center, the show which talks about the technologies,
+ projects and people driving decentralization and the blockchain revolution.
+ I'm Frederica Anne and today I'm speaking with Sid Power, who is the CEO and co-founder of Maple Finance,
+ which does on-chain lending in various flavors we'll talk about in just a bit.
+ Before we do that, let me tell you about us once this week.
+ If you're looking to stake your crypto with confidence, look no further than course one.
+ More than 150,000 delegators, including institutions like Bitgo, Pintera Capital and Ledger,
+ trust course one with their assets.
+ They support over 50 blockchains and are leaders in governance on networks like Cosmos Ensuring Your Stake,
+ is responsibly managed.
+ Thanks to their advanced MEV research, you can also enjoy the highest staking rewards.
+ You can stake directly from your preferred wallet, set up a white label note,
+ restake your assets on eigenneo or symbiotic or use the SDK for multi-chain staking in your app.
+ Learn more at Carrestot1 and start staking today.
+ This episode is proudly brought to you by Gnosis, a collective dedicated to advancing a decentralized future.
+ Gnosis leads innovation with circles, gnosis pay, and metric, reshaping, open banking and money.
+ With Hashi and Gnosis VPN, they're building a more resilient, privacy-focused internet.
+ If you're looking for an L1 to launch your project,
+ Gnosis Chain offers the same development environment as Ethereum with lower transaction fees.
+ It's supported by over 200,000 validators making Gnosis Chain a reliable and credibly neutral foundation for your applications.
+ Gnosis DAO drives Gnosis governance where every voice matters.
+ Join the Gnosis community in the Gnosis DAO forum today.
+ Deploy on the EVN-compatible Gnosis Chain or secure the network with just one GNO and affordable hardware.
+ Start your decentralization journey today at Gnosis DAO.
+ Cool, so it's super nice to have you on.
+ Maybe before we dive into Maple, tell us about yourself, kind of like before Maple, what was your journey like?
+ Yeah, for sure, and first of all, thank you for having me on.
+ I've been a long time listener to the podcast.
+ So my background was actually banking and finance before I got into crypto.
+ So I used to work in an area called securitization at one of the bigger commercial Australian banks.
+ And it sounds like a mouthful, but effectively what it was was helping large lending companies
+ to borrow from both banks and capital markets so that they could give smaller loans to their customers.
+ So I was always kind of very familiar and enmeshed in the lending business.
+ And then after I'd been there for a few years, I could kind of say that banks are a very big political organization.
+ And I'd always sort of wanted to start something or be at a more entrepreneurial company.
+ So I had the opportunity to go to a smaller commercial lending company.
+ And that was actually where I met my co-founder Joe.
+ And so he was running finance.
+ I was running treasury.
+ And that company would do small loans to small to medium businesses in Australia.
+ So still commercial lending.
+ And whilst there, we were trying to set up a funding line with a large bank ostensibly so that business could grow.
+ And it was whilst doing that that we started investing on the side in crypto.
+ And then thinking about could we tokenize what we'd been doing?
+ So institutional lending and issuing bonds and do that using smart contracts and using a blockchain.
+ And so this was like late 2018 and then started working on it kind of on the side in 2019 and into 2020.
+ And we made just about every possible mistake that you can in terms of thinking about the idea and getting started.
+ So this included everything from trying to do peer to peer lending with like anonymous people on the internet.
+ Using a blockchain and eventually we came around to the idea of doing institutional lending.
+ And so that was kind of how the original sort of business model from April evolved.
+ But those backgrounds were really more on the finance side rather than the technical side.
+ So what was the specific gap in the market that you were trying to fill?
+ Because kind of like even at that time there were already some lending markets around, right?
+ Yeah, it was still remarkably early.
+ So if I look at when I first wrote the white paper for Maple, it would have been like January 2019.
+ And as we'd been like investigating crypto and DeFi, like the entire DeFi space at this time you have to remember was about five companies.
+ It was Maker, Set Protocol, DYDX, a company called Dharma that was also trying to do peer to peer lending.
+ And compound.
+ So the beginnings of kind of DeFi and on-chain lending had begun.
+ But what we wanted to do that was going to be kind of different was we wanted to focus on large tokenized bonds.
+ Effectively like what I'd been doing in banking and the kind of the insight was we used to do many different layers of bonds.
+ What you would call trenches and the insight was well, if you have software, could you just program it so effectively that every dollar is a separate trench?
+ You could almost kind of scale it to infinity.
+ And so that was what really got me interested in smart contracts and the idea of doing this on-chain to begin with.
+ But as we got started doing Maple, we had to kind of find a differentiated angle for doing this.
+ And a lot of people were already doing over collateralized lending.
+ So what we started to look at in 2020 was could we do institutional loans to corporate borrowers,
+ but use the pool concept that had been kind of popularized by Compound and by Aave, which had just rebranded from Eflend at the time.
+ But bring a professional underwriter who could also put in first-loss capital.
+ So it started to look almost like a credit fund on-chain.
+ But we had to separate separate ourselves from the players who were already doing over collateralized lending.
+ So Maker, Aave and Compound.
+ And I'm a very big believer that you have to kind of differentiate and find your niche if you want to be successful.
+ Otherwise, it's very difficult to just go in and try and compete with folks who are already quite scaled and set up.
+ So the reason why kind of the over collateralized lending markets came first was because it's much easier.
+ If you do under collateralized lending, you have to deal with all sorts of risk underwriting and some sort of reputation.
+ And there's price orcas and it just compounds the complexity of over collateralized lending markets.
+ And then you already were thinking about targeting trad-fi players who by and large are much more risk-versed
+ than people who were already in this space.
+ So it sounds like you had to start off on a backhand.
+ So taking the more complex technical route and then also pitching to players who may not be the most who may not have the biggest risk affinity.
+ No, no, that's totally correct. And as we got started, we did try and approach it from a number of different angles.
+ So initially, we looked at doing peer-to-peer loans and I would read all these white papers and studies of the returns on lending club and portfolios and on deck.
+ But we found that it was a really difficult business to be in doing peer-to-peer consumer loans.
+ And so we tried doing that with our own savings and then we shifted because we realized it wasn't scalable.
+ And so the idea was, okay, well, you could lend to businesses, they produce management accounts, you just identify which ones are profitable.
+ Whereas if you're lending to a consumer, your risks are much more idiosyncratic.
+ Are they going to use the money to go gamble? Are they using it to make risky investments?
+ The types of events that trigger you, you know, pull you into default when you're lending to consumers are fraud, they get divorced, they get ill, and all of those are really hard to predict.
+ And you had this big adverse selection problem where the people who were going to come to you to borrow, if they were crypto individuals, would often be, you know, adversely selected.
+ They couldn't get finance elsewhere. And so we're really concerned about going into that line of business.
+ Whereas with companies, by 2020, you had started to see profitable crypto firms. There were the beginnings of the market makers like GSR and others who were crypto-native, so they didn't have access to banking finance, but they were profitable in crypto terms.
+ And so you could look at their management accounts, you could, you know, you could meet them, understand their business models.
+ And by that stage, also remember that the macro backdrop was that rates were trending to zero around 2020, you know, post COVID, the system was flush with liquidity.
+ And so if you're able to lend to these parties at a spread of, you know, nine, 10% versus T bills, people were extremely interested in that, and the system was flush with liquidity.
+ So there are a number of factors that kind of came together in a bit of a confluence. There was the rise of crypto trading firms. There was the backdrop where rates were kind of near zero on everything else.
+ And then there was the fact that people were already very comfortable by this stage with over collateralized lending and the natural next step was to then progress to under collateralized lending.
+ Okay, yeah, that makes perfect 10. So maybe before we kind of go into kind of like the business case again, walk us through the core technical stack.
+ So I'll contrast what it was then to kind of what it is now. Now, back then we were built kind of purely on Ethereum and the technical stack was Solidity Code, where we could take in USDC deposits.
+ People would receive an L, people would mint an LP token that represented their, their proportional share of the pool. And then you would have this manager, which we call the delegate who would then determine the terms on which loans could be sent out.
+ And then the loans would be sent using a smart contract. So a, like a borrower would request a loan. This delegate, this delegate role would approve the loan. And then the terms would then appear on chain in a smart contract loan.
+ So interest rate, term, amount. And where it's evolved to over time is our code base has gotten much more sophisticated. So sell predominantly in Solidity, like most of our, most of our loan originations happen on ETH main net.
+ And nowadays, the stack is kind of a hybrid of CFI and DeFi. So when you deposit on Maple, you still mint an LP token. That's a 4626 volt token. It accrues yield for you.
+ The pool is denominated in USDC. We now perform the role of approving all of the loans. So a borrower requests a loan. And it, and our contract fires off the money straight to their wallet, still with the interest rate and other terms coded in.
+ But now they can post collateral. And this is an important differentiating factor. They can post native BTC, Solana, XRP to qualified custody accounts or to a fire blocks account. And so we manage the collateral, you know, more off chain without using smart contracts.
+ And that's become kind of a core value add for a lot of these institutional borrowers, while our loans themselves and the deposits are all on chain managed through smart contracts on Ethereum.
+ And then we've also used recently, layer zero OFTs to push some of these LP tokens to other chains. So we're trying to ensure that we can achieve distribution across the other chains.
+ But is it still a pooled approach? Or am I a match? Okay. Yes. And how do you decide kind of which risk profiles to kind of allow into the pool? Because kind of like underwriting risk is quite a feat in itself, right?
+ And kind of like you have to decide kind of like who qualifies for kind of like which interest rate, right?
+ And so it's partly art, partly science. Previously, under the old model where it was the under collateralized lending, it was much more of an emphasis on review of the balance sheet of the borrowers.
+ So how much equity do they have? How much debt do they have? How profitable are they? And how much money do they make? Because that services your interest.
+ And then we would review financials on a monthly basis. So we get updated financials from the borrowers.
+ And it was, we also used more third parties back then. So we'd have this kind of third party platform model where we wanted other people to run pools and we thought that was much more scalable.
+ What we found since then is we still caught the reputational risk when something went wrong. So we decided to bring that delegate role in house.
+ So now we are the primary underwriter. But the model of underwriting is shifted much more to collateral based underwriting.
+ So now it's more, okay, we've accepted BTC. What's the right LTV? Is it 70% or is it 80%? And we managed the risk by having kind of two trigger levels.
+ So we have your initial loan to value, which is if you give me a million dollars, I give you $700,000 loan. That's a 70% LTV.
+ And what I would do is I would set a margin call level at a higher LTV. So let's say 80. And at that level, you have 12 hours to post me more collateral if your BTC drops in price.
+ And then a liquidation level above that, which is no more questions asked. I'm just selling your collateral as a kind of stop loss. And that would be like 85.
+ This is if we're talking about BTC, but as we start to look at other forms of collateral, we've underwritten loans against Solana against XRP. We would typically do a lower LTVs because those assets just have higher volatility and less liquidity in the market.
+ And so what we're looking at as we try and underwrite a new piece of collateral, if a deal is proposed to us, is we would look at what's the biggest drawdown that assets had over the last couple of years over both a day and a week.
+ And that determines how long it's going to take us to exit the position if something goes wrong. So that's very different for something like a cash or, you know, polygon or poll, I should say, or some other altcoin versus Bitcoin.
+ And then we'd look at, we go and speak with the OTC desks and see, okay, like, how much size could you guys move in a day if we needed to sell because that's going to determine our risk level and what kind of slippage we would take.
+ And then lastly, we also take collateral yield. So if I lend to you and you give me Solana, I'm staking it and I'm collecting the collateral yield there. So we have to look at how long does it take us to unbond it or unstake it if we're going to do that.
+ And that determines how much of it we can stake. If there's a really good liquid-staked token version of it that has a lot of liquidity, then we can stake more. If there's not, then we would then we would stake less.
+ But that impacts what LTV I'm going to offer the borrower and what rate. In the market today, Bitcoin backed lending has compressed significantly in rates.
+ So now a 70% LTV loan would fetch around 6%, 5.5% to 6%, whereas in December, that would have fetched 11% or 12%. So the rates can vary very dramatically.
+ Whereas if I were doing an altcoin backed loan, I'm probably still going to be getting north of 12% total return on that type of lending. So we've seen spreads between what you call almost investment grade credit and high yield credit shift quite significantly or widen significantly, I should say.
+ Now that you may need to over-collateralize lending too. How would you say the maple customer base is differentiated from the other lending protocols that are out there?
+ Yeah, it's a good question. I would say when we were doing more under collateralized lending, the borrower base was primarily market makers.
+ That doesn't work anymore when we do over-collateralized lending because market makers, the way to think of their business model is they have the lowest cost to shift between assets.
+ So it's almost never a good idea for them to post collateral because if they have BTC and they want to borrow dollars, they would just sell the BTC for dollars and they're going to get less slippage than anyone else in the market.
+ They can do it the most efficiently. So it would never make sense for them to post me, the BTC, and borrow the dollars.
+ And so the mix on the borrower side has been it shifted more towards primes. So think some of these large businesses with multiple different lines.
+ So there's folks out there in the market like a Galaxy or like a Hidden Road. This is a prime type of business.
+ They provide margin to their clients and then they do significant amounts of OTC trading, but also on-chain hedge funds and yield funds.
+ They might want to borrow from us so that against collateral that is actually forming part of a yield strategy they're doing on-chain.
+ And this could be on Pendle, it could be on Athena, it could be on levels money, it could be on any of these kind of stablecoins or on-chain yield products.
+ But they borrow from us to lever those strategies. And then the other one would be liquid token funds.
+ So they might have a position they have high conviction in. It's too expensive for them to finance the position using perps
+ and want to risk a liquidation. So instead what they do is they could purchase the position, post it to us as collateral, borrow dollars and lever up that position or invest in other deals that they want to.
+ So those are kind of the core constituents. Increasingly what shifted this year is we started taking in more family offices and high net worths
+ who now they might want to purchase real estate using crypto holdings that they've accumulated over a number of years.
+ And so they want from us what they're looking for is certainty on rates, making sure that they almost never are in danger of getting liquidated.
+ So they'll post significant over collateralization and then counterparty risk. If you've got somebody who's got 200 million in ETH, they don't want to post it in an RV or in a maker and risk getting liquidated.
+ Somebody got liquidated for 100 million in maker the other day. That person, if they'd done an OCC style loan with somebody like us, they would have been able to have 12 hours to meet a margin call and we would have been alerting them
+ that there's issues with their deposits. So that's the other reason that folks might be willing to pay a little bit more to deal with us rather than dealing with a pure smart contract.
+ On the yield side, which is the other side of our product, folks putting cash with us to get a yield, it's high net worths and family offices are very early adopters.
+ They're like a core constituent for us, but increasingly we're getting professional asset managers who might be managing money on behalf of a foundation and they have a yield target they need to hit whilst being fairly conservative.
+ And then also corporate treasuries are increasingly putting money with us because they view the Bitcoin and ETH back to lending product as akin to an on-chain money market, but paying reasonably higher yield.
+ Cool. Yeah. No, that was a very good overview. Remind me what assets can be used as collateral and which ones can be borrowed. So you already named Bitcoin, Zulana, ETH, Polygon.
+ How long is the list?
+ It's actually not too long a list. Like I would say, we have less than 12 different kinds of collateral on board at the moment or that we're actively lending against.
+ At the most conservative, you have BTC, which just by way of its market cap is generally going to be preferred for parties.
+ And then as you go down the list, you hit ETH, Zulana, XRP, all like extremely liquid, and these are top five assets.
+ So very comfortable with those. But as you go further down the list, some of the ones that we've underwritten have been, you know, we did the PT token for SUSDE, so Athena.
+ And that was because a hedge fund was running a looping strategy using Pendle and Athena.
+ And in our view, it was effectively like the collateral was almost a zero coupon bond that just drags towards one over time.
+ But even still, we still will spend two weeks going through due diligence on those assets.
+ So our smart contract team will look at all of the code and the audit reports.
+ We will look at whether the assets are supported on the wallets that we use, whether it's fire blocks or Porto or copper.
+ And then we'll speak with the OTC desk and see what kind of slippage we could get if we needed to liquidate at short notice.
+ But the other assets that we've done, as I mentioned, Paul, we've done Treehouse ETH, we've done Akash, smaller exposure there that we closed out recently.
+ And then we've done Lombard BTC was another one that we actually did in decent size.
+ And so, I would say one of the, if you look at how we compete, we don't have the scale of somebody like an Aave, so what we have to compete on is we can take native BTC and other assets on other chains because we're integrated with custodians and fire blocks.
+ And we will also try and keep an open mind around underwriting new collateral.
+ So somebody, you know, one of the ones we didn't underwrite or didn't approve was USD zero plus plus.
+ So we looked at that kind of twice and declined it both times, but hedge funds and different on-chain asset managers can always come to us with a proposal and we will look at it in kind of good faith and see if we're comfortable underwriting it.
+ But as I said, it's kind of like about 12 max different types of collateral at the moment.
+ Okay, and what I can borrow this was, is it always fiat or do you also? One of them, one of the more interesting deals we did over the last year was we lent Solana, and this was for firms to hedge the locked sole deal.
+ So effectively, you bought locked sole from the FTX estate at $64, and then if you could borrow it from us when Solana was $150, you would take it, sell it, and then repay us as your locked sole vests.
+ Through one of the custodians, and so we were hedged because we lent one unit of Sol, and we were expecting to get back one unit of Sol, and you'd pledged one locked unit of Solas collateral.
+ But that was an interesting structure where we're happy to do a collateralized loan in something other than Stables, and the yield for the lenders that they were getting was like six or seven percent wider than what the Solana's staking rate was at the time.
+ So it was like if you had a long-term bullish view on Sol, it was a very good way to accumulate extra versus what you could get, just purely staking.
+ And for the firms who had participated in the locked deal, they could hedge their exposure, and for overall Solana holders, it kind of smoothed the entry of those locked of that locked sole into the market and prevented points of concentrated selling.
+ Yeah, absolutely. You already said that you're deployed on Ethereum, and you also take assets from other banks.
+ Which networks are you deployed on? I understand Bitcoin and so on, but any of the L2s are polygon?
+ Interestingly, it's primarily Ethereum. In the past, we've been deployed on Solana, and we're working to get back there.
+ I think after 2022, the kind of the lending market on Solana sort of collapsed, and we've similar recently kind of yield products evolving there, whether it's computer or Jupiter, Drift.
+ And then the other one we deployed on base, but we didn't get a lot of uptake there. We tried that in 2023 with the T-bill product when we're kind of exploring tokenized money markets.
+ But it's interesting, primarily all the liquidity kind of still resides on Ethereum, and even if you look at other yield products, whether it's Athena or others, they've bridged to other chains, but almost all of their liquidity and almost all of their TVL is kind of still on Ethereum.
+ So we've tried to keep an open mind about going to other chains, and we would like to get there.
+ But the biggest question was, "How much TVL are we going to get there for the resourcing required to support it?"
+ And even if you've got an EVM chain that's not trivial to support it, you have to create a new subgraph, you have to organize all your data, and then you have to create the web app that connects to all of that data.
+ So it's actually still pretty significant resourcing cost for your engineering team. But I would say the other ones that we are most kind of bullish on at the moment, barring, you know, ETHL1 would be base, has a significant quantum of USDC, Solana as well.
+ And those seem to be kind of standalone ecosystems that are kind of thriving, despite not having, you know, significant mining or rewards programs, unlike some of the other newer ones.
+ And then we also recently committed to be a launch partner on Converge, which is going to be the chain launched by Athena and Securitize, because we're very interested.
+ We're very interested in kind of the bet there. Athena has been able to accumulate 6 billion in TVL. It's a bit under that now.
+ And Securitize was able to develop, you know, strong relationships as the issuer of Biddle, Apollo's on chain credit fund.
+ And so they have good institutional relationships that Athena has shown a really good track record of actually securing TVL.
+ And so the bet is, will they put their TVL over to that chain? So I think that's a fairly safe bet that it's going to see good TVL traction.
+ Whereas a lot of the other new ones, you're really effectively taking a venture bet on whether that chain can secure TVL or users and will it outlast the rewards program.
+ Why do you think the TVL is so concentrated on Ethereum mainnet? So in principle, kind of like there's tons of activity going on on the other networks as well.
+ Is it kind of by virtue of ticket size or people, do they have security concerns or is it just force of habit? What do you think is that play there?
+ I think it's a few things. And it's probably kind of like a combination of several of these factors. So I think it's partly the Lindy effect.
+ So if you're an institution, it's easier to make the case to go to Ethereum, which is which is battle tested over a number of years versus even a chain like Solana, which is, you know, now several years old and has a very good institutional presence.
+ So I think that's one factor. There are network effects to liquidity and liquidity, but gets more liquidity.
+ The other one is, I would say, infrastructure. So if you go to one of these chains, do they have a stablecoin, like a canonical stablecoin, like USDC or USDT rather than, you know, like a wrapped version?
+ And then are they supported by like institutional wallets and custodians? That's another big factor. Because if I'm, you know, if I'm, let's say a pension fund who wanted to get fixed income yield on a stablecoin, I might not go to, you know, chain number 20 if they don't have USDC there.
+ And if it's not supported in fire blocks, and if I can't custody that asset with Anchorage. So I think that that actually is like a fairly large barrier to entry for new chains.
+ And then let's say in the line of work we're doing with yield, people are less concerned about cost, particularly at scale because for yield products, it's not like trading or derivatives.
+ You're not moving and transacting every day. Often you might put in, you make your deposit and then you don't look at it again for six months until you need to withdraw from for some liquidity reasons.
+ So I think that's the other reason why people are not as averse to the cost of transacting on Ethereum or the speed issues versus something like Solana.
+ Yeah, that makes total sense. What kind of oracle solutions do you rely on? Because I mean, that's obviously really crucial part of your business, right?
+ It is, but funny, funny enough, the actual, the on chain oracles are not really that important to us, right? Because I have, I have the collateral sitting in fire blocks or portal or custody account.
+ So I'm, I can actually use, you know, Coinbase's API's or, you know, like coin gecko as a backup, I'm less reliant on feeding that information into a smart contract because I keep my, my business model is like a hybrid where I have the loans are on chain, but the collateral is held
+ in these kind of these CFI solutions.
+ If we shifted and did more kind of on chain liquidations, which could be an interesting business case for us, then I would rely more on oracles, but interestingly, we've spoken to a number of oracle solutions, but it's actually not that integral
+ throughout business because the cost, because the collateral is in those other, you know, those kind of CFI solutions. So we just use API's typically.
+ Go back on the initial assumption that kind of you would service institutions first and foremost. So I mean, so, for instance, you could kind of bring some sort of credit scoring on chain or, I mean, is this something that you're looking into because that would be, that would be a huge market.
+ No, I do. I do think it's a large market. It's, it's, it's, it's a little bit of a different business, like operating model, like when you start so you can, you can either do it at scale where you have effectively no customer service and that would be the model of
+ an RV or a compound or a spark, which is you just do automated liquidations, but you make your product effectively available to anyone who can post collateral.
+ And then the CFI version of that is something working to let in or to arch. However, to do that business model, you have to spend a lot on money transmitter licenses and consumer lending licenses.
+ And there's always the kind of the put option of just being sued by your customers, you know, like they default, they claim that they didn't know what they were getting into. And so you actually need to start staffing up like a lot of customer service people, and then you got to invest in, you know, in that kind of licensing.
+ Whereas when you lend to institutions, it's largely unregulated, barring a few states in the US because they're deemed to be sophisticated party. So we've tried to go. We've tried to say, okay, for a given number of hours of underwriting, we can actually earn much more in fees if we do a $10 million loan than if we do a $10,000 loan.
+ And so it makes more sense for us to be a leaner operation and service those institutions. But once we start to exhaust that market, then we could look at going in more of a retail direction.
+ The advantage in retail is you get better pricing power. Like if you look at players like Ledin and Arch, they're out there lending at 14% to retail, when for a given, at a given, like today we would be lending at 6% on the same LTV to to a lot of institutions, or, you know, maybe up to like 10% depending on depending on tenor, but it prices, you know, very wide for retail.
+ So I think the answer is we were always kind of open to evaluating it, but it would require a significant kind of shift in business operations.
+ And we do think that there's still a lot of juice to squeeze on the institutional side, which allows us to kind of just keep scaling by focusing on what we're doing.
+ Like if you look at firms like Apollo and Ares, which I would say is kind of like our North Star of where we want to be in ten years, they don't typically do kind of like retail lending, they just focus on lending to kind of larger institutions.
+ And I would say that our angle of expansion is probably going to be as more assets get tokenized, we'll just start lending to more different kinds of institutions.
+ Yeah, that makes sense. How do you guys manage defaults? So even kind of like with the most prudent underwriting kind of like you must have had major borrow defaults, especially kind of interpreting market periods, right?
+ Yeah, it's been interesting. I mean, so doing the over collateralized lending, we launched that business model in September of 2023. In that time, we've had dozens of margin calls, but we've actually only ever had one partial liquidation, which was during the yen carry unwind in fourth of August last year.
+ So we've had four significant periods of volatility.
+ What interestingly links all of them together is those periods were kind of all Sunday nights. So if you look at it, like the biggest most volatile single day periods are always a Sunday because like Asia comes online, and the US is still like offline because it's Sunday and Europe's not active either.
+ So what happens is you get all these liquidations and margin calls come on from like six in the evening on the Sunday, and then you, you know, me and like the entire team will be up to like 4am.
+ The most recent one we had was this last Sunday, where as a result of the tariffs, we had a bunch of margin calls, but because this is because we are underwriting institutions and we'll also look at their balance sheet to make sure that they have the wherewithal to top up their collateral.
+ Typically, we just like our clients will just meet their margin calls, and we only had one where we had to do a partial liquidation back in August, but even then we only sold like 20% of their collateral.
+ So that's the other reason I like us is if you do this on an RV or a maker, you're fully liquidated. You're liquidated, you're wiped out, and they're taking a big commission, whereas we will only liquidate what we need to get back, get you back to like a healthy ratio, and we'll be in contact with you for that period
+ and try and make sure that it's that, you know, you're in the loop as to what's happening. But those periods, so Sundays are the worst for the liquidations.
+ What happens is in a situation like that, just to step through that one, we had an initial LTV with that borrower. So let's say it was 70.
+ I think in that case, I actually wanted to go to 80. We did a margin call at, let's say like 5.5% wider on LTV.
+ So we contact them, we say, "Hey, we send them an email, we message them on Telegram, we are trying to get in direct contact with them. You have to post this much, or you have to repay this much of the loan."
+ Whilst that's happening, we're contacting the market makers and the OTC desks, and we're trying to put out requests for quotes on, you know, you need to liquidate 2 million bucks of BTC.
+ And then if the borrower posts, we never fill the quote. If the borrower does not, or if we hit the liquidation level, then we're just sending the BTC or the soul or the ETH to the OTC desk and receiving back dollars, which we use to pay down the exposure.
+ The price alerts are automated, the margin calls are automated, but just what's not automated is the actual sale of the asset itself, and that's actually bug or feature, it tends to be viewed more as a feature by the institutional borrowers.
+ They are deathly afraid of an auto liquidation from a smart contract, so it actually helps, and it kind of helps us with pricing power with these installs.
+ That makes sense. So you're pretty relaxed, kind of given the current macro backdrop, so I would have assumed that kind of tightening liquidity and tariffs and shifting risk appetites, and so it would keep you up at night, but you're chill.
+ I'm going a little bit more gray, Frederica, but no, it's interesting because we have the, keep in mind we have the two sides of the business, right? So we have the yield, the yield that we're providing to people who lend with us, and then we have the borrowers who borrow from us.
+ And so what we've seen is that borrowing rates have come down with the macro environment because Bitcoin is depressed, so funding rates and basis are depressed. There's just not as much to do with the assets, so folks are less interested in borrowing, and if they want to borrow, it's going to be at a lower rate.
+ Like I said, December, we were lending Bitcoin 70% LTV at 12 to 13. Now it's down to like, you know, mid to high single digits. But what we are seeing on the lending side is that because Bitcoin is not, you know, because Bitcoin is not rapidly appreciating, folks are no longer interested in market beta.
+ So what does that mean? They're actually looking at holding more stables, and they're very interested in putting those stables to work. So that business is, that side of the business is going very well. We're actually seeing constant inflows.
+ And it's just that the rates that we can put the money to work out are kind of compressing and borrow appetite is kind of diminished.
+ That can always kind of flip on a dime though, you know, if you can have one solid week of movement in the market and suddenly, suddenly, excuse me, everybody wants to borrow and the dynamic totally flips again.
+ But I would say in this kind of environment that's a little bit sideways, we're actually very comfortable sitting as a yield product as long as we control our risk underwriting and we're not extending too much credit on to lose terms.
+ Like this is a pretty good market for us. Folks are very interested in yield and we'll see a lot of growth.
+ Yeah, that makes sense. How are you thinking about extending the assets kind of more, the assets that you can borrow on more into the RWA direction?
+ I've always been a big fan of RWA's. I take the liberty of calling us tokenized private credit. I think private credit is the most interesting sector in tradfi at the moment. And one in one sense, we are in fact, you know, we are in fact that, right?
+ Like I do a loan on chain. The loan is tokenized. I have an off chain lending agreement. That's basically tokenized private credit.
+ And why I've been bullish on this type of tokenized private credit is it's the only one where you can't call up your Morgan Stanley banker and order it.
+ Tokenized money market funds, tokenized stocks, tokenized bonds. You can just ring up Morgan Stanley and get the tradfi version of that, whereas there's no Wall Street bankers selling exposure to Bitcoin back loans, which I think were a very interesting asset class.
+ Good yield versus the security. And then you can get your money back generally within 30 days. So it's like, it's actually much better than a lot of tradfi products in fixed income.
+ But RWA. So tokenized real estate, tokenized receivables. We have done lending against tokenized receivables in the past. I think that's interesting because it's high yield, short duration.
+ And so it turns over pretty quick. What we've seen though is that RWA's have a buy side problem on chain. And it's for the reason I mentioned where, you know, the investors can just ring up Morgan Stanley in most cases and get another version.
+ So, and the other thing is they have a much shorter time horizon on chain. So the on chain investors are thinking in one month to six months, maybe 12 months at the, at the wide end.
+ But RWA investors or issuers are thinking in terms of three to five years. And so that mismatch has been the key issue and why RWA's have not taken off in the way that people were hoping.
+ And that's kind of the main barrier. Like, we would happily extend credit against RWA's if we can bring in capital from lenders and investors and sell them on that kind of, you know, three to five year exposure.
+ And I think that's as the space matures, you'll see more people come in who have a longer time horizon for, you know, for investing. And, and also just if you get much more capital coming into the space. So if stablecoin or if stablecoin issuance goes up to a trillion dollars,
+ you'll have more capital come in and it will get crowded out of only lending against Bitcoin. So I think if the rates on Bitcoin back lending compress and rates on RWA back lending, like receivables or real estate stay wider, then more folks will push, you know, push into those exposures.
+ And we are agnostic, like we would be there to underwrite that type of stuff. For us, the main issue is, is there a market of people on the buy side who want that? And if so, like them, then we'll find, you know, we'll find those opportunities and curate them for them.
+ So it sounds like you're working under the assumption that on chain and off chain markets will converge. I would say I do believe that they will converge because the natural pressure right is it's going to happen through competition.
+ And the fact is it's just undeniable that stablecoins are a better way to transact and do pretty much anything in finance. If I want to settle alone, I can settle that loan at 1 a.m. on a Saturday, on a Saturday night, if I want, because, and we can just send it directly to that customer's wallet.
+ Whereas if we were to settle a $10 million loan through the banking system, the bank might block the transfer. You've got a key in the details manually.
+ So that might get done. So it's much harder than just the person giving you a single hash for a wallet address. And then it's, and then you have cross border effects issues where if you want to fund a US dollar loan in Japan, it's very difficult and costly to do so.
+ And so I think the inevitable trend will be it is cheaper, faster, and a better user experience to do this in stablecoin. So I think my bet is that you start seeing more institutional lending and lending against RWAs in the next five years.
+ And I would say by 10 years, probably more than 50% of capital markets transacting or institutional lending will be done in a stablecoin in some form or another.
+ So I think it's slower than I would expect over the first five years, but between five and 10, it's probably going to be faster than most people expect.
+ That is actually a very detailed prediction for someone who doesn't like predictions. I like that.
+ Tell me about your biggest challenge, kind of from a technical side, kind of in building the credit market on Ching.
+ I would say the biggest challenge we've found so far, there's a couple of different angles.
+ So I'd say I'm always kind of thinking most about distribution.
+ And so I'd say the biggest challenge has been on and off ramps have been a huge one where we might meet somebody who's very keen on our product, but they're sitting on 10 million in fiat and it's a struggle for them to get on chain.
+ And if they're in New York, on ramps, when we touch them, they'll face limits from what they can on board through Coinbase. So they're on and off ramps, I would say, have been kind of the biggest, probably the biggest barrier.
+ Second to that is the prevalence of stablecoins, like I think at 250 or sorry, well, like 250 billion total stablecoin issuance, or still significantly under supplied.
+ And if you think of that, it's kind of like, that's the fish tank in which we swim, right? Like the stablecoins are the oxygen, or if you're a fish, the water that you need.
+ And as that expands, that gives us more ability to kind of do commerce and to transact.
+ So I'd say those have been two of the bigger barriers.
+ And then the commercially, I would say it's been bi-side appetite, but technically I would say, being able to take funds from other chains has been a bit of a bit of a blocker as well.
+ So we would, I would love for anyone to be able to deposit from any chain into a maple pool and receive the LP tokens. It would certainly help us with distribution, but that's like just not the case today.
+ So that's something that we're currently working on with layer zero. And if that gets solved, then I think we'll be able to kind of scale more.
+ Yeah, that makes sense. Other than kind of the cross chain issue, what are the technologies that you're excited about most kind of for shaping the next wave of growth?
+ I'd be hopping on kind of the hype bandwagon, but I think AI is pretty interesting for us because we were in a fairly lean team. So we're 32 people. I have currently five people on our sales and origination side.
+ And I look at AI, I look at the potential for AI for monitoring risks. So in collateral, giving me predictions or insights as to when we should be looking to liquidate a piece of collateral, or when signs of an impending volatility are coming.
+ And then I also like it for the ability to underwrite new loans. So to assess like, well, here's the before things you should be looking out for with this borrower. Here's why this collateral is good. It will be able to scan through a GitHub
+ and smart contract audits faster than a human engineer can. And so it should save time and allow us to do a much higher volume of loans at much better risk management than we were currently able to do doing everything manually.
+ So I'd say that's probably like one piece of technology that I'm super excited about. And then we really kind of talked about the cross chain side of things.
+ Yeah, that makes sense. So is that the AI analyst thing on your roadmap for this year?
+ It is. We actually have a pilot in place at the moment. So we're working with a team, smaller team startup team out of with a couple of Australian founders that we're pretty excited about. So hopefully we'll have an announcement on that coming soon.
+ But that pilot is around assessing collateral. And we're going to have, you know, we're going to run a couple of test cases where we have our human team analyze a piece of collateral. And then we're going to have the AI assess the same piece of collateral and then kind of see where the points of difference are.
+ But I think that's like something that we have in progress at the moment. And I think it's really easy call for me to make because if it works, there's like a very clear cost saving for us.
+ Yeah, 100%. What else is on the roadmap for the coming year for you guys?
+ So one of the things we've been particularly interested in is kind of like Bitcoin structured products. So we have a partnership with CoreDAO, which is a BTC L2 that does proof of stake.
+ And so we have a program where we can take native BTC in a custodian without slashing risk from lenders and investors and produce for them a Bitcoin on Bitcoin yield.
+ So I think that's been pretty interesting. And for us, it's like it's an interesting hedge on the stablecoins because when the market goes kind of more bullish, folks are more interested in holding Bitcoin.
+ And if they can get a yield on that Bitcoin, it's an even more interesting product. And also Bitcoin is kind of the dominant form of collateral that's posted by trading companies.
+ So I think there's a big market if we can turn that into an LST, which is one of our products goals for this year to get them using that as yield bearing collateral.
+ And the other thing I just note is whenever I talk with Coinbase or some of these other big institutional OTC desks, the first point of call for all new institutions coming into the space is like they just want to buy Bitcoin.
+ And so it's a very natural corollary. The very natural next step for them is either, can I get a yield on dollars lending against Bitcoin? They start to think about that.
+ And then the other thing that we'll think about is can they get a yield on the Bitcoin itself because otherwise it's just sitting there doing nothing.
+ And usually because of their investment mandates, they have to keep the Bitcoin in custody. So having a yield product that's intrinsically linked to custody solutions, I think has like a really good edge.
+ And so I could see that product scaling quite a bit. So I'm very excited about that segment of the market.
+ As someone kind of who's very in touch with traditional markets also, but it's clearly very crypto native, kind of as an ecosystem kind of we have often talked about the fact that kind of when trust in government somehow forties kind of in principle
+ that should kind of like be in principle, that should be a boon for cryptocurrencies.
+ But what we've seen so far in practice is that kind of like when traditional markets have gone down, cryptocurrency market have also gone down.
+ Do you think this is a trend that's going to break at some point? Or do you think kind of we'll continue as we have in the last 10 years?
+ It's a good question. So I think the Bitcoin trades like a growth asset because largely the price is actually being driven by inflows of new adoption.
+ And so if you look, what would have to happen for Bitcoin to trade as a sort of safer defensive asset is that either people need to rotate out of another asset class defensively.
+ Or you just need to have people who are already in there who kind of refuse to sell as things are getting bad.
+ But the thing is that most people who are coming into Bitcoin, it's still in this kind of wave of new adopters.
+ And so the people who are coming in are those who are otherwise investing in like growth stocks.
+ And so it trades largely as it trades largely like a tech growth stock at the moment.
+ You can see it in like the correlation with the NASDAQ and with stocks like Nvidia and the MAG7.
+ I do think it breaks or changes over time, but that point has to be where Bitcoin is at a larger level of adoption worldwide.
+ And then the rest of the market would kind of follow that.
+ But I think I feel like that's probably like five plus years away because the rate of adoption like it's still, you know, Bitcoin is still quite under penetrated versus other versus other asset classes.
+ You know, it's still currently like if you look at the allocation crypto falls, if you looked at a pension fund, they would have their alternatives allocation, which might be max 20% of their book 15 to 20.
+ And then within that Bitcoin is going to be like 5 to 10% of that.
+ So it's still you're still talking kind of like low single digit allocation.
+ And it's not until it's a larger, more, more folks holding it as a percentage of the investable world and larger percentage of their portfolio.
+ That it's really going to flip and become a kind of much more defensive asset.
+ Yeah, that makes a lot of sense.
+ So, Sid, where do we send people to kind of find out more about maple?
+ So you can find us our website is maple.finance and then on X we are at maple finance and I am at Syrup Sid.
+ So if anyone has any questions either go to the website and we have like a contact us form or DM us on Twitter or X or tag us on there.
+ But we try and be pretty active.
+ We do community calls usually once every two or three weeks.
+ But we'd love to hear from anyone who's interested in learning more about maple.
+ Cool, super nice.
+ Thank you so much for coming on today.
+ No, thank you for having me for to recap.

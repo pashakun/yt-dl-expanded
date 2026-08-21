@@ -1,0 +1,3404 @@
+1
+00:00:00,400 --> 00:00:02,000
+Welcome to On the Brink.
+
+2
+00:00:02,000 --> 00:00:03,540
+My name is Henry Harris,
+
+3
+00:00:03,540 --> 00:00:06,360
+and I'm an investor with Castle Island Ventures.
+
+4
+00:00:06,360 --> 00:00:10,020
+Today on the show, I'm joined by Corn from Yearn Finance.
+
+5
+00:00:10,020 --> 00:00:13,100
+Yearn Finance has been building DeFi infrastructure
+
+6
+00:00:13,100 --> 00:00:16,480
+and providing verifiable risk-adjusted yield strategies
+
+7
+00:00:16,480 --> 00:00:18,280
+since 2020.
+
+8
+00:00:18,280 --> 00:00:20,440
+Corn and I discussed how DeFi has evolved
+
+9
+00:00:20,440 --> 00:00:23,840
+since the collapse of Terra Luna in 2022,
+
+10
+00:00:23,840 --> 00:00:25,920
+and how recent volatility in the market
+
+11
+00:00:25,920 --> 00:00:28,840
+once again highlighted the need for proper risk management
+
+12
+00:00:28,880 --> 00:00:31,200
+and transparency in DeFi.
+
+13
+00:00:31,200 --> 00:00:33,440
+We also touched on the state of cybersecurity
+
+14
+00:00:33,440 --> 00:00:35,060
+for on-chain products,
+
+15
+00:00:35,060 --> 00:00:36,720
+as well as what it's going to take
+
+16
+00:00:36,720 --> 00:00:39,080
+to get non-cryptonative institutions
+
+17
+00:00:39,080 --> 00:00:41,520
+comfortable interacting with DeFi.
+
+18
+00:00:41,520 --> 00:00:43,000
+Without further ado,
+
+19
+00:00:43,000 --> 00:00:46,800
+here's my conversation with Corn from Yearn Finance.
+
+20
+00:00:46,800 --> 00:00:47,720
+Matt Walsh and Nick Carter
+
+21
+00:00:47,720 --> 00:00:49,160
+are partners at Castle Island Ventures.
+
+22
+00:00:49,160 --> 00:00:50,160
+All of these expressed by them
+
+23
+00:00:50,160 --> 00:00:51,960
+or the guests on this podcast are solely their opinions
+
+24
+00:00:51,960 --> 00:00:54,280
+and do not reflect the opinions of Castle Island Ventures.
+
+25
+00:00:54,280 --> 00:00:55,800
+Guests and hosts may maintain positions in the assets
+
+26
+00:00:55,800 --> 00:00:56,880
+discussed in this podcast.
+
+27
+00:00:56,880 --> 00:00:58,080
+You should not treat any opinion expressed
+
+28
+00:00:58,080 --> 00:01:00,160
+by anyone on this podcast as a specific inducement
+
+29
+00:01:00,160 --> 00:01:01,320
+to make a particular investment
+
+30
+00:01:01,320 --> 00:01:02,840
+or follow a particular strategy,
+
+31
+00:01:02,840 --> 00:01:04,920
+but only as an expression of their personal opinion.
+
+32
+00:01:04,920 --> 00:01:07,720
+This podcast is for informational purposes only.
+
+33
+00:01:07,720 --> 00:01:09,800
+Brought down by bad mortgage investments,
+
+34
+00:01:09,800 --> 00:01:13,000
+Lehman, which has 25,000 employees, will be liquidated.
+
+35
+00:01:13,000 --> 00:01:14,040
+The federal government loans
+
+36
+00:01:14,040 --> 00:01:17,800
+American International Group, AIG, $85 billion.
+
+37
+00:01:17,800 --> 00:01:19,120
+This is a different kind of market,
+
+38
+00:01:19,120 --> 00:01:20,480
+and the Fed is asleep.
+
+39
+00:01:20,480 --> 00:01:21,760
+The federal government is stepping in
+
+40
+00:01:21,760 --> 00:01:23,960
+to stabilize Fannie Mae and Freddie Mac,
+
+41
+00:01:23,960 --> 00:01:26,080
+the two mortgage giants that have been threatened
+
+42
+00:01:26,080 --> 00:01:27,200
+by the housing crisis.
+
+43
+00:01:27,200 --> 00:01:29,880
+The Bank of England has pumped 75 billion pounds more
+
+44
+00:01:29,880 --> 00:01:31,120
+into Britain's ailing economy
+
+45
+00:01:31,120 --> 00:01:32,600
+with a new round of quantitative easing.
+
+46
+00:01:32,600 --> 00:01:34,080
+You print a couple of trillion dollars
+
+47
+00:01:34,080 --> 00:01:35,800
+and all of a sudden people start to worry.
+
+48
+00:01:35,800 --> 00:01:36,880
+So out of this worry,
+
+49
+00:01:36,880 --> 00:01:39,520
+we have something called the Bitcoin, Bitcoin.
+
+50
+00:01:40,800 --> 00:01:42,600
+Well, Corin, welcome on the podcast.
+
+51
+00:01:42,600 --> 00:01:44,080
+Appreciate you coming on.
+
+52
+00:01:44,080 --> 00:01:45,600
+Thank you for inviting me.
+
+53
+00:01:45,600 --> 00:01:48,160
+This is Pulpy Taco's favorite podcast,
+
+54
+00:01:48,160 --> 00:01:49,480
+so I could not miss it.
+
+55
+00:01:49,480 --> 00:01:52,240
+I only attend the really high signal stuff.
+
+56
+00:01:52,240 --> 00:01:53,080
+This is why we do it
+
+57
+00:01:53,080 --> 00:01:55,360
+for Pulpy and all the other listeners out there.
+
+58
+00:01:55,360 --> 00:01:59,200
+What we wanna get into today is a state of the union
+
+59
+00:01:59,200 --> 00:02:01,640
+on decentralized finance on DeFi,
+
+60
+00:02:01,640 --> 00:02:04,240
+and maybe just to level set your background,
+
+61
+00:02:04,240 --> 00:02:06,720
+just how you got into crypto and DeFi,
+
+62
+00:02:06,720 --> 00:02:08,440
+and we can go from there.
+
+63
+00:02:08,440 --> 00:02:13,440
+I have been in crypto full time since November of 2021.
+
+64
+00:02:14,720 --> 00:02:16,920
+So if you remember back then,
+
+65
+00:02:16,920 --> 00:02:21,440
+that was the top of the top in the past four years.
+
+66
+00:02:21,440 --> 00:02:24,080
+I had been following crypto for a long time,
+
+67
+00:02:24,080 --> 00:02:28,480
+and I was working with Cisco Networks' largest partner
+
+68
+00:02:28,480 --> 00:02:31,400
+for 10 years in the data center space,
+
+69
+00:02:31,400 --> 00:02:34,520
+building networks and data centers for hospitals.
+
+70
+00:02:34,520 --> 00:02:38,080
+Someone from Yearn was in a telegram chat with me,
+
+71
+00:02:38,080 --> 00:02:40,560
+and they knew that I did a lot of technical selling,
+
+72
+00:02:40,560 --> 00:02:43,200
+and the IT space was starting to slow down
+
+73
+00:02:43,200 --> 00:02:45,920
+because especially in healthcare,
+
+74
+00:02:45,920 --> 00:02:47,920
+every time someone deployed Epic
+
+75
+00:02:47,920 --> 00:02:49,880
+for their medical record system,
+
+76
+00:02:49,880 --> 00:02:53,520
+they had to go and buy a ton of hardware.
+
+77
+00:02:53,520 --> 00:02:55,280
+Upgrading to Epic was definitely
+
+78
+00:02:55,280 --> 00:02:56,640
+their biggest capital expense
+
+79
+00:02:56,640 --> 00:02:58,480
+like a hospital ever goes through.
+
+80
+00:02:58,480 --> 00:03:01,640
+Epic made the transition to be a web app.
+
+81
+00:03:01,640 --> 00:03:04,880
+The customers don't need to buy storage and area networks.
+
+82
+00:03:04,880 --> 00:03:08,680
+They don't need to buy all new Cisco switching
+
+83
+00:03:08,680 --> 00:03:09,600
+and stuff like that.
+
+84
+00:03:09,600 --> 00:03:11,800
+So I saw that space starting to slow down,
+
+85
+00:03:11,800 --> 00:03:14,720
+and getting involved with Yearn back then,
+
+86
+00:03:14,720 --> 00:03:17,240
+we had over $6 billion of deposits.
+
+87
+00:03:17,240 --> 00:03:20,600
+We were in the top five for DeFi projects,
+
+88
+00:03:20,600 --> 00:03:25,600
+and we had 125 contributors, I think, back then.
+
+89
+00:03:26,640 --> 00:03:27,960
+It was a big project,
+
+90
+00:03:27,960 --> 00:03:30,880
+and there was no way that I was gonna say no
+
+91
+00:03:30,880 --> 00:03:31,920
+to that opportunity.
+
+92
+00:03:31,920 --> 00:03:36,920
+So I took it, and I'm still doing BD for Yearn today.
+
+93
+00:03:38,080 --> 00:03:42,440
+I'm responsible for all of the customer experiences
+
+94
+00:03:42,440 --> 00:03:43,680
+that we have.
+
+95
+00:03:43,680 --> 00:03:46,440
+We have a B2B approach still.
+
+96
+00:03:46,440 --> 00:03:49,320
+We want to get people to build on top of Yearn vaults
+
+97
+00:03:49,320 --> 00:03:52,440
+and consume the tokenized strategies that we have.
+
+98
+00:03:52,440 --> 00:03:56,640
+And if people are not getting answers really fast,
+
+99
+00:03:56,640 --> 00:03:57,960
+they feel unsupported.
+
+100
+00:03:57,960 --> 00:03:59,240
+They'll go to one of the other
+
+101
+00:03:59,240 --> 00:04:01,160
+nine million vault projects out there.
+
+102
+00:04:01,160 --> 00:04:04,080
+So my responsibility is to make sure that they're happy,
+
+103
+00:04:04,080 --> 00:04:05,800
+make sure they're coming in the door.
+
+104
+00:04:05,800 --> 00:04:08,080
+We get a lot of inbound requests
+
+105
+00:04:08,080 --> 00:04:09,760
+for strategies to be made still,
+
+106
+00:04:09,760 --> 00:04:13,560
+because they know that if they get a Yearn strategy made,
+
+107
+00:04:13,560 --> 00:04:15,000
+someone from the Yearn security team
+
+108
+00:04:15,000 --> 00:04:17,160
+is gonna have to do due diligence on it.
+
+109
+00:04:17,160 --> 00:04:18,680
+They're gonna have to do at least something
+
+110
+00:04:18,680 --> 00:04:21,520
+like a light audit on the code base
+
+111
+00:04:21,520 --> 00:04:23,240
+and make sure that it's safe.
+
+112
+00:04:23,240 --> 00:04:26,680
+It's my job to also qualify those opportunities
+
+113
+00:04:26,680 --> 00:04:28,160
+because there are a lot of them,
+
+114
+00:04:28,160 --> 00:04:30,800
+and I can't bring every single one of them to the curation
+
+115
+00:04:30,800 --> 00:04:32,680
+or security team to vet.
+
+116
+00:04:32,680 --> 00:04:35,080
+I have to make sure that they've gone through my filter
+
+117
+00:04:35,080 --> 00:04:37,000
+before I pass it on to them.
+
+118
+00:04:37,000 --> 00:04:39,760
+Those come in all the time for strategies,
+
+119
+00:04:39,760 --> 00:04:42,480
+for collaterals for our curation arm.
+
+120
+00:04:42,480 --> 00:04:43,920
+It's always been busy.
+
+121
+00:04:43,920 --> 00:04:45,880
+Ever since I joined four years ago,
+
+122
+00:04:45,880 --> 00:04:49,040
+even if we're not churning out all these strategies,
+
+123
+00:04:49,040 --> 00:04:52,400
+we're definitely evaluating them.
+
+124
+00:04:52,400 --> 00:04:55,400
+Customer support is something of an unsolved problem
+
+125
+00:04:55,400 --> 00:04:56,640
+within the crypto world.
+
+126
+00:04:56,640 --> 00:04:57,880
+Who do you call when you're dealing
+
+127
+00:04:57,880 --> 00:04:59,560
+with a decentralized protocol?
+
+128
+00:04:59,560 --> 00:05:01,200
+So it's good to know that you're on the other end
+
+129
+00:05:01,200 --> 00:05:02,440
+picking up the phone.
+
+130
+00:05:02,440 --> 00:05:03,800
+In terms of the history of Yearn,
+
+131
+00:05:03,800 --> 00:05:05,760
+you mentioned starting back in 2021,
+
+132
+00:05:05,760 --> 00:05:08,840
+it was, to my knowledge, it was around even before then.
+
+133
+00:05:08,840 --> 00:05:13,200
+What's kind of like the history of DeFi protocols
+
+134
+00:05:13,200 --> 00:05:16,920
+and how they've evolved through 2021 and all the craziness,
+
+135
+00:05:16,920 --> 00:05:20,840
+and then maybe all the way up to today in your experience?
+
+136
+00:05:20,840 --> 00:05:24,040
+Back when I started and we had 120 contributors,
+
+137
+00:05:24,040 --> 00:05:27,720
+we had this mantra that Yearn was very open
+
+138
+00:05:27,720 --> 00:05:29,000
+and anyone could join.
+
+139
+00:05:29,000 --> 00:05:34,000
+And to be honest, we still have that same culture today.
+
+140
+00:05:35,320 --> 00:05:37,200
+One of the people who actually went on
+
+141
+00:05:37,200 --> 00:05:39,920
+to build Yearn Vaults v3, Schlag,
+
+142
+00:05:39,960 --> 00:05:44,440
+we came across him in a hackathon, I think it was.
+
+143
+00:05:44,440 --> 00:05:46,600
+He submitted a strategy that he created
+
+144
+00:05:46,600 --> 00:05:50,240
+and we thought that he was a former Yearn contributor.
+
+145
+00:05:50,240 --> 00:05:51,200
+It was so perfect.
+
+146
+00:05:51,200 --> 00:05:54,760
+And we had 50 other people who had made strategies
+
+147
+00:05:54,760 --> 00:05:57,640
+and every single one of them was very low quality.
+
+148
+00:05:57,640 --> 00:05:59,800
+And the truth is today,
+
+149
+00:05:59,800 --> 00:06:03,600
+if you build something on Yearn and we think it's really good,
+
+150
+00:06:03,600 --> 00:06:06,320
+we will seriously consider hiring you.
+
+151
+00:06:06,320 --> 00:06:08,840
+But we had to be more selective
+
+152
+00:06:08,840 --> 00:06:11,960
+about who we're onboarding as time went on.
+
+153
+00:06:11,960 --> 00:06:14,160
+The bar kept getting higher and higher
+
+154
+00:06:14,160 --> 00:06:15,600
+and that's a really good thing.
+
+155
+00:06:15,600 --> 00:06:17,880
+We started out that way back then.
+
+156
+00:06:17,880 --> 00:06:21,920
+And when I first joined, we had all this money,
+
+157
+00:06:21,920 --> 00:06:25,440
+we were making $100 million in profits in 2021,
+
+158
+00:06:25,440 --> 00:06:26,560
+I think it was.
+
+159
+00:06:26,560 --> 00:06:30,560
+And then the first thing that happened was UST.
+
+160
+00:06:31,840 --> 00:06:34,120
+The yields were 20%.
+
+161
+00:06:34,120 --> 00:06:37,440
+Everyone was like, you gotta make a strategy for UST
+
+162
+00:06:37,440 --> 00:06:39,040
+or you're gonna lose deposits.
+
+163
+00:06:39,040 --> 00:06:39,880
+And guess what?
+
+164
+00:06:39,880 --> 00:06:42,200
+We started losing a ton of deposits
+
+165
+00:06:42,200 --> 00:06:44,120
+and we refused to make a strategy for it
+
+166
+00:06:44,120 --> 00:06:48,400
+because it was not a structurally sound project.
+
+167
+00:06:48,400 --> 00:06:50,120
+We knew that something was going to happen.
+
+168
+00:06:50,120 --> 00:06:52,320
+We knew that it was like a bit of a Ponzi.
+
+169
+00:06:52,320 --> 00:06:54,040
+How did you sort of figure that out?
+
+170
+00:06:54,040 --> 00:06:57,640
+Just for context, UST, Terra Luna collapse,
+
+171
+00:06:57,640 --> 00:07:00,080
+ended up losing tens of billions of dollars.
+
+172
+00:07:00,080 --> 00:07:01,160
+Do Kwan was the CEO.
+
+173
+00:07:01,160 --> 00:07:03,600
+But how did you guys in the moment see through that?
+
+174
+00:07:03,600 --> 00:07:06,280
+Anytime a stable is backed by a governance token,
+
+175
+00:07:06,320 --> 00:07:08,440
+it's not gonna end well, it's impossible.
+
+176
+00:07:08,440 --> 00:07:10,760
+The governance token is gonna go to zero at some point
+
+177
+00:07:10,760 --> 00:07:13,040
+and whether the market likes it or not,
+
+178
+00:07:13,040 --> 00:07:14,280
+there was no way of avoiding it.
+
+179
+00:07:14,280 --> 00:07:16,040
+And we saw that happening.
+
+180
+00:07:16,040 --> 00:07:19,320
+It just was best for us to not play a part in that
+
+181
+00:07:19,320 --> 00:07:23,560
+and just see our vaults just leak value
+
+182
+00:07:23,560 --> 00:07:24,800
+to go to other places.
+
+183
+00:07:24,800 --> 00:07:29,440
+And at the same time, that is also when the risk-free rate
+
+184
+00:07:29,440 --> 00:07:33,240
+and treasury rates started to go up.
+
+185
+00:07:33,240 --> 00:07:36,400
+There was a pending bear market.
+
+186
+00:07:36,400 --> 00:07:37,920
+It was definitely on the way.
+
+187
+00:07:37,920 --> 00:07:41,800
+We saw that DeFi yields started to go down.
+
+188
+00:07:41,800 --> 00:07:44,040
+The way that we get most of our yields
+
+189
+00:07:44,040 --> 00:07:46,520
+is from supplying to lending markets.
+
+190
+00:07:46,520 --> 00:07:48,320
+And when people are not borrowing,
+
+191
+00:07:48,320 --> 00:07:49,840
+the yields are gonna go down.
+
+192
+00:07:49,840 --> 00:07:54,320
+What happened was we started to lose even more TVL
+
+193
+00:07:54,320 --> 00:07:58,240
+for people going and wanting to get that risk-free rate.
+
+194
+00:07:58,240 --> 00:08:00,600
+It's understandable, 100%.
+
+195
+00:08:00,600 --> 00:08:05,240
+Yearn, however, was not going to bend in our culture
+
+196
+00:08:05,240 --> 00:08:08,960
+and our values and we were not going to start onboarding
+
+197
+00:08:08,960 --> 00:08:13,960
+risky RWA yields and we need to have everything on chain
+
+198
+00:08:14,440 --> 00:08:16,640
+and that's how it is for us.
+
+199
+00:08:16,640 --> 00:08:19,320
+We need everything to be verifiable.
+
+200
+00:08:19,320 --> 00:08:23,240
+This was also a significant headwind
+
+201
+00:08:23,240 --> 00:08:25,640
+coming into 2022 for us.
+
+202
+00:08:25,640 --> 00:08:26,680
+So are you taking a step back
+
+203
+00:08:26,680 --> 00:08:29,720
+when we talk about strategies and vaults
+
+204
+00:08:29,880 --> 00:08:33,240
+and people were clamoring for UST vaults?
+
+205
+00:08:33,240 --> 00:08:35,400
+Essentially what people are asking for here
+
+206
+00:08:35,400 --> 00:08:37,240
+is they have a stable coin
+
+207
+00:08:37,240 --> 00:08:39,600
+or maybe they have Ethereum on chain.
+
+208
+00:08:39,600 --> 00:08:41,560
+They wanna put it to work somehow
+
+209
+00:08:41,560 --> 00:08:43,720
+and they wanna turn that into a yield bearing asset.
+
+210
+00:08:43,720 --> 00:08:48,720
+And what Yearn does is almost like a portfolio manager,
+
+211
+00:08:48,760 --> 00:08:52,200
+so to speak, curates these strategies
+
+212
+00:08:52,200 --> 00:08:54,160
+that involve other DeFi protocols,
+
+213
+00:08:54,160 --> 00:08:56,080
+maybe infrastructure that Yearn's built,
+
+214
+00:08:56,080 --> 00:08:58,800
+maybe infrastructure that Aave or Morpho
+
+215
+00:08:58,800 --> 00:09:01,160
+or other lending protocols have built
+
+216
+00:09:01,160 --> 00:09:03,040
+and kind of in a risk managed way,
+
+217
+00:09:03,040 --> 00:09:05,960
+derive a structured product on chain,
+
+218
+00:09:05,960 --> 00:09:08,440
+maybe you could say that gives the end user a yield
+
+219
+00:09:08,440 --> 00:09:10,120
+for their stable coin that they started with.
+
+220
+00:09:10,120 --> 00:09:11,760
+Is that the right way to think about it?
+
+221
+00:09:11,760 --> 00:09:12,760
+Exactly.
+
+222
+00:09:12,760 --> 00:09:15,080
+There are a list of prerequisites
+
+223
+00:09:15,080 --> 00:09:17,640
+that we need to make sure are checked
+
+224
+00:09:17,640 --> 00:09:20,160
+before we go and build a strategy for something.
+
+225
+00:09:20,160 --> 00:09:24,240
+But yes, the idea is that we have a multi-strategy vault.
+
+226
+00:09:24,240 --> 00:09:26,320
+Say we have a vault for USDC,
+
+227
+00:09:26,320 --> 00:09:28,120
+we go and deposit that USDC
+
+228
+00:09:28,160 --> 00:09:30,080
+into a bunch of different lending markets today,
+
+229
+00:09:30,080 --> 00:09:34,200
+like Fluid and Morpho and Aave and wherever else.
+
+230
+00:09:34,200 --> 00:09:39,200
+And we rebalance all of those strategies every hour
+
+231
+00:09:39,320 --> 00:09:42,760
+depending on where the best APY is.
+
+232
+00:09:42,760 --> 00:09:45,920
+Terra collapses 2022, we entered a bear market
+
+233
+00:09:45,920 --> 00:09:48,160
+both with respect to token prices
+
+234
+00:09:48,160 --> 00:09:53,160
+and just general value that's locked in DeFi protocols.
+
+235
+00:09:53,160 --> 00:09:57,000
+We started to come out of that into late 2023, 2024
+
+236
+00:09:57,240 --> 00:09:58,600
+into this year.
+
+237
+00:09:58,600 --> 00:10:01,480
+Take me maybe up to date to the current state
+
+238
+00:10:01,480 --> 00:10:04,880
+of DeFi vaults within them.
+
+239
+00:10:04,880 --> 00:10:07,440
+Then we can start to talk about the events
+
+240
+00:10:07,440 --> 00:10:09,240
+of about a month ago, October 10th,
+
+241
+00:10:09,240 --> 00:10:12,400
+there was this mass liquidation events across crypto.
+
+242
+00:10:12,400 --> 00:10:14,520
+And in the past week or two,
+
+243
+00:10:14,520 --> 00:10:18,680
+some bodies have started to float to shore within DeFi
+
+244
+00:10:18,680 --> 00:10:21,360
+on the higher risk end of the spectrum
+
+245
+00:10:21,360 --> 00:10:25,160
+when it comes to vault management and tokenization.
+
+246
+00:10:25,200 --> 00:10:29,080
+Back a couple of years ago, like you said, 2023, 2024
+
+247
+00:10:29,080 --> 00:10:31,640
+was like the depths of the bear market.
+
+248
+00:10:31,640 --> 00:10:33,240
+It was very quiet.
+
+249
+00:10:33,240 --> 00:10:38,000
+A lot of the developers that we were working on in crypto,
+
+250
+00:10:38,000 --> 00:10:40,520
+some of them left, some of them went on to go back
+
+251
+00:10:40,520 --> 00:10:43,280
+to doing what they were doing or like start
+
+252
+00:10:43,280 --> 00:10:44,840
+other new projects.
+
+253
+00:10:44,840 --> 00:10:47,520
+I think it was a talent drain.
+
+254
+00:10:47,520 --> 00:10:49,200
+As I was trying to get people to build
+
+255
+00:10:49,200 --> 00:10:51,320
+on top of urine vaults, I was getting the feedback
+
+256
+00:10:51,360 --> 00:10:55,560
+that what you built the urine vaults V3 is clunky,
+
+257
+00:10:55,560 --> 00:10:58,840
+hard to use, difficult to understand.
+
+258
+00:10:58,840 --> 00:11:01,080
+But truth be told, it is because everything
+
+259
+00:11:01,080 --> 00:11:03,960
+that we were doing is programmatic and on chain.
+
+260
+00:11:03,960 --> 00:11:07,480
+And you have to be a pretty good developer
+
+261
+00:11:07,480 --> 00:11:10,360
+to bring something to market that's not gonna get hacked.
+
+262
+00:11:10,360 --> 00:11:14,640
+Some folks decided to make an easy button for vaults.
+
+263
+00:11:14,640 --> 00:11:18,680
+And that easy button is turning your vault into a multi-sig.
+
+264
+00:11:18,680 --> 00:11:21,640
+And basically you have this product
+
+265
+00:11:21,640 --> 00:11:23,640
+where all of this capital flows into
+
+266
+00:11:23,640 --> 00:11:25,440
+and you have a bunch of different people
+
+267
+00:11:25,440 --> 00:11:28,320
+who can decide to build transactions to send your money
+
+268
+00:11:28,320 --> 00:11:30,800
+wherever they want, whenever they want.
+
+269
+00:11:30,800 --> 00:11:33,320
+This is banking but worse basically.
+
+270
+00:11:33,320 --> 00:11:36,360
+That's our perspective on it because this gives people
+
+271
+00:11:36,360 --> 00:11:38,800
+the opportunity to still be anonymous,
+
+272
+00:11:38,800 --> 00:11:41,640
+but to also have full control over your funds
+
+273
+00:11:41,640 --> 00:11:45,400
+and for you to have no visibility into the decisions
+
+274
+00:11:45,400 --> 00:11:47,680
+that are going on or even where your funds
+
+275
+00:11:47,680 --> 00:11:50,080
+are going to be going to if they're going to deposit
+
+276
+00:11:50,080 --> 00:11:53,600
+those into a black box, like a centralized exchange
+
+277
+00:11:53,600 --> 00:11:54,960
+or something like that.
+
+278
+00:11:54,960 --> 00:11:57,160
+There's a lot of structural issues
+
+279
+00:11:57,160 --> 00:12:00,160
+with those multi-sig five projects.
+
+280
+00:12:00,160 --> 00:12:05,160
+Even more so, they were able to align stakeholders
+
+281
+00:12:07,120 --> 00:12:08,640
+better than we were.
+
+282
+00:12:08,640 --> 00:12:10,600
+Originally when Yearn took off,
+
+283
+00:12:10,600 --> 00:12:13,800
+everybody knows about Wi-Fi Token, that's Andre's baby.
+
+284
+00:12:13,800 --> 00:12:17,120
+Yearn was the first fair launch project.
+
+285
+00:12:17,120 --> 00:12:20,320
+What that meant was people could farm Wi-Fi Token.
+
+286
+00:12:20,320 --> 00:12:22,720
+I was working on this project.
+
+287
+00:12:22,720 --> 00:12:24,600
+Now it's called Katana Chain,
+
+288
+00:12:24,600 --> 00:12:26,760
+Polygon brought to market along with us.
+
+289
+00:12:26,760 --> 00:12:29,480
+Last year in 2024, I was going around
+
+290
+00:12:29,480 --> 00:12:32,720
+and talking to a lot of like VCs and liquid funds
+
+291
+00:12:32,720 --> 00:12:36,200
+about coming on board Katana with us.
+
+292
+00:12:36,200 --> 00:12:40,040
+And it was like a really good experience for me
+
+293
+00:12:40,040 --> 00:12:43,960
+to jog my memory and just see how many people
+
+294
+00:12:43,960 --> 00:12:46,840
+were involved in Yearn way back then.
+
+295
+00:12:47,560 --> 00:12:49,800
+These VCs, a lot of them still say,
+
+296
+00:12:49,800 --> 00:12:52,680
+we got into crypto because of Yearn.
+
+297
+00:12:52,680 --> 00:12:55,160
+Yearn was one of the projects that we invested our time
+
+298
+00:12:55,160 --> 00:12:57,000
+and focus in way back then.
+
+299
+00:12:57,000 --> 00:12:59,320
+That meant that they had Wi-Fi Token,
+
+300
+00:12:59,320 --> 00:13:02,640
+they had stake in our success.
+
+301
+00:13:02,640 --> 00:13:05,760
+And when the bear market came, token prices went down,
+
+302
+00:13:05,760 --> 00:13:09,680
+they dumped their bags and Yearn does not have
+
+303
+00:13:09,680 --> 00:13:13,280
+a token print and we have a finite amount of tokens.
+
+304
+00:13:13,280 --> 00:13:16,280
+Those are the incentives that these new multi-sig projects
+
+305
+00:13:16,280 --> 00:13:19,320
+started to bring to the table and started doing raises.
+
+306
+00:13:19,320 --> 00:13:21,800
+And now you have these liquid funds and VCs
+
+307
+00:13:21,800 --> 00:13:24,600
+more aligned with the success of those products
+
+308
+00:13:24,600 --> 00:13:26,680
+compared to using Yearn.
+
+309
+00:13:26,680 --> 00:13:30,480
+This is headwind number three that started to hit us
+
+310
+00:13:30,480 --> 00:13:33,600
+and we're still experiencing that right now.
+
+311
+00:13:33,600 --> 00:13:36,440
+It's hard to think about this problem because
+
+312
+00:13:36,440 --> 00:13:39,640
+is someone gonna come to market with a new competitor
+
+313
+00:13:39,640 --> 00:13:42,840
+every single time and reload the incentives?
+
+314
+00:13:42,840 --> 00:13:44,480
+The mercenary money is just gonna
+
+315
+00:13:44,480 --> 00:13:46,120
+float into that new project.
+
+316
+00:13:46,960 --> 00:13:49,160
+Is this gonna be the cycle forever?
+
+317
+00:13:49,160 --> 00:13:53,560
+There's kind of this finite amount of capital within DeFi.
+
+318
+00:13:53,560 --> 00:13:56,160
+If my option as an allocator is,
+
+319
+00:13:56,160 --> 00:14:00,720
+okay, I can get 8% maybe from this Yearn vault
+
+320
+00:14:00,720 --> 00:14:04,720
+with no token rewards on top of it,
+
+321
+00:14:04,720 --> 00:14:08,920
+or I can get 12% from these riskier strategies
+
+322
+00:14:08,920 --> 00:14:10,920
+on this newer vault and on top of that,
+
+323
+00:14:10,920 --> 00:14:14,040
+maybe an additional 5% to 10% of APY
+
+324
+00:14:14,080 --> 00:14:17,160
+and then you have this token that they're a newer protocol
+
+325
+00:14:17,160 --> 00:14:18,840
+so they have a newer token and they're giving it out
+
+326
+00:14:18,840 --> 00:14:20,600
+to people as sort of incentives.
+
+327
+00:14:20,600 --> 00:14:25,600
+That's not necessarily a web three native idea.
+
+328
+00:14:25,960 --> 00:14:27,480
+Every time I open my Lyft app,
+
+329
+00:14:27,480 --> 00:14:30,560
+there's some new reason why they're gonna pay me $5
+
+330
+00:14:30,560 --> 00:14:32,280
+to use Lyft instead of go to Uber,
+
+331
+00:14:32,280 --> 00:14:36,280
+but it's just more invasive it feels like within crypto.
+
+332
+00:14:36,280 --> 00:14:37,600
+That's sort of what is happening here
+
+333
+00:14:37,600 --> 00:14:39,560
+and you have these things that are somewhere between
+
+334
+00:14:39,560 --> 00:14:43,680
+what you say sort of opaque banking opportunities
+
+335
+00:14:43,680 --> 00:14:46,480
+and unregulated hedge funds really,
+
+336
+00:14:46,480 --> 00:14:49,600
+where people were depositing their stable coins
+
+337
+00:14:49,600 --> 00:14:53,480
+into sort of a black box for a group of three people
+
+338
+00:14:53,480 --> 00:14:55,200
+that were claiming to be a DeFi protocol
+
+339
+00:14:55,200 --> 00:14:58,240
+to just go and loop into risky strategies
+
+340
+00:14:58,240 --> 00:15:00,680
+and the way those strategies would be represented
+
+341
+00:15:00,680 --> 00:15:02,400
+on the market is in a token.
+
+342
+00:15:02,400 --> 00:15:04,480
+So let's use one of these tokens
+
+343
+00:15:04,480 --> 00:15:08,800
+that has recently blown up in the last couple of weeks, XUSD
+
+344
+00:15:08,800 --> 00:15:11,600
+and one of the problems with a lot of these is that
+
+345
+00:15:11,600 --> 00:15:14,560
+the value of them gets pegged to a dollar
+
+346
+00:15:14,560 --> 00:15:16,720
+and this sort of rebase the yield on top of it.
+
+347
+00:15:16,720 --> 00:15:21,080
+So if it's a 20% APY strategy, it'll start at a dollar
+
+348
+00:15:21,080 --> 00:15:22,960
+and the value of that token will grow
+
+349
+00:15:22,960 --> 00:15:24,720
+as the yield accrues to it.
+
+350
+00:15:24,720 --> 00:15:28,480
+Even if these protocols aren't calling their product
+
+351
+00:15:28,480 --> 00:15:30,200
+a stable coin, so to speak,
+
+352
+00:15:30,200 --> 00:15:33,880
+just by including the letters USD in the name
+
+353
+00:15:33,880 --> 00:15:35,280
+or pegging it to a dollar,
+
+354
+00:15:35,280 --> 00:15:37,040
+I think sometimes it gives users
+
+355
+00:15:37,040 --> 00:15:38,720
+probably a false sense of security
+
+356
+00:15:38,720 --> 00:15:40,760
+that what they're putting their money into
+
+357
+00:15:40,760 --> 00:15:43,440
+is not volatile or not risky
+
+358
+00:15:43,440 --> 00:15:47,040
+and really under the hood, there are risky things happening.
+
+359
+00:15:47,040 --> 00:15:49,520
+What we saw with XUSD, I guess,
+
+360
+00:15:49,520 --> 00:15:51,160
+you'll have better info on this than me
+
+361
+00:15:51,160 --> 00:15:54,600
+is that the value of the token completely collapsed
+
+362
+00:15:54,600 --> 00:15:57,760
+once people realized that the curators
+
+363
+00:15:57,760 --> 00:16:01,280
+or the managers of this protocol had lost a lot of the money.
+
+364
+00:16:01,280 --> 00:16:02,880
+So what kind of happened there?
+
+365
+00:16:02,880 --> 00:16:06,120
+This all started for us back in May.
+
+366
+00:16:06,120 --> 00:16:10,440
+There were a bunch of people shilling this new project.
+
+367
+00:16:10,440 --> 00:16:12,360
+We took a look at it.
+
+368
+00:16:12,360 --> 00:16:17,200
+We had actually talked to them previously the year before
+
+369
+00:16:17,200 --> 00:16:20,280
+about doing some real-world asset strategies with them
+
+370
+00:16:20,280 --> 00:16:22,200
+and it didn't end up working out.
+
+371
+00:16:22,200 --> 00:16:26,280
+And then we saw that they had this vault
+
+372
+00:16:26,280 --> 00:16:31,280
+and we found their D-Bank and we looked at the TVL
+
+373
+00:16:32,480 --> 00:16:34,000
+that I had versus the TVL
+
+374
+00:16:34,000 --> 00:16:36,160
+that they were displaying on their site.
+
+375
+00:16:36,160 --> 00:16:39,360
+We saw that it did not match up.
+
+376
+00:16:39,360 --> 00:16:41,760
+We asked them why and they said at the time
+
+377
+00:16:41,760 --> 00:16:44,360
+that they were depositing into HyperLiquid
+
+378
+00:16:44,360 --> 00:16:47,360
+some sort of carry trade strategy.
+
+379
+00:16:47,360 --> 00:16:50,560
+At that point, we would definitely not touch it.
+
+380
+00:16:50,560 --> 00:16:53,840
+It is a black box and we said to them,
+
+381
+00:16:53,840 --> 00:16:55,080
+this is super risky.
+
+382
+00:16:55,080 --> 00:16:57,920
+You can't just have people trusting
+
+383
+00:16:57,920 --> 00:17:00,360
+that there is backing to this
+
+384
+00:17:00,360 --> 00:17:03,000
+when you cannot prove it at all.
+
+385
+00:17:03,000 --> 00:17:06,120
+They ended up copying and pasting those private messages
+
+386
+00:17:06,120 --> 00:17:07,680
+and posting them in their Discord
+
+387
+00:17:07,680 --> 00:17:10,600
+and dunking on me over and over back in May.
+
+388
+00:17:10,600 --> 00:17:12,400
+I did not appreciate that.
+
+389
+00:17:12,400 --> 00:17:13,240
+But you're not better.
+
+390
+00:17:13,240 --> 00:17:15,400
+Let the record show that you're not better about it.
+
+391
+00:17:15,400 --> 00:17:19,520
+I kind of forgot about it until a few months ago
+
+392
+00:17:19,520 --> 00:17:22,320
+when they started to get even more deposits.
+
+393
+00:17:22,320 --> 00:17:25,560
+I realized that they had tapped into the yields
+
+394
+00:17:25,560 --> 00:17:28,200
+and more Discord, which is like a farming group.
+
+395
+00:17:28,200 --> 00:17:30,440
+It's been around for a number of years.
+
+396
+00:17:30,440 --> 00:17:35,440
+After all of those liquidations happened on 1010,
+
+397
+00:17:35,560 --> 00:17:38,160
+Schlage and the rest of the yarn security team
+
+398
+00:17:38,160 --> 00:17:41,240
+found on-chain that a lot of these projects
+
+399
+00:17:41,240 --> 00:17:43,720
+and funds had some losses.
+
+400
+00:17:43,720 --> 00:17:48,720
+To us, there was no way that everyone from Stream Finance
+
+401
+00:17:49,560 --> 00:17:53,120
+got out of those strategies without taking losses.
+
+402
+00:17:53,120 --> 00:17:55,400
+We knew that there was a hole there.
+
+403
+00:17:55,400 --> 00:17:56,640
+There just had to be.
+
+404
+00:17:56,640 --> 00:18:01,320
+Schlage started digging more into the on-chain data,
+
+405
+00:18:01,320 --> 00:18:05,960
+found all of this daisy chain of looping,
+
+406
+00:18:05,960 --> 00:18:10,680
+recursive lending, and curators offering up liquidity
+
+407
+00:18:10,680 --> 00:18:14,280
+from user deposits in order to fuel all of this.
+
+408
+00:18:14,280 --> 00:18:16,400
+We found that even though they had grown
+
+409
+00:18:16,400 --> 00:18:20,240
+from $160 million of deposits into $500 million,
+
+410
+00:18:20,240 --> 00:18:22,640
+there were really no net new deposits coming in.
+
+411
+00:18:22,640 --> 00:18:25,560
+This was just a scheme going on on the backend.
+
+412
+00:18:25,560 --> 00:18:27,520
+And when we asked them about it,
+
+413
+00:18:27,520 --> 00:18:30,240
+there was no proof of anything.
+
+414
+00:18:30,240 --> 00:18:32,360
+Nothing that they were doing was verifiable,
+
+415
+00:18:32,360 --> 00:18:34,920
+and it's just a huge red flag.
+
+416
+00:18:34,920 --> 00:18:38,880
+Truth be told, if this all did not happen on 1010,
+
+417
+00:18:38,880 --> 00:18:41,320
+if this ball didn't get started rolling,
+
+418
+00:18:41,320 --> 00:18:43,280
+they would still be looping more.
+
+419
+00:18:43,280 --> 00:18:46,160
+Right now, they would still be accepting user deposits
+
+420
+00:18:46,160 --> 00:18:49,640
+right now, knowing that they had a hole
+
+421
+00:18:49,640 --> 00:18:52,560
+they had to have known on the backend.
+
+422
+00:18:52,560 --> 00:18:54,440
+And it would have just kept on getting bigger
+
+423
+00:18:54,440 --> 00:18:55,640
+and bigger and bigger.
+
+424
+00:18:55,640 --> 00:18:58,440
+I'm glad that things shook out the way they did.
+
+425
+00:18:58,440 --> 00:19:02,760
+It was not an easy few weeks to deal with all of this stuff,
+
+426
+00:19:02,760 --> 00:19:04,160
+but here we are.
+
+427
+00:19:04,160 --> 00:19:06,040
+And what ends up happening is that you have
+
+428
+00:19:06,040 --> 00:19:09,080
+this tokenized strategy, XUSD,
+
+429
+00:19:09,080 --> 00:19:12,000
+that gets involved in other vaults.
+
+430
+00:19:12,000 --> 00:19:16,080
+XUSD itself is sort of a tokenized vault, so to speak,
+
+431
+00:19:16,080 --> 00:19:19,360
+that's investing in DeFi protocols to get the yield.
+
+432
+00:19:19,360 --> 00:19:22,040
+But then that representation of DeFi yield
+
+433
+00:19:22,040 --> 00:19:25,800
+gets placed into another vault, a sort of vault of vaults.
+
+434
+00:19:25,800 --> 00:19:28,560
+So those vaults then lose value
+
+435
+00:19:28,560 --> 00:19:30,840
+because they have invested in XUSD,
+
+436
+00:19:30,840 --> 00:19:32,680
+which has de-pegged and lost its value.
+
+437
+00:19:32,680 --> 00:19:36,080
+And so we've talked about curators a little bit here.
+
+438
+00:19:36,080 --> 00:19:38,120
+Maybe if you could unpack that term,
+
+439
+00:19:38,120 --> 00:19:42,040
+what's the role of a risk curator in DeFi?
+
+440
+00:19:42,040 --> 00:19:45,360
+You have the people depositing on one side,
+
+441
+00:19:45,360 --> 00:19:48,600
+you have the DeFi protocols on the other side,
+
+442
+00:19:48,600 --> 00:19:50,760
+where the actual lending and borrowing happens.
+
+443
+00:19:50,760 --> 00:19:52,880
+And then in the middle, there's these actors
+
+444
+00:19:52,920 --> 00:19:56,240
+that are putting together these vaults.
+
+445
+00:19:56,240 --> 00:19:59,360
+They also live directly on some of these protocols
+
+446
+00:19:59,360 --> 00:20:02,800
+like Euler and Morpho and set the parameters
+
+447
+00:20:02,800 --> 00:20:05,240
+of you want to borrow against this asset,
+
+448
+00:20:05,240 --> 00:20:08,680
+we deem this asset to be risk averse enough
+
+449
+00:20:08,680 --> 00:20:13,560
+that you can borrow at a 95% LTV instead of an 85% LTV.
+
+450
+00:20:13,560 --> 00:20:15,680
+And so what's the role and maybe the faults
+
+451
+00:20:15,680 --> 00:20:18,520
+of the risk curators in some of these scenarios?
+
+452
+00:20:18,520 --> 00:20:20,280
+There are a lot of curators these days,
+
+453
+00:20:20,280 --> 00:20:22,360
+and there are a lot of vault projects these days.
+
+454
+00:20:22,360 --> 00:20:23,520
+I don't really know why
+
+455
+00:20:23,520 --> 00:20:25,840
+because none of us are making any money.
+
+456
+00:20:25,840 --> 00:20:27,560
+I just want that to be clear.
+
+457
+00:20:27,560 --> 00:20:29,080
+This is not a great business.
+
+458
+00:20:29,080 --> 00:20:33,280
+You have to have billions of dollars in deposits
+
+459
+00:20:33,280 --> 00:20:37,200
+to generate the amount of revenue Aave is making
+
+460
+00:20:37,200 --> 00:20:39,120
+or any of these other really big projects right now.
+
+461
+00:20:39,120 --> 00:20:43,280
+So being a curator is not a terribly good business.
+
+462
+00:20:43,280 --> 00:20:45,360
+And right now, for a lot of stuff that we do,
+
+463
+00:20:45,360 --> 00:20:48,960
+we even have fees turned off because it just doesn't matter.
+
+464
+00:20:48,960 --> 00:20:50,920
+We want to have competitive rates
+
+465
+00:20:50,960 --> 00:20:53,080
+and the profits that we bring in the door
+
+466
+00:20:53,080 --> 00:20:54,920
+are just really small.
+
+467
+00:20:54,920 --> 00:20:57,600
+It's our job as a curator to make sure
+
+468
+00:20:57,600 --> 00:21:02,600
+that we're using sound collateral that matches the risk
+
+469
+00:21:03,160 --> 00:21:06,520
+that people assume is going on in that vault.
+
+470
+00:21:06,520 --> 00:21:10,880
+We also need to make sure that we have good automation,
+
+471
+00:21:10,880 --> 00:21:14,440
+that things are being replenished when they need to.
+
+472
+00:21:14,440 --> 00:21:18,160
+If there's borrowers who have a big appetite,
+
+473
+00:21:18,160 --> 00:21:19,560
+we need to make sure that there's liquidity
+
+474
+00:21:19,600 --> 00:21:21,200
+in that vault for them to borrow.
+
+475
+00:21:21,200 --> 00:21:24,480
+We need to understand the interest rate curves.
+
+476
+00:21:24,480 --> 00:21:26,880
+We need to make sure that we're being reactive
+
+477
+00:21:26,880 --> 00:21:29,000
+to everything in the market.
+
+478
+00:21:29,000 --> 00:21:32,240
+So there is a lot of work that has to be done.
+
+479
+00:21:32,240 --> 00:21:35,160
+We also have to meet the needs of demand
+
+480
+00:21:35,160 --> 00:21:37,840
+for people offering up new collaterals
+
+481
+00:21:37,840 --> 00:21:40,080
+or wanting to borrow in the first place.
+
+482
+00:21:40,080 --> 00:21:43,240
+We need to make sure that there's enough deposits.
+
+483
+00:21:43,240 --> 00:21:45,200
+What urine is doing right now
+
+484
+00:21:45,200 --> 00:21:48,000
+is we have this parent level vault
+
+485
+00:21:48,000 --> 00:21:50,080
+and this goes into deposits
+
+486
+00:21:50,080 --> 00:21:52,480
+into all of these different lending markets.
+
+487
+00:21:52,480 --> 00:21:54,120
+So even as a curator,
+
+488
+00:21:54,120 --> 00:21:57,560
+we can pull money from like YVUSDC
+
+489
+00:21:57,560 --> 00:22:01,000
+and throw it into something that we're curating on Morpho
+
+490
+00:22:01,000 --> 00:22:02,600
+if it needs liquidity.
+
+491
+00:22:02,600 --> 00:22:04,880
+We have like a multi-tiered business
+
+492
+00:22:04,880 --> 00:22:09,880
+where not every curator has that open to them right now.
+
+493
+00:22:09,880 --> 00:22:13,040
+We wanna discourage degenerate recursive looping.
+
+494
+00:22:13,040 --> 00:22:16,040
+We wanna make sure that everything that we're doing
+
+495
+00:22:16,040 --> 00:22:17,320
+is really safe.
+
+496
+00:22:17,320 --> 00:22:20,360
+To us, reputation is everything
+
+497
+00:22:20,360 --> 00:22:22,560
+and we're completely blind
+
+498
+00:22:22,560 --> 00:22:26,160
+to accepting short-term incentives.
+
+499
+00:22:26,160 --> 00:22:30,720
+We don't do any side deals or anything like that.
+
+500
+00:22:30,720 --> 00:22:33,040
+Whenever people ask us to like build products
+
+501
+00:22:33,040 --> 00:22:35,760
+that just farm points, we usually say no
+
+502
+00:22:35,760 --> 00:22:37,720
+because we know that the amount of work
+
+503
+00:22:37,720 --> 00:22:40,520
+that goes into building and supporting strategies
+
+504
+00:22:40,520 --> 00:22:42,760
+is probably not going to be worth the effort
+
+505
+00:22:42,760 --> 00:22:44,320
+in fees or deposits.
+
+506
+00:22:44,320 --> 00:22:46,840
+So there's a lot of stuff that we say no to
+
+507
+00:22:47,160 --> 00:22:50,800
+and I think it just makes our ability
+
+508
+00:22:50,800 --> 00:22:54,600
+to like make it through tough economic conditions
+
+509
+00:22:54,600 --> 00:22:56,680
+that much more strong.
+
+510
+00:22:56,680 --> 00:22:58,160
+Survival is everything.
+
+511
+00:22:58,160 --> 00:22:59,440
+It's pretty clear to us now
+
+512
+00:22:59,440 --> 00:23:02,600
+that some curators are gonna take big risks
+
+513
+00:23:02,600 --> 00:23:04,720
+and they're gonna damage their reputation
+
+514
+00:23:04,720 --> 00:23:09,720
+and we'll be here to survive and to be strong and safe
+
+515
+00:23:09,760 --> 00:23:12,960
+and get those deposits when people eventually
+
+516
+00:23:12,960 --> 00:23:15,800
+come back into DeFi because they will.
+
+517
+00:23:15,800 --> 00:23:20,040
+In the long run, usually good risk management pays off.
+
+518
+00:23:20,040 --> 00:23:23,800
+It's not just in DeFi where people blow themselves
+
+519
+00:23:23,800 --> 00:23:27,960
+chasing higher returns everywhere in finance.
+
+520
+00:23:27,960 --> 00:23:29,320
+Switching gears a little bit,
+
+521
+00:23:29,320 --> 00:23:31,680
+curious as someone who's building in DeFi,
+
+522
+00:23:31,680 --> 00:23:33,480
+from your perspective, what's sort of the state
+
+523
+00:23:33,480 --> 00:23:37,000
+of on-chain cybersecurity right now?
+
+524
+00:23:37,000 --> 00:23:40,440
+Recently Balancer, which is sort of a
+
+525
+00:23:40,440 --> 00:23:44,040
+decentralized swapping exchange similar to Uniswap
+
+526
+00:23:44,080 --> 00:23:47,160
+was just hacked for over a hundred million dollars.
+
+527
+00:23:47,160 --> 00:23:49,160
+GMX earlier this year,
+
+528
+00:23:49,160 --> 00:23:52,080
+Decentralized Perpetualist Protocol similar to Hyperliquid,
+
+529
+00:23:52,080 --> 00:23:56,280
+both have been around since 2020 probably before I think
+
+530
+00:23:56,280 --> 00:23:58,920
+was also hacked for a significant amount.
+
+531
+00:23:58,920 --> 00:24:01,800
+I think those two especially caught people off guard
+
+532
+00:24:01,800 --> 00:24:03,800
+of no one's safe.
+
+533
+00:24:03,800 --> 00:24:07,080
+There's this idea in cryptoness of lindiness where,
+
+534
+00:24:07,080 --> 00:24:09,600
+okay, something's been around for four or five, six years,
+
+535
+00:24:09,600 --> 00:24:12,480
+I feel safe putting my money in this protocol
+
+536
+00:24:12,480 --> 00:24:16,960
+and Balancer and GMX broke that model a little bit.
+
+537
+00:24:16,960 --> 00:24:18,080
+A lot of these protocols,
+
+538
+00:24:18,080 --> 00:24:21,040
+they tout their audits that they've done.
+
+539
+00:24:21,040 --> 00:24:23,320
+They tout the security partners that they're working with.
+
+540
+00:24:23,320 --> 00:24:26,240
+Our code is safe, but are those tools enough?
+
+541
+00:24:26,240 --> 00:24:27,880
+What else needs to exist to stop
+
+542
+00:24:27,880 --> 00:24:30,160
+another Balancer from happening?
+
+543
+00:24:30,160 --> 00:24:31,680
+I don't want to spook people,
+
+544
+00:24:31,680 --> 00:24:36,160
+but the reality is low risk DeFi is not here yet.
+
+545
+00:24:36,160 --> 00:24:41,160
+Low risk DeFi and Vitalik's vision of that is great.
+
+546
+00:24:41,480 --> 00:24:45,360
+I have no doubt that time in the market will get us there.
+
+547
+00:24:45,360 --> 00:24:48,760
+Is the five years of DeFi's whole lifetime
+
+548
+00:24:48,760 --> 00:24:51,400
+enough for that to happen so far?
+
+549
+00:24:51,400 --> 00:24:52,560
+Apparently it's not.
+
+550
+00:24:52,560 --> 00:24:56,760
+The best that we can do today is verifiable DeFi,
+
+551
+00:24:56,760 --> 00:24:59,280
+being able to see everything that's going on on chain
+
+552
+00:24:59,280 --> 00:25:02,280
+and verify it to know that it's real.
+
+553
+00:25:02,280 --> 00:25:04,360
+So one of the things I did with YarnAlso
+
+554
+00:25:04,360 --> 00:25:06,520
+is I started an audit company.
+
+555
+00:25:06,520 --> 00:25:08,520
+It's called Electosec right now,
+
+556
+00:25:08,520 --> 00:25:11,240
+formerly Y Audit and Y Academy.
+
+557
+00:25:11,240 --> 00:25:13,520
+We're actually changing the name back to Y Audit pretty soon.
+
+558
+00:25:13,520 --> 00:25:15,480
+But from this experience,
+
+559
+00:25:15,480 --> 00:25:19,960
+I can say that code quality has definitely gone up.
+
+560
+00:25:19,960 --> 00:25:21,360
+No question.
+
+561
+00:25:21,360 --> 00:25:26,120
+The amount of safety that teams are taking
+
+562
+00:25:26,120 --> 00:25:30,080
+into account right now is not slowing down.
+
+563
+00:25:30,080 --> 00:25:35,000
+I think we've done 17 engagements with Euler.
+
+564
+00:25:35,000 --> 00:25:37,480
+They're not taking their foot off the gas for security.
+
+565
+00:25:37,480 --> 00:25:40,120
+They're always going to be auditing their code bases.
+
+566
+00:25:40,120 --> 00:25:42,320
+This is a time in the market thing.
+
+567
+00:25:42,320 --> 00:25:45,200
+For code that is immutable,
+
+568
+00:25:45,200 --> 00:25:49,240
+where you don't really know where the dangers could be,
+
+569
+00:25:49,240 --> 00:25:52,240
+people need to just build their code as simply as possible,
+
+570
+00:25:52,240 --> 00:25:55,120
+leave out tons of complexity where they can.
+
+571
+00:25:55,120 --> 00:25:57,920
+And that's going to help reduce
+
+572
+00:25:57,920 --> 00:25:59,720
+the amount of vulnerabilities,
+
+573
+00:25:59,720 --> 00:26:02,680
+but also security is a journey.
+
+574
+00:26:02,680 --> 00:26:04,200
+Just because you launch your code base
+
+575
+00:26:04,200 --> 00:26:07,160
+does not mean that there are no vulnerabilities in it.
+
+576
+00:26:07,160 --> 00:26:09,440
+Just because you've been in the market for a year
+
+577
+00:26:09,440 --> 00:26:11,640
+doesn't mean that there's anything wrong with it.
+
+578
+00:26:11,640 --> 00:26:16,640
+Do contests have big, meaningful bug bounties?
+
+579
+00:26:16,760 --> 00:26:19,000
+Yearn has paid out bug bounties before
+
+580
+00:26:19,000 --> 00:26:21,040
+for stuff that people have caught.
+
+581
+00:26:21,040 --> 00:26:22,200
+It's worked out well.
+
+582
+00:26:22,200 --> 00:26:25,480
+Participating in bug bounties works, so do it.
+
+583
+00:26:25,480 --> 00:26:28,560
+I think the combination of all these things
+
+584
+00:26:28,560 --> 00:26:31,640
+and a layered security approach,
+
+585
+00:26:31,640 --> 00:26:33,120
+along with time in the market,
+
+586
+00:26:33,120 --> 00:26:36,840
+will get us the safety that we need for low risk DeFi.
+
+587
+00:26:37,720 --> 00:26:41,560
+It's going to take constant improvement for a long time.
+
+588
+00:26:41,560 --> 00:26:43,960
+So a sort of Swiss cheese approach, I guess,
+
+589
+00:26:43,960 --> 00:26:46,560
+multiple layers that cover up the holes.
+
+590
+00:26:46,560 --> 00:26:48,000
+What are the implications of all of this
+
+591
+00:26:48,000 --> 00:26:52,400
+on not only the traditional finance world's appetite
+
+592
+00:26:52,400 --> 00:26:55,600
+for investing in exploring DeFi,
+
+593
+00:26:55,600 --> 00:27:00,360
+but just kind of a everyday non-cryptonative person
+
+594
+00:27:00,360 --> 00:27:04,520
+that says, well, I could get 3.5%, 4% right now
+
+595
+00:27:04,520 --> 00:27:06,200
+for my savings account,
+
+596
+00:27:06,200 --> 00:27:11,200
+or I could get maybe 7%, 8%, 10% of safe,
+
+597
+00:27:12,240 --> 00:27:15,760
+quote unquote, crypto native DeFi yield.
+
+598
+00:27:15,760 --> 00:27:20,760
+But given this risk of unregulated black box hedge funds
+
+599
+00:27:20,800 --> 00:27:22,160
+out there acting as tokens,
+
+600
+00:27:22,160 --> 00:27:25,080
+given this risk of a hack to the protocol,
+
+601
+00:27:25,080 --> 00:27:29,840
+is that increase from the risk-free government treasury rate
+
+602
+00:27:29,840 --> 00:27:34,800
+enough to make DeFi interesting to people outside of crypto?
+
+603
+00:27:34,800 --> 00:27:37,440
+I was in New York City last week
+
+604
+00:27:37,440 --> 00:27:41,520
+to meet with a bunch of traditional finance companies.
+
+605
+00:27:41,520 --> 00:27:45,080
+And to be very honest, they're spooked about it.
+
+606
+00:27:45,080 --> 00:27:48,680
+The difference between 3.5% and 5%
+
+607
+00:27:48,680 --> 00:27:52,200
+is not enough for them to come into DeFi.
+
+608
+00:27:52,200 --> 00:27:55,680
+It's going to take some time to build back the reputation
+
+609
+00:27:55,680 --> 00:27:58,560
+and make sure that things are safe again.
+
+610
+00:27:58,560 --> 00:28:01,760
+I was very surprised that some of the people
+
+611
+00:28:01,760 --> 00:28:03,960
+who I met with are new to crypto.
+
+612
+00:28:04,000 --> 00:28:07,840
+They're representing their company's push for DeFi products.
+
+613
+00:28:07,840 --> 00:28:09,360
+They don't understand the difference
+
+614
+00:28:09,360 --> 00:28:13,240
+between multi-SIGFI and programmatic vaults.
+
+615
+00:28:13,240 --> 00:28:15,200
+It's something that I've had to explain to them.
+
+616
+00:28:15,200 --> 00:28:17,000
+I'm totally happy to do it.
+
+617
+00:28:17,000 --> 00:28:18,360
+I wanna do it more,
+
+618
+00:28:18,360 --> 00:28:21,120
+but I need to convince them that there is a big difference.
+
+619
+00:28:21,120 --> 00:28:26,120
+And just because you can manipulate your vault share price,
+
+620
+00:28:27,320 --> 00:28:30,080
+that is not a good thing in many cases.
+
+621
+00:28:30,080 --> 00:28:31,880
+Having full control over that
+
+622
+00:28:31,880 --> 00:28:36,320
+also brings in additional risk into the equation.
+
+623
+00:28:36,320 --> 00:28:39,200
+It's really good that talent and attention
+
+624
+00:28:39,200 --> 00:28:42,160
+is coming into crypto from that side of the fence.
+
+625
+00:28:42,160 --> 00:28:44,160
+I don't think that's going to stop,
+
+626
+00:28:44,160 --> 00:28:49,160
+but they're very hesitant to use true verifiable DeFi for sure.
+
+627
+00:28:49,400 --> 00:28:51,840
+Do you think there's any inverse correlation
+
+628
+00:28:51,840 --> 00:28:53,520
+of demand for DeFi products
+
+629
+00:28:53,520 --> 00:28:56,840
+as the government treasury rate comes down?
+
+630
+00:28:56,840 --> 00:28:58,200
+Rates are starting to come down.
+
+631
+00:28:58,200 --> 00:29:01,120
+You mentioned that Terra, Luna Collapse
+
+632
+00:29:01,120 --> 00:29:04,480
+happened to line up with rates rocketing up to 5%.
+
+633
+00:29:04,480 --> 00:29:07,160
+Is that bullish for DeFi,
+
+634
+00:29:07,160 --> 00:29:09,840
+or will yields come down in DeFi
+
+635
+00:29:09,840 --> 00:29:12,840
+the same way that they're gonna come down outside of crypto?
+
+636
+00:29:12,840 --> 00:29:14,440
+If the risk-free rate comes down,
+
+637
+00:29:14,440 --> 00:29:17,040
+it is unquestionably bullish for DeFi.
+
+638
+00:29:17,040 --> 00:29:19,080
+Deposits will come back in the door.
+
+639
+00:29:19,080 --> 00:29:22,080
+If the risk-free rate is one or 2%,
+
+640
+00:29:22,080 --> 00:29:25,120
+and we're doing six, seven, or 8%,
+
+641
+00:29:25,120 --> 00:29:26,480
+they will come into DeFi.
+
+642
+00:29:26,480 --> 00:29:29,360
+I have no doubt in my mind about that.
+
+643
+00:29:29,360 --> 00:29:31,640
+Shout out Jerome Powell, if you're listening.
+
+644
+00:29:31,640 --> 00:29:36,360
+How do you think all this impacts a crypto investor,
+
+645
+00:29:36,360 --> 00:29:38,760
+a retail investor's willingness to invest
+
+646
+00:29:38,760 --> 00:29:42,440
+in the native tokens of these DeFi protocols?
+
+647
+00:29:42,440 --> 00:29:44,920
+You mentioned Uran has a token,
+
+648
+00:29:44,920 --> 00:29:48,520
+all of these newer multi-SIGFY protocols
+
+649
+00:29:48,520 --> 00:29:49,840
+even have tokens too.
+
+650
+00:29:49,840 --> 00:29:52,520
+How should people think about valuing those,
+
+651
+00:29:52,520 --> 00:29:55,960
+especially once they're in their post-incentive phase
+
+652
+00:29:55,960 --> 00:29:56,920
+of their life cycle?
+
+653
+00:29:56,920 --> 00:29:59,320
+And how do you guys think about driving value
+
+654
+00:29:59,320 --> 00:30:01,680
+to people that wanna hold the Yearn token?
+
+655
+00:30:01,680 --> 00:30:03,960
+There are two ways of building value
+
+656
+00:30:03,960 --> 00:30:05,240
+into governance tokens these days,
+
+657
+00:30:05,240 --> 00:30:08,160
+aside from just having it to vote in your favor
+
+658
+00:30:08,160 --> 00:30:10,360
+for things that you want to see happen,
+
+659
+00:30:10,360 --> 00:30:15,240
+buy and burn or distributing profits through your token.
+
+660
+00:30:15,240 --> 00:30:17,680
+Those are the two paths that people can take.
+
+661
+00:30:17,680 --> 00:30:19,840
+Yearn does not see the value
+
+662
+00:30:19,840 --> 00:30:21,800
+in just buying and burning tokens.
+
+663
+00:30:21,800 --> 00:30:25,600
+What we're choosing to do is rebuild Wi-Fi
+
+664
+00:30:26,440 --> 00:30:30,680
+still locking it to get a distribution of profits,
+
+665
+00:30:30,680 --> 00:30:32,840
+but doing like a more short-term lock.
+
+666
+00:30:32,840 --> 00:30:35,000
+So that's what we're going to be doing right now.
+
+667
+00:30:35,000 --> 00:30:38,640
+I think it's like a one month lock period,
+
+668
+00:30:38,640 --> 00:30:42,680
+and then you get a share of all the profits
+
+669
+00:30:42,680 --> 00:30:45,320
+that we are going to be distributing.
+
+670
+00:30:45,320 --> 00:30:47,280
+This is the time that Yearn has to go
+
+671
+00:30:47,280 --> 00:30:49,000
+and turn the fee switch on too.
+
+672
+00:30:49,000 --> 00:30:51,640
+So we're more focused on generating profits
+
+673
+00:30:51,640 --> 00:30:53,440
+than we once were.
+
+674
+00:30:53,440 --> 00:30:54,280
+That's good to hear.
+
+675
+00:30:54,280 --> 00:30:57,200
+I mean, generating profits for a long time
+
+676
+00:30:57,200 --> 00:30:59,840
+didn't seem to be the focus for many people in crypto.
+
+677
+00:30:59,840 --> 00:31:00,760
+In the last year,
+
+678
+00:31:00,760 --> 00:31:04,760
+there's definitely been in this newer SEC environment,
+
+679
+00:31:04,760 --> 00:31:06,560
+while not everything is clear,
+
+680
+00:31:06,560 --> 00:31:10,200
+we're still kind of in a pre-clarity era, so to speak,
+
+681
+00:31:10,200 --> 00:31:13,080
+for which of these things are securities
+
+682
+00:31:13,080 --> 00:31:13,920
+and which of them aren't,
+
+683
+00:31:13,920 --> 00:31:15,880
+but you still have to give people reasons
+
+684
+00:31:15,880 --> 00:31:18,880
+to hold these tokens for the long-term,
+
+685
+00:31:18,880 --> 00:31:21,880
+rather not to just think of them as points or air miles
+
+686
+00:31:21,880 --> 00:31:24,800
+that you can receive and spend right away.
+
+687
+00:31:24,800 --> 00:31:28,440
+The meta recently has been for vault projects
+
+688
+00:31:28,440 --> 00:31:30,480
+to be pre-deposit vaults
+
+689
+00:31:30,480 --> 00:31:33,680
+for like new L2s and stuff they're launching.
+
+690
+00:31:33,680 --> 00:31:36,520
+And that is a really short-term thing.
+
+691
+00:31:36,520 --> 00:31:38,320
+You get the money in the door,
+
+692
+00:31:38,320 --> 00:31:42,080
+but then within a few months, might not be there.
+
+693
+00:31:42,080 --> 00:31:44,160
+Profits that are generated from those events
+
+694
+00:31:44,160 --> 00:31:48,160
+are not going to be as significant as getting user adoption
+
+695
+00:31:48,160 --> 00:31:51,520
+for people who want to use your strategies
+
+696
+00:31:51,560 --> 00:31:54,480
+long-term as like a high quality source of yield.
+
+697
+00:31:54,480 --> 00:31:59,480
+We worked for a long time on the Katana L2.
+
+698
+00:32:00,280 --> 00:32:03,280
+Polygon was not the only group who was evaluating
+
+699
+00:32:03,280 --> 00:32:06,120
+using yarn vaults as pre-deposit vaults.
+
+700
+00:32:06,120 --> 00:32:10,840
+They were the only group to pick yarn
+
+701
+00:32:10,840 --> 00:32:12,800
+as their pre-deposit vault though.
+
+702
+00:32:12,800 --> 00:32:16,920
+And the reason why is because David Silverman
+
+703
+00:32:16,920 --> 00:32:20,360
+and Mark Boiren over at Polygon
+
+704
+00:32:20,360 --> 00:32:25,360
+fully understood the risk of using a multi-sig
+
+705
+00:32:26,000 --> 00:32:28,520
+where price per share could be manipulated.
+
+706
+00:32:28,520 --> 00:32:31,960
+And they wanted to do stuff that was fully on chain.
+
+707
+00:32:31,960 --> 00:32:33,800
+And I love them for that.
+
+708
+00:32:33,800 --> 00:32:38,800
+And we ended up doubling our TVL this year because of that.
+
+709
+00:32:38,920 --> 00:32:42,480
+Yarn vaults are deeply embedded into Katana chain.
+
+710
+00:32:42,480 --> 00:32:45,280
+And it's just been a real pleasure to work with people
+
+711
+00:32:45,280 --> 00:32:47,760
+like you and DeFi who really align with our own values
+
+712
+00:32:47,760 --> 00:32:50,760
+of safety and being verifiable.
+
+713
+00:32:50,760 --> 00:32:53,280
+A lot of this is going to come down to education
+
+714
+00:32:53,280 --> 00:32:55,120
+to a certain extent, especially kind of going back
+
+715
+00:32:55,120 --> 00:32:58,280
+to your conversation with those finance folks in New York
+
+716
+00:32:58,280 --> 00:32:59,960
+of like, hey, here's why this matters.
+
+717
+00:32:59,960 --> 00:33:04,600
+Here's why you want these assets to be verifiably on chain,
+
+718
+00:33:04,600 --> 00:33:06,160
+not just in some black box,
+
+719
+00:33:06,160 --> 00:33:09,760
+even if you might get 100, 200 bips lower yield,
+
+720
+00:33:09,760 --> 00:33:13,000
+you're paying for that on a risk reward spectrum.
+
+721
+00:33:13,040 --> 00:33:15,440
+You're right, people don't understand that.
+
+722
+00:33:15,440 --> 00:33:17,200
+Here's a good example.
+
+723
+00:33:17,200 --> 00:33:21,920
+If you're in just a staked ETH position or like an LRT
+
+724
+00:33:21,920 --> 00:33:25,800
+and you're earning yield that slightly outperforms
+
+725
+00:33:25,800 --> 00:33:29,880
+our own WEF1 vault, first of all,
+
+726
+00:33:29,880 --> 00:33:31,120
+as the price of ETH goes up,
+
+727
+00:33:31,120 --> 00:33:33,200
+the withdraw queue is not gonna go down.
+
+728
+00:33:33,200 --> 00:33:34,880
+It's only gonna get longer.
+
+729
+00:33:34,880 --> 00:33:39,000
+If you're also faced to exit your position at a time
+
+730
+00:33:39,000 --> 00:33:41,800
+when those pools are unbalanced,
+
+731
+00:33:41,840 --> 00:33:43,600
+you could wipe out six months
+
+732
+00:33:43,600 --> 00:33:46,880
+or a year of your yield instantly.
+
+733
+00:33:46,880 --> 00:33:49,680
+And if you're using a urine vault,
+
+734
+00:33:49,680 --> 00:33:51,640
+it's always liquid all the time
+
+735
+00:33:51,640 --> 00:33:53,840
+and it's a cash equivalent product.
+
+736
+00:33:53,840 --> 00:33:57,760
+So even though your yield will be slightly less,
+
+737
+00:33:57,760 --> 00:33:59,120
+you will get to keep it.
+
+738
+00:33:59,120 --> 00:34:01,880
+People don't seem to really understand that yet,
+
+739
+00:34:01,880 --> 00:34:05,080
+but part of my discovery in New York last week,
+
+740
+00:34:05,080 --> 00:34:07,400
+talking to some of these traditional finance firms
+
+741
+00:34:07,400 --> 00:34:10,440
+and hedge funds is that there is an audience
+
+742
+00:34:10,440 --> 00:34:13,200
+for a cash equivalent yield bearing product.
+
+743
+00:34:13,200 --> 00:34:16,120
+It is the director of a treasury.
+
+744
+00:34:16,120 --> 00:34:19,840
+They could be the director of treasury of like a hospital
+
+745
+00:34:19,840 --> 00:34:22,680
+or a university, a pension,
+
+746
+00:34:22,680 --> 00:34:27,680
+but they need to earn yield on their deposits
+
+747
+00:34:27,680 --> 00:34:29,520
+but also have them be liquid all the time.
+
+748
+00:34:29,520 --> 00:34:31,520
+They might have their CFO ask them,
+
+749
+00:34:31,520 --> 00:34:32,640
+you need to liquidate this
+
+750
+00:34:32,640 --> 00:34:35,160
+because we need to go and make a payment for something
+
+751
+00:34:35,160 --> 00:34:36,360
+or buy a building.
+
+752
+00:34:37,240 --> 00:34:39,040
+If they can exit that position
+
+753
+00:34:39,040 --> 00:34:41,320
+that they were earning yield on without losing that yield
+
+754
+00:34:41,320 --> 00:34:42,920
+or without taking on additional risk
+
+755
+00:34:42,920 --> 00:34:45,200
+and being able to do it whenever they want.
+
+756
+00:34:45,200 --> 00:34:48,360
+If your time in the vault is unpredictable,
+
+757
+00:34:48,360 --> 00:34:50,880
+you're involved to the product that you should be using.
+
+758
+00:34:50,880 --> 00:34:53,560
+You should be using something that is cash equivalent.
+
+759
+00:34:53,560 --> 00:34:56,280
+I got my hands on this huge database
+
+760
+00:34:56,280 --> 00:34:58,040
+of all these treasury managers
+
+761
+00:34:58,040 --> 00:35:00,920
+and I'm gonna give it a shot of going down
+
+762
+00:35:00,920 --> 00:35:04,480
+and seeing who has an appetite to at least learn
+
+763
+00:35:04,480 --> 00:35:06,960
+about what verifiable DeFi is
+
+764
+00:35:06,960 --> 00:35:09,000
+and what we're bringing to the table.
+
+765
+00:35:09,960 --> 00:35:13,520
+I'm not expecting to get a huge amount of yeses,
+
+766
+00:35:13,520 --> 00:35:16,120
+but even getting a few and making those connections
+
+767
+00:35:16,120 --> 00:35:18,080
+is where we need to start.
+
+768
+00:35:18,080 --> 00:35:20,320
+Knocking on doors, spreading the good word,
+
+769
+00:35:20,320 --> 00:35:21,760
+someone's got to do it.
+
+770
+00:35:21,760 --> 00:35:23,960
+Exactly, it's not gonna be easy.
+
+771
+00:35:23,960 --> 00:35:26,320
+Another kind of thing underlying a lot of this conversation
+
+772
+00:35:26,320 --> 00:35:29,160
+is everything sort of exists in crypto
+
+773
+00:35:29,160 --> 00:35:33,040
+on a spectrum of centralized to decentralized
+
+774
+00:35:33,040 --> 00:35:37,320
+and DeFi decentralized finance, even within DeFi.
+
+775
+00:35:37,440 --> 00:35:40,960
+Certainly, I wouldn't call them to be decentralized.
+
+776
+00:35:40,960 --> 00:35:42,640
+It's kind of decentralized in name only,
+
+777
+00:35:42,640 --> 00:35:46,480
+especially when we talk about these multi-SIG 5 products,
+
+778
+00:35:46,480 --> 00:35:48,640
+these on-chain, off-chain hedge funds
+
+779
+00:35:48,640 --> 00:35:50,560
+where it's just a couple of guys
+
+780
+00:35:50,560 --> 00:35:53,880
+yoloing your positions into high-risk yield.
+
+781
+00:35:53,880 --> 00:35:57,000
+Where do you think we are today
+
+782
+00:35:57,000 --> 00:36:02,000
+on this spectrum of centralization to decentralization
+
+783
+00:36:02,880 --> 00:36:04,120
+within DeFi and crypto
+
+784
+00:36:04,120 --> 00:36:06,840
+and are we headed in the right direction,
+
+785
+00:36:06,880 --> 00:36:10,600
+especially as more TradFi people come on chains,
+
+786
+00:36:10,600 --> 00:36:12,880
+more payments move to stablecoins?
+
+787
+00:36:12,880 --> 00:36:15,280
+A lot of people, DeFi purists,
+
+788
+00:36:15,280 --> 00:36:18,480
+even will stick their noses up at stablecoins sometimes
+
+789
+00:36:18,480 --> 00:36:23,040
+as USDC may be on Ethereum, on a decentralized blockchain,
+
+790
+00:36:23,040 --> 00:36:26,600
+but you're still trusting, circle the company
+
+791
+00:36:26,600 --> 00:36:31,200
+to mint you the USDC and buy and custody
+
+792
+00:36:31,200 --> 00:36:33,320
+the treasury asset that's underlying it
+
+793
+00:36:33,320 --> 00:36:34,520
+and redeem it when you ask for it.
+
+794
+00:36:34,520 --> 00:36:36,160
+There's still a level of trust involved there.
+
+795
+00:36:36,160 --> 00:36:37,960
+So where are we on that spectrum?
+
+796
+00:36:37,960 --> 00:36:41,120
+Are we headed in the right direction in your opinion?
+
+797
+00:36:41,120 --> 00:36:43,960
+There's a good mix of signals in there, to be honest,
+
+798
+00:36:43,960 --> 00:36:45,160
+but if you zoom out,
+
+799
+00:36:45,160 --> 00:36:47,760
+I think we are trending in the right direction.
+
+800
+00:36:47,760 --> 00:36:50,960
+The reason why I say that is just because
+
+801
+00:36:50,960 --> 00:36:55,040
+I've seen TBL start to leave some of these projects
+
+802
+00:36:55,040 --> 00:36:57,600
+that are in DeFi,
+
+803
+00:36:57,600 --> 00:37:00,640
+but are reliant on these centralized exchanges
+
+804
+00:37:00,640 --> 00:37:02,440
+or parties or whatever,
+
+805
+00:37:02,440 --> 00:37:05,200
+reducing counterparty risk
+
+806
+00:37:05,200 --> 00:37:07,080
+and relying on maybe something
+
+807
+00:37:07,080 --> 00:37:08,840
+that is just a smart contract,
+
+808
+00:37:08,840 --> 00:37:11,560
+getting the human element out of decision-making
+
+809
+00:37:11,560 --> 00:37:16,080
+will become more popular over time in certain circles.
+
+810
+00:37:16,080 --> 00:37:21,080
+There's always going to be people who will prefer USDC
+
+811
+00:37:21,480 --> 00:37:25,960
+because it is backed by the government of somewhere
+
+812
+00:37:25,960 --> 00:37:28,400
+or the bank is backed by the government.
+
+813
+00:37:28,400 --> 00:37:31,640
+I think that that product will always be out there
+
+814
+00:37:31,640 --> 00:37:33,520
+for a good reason too,
+
+815
+00:37:33,520 --> 00:37:35,560
+at least for Ethereum's vision,
+
+816
+00:37:35,560 --> 00:37:39,680
+low risk DeFi is a great north star
+
+817
+00:37:39,680 --> 00:37:43,400
+and that does not involve these centralized entities
+
+818
+00:37:43,400 --> 00:37:44,880
+in that equation at all.
+
+819
+00:37:44,880 --> 00:37:47,920
+It just establishes a base rate of yield.
+
+820
+00:37:47,920 --> 00:37:49,840
+Even these centralized parties
+
+821
+00:37:49,840 --> 00:37:52,160
+will sometimes fall back on that.
+
+822
+00:37:52,160 --> 00:37:57,000
+For instance, I think at the peak TBL of Athena,
+
+823
+00:37:57,000 --> 00:38:02,000
+only 30% of their funds were in the carry trade strategy
+
+824
+00:38:02,360 --> 00:38:04,360
+going on between all these centralized exchanges.
+
+825
+00:38:04,360 --> 00:38:08,000
+The rest of it went into Aave to get the Aave yield,
+
+826
+00:38:08,000 --> 00:38:09,840
+which is exactly what we do.
+
+827
+00:38:09,840 --> 00:38:13,600
+You need a base rate of yield
+
+828
+00:38:13,600 --> 00:38:15,760
+and if it's there and it's robust,
+
+829
+00:38:15,760 --> 00:38:17,560
+can take giant deposits
+
+830
+00:38:17,560 --> 00:38:19,600
+and people are definitely gonna use it.
+
+831
+00:38:19,600 --> 00:38:20,440
+That's good.
+
+832
+00:38:20,440 --> 00:38:22,000
+We're moving in the right direction.
+
+833
+00:38:22,000 --> 00:38:23,040
+People are learning.
+
+834
+00:38:23,040 --> 00:38:24,040
+We're educating people.
+
+835
+00:38:24,040 --> 00:38:25,680
+Maybe that's a good place to leave it.
+
+836
+00:38:25,680 --> 00:38:27,520
+Corin, thanks so much for coming on.
+
+837
+00:38:27,520 --> 00:38:28,360
+Appreciate the time.
+
+838
+00:38:28,360 --> 00:38:30,120
+We should do it again soon.
+
+839
+00:38:30,120 --> 00:38:30,960
+Yeah, we should.
+
+840
+00:38:31,000 --> 00:38:32,240
+Thank you for having me.
+
+841
+00:38:32,240 --> 00:38:33,840
+Let me know if you ever have any questions,
+
+842
+00:38:33,840 --> 00:38:34,680
+anybody listening.
+
+843
+00:38:34,680 --> 00:38:36,400
+I'm always around.
+
+844
+00:38:36,400 --> 00:38:38,280
+Thanks for listening to another episode
+
+845
+00:38:38,280 --> 00:38:40,560
+of On the Brink with Castle Island.
+
+846
+00:38:40,560 --> 00:38:42,320
+To learn more about Castle Island,
+
+847
+00:38:42,320 --> 00:38:45,120
+visit castleisland.vc
+
+848
+00:38:45,120 --> 00:38:47,280
+and to listen to all of our podcast episodes,
+
+849
+00:38:47,280 --> 00:38:51,000
+please visit castleisland.vc slash podcast
+
+850
+00:38:51,000 --> 00:38:53,080
+or just click on the tab on our website.
+
+851
+00:38:53,080 --> 00:38:54,240
+Thanks for listening.
+

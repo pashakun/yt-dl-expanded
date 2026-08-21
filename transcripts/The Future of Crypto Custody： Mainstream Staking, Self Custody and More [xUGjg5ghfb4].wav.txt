@@ -1,0 +1,765 @@
+ (upbeat music)
+ - Welcome, welcome, welcome.
+ I'm your host, Henry Arslanyan,
+ and welcome to this episode of the Future Money Podcast.
+ Before we start, I want to say a big thank you
+ to the half million of you who follow my content each week.
+ This podcast, The Future Money,
+ is now ranked in the top 5% of all podcasts
+ globally on Spotify.
+ Every week, thousands of you from over 160 countries
+ globally are tuning in.
+ So a massive thank you for all your support.
+ It really means a lot into an entire team
+ producing the Future Money Podcast.
+ As all of you loyal listeners know,
+ my goal with this podcast is very simple.
+ It's to go deep in some of the biggest ideas,
+ trends and developments we are seeing
+ in the field of crypto and hopefully empower you
+ with this information and then let you
+ make your own decision on what your impact
+ can be on the future of money and the future of finance.
+ And to do this, I invite each week one of the leading figures
+ of the global crypto community to have this one-on-one
+ conversation amongst crypto aficionados
+ and discuss some of these topics.
+ My guest today is Mr. Alessio Quaglini.
+ He's a CEO and co-founder of Hex Trust.
+ Before we jump right in, I have to say a couple things.
+ First of all, regular disclosures.
+ Personally, I am an investor in Hex Trust
+ and many previous or current sponsors or companies
+ I'm involved in are clients also of Hex Trust.
+ So we just want to put the disclosure out there
+ for transparency purposes.
+ Alessio, welcome to the show
+ and one thing for all your loyal listeners.
+ I mean, to show how dedicated Alessio is
+ to the crypto industry.
+ Today is his birthday and he's still decided
+ to come for this recording.
+ So Alessio, happy birthday and welcome
+ to the Future Money Podcast.
+ - Thank you so much, Henry.
+ My pleasure to be here and congrats
+ on the success of the podcast.
+ First of all, I know you're a big wine guy.
+ How are you going to celebrate your birthday today?
+ - I'm not sure it's going to be a surprise
+ but the expectations are quite high.
+ It's also my wife is a sommelier.
+ So let's see, let's see what she has prepared for me.
+ - Here we go, wife Sommelier
+ and you're a big wine aficionado.
+ So my God, that must be interesting on that perspective.
+ We have a lot of interesting show today.
+ I mean, I think for all the listeners on the show,
+ we've been really trying to,
+ there's been a lot of questions
+ on what is the future of custody, self custody
+ versus centralized custody?
+ What is going to be the future of staking services?
+ So I'll be in also some of the practical difficulties
+ of building a custodian
+ and whether custody services will become commoditized.
+ So we're going to try to discuss all these topics today.
+ Alessio, but before we jump right in,
+ do you mind maybe giving a bit of background on yourself
+ and also about Hex Trust?
+ And then we'll dive into the questions.
+ - Sure, firstly about myself, I'm Italian.
+ I've been in Hong Kong for the past 15 years.
+ By background, I'm an engineer,
+ but I didn't really spend too much time in my career
+ as a proper engineer
+ because I started working
+ the financial services industry early in my career.
+ Actually, funnily enough,
+ my first role in financial markets
+ was working for the regulator,
+ the securities regulator in Italy,
+ where I was responsible
+ of the supervision of intermediaries,
+ especially in the market manipulation
+ inside the trading, et cetera,
+ where we were bringing stochastic models
+ to understand the behaviors of investors
+ and trying to detect market anomalies.
+ After that, I joined the number of financial institutions
+ until the end of 2017,
+ when I met my co-founder, Rafael Serneski,
+ through a joint investment that we did
+ in one of the startups here in Hong Kong,
+ and we decided to do our own thing in the blockchain space,
+ and that's when X-Trust was born
+ at the beginning of 2018.
+ - Can you give a bit of summary on X-Trust
+ so we can get the audience
+ to understand what X-Trust is?
+ - Yeah, sure, so X-Trust was born,
+ as I was mentioning, at the beginning of 2018.
+ The idea was really to bring to the space
+ an institutional platform and institutional service
+ for custody of digital assets.
+ Why did we want to do it?
+ People tend to forget how different
+ the market was five years ago from what it is now.
+ It was mainly a retail space.
+ There were no rules and regulations.
+ There were a number of players
+ that were operating from offshore jurisdictions.
+ There was really little protection for investors
+ and hacks in terms of exchanges, et cetera,
+ and what were happening on a daily basis, right?
+ So we thought, okay, here we have a new asset class
+ first of all, which is gonna be very interesting
+ from sales side and buy side,
+ and at the same time, existing asset classes
+ might be ported to blockchain in the future.
+ So at a certain point,
+ institutional investors would be very interested
+ in entering the space, but to do that,
+ they will need that kind of institutional protection
+ and kind of set up that they are used to
+ in the traditional space.
+ That kind of set up that would avoid all those things
+ that we have experienced in the last few years
+ from happening in the space.
+ So we said, okay, let's try to bring this kind of offering
+ to the space and facilitate the entrance
+ of institutional investors.
+ We entered the space in 2018.
+ We really entered the market with the first offering
+ in the second half of 2019, but 2020
+ we're already quite established, especially in Asia.
+ We did a couple of rounds of very successful financing,
+ and as of today, we've basically become a global player
+ with offices in six jurisdictions.
+ So mainly we cover Asia, MENA, and Europe,
+ we're licensed in all the jurisdictions
+ where we have offices on Kong, Singapore, Dubai, Italy.
+ We just got a license in France and in the Bahamas.
+ And we started by offering the core service of custody,
+ and then we basically ventured into additional value
+ added services, such as on-ramp or framp,
+ staking, access to trading venues, et cetera.
+ - Let me focus on some of the things
+ you just mentioned, Alessio.
+ So, if you ask many people in the crypto community,
+ many people will tell you custody is becoming commoditized.
+ It's gonna be service people will just offer,
+ and it's very difficult to monetize custody.
+ Unless you have some of these additional services on top,
+ what do you think is the future of profitability
+ of crypto custodians?
+ I mean, do you think they will need to have these services
+ on top and slurry services,
+ or that it's gonna be custody by itself
+ is a business model that has a lot of future?
+ - All right, so there's a couple of points here, right?
+ So first of all, the commoditization of custody.
+ So it is true that custody is a commodity
+ in the traditional space,
+ but in the crypto space, we're far from it, in my opinion.
+ So the technology is evolving so fast.
+ We have new blockchain protocols,
+ we have new use cases, we have new business models,
+ and custody is really at the core
+ of facilitating and enabling these business models.
+ So whatever custodians were doing three years ago,
+ it is very different from what we are doing today.
+ So I would say that, yes, probably at a certain point
+ in the future, we'll have a more standard offering
+ of custody, but as of today,
+ from a technological perspective,
+ we're really far from having,
+ from custody being a commodity.
+ There's also a couple of aspects that are relevant
+ to the how custody is evolving in the blockchain space.
+ So the first one is, obviously that in the traditional space,
+ custody is basically a simple ledger
+ where you record who owns what, right?
+ And then you transfer, I mean, you synchronize this ledger
+ with the central depository institutions, et cetera.
+ So assets in the traditional space,
+ they're pure ledger entries.
+ And the blockchain space assets are basically smart contracts.
+ It means that they are programmable, they're live animals,
+ and some of the financial services
+ are already enabled within the asset.
+ So the asset is not a simple entry,
+ but it has already embedded in the asset itself
+ a number of services.
+ And these services, sometimes they don't require
+ an intermediary to enable them.
+ They require the custodian to make sure
+ that these assets can be useful for those services.
+ I'm talking, for example, about staking, right?
+ You don't need anymore an intermediary to enable staking,
+ right?
+ You can do it directly from your custodian
+ by signing a staking transaction on your assets,
+ because that staking transaction is part of the protocol
+ where the asset has been issued.
+ So there's a very important difference
+ from the traditional space,
+ and it has an impact on how commoditized the service is
+ and how you can monetize it.
+ Now, going to the monetization, yes,
+ obviously monetization is extremely complex,
+ and I would agree with you that it's much harder
+ to monetize a custody service
+ versus a trading service or an exchange service, et cetera.
+ However, the custody business brings
+ a couple of advantages, right?
+ So the first one is that it's a very staking business, right?
+ Which allows you to basically create some kind of barriers
+ of entry or switching costs for your clients,
+ and allows you to monetize your clients
+ more in the long term versus other services.
+ And at the same time, you're exactly right.
+ So there are certain services that are enabled
+ by custodians, right?
+ And those services are much easier to monetize
+ than the pure custody service.
+ If we think about staking,
+ is one of the most profitable activities in today's market,
+ and custodians really have the capability
+ of capturing most of the monetization opportunity.
+ - So let's talk about staking.
+ I mean, you know, we're seeing now
+ a rise of staking as a service, right?
+ Where a lot of custodians are offering the service,
+ even a lot of crypto exchanges are offering,
+ you know, staking services as well.
+ And I mean, for many holders of certain crypto assets,
+ whether it's Ethereum or other layer ones or layer twos,
+ staking is actually pretty good way
+ to get a yield on that asset.
+ What's your view on staking as a service?
+ Do you think in the next couple of years,
+ we're gonna see all the custodians offer staking services?
+ And how difficult you think that is
+ for a custodian to set that up?
+ All right, so staking is, I mean,
+ as of today in the blockchain space,
+ obviously proof of stake is the state of art, right?
+ So it is obvious that staking is kind of the,
+ this inflation protection mechanism, right?
+ Similar to the overnight rate that we have
+ in the traditional market, right?
+ So we'll, eventually we'll have a kind of a staking yield
+ that will be more or less aligned with the inflation
+ that the protocol offers.
+ So if the investor wants to protect himself against
+ the inflation of the protocol, staking is the solution.
+ So it is something that is here at the state
+ until proof of stake would be the state of the art
+ for blockchain protocols.
+ Now, since you mentioned exchanges,
+ I think that it's very important to do a clarification
+ between what staking is on an exchange platform,
+ a centralized exchange platform,
+ and what staking actually means for a custodian.
+ If you're staking your assets via a custodian,
+ it is very likely that you have your own segregated wallet.
+ And it is very likely that the custodian
+ is signing a staking transaction
+ to allow you to delegate your funds to a node,
+ a validator node in that specific blockchain protocol.
+ This is exactly what staking is about.
+ Whatever exchanges are offering today in the market
+ is not staking, right?
+ Exchanges actually an anomaly in the blockchain market.
+ An anomaly that eventually will have to be sorted out or solved.
+ Yeah, so what exchanges offer is an omnibus account
+ where all clients funds are commingled.
+ And when you press that button of staking,
+ you're not actually staking.
+ You're transferring your assets,
+ the ownership to the exchange
+ by different types of contracts.
+ For example, you're lending the funds to them.
+ You're becoming an unsecured creditor to the exchange.
+ Then the exchange would take these funds
+ and that would decide what to do with them.
+ They might decide to state them.
+ They might decide not to state them.
+ They might decide to use them for different purposes
+ as we have seen in a number of failures or platforms.
+ So this is not staking.
+ At best, is a collective investment scheme
+ and some regulators are actually correct in flagging
+ that that kind of activity should be a regulated activity.
+ So blockchain, to conclude blockchain has given us
+ very important tools of creating wallets
+ or segregating assets of tracking activities
+ and movement of funds and staking is a non-chain activity.
+ So as a non-chain activity,
+ it should be enabled in the correct way
+ with segregated wallets
+ as it's been designed in all the blockchain protocols.
+ And in this kind of shape and form,
+ I think it is here to stay
+ until we have proof of stake as the state of the art.
+ - It's a very interesting point, by the way,
+ you mentioned on whether exchanges offering staking services
+ could be considered a collective investment scheme, right?
+ I mean, if as a user, you're getting your, let's say,
+ eat to a certain exchange
+ who's then obviously just giving you the yield back,
+ there's an argument to be done that was actually,
+ that's a mutual fund, it's a collective investment scheme,
+ unlike if it's really happening on chain transaction
+ where there is purely the service.
+ I think this is the argument
+ where in some of the recent ACC cases,
+ between certain exchanges, we won't name them here,
+ but this was the legal argument that was made
+ from their general councils at how the setup was different.
+ But I think it's a very important point
+ you mentioned on that side, Alessio.
+ I just wanna come back on the point
+ of building a custodian, right?
+ So obviously, we discussed that.
+ Many believe that custody could be commoditized
+ at one point in the future.
+ What is the most difficult part
+ in building a custody business?
+ What is the biggest challenge that you didn't anticipate
+ when you start building Hex Trust
+ that you think a lot of the traditional banks
+ and other players are kind of underestimating
+ as they get into their custody business setup journey?
+ - All right.
+ I think there is one, to answer your question,
+ I'll mention two at least, yeah?
+ So there's one general aspect of custody,
+ which I think is the most important one,
+ and it's security, right?
+ As a custodian, we only have one shot, right?
+ The first time that we fail to provide security
+ to our clients and we lose clients assets, we're done, right?
+ So that is the core aspect and that is where
+ the majority of our attention, of our focus
+ should actually be, right?
+ And it's something that people take for granted, right?
+ But it cannot be taken for granted
+ because we have a number of people
+ that are investing a lot of money
+ to find possible ways of bridging into our systems
+ to take clients assets.
+ So this will always be the most important thing for us
+ to offer the highest possible level of security.
+ Now, in terms of the biggest challenge after security,
+ it's actually something that, to be honest,
+ I was not even expecting in 2017
+ when we were setting up the company.
+ The market, as I was mentioning, was very different.
+ We probably didn't even have proof of stake
+ as kind of something that was really
+ having traction in the market.
+ The most challenging thing is that the technology
+ that we need to provide is changing every day.
+ The use case is the business models
+ that we need to support today did not exist before.
+ So as of today, I'll give you some examples.
+ Back in 2018, a couple of blockchains
+ where the most important blockchains,
+ today, we need to support 30, 40 different protocols.
+ On every single protocol,
+ we have a lot of different token standards.
+ It's not just ERC 20, but we need to support ERC 20,
+ ERC 7 to 1, ERC 1155.
+ And now new standards that are coming to the market,
+ security, token type of standards.
+ And this is not just for Ethereum.
+ It can be for EVN compatible.
+ It could be for Cosmos based chains.
+ So it makes the complexity exponential.
+ Then you have bridges.
+ So tokens can exist on different blockchains,
+ so you need to bridge them seamlessly
+ from one blockchain to the other.
+ Then you have staking protocols,
+ and every staking protocol on every single blockchain protocol
+ functions in a completely different way.
+ And then now you have web three connectivity.
+ Who in 2018 was thinking about web three connectivity?
+ The possibility of interacting with a variety
+ of DeFi applications, of gaming applications,
+ of metaversus, et cetera,
+ and allow your users to connect the wallet
+ and claim tokens and being able to interact
+ to sign blind transactions, et cetera, in a secure way.
+ All of this, just to conclude, back in 2018,
+ the standard was kind of cold wallets,
+ the state of the art.
+ Nowadays, it doesn't work anymore.
+ You cannot connect your cold wallet to Uniswap
+ and Sime a transaction on time, right?
+ So you need to provide the highest level of security,
+ but you need to provide it in a very quickly,
+ in a very quick way, very efficient,
+ and across different jurisdictions in a 24 by 7 way.
+ So this is a very, very complex problem for custodians.
+ And I want to highlight,
+ I don't think we are at this stage
+ where the service is commoditized at all, yeah?
+ Lastly, just to conclude,
+ probably we'll talk about it more later,
+ but there's the whole elephant in the room of regulation.
+ Every single country has a different framework
+ and regulation as custodians.
+ We need to support global clients.
+ So we need to understand how to comply with regulations
+ across all the jurisdictions where we operate
+ and where our clients operate.
+ - So you raised so many good points, Alessio.
+ I think we know whenever I had discussions
+ with bank CEOs or boards,
+ or often they tell me,
+ "Yeah, we're thinking of getting a custody."
+ But some of the elements you mentioned on security,
+ the fashion and technology,
+ these are as you know very well,
+ as somebody who's worked in traditional finance
+ for many years,
+ it's very difficult for large financial institutions
+ to get into, right?
+ So often this is why many of them are just investing
+ or they look acquiring companies,
+ probably like yours,
+ just to actually be able to offer the service
+ and instead of them trying to build it, right?
+ So that's a very, very interesting point of view there.
+ - And I think, I mean,
+ since you mentioned these institutions
+ and banks in particular, right?
+ So we work with so many banks
+ to try to understand what kind of offering
+ they wanted to bring to the market.
+ But I mean, speed,
+ the speed of change is really critical in the space.
+ Banks do RFIs, RFPs.
+ The average duration of this process is probably two years.
+ By the time they have made a decision
+ on how to go to market,
+ basically they have probably approved,
+ okay, to do Bitcoin and Ethereum.
+ And in the meantime, the last 24 months,
+ the whole market has changed.
+ And whatever they have approved
+ is not relevant anymore to enable a profitable
+ or competitive business model.
+ So the speed at which traditional financial institutions
+ and banks in particular operate
+ is not aligned with what's happening in the market.
+ So either, I think either the only ones
+ that were able to go to market with something
+ are the ones that really partnered up with providers
+ or custodians institutions in the blockchain space
+ that are really expert in the space
+ and they can move at the right speed.
+ - Yeah, I agree.
+ I think that's gonna be one of the biggest challenges
+ for any of the trad five firms
+ trying to enter the market for sure.
+ You mentioned something, Alexia, that I wanna touch upon.
+ Obviously, as a custodian,
+ they're offering services to a global client base.
+ Regulation is a big topic, right?
+ And you mentioned obviously you're active at Hong Kong
+ and Dubai and Italy, France and Obama's other places.
+ I mean, what you're finding is the biggest challenge
+ in operating in a global environment
+ with different regulators,
+ especially when it comes from a custody perspective.
+ Is that you believe a molt
+ that gives you an advantage of others
+ can not enter as easily?
+ Is it good because it gives a customer protection
+ or it just becomes too confusing
+ and basically nobody's really benefiting from it.
+ - All right, so regulations are unfortunately
+ still very different across different countries.
+ Even tier one markets,
+ they still have regulations that differ from each other
+ quite a bit, right?
+ Just to give you some examples, right?
+ So we have a, I think a regulation in the UAE
+ in Dubai in particular, which is quite advanced, right?
+ And defines very well the role of a custodian, right?
+ Versus the role of other intermediaries.
+ At the same time in Hong Kong,
+ we know very well that we have a new framework,
+ a regulation that only covers exchanges, right?
+ And puts together the activity of a custodian
+ only within the regulatory framework of exchanges.
+ So we have, in other jurisdictions,
+ custodians are not even regulated, right?
+ But they only have to comply with basic AML-CTF rules, right?
+ So it is very different every jurisdiction
+ and it makes our job quite difficult.
+ However, I think there is a common denominator
+ of rules that I would say apply across all jurisdictions,
+ a basic set of standards and best practices
+ that we believe that eventually will apply
+ across all relevant jurisdictions where we want to operate.
+ And we try to kind of use this common denominator
+ across all jurisdictions and to be as compliant as possible.
+ This sometimes doesn't make us competitive enough
+ in certain jurisdictions,
+ but I think it's a trade-off that we have to take
+ if we really want to be competitive more in the long term
+ rather than tactically.
+ - Yeah, you mentioned Hong Kong regulations, actually,
+ as a company that was Hong Kong native
+ and obviously I've known you for many years
+ in Hong Kong as well, what do you think Hong Kong obviously
+ was a very big crypto hub back in the day.
+ It had a little more difficult times
+ and now it's looking like it's making a comeback.
+ What is your view on the rebirth of the Hong Kong
+ crypto ecosystem, particularly in contrast
+ with other up-and-coming jurisdictions like Dubai
+ and some European jurisdictions as well?
+ - Yeah, so I think Hong Kong is obviously
+ a great place to be for a financial business
+ in the blockchain space.
+ It's a great place to be because it's one
+ of the largest financial centers in the world.
+ It's a hub of innovation.
+ Shenzhen is right across the border,
+ so we have access to lots of big talent pool, et cetera.
+ There's also a lot of capital, which really helps
+ in terms of when you want to provide financial services
+ or becoming a relevant player in the space.
+ It gives you access to huge markets,
+ for example, to the mainland market,
+ as well as the, I would say, the broader Asian market.
+ The Hong Kong in theory is one of the best places to be
+ to start at least a wholesale blockchain business
+ as well as retail if you have access to certain markets.
+ Now, what happened is that lots of businesses
+ were coming to Hong Kong, especially in the ICO boom phase
+ and the regulator tried to reduce the risk
+ for retail investors by bamming these type of activities
+ and becoming a little bit more reluctant
+ to accept the companies to operate
+ in a completely unregulated environment.
+ Lots of businesses left Hong Kong to find better places.
+ And when I say better, it's places where they could operate
+ without too much supervision on one side
+ and on the other side, having clearer rules
+ which did not exist in Hong Kong.
+ Why they come back?
+ So now Hong Kong for whatever reason has decided
+ to become a global hub for blockchain
+ and crypto businesses.
+ This means that the government together with the regulators
+ are putting in place rules and regulations
+ that allow companies to come back,
+ to register themselves and to operate legally
+ under certain regulatory frameworks, right?
+ And this is important because it gives you access
+ to one of the, I would say top tier regulatory licenses, right?
+ Recognized in top tier jurisdictions
+ and current jurisdictions, as well as it gives you access
+ to the traditional finance rails, right?
+ Once you have the right licensing Hong Kong,
+ you'll be able to open bank accounts with banks
+ and do business with traditional financial institutions.
+ As a manager, suspension funds, institutional brokers, et cetera.
+ So this is a huge opportunity, right?
+ Hong Kong saw that other jurisdictions
+ that were slowing down and they saw the opportunity
+ to actually take back the business,
+ to put in place a regulation and kind of step
+ onto the stage and become the main player in Asia.
+ I think this is happening.
+ The first step, what they did was to regulate exchanges.
+ In my personal opinion, they could have done more,
+ they could have done better
+ and regulate other types of intermediaries.
+ But at the end of the day, it's a first step,
+ more rules will come and other types of business
+ that will be able to regulate themselves
+ and to get a proper licensing on-call
+ and operate that business from here.
+ It's a good first step
+ and we'll see more and more businesses coming here.
+ I think as of today, in kind of Asia, Middle East,
+ the only other place that is as attractive
+ as Hong Kong was probably Dubai.
+ So we, since Hexra says lies in both jurisdictions,
+ I think we're really in a good place
+ to operate our business.
+ - Yeah, it's interesting as well.
+ I think a lot of people that we speak to on the show,
+ other places, it's always now like Hong Kong
+ and Dubai coming up in the conversation.
+ Abu Dhabi, in certain cases as well.
+ And then it's actually France, which is like, again,
+ coming, making come back in a way
+ on that perspective as well.
+ - And we just got the license last week, so.
+ - Here we go, congratulations on that as well.
+ Let's show, I want to ask one last question.
+ We're already out of time.
+ I want to make sure I ask one more question on
+ when it comes to this obviously post FTX,
+ a lot of conversations around self custody, right?
+ And as a custodian,
+ how do you see the future of the custody ecosystem?
+ Will it be a place where centralized players
+ will have a dominant role?
+ Will it be one where self custody will have a dominant role
+ or be a hybrid one or a mix of all of these?
+ - I think this is the hardest question.
+ Is there a $1 million question?
+ What I see is that the regulated market
+ will have regulated custodians, right?
+ And these regulated custodians
+ that will have to register themselves as VASPs,
+ that will have to comply with travel rule, et cetera.
+ Once you comply with travel rule,
+ kind of all the unregulated wallets and everything,
+ we'll face some difficulties in interacting
+ with the regulated business.
+ So I think in the short term,
+ we'll see this kind of dichotomy
+ between regulated businesses
+ and the more unregulated self custody type of activities.
+ In terms of how the world will evolve
+ more in the medium to long term,
+ I think two things will have to coexist.
+ And we will have tools to make sure
+ that the two things can actually converge
+ and interact with each other in a legal way.
+ What we can do from a custody perspective
+ is to be adding one another layer of complexity
+ is to basically be as flexible as possible.
+ So as a custody platform,
+ as of today, we only allow custodial wallets.
+ By the end of the year,
+ we'll be able to provide our clients
+ with the ability to set up custodial wallets,
+ where we are in full control of prior keys,
+ as well as self custodial wallets,
+ where clients will operate wallets via our platform,
+ but where they control the prior keys of the wallet,
+ as well as share custody models,
+ which is a hybrid model where the prior key
+ is basically controlled in part by the custodian
+ and in part by the client itself.
+ So for us, it's basically enabling
+ as many business models as possible
+ to make sure that our clients
+ can find the right solution for their business.
+ - Excellent.
+ Well, last year, we're gonna go to our fire round of question
+ to finish off the show.
+ My bell is with me today.
+ So I'm gonna ask you quick questions
+ that I need a one or two word answer, basically.
+ You know, so it'll be very quick on that perspective
+ and we'll have some fun.
+ Are you ready?
+ - I'm ready.
+ - Let's kick it off.
+ Alessio, you live in Hong Kong.
+ What is your favorite thing to do when you're in Hong Kong?
+ - Play tennis.
+ - Oh, really? Here we go.
+ Favorite tennis player of all time?
+ - Roger Federer.
+ - Difficult to disagree with that.
+ Alessio, you're Italian.
+ What is your favorite thing to do
+ when you're back in Italy?
+ - Eat pasta. (laughs)
+ And pizza.
+ - What is the one, your favorite Italian restaurant
+ outside of Italy?
+ Your favorite Italian restaurant
+ that you recommend for people outside of Italy?
+ - There's a very good pizza place here in Hong Kong called Fyada.
+ - Yeah, of course.
+ Well, here you go.
+ Free advertisement for Fyada.
+ You know, you're a wine guy, of course.
+ What is your favorite type of wine
+ that I think people underrate and do not give enough credit?
+ - Drentodok, Italian kind of champagne method,
+ sparkling wine from the north of Italy.
+ - Here we go.
+ My God, the patriotism there.
+ What is the downside of having a wife that is a sommelier?
+ - Too much drinking.
+ (laughing)
+ - Let's come back to work.
+ What is the one skill you think is essential
+ for any entrepreneur in crypto?
+ - Persistence across the world cycles.
+ - Exactly.
+ What is the one advice you give to anyone
+ who wants to get into crypto?
+ The one advice you give to anyone
+ who wants to get into crypto?
+ Thank you twice.
+ - Thank you twice.
+ (laughing)
+ I love it.
+ Your nephew comes to you and says
+ he wants to get into the crypto,
+ become a crypto entrepreneur.
+ He's debating between a couple of options
+ to get some experience, working in investment banking,
+ working at a regulator, working consulting,
+ or just going and doing his startup.
+ What do you recommend?
+ - Do your own startup.
+ - Yeah, it was that.
+ - Fail.
+ - And then work for the regulator.
+ (laughing)
+ - I love it.
+ Now, let's go.
+ We have to finish off on the show today.
+ Alesso Quaglini, the CEO and co-founder Hex Trust.
+ Alessio, if you could have lunch or dinner
+ with one person dead or alive.
+ Lunch or dinner with one person dead or alive.
+ Who would you have lunch or dinner with?
+ - My wife.
+ - What a romantic man.
+ That's Italian Simon.
+ (laughing)
+ - Here we go.
+ The Somelier wife was gonna get to treat you
+ on your birthday today.
+ Well, Alessio, it was a pleasure having you
+ with the on the show today.
+ How can people find out more about you
+ or learn more about Hex Trust?
+ - Well, I mean, hextrust.com is our website.
+ Most of the information is there.
+ And my telegram on chain Panini.
+ So very easy to remember.
+ Feel free to contact me.
+ - On chain Panini.
+ - Again, the stereotypical Italian does it again.
+ So Alessio, thanks for being with us on your birthday.
+ Thank you everybody who was on the show today.
+ I hope you found the show useful.
+ If you found it again,
+ please give us a five star rating.
+ It really helps and more people
+ discovering the show from that perspective.
+ Thank you very much, everybody.
+ And see you all next time for another episode
+ of the Future of Money Podcast.
+ See you guys also.
+ (upbeat music)

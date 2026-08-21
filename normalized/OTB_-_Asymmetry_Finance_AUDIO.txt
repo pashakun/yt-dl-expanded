@@ -1,0 +1,444 @@
+TITLE: Stablecoins and DeFi Innovations with Hannah and Justin (Asymmetry Finance) [Castle Island Podcast]
+URL: 
+VIDEO_ID: OTB_-_Asymmetry_Finance_AUDIO
+
+TRANSCRIPT:
+Wyatt from Castle Island here and this episode marked the second in our series on stablecoins
+in DeFi. Today, I was joined by Hannah and Justin, founders of Asymmetry Finance, which builds unique
+stablecoin offerings in DeFi. Without further ado, I hope you enjoy our conversation.
+Make a particular investment or follow a particular strategy, but only as an expression of their
+personal opinion. This podcast is for informational purposes only.
+Justin and Hannah from Asymmetry Finance, thanks for joining our podcast. We're going to talk about
+stablecoins and DeFi today, which I'm excited for, but would love to get some personal introductions,
+if you don't mind, before we get started. I'm Hannah Jojo and I come from a traditional
+background actually in finance and risk analysis. I started out my career as an actuary. Actuaries
+create risk models and try to find and moderate different risk in systems. I did that for a while.
+I was there for a few years working at pension funds, health insurance companies, et cetera,
+and realized I was just maximizing profits for these massive industries.
+Didn't want to keep doing that forever. I had always been doing crypto and DeFi on the side,
+learning about it as I was studying math. It was just fascinating. It was really starting to take
+off and we were starting to see derivatives products in crypto, all these things that I
+was classically trained in up here in crypto and on blockchains. When that really started to boom,
+I jumped over, started working in crypto full-time and I've worked at a nonprofit in crypto as well as
+some DeFi startups and the largest name, Genesis Global Trading, where I was working on their
+DeFi portfolio to deploy it to actually things like exactly what we've built at Asymmetry,
+more risk-off ways of getting higher yield on your assets, which we can get into, but
+that's my background. My background, I started off as a software engineer right out of school,
+did it for AT&T for a Fortune 10 company and then COVID hit and everyone got sent home and the game
+really changed quickly after that. I went and helped build a cybersecurity startup in Colorado
+that was acquired and then went to go work full-time in crypto. Went to go work for
+ShapeShift and Eric Voorhees helped transition them from a centralized company into a DAO
+and really learn what the process looks like to try and create a flat organization that is
+managed on Discord, which is, as you can imagine, comes with some growing pains.
+I left ShapeShift, served as head of product for Silo Finance, building isolated lending markets,
+learned a lot about, obviously, go-to-market and how to build, frankly, good lending markets there.
+They've had a lot of success, especially recently on Sonic, which is super stoked to see, and then
+had an idea for Asymmetry and Hannah and I put our heads together and the rest is history. That
+leads us here and that was almost two, three years ago now and it has been a roller coaster,
+a windy road to get to where we are and really excited to kind of dig into some of it and chat
+further. It's been fun. You guys are a flagship case of came from traditional finance, from
+traditional software and saw the appeal of crypto and took the pill. Excited to hear about Asymmetry.
+Hannah, I'm curious, before we hop into that, how you look at the migration of assessing risk
+and looking at risk in traditional finance to crypto. There's obviously a lot when it comes
+to the intersection of crypto and risk and curious for any views you have or experiences there.
+The reason why I migrated over to crypto, I feel like, is there weren't a lot of actuaries here
+and there is so much risk to measure. We know it's not a riskless space. There's plenty of it,
+which is why yield is so high because those are inversely correlated. Higher yield, higher risk,
+lower yield, lower risk, et cetera. So coming into crypto and seeing some of the insane yields,
+obviously, a lot of those carry a lot of risk, which many people have found out the hard way.
+But I do think we actually need more professionals like actuaries in this space.
+So Genesis, when they hired me, they were looking for someone who had that risk background
+because they had about a billion dollars that they were looking to deploy into different high
+yield products. High yield, not meaning the 10,000% APY that some of us are familiar with in the
+good old days, but rather things like what we've built at Asymmetry, which is a stable coin yield
+somewhere between 10% and 20% APY. Before I joined their team, they deployed a few hundred
+million dollars to Anchor Protocol and UST. I began working there, submitted a risk report saying,
+guys, you got to pull this. It's not safe. It is not the same as getting 20% on, say, SDI or
+something, SDI with a lending offer, something like that. And they were going to deploy a few
+hundred million more to UST. I actually got them to unwind that, so saved them quite a bit there
+because all of this happened a few weeks before the big collapse. Just things like that where
+sometimes we see these yield numbers and they're very tempting, but you do need someone to actually
+understand the risks, explain them to the public or private. In that case, it was private, but
+we need people in this space who are making these risks known. At Asymmetry, we said,
+let's build high yield products, but we're not going to shoot for the highest yields, no crazy
+yield of a few thousand percent or anything like that. No yield that purely comes from our
+governance token boosting it up. Let's build products that have sustainable yield without
+the risk of a death spiral. And luckily, it was a hard lesson to learn, but a lot of the market
+now understands more of those risks after seeing UST really unwind. And there is still a huge need
+for products like that, so that's what we're working on. Your journey into crypto where you
+came from a risk background and saw a lack of risk analysis at the time reminds me of some of the
+high-frequency traders and market makers early on who might have been philosophically aligned
+with crypto, but they really mostly saw just an industry that was sorely lacking these systems
+and inefficient markets and plugged that hole. You dove into it a little bit, but tell us more
+about Asymmetry Finance and the products you guys are offering today and what your inspirations are.
+If you think of Asymmetry, the products we're building are these higher yield products.
+People in crypto do want yield. If there's no secret there, people want yield. We have a few
+products in the convex ecosystem. If you have convex, we're the best place to wrap it where
+it can be most liquid and highest yield, which is a really fun problem to solve because normally
+you have to choose one, but the products coming out in the future, I would say, are more our
+flagship and they're high yield synthetic dollars. We eliminate that downside price pressure risk
+mostly by having it be a stablecoin, and then you can mint the stablecoin against assets that
+are pretty safe, assets most people know. You can look at SDI already that has some yield baked in,
+and then you can borrow against it and increase your yield there. Also, wrapped Bitcoin,
+some other Bitcoin assets, and really we're just trying to keep it to the safest assets.
+You can get more information on all of them on our site, but we're building these high yield
+products that people can basically hold as passively as possible and not see their wealth
+eroded over time because we've seen this in parts of the world with hyperinflation, Argentina, Turkey.
+It's a huge issue if people are holding their life savings and they did nothing wrong and they
+watched it eroded in a year or two because of some bad government decisions that are completely out
+of their control. So we're trying to build passive assets and Justin will say this, but we also try
+to make them so easy that your mom can use it. Really easy interface to use, high yield, relatively
+risk off assets is what we build. You guys are building yield products around say cornerstone
+assets, things like convex and curve and some of the larger DeFi assets, as well as these stable
+coins that you guys are creating from a functional perspective. Yeah, we've had a long road. So we
+started a few years ago and our first product was actually a index fund for different state ETH
+products, which would have been really cool, but we built it too early. Why did you build that
+in the first place? That was another risk play. It was earlier days. So some of these contracts
+weren't as proven and so much money was flowing into ETH staking and Lido almost had voting
+majority of ETH and we said that's a huge risk to the ecosystem and what if their code's bad.
+So we said we'll offer people a basket of all these assets and we took the six largest staking
+products for ETH and then people could in one click get access to all of them.
+And we were just a little bit too early. So that's where we started though two and a half years ago
+with really the same 14. And so I'd say in those two and a half years, we really just learned
+more easily how to reach the markets they were trying to work with and attract. And then we've
+built better and better products that do appeal to the masses, especially with these high yield
+stable coins, which I think almost everyone would appreciate access to if it was easy enough for
+them. Bouncing around a little bit, but in that vein, do you think you get a basket of stable coins
+which becomes the preferred stable coin and then maybe a basket of basket of stable coins?
+Do we create traditional fund structures here? I think we could. I think especially when you look
+at huge whales, treasuries, et cetera, if you are a startup and you have a treasury, you want that to
+be as safe as possible. Or if you're a large institution and you have a treasury, you lose
+your treasury, you lose everything. So putting it all into one stable coin or one asset probably
+doesn't make a lot of sense. We've seen catastrophic events happen. The USDC, USDT, DPEG a few years ago
+was just terrifying. It was the two largest stable coins really. And they were DPEGging and no one
+knew where the floor would be. And UST was a stable coin and that completely crashed. So I think
+one, it's best to understand them, but two, it is best to diversify a little bit and also include
+some decentralized stable coins in your portfolio, like DAI, SDAI, because those have performed the
+best in historical DPEG events. Yeah, it's a crazy thing, but it's completely true. My colleague,
+Nix, recently has been talking a bit about Silvergate and the banking crisis. And you
+get these periods of traditional finance contagion. At that point, it can be better
+to own at least some of these decentralized stable coins to your point. From your guys' experience,
+if someone comes to asymmetry and they have convex, they're using the protocol to earn
+yield on their convex, or they have USDC, they're using it to earn interest on their USDC.
+Does the convex user want yield in convex? And does the USDC person want yield in USDC? Is the
+yield denominated as the same in the underlying in all these scenarios, or how do these products
+function and what do people want? There's two avenues here. On the convex side, as Hannah said,
+it's called AFCVX, but we consider it to be the best convex wrapper, most liquid wrapper,
+as well as the highest yielding. People in the convex ecosystem, it's a really,
+really powerful ecosystem. And convex throughout the entire bear has paid 20, 25 or so percent APY
+on convex denominated in convex through this whole incentive emission, but really bribe an
+incentive mechanism that they have there. It's been really, really powerful and proven over a
+number of years to work really well. Those users who own the convex, they want yield denominated
+in more convex. I think there are probably some that harvest their yield on a biweekly basis,
+sell it into dollars and use that to stay alive, pay the rent, expenses, whatever.
+And that's really meant for a more specific ecosystem, power users who are deep in this
+curve convex space. And then on the other side, there's USDAF and the stables that we're building,
+which are really more designed for a user who is seeking to borrow against and use assets they
+already own in a more capital efficient way, yet still fully decentralized. So you take your SDI,
+you take your wrapped Bitcoin, you bring it to the protocol, you're able to borrow against it,
+set your own interest rates completely permissionlessly. So they'll be able to
+move with market dynamics up and down, high interest rate, low interest rate environment,
+doesn't matter. The system can adjust to it because it's completely market set,
+completely up to the user, borrow against it, whatever rate you want, fixed rate into
+perpetuity, and then set your LTV and boom, you're kind of off to the races. And of course,
+there's a staked version of the stable coins that will allow users to have a yield bearing option
+as well. And I think those will be pretty popular. And then there's a bunch of vault
+infrastructure and other pieces we're building on top of it, but I'll leave it there. There's
+a couple different layers as we think of it. And looking at those products, people who use
+crypto often, I would say those who don't aside are probably familiar with USDAF and you have
+resolve and you have usual and you have USDM and you have all these different product offerings.
+What's the message you guys are trying to convey with USDAF and how would you orient that among
+the landscape of offerings in DeFi? One thing that's really missing at this moment in time
+is fixed rate borrowing into perpetuity. A lot of these stable coins that currently exist,
+you can mint them out of other assets or you have to just go maybe purchase them or the minted by
+a centralized entity and you buy them from a DEX or something like that. But there's nowhere
+out there at the moment that allows users to bring some of the largest assets in DeFi,
+bring them to a protocol and borrow against them with a fixed rate into perpetuity without any
+slippage, without any caveats involved in that process. And I think that's a really big game
+changing moment. We're building on top of Liquidy B2, which Asymmetry has a license to do. They
+built awesome tech and candidly think that this is going to shake up the lending environment a
+little bit. The other piece to that is that a lot of these stable coins are not fully immutable,
+fully permissionless, fully decentralized and have 100% independent oracles. USDAF has all of them.
+So all oracles are fully independent built with Chainlink and then the protocol itself is
+completely immutable, completely permissionless. The team has no ability to change it.
+When talking to larger institutional players, oracles are 100% independent. There's no
+risk of having to trust a small team that you don't know not to upgrade the code and essentially
+steal the money, which is inherently a risk unfortunately in this space. Is it likely? I
+don't think so. I'm not saying that about other teams at all. But if there's not even a possibility
+of that happening, if it literally cannot happen physically impossible, it adds another kind of
+check mark to that. When we talk to some larger institutions or whales and they say, well, look,
+then I feel really comfortable allocating into this because I know that even in a worst case
+scenario, no one can take hold of this thing and turn it into being used for something it wasn't
+meant to be. So to recap, fixed rate lending on user set interest rates and then this fully
+permissionless DeFi first wave that I think has gone by the wayside a little bit with some of these
+CFI DeFi plays really strongly principle values of DeFi coming back and then using the best assets
+to borrow against there. There are a lot of reasons why the value might be obvious, but
+in your view, why is that fixed rate lending piece valuable or meaningful in the backdrop
+of crypto today? One thing we've heard repeatedly from larger users is that if they're going to
+structure a trade, they need to have a fixed cost of capital. They need to know that right off the
+bat. And so when you allocate into one of the current lending protocols, Aave, Compound, whatever,
+you are subject to a variable interest rate. Can you give a specific use case here?
+We were talking with a fund and they were saying that they're trying to essentially ARB and play
+this game of taking advantage of borrowing in USDC and then going and purchasing Treasuries,
+just a very simple ARB. And what's their collateral? Dollars, I guess, to start,
+but then they're pulling it over. They're basically just purchasing bonds on one end,
+at least just from when we heard that it wasn't clear if they were borrowing against something
+to get those dollars, but they were just buying say T-bills, bonds, comparing that to kind of
+on-chain yield. And in bear markets, you find that to pick on Aave, because they're the biggest,
+the rate that you get on supplying USDC, for example, is under your T-bill rate. At least
+it has been this last year, but you're taking on smart contract risk and custody risk and everything
+in order to do that, where you could go get, I'll call it totally risk-free yield with T-bills.
+There's an arbitrage there, I would say, on the flip side. In a bull market, if you're supplying
+USDC, great, you might get massive yield, but someone's borrowing it on the other side to pay
+that yield. They deposit it and they're like, all right, we're going to borrow at 4% or something.
+And now in a bull market, it's 17%. And you're like, okay, well, whatever trade I was doing,
+I wouldn't go pay it off a house. It doesn't matter anymore. It's not profitable. I'm underwater. And
+that fixed cost of capital is a big deal. Yeah, it's efficient markets to me is what it seems
+like. If you're a Bitcoin retholder and you can go borrow some USDC and then earn yield on it,
+that is above your rate, then you might as well do that. And it's positive for the market broadly.
+What user profiles are you guys going after with that in mind? Is this your everyday, your small
+fish or whale type defi users or institutions, or how do you look at your audience?
+We're trying to attract everyone. I think many people might say that about their product. I'm
+sure any food company is like, we're trying to attract everyone. But at the end of the day,
+everyone uses money and everyone probably wants to earn yield on the money they're not using.
+It is pretty simple. So in the first few years here though, definitely it's on chain yields.
+So we're attracting a lot of the power users of DeFi, as well as people that are dabbling.
+We put a lot of work into making our front end as easy as possible, so easy your mom could use it.
+And in the future, we want things to be so easy. Your grandma can use it without knowing she's
+even using it. So that's where the integrations come with traditional payment system companies.
+If you have a high yield synthetic dollar, it does make sense for PayPal or Visa to use that
+on the backend and give users some of those rewards. If you're on chain, you get all those
+rewards. I think this is actually something that if built well and it's proven that it lasts and it
+hits a certain size upon which the risk is deemed minimal, then it really can be used on the backend
+of financial systems. I think we will see high yield synthetic dollars there. Definitely what
+we're trying to do in asymmetry is poise this to have one of the best chances of being there
+eventually. Obviously, those would be the most risk off versions of the asset. So probably
+collateralized by stable coins like DAI and SDAI rather than backed by Bitcoin for the really big
+backing payment systems piece. But that is the end goal. So right now, trying to attract everyone,
+whales, minnows, anyone who has money that they want to reveal on, which it turns out is most of
+the world. It's a fascinating point you made towards the end there, which is you hit a certain
+scale and then continue to attract more users. I think especially in the context of DeFi and
+maybe even crypto today, where people are trying really hard to get a certain amount of deposits
+or TVL. And then it's almost like there's an escape velocity and people say, oh, well, there
+are $50 million deposits. I can put my money in now. There's an irony to that in what is supposed
+to be a trustless system. First off, I would make the point. How do you look at that dynamic? Is
+that something that you guys think about often of, oh, if we can just get to this amount of deposits,
+then more people will come or this is a number that we need to get to and then something else
+will happen? Or do you think it's overblown or how do you look at that? You can count on humans being
+irrational. And so as irrational as it is, there are these different psychological barriers. And
+if you're under a certain barrier, a group of people are not comfortable with the asset.
+And if you're over it, a new group unlocks. So it really is a snowball rolling down a hill.
+But I think the psychological barriers tend to be at $10 million in TVL and then $100 million
+and then $1 billion. Once you get into the billions, people start to lose track.
+Once you're there, I'd say that's true escape velocity once you pass the $1 billion mark in TVL.
+I think the psychological barriers are irrational because if you're at $900 million in TVL,
+I don't think people give you a proportional credit if you earn 10% more, attract 10% more.
+But they are rational in that the larger something is, the bigger of a essentially
+hacker bounty that is, where if someone is able to find a loophole in that code and exploit it,
+that money starts to drain. And so the more money, it's the larger bounty that people haven't been
+able to break into. So it does give security in that sense. But I would say if I could hack
+very large code bases, $100 million would be about the same as a billion to me. No one can offer him
+that much money. So I think anything beyond say $50 or $100 million in TVL, that's still
+quite a big feat to not have your code hacked or broken into. So I think it is rational that we
+assess some amount of value, but probably not rational how much we assess. But it is a snowball
+rolling down the hill because once you pass that $1 billion TVL barrier, that is a parameter in
+people's mind and in some people's risk models. So the larger you grow, the more investors you
+attract because you're unlocking these next groups of risk tolerance. The larger you get now,
+you're less risky and you can attract more of those people. And I think it just kind of keeps
+going. You walk past a restaurant on the street and there's no one eating in it. You keep walking
+whereas you go to the next restaurant and it's packed. You're like, yeah, this place has to be
+good if this many people are eating here. It's the same concept. It doesn't always play out.
+That restaurant could be wrong though. That restaurant could be bad. You could be eating
+at Terra restaurant and you get to $20 billion or whatever it is and you check the box, but it
+doesn't really make a difference. So size is not everything. I guess that's all I'll say about that.
+Speaking of restaurants that a lot of people go to, I wanted to ask you guys about Ethereum,
+switching gears a little bit, which I think has been the hot button topic for a lot of people in
+crypto. I think we're seeing this dynamic where you still have the overwhelming amount of usage
+that's occurring on a given venue. And we're also seeing a dynamic where there are probably protocols
+which have a lot of usage and their token performance don't quite align, but that can
+create certain sentiment in the market. So with that in mind, I'm curious for your perspective
+on whether Ethereum remains and will remain the core place to build out products and where
+crypto transacts and exists, or if there will be a migration there.
+Wherever the liquidity is, is where I think the majority of large scale transactions will take
+place. Like liquidity is a moat for sure. And if you have the most liquidity in one place,
+then the largest actors will continue to transact there because there is the most
+liquidity and it's a self-fulfilling prophecy. Can that change or is that set?
+That might change. It certainly has a hell of a head start and a lead on it, but I think that
+could change. We think about it and we're very bullish on this concept of the fat app thesis
+that a lot of this L1 premium across the board will start to disappear. And that it really is
+more so about the apps that exist across multiple chains rather than the chain itself. Apps must go
+multi-chain and find users across them. And then it's really more so true long-term adoption looks
+like a Venmo style app or whatever, where people are using crypto rails, but they don't really know
+it. And it doesn't matter what chain they're on. They're just using the asymmetry app,
+whether it's ETH based or whatever else based, it doesn't really matter to them because it's
+all about the app and the distribution at the end of the day. But liquidity is a moat from a
+structural perspective. But to your point, I think it could change. We'll see,
+but it just kind of depends on, I mean, you've seen obviously ETH's performance
+against BTC since the merge. It's been pretty poor. So maybe there's something there. In
+hindsight, we look back in Roman Empire, we say, oh, that was the day where it kind of all started
+to fall apart, but everyone still told themselves, oh, we're still the greatest empire for the 20
+years. Yeah. Hundreds of years later. Maybe that was the moment. Maybe it's not. I don't know.
+We still build on ETH. I'm a big believer that ETH is an incredible ecosystem. And of course,
+wherever the liquidity is, is a massive driver of building at its core beyond all else.
+I personally have a view that Bitcoin probably won't transact on Bitcoin's main chain eventually
+in the sense that it will sit and just be denominated elsewhere, almost like a safe in
+a bank. The money stays there while people trade claims to it. And I wonder if we go a similar
+direction with Ethereum, which is to say that most of the liquidity and TVL is on Ethereum,
+but as these cross-chain settlement and liquidity systems get better, that you just have
+representation of these assets moving across other chains or dare I say, even saying moving
+off-chain with claims to on-chain assets. It's an interesting concept, especially claims to
+on-chain assets. You look at the blowups that have happened. DeFi performed before CeFi did.
+You had to repay your maker loans before you could go haggle with whoever these funds got
+loans from in the CeFi world. So from a transparency perspective, I think that works really well.
+And it works really well, I'll say, for high-yield stablecoins. This is how we can onboard
+the next group of people that don't even know how to use these blockchain systems,
+but they can benefit from the technology that's being built, put a portion of savings in it.
+I think it is a logical next step for the industry and it would really unlock a lot for
+it as well. Did you guys see the Galaxy data recently? Speaking of lending, that showed how
+much DeFi lending has surged and CeFi lending is a fraction of what it was. I'm asking Hannah,
+who worked at Genesis, this question, I guess, I realize as I speak, but it was fascinating data.
+It's fascinating and going to Justin's point, it makes sense. On-chain lending, it can't fail
+because the code will execute and there are certain parameters as an actuary. It's amazing
+to have programmable money with parameters that you can count on because when I worked at Genesis
+and FTX collapsed and we were undergoing a lot of counterparty risk, basically, it was a bit
+shocking to me that I found out that most of the traditional finance world, if someone defaults on
+their loan, you call them in your meeting. You're like, yeah, they're on vacation right now,
+but they say they're good for it. We'll give them a few days. I didn't really realize that.
+I was a little bit shocked because I was actually first exposed to loans in DeFi before I saw the
+backend of CeFi loans. It was pretty shocking that it was really a vouching system and very
+verbally based what people said and not just did they pay or not. I think that
+on-chain loans are definitely an innovation that will begin to take precedence in finance
+because now we do have programmable money that can execute on these things with zero
+human interaction, which is a really big step for things like loans.
+Robert Leonard The other day, I was looking at some of the
+asset attestations, particularly before you had some of these meltdowns where you would just get
+a letter from a fund or an exchange that says, we have this much Bitcoin period signed. It's
+incredible. And then the other day, I also saw, have you guys seen what AI can do with these
+receipts? You can probably have GPT do this, but you can create a crumpled receipt with the name
+of a restaurant and expenses and looks so incredibly real. It reminds you why having
+money on-chain, you can see every step of the transaction is so valuable.
+I remember actually, Justin, this was back around the time that we met, which for other people was
+about four or five years ago. Justin and I both wrote pieces for our family and friends,
+explaining crypto concepts and macro econ and how crypto was involved.
+We were just trying to pill everyone. I remember I was doing a deep dive on all the stable coins.
+I found out that USDC and USDT, they were audited, but the auditing companies back then said,
+what was the terminology? I don't remember the exact words, but it was basically like,
+we're mildly sure about this. And then they give the report.
+The first sentence was, we're not really that sure, but here's what we're saying.
+To kind of express it, it was not certainly. And after USDT underwent a lot of scrutiny,
+their auditing has gotten much better in the recent years. But that just goes to show these
+paper attestations are quite funny. We will definitely find better ways of validating data
+than paper, especially in the age of AI. And I think people are going to have to move faster
+on that than they realize. So that is a really good point, Wyatt.
+Yeah. And a funny way, it'll probably be the exploits which drive people to move faster,
+as it always is. To this point about a lot of the transitions we're seeing,
+what is the world that you guys hope to see? And maybe that asymmetry falls in line with
+when it comes to future finance, direction of DeFi, crypto. What do you hope to see and
+what are your predictions? One of the large reasons why I got into crypto,
+I mentioned I worked at a nonprofit and that was actually my first job I took in the space.
+And it was Giveth, which is a nonprofit focused on basically charity payments. So they would let
+people donate or raise money permissionlessly and then send the money and pay the gas. So it was
+actually a free way of fundraising, unlike GoFundMe, which takes crazy fees.
+What a lot of people started using this for was actually cross-border payments for migrant workers
+or people sending money back home. And that was always a use case that I thought was fascinating
+because if you look at Western Union, if you're sending money to Syria, you actually lose more
+than 50% of the value through Western Union by the time it arrives. Argentina, you lose about
+10 to 15% depending how much you're sending. These are criminal rates. If you work hard and
+earn money in a country and you're sending it to your family, that should not be a 50% reduction
+in value to an intermediary that doesn't do that much. Sorry, Western Union. But I think that
+there's two basic human rights and it's sending your money securely and also storing it and not
+seeing the value erode over time. So I really think that in the future, one of the biggest
+things that crypto can bring to the world is actually a safe storage of value that doesn't
+erode and is inflation resistant and outpaces inflation hopefully, but at the very least
+protects against it. And then also people should be able to send money across borders without
+permission and for close to free. So the products we're building are in line with both of those
+things, which is why we're here. I don't think you can build something for multiple years that
+you're not passionate about. That's why these are great assets that I think much of the world
+can benefit from. Maybe we're not the best, but someone will be. And so I hope we're the best.
+We're definitely trying doing everything we can to get there. But at the end of the day,
+we are contributing to this ecosystem with fixed rate lending, bringing a big innovation to it
+that might appeal to the next group of masses. And those steps need to be made so that these
+products can reach everyone globally. Yeah. I mean, Hannah said it really well there.
+I really think that on chain assets will eat the world and all or at least the vast majority of
+stuff will come on chain at some point. And I think that's a beautiful thing for eliminating
+a lot of the friction that exists with current financial systems across a bunch of different
+asset classes, honestly, not just dollars or bonds or whatever, but even talking about real
+estate and going further and can you tokenize and bring this stuff on chain in a transparent manner?
+And just reduce friction I think is the biggest use case for it. And I think you've seen that
+throughout history of a new technology comes in, people are pretty skeptical at first.
+And then they realize, wow, this is actually gonna make my life way easier and or I can make more
+money. Sure enough, everything starts to transition. People thought the internet was a fad. There were
+plenty of people who thought Bitcoin was a fad. I think we're to the point now where we are
+pretty damn sure it's not a fad and that this trend is going to accelerate. I saw that stable
+coins is part of that Alex Lawrence galaxy research. I think they're doing more volume
+than Visa or something along those lines. That's an incredible number that I think went under the
+radar and what feels like a little bit of a bear weird uncertainty time. A couple years ago,
+that would have been unfathomable. And that would have been headline news, screaming across MSNBC,
+sending to my parents and everything. I'm like, look, stable coins are real,
+this is actually happening. And now it's just like stable coins are doing more volume than Visa,
+whatever. That is a huge deal. And I think this trend only continues and it then becomes a question
+of what assets do people want to allocate to? What assets do they want to borrow against?
+And can you give them a service that they haven't necessarily had before, which is where this
+fixed rate lending impetus and push from the asymmetry side really comes in, is I'm shocked
+that it's taken this long to have fixed rate lending into perpetuity in DeFi. I think it's
+going to be a massive wave. And I think that one day we'll look back and we'll go, wow,
+I can't believe it even took this long. Of course we needed fixed rate lending because no one in
+DRAD-5 borrows floating rates. They just don't. How have we not had this in DeFi yet? And I think
+we'll look back and say, wow, I can't believe it took that long, but glad it's here. And that's
+really the wave that I think we'll be a big piece of.
+Justin, I'm just going to throw this out there. That Visa chart was a Castle Island chart at
+first, but I'll forgive you for it. We'll give credit where credit is due.
+I know you were out there crunching the numbers, so I take it back. It was Wyatt.
+No, I'll credit Nick Carter for that one. Last thing I wanted to touch on when I have someone
+here who assesses risk and someone who looks at the code, what keeps you up at night and what are
+your concerns, if any? I think for me,
+I'll start in the present moment and then kind of go broader. But in the present moment,
+my biggest fear is just we are losing interested market participants because everything is too
+difficult to use. And it's something that often gets very overlooked because you, me,
+Justin, we've put in the time. We know how to use wallets. We know how to use bridges.
+I have definitely onboarded a lot of friends to crypto. And through their eyes, I've seen
+it is still really bad of an onboarding process. And it's scary because if you make a mistake,
+you lose your money. Gets that white knuckle experience.
+I think that in the near term, that is the number one thing we need to work on, even though
+most of the builders in the space, Justin and I included, are so obsessed with the tech. But
+more builders in the space need to focus on actual experience and make it as easy as possible. And
+that's something that we have really prioritized. So people when they're within our DApp,
+everything's one or two click access. We explain the risks and people can make informed decisions.
+In kind of the longer term, gosh, at this point, honestly, most of my worry centers around the
+meme coin ecosystem. I think it will die a little bit, but I think that it does a lot of negative
+for our industry in terms of reputation, in terms of being considered an online casino.
+With time, I think that's something that will go away. But it does lack a lot of checks and
+balances. And there's just a lot of speculation, which is fine if you acknowledge that it's an
+online casino. But if people are bringing their hard-earned money and they're taking it to meme
+coins rather than something like USDAF, which is a stable coin that earns high yield, and it's
+relatively safe compared to meme coins, but they're bringing hard-earned money. They might not have
+that much of it and then they're losing it in a meme coin pump and dump. I think that's really
+unfortunate and we'll see a lot of people burned that way because they're told that they have to
+buy this coin. That just comes down to people being informed again about really what they're
+getting into. I encourage all other protocols to be very transparent about the risks of the protocol
+with users. They can make informed decisions because some people will think the risk is worth
+it and others won't. But that's what we're doing at ASEM, making everything as clear as possible,
+answering all the questions from the community. And I encourage other protocols to do that too,
+so that we can really scale. The only thing that really scares me at this point is some weird
+black swan that we don't even know about, an FTX 2.0, something along those lines. I think
+DeFi has gotten a lot better post-Terraluna. Things are transparent and I think there's a lot
+less death spiral risk than there was then. A lot more of these mechanics have been fleshed out.
+And that's part of a growing ecosystem. You have these growing pains. Any birth of a new financial
+market is going to have everyone from legitimate builders to scammers and everyone in between.
+It's speed running this capital formation process, which is both headline grabbing at times and not
+great, but also long-term really, really healthy. You have to flesh a lot of this crap out in order
+to find what sticks around long-term. My fear is that there's another black swan lurking around
+the corner in some way, shape or form that we just don't know about yet. We haven't seen it yet.
+And that puts a big dent in things, but you can't worry about something that you don't know that it
+even exists. So for us, it's keep our heads down, build, try and build the right way as
+transparent as possible and be as close to the community as possible, build in accordance with
+our principles and try and carry, I think, that torch of the decentralization, the immutability,
+trying to do things in the right way to make sure that we can sleep at night.
+So I think that's a big piece of the dose that we try to build with. And then it's just go to
+market, try and get these products in the hand of people that want to use them, need to use them and
+everyone in between. Well, we'll leave it there. For anyone listening, go check out Asymmetry
+Finance. Hannah and Justin, thanks for coming on. Hopefully we can do it again at some point.
+Thanks, Wyatt. This was fun. Thank you so much, Wyatt. Thanks for having us.
+Thanks for listening to another episode of On the Brink with Castle Island. To find out more about
+Castle Island, visit castleisland.vc. To listen to all of our podcast episodes,
+please go to onthebrink-podcast.com or just click on the tab on our website. Thanks for listening.

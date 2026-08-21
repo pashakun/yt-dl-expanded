@@ -1,0 +1,17 @@
+# Secrets
+config.env
+
+# Large media files
+audio/
+videos/
+
+# Python virtual environment
+.venv/
+
+# macOS metadata
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

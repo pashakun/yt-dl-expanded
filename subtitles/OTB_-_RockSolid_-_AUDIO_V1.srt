@@ -1,0 +1,1444 @@
+1
+00:00:00,000 --> 00:00:05,520
+Today, I sat down with Ben Ward and Steve Pak, founders of RockSolid protocol.
+
+2
+00:00:06,080 --> 00:00:11,840
+RockSolid is a DeFi application that enables users to deposit into vaults and earn yield on assets,
+
+3
+00:00:12,480 --> 00:00:17,120
+with a target focus on Rocketpool's RE and other Ethereum ecosystem assets.
+
+4
+00:00:17,840 --> 00:00:21,760
+Castle Island is an investor in RockSolid and it was a pleasure to discuss what lies ahead for
+
+5
+00:00:21,760 --> 00:00:25,200
+the protocol with Ben and Steve. I hope you enjoy our conversation.
+
+6
+00:00:25,920 --> 00:00:29,280
+Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these expressed by them
+
+7
+00:00:29,280 --> 00:00:32,240
+or the guests on this podcast are solely their opinions and do not reflect the opinions of
+
+8
+00:00:32,240 --> 00:00:35,360
+Castle Island Ventures. Guests and hosts may maintain positions in the assets discussed in
+
+9
+00:00:35,360 --> 00:00:38,880
+this podcast. You should not treat any opinion expressed by anyone on this podcast as a specific
+
+10
+00:00:38,880 --> 00:00:42,640
+inducement to make a particular investment or follow a particular strategy, but only as an
+
+11
+00:00:42,640 --> 00:00:46,000
+expression of their personal opinion. This podcast is for informational purposes only.
+
+12
+00:00:59,520 --> 00:01:03,120
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac,
+
+13
+00:01:03,120 --> 00:01:06,320
+the two mortgage giants that have been threatened by the housing crisis.
+
+14
+00:01:06,320 --> 00:01:10,240
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+15
+00:01:10,240 --> 00:01:13,600
+with a new round of quantitative easing. You print a couple trillion dollars and all
+
+16
+00:01:13,600 --> 00:01:18,000
+of a sudden people start to worry. So out of this worry, we have something called the Bitcoin,
+
+17
+00:01:18,000 --> 00:01:24,160
+Bitcoin. Ben and Steve, pleasure to have you guys on our first time doing the podcast together. So
+
+18
+00:01:24,160 --> 00:01:29,520
+appreciate you joining. Told you to be here. Awesome to be here. I want to kick off. Congratulations.
+
+19
+00:01:29,520 --> 00:01:35,600
+You guys raised $3 million, announced it recently. We lad are excited to partner with you guys.
+
+20
+00:01:35,600 --> 00:01:42,240
+Can you speak to what is Rock Solid and why does it exist? What's the origin? Rock Solid is a single
+
+21
+00:01:42,240 --> 00:01:48,560
+click experience to access the best of DeFi and earn rewards on your crypto assets. The most common
+
+22
+00:01:48,560 --> 00:01:55,200
+way this is referred to is the Liquid Vault, so our Liquid Vault platform. And yeah, we're launching
+
+23
+00:01:55,200 --> 00:01:59,840
+now and with the Rocker Pool protocol. So we're the official Liquid Vault for Rocker Pool.
+
+24
+00:02:00,480 --> 00:02:05,360
+Yeah, that's really the origin story, actually. To understand sort of where Rock Solid
+
+25
+00:02:05,360 --> 00:02:10,960
+Vaults came from, it's really Rocker Pool. So I was a Rocker Pool node operator. For those who
+
+26
+00:02:10,960 --> 00:02:16,960
+don't know, Rocker Pool is a decentralized liquid staking protocol. So people stake ETH and they get
+
+27
+00:02:16,960 --> 00:02:21,040
+a token in return and then node operators come along, they contribute some ETH,
+
+28
+00:02:21,040 --> 00:02:26,240
+and they run the validators for Ethereum. And I'm an Ethereum, I don't know if I'd say maxi,
+
+29
+00:02:26,240 --> 00:02:33,280
+but definitely a supporter. A supporter, yeah. Strong supporter. One of the really crucial things
+
+30
+00:02:33,280 --> 00:02:38,560
+is that Ethereum is this credibly neutral decentralized L1. And the only way that happens
+
+31
+00:02:38,560 --> 00:02:43,600
+is when you have a distribution of stake. So you know that like a single part of your entity can't
+
+32
+00:02:43,600 --> 00:02:48,880
+rewrite history. And Rocker Pool is a huge part of that. And that's partly what got me into it.
+
+33
+00:02:49,520 --> 00:02:54,560
+Also, it's better economics as a node operator. And so I was part of this community. And by the
+
+34
+00:02:54,560 --> 00:02:59,760
+way, go join the Rocker Pool Discord. It's insanity in a good way. And so yeah, I was running a node
+
+35
+00:02:59,760 --> 00:03:04,720
+for Rocker Pool. And I really got the feeling that Rocker Pool was, for a while there, losing
+
+36
+00:03:04,720 --> 00:03:09,440
+against Lido. And if you might remember, a few years ago, Lido was getting up to this 33% of
+
+37
+00:03:09,440 --> 00:03:14,640
+stake. And that was a big deal. And so I kind of started to look at what would be better? Like,
+
+38
+00:03:14,640 --> 00:03:19,760
+how should we compete against Lido? And I was really, at the time, focused on APR. That was
+
+39
+00:03:19,760 --> 00:03:24,720
+one difference. There was a slightly lower APR. And that's when I got talking to Ben about this.
+
+40
+00:03:24,720 --> 00:03:30,640
+So we were working together. And we really just started to dig in what drives the LST market.
+
+41
+00:03:30,640 --> 00:03:35,840
+And what we actually found was it wasn't so much the APR. It was actually more about the
+
+42
+00:03:35,840 --> 00:03:42,800
+utility of LSTs in DeFi. Because the core of a lot of DeFi out there is really the base return
+
+43
+00:03:42,800 --> 00:03:48,160
+is almost the staking rewards on Ethereum. And so that's where it starts. And then it's composed
+
+44
+00:03:48,160 --> 00:03:53,360
+and built upon and leveraged and whatever else. But that's where it starts. And so that's where
+
+45
+00:03:53,360 --> 00:03:58,560
+Ben and I started to really understand that actually it's the DeFi integration and the
+
+46
+00:03:58,560 --> 00:04:04,080
+utility of an LST that drives it. And so we started to explore that space much more. And
+
+47
+00:04:04,080 --> 00:04:08,960
+that led us to look at things like ETH and EtherFi and look at what Lido did.
+
+48
+00:04:08,960 --> 00:04:13,360
+And what we realized is that that's what Rocketpool was missing. It didn't have that
+
+49
+00:04:14,320 --> 00:04:18,640
+the level of integration or these single-click experience where it's like,
+
+50
+00:04:18,640 --> 00:04:23,840
+I'm an RE folder. What can I do with this? Where can I put this to earn better returns?
+
+51
+00:04:24,560 --> 00:04:29,040
+And just to make it super clear, literally you could watch every day on the Rocketpool
+
+52
+00:04:29,040 --> 00:04:33,040
+Discord someone come in and say, I just learned about the project. I love it. I love what you
+
+53
+00:04:33,040 --> 00:04:37,600
+guys are doing. What can I do with this in DeFi? And our answer as a community was,
+
+54
+00:04:37,600 --> 00:04:43,520
+oh, there's this spreadsheet called Rfield DeFi. Go take a look. So it was kind of like,
+
+55
+00:04:43,520 --> 00:04:46,800
+okay, we can do better. We can do better than that. That's where this journey started.
+
+56
+00:04:47,360 --> 00:04:52,080
+Yeah. I think for people listening who might be familiar or might be less familiar with some of
+
+57
+00:04:52,080 --> 00:04:57,040
+these DeFi markets, it's like a pretty compelling offering because what you can essentially do with
+
+58
+00:04:57,120 --> 00:05:03,680
+these LST or liquid staking token assets is you can own an Ethereum liquid staking token,
+
+59
+00:05:03,680 --> 00:05:09,920
+which earns a native yield of a few percent. And then you can borrow, let's say USDC off of it.
+
+60
+00:05:09,920 --> 00:05:14,160
+And so you maintain the underlying ETH exposure, your earning yield on your ETH,
+
+61
+00:05:14,160 --> 00:05:18,480
+which almost offsets your borrow rate for the USDC. So it's very attractive naturally.
+
+62
+00:05:18,480 --> 00:05:25,520
+I'm curious how you guys see the landscape of offerings for, let's say LIDO. What were you
+
+63
+00:05:25,520 --> 00:05:31,120
+able to do with LIDO tokens? Is it that instance I just mentioned? And what is most important to
+
+64
+00:05:31,120 --> 00:05:36,080
+people who are these liquid staking token holders or to yield token holders in general?
+
+65
+00:05:36,640 --> 00:05:40,320
+Yeah, I think the most important thing is, as Steve said, it's about integrations. It's about
+
+66
+00:05:40,320 --> 00:05:45,280
+what you can do with the token. And as you just said, Wyatt, like the whole value prop there is
+
+67
+00:05:45,280 --> 00:05:49,200
+having this thing that you can then go and take and do other stuff with in other places.
+
+68
+00:05:49,920 --> 00:05:54,560
+And if you can't do that other stuff in other places, then that LST product kind of isn't
+
+69
+00:05:55,200 --> 00:06:00,960
+serving its core use case. And so really having that asset being integrated in lots of places,
+
+70
+00:06:00,960 --> 00:06:07,040
+different DeFi protocols that you can use it on, borrow land, leverage, all this sort of stuff.
+
+71
+00:06:07,040 --> 00:06:11,920
+I guess a new kind of wave of use cases that emerged about 12 months ago or 18 months ago
+
+72
+00:06:11,920 --> 00:06:18,160
+with these points campaigns and liquidity and incentive farming. And so it's, oh, new hyped
+
+73
+00:06:18,160 --> 00:06:23,680
+L1 is launching or new hyped L2 is launching. They offer these points and incentives to deposit
+
+74
+00:06:23,680 --> 00:06:29,600
+assets to see liquidity in their ecosystem. As an LST holder, you want the LST that you're holding
+
+75
+00:06:29,600 --> 00:06:36,000
+being incentivized in that ecosystem. And what we saw was that often it was kind of LIDO's state
+
+76
+00:06:36,000 --> 00:06:40,960
+DEATH and maybe ETHify's EETH and make it ETH, wrapped ETH. And that was kind of it that was
+
+77
+00:06:40,960 --> 00:06:45,440
+being accepted in these campaigns because they were the biggest and they were doing the best BD,
+
+78
+00:06:45,440 --> 00:06:50,240
+frankly. And so what we wanted to see was we love the rockable community. We think our ETH is a
+
+79
+00:06:50,240 --> 00:06:54,480
+great asset. It's the most credibly neutral. It's the most decentralized of all the LSTs.
+
+80
+00:06:54,480 --> 00:06:59,760
+And so we wanted to see our ETH kind of participating in that party, if that makes sense.
+
+81
+00:06:59,760 --> 00:07:04,720
+You touched on a little bit, but I was curious why in your view, LIDO was the one that got this
+
+82
+00:07:04,720 --> 00:07:09,680
+headstart when it came to integrations and when it came to having these markets exist elsewhere.
+
+83
+00:07:10,480 --> 00:07:16,080
+Interestingly, I think it's a cultural thing. Having been in Rockapool for a while, it is a
+
+84
+00:07:16,080 --> 00:07:24,400
+group of very motivated, very smart, very Ethereum-aligned people that actually came
+
+85
+00:07:24,400 --> 00:07:29,600
+together and formed this DAO and operated like one of the very few DAOs that actually operates
+
+86
+00:07:29,600 --> 00:07:36,080
+like a DAO. Things are voted on according to whether you are staking the token. And there is
+
+87
+00:07:36,080 --> 00:07:42,080
+a lot of focus and energy on the technology, on the decentralization, on supporting Ethereum.
+
+88
+00:07:42,720 --> 00:07:46,080
+I don't think the core team would mind saying this. There's not the same energy on the core
+
+89
+00:07:46,080 --> 00:07:50,640
+team or the DAO. It just wasn't the culture of the community. And that's what makes it actually
+
+90
+00:07:51,200 --> 00:07:55,200
+very strong in some ways, because you know that that's what the focus is. It's being a
+
+91
+00:07:55,200 --> 00:08:01,760
+decentralized LST. But ultimately, I think we've learned as a community that this defile layer
+
+92
+00:08:01,760 --> 00:08:09,360
+is critical. Your asset needs to be integrated everywhere. And for that, you need some BD.
+
+93
+00:08:09,920 --> 00:08:16,720
+So yeah, concentrating, pooling your assets in a place where you can enable a team like ours
+
+94
+00:08:16,720 --> 00:08:21,920
+and our partners to go and strike deals and improve integration, that's what's needed.
+
+95
+00:08:21,920 --> 00:08:25,360
+So I think it was just a focus thing, a culture and a focus early on,
+
+96
+00:08:25,360 --> 00:08:28,320
+but nothing that can't actually quickly be rectified.
+
+97
+00:08:29,200 --> 00:08:34,320
+Maybe the other thing I'd add to that is Rockapool is one of these OG projects, as Steve said,
+
+98
+00:08:34,320 --> 00:08:38,320
+that really does live and breathe decentralization and lives the values that we're all supposed to
+
+99
+00:08:38,320 --> 00:08:42,400
+care about. But also, as a result of that, and because they're an older,
+
+100
+00:08:42,400 --> 00:08:49,360
+vintager project, they kind of emerged before this absolute mega-raise, money bazooka style,
+
+101
+00:08:49,360 --> 00:08:55,200
+VC funded sort of project started in that kind of later vintage. And so what that means is,
+
+102
+00:08:55,200 --> 00:08:59,120
+and I think of a project like EtherFi, for example, and I think EtherFi are great,
+
+103
+00:08:59,120 --> 00:09:03,280
+they're doing great work, but they have a money bazooka that they can spray around
+
+104
+00:09:03,280 --> 00:09:08,000
+and sort of provide incentives to get their asset integrated. Rockapool doesn't have that.
+
+105
+00:09:08,480 --> 00:09:12,160
+Because it's just fundamentally a different model. So yeah, I think that really does make
+
+106
+00:09:12,160 --> 00:09:19,440
+a difference when it comes to integrations. So you have this almost $3 billion pool of
+
+107
+00:09:19,440 --> 00:09:26,640
+not heavily utilized underlying theorem, it's ARIES, but how do you guys interact or exist
+
+108
+00:09:26,640 --> 00:09:31,440
+in the context of that community, to your point, Steve? How do you insert yourselves?
+
+109
+00:09:31,440 --> 00:09:34,720
+Do you become like an external BD arm, or what's your role in your view?
+
+110
+00:09:35,520 --> 00:09:40,240
+That's a really interesting one. There's no official thing, right? That's one of the
+
+111
+00:09:40,240 --> 00:09:45,440
+beauties of crypto. We can't force people to deposit their ARIES into their vault,
+
+112
+00:09:45,440 --> 00:09:50,720
+but we can show a future that's possible. We're kind of known in the community anyway, just as
+
+113
+00:09:50,720 --> 00:09:56,080
+being node operators, I've been part of just personally a bunch of tokenomics discussions,
+
+114
+00:09:56,080 --> 00:10:00,400
+I've met a lot of the community in person at events, et cetera. So it helps, that helps,
+
+115
+00:10:01,040 --> 00:10:07,120
+but yeah, we're there as not official in terms of the protocol. There's nothing in the protocol
+
+116
+00:10:07,120 --> 00:10:12,320
+that makes our vault special, but yeah, we do have the endorsement of the core team that
+
+117
+00:10:12,320 --> 00:10:17,840
+this is the vault for ARIES. We have the pitch, and the pitch is that you can deposit
+
+118
+00:10:17,840 --> 00:10:24,160
+your ARIES here. And we, in partnership with our partners, we have two great partners, by the way,
+
+119
+00:10:24,160 --> 00:10:28,320
+Lagoon Finance for our smart contract architecture and Trulip for capital,
+
+120
+00:10:28,320 --> 00:10:36,480
+as our asset manager, also known as curator. We together can take this ARIES and both deploy it
+
+121
+00:10:36,480 --> 00:10:41,280
+in the best risk-optimized way that exists today. So looking at what exists on MainNet,
+
+122
+00:10:41,280 --> 00:10:47,120
+on L2 today, for these things we talked about, borrow land opportunities, incentive campaigns,
+
+123
+00:10:47,120 --> 00:10:52,720
+could be liquidity provisioning, leverage looping, and doing that in a way that's responsive to
+
+124
+00:10:52,720 --> 00:11:00,000
+funding rates as incentives move, that we move with the market. So there's the pitch of how we
+
+125
+00:11:00,000 --> 00:11:05,360
+can deploy assets today, but also that if you value what we're talking about of seeing ARIES
+
+126
+00:11:05,360 --> 00:11:10,240
+better integrated to make it stronger, put your ARIES here as a way to support the ecosystem,
+
+127
+00:11:10,240 --> 00:11:15,040
+because we're going to be out there, we already are out there, negotiating to have ARIES integrated.
+
+128
+00:11:15,040 --> 00:11:20,320
+Like you want ARIES? New chain, new protocol? Create a pool for it, create incentives for it.
+
+129
+00:11:20,880 --> 00:11:26,640
+And here it is. It's really just messaging the community that we think this is the best place to
+
+130
+00:11:26,640 --> 00:11:32,240
+put your ARIES. Yeah, no, I like the messaging. It's interesting that you guys have spent this
+
+131
+00:11:32,240 --> 00:11:37,760
+time with the community. You've got to know people a little bit. I think in terms of traditional
+
+132
+00:11:37,760 --> 00:11:41,840
+finance, if you have a pension fund, you have a general idea of where the capital comes from.
+
+133
+00:11:41,840 --> 00:11:47,200
+You could say the same thing about an endowment. Again, $3 billion of ARIES, like who are these
+
+134
+00:11:47,200 --> 00:11:49,680
+people? Where is it coming from? How would you characterize them?
+
+135
+00:11:50,480 --> 00:11:56,160
+It's a funny question, because again, due to the truly decentralized nature of the Rockapool
+
+136
+00:11:56,160 --> 00:12:00,400
+community and the ARIE community, it's not actually easy to answer that question. I mean,
+
+137
+00:12:00,400 --> 00:12:04,480
+you can do on chain analytics and you can see what wallet addresses the ARIE is sitting in,
+
+138
+00:12:04,480 --> 00:12:09,680
+and there's a bunch of exchanges, a bunch of DeFi protocols, but there's also a lot of
+
+139
+00:12:10,240 --> 00:12:20,160
+undoxed wallets, probably liquid funds, probably early Ethereum people, but it's not clear with
+
+140
+00:12:20,160 --> 00:12:23,600
+other assets, it's possible to just pick up the phone and talk to the LIDAR core team and say,
+
+141
+00:12:23,600 --> 00:12:28,080
+hey, okay, put us in touch with the top 20 state deep holders. It's kind of not possible with
+
+142
+00:12:28,080 --> 00:12:32,080
+Rockapool because it is this anonymous decentralized community, which is cool,
+
+143
+00:12:32,080 --> 00:12:35,280
+cool for all the reasons that we said, because it is actually living the values that we're all
+
+144
+00:12:35,280 --> 00:12:40,080
+supposed to believe in. It makes the sort of BD and go to market challenge a little bit harder,
+
+145
+00:12:40,080 --> 00:12:43,840
+but that's why we're trying to sort of demonstrate to the community and to the
+
+146
+00:12:43,840 --> 00:12:48,160
+protocol, like this is the value that we're bringing to ARIE, and so we just need to win
+
+147
+00:12:48,160 --> 00:12:52,400
+those customers, so to speak, organically by having a good product, which is kind of what
+
+148
+00:12:52,400 --> 00:12:56,720
+a business should be. Instead of a lot of the shenanigans that you see in crypto around, you
+
+149
+00:12:56,720 --> 00:13:01,360
+know, incentives and private TVL deals and stuff like that, like we're just putting a product out
+
+150
+00:13:01,360 --> 00:13:05,120
+to the market and engaging the community. And I mean, I think having the endorsement of the
+
+151
+00:13:05,120 --> 00:13:09,200
+core team helps with that. Having the distribution, you know, one thing I guess we haven't
+
+152
+00:13:09,200 --> 00:13:14,160
+explicitly mentioned yet is that we're integrated into the Rockapool front end,
+
+153
+00:13:14,160 --> 00:13:19,040
+we're integrated into the Rockapool staking flow. So there'll be opportunities for organic
+
+154
+00:13:19,040 --> 00:13:23,120
+customer acquisition that way. So yeah, they're kind of the go-to-market pillars we're leaning on.
+
+155
+00:13:23,760 --> 00:13:28,160
+It's actually terrifying as a product guy, right? Like first time founder, it's like build it and
+
+156
+00:13:28,160 --> 00:13:32,160
+they will come. Second time founder, it's like, what is the exact problem for the exact customer
+
+157
+00:13:32,160 --> 00:13:37,680
+I'm going to solve and solve that? He asked me what our ideal customer profile is. They're like,
+
+158
+00:13:38,240 --> 00:13:43,600
+they're there, right? There's $3 billion over there. And we do, we have some insights, but just
+
+159
+00:13:43,600 --> 00:13:49,280
+big funny anecdote, like there was a time when ARIE was at risk of being delisted. I think it was
+
+160
+00:13:49,280 --> 00:13:55,280
+as collateral for Dai, so like being delisted from Maker. And someone just posted this in one of the
+
+161
+00:13:55,280 --> 00:14:01,040
+many channels on the Rockapool discord and like it was 20 million ARIE was minted like five minutes
+
+162
+00:14:01,040 --> 00:14:07,680
+later. So it's like, it's out there. To your point, it wouldn't exist if that wasn't the ethos,
+
+163
+00:14:07,680 --> 00:14:12,480
+right? Like that's what's attracted this community. It's like a vibrant discord or subreddit,
+
+164
+00:14:12,480 --> 00:14:15,840
+except in terms of capital and people have been attracted to it because of the ethos.
+
+165
+00:14:16,400 --> 00:14:21,200
+Yeah. I think there's a bunch of Ethereum OGs in there as well. You know, people like ICO
+
+166
+00:14:21,840 --> 00:14:26,720
+evaluate the values there. And are those people, or say the community in general,
+
+167
+00:14:26,720 --> 00:14:32,480
+are they supportive of what you guys are doing? So far, yes. I don't doubt there will be a few
+
+168
+00:14:33,040 --> 00:14:37,600
+folks in the community who will point out, oh, hold on, there are some centralized aspects to this.
+
+169
+00:14:37,600 --> 00:14:43,200
+Like when there's a new strategy proposed, for example, like should the vault deploy to ARIE?
+
+170
+00:14:43,200 --> 00:14:48,000
+Like that's not something that's DAO driven, right? That's something that's driven internally.
+
+171
+00:14:48,000 --> 00:14:52,960
+There'll be folks who are like, no, I only do full decentralization maximum. And that's great.
+
+172
+00:14:52,960 --> 00:14:57,840
+But that's, I think, you know, the minority. For most people, they can see like ARIE is the
+
+173
+00:14:58,480 --> 00:15:05,120
+absolute decentralized core, like to remain strong needs this like defile layer. And actually,
+
+174
+00:15:05,120 --> 00:15:10,240
+that defile layer is more efficiently run with some trade-offs, like still a smart contract.
+
+175
+00:15:10,240 --> 00:15:15,120
+You can look at the code. You can see the fees are transparent. The wallet addresses are
+
+176
+00:15:15,120 --> 00:15:20,000
+transparent. You can see how everything is deployed, but there are some centralization
+
+177
+00:15:20,000 --> 00:15:25,600
+aspects in terms of the strategy. And changing gears a little bit, let's talk about the vaults
+
+178
+00:15:25,600 --> 00:15:30,160
+and the vaults you guys have, and maybe vaults more generally. I guess to start, the term gets
+
+179
+00:15:30,160 --> 00:15:35,280
+thrown a lot. It's one of those ones in DeFi that it feels like it can almost describe many things
+
+180
+00:15:35,280 --> 00:15:41,200
+because of how frequently you guys use it, or not you guys, people use it. So in your guys' words,
+
+181
+00:15:41,200 --> 00:15:45,840
+what is a vault in the context of what you guys are doing? And what does your strategy offer?
+
+182
+00:15:45,840 --> 00:15:51,840
+What does it do? I would say like just from first principles basis, a vault, and I agree with you
+
+183
+00:15:51,840 --> 00:15:54,960
+actually, Wyatt, that people use the term vault in a variety of different ways. And it means
+
+184
+00:15:54,960 --> 00:16:00,640
+different things to different people. But what it means to us simply is a smart contract that wraps
+
+185
+00:16:00,640 --> 00:16:08,960
+around strategies. The vault handles accounting, NAV calculation, and asset deployment. But it's
+
+186
+00:16:08,960 --> 00:16:14,320
+a way to abstract away DeFi complexity. It provides a single click experience for users
+
+187
+00:16:14,320 --> 00:16:19,920
+to deposit an asset. And then the vault architecture can deploy that into any arbitrary
+
+188
+00:16:19,920 --> 00:16:26,320
+number of underlying DeFi strategies. Now, what that means from a user perspective is that
+
+189
+00:16:26,960 --> 00:16:32,400
+I, as a user, don't need to go around hunting for opportunities to deploy my asset in DeFi.
+
+190
+00:16:32,400 --> 00:16:36,960
+I don't need to be managing my positions, monitoring my positions, monitoring funding
+
+191
+00:16:36,960 --> 00:16:42,000
+rates, all this sort of stuff, checking that exploits aren't occurring. I'm deferring that
+
+192
+00:16:42,000 --> 00:16:47,280
+to the vault and the operators of the vault. And I'm, as a result, passively earning a return
+
+193
+00:16:47,280 --> 00:16:53,520
+on my assets that I've deployed. And I think why this is an important primitive is because
+
+194
+00:16:54,160 --> 00:16:58,400
+if we believe this feature that DeFi is supposedly building towards, which is
+
+195
+00:16:58,400 --> 00:17:02,240
+the financial plumbing for the whole world and replacing the existing TradFi ecosystem,
+
+196
+00:17:02,720 --> 00:17:06,400
+there has to be simplicity and there has to be a better user experience.
+
+197
+00:17:06,400 --> 00:17:12,160
+Like right now, DeFi is hard. DeFi is complex. There's exploits all the time. As of the time
+
+198
+00:17:12,160 --> 00:17:16,720
+we're recording, there was this package manager exploit not that long ago. And if you're not on
+
+199
+00:17:16,720 --> 00:17:21,360
+Crypto Twitter 24 seven, if you're not technical, if you don't know what you're signing, it's very
+
+200
+00:17:21,360 --> 00:17:25,760
+possible for you to lose all your money and either you lose your money and never come back,
+
+201
+00:17:25,760 --> 00:17:32,560
+or you become very disgruntled. And so, yeah, to reach normies and to be the plumbing of the
+
+202
+00:17:32,560 --> 00:17:38,400
+global financial system, all this complexity and risk has to be abstracted away. And vaults are
+
+203
+00:17:38,400 --> 00:17:42,960
+a really interesting architecture of wrapping a smart contract around that and just providing
+
+204
+00:17:42,960 --> 00:17:48,400
+a really simple single click user experience to people. Well, I think it's a very powerful
+
+205
+00:17:48,400 --> 00:17:54,320
+thing because anyone can really create a vault strategy, obviously, so long as they take on
+
+206
+00:17:54,320 --> 00:18:00,880
+security hygiene, social norms and do so in a responsible way. And anyone can deposit versus
+
+207
+00:18:00,880 --> 00:18:07,200
+I've always thought one of the tragedies of our financial system is inherently the best
+
+208
+00:18:07,200 --> 00:18:11,360
+investment products are not accessible to the wide mass of people. You can't get into the
+
+209
+00:18:11,360 --> 00:18:17,120
+best venture funds. You can't get into the best hedge funds. You see assets offered to you by
+
+210
+00:18:17,120 --> 00:18:22,560
+brokerages and different places where you can trade via an exchange model, but it's a beautiful
+
+211
+00:18:22,560 --> 00:18:26,800
+thing, the permissionless vault or permissionless strategy that anyone has access to.
+
+212
+00:18:26,800 --> 00:18:30,640
+And actually, it's a good point. I mean, the thing I'd add to that as well is, and actually,
+
+213
+00:18:30,640 --> 00:18:34,960
+I did a talk about this at ETH Denver earlier in the year, is that one thing I learned after being
+
+214
+00:18:34,960 --> 00:18:41,680
+a founder in DeFi, and maybe this reflects on my naivety before, but once I was on the inside,
+
+215
+00:18:41,680 --> 00:18:47,440
+you realize that so much of this TVL and so much of this BD is just kind of backroom deals, right?
+
+216
+00:18:47,520 --> 00:18:53,200
+As a sort of naive user, an optimistic user, perhaps you could say, logging on and saying,
+
+217
+00:18:53,200 --> 00:18:56,640
+oh, wow, there's a billion dollars of TVL in this protocol. Like, oh, wow, it's like a ton
+
+218
+00:18:56,640 --> 00:19:01,040
+of people using it. If you broke that down onto like who owns that TVL, it's maybe like
+
+219
+00:19:01,040 --> 00:19:06,560
+10 liquid funds that are being paid to be there. And there's 50 million of retail deposits in there.
+
+220
+00:19:06,560 --> 00:19:11,360
+And so, I call this like the sort of dirty secret of DeFi is that a lot of this is not
+
+221
+00:19:11,360 --> 00:19:16,480
+decentralized. It's all kind of mercenary capital. But why I bring that up is on this like access
+
+222
+00:19:16,480 --> 00:19:19,920
+point that you just talked about, Wyatt, is that, again, as a naive retail user, like you're not
+
+223
+00:19:19,920 --> 00:19:25,440
+getting access to these deals that these liquid funds and whales essentially getting paid and
+
+224
+00:19:25,440 --> 00:19:30,400
+bribed to be in these protocols. We're trying to democratize that. And by having this pool of
+
+225
+00:19:30,400 --> 00:19:35,360
+capital in our vault, as Steve said, we're doing these BD deals and negotiating with new chains
+
+226
+00:19:35,360 --> 00:19:40,080
+and things like that and saying, hey, if you want this, we've got 50 million of our ETH TVL, for
+
+227
+00:19:40,080 --> 00:19:45,040
+example. It's like collective bargaining. Yeah, exactly. There's kind of two parts to that,
+
+228
+00:19:45,440 --> 00:19:49,360
+that part I love, actually, because when you first kind of peel back the curtain,
+
+229
+00:19:49,360 --> 00:19:52,240
+you realize what's happening. It's like, oh, that's not the way this was meant to be.
+
+230
+00:19:52,880 --> 00:19:59,040
+So, we love being able to bring, especially to the Rockaboo community, access to those incentives.
+
+231
+00:19:59,040 --> 00:20:05,520
+Also, you said it's kind of cool in crypto that people, there's less gatekeeping, right? But
+
+232
+00:20:05,520 --> 00:20:11,120
+there's also risk associated with that. So, one product I like, DeFi Saver, has access to a bunch
+
+233
+00:20:11,120 --> 00:20:16,160
+of just DeFi strategies that are out there. Even there, I'm just looking through at some of the
+
+234
+00:20:16,160 --> 00:20:21,440
+strategies we'll launch with. One thing we do is leverage looping on our ETH. And so, that's one
+
+235
+00:20:21,440 --> 00:20:26,480
+thing that is great for a protocol. For those who don't know, it's like you deposit our ETH on Aave,
+
+236
+00:20:26,480 --> 00:20:31,280
+borrow some ETH, you can mince some more out of that, deposit that. And as long as the borrow
+
+237
+00:20:31,280 --> 00:20:35,360
+weight is less than what you're getting from the LST, you make a bit of money. So, if you leverage
+
+238
+00:20:35,360 --> 00:20:40,160
+it, you make more. Now, those rates can change, right? And it can go negative. And that happened
+
+239
+00:20:40,160 --> 00:20:45,200
+recently. And so, if you're not monitoring that, you start losing money. And then your positions
+
+240
+00:20:45,200 --> 00:20:50,480
+can also start getting liquidated. So, it's great that in crypto, you can do that, we think, like
+
+241
+00:20:50,480 --> 00:20:56,240
+the people who have access to crypto and want to do it. But it's very easy just to lose your money
+
+242
+00:20:56,240 --> 00:21:01,440
+that way. And that's just one strategy, right? And it goes for all of them, like LPing into a
+
+243
+00:21:01,440 --> 00:21:07,440
+Uniswap pool. There's permanent loss, where just directionally the thing moved against you. You
+
+244
+00:21:07,440 --> 00:21:12,400
+might be earning fees, but you lost your capital. So, these things are accessible. But if you really
+
+245
+00:21:12,400 --> 00:21:17,920
+want to fully embrace DeFi, you kind of have to become like a mini hedge fund with your
+
+246
+00:21:17,920 --> 00:21:22,880
+monitoring and risk allocation and all that stuff. And again, that's part of what you try to
+
+247
+00:21:23,440 --> 00:21:27,280
+bring to a liquid vault. It's like the systems happen on the back end. We have
+
+248
+00:21:27,840 --> 00:21:32,800
+professional partners that help us. So, you, you depositor, you just get it. You just get the
+
+249
+00:21:32,800 --> 00:21:37,680
+benefit, but you don't have to have all the operational overhead. Do you think over time,
+
+250
+00:21:38,560 --> 00:21:46,160
+most or a lot of the capital in DeFi, in crypto, gravitates towards these vault strategies versus
+
+251
+00:21:46,160 --> 00:21:49,120
+individual yield seeking for these reasons that you guys highlight?
+
+252
+00:21:49,840 --> 00:21:55,760
+I do. I think that's why vaults have kind of had their moment. I even just saw one recently,
+
+253
+00:21:55,760 --> 00:22:00,880
+just like one minor example. It was a tokenized leverage looping strategy. And it was like,
+
+254
+00:22:00,880 --> 00:22:05,200
+click a button and you can do leverage looping. And then it just has a big red box says,
+
+255
+00:22:05,200 --> 00:22:10,000
+but you need to go and monitor funding rates every day on Aave. And if they go negative,
+
+256
+00:22:10,000 --> 00:22:14,240
+then you should unwind, come back here and unwind really quickly or it will break.
+
+257
+00:22:14,240 --> 00:22:19,360
+And it's like, that is not the user experience that anybody is looking for.
+
+258
+00:22:20,000 --> 00:22:26,400
+So, in terms of simplicity, absolutely. In terms of being able to pool capital and use that,
+
+259
+00:22:26,880 --> 00:22:30,960
+you said for collective bargaining, absolutely. It's just kind of a nice
+
+260
+00:22:30,960 --> 00:22:35,440
+packaging almost of both user experience and underlying technology.
+
+261
+00:22:36,400 --> 00:22:39,840
+Actually, Ben, is it worth talking about the DATS thing here as well?
+
+262
+00:22:39,840 --> 00:22:44,960
+I was just about to say that actually. You read my mind. You said, is the majority of
+
+263
+00:22:44,960 --> 00:22:49,520
+TVL going to be in these products? I think even a question that's above that one,
+
+264
+00:22:49,520 --> 00:22:54,320
+a first order question is where is the TVL going to come from? And I think what we're seeing right
+
+265
+00:22:54,320 --> 00:23:00,240
+now is this flow, this flood of institutional capital coming on chain. And right now in this
+
+266
+00:23:00,240 --> 00:23:04,000
+moment, that's being driven by DATS, these digital asset treasury companies.
+
+267
+00:23:04,000 --> 00:23:07,600
+I've never heard of those. What are they? That's a whole other topic in rabbit hole
+
+268
+00:23:07,600 --> 00:23:13,680
+that maybe we don't want to go down, but they are driving a lot of TVL on chain right now.
+
+269
+00:23:14,320 --> 00:23:18,160
+And the next wave of capital, if they live up to their promises, stable coins,
+
+270
+00:23:18,160 --> 00:23:21,120
+put all this together and it's trillions and trillions of dollars of capital.
+
+271
+00:23:21,120 --> 00:23:25,200
+But if we talk about DATS specifically, all this institutional capital specifically,
+
+272
+00:23:25,760 --> 00:23:30,720
+these institutions aren't going to be on chain monitoring all these positions and they've got
+
+273
+00:23:31,280 --> 00:23:37,520
+risk appetites. They've got levels of technical competence. And frankly, for DATS specifically,
+
+274
+00:23:37,520 --> 00:23:43,840
+publicly listed companies, they've got reporting requirements, accounting standards to comply with,
+
+275
+00:23:43,840 --> 00:23:48,080
+blah, blah, blah, blah. So actually, Volts, I think, are really well placed to serve these
+
+276
+00:23:48,080 --> 00:23:54,000
+institutional style customers because they're fully bespoke, fully customizable. Strategies can
+
+277
+00:23:54,000 --> 00:23:58,080
+be tailored depending on the risk appetite of the fund. You can wrap legal wrappers and accounting
+
+278
+00:23:58,080 --> 00:24:03,200
+structures around them to satisfy any reporting and regulatory requirements. So yeah, I think the
+
+279
+00:24:03,200 --> 00:24:09,040
+majority of TVL on chain will be in these Volts, but I think actually it'll be driven by the weight
+
+280
+00:24:09,040 --> 00:24:12,560
+of capital that's coming from institutions because this product is so well suited for them.
+
+281
+00:24:13,280 --> 00:24:17,520
+I find it so funny that you get these DATS or digital asset treasury companies
+
+282
+00:24:18,160 --> 00:24:24,720
+that have their assets supplying TVL to DeFi and DeFi Volts now because I feel like for so long,
+
+283
+00:24:24,720 --> 00:24:31,040
+you've heard the argument of, oh, smart contracts are risky, Volts are risky, so users shouldn't
+
+284
+00:24:31,040 --> 00:24:38,400
+directly interact. Alternatively, what you clearly need to do is invest in a biotech equity wrapper
+
+285
+00:24:38,400 --> 00:24:43,280
+phantom stock so that the underlying ETH can then be deposited into these strategies.
+
+286
+00:24:44,080 --> 00:24:46,320
+Indeed, right. Preaching to the converter.
+
+287
+00:24:46,320 --> 00:24:51,360
+It's a remarkable timeline. Yeah, exactly. So you have those participants.
+
+288
+00:24:51,360 --> 00:24:55,040
+So can anyone deposit into these Volts or who can use them?
+
+289
+00:24:55,600 --> 00:25:01,440
+Yeah, anyone can deposit. Anyone can interact directly with the smart contract. But using our
+
+290
+00:25:01,440 --> 00:25:07,840
+front end, we block sanctioned jurisdictions and it's not available to residents in the UK,
+
+291
+00:25:07,840 --> 00:25:12,960
+US, Singapore and Australia. But outside of that, any user can deposit assets into the
+
+292
+00:25:12,960 --> 00:25:17,600
+Vault, like be those institutions, retail, something accessible product.
+
+293
+00:25:18,320 --> 00:25:23,680
+And how does the RockSolid protocol or any other Vault provider make money in these arrangements?
+
+294
+00:25:24,720 --> 00:25:28,720
+Yeah, the Vault business role is really simple. There's a service fee. In TradFi,
+
+295
+00:25:28,720 --> 00:25:34,640
+that would be like an AUM fee. So for the RE Vault, it's 1% and there's a 10% fee on performance.
+
+296
+00:25:34,640 --> 00:25:38,480
+One of the nice things just using smart contracts for these things, you can encode the rules,
+
+297
+00:25:38,480 --> 00:25:42,720
+right? And people can see the rules. And so one of the nice things with the performance fee is
+
+298
+00:25:42,720 --> 00:25:47,600
+it's only earned on the way up and it's kind of like recorded at a high watermark. So if the
+
+299
+00:25:47,600 --> 00:25:52,160
+Vault loses value for any reason and then catches back up, there's no fee there. It's just on net
+
+300
+00:25:52,160 --> 00:25:56,160
+new performance. So yeah, 1% service fee, 10% performance fee.
+
+301
+00:25:57,040 --> 00:26:00,880
+Broadly, as you guys are building the protocol, how do you measure success
+
+302
+00:26:00,880 --> 00:26:04,160
+or what are you looking for? Yeah, I got to say for me as a leader,
+
+303
+00:26:04,160 --> 00:26:09,920
+like TVL is just a beautiful metric. It's something we can rally all the teams around.
+
+304
+00:26:10,480 --> 00:26:16,480
+It's a clear one for VD folks who are helping us get new protocols on board to launch their own
+
+305
+00:26:16,480 --> 00:26:22,560
+vaults. It's good too for product engineering to be focused on what are the things we're doing
+
+306
+00:26:22,560 --> 00:26:24,720
+to drive TVL. Number go up.
+
+307
+00:26:24,720 --> 00:26:28,960
+Number go up, right? And it's just directly like it means that we're building the products
+
+308
+00:26:28,960 --> 00:26:35,600
+that people want. So very much TVL. But I think you can be blinded if you don't think about
+
+309
+00:26:35,600 --> 00:26:41,680
+what is driving the TVL. Why is this good? And to take the RE example, we were talking about
+
+310
+00:26:42,400 --> 00:26:47,520
+how many new incentives did we negotiate on behalf of the Rocket Pool protocol, right?
+
+311
+00:26:47,520 --> 00:26:53,520
+How many new integrations happened because there was concentrated pool of liquidity in this vault?
+
+312
+00:26:53,520 --> 00:26:59,440
+Those are things that we're already tracking that feed that TVL number. But I think that's how we
+
+313
+00:26:59,440 --> 00:27:05,600
+know that we're helping our customers. When I say our customers like the protocol, right,
+
+314
+00:27:05,600 --> 00:27:08,960
+be successful by helping their token holders be successful.
+
+315
+00:27:09,920 --> 00:27:15,120
+Where do you guys see opportunity moving forward? And with that in mind,
+
+316
+00:27:15,120 --> 00:27:18,720
+where do you hope to be and help for the protocol to be in a few years time?
+
+317
+00:27:19,920 --> 00:27:24,560
+I mean, our immediate plan and our immediate objective is to build a similar product for
+
+318
+00:27:24,560 --> 00:27:29,200
+other protocols. So you know, we're launching with Rocket Pool. Once this podcast is published,
+
+319
+00:27:29,200 --> 00:27:34,720
+we'll be live. And yeah, we'll see how well that product is going. And you know, we're expecting
+
+320
+00:27:34,720 --> 00:27:38,320
+it to be embraced by the Rocket Pool community. And at that point, we'll have a proof point that
+
+321
+00:27:38,320 --> 00:27:42,880
+we can point to and say, look at how we were able to build this product, which helped the
+
+322
+00:27:42,880 --> 00:27:48,640
+Rocket Pool community generated rewards for their users. And from the perspective of Rocket Pool,
+
+323
+00:27:49,280 --> 00:27:53,520
+there was no lift required, like the Rock Solid team was able to kind of do all the work and
+
+324
+00:27:53,520 --> 00:27:59,440
+integrate this thing for them. So yeah, it's building this product for other protocols out
+
+325
+00:27:59,440 --> 00:28:04,560
+there and sort of helping them and helping their asset holders. And then the other kind of, I guess,
+
+326
+00:28:05,280 --> 00:28:11,120
+leg of this is that institutional customer base that we sort of talked about earlier. As I said,
+
+327
+00:28:11,120 --> 00:28:16,000
+I think vaults are really well placed to serve this wave of institutional capital that's coming
+
+328
+00:28:16,000 --> 00:28:22,800
+online. And the key to winning that customer base, I think, is three things. One, there has to be
+
+329
+00:28:23,680 --> 00:28:28,720
+some lindiness and some proof points in the market already, which we now have with Rocket Pool.
+
+330
+00:28:29,280 --> 00:28:35,120
+There has to be, I think, a really high touch sort of integration and support model and a really
+
+331
+00:28:35,120 --> 00:28:41,440
+custom tailored set of strategies and architectures, policies, rules, controls that suit that type of
+
+332
+00:28:41,440 --> 00:28:47,040
+customer base. And the third thing that has to be qualified custodian integration, because a lot of
+
+333
+00:28:47,040 --> 00:28:53,120
+these types of customers, they need to keep their assets in QCs because of their sort of corporate
+
+334
+00:28:53,120 --> 00:28:57,600
+governance reasons. And so having something that natively plugs into that will be able to serve
+
+335
+00:28:57,600 --> 00:29:02,160
+those customer needs. And so yeah, I think going after that institutional customer base, that's
+
+336
+00:29:02,160 --> 00:29:07,040
+where the wave of capital, I think, is going to come from in DeFi. We're sort of actively pursuing
+
+337
+00:29:07,040 --> 00:29:12,880
+that now as well. Yeah, I think serving more protocols, anywhere there's a stablecoin balance,
+
+338
+00:29:12,880 --> 00:29:18,080
+anywhere there's an ERC20 balance, anywhere that DATs are holding assets that could be better
+
+339
+00:29:18,080 --> 00:29:21,840
+served, like we want to be there, be that in wallets, custodians, exchanges, et cetera.
+
+340
+00:29:22,400 --> 00:29:27,120
+I think when I look a bit further forward, and even we've talked about how Rocket Pool got
+
+341
+00:29:27,120 --> 00:29:34,160
+started as an OG Ethereum project, one thing that's happened recently, I think you said the
+
+342
+00:29:34,160 --> 00:29:39,120
+timeline, right? We've gone from an actively hostile administration in the US, for example,
+
+343
+00:29:39,120 --> 00:29:44,720
+to the treasury secretary talking about that stablecoins are a great way to sell US treasuries
+
+344
+00:29:44,720 --> 00:29:51,040
+to the world, right? The world is very different now. And stablecoins have done a great job
+
+345
+00:29:51,040 --> 00:29:56,720
+of helping people in, for example, hyper-inflating currency economies to protect the savings.
+
+346
+00:29:57,120 --> 00:30:01,360
+That's just this beautiful example of permissionless systems and how people
+
+347
+00:30:01,360 --> 00:30:06,320
+can really benefit from this. And for the longest time, people have been quite happy
+
+348
+00:30:06,320 --> 00:30:12,160
+to earn 0% on those balances because the bigger problem they're dealing with is inflation, right?
+
+349
+00:30:12,160 --> 00:30:17,040
+And I think as the industry grows and as things like vaults and rock-solid vaults become integrated
+
+350
+00:30:17,040 --> 00:30:23,760
+everywhere, I don't think people need to accept 0% interest or half of the underlying treasury bill
+
+351
+00:30:23,760 --> 00:30:28,560
+interest. I think we'll start to see more and more that rock-solid vaults, for example, are
+
+352
+00:30:28,560 --> 00:30:33,840
+just there wherever you are, where your balances are held, and you can just opt in to start earning
+
+353
+00:30:33,840 --> 00:30:39,840
+additional rewards. Yeah, I'd love to see that everywhere. Yeah, I think that the end state is
+
+354
+00:30:40,560 --> 00:30:46,880
+vaults power everything, DeFi powers everything, and vaults abstract away that DeFi and just
+
+355
+00:30:46,880 --> 00:30:51,040
+become this plumbing that is everywhere. And so, yeah, we're looking forward to that future.
+
+356
+00:30:51,600 --> 00:30:55,920
+I mean, they're not that different structurally from like an ETF or some kind of index product,
+
+357
+00:30:55,920 --> 00:31:01,120
+right? Yeah, at some level, like those products do abstract complexity and give a single interface.
+
+358
+00:31:01,760 --> 00:31:04,080
+Yeah, so there's definitely a good comparison there.
+
+359
+00:31:04,880 --> 00:31:09,520
+Well, guys, thanks for coming on and chatting. Congratulations on all the progress. I'm excited
+
+360
+00:31:09,520 --> 00:31:14,880
+for what's ahead. Yeah, now it's exciting times. Appreciate you being board-wide and having us on
+
+361
+00:31:14,880 --> 00:31:18,640
+today. Go deposit. Yeah, cool. Have a good one.
+

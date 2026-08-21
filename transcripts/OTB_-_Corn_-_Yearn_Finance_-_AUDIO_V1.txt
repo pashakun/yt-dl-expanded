@@ -1,0 +1,851 @@
+Welcome to On the Brink.
+My name is Henry Harris,
+and I'm an investor with Castle Island Ventures.
+Today on the show, I'm joined by Corn from Yearn Finance.
+Yearn Finance has been building DeFi infrastructure
+and providing verifiable risk-adjusted yield strategies
+since 2020.
+Corn and I discussed how DeFi has evolved
+since the collapse of Terra Luna in 2022,
+and how recent volatility in the market
+once again highlighted the need for proper risk management
+and transparency in DeFi.
+We also touched on the state of cybersecurity
+for on-chain products,
+as well as what it's going to take
+to get non-cryptonative institutions
+comfortable interacting with DeFi.
+Without further ado,
+here's my conversation with Corn from Yearn Finance.
+Matt Walsh and Nick Carter
+are partners at Castle Island Ventures.
+All of these expressed by them
+or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets
+discussed in this podcast.
+You should not treat any opinion expressed
+by anyone on this podcast as a specific inducement
+to make a particular investment
+or follow a particular strategy,
+but only as an expression of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by bad mortgage investments,
+Lehman, which has 25,000 employees, will be liquidated.
+The federal government loans
+American International Group, AIG, $85 billion.
+This is a different kind of market,
+and the Fed is asleep.
+The federal government is stepping in
+to stabilize Fannie Mae and Freddie Mac,
+the two mortgage giants that have been threatened
+by the housing crisis.
+The Bank of England has pumped 75 billion pounds more
+into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple of trillion dollars
+and all of a sudden people start to worry.
+So out of this worry,
+we have something called the Bitcoin, Bitcoin.
+Well, Corin, welcome on the podcast.
+Appreciate you coming on.
+Thank you for inviting me.
+This is Pulpy Taco's favorite podcast,
+so I could not miss it.
+I only attend the really high signal stuff.
+This is why we do it
+for Pulpy and all the other listeners out there.
+What we wanna get into today is a state of the union
+on decentralized finance on DeFi,
+and maybe just to level set your background,
+just how you got into crypto and DeFi,
+and we can go from there.
+I have been in crypto full time since November of 2021.
+So if you remember back then,
+that was the top of the top in the past four years.
+I had been following crypto for a long time,
+and I was working with Cisco Networks' largest partner
+for 10 years in the data center space,
+building networks and data centers for hospitals.
+Someone from Yearn was in a telegram chat with me,
+and they knew that I did a lot of technical selling,
+and the IT space was starting to slow down
+because especially in healthcare,
+every time someone deployed Epic
+for their medical record system,
+they had to go and buy a ton of hardware.
+Upgrading to Epic was definitely
+their biggest capital expense
+like a hospital ever goes through.
+Epic made the transition to be a web app.
+The customers don't need to buy storage and area networks.
+They don't need to buy all new Cisco switching
+and stuff like that.
+So I saw that space starting to slow down,
+and getting involved with Yearn back then,
+we had over $6 billion of deposits.
+We were in the top five for DeFi projects,
+and we had 125 contributors, I think, back then.
+It was a big project,
+and there was no way that I was gonna say no
+to that opportunity.
+So I took it, and I'm still doing BD for Yearn today.
+I'm responsible for all of the customer experiences
+that we have.
+We have a B2B approach still.
+We want to get people to build on top of Yearn vaults
+and consume the tokenized strategies that we have.
+And if people are not getting answers really fast,
+they feel unsupported.
+They'll go to one of the other
+nine million vault projects out there.
+So my responsibility is to make sure that they're happy,
+make sure they're coming in the door.
+We get a lot of inbound requests
+for strategies to be made still,
+because they know that if they get a Yearn strategy made,
+someone from the Yearn security team
+is gonna have to do due diligence on it.
+They're gonna have to do at least something
+like a light audit on the code base
+and make sure that it's safe.
+It's my job to also qualify those opportunities
+because there are a lot of them,
+and I can't bring every single one of them to the curation
+or security team to vet.
+I have to make sure that they've gone through my filter
+before I pass it on to them.
+Those come in all the time for strategies,
+for collaterals for our curation arm.
+It's always been busy.
+Ever since I joined four years ago,
+even if we're not churning out all these strategies,
+we're definitely evaluating them.
+Customer support is something of an unsolved problem
+within the crypto world.
+Who do you call when you're dealing
+with a decentralized protocol?
+So it's good to know that you're on the other end
+picking up the phone.
+In terms of the history of Yearn,
+you mentioned starting back in 2021,
+it was, to my knowledge, it was around even before then.
+What's kind of like the history of DeFi protocols
+and how they've evolved through 2021 and all the craziness,
+and then maybe all the way up to today in your experience?
+Back when I started and we had 120 contributors,
+we had this mantra that Yearn was very open
+and anyone could join.
+And to be honest, we still have that same culture today.
+One of the people who actually went on
+to build Yearn Vaults v3, Schlag,
+we came across him in a hackathon, I think it was.
+He submitted a strategy that he created
+and we thought that he was a former Yearn contributor.
+It was so perfect.
+And we had 50 other people who had made strategies
+and every single one of them was very low quality.
+And the truth is today,
+if you build something on Yearn and we think it's really good,
+we will seriously consider hiring you.
+But we had to be more selective
+about who we're onboarding as time went on.
+The bar kept getting higher and higher
+and that's a really good thing.
+We started out that way back then.
+And when I first joined, we had all this money,
+we were making $100 million in profits in 2021,
+I think it was.
+And then the first thing that happened was UST.
+The yields were 20%.
+Everyone was like, you gotta make a strategy for UST
+or you're gonna lose deposits.
+And guess what?
+We started losing a ton of deposits
+and we refused to make a strategy for it
+because it was not a structurally sound project.
+We knew that something was going to happen.
+We knew that it was like a bit of a Ponzi.
+How did you sort of figure that out?
+Just for context, UST, Terra Luna collapse,
+ended up losing tens of billions of dollars.
+Do Kwan was the CEO.
+But how did you guys in the moment see through that?
+Anytime a stable is backed by a governance token,
+it's not gonna end well, it's impossible.
+The governance token is gonna go to zero at some point
+and whether the market likes it or not,
+there was no way of avoiding it.
+And we saw that happening.
+It just was best for us to not play a part in that
+and just see our vaults just leak value
+to go to other places.
+And at the same time, that is also when the risk-free rate
+and treasury rates started to go up.
+There was a pending bear market.
+It was definitely on the way.
+We saw that DeFi yields started to go down.
+The way that we get most of our yields
+is from supplying to lending markets.
+And when people are not borrowing,
+the yields are gonna go down.
+What happened was we started to lose even more TVL
+for people going and wanting to get that risk-free rate.
+It's understandable, 100%.
+Yearn, however, was not going to bend in our culture
+and our values and we were not going to start onboarding
+risky RWA yields and we need to have everything on chain
+and that's how it is for us.
+We need everything to be verifiable.
+This was also a significant headwind
+coming into 2022 for us.
+So are you taking a step back
+when we talk about strategies and vaults
+and people were clamoring for UST vaults?
+Essentially what people are asking for here
+is they have a stable coin
+or maybe they have Ethereum on chain.
+They wanna put it to work somehow
+and they wanna turn that into a yield bearing asset.
+And what Yearn does is almost like a portfolio manager,
+so to speak, curates these strategies
+that involve other DeFi protocols,
+maybe infrastructure that Yearn's built,
+maybe infrastructure that Aave or Morpho
+or other lending protocols have built
+and kind of in a risk managed way,
+derive a structured product on chain,
+maybe you could say that gives the end user a yield
+for their stable coin that they started with.
+Is that the right way to think about it?
+Exactly.
+There are a list of prerequisites
+that we need to make sure are checked
+before we go and build a strategy for something.
+But yes, the idea is that we have a multi-strategy vault.
+Say we have a vault for USDC,
+we go and deposit that USDC
+into a bunch of different lending markets today,
+like Fluid and Morpho and Aave and wherever else.
+And we rebalance all of those strategies every hour
+depending on where the best APY is.
+Terra collapses 2022, we entered a bear market
+both with respect to token prices
+and just general value that's locked in DeFi protocols.
+We started to come out of that into late 2023, 2024
+into this year.
+Take me maybe up to date to the current state
+of DeFi vaults within them.
+Then we can start to talk about the events
+of about a month ago, October 10th,
+there was this mass liquidation events across crypto.
+And in the past week or two,
+some bodies have started to float to shore within DeFi
+on the higher risk end of the spectrum
+when it comes to vault management and tokenization.
+Back a couple of years ago, like you said, 2023, 2024
+was like the depths of the bear market.
+It was very quiet.
+A lot of the developers that we were working on in crypto,
+some of them left, some of them went on to go back
+to doing what they were doing or like start
+other new projects.
+I think it was a talent drain.
+As I was trying to get people to build
+on top of urine vaults, I was getting the feedback
+that what you built the urine vaults V3 is clunky,
+hard to use, difficult to understand.
+But truth be told, it is because everything
+that we were doing is programmatic and on chain.
+And you have to be a pretty good developer
+to bring something to market that's not gonna get hacked.
+Some folks decided to make an easy button for vaults.
+And that easy button is turning your vault into a multi-sig.
+And basically you have this product
+where all of this capital flows into
+and you have a bunch of different people
+who can decide to build transactions to send your money
+wherever they want, whenever they want.
+This is banking but worse basically.
+That's our perspective on it because this gives people
+the opportunity to still be anonymous,
+but to also have full control over your funds
+and for you to have no visibility into the decisions
+that are going on or even where your funds
+are going to be going to if they're going to deposit
+those into a black box, like a centralized exchange
+or something like that.
+There's a lot of structural issues
+with those multi-sig five projects.
+Even more so, they were able to align stakeholders
+better than we were.
+Originally when Yearn took off,
+everybody knows about Wi-Fi Token, that's Andre's baby.
+Yearn was the first fair launch project.
+What that meant was people could farm Wi-Fi Token.
+I was working on this project.
+Now it's called Katana Chain,
+Polygon brought to market along with us.
+Last year in 2024, I was going around
+and talking to a lot of like VCs and liquid funds
+about coming on board Katana with us.
+And it was like a really good experience for me
+to jog my memory and just see how many people
+were involved in Yearn way back then.
+These VCs, a lot of them still say,
+we got into crypto because of Yearn.
+Yearn was one of the projects that we invested our time
+and focus in way back then.
+That meant that they had Wi-Fi Token,
+they had stake in our success.
+And when the bear market came, token prices went down,
+they dumped their bags and Yearn does not have
+a token print and we have a finite amount of tokens.
+Those are the incentives that these new multi-sig projects
+started to bring to the table and started doing raises.
+And now you have these liquid funds and VCs
+more aligned with the success of those products
+compared to using Yearn.
+This is headwind number three that started to hit us
+and we're still experiencing that right now.
+It's hard to think about this problem because
+is someone gonna come to market with a new competitor
+every single time and reload the incentives?
+The mercenary money is just gonna
+float into that new project.
+Is this gonna be the cycle forever?
+There's kind of this finite amount of capital within DeFi.
+If my option as an allocator is,
+okay, I can get 8% maybe from this Yearn vault
+with no token rewards on top of it,
+or I can get 12% from these riskier strategies
+on this newer vault and on top of that,
+maybe an additional 5% to 10% of APY
+and then you have this token that they're a newer protocol
+so they have a newer token and they're giving it out
+to people as sort of incentives.
+That's not necessarily a web three native idea.
+Every time I open my Lyft app,
+there's some new reason why they're gonna pay me $5
+to use Lyft instead of go to Uber,
+but it's just more invasive it feels like within crypto.
+That's sort of what is happening here
+and you have these things that are somewhere between
+what you say sort of opaque banking opportunities
+and unregulated hedge funds really,
+where people were depositing their stable coins
+into sort of a black box for a group of three people
+that were claiming to be a DeFi protocol
+to just go and loop into risky strategies
+and the way those strategies would be represented
+on the market is in a token.
+So let's use one of these tokens
+that has recently blown up in the last couple of weeks, XUSD
+and one of the problems with a lot of these is that
+the value of them gets pegged to a dollar
+and this sort of rebase the yield on top of it.
+So if it's a 20% APY strategy, it'll start at a dollar
+and the value of that token will grow
+as the yield accrues to it.
+Even if these protocols aren't calling their product
+a stable coin, so to speak,
+just by including the letters USD in the name
+or pegging it to a dollar,
+I think sometimes it gives users
+probably a false sense of security
+that what they're putting their money into
+is not volatile or not risky
+and really under the hood, there are risky things happening.
+What we saw with XUSD, I guess,
+you'll have better info on this than me
+is that the value of the token completely collapsed
+once people realized that the curators
+or the managers of this protocol had lost a lot of the money.
+So what kind of happened there?
+This all started for us back in May.
+There were a bunch of people shilling this new project.
+We took a look at it.
+We had actually talked to them previously the year before
+about doing some real-world asset strategies with them
+and it didn't end up working out.
+And then we saw that they had this vault
+and we found their D-Bank and we looked at the TVL
+that I had versus the TVL
+that they were displaying on their site.
+We saw that it did not match up.
+We asked them why and they said at the time
+that they were depositing into HyperLiquid
+some sort of carry trade strategy.
+At that point, we would definitely not touch it.
+It is a black box and we said to them,
+this is super risky.
+You can't just have people trusting
+that there is backing to this
+when you cannot prove it at all.
+They ended up copying and pasting those private messages
+and posting them in their Discord
+and dunking on me over and over back in May.
+I did not appreciate that.
+But you're not better.
+Let the record show that you're not better about it.
+I kind of forgot about it until a few months ago
+when they started to get even more deposits.
+I realized that they had tapped into the yields
+and more Discord, which is like a farming group.
+It's been around for a number of years.
+After all of those liquidations happened on 1010,
+Schlage and the rest of the yarn security team
+found on-chain that a lot of these projects
+and funds had some losses.
+To us, there was no way that everyone from Stream Finance
+got out of those strategies without taking losses.
+We knew that there was a hole there.
+There just had to be.
+Schlage started digging more into the on-chain data,
+found all of this daisy chain of looping,
+recursive lending, and curators offering up liquidity
+from user deposits in order to fuel all of this.
+We found that even though they had grown
+from $160 million of deposits into $500 million,
+there were really no net new deposits coming in.
+This was just a scheme going on on the backend.
+And when we asked them about it,
+there was no proof of anything.
+Nothing that they were doing was verifiable,
+and it's just a huge red flag.
+Truth be told, if this all did not happen on 1010,
+if this ball didn't get started rolling,
+they would still be looping more.
+Right now, they would still be accepting user deposits
+right now, knowing that they had a hole
+they had to have known on the backend.
+And it would have just kept on getting bigger
+and bigger and bigger.
+I'm glad that things shook out the way they did.
+It was not an easy few weeks to deal with all of this stuff,
+but here we are.
+And what ends up happening is that you have
+this tokenized strategy, XUSD,
+that gets involved in other vaults.
+XUSD itself is sort of a tokenized vault, so to speak,
+that's investing in DeFi protocols to get the yield.
+But then that representation of DeFi yield
+gets placed into another vault, a sort of vault of vaults.
+So those vaults then lose value
+because they have invested in XUSD,
+which has de-pegged and lost its value.
+And so we've talked about curators a little bit here.
+Maybe if you could unpack that term,
+what's the role of a risk curator in DeFi?
+You have the people depositing on one side,
+you have the DeFi protocols on the other side,
+where the actual lending and borrowing happens.
+And then in the middle, there's these actors
+that are putting together these vaults.
+They also live directly on some of these protocols
+like Euler and Morpho and set the parameters
+of you want to borrow against this asset,
+we deem this asset to be risk averse enough
+that you can borrow at a 95% LTV instead of an 85% LTV.
+And so what's the role and maybe the faults
+of the risk curators in some of these scenarios?
+There are a lot of curators these days,
+and there are a lot of vault projects these days.
+I don't really know why
+because none of us are making any money.
+I just want that to be clear.
+This is not a great business.
+You have to have billions of dollars in deposits
+to generate the amount of revenue Aave is making
+or any of these other really big projects right now.
+So being a curator is not a terribly good business.
+And right now, for a lot of stuff that we do,
+we even have fees turned off because it just doesn't matter.
+We want to have competitive rates
+and the profits that we bring in the door
+are just really small.
+It's our job as a curator to make sure
+that we're using sound collateral that matches the risk
+that people assume is going on in that vault.
+We also need to make sure that we have good automation,
+that things are being replenished when they need to.
+If there's borrowers who have a big appetite,
+we need to make sure that there's liquidity
+in that vault for them to borrow.
+We need to understand the interest rate curves.
+We need to make sure that we're being reactive
+to everything in the market.
+So there is a lot of work that has to be done.
+We also have to meet the needs of demand
+for people offering up new collaterals
+or wanting to borrow in the first place.
+We need to make sure that there's enough deposits.
+What urine is doing right now
+is we have this parent level vault
+and this goes into deposits
+into all of these different lending markets.
+So even as a curator,
+we can pull money from like YVUSDC
+and throw it into something that we're curating on Morpho
+if it needs liquidity.
+We have like a multi-tiered business
+where not every curator has that open to them right now.
+We wanna discourage degenerate recursive looping.
+We wanna make sure that everything that we're doing
+is really safe.
+To us, reputation is everything
+and we're completely blind
+to accepting short-term incentives.
+We don't do any side deals or anything like that.
+Whenever people ask us to like build products
+that just farm points, we usually say no
+because we know that the amount of work
+that goes into building and supporting strategies
+is probably not going to be worth the effort
+in fees or deposits.
+So there's a lot of stuff that we say no to
+and I think it just makes our ability
+to like make it through tough economic conditions
+that much more strong.
+Survival is everything.
+It's pretty clear to us now
+that some curators are gonna take big risks
+and they're gonna damage their reputation
+and we'll be here to survive and to be strong and safe
+and get those deposits when people eventually
+come back into DeFi because they will.
+In the long run, usually good risk management pays off.
+It's not just in DeFi where people blow themselves
+chasing higher returns everywhere in finance.
+Switching gears a little bit,
+curious as someone who's building in DeFi,
+from your perspective, what's sort of the state
+of on-chain cybersecurity right now?
+Recently Balancer, which is sort of a
+decentralized swapping exchange similar to Uniswap
+was just hacked for over a hundred million dollars.
+GMX earlier this year,
+Decentralized Perpetualist Protocol similar to Hyperliquid,
+both have been around since 2020 probably before I think
+was also hacked for a significant amount.
+I think those two especially caught people off guard
+of no one's safe.
+There's this idea in cryptoness of lindiness where,
+okay, something's been around for four or five, six years,
+I feel safe putting my money in this protocol
+and Balancer and GMX broke that model a little bit.
+A lot of these protocols,
+they tout their audits that they've done.
+They tout the security partners that they're working with.
+Our code is safe, but are those tools enough?
+What else needs to exist to stop
+another Balancer from happening?
+I don't want to spook people,
+but the reality is low risk DeFi is not here yet.
+Low risk DeFi and Vitalik's vision of that is great.
+I have no doubt that time in the market will get us there.
+Is the five years of DeFi's whole lifetime
+enough for that to happen so far?
+Apparently it's not.
+The best that we can do today is verifiable DeFi,
+being able to see everything that's going on on chain
+and verify it to know that it's real.
+So one of the things I did with YarnAlso
+is I started an audit company.
+It's called Electosec right now,
+formerly Y Audit and Y Academy.
+We're actually changing the name back to Y Audit pretty soon.
+But from this experience,
+I can say that code quality has definitely gone up.
+No question.
+The amount of safety that teams are taking
+into account right now is not slowing down.
+I think we've done 17 engagements with Euler.
+They're not taking their foot off the gas for security.
+They're always going to be auditing their code bases.
+This is a time in the market thing.
+For code that is immutable,
+where you don't really know where the dangers could be,
+people need to just build their code as simply as possible,
+leave out tons of complexity where they can.
+And that's going to help reduce
+the amount of vulnerabilities,
+but also security is a journey.
+Just because you launch your code base
+does not mean that there are no vulnerabilities in it.
+Just because you've been in the market for a year
+doesn't mean that there's anything wrong with it.
+Do contests have big, meaningful bug bounties?
+Yearn has paid out bug bounties before
+for stuff that people have caught.
+It's worked out well.
+Participating in bug bounties works, so do it.
+I think the combination of all these things
+and a layered security approach,
+along with time in the market,
+will get us the safety that we need for low risk DeFi.
+It's going to take constant improvement for a long time.
+So a sort of Swiss cheese approach, I guess,
+multiple layers that cover up the holes.
+What are the implications of all of this
+on not only the traditional finance world's appetite
+for investing in exploring DeFi,
+but just kind of a everyday non-cryptonative person
+that says, well, I could get 3.5%, 4% right now
+for my savings account,
+or I could get maybe 7%, 8%, 10% of safe,
+quote unquote, crypto native DeFi yield.
+But given this risk of unregulated black box hedge funds
+out there acting as tokens,
+given this risk of a hack to the protocol,
+is that increase from the risk-free government treasury rate
+enough to make DeFi interesting to people outside of crypto?
+I was in New York City last week
+to meet with a bunch of traditional finance companies.
+And to be very honest, they're spooked about it.
+The difference between 3.5% and 5%
+is not enough for them to come into DeFi.
+It's going to take some time to build back the reputation
+and make sure that things are safe again.
+I was very surprised that some of the people
+who I met with are new to crypto.
+They're representing their company's push for DeFi products.
+They don't understand the difference
+between multi-SIGFI and programmatic vaults.
+It's something that I've had to explain to them.
+I'm totally happy to do it.
+I wanna do it more,
+but I need to convince them that there is a big difference.
+And just because you can manipulate your vault share price,
+that is not a good thing in many cases.
+Having full control over that
+also brings in additional risk into the equation.
+It's really good that talent and attention
+is coming into crypto from that side of the fence.
+I don't think that's going to stop,
+but they're very hesitant to use true verifiable DeFi for sure.
+Do you think there's any inverse correlation
+of demand for DeFi products
+as the government treasury rate comes down?
+Rates are starting to come down.
+You mentioned that Terra, Luna Collapse
+happened to line up with rates rocketing up to 5%.
+Is that bullish for DeFi,
+or will yields come down in DeFi
+the same way that they're gonna come down outside of crypto?
+If the risk-free rate comes down,
+it is unquestionably bullish for DeFi.
+Deposits will come back in the door.
+If the risk-free rate is one or 2%,
+and we're doing six, seven, or 8%,
+they will come into DeFi.
+I have no doubt in my mind about that.
+Shout out Jerome Powell, if you're listening.
+How do you think all this impacts a crypto investor,
+a retail investor's willingness to invest
+in the native tokens of these DeFi protocols?
+You mentioned Uran has a token,
+all of these newer multi-SIGFY protocols
+even have tokens too.
+How should people think about valuing those,
+especially once they're in their post-incentive phase
+of their life cycle?
+And how do you guys think about driving value
+to people that wanna hold the Yearn token?
+There are two ways of building value
+into governance tokens these days,
+aside from just having it to vote in your favor
+for things that you want to see happen,
+buy and burn or distributing profits through your token.
+Those are the two paths that people can take.
+Yearn does not see the value
+in just buying and burning tokens.
+What we're choosing to do is rebuild Wi-Fi
+still locking it to get a distribution of profits,
+but doing like a more short-term lock.
+So that's what we're going to be doing right now.
+I think it's like a one month lock period,
+and then you get a share of all the profits
+that we are going to be distributing.
+This is the time that Yearn has to go
+and turn the fee switch on too.
+So we're more focused on generating profits
+than we once were.
+That's good to hear.
+I mean, generating profits for a long time
+didn't seem to be the focus for many people in crypto.
+In the last year,
+there's definitely been in this newer SEC environment,
+while not everything is clear,
+we're still kind of in a pre-clarity era, so to speak,
+for which of these things are securities
+and which of them aren't,
+but you still have to give people reasons
+to hold these tokens for the long-term,
+rather not to just think of them as points or air miles
+that you can receive and spend right away.
+The meta recently has been for vault projects
+to be pre-deposit vaults
+for like new L2s and stuff they're launching.
+And that is a really short-term thing.
+You get the money in the door,
+but then within a few months, might not be there.
+Profits that are generated from those events
+are not going to be as significant as getting user adoption
+for people who want to use your strategies
+long-term as like a high quality source of yield.
+We worked for a long time on the Katana L2.
+Polygon was not the only group who was evaluating
+using yarn vaults as pre-deposit vaults.
+They were the only group to pick yarn
+as their pre-deposit vault though.
+And the reason why is because David Silverman
+and Mark Boiren over at Polygon
+fully understood the risk of using a multi-sig
+where price per share could be manipulated.
+And they wanted to do stuff that was fully on chain.
+And I love them for that.
+And we ended up doubling our TVL this year because of that.
+Yarn vaults are deeply embedded into Katana chain.
+And it's just been a real pleasure to work with people
+like you and DeFi who really align with our own values
+of safety and being verifiable.
+A lot of this is going to come down to education
+to a certain extent, especially kind of going back
+to your conversation with those finance folks in New York
+of like, hey, here's why this matters.
+Here's why you want these assets to be verifiably on chain,
+not just in some black box,
+even if you might get 100, 200 bips lower yield,
+you're paying for that on a risk reward spectrum.
+You're right, people don't understand that.
+Here's a good example.
+If you're in just a staked ETH position or like an LRT
+and you're earning yield that slightly outperforms
+our own WEF1 vault, first of all,
+as the price of ETH goes up,
+the withdraw queue is not gonna go down.
+It's only gonna get longer.
+If you're also faced to exit your position at a time
+when those pools are unbalanced,
+you could wipe out six months
+or a year of your yield instantly.
+And if you're using a urine vault,
+it's always liquid all the time
+and it's a cash equivalent product.
+So even though your yield will be slightly less,
+you will get to keep it.
+People don't seem to really understand that yet,
+but part of my discovery in New York last week,
+talking to some of these traditional finance firms
+and hedge funds is that there is an audience
+for a cash equivalent yield bearing product.
+It is the director of a treasury.
+They could be the director of treasury of like a hospital
+or a university, a pension,
+but they need to earn yield on their deposits
+but also have them be liquid all the time.
+They might have their CFO ask them,
+you need to liquidate this
+because we need to go and make a payment for something
+or buy a building.
+If they can exit that position
+that they were earning yield on without losing that yield
+or without taking on additional risk
+and being able to do it whenever they want.
+If your time in the vault is unpredictable,
+you're involved to the product that you should be using.
+You should be using something that is cash equivalent.
+I got my hands on this huge database
+of all these treasury managers
+and I'm gonna give it a shot of going down
+and seeing who has an appetite to at least learn
+about what verifiable DeFi is
+and what we're bringing to the table.
+I'm not expecting to get a huge amount of yeses,
+but even getting a few and making those connections
+is where we need to start.
+Knocking on doors, spreading the good word,
+someone's got to do it.
+Exactly, it's not gonna be easy.
+Another kind of thing underlying a lot of this conversation
+is everything sort of exists in crypto
+on a spectrum of centralized to decentralized
+and DeFi decentralized finance, even within DeFi.
+Certainly, I wouldn't call them to be decentralized.
+It's kind of decentralized in name only,
+especially when we talk about these multi-SIG 5 products,
+these on-chain, off-chain hedge funds
+where it's just a couple of guys
+yoloing your positions into high-risk yield.
+Where do you think we are today
+on this spectrum of centralization to decentralization
+within DeFi and crypto
+and are we headed in the right direction,
+especially as more TradFi people come on chains,
+more payments move to stablecoins?
+A lot of people, DeFi purists,
+even will stick their noses up at stablecoins sometimes
+as USDC may be on Ethereum, on a decentralized blockchain,
+but you're still trusting, circle the company
+to mint you the USDC and buy and custody
+the treasury asset that's underlying it
+and redeem it when you ask for it.
+There's still a level of trust involved there.
+So where are we on that spectrum?
+Are we headed in the right direction in your opinion?
+There's a good mix of signals in there, to be honest,
+but if you zoom out,
+I think we are trending in the right direction.
+The reason why I say that is just because
+I've seen TBL start to leave some of these projects
+that are in DeFi,
+but are reliant on these centralized exchanges
+or parties or whatever,
+reducing counterparty risk
+and relying on maybe something
+that is just a smart contract,
+getting the human element out of decision-making
+will become more popular over time in certain circles.
+There's always going to be people who will prefer USDC
+because it is backed by the government of somewhere
+or the bank is backed by the government.
+I think that that product will always be out there
+for a good reason too,
+at least for Ethereum's vision,
+low risk DeFi is a great north star
+and that does not involve these centralized entities
+in that equation at all.
+It just establishes a base rate of yield.
+Even these centralized parties
+will sometimes fall back on that.
+For instance, I think at the peak TBL of Athena,
+only 30% of their funds were in the carry trade strategy
+going on between all these centralized exchanges.
+The rest of it went into Aave to get the Aave yield,
+which is exactly what we do.
+You need a base rate of yield
+and if it's there and it's robust,
+can take giant deposits
+and people are definitely gonna use it.
+That's good.
+We're moving in the right direction.
+People are learning.
+We're educating people.
+Maybe that's a good place to leave it.
+Corin, thanks so much for coming on.
+Appreciate the time.
+We should do it again soon.
+Yeah, we should.
+Thank you for having me.
+Let me know if you ever have any questions,
+anybody listening.
+I'm always around.
+Thanks for listening to another episode
+of On the Brink with Castle Island.
+To learn more about Castle Island,
+visit castleisland.vc
+and to listen to all of our podcast episodes,
+please visit castleisland.vc slash podcast
+or just click on the tab on our website.
+Thanks for listening.

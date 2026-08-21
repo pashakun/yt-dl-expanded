@@ -1,0 +1,27 @@
+# How Stablecoins Are Rewiring Global Payments | Borderless CPO Alex Garn
+
+- URL: https://www.youtube.com/watch?v=V19eRsyMtcc
+- VIDEO_ID: V19eRsyMtcc
+
+## Abstract
+
+PART 1 — ABSTRACT
+
+This conversation examines how stablecoins are transforming global payments infrastructure, with a focus on Borderless’ strategy for bridging digital and traditional finance through a unified API network that orchestrates compliant, cross-border stablecoin-fiat flows. The discussion situates stablecoins’ evolution from trading tools for individuals to foundational instruments for corporate treasury, enterprise payments, and remittances—particularly in emerging markets where access to dollars is in high demand. The shifting regulatory landscape, the challenge of fragmented liquidity, and the interplay with incumbent networks like SWIFT and major card schemes raise questions about whether stablecoins will simply augment or fundamentally disrupt existing rails. Tensions remain around interoperability, regulatory harmonization, the balance of DeFi ethos versus compliance demands, and whether deep, uniform liquidity and major enterprise adoption are imminent or still years away.
+
+PART 2 — KEY IDEAS
+
+- Stablecoins have moved beyond on-chain speculation to see accelerating adoption for real-world payments—especially by businesses and enterprises for treasury management and cross-border settlements.
+- Borderless, acting as a tech and communication layer (out of the flow of funds), aims to streamline integration across fragmented local fiat on/off ramps, reducing operational complexity for clients.
+- Most enterprise stablecoin flows today are centered on corridors with high USD demand and economic volatility—such as U.S.–Latin America and Southeast Asia—where stablecoins solve access and inflation issues.
+- Regulatory advancements (e.g., the "Genius" framework in the U.S.) have unlocked new stablecoin business models and are catalyzing similar frameworks in other jurisdictions, but global clarity is still forming.
+- Liquidity is uneven across corridors: mature ones like USD-LatAm support large enterprise payments, whereas markets with shallow stablecoin-fiat liquidity still face spread and reliability challenges.
+- Compliance (KYC/KYB) remains a significant friction point in scaling stablecoin payment solutions, especially compared to the permissionless ideal of DeFi.
+- There is debate over whether stablecoins truly undercut incumbent rails: SWIFT and banks have significantly reduced fees and settlement times, and in some developed markets, they retain cost and scale advantages.
+- Major financial incumbents (e.g., Visa, Mastercard) are reacting with both in-house blockchain initiatives and increased M&A, raising the possibility of evolution rather than true disruption.
+- The proliferation of stablecoins creates fragmentation, but prevailing wisdom suggests a future consolidation around a few highly liquid and widely distributed tokens, with wrappers serving market segmentation or branding rather than functional differentiation.
+- The “self-custody” and programmability inherent to stablecoins are viewed as material advantages over traditional banking for global treasury, but accepted accounting treatment and financial instrument integration (e.g., credit facilities) remain largely unresolved.
+
+## Key ideas
+
+- (Key ideas not parsed; see JSON or raw text in abstract.)

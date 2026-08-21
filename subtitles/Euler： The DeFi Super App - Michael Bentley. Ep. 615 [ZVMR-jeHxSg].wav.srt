@@ -1,0 +1,2416 @@
+1
+00:00:00,000 --> 00:00:03,600
+ Early lending and borrowing protocols were mistricts and just like the short tail of
+
+2
+00:00:03,600 --> 00:00:10,080
+ assets. So like ETH and USDC and Bitcoin. So we started building Euler as like an integration
+
+3
+00:00:10,080 --> 00:00:14,640
+ with Uniswap at the time actually to enable people to lend and borrow not just the short
+
+4
+00:00:14,640 --> 00:00:19,040
+ tail but also the long tail of assets. If you get liquidated on Euler, because it's a fair
+
+5
+00:00:19,040 --> 00:00:23,600
+ auction, the bonus tends to be basically the fair market rate. Like however much it should
+
+6
+00:00:23,600 --> 00:00:29,280
+ cost to do the liquidation, push a little bit extra. The actual cost of it might be a few hundred
+
+7
+00:00:29,280 --> 00:00:34,560
+ dollars, whereas the cost of it on another platform might be able to treat hundreds of thousands or
+
+8
+00:00:34,560 --> 00:00:39,600
+ millions of dollars. When the tap is draining protocol, a lot of the assets come back in terms
+
+9
+00:00:39,600 --> 00:00:44,960
+ of like USDC or USTT, right, and circle and tether. If they get requests from law enforcement or they
+
+10
+00:00:44,960 --> 00:00:49,280
+ know that funds are clearly being stolen, they have the ability to put freezes on assets. A lot of
+
+11
+00:00:49,280 --> 00:00:55,360
+ attackers will just effectively auto-comvert any stolen funds into ETH or an asset that's
+
+12
+00:00:55,360 --> 00:01:00,240
+ like more decentralized and more difficult to kind of freeze basically. So that's what this guy did.
+
+13
+00:01:00,240 --> 00:01:05,120
+ The recovery period where we were tracking down and negotiating the recovery, the price of ETH
+
+14
+00:01:05,120 --> 00:01:10,880
+ rallied. And so actually it was kind of like the attack upon a long position on behalf of all of our
+
+15
+00:01:10,880 --> 00:01:16,480
+ users. Welcome to Epicenter. The show is talks about the technologies, projects and people driving
+
+16
+00:01:16,480 --> 00:01:20,640
+ key centralization in the blockchain revolution. I'm Ryan Craig and today I'm speaking with Michael
+
+17
+00:01:20,640 --> 00:01:30,160
+ Bentley, who is the CEO and co-founder of Euler Labs, Euler Finance, which is a very innovative
+
+18
+00:01:30,160 --> 00:01:37,680
+ DeFi lending protocol. So I'm really excited to talk with Michael about that. So just before we
+
+19
+00:01:37,680 --> 00:01:43,360
+ get started, we'd like to share a few words from our sponsors this week. If you're looking to stake
+
+20
+00:01:43,360 --> 00:01:49,200
+ your crypto with confidence, look no further than Chorus 1. More than 150,000 delegators,
+
+21
+00:01:49,200 --> 00:01:54,160
+ including institutions like BitGo, Pantera Capital and Ledger, trust Chorus 1 with their assets.
+
+22
+00:01:54,160 --> 00:01:57,920
+ They support over 50 blockchains and are leaders in governance or networks like
+
+23
+00:01:57,920 --> 00:02:03,600
+ Cosmos Ensuring Your Stake is responsibly managed. Thanks to their advanced MEV research, you can
+
+24
+00:02:03,600 --> 00:02:08,400
+ also enjoy the highest staking rewards. You can stake directly from your preferred wallet,
+
+25
+00:02:08,400 --> 00:02:14,240
+ set up a white label note, restake your assets on eigenneo or symbiotic or use the SDK for multi-chain
+
+26
+00:02:14,240 --> 00:02:21,120
+ staking in your app. Learn more at chorus.1 and start staking today. Hey guys, I want to
+
+27
+00:02:21,120 --> 00:02:26,160
+ tell you about Gnosis, a collective of builders creating real tools for real people on the open
+
+28
+00:02:26,160 --> 00:02:31,520
+ internet. Gnosis has been around since 2015. In fact, it started as one of Ethereum's very first
+
+29
+00:02:31,520 --> 00:02:36,640
+ projects and today it's grown into a whole ecosystem designed to make open finance actually work for
+
+30
+00:02:36,640 --> 00:02:41,840
+ everyday people. At the center of it all is Gnosis Chain. It's a low cost, highly decentralized layer
+
+31
+00:02:41,840 --> 00:02:47,280
+ one that's compatible with Ethereum and secured by over 300,000 validators. So whether you're building
+
+32
+00:02:47,280 --> 00:02:53,200
+ a DAP, experimenting with EFI, or working on autonomous agents, Gnosis Chain gives you a solid
+
+33
+00:02:53,200 --> 00:02:58,720
+ neutral foundation to build on. But Gnosis is more than just infrastructure. It's also tools that
+
+34
+00:02:58,720 --> 00:03:03,360
+ people can actually use. Like circles, for example, let's anyone issue their own digital currency
+
+35
+00:03:03,360 --> 00:03:08,480
+ through networks of trust, not banks. And then there's Metri. It's their smart contract wallet
+
+36
+00:03:08,480 --> 00:03:14,320
+ that makes it easy to access circles, manage group currencies, and even spend anywhere Visa has
+
+37
+00:03:14,320 --> 00:03:20,080
+ accepted thanks to their integration with Gnosis Pay. All this is governed by Gnosis Dow, where
+
+38
+00:03:20,080 --> 00:03:25,600
+ anyone can propose, vote, and help guide the network. And if you want to get involved, running a
+
+39
+00:03:25,600 --> 00:03:31,680
+ validator is super easy. All you need is one GNO and some basic hardware. To learn more and start
+
+40
+00:03:31,680 --> 00:03:37,840
+ building on the open internet, head to gnosis.io. Gnosis, building the open internet, one block at a
+
+41
+00:03:37,840 --> 00:03:44,080
+ time. Cool. Thanks so much for coming on, Michael. I'm really excited and looking forward to this one.
+
+42
+00:03:44,080 --> 00:03:50,560
+ Here is, tell us maybe a little bit about yourself and how did you get into crypto first?
+
+43
+00:03:50,560 --> 00:03:57,600
+ Yeah. So first, thanks for having me on. Looking forward to it. How did I get involved? Well,
+
+44
+00:03:58,560 --> 00:04:03,040
+ I used to be before before this life. I used to be a research scientist. I used to be an academic.
+
+45
+00:04:03,040 --> 00:04:11,440
+ My specialism was evolutionary gain theory. So I used to do lots of population modeling of
+
+46
+00:04:11,440 --> 00:04:16,800
+ biological systems and how they change over time effectively. I was more on the math side, but I
+
+47
+00:04:16,800 --> 00:04:23,360
+ used to collaborate a lot with computer scientists, biologists, and other people. I started as a bit
+
+48
+00:04:23,360 --> 00:04:28,880
+ of a script of skeptic when I first said about it in 2015. Didn't think it sounded very cool. I
+
+49
+00:04:28,880 --> 00:04:35,040
+ just mistook it, mistook Ethereum for some kind of boring database solution or something. I wasn't
+
+50
+00:04:35,040 --> 00:04:43,920
+ interested. But by 2017, maybe late 2016, early 2017, the markets had got a bit frothy and I got
+
+51
+00:04:43,920 --> 00:04:50,160
+ drawn in at that time and started, I think later that year, I started building trading bots and
+
+52
+00:04:50,160 --> 00:04:54,560
+ things for some of the primitive decentralized exchanges a lot of times. There's something called
+
+53
+00:04:54,560 --> 00:05:01,040
+ IDEX that I used to trade on and eat the delta. I don't remember that one. These are like literal
+
+54
+00:05:01,040 --> 00:05:06,480
+ order books on Ethereum. So quite slow and quite plunky, but they were kind of like a good
+
+55
+00:05:06,480 --> 00:05:12,480
+ introduction to markets and how Ethereum works and stuff. And then, yeah, stuck around as things
+
+56
+00:05:12,480 --> 00:05:18,720
+ like deteriorated in terms of market conditions over the next few years and got more interested in
+
+57
+00:05:18,720 --> 00:05:25,520
+ a bunch of other stuff in 2019 and early 2020, like DeFi was sort of starting to emerge as like
+
+58
+00:05:25,520 --> 00:05:31,360
+ this kind of force to be reckoned with. It was like Unislop and Yern and things like that would
+
+59
+00:05:31,360 --> 00:05:36,240
+ becoming popular. And that's when I got sucked in and started studying interest rates and things.
+
+60
+00:05:36,240 --> 00:05:42,640
+ And so I actually started Euler off the back of doing hackathon project where I'd created a novel
+
+61
+00:05:42,640 --> 00:05:47,360
+ interest rate setting mechanism that was more decentralized for like less dependent on third
+
+62
+00:05:47,360 --> 00:05:51,040
+ parties than the ones that were being used on compound at the time.
+
+63
+00:05:51,040 --> 00:05:54,080
+ Well, it's the original vision for Euler.
+
+64
+00:05:54,080 --> 00:06:03,040
+ So we wanted to make something where you could lend and borrow any asset. A lot of the early
+
+65
+00:06:03,040 --> 00:06:08,320
+ lending and borrowing protocols were restricted to interest like the short tail of assets. So like
+
+66
+00:06:08,320 --> 00:06:17,920
+ ETH and USDC and Bitcoin, and maybe a handful of others. And yeah, I guess in my hackathon, I was
+
+67
+00:06:17,920 --> 00:06:24,240
+ sort of inspired by how do you set interest rates if you want to expand that set to like everything.
+
+68
+00:06:24,240 --> 00:06:30,240
+ And you need an interest rate model that can adapt over time and adapt itself. You don't want
+
+69
+00:06:30,240 --> 00:06:36,560
+ necessarily like a slow process of governance or third party like changing interest rate models.
+
+70
+00:06:36,560 --> 00:06:41,040
+ So we wanted to see could we could we let lending and borrowing happen for anything.
+
+71
+00:06:41,040 --> 00:06:47,120
+ And so we started building Euler as like an integration with Uniswap at the time actually.
+
+72
+00:06:47,120 --> 00:06:53,600
+ So Uniswap V2 had oracles for an inbuilt oracle for the value of assets. We plan to use that
+
+73
+00:06:53,600 --> 00:06:59,040
+ to enable people to lend and borrow not just the short tail, but also the long tail of assets
+
+74
+00:06:59,040 --> 00:07:04,480
+ create lending and borrowing markets for all of all things. Didn't actually work out like that.
+
+75
+00:07:04,480 --> 00:07:09,280
+ We had to pivot a few times as the project grew, but that was one of the early visions I think.
+
+76
+00:07:09,280 --> 00:07:20,960
+ Okay, okay. And then I'm curious, is this it sounds like something where maybe your evolutionary
+
+77
+00:07:20,960 --> 00:07:28,160
+ game theory was that background knowledge very applicable here?
+
+78
+00:07:29,280 --> 00:07:36,640
+ Oh, I mean massively, right? It's um, yeah, I mean, in that day job, you're often like,
+
+79
+00:07:36,640 --> 00:07:40,160
+ what was what was it actually doing? You know, how do you build these models? You like
+
+80
+00:07:40,160 --> 00:07:46,480
+ consider like a set of things or entities, people, biological organisms, and they're like kind of
+
+81
+00:07:46,480 --> 00:07:52,000
+ playing strategies in this big like competitive game and they interact a lot. And so you have
+
+82
+00:07:52,000 --> 00:07:56,640
+ to like model that out and think, you know, what would be the like equilibrium state of
+
+83
+00:07:57,200 --> 00:08:01,440
+ if you've got like two different entities playing different strategies, right? And that's very
+
+84
+00:08:01,440 --> 00:08:05,120
+ similar to what happens in markets, right? You have like lenders and borrowers, you have like
+
+85
+00:08:05,120 --> 00:08:12,720
+ people striving to like optimize profitability, optimize some kind of metric like risk adjusted
+
+86
+00:08:12,720 --> 00:08:19,040
+ return or whatever. And so, yeah, there's a huge amount of overlap in terms of designing a like a
+
+87
+00:08:19,040 --> 00:08:27,440
+ DeFi protocol that can facilitate like markets and designing a model about how how yeah populations
+
+88
+00:08:27,440 --> 00:08:32,800
+ change in response to their environment. It's yeah, if you just abstract everything, then it's
+
+89
+00:08:32,800 --> 00:08:38,080
+ actually very, very similar kind of task. So yeah, it was, yeah, definitely my background
+
+90
+00:08:38,080 --> 00:08:47,360
+ was very relevant to what I do now. So I imagine you're pretty unique among DeFi protocol founders
+
+91
+00:08:47,360 --> 00:08:54,640
+ having like that kind of perspective and background. Do you think that, you know, did that just help
+
+92
+00:08:54,640 --> 00:09:03,440
+ you maybe design or learn a little bit, you know, have better models for different risk events? Or
+
+93
+00:09:03,440 --> 00:09:10,320
+ do you think it also ended up, you know, just in a different protocol design because of that
+
+94
+00:09:10,320 --> 00:09:20,480
+ background you had? I think, yeah, I think it's, I mean, yeah, I mean, DeFi founders tend to come
+
+95
+00:09:20,480 --> 00:09:24,000
+ from really varied backgrounds, right? And then there's like trade offs having different
+
+96
+00:09:24,000 --> 00:09:31,680
+ to all those backgrounds, you know, like, I think famously, we're very like engineering driven,
+
+97
+00:09:31,680 --> 00:09:36,800
+ a lot of the things that we build are like really, really strong on the engineering front and well,
+
+98
+00:09:36,800 --> 00:09:42,800
+ like, well architected. And so we have like, very strong attention to detail to like low level
+
+99
+00:09:42,800 --> 00:09:47,280
+ processes and mechanisms and things. So like, for instance, liquidations on Euler, I think we
+
+100
+00:09:47,280 --> 00:09:53,280
+ have the best liquidation during in all of DeFi, a lot of, a lot of liquidations when they happen
+
+101
+00:09:53,280 --> 00:09:59,840
+ on other learning growing protocols. Effectively, the borrower just has like some of their collateral
+
+102
+00:09:59,840 --> 00:10:05,520
+ like slashed and sacrificed. And then that's used as a reward for the, the people that are
+
+103
+00:10:05,520 --> 00:10:09,920
+ performing in liquidations. And it's often really costly, really, really costly, especially if you're
+
+104
+00:10:09,920 --> 00:10:14,640
+ a big borrower, you got like, you know, tens of millions of dollars at risk. These bonuses, you
+
+105
+00:10:14,640 --> 00:10:19,280
+ know, this, these kind of slashings can be, and that can be worth like hundreds of thousands of
+
+106
+00:10:19,280 --> 00:10:24,880
+ dollars or millions of dollars. On Euler, we use, we use a different mechanism. So we don't take
+
+107
+00:10:24,880 --> 00:10:29,760
+ like a fixed amount of the collateral. Instead, we have this like auction that plays out. It's a
+
+108
+00:10:29,760 --> 00:10:35,200
+ Dutch auction that plays out on the bonus that's distributed. What's neat about that is that if
+
+109
+00:10:35,200 --> 00:10:40,240
+ you get liquidated on Euler, the, because it's a fair auction, the bonus tends to be basically the
+
+110
+00:10:40,240 --> 00:10:45,280
+ fair market rate, like however much it should cost to do the liquidation plus a little bit extra
+
+111
+00:10:45,280 --> 00:10:49,120
+ to kind of justify it. And so like the equivalent, if you're a large borrower in Euler and you get
+
+112
+00:10:49,120 --> 00:10:57,040
+ liquidated, the actual cost of it might be, I don't know, a few hundred dollars, whereas the cost of
+
+113
+00:10:57,040 --> 00:11:02,480
+ it on another platform might be literally hundreds of thousands or millions of dollars. And to that,
+
+114
+00:11:02,480 --> 00:11:07,520
+ just think that like process that like focus on auctions and how they can drive efficient
+
+115
+00:11:07,520 --> 00:11:12,480
+ outcomes, I think was very much driven by like who we are as builders at Euler, which is effectively
+
+116
+00:11:12,480 --> 00:11:20,240
+ just a team of engineers or scientists. Yeah. All of our backgrounds are like a strong influence
+
+117
+00:11:20,240 --> 00:11:26,560
+ over how Euler is architected, I think. Yeah, certainly, certainly always been a bit different
+
+118
+00:11:26,560 --> 00:11:33,280
+ to other platforms in that regard. And so the high level vision then where you guys ended up
+
+119
+00:11:33,280 --> 00:11:42,320
+ was basically like a lending protocol where you can borrow like any asset and use any asset as
+
+120
+00:11:42,320 --> 00:11:49,520
+ collateral. That's kind of the thing that was the, that was the original vision. And then as we,
+
+121
+00:11:49,520 --> 00:11:54,240
+ as we adapted, as we grow over time, we realized actually allowing anything to use this class all
+
+122
+00:11:54,240 --> 00:11:59,520
+ is there are other factors that come into play, right? Like even if you could do that, you need
+
+123
+00:11:59,520 --> 00:12:03,520
+ to find like counterparty, so we're willing to sit here the side of that trade. And the truth is
+
+124
+00:12:03,520 --> 00:12:08,960
+ that there's just not a market for that. Like there's, I'd love to use my like long tail mean coins
+
+125
+00:12:08,960 --> 00:12:12,880
+ or whatever that I've got in my wallet as collateral. But who wants to lend to that? Like who's going
+
+126
+00:12:12,880 --> 00:12:17,280
+ to take the other side of that trade? There's just not really anyone available. And it's kind of like,
+
+127
+00:12:17,280 --> 00:12:22,320
+ you know, the that's that's true in real life, right? Some some assets just make really good
+
+128
+00:12:22,320 --> 00:12:27,040
+ collateral and you can go to a bank and say you want to take our loan against a certain stock
+
+129
+00:12:27,040 --> 00:12:31,760
+ portfolio or so or a house or car or whatever. But but some things just, you know, don't make
+
+130
+00:12:31,760 --> 00:12:35,680
+ the good collateral, even though they're paper value might be quite high. I mean that they're
+
+131
+00:12:35,680 --> 00:12:39,920
+ strong collateral. So yeah, I think there were a lot of learnings we made in those early years
+
+132
+00:12:39,920 --> 00:12:46,640
+ as well about like actually those sort of things you can technically do, but whether or not they,
+
+133
+00:12:46,640 --> 00:12:49,120
+ they have like product market fit is a very different question.
+
+134
+00:12:51,200 --> 00:12:56,560
+ So if you kind of go back to, you know, sort of history boiler, right? So you talked about this
+
+135
+00:12:56,560 --> 00:13:02,960
+ hackathon and then how it evolved into this vision of having this, you know, very flexible lending
+
+136
+00:13:02,960 --> 00:13:10,160
+ protocol. I know at some point you guys had a big hack. I don't know when when did that
+
+137
+00:13:10,160 --> 00:13:15,040
+ or like can you tell a bit like how did things progress from that point onwards?
+
+138
+00:13:16,640 --> 00:13:25,280
+ Yeah, so we there was a there was a big exploit, unfortunately, and yeah, in 2023. So it was
+
+139
+00:13:25,280 --> 00:13:30,000
+ actually at the time when the oil protocol being like growing very rapidly and taking market
+
+140
+00:13:30,000 --> 00:13:36,240
+ share from incumbents at that time. Oil V1 was like a very, very heavily audited platform,
+
+141
+00:13:36,240 --> 00:13:41,280
+ like we've had more audits than most people. We, you know, we worked with Satora who do formal
+
+142
+00:13:41,280 --> 00:13:47,840
+ verification. We had the largest bug bounty of anyone in that kind of a vertical. So we took
+
+143
+00:13:47,840 --> 00:13:53,440
+ security really seriously. But what happened effectively was that we had this, we had this
+
+144
+00:13:53,440 --> 00:13:57,760
+ bug bounty open and somebody came and reported a pretty matte and a bug on oil. So there's this
+
+145
+00:13:57,760 --> 00:14:03,600
+ smaller, smaller issue that first deposit is in a bright, whenever you open a brand new market,
+
+146
+00:14:03,600 --> 00:14:10,000
+ the first deposit has some funds at risk. And because it was a funds at risk bug, we awarded
+
+147
+00:14:10,000 --> 00:14:15,280
+ them a bounty, a pretty small bounty because the amount of funds at risk wasn't huge. But
+
+148
+00:14:15,280 --> 00:14:20,640
+ because there were some funds at risk, our security partners, when we talked to them, said, yeah,
+
+149
+00:14:20,640 --> 00:14:27,760
+ you could probably fix this, right? So we developed the fix and it looked, it looked good on paper
+
+150
+00:14:27,760 --> 00:14:31,040
+ and we had it reordered it. So we were with our security partners, they audited the fix.
+
+151
+00:14:31,040 --> 00:14:37,840
+ But I think ultimately the fix, probably when you when you do a full audit the first time around,
+
+152
+00:14:37,840 --> 00:14:42,960
+ you're considering absolutely everything, you're not just looking at them, a small part of a
+
+153
+00:14:42,960 --> 00:14:48,400
+ protocol. And so when you know, full audits are fantastic, right? But when when they were auditing
+
+154
+00:14:48,400 --> 00:14:53,520
+ this smaller fix, and when we were developing this like solution for this much smaller issue,
+
+155
+00:14:53,520 --> 00:14:59,040
+ it was much more of a contained, you know, it was more like a focus on that thing.
+
+156
+00:14:59,040 --> 00:15:03,840
+ And then we weren't both ourselves and the auditors were when seeing that bigger like
+
+157
+00:15:03,840 --> 00:15:09,440
+ holistic vision. And it turns out that by developing that fix, we'd actually inadvertently
+
+158
+00:15:09,440 --> 00:15:16,400
+ introduced a much more fundamental error of much more fundamental issue into the protocol. And that's
+
+159
+00:15:16,400 --> 00:15:22,960
+ how nine months after we deployed that fix, somebody was able to come in and effectively
+
+160
+00:15:22,960 --> 00:15:28,240
+ exploit a large amount of funds and take a large amount of funds from what everyone
+
+161
+00:15:28,240 --> 00:15:35,920
+ which brought down the impotite protocol. What was that error that you guys introduced? So the
+
+162
+00:15:35,920 --> 00:15:42,720
+ solution to the problem, well, just very briefly, I mean, the problem itself was caused by an
+
+163
+00:15:42,720 --> 00:15:49,440
+ uninitialized exchange rate, the very very brand new markets created and there's no users yet or
+
+164
+00:15:49,440 --> 00:15:54,560
+ anything. There was one exchange rate between the receipt token and the deposits that was uninitialized.
+
+165
+00:15:55,200 --> 00:16:00,560
+ It turns out that for technical reasons, an exploiter could potentially front run a deposit
+
+166
+00:16:00,560 --> 00:16:04,560
+ if they set up a bot or something. They'd have to do quite a bit of work for it, but potentially
+
+167
+00:16:04,560 --> 00:16:10,480
+ they could like front run the first deposit and only that deposit and then use that to take some
+
+168
+00:16:10,480 --> 00:16:17,680
+ of the first deposits as funds. So the fix that we developed was well, you know, why don't we take
+
+169
+00:16:17,680 --> 00:16:24,080
+ the first deposits deposit? And we will, before they actually add the deposit to the account,
+
+170
+00:16:24,080 --> 00:16:29,360
+ we'll use like one way or like some really small amount of that deposit to initialize the exchange
+
+171
+00:16:29,360 --> 00:16:35,120
+ rate. So there was this function that added to the code base called donate to reserves and
+
+172
+00:16:35,120 --> 00:16:42,640
+ the donate to reserves function was only intended to be used as a way to initialize this exchange
+
+173
+00:16:42,640 --> 00:16:47,520
+ rate. And, you know, first deposits wouldn't even know it's happening. Now what it turns out,
+
+174
+00:16:47,520 --> 00:16:54,960
+ so what someone realized, unbeknownst to us, was that you could use donate to reserves as a borrower
+
+175
+00:16:54,960 --> 00:17:03,120
+ as you donate your collateral to the reserves. If you do it in some unique circumstances,
+
+176
+00:17:03,120 --> 00:17:08,320
+ you could drive yourself towards like a less collateralized position. And then if you can
+
+177
+00:17:08,320 --> 00:17:15,360
+ force yourself into a liquidatable state, you could then lose money and liquidate the account.
+
+178
+00:17:15,360 --> 00:17:20,160
+ And so you might be thinking, well, why would anyone want to lose money? It turns out, we remember
+
+179
+00:17:20,160 --> 00:17:26,400
+ we talked about as liquidation bonuses earlier, turns out that there was some like parameter space
+
+180
+00:17:26,400 --> 00:17:32,080
+ effectively where you could lose, lose less money on the liquidatable account than you could make
+
+181
+00:17:32,080 --> 00:17:38,320
+ as the person liquidating. So the person liquidate would get the bonus. And so it wasn't a huge
+
+182
+00:17:38,320 --> 00:17:42,000
+ difference, but it doesn't need to be because it turns out that the attacker could then effectively
+
+183
+00:17:42,000 --> 00:17:49,360
+ kind of like loop to amplify both the losses and the gains. And so with this looping strategy,
+
+184
+00:17:49,360 --> 00:17:55,440
+ they were able to withdraw a lot more and drain more funds from the protocol than normally it
+
+185
+00:17:55,440 --> 00:18:02,960
+ would allow. And so that was, yeah, that's how it happened. What was it like TVL back then,
+
+186
+00:18:02,960 --> 00:18:11,200
+ and how much did the hacker manage to steal? So we had, I think total deposits were sort of around
+
+187
+00:18:12,320 --> 00:18:19,600
+ five, 600 million. The attacker was able to take out 200 million from the protocol.
+
+188
+00:18:19,600 --> 00:18:28,320
+ Yeah, big numbers. And, you know, I can talk about like the recovery process, but we did, I
+
+189
+00:18:28,320 --> 00:18:34,720
+ should say, up for we recovered all of the money and more. So we were able to recover 240 million
+
+190
+00:18:34,720 --> 00:18:38,720
+ from the exploiter over a period of several weeks following the attack. So we were able to track
+
+191
+00:18:38,720 --> 00:18:43,680
+ them down and negotiate the return of all the stolen funds.
+
+192
+00:18:43,680 --> 00:18:53,840
+ Oh, so, yeah, tell us about that. Like, how did, how did you go extract the guy down and how did
+
+193
+00:18:53,840 --> 00:19:00,960
+ you, why did they agree to return these funds? There could be an entire, like, I am not kidding,
+
+194
+00:19:00,960 --> 00:19:08,320
+ like an entire documentary series on this exploit. It was one of the most harrowing moments of my
+
+195
+00:19:08,320 --> 00:19:13,200
+ life, but also retrospectively now if you look back on it, one of the most interesting sort of
+
+196
+00:19:13,200 --> 00:19:19,520
+ the exploits and tipi history, I think. So, yeah, I mean, firstly, the reason it was particularly
+
+197
+00:19:19,520 --> 00:19:23,680
+ awful, I mean, it's awful for everybody involved when something like this happens. But for me
+
+198
+00:19:23,680 --> 00:19:30,720
+ personally, it was only four days after the birth of my son. So I was on, yeah, like the
+
+199
+00:19:30,720 --> 00:19:38,640
+ the weekend, my son was born, like, you know, the early hours of Friday morning. By Friday afternoon,
+
+200
+00:19:38,640 --> 00:19:45,600
+ there was a banking crisis in the US and circle asset USDC was depegging. So it's called
+
+201
+00:19:45,600 --> 00:19:51,760
+ Interaction to like deal with this crisis issue with USDC over the weekend. So it really gets
+
+202
+00:19:51,760 --> 00:19:57,920
+ chance to spend any time with my son there. And then on Monday morning, I had some alarms going
+
+203
+00:19:57,920 --> 00:20:02,400
+ off and assumed it was related to the USDC, depegg event, but it turns out it was actually
+
+204
+00:20:02,400 --> 00:20:11,440
+ an Euler specific attack. And so, yeah, my, yeah, the next few weeks were then spent
+
+205
+00:20:11,440 --> 00:20:15,680
+ with him, my son, like, in the background and me, like, maybe trying to negotiate return of all
+
+206
+00:20:15,680 --> 00:20:21,600
+ this money. The actual, I mean, there was so many twists and turns, the exploiter, like, tried to,
+
+207
+00:20:21,600 --> 00:20:26,800
+ yeah, well, you know, we tried them down through various means that I can't really reveal all of
+
+208
+00:20:26,800 --> 00:20:31,920
+ them, but, you know, you have to do a lot like a huge amount of data gathering and so you figured
+
+209
+00:20:31,920 --> 00:20:38,400
+ out the identity of the person. Eventually, yes, although not, not initially. I mean, we had to,
+
+210
+00:20:38,400 --> 00:20:44,160
+ like, I think we had a list of around 10 candidates, can't remember, but like, we developed a list of
+
+211
+00:20:44,160 --> 00:20:49,760
+ people that we quite quickly, over about 24 hours, we had a list of people that we thought could be
+
+212
+00:20:49,760 --> 00:20:55,920
+ involved based on available evidence. And, but yeah, we didn't actually know the identity of the
+
+213
+00:20:55,920 --> 00:21:01,120
+ person until quite a long, long time after, like, even when we first started talking to them, we,
+
+214
+00:21:01,120 --> 00:21:06,400
+ we, we wanted them to believe that we knew who they were, but we didn't actually know which person
+
+215
+00:21:06,400 --> 00:21:12,880
+ they were our bad list or whether they're on our list at all. In fact, but yeah, they were, they,
+
+216
+00:21:12,880 --> 00:21:19,120
+ they started getting, I mean, they tried to do a donation to the North Korean address to make it
+
+217
+00:21:19,120 --> 00:21:25,120
+ look like it was a North Korean exploit, because if North Korea exploits a protocol, the funds
+
+218
+00:21:25,120 --> 00:21:32,640
+ don't come back, right? You don't, then they're, they're gone from North Korea. No, no, I mean,
+
+219
+00:21:32,640 --> 00:21:39,040
+ so, so it's over. So I suppose that I suppose he was, his gambit there was, hey, if they think it's
+
+220
+00:21:39,040 --> 00:21:44,800
+ North Korea, then maybe, maybe they'll just like go away. But at that point, there was already like
+
+221
+00:21:44,800 --> 00:21:49,440
+ strong indications from our side that we, that we knew it wasn't North Korea. So we were kind of
+
+222
+00:21:49,440 --> 00:21:56,720
+ able to call his bluff on, on, on those, on those donation gambit and, and then try to provoke more
+
+223
+00:21:56,720 --> 00:22:02,400
+ of a response from him and then try and, try and just get closer and closer whilst trying to,
+
+224
+00:22:02,400 --> 00:22:05,920
+ you know, negotiate the turn. And then the funds started coming back in dribs and drabs. It wasn't
+
+225
+00:22:05,920 --> 00:22:11,760
+ like they all came back in one big block. Actually, they were probably, they came back in maybe
+
+226
+00:22:11,760 --> 00:22:18,640
+ batch of batches of like, I don't know, yeah, maybe like eight different times, like different
+
+227
+00:22:18,640 --> 00:22:23,680
+ amounts of funds, like would come back and he tried to play games, like trying to put this,
+
+228
+00:22:23,680 --> 00:22:29,840
+ pretend to be multiple attackers at one point and, and do all sorts of like really crazy stuff. So
+
+229
+00:22:29,840 --> 00:22:39,040
+ it was a wild goose chase and it lasted for weeks. Yeah. Wow. Wow. Interesting. And then in the end,
+
+230
+00:22:39,040 --> 00:22:46,400
+ he said, you recovered more than what he had stolen? Yeah. And I mean, in taller terms, because the,
+
+231
+00:22:47,840 --> 00:22:53,760
+ he, when when when the SAP is draining protocol, they, a lot of the assets come back in, in, in
+
+232
+00:22:53,760 --> 00:22:59,120
+ terms of like USDC or USDT, right? And circle and tether if they get requests from law enforcement,
+
+233
+00:22:59,120 --> 00:23:04,160
+ or they know that funds are clearly being stolen, they have the ability to put freezes on assets.
+
+234
+00:23:04,160 --> 00:23:10,960
+ So a lot of assets, a lot of attackers will just effectively auto, auto convert any stolen funds
+
+235
+00:23:10,960 --> 00:23:17,120
+ into a or an asset that's like more, more decentralized and more difficult to kind of freeze,
+
+236
+00:23:17,120 --> 00:23:22,640
+ basically. So that's what this guy did. And then in the period of the recovery period,
+
+237
+00:23:22,640 --> 00:23:26,880
+ where we were tracking down and negotiating the recovery, the price of ETH rallied.
+
+238
+00:23:26,880 --> 00:23:32,160
+ And so actually, it was kind of like the attack up on a long position on behalf of all of our
+
+239
+00:23:32,160 --> 00:23:42,560
+ users. Yeah. Whilst it was going up in price. So when, when we finally recovered, you know,
+
+240
+00:23:42,560 --> 00:23:48,160
+ all of the funds, the, the users got back. It was the next, it was the surplus, a 40 million dollar
+
+241
+00:23:48,160 --> 00:23:54,480
+ surplus of, of assets, basically. So, yeah. Wow. So then you guys paid that out to the users. So how
+
+242
+00:23:54,480 --> 00:23:59,600
+ did you? Yeah. I mean, yeah, we, yeah, it was all paid out users. I mean, it's a very complex
+
+243
+00:23:59,600 --> 00:24:05,200
+ calculation, figuring out how much users, you know, have in a protocol, a, you know, a, a lending
+
+244
+00:24:05,200 --> 00:24:11,120
+ buying protocol, like the users held like an absolute value, right, a snapshot point in time. But that,
+
+245
+00:24:11,120 --> 00:24:16,240
+ that net asset value changes a lot over a period of three weeks that can, depending on what kind
+
+246
+00:24:16,240 --> 00:24:20,080
+ of positions you got, have you got loans and you just got the posits, you just lending and so on.
+
+247
+00:24:20,080 --> 00:24:28,080
+ But yeah, it was all distributed back to the, to the users. So that was the recovery period,
+
+248
+00:24:28,080 --> 00:24:37,120
+ which itself took, you know, a long time and was very, very difficult. And because the TBL went down
+
+249
+00:24:37,120 --> 00:24:43,920
+ to, when did they went down to three months zero, or, I mean, the protocol wasn't viable after that
+
+250
+00:24:43,920 --> 00:24:50,720
+ happened. I mean, yeah, so it wasn't like there was, it wasn't, it wasn't like there was a live
+
+251
+00:24:50,720 --> 00:24:56,800
+ protocol anymore. It was basically a dead, dead protocol. So it had to be the, the, the option was
+
+252
+00:24:56,800 --> 00:25:02,720
+ effectively, it turns out, by the way, that there was the way to prevent this was like a, it was like
+
+253
+00:25:02,720 --> 00:25:08,320
+ a single, single thing missing funds donates reserves function. The donates reserves by itself wasn't
+
+254
+00:25:08,320 --> 00:25:14,240
+ there. Wasn't the biggest, wasn't wasn't the issue. It was just there was a missing like check
+
+255
+00:25:14,240 --> 00:25:20,400
+ in this, in this function. And so had that function had the missing check, then it would have been
+
+256
+00:25:20,400 --> 00:25:25,760
+ fine. So in principle, at that point, we could have just, if we wanted to, to continue from there,
+
+257
+00:25:25,760 --> 00:25:31,120
+ we could have just made that, that fixed to donate to reserves and then relaunched all of v1.
+
+258
+00:25:31,120 --> 00:25:35,760
+ Because it was a very good protocol. And I think it's, there's actually a fork of it,
+
+259
+00:25:35,760 --> 00:25:40,000
+ somebody else has been using on one of the other networks. I forget its name that's been going
+
+260
+00:25:40,000 --> 00:25:45,120
+ strong ever since. So, yeah, it's, it's a very good protocol, aside from that, that one crucial
+
+261
+00:25:45,120 --> 00:25:53,680
+ flaw. But we, we decided for, for, for other reasons, actually, to not, to not go with relaunching v1,
+
+262
+00:25:53,680 --> 00:25:58,480
+ you know, we decided as a team to stick together after that. It took us a while to come to that
+
+263
+00:25:58,480 --> 00:26:04,480
+ decision, like a few weeks. But, you guys also think of like, just shutting down or?
+
+264
+00:26:04,480 --> 00:26:09,760
+ Oh, yeah. Yeah. Of course. I mean, it was extremely traumatizing for the team.
+
+265
+00:26:09,760 --> 00:26:16,560
+ And obviously going to be really hard to recover from that. But we had a very good reputation,
+
+266
+00:26:16,560 --> 00:26:21,600
+ indeed, fire, think up to that point, you know, it wasn't like, this had happened out of carelessness,
+
+267
+00:26:21,600 --> 00:26:27,520
+ or because, you know, there's, we hadn't got the audits or whatever. We were like, we went,
+
+268
+00:26:27,520 --> 00:26:31,040
+ a button beyond the, you know, with all the, all the gold standards at that time were kind
+
+269
+00:26:31,040 --> 00:26:35,520
+ of followed. And so, we had a lot of support from the Board of DeFi community and from the
+
+270
+00:26:35,520 --> 00:26:41,040
+ security community and so on to, to continue. And the question was, could we, could we restore
+
+271
+00:26:41,040 --> 00:26:46,000
+ the faith of like potential users though, right? Like, it's, it's one thing having a security
+
+272
+00:26:46,000 --> 00:26:51,280
+ reach is that researchers say, well, yeah, they, they, you know, they did their best and still,
+
+273
+00:26:51,280 --> 00:26:55,440
+ still this happened. But it's another like finding that faith with the users again. So,
+
+274
+00:26:55,440 --> 00:27:00,080
+ there's a lot of concern, I suppose that like, even if we wanted to, we wouldn't be able to
+
+275
+00:27:00,080 --> 00:27:07,280
+ come back to reputationally from, from this. But, yeah, we talked about it a lot and decided
+
+276
+00:27:07,280 --> 00:27:12,640
+ that we all liked each other and wanted to work in DeFi still and try and try and try to keep
+
+277
+00:27:12,640 --> 00:27:16,400
+ moving the space forward and that we had, had kind of a special team. And so, we thought,
+
+278
+00:27:16,400 --> 00:27:22,320
+ we would rather than disperse and go and like, join new projects or and try and rebuild a new
+
+279
+00:27:22,320 --> 00:27:27,520
+ project. We thought, we'll, we'll give it a go. We, you know, we still had, we still had the
+
+280
+00:27:27,520 --> 00:27:31,280
+ finances to do it, fortunately, for my investors. We had the backing of all of our investors to
+
+281
+00:27:31,280 --> 00:27:37,280
+ go out and rebuild. And so, yeah, we said, so let's, let's give it a shot. And so, that's how we
+
+282
+00:27:37,280 --> 00:27:43,600
+ started building on it, on a B2 at that point. And what were the biggest changes in B2?
+
+283
+00:27:43,600 --> 00:27:52,640
+ Yeah, quite a lot to be honest. I mean, V1 was, we had a lot of, we learned a lot about
+
+284
+00:27:52,640 --> 00:27:56,160
+ from V1, about like the market and the product market fit. Like, we discussed earlier about,
+
+285
+00:27:56,160 --> 00:28:01,040
+ you know, what, like, it's one thing to just build something, but like, does it really have
+
+286
+00:28:01,040 --> 00:28:05,920
+ demand? The main thing we learned, I think, was that there's, there's not just like a one-size-fits-all
+
+287
+00:28:05,920 --> 00:28:09,840
+ indeed, five for lending and borrowing. Like, every single user has a slightly different risk
+
+288
+00:28:09,840 --> 00:28:15,520
+ reward preference. You know, some people, like, really conservative, like, simple markets that are
+
+289
+00:28:15,520 --> 00:28:20,960
+ low, lower yielding, but they do one thing and do it really well. Others like, things like Aave,
+
+290
+00:28:20,960 --> 00:28:27,120
+ which are more like, larger, monolithic protocols, probably like, more capital efficient, but like,
+
+291
+00:28:27,120 --> 00:28:32,880
+ with an elevated level of risk. And so, like, it's not clear that there's, you know, there's,
+
+292
+00:28:32,880 --> 00:28:38,320
+ there's just this, like, one perfect way to do credit markets that fits all users. There's,
+
+293
+00:28:38,320 --> 00:28:44,000
+ there's a diversity of preferences. And so we thought, how can we, and by the way, all the,
+
+294
+00:28:44,000 --> 00:28:48,080
+ like, an increasingly, like, diverse number of assets as well. So there's, like, lots of,
+
+295
+00:28:48,080 --> 00:28:52,560
+ you know, new stable cons and, like, state teeth and things were emerging and so on. So,
+
+296
+00:28:52,560 --> 00:28:56,480
+ lots of different asset types. And so, what we realized was rather than building, like,
+
+297
+00:28:56,480 --> 00:29:01,440
+ this one protocol that's, like, designed as a, as a particular product for a specific user set,
+
+298
+00:29:01,440 --> 00:29:07,280
+ we said, why don't we build a, why don't we build the, the infrastructure for making
+
+299
+00:29:07,280 --> 00:29:14,080
+ credit market products? So, we decided to build more of, like, a modular, a modular protocol,
+
+300
+00:29:14,080 --> 00:29:19,600
+ where you could have these, like, plug and play pieces that you can fit them together,
+
+301
+00:29:19,600 --> 00:29:25,680
+ effectively, to then rebuild products. And so, you can rebuild Euler V1 using this toolkit that
+
+302
+00:29:25,680 --> 00:29:30,000
+ we've got for Euler V2, but you can also build other types of credit markets as well that might
+
+303
+00:29:30,000 --> 00:29:34,000
+ have a different design that might be more conservative on the risk spectrum or whatever.
+
+304
+00:29:34,000 --> 00:29:40,240
+ And then the idea with V2 is that other people can then come and build products in their own image
+
+305
+00:29:40,240 --> 00:29:45,840
+ and tailor them to the, the user bases that they have in mind and the risk reward demands that they,
+
+306
+00:29:45,840 --> 00:29:52,080
+ they have on the protocol. So, all of V2 is, is not a product, a single product. It's a,
+
+307
+00:29:52,080 --> 00:29:56,720
+ it's a, it's like a rainbow of products. It's just all sorts of, all sorts of different types of
+
+308
+00:29:56,720 --> 00:30:01,840
+ things going on with V2 and different operators as well for those products. There's lots of things,
+
+309
+00:30:01,840 --> 00:30:05,520
+ lots of entities called risk-curators or, of curators that come and build their own,
+
+310
+00:30:05,520 --> 00:30:09,680
+ build their own credit markets in Euler. And that wasn't really something we had in V1.
+
+311
+00:30:09,680 --> 00:30:15,840
+ So, does it make sense to think of, like, today, if you think on, like,
+
+312
+00:30:15,840 --> 00:30:22,080
+ lending credit protocols, you have, like, are they, that's, you know, of course, the best known,
+
+313
+00:30:23,360 --> 00:30:32,400
+ and, which is, you know, very simple protocol. And then I guess morpho is a bit more flexible,
+
+314
+00:30:32,400 --> 00:30:38,320
+ and then you guys are even more flexible and even more modular. Is that like a reasonable way of,
+
+315
+00:30:38,320 --> 00:30:45,920
+ or, like, how do you compare Euler sort of in the landscape of different DeFi lending protocols?
+
+316
+00:30:45,920 --> 00:30:52,640
+ Yeah, I think, I think I would say, like, at its core, it's a toolkit for making DeFi protocols.
+
+317
+00:30:52,640 --> 00:30:58,080
+ So you can build morpho with Euler, or you can build Aave with Euler, or build something in between
+
+318
+00:30:58,080 --> 00:31:03,200
+ those two, but you, that's not true the other way around, right? You can't, you can't build the
+
+319
+00:31:03,200 --> 00:31:08,640
+ primitive using their, their toolkit. So, like, morpho fundamentally as these things call markets.
+
+320
+00:31:08,640 --> 00:31:14,480
+ And markets in morpho are just, like, collateral debt pairs, they're simple isolated pairs.
+
+321
+00:31:14,480 --> 00:31:21,520
+ And then they have many, many pairs. And then on top, they have allocators. So capital allocators
+
+322
+00:31:21,520 --> 00:31:26,320
+ will then push capital into the different pair, into the different pair markets and borrows will,
+
+323
+00:31:26,320 --> 00:31:33,280
+ will borrow from those pairs. Aave, by contrast, is this big monolithic market. So it's a market,
+
+324
+00:31:33,280 --> 00:31:37,920
+ but it's rather than having just a pair of assets, it's got, you know, 30 or 40 assets in it, right?
+
+325
+00:31:37,920 --> 00:31:42,800
+ And then they cross collateralized and so on. So it's, it's more capital efficient, but higher
+
+326
+00:31:42,800 --> 00:31:47,920
+ on the risk spectrum, because now you don't have this, yeah, you don't have this isolation,
+
+327
+00:31:47,920 --> 00:31:52,560
+ essentially. So if an asset, it makes them more capital efficient, because basically,
+
+328
+00:31:52,560 --> 00:32:02,880
+ Aave has like one pool of USDC and, you know, and there's like one borrow rate and versus like,
+
+329
+00:32:02,880 --> 00:32:08,320
+ for example, morpho, there would be like various different types of USDC pools. And maybe some are
+
+330
+00:32:08,320 --> 00:32:15,040
+ like, used to the max and some others are barely used. So, and that kind of, yeah.
+
+331
+00:32:15,840 --> 00:32:20,000
+ Yeah. So on morpho, I mean, just like the, if you think about the design trade-off,
+
+332
+00:32:20,000 --> 00:32:26,560
+ say a little bit like there's, there's, there's fragmented USDC pools. Now, morpho tries to solve
+
+333
+00:32:26,560 --> 00:32:31,920
+ that for the lenders by effectively having like a higher level allocator balls. And most lenders
+
+334
+00:32:31,920 --> 00:32:35,920
+ deploy into their like allocator ball, and then that disperses those funds into these lower level
+
+335
+00:32:35,920 --> 00:32:42,480
+ markets. And that's, that's fine for the lenders to a degree, but on the borrows, on the borrowing side,
+
+336
+00:32:42,480 --> 00:32:46,560
+ it still means you have this huge, a huge amount of fragmentation, which means still leads to like,
+
+337
+00:32:46,560 --> 00:32:53,840
+ variable rates and, and, and less capital efficiency there. The other thing about morpho is that the
+
+338
+00:32:53,840 --> 00:32:59,040
+ collateral is always held in like an escrowed state, which means it's not, it's not re-hypoticated at
+
+339
+00:32:59,040 --> 00:33:04,640
+ all. In Aave, the market's cross-classifies. And often, if you're taking a loan, let's say you're
+
+340
+00:33:04,640 --> 00:33:10,960
+ using ETH to borrow a USDC. The ETH is re-hypoticated, which means that somebody else can be borrowing
+
+341
+00:33:10,960 --> 00:33:16,240
+ the, the ETH from you whilst you're using its collateral. And that makes it more capital efficient
+
+342
+00:33:16,240 --> 00:33:25,840
+ because as a, as a, I'm borrowing USD on Aave, or re-hypoticated market, like we have an oil as well.
+
+343
+00:33:25,840 --> 00:33:30,720
+ It means that I'm earning interest on the, on the ETH side, and I'm paying interest on the, on the
+
+344
+00:33:30,720 --> 00:33:34,800
+ debt. And like, sometimes the two carat, how cancel each other out, sometimes it's actually even
+
+345
+00:33:34,800 --> 00:33:39,760
+ profitable to kind of take loans like that. Whereas on morpho, your, your ETH would typically just be
+
+346
+00:33:39,760 --> 00:33:43,280
+ starting in, in kind of escrow and it wouldn't earn actually yield. So it might cost you more.
+
+347
+00:33:43,280 --> 00:33:48,640
+ If you look at the, what's called the utilization rate of these markets, which is like the, the,
+
+348
+00:33:48,640 --> 00:33:52,640
+ the average, if you look across all possible positions,
+
+349
+00:33:52,640 --> 00:33:59,760
+ of like the amount of, you know, the, the, basically the fraction of, the fraction of assets which are
+
+350
+00:33:59,760 --> 00:34:05,520
+ borrowed on oil, the fraction of assets, which are borrowed is around 50% over on, on, on, on
+
+351
+00:34:05,520 --> 00:34:11,360
+ morpho, by contrast, it would be like low 30s. So there's a big gap between the capital efficiency
+
+352
+00:34:11,360 --> 00:34:16,560
+ of, of markets, which have re-hypotication or enable that as a feature, and the ones that don't,
+
+353
+00:34:16,560 --> 00:34:21,360
+ and that's one of the, yeah, one of the trade-off and design decision differences between oil and
+
+354
+00:34:21,360 --> 00:34:31,840
+ morpho. And so oil, you also has, have re-hypotication like in Aave. Yeah, so on, on oil, you, our
+
+355
+00:34:31,840 --> 00:34:36,240
+ primitive unit is not a market, but actually even smaller than that, it's just a single vault,
+
+356
+00:34:36,240 --> 00:34:41,920
+ and users can deploy assets into vaults, and then they can use those assets as collateral,
+
+357
+00:34:41,920 --> 00:34:48,240
+ or they can lend and borrow them from the vault. Now, if you want to re-create a morpho pair,
+
+358
+00:34:48,240 --> 00:34:52,000
+ you, you basically connect two vaults together. You, you have like one vault, which does the
+
+359
+00:34:52,000 --> 00:34:55,920
+ lending and borrowing, and one vault, it's just all the collateral. It's got a single connection.
+
+360
+00:34:55,920 --> 00:35:00,720
+ But on oiler, you can, because it's a toolkit, and it's the modular toolkit, you can actually
+
+361
+00:35:00,720 --> 00:35:05,760
+ extend that. You can say that I'm going to act, I'm going to accept multiple clathables, and then
+
+362
+00:35:05,760 --> 00:35:08,960
+ I'd have like, you know, different types of clathables for my lending and borrowing role,
+
+363
+00:35:08,960 --> 00:35:13,600
+ but you can go, you can also do the relationship both ways. So you can say that A can borrow B,
+
+364
+00:35:13,600 --> 00:35:19,120
+ and B can borrow A. So if you start to build up markets where you have lots of vaults,
+
+365
+00:35:19,120 --> 00:35:23,200
+ which all cross-reference one of those as collateral, that's effectively what Aave is.
+
+366
+00:35:23,200 --> 00:35:30,480
+ So yeah, under the hood, you can reconstruct an Aave. The simplest, the simplest possible Aave,
+
+367
+00:35:30,480 --> 00:35:35,840
+ would be something where you have just, yeah, people can deposit ETH and borrow USDC,
+
+368
+00:35:35,840 --> 00:35:40,720
+ and people can deposit USDC and borrow ETH, right? That would be like the simplest possible
+
+369
+00:35:40,720 --> 00:35:46,880
+ Aave with rehab publication. There's a protocol called Silo, which allows those kind of markets
+
+370
+00:35:46,880 --> 00:35:50,800
+ to be developed. And yeah, oiler has those too, right? We have some markets which are just that
+
+371
+00:35:50,800 --> 00:35:55,040
+ simple. They're like the simplest possible Aave's, but we have some markets where there's,
+
+372
+00:35:55,040 --> 00:35:58,960
+ there's also many assets, and they start to, you know, the market gets much bigger and starts to
+
+373
+00:35:58,960 --> 00:36:04,880
+ resemble more like Aave itself. And where do you see the most traction today?
+
+374
+00:36:04,880 --> 00:36:11,040
+ Mainnet, it was in networks where we're deployed across 12 different networks.
+
+375
+00:36:11,040 --> 00:36:17,760
+ And ETH Mainnet, I think, is the home of finance today or the home of DeFi today,
+
+376
+00:36:17,760 --> 00:36:23,440
+ but we've got a lot of traction on Avalanche more recently as well. Recently deployed to
+
+377
+00:36:23,440 --> 00:36:31,040
+ Linnea, which is growing quickly, and arbitrum. Yeah, it depends on which network you are,
+
+378
+00:36:31,040 --> 00:36:35,520
+ and what the asset base is there, that all users have different profiles and different networks
+
+379
+00:36:35,520 --> 00:36:40,400
+ we found. And so you see very different types of markets developing on different networks.
+
+380
+00:36:40,400 --> 00:36:47,840
+ And yeah, I mean, stable coins, you'll bring stable coins and stable more generally is,
+
+381
+00:36:48,480 --> 00:36:53,760
+ has been the thing that's driven the explosive growth of both Euler and also Martha, I think,
+
+382
+00:36:53,760 --> 00:37:01,360
+ is the diversity of yield-bearing assets and demand the borrower. So yield-bearing
+
+383
+00:37:01,360 --> 00:37:09,120
+ stable coins where people will like deposit the yield-bearing stable coin and then they borrow
+
+384
+00:37:09,120 --> 00:37:16,400
+ against it. That's right, yeah. So like USDA or like what are the top yield-bearing stable
+
+385
+00:37:16,400 --> 00:37:23,440
+ coins in Euler? I think USDA will be like a massive one. We also have like some open
+
+386
+00:37:23,440 --> 00:37:28,560
+ need and stuff as well, lots of Pendle tokens. So I mean, the basic trade that's super popular
+
+387
+00:37:28,560 --> 00:37:33,280
+ these days on Euler and other lending protocols is you deposit your yield-bearing stable. Let's
+
+388
+00:37:33,280 --> 00:37:39,200
+ say it's paying 10%. And you borrow a non-yield-bearing stable from a lending market and maybe you have
+
+389
+00:37:39,200 --> 00:37:47,440
+ to pay 7% to borrow. So yeah, if you do that and then you loop that, yeah, so that you,
+
+390
+00:37:47,440 --> 00:37:54,400
+ rather than getting just your 10%, you can effectively earn the 10% plus the number you can get that
+
+391
+00:37:54,400 --> 00:38:03,440
+ 3% or 4% spread, but on a loop. So you amplify your exposure to the interest rates and you take
+
+392
+00:38:03,440 --> 00:38:09,600
+ on board risk, if the stable coin depegs and it falls in price, you collapse will decrease in
+
+393
+00:38:09,600 --> 00:38:17,200
+ price and you risk liquidation. But assuming you're not worried about that risk, then you can
+
+394
+00:38:17,200 --> 00:38:22,480
+ effectively amplify the interest rate you earn by kind of looping a yield-bearing stable against
+
+395
+00:38:22,480 --> 00:38:28,480
+ a non-yield-bearing stable and try and perform what's called like a carry trade. It's very popular
+
+396
+00:38:28,480 --> 00:38:34,800
+ in TransFi as well as DeFi, but in DeFi, this has been the big trade of the past year, so it's
+
+397
+00:38:34,800 --> 00:38:41,520
+ some kind of carry trade on yielding non-yielding stables. What do you think the future looks like?
+
+398
+00:38:41,520 --> 00:38:47,760
+ I'm curious, I mean, I guess in the traditional financial market, right, like fixed rate lending
+
+399
+00:38:47,760 --> 00:38:57,920
+ is a huge part. I mean, I would guess probably the majority of that is fixed, although you
+
+400
+00:38:57,920 --> 00:39:02,880
+ probably know better what the breakdown is there. Whereas in, I think, DeFi, right, we have
+
+401
+00:39:02,880 --> 00:39:08,480
+ mass majority of lending happens with variable rates. Do you think this is going to change?
+
+402
+00:39:08,480 --> 00:39:14,320
+ I think it will change, yeah, for sure. I mean, we've got new products coming on OLLO, which are
+
+403
+00:39:14,320 --> 00:39:21,920
+ more targeted to fixed rate borrowing. We've got two products coming actually in that regard,
+
+404
+00:39:21,920 --> 00:39:26,720
+ but we're not alone, right? I think the other competitors have products coming to.
+
+405
+00:39:27,280 --> 00:39:32,560
+ The reason why they're in such huge demand, I believe, is that it's not so much less.
+
+406
+00:39:32,560 --> 00:39:38,080
+ Lenders are probably fairly happy with variable rates, but the variable rate is probably the
+
+407
+00:39:38,080 --> 00:39:42,960
+ fair rate that you should be getting at any one point in time. The rate reflects the demand
+
+408
+00:39:42,960 --> 00:39:47,440
+ to borrow in the market, and then compensation should get a lot as a lender based on the
+
+409
+00:39:47,440 --> 00:39:52,240
+ recipe of taking it out of that time. So think for lenders, they're fine with it, but for borrowers,
+
+410
+00:39:52,240 --> 00:39:58,960
+ these carry trades become a bit unwieldy to carry out. If the thing you're borrowing is very
+
+411
+00:39:58,960 --> 00:40:05,040
+ variable, right? You might have your yield-bearing stable that's at 10%. And yeah, maybe you start,
+
+412
+00:40:05,040 --> 00:40:10,320
+ and you open up a trade, and you're borrowing at like 7%, or 8%, but then the rate spikes.
+
+413
+00:40:10,320 --> 00:40:15,760
+ Now it's actually more costly to borrow the thing than the thing you're using as collateral. So now
+
+414
+00:40:15,760 --> 00:40:21,120
+ you're in like this negative carry trade, where you're actually losing money on a loop as well.
+
+415
+00:40:21,120 --> 00:40:27,760
+ So you're actually amplifying your losses. And so that's, again, increasingly frustrated with
+
+416
+00:40:27,760 --> 00:40:33,680
+ that, right? They would much rather maybe pay a premium initially to kind of lock in a fixed rate.
+
+417
+00:40:33,680 --> 00:40:40,800
+ So maybe the variable may pull 7%, but maybe they're happy to pay 8%, as long as they know
+
+418
+00:40:40,800 --> 00:40:46,000
+ that they can lock in and it will grow above 8%. So a huge demand on the borrow side, I would say,
+
+419
+00:40:46,000 --> 00:40:57,280
+ for borrowers to be able to lock in fixed cost-borrowing positions for short to medium to amount of time.
+
+420
+00:40:57,280 --> 00:41:08,160
+ Okay, and then I guess on the lender side, they would also have to accept the fixed rate.
+
+421
+00:41:08,160 --> 00:41:13,840
+ Yeah, this is the question, right? Is the lender going to be just as happy with this?
+
+422
+00:41:16,080 --> 00:41:23,680
+ The fixed rate products are definitely favorable for borrowers. Are they favorable for lenders?
+
+423
+00:41:23,680 --> 00:41:28,320
+ And do you have a product market fit on both sides of the plane here?
+
+424
+00:41:28,320 --> 00:41:34,960
+ I think on the for lenders, they would expect a premium, right? Because they're also sacrificing,
+
+425
+00:41:34,960 --> 00:41:42,320
+ like the sacrificing this fair rate that they're getting. The borrower should be prepared to pay
+
+426
+00:41:42,320 --> 00:41:51,920
+ this premium because it's clearly an advantage for that party. So they're effectively trading
+
+427
+00:41:51,920 --> 00:41:59,920
+ the playing premium to lock in a profit. So yeah, that premium goes to the lenders,
+
+428
+00:41:59,920 --> 00:42:04,000
+ and maybe that premium's enough, but maybe it's a not. The other thing the lender's
+
+429
+00:42:04,000 --> 00:42:14,400
+ forego, I guess, is that flexibility to withdraw. A lot of lenders like to have that flexibility,
+
+430
+00:42:14,400 --> 00:42:18,080
+ so just like withdraw whenever they want, right? A lot of lending protocols are designed with
+
+431
+00:42:18,080 --> 00:42:23,360
+ that in mind. So they often have this unutilized portion of the pool or idle capital and pool,
+
+432
+00:42:23,360 --> 00:42:28,640
+ which allow the lenders to withdraw at any one point in time. If you lock in at a fixed rate,
+
+433
+00:42:28,640 --> 00:42:33,520
+ however, you typically kind of get locked into a more of a fixed term as well, which means you're
+
+434
+00:42:33,520 --> 00:42:39,840
+ losing that flexibility to access your capital when you need it. So yeah, there's that clear
+
+435
+00:42:39,840 --> 00:42:44,080
+ tension between lenders and borrowers. And one thing we know is that markets are a really good
+
+436
+00:42:44,080 --> 00:42:50,000
+ way to find a resolution for that tension. So it'll be interesting to see when these products
+
+437
+00:42:50,000 --> 00:42:56,000
+ shoot. I think it sounds like all postcards are developing slightly different types of fixed
+
+438
+00:42:56,000 --> 00:43:01,040
+ rate products. It'd be interesting to see which ones get the best product market fit and satisfy
+
+439
+00:43:01,040 --> 00:43:05,280
+ the needs of both the lenders on the borrowers in a way that balances out on this fare.
+
+440
+00:43:05,280 --> 00:43:12,640
+ Do you think the demand on both sides will be mostly sort of short, like, I don't know, a month,
+
+441
+00:43:12,640 --> 00:43:22,320
+ or maybe even shorter duration? Or do you also see markets developing for a more long-term debt?
+
+442
+00:43:22,320 --> 00:43:28,400
+ I think initially it's going to be driven by most borrowers are kind of like traders,
+
+443
+00:43:28,400 --> 00:43:33,040
+ and they're working on time horizons that are months, not usually years.
+
+444
+00:43:33,040 --> 00:43:41,440
+ As a borrower, if you're doing these strategies, you could, in principle, be rebalancing every day.
+
+445
+00:43:41,440 --> 00:43:46,960
+ You can probably optimize you by finding the best strategy every day or rebalancing very frequently,
+
+446
+00:43:46,960 --> 00:43:53,760
+ but then you have the cost of rebalancing, which is not just gas costs, but your time planning,
+
+447
+00:43:53,760 --> 00:43:58,720
+ like, then the added risk of repetitively rebalancing, you might make a mistake in one of those things.
+
+448
+00:43:58,720 --> 00:44:02,800
+ So rebalancing too frequently is kind of not something people tend to do.
+
+449
+00:44:02,800 --> 00:44:08,880
+ So yeah, usually borrowers, in my opinion, will be looking to lock trades in for weeks,
+
+450
+00:44:08,880 --> 00:44:13,840
+ or maybe like several months at a time. So yeah, we see this kind of thing with a
+
+451
+00:44:13,840 --> 00:44:23,360
+ Pendle, right? Pendle offers fixed rate products, and allow borrowers typically all like more like lenders,
+
+452
+00:44:23,360 --> 00:44:27,280
+ as opposed to kind of like locking for three month to six month periods as well.
+
+453
+00:44:27,280 --> 00:44:31,280
+ And I suspect we'll see fixed rate products that kind of match that sort of time frame,
+
+454
+00:44:31,280 --> 00:44:34,480
+ so that like, yeah, one month to six months of range, should probably
+
+455
+00:44:34,480 --> 00:44:37,520
+ where I put my money on being the most popular.
+
+456
+00:44:37,520 --> 00:44:40,880
+ So you mentioned Pendle, why are you doing Pendle?
+
+457
+00:44:40,880 --> 00:44:44,000
+ Pendle is not a DeFi protocol that has gotten like a lot of traction.
+
+458
+00:44:44,000 --> 00:44:47,920
+ My understanding of Pendle is that it's a lot of
+
+459
+00:44:47,920 --> 00:44:57,680
+ around points, and basically someone will earn some
+
+460
+00:44:57,680 --> 00:45:09,120
+ unknown amount of some other token, and then they basically sell those for some fixed interest.
+
+461
+00:45:11,120 --> 00:45:15,840
+ And then they get these PT tokens out of a specific maturity,
+
+462
+00:45:15,840 --> 00:45:22,480
+ and I guess they could then use that as collateral in something like Euler to borrow and to loop it.
+
+463
+00:45:22,480 --> 00:45:24,080
+ Yeah, exactly.
+
+464
+00:45:24,080 --> 00:45:29,840
+ Would you also think, or I don't know if it's possible to build something like Pendle directly in Euler?
+
+465
+00:45:29,840 --> 00:45:35,120
+ It would. Yeah, I mean, you could definitely definitely do that with the kind of fixed rate
+
+466
+00:45:35,120 --> 00:45:39,120
+ products we've got coming. But like you say, I think Pendles, but Pendles are exceptionally
+
+467
+00:45:39,120 --> 00:45:47,520
+ powerful is, but it allows people to effectively convert intangible incentives and rewards
+
+468
+00:45:47,520 --> 00:45:54,480
+ into like a concrete fixed rate. So you have people earning points and other things,
+
+469
+00:45:54,480 --> 00:45:58,480
+ which are like quite hard to value. And so they don't really know what they're worth,
+
+470
+00:45:58,480 --> 00:46:03,840
+ and they like sell them off for kind of like lock-ins and like make it real, basically,
+
+471
+00:46:03,840 --> 00:46:07,920
+ like make those points real and turn them into like something that they can actually trade
+
+472
+00:46:07,920 --> 00:46:11,280
+ on a proper secondary market. And that's where like Pendle services that need.
+
+473
+00:46:11,280 --> 00:46:20,000
+ And yeah, as you said, then once you've converted that into kind of like a real kind of yield,
+
+474
+00:46:20,000 --> 00:46:25,040
+ then people want to loop that yield and like amplify it on less is like Euler,
+
+475
+00:46:25,040 --> 00:46:29,680
+ whether come in and use collateral as a Pendle token and do a carry trade and borrow non-yielding
+
+476
+00:46:29,680 --> 00:46:34,720
+ staples there. The loopers end up being kind of like junior capital. They're taking like seeking
+
+477
+00:46:34,720 --> 00:46:39,120
+ higher risk, but like taking, sorry, seeking more reward, but taking on higher risks,
+
+478
+00:46:39,120 --> 00:46:43,600
+ liquidation and performing all these loops and all the rest of it. And then the lenders on the
+
+479
+00:46:43,600 --> 00:46:48,480
+ other side of that trade become more like senior capital where they're not getting paid as much,
+
+480
+00:46:48,480 --> 00:46:54,240
+ but they're kind of protected and they're protected through effectively the overclassicalization
+
+481
+00:46:54,240 --> 00:47:00,320
+ of the borrowers. That's been the big popular trade, I would say, on that front. But yeah,
+
+482
+00:47:00,320 --> 00:47:04,560
+ you can build Pendle and Euler, but it's not like where there's no plans to build that Pendle
+
+483
+00:47:04,560 --> 00:47:09,840
+ laptop to not in Euler, frankly. There's a different kind of fixed rate that I think people want to
+
+484
+00:47:09,840 --> 00:47:21,920
+ lock in for. What do you see as the future for Euler? I mean, I think all the finance is coming,
+
+485
+00:47:21,920 --> 00:47:24,880
+ so I've been saying this for years. I think all the finance is going to come on-chain.
+
+486
+00:47:24,880 --> 00:47:32,480
+ I think if you use swap products and you're a swapper, you have no loyalty to who you use,
+
+487
+00:47:32,480 --> 00:47:35,680
+ right? You just put it through one inch or a cow swap or whatever else and just getting the best
+
+488
+00:47:35,680 --> 00:47:41,760
+ possible swap rate you can. But on credit markets, people don't do that. There's not going to be one
+
+489
+00:47:41,760 --> 00:47:51,680
+ winner. There's going to be a diverse selection of protocols because people want to diversify the
+
+490
+00:47:51,680 --> 00:47:57,760
+ risk. If you're putting assets into somewhere or taking out loans over extended periods,
+
+491
+00:47:57,760 --> 00:48:05,520
+ you're exposed to extended periods at risk. The only free lunch in finance is like diversification.
+
+492
+00:48:05,520 --> 00:48:14,480
+ I think Euler is going to be one of the largest credit protocols in the future of finance,
+
+493
+00:48:14,480 --> 00:48:20,480
+ frankly. I think we won't be the only one. There'll be other big protocols too, but certainly we'll
+
+494
+00:48:20,480 --> 00:48:27,360
+ be up there. Over time, I imagine that we'll all slightly specialize. Usually what happens in
+
+495
+00:48:27,360 --> 00:48:33,680
+ markets is you find specialization. Euler will develop a specialization for certain
+
+496
+00:48:33,680 --> 00:48:38,000
+ classes of trades, probably, and do those better than anybody else whilst although competitors end
+
+497
+00:48:38,000 --> 00:48:44,000
+ up specializing on other things as well. In the short term, I think right now we're still dealing
+
+498
+00:48:44,000 --> 00:48:49,600
+ with very cryptonative forms of credit, but I think there's increasing amounts of more traditional
+
+499
+00:48:49,600 --> 00:48:58,080
+ forms of credit coming on chain. Euler is very well set up. The architecture of Euler is very
+
+500
+00:48:58,080 --> 00:49:04,240
+ welcoming for real-world assets, I would say. That's something that I think we'll be pushing
+
+501
+00:49:04,240 --> 00:49:09,360
+ forward on in the months and years to come. You think in terms of you mentioned that
+
+502
+00:49:09,360 --> 00:49:13,440
+ different protocols will specialize in different ways, so you think for Euler it will be more around
+
+503
+00:49:13,440 --> 00:49:20,000
+ RWA's? I think real-world assets will be a big part of it. We also have a swap protocol that's
+
+504
+00:49:20,000 --> 00:49:28,960
+ built on top of Euler swap, which works extremely well with real-world assets and can open up growth
+
+505
+00:49:28,960 --> 00:49:35,440
+ opportunities for real-world assets that aren't really there today. I think that's today that's
+
+506
+00:49:35,440 --> 00:49:42,720
+ something that we see as a competitive advantage, certainly. When you talk about real-world assets,
+
+507
+00:49:43,680 --> 00:49:47,680
+ what do you think are the type of real-world assets that will get the most traction?
+
+508
+00:49:47,680 --> 00:49:56,880
+ Well, in the short term, I think DeFi has always been a very risk on environments. I think tokenizing
+
+509
+00:49:56,880 --> 00:50:04,320
+ credit funds will be popular because they'll generate more yield, and those yields then get
+
+510
+00:50:04,320 --> 00:50:09,360
+ will get passed on to lenders through looping, where we get senior junior tranches.
+
+511
+00:50:10,640 --> 00:50:14,800
+ Just like we have with the DeFi assets today, I think initially that's right. But that's credit
+
+512
+00:50:14,800 --> 00:50:26,080
+ funds where people basically, I don't know, for example, a fund that lends dollars to, for example,
+
+513
+00:50:26,080 --> 00:50:33,280
+ businesses. That kind of thing, and then they somehow tokenize the fund and put it on chain.
+
+514
+00:50:33,280 --> 00:50:38,800
+ Yeah, that's right. I think those kind of things. They're definitely higher up the risk spectrum.
+
+515
+00:50:41,200 --> 00:50:48,400
+ But that's the kind of DeFi is a very risk on environment, generally. I think the people
+
+516
+00:50:48,400 --> 00:50:52,480
+ we have here today, that would probably be quite popular. But over time, I think the space will
+
+517
+00:50:52,480 --> 00:50:58,000
+ continue to mature. We see all sorts of FinTechs coming on more traditional institutions coming
+
+518
+00:50:58,000 --> 00:51:06,640
+ on chain as well. Then we'll start to see the emergence of much lower risk types of real-world
+
+519
+00:51:06,640 --> 00:51:10,560
+ assets coming on chain and being popular as well. There's already some of those hits.
+
+520
+00:51:10,800 --> 00:51:18,320
+ But they're just not widely used. We see Biddle. It's tokenized tea bills,
+
+521
+00:51:18,320 --> 00:51:23,200
+ all those kind of things. They don't provide juicy yields, and therefore, they're not that
+
+522
+00:51:23,200 --> 00:51:32,160
+ popular to trade among DeFi protocols today. There's friction to using them as well. There's
+
+523
+00:51:32,160 --> 00:51:37,120
+ extra constraints with moving these assets around. Oil and oil swap helps lower those
+
+524
+00:51:37,120 --> 00:51:41,600
+ frictions. I think it makes them more efficient. But even with those efficiencies, you still need
+
+525
+00:51:41,600 --> 00:51:48,560
+ the types of people that want to trade those assets. In tradfi, you have repo markets and
+
+526
+00:51:48,560 --> 00:51:54,240
+ money markets and things where you see really large sums of money changing hands over short
+
+527
+00:51:54,240 --> 00:52:00,880
+ periods of time. There's just nowhere near enough liquidity in DeFi today to support those kind of
+
+528
+00:52:00,880 --> 00:52:06,320
+ trades. But increasingly, that's changing. I think that will be very popular in the years to
+
+529
+00:52:06,320 --> 00:52:14,000
+ come as the space matures. I know one of the things that was often discussed as a big bottleneck
+
+530
+00:52:14,000 --> 00:52:21,200
+ to getting more financial institutions on chain is privacy. What do you think is the role of
+
+531
+00:52:21,200 --> 00:52:32,480
+ privacy in the future of DeFi? It's an interesting one. There's a huge tension between the desire
+
+532
+00:52:32,480 --> 00:52:38,240
+ for privacy, but then the desire for transparency as well. Where you sit on that spectrum,
+
+533
+00:52:38,240 --> 00:52:45,440
+ I think depends a lot on your own personal background, your experiences, how you think it's
+
+534
+00:52:45,440 --> 00:52:53,120
+ more like a political thing. I think if you look historically at protocols that are provided
+
+535
+00:52:54,000 --> 00:53:03,840
+ like a really high degree of privacy in DeFi, it's been fairly heavy use of illicit finance by bad
+
+536
+00:53:03,840 --> 00:53:13,680
+ actors. That puts traditional finance off, actually. Then you're not going to see institutions mixing
+
+537
+00:53:13,680 --> 00:53:23,360
+ funds with illicit funds that are taken in hacks and mixing with illicit finance. That's
+
+538
+00:53:23,360 --> 00:53:30,960
+ one form of privacy that I think is going to struggle to get adoption, honestly. But on the
+
+539
+00:53:30,960 --> 00:53:35,840
+ other hand, institutions also don't want to always know what they're trading, especially if it's
+
+540
+00:53:35,840 --> 00:53:41,920
+ a directional trade. I don't want to be putting on a trade on Bitcoin or whatever else and let
+
+541
+00:53:41,920 --> 00:53:46,800
+ everybody else just pick me off because they can see that I'm long when I've got certain types of
+
+542
+00:53:46,800 --> 00:53:53,200
+ exposure. There's a huge tension and I don't know where it will resolve. I don't think it's
+
+543
+00:53:53,200 --> 00:53:57,760
+ not like it's not that we don't have the technical capabilities to make these protocols. It's more
+
+544
+00:53:57,760 --> 00:54:04,240
+ of like a political thing and how much should we trade off between transparency, which tends to
+
+545
+00:54:04,240 --> 00:54:12,160
+ make fair markets versus privacy, which is arguably fairer for individuals and their personal freedoms.
+
+546
+00:54:12,160 --> 00:54:20,720
+ Yeah, I just don't know. In most regulations in DeFi seem to be driving towards more transparency,
+
+547
+00:54:20,720 --> 00:54:25,600
+ not less. But if you ask any individual person, like, should I have more privacy, I think most
+
+548
+00:54:25,600 --> 00:54:30,880
+ people would want more privacy, right? And that's that's only right. So yeah, there's this huge, huge
+
+549
+00:54:30,880 --> 00:54:39,040
+ societal and tension between those two things. Yeah, and I guess the other thing, I mean, maybe
+
+550
+00:54:39,040 --> 00:54:45,040
+ that is a solvable issue, right? But of course, one of the advantage of DeFi on the transparency of DeFi
+
+551
+00:54:45,040 --> 00:54:52,960
+ is also much easier to assess where the risks are. I mean, hard enough, but at least the
+
+552
+00:54:52,960 --> 00:54:58,400
+ information is there and someone can try to do it. But then if you add more privacy,
+
+553
+00:54:58,400 --> 00:55:05,120
+ that probably also makes it much harder to understand where the risks are and if this fails,
+
+554
+00:55:05,120 --> 00:55:12,400
+ what else does it result in? Yeah, I mean, I was I entered the like labor market in
+
+555
+00:55:13,360 --> 00:55:18,320
+ August 2008, and I joined a bank in the UK called the World Bank of Scotland,
+
+556
+00:55:18,320 --> 00:55:25,520
+ just as the entire system was like collapsing, right? And I remember hearing from that, you know,
+
+557
+00:55:25,520 --> 00:55:31,680
+ after that, after people like went through the went through everything afterwards, and I tried to
+
+558
+00:55:31,680 --> 00:55:35,040
+ like piece it all together, and it was just like an absolute nightmare. And I still don't think
+
+559
+00:55:35,040 --> 00:55:39,200
+ people completely understand what happened, because like actually mapping it all out and
+
+560
+00:55:39,200 --> 00:55:42,640
+ like, you know, looking at when all these different banks collapse and everything like what what
+
+561
+00:55:42,640 --> 00:55:46,480
+ actually went wrong, what was the the trigger and like, whether you know, whether the funds
+
+562
+00:55:46,480 --> 00:55:52,720
+ flowing on us, it is very hard to like process it. And I think that at least in DeFi, that's all
+
+563
+00:55:52,720 --> 00:55:58,240
+ easily mappable on chain. And if someone wants to do it, they can. It's not not necessarily like
+
+564
+00:55:58,240 --> 00:56:02,960
+ easy, as you say, but it's much, much more transparent in that regard. And I think that
+
+565
+00:56:02,960 --> 00:56:08,960
+ will be healthier for financial markets in the long run, even though it does pose its own challenges.
+
+566
+00:56:08,960 --> 00:56:13,840
+ There may be, you know, we may see yet see technologies emerge, which actually are able to kind of
+
+567
+00:56:13,840 --> 00:56:23,280
+ balance that all that tension out where, yeah, you can kind of have like, like, privacy is like
+
+568
+00:56:23,280 --> 00:56:26,960
+ the de facto norm, but like it can kind of, you can like under certain conditions,
+
+569
+00:56:26,960 --> 00:56:31,520
+ like reveal certain things or whatever if it's, if it's essential to do so to make sure that
+
+570
+00:56:31,520 --> 00:56:38,000
+ you aren't, you aren't like mixing funds with illicit finance and so on. But I didn't, I don't know.
+
+571
+00:56:38,000 --> 00:56:43,040
+ I mean, it's not something, it's not something that I'm working on personally or at the moment.
+
+572
+00:56:43,040 --> 00:56:47,920
+ We were working with what we've got, which right now is, it's mostly like max transparency, I would
+
+573
+00:56:47,920 --> 00:56:53,840
+ say, on open public blockchains. What's your biggest focus right now?
+
+574
+00:56:53,840 --> 00:57:04,320
+ Oh, I mean, personally, we have new products coming, we've discussed on fixed rates side,
+
+575
+00:57:04,320 --> 00:57:12,080
+ we've been working on growing our swap post call. And for my side, like a lot of my time is spent
+
+576
+00:57:12,080 --> 00:57:20,960
+ like going and meeting new new types of users, like institutions and other people and talking to
+
+577
+00:57:20,960 --> 00:57:26,800
+ them about how our oil works effectively and educating them about how the system works and
+
+578
+00:57:26,800 --> 00:57:31,200
+ seeing if they can be encouraged to come and use the protocol, you know, new types of asset issuers
+
+579
+00:57:31,200 --> 00:57:36,160
+ and so on. There's just almost not enough hours in the day at the moment. Like it really, there's,
+
+580
+00:57:36,160 --> 00:57:44,320
+ yeah, there's just a massive, massive shift in the past year and growth opportunities
+
+581
+00:57:44,320 --> 00:57:46,160
+ absolutely everywhere in DeFi right now, I would say.
+
+582
+00:57:46,160 --> 00:57:51,920
+ What do you think about the impact AI is going to have on DeFi?
+
+583
+00:57:53,600 --> 00:58:02,640
+ Oh, I mean, as we mentioned, I think like one thing that's certainly certainly likely to happen,
+
+584
+00:58:02,640 --> 00:58:06,320
+ you know, we've talked about like rebalancing strategies and all the rest of it and making sure
+
+585
+00:58:06,320 --> 00:58:12,000
+ that you're able to able to kind of monitor positions and so on. I imagine that that's
+
+586
+00:58:12,000 --> 00:58:17,120
+ something that's going to be handled by AI. We've already like internally like played with some
+
+587
+00:58:17,120 --> 00:58:22,240
+ like machine learning algorithms for like optimizing yield basically by like rebalancing like landing
+
+588
+00:58:22,240 --> 00:58:27,200
+ positions and so on. I think you could do that with AI as well. I have like smart oaring basically
+
+589
+00:58:27,200 --> 00:58:31,840
+ where you rather than you having to sit at the computer, like well, you spreadsheets like the,
+
+590
+00:58:31,840 --> 00:58:38,880
+ you know, the financial analyst going through things pouring over data like like really
+
+591
+00:58:38,880 --> 00:58:44,720
+ intelligent bots that can basically under some constraints move move the funds on your behalf
+
+592
+00:58:44,720 --> 00:58:49,520
+ to either optimize the yield is like the the senior transfer to to optimize the lending and
+
+593
+00:58:49,520 --> 00:58:53,600
+ borrowing positions is the kind of dream year. It's interesting. So I think that will be,
+
+594
+00:58:53,600 --> 00:58:59,840
+ yeah, we'll we'll change things a lot and lead to more efficient markets overall. There's huge
+
+595
+00:58:59,840 --> 00:59:06,880
+ inefficiencies in DeFi today. Rate optimization is not really a thing. It's this protocols like
+
+596
+00:59:06,880 --> 00:59:12,080
+ iPod and others and that's, you know, do it like it's the kind of what year and introduce like
+
+597
+00:59:12,080 --> 00:59:16,720
+ when I first started back in 2020, like, I think was we're doing this kind of thing, but it's still
+
+598
+00:59:16,720 --> 00:59:21,200
+ it's still a very inefficient market, you know, by and large, I think they are just going to change
+
+599
+00:59:21,200 --> 00:59:30,400
+ that. Cool. Well, thank you so much for coming on. It was really cool to dive into oiler and yeah,
+
+600
+00:59:30,400 --> 00:59:39,360
+ I think, I think what you've funded out before, like, you know, if a traffic and then RWA is coming
+
+601
+00:59:39,360 --> 00:59:44,880
+ on chain, a lot more capital on coming on chain. This is going to be an, you know, I think DeFi
+
+602
+00:59:44,880 --> 00:59:49,440
+ will continue to be an extremely interesting space. So I'm really excited for what you guys are
+
+603
+00:59:49,440 --> 00:59:54,480
+ building. Thank you. Yeah. Thanks for having me on. That was a really good chat. Lots of different
+
+604
+00:59:54,480 --> 00:59:59,280
+ topics since it was great. There's just so much to do right now. So very, very excited time.
+

@@ -1,0 +1,1169 @@
+TITLE: State of Crypto 2024: Behind the Scenes on Stablecoins, AI, Builder Energy, More
+URL: https://www.youtube.com/watch?v=mY11_NsQt9o
+VIDEO_ID: mY11_NsQt9o
+
+TRANSCRIPT:
+(upbeat music)
+ - Welcome to Web3 with A16Z.
+ I'm Robert Hackett, and today we've got a special episode.
+ We're taking you behind the scenes
+ of our newly released annual State of Crypto report,
+ A16Z crypto's analysis of the latest data and trends
+ that have defined the industry in 2024.
+ This year's report features some brand new insights
+ from estimating the number of real crypto users globally
+ to understanding how much interest in crypto
+ swing states may have ahead of the US election.
+ We also dig into infrastructure improvements
+ to blockchains and key applications,
+ including stablecoins, AI, and so-called deep in.
+ Be sure to visit a16zcrypto.com for all this and more,
+ including a new builder energy dashboard,
+ which we'll discuss on today's show.
+ Joining me to talk about the findings
+ are our lead data scientist and report author,
+ Darren Matsuoka, and CTO Eddie Lazarin.
+ The first voice you'll hear after mine is Darren's,
+ then Eddie's.
+ As always, none of the content should be taken
+ as tax, business, legal, or investment advice.
+ See a16z.com/disclosures for more important information,
+ including a link to a list of our investments.
+ This is our third year doing this.
+ We've put together three of these State of Crypto reports.
+ Why do we do it?
+ I think we'd like to use this report
+ as an opportunity each year to really take a step back,
+ kind of look at the industry holistically,
+ analyze all of the data that we have access to.
+ We consult with various experts across the industry
+ and ultimately bring it all together
+ into a single perspective.
+ Yeah, I think that's right.
+ And I don't want to get too lofty with this,
+ but crypto as an industry was born in the social media age.
+ And that means that information is constantly
+ being streamed in real time.
+ So I like to see the State of Crypto report
+ as a way to pause for a second
+ and sort of appreciate what's happened in the stream.
+ When you're in the mix of it
+ and things are getting blasted at you multiple times a day,
+ it can be hard to get a sense of the cumulative progress,
+ let alone to remember what was getting streamed to you
+ at full speed a year or two years ago.
+ So I think the State of Crypto report is a chance for us
+ to take a step out of the fire hose
+ and take a look at what's actually transpired.
+ And to that point, like our goal is not to just say
+ that the crypto industry is great
+ and get that message out regardless of what we're seeing.
+ We really try to be intellectually honest
+ based on data and what we're seeing out there.
+ Another thing I'll say is that crypto has a very overdeveloped
+ in-group language, not just because of the memes
+ and the jokes and the personalities,
+ but also because of the technical complexity.
+ All those things together create
+ this really strong in-group language.
+ And I think of our report as a way to try to mainstream
+ some of those big things.
+ We try to avoid in-group language
+ and make things very accessible through charts,
+ through very simple explanations.
+ And it's an opportunity to do that too.
+ - Also, it's a way to shift the way people talk about crypto
+ because crypto is just filled with like really difficult
+ concepts and terms and to be able to kind of peel back
+ the layers and talk about what is actually happening
+ in a way that people can understand is a unique challenge.
+ Let's talk about how the report opens.
+ So we're trying to summarize the State of Crypto
+ in the past year.
+ So first up is sizing the market.
+ 'Cause if we're talking about crypto,
+ the first question you might have is,
+ what are we talking about here?
+ How big is the industry?
+ How big is the market?
+ And so that's the first question that we tackle here.
+ Darren, you wanna hit us off?
+ - Sure, for many years in the past,
+ we've been mostly focused on building the infrastructure
+ to make all of this work.
+ And so there really wasn't that big of a market
+ for users of these crypto-based applications.
+ But I think in 2024, we really did hit a tipping point
+ with infrastructure improvements.
+ These blockchains are becoming more and more accessible.
+ They're cheaper to use.
+ And as a result, we're starting to see
+ applications come online.
+ And now that we have these applications,
+ I think it's really starting to come to life.
+ And I think in the years to come,
+ this will be an increasingly important question.
+ - Yeah, I think that's right because beforehand,
+ the technology is still coming together.
+ And in many cases, it is still coming together.
+ But we're actually beginning to see some applications.
+ And that's something that if you haven't been paying attention
+ to crypto, you might not realize.
+ - Totally.
+ And I think the results speak for themselves, right?
+ Active addresses across all of the blockchains
+ that we tracked, hit an all-time high,
+ this last month of 220 million mobile wallet users.
+ So data that we get from mobile app stores
+ that also recently hit an all-time high of 27 million.
+ And so the numbers do kind of speak to this idea
+ that we are now seeing some of these breakout applications
+ that are bringing real on-chain transactions and usage.
+ - Let's go through each of those.
+ You mentioned that active addresses are at an all-time high.
+ Now, this is a kind of controversial metric.
+ Not everybody loves talking about active addresses.
+ One of the things they have going for them
+ is that they are easy to measure.
+ It's something that you can very easily quantify.
+ - I think to really understand why active addresses
+ has become such a hot topic recently,
+ I think we need to look at some of the historical context.
+ I think in traditional software,
+ most people tend to understand the basic concept of a user.
+ Of course, there's ways to measure the quality of the user.
+ There's a whole field of growth analytics around this topic.
+ But in its most simple form,
+ I think people can grok the idea of a daily active user
+ or a monthly active user.
+ It's just the number of people that are using your product
+ in service on a daily or monthly basis.
+ It's fairly straightforward.
+ But in crypto, things are a lot trickier.
+ And the reason is because on blockchains,
+ user identities are pseudonymous.
+ This means that it's very easy for one person to create
+ and control a group of public addresses or identities.
+ This is called a Sible. And up until recently,
+ a lot of the most popular blockchains had very limited capacity,
+ which resulted in high transaction fees,
+ which created this natural barrier
+ or spinning up and using thousands or hundreds of different addresses
+ because it would come with significant monetary costs.
+ But recently, we've seen that crypto infrastructure
+ has become more scalable via L2s
+ and new high throughput layer ones,
+ which has reduced the cost of transactions
+ on many of these blockchains to nearly zero.
+ And maybe you might ask,
+ isn't it also near zero costs to create multiple identities
+ on traditional internet applications?
+ And I'd say, yes, that's true for the most part.
+ I can create multiple email addresses pretty easily.
+ But the key difference here is that in the crypto world,
+ we have very strong incentives for this type of behavior.
+ - Yeah, Google doesn't give you money
+ for opening a new Gmail account, unfortunately.
+ - Exactly.
+ And a lot of new tokens today
+ actually bootstrapped their circulating supply
+ by doing something called an airdrop
+ where you're rewarding retroactively users of the protocol
+ based on a predefined set of addresses.
+ And so as long as people believe
+ that these tokens could be valuable,
+ there is a strong incentive for them to try to game the system
+ by creating and transacting under many different identities.
+ This is commonly known as airdrop farming.
+ - Yeah, there's no reason that one person
+ couldn't spin up hundreds of millions of addresses
+ and just go wild engaging in totally useless
+ and inauthentic activity in order to try to maximize
+ their likelihood of extracting as many rewards as possible.
+ And what we've seen over the last four or five years
+ that we've had airdrops and yield farms and so on,
+ there's been a profound professionalization
+ of the efforts to pull out those rewards.
+ People have gotten really, really, really good.
+ And I wanna make it really clear to anybody
+ who thinks that it is a giga brain take
+ to say monthly active addresses is simpleable.
+ Yes, we know that.
+ And if you have a better way to measure using public data,
+ that's verifiable by everyone or that is easy to trust,
+ I'd love to hear it, tell me a better way.
+ I'm thirsty for it, tell me, let's work together
+ and let's figure it out because the space deserves
+ really high quality transparent metrics.
+ And that's what we're trying to do.
+ - Yeah, and so given what we know about these behaviors,
+ how many users are there, right?
+ Is it 10 million, is it 50 million, is it 100 million?
+ This is the question that we've put a lot of work in
+ and we're going to publish some of our thoughts
+ around estimating that.
+ And we'll include that blog post in the show notes,
+ but maybe you could walk us through how you think
+ about actually getting from this big number,
+ this 220 million number, if that's the number of addresses,
+ how do we get down to humans?
+ How do we reduce that to the number of users,
+ the actual flesh and bones on the other end of the screen?
+ - I think one approach sounds kind of obvious,
+ which is we've got these 220 million monthly active addresses.
+ What if we could filter out what we suspect are bots
+ and sibbles?
+ And the way that we can do this is some techniques
+ using on-chain analytics and forensics.
+ One method is to filter out addresses that received funds
+ from something called a dispersion contract.
+ This is a smart contract whose sole purpose
+ is to take in funds and automatically distribute them
+ across many different addresses.
+ Of course, there could be false positives here,
+ but the activity implies that the destination addresses
+ all received funds from a single source
+ and therefore they're connected in some way.
+ So there's certain types of filtering you can do
+ around dispersion contracts specifically
+ that can eliminate a lot of the bots that you might see.
+ The other approach involves looking at addresses
+ that have a near zero balance at both the beginning
+ and end of the period that you're aggregating over.
+ For example, if you're trying to find the real number
+ of monthly active users in September,
+ you can look at addresses that had a zero balance
+ on both September 1st and September 30th.
+ This criteria implies that the addresses
+ were transient in nature.
+ I think bots and sibbles typically want to clean up
+ their balances after taking actions on-chain,
+ whereas real human users usually like to keep some balance
+ in their wallets to cover future transaction fees.
+ So this is like an address popped up
+ and then within like some period of time,
+ people dumped into another thing
+ and the address never was revived after that.
+ - Exactly, this is the type of behavior
+ where it received a source of funds,
+ it took some action and then it pushed all of those funds
+ outside so it's a very transient type of activity.
+ That's often associated with bots and sibbles.
+ The other thing that we've looked into
+ is just like the frequency of transactions
+ and so you can analyze these distributions
+ to look at did the address transact one time,
+ two times, three times, four times,
+ five or more times during the period addresses
+ that have just one or two transactions.
+ At best they're a low quality user, at worst they're a bot
+ or a sibble and especially over longer periods of time.
+ This type of analysis can help you
+ in some of that filtering.
+ You can also specifically look at addresses
+ that transacted very, very frequently
+ over very short periods of time.
+ Humans can only reasonably through a wallet
+ or app interface process a certain number of transactions
+ whereas bots can do things much faster
+ and so you can do some filtering there.
+ And then on the flip side, you can optimistically include
+ addresses that are tied to some sort of identity protocol
+ that requires some sort of setup cost.
+ For instance, addresses that are tied to an ENS name
+ or a Farkaster ID or some other linked social identity
+ off chain, those are likely to be real human users.
+ So obviously it's very complicated, requires a lot of
+ on-chain data and analytics and forensics,
+ but we've done an internal analysis taking this approach
+ and I think we've come up with some decent estimates.
+ - Okay, so the first method is basically
+ you're starting with the number of active addresses
+ and you're trying to whittle it down
+ based on culling the wheat from the chaff,
+ culling out the addresses that seem transient,
+ bot-like or low quality.
+ - Yeah, so this is reducing the ceiling.
+ We know what the ceiling is.
+ If there's 220 million monthly active addresses,
+ then we're trying to lower the ceiling.
+ And then we can use other methods to try to get
+ at a reasonable estimate of the floor.
+ - Okay, so let's walk through method number two then.
+ So method number two says,
+ rather than looking at active addresses,
+ let's look at some other sources of data
+ that we might have access to, particularly off-chain data.
+ And I think an obvious place to start here is wallet users.
+ For example, in February MetaMask,
+ which is a popular Ethereum wallet,
+ reported that they had 30 million monthly active users.
+ And specifically they define an active user
+ as someone who either loads a page
+ within the MetaMask extension,
+ or opens the mobile app at least once
+ during any 30-day period.
+ And assuming that we're looking to estimate
+ transacting users,
+ we need to make some sort of assumption
+ on what percentage of MetaMask users
+ actually end up transacting.
+ And that requires some research.
+ I don't think we're gonna find the perfect number.
+ We do have some sources that we can cite
+ that say that 30% of users of MetaMask,
+ at least on a daily basis, actually end up transacting.
+ And so let's say 30 to 50 million,
+ you can use some sort of assumption there.
+ And based on that, you have 10 to 15 million users
+ that we believe are transacting
+ through the MetaMask wallet products.
+ And then all we need to do is try to understand
+ what MetaMask's market share in the wallet space is.
+ Of course, the exact data here
+ is not gonna be readily available,
+ but we can make some educated guesses based on what we know.
+ For example, we do get pretty good estimates
+ of MetaMask's market share on the mobile wallet side
+ based on some data that we get from sensor tower.
+ And so once we are able to estimate
+ what MetaMask's market share is,
+ we can simply extrapolate an estimate
+ for the total number of crypto users
+ from that 10 to 15 million that we discussed earlier
+ and then compare the results to approach number one,
+ the filtering from active addresses
+ to sort of triangulate on at least a range
+ that we feel is in the right ballpark.
+ And by the way, it doesn't just have to be MetaMask.
+ We can also run this exact analysis
+ for other wallet providers
+ who have either reported their numbers publicly
+ or are willing to share their proprietary data.
+ And then as I mentioned,
+ just kind of triangulate on a range based on
+ all of the information that we have.
+ So we have done this.
+ We have done this internal analysis.
+ It is definitely not perfect.
+ I'm not claiming at all that we are super, super scientific
+ about this, but we feel comfortable saying
+ that we think there are 30 to 60 million
+ real monthly transacting crypto users today.
+ Of course, this is still a small percentage
+ of the monthly active addresses.
+ It's 14 to 27%.
+ And an even smaller percentage actually
+ of the total number of people who own crypto,
+ but do not necessarily transact with crypto,
+ it's actually only five to 10%
+ of the 617 million reported by crypto.com,
+ which means there's a huge opportunity here, right?
+ To convert existing crypto owners
+ into active crypto users by bringing them on chain.
+ - So the point is to say is not that,
+ well, the Sibil analysis is perfect.
+ And we can end up at a flawless classification
+ of which addresses are real humans and not.
+ The point here is to get sort of an order of magnitude range
+ so that we can look at growth.
+ That's the goal.
+ The goal is to be able to look back retrospectively
+ and say, we're bigger than we were last year.
+ We're bigger than we were before that.
+ And see approximately how things are developing.
+ - I also have this kind of like funny way
+ of thinking about this too, where I'm like,
+ well, maybe we're entering this new internet world
+ where actually AI and bots and these things
+ that are farming right now for rewards
+ and trying to snatch up incentives
+ that certain projects are offering.
+ Maybe we're entering an internet where like bots and AI
+ are just infused everywhere.
+ Like why are humans the major metric?
+ - Yeah, and look, I don't wanna get too sci-fi,
+ but everything is many to many now.
+ Everything in a networked world is many to many.
+ By that, I mean like, does one person have a credit card?
+ No, you have many.
+ Is a credit card only used by one person?
+ No, like there are many internet accounts, cars.
+ Just everything is totally intertwined and entangled.
+ And as we add AI agents and other such things,
+ it's gonna get even crazier.
+ In a way, what we really want is we want to measure
+ the attentional capacity that things command, right?
+ The total amount of like cognitive bandwidth
+ that they are commanding from the environment.
+ But that's a really like sci-fi way out there
+ getting kind of kooky conversation to have, Robert.
+ - Next year's state of crypto report,
+ can we measure cognitive bandwidth?
+ All right, so if we're sizing up the market,
+ when we're looking at actual users
+ and trying to think about the people who are using
+ interacting with crypto on a monthly basis,
+ actual humans, we're looking at around 30 to 60 million,
+ which is, as you said, 5 to 10% of the people
+ who own crypto globally,
+ and also a fraction of the active addresses too.
+ Why such a wide range?
+ Why 30 to 60?
+ Like, can you not get any more precise about it?
+ - I think if anybody has a problem
+ after they hear the methodology,
+ they might complain that it's not wide enough, right?
+ And maybe it should be wider.
+ Maybe it's 20 to 70 or 20 to 80 or something.
+ It's hard to say exactly, very open to that.
+ We're not pretending that this is a totally flawless analysis.
+ The reason for the range is just contained
+ in Darren's reasoning, right?
+ Like, we had to make some estimates.
+ There's some things you have to kind of guess,
+ like the ratio of monthly active users
+ is reported by minimask to the proportion of them
+ that actually do transact per month
+ they were by becoming an active address, right?
+ Like, those are just things that we have to estimate.
+ - And I think it helps even just to think
+ in orders of magnitude, like what we're looking at here.
+ The fact that active monthly users of crypto
+ is about tens of millions
+ and global owners of crypto is hundreds of millions.
+ There is a gap, there's a gulf there,
+ but we're beginning to see the sort of outline
+ of the market that we're trying to size up here.
+ - That's right.
+ - One thing that will be apparent to anybody
+ who looks at this report is that
+ it's not just that active addresses are at an all-time high,
+ it's that there are a few blockchains
+ that are driving this.
+ One of them is Solana.
+ Solana is far and away,
+ got the most active addresses of any blockchain network
+ that we looked at.
+ It's got 100 million or so.
+ What's going on there?
+ - Well, I think the obvious answer here is that
+ the blockchains that have the most active users
+ are the ones that it's cheapest to transact on, right?
+ And so blockchains like Solana are very, very cheap,
+ which means it's very low cost to set up bots and sibbles.
+ We also got some interesting data from the Artemis team,
+ and we have found that on blockchains like Solana,
+ a large portion of the activity is simply one-time use
+ or two-time use, which indicates that
+ there is a larger percentage of bots and sibbles
+ on these low-cost chains.
+ And so I would take all of the face value
+ monthly active addresses by chain data
+ with a big grain of salt because there, of course,
+ is lots of nuance associated with this.
+ But with all that being said,
+ base and Solana were some of the top destinations
+ for crypto users in 2024.
+ I don't want to take away from the great growth
+ and development that those ecosystems have seen this year.
+ - Yeah, base has the most active addresses
+ of any Ethereum chain that we looked at
+ at 22 million exceeding even Ethereum,
+ which has 6 million.
+ So clearly, they've struck a chord.
+ - Totally.
+ - I was also interested to see Bitcoin up there.
+ Like, Bitcoin's got 11 million by our count.
+ - Totally, and to keep going on this point,
+ like the cost to transact on Bitcoin is not near zero, right?
+ Which means there is likely to be less bots
+ and sibbles on the Bitcoin blockchain.
+ And so you can kind of take that number more at face value,
+ certainly Bitcoin has been an ecosystem
+ that we've seen more builders actually try
+ to build new products and applications
+ on the Bitcoin blockchain.
+ And I think it's gotten very mainstream attention
+ with a lot of top politicians talking about it.
+ So I think definitely a good year for Bitcoin.
+ - Definitely.
+ I mean, like the strategic Bitcoin reserve,
+ once a niche idea is becoming more mainstream.
+ - Yeah, and to add to Darren's point, all in all,
+ I think it's a lot more difficult
+ to look at Bitcoin activity and say
+ that it's largely driven by sibbles.
+ I think that's just a lot more difficult to believe.
+ So if activity is positive on Bitcoin,
+ the implication is that there's probably an increase
+ in real activity across the rest of the space.
+ I mean, take with a grain of salt,
+ but I think that that's likely to be true.
+ - So we're talking about some of these blockchain networks
+ that have had a lot of activity and interest
+ over the past year.
+ We mentioned Solano, base, even Bitcoin.
+ One of the most exciting things I think
+ about this year's state of crypto report
+ is this segment that we've dedicated to builder energy.
+ This idea of looking at everything that founders
+ are telling us about where they're building,
+ what they're interested in,
+ and where their activities and energies are directed toward.
+ I think that that is gonna be a mainstay feature
+ of future reports.
+ - The big context is that I think the heartbeat
+ of the crypto industry is, of course,
+ all of the builders who are building the products
+ and infrastructure to make this all work.
+ And we meet with and engage with thousands of companies
+ every year as part of our course of business
+ through investment team research, our crypto startup accelerator.
+ We do some external deal tracking.
+ And for the first time, we now have a lot of tools internally
+ that allow us to normalize a lot of that data,
+ aggregate it in a way that we can share some of that data
+ externally so that people could see the bigger trends here
+ across blockchains, geographies, technologies and categories.
+ And we've done that.
+ We've made actually a dashboard that we call
+ the builder energy dashboard.
+ It has some very cool interactive data visualizations
+ around all this data.
+ And you can check it out at builderenergy.a16zcrypto.com.
+ - One thing I'll point out is we were talking about
+ blockchains that have the most active addresses.
+ And it's interesting to me that it sort of lines up
+ with where builders are interested in building on
+ and what they are building on.
+ We've seen more and more builders interested in Solana.
+ And actually building projects on Solana.
+ That was the biggest jump in interest
+ that any blockchain had seen between this year and last year.
+ Base as well, super high up there.
+ And even Bitcoin in slot number three
+ had a really big bump in people who want to build on it.
+ - Yep. And maybe just to add one clarifying point here,
+ the way that we source this data comes from a question
+ that we ask founders and builders.
+ We ask them simply what blockchain ecosystems
+ would you be interested in building on?
+ So it does not mean that there are this many builders
+ specifically deploying contracts
+ or that there are a certain number of protocols
+ on these blockchains.
+ It simply just means kind of where generally speaking
+ are these builders interested in building on.
+ And I'd say still today, Ethereum and all of the layer twos,
+ including base and arbitrum and optimism and ZK sync
+ and the others still capture a majority
+ of the builder mind share.
+ So I think those were the key takeaways from that data.
+ But you can check it out yourself
+ by looking at the dashboard.
+ - Excellent.
+ So this is an election year
+ and crypto has become a part of the national conversation.
+ People are talking about it, politicians are talking about it,
+ candidates for the office of the president
+ are talking about it.
+ What have we found about how crypto has sort of changed
+ from last year when we did the report to this year
+ when it comes to a policy perspective?
+ - Yeah. So crypto has become political in this sense
+ that the crypto industry believes that political engagements
+ can help resolve some of its major challenges.
+ And a big question is whether that has made it
+ to the mainstream or not.
+ Have the crypto industry's issues become something
+ that some voters or enough voters care about?
+ - Probably for me, the most interesting slide
+ in the policy section of this report
+ is this analysis of the crypto interest
+ that we're seeing within various states of the union.
+ Walk us through this analysis that you did here
+ and what you found.
+ - I think everybody knows that this presidential election
+ is shaping up to be a very tight race.
+ I think it will likely be decided by a handful of counties
+ in a handful of swing states.
+ And so we wanted to at least understand
+ is the interest based on some of the data that we have,
+ is it growing or shrinking across these different states?
+ And so we basically used Google Trends data.
+ We looked at a basket of search terms
+ that were relevant to crypto.
+ So we looked at Bitcoin, Ethereum and crypto.
+ And we looked specifically at the relative change
+ in search interest as defined by Google Trends
+ from 2020 to 2024.
+ And we looked at which ones increased in rank
+ and which states decreased in rank.
+ And then we basically plotted that on a map
+ and showed which ones had the highest growth,
+ which once had the highest declines
+ and then basically plotted all of that data.
+ And I think if we look at the swing states specifically,
+ I think the most interesting takeaway is that
+ Pennsylvania and Wisconsin actually had top five.
+ I think there were fourth and fifth in the ranks
+ by change in this relative crypto related search interest
+ since 2020.
+ And these are some of the tightest races currently
+ as indicated by various prediction markets.
+ And so I think there is many different factors at play
+ and you need to be careful in what you conclude
+ from a very simple analysis like this alone.
+ But I think there is some evidence to suggest
+ that crypto is relevant here and could have an impact.
+ - Yeah, I mean, it's not a sentiment analysis.
+ So we don't know exactly what those people
+ who are searching for these crypto terms
+ actually think about crypto.
+ But we do know that they are searching for crypto terms
+ which just kind of indicates general interest
+ and is pretty interesting to note in and of itself.
+ You mentioned Pennsylvania and Wisconsin in the top five.
+ Michigan is I believe number eight.
+ So that's in the top 10.
+ And then there were some declines.
+ Some states saw a little bit of a drop in interest.
+ One of those is Nevada,
+ a place that has the city of Las Vegas,
+ which is often associated with gambling.
+ So if there's less crypto interest in Nevada,
+ I don't know that that's necessarily a bad thing.
+ But it is really interesting to see that, yeah,
+ this election could come down to a few counties
+ in a few states and these are places
+ where there is increasing interest in crypto,
+ especially since last election in 2020.
+ - And just to add clarifying detail,
+ all of this data is by default
+ from Google Trends population adjusted.
+ So they are representing this data as a percentage
+ of the total searches in the region.
+ We don't actually have visibility
+ into the actual total numbers by state.
+ - That's right.
+ And total numbers anyway would be sort of skewed
+ just toward the states that have the biggest populations,
+ which wouldn't be extremely informative.
+ Another really big thing that happened this year
+ from a policy perspective was the Bitcoin
+ and Ethereum exchange traded products were approved.
+ And I'm deliberately calling them exchange traded products,
+ ETPs and not ETFs because ETFs,
+ while they are a form of ETP,
+ the underlying portfolios of them would have securities.
+ Whereas in this case, these crypto ETPs were registered
+ with the SEC in a way that indicates
+ the underlying portfolios are not securities.
+ Anyway, that's a really important point,
+ but it is the first time we've ever had these market products
+ accessible on major stock markets.
+ It's kind of a big deal.
+ - I think it's a very big deal.
+ I think it legitimizes crypto as an asset class.
+ I think it puts us on a path to really having crypto
+ be a part of every diversified portfolio
+ and then just makes it much more accessible,
+ which I think is a good thing.
+ In the report, we do look at these kind of net inflow numbers
+ because crypto is all on chain.
+ We can see when the ETFs are accumulating
+ and distributing crypto out of these products,
+ they haven't been all that high relative to expectations.
+ Maybe it has underwhelmed a bit,
+ but I have talked to some experts
+ and they do say that getting the distributors activated
+ is just something that's gonna take time.
+ You need to go through a long process.
+ You need to get it into the model portfolios.
+ You need to discuss it with your clients.
+ And I think that could be a multi-year process.
+ And so I'd keep an eye on those inflow numbers
+ over the next few years
+ because now that we have them,
+ I think a tremendous tailwind for the industry.
+ - Yeah, I think it absolutely does broaden access
+ to a whole new segment of investors
+ that otherwise would not have dabbled with crypto beforehand.
+ I'm thinking about my dad for one.
+ He's like, where's the ETF?
+ Where's the ETP as it were?
+ 'Cause he's probably not gonna set up a hardware wallet.
+ All right, okay.
+ Anyway, so let's dig into some of the other things
+ we found in this report.
+ People always ask this question,
+ where are the crypto applications?
+ But there's one that's kind of been staring people
+ on the face for a long time.
+ And that is stablecoins.
+ Stablecoins are a product that people are using a lot.
+ It's a crypto product.
+ I think people discount that.
+ - Well, stablecoins have been in crypto for a long time.
+ In the earlier days, people used to think of them
+ as something that would end up being for payments.
+ And very interestingly, what we found in 2021, 2022,
+ as the stablecoin supply has really started to pop off,
+ was that they were primarily being used
+ as a means of settlement between centralized exchanges
+ and also as collateral for DeFi protocols,
+ something people could supply and lend in a protocol
+ and then enable other people to borrow
+ and create debts denominated in dollars,
+ which is a lot easier to reason about
+ than a debt denominated in Ethereum
+ or some other volatile asset.
+ Another reason why stablecoins make a lot of sense
+ as collateral is that if you're borrowing
+ a fair amount on chain,
+ it may be totally reasonable to pay a 30, 50
+ or even $100 transaction fee to perform that borrow
+ because it still may be meaningfully more affordable
+ than other ways to engage in an over collateralized loan.
+ And that is really the type of use case that we saw
+ for people in 2021 through 2023 period for stablecoins.
+ But as a result of the infrastructural improvements in 2024,
+ where lots has come online, not just 4844,
+ but the proliferation of L2s in Ethereum world generally.
+ - 4844 being the Denkoon upgrade
+ that Ethereum went through in March of this year,
+ also called Protodanksharding.
+ - Yeah, so as a result of those infrastructural improvements,
+ as well as increasing adoption in newer generation,
+ newer architecture or blockchains like Solana,
+ Sui, many others.
+ Now sending stablecoins in a single transaction
+ often costs a penny or less.
+ So because of this, so just this year,
+ because of these improvements,
+ I think a lot of people are talking about stablecoins
+ as a medium for payment again.
+ It's really interesting to me
+ because I can't emphasize enough how in 2022,
+ this was just a non-start.
+ Everyone had given up on it.
+ I don't think I heard the word payment in 2022,
+ except to debunk the possibility
+ that stablecoins were being used for payments.
+ Whereas now it's something that I'm hearing about all the time
+ and it's not just in a conventional pay for your coffee
+ with crypto setting, although that is actually
+ a real possibility Coinbase had a pay for a coffee
+ with the USDC day in New York, not long ago.
+ It was a lot of fun, but more concretely,
+ now people can play with blockchains
+ as a piece of infrastructure
+ to potentially bring down interchange fees
+ and merchant network fees, all the types of fees
+ that go into settling an actual consumer payment
+ for something.
+ I just pre-ordered a book from Stripe Press
+ with the new Stripe Pay with Crypto feature.
+ USDC on Solana was fantastic, it was just a really straightforward
+ experience for me.
+ Of course, I already have crypto on my wallet,
+ so that made it pretty convenient, but these are real things.
+ Right, this is because you've got to still onboard
+ to like a layer two network, say, an L2, a roll up,
+ where the fees would be lower.
+ But once you're there, it becomes quite seamless
+ to transact and move around.
+ Yeah, and there's still very meaningful UX challenges.
+ But the point is to say is like, now this is in the story
+ and there's a lot of crypto projects
+ that are interested in trying to improve payments
+ or aspects of payments or take advantage
+ of the ease of settling payments internationally,
+ computationally.
+ There's all kinds of ways that payments really ought
+ to be programmed and experimented with.
+ And now just this year, that's a possibility.
+ So just to set people's expectations like the way
+ I like to think about it is now that there is a glut
+ of supply for being able to transact stablecoin,
+ dollar-denominated payments, how long will it take
+ for builders to consume that extra supply
+ in terms of interesting applications?
+ It's not instant, people don't realize this,
+ people kind of like see new technology, it sort of appears.
+ But from my perspective, it takes at a minimum six months
+ to start to see people really talk about it.
+ And then it takes about two years for people
+ to soak up all of the excess.
+ This reminds me a lot of the midwitt meme
+ where it's like maybe it is as simple as just,
+ when the fees come down, stablecoins work well, right?
+ When the fees are really high, stablecoins kind of suck.
+ And so I think to all of the points that Eddie made in 2024,
+ we made a ton of infrastructure improvements.
+ It brought fees down just to share some data
+ from our report on this.
+ In 2021, to send USDC on Ethereum
+ using the average gas price, it was about $12.
+ That's a lot of money.
+ That was my lunch that I just had today.
+ - Yeah, and as people took for granted,
+ that's obviously totally unacceptable
+ for a payment setting.
+ Unless you're moving tens of thousands of dollars,
+ then it actually may be better,
+ but there's a smaller number of people
+ who are in that situation.
+ - Definitely.
+ Today, if you use USDC on Ethereum, post EIP 4.44,
+ it's like $1.
+ But if you use USDC on base, which is a layer two,
+ it's less than a cent, right?
+ And so that makes all the difference
+ when it comes to stablecoin adoption.
+ And it's no coincidence that 2024 was the year
+ that stablecoins found product market fit.
+ And it's I think because it's as simple
+ as just the infrastructure got better,
+ these came down and now it works.
+ - It's really amazing to wrap your head around this
+ that just a few years ago, it cost $12 to transact.
+ - Exactly.
+ It totally changes the applications that are possible.
+ And I think there's a number of examples
+ that we can point to that are only now possible
+ in a low fee environment.
+ And we do our best to highlight
+ those emerging applications in the report.
+ - This doesn't just speak to stablecoins,
+ it also speaks to other sorts of applications
+ that weren't possible before.
+ I mean, I would say the most striking thing to me
+ in this report compared to past reports was,
+ look, NFTs were going crazy a few years ago.
+ The secondary markets, NFTs were trading on them
+ for billions of dollars regularly.
+ That activity has subsided.
+ But now, because fees have come down,
+ we're seeing totally different sorts
+ of consumer behaviors arise around NFTs.
+ I think a lot of people might think that NFTs happened
+ and then they went away and they're over and done.
+ And your sort of mainstream listener here
+ might not realize that they've actually stuck around
+ and they're just gained traction
+ in a completely different context.
+ - Being honest, the NFT market has faced
+ some pretty tremendous challenges.
+ There was a lot of speculative activity in prior years.
+ Very high trading volume, high priced premium collections.
+ We definitely got over our skis a bit as an industry.
+ As a result, we've seen a 90 plus percent decrease
+ in trading volume over the last few years.
+ There's been a ton of drama around
+ how creators can enforce royalties.
+ And so we have faced a lot of challenges
+ and I think there are some data points
+ that you can look at that say,
+ wow, the NFT market really is not what it once was.
+ And I think that is very true in all senses.
+ But I think what's also happened at the same time
+ is to the point we were just discussing
+ about the infrastructure getting better,
+ these infrastructure improvements enabled NFTs
+ to be exchanged and traded and interacted with
+ at much lower costs, which really kind of shifted
+ the behavior away from these high volume,
+ high price speculative secondary markets
+ into these newer low cost social collecting experiences.
+ For example, if you look at the number
+ of NFT collections with 50 plus unique mentors,
+ the trend is actually very positive.
+ It means that people are still interacting
+ and using these NFTs and collecting these NFTs,
+ but they're doing it much different than they had
+ in prior years, and this is only possible
+ in a low fee environment.
+ You can look at products like Zora today,
+ you can look at products like Rodeo today,
+ and there are some really fascinating, cool, new,
+ emerging cultural behaviors around this social collecting
+ that I think many people would find really interesting.
+ And so I would say the NFT market is very much alive,
+ but I think behavior has shifted
+ and I think it's all driven by the infrastructure developments
+ in 2024.
+ - Yeah, I don't know that there's a perfect way
+ to communicate what this new behavior is
+ other than like people like to collect stuff,
+ and on a social network, you're probably familiar
+ with liking posts, and I've heard people describe
+ this new sort of social collecting experience
+ as a kind of super like behavior,
+ where you're just expressing
+ that you're interested in something.
+ - And critically, it's on the order of magnitude
+ of like one to two cents per collecting in prior years.
+ We were paying tens of thousands or hundreds
+ of thousands of dollars, which of course,
+ only very few people can afford.
+ But now we're opening it up to a much broader audience,
+ which I think is a net positive for the NFT market.
+ - We gotta recall that the way crypto has developed
+ is the first thing that you can do,
+ and actually the simplest thing to do computationally
+ is just to buy and own the thing.
+ That is the novel component is being able
+ to directly own the underlying asset
+ on this big shared state computer.
+ Doing more complicated things, like transacting
+ or mutating the state of a program,
+ these require much more computational capacity,
+ in addition to creativity from application designers,
+ in addition to user experience improvements
+ to make it easier to do those things.
+ We're seeing advances on all of those fronts,
+ and so you should expect the complexity
+ of what people do with blockchains
+ to increase over time.
+ Starting from the simplest, which is just owning
+ and moving to the more complex things,
+ interacting with programs.
+ - Even just the mentorship that it takes to understand
+ what is activity on a blockchain,
+ it's affected by this evolution,
+ where it's not just a money payment system,
+ it's actually a shared state computer, as you call it, Eddie.
+ And these interactions can be interactions with applications,
+ just like people are interacting with websites or something.
+ All these interactions can be much more expansive
+ than this sort of limited view of crypto,
+ just as like a money thing.
+ - Yeah, and I wanna sketch out like,
+ there's a pattern to how these things unfold, right?
+ Just buying an NFT when the costs are very high.
+ That's the simplest thing you can do,
+ that's the best supported thing you can do,
+ and that's probably the only thing
+ that's reasonable to afford, but NFTs are programmable.
+ Experimenting with what that looks like
+ requires low gas fees.
+ So what I expect, like the exact pattern I would expect
+ would be speculative boom, with very simple uses,
+ where most of the interesting things that happen
+ in the very, very earliest stages
+ are actually the themes and the ideas that come through
+ as people sort of imagine what's possible.
+ You see glimmers of the very exciting things.
+ Of course, then they run into the pragmatic reality
+ that it's too expensive, it's developing too slow,
+ there are certain pragmatic limits.
+ As those things scale, then experimentation returns,
+ and then as experimentation develops, more complex
+ and interesting applications start to take place.
+ We just described that with stable points.
+ The exact same thing is gonna happen with NFTs
+ and with all these different settings.
+ It's not a crypto specific thing,
+ I think that's how AI is developing as well.
+ - Because you mentioned AI,
+ I think people listening will recognize
+ that AI is one of the biggest trends of the past year.
+ But what's interesting is that it's not just a trend
+ within tech, it's also a trend within crypto.
+ Maybe it's unsurprising that crypto influencers
+ are talking about AI, but what is more surprising
+ is that the people likeliest to visit the websites
+ of various AI tools like chat GPT
+ are also the likeliest to visit
+ some of the top crypto websites out there.
+ And that goes to this sort of inference
+ that could possibly be drawn that there is strong overlap
+ between the user bases of these kind of frontier technologies.
+ - Yeah, I mean, definitely it's a hot area.
+ And AI was clearly the breakaway narrative in 2024,
+ even among crypto social circles relative to other topics.
+ And so clearly people are thinking about this.
+ And a lot of the top crypto sites
+ are highly, highly overlapping with chatgpt.com,
+ which indicates that there may be an overlap
+ in crypto and AI users.
+ And the fact that there is,
+ I do think reinforces this point that it's a hot area.
+ And I think we should expect to see more innovation
+ in this pocket of crypto specifically.
+ - So let's cover some more emerging applications.
+ The cost of transacting on blockchain networks
+ is coming down, like we said,
+ it can cost as little as cents on the dollar now
+ or even less than a cent,
+ just a tremendous plummeting of costs there.
+ What other territory does this open up?
+ - Yeah, some areas that have popped up include D-pin.
+ There are new forming marketplaces for energy,
+ for wireless span width, for mapping,
+ for weather, for food delivery.
+ - This is decentralized physical infrastructure networks.
+ So it's where the digital world meets the physical world,
+ like using a digital overlay to manage resources
+ in the physical world.
+ - Yeah, and the difference, you know,
+ of course we have these things like with Uber and Lyft
+ and so on, you could call those like web to D-pin networks.
+ The key difference is that in a blockchain,
+ there's a degree of credible neutrality
+ about the underlying platform.
+ That means that people who build on top of it,
+ including not just the suppliers of the good
+ and not just the people buying it,
+ but also people who build applications
+ to make the whole thing work better,
+ can take for granted what they're building on
+ and not risk being rent collected
+ or Sherlock by the underlying platform.
+ And if you can make payments affordably,
+ if you can update reputation systems,
+ incorporate all kinds of interesting identity systems,
+ all these things that these marketplaces need,
+ then they can finally exist.
+ So those have been emerging.
+ Maybe a final category, which we give a little glimpse of
+ in the report is decentralized social networks,
+ Farcaster, which is another portfolio company of ours.
+ It's an incredible place for builders to experiment
+ with different types of tools, different types of toys,
+ to extend and improve the experience
+ for all types of users.
+ And I know for a fact, just having spent a bunch of time
+ with the Farcaster team that they are totally capacity limited.
+ They're working really hard to allow the network
+ to post more and more people while remaining
+ totally decentralized.
+ And you can see in the report, a lot of projects
+ where people have been experimenting with software
+ on top of this network.
+ - Even in our builder energy dashboard,
+ we're seeing that a lot of builders
+ are interested in social networks.
+ I think 10% of the founders that we've talked to
+ and looked at are building social related projects.
+ So I think people see this opportunity
+ and they expect that it's gonna be a thing
+ given how big it was in web too.
+ - Yeah, then there's prediction markets.
+ Of course, those have been huge this year.
+ No surprise given the incredible dynamics
+ and volatility related to the election.
+ - Yeah, prediction markets is an idea
+ that people have been talking about for decades,
+ but have been hamstrung.
+ And people are actually coming around to their value.
+ An ability to source up knowledge
+ from disparate parts of the world
+ and kind of get a better, more informed picture
+ of the state of the world
+ and how things might shake out.
+ It's interesting to see that it's actually finally
+ getting some traction when it's a very old idea
+ that has been stalled for so long.
+ All right, Eddie, we've been putting out reports
+ for three years.
+ What's been most surprising looking at this year's report
+ compared to earlier reports?
+ - I don't know, stepping back, I'd say,
+ when we're deep in the mix, like we are,
+ it often feels like nothing is coming fast enough.
+ I feel that all the time.
+ I want it right now, right now, I'm sick of waiting.
+ And there are some areas that have definitely lagged,
+ but at the same time, it is a little bit unbelievable
+ when you look back at the progress.
+ Let's be very conservative in our estimates
+ and let's say we have 30 million monthly
+ active users of blockchains.
+ That's pretty damn good.
+ Like I'm pretty happy with where that is
+ given the historical infrastructure limits.
+ Like about a year ago, we were all debating
+ how long it would take things to start to heat up
+ in terms of on-chain usage.
+ And where I ended up was that six months after Denkoon,
+ six months after '48, '44, is when we'd start to see
+ like new types of stories
+ because that's about how long it takes.
+ And we're just like six months after.
+ And I think that that's exactly what's happening.
+ Like I think the payments thing is one of those things.
+ And I think some of these new networks,
+ some of these like deep in networks are examples of that.
+ So it feels very on track to me and I'm very pleased with that.
+ That's kind of surprising, maybe in a certain way.
+ That is surprising to me that it feels very kind of like
+ we are thinking it's going unfold.
+ If you had to cast your prediction a year ahead,
+ what do you think is going to be the theme
+ of State of crypto 2025?
+ - I hope that all the extra block space is filled
+ with something, something productive.
+ That's what I hope it's about.
+ It's about what fills that block space.
+ We just started creating all these L2s and new block chains.
+ And maybe something that we didn't put in the report
+ 'cause it can be challenging to present
+ in a very straightforward way.
+ But bridges are great for people in crypto.
+ You know that three years ago,
+ there were very few bridges and they were terrible
+ and they were slow and they were expensive
+ and they were error prone.
+ There's just a lot wrong with them.
+ Now bridges, there's myriad options,
+ really high quality, fast, super affordable,
+ great connectivity.
+ That's like no question.
+ Anyone in crypto would agree with that.
+ Well, now that we have good bridges
+ and now we have good L2s,
+ we're getting tons more L2s and tons more bridges
+ and tons more interoperability questions and fragmentation.
+ So as always happens with technology,
+ you solve one problem, you create another.
+ I'm beginning to see signs
+ that there are really, really great strategies
+ to solve interoperability.
+ And so I hope the combination of good interoperability
+ plus good block space means finally great user experience
+ for a family of applications.
+ If that was the case at the end of 2025,
+ I would be really pleased.
+ That's great for the wishlist.
+ I really hope that in the coming years,
+ our section on infrastructure gets smaller
+ and our section on applications gets bigger.
+ I think there's still a place to report
+ on key infrastructure developments,
+ which I think will continue to happen over the coming years,
+ but I think it should be hopefully more
+ about how do we just overall improve the user experience.
+ There's account abstraction protocols, interoperability,
+ various developments that we can report on,
+ but I hope that that does not be main story.
+ I hope the main story of 2025 and the years following
+ is that we now have a new set of applications
+ that are proving to be real use cases
+ for this technology that is attracting people.
+ And so that is my hope for the years to come.
+ We've made a lot of progress on infrastructure,
+ but hopefully from here going forward,
+ the improvements are more on the margin.
+ Maybe in the years ahead,
+ there won't even be a need for a state of crypto report.
+ We will all just be using these applications
+ and won't even know that there's crypto on the back end.
+ Could be.
+ We'll have to wait to know for sure.
+ Thank you both for joining.
+ Thank you, Robert.
+ Thank you, Robert.
+ (upbeat music)

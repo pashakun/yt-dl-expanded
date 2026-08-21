@@ -1,0 +1,614 @@
+Today on the podcast, I sat down with Dave Balter, the co-founder and CEO of Flipside
+Crypto.
+I go way back with Dave, and Flipside was actually the first investment we ever made
+from Castle Island Ventures back in 2018 shortly after we left Fidelity.
+Flipside has really leaned in aggressively at this intersection of public blockchains
+and AI.
+I want to have Dave on to talk about this convergence and talk about the future of on-chain
+data and insights powered by AI.
+I think you'll enjoy this one.
+So without further ado, here's my conversation with Dave Balter.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed on this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Cut down by bad mortgage investments, Lehman, which has 25,000 employees, will be liquidated.
+The federal government loans American International Group, AIG, 85 billion dollars.
+This is a different kind of market and the Fed is asleep!
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin.
+Bitcoin.
+Dave, welcome back on the podcast.
+You've been on a bunch of times.
+You might be in our Mount Rushmore of guests here.
+Do I get a trophy?
+I don't know.
+We're going to go deep on AI today.
+We haven't done enough podcasts on AI.
+I'd say out of anyone in the portfolio, you've probably spent the most time on it.
+We'd love to maybe just start with your general views on what's happening in the market for
+AI.
+Even outside of crypto, I know you've spent years as a venture person, you've spent years
+in the startup trenches.
+What's going on in the AI market?
+AI is transforming everything.
+I would say there's two big shifts happening.
+There's the in-company shift where everybody's work is transformed.
+At Flipside, engineers start at Cursor or other solutions.
+They don't code by hand up front.
+They code and then transform that into human helping that code be productive.
+I think that transformation impacts the whole business.
+So product at Flipside's role has had to change dramatically because engineers can
+actually move faster than a PRD or a prototype that comes out of research and product.
+They build it, test it, and are getting outputs before even a product person can create it.
+Internally, AI has changed just how everything is working.
+And then externally, the ability for businesses to operate with a different form of product
+or we'll talk about it as it relates to data within the crypto space.
+But you just are seeing everything is turned on its head.
+One company I sit on the board of is in Boston.
+It's called Rayfit.
+It's an AI app which exercises with you.
+So it's doing everything from like counting your reps, but then it's building custom workout
+plans for you based on all the things you would think about.
+My knee hurts or now at a gym in a different city and I don't know what weights I have.
+And so all of your workout routine is being impacted by something much more custom to
+you.
+Everything's changed.
+I don't think we're ever going back.
+It's like the internet cloud, all that stuff, we're not going back.
+Does it feel like the internet to you?
+I mean, obviously you were there when the internet really started to become adopted
+in the enterprise.
+Does it feel like a similar shift?
+Yes.
+In the polarization of people's perspectives.
+That's good alliteration right there.
+Like polarization of people's perspectives, I got to write that one down.
+There are people who are like, oh, AI, I will never touch it.
+My kids are like, oh, it's draining water and whatever it's doing.
+Electric.
+I'm like, you're on TikTok all day.
+I don't know what you're talking about.
+That's doing just as bad.
+It's polarizing because there's fear and change.
+I don't have to relearn how to do this.
+I don't want to have to do this.
+It hallucinates.
+It can't be good to once people are starting to use the tools and feeling what's changing
+to like my life will never be the same.
+And so it feels like the internet in that you've got real transformation happening in
+people's footprints and how they're doing things.
+It feels bigger than the internet in that AI systems have implications for our world
+and for humankind and singularity and all that stuff.
+That's pretty big.
+So it feels bigger than the internet.
+It feels like the same type of change, but really implications are much further reaching.
+I've had the experience of using Chachi Petit and the other products and I remember just
+thinking when I first started using it that my entry level job as a management consultant
+probably wouldn't exist now, or at least in a couple of years it probably won't.
+Or maybe that there would be two people in the analyst class as opposed to 12.
+And so really hit me that a lot of the things that I was doing in terms of secondary research
+and building slides and synthesizing data could just be done a lot more easily now.
+I'm wondering if you had a similar moment thinking about Flipside as a company once
+you started to harness AI.
+We have this board member, Shikhar Ghosh, who's brilliant.
+He teaches blockchain and AI at Harvard Business School.
+He was talking to us about consultants and he said, in the industrial revolution, what
+changed was machines took the weakest person and the strongest person and made them equal.
+It used to be if you were the strongest, you would get paid more because you could do more
+and the weakest were given the menial task.
+Now a machine balances strength.
+And in the consulting world, you're seeing the same thing happen.
+The partners used to be the most brilliant and knew how to answer things and be strategic.
+And the analysts were like, go do a deck.
+But now with AI, they're equal.
+The analyst can come in and do as much senior level strategy as the partner.
+And that is causing real shifts in how consulting happens.
+Because as an analyst, you probably wouldn't come in and just do decks anymore.
+You could be actually building just as much strategic value as a partner.
+That's wild.
+Just a lot of leverage in your day to day.
+Totally different amount of leverage.
+Think about that.
+What you'd need to learn to become an analyst.
+Consulting firm is different because you kind of have a lot of tools at your disposal that
+makes you really smart.
+In flip side, I'll tell you the aha moment.
+We for seven years, eight years now have been building data infrastructure for blockchain
+ecosystems and our team was building a tool that was called Rio.
+Think of it like a super Twitter feed.
+We had a client, a big client of ours, ask for something like it.
+Give me something where I can see information in rapid real time, et cetera.
+So they were building this thing and I was getting more and more frustrated.
+Here's another product.
+I'm like, oh God.
+And the UI is not good or whatever it was.
+On a Friday night at 10 p.m., Kyle, who's our COO now, sends me, he's like, oh, check
+this out.
+We just hooked up all the flip side to MCP.
+And I'm like, what?
+I didn't even know.
+He's like, oh, it was a project.
+And I go and it's the first time in the history of flip side where I've been able to use our
+data.
+I am not an analyst.
+I'm not an engineer.
+I've never even touched our data.
+He's like, check this out.
+I go in and write a simple query like, oh, show me the change in DeFi protocol growth
+on Solana.
+Compare it to base.
+It built the most amazing visualization and return of data.
+I was like, holy, I am now an analyst, much like this industrial revolution thing.
+And I literally went to the team and said, kill Rio.
+They were like, what?
+I'm like, kill Rio.
+We are all in on this.
+Because once we've moved beyond just the analysts, and I love analysts, analysts who use our system
+even better, once we move to the strategists or the marketers or the CEOs or the exec directors
+or the investors who can't code, everything changes.
+Everybody's equal.
+And they were like, this is crazy.
+We're going to sacrifice all this build.
+And I'm like, yes, this is what we're doing.
+That was 90 days ago.
+That's unbelievable.
+You have a very strong business.
+I mean, you guys have very healthy revenues and you're doing a lot of interesting things.
+Do you view this as kind of a one way door at the company on the future of this technology?
+Well, here was the second crazy thing.
+I've told the company, I am either the most brilliant or the most dangerous person possible
+in this business right now.
+I am not sure which.
+I'm pretty sure it's a good decision.
+I'm pretty sure it's an amazing decision.
+But there's things I'm doing which are transformative to the business in ways you can't go back.
+So that second thing I did after, let's kill Rio.
+We're going all in on MCP.
+For seven, eight years, we built this, our own SQL interface.
+It's called Studio.
+Six hundred thousand analysts were using it.
+So I went to the team.
+I said, we're going all in.
+We're going all in.
+We're killing Studio.
+I went, we're killing Studio.
+What are the analysts going to use?
+The analysts can still use our Snowflake instance, which has an amazing studio editor.
+We're not telling them to not code in SQL, but as a business, we're going to be the best
+in the world at AI systems integrating with big data workflows, in this case with blockchain
+and holding on to our own SQL interface.
+It's a different business.
+It is OK.
+We do not need to be there.
+And by the way, within a year, every single one of the other data providers are going
+to be touting their AI system and realizing that their SQL interface is going away.
+Think of what Cursor has done to basic coding.
+It's going to go.
+We got to go.
+We're going all in.
+We are going to be best.
+We've already solved so many of the challenges to make this work.
+It's pretty amazing.
+That is a one way door.
+I did that.
+That's pretty awesome.
+I mean, I want to get into what people are using the data for, but the way I'm thinking
+about your category and maybe some broader aspects of the blockchain space is just think
+about the traditional securities market and how slow reporting is.
+For instance, I like to monitor the ATS trading venue data to just see which venues people
+trade traditional securities on, and it gets published one or two months after the end
+of the quarter, and it's an Excel file.
+And it's just crazy to me that that's how we appraise these secondary trading venues
+in TradFi, whereas you can get tick by tick on Uniswap to just see who's using that versus
+its competitors.
+And right now on chain, you have bearer cryptocurrencies.
+You have stable coins.
+I looked at it this morning.
+I think there's $7 billion of tokenized money market mutual funds, but with this market
+structure built, you're going to get a lot of other assets that are put on these chains.
+And it's incomprehensible to me that we're going to have government agencies with Excel
+files three months late reporting just trading Williams.
+So where is this going as it relates to data on blockchains, and how are you guys thinking
+about it?
+There's a time equation to all of this.
+You could go get that tick data over here.
+You could go give a set of reports on Excel.
+One of the biggest changes in this entire AI evolution or revolution is the time to
+outcome.
+If you had all that data at your fingertips that you were just talking about, and I said,
+Mac, go figure out some analysis.
+In yesterday's world, if it was a consulting side, you're going to go put them in spreadsheets
+and do X, Y, and Z.
+If it's the engineering side, you're going to go write queries and QA and do a bunch
+of stuff, hours and hours of work, probably some pair coding, whatever, like the challenging.
+You're not doing that in minutes, and you don't need to know any of that other stuff.
+You can start building off other people's artifacts or start on your own.
+It's the level up of what's possible that you can't have done before.
+I'll give you an example.
+Some folks in our system figured out that not that you can understand trading potential
+or where should I trade?
+About 50% of people that are using our AI systems use it for trading.
+Hey, what's this wallet doing?
+How would I trade like that?
+What are the best trades that are happening here?
+Here are some ideas, but here's what somebody did at next level.
+Hey, can you determine if my trading activity looks like I'm a human or a bot?
+This was their prompt, their wallet.
+Is this wallet likely a bot or user?
+Check this wallet, what its position is on Monad.
+Study the specific protocols this user engages with frequently, and then it comes out with
+a report that says, here's the types of behaviors you're using that make you look like a bot.
+Here's the trades that don't.
+All that's super important as you're getting to not, can I analyze this?
+But can I actually get to a different level of understanding of what I do if I understand
+trading patterns?
+It's kind of wild.
+You couldn't even think of that before.
+That's really fascinating.
+I mean, I remember in the early days when I first started looking at blockchains when
+I worked at Fidelity, one of the reasons why I met Nick was because he was running this
+open source data project that would actually just tell you how many addresses and what
+the volume of transactions were happening on chain.
+And I was just trying to figure out, is anyone using these things?
+Is this just a technology with no use case?
+These days, it just seems like it can go incredibly deep.
+I'm curious how you and your customers are thinking about using the platform to understand
+the economic activity happening on these chains.
+I think I'd started asking analysts in the previous days, are there transactions?
+Is there volume happening?
+You're now getting into the intelligence level.
+This is frankly why this data needs to shift into AI platforms.
+You got to move before beyond sort of one dimensional, here's a chart that shows growth
+to, hey, what is the patterns of behaviors happening in stables that may actually be
+more about what are likely scenarios to occur based on the evolution of things that have
+been happening in the stable market?
+People expect more answers than just chart go up and these systems give you that opportunity.
+Have you ever thought about the amount of capital that is spent in financial services
+to get delayed data?
+It's just staggering.
+These are paying for cerulean reports on AUM of their competitors and transaction volumes
+and things.
+It just seems like that whole paradigm is going to change as a result of these assets
+being on-chain.
+Yes.
+You and I kicked off this journey seven or eight years ago and that thesis was the very
+beginning of the journey where you said this is coming.
+I just think you're seeing the evolution go from this is coming, it hasn't materialized
+yet.
+Let's use some data and analytics to help people start to sort of be able to see into
+these patterns that are occurring, but almost your thesis right at the very beginning when
+you were coming over to 207 South Street and whiteboarding with us, 2016, 2017, it's here.
+There are people now really moving the traditional finance information flow on-chain with stables
+and everything else.
+Your intelligence needs to be further along.
+It doesn't end at just how much volume is happening on USDC.
+You even asked some of the biggest institutions and they're like, I don't understand the patterns
+of that, who's using it, but if I look at it against every other stable coin, what is
+it indicating the change to traditional finance is happening, is in flight?
+You need a much deeper intelligence system to get to.
+It's been interesting.
+I mean, if you had asked me back when we were having those initial whiteboarding sessions,
+of when you'd have dollars on-chain and securities on-chain, I would have said it would be sooner
+and didn't foresee a world where you'd have the guy who taught crypto at MIT coming in
+and just blocking banks and broker dealers from participating.
+So obviously that set it back.
+But I guess at the same time that all of the regulatory blockers were happening, the blockchains
+themselves have just gotten so much better, faster, cheaper, stronger.
+What has it been like to just monitor that evolution?
+Obviously it has an impact on the types of customers that you bring into the flip side fold.
+It's pretty interesting.
+I had a conversation this morning with a blockchain and I'll tell you what they're actually faced
+with as traditional finance really does take center stage here.
+That evolution has happened.
+I think many of those blockchains were fighting over how's that going to happen and are we
+going to be center when it does?
+I don't think it's played out like everybody's thought.
+The thing that's actually happening is many of those non-stablecoin oriented or multi-value,
+they're faster or whatever, but maybe don't have a stablecoin offering that is as deep
+as a USDC or folks like that.
+They're actually faced with a pretty untenable dilemma.
+The market still perceives value where there's vanity metrics occurring.
+Everybody now realizes it's mostly bots and that's only come up in the past two years
+or so that bots have really taken over most of these chains.
+They're faced with this dilemma where we can make the charts look good by using growth
+tactics that are to get bots to do things that just show movement or wash trades or
+whatever the hell it is.
+Or we can make sure we get real humans and quality users and that actually transacts
+better on the chain to real customers.
+But the market of basic intelligence, go look at dashboard, doesn't like that very much.
+They're like, oh, chart doesn't go up.
+It's not about the chart.
+Is this a real business or not?
+These blockchains are faced with one of the worst dilemmas ever.
+Do I sort of falsify the real growth to look good?
+Because it's like looking at everything in 1D or black and white.
+When everything is in color and 3D, dashboard is 1D.
+Don't you think at the protocol level, it'll eventually converge around are you competing
+to be some form of internet money, in which case maybe there's some valuation framework
+that you could apply as a store of value, or are you competing to have transactions
+happening on your chain, in which case we could think about cash flows.
+But ultimately, if you're in the latter camp, to your point, I think you have to have real
+businesses building things on top of your infrastructure.
+It's almost like what good is Swift or ACH if no one's using it.
+A thousand percent.
+I think you're seeing the store of money, the store of value case play out.
+It's where all the traditional finance dollars wants to go.
+And it's rational.
+It's exactly our thesis back in the day.
+When traditional finance changes their rails to this, everything opens up.
+Time is shorter, trust is easier, all that stuff.
+It's that second part where if you were building a blockchain for years that was considered
+a premium L1 or L2, but kind of we're just trying to attract new products or projects
+or cool ideas, and it's not in the store of money, you're fighting to either make yourself
+look pretty by enabling bots to do things, or you're going to maybe be thoughtful about
+a smaller number of customers actually using the products you have, or probably you need
+to shift entirely to a store of money or something of that nature.
+That's why you need intelligence, not just a dashboard, because it just doesn't mean
+much.
+It doesn't do the industry any favors.
+As an industry, we've probably over-hyped certain categories that just haven't come
+to fruition, particularly around these decentralized internet architecture use cases.
+File storage is a thing, but it's not at scale, decentralized compute.
+Some of these categories, I would say, just weren't ready for primetime.
+I actually heard Anatoly on the All In podcast a couple of weeks ago talking about what are
+the next breakout use cases, and I agreed with what he said around a lot of the things
+that were attempted in 2017, 2018 didn't work.
+Really will break out.
+I guess it kind of looks like the internet in that capacity where you have a bunch of
+things didn't work until broadband.
+Exactly.
+And then Amazon and Netflix and all the other things that could be possible with that.
+The previous world order was, I need to figure out if it looks like it's working.
+You might go to a sequel level analyst and say, help me track TVL and momentum for dApps
+on my platform and others.
+You've got a first case issue here, as the space matures.
+How long does that take?
+What's the quality control process?
+So that might take a couple of hours.
+It might have an error in it, takes a while to decode it, whatever.
+The new world order is, we want to track TVL and momentum for dApps across all ecosystems.
+But I also want to grow TVL across my EVM footprint.
+You're moving into action stage, not look back, look forward stage.
+Now, number one, to do this work, it takes 10 minutes.
+You write it in human form and your AI systems are getting you not only the dashboard you
+want, but the intelligence.
+Being thoughtful in how you prompt that, much like any AI system matters, over the last
+30 days on each of these five chains, this is a real prompt someone put in there.
+Get me token transfer volume into the contract by chain and by token, a very human language
+way of deciding what you're going to build.
+And then show me what actions have grown TVL for quality wallets in EVM footprints.
+And now you're going to get a strategy.
+It's amazing.
+And then you optimize like anything else.
+What would you use to do in that case?
+You would call like a consultant and be like, help me with a strategy, but in 10 minutes,
+you're getting a real form strategy.
+It's a token design agency via LLM.
+Totally.
+All the token design agencies should be quaking in their boots at this point.
+What are you seeing in terms of how fast the LLMs are evolving?
+And I'm sure that has downstream impacts on just your product motion.
+What is the key for blockchain data or any large data system?
+If you dump a bunch of data into the system, it does like any AI system.
+It tries to rationalize what you're asking to an outcome.
+And if you just pop a bunch of data in and say, go find TVL and maybe you don't properly
+say in this chain or this year or this type of data science workflow, it actually will
+go maybe pull the wrong table first and join it this way.
+Naturally, like a user, you get frustrated, much like in a typical AI system.
+When you ask a question, you're like, why did it say that?
+Oh, it hallucinated.
+It's not quite that.
+It's actually about workflows.
+The thing you need to do is you need to actually understand how a data scientist would consider
+that problem and build certain types of workflows that teaches the AI system to look in certain
+orders and do certain things.
+A lot of people use our system for airdrop analysis or I'm trying to do this airdrop,
+help me build a strategy that takes these types of addresses out or put these in.
+You kind of need to teach it how to look at addresses in a certain way.
+So the systems are getting smarter because we're starting to build workflows.
+The data is all there.
+You can put anyone's data in there, whoever, doing Nansen, doesn't matter.
+They're all going to dump their data in these systems.
+The workflows are the things that matter.
+They're getting smarter.
+I was given a use case years ago by one of our advisors who said you could build Google
+right now.
+The problem isn't that you aren't technically smart enough.
+The problem is that you don't know the potholes they've stepped in already and you're going
+to step in 10,000 of them on your journey to trying to build a better search engine
+and you'll never get there.
+They're so far ahead.
+It's the same in LLMs.
+All the folks who are building the right workflows and structures that when you ask a question,
+knows how to think about it, that's what's going to make the LLM smarter.
+How has that insight informed just your hiring practices and how you're building the team?
+How has that evolved over time?
+Everyone in our system at Flipside codes direct in cursor or otherwise, that changes the behavior
+profile of your engineers or data scientists.
+We all saw Brian Armstrong throw out anybody that wasn't building with AI first, which
+is totally right.
+It was maybe heavy handed, but totally right.
+Now when we're hiring, we think a lot about the ability to educate or articulate the workflows
+you're going into.
+We are the best data scientists in the world, but if they can't say, wait, wait, this is
+how I process that equation.
+This is how I get to an answer.
+We can't pull that out, extract it and turn it into a workflow design.
+We care a lot about maybe the articulation or the ability for someone to document what
+they're doing as much as the ability to be able to code itself.
+Almost brings the engineer up a level towards more of the product manager, it sounds like.
+A little bit.
+The whole system is changing.
+Product managers are no longer writing specs because engineers move faster.
+The data scientists are doing the product manager specing, which is actually not about
+your front end or your overall design, it's about workflows.
+Everyone's role has changed.
+It's fascinating.
+How are you seeing just the industry writ large now?
+Post-FTX, we saw just a lot of churn in the startups, a lot of wind downs.
+What's it like out there right now when you're talking to other entrepreneurs?
+Fundraising is hard for everybody all the way up the stack.
+Funds are having trouble with their LPs and one investor said to me, fundraising is hard
+except if you're open AI.
+All the money is getting sucked into these systems that are changing the whole ecosystem.
+Now, the problem is going to be, we've all been through this before, there's bubble
+behavior that's happening.
+All it takes is for open AI to stumble a little bit or they're like, it's going to deflate
+a bunch of stuff around it.
+It's going to be like a housing crisis.
+It's not that it's changing everything, it's just that it's getting so valued in a way
+where it's really hard to uphold that value.
+But entrepreneurs, you've got multi-factors.
+One, it's hard to raise capital because everything's going to AI so you better have a deeper AI
+part of your business to your time to market.
+If you can't prove it on your own, get to 5 million ARR without any outside capital,
+you're sort of not building correct anymore.
+That's been a big change.
+So you've designed systems for how a company gets started has changed entirely.
+I think we've gotten to the brass tax spot of entrepreneurship.
+There was a lot of sort of promotion and fluff going on touting your excellence and something.
+And now it's like, I actually just got to prove it because everybody can see exactly
+what's happening and systems let you prove it before you talk about it.
+It is fascinating.
+I mean, if you think about this in a historical context, some of the capex here reminds me
+a little bit about fixed line communications, the amount of capital that went into that.
+And obviously we got the internet out of that.
+So that was great.
+But there were a lot of corpses along the way.
+It's interesting to see companies like Meta and Oracle fundamentally change their approach
+to the capital markets and start burning a lot more cash here in order to keep up.
+So I think you're right that at some point, the amount of leverage in that part of the
+system in the market, I don't know if it'll burst, but there will be some correction.
+It'll be interesting to see what the downstream impacts are there.
+It's going to hit all of us.
+You always should focus on your own business, not what's happening outside your business
+as you got to build something sustainable.
+If that cracks over there, have enough capital, know that your customer is maybe going to
+get into some pain, so have enough room to work a little differently if your customers
+get challenged.
+It's going to happen.
+You don't know exactly how.
+So just don't run out of money.
+That's the number one job.
+Right?
+The number one job.
+Just don't run out of money.
+So whatever you got to do, cut your team faster, do more with less or whatever it is, but survive.
+It's been interesting to see just the growth pockets within digital assets with stable
+coins really bursting on the scene over the past five years.
+You'll have tokenized securities here in the near future.
+The other one that I don't think we've talked about as much is these prediction markets
+and just the amount of on-chain activity happening in that category.
+I'm curious if you have a perspective on that and whether there's interesting insights to
+Colleen from some of these platforms.
+We just saw a tweet, which we're trying to hide from it a little bit, which is someone
+who literally called out Kashi and the prediction markets.
+But what's happening at Flipside and a couple other spots are where the real edge is starting
+And this might be the beginning of the next frontier of how people actually behave.
+The prediction markets almost in some ways are still one dimensional.
+Humans going back and forth and debating these things.
+But if you had an intelligent system that's looking at multiple factors to make the types
+of predictive bets, everything changes.
+I think those are really interesting platforms.
+They tap into the social norms of competition and value creation and everybody wants to
+know the answers and that on the answers.
+They're tapping into all the psychological behaviors.
+But you're going to have to have AI systems or intelligent systems that start to maybe
+automate those or help those move faster than the human capacity to sort of compete is occurring.
+I'd imagine there's going to be AI systems that operate on their own as their own behaviors
+competing with each other in a predictive way.
+I'm sure people are trying to do that already.
+You remember in the early days when DraftKings came out, people were scraping screens and
+trying to put in more bets over time programmatically, I don't even know if they had an API initially.
+I'd imagine you'll see similar type of dynamics there and it just seems like the regulatory
+environment now allowing these things to exist in the U.S. will also change that where you
+almost have this new financial market emerge.
+If the stock market is some form of gambling, prediction markets just take it to a new level.
+Reddit armies were bad until Reddit armies were just part of the process by which you're
+able to capitalize on returns.
+Well, I guess with a lot of things, if you can figure out a way to tax it, sometimes
+it comes into the light, it might be the same thing.
+So maybe back to the product side, what are you seeing actually people put in as prompts
+and what are the interesting behaviors that are notable since you launched the product?
+I know it's only been a few weeks.
+There's more basic prompting that people are starting to learn over time and talk about.
+Use the trade-adjusted fair value workflow.
+So make sure you call workflows, learn what workflows matter.
+Use the trade-adjusted fair value workflow to analyze a specific contract address to
+find over and undervalued NFTs.
+Call a workflow.
+That's a prompt engineer.
+Make sure you're thinking about that.
+Call a table if you think about.
+Call the monad table or call whatever table and use that to derive some intelligence.
+I'll just do a rundown of some of the things people are using the system for.
+This is yesterday.
+We also use the AI intelligence platform just to say, tell us the types of things people
+are asking about so that we can continue refining.
+So advanced DeFi analysis, much like a pretty typical editor.
+SQL debugging and complex analytics.
+Multi CT queries with error troubleshooting happening real time.
+Security and research focused.
+People are looking at smart contract exploits, copycat cases, bytecode deployment attacks.
+They're referencing academic research next to some addresses.
+A lot of strategic growth campaigns.
+Flipside analyzes 700 million addresses daily basically to know which ones will be performant,
+which ones are bots, which ones aren't, all that stuff.
+So you can ask the platform, generate a strategic growth campaign for me using scoring systems.
+Again, you got to ask it where to go.
+Lots of typical stuff, historical price analytics, all that stuff.
+One thing that's super interesting is the system is multi-language because AI can understand
+everything.
+Here's just a rundown yesterday of the languages you use.
+Chinese, Vietnamese, Korean, Arabic, Turkish, Bengali, and French, and English.
+Just in a day, this thing's out there.
+I'd be fascinated.
+I'd need to start doing some more queries on it myself.
+Just around the time of day that certain things happen, if you could pinpoint geographic
+regions that are more active than others just based on the time zone, that seems to be like
+an underexplored part of this market.
+Try to write that in SQL and do it in a time that gets you somewhere at a cost that makes
+sense versus asking the system to just do that for you.
+All those things become possible.
+All right.
+This is great, Dave.
+Who could have imagined that we'd be talking about LLMs back in 2016 talking about crypto
+data and asset management back then?
+I didn't have this one on the bingo card, but I love the direction.
+Where can we send people that want to use the product, learn more about Flipsid3?
+If we did have it on the bingo card, maybe we would have started Anthropic, and then
+you and I would be having this call from a private plane.
+It'd be a different story.
+Yeah, a different story.
+Anyway, everyone's done okay.
+We're pretty good.
+You should go to Flipsid3crypto.xyz4 slash chat.
+I think pretty soon, actually, our front page of our website will just be the chat product,
+so pretty easy.
+By the way, you can use that in Claude.
+If you have a Teams account, oftentimes that's really interesting because you've got your
+own data put in there for other things.
+You could either use our interface, which it does multi-AI systems, uses Claude or
+uses Gemini or other places, or you could install it directly into Claude.
+All that's on the front of the site, but pretty simple.
+Head over there, give it a try.
+Like anything, you got to learn how to use the system.
+Start easy, but as you get more complex, if you have deeper questions, reach out to us.
+We have a bunch of prompt engineers who will teach you some pretty nifty tricks.
+Well, thanks again for coming on the podcast.
+Congrats on the new product direction.
+I think it's awesome.
+Thanks, Matt.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To learn more about Castle Island, visit castleisland.vc, and to listen to all of our podcast episodes,
+visit castleisland.vc.vc.vc.vc.vc.vc or just click on the tab on our website.
+Thanks for listening.

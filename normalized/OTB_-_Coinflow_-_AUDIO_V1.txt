@@ -1,0 +1,399 @@
+TITLE: Stablecoin Payments for Faster Settlements (Daniel Lev) [Castle Island Ventures]
+URL: 
+VIDEO_ID: OTB_-_Coinflow_-_AUDIO_V1
+
+TRANSCRIPT:
+Today, I sat down with Daniel Lev, the founder of CoinFlow. CoinFlow is a payment service provider
+that uses stablecoins to offer faster settlement of both card payments and payouts for businesses.
+Daniel's vision for CoinFlow was inspired by his previous work at e-commerce startups.
+He had experienced delays and inefficiencies common in payment settlement and realized that
+stablecoins could create a better offering. Without further ado, I hope you enjoy my conversation
+with Daniel. Matt Walsh and Nick Carter are partners at Castle Island Ventures. All of these
+expressed by them or the guests on this podcast are solely their opinions and do not reflect
+the opinions of Castle Island Ventures. Guests and hosts may maintain positions in the assets
+discussed in this podcast. You should not treat any opinion expressed by anyone on this podcast
+as a specific inducement to make a particular investment or follow a particular strategy,
+but only as an expression of their personal opinion. This podcast is for informational
+purposes only. Brought down by bad mortgage investments, Lehman, which has 25,000 employees,
+will be liquidated. The federal government loans American International Group, AIG, $85 billion.
+This is a different kind of market and the Fed is asleep. The federal government is stepping in to
+stabilize Fannie Mae and Freddie Mac, the two mortgage giants that have been threatened by
+the housing crisis. The Bank of England has pumped 75 billion pounds more into Britain's ailing
+economy with a new round of quantitative easing. You print a couple trillion dollars and all of
+a sudden people start to worry. So out of this worry, we have something called the Bitcoin.
+Bitcoin. Daniel, thanks for coming on the podcast. Excited to chat today.
+It's probably overdue at this point. I'd love for you to start by touching on what was the premise
+for CoinFlow? Why did you guys start the business and what have you hoped to build from the day one?
+That's a great question. Quick background is I've been building financial products for quite some
+time in the quote unquote fintech space and I've been building crypto since I was an engineer in
+college. And in between, I was at a hyper growth fintech. I was leading a big project in there.
+We went through hyper growth, got pretty bloated. So I had some time to dabble in side projects.
+Ended up starting a side project turned company. That was a fantasy sports protocol and so on.
+We got a lot of free users and classic like VC back company that goes free,
+strive freemium and convert. The free users couldn't convert because everything was on
+blockchains and smart contracts. So you needed stable coins to buy things when people try to
+convert. This was four and a half years ago. So people, you know, stable coins really were.
+I barely knew what stable coins were when we're trying to use them in our project and no one who
+convert. So we started using on ramps. Those had horrible conversion and I was pretty blown away
+how like this infrastructure piece of like, hey, someone wants to pay you and you can't get paid
+like doesn't exist for anyone in the crypto community. So it went down like a huge payments
+rabbit hole and then realized that this doesn't exist. And what we were solving for is like,
+hey, connect a traditional credit card or any form of payment acceptance to a smart contract.
+And as soon as that form factor of like credit card is authorized, you can instantly the merchant
+is being you didn't receive those funds. So that didn't exist. But if that existed, that would
+actually like create order of magnitude improvement and what exists today in payment processing,
+which is you swipe a card and takes three, four or five days for the merchant to get the money.
+So I was like, okay, someone should build this. We'll build it in-house built it in-house. And
+then people started asking us like, hey, who's like your infrastructure under the hood?
+And immediately we're like, okay, I've seen this writing on the wall like I've seen this before
+because the other startup I was at became a new corn. It started as a neo bank that created their
+own loan iteration software and banks started asking for it. I was like, okay, this is great.
+Like I've seen this before people are asking for this product. We don't have it.
+Let's totally spin this out. And my background is building this. So yeah, we built it TLDR built
+out of self need, but like going down the rabbit hole, like that self need, we understood the market
+and like the general gap for it and decided to dive into it. And since then, it's just like
+more and more revelations of like how deeply the system is broken and leaving us like for tons of
+room of innovation. You touched on this, but what actually happens with a card payment today?
+Let's start there.
+Yeah. I mean, at a super high level, there's like a few different players.
+There's a card network. So your Visa, MasterCard, Amex, Discover, et cetera, your merchant. So the
+person that, hey, you were a consumer buying something from there is the issuer. So the person
+that issues the card to the consumer that swipes your card. And then on the other side of that,
+for the merchant, there's a payment service provider, someone like CoinFlow and oftentimes
+an acquiring bank. So someone that helps underwrite and communicate to the card networks.
+All those parties have to communicate. And what's gotten really good in terms of user
+experience is people swiping the cards. Like the consumer has no issues with that, right?
+You swipe your card, you see right away that the payment's authorized. So the payment service
+provider helps the merchant capture that payment. So within seconds, you know, like, hey, why it has,
+or whoever the user is, has money in their accounts and it's going to be good.
+And it will eventually get to the merchants after that step. So like after it says, hey, money is
+there, you're good to go. That's where the money starts moving between all those counterparties.
+And things happen very, very, very slowly. So that's where really like the core of it
+is. And a lot of the, I would say, industry and innovation has happened on the front end,
+making sure that it's like super easy for you, the end user to spend your money.
+And even in post-fact, spending your money, like you're insured, like if something goes wrong,
+you can call to the bank and say, hey, like I was buying an ice cream cone from Dan.
+He promised me vanilla, gave me chocolate. Like I should get a refund.
+So that whole process is like very smooth and I would say more or less solved. But for the
+businesses, like when I sold you that ice cream cone in this hypothetical instance, it took me
+three days to get my money because what happens as soon as it's authorized, then the issuer
+gets pulled their funds, which is the person in the bank that issued your card. They get their
+money pulled. The card network is the middleman. They give it to the acquiring bank and the
+acquiring bank has to send it to the payment service provider, payment service provider,
+so it will release those funds to the merchant. And all those are on traditional banking rails.
+And if you're doing that transaction globally, then it's like via the SWIFT network, which
+adds counterparty banks. And if there's one bank holiday in one country or one delay somewhere,
+then like that whole food chain can slow down. So until we are.
+Yeah, it's like a system that's been built for comfort for the end user with a host of structural
+debt underneath. That's a very good summary. Exactly. It's been built for the consumer,
+the ton of structural debt, but it works for them. So like the average person is not complaining.
+Right. And it's funny because one of the pushbacks I get on stable coins, particularly in the US,
+is people will say, oh, my card network or my card payments works very well. Like I don't have any
+issues. And it's this point that it's built to suit that person, but maybe not the vendor or maybe
+not someone else who's involved in that chain. Yeah, totally. Like I use stable coins in business,
+obviously, every day. And our company uses it 100,000 times a day in transactions. But as an end
+user, I use my card in order of magnitude more. I think that's like because of the rewards,
+everything else we get with it. So I totally get that. I don't know if stable coins will fully
+replace... I don't want to go down this rabbit hole, but as of right now, there's no stable coin
+product that means the end user would rather use my credit card for day-to-day purchases.
+But if I'm buying something that cards can't accept, so like a high ticket item, I'm paying
+my rent, I'd much rather do that via a stable coin. I think rent payments are like a mortgage
+or a card payment, something like that that's larger that someone won't accept a credit card
+for. That makes sense with stable coins. So I totally get where your friends or people are
+coming from. So how does CoinFlow's workflow compare to the traditional payments networks
+that you mentioned? Yeah, so in that process, let's just go back to that ice cream shop example.
+I own an ice cream shop. I sell you ice cream cone. In that traditional example, let's say we're using
+like a legacy provider, let's call it like Stripe. As soon as you swipe your card and it says,
+hey, authorized ice cream cone, and I give you the ice cream cone, then it takes Stripe has to
+release those funds. Once they get it, let's say they get it instantly from their bank,
+which is impossible. Let's say they do. They still have to release those funds to me, the ice cream
+owner and some type of bank payments. Let's call that ACH because that's most banks, not all banks
+take real-time payments. It's going to be ACH. That takes one to three business days. It's Tuesday,
+quick guess, I'll get my money on Wednesday evening, but likely Friday. That's like if I'm
+the ice cream shop owner using Stripe. I'll get my money one to three days from when you paid.
+CoinFlow, what we do as soon as you swipe your card, we get that authorization
+because we know the money is coming from the card networks. We trust Visa will give us the money
+they're legally obligated to. As soon as the card swipe happens, we instantly settle funds
+to the ice cream shop's owner in their digital wallet via stable coins. It looks like a bank
+dashboard where they have money in their wallet. It says US dollars. Then if they hit withdraw,
+if they want to move it to their bank account, we can then instantly pay out to that bank account
+or do it through that same bank payout method. It's there instantly. It can be used. We can
+attach a credit card into the spend. It can be sent cross-border. It can be done with whatever,
+if they send it to another vendor, whatever it is. That's the difference. Instead of waiting
+one to three business days, they get their money in five seconds.
+Are you guys funding that leg off of your balance sheet or do you have access to a line of credit
+or how do you ensure that you can maintain that instant settlement when you might have times where
+there's a lot of flow coming in? Yeah, a little bit of all the above. Some of it is balance sheet
+capital. Some of it is partner capital. Then a lot of it is payouts as well. We get tons of payouts
+of people like, hey, I actually don't need my money for three days. So I'm going to choose a
+cheaper payout option. I think yesterday we had like a $10 million, I think ACH of wire and they're
+like, yeah, we need to get the funds on Friday. So that goes into our liquidity engine and that
+ice cream shop owner can leverage that. That goes into play as well. A little bit of all above.
+And then the cool thing is that we are starting to get settlements from acquiring banks, none of the
+U.S. have been in Europe via stablecoins five days a week and Visa is rolling that out seven days
+a week. So yeah, not only is it structurally an issue that payment service providers can't
+give their merchants funds 24-7-365, but the card networks don't actually have ways to access,
+send their payment service providers a coin flow. Let's say this was, let's go back to the
+Stripe example. If Visa wanted to settle faster, they actually couldn't. We're aware right now
+without stablecoins. So Visa and other card networks are rolling out pilots and yeah,
+we're starting to settle, get those funds seven days a week. It's not going to be T plus five
+seconds like coin flow does it, but that window on like fronting it goes down. So there's definitely
+some man behind the curtain going on that we're solving for with both like financial products,
+balance sheet, our own liquidity engine. But it's cool to see that gap diminish. And we have all the
+infrastructure and technology to manage those different ledgers because you're managing an
+instant ledger, which is the blockchain with traditional rails. So you're connecting those
+two together, not only moving money between them, but like connecting those two ledgers and marrying
+them together, which you've all done in-house in the like battle test out scale. And maybe
+stating the obvious, your guy's job would become much easier if initial payments actually started
+to become made in stablecoins because then you just become an orchestrator of stablecoins to
+whoever the end recipient is or the middleman that you need to route to, correct?
+Yeah, that's right. Like we take in the stablecoin payments today. I don't know if much easier. It's
+just a little bit different. Like we orchestrate between a bunch of different payment methods.
+And in no world is there going to be like one payment acceptance winner of some type of method,
+right? Like today, even for example, we have merchants who do 95% of their volume in credit
+cards, but they still have like 3% acceptance in bank payments and then like 2% acceptance
+in stablecoins or evidence. And even though like in my mind, bank payments is a way should your
+options pay for like, I don't know, this is a red bull, like to buy a red bull, right? But if 3% of
+your users want to do it, you're not going to be like, oh no, screw 3% of my revenue. I'm not going
+to accept it. So the job of people at CoinFlow is going to be accept a larger amount of payment
+options and continue to drive the speed of settlement down to closest instant. So I think
+that's why like stablecoins, I'm so bullish as an infrastructure play, because it's really the only
+way to connect all these very disparate systems and get as close to real time as possible for
+settlement. I'm a believer that over time we'll have more rather than less payment methods too.
+When a lot of these software companies become fintechs at the same time and you have money
+accounts associated with a lot of them and you'll probably have a rise of more digital banks,
+curious for your perspective, but that's the way I see things going.
+A hundred percent. There's more and more payment networks. So like, yeah, I guess like that digital
+bank example you called out or apps that become like more fintech that you can pay with those
+balances. See, I think there's going to be more and more payment networks, both crypto networks,
+traditional fintech network, et cetera. But there needs to be a way to like interoperate them,
+because the goal of if you have money in an account, those people want to monetize in those
+balances. And the only way to monetize on them is one, keep them in there or to like allow them to
+spend those balances. So if they spend those balances, they need a way to transact. And like
+the only way to do that easily globally is either through like issuing a card off that balance
+or to making a stablecoin of your transfer. So you touched on payouts and we've talked about
+payments acceptance. Could you highlight CoinFlow's range of offerings and at the same time
+where you guys have gone based on where you see gaps in offerings from Stripe,
+Adyen, Shift4 and larger existing payments players?
+Yeah, for sure. I would say there's like two main products. One is like allowing
+our merchants to accept payments globally and instantly receive funds instead of waiting
+buckle days. So like all those people you said, at least one, two business days to get your money,
+we do in five seconds. And then also none of them help you like get rid of fraud. They help you
+prevent some of the fraud. The difference between CoinFlow is like we'll eat all the chargeback
+risk. So the value prop is like, hey, get your money instantly and don't lose any money to fraud.
+So that's what the payment acceptance side. But once you get your money, a lot of businesses,
+marketplaces, remittance companies, gaming companies, crypto exchanges,
+anything that has a consumers that need to cash out, fintechs, etc. will not only receive money
+from users but need to pay out to their end users. So there's a payout component and that's other
+products. We have that in like 70 plus countries. I would say the biggest gap that we've seen in the
+market is combining those two products together. So when all those types of companies like especially
+marketplaces where you have, let's say that ice cream shop example, let's say there is,
+I don't know, digital marketplace for ice cream shops and you can buy these gift cards.
+Now I'm the marketplace and I have all these sellers on my site. You're buying stuff from them.
+So not only do I have end users consuming and spending, you also need to go pay out these ice
+cream shop owners and they can be globally. So I think connecting those two products between
+ledgering, holding funds on platform, which is very easy to like digital wallets, fraud, etc.
+That's probably the biggest gap we've seen in the market. And then there's just a lot of payout gaps
+because of how pre-funding works. So connecting stablecoins to that has been like a huge,
+huge win. I'll give you an example. So like say you are a business in the US and you need to pay out
+suppliers over the weekend or whatever it may be. You can pay people out through Visa Direct. If
+there's small purchases up to 50 grand Visa Direct. So you enter your debit card and get paid out
+or real-time payment network. But to get there, you actually pre-fund the bank account to be a
+buyer. So like before 5 p.m. on Friday. So if you don't get your wire in like 2 p.m. on Friday,
+you actually can't use a real-time payment network. So it's kind of contradicting.
+Let's say you don't get your wire in, but you send stablecoins to us. That's still a proof of good
+funds. We know that money's there and then we can burn those funds and then pay off from that
+balance over the weekend. So this like pre-funding dilemma has more or less been solved if you can
+use stablecoins for payouts. So that's another big gap. I think the biggest gap is still that like
+connecting the pay in and payout piece and making both instance. People have done a good job of
+making like the payout piece instant by pre-funding, but it's not like all that instant if you have to
+use your own balance sheet or somehow figure out a way to pre-fund before bank hour close.
+Yeah, definitely. That example is helpful. It makes a lot of sense.
+You touched on the fraud piece. I think that's easy to overlook. How do you guys eat the risk
+of fraud? That seems very attractive if I were a vendor, for example.
+Yeah, no, it definitely is. So the play really is like it's an AI model and it's mixed between like
+insurance and a fraud model. It's going more and more towards like the fraud model and insurance is
+like making sure that we can cover it fully. The fraud model has like 100,000 variables
+and it's an AI model. So it continuously learns as fraud attacks happen. Fraud is like a cat and mouse
+game where like you find the problem, you stomp it and then like they come back like whatever
+interval, hopefully in months or years later, but they keep finding new routes. And that's why like
+the AI is so helpful because if you have a deterministic model, so for example, like what
+that means is, hey, Wyatt is a fraudster and he is figuring out that I'm the ice cream shop owner
+and if I buy a $500 ice cream cone or more, we actually don't do any checks because we think
+that's like a VIP customer. They want gold sprinkled in the ice cream cone and that's like super low
+risk to us. So say you as Wyatt the fraudster figure that out and only buy gold sprinkled ice cream
+cones now. Me as an ice cream shop owner in like two or three weeks, I get those chargebacks.
+I'll figure out like, oh, hey, like maybe we actually shouldn't allow people to buy $500
+ice cream cones or do like really strong KYC, make Wyatt tell us his kid's first name,
+do an eyeball scan, which is going to kill conversion. So that's why these deterministic
+models don't really work because like, sure, you can stop it. You can find out what's happening,
+duct tape it. But when you duct tape it, you actually kill real users. But these AI models
+will learn really quickly. Okay, like we used to only sell one gold plated ice cream cone a month.
+We sold 10 today. Like what is going on? And the model will learn, hey, saying this is suspicious
+activity. Let's stop it. The other beauty is unlike the blockchain and what the car networks
+are starting to embrace and at least these have put in the rules is something like proof of
+deliverability. So in the ice cream example, it doesn't really work well because it's a physical
+good. Well, let's just say like a digital good, a Fortnite skin is a good example. If you were
+dispute right now in Fortnite, like, hey, I didn't get my skin. There's really no good way for the
+car network to have insight into if that good was delivered to you because it's a digital good.
+How that good is delivered is a switch in for nice database, like saying, hey, why it's a count?
+Why is the beast now has the dragon skin? Very, very hard to prove because like Fortnite,
+it's not going to be like, hey, here we say, here's my database keys. Go see this. I'll just
+show like an email. It can be altered. It's not very good. It doesn't win with blockchain.
+Everyone can see it, including the PSP that the item was delivered right away if it's shown on
+chain. So you can actually see the transaction happen like, hey, why I paid with the card funds
+were sold to the merchant and that same transaction that skin was released.
+That transaction can be attached to the payment to visa while a transaction happens.
+So if a dispute then later happens, we can be like, hey, no, why saying he never got this?
+Look, look, visa, look, bank that was actually given. So that's still like very early days.
+But for a lot of use cases, there's like the digital goods. It works very well. It even works
+better for things like remittance or when people are popping up into accounts,
+for example, like adding money to an exchange. Very hard to argue if you have a wallet
+that has received sample coins that you didn't actually get those sample coins.
+It's very easy to prove in a matter of seconds and you can tie it to that exact transaction.
+So there's a ton of innovation happening there behind the scenes, which isn't like talked about
+because one, it's early and it's not sexy. But I read something the other day that like a
+hundred billion dollars of losses happened to merchants last year just by friendly fraud.
+What that means is like people know that if they call our bank and complain
+that something wasn't right with the thing they bought, the bank will likely sound at them,
+which is called friendly fraud. Even though that, hey, like this red bull tasted funny,
+the bank will probably honor that. And now the merchant has a chargeback.
+And I, as a consumer, just got my like $5 back for this red bull. So yeah, there's a lot of
+innovation happening there and I'm excited to see. I think it will like definitely be a sleeper to
+look for in the next few years. Yeah. I mean, from my perspective, there are
+just multiple layers of compensation and issues happening. Like the banks are willing to eat that
+because they get to keep essentially all of the interest or whatever they're making on your
+deposits and that business is too good. So they'll pay you back for your red bull. But
+realistically, then in a way it becomes the end merchant losing, which is a messed up system. So
+there's a lot to be fixed. A single ledger to your point is very attractive, I think,
+when it comes to tracking something like fraud. Have you guys built your fraud engine in-house
+or what are you using? Yeah, I would say our fraud engine is in-house
+and then like any other fintech, we've bundled like 10 different providers.
+See, we have a bunch of different providers, whether we're using even like some AI models,
+we have Gemini, we have another platform that has their own AI model called insure.ai.
+We use them for part of the insurance. We have our own engine that plugs into all these things
+and calculates the risk of fraud. Plus a lot of it is like data orchestration to feed into these
+models. So yeah, I think most things in fintech are built as close to the rails as possible.
+And like orchestrated together without end users knowing anything's there. It just works.
+In the backdrop of some innovation, similar to what we've been talking about, where you're having
+more pay with crypto cards, pay with stocks, pay with treasuries type payment cards. Do you think
+the fraud tooling and infrastructure anti-fraud mechanisms are getting better? Are you seeing
+interesting innovation on that front, especially when it comes to more on-chain assets,
+more assets of different types, et cetera? I would say they're getting better. Nothing has
+been fully cracked yet. And I think it's because it's so early and only in the last year or two
+have been like a new wave of companies building and innovating just generally around the stable
+coin space. There's market leaders like Coinbase, Circle, Altair, there's been people doing it.
+But now we have hundreds of companies. And when you're a market leader like Coinbase, Tether,
+whatever, Circle, you all have your own fraud teams. Sure, you need this infrastructure,
+but at some point you're like, this doesn't exist. We're just going to have our own team
+building internally. But when there's hundreds of thousands of companies, technology, every company
+can't just have their own fraud team, figure it out. You want to use infrastructure providers
+or at least supplement it. So I think that's where the innovation stemming of like, okay,
+now there is a bunch of demand for people to build this type of apps or infrastructure,
+and then there'll be other infrastructure to support it. So that's what we're seeing here.
+I think it's still pretty early days though. Do that make sense? And it seems like over time,
+regardless, these more complex types of transactions like global are going to be more
+advantaged. I was curious to ask you in that vein, how much of what you guys do is US to non-US or
+non-US to US versus domestic? Yeah, I think we're probably in a very unique spot in terms of most
+stable coin companies, quote unquote, right? Most of our volume is US, probably at least 75% is like
+both pans and pads are domestic. And it just shows because like, our banking rails are so archaic
+and so slow that, yeah, speeding up payments using a better rail in between is the example.
+I think like the best example is our biggest category now is marketplaces. So when there's
+a merchant is the marketplace and there's buyers and sellers on both sides.
+This is for digital goods or real goods or could be either?
+It can be anything. It can be anything. I think the issue with these companies right now is
+the money movement is very slow. And you tell any marketplace, like I got my haircut this week
+and I use the marketplace called Squire. It's a place for barbers. So my barber,
+instead of like setting up a Stripe account, managing taxes, managing like the booking,
+Squire does that. Squire is a marketplace and all the barbers have to do is go sign in.
+He enters the dates and you can pay there. You can do everything there.
+On Squire, they use Stripe. My barber gives me a haircut on Friday. I pay via Stripe. He
+gives his money Tuesday. I asked that same barber like, hey, would you want to get paid today?
+His answer is going to be like, yes, I want to get paid today. My girlfriend,
+my friends want to get drinks. I would love to use the money I made today from your tip
+to go buy everyone drinks. Can't happen, right? Coincidentally, Stripe most of their volume,
+I think 70% of their volume or something, 60 to 75. I don't know exact numbers. Majority
+comes from their marketplace product. So you can think about this as like everyone who's selling
+an item through that marketplace is like, hey, I want to get my money faster and they can't.
+And that's all domestic. Like my barber is domestic, et cetera. And that's Stripe's volumes,
+mainly domestic too. So the long story is most of volumes US, unlike most stable coin companies,
+but there's still huge things that are broken in very large industries like marketplaces
+in the US that just having a stable coin in the back end can make way more efficient.
+In that example, do you think the cost of delivering a free payment will come down
+to zero or an instant payment, I should say? Or do you think that there will be some kind
+of a credit market there where you're paying some rate in order to get instant payments versus
+whatever would be a two, three day latency? I don't think it'll go to zero because it
+doesn't need to go to zero. Consumers are willing to pay a lot, like right now, a lot of money for
+it, right? I don't know what the average rate to borrow is right now, but it's 8% for a year-ish,
+right? Even if you're a small business, yeah. Let's call it 8 to 10, right? Let's call it 10
+high side. Consumers are paying like 200 basis points, 2% to get one payment instantly from Venmo,
+Coinbase, Cash App, et cetera. And most people on Venmo are doing the instant payments,
+that's in the US. So every time they receive a payment, that's 2%. So that one payment that
+they just paid for instant payment is 25% of the cost of capital to take that as a business for a
+year. So you can think about how many times that could get recycled. And sure, it might be cheaper,
+but it won't go to zero because people are just willing to pay for it. And if it's marginally
+more expensive, let's call it, instead of 2%, the majority of people on Venmo are willing to pay 2%,
+let's cut it 90% and call it like 20 basis points. That's still a solid margin. And on the credit
+market, that's still pretty good for one transaction. So I think there's like a lot of room to play with
+even if it goes down 90%. Yeah, I completely agree. In the three years you've been working on
+in this area, essentially, how has the environment around you changed, both from a perspective of
+companies and regulatory attitudes? Yeah, I mean, companies, there wasn't many people
+building this. It was all very crypto centric. I would say infrastructure was only being I mean,
+people talked about like, letting non crypto customers use crypto rails. Since I've been in
+crypto for the last like decade, like, oh, yeah, people are gonna use Bitcoin, people use this and
+that same thing in stable coins. Like there was some, I think the 2020 bull market saw some of
+that people come on chain, or businesses come on chain, primarily NFTs. And I think a lot of like
+PR stunts, even ones that did wall got shut down, like DraftKings had an NFC marketplace that did
+pretty well and they shut it down. Or it did really well relative to other NFC marketplace,
+and they still shut it down. It probably didn't do as well as their actual business that makes
+money. So there just wasn't many businesses servicing anything outside of crypto and crypto
+was just really down. But I think there was like a cohort of believers of like, hey, like,
+this core structure does work. And it's just a matter of time. And then between like the 2021
+2022 bear market happened, or like bull market ended to a bear market. It was pretty crazy,
+because most people that were building infrastructure were servicing crypto companies,
+a number of crypto companies went down. So like, your core ICP shrunk. And then not only that
+happened, but regulatory environment got more hostile. So if you're building in something
+that's like financial, they were cracking down on banks in the US, plus on crypto.
+So like, your ICP is going down, and people are out to get you. So that was a pretty crazy time
+the last few years. And then I would say like right around the Trump election, some companies
+are getting scale, using stable coins as infrastructure, the larger companies weren't
+slowing down. And more and more companies like coin flow and others started getting
+traditional web two businesses to use and adapt these tools. And then I think there's a bunch
+of catalysts, but probably the Trump election just sparked a huge insurgence of like, businesses
+want to learn more about stable coins, using stable coins. And then you basically saw like
+every major fintech, and even some before the Trump admin, like PayPal is one that you can call
+out because like, they launched PayPal usb and started talking about stable coins, during the
+Biden administration, etc. But then there's, and Visa was doing this, there's only a few call out
+and I was telling banks like, hey, look, PayPal is doing it, Visa is doing it, trust me, it's
+going to be a thing. And then, so people started like looking at it. But they still looked at it
+like a little weird or squinted. And then when Trump got elected, and acquisitions are happening,
+every fintech star announced their self stable coins came from like sideline to like, oh my gosh,
+everyone has to go and at least do research and development and make a press release if they're
+doing research development about it. So yeah, huge tailwinds on like fintechs. And then from merchants,
+or like from businesses that we serve, I would say the biggest change has been like,
+they're seeing that news, they're seeing that like, hey, like this isn't going away. And
+consensus, this is a better tool. I think they were just scared, like,
+talking in person about it, like, cool, they get all the value process. But then again,
+the tools are using, they work, there's a way to optimize it. But the mental model they were
+looking at was like, okay, we can get our money instant. But the thing we're getting the money
+through stable coins, you know, it's all infrastructure. But let's say the Biden
+administration got elected again, or whoever got elected, and they were like anti like,
+they could just make that illegal. Now, like, sure, we're getting this thing faster. But the
+company that servicing us came and operated more. So that's not a huge one. So that risk is out of
+the picture now, which is awesome. Yeah, it's an important point. It feels like there's a
+sustainability now. Dan, in closing, I wanted to ask to that point you just made, if there is a
+seller of goods, a vendor out there who is in this paradigm, where you take a payment on Friday,
+you receive funds on Tuesday, how should they proceed towards trying to iterate towards
+next generation instant ask payment system internally?
+Yeah, I mean, they can just talk to us and we can do it all for them. So yeah,
+if they want to get in contact with us, we're very reachable, like our websites coin flow dot cash.
+Or you can hit me up on my Twitter or I'm sure it'll be attached to this. But yeah,
+reach out to anyone from the coin flow team and we're happy to help and map out your flow funds,
+map out your roadmap, etc. Yeah, I think this is where the world's going. Because the value
+prop is very simple. It's hard to find someone who doesn't want to get paid
+for what they're doing as soon as they do it. Yeah, makes sense. Well, Dan, thanks for joining
+us and hopefully we can sit down again sometime soon. Yeah, man. Thanks for having me. It's been
+a pleasure. Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc. To listen to all of our podcast
+episodes, please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for
+listening.

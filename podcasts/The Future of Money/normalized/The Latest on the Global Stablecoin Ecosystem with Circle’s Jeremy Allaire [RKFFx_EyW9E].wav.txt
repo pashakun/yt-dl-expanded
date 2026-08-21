@@ -1,0 +1,194 @@
+TITLE: The Future of Money: The Latest on the Global Stablecoin Ecosystem with Circle’s Jeremy Allaire
+URL: https://www.youtube.com/watch?v=RKFFx_EyW9E
+VIDEO_ID: RKFFx_EyW9E
+
+TRANSCRIPT:
+Hey everyone, Henry Arslanian here. Welcome to this special episode of the Future of Money podcast.
+ In this episode, we're going to go live on stage to one-on-one session that I did in Dubai at
+ token 2049 with none other than Jeremy Allaire, the CEO of Circle. In this episode, we discuss
+ a broad range of topics from really what's happening with Circle and USDC to the broader
+ stable coin ecosystem and really we also cover some of the challenges to the problems we are seeing
+ and the crypto to fiat rails in the ecosystem today to some of the issues regarding regulatory
+ uncertainty. So a very exciting episode and hope you like this live session that we did in Dubai
+ last month. Enjoy the episode. Guys, good morning. Welcome to number two of token 2049. I'm going
+ to have a lot of fun today. Over the next couple of minutes, we're going to talk about the entire
+ stable coin universe. What's happening? Not only with the USDC and Circle, but really cross
+ the ecosystem. So a lot of exciting topics to cover which you all today. Of course, this is
+ possible because I'm joined by the co-founder, Chairman and CEO of Circle Jeremy Allaire.
+ Jeremy, great to have you with us. Thanks. It'll be a fun fact about Jeremy. Many of you know him
+ as the CEO of Circle, but he's also has a hidden talent which is, he's an avid beatboxer.
+ So here we go. Everybody in crypto has a special talent itself and we find out about
+ Jeremy, great to have you with us. Thank you. Before we start a conversation,
+ maybe can you give us an update or where things are right now with Circle, but especially with
+ USDC. I just saw you guys cross the 30 billion mark, but maybe give us a bit of snapshot where
+ things are. Sure. Yeah, I think a lot of different things. I mean, first is USDC has been growing a
+ lot over the past quarter or two and growing in terms of absolute market share. But I think that
+ some of the biggest things are we've just been continually improving the fundamental infrastructure
+ of this. I think one of the advantages that we have and have had historically is that we've
+ always issued USDC under regulatory framework. And we're now seeing essentially stablecoin
+ rules coming into place all around the world. And alongside that, that's enabling us to really
+ expand the market infrastructure that supports USDC. So we've brought online essentially local
+ banking infrastructure in Singapore, in Hong Kong, in the EU. We're in the process of rolling it out
+ natively in Brazil and Mexico, Japan, ultimately in the region here and other places. And the key
+ thing for us is we want to make sure that at a wholesale level that it's very, very easy to
+ create and redeem USDC as quickly as possible, as captively, efficiently as possible. So we've
+ been building out that kind of global banking infrastructure working with dozens of banks who
+ are trying to support the growth of this ecosystem. The other is just advancing the technology of
+ the protocol itself. So we think about what we do is operating a stablecoin network. And that
+ network includes the protocols. Those protocols now exist on 16 blockchain networks. We're continually
+ improving those protocols to make them more efficient, to add new features. We launched a
+ cross-chain transfer protocol, which enables for teleporting USDC safely across these different
+ ecosystems, which is really significant. And so we're making that infrastructure faster and easier to
+ use. And then working with developers in hundreds of countries now who are building on top of those
+ protocols and building applications, utilities and other things to help grow the stablecoin network.
+ What do you mention these 16 different protocols? I mean, when you look at five years down the line,
+ do you think they'll be consolidation or it's a way for circle to hedge its bets if you want?
+ Or do you believe actually this is just going to continue to grow as the web tree ecosystem grows?
+ So my background is in internet infrastructure software. So I got started building web programming
+ languages, virtual machines, application infrastructure and worked in a lot of different parts of the
+ stack of internet infrastructure. And my general view is that blockchains are a new form of
+ distributed internet operating system. And effectively there is a lot of competition in those
+ operating systems, trying to attract developers and applications and the like. But I think increasingly
+ you're seeing the layering model as something that is relevant. And as we all know, the trade-offs
+ in terms of performance, security, privacy, other things, they're not perfect trade-offs.
+ I mean, there are people who I think believe that they can meet the scale needs of every
+ application, every user on a single layer. I think the layered model is going to continue
+ to grow. I think you'll see more and more. I think take, for example, if you're a giant consumer
+ scale company in India and you want to use digital tokens as a mechanism for your end users and
+ you're going to be minting and managing the lifecycle of these digital tokens and you
+ ultimately need those to be interoperable and portable with the global internet, you're very
+ likely going to do what people might call an app chain or a layer three. You're going to create
+ your own kind of compute space, your own store of data and memory, and you're going to kind of
+ hive it off. Just like in Amazon, we have virtual private clouds. Like everyone doesn't stick all
+ their stuff in one cloud. You have VPCs and you want to be able to hive off your own data,
+ your own compute, your own network perimeter, etc. There's going to be these kinds of scaling
+ models as well. And so there's a lot of really good competition in that infrastructure area.
+ But on this point, you mentioned India right now, again, five years down the line,
+ do you believe the majority of the activity you'll see on this kind of stuff will be in emerging
+ markets? I mean, if you look at today, obviously, we have a problem with remittances, we have a
+ problem when it comes to cross border transactions, but when it comes to within a country, most
+ transfers are working fine. On what you just mentioned on the stack, for example, do you believe
+ there'll be a faster acceleration adoption in EM emerging markets compared to the developed world?
+ So I guess my view is that we're really just in the early stages of the development of the
+ internet financial system. And we're talking about today, it's a tiny, tiny fraction of
+ the current scale of the global financial system. But the internet financial system,
+ I believe, ultimately will increase global economic output. We should see an acceleration
+ in economic output in the world because of the internet financial system and what it allows for.
+ So when you think about the market today, the market for existing forms of electronic money,
+ just fiat electronic money, it's about $100 trillion. And so clearly, just stablecoins themselves
+ have significant room to grow. But then the intermediation that goes on that's involved in
+ actual economic outputs of credit intermediation, time value of money, intermediation. I think
+ more and more of that will move into this on chain world as well. But I don't think the right
+ question is necessarily, is it emerging markets versus developed markets? The internet is awesome
+ in every country in the world. Like internet communications platforms are awesome
+ in every country in the world. The web is awesome in every country in the world. Meaning,
+ these general purpose infrastructures achieve scale and they deliver 10x or 100x better utility
+ than their predecessors. Like there's a time when, oh yeah, I could make a free long distance
+ telephone call in the United States. Well, why would I need a voice over IP or whatever? Is that
+ the point is that a model of money where the marginal cost of transacting goes to zero and
+ where money itself becomes a programmable composable form of data and object on the internet unlocks
+ utility in a way that's never existed before. And that's going to be hugely valuable in the
+ biggest capital markets in the world. It's going to be hugely valuable for the biggest corporations
+ in the world in developed markets. And it's going to be hugely valuable in international markets.
+ That's not to say that there aren't going to be use cases that achieve scale first in certain
+ places. So yes, we are seeing dramatic amounts of activity happening in cross border applications
+ of stablecoins today. That's like a very significant growth driver. But I think when you step back
+ and you think about the building blocks of the internet financial system and what that represents
+ to me, that's global scale and we'll touch every major market. But on this point Jeremy,
+ so we talk about the internet financial system, right? If we look today at the global crypto,
+ let's say the stablecoin ecosystem, right? What do you think that people want the regulated
+ USD stablecoin to use? For example, if we look right now, Tether obviously is the biggest
+ by market cap, right? In this internet of like the new financial system that's being developed,
+ what do you think people are looking for? Well, I think, you know, I mean, look, in an early stage
+ market which is sort of dominated by like offshore unregulated exchanges and it's mostly about
+ speculating on different things. That's one thing. The internet financial system is clearly about
+ actual economic activity. So if we want this to be useful, it has to be about actual economic
+ activity. And that means about people who are investing, saving, businesses that are needing
+ credit, that are building things that are hiring people, actually producing goods and services.
+ That's the real economy. So if we want the internet financial system to be used in the real economy,
+ not just for speculating on memes, like we have to have, you know, digital currency,
+ fiat stablecoins that are treated as real money that are cash equivalent so that if you're a
+ financial institution, you can take this and you can hold it as collateral. If you're, and
+ settlement, if you're a corporation, you know what this is. You're accounting firm. You're formerly
+ from a large big four, you know, universe. So an accounting firm can say this is a cash equivalent
+ instrument. I can treat it this way. I can report it this way. The entirety of this, we have to have
+ legally defined forms of stablecoins. And that's what's happening around the world, by the way,
+ which is great. Once you have these defined as like a new form of legal electronic money instrument,
+ then actually this can take hold at scale for real economic activity. And so that's really key.
+ We have to have that. If we don't have that, we're not, this is not going to take hold
+ as the basis of the internet financial system. And, you know, so that's a really, really key piece.
+ And do you believe the US dollar, like USDC or let's say, right now we look at the global
+ stablecoin ecosystem, US dollar, it's all US dollar denominated for a vast, vast majority of it,
+ right? It's very interesting because as you mentioned, you're going to different countries,
+ you know, if you're your central banker of an emerging country, your biggest, one of the risks
+ you have in a way is that the economy comes dollarized. If you're doing a bad job, which is in a way,
+ people have the option to switch the dollars or other currencies when, and we're seeing this from
+ anywhere from Nigeria to Turkey to Argentina and so on and so forth, right? How do you balance that
+ from your perspective when you're going these different markets saying, hey, we have a solution,
+ right? Now it's a US dollar based one and versus the country's own central bank from a policy
+ making where they want to have their own currency and control it because this could accelerate the
+ dollarization by the stablecoin usage. Well, you know, the internet has created these extraordinarily
+ powerful utilities that exist just using software that anyone who has a device can connect to
+ and people around the world have sort of said, hey, I like this, you know, WhatsApp or whatever
+ example you want to use, the ability to freely publish information to any person anywhere,
+ like there's sort of these super scale things that the internet has produced that in most societies
+ people really desire and then it's hard for the governments to put the genie back in the bottle
+ on those. Now, money, everyone's money is different and so on. We have a challenge, right? Part of
+ the challenge is that the vast majority of governments in the world are kind of bankrupt,
+ right? That meaning they're in debt, they're massively in debt, they're trying to monetize
+ that debt. We have huge issues with fiscal discipline, you know, it's a strong, you know,
+ it's a strong reason why non sovereign, you know, digital commodity money like Bitcoin is so
+ attractive is in the face of that. But it does, you know, the combination of sort of internet scale
+ financial utility based on things like digital dollars or digital euros and, you know, effectively
+ like this very, very high utility value that will come from those combined with the fiscal and
+ monetary challenges that face many, many countries. I do think that there's something brewing there,
+ it's going to be complicated and it's not clear exactly how that will get resolved but I, you know,
+ I have, you know, I do believe that individuals and firms will be able to vote with their sort
+ of software products, what economic system they want to participate in and it's going to involve,
+ you know, it's going to be a complex issue for a lot of jurisdictions.
+ Well, you can argue it's happening right now with many countries. I mean, look at Turkey,
+ where basically it's run on stablecoins now for big chunks of the economy. One thing as well,
+ on this point, which I think is interesting, like you guys have done a pretty good job
+ and actually on the DeFi space, for example, I see so many DeFi protocols now where the USDC plays
+ a pretty interesting role as well. When you look at the future of the stablecoin ecosystem,
+ we've had obviously some incidents last year with USD. Now there's an interesting thing with
+ ETINA and other projects going on. How do you find the future of stablecoin issuers? You believe in
+ 5, 10, 15 years in this new model that we go in, it'll be centralized companies will be running it,
+ or it'll be more the next algorithmic stablecoin of this, or a version of ETINA that you'll see in
+ the future. Yeah, I guess I think if we're talking about sort of what's going to be used for real
+ economic activity that is going to be used by households and firms and financial institutions,
+ you're going to need to have legal forms of digital currency money, and those are going to be
+ regulated issuers, and those are going to be fully reserved. So you're going to have a full
+ reserve financial system, not a fractional reserve financial system, and you're going to have strong
+ supervision around those, and I think that those are going to achieve fairly large scale. Those will
+ grow into the trillions of dollars in circulation. Now that doesn't mean that there aren't going to be
+ other experiments in stable value tokens. There are obviously, there are, I mean, look, synthetic
+ derivatives that attempt to achieve a peg that provide some underlying basket of risk management
+ and yield, that's a separate thing. So synthetic securities and derivatives that are designed to
+ generate and pay yield, those are other types of financial products. So those types of financial
+ products will get regulated differently. They will not be regulated as payment systems. General
+ society will not depend on those as payment systems. Corporations, financial institutions will not hold
+ those on their balance sheets as collateral, but people who are trading, investing, seeking yield,
+ who are risk managing, are very likely going to purchase securities and derivatives that
+ manage their risk and their yield. So securities and derivatives play a huge role,
+ and I think that synthetic dollars that are securities and derivatives are going to continue
+ to grow. How those are regulated as an open question, right? I mean, I think we're seeing
+ enforcement around these historically. So I think how do you register these? How do you regulate
+ these? How do people access those? Let's call it regulated in a way. Well, yes. I think the whole
+ code is speech isn't going to work for everything. It doesn't work for AI. We're going to regulate
+ what AI's get produced. So I think it's more complicated than that. Jeremy, we have 60 seconds
+ left. My bell is here. I'm going to ask you quick questions. I need one or two word answers,
+ and when you kick it off from there, you ready? Sure. What is the biggest risk we're facing as a
+ crypto ecosystem for the next three years? One more time. What is the biggest risk we're facing as
+ a crypto ecosystem for the next three years? The biggest risk that we're facing for the next two
+ years is catastrophic failures continue with problematic companies and projects in crypto.
+ If you could go back to school today, what is the one course you would study that you wish you
+ had studied before? Synthetic biology. Interesting. What is the best advice you've ever received?
+ If you're stressed, take three deep breaths. If you could hold one crypto asset for the next 10
+ years, not USDC, what would you hold? I don't like those questions.
+ If you could go back in time, any time in history, what time would you want to go back?
+ That's a great question. I think I'd like to go back to the enlightenment.
+ The last question, Jeremy, to finish it off. A typical question, if you could have lunch or
+ dinner with one person dead or alive, lunch or dinner one person dead or alive, who would you
+ have lunch or dinner with? Probably an ancient relative of mine that I can't name right now.
+ Ladies and gentlemen, Jeremy Lares, CEO of Circle, thank you, Jeremy. Thank you.

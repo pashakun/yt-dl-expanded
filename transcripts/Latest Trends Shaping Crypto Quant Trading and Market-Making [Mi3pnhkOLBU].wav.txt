@@ -1,0 +1,988 @@
+ (upbeat music)
+ - Welcome, welcome, welcome.
+ I'm your host, Henry R. Slingen,
+ and welcome to the special episode
+ of the Future Money Podcast,
+ where we go deep in some of the biggest ideas, trends,
+ and developments we are seeing in the field of crypto,
+ and hopefully empower you with this information,
+ and then let you make your own decision
+ on what their impact can be on the future of money
+ and the future of finance.
+ Today, we have a very special episode
+ where we're gonna talk about the latest trends
+ we're seeing in the field of crypto,
+ quant trading, and market making.
+ We're also gonna cover a number of issues
+ from market infrastructure and the latency arms race,
+ to even the role of AI in quant models and risk management.
+ So very interesting episode for all of you looking
+ at kind of the future of crypto trading.
+ This episode is powered in partnership
+ with Alchemy Family,
+ which we'll talk about during the episode as well.
+ And I'm very honored to be joined today
+ by fellow Dubai resident, Antonio Agosco,
+ who's the co-founder of Marvel Capital.
+ Anthony, great to have you on the show today.
+ - Thanks for having me.
+ - One fun fact about you,
+ I think many people know you as the co-founder
+ of Marvel Capital is that obviously,
+ you're a very fit and healthy guy.
+ You recently did 3,000 push-ups on your birthday.
+ - On my birthday, you had to be a record.
+ Yeah, I'm trying to kind of do records,
+ generally in everything that I do,
+ and I thought the birthday is a perfect day for that, you know?
+ - That's great.
+ How much time did it take by the way to 3,000 push-ups?
+ - The session was like three and a half hours long.
+ The whole thing, it's a run plus push-ups plus pull-ups.
+ So it's a mixture.
+ - And impressive.
+ - But I was pretty tired by the end, to be honest.
+ - Many people go just partying and drinking.
+ You're there like working out.
+ I mean, it puts my high intensity hit classes to shame
+ with your 3,000 push-ups.
+ But great to have you on board, Anthony.
+ We have a lot of interesting topics to talk about.
+ You know what's been interesting
+ when I get a lot of feedback from my listeners
+ and the audience.
+ And many people were asking me, Henry,
+ can you do an episode about really what's happening
+ at the cutting edge?
+ You know, for quantrating, the market making,
+ with all these different players,
+ there's a lot of regulatory changes around the world.
+ So I think you're the perfect guy to talk about it.
+ But before we really deep dive on it,
+ maybe can you share with our listeners,
+ for those of our listeners who don't know you,
+ a bit more about you about Marvel Capital
+ and how you got into this world of crypto-quantrating
+ and what you're doing right now.
+ - So my background stems from tradfi.
+ I started my career in London in 2008,
+ pretty much straight out of uni.
+ I went to work for ICAP,
+ which is the world's largest entity of a brokerage.
+ I sat on various desks from fixed-income CDS
+ to equity derivatives, to swaps, to FX and EBS desk.
+ So, you know, I really had an opportunity to get exposure
+ to a lot of, you know, like different desks
+ and different markets.
+ So I was broken that for a few years,
+ then I was hired by a private bank in Russia
+ to manage a fixed-income portfolio as a trader.
+ Then there was another like quasi-sovereign institution
+ that I worked for in Russia for a few years.
+ In 2013, myself and a partner,
+ we set up a licensed brokerage,
+ which we sold to a large banking group in 2018.
+ And that kind of coincided with the time
+ when, if you remember, in 2017,
+ there was this like ICO hype
+ and everything was kind of, you know, crazy around the market.
+ And that was actually the first time I heard about Bitcoin.
+ And, you know, I started reading up on it
+ and kind of learning more about it.
+ I was super excited about this industry.
+ So I thought, you know, given, you know,
+ like my company is already kind of in the process
+ of being sold, I thought that I would dedicate
+ a lot of my time going forward.
+ Next couple of decades, probably,
+ in this new kind of exciting industry
+ and this new exciting asset class.
+ So what happened was initially,
+ I started out with, you know, like with a venture project,
+ which at the time used to be called Terminal Glover,
+ which was like an attempt to build a Bloomberg of crypto.
+ Because at the time, like nothing like that existed.
+ Unfortunately, that didn't work very well.
+ You know, we kind of entered like crypto winter
+ after we released the MVP in Dubai in 2018.
+ Didn't manage to like raise enough assets,
+ like enough funds to kind of, you know, keep it going.
+ So I decided to like not to focus on that anymore.
+ But it gave us actually a lot of interesting insights
+ into the market because, you know, at the time,
+ we connected to a lot of different venues.
+ It was more than 30.
+ And we saw there was like so many arbitrage opportunities,
+ like literally it was money on the floor.
+ So we started doing the kimchi trade for some time
+ when it was actually, you know, possible to do like legally
+ and properly, we did a lot of other things,
+ like basis trade.
+ I mean, the spreads were huge, like inefficiencies all around.
+ So, you know, we enjoyed those times.
+ And then, you know, like on a professional,
+ so this has grown into what's now called like Marvel Capital,
+ which is effectively like a proprietary trading firm,
+ where, you know, we do like HFT market making
+ plus various types of statistical arbitrage,
+ mostly on centralized exchanges.
+ Even though like since recently, we've been adding some,
+ some DEXs as well.
+ So that's the crypto part.
+ I still have a business that does fixed income
+ and equity trading, which runs kind of separately
+ from Marvel, it's called Annagal Group.
+ It's also Dubai Base.
+ It's a company set up in 2017, like Audited, et cetera.
+ That has a separate team.
+ I'm not too much operationally involved in that
+ because most of my kind of efforts go towards Marvel.
+ Yeah, it's like that when you fall into that crypto rabbit hole,
+ it's very, very difficult to come out of it, right?
+ So let's go over, do you want to focus on the trading side?
+ So let's jump right in.
+ I mean, you mentioned the good old days of the kimchi trade
+ and those good eras, there was literally money on the floor.
+ Maybe can you share with our audience,
+ 'cause you've been in it from the early, early days,
+ can you let me share with our audience,
+ how is crypto all go trading, for example,
+ evolving over the years, right?
+ How has it evolved from the early days
+ when you started 2017, where we are,
+ and how do you see it evolving over the next couple of years
+ as the industry is changing?
+ I kind of think that we have seen a fascinating evolution
+ into how these things have progressed, right?
+ So Algood, like in the crypto industry is borrowing
+ a lot of the techniques from the trade file.
+ And it's adapting them to the unique aspects
+ of the digital assets, right?
+ Because they're completely different.
+ I mean, there are blockchains involved,
+ there's finality and all these things, right?
+ And early crypto trading, I think,
+ focused on simple momentum and art.
+ But over time, now a lot of new players
+ and more institutionalized players came in
+ and liquidity deepened and exchanges have matured
+ and institutional infrastructure has become much better.
+ So with time, more complex strategies have emerged.
+ And now I think there are a lot of teams
+ that are doing some very sophisticated stuff around,
+ using AI and machine learning.
+ I mean, there are companies out there
+ that build their own data centers
+ just to process their stuff,
+ just to do their own calculations on their like Algoods.
+ I mean, it actually is pretty advanced at this moment.
+ So the space is very competitive.
+ And I think it's gonna get even more competitive,
+ to be absolutely honest, which kind of means
+ that it poses a lot of threat, I think,
+ to the smaller players, especially when the new guys come in.
+ And we start talking about, you know,
+ the latency arms raise, you know,
+ small guys are not gonna have any chances against
+ the large guys who are just able to throw money at the wall
+ and, you know, do stuff that other people just can't, right?
+ But still, at this moment, we see a lot of opportunity
+ out there even for, you know, smaller players.
+ So the market, I think, in my opinion,
+ hasn't properly institutionalized yet.
+ There is still not a lot of institutional liquidity
+ in crypto as of today,
+ even though the infrastructure has, you know, matured
+ a little bit, it's still far from what you would expect
+ in a proper, mature, tried-by market.
+ - So let's focus on that.
+ Let's say on the low latency environment, right?
+ And market infrastructure,
+ who do you think will be the players in the space?
+ Do you expect that the crypto native HFT firms
+ will come and dominate this market?
+ Or are we gonna see the big HFT players
+ that we have in a trad-fi world
+ to have the big wallets and the infrastructure?
+ And arguably some of the experience and expertise as well,
+ at least on trad-fi, to come and dominate this world?
+ - That is actually a really good question,
+ because, yeah, the other day we can have discussed
+ that with my partner.
+ And we actually think that the space is gonna be,
+ like, long-term dominated by crypto native firms.
+ The ones that have been around for a while,
+ and it would be very difficult for trad-fi firms
+ to kind of catch up with them.
+ So I think the only way that the huge trad-fi guys
+ would kind of enter the space would be through,
+ like, acquisitions and things like that,
+ through some form of conciliation.
+ I mean, for example, I don't know,
+ BlackRock or something coming in and saying,
+ "Okay, we wanna enter the space,
+ "like we wanna build a business out of it.
+ "Let's see who is the best in the market, buy them,
+ "and then just develop it."
+ They can afford to do that.
+ So I think that would be like a route
+ that these large institutions might pursue.
+ But at the moment, I think the crypto native guys are,
+ I think they're doing much better than the guys
+ who are from trad-fi and just entering the space.
+ - Why do you think the crypto native firms
+ are doing better than the trad-fi firms coming in?
+ Is it knowledge of the space?
+ Is it knowledge of the uniqueness of crypto?
+ Is it regulatory arbitrage?
+ What do you think is giving them the edge?
+ - So there is a lot to do with technical variations, right?
+ So there is a lot of technicalities that exist in crypto
+ that are unique and different to what you would see
+ in trad-fi market, so that's one, I guess.
+ Then the regulation, yes, probably, if it's a small company,
+ if it's nimble, it can get set up in a lot of places
+ quickly, et cetera, and large corporations and companies
+ just are not able to move at that kind of speed.
+ So I think the smaller players are able
+ to take advantage of that.
+ Very interesting, and then when you look at the,
+ we talked about a crypto, let's say, quant trading, right?
+ Obviously, you mentioned before, you guys are doing a lot
+ of stuff on the C-fi side.
+ When you look at the D-fi side,
+ like what are some of the opportunities you're seeing
+ in the broader, let's say arbitrage opportunities
+ that you're seeing in C-fi as we continue,
+ but also in D-fi and between both as well?
+ - Yeah, so I wouldn't call myself an expert on D-fi
+ to be absolutely frank.
+ However, we have recently built connectivity
+ to some D-fi venues, and we see that there are actually
+ a lot of opportunities are being just C-fi and D-fi.
+ So we are kind of going that route as well,
+ and we will be doing a little bit more in D-fi
+ in the coming months.
+ The opportunities are there.
+ There are also a lot of technical difficulties
+ to be faced and solved, but there's definitely
+ a lot of opportunity out there, just generally.
+ Because I mean, the market is still very nascent,
+ it's still very fragmented.
+ It's like all over the place, you know?
+ It's like you can have a protocol, I don't know,
+ set up yesterday and like in two weeks time,
+ it's gonna have like a TVL over the billion,
+ and there's gonna be a lot of things packaged inside of that
+ which are not reflected anywhere else in the market,
+ and you know, you can orbit.
+ I mean, there's a lot of stuff that just goes
+ through the fingers, yeah.
+ This is why, you know, when I just reflect
+ about what you said, right?
+ Like, there's, I can see in a market
+ that is very developed, liquid, deep,
+ had the big HFT firms, or even the large crypto
+ HFT firms can actually dominate, right?
+ In a market like the one you mentioned,
+ actually being smaller, Nimbo has advantages, right?
+ Where they can move around.
+ - Absolutely.
+ - But the problem there becomes also capacity, right?
+ I mean, if there's a capacity of, you know,
+ you can make, you know, you can trade for 20, $30 million,
+ that's not gonna be interesting for the big HFT firms, right?
+ - Yeah.
+ - It's not worth it.
+ I mean, do you believe that, let's say for the short,
+ medium term, agility, nimbleness,
+ Trump's basically the whole technology investment
+ and low latency environment, in a way?
+ - I actually think that you have actually answered
+ one of your questions, because if you think about it,
+ for the really large institutions
+ that have a lot of assets to allocate,
+ the market is just not ready for their money,
+ if you know what I mean, right?
+ Just the size of it, you know,
+ there's just not enough liquidity,
+ there's not enough market participants,
+ there's not enough depth to the market
+ for them to actually participate.
+ So it's actually one of the reasons it seems to me
+ that they're kind of on the sidelines for the moment,
+ and they're kind of holding out, you know,
+ until better times.
+ That's, I think that's what we're seeing.
+ But still, you know,
+ cryptocurrencies, they keep developing their products,
+ and, you know, we've seen a lot of interesting developments
+ around custody and self custody and of exchange solutions,
+ which kind of make people more comfortable
+ around, you know, holding assets in crypto
+ and, you know, large institutions that are still,
+ I think not fully knowledgeable on these things,
+ just because they have their own thing to do,
+ and, you know, they're not focusing on this specific industry.
+ - Yeah.
+ - I mean, there's the opportunity cost for them,
+ and still there's so much to be done, ironically,
+ and stratified.
+ - Exactly.
+ - It doesn't make sense.
+ I mean, you raise a good point as well, Antony,
+ when you talk about it, it's a custody, right?
+ Because I can see large stratified firms coming in
+ when the, let's say the custody solution is solved.
+ And we could argue in certain extent,
+ when it comes to CFI exchanges, it's solved, yes.
+ Maybe not perfect, but it's by and large here.
+ But I think you raise a very good point
+ when it comes to, for example, DFI
+ becomes significantly more difficult.
+ I've trouble seeing a large Wall Street
+ or Chicago or Miami firm start doing self-custody
+ on their DFI trading.
+ I mean, it sounds to me, probably, I mean,
+ what do you think is the one infrastructure change
+ that is needed?
+ That would basically catalyze the entry
+ of infrastructure players in particular HFT players,
+ for example, or conch firms.
+ - I don't think there is one, to be honest.
+ I think it's kind of a mixture of regulation
+ or quite frankly, absence of regulation,
+ because the market is still, it hasn't found its ground
+ in the sense that a lot of people are doing things
+ that they think are okay, but actually, they're not.
+ But it's not written anywhere that they're not, you know?
+ So we've seen some developments in the market
+ in the past couple of weeks, which kind of, you know,
+ affected a lot of like market makers and, you know,
+ firms who were doing like token market making, et cetera.
+ So these rules, they're just not written anywhere.
+ There must be clarity, right?
+ There isn't enough clarity at the moment.
+ So it's still kind of developing, you know,
+ travel rule has been introduced fairly recently,
+ Mika, like all these things, they're developing
+ literally as we speak, right?
+ It's not like it's matured
+ and everybody knows the rules of the game.
+ So I think regulation is very important, that's one.
+ And that, I think, stops a lot of huge guys
+ from kind of entering like this as well,
+ because, you know, they have risks associated
+ with their main business, which they don't want
+ sort of crypto to affect, yeah?
+ So that's one.
+ Then in terms of technical infrastructure and solutions.
+ So I think a lot of solutions are already there.
+ Maybe they're not at the level where it kind of
+ solves all the issues now.
+ But I mean, there are custodians out there,
+ which are doing a great job, you know,
+ like Copper and Fireblocks and Camino and all of those,
+ you know, they all have their differences
+ and, you know, different setups, et cetera.
+ But at the same time, I mean,
+ it seems that their business is growing,
+ which means, like, which means that, you know,
+ these institutions are actually depositing funds.
+ You know, so that's all good.
+ To be absolutely honest, I think if there will be a way
+ of trying to find, you know,
+ this balance between self custody and doing it legally
+ and making sure that institutions can tap
+ into this infrastructure, that would really be the key.
+ But at the moment, I think there is still
+ not enough kind of infrastructure and solutions out there.
+ - Yeah, I agree with you.
+ I think there's, on that side,
+ there's a lot of work to be done still on the front.
+ You know, you mentioned market makers.
+ I'll be very keen to get, what's your point of view
+ on the crypto market making ecosystem right now?
+ Do you believe the quality, the institutional setup
+ and the clarity around their activities are there
+ at the institutional level yet?
+ Or there's a long way to go from that perspective?
+ - Definitely a long way to go.
+ I think this industry is, you know,
+ underegulated in the sense that, you know,
+ there's a lot of, like, wash trading,
+ I mean, that we see as well in the books.
+ There's a lot of, you know, turning up volumes
+ just for the sake of doing volumes, et cetera.
+ And, you know, there's probably a lot of malpractice
+ and like manipulation as well,
+ especially around like small talking.
+ So like the ones that get just, you know,
+ like newly issued, et cetera.
+ So it's definitely underegulated,
+ but because the market is fragmented,
+ it means that people trade on exchanges
+ on that, you know, they're licensed on some islands.
+ So, and, you know, you can't really enforce things there
+ in a way, right?
+ So there's a lot of issues still.
+ And I think they're not gonna be sold anytime soon.
+ It's been the same since pretty much 2017
+ that I entered this space in terms of
+ how kind of wild west it is.
+ I think it's still very much so.
+ - Yeah, it's interesting.
+ I was just reading, you know,
+ there was a first accusations from the US government
+ on the US authorities on wash trading
+ and market manipulation against the number of,
+ they call the market makers.
+ I think the term is a bit,
+ the use of it too broadly, too generously.
+ But it was very, very interesting, actually.
+ You're right, so it pump 'em up, pump 'em dumps.
+ I mean, the market inflation, big time.
+ But you think, you know,
+ the, can't we argue that in the market like crypto, right?
+ Where you have volatility, where, you know,
+ liquidity's not always there.
+ The market makers play a very crucial role
+ in addressing the liquidity concerns
+ that exist in this nascent industry.
+ - Of course, I mean, market makers, you know,
+ they're crucial in providing liquidity
+ to what is still a relatively young
+ and kind of volatile market.
+ And, you know, unlike traditional financial markets,
+ you know, crypto exchanges operate obviously 24/7
+ and globally, which creates a, you know,
+ significant liquidity challenges,
+ especially for newer and kind of smaller coins.
+ And, you know, all these automated market making algorithms,
+ they kind of help maintain spreads
+ and, you know, manage inventory risk.
+ But the volatility is still kind of significant for many.
+ But, you know, like market makers have to be
+ very much adaptive and kind of constantly refine
+ their models.
+ Like, I've seen numerous times
+ because I speak to a lot of teams generally
+ and I've seen numerous times
+ that something that worked yesterday stopped working today.
+ And it's just, you know, like you have to,
+ you have to kind of keep going
+ and keep nourishing your kind of algos
+ and making sure that, you know,
+ you're up to speed with developments
+ and changes that the market is dictating effectively.
+ - Yeah, it's gonna be very interesting
+ to see how this industry evolves.
+ I think you're right, there's so much shady activity
+ in some of these tokens as well.
+ But let's see how it evolves.
+ One more thing I wanna ask you related to this topic,
+ a bit is on the broader quant side,
+ the role that AI machine learning is playing
+ on in this space, right?
+ Let's say, not on the market making side,
+ more on the algo trading side, right?
+ How do you see the, in your,
+ from your perspective,
+ how did the advancements in technology
+ like in the field of AI and machine learning
+ in particular, right?
+ Really have kind of shaped or impacted
+ the algo trading space in the crypto algo trading space.
+ - Actually, I can answer that in two parts.
+ So I can answer that from the standpoint of business.
+ And also I can answer that from the standpoint
+ of algos.
+ So for example, specifically in business,
+ and I think it happened with us as well.
+ So we've actually had to let some people go
+ that are junior just because, you know,
+ chat GPT does a pretty good job at writing code
+ that you can then kind of tweak and, you know,
+ so basically what it means is that you need less engineers
+ to do the same thing.
+ So that's one, I think that's actually very important, right?
+ Because now the distinction between a really good engineer
+ and a poor engineer is just that much bigger, right?
+ So now if you don't use AI in, like in code,
+ you kind of lose out, like literally.
+ So AI actually enhances any developer out there.
+ So that's one.
+ And then in terms of the algos themselves.
+ So yeah, I mean, we are not particularly advanced on AI,
+ even though we're kind of strongly looking into it.
+ And I'm generally very interested in AI
+ to see how we can apply it to what we're doing at the moment.
+ But I know that some teams out there are super advanced
+ and they process like, you know,
+ huge data amounts to that AI can then, you know,
+ self-teach and learn and all of that.
+ But, you know, we're not that one.
+ So I'm, you know, it's very difficult to understand
+ where all of this is going just because we know that,
+ for example, AI will change some industries.
+ Like for example, you know, it's like self-driving cars.
+ It's just a matter of time, but you know,
+ it will happen, right?
+ Similarly, we could argue that, you know,
+ if we get AI to trade, then there at some point
+ there won't be any inefficiencies.
+ But that doesn't sound particularly excited for me,
+ first of all, but secondly,
+ I don't think that's coming anytime soon,
+ to be absolutely honest with you.
+ So there's still a lot of fragmentation,
+ there's still a lot of inefficiency out there.
+ But yeah, I would definitely say that people who don't
+ kind of jump on this bandwagon of trying to leverage,
+ you know, AI and ML in what they're doing
+ specifically apply to quantitative trading,
+ they're gonna lose out like, and, you know,
+ at the marathon level, definitely.
+ - Yeah, for sure, I can definitely say that happening.
+ Were you, when it comes to talent, for example,
+ when you're looking for a good quant trader, for example,
+ were you finding are good places to find higher people
+ who are good quant traders or, you know, until they say,
+ 'cause you know, there's crypto traders
+ and the crypto quant traders, right?
+ How are you finding them?
+ What do you find is the one tip you have
+ for people on that side?
+ - It's super difficult, Henry.
+ Like if I knew the definitive answer to that,
+ I would be there all day long.
+ So actually to find really good people in this place
+ who have, you know, who have like exact competencies
+ that we need and that can kind of generate cash flow.
+ And it's super difficult.
+ I mean, what we use is, I think like many,
+ we employ, you know, external recruiters,
+ we have our own sort of in-house recruiters
+ and we see next year will be falling more
+ kind of, we'll be following some tournaments
+ around quantitative trading to see
+ if we can kind of get like get some rising stars from there.
+ But yeah, generally it's very difficult
+ because obviously there's a lot of talk
+ and, you know, we've had, for example,
+ in the last maybe four months,
+ we've had like two or three people coming in
+ that on paper looked like Einstein's.
+ I mean, actually Einstein's is dumb compared to them.
+ You know, literally the people with like patterns
+ in like quantitative mechanics, like whatever.
+ And they're just not able to,
+ they're just not able to perform for some reason.
+ Maybe they're very good at like in theory, et cetera,
+ but in like practical application to what we do,
+ not good.
+ So we let them go, yeah.
+ But it's very difficult actually.
+ I think in this industry, people is key obviously.
+ I mean, in any industry, people is key, right?
+ Because like organizations consist of people exactly.
+ So there's nothing else.
+ So, but specifically in quantitative trading,
+ it's getting even harder now.
+ Yeah.
+ - And actually I want to bring the topic
+ of alchemy family because obviously,
+ providing people and the network is so critical
+ in every business, right?
+ Can you be sharing with us?
+ Obviously, thank you for supporting education in crypto.
+ The alchemy family is supportive for the show.
+ We really appreciate it.
+ Like, you know, can you share more?
+ What is alchemy family?
+ What are you trying to do?
+ And what benefit it can provide to people
+ in the crypto ecosystem and those are like,
+ like all the crypto professionals, if you want,
+ who are trying to connect with people that are like-minded
+ and really focused and prioritizing,
+ basically getting value of such interactions.
+ - Yeah, absolutely.
+ So alchemy family is a private members club,
+ specifically targeting the audience of sea level
+ and founder level reps from, you know,
+ HFT firms, proprietary trading firms,
+ family offices that allocating to crypto,
+ professional, capital allocators, cryptos, managers, hedge funds,
+ multi-managers, that kind of thing.
+ So anything that basically touches crypto and algal
+ from any angle.
+ And, you know, there is a kind of deep philosophy
+ around alchemy and, you know,
+ the project is called alchemy for a reason
+ and family also for a reason.
+ So in alchemy, there exists 165 or chemical elements
+ and basically the club membership is hard-capped
+ at 165 people.
+ And, you know, the underlying philosophy is that, you know,
+ when the right people kind of get together,
+ you have this kind of magic, right?
+ Because in alchemy, there are four main elements,
+ which is air, fire, water, and earth.
+ And, you know, this fifth element, ether,
+ is effectively amalgamation of these four
+ into something of a higher form, right?
+ So that's kind of the underlying philosophy.
+ So in alchemy, similar to how it is in chemistry,
+ like if you need, you know,
+ five elements per chemical reaction and then you have four,
+ you have six, it just doesn't work, you know,
+ just falls apart, nothing happens, right?
+ So the idea is that when the right people come together,
+ it actually opens doors to, you know,
+ a deeper form of collaboration, deeper conversations
+ and not just a professional level, but also a personal.
+ So actually alchemy is a lifestyle plus business club.
+ So it's not just a business club, right?
+ So I believe that business is personal.
+ Unlike, you know, Americans who say, you know,
+ nothing personal, just business,
+ I hate that place completely.
+ So, you know, business is personal to me,
+ and you know, because business is done by people.
+ And the idea is to have this highly curated sort of community
+ of professionals that can help each other grow,
+ not just at professional level,
+ but also at personal level, right?
+ So, you know, it's a platform for personal
+ and professional growth.
+ I would put it like this way, right, in one sentence.
+ And there's a lot of sort of things
+ that we're gonna be doing that are supporting that vision.
+ And, you know, one of them is the event
+ that we're preparing for now, which will be in November.
+ So I'm super excited.
+ And I think just generally this format is completely different
+ to anything I've seen prior, right?
+ I've been to a lot of events, obviously,
+ in Trappify and in crypto,
+ even the most exclusive ones, you know,
+ where you have to pay like quite a lot of money to get in.
+ But still, to me, it's still very much surface level,
+ in the sense that, you know, it ends up like drinking
+ and, you know, dining and all of that and nothing else, really.
+ So we're kind of trying to change that, right?
+ We are trying to create an experience,
+ actually a healthy experience and a transformative experience.
+ That's why we call it like an immersive retreat,
+ because, you know, first of all, it's like no alcohol.
+ Everybody has to be at the same level of consciousness.
+ And then we're gonna be doing some incredible practices
+ that actually facilitate growth, like personal growth.
+ - So this is a retreat you mentioned, right?
+ This is, I don't know how much you can share,
+ but I love it.
+ I think it's called a Magnum Opus, I think, right?
+ - Magnum Opus, yeah, yeah.
+ - Magnum Opus, what's the goal and what do you guys
+ try to do with that?
+ Because I think it's quite interesting as a concept.
+ - Yeah, so Magnum Opus, from Latin,
+ stands as the great deed or the great work, right?
+ And the idea is that, you know,
+ we wanna bring people together into this retreat,
+ which is gonna be happening in the Seychelles.
+ And it's only limited to like 50 people.
+ And it's gonna be a super transformative
+ and immersive experience for like four and a half days.
+ And the idea is that by the end of the retreat,
+ everybody will kind of know each other by, you know,
+ by face, by name, by what they do,
+ and how they can sort of add value to each other's lives,
+ both on a professional and a personal level, right?
+ Because my statistics basically shows that, you know,
+ on many events that I've been to,
+ like even the token that I've been to,
+ like recently in Singapore, right?
+ So you end up with like 200 new telegram chats.
+ And then at some point, you know, in two weeks time,
+ you don't remember 90% of those people,
+ like how they look like what you spoke about.
+ So it's very much surface-level relationship.
+ So my philosophies, I'd rather have 20 real kind of quality
+ human interactions and relationships with people
+ that are of my level or like, you know, that I like.
+ And they are also interested, by the way,
+ in kind of personal growth and business,
+ because some people aren't quite friendly.
+ Some people don't care, to be absolutely honest.
+ So, but I'm kind of trying to push the needle
+ both at personal level and business.
+ So that's really what the club is about.
+ And there are a lot of things outside of the retreat
+ that members get as part of the membership.
+ So yeah.
+ - That's interesting.
+ I think you're right.
+ The example of every time I go to a crypto conference,
+ I get all these telegram chats,
+ especially in crypto, people have their avatar.
+ They don't do his real name.
+ It's impossible.
+ - All these cheese and all these like weird things.
+ - It's always probably, ironically, you know,
+ it's very counterintuitive.
+ I now give more business cards and I write about it
+ because it gives, it connects with people.
+ Well, let's think about the Alchemy Family Magni Lopez.
+ If anybody of our listeners,
+ I know we have a lot of traders,
+ we have a lot of hedge funds,
+ a lot of family officers are listening to the show.
+ If they're interested about the Alchemy Family
+ or Magni Lopez, how can they find out more about it?
+ - Sure.
+ I mean, so, you know, we have a website, obviously,
+ where people can submit an application,
+ www.alchemy.family,
+ and then we have a lot of things in social media,
+ LinkedIn, telegram group,
+ where we post all new announcements about the club
+ and about the event and the participants, et cetera.
+ So there's a lot of information on the net about us
+ and like anybody can submit an application, yeah.
+ - Awesome.
+ Alchemy.family.
+ One last question before I move to the far round
+ on that perspective, Anthony, is,
+ I know you're also based in Dubai.
+ You know, in the show, we've had the Dubai regulators,
+ we've had all the regulators from ADGM,
+ the DiFC, to Avara multiple times on the show.
+ And you've actually been now in Dubai for a couple of years,
+ like, you know, you're talking before
+ about regulatory arbitrage at the beginning of the episode.
+ How, what's your perspective on what's happening in Dubai
+ and the UAE and crypto?
+ And how do you think this is going to evolve?
+ And if you think it's becoming one of the big hubs
+ in the space globally?
+ - To be absolutely frank,
+ I think it already became the biggest hub in the world
+ in terms of, I mean, just think about this, right?
+ So the top three exchanges in the world,
+ they're headquartered in UAE,
+ and they're all on the way to, you know,
+ either they already have license
+ or they're, you know, getting one soon, right?
+ So that's one.
+ And I think UAE is doing a great job in that respect
+ because, you know, by kind of facilitating this platform
+ for these, for these exchanges and for other participants,
+ like, you know, HFTs and like props shops.
+ I mean, a lot of companies are now setting up in Dubai,
+ just for that reason, right?
+ And also the tax regime and all of these other benefits.
+ So I think it's a very good development
+ and I think UAE is a good place to do that,
+ to be absolutely honest.
+ And in some way, I feel like other countries
+ are underestimating what UAE is actually trying
+ to achieve here because when all of these exchanges
+ on all of this crypto business kind of migrates here,
+ and it is migrating, you know,
+ the hedge funds are opening here,
+ the crypto as managers, like all of these activities
+ that are kind of flooding to Dubai now,
+ it's actually getting so bad that like,
+ I haven't seen such traffic into buy
+ for the last kind of couple of years, you know what I mean?
+ It's like people are just flocking in,
+ like from all over the world, right?
+ And, you know, that's the result, right?
+ So what they're doing is absolutely right.
+ And, you know, definitely support that.
+ And I think that will also bring a lot of clarity
+ into the market because once these regulators
+ are all like fully up and running
+ and once all these licenses have been issued,
+ they're definitely will be, you know,
+ black and white, like rules of the game, et cetera.
+ And I think UAE is a good platform for that.
+ - Yeah, very interesting.
+ I agree with you at traffic levels,
+ I've become quite bad on that.
+ But it's a, it is what it's, I guess,
+ a sign of things working out.
+ I mean, you were, you were one of the first ones here,
+ I think, to your, your vision on that,
+ I think it's been quite interesting.
+ So Anthony, we're gonna move on to the far round question.
+ I'm gonna ask you quick questions,
+ I need a one or two word answers.
+ And we're gonna go quick through them pretty quickly here.
+ And we can have this ding here
+ to keep us honest on the timing side.
+ Hope you're ready.
+ - Yep.
+ - Let's rock and roll.
+ Anthony, what is the one thing
+ that amazes you the most about the crypto industry?
+ - The amount of de-gens.
+ (laughs)
+ - Absolutely, it never is easy to tell you.
+ You're based in Dubai.
+ What's your favorite thing to do in Dubai?
+ - Driving, actually.
+ The roads are great.
+ Driving, I like driving here.
+ But not look like, not in Dubai,
+ like going to rest of Haima to the serpentine, you know,
+ like all of those areas, it's nice.
+ - That's a good point on that side.
+ What is the one thing you think people get wrong
+ about Dubai at the UAE?
+ - I don't know, most of the people I talk to,
+ they love UAE.
+ So I have no idea why anybody would complain.
+ Except obviously the absence of, you know,
+ fresh air and a bit hot like during the summer,
+ but otherwise I think it's, yeah.
+ - If, what is the one crypto CEO
+ that impresses you the most,
+ the one crypto CEO that you find the most impressive?
+ - I think Star from OKX,
+ I think he's doing an amazing job generally.
+ I think he's at the forefront.
+ He's really trying to, you know,
+ to take on the leading exchanges,
+ and he's doing a very good job at it,
+ to be absolutely honest.
+ So his business has grown, I think, very significantly.
+ Yeah, I mean, there are a lot,
+ like obviously a lot of CEOs out there
+ that are doing an amazing job,
+ but he just sprung to mind just randomly.
+ - They just even got their license here in Dubai as well.
+ If there's one, a young university graduate comes to you
+ and says, what is the one piece of advice you have for them
+ to be a good quant trader?
+ - Work hard, move the needle,
+ and if you don't make money in three years,
+ choose and run a job. (laughs)
+ If there's, what is the one quant manager or quant firms,
+ you know, you would love to have as an intern.
+ From all the, even on Tratify.
+ If there's one person in the quant industry,
+ would love to hire, who would have person B?
+ - XTX, somebody from XTX.
+ - Really interesting, what is that?
+ - Well, they are doing pretty well, it seems.
+ They've built a very good business.
+ So it's actually one of the firms that we are aspiring to.
+ I think they're very knowledgeable
+ about what it is they're doing
+ and they have an amazing team, so.
+ - I love it.
+ You're a big guy who works out.
+ I mean, you just did earlier,
+ you had 3,000 push-ups on your birthday, which is crazy.
+ What is the one workout or that you would love to do?
+ If you could do, what kind of workout
+ you could do for the rest of your life, what would it be?
+ - It would be the Provilo.
+ I'm not sure if you know what that is though.
+ - No, what is Provilo?
+ - No, Provilo.
+ So it's like, when I lived in London,
+ they used to be like these studios,
+ but they've opened now in Dubai as well.
+ So actually, you're being hung by your arms and legs,
+ and you do like stretch in like that kind of thing.
+ It's actually really, really good.
+ So to be absolutely honest, I think like three years ago,
+ I had a massive protrusion in my back, like lower back.
+ And that thing just fixed me completely.
+ No other doctor was able to do anything
+ and this thing just sold it.
+ - I'm gonna give it one a try, actually.
+ I heard about that actually.
+ Quick one, if you could go back in history,
+ what is the one period of history you would love to live in?
+ - The 1800s.
+ - Really, why is that?
+ - The one reason I think was good is because there was
+ something called that we don't find very often now,
+ in men specifically called honor, right?
+ So at that time, if you didn't have honor,
+ you were challenged at a duel, right?
+ These days, if somebody says something
+ and does nothing about it, no duel sucks, right?
+ So you have a lot of (beep)
+ as a result.
+ Previously, if you say something,
+ you have to stand up for it.
+ Otherwise, you go to a duel.
+ - Yeah, yeah, yeah, yeah.
+ - Very good point, actually.
+ Like the being a man of your world, I love that.
+ I love that.
+ And to finish it off, Anton Agosco of the co-founder
+ of Marvel Capital, this is a traditional question
+ of whoever comes on my show.
+ If you could have lunch or dinner
+ with one person that are alive.
+ Lunch or dinner with one person that are alive,
+ who would you have lunch or dinner with?
+ - Jim Simmons.
+ - Oh, wow.
+ - And why is that?
+ - He's a great guy, and he said like,
+ I've actually watched a lot of his interviews on YouTube,
+ and I read about him, you know, he,
+ I think he built like one of the most successful businesses
+ like in this space in general.
+ He actually found the secret source
+ or like the secret formula, if you like.
+ And just a lot of the stuff that he says
+ really resonates with me.
+ So yeah, that can be that perspective.
+ - So Anthony, how can people find out more
+ about you, Marvel Capital?
+ And also the alchemy family,
+ how can they get in touch with you
+ or find out more about what you guys are doing?
+ - So I think the best route is the website
+ and the social media.
+ And also we're gonna be sponsoring the AIM Summit,
+ which is in Dubai.
+ And following that, we're gonna have like
+ a few private dinners prior to the Magnum Opus.
+ So we're gonna be around, I think.
+ - Awesome.
+ Well, Anthony, thanks for being on the show today.
+ It was really insightful.
+ And I'm gonna try that new workout as well.
+ I think it's gonna solve a lot of my back pains as well
+ on that one.
+ - Let's go make sure you're on the show.
+ - Yeah.
+ Thank you, Anthony.
+ Thank you guys everybody for listening
+ on this episode of the Future of Money podcast.
+ Again, it thanks you guys for your support.
+ Really what I love.
+ And if you have any ideas of topics you want to discuss,
+ you want me to talk about cover in future episodes.
+ If you're pleased to let us know in the comments,
+ we're always there.
+ And again, also a big thank you for all of you
+ for the support of my latest kids book.
+ You know, the coding crypto does become really
+ the number one you release in its category guys.
+ Thank you very much for that.
+ It means a lot of your support for all the educational content
+ we've been doing now since 2016.
+ Thank you very much everybody.
+ And see you guys all soon for another episode
+ of the Future of Money podcast.

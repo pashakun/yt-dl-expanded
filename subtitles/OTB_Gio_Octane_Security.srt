@@ -1,0 +1,2688 @@
+1
+00:00:00,000 --> 00:00:06,000
+Security is probably the most important and under-discussed issue facing the crypto industry
+
+2
+00:00:06,000 --> 00:00:07,000
+today.
+
+3
+00:00:07,000 --> 00:00:12,960
+According to Chainalysis, over $2.2 billion of crypto was stolen in 2024 alone, and per
+
+4
+00:00:12,960 --> 00:00:18,240
+data from Elliptic, North Korean adversaries have been responsible for an estimated $6
+
+5
+00:00:18,240 --> 00:00:22,480
+billion in crypto theft, and that number continues to rise.
+
+6
+00:00:22,480 --> 00:00:28,600
+Unfortunately, AI is only enhancing the capabilities of attackers and the ease of exploiting vulnerable
+
+7
+00:00:28,600 --> 00:00:29,600
+code.
+
+8
+00:00:29,600 --> 00:00:34,040
+Those can and are being leveraged by hackers to identify potential vulnerabilities, while
+
+9
+00:00:34,040 --> 00:00:38,040
+at the same time we are seeing an increase in the amount of code being deployed faster
+
+10
+00:00:38,040 --> 00:00:42,280
+than ever, and often, frankly, without the same care.
+
+11
+00:00:42,280 --> 00:00:46,980
+In a world of a lot of open source code, this poses a substantial threat to all of us who
+
+12
+00:00:46,980 --> 00:00:50,560
+use digital financial systems in one way or another.
+
+13
+00:00:50,560 --> 00:00:56,320
+In the midst of this transition, I sat down with Gio Vignoni, the founder of Octane Security,
+
+14
+00:00:56,320 --> 00:00:59,240
+to discuss the current crypto security landscape.
+
+15
+00:00:59,240 --> 00:01:04,400
+Octane is a crypto-focused cybersecurity company that helps customers battle test code before
+
+16
+00:01:04,400 --> 00:01:09,520
+product launch, a process which is known as pre-deployment or offensive security.
+
+17
+00:01:09,520 --> 00:01:14,400
+Gio had recognized that crypto security up until recently was static and cumbersome,
+
+18
+00:01:14,400 --> 00:01:18,960
+relying on one-time manual audits and periodic vulnerability testing, and sought to build
+
+19
+00:01:18,960 --> 00:01:23,040
+out a more continuous and effective platform, starting with pre-deployment.
+
+20
+00:01:23,040 --> 00:01:27,480
+We discussed where hacks are occurring, how teams can best position and evolve to protect
+
+21
+00:01:27,480 --> 00:01:32,080
+themselves and users, and how to be vigilant as a crypto and internet user.
+
+22
+00:01:32,080 --> 00:01:34,680
+I hope you enjoy our conversation.
+
+23
+00:01:34,680 --> 00:01:37,040
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+24
+00:01:37,040 --> 00:01:39,680
+All views expressed by them or the guests on this podcast are solely their opinions
+
+25
+00:01:39,680 --> 00:01:42,240
+and do not reflect the opinions of Castle Island Ventures.
+
+26
+00:01:42,240 --> 00:01:44,320
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+27
+00:01:44,320 --> 00:01:47,920
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+28
+00:01:47,920 --> 00:01:51,560
+to make a particular investment or follow a particular strategy, but only as an expression
+
+29
+00:01:51,560 --> 00:01:52,560
+of their personal opinion.
+
+30
+00:01:52,560 --> 00:01:55,720
+This podcast is for informational purposes only.
+
+31
+00:01:55,720 --> 00:02:00,800
+Cut down by bad mortgage investments, Lehman, which has 25,000 employees, would be liquidated.
+
+32
+00:02:00,800 --> 00:02:05,480
+The federal government loans American International Group, AIG, 85 billion dollars.
+
+33
+00:02:05,480 --> 00:02:08,360
+This is a different kind of market and the Fed is asleep!
+
+34
+00:02:08,360 --> 00:02:12,560
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+
+35
+00:02:12,560 --> 00:02:15,040
+giants that have been threatened by the housing crisis.
+
+36
+00:02:15,040 --> 00:02:18,800
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+37
+00:02:18,800 --> 00:02:20,280
+with a new round of constant disease.
+
+38
+00:02:20,280 --> 00:02:23,680
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+39
+00:02:23,680 --> 00:02:26,760
+So out of this worry, we have something called the Bitcoin.
+
+40
+00:02:26,760 --> 00:02:27,760
+Bitcoin.
+
+41
+00:02:27,760 --> 00:02:30,400
+Gio, great to see you.
+
+42
+00:02:30,400 --> 00:02:31,400
+Let's dive right in.
+
+43
+00:02:31,400 --> 00:02:36,040
+What do people not know or get wrong about security and crypto currently?
+
+44
+00:02:36,040 --> 00:02:41,760
+I think there's a lot of things that go into security, especially in the crypto ecosystem,
+
+45
+00:02:41,760 --> 00:02:46,960
+mainly because the risk profile in this space is probably the highest out of any space I've
+
+46
+00:02:46,960 --> 00:02:47,960
+ever seen.
+
+47
+00:02:47,960 --> 00:02:52,600
+Effectively, all hacks lead to the equivalent of bank account liquidations, where end users
+
+48
+00:02:52,640 --> 00:02:56,160
+actually lose digital assets, tokens, real money.
+
+49
+00:02:56,160 --> 00:02:57,720
+So security is really important.
+
+50
+00:02:57,720 --> 00:03:02,160
+I think a lot of people actually overlook how important it is.
+
+51
+00:03:02,160 --> 00:03:06,920
+I've seen a lot of people in my time working in the space think that a single manual audit
+
+52
+00:03:06,920 --> 00:03:11,140
+is equivalent to being secure when that's really not the case.
+
+53
+00:03:11,140 --> 00:03:16,420
+My definition of good redeployment security, meaning security that comes before your team
+
+54
+00:03:16,420 --> 00:03:20,840
+goes live on chain, is about understanding your risk profile.
+
+55
+00:03:20,840 --> 00:03:26,080
+So having a known risk profile, understanding where exploits can happen, because no code
+
+56
+00:03:26,080 --> 00:03:30,760
+is ever 100% secure, there will always be trade-offs, but it's important that you understand
+
+57
+00:03:30,760 --> 00:03:34,040
+where those risks lie and you have defenses around them.
+
+58
+00:03:34,040 --> 00:03:39,640
+And then also understanding how much in terms of resources you plan to allocate to both
+
+59
+00:03:39,640 --> 00:03:42,560
+pre and post deployment security, to be honest.
+
+60
+00:03:42,560 --> 00:03:43,880
+That's really important.
+
+61
+00:03:43,880 --> 00:03:49,120
+And then I also think it's important to build a structure in your pre-deployment security
+
+62
+00:03:49,120 --> 00:03:50,120
+risk profile.
+
+63
+00:03:50,360 --> 00:03:55,320
+So what we recommend to a lot of our customers is using tooling and infrastructure as you're
+
+64
+00:03:55,320 --> 00:03:59,160
+writing your source code that's going to go live and hopefully manage billions of dollars
+
+65
+00:03:59,160 --> 00:04:00,600
+in user assets.
+
+66
+00:04:00,600 --> 00:04:04,920
+And some of that infrastructure can be tools like Octane, which are like AI-powered security
+
+67
+00:04:04,920 --> 00:04:10,720
+vulnerability analysis tools, but it can also be static detectors, static analyzers like
+
+68
+00:04:10,720 --> 00:04:16,640
+Slither from Trail of Bits, or anything that ensures and enforces code-level security in
+
+69
+00:04:16,640 --> 00:04:18,200
+the development pipeline.
+
+70
+00:04:18,200 --> 00:04:21,920
+We also recommend to our customers at least two different manual audits from different
+
+71
+00:04:21,920 --> 00:04:24,640
+firms on commits right before they go live.
+
+72
+00:04:24,640 --> 00:04:28,440
+That's really important to spot check exactly what's going live is going to be secure.
+
+73
+00:04:28,440 --> 00:04:31,400
+A public audit competition can be really helpful as well.
+
+74
+00:04:31,400 --> 00:04:33,240
+We recommend that to our customers.
+
+75
+00:04:33,240 --> 00:04:37,360
+And I also think it's really important to have a live bug bounty so that when people
+
+76
+00:04:37,360 --> 00:04:41,960
+do find vulnerabilities in your source code, they have a process for responsible disclosure
+
+77
+00:04:41,960 --> 00:04:46,080
+and everything's already laid out and you don't get in a bad scenario with security
+
+78
+00:04:46,080 --> 00:04:47,080
+researchers.
+
+79
+00:04:47,160 --> 00:04:50,240
+And then of course, last thing I'll say to this is when you're thinking about building
+
+80
+00:04:50,240 --> 00:04:54,200
+a security risk profile, you also want to think about operational security.
+
+81
+00:04:54,200 --> 00:04:59,840
+So have you performed incident response practice, have you simulated attack scenarios and red
+
+82
+00:04:59,840 --> 00:05:03,440
+teamed and does your team understand how to respond to that?
+
+83
+00:05:03,440 --> 00:05:08,400
+All of that that I just said is really focused on smart contract based security and how we
+
+84
+00:05:08,400 --> 00:05:10,600
+think about smart contract based security.
+
+85
+00:05:10,600 --> 00:05:15,060
+There's a ton of other security properties you should think about if you're actually
+
+86
+00:05:15,060 --> 00:05:19,860
+deploying more than just smart contracts, as well as backends, APIs and other systems.
+
+87
+00:05:19,860 --> 00:05:21,260
+That's a great landscape.
+
+88
+00:05:21,260 --> 00:05:22,420
+And it's interesting to your point.
+
+89
+00:05:22,420 --> 00:05:27,140
+That's just a narrow segment of securing a protocol or securing a company.
+
+90
+00:05:27,140 --> 00:05:31,540
+Lots of thoughts, but off the bat, to your first point about the risk profile of crypto,
+
+91
+00:05:31,540 --> 00:05:36,780
+I think it's a funny dynamic because people who get into crypto, at least over the last
+
+92
+00:05:36,780 --> 00:05:40,560
+few years, probably have had a risk appetite from the outset.
+
+93
+00:05:40,560 --> 00:05:45,520
+So you're trying to reconcile high stakes and getting people to be security aligned
+
+94
+00:05:45,520 --> 00:05:50,200
+when they probably inherently had a risk appetite to begin with, which to your point, I think
+
+95
+00:05:50,200 --> 00:05:54,200
+can be probably a difficult task from a behavioral standpoint.
+
+96
+00:05:54,200 --> 00:05:55,880
+I would definitely say so.
+
+97
+00:05:55,880 --> 00:06:00,400
+We've had our fair share of customers who are definitely risk on when it comes to security
+
+98
+00:06:00,400 --> 00:06:05,060
+and we do our best to try to guide them into the direction of really thinking about this
+
+99
+00:06:05,060 --> 00:06:06,640
+from first principles.
+
+100
+00:06:06,640 --> 00:06:11,080
+To your point though, I think one of the things that we've seen help in this scenario
+
+101
+00:06:11,080 --> 00:06:16,040
+a lot is people having full-time on staff folks for security purposes.
+
+102
+00:06:16,040 --> 00:06:22,680
+It's like having a lead security engineer, a CISO or a head of something security.
+
+103
+00:06:22,680 --> 00:06:26,040
+There's different parts in the security profile you want to cover with different people, but
+
+104
+00:06:26,040 --> 00:06:29,000
+it really helps to have somebody full-time just thinking about this.
+
+105
+00:06:29,000 --> 00:06:30,000
+Yeah.
+
+106
+00:06:30,000 --> 00:06:35,140
+To that point about the kinds of customers you're speaking to, do you guys find yourselves
+
+107
+00:06:35,140 --> 00:06:40,420
+doing a lot of education to the point of having those bases covered that you mentioned?
+
+108
+00:06:40,420 --> 00:06:44,300
+Because I think about the emergence of a lot of different crypto companies, a lot of Coinbase's
+
+109
+00:06:44,300 --> 00:06:48,540
+job in the early days was things like telling people to write down their private key and
+
+110
+00:06:48,540 --> 00:06:50,380
+don't forget your private key.
+
+111
+00:06:50,380 --> 00:06:53,700
+That's not necessarily their business, but it's a key part of what they're doing because
+
+112
+00:06:53,700 --> 00:06:57,860
+they suffer if their customers still have that experience elsewhere.
+
+113
+00:06:57,860 --> 00:07:00,380
+That's something that we take very seriously as well.
+
+114
+00:07:00,460 --> 00:07:05,340
+A lot of our team comes from great security firms like Trail of Gets and Open Zeppelin
+
+115
+00:07:05,340 --> 00:07:10,260
+and a bunch of others as well, but they have a lot of experience dealing with the security
+
+116
+00:07:10,260 --> 00:07:12,700
+landscape in crypto as a whole.
+
+117
+00:07:12,700 --> 00:07:17,340
+One of our big missions at Octane and something that all of our team members definitely carry
+
+118
+00:07:17,340 --> 00:07:21,420
+with them as they're working with teams is to make sure that teams that work with us
+
+119
+00:07:21,420 --> 00:07:26,860
+go live in a secure way and avoid hacks and exploits.
+
+120
+00:07:26,860 --> 00:07:32,620
+That means more than just integrating Octane and just having our AI code analysis platform
+
+121
+00:07:32,620 --> 00:07:34,260
+find and detect vulnerabilities.
+
+122
+00:07:34,260 --> 00:07:35,340
+It means way more than that.
+
+123
+00:07:35,340 --> 00:07:40,980
+It's like thinking very thoroughly about security going over that risk profile that we talked about.
+
+124
+00:07:40,980 --> 00:07:46,020
+So where do you guys sit in a stack or in a platform of offerings that a protocol might
+
+125
+00:07:46,020 --> 00:07:47,380
+put into place?
+
+126
+00:07:47,380 --> 00:07:51,980
+We actually like to think of ourselves as a holistic solution here from the pre-deployment
+
+127
+00:07:51,980 --> 00:07:52,980
+standpoint.
+
+128
+00:07:52,980 --> 00:07:55,300
+We don't do anything post-deployment really.
+
+129
+00:07:55,300 --> 00:08:00,100
+So from a pre-deployment perspective, we have our core product, which is our continuous
+
+130
+00:08:00,100 --> 00:08:05,940
+vulnerability analysis tool that effectively on every pull request finds new vulnerabilities
+
+131
+00:08:05,940 --> 00:08:08,940
+that the developer team might accidentally introduce.
+
+132
+00:08:08,940 --> 00:08:13,860
+We also build remediations for those, which means automatically generated code diffs.
+
+133
+00:08:13,860 --> 00:08:18,660
+We talk through exploit scenarios of how these hacks could happen, and that's surface 24-7
+
+134
+00:08:18,660 --> 00:08:19,700
+for users.
+
+135
+00:08:19,700 --> 00:08:25,860
+It takes somewhere between 15 to 40 minutes per PR to run, and the team gets effectively
+
+136
+00:08:25,860 --> 00:08:28,580
+close to an audit report on every pull request.
+
+137
+00:08:28,580 --> 00:08:33,140
+But we also have a team of very seasoned security researchers, which have over a million dollars
+
+138
+00:08:33,140 --> 00:08:38,340
+in confirmed bug bounty payouts and competition winnings, and have also worked at great firms
+
+139
+00:08:38,340 --> 00:08:39,660
+like OpenZappen.
+
+140
+00:08:39,660 --> 00:08:44,340
+And our security research team will come in and do point-in-time manual reviews for teams
+
+141
+00:08:44,340 --> 00:08:45,860
+right before they go live.
+
+142
+00:08:45,860 --> 00:08:51,220
+So we like to make sure that teams that work with us can get a holistic solution provided
+
+143
+00:08:51,220 --> 00:08:56,100
+to them from a pre-deployment security standpoint, and we also recommend other providers for
+
+144
+00:08:56,100 --> 00:09:00,900
+teams getting their bug bounty listed or getting an audit competition done.
+
+145
+00:09:00,900 --> 00:09:05,580
+And maybe to synthesize, you guys are doing review of these pull requests.
+
+146
+00:09:05,580 --> 00:09:08,900
+Like you said, you're looking at what's been built from a pre-deployment perspective, then
+
+147
+00:09:08,900 --> 00:09:11,780
+setting up bug bounty security researchers.
+
+148
+00:09:11,780 --> 00:09:16,300
+Where can things go wrong most likely or most frequently?
+
+149
+00:09:16,300 --> 00:09:22,740
+So also to clarify, our main offering is our software, where we have detectors that run
+
+150
+00:09:22,740 --> 00:09:24,580
+the verified code analysis.
+
+151
+00:09:24,580 --> 00:09:30,180
+Places that we see things go wrong is when we're dealing with teams who are very risk-on
+
+152
+00:09:30,180 --> 00:09:33,220
+and they're very keen to deploy quickly.
+
+153
+00:09:33,220 --> 00:09:37,300
+They have some deadline in their head of when they need to get this code live, and they
+
+154
+00:09:37,300 --> 00:09:42,420
+rush the process, and they don't think about it from the very first day of starting to
+
+155
+00:09:42,420 --> 00:09:43,420
+build.
+
+156
+00:09:43,420 --> 00:09:46,180
+They come to us and they're like, hey, we're planning to go live in five days.
+
+157
+00:09:46,180 --> 00:09:48,060
+We've done nothing for security.
+
+158
+00:09:48,060 --> 00:09:51,620
+That's when we really have to try to convince them this is a bad idea, because security
+
+159
+00:09:51,620 --> 00:09:53,900
+should be something that starts from the beginning of development.
+
+160
+00:09:53,900 --> 00:09:56,340
+You should have tooling infrastructure baked in from the start.
+
+161
+00:09:56,340 --> 00:09:59,620
+It's like this concept of shifting security left that's really important.
+
+162
+00:09:59,620 --> 00:10:03,820
+We see things go wrong with teams, or like we see the most risk for teams that come in
+
+163
+00:10:03,820 --> 00:10:06,900
+and are having security as an afterthought.
+
+164
+00:10:06,900 --> 00:10:10,860
+When you guys are a software-first solution, do you interface with every customer?
+
+165
+00:10:10,860 --> 00:10:14,980
+Because I imagine in that case, you'd want to be selective about customers you work with
+
+166
+00:10:14,980 --> 00:10:20,060
+so that you're not half-servicing a client that's putting out an unsafe solution.
+
+167
+00:10:20,060 --> 00:10:23,620
+But I wonder, can they just self-service, or how do you deal with that?
+
+168
+00:10:23,620 --> 00:10:27,060
+Yeah, so we don't offer pure self-service today.
+
+169
+00:10:27,060 --> 00:10:30,260
+Part of the reason for this is our product is extremely performant.
+
+170
+00:10:30,260 --> 00:10:35,060
+If people just run our product on any code base out there, it creates potential risk.
+
+171
+00:10:35,060 --> 00:10:38,340
+We don't want this product being used actually offensively.
+
+172
+00:10:38,340 --> 00:10:41,260
+We want it being used defensively for the teams.
+
+173
+00:10:41,260 --> 00:10:42,260
+What would that look like?
+
+174
+00:10:42,260 --> 00:10:46,660
+Yeah, it's the stuff I think that North Korea is doing right now at the moment, actually.
+
+175
+00:10:46,660 --> 00:10:52,060
+It's essentially taking code bases out there, running an AI platform to find and simulate
+
+176
+00:10:52,060 --> 00:10:55,060
+vulnerabilities, and then using that maliciously.
+
+177
+00:10:55,060 --> 00:10:56,980
+That would be the worst-case scenario.
+
+178
+00:10:56,980 --> 00:11:01,100
+And that's what I think groups like Lazarus and those kind of folks are doing at the moment.
+
+179
+00:11:01,100 --> 00:11:02,420
+We never want that to happen.
+
+180
+00:11:02,420 --> 00:11:06,260
+So we do manually onboard every team, but in that process, we also get the opportunity
+
+181
+00:11:06,260 --> 00:11:10,140
+to educate them on security, which obviously we're super thankful about.
+
+182
+00:11:10,140 --> 00:11:14,140
+Not every team are we going to be able to convince to go through the whole process that
+
+183
+00:11:14,140 --> 00:11:15,140
+I set up.
+
+184
+00:11:15,140 --> 00:11:18,780
+But we at least try to convince every team to think about security from first principles,
+
+185
+00:11:18,780 --> 00:11:21,660
+even though a lot of that doesn't respond to revenue for us.
+
+186
+00:11:21,660 --> 00:11:24,460
+It's just something that we think is the right thing to do.
+
+187
+00:11:24,460 --> 00:11:29,820
+Yeah, I think your point about being able to use this same sort of screening technology
+
+188
+00:11:29,820 --> 00:11:33,820
+offensively is a really important one, because I think people think of offensive security
+
+189
+00:11:33,820 --> 00:11:40,140
+today as, I need to do so in the case that adversaries are doing traditional hacking.
+
+190
+00:11:40,140 --> 00:11:45,260
+But a whole nother frame is, I need to do this analysis because it's the exact same
+
+191
+00:11:45,260 --> 00:11:47,500
+framework that might be applied from the other side.
+
+192
+00:11:47,500 --> 00:11:52,060
+And therefore, if you haven't gone to that scope, then you're just begging to have a
+
+193
+00:11:52,060 --> 00:11:53,060
+vulnerability.
+
+194
+00:11:53,060 --> 00:11:54,060
+Yeah, exactly.
+
+195
+00:11:54,060 --> 00:11:59,780
+The way I think about it is teams should think about security defensively a lot of the time.
+
+196
+00:11:59,780 --> 00:12:03,900
+They should think, how do I defend my system against adversaries?
+
+197
+00:12:03,900 --> 00:12:10,260
+And adversaries like nation-state adversaries or sanction nations will try to do this.
+
+198
+00:12:10,260 --> 00:12:16,100
+If they see that you have hundreds of millions, tens of millions, billions of dollars in digital
+
+199
+00:12:16,100 --> 00:12:19,180
+assets in your protocol, they will try to hack you.
+
+200
+00:12:19,180 --> 00:12:24,500
+There's entire groups and departments built for this to effectively fund weapon programs
+
+201
+00:12:24,500 --> 00:12:26,900
+in North Korea or nuclear programs.
+
+202
+00:12:26,900 --> 00:12:30,540
+So I also think from our perspective, every team we get the chance to work with is an
+
+203
+00:12:30,540 --> 00:12:36,540
+opportunity for us to limit the potential risk on a global level of fund extradition
+
+204
+00:12:36,540 --> 00:12:39,740
+to sanction nations for bad uses.
+
+205
+00:12:39,740 --> 00:12:46,380
+These groups like Lazarus and folks like that, they are probably building AI systems to find
+
+206
+00:12:46,380 --> 00:12:48,540
+vulnerabilities and codebases.
+
+207
+00:12:48,540 --> 00:12:53,380
+And a lot of the code in crypto is open source, the smart contract code, the stuff that holds
+
+208
+00:12:53,380 --> 00:12:56,260
+the digital assets is open source.
+
+209
+00:12:56,260 --> 00:13:01,300
+Some of it is immutable, which means it can be very difficult to rescue funds.
+
+210
+00:13:01,300 --> 00:13:05,700
+And then a lot of these hacks are going to effectively lead to direct fund loss.
+
+211
+00:13:05,700 --> 00:13:12,060
+So I think offensively, there are bad people using AI to find vulnerabilities and codebases.
+
+212
+00:13:12,060 --> 00:13:16,600
+I think every team needs to start thinking about how do I use AI to make sure that I'm
+
+213
+00:13:16,600 --> 00:13:22,700
+protected defensively from these other teams that are going to inevitably go after us.
+
+214
+00:13:22,700 --> 00:13:26,340
+It also just increases the amount and the ease to attack.
+
+215
+00:13:26,340 --> 00:13:29,700
+If you think it's sort of like Vibe coding, but Vibe hacking.
+
+216
+00:13:29,700 --> 00:13:31,660
+Vibe hacking, Vibe security.
+
+217
+00:13:31,660 --> 00:13:36,700
+How have you seen the amount of adversarial activity evolve in the time you've been around
+
+218
+00:13:36,700 --> 00:13:37,860
+this space?
+
+219
+00:13:37,860 --> 00:13:39,660
+I think it's gotten really bad.
+
+220
+00:13:39,660 --> 00:13:41,740
+I think it's scaled up a lot.
+
+221
+00:13:41,740 --> 00:13:44,700
+Vibe it was Lazarus, I believe.
+
+222
+00:13:44,700 --> 00:13:50,100
+And groups like Chainalysis and the US Department of Treasury have done a lot of reviews and
+
+223
+00:13:50,260 --> 00:13:54,460
+I've mentioned a lot of this movement of funds and it's definitely picked up a lot.
+
+224
+00:13:54,460 --> 00:13:59,860
+I think in total hacks, there's been over $11 billion now, but it's like a significant
+
+225
+00:13:59,860 --> 00:14:02,020
+amount of DeFi related hacks.
+
+226
+00:14:02,020 --> 00:14:05,260
+And do you remember the exact number currently in DeFi?
+
+227
+00:14:05,260 --> 00:14:07,540
+That sounds approximately right.
+
+228
+00:14:07,540 --> 00:14:09,340
+The total amount stored in DeFi.
+
+229
+00:14:09,340 --> 00:14:11,180
+Oh, total amounts stored.
+
+230
+00:14:11,180 --> 00:14:12,180
+Yeah.
+
+231
+00:14:12,180 --> 00:14:15,860
+TVL is I'm trying to think in the 80 billion range, maybe.
+
+232
+00:14:15,860 --> 00:14:16,860
+No, sorry.
+
+233
+00:14:16,860 --> 00:14:17,860
+80 billion might be Aave.
+
+234
+00:14:17,860 --> 00:14:19,500
+So it's probably double that.
+
+235
+00:14:19,660 --> 00:14:20,660
+I looked at it.
+
+236
+00:14:20,660 --> 00:14:21,660
+It's 150 billion.
+
+237
+00:14:21,660 --> 00:14:25,740
+So if you think about 11 billion of that being stolen is insane.
+
+238
+00:14:25,740 --> 00:14:28,540
+That's nearly 10% of all of our TVL.
+
+239
+00:14:28,540 --> 00:14:30,860
+And by the way, 2025, we've gone up a lot.
+
+240
+00:14:30,860 --> 00:14:35,340
+It used to be 40 billion in TVL just a few years ago.
+
+241
+00:14:35,340 --> 00:14:37,540
+So it's a higher percentage on that basis.
+
+242
+00:14:37,540 --> 00:14:38,540
+Way higher.
+
+243
+00:14:38,540 --> 00:14:43,340
+So I think in my time being around the ecosystem, the number of hacks have gone up, the amount
+
+244
+00:14:43,340 --> 00:14:46,460
+being hacked has gone up by 1.5 billion, I think.
+
+245
+00:14:46,460 --> 00:14:50,580
+That comes from the fact that there's more TVL being held, adversaries are getting much
+
+246
+00:14:50,580 --> 00:14:55,460
+smarter, AI is being adopted now to hack code bases as well.
+
+247
+00:14:55,460 --> 00:14:58,660
+And teams really need to start thinking about security for first principles.
+
+248
+00:14:58,660 --> 00:15:03,540
+That being said, today, compared to maybe two years ago when I started Octane, I've
+
+249
+00:15:03,540 --> 00:15:09,020
+seen a dramatic shift in terms of the way that these teams are handling security that
+
+250
+00:15:09,020 --> 00:15:10,220
+we're working with.
+
+251
+00:15:10,220 --> 00:15:15,140
+Protocol teams, infrastructure teams, L1s, they're all really thinking about security
+
+252
+00:15:15,140 --> 00:15:18,940
+from a mature perspective for the most part, which is really encouraging.
+
+253
+00:15:18,940 --> 00:15:23,140
+So I think the threat vectors are going up, but our responses to those threat factors
+
+254
+00:15:23,140 --> 00:15:27,420
+and our focus on pre-deployment security has also gone up as an ecosystem.
+
+255
+00:15:27,420 --> 00:15:31,300
+From a builder's perspective, because you mentioned, I imagine you get varying levels
+
+256
+00:15:31,300 --> 00:15:37,420
+of scenario where someone shipped a full product and, okay, I need to do security now, or they
+
+257
+00:15:37,420 --> 00:15:41,340
+have a launch in two weeks and, okay, I need to make sure nothing bad happens.
+
+258
+00:15:41,340 --> 00:15:42,980
+That's better than not doing that.
+
+259
+00:15:43,300 --> 00:15:46,860
+In an ideal world, obviously, security is a day one thought, which I think that a lot
+
+260
+00:15:46,860 --> 00:15:50,780
+of thoughtful founders make that decision, but today I don't think we're collectively
+
+261
+00:15:50,780 --> 00:15:52,460
+at that state yet.
+
+262
+00:15:52,460 --> 00:15:56,300
+How important is it that security is a day one thought?
+
+263
+00:15:56,300 --> 00:16:00,820
+And how much do you see debt, whether it's operational debt, whether it's tech debt,
+
+264
+00:16:00,820 --> 00:16:04,540
+because people haven't been security focused from day one and they've already done this
+
+265
+00:16:04,540 --> 00:16:05,540
+build out?
+
+266
+00:16:05,540 --> 00:16:10,620
+The biggest full case I can give to this for any founder listening is it will be cheaper
+
+267
+00:16:10,700 --> 00:16:14,740
+for you to approach this from day one, even though you don't think it is.
+
+268
+00:16:14,740 --> 00:16:18,380
+What we see is a lot of founders will just wait until they're ready for deployment and
+
+269
+00:16:18,380 --> 00:16:20,260
+be like, okay, now I got to do security.
+
+270
+00:16:20,260 --> 00:16:21,260
+But here's what happens.
+
+271
+00:16:21,260 --> 00:16:26,420
+They get one big manual audit that costs them somewhere between $50,000 and $200,000.
+
+272
+00:16:26,420 --> 00:16:32,100
+The manual audit comes back with a ton of highs and criticals, so your security profile
+
+273
+00:16:32,100 --> 00:16:33,860
+on chain is just terrible.
+
+274
+00:16:33,860 --> 00:16:38,460
+You have a lot of different things to fix because you didn't start thinking about this
+
+275
+00:16:38,580 --> 00:16:40,300
+until you're right about to deploy.
+
+276
+00:16:40,300 --> 00:16:41,900
+Okay, so now what happens?
+
+277
+00:16:41,900 --> 00:16:46,260
+It's going to be a couple of weeks before you fix all of that and get all the audit
+
+278
+00:16:46,260 --> 00:16:48,060
+process actually wrapped up.
+
+279
+00:16:48,060 --> 00:16:51,020
+And then you're probably going to need to get another manual audit for a couple of reasons.
+
+280
+00:16:51,020 --> 00:16:54,520
+One, you don't want just one, but two, if you had that many highs and criticals, there's
+
+281
+00:16:54,520 --> 00:16:55,860
+probably more.
+
+282
+00:16:55,860 --> 00:17:01,840
+And so now you're at somewhere between $100,000 and $400,000 in security spend.
+
+283
+00:17:01,840 --> 00:17:06,020
+And then you're going to wrap up that process and then maybe you'll do one more.
+
+284
+00:17:06,020 --> 00:17:09,420
+Hopefully you don't have a ton of highs and criticals after that second one, and then
+
+285
+00:17:09,420 --> 00:17:10,540
+you'll get ready to deploy.
+
+286
+00:17:10,540 --> 00:17:13,500
+But this whole process is now taking you multiple months.
+
+287
+00:17:13,500 --> 00:17:18,220
+So now you're in a worse spot because if you start security from day one, you will have
+
+288
+00:17:18,220 --> 00:17:23,940
+AI and automated tooling catching a significant amount of those vulnerabilities early upfront
+
+289
+00:17:23,940 --> 00:17:25,260
+continuously.
+
+290
+00:17:25,260 --> 00:17:28,740
+So when you go for those spot checks, those manual audits, hopefully your vulnerability
+
+291
+00:17:28,740 --> 00:17:32,340
+count will be extremely low because you're already aware of a lot of the potential risks
+
+292
+00:17:32,340 --> 00:17:35,780
+that you've been introducing in your continuous development pipeline.
+
+293
+00:17:35,780 --> 00:17:39,300
+And then that process speeds up, remediation time is faster.
+
+294
+00:17:39,300 --> 00:17:42,740
+The number of audits you'll have to do is hopefully lower.
+
+295
+00:17:42,740 --> 00:17:46,820
+And overall, this is how we get to help teams save money on security.
+
+296
+00:17:46,820 --> 00:17:53,300
+And I think the security ecosystem at the moment up to today or up to maybe 2025 has
+
+297
+00:17:53,300 --> 00:17:57,900
+been so focused on manual audits and doing that process that I mentioned and has spent
+
+298
+00:17:57,900 --> 00:18:02,980
+so much money on this that it has been inaccessible to a lot of builders.
+
+299
+00:18:03,140 --> 00:18:08,580
+My hope is that with Octane and with automation of pre-deployment security and point in time
+
+300
+00:18:08,580 --> 00:18:14,580
+manual checks that are surgical, we're going to enable more people to build in crypto because
+
+301
+00:18:14,580 --> 00:18:16,500
+security becomes more accessible.
+
+302
+00:18:16,500 --> 00:18:18,540
+So yeah, that's my long ramble on that.
+
+303
+00:18:18,540 --> 00:18:20,660
+No, I think that's a really important point.
+
+304
+00:18:20,660 --> 00:18:22,820
+And we see this from the venture side.
+
+305
+00:18:22,820 --> 00:18:26,780
+Teams that don't pay for security for the first part of their build because they can't
+
+306
+00:18:26,780 --> 00:18:30,580
+afford it because it's a very all or nothing offering or process.
+
+307
+00:18:30,580 --> 00:18:33,540
+And because of that, you're in this debt situation you're talking about.
+
+308
+00:18:33,540 --> 00:18:38,020
+One thing I'll add to this, this morning, Bunny Protocol, which got hacked, they had
+
+309
+00:18:38,020 --> 00:18:39,020
+to shut down.
+
+310
+00:18:39,020 --> 00:18:40,020
+They posted this on Twitter.
+
+311
+00:18:40,020 --> 00:18:43,060
+They said, we're not going to be able to relaunch.
+
+312
+00:18:43,060 --> 00:18:46,580
+We've looked at the costs of doing the manual audits to go live again.
+
+313
+00:18:46,580 --> 00:18:49,420
+They said six to seven figures from their tweet.
+
+314
+00:18:49,420 --> 00:18:50,420
+That is insane.
+
+315
+00:18:50,420 --> 00:18:52,740
+There are ways to, I think, avoid that.
+
+316
+00:18:52,740 --> 00:18:56,580
+That being said, Bunny Protocol is incredibly complex as Uniswap v4 hooks.
+
+317
+00:18:56,580 --> 00:19:01,780
+It is going to be an intensive security process regardless, but I do think that leveraging
+
+318
+00:19:01,780 --> 00:19:07,020
+automation and using AI infrastructure and tooling that way will hopefully bring some
+
+319
+00:19:07,020 --> 00:19:08,780
+of those costs down in the future.
+
+320
+00:19:08,780 --> 00:19:12,580
+And also we have been able to catch a lot of vulnerabilities that were missed in manual
+
+321
+00:19:12,580 --> 00:19:13,580
+reviews.
+
+322
+00:19:13,580 --> 00:19:18,340
+So hopefully from a security risk perspective, Octane and similar types of infrastructure
+
+323
+00:19:18,340 --> 00:19:20,820
+can enable better risk profiles.
+
+324
+00:19:20,820 --> 00:19:26,520
+As we talk about costs and operational security practices, I'm curious for your view, as
+
+325
+00:19:26,520 --> 00:19:30,700
+especially with your founder hat on, you've raised funds to your budgeting.
+
+326
+00:19:30,700 --> 00:19:34,960
+Do you have a benchmark for how much teams should be spending on security relative to
+
+327
+00:19:34,960 --> 00:19:37,920
+their budget, relative to the amount of funding they have?
+
+328
+00:19:37,920 --> 00:19:39,120
+That's a good question.
+
+329
+00:19:39,120 --> 00:19:44,260
+I think it really depends on what your risk profile looks like.
+
+330
+00:19:44,260 --> 00:19:49,080
+And by that, I mean, is your protocol going to be handling lots of dollars in volume of
+
+331
+00:19:49,080 --> 00:19:53,600
+assets or is it going to not maybe handle a lot of digital assets?
+
+332
+00:19:53,600 --> 00:19:56,280
+And depending on that, I might have different answers.
+
+333
+00:19:56,280 --> 00:20:00,480
+But I think because most teams in crypto are falling in the bucket of handling a lot
+
+334
+00:20:00,480 --> 00:20:05,240
+of user funds, I would recommend that if you do it right, I think you can budget somewhere
+
+335
+00:20:05,240 --> 00:20:10,120
+between maybe 25 to 100K a year, somewhere in that range, depending on also how much
+
+336
+00:20:10,120 --> 00:20:11,760
+code you're planning to deploy.
+
+337
+00:20:11,760 --> 00:20:15,920
+I think infrastructure and tooling automation, some is free, some is paid.
+
+338
+00:20:15,920 --> 00:20:20,080
+I think you should definitely bake that into your budget because I think it will save money
+
+339
+00:20:20,080 --> 00:20:22,080
+on the overall budget and increase security.
+
+340
+00:20:22,080 --> 00:20:26,200
+And you should also budget for putting up bug bounties, getting manual audits done,
+
+341
+00:20:26,200 --> 00:20:27,680
+getting audit competitions done.
+
+342
+00:20:27,680 --> 00:20:31,740
+I think depending on your cadence of code deployment, you could get that all done within
+
+343
+00:20:31,740 --> 00:20:33,160
+that range a year.
+
+344
+00:20:33,160 --> 00:20:39,120
+For most startup founders, and maybe the BC to Series A range, what we've seen is as teams
+
+345
+00:20:39,120 --> 00:20:45,600
+start to scale up in size and protocols grow, we see an increase in volume of the on-chain
+
+346
+00:20:45,600 --> 00:20:46,600
+products being deployed.
+
+347
+00:20:46,600 --> 00:20:50,560
+And so that should equate to an increase in volume on security spent.
+
+348
+00:20:50,560 --> 00:20:54,560
+I think it's important for investors, whether it's funds or angels to be aware of too, because
+
+349
+00:20:54,600 --> 00:20:59,560
+if you want to invest in a protocol and maybe it's a small financing and they want to get
+
+350
+00:20:59,560 --> 00:21:03,680
+a product to market quickly, you have to make sure that the security budget's in there.
+
+351
+00:21:03,680 --> 00:21:04,680
+100%.
+
+352
+00:21:04,680 --> 00:21:06,920
+The security budget definitely needs to be in there.
+
+353
+00:21:06,920 --> 00:21:11,320
+But I think it doesn't need to be as crazy as it's been for the past few years.
+
+354
+00:21:11,320 --> 00:21:12,420
+Do you want to touch on that?
+
+355
+00:21:12,420 --> 00:21:16,600
+You feel like people have been forced to overspend on security in recent times?
+
+356
+00:21:16,600 --> 00:21:21,820
+I've seen teams have massive budgets for security, and I think that's fantastic.
+
+357
+00:21:21,820 --> 00:21:24,120
+I think it's really great that some teams can do that.
+
+358
+00:21:24,120 --> 00:21:27,400
+I think Uniswap had a $20 million budget.
+
+359
+00:21:27,400 --> 00:21:32,320
+I don't want to misquote, but I think that's it for their V4 hooks because they had a big
+
+360
+00:21:32,320 --> 00:21:33,320
+audit competition.
+
+361
+00:21:33,320 --> 00:21:36,240
+They had a big bug bounty, and then they had a bunch of manual audits done.
+
+362
+00:21:36,240 --> 00:21:40,120
+And that code is being used to build a bunch of different protocols on top of it, so it's
+
+363
+00:21:40,120 --> 00:21:41,120
+really important.
+
+364
+00:21:41,120 --> 00:21:45,240
+But yeah, I think security spend has been very high over the past few years.
+
+365
+00:21:45,240 --> 00:21:48,920
+I think it's because manual auditing prices are very, very high.
+
+366
+00:21:48,920 --> 00:21:54,080
+I do think there's a lot of manual auditing firms that produce really, really good outputs.
+
+367
+00:21:54,080 --> 00:21:56,400
+I think there's some that don't produce great outputs.
+
+368
+00:21:56,400 --> 00:22:01,520
+I think it's about how you approach that process, which vendors you go with for that, and how
+
+369
+00:22:01,520 --> 00:22:05,840
+you think about chopping up that budget across multiple parts of the pre-deployment security
+
+370
+00:22:05,840 --> 00:22:06,840
+spend.
+
+371
+00:22:06,840 --> 00:22:08,840
+Don't just get one manual audit, please.
+
+372
+00:22:08,840 --> 00:22:14,520
+So to that point about security budgeting, how would you assess what is effective spend
+
+373
+00:22:14,520 --> 00:22:15,520
+there?
+
+374
+00:22:15,520 --> 00:22:20,080
+Because I imagine in some cases, maybe you'll have a heavily funded project and they know
+
+375
+00:22:20,240 --> 00:22:23,240
+they need to spend $4 million on security.
+
+376
+00:22:23,240 --> 00:22:26,700
+So they're going to go and try and spend $4 million.
+
+377
+00:22:26,700 --> 00:22:30,480
+And I wonder from your view, there's any bearing their head in the sand if there are some things
+
+378
+00:22:30,480 --> 00:22:33,840
+where, okay, there's a lot of spend here, whereas this would be important.
+
+379
+00:22:33,840 --> 00:22:36,800
+How do you look at how that security budgeting is happening?
+
+380
+00:22:36,800 --> 00:22:40,600
+And then what is valuable along that stack in your view?
+
+381
+00:22:40,600 --> 00:22:46,660
+The way that I would stack it up is what you're paying for from your budget, actually leading
+
+382
+00:22:46,660 --> 00:22:51,100
+to more security risks being discovered and at what rate.
+
+383
+00:22:51,100 --> 00:22:56,460
+So I think tooling automation can discover a lot of security risk fairly on and continuously.
+
+384
+00:22:56,460 --> 00:23:01,380
+I also think it can speed up some of your processes and audit remediations.
+
+385
+00:23:01,380 --> 00:23:07,260
+So we've had customers that find vulnerabilities in the code changes that they're making themselves
+
+386
+00:23:07,260 --> 00:23:11,140
+before they send those code changes back to auditors, and they can fix those security
+
+387
+00:23:11,140 --> 00:23:14,860
+issues that they've introduced before sending it back to the auditors, which then saves
+
+388
+00:23:14,860 --> 00:23:16,060
+them an extra cycle.
+
+389
+00:23:16,060 --> 00:23:21,340
+So I think as long as tooling and infrastructure is producing a good amount of net new vulnerabilities
+
+390
+00:23:21,340 --> 00:23:26,740
+for you, your manual audits are producing a good amount of new vulnerabilities that
+
+391
+00:23:26,740 --> 00:23:31,980
+are difficult to find and that are correctly classified in severity, and you're understanding
+
+392
+00:23:31,980 --> 00:23:36,260
+your operational risks with these security tools and manual reviews.
+
+393
+00:23:36,260 --> 00:23:39,400
+And then you're also setting yourself up for success with bug bounties.
+
+394
+00:23:39,400 --> 00:23:43,340
+I think that's a pretty good workflow to be able to budget effectively.
+
+395
+00:23:43,340 --> 00:23:45,740
+Am I catching a lot of bugs with the money I'm spending?
+
+396
+00:23:45,740 --> 00:23:48,860
+Am I building good processes in case things go wrong?
+
+397
+00:23:48,860 --> 00:23:53,620
+You can also learn a lot about this by seeing how very seasoned teams approach this, like
+
+398
+00:23:53,620 --> 00:23:57,700
+Uniswap or Circle, which are our customers, but yeah, I think they do this really, really
+
+399
+00:23:57,700 --> 00:23:58,700
+well.
+
+400
+00:23:58,700 --> 00:24:04,300
+And maybe branching off of producing good security practices for an organization themselves.
+
+401
+00:24:04,300 --> 00:24:09,620
+In crypto, we have this ethos called composability, where you want things to work very well together.
+
+402
+00:24:09,620 --> 00:24:13,420
+And from my perspective, one of the things that comes with that is a lot of counterparty
+
+403
+00:24:13,420 --> 00:24:19,220
+risk in that the workflow of a given product might be you link your phantom wallet to
+
+404
+00:24:19,220 --> 00:24:23,660
+deck screener, which runs Meteora in the background, which might be sourcing the equity from somewhere
+
+405
+00:24:23,660 --> 00:24:24,660
+else.
+
+406
+00:24:24,660 --> 00:24:29,000
+And you're sometimes using four or five different products at the same time and accompanying
+
+407
+00:24:29,000 --> 00:24:31,460
+code bases could be more code bases.
+
+408
+00:24:31,460 --> 00:24:36,540
+How do you talk with customers or people in the industry generally about balancing risk
+
+409
+00:24:36,540 --> 00:24:37,820
+in that regard?
+
+410
+00:24:37,820 --> 00:24:43,060
+Because if you are one product in that stack along that usage experience, a vulnerability
+
+411
+00:24:43,180 --> 00:24:48,020
+or an exploit to one of those other accompanying products is really detrimental to you.
+
+412
+00:24:48,020 --> 00:24:52,380
+So your question is, how do you think about managing risk when you have a lot of different
+
+413
+00:24:52,380 --> 00:24:53,900
+composable products?
+
+414
+00:24:53,900 --> 00:24:54,900
+Yeah.
+
+415
+00:24:54,900 --> 00:24:58,380
+And when you're relying on other products in your own workflow?
+
+416
+00:24:58,380 --> 00:25:00,980
+As an end user or as a business?
+
+417
+00:25:00,980 --> 00:25:03,300
+As a business first, but then maybe as an end user.
+
+418
+00:25:03,300 --> 00:25:04,300
+Yeah.
+
+419
+00:25:04,300 --> 00:25:08,340
+So I think as a business first, what we recommend is every product that you're going to use
+
+420
+00:25:08,340 --> 00:25:12,940
+and you're going to integrate with is a new place for vulnerability to be introduced and
+
+421
+00:25:12,940 --> 00:25:15,300
+risk to your system to occur.
+
+422
+00:25:15,300 --> 00:25:19,820
+So first thing that we also see a lot of teams doing it is they'll go through the manual
+
+423
+00:25:19,820 --> 00:25:21,740
+audit reports of these teams.
+
+424
+00:25:21,740 --> 00:25:26,860
+If somebody is going to integrate, let's say Curve or Aave into their system, whether it's
+
+425
+00:25:26,860 --> 00:25:30,980
+their backend system that's routing orders or it's their on-chain protocol.
+
+426
+00:25:30,980 --> 00:25:34,620
+If they're going to start doing this, read up on their documentation, look at how many
+
+427
+00:25:34,620 --> 00:25:35,900
+audits they've got.
+
+428
+00:25:35,940 --> 00:25:42,380
+A lot of the time, there are known risks that are noted in the documentation of these protocols.
+
+429
+00:25:42,380 --> 00:25:46,620
+And we've seen a lot of customers have vulnerabilities introduced in those exact locations where
+
+430
+00:25:46,620 --> 00:25:49,340
+people are calling cross-chain to another protocol.
+
+431
+00:25:49,340 --> 00:25:52,940
+We've actually seen that be missed by a lot of manual auditors as well, because sometimes
+
+432
+00:25:52,940 --> 00:25:57,100
+teams don't consider those instances, so they don't look as deeply into that.
+
+433
+00:25:57,100 --> 00:26:01,540
+And we've caught vulnerabilities that were missed by manual reviews using Octane because
+
+434
+00:26:01,700 --> 00:26:06,260
+compile all the dependencies and look at the source code flow across and into dependencies
+
+435
+00:26:06,260 --> 00:26:07,260
+as well.
+
+436
+00:26:07,260 --> 00:26:10,980
+Which is just funny, when to your point they've already been publicly reported.
+
+437
+00:26:10,980 --> 00:26:12,740
+Yeah, but it's tricky.
+
+438
+00:26:12,740 --> 00:26:14,980
+For engineers, there's a lot going on.
+
+439
+00:26:14,980 --> 00:26:18,980
+There's a lot of different pieces to the puzzle, a lot of security they're trying to manage
+
+440
+00:26:18,980 --> 00:26:19,980
+on their own side.
+
+441
+00:26:19,980 --> 00:26:24,300
+So yeah, a lot of devs will look into the documentation of these protocols, but sometimes
+
+442
+00:26:24,300 --> 00:26:28,740
+there can be risks introduced on those integration points a lot of the time, actually.
+
+443
+00:26:28,740 --> 00:26:31,820
+So yeah, I think looking into the docs there, reading up on the source code that you're
+
+444
+00:26:31,820 --> 00:26:33,700
+actually integrating with is really important.
+
+445
+00:26:33,700 --> 00:26:38,780
+And then also for a business, I think making sure that all of those external touch points
+
+446
+00:26:38,780 --> 00:26:39,780
+are managed.
+
+447
+00:26:39,780 --> 00:26:45,940
+So you have some information feed to know if those protocols are hacked or exploited
+
+448
+00:26:45,940 --> 00:26:49,500
+or there is a bug, and you make sure to keep active tabs on that.
+
+449
+00:26:49,500 --> 00:26:54,220
+And there's companies that provide these types of information streams and also do on-chain
+
+450
+00:26:54,220 --> 00:26:55,220
+monitoring.
+
+451
+00:26:55,220 --> 00:26:59,020
+I think that's very helpful to get those alerts immediately, so you can pause everything
+
+452
+00:26:59,020 --> 00:27:03,140
+on your protocol side, make sure your user funds don't get lost.
+
+453
+00:27:03,140 --> 00:27:05,940
+And how about from the end user perspective, because I think you brought up an interesting
+
+454
+00:27:05,940 --> 00:27:06,940
+point there.
+
+455
+00:27:06,940 --> 00:27:12,260
+I personally try and go with the very simple heuristic of like, if I can use two apps or
+
+456
+00:27:12,260 --> 00:27:16,460
+two platforms, as opposed to five, then I'll air that direction.
+
+457
+00:27:16,460 --> 00:27:19,060
+But I'm curious, how do you look at it from the end user perspective?
+
+458
+00:27:19,060 --> 00:27:23,380
+Yeah, I think that's helpful, minimizing the number of forms that you're using.
+
+459
+00:27:23,380 --> 00:27:24,980
+I think that's really, really helpful.
+
+460
+00:27:24,980 --> 00:27:31,060
+I also think you should definitely take into account how teams are handling security.
+
+461
+00:27:31,060 --> 00:27:35,140
+And you can see this sometimes socially, but also in documentation too.
+
+462
+00:27:35,140 --> 00:27:37,420
+Are they posting about their code reviews?
+
+463
+00:27:37,420 --> 00:27:40,380
+Are they posting about tooling and infrastructure that they're integrating?
+
+464
+00:27:40,380 --> 00:27:41,740
+That's certainly a pretty positive sign.
+
+465
+00:27:41,740 --> 00:27:45,500
+If they're not, that's probably a red flag if they don't have any listed reports or anything
+
+466
+00:27:45,500 --> 00:27:46,500
+like that.
+
+467
+00:27:46,500 --> 00:27:50,460
+And then I also think as an end user, there's a lot of different things that can go wrong
+
+468
+00:27:50,460 --> 00:27:52,100
+on the browser level.
+
+469
+00:27:52,100 --> 00:27:56,500
+People can inject JavaScript into your computer and then you could end up processing a transaction
+
+470
+00:27:56,500 --> 00:28:00,340
+you didn't expect, which is what happened with Bybit to a degree.
+
+471
+00:28:00,340 --> 00:28:04,440
+So I also think that's really important, making sure you have concealed contained environments.
+
+472
+00:28:04,440 --> 00:28:07,180
+You don't click on URLs that are phishing emails.
+
+473
+00:28:07,180 --> 00:28:10,580
+And if you do, you make sure to wipe your computer clean of any malware that you might
+
+474
+00:28:10,580 --> 00:28:11,580
+have downloaded.
+
+475
+00:28:11,580 --> 00:28:14,480
+So I think all of that is really important on the end user side too.
+
+476
+00:28:14,480 --> 00:28:18,640
+In that vein, because I did want to ask you from your vantage point, where are most exploits
+
+477
+00:28:18,640 --> 00:28:20,060
+happening today?
+
+478
+00:28:20,060 --> 00:28:22,780
+I think it's really around centralization risk.
+
+479
+00:28:22,780 --> 00:28:28,980
+So I think it's around private keys that have access to privileged roles on code bases and
+
+480
+00:28:28,980 --> 00:28:34,160
+misuse of those private keys or someone being able to acquire those private keys through
+
+481
+00:28:34,160 --> 00:28:35,580
+social engineering.
+
+482
+00:28:35,580 --> 00:28:39,660
+And I think that's actually where some of the biggest hacks happen, like Bybit for example.
+
+483
+00:28:39,660 --> 00:28:46,260
+But also seven days ago, Axos accidentally minted $300 trillion of DYUSD.
+
+484
+00:28:46,260 --> 00:28:50,200
+And I think that goes to show you centralization is a really important thing.
+
+485
+00:28:50,200 --> 00:28:52,580
+And we also see this a lot with proxies.
+
+486
+00:28:52,580 --> 00:28:57,740
+So we published a blog post recently on Octane about the risk of having upgradable proxies
+
+487
+00:28:57,740 --> 00:29:03,060
+and private keys that control those upgradable proxies, how to manage security around that
+
+488
+00:29:03,060 --> 00:29:05,660
+and think about multi-signature wallets.
+
+489
+00:29:05,660 --> 00:29:06,980
+There's a bunch of things that we wrote in there.
+
+490
+00:29:06,980 --> 00:29:11,340
+I think that's a really good deep dive into how to manage centralization risk, especially
+
+491
+00:29:11,340 --> 00:29:13,300
+around proxy code bases.
+
+492
+00:29:13,300 --> 00:29:17,180
+The proxies are really useful because if there is a hack or an exploit, you know, the ability
+
+493
+00:29:17,180 --> 00:29:23,380
+hopefully if you set up a proxy right to upgrade the functionality and avoid the exploit continuing,
+
+494
+00:29:23,380 --> 00:29:24,860
+but it does come with its own risks.
+
+495
+00:29:24,860 --> 00:29:28,140
+So that goes back to my thing that I said earlier too about understanding where all
+
+496
+00:29:28,140 --> 00:29:30,680
+of your risk is and why you're taking it that way.
+
+497
+00:29:30,680 --> 00:29:31,860
+I like your point.
+
+498
+00:29:31,860 --> 00:29:37,740
+I think these individual behavioral, private key behaviors, centralization around one person
+
+499
+00:29:38,740 --> 00:29:44,660
+access is to your point, a threat vector right now that a doubt I've for a long time thought
+
+500
+00:29:44,660 --> 00:29:51,420
+there's room for what I'd call almost an on-chain notary business in that you would have someone
+
+501
+00:29:51,420 --> 00:29:55,900
+if I want to sign something or if I want to issue a transaction, they would almost be
+
+502
+00:29:55,900 --> 00:29:59,100
+a fail safe and be like, Hey, I don't like what you just signed.
+
+503
+00:29:59,100 --> 00:30:04,140
+Or in the case of Bybit, that behavior requires almost sign off from an impartial notary who's
+
+504
+00:30:04,140 --> 00:30:07,940
+I don't know if I call it a trusted party or a sound one.
+
+505
+00:30:07,940 --> 00:30:11,540
+And I'm almost surprised that hasn't emerged yet because I think we see a lot of these
+
+506
+00:30:11,540 --> 00:30:14,220
+rush the moment type exploits.
+
+507
+00:30:14,220 --> 00:30:16,380
+I think it munifies actually doing this now.
+
+508
+00:30:16,380 --> 00:30:17,540
+And I think it's a great offering.
+
+509
+00:30:17,540 --> 00:30:18,540
+I think so.
+
+510
+00:30:18,540 --> 00:30:24,180
+But basically there's security companies now that are acting as third party intermediaries
+
+511
+00:30:24,180 --> 00:30:30,660
+that can advise on multi-signature transactions or movement of funds and upgradability of
+
+512
+00:30:30,660 --> 00:30:31,660
+proxies.
+
+513
+00:30:31,660 --> 00:30:32,660
+And I think that's really, really good.
+
+514
+00:30:32,860 --> 00:30:35,540
+I think the crypto ecosystem really needs that.
+
+515
+00:30:35,540 --> 00:30:40,660
+So I do think that's starting to become a product and offering and service that more
+
+516
+00:30:40,660 --> 00:30:42,780
+of these security companies are offering.
+
+517
+00:30:42,780 --> 00:30:44,300
+And I think it's great.
+
+518
+00:30:44,300 --> 00:30:49,300
+And one of the main criticisms I hear from let's call it Wall Street is that you need
+
+519
+00:30:49,300 --> 00:30:54,060
+reversibility, which I don't know if crypto can ever have true reversibility, but I think
+
+520
+00:30:54,060 --> 00:31:00,180
+the ability to almost decline bad transactions that were initiated by someone is a good medium
+
+521
+00:31:00,180 --> 00:31:02,260
+ground, at least for the time being.
+
+522
+00:31:02,260 --> 00:31:03,660
+It's another security risk.
+
+523
+00:31:03,660 --> 00:31:04,660
+100%.
+
+524
+00:31:04,660 --> 00:31:08,620
+Somebody to then reverse the chain and then do a whole bunch of stuff.
+
+525
+00:31:08,620 --> 00:31:13,020
+A lot of the time that stuff does happen.
+
+526
+00:31:13,020 --> 00:31:17,220
+Chains do enable that on the chain level, depending on the scenario.
+
+527
+00:31:17,220 --> 00:31:22,620
+And I think the fork from Ethereum versus Ethereum Classic was based on a reorg of that
+
+528
+00:31:22,620 --> 00:31:25,100
+nature to back back, I think.
+
+529
+00:31:25,100 --> 00:31:32,180
+But yeah, I do think that being able to have reversibility is great from a user perspective
+
+530
+00:31:32,380 --> 00:31:36,980
+but it also is not so great because it means that there's a centralized entity that can
+
+531
+00:31:36,980 --> 00:31:38,980
+effectively undo transactions.
+
+532
+00:31:38,980 --> 00:31:44,020
+It makes sense for Wall Street and bigger enterprises to have that concern.
+
+533
+00:31:44,020 --> 00:31:48,500
+And for some of them, I think private blockchains and different types of blockchains that can
+
+534
+00:31:48,500 --> 00:31:50,860
+provide solutions like that would be useful.
+
+535
+00:31:50,860 --> 00:31:51,860
+Agreed.
+
+536
+00:31:51,860 --> 00:31:55,660
+I'm going to circle back to talk about Octane in a little bit more detail.
+
+537
+00:31:55,660 --> 00:31:59,460
+I wanted to touch on first, you mentioned how you guys are sitting at the pre-deployment
+
+538
+00:31:59,460 --> 00:32:00,460
+stage.
+
+539
+00:32:00,460 --> 00:32:02,100
+Who do you like for post-deployment?
+
+540
+00:32:02,100 --> 00:32:07,380
+Is there anyone that you prescribe for customers or that you are partial to?
+
+541
+00:32:07,380 --> 00:32:11,340
+Yeah, we've definitely worked with a bunch of post-deployment providers.
+
+542
+00:32:11,340 --> 00:32:15,300
+I think that teams should go out and evaluate all providers.
+
+543
+00:32:15,300 --> 00:32:21,340
+But I'd say we've seen some great work from Guardrail as well as Hypernative and Hexagate,
+
+544
+00:32:21,340 --> 00:32:22,340
+a few others.
+
+545
+00:32:22,340 --> 00:32:24,820
+But I would definitely recommend checking them all out.
+
+546
+00:32:24,820 --> 00:32:28,820
+And I think they all have their own unique edge over each other.
+
+547
+00:32:28,820 --> 00:32:29,820
+So try to stay impartial.
+
+548
+00:32:29,980 --> 00:32:33,060
+But yeah, I think those three have been quite impressive from what I've seen.
+
+549
+00:32:33,060 --> 00:32:37,420
+And then, again, going back this fuller stack to come full circle now that we've talked
+
+550
+00:32:37,420 --> 00:32:40,300
+about where a lot of the needs, all the pain points are.
+
+551
+00:32:40,300 --> 00:32:43,460
+Where do you guys and Octane sit exactly?
+
+552
+00:32:43,460 --> 00:32:45,340
+Why do customers find you?
+
+553
+00:32:45,340 --> 00:32:48,860
+And what's your vision for what you guys want to continue to be?
+
+554
+00:32:48,860 --> 00:32:50,860
+So let me start with the vision side.
+
+555
+00:32:50,860 --> 00:32:53,900
+One of our most important missions in the company is to make sure that teams we work
+
+556
+00:32:53,900 --> 00:32:56,860
+with deploy securely and don't get hacked.
+
+557
+00:32:56,900 --> 00:33:01,700
+The vision for the company is effectively automating code-level security.
+
+558
+00:33:01,700 --> 00:33:05,820
+So taking the creation of source code and going all the way up to the deployment of
+
+559
+00:33:05,820 --> 00:33:10,860
+source code and making sure that we can actually automate a lot of the security processes of
+
+560
+00:33:10,860 --> 00:33:16,740
+finding vulnerabilities, confirming vulnerabilities, producing remediations for vulnerabilities,
+
+561
+00:33:16,740 --> 00:33:22,340
+meaning code fixes, and actually creating potential exploit paths relative to each bug.
+
+562
+00:33:22,500 --> 00:33:27,100
+And if we can surface that all in a really intuitive, easy to understand way to developers,
+
+563
+00:33:27,100 --> 00:33:29,020
+it speeds up the security process for them.
+
+564
+00:33:29,020 --> 00:33:32,300
+It adds additional security for their teams.
+
+565
+00:33:32,300 --> 00:33:34,420
+We're covering more parts of the code.
+
+566
+00:33:34,420 --> 00:33:36,420
+We're finding more types of bugs.
+
+567
+00:33:36,420 --> 00:33:39,220
+And it's an additional layer there that's really, really important.
+
+568
+00:33:39,220 --> 00:33:42,660
+And then going all the way to deployment, we have our security research team that can
+
+569
+00:33:42,660 --> 00:33:45,700
+perform these point-in-time manual checks for our teams.
+
+570
+00:33:45,700 --> 00:33:50,300
+But yeah, our long-term vision is to really scale the automation part of it so that our
+
+571
+00:33:50,340 --> 00:33:56,340
+AI systems are effectively handling 95% of the bulk of vulnerability identification or
+
+572
+00:33:56,340 --> 00:33:57,260
+remediation.
+
+573
+00:33:57,260 --> 00:34:01,540
+So yeah, we sit squarely in the pre-deployment security pipeline, which means before you
+
+574
+00:34:01,540 --> 00:34:07,340
+go live and on every pull request of new code, our software will run all of our AI models
+
+575
+00:34:07,340 --> 00:34:10,820
+and find vulnerabilities that are introduced relative to code changes.
+
+576
+00:34:10,820 --> 00:34:15,220
+And we can also run a full code base over Octane so we can do point-in-time checks using
+
+577
+00:34:15,220 --> 00:34:16,220
+our AI as well.
+
+578
+00:34:16,260 --> 00:34:20,700
+And we like to try to get teams all the way up to deployment and securely thereafter.
+
+579
+00:34:20,700 --> 00:34:24,140
+I love the direction you guys are going with the point-in-time checks because I think there
+
+580
+00:34:24,140 --> 00:34:29,940
+was a period where security was very static in terms of manual audits.
+
+581
+00:34:29,940 --> 00:34:31,380
+There wasn't live monitoring.
+
+582
+00:34:31,380 --> 00:34:35,300
+And another great insight I heard at one point was you can never be perfect.
+
+583
+00:34:35,300 --> 00:34:38,980
+You can never completely mitigate the chance that something will happen to your protocol
+
+584
+00:34:38,980 --> 00:34:40,260
+or what you built.
+
+585
+00:34:40,260 --> 00:34:44,820
+But the way that these adversaries think is they're trying to target the weak elk in the
+
+586
+00:34:44,820 --> 00:34:45,300
+pack.
+
+587
+00:34:45,300 --> 00:34:49,020
+So you're trying to make your protocol just look like one that is robust and people are
+
+588
+00:34:49,020 --> 00:34:51,820
+going to say, oh, I don't want to look to attack this protocol.
+
+589
+00:34:51,820 --> 00:34:55,580
+They're working with Octane and they've had their manual audits and they have live monitoring.
+
+590
+00:34:55,580 --> 00:34:59,140
+And if you can do that, you position yourself in a really good place.
+
+591
+00:34:59,140 --> 00:35:01,380
+You actually become less of a target.
+
+592
+00:35:01,380 --> 00:35:07,380
+If you have a bug bounty that's live and you've gone through all these crazy security procedures,
+
+593
+00:35:07,380 --> 00:35:11,980
+adversaries don't want to spend as much time trying to hack you because there's other easier
+
+594
+00:35:11,980 --> 00:35:13,300
+targets out there.
+
+595
+00:35:13,300 --> 00:35:14,300
+It's really interesting.
+
+596
+00:35:14,300 --> 00:35:18,220
+And I think not only does it help from a pure security perspective, but it also helps
+
+597
+00:35:18,220 --> 00:35:19,540
+from an optics perspective.
+
+598
+00:35:19,540 --> 00:35:21,820
+Like you're saying, I completely agree with you.
+
+599
+00:35:21,820 --> 00:35:26,380
+What are your best stories, if you have any, from your experience in and around this area?
+
+600
+00:35:26,380 --> 00:35:32,180
+One of my favorite stories here is we re-architected a lot of our product this year and we call
+
+601
+00:35:32,180 --> 00:35:33,700
+it Octane V2.
+
+602
+00:35:33,700 --> 00:35:34,820
+Why was that?
+
+603
+00:35:34,820 --> 00:35:38,500
+We re-architected because we realized that there's a much better way to approach the
+
+604
+00:35:38,500 --> 00:35:41,220
+problem of automatic code detection.
+
+605
+00:35:41,220 --> 00:35:46,300
+So we took a lot of the learning from our first version of Octane and then just rewired
+
+606
+00:35:46,300 --> 00:35:47,380
+the whole thing.
+
+607
+00:35:47,380 --> 00:35:50,100
+And it's now exponentially more performant.
+
+608
+00:35:50,100 --> 00:35:53,340
+Our false positive rate is extremely, extremely low.
+
+609
+00:35:53,340 --> 00:35:59,420
+Somewhere between three to maybe 7% of findings that will ever surface are invalid findings.
+
+610
+00:35:59,420 --> 00:36:04,380
+The rest are either true valid issues that people are either going to change their code
+
+611
+00:36:04,380 --> 00:36:08,420
+based on, or they're going to not change their code and accept the risk.
+
+612
+00:36:08,420 --> 00:36:11,220
+And both of those two are important things for teams to understand.
+
+613
+00:36:11,220 --> 00:36:15,740
+So when we re-architected this whole version of our product, about like two months ago,
+
+614
+00:36:15,740 --> 00:36:19,780
+I had the founder of Covenant, which is a protocol that's going live pretty soon.
+
+615
+00:36:19,780 --> 00:36:22,960
+He came to me and he was like, I'm happy to make a bet with you.
+
+616
+00:36:22,960 --> 00:36:27,660
+If Octane can find a vulnerability in this code that's higher critical, I will work with
+
+617
+00:36:27,660 --> 00:36:29,500
+you guys on an annual contract.
+
+618
+00:36:29,500 --> 00:36:32,020
+And the code was already audited once as well.
+
+619
+00:36:32,020 --> 00:36:34,300
+So we ran Octane same day.
+
+620
+00:36:34,300 --> 00:36:38,260
+And after it was done about 30 to 45 minutes later, I had him up and I'm like, hey, we
+
+621
+00:36:38,260 --> 00:36:39,260
+found the crit.
+
+622
+00:36:39,260 --> 00:36:40,260
+And he's like, no way.
+
+623
+00:36:40,260 --> 00:36:43,060
+So we jumped on the call and I showed him the vulnerability.
+
+624
+00:36:43,060 --> 00:36:44,540
+He was like, yeah, this is real.
+
+625
+00:36:44,540 --> 00:36:47,460
+And then there were a bunch of other vulnerabilities he found as well, which he really appreciated
+
+626
+00:36:47,460 --> 00:36:49,200
+and led to a bunch of code changes.
+
+627
+00:36:49,200 --> 00:36:50,700
+But I thought that was really impressive.
+
+628
+00:36:50,700 --> 00:36:55,560
+That was one of the ways that I've seen the system be incredible in terms of value creation
+
+629
+00:36:55,560 --> 00:36:56,560
+for someone.
+
+630
+00:36:56,560 --> 00:37:01,180
+And that was a really good story that happened in August or September this year, 2025.
+
+631
+00:37:01,180 --> 00:37:02,960
+Yeah, I love that sales cycle.
+
+632
+00:37:02,960 --> 00:37:03,960
+You guys should run that.
+
+633
+00:37:03,960 --> 00:37:08,080
+I think I'd heard about a web builder, something like that, who would just send DMs and be
+
+634
+00:37:08,080 --> 00:37:10,720
+like, hey, this is what your newly designed website looks like.
+
+635
+00:37:10,720 --> 00:37:11,720
+Would you like it?
+
+636
+00:37:11,720 --> 00:37:13,760
+And they started to convert a lot of business.
+
+637
+00:37:13,760 --> 00:37:14,760
+It works.
+
+638
+00:37:14,760 --> 00:37:18,120
+Our goal with a lot of these teams is to show, not tell.
+
+639
+00:37:18,120 --> 00:37:22,520
+So we often put teams on a one or two week pilot period where we scan their code using
+
+640
+00:37:22,520 --> 00:37:23,520
+Octane.
+
+641
+00:37:23,520 --> 00:37:24,520
+We walk them through the findings.
+
+642
+00:37:24,520 --> 00:37:29,440
+And we bring in our manual security team to provide guidance on remediations if they have
+
+643
+00:37:29,440 --> 00:37:30,560
+further questions.
+
+644
+00:37:30,560 --> 00:37:34,960
+And then they end up finding the vulnerability so useful that pretty much every single time
+
+645
+00:37:34,960 --> 00:37:37,280
+they want to be an annual customer with us.
+
+646
+00:37:37,280 --> 00:37:41,360
+And it's really quick for them to get that value too, because it's just a scan on our
+
+647
+00:37:41,360 --> 00:37:42,360
+side effectively.
+
+648
+00:37:42,360 --> 00:37:44,440
+So that process works really well.
+
+649
+00:37:44,440 --> 00:37:46,800
+We have a very high conversion rate off that.
+
+650
+00:37:46,800 --> 00:37:47,800
+Very cool.
+
+651
+00:37:47,800 --> 00:37:49,980
+Gio, it's been great getting to hear your insights.
+
+652
+00:37:49,980 --> 00:37:53,280
+What should people do if they want to get in touch with you guys, if they want to explore
+
+653
+00:37:53,280 --> 00:37:54,280
+working with Octane?
+
+654
+00:37:54,280 --> 00:37:56,160
+It's been great to talk to you too, Wyatt.
+
+655
+00:37:56,160 --> 00:37:57,160
+This was really fun.
+
+656
+00:37:57,160 --> 00:38:01,840
+I really enjoyed the opportunity getting to share my story and then also share how I think
+
+657
+00:38:01,840 --> 00:38:04,360
+about pre-deployment security and what I've seen in the space.
+
+658
+00:38:04,360 --> 00:38:10,280
+To get in touch with me, feel free to shoot me an email, gio, g-i-o, at octane.security,
+
+659
+00:38:10,280 --> 00:38:14,360
+or just fill out our form on our website if you want to schedule a demo and try the product.
+
+660
+00:38:14,360 --> 00:38:16,160
+But yeah, thanks again for having me, man.
+
+661
+00:38:16,160 --> 00:38:17,160
+This was great.
+
+662
+00:38:17,160 --> 00:38:18,160
+Yeah, of course.
+
+663
+00:38:18,160 --> 00:38:21,080
+Hopefully your inbox is full of security wary builders now.
+
+664
+00:38:21,080 --> 00:38:22,400
+Yeah, that'd be awesome.
+
+665
+00:38:22,400 --> 00:38:23,400
+Happy to help.
+
+666
+00:38:23,400 --> 00:38:24,400
+Awesome.
+
+667
+00:38:24,400 --> 00:38:25,640
+Thanks again.
+
+668
+00:38:25,640 --> 00:38:29,680
+Thanks for listening to another episode of On the Brink with Castle Island.
+
+669
+00:38:29,680 --> 00:38:34,280
+To learn more about Castle Island, visit castleisland.vc.
+
+670
+00:38:34,280 --> 00:38:40,040
+And to listen to all of our podcast episodes, please visit castleisland.vc slash podcast
+
+671
+00:38:40,040 --> 00:38:42,340
+or just click on the tab on our website.
+
+672
+00:38:42,340 --> 00:38:42,920
+Thanks for listening.
+

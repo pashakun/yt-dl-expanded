@@ -1,0 +1,1137 @@
+TITLE: Why the Draft Market Structure Bill Creates Problems for DeFi - DEX in the City
+URL: https://www.youtube.com/watch?v=edQ9DR4FHYk
+VIDEO_ID: edQ9DR4FHYk
+
+TRANSCRIPT:
+There's just a fundamental misunderstanding
+ of what DeFi is, what a protocol is,
+ who's involved, who has, to your point,
+ what is control, what's not control.
+ And it's really been tough to try to educate them
+ to fully understand it.
+ - At what point does ongoing judgment turn rule-based
+ compliance or rule-based risk management into human control?
+ And that's what I can't quite figure out in this bill.
+ It's actually very ambiguous to me
+ that even if you do sanction screening
+ or some other compliance measure
+ through a fully automated mechanism,
+ you could still be exercising control.
+ - Hi all and welcome to DeX in the city
+ where the wallets are cold and the takes are hot.
+ First we have Jesse, web three prosecutor turned,
+ web three protector at Rivet Capital.
+ - Hi guys, what a morning.
+ - And we've been seeing it from the SEC to web three.
+ - Hey everyone.
+ - And I'm your host, Katherine, KK,
+ fluent in trad fine and conversing in deep tech
+ over at stark wearer.
+ So first, before we get going, remember we're lawyers
+ but we're not your lawyers.
+ So nothing you hear on DeX in the city
+ is legal or financial advice.
+ It doesn't create an attorney-client relationship
+ and for the fine print, as always,
+ check unchainedcrypto.com.
+ Today we have a jam-packed episode as always.
+ I know, I know.
+ You want to hear about crypto market structure legislation.
+ The big news is a new markup on that bill
+ dropped late last night.
+ We're gonna explain what that means.
+ And we have a very special guest joining us
+ a little later in the program,
+ Summer Mercinger, CEO of the Blockchain Association,
+ one of the premier trade organizations for crypto in DC.
+ We are going to give you all of the alpha
+ and the intel on that markup
+ and what that means for you as builders, lawyers,
+ individuals trading or interested in crypto.
+ But I want to start with something else.
+ So stay with us.
+ We are gonna shift to that topic then.
+ For the next few minutes,
+ we wanted to raise the news yesterday
+ that Tether actually froze 182 million in USDT tied
+ to five Tron addresses.
+ So this was also big news.
+ Somewhat overshadowed by crypto market structure.
+ But you guys, this is Tether.
+ For a while, Tether was kind of the bad guy
+ in the stablecoin mix.
+ They've changed a lot.
+ It follows their voluntary wallet freezing policy
+ introduced in, we believe December 23
+ to align with treasury and OFAC sanctions compliance.
+ And I think the major thing we want to discuss
+ is this freeze forces at question,
+ the industry keeps dodging.
+ When we ask for regulation,
+ what power are we agreeing to trade away
+ and who gets to wield it in the meantime?
+ Jesse, tell us more about this and why it matters.
+ - Gotta think about this so much.
+ So I'm so glad you framed it that way.
+ But you gave a framing on what happened
+ with the Tether freeze.
+ And Tether has frozen before,
+ so has circle and lots of other entities.
+ So that is not the new story.
+ But it is a really huge amount,
+ which I think is worth commenting on here,
+ which is over $180 million on Tron.
+ And what's going on with the Tether freeze matters today
+ on market structure day,
+ but also just generally for the crypto industry
+ because freezing is no longer an edge case,
+ it's becoming a design assumption that's built in
+ and it's becoming to be baked into legislation
+ like Genius and now sections of the newest draft structure,
+ market structure bill, which we'll talk about.
+ So in other words,
+ issue or level control already exists.
+ And what I think is really, really concerning
+ and we should be talking about is that
+ most people don't understand it.
+ They don't understand how, when, and why,
+ and who gets to control your money.
+ But before we get into that sort of debate,
+ let's be really precise about what happened.
+ So we use the words freeze,
+ but that's very different than seizure.
+ And I wanna make sure that we don't use them
+ interchangeably like many do,
+ because they are not the same thing.
+ A seizure, which we're not talking about here,
+ but has happened a lot in the past,
+ is a court authorized action.
+ So it's the government actually taking control of assets.
+ That can be subject to a seizure warrant,
+ which is like a search warrant under the Fourth Amendment.
+ But a freeze is gonna be different.
+ So that's issuer level control, like what happened here.
+ The funds are still in chain, but they just can't move.
+ So it doesn't matter how many jumps you are
+ from the tether being issued or the USDT being issued,
+ you can still programably be frozen in your wallet, right?
+ That's very new.
+ For enforcement, it's very new for issuers.
+ So the freeze can happen after a court order.
+ So it can be like a search or seizure warrant
+ that says you have to freeze, but frequently it's earlier.
+ So in response to a request from law enforcement,
+ which sounds like what happened here
+ because there is reporting it's tied to law enforcement,
+ sanctions exposure, or just risk analysis.
+ So let's be clear, like banks do this too.
+ This isn't just crypto.
+ What's different here is that it can be outside of the,
+ what you think to be control,
+ I'm putting quotes up for people not watching the video,
+ but like it can be outside that what you thought
+ was the control of tether because you're on Tron,
+ you're like in your own wallet,
+ you're in a different jurisdiction,
+ but in fact, they can actually impact your funds.
+ So now that we have the explainers out of the way,
+ let's acknowledge why this all makes us a bit uneasy.
+ A private company is immobilizing your money
+ before a court has spoken
+ and they can do so anywhere in the world.
+ Sort of the opposite of what we talk about in crypto
+ and what crypto has been building, right?
+ Isn't that sort of the whole point
+ of a lot of what we're building here?
+ So I guess it just to get back to what you were saying,
+ KK is like, when we ask for regulation,
+ what trade offs are we actually making?
+ I'm not saying the trade offs aren't worth it.
+ I'm saying that I don't know if people fully understand them
+ and are considering them when we talk about
+ how we want to build our regulation.
+ So freezing exists because many of the worst actors
+ in crypto will never show up in the US courtroom.
+ You can't reach the person, but you can reach the money.
+ I did this all the time.
+ So I'm not hating on freezing under the right circumstances
+ and we did it with court permission,
+ but we had child pornography cases where Bitcoin
+ and other sort of forms of tokens were involved
+ that don't necessarily exist or any more.
+ And we were able to freeze them.
+ More importantly, it happens all the time for DPRK,
+ North Korea cases, Iranian cases, Hamas cases.
+ That was a big part of the Hamas case I worked on.
+ Well, with these new bills,
+ issue level freezes are moving just from practice.
+ That happens, you know,
+ this issuer decides to do it here and maybe not here,
+ but rather a policy.
+ But I want to like pause and take a second
+ to give a little credit to the bills
+ because it's not just saying everyone has to do this,
+ but rather the market structure draft
+ that we got late, late last night,
+ why we all look exhausted or I look exhausted
+ is that the draft doesn't invent the power.
+ It's actually trying to discipline it a little bit,
+ like for better or for worse,
+ it's trying to put rules around it
+ rather than just saying, okay, well,
+ Tethers deciding to freeze in this circumstance
+ while circle's doing in a different circumstance, et cetera.
+ But what we need to pay attention here
+ is like what kind of control are we codifying in these bills?
+ And maybe this part of the bill isn't getting
+ as much attention because, you know,
+ it's not the things that we're going to talk about later,
+ like the DeFi portion of the bill
+ or the stablecoin interest or many other aspects
+ that crypto Twitter are talking about this morning.
+ And we will too, 'cause they are important,
+ but I just don't want us all to overlook it
+ because we as crypto users ultimately bear the consequences
+ of how this is exercised and when,
+ and we need to make sure we understand
+ what the trade-offs are and are we okay with them?
+ - Jessie, first, I need to say you look great.
+ You do not look tired, okay?
+ And I hate when people say you look tired.
+ - Yes, I mean, we have physical jobs, we work hard.
+ Second, I want to move on to crypto market structure,
+ but before I do, I want to highlight something really important
+ and that is the power of economic sanctions more generally.
+ It's interesting, like, you know,
+ I spent years in private practice defending offshore entities,
+ sometimes in sanctions related allegations.
+ And in many ways, OFAC has more power.
+ And you know, obviously this is up for debate
+ that any other US regulator,
+ including the Department of Justice,
+ because you have an offshore entity
+ and they get indicted by DOJ.
+ It's like, okay, fine.
+ Maybe I'm in a non-extradition jurisdiction.
+ Maybe I just, you know, stop my executives
+ from going to the United States.
+ But OFAC and economic sanctions effectively cut off
+ individuals or entities from anything touching the US dollar,
+ which if you know anything about financial services
+ and crypto to some degree still,
+ everything revolves around those wires that process,
+ that engagement with kind of the US dollar, frankly.
+ So the fact that Tether is doing this
+ and one of the, when the drivers of this kind of freezer
+ is their policy that they change to adhere
+ to kind of sanctions and AML, it's powerful.
+ And it means that you're always going to have projects
+ crypto or tradfi where first and foremost,
+ they consider how they ensure that they don't end up
+ on the wrong side of this.
+ So that just cannot be understated.
+ Shifting to market structure actually really quick,
+ really quick departure before we get into the meat of things.
+ We're going to have summer on later.
+ So I think now is actually a perfect time
+ to very briefly call out our crypto good news
+ and then we're going to completely shift
+ because I don't want to forget this
+ and we're going to run out of time at the end.
+ So the one quick shout out I wanted to do on crypto
+ good news before we shift to market structure
+ is the giving block.
+ So guys, I don't know if you've been asked about this.
+ It's kind of like you're a lawyer at the family reunion
+ and everyone asks you about their will
+ and you're like, I have no idea what you're talking about.
+ I have actually informally advised a number of 501c3s
+ that have nothing to do with crypto
+ that want to start accepting crypto donations.
+ And in certain cases, I have recommended
+ that they explore the giving block
+ and it's super cool it acts as a bridge
+ between nonprofits and crypto donors.
+ It's actually a platform.
+ It helps establish organizations accept and process
+ crypto in a way that fits into their existing workflows.
+ I think that's a beautiful thing.
+ We need more things that are going to facilitate crypto
+ and normies talking to each other
+ and working with each other.
+ So quick shout out to the giving block.
+ - Yay.
+ - Woo, okay.
+ On to crypto market structure, which is fantastic
+ but also complicated.
+ It's not a straightforwardness for no good news.
+ So I want to hand this over to Bee
+ who has really been at the front lines
+ of crypto policy on a number of fronts.
+ But before I do, I want to remind everyone
+ how a bill becomes a law.
+ It's introduced.
+ It is referred and reviewed by committees.
+ There is a floor debate and a vote in both chambers.
+ There is a conference committee
+ that works out of compromise
+ if there's different versions.
+ There's presidential action.
+ We're all familiar with that.
+ He can sign it.
+ He can veto it.
+ And then the law is implemented.
+ So where are we with a markup
+ and what does actually a markup need?
+ It actually means that the bill is formerly debated,
+ amended, reviewed by the committee
+ before it can move forward in the lawmaking process.
+ And the reason this is important
+ is if the markup goes badly, the bill can die.
+ The markup is also kind of in many ways the last chance
+ to make and consider any changes to the bill.
+ So the big news this week was we were supposed to have
+ both a financial services committee markup
+ and an agriculture to separate committee markups.
+ On Jan 15th, AG has punted into later in the month,
+ financial services is moving forward.
+ And now we're all looking at this revised bill.
+ Some parts of crypto are very happy with parts of it.
+ Other parts are very upset.
+ One big, big point of contention is defy the, tell us more.
+ - Yeah, so there's a lot of new stuff in this bill.
+ But I wanted to focus on defy in particular
+ just because there's a lot of new stuff
+ in that section in particular.
+ And it's just been one of the most hotly debated parts
+ of the bill.
+ So I'll just start out by saying or acknowledging
+ that like Congress has a really hard job, right?
+ There's I think always this tension
+ between what you enshrine into the statute
+ and what you leave to regulators to deal with
+ or what you just don't enforce or don't regulate at all, right?
+ And I think it's really hard to strike the right balance,
+ especially when you're talking about a technology
+ that is very new and also still evolving sometimes quickly, right?
+ So I think, you know, they have a very hard job
+ and nowhere is that more like acute to me
+ than in the defy section.
+ So again, we've all had very limited time
+ to review the new language,
+ but I did want to give some initial thoughts
+ just on what I'm seeing.
+ So at a high level,
+ the draft is trying to draw a bright line
+ between decentralized protocols and infrastructure
+ and protocols or parties where, you know,
+ there's some sort of control over trading,
+ execution, custody, or access.
+ And that side would potentially be regulated
+ as brokers, exchanges,
+ or some sort of regulated financial intermediary.
+ So all of it really comes down to this concept of control.
+ But I think the difficulty here,
+ and it's something that, you know,
+ we as crypto lawyers have been thinking about for years,
+ this concept of control is actually really hard to define, right?
+ So the way that the current language tries to define it
+ is, I would say like in three different ways.
+ One is, is there discretion over trading or execution, right?
+ So do you route trades, do you match counter parties?
+ Do you decide execution timing?
+ Do you modify prices or priority?
+ Do you intervene in execution outside of like pre-coded rules?
+ Another way they define control is,
+ do you have unilateral authority to do things
+ like alter issuance or distribution parameters
+ to change execution logic,
+ to restrict access to the protocol?
+ That's a really important one that we'll come back to.
+ Or to pause?
+ Sorry to interrupt, but one important thing about this,
+ and you can confirm your thoughts
+ as you're talking about control,
+ is one of the things that I see in this bill
+ is that they're effectively leaving this decision on control
+ and what is DeFi treasury, which is very scary to me.
+ Like I think as well.
+ Yeah, well, so actually, I think, Jesse,
+ do you wanna talk about that later?
+ 'Cause I think you've been following that part of the bill
+ a lot more closely.
+ We should definitely come back to that
+ 'cause that's a really important part of it.
+ And that's obviously that concept
+ is very offensive to DeFi journalists.
+ Yes, yeah, it's a lot and it's concerning.
+ But Jesse, why don't you cover that later?
+ I'll just, I'll finish kind of explaining how I read
+ how it defines control more generally.
+ So the other thing it says is,
+ if you can do something like pause or restart trading,
+ if you have discretion to do that,
+ that could potentially fall under the standard of control.
+ And then the third category is about user interfaces
+ or front-ends, right? So like websites or apps
+ that allow you to access the DeFi protocol.
+ And the question there is, can you restrict who can trade?
+ Do you exercise discretion over which assets
+ or pools or strategies that users can have access to?
+ Can you intervene in execution and do you route orders
+ or somehow like materially modify the outcome, right?
+ So I have a few thoughts on this.
+ First is a substantive one,
+ which is I'm concerned that there are a lot of ways
+ that this control standard could be interpreted
+ to sweep in, in my opinion, pretty much all real-world DeFi
+ as it exists today.
+ And I know that's like a really spicy take,
+ but I think the language is too broad and a little too.
+ - And other changes, like L2, L2, that's what I want.
+ - Yeah, totally.
+ So yeah, so I'll just, I'll give a few examples.
+ And I think for us, this will hit especially close to home
+ because all three of us have done a lot of thinking
+ and writing about like different kind of measures
+ that DeFi protocols use and have been experimenting with
+ to try to keep users safe and to respond
+ to like emergencies or things like that, right?
+ So like one example is asset curation, right?
+ So I mentioned some of the ways in which asset curation
+ could be considered control and thus subject
+ to user regulation, the reality is that many DeFi protocols
+ decide which tokens or pools are supported
+ to manage risk and to protect users, right?
+ But under this bill, that sort of discretion could be read
+ as control over trading, even when it's transparent
+ or rules-based.
+ And then another example that I'm sure a lot of people
+ are familiar with, many DeFi protocols, I would say,
+ I mean, I don't know if it's most of them,
+ but many DeFi protocols, including a lot of the ones
+ that like people have been using for years
+ and that people generally think of as like pure DeFi,
+ they have some form of a kill switch
+ that allows a centralized party or like some small number
+ of parties on a multi-sig to pause the protocol,
+ to respond to security incidents like hacks or exploits, right?
+ So it doesn't allow you to unilaterally reroute
+ or like withdraw funds, it just lets you pause things
+ and sometimes just for like a defined period, right?
+ So under the new DeFi language, this alone
+ could mean that they're no longer exempt
+ and potentially have to register as like a broker or something.
+ And not to mention, like I think it can be very nuanced, right?
+ So like there are a lot of different ways
+ that kill switches are activated or a lot of different ways
+ that they're designed, right?
+ So some DeFi protocols have kill switches
+ that are centrally triggered, but they're subject to a time lock
+ of like 24 hours where users or token holders can vote
+ to veto the pause, right?
+ So like what a situation like that or a mechanism like that
+ would that count as unilateral control?
+ And the same issue arises with other kinds
+ of emergency risk controls, right?
+ Doing things like temporarily lowering allocation caps
+ or increasing collateral or like responding
+ to an Oracle failure, disabling a function during an exploit.
+ Like all of these things I think are just basic safety engineering
+ and a lot of times they're done in ways that are transparent
+ and pre-programmed and automated, but even so,
+ under the new language, I think all of those kinds of actions
+ could be treated as impermissible control
+ over trading conditions.
+ And you know, this even applies to things like--
+ - Really scary 'cause we don't want
+ to disincentivize projects from doing this.
+ And I'll also use like we don't have time
+ to go into this in depth, but some people missed this
+ just yesterday, the US FTC Federal Trade Commission,
+ which is often in charge of kind of consumer protection,
+ issued a proposed complaint against the Nomad Bridge,
+ the Nomad Token Bridge, late to a hack.
+ And one of the things it said is they made
+ a number of highly problematic kind of concerning statements
+ in this, so I would check it out if you're not familiar.
+ - But including that the company failed
+ to incorporate circuit breakers or a kill switch
+ that could immediately cease the option of the bridge.
+ - Yeah, right.
+ - So this is inherently contradictory.
+ - I'm bad.
+ - That's a kill switch, but you can't have a kill switch
+ because they-- - Yeah, and the prosecutors
+ in the tornado cache made the same argument, right?
+ Because the defense was, this was like fully autonomous,
+ like we don't have the ability to stop or block anything.
+ And they said, well, you should have built that in, right?
+ So but this bill is saying if you built that in,
+ you're no longer decentralized.
+ And so I think there is just a lot of conflicts here.
+ Yeah, like is that what Congress is really like intending
+ to do here is to discourage things that like protocols
+ might want to implement in order to like respond
+ to emergencies and to keep users safe and that sort of thing.
+ I think that's a really important question to address.
+ - Josh, it's so hard.
+ - And the other thing is I want to be clear,
+ before Jesse weighs in, I want to be clear
+ that I think all of us are in favor of legislation.
+ Like my fear is that we don't have legislation
+ and we have a different administration.
+ So it's always a little scary for as a GC
+ to more vocally criticize clarity and any bill
+ because I don't want the perfect to be the enemy of the good.
+ But a lot of the things we're saying constructively,
+ this is why it's important to see these things
+ during the markup period so they can be changed
+ before they become law.
+ Sorry, Jesse, go ahead.
+ - Like this bill is humongous
+ and will change a lot of things.
+ So we want to make sure people understand it
+ and know the pros and cons and then be able to make
+ their own decision about whether to support it or not.
+ I guess what I was going to talk about is control.
+ It's such a hard concept.
+ And I think we've all sort of put that out there
+ as a test to think about.
+ And it makes sense legally.
+ And it's been something that lawyers in crypto
+ have been talking about forever as something to focus on.
+ But perhaps that we've over-indexed a bit
+ on the risk associated with using the word control
+ and the concept of it because in the real world,
+ for example, sanctions at illicit finance,
+ like it often requires continuous interaction with tooling,
+ not binary control.
+ And yet we're looking for this answer.
+ And I don't think we're going to solve this right now
+ on this pod, but we're looking for this answer of like,
+ how do we have a clear decision for developers
+ on whether they're looped in or they're not?
+ And control seems to be a good way to do it.
+ But the more that we build and the more
+ that there's different types of projects doing different types
+ of things with different incentives,
+ it's hard to say that this line, whether if you control
+ or anything is the right way to go.
+ And we have Summer.
+ So I will just say that.
+ Hi! Hello! Today's episode is sponsored by Figure,
+ which is transforming financial services using blockchain.
+ They're the largest non-bank mortgage lender in the US,
+ with over $19 billion unlocked on their lending platform.
+ Now they're offering industry low crypto-backed loans
+ at 8.91% interest rates at 50% LTV for BTC, ETH, and Sol.
+ They differentiate themselves
+ by offering decentralized MPC custody,
+ which protects your crypto ownership in a segregated wallet.
+ They've also recently launched Liquidation Protection
+ to protect you from liquidation during large price drops.
+ Whether you're funding a major purchase, investing,
+ or even buying more Bitcoin, figure makes it transparent.
+ Visit figuremarkets.co/unchained
+ to take advantage of their crypto-backed loans today.
+ We talk a lot about hair on this podcast, it's over.
+ Hey, Arishan, are you?
+ I hate to blow dry my hair.
+ It's like my vein of my existence.
+ And so I just keep going shorter and shorter
+ and fine to save time in the morning.
+ I can't work for the pinky hot cut.
+ It looks very chic.
+ It looks very chic.
+ Thank you.
+ Okay, to our listeners,
+ I'm gonna pass this to V to introduce our very special guest,
+ but we're so happy to have you.
+ Okay, yes, hi, Summer.
+ Thanks so much for joining.
+ So she needs no introduction,
+ but Summer Mercinger is the CEO
+ of the Blockchain Association
+ and a former CFTC commissioner.
+ We're so grateful that she's taking time
+ out of what is maybe like one of the most eventful weeks
+ we've ever had in crypto policy
+ to kind of just like give us an update and her outlook.
+ And actually Summer, I was so curious to see
+ if you'd be like zooming in from a broom closet
+ in the Dirksen building in between readings or something today,
+ but it looks like you're in a natural office.
+ So that's good.
+ Okay, so thank you again for joining us.
+ We don't want to take up too much of your time.
+ I know you're really busy,
+ but I just wanted to start off by asking
+ like how you're feeling right now,
+ especially given the midnight text
+ that was released last night.
+ There's a lot of new stuff in there
+ that I think we're all still working through,
+ but what is your general take so far on the latest draft?
+ Do you think the markup on Thursday is really gonna happen?
+ I know the Senate Agriculture Committee Committee
+ has already punted on there.
+ So what are your thoughts on everything?
+ - Yeah, I think the markup will definitely happen.
+ At this point, there's the question of
+ is it a bipartisan markup or a partisan markup?
+ The text came out as bipartisan,
+ but what we were hearing this morning
+ is that there were no Democrats supporting the text,
+ has it yet?
+ But these are very fluid conversations
+ and they're going on constantly.
+ So I could very well see a situation
+ where they have a markup on Thursday
+ and they have some bipartisan support.
+ If that happens and they get out of committee
+ with a good bipartisan vote,
+ I think we're on a fast track to seeing this
+ move to the Senate floor within a month.
+ They're not less.
+ Agriculture, I think the fact that they punted
+ to last week and January, I think that was good,
+ they really wanted to be a bipartisan markup
+ with the Agriculture Committee, they weren't there yet.
+ And they just felt like if they had a few more weeks,
+ they could get to a good place.
+ And I know they are talking daily,
+ they're having negotiations on some of the last issues
+ that are outstanding between the two sides.
+ So it's all moving in the right direction.
+ I always say legislation is so hard
+ because something completely unrelated
+ could totally throw it off track.
+ So it's hard to predict, but things feel
+ like they're moving in the right direction.
+ And I feel like maybe I was more pessimistic last week.
+ And this week I felt a lot more kind of optimistic
+ about the potential for this to get to the Senate floor.
+ - Okay, so that makes me feel better at least.
+ So you've been in the room for a lot of these meetings
+ that have taken place,
+ including with participants from the traffic side.
+ So like some of the big banks and organizations like SIFMA,
+ can you tell us what that's been like?
+ And like how much are you talking to them directly?
+ - Yeah, so I know on a lot of the DeFi stuff,
+ they brought in the stakeholders directly,
+ DeFi and SIFMA and just said,
+ can you guys get to an agreement?
+ And you know, I think those conversations
+ have generally been going well.
+ And I think sometimes it is you just get people in a room
+ and they sort of cross someone one another
+ and it gets hard to throw bombs at each other
+ when you're sitting face to face.
+ And so I do think that having those stakeholders
+ in a room talking has been very beneficial.
+ I've been spending a lot of time on the rewards issue.
+ I would say the TreadFi has been less willing
+ to negotiate on that.
+ They really feel like they have the upper hand
+ in that they can just push through an amendment
+ and get what they want.
+ That's been a little frustrating.
+ But I think the good news is we have the White House
+ on our side on that issue.
+ We have a lot of Chairman Scott and a lot of his,
+ the members on the Republican side
+ on our side with the rewards issue.
+ So I think ultimately we can get to a good place.
+ I don't know if the text is there yet.
+ But again, it's trying to have these conversations,
+ real time and you're working line by line and word by word.
+ And it just takes a long time to get everybody
+ to a good place.
+ - Yeah, I'm a rewards issue, I just wanna remind our listeners
+ what Summer's referring to is the fact
+ that a lot of the banks have been fighting.
+ I would say any crypto market structure legislation
+ more generally, but particularly this one issue
+ where there are rewards linked to stablecoins
+ 'cause obviously it compromises
+ a fundamental value proposition for their business.
+ So just wanted to explain that really briefly.
+ On that piece Summer, the other thing that has arisen
+ quite dramatically out of the blue is,
+ as I think everyone knows,
+ just recently the president tweeted his support
+ in cutting off credit card interest rates at 10%.
+ This is not a crypto thing, but this would be very devastating
+ economically for credit card issuers
+ and cause some major market movement in trad buy.
+ And there is a sense that banks are really exerting
+ a lot of authority and fighting clarity
+ and now they have to shift their resources to fight
+ the credit card thing.
+ And like this to me feels very Washington chess game.
+ Like what is your take on that?
+ - And not to mention the CCRA, no notice that came out.
+ I guess this morning from Trump.
+ So I'd love just all of that a response as well.
+ - Don't forget to define CCRA for our list app.
+ - Yeah, the Credit Card Responsibility Act,
+ it's had so many names.
+ I was working on this issue when I was in the Hill
+ from early 2000s.
+ I mean, this is the, like this issue comes up all the time.
+ You see the word interchange to any financial services staff
+ on the Hill and they, you know,
+ wanna go on a corner and hide.
+ So there's, it's kind of a,
+ this issue comes up all the time.
+ You know, it's never had the votes
+ to get added to any legislations
+ or when it's been close to having votes
+ to get added to legislation,
+ if shut down the amendment process on the Senate floor.
+ So that particular bill,
+ and again, this would cap interchange fees on credit cards.
+ So that particular approach,
+ that particular bill has had many opportunities
+ to make it to the floor, to make it to a floor vote.
+ And politically, it's just not occurred.
+ Having the President weigh in is probably
+ definitely changing the game,
+ changing the landscape here.
+ I agree, the bankers have been fighting so hard
+ on the rewards yield issue.
+ And they have activated the community banks on it too,
+ claiming that this is going to harm community banks.
+ Well, this is a much bigger issue for those same banks,
+ you know, having a cap on the interchange fees.
+ It's, this pays for a lot of marketing material
+ that those companies do.
+ The, you know, when they, when they white label those cards,
+ they get a lot of, they get a lot of revenue
+ from those interchange fees.
+ So this is a bigger issue for the bankers
+ to have to focus on.
+ And I think, you know, that was part of,
+ probably what the President was doing here
+ is maybe reminding them,
+ hey, you need to play ball
+ because it's not just about rewards and yield.
+ There's a lot of other things that can come up.
+ And, you know, it doesn't take,
+ you're not, you're not the fan favorite right now.
+ Yeah.
+ And just be careful what, what you're putting out there
+ and where you're, you know, pressing buttons.
+ Yeah, I think we're still all digesting
+ like a lot of the new language from the draft,
+ but it looks like where the stable coin rewards stuff landed
+ for now is that you can't get rewards or yields
+ on merely holding balances,
+ but for other kinds of activity you can.
+ So I think some people are kind of looking at that
+ as like a partial victory at least for the banks.
+ Like, what are you, what are you thinking of it right now?
+ And do you think it's close to where
+ it's something that like BA could get behind?
+ Yeah, and we've been working on this with stakeholders
+ very closely and this is where I'm like,
+ we've been going word by word, line by line.
+ The draft text that came out, you know,
+ it had pieces of what has been offered
+ on the stable coin side.
+ There's some new language in there
+ that's probably not, you know, palatable.
+ But I guess the question,
+ what we have to figure out,
+ what we have to think about is there are the votes
+ for an amendment that probably is a little more restrictive.
+ Senator Alsoprux has been looking at language
+ that would, you know, again, restrict to deposits,
+ but also include anti-evasion act language
+ and also language that would create a study
+ and deposit flights and then allow the regulators
+ to have a rulemaking based on whatever they find in that study.
+ That's a hard no for stakeholders.
+ So I think what everyone is trying to decide right now
+ is can we get somewhere that we can hold the votes,
+ we can prevent an amendment that's gonna be worse
+ from getting adopted in committee
+ and try to find, you know,
+ language that people, nobody's gonna love the language,
+ it's not gonna be perfect.
+ In fact, even the fact that we're dealing with this
+ in market structure is frustrating
+ because Genius was just passed in July of last year
+ that he just started the rulemaking process.
+ So it's kind of unfortunate that we are going back
+ and reopening a bill that just went through pretty,
+ you know, a pretty major negotiating process
+ to get to where, you know, to get Genius done.
+ So I think that we're kind of weighing that,
+ like what is the path forward here?
+ I think the amendments that we see
+ on the Senate Bank Committee has told their members
+ if they want an amendment, they must file it by 5 p.m.
+ Those will be listed on their website.
+ That'll give us a really good idea of, okay,
+ where are people going on this issue?
+ Where are their villa?
+ And, you know, how do we handle that kind of a next step?
+ So it's a very kind of touch and go process.
+ - Yeah, can we shift to DeFi for just a second,
+ which is kind of like one of the other big,
+ very like hard fought, hotly contested issues in this bill?
+ So there's a lot of new--
+ - We're gonna get to DeFi, which is really meaty.
+ I just wanna ask really quick,
+ Summer's take on this weird ETF thing.
+ 'Cause like that's very, yeah,
+ 'cause I wanna have a meaty conversation on DeFi,
+ but the other thing in the bill that a bunch of people
+ are very upset about is it exempts crypto assets
+ that have existing ETFs as of Jan 1
+ from certain disclosure requirements.
+ - So radiant.
+ - What is your take on that?
+ 'Cause I think that's really upsetting
+ a bunch of crypto market participants.
+ - Yeah, so it's an interesting fix, you know,
+ I think the idea behind it was, you know,
+ some of these disclosures are so onerous
+ that you're almost looking like you're doing public,
+ you know, like your public company
+ and that level of disclosure.
+ And for some of these, you know,
+ kind of more mature blockchain,
+ you know, I think going that route
+ was gonna be really, it's gonna be really tough.
+ And when you think about these ETFs,
+ by having those products,
+ there's been some level of, you know,
+ kind of the SEC has looked into them.
+ They've been these as commodities already.
+ So these are, you know, their products on commodities
+ and there are disclosures involved with the ETF.
+ So I think the idea was, well, if you have an ETF trading,
+ you know, there's already disclosures there.
+ Some of the due diligence has already been done.
+ So let's carve that group out.
+ I think this is really interesting.
+ This is where blockchain association
+ can be probably most helpful in this whole process.
+ I think there's a path forward, you know,
+ it could be that that data is a little bit too narrow
+ and maybe we try to span it out a little bit.
+ But I do think we can get members in a good place,
+ both those who, it's really important to have that ETF carve out
+ and those who may want to use that at a later date,
+ but wouldn't be able to do it by the date in the bill.
+ So this is an area where we are literally getting members together.
+ We're talking, we're going back and forth.
+ We hope to have some sort of negotiated language
+ that we can send up to the Senate
+ and say this works for both sides.
+ - Absolutely.
+ - Yeah.
+ So with respect to DeFi,
+ I think it's very meaty like Catherine was saying.
+ We were just talking about this right before you jumped on,
+ but it seems like the framework really revolves around
+ this idea of control.
+ And I sort of have a number of issues with that,
+ but one is I think that that idea conflates the idea
+ of decentralization and permissionlessness,
+ which actually are not the same thing.
+ And what it incentivizes, I think,
+ is like it disincentivizes protocols
+ from implementing any kind of user or market safety measures,
+ even if they're fully automated,
+ that could trigger regulation.
+ And I just, I don't know if that's what Congress intended to do.
+ So I think as an industry,
+ we should look at this language really carefully.
+ But the other question I had for you,
+ especially because you used to be a commissioner at the CFTC.
+ So I'm really curious your thoughts here.
+ The other issue I was thinking of
+ with respect to the new DeFi language
+ is really like a process one.
+ Like to me, it seems highly unusual for Congress
+ to legislate with this level of technical granularity.
+ Like I think typically this level of like definition
+ and technical parameters and rules are typically left
+ to the agencies to figure out through like rulemaking
+ or guidance or decisions whether to enforce against
+ like a company or not.
+ And just in my opinion, some of the stuff in here
+ is really technical.
+ It's really in the weeds.
+ And it's like, I don't know
+ that Congress should be weighing in at that level.
+ And certainly I think Congress should be giving us
+ more than 24 hours to weigh in
+ as market participants and stakeholders.
+ So this is just a process issue, right?
+ So like I'd love your thoughts on that.
+ Like is this the kind of stuff
+ that you would typically expect the CFTC and the SEC
+ to weigh in on as opposed to Congress.
+ Like defining with like 50 different factors
+ what control means.
+ - Yeah, this has been interesting
+ because normally you would say you want technology neutral
+ bill language so that you're not locking
+ in any one particular technology.
+ Let the regulators who have a little more flexibility
+ and you slide the parameters but don't lock it into law.
+ But everyone is coming off of this
+ like Gary Gensler nightmare.
+ And there's a lot of people who are so afraid
+ to turn over details to the administrative agencies
+ that they've really asked for, you know,
+ very specific language in different areas
+ where you would normally leave it to rulemaking.
+ I don't think around that's what we're looking at
+ with this issue but I've seen it a lot
+ throughout this process that people are just kind of scared
+ of the regulator's writing rules.
+ And so they're asking Congress to be more specific.
+ There's, you know, the DeFi stuff is really interesting.
+ Section five, they got it right.
+ It's in a good place but they added some new things
+ in section three around illicit finance that are not okay.
+ And so it's like whack-a-mole, right?
+ You get one area in a good place
+ and then another one pops up.
+ I think we've been on the hill talking to senators
+ about, you know, how do we maybe get some
+ of these sections out, get them removed,
+ and how do we move forward with amendments on this?
+ You know, it's tough when you are up there talking
+ to members and staff.
+ There's just a fundamental misunderstanding
+ of what DeFi is, what a protocol is,
+ who's involved, who has, to your point, you know,
+ what is control, what's not control.
+ And it's really been tough to try to educate them
+ to fully understand it.
+ And a lot of times what we see in the text is, you know,
+ a reflection of the lack of understanding.
+ You know, you can even talk a little more
+ about the specifics of what you think is maybe going too far
+ on the DeFi illicit finance side of it.
+ So it's something we've talked a lot about
+ and I know we've all had meetings on the hill
+ about this topic and have had thrown out different proposals
+ to touch grace on them, some included, some not.
+ - Yeah, yeah, I mean, some of it is this idea that, you know,
+ that you would have somebody constantly keeping up
+ with some of the, you know, if you put something in place
+ that you would have to constantly monitor that.
+ And then that suddenly is like, is there control, you know,
+ I think there's some questions around, you know,
+ front ends, although they have a new term for that
+ in this language.
+ I don't have my crutch with me, Lindsey Frazier,
+ who's amazing, who knows all the stuff much better than I do.
+ I bring her with me everywhere I go.
+ But it's really this, there's a lot of new definitions
+ that do not make sense.
+ There's some conflicting definitions in there.
+ And it's creating kind of new requirements
+ and responsibilities that just don't work for DeFi.
+ And so if we get rid of that section
+ and recognize that it's not gonna work.
+ - Well, it's important just to get out the fact
+ that Lindsey who recently joined PA has had a policy,
+ was former had a policy for Uniswap.
+ So that kind of comes in handy when you've been
+ in the middle of DeFi as part of this conversation.
+ So that's great.
+ I'm sure she's trading on that, understanding and information.
+ - Absolutely.
+ - So Jesse, we were gonna touch on this
+ right before you joined summer,
+ but actually I would love your thoughts on this.
+ Jesse, do you wanna talk about how you think
+ the control definition or the control standard
+ in the new DeFi section would apply to something
+ that in reality, almost every DeFi front end does today,
+ even the ones that everyone considers pure DeFi,
+ which is sanctioned screening.
+ And it's usually automated, but yes.
+ Can you talk about that?
+ And then summer we would love your thoughts.
+ - You know, Jesse and I, like summer,
+ yeah, have a special place in our heart
+ for programmable risk management.
+ And all these things that DeFi can and should do
+ to make it safer, but obviously we don't want that to mean
+ that they all of a sudden get swept into regulation.
+ - Full, yeah.
+ - I did read your paper, so-- - Oh, we're here.
+ - We'll put it in the show notes yet again.
+ - Okay.
+ - Out of bread and self promotion.
+ I think why you, Jesse, sorry, go ahead.
+ - Yeah, absolutely.
+ I think that more and more projects
+ are overlaying sanctions checks,
+ but also just sort of like illicit finance tools
+ that also help with cybersecurity.
+ It's not just about sanctions,
+ but it's also identifying actors
+ that could potentially hack your protocol, right?
+ And so we all know about chain analysis, TRM,
+ there's many others, block aid, predicate,
+ and these provide really important tools
+ that you can frequently set it and forget it for a while,
+ but that's not really how it works
+ and that's not really how we encourage projects to use it
+ because then it doesn't really help them
+ and it doesn't really protect their users
+ in a way that's continuous.
+ And so I feel like the bill tries to make this line
+ between discretionary control and everything else,
+ but like risk management doesn't fit cleanly into anything
+ because in practice, layering these tools on
+ and enforcing sanctions isn't binary,
+ just like cybersecurity protections aren't binary.
+ To me, like the bill doesn't really resolve
+ what continued or action puts you over the line of why.
+ So like, let's do a tangible example, right?
+ So let's talk about chain and TRM.
+ Most projects have that in some form
+ or they use it just to stop any explicit sanction address
+ that is listed by OFAC or other like sanctioning entity
+ and another government.
+ But over time, overlaying that requires updating lists,
+ tuning heuristics, responding to false positives
+ and coordinating with counterparty.
+ So like, at what point does ongoing judgment
+ turn rule-based compliance or rule-based risk management
+ into human control?
+ And that's what I can't quite figure out in this book.
+ - Well, so you know what I would add to that?
+ It's actually very ambiguous to me
+ that even if you do sanction screening
+ or some other compliance measure
+ through a fully automated mechanism,
+ you could still be exercising control, right?
+ Because one of the parts of the definition is it,
+ do you control access?
+ It doesn't say whether it's automated or discretionary.
+ Do you restrict which tokens can be allowed, right?
+ Do you exclude low quality collateral from your protocol?
+ Like all of these things could potentially sweep you
+ into the definition of control.
+ But these are all things that DeFi protocols do every day,
+ and it shouldn't mean that they should be regulated
+ like as brokers, right?
+ These are just like smart engineering.
+ - Totally.
+ And one more point on X predicate, for example,
+ that puts policies in and can change them.
+ Do they become that for all the projects
+ that they're working for?
+ Like, where is the line?
+ - And the other thing, Summer, like,
+ I want you to opine on this before.
+ And you obviously, the three of us feel very passionate about this.
+ - We don't have any opinions.
+ - You have an evening perspective as an X CFTC commissioner.
+ And I have never been a regulator,
+ but I've dealt with regulators my entire career,
+ especially doing white-collar defense.
+ To some degree, I often say to crypto,
+ we have to give regulators a degree of credit
+ in terms of there's a lot of regulators,
+ yourself included while you were at the commission,
+ that were highly pragmatic and reasonable.
+ And, you know, this is true of enforcement as well.
+ Like, there is a spectrum, Jesse knows this,
+ DOJ in particular.
+ They're not gonna indict unless they can convince, for example.
+ But how do you feel about this provision
+ where there is a theoretical possibility,
+ which is scary for crypto having been burned,
+ of kind of this overreach?
+ - Yeah, I mean, and again, this is like a demonstration
+ of the fundamental misunderstanding of how this works.
+ I'm sure whoever is working on this section
+ thought that it was a sudden forget-it-type thing
+ and that, you know, nobody ever had to go back
+ and make sure it was still operating the way it should.
+ And, you know, I think trying to get in front of those folks
+ to make them understand what this means
+ and what they've created by with this language.
+ So, you know, that's that piece of it,
+ at least with the legislation, you know,
+ going on the regulatory piece of it,
+ it was always interesting to me,
+ we'd bring these DeFi cases.
+ I always just sent it on them.
+ And it wasn't necessarily because I was saying,
+ "Oh, I think this protocol."
+ And, you know, I didn't know enough.
+ I didn't have enough information.
+ I couldn't have said this is absolutely decentralized.
+ I didn't have all that information.
+ What I knew was that they found somebody
+ that they could go to and threaten with the lawsuit
+ and they did and they never explained to them,
+ well, here's how you could,
+ here are different ways you could abide by
+ the existing regulations.
+ And so, to me, it was always more of a like,
+ there's gotta be a way where, again,
+ you stay technology neutral.
+ You don't try to get into these debates about, you know,
+ control and, you know, who is doing what.
+ And just look at it more from the standpoint of, you know,
+ how is somebody supposed to operate
+ within the broader context of what's legal,
+ what's allowed under the regulations.
+ So, you don't have a future administration
+ that just uses the law and the rules
+ as a weapon against something they don't understand.
+ - Absolutely.
+ Summer, we're almost at time.
+ So, I just wanna take a moment to say thank you so much
+ for joining us, taking the time on a really busy stretch.
+ Although, we are in crypto.
+ We always pay that.
+ Like, what is there a time when we're like,
+ "Oh, it's really chill."
+ And this is-
+ - That's the biggest.
+ - I would say though.
+ - I'd say it's like, "Buds were on that note."
+ - Absolutely.
+ I think we don't have to do that every day.
+ - It's just an action for like the busiest week ever.
+ - Yeah, yeah.
+ - Don't say that.
+ It will get worse.
+ - It will get worse.
+ - Absolutely.
+ - Absolutely.
+ Friday, good play.
+ Thank you for your leadership at BA.
+ BA is doing a lot of really great work
+ on behalf of crypto in Washington Blockchain Association.
+ Check it out, listeners.
+ If you aren't familiar.
+ And, you know, I, again, as Jesse said,
+ keep doing God's work and thank you so much for joining us.
+ - Oh, thank you.
+ - Thank you so much.
+ - Thank you, Summer.
+ - This was fine.
+ - And on that note, that for this episode
+ of Decks in the City, thanks to you, our listeners,
+ and a lot of yours for me.
+ And we'll see you next week.
+ Have a great week.

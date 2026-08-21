@@ -1,0 +1,1616 @@
+1
+00:00:00,000 --> 00:00:04,400
+ How can you get people in the US excited about putting stocks on blockchains?
+
+2
+00:00:04,400 --> 00:00:10,480
+ You get these questions like why is it better than traditional stocks that are off-chain?
+
+3
+00:00:10,480 --> 00:00:15,920
+ You already have things like Robinhood. It's easy. Robinhood has close to 26 million customers.
+
+4
+00:00:15,920 --> 00:00:21,760
+ You can trade 24/5. Maybe it's not 24/7, but it's pretty close.
+
+5
+00:00:21,760 --> 00:00:27,280
+ But I think where the possibilities really start to multiply is if you can get these
+
+6
+00:00:28,240 --> 00:00:36,720
+ illiquid assets and you can construct the mechanism for all of them to be put on chain.
+
+7
+00:00:36,720 --> 00:00:43,840
+ You get that liquidity in the real-time trading that has been historically reserved only for
+
+8
+00:00:43,840 --> 00:00:45,920
+ cryptos and public stocks.
+
+9
+00:00:52,640 --> 00:00:57,920
+ I'm thrilled to be here with Vlad Tenev, the co-founder and CEO of Robinhood, on the defined
+
+10
+00:00:57,920 --> 00:01:02,400
+ podcast. Vlad, welcome. It's great to have you here. Thanks for having me. And you're probably the
+
+11
+00:01:02,400 --> 00:01:07,280
+ only person who's ever said my last name correctly. Oh, I'm amazing. I'm proud of that.
+
+12
+00:01:07,280 --> 00:01:16,000
+ So Robinhood obviously is at the top 10 brokerage. It has over $250 billion in assets under administration.
+
+13
+00:01:16,000 --> 00:01:24,640
+ And it's going all in on crypto. Yesterday, you made a series of big announcements. I'll
+
+14
+00:01:24,640 --> 00:01:31,920
+ summarize the three most important to, at least to me and my audience, and then we'll kind of
+
+15
+00:01:31,920 --> 00:01:41,440
+ dive deeper into them. So you announced tokenized US stocks for European users. You announced tokenized
+
+16
+00:01:42,720 --> 00:01:49,680
+ private company stocks for European users. And you said you are planning to launch your own
+
+17
+00:01:49,680 --> 00:01:57,920
+ blockchain. I'll run down the other announcements, taking for Solan ETH, for US users for crypto
+
+18
+00:01:57,920 --> 00:02:03,600
+ futures, for EU, 2% boost for crypto deposit, credit card rewards, smart exchange routing,
+
+19
+00:02:03,600 --> 00:02:09,920
+ tax slots, advanced charts, and an AI trading assistant named Cortex. So that was a lot. And in
+
+20
+00:02:09,920 --> 00:02:18,960
+ this beautiful backdrop. And USDG being approved the first Mika, one of the first Mika compliant
+
+21
+00:02:18,960 --> 00:02:23,440
+ stablecoins. Too many announcements to keep track of. I know Johan just threw that out there,
+
+22
+00:02:23,440 --> 00:02:27,680
+ like a little sardine at the end, you know, even though I think it was quite a big announcement.
+
+23
+00:02:27,680 --> 00:02:33,520
+ Totally. Yeah, that would have been like big on its own. But let's get into the tokenized US
+
+24
+00:02:33,520 --> 00:02:41,360
+ stocks for Europe. So currently European investors can already get access to US stocks
+
+25
+00:02:41,360 --> 00:02:47,600
+ to Revolut and other FinTechs and brokers. What's so special about having stocks be tokenized?
+
+26
+00:02:47,600 --> 00:02:55,280
+ Yeah, I mean, I think that I would think about the EU launch as serving two purposes. Number one,
+
+27
+00:02:55,280 --> 00:03:02,720
+ actually EU customers wanted exposure to stocks. We've been live in Europe with our crypto business
+
+28
+00:03:02,720 --> 00:03:09,200
+ for a little bit over a year. And while they love crypto, they want exposure to the US assets as well.
+
+29
+00:03:09,200 --> 00:03:15,280
+ And we actually sharpen our pencils because we have both these businesses, right? And we figured
+
+30
+00:03:15,280 --> 00:03:24,080
+ out that the time to market and the speed for launching a blockchain based offering was actually
+
+31
+00:03:24,080 --> 00:03:32,000
+ significantly faster than going the traditional route. And that got us thinking that in Europe,
+
+32
+00:03:32,000 --> 00:03:36,720
+ what we have the ability to do is actually demonstrate what Robinhood itself could look
+
+33
+00:03:36,720 --> 00:03:45,200
+ like built entirely on blockchain technology. So I think phase one from a user standpoint,
+
+34
+00:03:45,200 --> 00:03:51,680
+ it will look very similar to traditional US stocks. The blockchain technology and the plumbing will
+
+35
+00:03:51,680 --> 00:03:58,480
+ be under the hood with some minor differences from what typical competitors offer. In particular,
+
+36
+00:03:58,480 --> 00:04:07,600
+ it's 24/5. So 24 hours a day, five days a week, which not many competitors have been able to figure
+
+37
+00:04:07,600 --> 00:04:15,520
+ out how to do. Or it starts to get really interesting is when we start plugging it into BitStamp,
+
+38
+00:04:15,520 --> 00:04:23,120
+ which is when 24/7 trading becomes possible. And at that point, the stock tokens start to behave
+
+39
+00:04:23,120 --> 00:04:30,640
+ like other cryptos, Bitcoin and Ethereum. And then what I called phase three, which is full
+
+40
+00:04:30,640 --> 00:04:40,400
+ blockchain non-custodial integration, is when you get all the integrations to DeFi. So you could
+
+41
+00:04:40,400 --> 00:04:47,440
+ imagine swapping collateralized lending and borrowing and really self custody, which I think would be
+
+42
+00:04:47,440 --> 00:04:56,560
+ very powerful for stocks because it would untether your stock tokens from any individual brokerage
+
+43
+00:04:56,560 --> 00:05:08,960
+ or crypto provider. So you explained very colorfully on the top word yesterday how stocks are held
+
+44
+00:05:10,640 --> 00:05:18,480
+ one-to-one with the token custody by Robinhood. So how does that work legally? Like who actually
+
+45
+00:05:18,480 --> 00:05:26,000
+ is who has rights to the company? The Robinhood has kind of the holder of shares or the token
+
+46
+00:05:26,000 --> 00:05:33,840
+ holder? Does the token actually carry rights? Yeah, so the way it works is the token is actually a
+
+47
+00:05:33,840 --> 00:05:41,360
+ derivative and the underlying is sort of like held by Robinhood. So what the user is getting
+
+48
+00:05:41,360 --> 00:05:47,280
+ is a derivative that's backed by the real share. Okay. And so when that is
+
+49
+00:05:47,280 --> 00:05:54,080
+ ported to DeFi, say, and say it's useless collateral in lending markets, what happens if
+
+50
+00:05:54,080 --> 00:06:03,840
+ that's liquidated? So the intent would be that it would be sort of like a stable coin, right?
+
+51
+00:06:03,840 --> 00:06:12,560
+ Similar structure where the shares are held in custody and then the only time where a share
+
+52
+00:06:12,560 --> 00:06:19,120
+ that's custody, the traditional share, would be liquidated is if a corresponding token was actually
+
+53
+00:06:19,120 --> 00:06:27,440
+ burned. Okay. So yeah, I think my understanding is, and of course, these edge cases, I think
+
+54
+00:06:27,440 --> 00:06:34,720
+ probably are a little bit more complicated, but if it was liquidated in a DeFi protocol,
+
+55
+00:06:34,720 --> 00:06:42,720
+ the token itself wouldn't actually be burned. Oh, so, okay, I guess like then it would have to,
+
+56
+00:06:42,720 --> 00:06:48,080
+ like Robinhood would have to burn it to also like... The mechanism for minting and burning
+
+57
+00:06:48,080 --> 00:06:53,920
+ tokens would go through Robinhood, at least for the time being. Okay. Okay. Now let's get into the
+
+58
+00:06:53,920 --> 00:07:03,280
+ private tokenized shares. So this market is like famously opaque and hard to get to. Can you walk
+
+59
+00:07:03,280 --> 00:07:10,000
+ me through how Robinhood can make this accessible? Yeah. I mean, really, it's the same underlying
+
+60
+00:07:10,000 --> 00:07:19,920
+ technology that powers the public shares. Now I wrote an op-ed in the Washington Post in the US,
+
+61
+00:07:19,920 --> 00:07:28,000
+ in January of this year, and the lead was really that you have these companies that aren't going
+
+62
+00:07:28,000 --> 00:07:34,720
+ public. Some of them have essentially made the decision that they would never go public unless
+
+63
+00:07:34,720 --> 00:07:41,040
+ they were forced, and they're basically able to raise tens of billions, maybe hundreds of billions
+
+64
+00:07:41,040 --> 00:07:47,040
+ of dollars from the private markets, and that wasn't possible before. So they have no corporate
+
+65
+00:07:47,040 --> 00:07:53,360
+ need to go public, but what happens is retail investors are left out of those gains, which keep
+
+66
+00:07:53,360 --> 00:08:00,400
+ accruing to a smaller and smaller selection of wealthy insiders. The days of being able to invest
+
+67
+00:08:00,400 --> 00:08:07,680
+ in an IPO like Microsoft and Apple and get a huge appreciation in the public markets
+
+68
+00:08:07,680 --> 00:08:14,000
+ seem more difficult to come by. I mean, it happens from time to time, but if you want to invest in
+
+69
+00:08:14,000 --> 00:08:22,080
+ the AI economy as a retail investor, your options are quite limited. And you see gigantic companies
+
+70
+00:08:22,080 --> 00:08:29,040
+ that are already quite big, Tesla, for example, Nvidia, and that's kind of the exposure to the
+
+71
+00:08:29,040 --> 00:08:37,280
+ AI industry. So using the same technology that powers tokenized public stocks, we're able to
+
+72
+00:08:37,280 --> 00:08:43,920
+ tokenize pretty much anything as long as we can acquire the traditional shares. And I think this
+
+73
+00:08:43,920 --> 00:08:50,320
+ is going to be particularly interesting for the US. So the question we had is, okay,
+
+74
+00:08:50,320 --> 00:08:56,080
+ how can you get people in the US excited about putting stocks on blockchains? You get these
+
+75
+00:08:56,080 --> 00:09:02,480
+ questions like, why is it better than traditional stocks that are off chain? You already have
+
+76
+00:09:02,480 --> 00:09:09,520
+ things like Robinhood. It's easy. Robinhood has close to 26 million customers. You can trade 24/5.
+
+77
+00:09:09,520 --> 00:09:16,640
+ Maybe it's not 24/7, but it's pretty close. But I think where the possibilities really start to
+
+78
+00:09:16,640 --> 00:09:24,640
+ multiply is if you can get these illiquid assets, and you can kind of construct the mechanism
+
+79
+00:09:24,640 --> 00:09:32,400
+ for all of them to be put on chain, and you get that liquidity and the real-time trading that
+
+80
+00:09:32,400 --> 00:09:39,760
+ has been historically reserved only for cryptos and public stocks. So you would have to,
+
+81
+00:09:39,760 --> 00:09:47,200
+ Robinhood has access to these OTC markets for private companies, and that's what you're
+
+82
+00:09:47,200 --> 00:09:55,120
+ unlocking for anyone really. Yeah, that's basically it. And I should clarify that the private shares
+
+83
+00:09:55,120 --> 00:10:02,080
+ we gave out were essentially a gift. So this is a way to demonstrate the technology. They're not
+
+84
+00:10:02,080 --> 00:10:08,480
+ yet able to be traded. So customers will have to hold on to them. But actually, since we've
+
+85
+00:10:08,480 --> 00:10:14,640
+ announced last night, lots of private companies have been reaching out to me and asking,
+
+86
+00:10:14,640 --> 00:10:18,320
+ yeah, you would think not a lot of private companies would actually be interested in this,
+
+87
+00:10:18,320 --> 00:10:26,960
+ but I've had reachouts, and I've had people asking me, when can we get our own private stock
+
+88
+00:10:26,960 --> 00:10:36,080
+ tokenized? So yeah, I think we'd like to open this up much wider, figure out how to allow trading
+
+89
+00:10:36,080 --> 00:10:42,320
+ in the near future, and also make it available to lots and lots of private companies so that
+
+90
+00:10:43,280 --> 00:10:49,760
+ people can invest in the most innovative and invaluable private companies. And I think over time,
+
+91
+00:10:49,760 --> 00:10:57,280
+ what I get really excited about since the initial private stocks will be, the transactions will be
+
+92
+00:10:57,280 --> 00:11:05,120
+ on a secondary basis. So this is buying stock from existing shareholders of a company. But I think
+
+93
+00:11:05,120 --> 00:11:11,680
+ over time, this can migrate to being a tool for companies to raise primary capital. So you imagine
+
+94
+00:11:11,680 --> 00:11:18,960
+ an entrepreneur who's starting a business, and this becomes a mechanism for them to get quick
+
+95
+00:11:18,960 --> 00:11:25,200
+ and easy capital. So they wouldn't need to go and do the dog and pony show where they pitch
+
+96
+00:11:25,200 --> 00:11:32,320
+ venture capitalists and go around Sand Hill Road. If they could just go on Robinhood or any other
+
+97
+00:11:32,320 --> 00:11:38,160
+ platform really, push a button and maybe submit some information about what their business is
+
+98
+00:11:38,160 --> 00:11:46,560
+ and what their venture is. And they get immediate access to a global pool of investors that want to
+
+99
+00:11:46,560 --> 00:11:54,000
+ back in and get the exposure to that new startup technology. I think if we can deliver that,
+
+100
+00:11:54,000 --> 00:12:01,360
+ we'll just have more startups. The costs and the friction to creating startups will dramatically
+
+101
+00:12:01,360 --> 00:12:07,600
+ decrease. I was an entrepreneur early stage, and you have to do two very difficult things,
+
+102
+00:12:07,600 --> 00:12:13,920
+ simultaneously. One is build a product that people want, take it to market. You also have
+
+103
+00:12:13,920 --> 00:12:19,920
+ to fund the business. And early stage funding the business takes a lot of time. So you almost
+
+104
+00:12:19,920 --> 00:12:25,840
+ have these like two full time jobs that you have to simultaneously do. So I think if we make that
+
+105
+00:12:25,840 --> 00:12:33,280
+ easier, we'll have more startups. That'd be really interesting to have a primary market on Robinhood.
+
+106
+00:12:33,280 --> 00:12:39,600
+ Don't you envision this as startups racing via both equity and tokens?
+
+107
+00:12:39,600 --> 00:12:50,320
+ Yeah, I mean, I think that it's a good question. There are existing mechanisms where
+
+108
+00:12:50,320 --> 00:13:00,320
+ startups can issue tokens. They can have ICOs. Historically, that has been a completely separate
+
+109
+00:13:00,320 --> 00:13:08,880
+ process from actually raising a normal fundraising round. And you've had to make sure in the U.S.
+
+110
+00:13:08,880 --> 00:13:15,360
+ at least that U.S. persons don't participate in those. It's typically been used only for
+
+111
+00:13:15,360 --> 00:13:23,360
+ largely by it's accredited. It's crypto companies have been doing this for like token launches.
+
+112
+00:13:23,360 --> 00:13:30,080
+ But what I'm envisioning is these processes merge somewhat. So if you want to go the crypto
+
+113
+00:13:30,080 --> 00:13:38,000
+ native token route, you could. But also you could just have something like a traditional financing and
+
+114
+00:13:38,000 --> 00:13:47,360
+ traditional shares, traditional documentation, you're dealing with the same lawyers. And we can
+
+115
+00:13:47,360 --> 00:13:54,960
+ just be a utility that helps tokenize those shares. Super interesting. Okay, before going to deep
+
+116
+00:13:55,520 --> 00:14:03,680
+ there, let's switch to the other big announcement and want to cover your own chain. So this will be,
+
+117
+00:14:03,680 --> 00:14:13,760
+ as I understand, a theorem layer two on arbitrum, right? It's going to be similar to
+
+118
+00:14:13,760 --> 00:14:19,920
+ the arbitrum chain, but it's not going to be a roll up on arbitrum. So it's a layer two.
+
+119
+00:14:20,480 --> 00:14:26,480
+ So it's it's own separate layer two using arbitrum technology, exactly. And it'll it'll launched
+
+120
+00:14:26,480 --> 00:14:33,680
+ directly like that. Or will you start as a roll up in in arbitrum? Well, at first the stock tokens
+
+121
+00:14:33,680 --> 00:14:40,800
+ are on arbitrum. But yeah, it'll it'll begin as the intent is for it to begin as a layer two.
+
+122
+00:14:40,800 --> 00:14:46,400
+ Yeah, immediately upon launch. Wow, that's that's huge. What if sending crypto felt more human?
+
+123
+00:14:47,120 --> 00:14:52,240
+ Pulse just launched red packets, a new way to give tokens with meaning. It's gasless,
+
+124
+00:14:52,240 --> 00:14:58,880
+ gamified, and claimable inside group chats only. Think air drops meet social cues on chain.
+
+125
+00:14:58,880 --> 00:15:04,160
+ Backed by smart wallet tech and live across major L2s, red packets turned communities into
+
+126
+00:15:04,160 --> 00:15:11,200
+ microeconomies of gratitude and growth. No seed phrases, no friction, just connection with value.
+
+127
+00:15:12,000 --> 00:15:20,720
+ Check it out at pulse dot social. Can you can you go through why you you went with both arbitrum
+
+128
+00:15:20,720 --> 00:15:26,640
+ instead of other Ethereum layer twos and what you went with Ethereum instead of other layer ones.
+
+129
+00:15:26,640 --> 00:15:37,840
+ Yeah, I think that at the end of the day, what it came down to was I don't think there was a
+
+130
+00:15:37,840 --> 00:15:46,160
+ layer two out there that had the same specific goals as ours. So what we want to do is build
+
+131
+00:15:46,160 --> 00:15:52,160
+ the first chain that's optimized for real world assets. So we have stocks. Eventually,
+
+132
+00:15:52,160 --> 00:15:59,440
+ you can imagine all things that you can find on Robinhood in the US. Perhaps we find a way to get
+
+133
+00:15:59,440 --> 00:16:08,240
+ options there futures. It's funny. Tokenize futures when you have perpetual futures. So it's
+
+134
+00:16:08,240 --> 00:16:13,680
+ going to go both ways. Tokenize traditional instruments and then traditional versions of
+
+135
+00:16:13,680 --> 00:16:19,280
+ the native crypto assets as well. So I think there will be a lot of convergence.
+
+136
+00:16:19,280 --> 00:16:27,360
+ But yeah, we would like to tokenize a wide range of real world assets. I think that's how we can
+
+137
+00:16:27,360 --> 00:16:33,040
+ distinguish ourselves. I talked to a lot of these chain developers and they all have some variant
+
+138
+00:16:33,040 --> 00:16:39,440
+ of our chain is the best chain for de-gens. And I think there's enough chains for de-gens out there.
+
+139
+00:16:39,440 --> 00:16:44,160
+ I think that market is fully served. But I don't think there's anyone building
+
+140
+00:16:44,160 --> 00:16:48,960
+ chains that are optimized for real world assets. And you think and you thought that
+
+141
+00:16:48,960 --> 00:16:53,600
+ arbitrum was the best place or like that technology was the best to do that.
+
+142
+00:16:53,600 --> 00:16:59,840
+ Well, the great thing about it is we have control over the chain. We can we can develop it and make
+
+143
+00:16:59,840 --> 00:17:05,760
+ customizations as necessary. And so we thought that that was a nice benefit because we don't want to
+
+144
+00:17:05,760 --> 00:17:13,200
+ be dependent on any third party for when we need something. So if we have the ability to have control
+
+145
+00:17:13,200 --> 00:17:19,760
+ over the development of the chain, of course, while maintaining decentralization, that was very
+
+146
+00:17:19,760 --> 00:17:28,000
+ attractive for us. Yeah. And a lot of the other layer ones don't have as robust of an ecosystem for
+
+147
+00:17:28,000 --> 00:17:34,160
+ having your own chain, having your own layer two on top. Okay. So on the theorem side, it was the
+
+148
+00:17:34,160 --> 00:17:41,760
+ ecosystem that really the ecosystem, the ability to create a layer two and have control over
+
+149
+00:17:43,760 --> 00:17:50,960
+ how how everything works. And also the fact that interoperability is important to us. And
+
+150
+00:17:50,960 --> 00:17:57,600
+ there's a lot of assets already on the Ethereum chain. And there's a significant network effect.
+
+151
+00:17:57,600 --> 00:18:04,720
+ And, you know, we, I think over time, we'd like these tokens to be on all chains. So it's really
+
+152
+00:18:04,720 --> 00:18:11,840
+ where is there going to be a first class experience where perhaps, you know, you'll get the early
+
+153
+00:18:11,840 --> 00:18:17,520
+ features first, and you'll get great support. So we will have the chain, we have the wallet as well,
+
+154
+00:18:17,520 --> 00:18:22,960
+ Robinhood wallet, which we're, we're going to build a really, really nice experience for the
+
+155
+00:18:22,960 --> 00:18:31,280
+ tokens. And, you know, since it's crypto, customers will be able to switch to another wallet. And
+
+156
+00:18:31,280 --> 00:18:36,960
+ over time, I'm sure there'll be robust bridges and interoperability. And people will be able to
+
+157
+00:18:36,960 --> 00:18:41,600
+ move their tokens to all sorts of chains. But at least the parts that we have control over,
+
+158
+00:18:41,600 --> 00:18:48,960
+ we can ensure that there's a first class experience. Perfect. Are you, are you planning on having
+
+159
+00:18:48,960 --> 00:18:54,880
+ your own token on the chain? No plans at this point. I mean, we haven't thought much about it.
+
+160
+00:18:54,880 --> 00:19:00,880
+ The focus has really been on how to make sure stock tokens work really, really nicely.
+
+161
+00:19:00,880 --> 00:19:06,800
+ I wouldn't be opposed to it. I mean, if there's some specific problem that that would help us
+
+162
+00:19:06,800 --> 00:19:12,320
+ solve, I think we would look at it, but we're no, no imminent plans, I should say.
+
+163
+00:19:12,320 --> 00:19:19,600
+ What, what about like having your own chain improves, you think, just like overall experience
+
+164
+00:19:19,600 --> 00:19:25,920
+ for your users? Yeah, that's a good question. I think right now for what we've offered, I mean,
+
+165
+00:19:25,920 --> 00:19:31,360
+ the, the stock tokens are available on arbitrum. You saw the transactions are quite fast.
+
+166
+00:19:33,120 --> 00:19:38,320
+ But I think there's going to be a lot of new things that we'll have to unlock in particular
+
+167
+00:19:38,320 --> 00:19:47,440
+ DeFi swapping. If we get into the DeFi stuff, if we want to offer some products that we also have
+
+168
+00:19:47,440 --> 00:19:54,320
+ to enable, you know, KYC or some of these, some of these more unique features than having,
+
+169
+00:19:54,320 --> 00:19:57,280
+ having our own chain, I think would be, would be important.
+
+170
+00:19:58,480 --> 00:20:06,240
+ And so for, for the, going back to the US, the US token stocks in Europe and
+
+171
+00:20:06,240 --> 00:20:13,840
+ Perpetuals went on, well, the token is private market, but those are all available in, in Europe.
+
+172
+00:20:13,840 --> 00:20:20,160
+ But what, from the regulatory side in the US, are you expecting before you can roll those out in the US?
+
+173
+00:20:20,160 --> 00:20:27,840
+ Yeah, actually, since we've rolled this out, I think there has been some excitement from,
+
+174
+00:20:27,840 --> 00:20:34,400
+ from policymakers in the US, they saw the launch over here. And I think one of the goals was also
+
+175
+00:20:34,400 --> 00:20:42,160
+ to show what's possible if, you know, we, we unleash crypto technology and let it fully merge
+
+176
+00:20:42,160 --> 00:20:48,160
+ with traditional financial services. I think we've been talking about this in crypto for quite a while,
+
+177
+00:20:48,160 --> 00:20:54,560
+ but there hasn't been too much in the way of actual product that people can use in a,
+
+178
+00:20:54,560 --> 00:20:59,360
+ in a nice form. So I, I think that's compelling. If you can actually see real product, you know,
+
+179
+00:20:59,360 --> 00:21:06,960
+ Europeans enjoying access to US stocks, us making it very easy to use. And really with an experience
+
+180
+00:21:06,960 --> 00:21:15,600
+ that has no compromises. Then, then I think, you know, the US will, will follow along quite quickly.
+
+181
+00:21:15,600 --> 00:21:21,760
+ We've already had been having a lot of conversations on tokenization. And it's something that we believe
+
+182
+00:21:21,760 --> 00:21:27,440
+ the SEC has the mandate and the power to do without additional legislation by Congress.
+
+183
+00:21:27,440 --> 00:21:33,280
+ And there is a crypto task force at the SEC. They had a tokenization roundtable,
+
+184
+00:21:33,280 --> 00:21:39,200
+ Johan, our crypto GM was actually a participant in that. So I think they're excited about tokenization.
+
+185
+00:21:39,200 --> 00:21:43,920
+ They'd like to make it happen. The problem, of course, is, you know, US is a mature market.
+
+186
+00:21:43,920 --> 00:21:50,080
+ And we have infrastructure that's already there. So you have two problems with that.
+
+187
+00:21:50,640 --> 00:21:59,760
+ One is, you know, the incentive to upgrade is perhaps less big than in a market that has
+
+188
+00:21:59,760 --> 00:22:07,120
+ nothing. It's sort of like how China went from no trains to high speed rail. They, they sort of
+
+189
+00:22:07,120 --> 00:22:14,960
+ went to the technology frontier or how, you know, in the US, we, we went gradually to mobile and
+
+190
+00:22:14,960 --> 00:22:19,360
+ broadband. But in some of these developing countries, they're just putting up the fastest,
+
+191
+00:22:19,360 --> 00:22:24,480
+ most capable broadband and mobile towers possible because they can just get the new thing.
+
+192
+00:22:24,480 --> 00:22:32,560
+ And in the US, we've got medium speed rail. And maybe it's not as good as high speed rail,
+
+193
+00:22:32,560 --> 00:22:39,120
+ but the delta in cost to upgrade it is probably not worth the incremental benefit. So I think you
+
+194
+00:22:39,120 --> 00:22:45,520
+ have that to some degree with the traditional financial system. You also have a lot of stakeholders
+
+195
+00:22:45,520 --> 00:22:50,880
+ that have to be satisfied. And, you know, these stakeholders are worried. If stocks go on block
+
+196
+00:22:50,880 --> 00:22:56,880
+ chains, what's going to happen to my business? I have a pretty big business here. I employ thousands
+
+197
+00:22:56,880 --> 00:23:03,600
+ of people that rely on it being done this this other way. So I think you're seeing some of that
+
+198
+00:23:03,600 --> 00:23:09,360
+ with stablecoin as well. You know, there's the banks are a little bit nervous about it, as you can
+
+199
+00:23:09,360 --> 00:23:17,760
+ imagine. And I think that's the trap of being at the frontier for some period of time. You know,
+
+200
+00:23:17,760 --> 00:23:24,000
+ there's, there's entrenched interests. It's difficult to navigate. And that, that keeps you from,
+
+201
+00:23:24,000 --> 00:23:30,000
+ if you're not careful, that can keep you from innovating. But you're, you're not worried about,
+
+202
+00:23:30,000 --> 00:23:35,680
+ about those same issues, because you also have, you know, all your infrastructure in the US is
+
+203
+00:23:35,680 --> 00:23:40,960
+ geared for traditional stocks. But you're okay with making that move. Yeah, we're okay with that,
+
+204
+00:23:40,960 --> 00:23:50,480
+ because I think that if there's better infrastructure, then I think people will have to embrace it.
+
+205
+00:23:50,480 --> 00:23:58,000
+ I'm very interested in being at the, at the frontier technologically. I mean, we were the first that
+
+206
+00:23:58,000 --> 00:24:04,480
+ really popularized investing on a mobile device. And that to some degree was another example of
+
+207
+00:24:04,480 --> 00:24:10,960
+ this, right? There were entrenched companies that relied, that had built out web interfaces. So you
+
+208
+00:24:10,960 --> 00:24:19,520
+ can trade tethered to your desk. And they didn't really want to, they didn't really want a world
+
+209
+00:24:19,520 --> 00:24:23,760
+ where people were trading on their phones to exist, threaten the status quo. And that was an
+
+210
+00:24:23,760 --> 00:24:31,520
+ opportunity for us to come in. So besides just the building an exciting future, I think there's a
+
+211
+00:24:31,520 --> 00:24:38,880
+ real risk to getting stuck with what's working now. Because if we don't, if we don't embrace it,
+
+212
+00:24:38,880 --> 00:24:44,080
+ someone else is going to figure it out, right? And we don't want them to eat our lunch. We'd
+
+213
+00:24:44,080 --> 00:24:50,240
+ like to eat our own lunch. Totally. Okay. So that, that took a good segue to what I wanted to ask
+
+214
+00:24:50,240 --> 00:24:56,880
+ next, which is you're speaking of like being first to these innovations. You are the first major
+
+215
+00:24:56,880 --> 00:25:03,520
+ fintech to announce that you're building your own public blockchain. I'd like to understand how
+
+216
+00:25:03,520 --> 00:25:12,560
+ this kind of, all these crypto announcements fit into the longer term bigger vision for Robinhood.
+
+217
+00:25:12,560 --> 00:25:18,880
+ Yeah. Yeah, that's a great question. So we had an investor day in New York actually last December,
+
+218
+00:25:18,880 --> 00:25:26,560
+ where I talked through the three arcs behind Robinhood. And you can imagine these arcs as being active
+
+219
+00:25:26,560 --> 00:25:31,680
+ for a period of time and kind of building up off of each other. So we have our one year arc,
+
+220
+00:25:31,680 --> 00:25:37,200
+ which is being number one in the active trader market. You know, active trainings are bread and
+
+221
+00:25:37,200 --> 00:25:42,960
+ butter. We innovated a lot there. We have some of the lowest pricing in the industry across all
+
+222
+00:25:42,960 --> 00:25:48,880
+ traded assets. So we should be number one in market share across all assets that we trade,
+
+223
+00:25:48,880 --> 00:25:56,560
+ including crypto, equities and options in the US futures as well. So, and I think we're doing
+
+224
+00:25:56,560 --> 00:26:03,600
+ very well there, but not everyone actively trades. And so the ultimate size of that market is
+
+225
+00:26:03,600 --> 00:26:10,240
+ relatively small. You know, it's probably tens of billions in annual revenue, maybe hundreds of
+
+226
+00:26:10,240 --> 00:26:16,720
+ billions, but still much smaller than the other longer term arcs. Then we have our, our, our sort
+
+227
+00:26:16,720 --> 00:26:22,640
+ of medium term arc. I call it our five year arc, although these numbers are approximate. And that
+
+228
+00:26:22,640 --> 00:26:28,560
+ is being number one in wallet share for the next generation. So we want to go beyond trading to
+
+229
+00:26:28,560 --> 00:26:33,920
+ being the place where you keep all of your money, your assets, and the platform that you process all
+
+230
+00:26:33,920 --> 00:26:39,840
+ of your financial transactions through. That's where credit card business comes in, retirement,
+
+231
+00:26:39,840 --> 00:26:47,600
+ advisory in the US, a recent acquisition of trade PMR, which is a human advisor platform. So it's,
+
+232
+00:26:47,600 --> 00:26:53,040
+ it's really, how can I put my paycheck into Robinhood? How can I have my savings there,
+
+233
+00:26:53,040 --> 00:26:59,680
+ my banking, do all my spending, and then have all of my investing ranging from, you know, buying
+
+234
+00:26:59,680 --> 00:27:05,840
+ some stock all the way through to family office style private wealth management. That's the goal.
+
+235
+00:27:06,800 --> 00:27:10,880
+ And so you should never actually have to take money out of Robinhood to just be a place where you
+
+236
+00:27:10,880 --> 00:27:16,640
+ custody your assets, you put money in and we help you with everything else. And now building off
+
+237
+00:27:16,640 --> 00:27:21,920
+ these first two arcs, we have our long term arc, which I call number one global financial ecosystem.
+
+238
+00:27:21,920 --> 00:27:28,560
+ And that's taking what we're doing for the US and for retail and expanding it across
+
+239
+00:27:29,360 --> 00:27:38,320
+ two linearly independent vectors. It's a math term. One is from US only to fully global. And the other
+
+240
+00:27:38,320 --> 00:27:47,040
+ is from retail only to business and institutional. And so to answer your question, that third arc,
+
+241
+00:27:47,040 --> 00:27:54,240
+ that long term arc, we actually expect that to be the majority of the business in a period of
+
+242
+00:27:54,240 --> 00:27:59,840
+ roughly 10 years. We think that's how long it's going to take for international or at least
+
+243
+00:27:59,840 --> 00:28:06,560
+ x US to comprise half of our half of our revenue. And also how long it'll take for business and
+
+244
+00:28:06,560 --> 00:28:13,360
+ institutional to surpass retail consumer. And I think the chain plays into both of those. You
+
+245
+00:28:13,360 --> 00:28:19,520
+ know, blockchain technology is global by default. So that's a path to expanding internationally.
+
+246
+00:28:20,320 --> 00:28:26,560
+ It's also a path to onboarding developers, you know, many of whom were in the audience there.
+
+247
+00:28:26,560 --> 00:28:34,160
+ And institutions. I think that as the institutions see the power of this technology,
+
+248
+00:28:34,160 --> 00:28:39,120
+ they're already very interested. We'll make it easy to integrate and we can get all of them to
+
+249
+00:28:39,120 --> 00:28:46,960
+ be using these real world assets on chain. Okay, so you're thinking of the Robinhood chain
+
+250
+00:28:47,520 --> 00:28:55,440
+ as an enabler for kind of your three art vision. Yeah, I think that it could be an
+
+251
+00:28:55,440 --> 00:29:02,320
+ accelerant to both global expansion and also institutional and developer adoption.
+
+252
+00:29:02,320 --> 00:29:13,360
+ Over time, how much of like Robinhood volume or, you know, whatever kind of metric is most relevant,
+
+253
+00:29:13,360 --> 00:29:20,960
+ do you think will happen on your chain? I think over time, traditional financial services and
+
+254
+00:29:20,960 --> 00:29:28,240
+ crypto will fully merge. So I think there won't be a distinction. Now this may take a little bit
+
+255
+00:29:28,240 --> 00:29:33,120
+ of time, but I don't think there will be a distinction between traditional volume and
+
+256
+00:29:33,120 --> 00:29:40,080
+ our crypto volume. I think more and more will be on chain. And, you know, maybe at some point,
+
+257
+00:29:40,800 --> 00:29:48,240
+ the entire US equities system will go on chain. It will be powered by technology. I don't know
+
+258
+00:29:48,240 --> 00:29:56,000
+ if it'll all necessarily be on our chain or if it'll be some consortium or maybe it will be our
+
+259
+00:29:56,000 --> 00:30:01,280
+ chain, but you know, it gets decentralized to a degree where everyone runs their own sequencers.
+
+260
+00:30:01,280 --> 00:30:08,560
+ But I think the end state of this is that public blockchain technology powers
+
+261
+00:30:10,080 --> 00:30:16,240
+ a significant portion of the critical financial infrastructure in the US in the same way that
+
+262
+00:30:16,240 --> 00:30:24,640
+ it used to all run on mainframe, right? And mainframe then got replaced by on-premise data centers.
+
+263
+00:30:24,640 --> 00:30:28,640
+ And now they're trying to figure out how to go on cloud. The cloud transition hasn't
+
+264
+00:30:28,640 --> 00:30:34,880
+ fully finished yet, but blockchain sort of the next in line after that. It's more and more of
+
+265
+00:30:34,880 --> 00:30:43,920
+ the business logic now is being handled by public infrastructure. So, okay, so you kind of answered
+
+266
+00:30:43,920 --> 00:30:49,520
+ another question I had for you that, you know, I think there's a question among
+
+267
+00:30:49,520 --> 00:30:57,760
+ traditional finance and even people in FinTech about whether crypto will,
+
+268
+00:30:58,640 --> 00:31:07,440
+ like how big crypto will actually be? Will it remain a niche asset class within finance
+
+269
+00:31:07,440 --> 00:31:15,760
+ or will it actually become the backbone for financial activity and the settlement layer
+
+270
+00:31:15,760 --> 00:31:22,720
+ for all assets in the future? Because as you mentioned, you already have trillions of dollars
+
+271
+00:31:22,720 --> 00:31:28,000
+ in this old system that would have to migrate onto this new system. So, it's like a huge
+
+272
+00:31:28,000 --> 00:31:33,920
+ undertaking. How do you see that transition happening? Like, do you think eventually like
+
+273
+00:31:33,920 --> 00:31:40,080
+ all new assets will be issued on chain, but will still have this kind of old financial system running?
+
+274
+00:31:40,080 --> 00:31:47,440
+ Or do you see like actually migrating to blockchain? Yeah, I mean, if you think about
+
+275
+00:31:47,440 --> 00:31:54,480
+ what happens right now with a company being formed in the US, for instance,
+
+276
+00:31:55,040 --> 00:32:02,800
+ you know, a company has a seed stage financing and there's formation documents and financing
+
+277
+00:32:02,800 --> 00:32:11,360
+ documents which are being passed back and forth by lawyers essentially. And then you have your cap
+
+278
+00:32:11,360 --> 00:32:17,360
+ table, which is usually managed by, you know, some software, CARTA, I think, is the dominant
+
+279
+00:32:17,360 --> 00:32:24,000
+ player there. And then when you go public, there's a migration process, right? It goes from CARTA
+
+280
+00:32:24,000 --> 00:32:31,440
+ to whoever accussities your stock and manages the employee stock purchase plans and the stock
+
+281
+00:32:31,440 --> 00:32:37,760
+ rewards for public companies. So it's already a little bit of a mess and there's migrations
+
+282
+00:32:37,760 --> 00:32:45,920
+ involved throughout. I think the first instance of this will be blockchain coming in there as
+
+283
+00:32:45,920 --> 00:32:52,320
+ sort of an adjunct and much of these pieces being the same. Although you see them kind of
+
+284
+00:32:52,320 --> 00:32:57,920
+ being optimized independently by different forces, you've got AI in there, you've got, you know,
+
+285
+00:32:57,920 --> 00:33:04,720
+ standardized documents and legal processes. There's a lot of folks in CARTA themselves as well
+
+286
+00:33:04,720 --> 00:33:12,880
+ innovating on the on the cap table side. So I think there will be reconfigurations and transitions
+
+287
+00:33:12,880 --> 00:33:22,000
+ across the board issuing natively on the blockchain. I think is just another form of this process,
+
+288
+00:33:22,000 --> 00:33:27,520
+ like you're still dealing with lawyers. There's still paper documents. I don't know if anyone
+
+289
+00:33:27,520 --> 00:33:34,480
+ is actually just writing code and distributing tokens at any significant scale without some of
+
+290
+00:33:34,480 --> 00:33:42,080
+ these other components. So I don't actually anticipate that will change unless other forces sort of
+
+291
+00:33:43,200 --> 00:33:52,880
+ streamline that over time. So yeah, gradually it should just be an unorganic kind of natural process
+
+292
+00:33:52,880 --> 00:34:03,200
+ for for blockchain to just be, you know, a part of the progression of being in capital markets.
+
+293
+00:34:03,200 --> 00:34:09,520
+ Yeah, I mean, if you think about what a physical, traditional share is, there's not like a thing
+
+294
+00:34:09,520 --> 00:34:14,640
+ that you can hold, you know, we're kind of past the days where there are stock certificates and
+
+295
+00:34:14,640 --> 00:34:24,080
+ that was a share. Even that was a representation of a legal contract that, you know, is somewhere
+
+296
+00:34:24,080 --> 00:34:29,680
+ in in the ether, right? So the token's just the evolution of that.
+
+297
+00:34:29,680 --> 00:34:36,800
+ The PR Genius is a top crypto PR and growth marketing agency, helping brands globally with
+
+298
+00:34:36,800 --> 00:34:43,280
+ expert PR and strategic growth marketing. They've worked with 300 plus projects like movement labs
+
+299
+00:34:43,280 --> 00:34:51,200
+ and IO.net. Unlike traditional agencies, they charge only on performance. Their services include
+
+300
+00:34:51,200 --> 00:34:57,760
+ earned PR opportunities and marketing services to help boost wallet holders and organic ex followers.
+
+301
+00:34:57,760 --> 00:35:06,400
+ Learn more at www.prgenius.com. So I think among kind of the like fintech ecosystem,
+
+302
+00:35:06,400 --> 00:35:14,240
+ probably the only company that is similar to your vision is Coinbase.
+
+303
+00:35:14,240 --> 00:35:21,280
+ Do you view them as a competitor and how do you think both company visions differ?
+
+304
+00:35:21,280 --> 00:35:29,520
+ Yeah, I mean, I think in some sense, all companies in our space collaborate in some ways and compete
+
+305
+00:35:29,520 --> 00:35:35,920
+ in others. I mean, you look at the big banks, for example, all the big banks are trying to serve
+
+306
+00:35:35,920 --> 00:35:40,720
+ all their customers' financial needs, not just checking and savings accounts, but also credit
+
+307
+00:35:40,720 --> 00:35:47,920
+ cards, investing products. But, you know, Robinhood has bank accounts. We're partnering with many of
+
+308
+00:35:47,920 --> 00:35:56,720
+ them. So I think the actual answer is somewhat complicated. Like we compete for market share
+
+309
+00:35:56,720 --> 00:36:04,960
+ in some ways, but we also have opportunities to partner. And at this point, we're both still
+
+310
+00:36:04,960 --> 00:36:10,480
+ a fraction of the total assets that are out there. You know, we've got hundreds of billions of assets.
+
+311
+00:36:10,480 --> 00:36:18,000
+ I think they have a similar scale, but you look at how many assets are just going to be transferred
+
+312
+00:36:18,000 --> 00:36:25,280
+ from baby boomers and silent generation down to Gen X and millennials over the next few decades.
+
+313
+00:36:25,280 --> 00:36:31,680
+ The number is something like 124 trillion. So yeah, I think the real opportunity is making
+
+314
+00:36:31,680 --> 00:36:39,520
+ sure that Robinhood has a good chunk of those. So we're capable of serving that. And we continue
+
+315
+00:36:39,520 --> 00:36:45,440
+ to build great products and roll them out to customers, deliver them over time. I really try
+
+316
+00:36:45,440 --> 00:36:52,080
+ not to spend too much time thinking about what competitors are doing. I think it tends to
+
+317
+00:36:52,080 --> 00:36:58,720
+ take you away from the customer and get you into this like competitive benchmarking
+
+318
+00:36:58,720 --> 00:37:02,880
+ mode of running your business, where you're just kind of looking at what everyone else is doing,
+
+319
+00:37:02,880 --> 00:37:08,960
+ trying to see what to copy. And you're not really thinking critically from first principles.
+
+320
+00:37:08,960 --> 00:37:16,240
+ In DeFi, we love to talk about the DeFi mullet. Have you heard of that term?
+
+321
+00:37:16,240 --> 00:37:19,360
+ You mean like this one? Yes, your gentleman's mullet.
+
+322
+00:37:19,360 --> 00:37:27,920
+ So I think Robinhood can be kind of the perfect embodiment of that. It's like the idea that
+
+323
+00:37:27,920 --> 00:37:38,880
+ DeFi is consumed with kind of a slick familiar front end with like a mainstream app like Robinhood,
+
+324
+00:37:38,880 --> 00:37:47,920
+ but on the back end, it's all DeFi. And you're able to offer not just token swaps and trading,
+
+325
+00:37:47,920 --> 00:37:54,080
+ but more sophisticated DeFi operations like landing and borrowing. Is that something that you
+
+326
+00:37:54,080 --> 00:38:01,040
+ envisioned? That's appealing to me. So I particularly am a fan of mullets, as you can imagine.
+
+327
+00:38:01,040 --> 00:38:07,440
+ The problem is most people are not. I think if you went to a person on the street and you're like,
+
+328
+00:38:07,440 --> 00:38:14,640
+ what do you think of your financial app being in the form of a mullet? I don't think they'd be
+
+329
+00:38:14,640 --> 00:38:19,440
+ very, very happy. Maybe you'll need a different marketing term. Yeah, I think we have to move
+
+330
+00:38:19,440 --> 00:38:25,120
+ away from this whole mullet thing. So it might be hindering mass adoption. Okay.
+
+331
+00:38:25,120 --> 00:38:34,640
+ Okay, but about the actual, the only hairstyle. What do you think about offering DeFi products?
+
+332
+00:38:34,640 --> 00:38:42,320
+ I'm pro. Yeah, I'm happy to offer DeFi products. I mean, we have our wallet. I think the real
+
+333
+00:38:42,320 --> 00:38:50,720
+ question is, can you make it easy to use in lower friction than the alternatives? And I think we're
+
+334
+00:38:50,720 --> 00:38:57,360
+ about to find out that it is possible to do so. The friction for traditional financial services is
+
+335
+00:38:57,360 --> 00:39:05,360
+ actually quite high in a lot of cases. And DeFi streamlines that. It introduces a new layer friction
+
+336
+00:39:05,360 --> 00:39:13,200
+ that is not there in traditional finance, which is sort of like key management and cross asset
+
+337
+00:39:13,200 --> 00:39:21,200
+ bridging and sort of like the whole gas token thing, which I think there's good solutions to
+
+338
+00:39:21,200 --> 00:39:30,640
+ remove. So I view it as it's just that the technology and the user experience has not been figured out
+
+339
+00:39:30,640 --> 00:39:36,080
+ yet. But that's one thing we really care about. Actually, can we streamline it? Can we do a lot
+
+340
+00:39:36,080 --> 00:39:42,960
+ of work on the user experience to make it understandable? And sometimes that's sort of like
+
+341
+00:39:42,960 --> 00:39:48,880
+ dismissed as front end innovation, like, Oh, that that's very easy. You know, that's it's not real
+
+342
+00:39:48,880 --> 00:39:55,440
+ technology. But yeah, it can be quite complex. And we spend a lot of time working on these things
+
+343
+00:39:55,440 --> 00:40:00,880
+ and trying to improve them. No, definitely key. I mean, from using DeFi, I can definitely tell
+
+344
+00:40:00,880 --> 00:40:06,800
+ you front end innovation is where it's at. Yeah, I mean, when we introduced our wallet, a Robinhood
+
+345
+00:40:06,800 --> 00:40:12,560
+ wallet, one of the big things was gasless swapping. So I think the problem was the gasless swapping
+
+346
+00:40:12,560 --> 00:40:17,920
+ was on polygon. And you know, people wanted to see it across everywhere. So we've expanded it
+
+347
+00:40:17,920 --> 00:40:26,240
+ over time. But yeah, that that was at the time the very bleeding edge. You know, nobody had spent
+
+348
+00:40:26,240 --> 00:40:31,920
+ much time trying to figure out how to get gasless swapping to work. And we were able to work with
+
+349
+00:40:31,920 --> 00:40:37,040
+ some some of our counter parties to make that happen. So it'll be it'll be things like that. And
+
+350
+00:40:37,040 --> 00:40:41,680
+ you'd be surprised a lot of folks in crypto don't really talk to customers that much. They're just
+
+351
+00:40:41,680 --> 00:40:46,480
+ talking they're going to conferences and speaking to other developers. Yeah, no, I'm not surprised.
+
+352
+00:40:46,480 --> 00:40:51,760
+ And so they hadn't really heard that this was a problem. They're just like, why is my protocol?
+
+353
+00:40:51,760 --> 00:40:58,320
+ Why does my protocol stop growing when I stop giving rewards? Well, you know, if you if you
+
+354
+00:40:58,320 --> 00:41:04,160
+ stop giving rewards, you get the you the people that are really, really motivated, maybe a little
+
+355
+00:41:04,160 --> 00:41:08,960
+ bit less motivated. So you actually have to make the thing work pretty well. Exactly. Yeah, so I
+
+356
+00:41:08,960 --> 00:41:14,240
+ mean, if people are already going to be using your token, I stocks as collateral in Ave, for example,
+
+357
+00:41:15,200 --> 00:41:20,560
+ maybe it'll just at some point, it'll make sense for you to just offer people to do that through
+
+358
+00:41:20,560 --> 00:41:26,960
+ ramen hood directly. Yeah, absolutely. Yeah. And I think also there's benefits to I mean,
+
+359
+00:41:26,960 --> 00:41:32,240
+ some things that are very easy with DeFi swapping between different assets, you can go from, you know,
+
+360
+00:41:32,240 --> 00:41:40,560
+ wrapped Bitcoin to a stock token. And I think particularly in the EU, I know there's tax benefits
+
+361
+00:41:40,560 --> 00:41:46,080
+ to doing those things. So those are things that might be very difficult for us to do in the
+
+362
+00:41:46,080 --> 00:41:55,120
+ traditional sense, but become easier with with DeFi. To start wrapping up, I would love to just
+
+363
+00:41:55,120 --> 00:42:01,360
+ understand your motivation behind all these changes. What do you think is there was there
+
+364
+00:42:01,360 --> 00:42:08,080
+ something about your upbringing or your career? Or why do you think is it that has made you such a
+
+365
+00:42:08,080 --> 00:42:16,320
+ strong believer in crypto? I mean, I think that it's just there's two technological shifts that
+
+366
+00:42:16,320 --> 00:42:22,880
+ affect our industry. And you know, we're in the center of both of them crypto and AI. And
+
+367
+00:42:22,880 --> 00:42:30,000
+ you know, I grew up as a I wanted to be a scientist, I became interested in theoretical physics
+
+368
+00:42:30,000 --> 00:42:35,280
+ and mathematics. And really what motivated me is creating new things, new theories.
+
+369
+00:42:36,880 --> 00:42:44,000
+ I'm not as motivated by improving upon things incrementally, even though that's very, very
+
+370
+00:42:44,000 --> 00:42:52,000
+ valuable. So for me personally, I like new things and just like figuring things out. And I think
+
+371
+00:42:52,000 --> 00:42:58,880
+ in the realm of business, that's just working on the frontier technologies, crypto and AI.
+
+372
+00:43:01,360 --> 00:43:09,280
+ So just your drive to innovate is what's behind all of this move to crypto.
+
+373
+00:43:09,280 --> 00:43:16,720
+ I think so. Yeah. Yeah, I think the drive to innovate and to work on new things,
+
+374
+00:43:16,720 --> 00:43:25,280
+ new things that challenge the status quo and unlock possibilities that just didn't exist before.
+
+375
+00:43:25,280 --> 00:43:30,880
+ I think that's ultimately what drives progress. So if we can be a part of that,
+
+376
+00:43:31,440 --> 00:43:37,360
+ I think that not only helps us stay relevant as a company, but also just pushes the entire
+
+377
+00:43:37,360 --> 00:43:44,880
+ frontier forward. I think it's important to understand because, you know, like right now crypto is
+
+378
+00:43:44,880 --> 00:43:50,400
+ starting to be trendy again. And I think we'll get into a phase where we'll see lots of announcements
+
+379
+00:43:50,400 --> 00:43:57,600
+ from many different big companies who are, you know, like launching crypto experiments on products.
+
+380
+00:43:57,600 --> 00:44:05,120
+ But I think it's those products that come from companies where like leadership is actually
+
+381
+00:44:05,120 --> 00:44:12,960
+ emotionally kind of invested, actually believes in the technology or the ones that are going to
+
+382
+00:44:12,960 --> 00:44:19,200
+ succeed. So I think it's key that, you know, you actually believe in this technology. And
+
+383
+00:44:19,200 --> 00:44:26,240
+ I think that's a huge step to see rambi how it's kind of crypto initiatives actually take off and
+
+384
+00:44:26,240 --> 00:44:31,920
+ not remain kind of like science experiments within the company. Yeah, I think believing the
+
+385
+00:44:31,920 --> 00:44:39,440
+ technology in the technology is an interesting question because it has with it almost a
+
+386
+00:44:39,440 --> 00:44:45,840
+ religious element. Yeah, yeah, there's right. But yeah, I think I think my
+
+387
+00:44:45,840 --> 00:44:52,640
+ my belief in it is more on a practical level. Like if it can solve real customer problems
+
+388
+00:44:52,640 --> 00:44:57,200
+ and it can do it at a lower cost and with a nicer experience than the alternative,
+
+389
+00:44:57,200 --> 00:45:02,240
+ then I believe in the technology. But you know, if something else comes along that solves it 100
+
+390
+00:45:02,240 --> 00:45:10,400
+ times better. And, you know, with 100 times better user experience. And everyone coalesces on
+
+391
+00:45:10,400 --> 00:45:15,840
+ calling it something other than crypto, then I would believe in that as well. Because at the end
+
+392
+00:45:15,840 --> 00:45:23,680
+ of the day, the difference between things that don't work and things that work very, very well
+
+393
+00:45:23,680 --> 00:45:30,800
+ is not so much the belief in the technology. It's it's maybe a belief in yourself that you can
+
+394
+00:45:30,800 --> 00:45:38,080
+ iterate your way to something that works. But it's it's just the understanding that you have to have
+
+395
+00:45:38,080 --> 00:45:43,920
+ real customers paying real money in a way that sustains the the future development of the product.
+
+396
+00:45:45,040 --> 00:45:49,520
+ That's what it comes down to. So I think there's a lot of people that believe that haven't been
+
+397
+00:45:49,520 --> 00:45:56,240
+ able to figure that out. And also a lot of people that maybe just like have built great businesses
+
+398
+00:45:56,240 --> 00:46:04,000
+ that perhaps say they believe but and maybe over time they believe but at the first they they saw
+
+399
+00:46:04,000 --> 00:46:11,280
+ an amazing business opportunity. That I think that's a great place to to wrap up.
+
+400
+00:46:12,400 --> 00:46:19,360
+ It's, you know, not just about believing religiously but also just seeing obviously how practically
+
+401
+00:46:19,360 --> 00:46:26,960
+ the technology can help your users. And so, you know, we'll see how all all these crypto
+
+402
+00:46:26,960 --> 00:46:31,520
+ initiatives will start helping Robinhood users. So thank you so much for joining me.
+
+403
+00:46:31,520 --> 00:46:36,160
+ Thanks for your time. Yeah. Yeah. Thank you for joining us here in the French Riviera.
+
+404
+00:46:36,160 --> 00:46:44,160
+ Oh, my absolute pleasure.
+

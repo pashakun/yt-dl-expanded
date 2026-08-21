@@ -1,0 +1,697 @@
+TITLE: Digital Money and Stablecoin Adoption in Sub-Saharan Africa (Isha Varshney) [Castle Island Podcast]
+URL: 
+VIDEO_ID: OTB_-_Isha_Varshney_Celo_-_AUDIO_V1
+
+TRANSCRIPT:
+This is Wyatt, and on today's episode, I was joined by Isha Varshney, Head of Ecosystem
+at Sellout Foundation.
+We talked at length about digital money usage in Sub-Saharan Africa and global stablecoin
+adoption patterns.
+I hope you enjoy our conversation.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+liquidated.
+The federal government loans American International Group AIG $85 billion.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+with a new round of quantitative easing.
+You print a couple trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin.
+Bitcoin.
+Isha, thanks for joining us on the podcast.
+Excited to talk to you today.
+Thank you for having me.
+I'm really excited about our conversation today.
+I'm excited to be into a couple of really fun things that we've chatted about earlier.
+Me as well.
+If you don't mind, please give a bit of a personal background and talk about what you're
+doing these days.
+Happy to.
+My name is Isha Varshney.
+I head Ecosystem at Sallow Foundation.
+Sallow for people that are not aware is an EBM layer two blockchain and I've been head
+of Ecosystem here for two years and then I was hired to be head of DeFi.
+Prior to this, I have a really interesting background, very not crypto native.
+So did traditional finance before this.
+I'm an accountant by profession, did M&A at a KPMG for a few years, did an MBA.
+I did what everybody does typically after the MBA, went into traditional finance and
+private equity.
+But the interesting thing about all of this is that I'm actually born and raised in Kenya.
+After MBA, I went back home for a couple of holidays to see my parents and there was this
+massive fintech revolution happening on the continent, specifically in that region of
+the world.
+I had friends that had never been to Kenya, moving to Kenya to do all of these really
+cool interesting fintech jobs and I was like, oh shit, I think I'm missing out and I never
+done tech before.
+So I just rolled the dice, took a sabbatical for three months and I joined a regional bank
+that was setting up the digital banking unit and that was my first foray into tech.
+We set up the digital bank and the product is still a market leader in that region and
+then did a bunch of fintech consulting work.
+You name it from lending to wealth advisory to like payments and that helped me understand
+what building a product and building a team in the tech space looks like, post which
+I had my own startup obviously as you do when you work in tech, you have to do something
+of your own.
+So I have a wealth tech robot advisory startup that was successfully bought out in a few
+years.
+This was, think of it like the Acorn, those few that are familiar.
+It was very similar to the Acorn, focused in the Indian market and that did really well
+so did that.
+And then once I got bought out, it was also COVID, had just moved to America, wasn't allowed
+to work because of regulations around re-immigration here and so had this period of what am I doing?
+What is the next iteration of technology and then also what is the next iteration of finance?
+Because I went from traditional finance to fintech and then obviously DeFi was the next
+obvious move.
+And so I joined Solo as head of DeFi like I mentioned and at that point we just announced
+something called DeFi for the People.
+It was a hundred million dollar allocation to liquidity and grants and just encouraging
+the DeFi ecosystem in Solo.
+And then as luck would have it, FTX happened straight after I joined.
+And so that hundred million dollar evaporated very, very quickly.
+But I think in my mind, excellent timing because I learned how to build in the bear.
+I've been in the ecosystem during the bear.
+Oh, we're only going to do DeFi.
+Oh, what is actual utility?
+What is product market fit for Web3?
+And that's been a really interesting journey, especially at Solo because Solo was built
+for the real world.
+We're constantly thinking about not only the crypto native community per se, but we're
+thinking about how do we onboard users in emerging markets.
+So when our typical user is somebody sitting in Kenya, in Nigeria, and also given my background,
+it's really interesting to me because then we're thinking about, oh, what do these people
+need?
+How do we bring them on chain and bring them on chain in a way that we abstract the technology
+away?
+How do we make it easier for them to interact on chain without them knowing they're interacting
+on chain?
+And what is product market fit for this user base?
+And so we'll talk a little bit more around how the ecosystem is built around a couple
+of things that I'm really passionate about.
+But yeah, that's a little bit of my background and how I ended up at Solo.
+You have a very holistic financial markets background, which is helpful for this subject.
+What did you see in Kenya when you mentioned that financial revolution you talked about?
+And when was this also?
+So Kenya is a really interesting market.
+We're talking about 2016, 2017.
+M-Pesa is just starting up and it's just proliferating the market.
+And so you're thinking about in Nairobi, even today, I just carry my phone and I know that's
+happening more and more in the U.S. where you use Apple Pay everywhere.
+But in Nairobi, I've been doing this for years.
+You just take your phone and you have M-Pesa on your phone and then that's it.
+You don't carry your wallet and you can make every single payment through M-Pesa.
+And in that region on the M-Pesa app, you have robo-advisory on the M-Pesa app, you
+have insurance on the M-Pesa app.
+Your whole world.
+It's like a super app.
+It's become this super app system, but it just started with payments.
+And so all your payments happen through M-Pesa.
+Can you talk about what M-Pesa is for the audience?
+M-Pesa is mobile money.
+It's run by Safaricom.
+It was essentially started as mobile money.
+What they saw in Nairobi and in Kenya and a couple of different countries was getting
+access to fiat was difficult.
+So people started trading airtime, literally airtime, minutes on their phone.
+Mostly people in the US and the developed world have plans and you don't think about
+minutes on your phone or data minutes.
+But people started trading data minutes and they were like, oh, wow, this is interesting.
+We can make this into a currency.
+It's the literal utility token.
+Literally the utility token.
+So they made it into a currency and they got nominated into the dollar, into the Kenya
+Shillings or the dollar.
+It's literally mobile money.
+So I can send you mobile money as actual currency.
+It started with airtime.
+It went into digitization of their currency.
+So that's M-Pesa and it started with just the payment system.
+And then I think the beauty of this system was why it really shot up was you have this
+mobile money on your phone, but if you want cash for it, there's little vendors, little
+stalls everywhere that you can go and it's similar to the off-ramping problem that we
+have currently in Web3.
+You can go to these kiosks, they're called there.
+Then every little shop is a kiosk and you can go to the kiosk and say, hey, I have this
+much M-Pesa.
+Can you give me cash?
+There's usually a spread for it.
+And so most people don't want to off-ramp into actual cash, but you can do it if you
+want.
+And then even to on-ramp, you can go give them cash and then they can give you M-Pesa.
+And how much do you need cash given that M-Pesa is in the system?
+Today, zero.
+Every single person takes cash.
+When you think about micropayments in Kenya, at least the way I think about micropayments
+in Kenya, I'm not talking about the coffees and the food and stuff like that.
+I'm thinking about the guy that is taking money for parking.
+And so it's not ticketed like this as an actual person that's taking money for parking.
+It's 10 or 20 shillings.
+It's a very minimal amount.
+120 shillings is one dollar.
+So I'm talking about 10 or 20 shillings.
+It's nothing.
+It's fractions of the dollar.
+And then even that person will take M-Pesa.
+So every single person you interact with will take M-Pesa.
+The guy who's selling you tea and tea there is in a little stall on the road selling it
+on a little stool while sitting on another little stool.
+Even he'll take M-Pesa.
+So I don't remember the last time I saw the shilling as a note, but that's just me.
+And so it's ubiquitous in that region with that because you digitize this.
+You digitize money.
+With that came so many interesting use cases.
+With that, the fact that you could scan your phone records, scan your SMS, and every time
+you do an M-Pesa transaction, you get an SMS saying, oh, a hundred shilling deposited
+or 200 shilling taken out of your account.
+I could then, as a fintech, just ask you for the digital records of your messages and understand
+your entire financial history.
+I'm not asking a bank for your financial statement.
+I'm literally asking you for messages.
+And so it opens up so many different use cases.
+For instance, lending became really popular.
+Peer-to-peer lending?
+Fintech lending.
+For a retail user, money in that region is really, really expensive.
+I remember there was a period of time where I've seen with my own self, 20% per month
+is the rate of interest that you're paying and it accumulates.
+You can imagine what that number becomes.
+On an annualized basis, it's a ridiculous number if you're paying 20% interest per month.
+But this allowed other players to go in and say, oh, actually, we can lend money to you.
+The rates at which they were lending money wasn't competitive to what you get money at
+from a bank in the U.S., but to the public in general on the ground over there, they
+were like, oh, wow, this is so much cheaper.
+And that's why fintech lending became so big there because you could do M-Pesa transactions.
+Even e-commerce became a thing there because you digitize money and the minute you digitize
+money, and we are all talking about this in the crypto ecosystem, but the minute you digitize
+money, so much more is possible.
+And I'm talking like 2015, 10 years from today.
+So it was a really interesting period to see that transition.
+Another thing to maybe mention for your audience, and I'm sure they're not aware of this.
+In the U.S., you can go into any bank and say, I want a retail banking account.
+Most can kind of go in and say, hey, I want a retail banking account.
+In some parts of the world, especially Sub-Saharan Africa, retail banking is not a profitable
+business.
+So even to get a bank account is really, really difficult.
+So what do you love with when you're hoarding cash in your house and crime levels are so
+high?
+It's so revolutionary because you're like, oh, now I get access to banking without actually
+having to go to a bank.
+And it's funny when I was working at the bank, I was like, oh, wow, we're going to set up
+a retail banking unit.
+So now we providing access to retail banking to a large part of the population.
+And what we saw was your salary would sweep into your account and there was an instant
+sweep out.
+Literally instant where they sweep the entire monthly salary out into the M-Pesa wallet.
+So even when you gave them a bank account, because it had been so many years without
+banking, they were like, okay, we prefer the M-Pesa system.
+So that's an interesting part of the world.
+So I'm going to play this skeptic for a second, which is if M-Pesa works, why does currency
+need to be on chain?
+Because M-Pesa is not on chain.
+M-Pesa works, yes, but it works only in Kenya.
+And people are trying to replicate the M-Pesa use case across even African countries and
+it hasn't picked up for many different reasons.
+M-Pesa works because you have this massive kiosk system that are on and off-run providers.
+That system isn't there anywhere else in the world.
+It's like Binance P2P.
+Exactly like Binance.
+Why is Binance so prolific in one specific region and not the others?
+It's because of the P2P.
+You have to know that you have access to your money and at a given point in time, and that's
+why M-Pesa works.
+Why are we digitizing?
+So even with M-Pesa, and we're seeing a lot of stable coin usage in Kenya, and we can
+talk about that a little bit more, but we're seeing a lot of stable coin usage in Kenya
+is because the M-Pesa is pegged to the shilling and the shilling as a currency against the
+dollar is not necessarily the strongest currency.
+And that's why you need to digitize and getting access to dollars is more important in a lot
+of the world than most of us understand.
+So given that M-Pesa has worked because of those vendors who will offer redemption, do
+you think that is the unlock to mobile money systems, whether on-chain or otherwise in
+other markets?
+Or do you think there will be institutionalized on-ramping, off-ramping, which will happen
+first?
+That's a really good question.
+It depends on which markets.
+You think it'll be different in each one?
+I think it'll depend on every market.
+Also, I think we were talking about 2015.
+Technologies move so much.
+I want to say 70% of my personal financial transactions happen online now as opposed
+to actually physical interactions.
+So if you don't have off-ramping in the physical world, not so critical now.
+But again, depends on which country and which region.
+I'm sure some of the emerging markets having vendors and offering providers on the ground,
+little kiosks everywhere, will be critical for mass adoption.
+But that's just my take.
+Who knows?
+Yeah, it's interesting because it's always hard to imagine here in the U.S.
+And I guess the reason for that is because each leg of our transaction is handled.
+We have Venmo for peer-to-peer and we have payment at a storefront.
+But getting cash is still arguably a bit more of a pain than it should be in my life, for
+example.
+I don't know if you've the same experience.
+I don't remember the last time I used cash to be honest.
+But again, I mean, you're removing cash from your financial transactions completely in
+the U.S. and in some of the more developed world.
+But cash is king in a lot of countries even now.
+And so in those countries where cash is king and where you're actually doing a lot of daily
+transactions in cash, you still need off-ramp providers that will go from any Web3 currency
+or even stablecoin to cash so that at least having that as an option is important to onboard
+users.
+And then eventually when all your transactions and all your financial transactions go online
+or on-chain, then it won't matter.
+I've also learned that consumer behavior changes very quickly if it's convenient and inexpensive.
+If it reduces cost, time, effort, consumer behavior is easier to change than you would
+think.
+Definitely.
+Especially if there's not a great alternative.
+So given that experience set, did Celo find you or did you find Celo or how did that come
+about?
+I tell people this job was made for me.
+So I was exploring Web3 and I did this fellowship program that Gitcoin used to run called Kernel
+and one of the co-founders of Celo came to give an intro to Celo, just what he thought
+about Web3.
+He wasn't even talking about Celo, he was talking about Web3 and the Mycelium network
+and things like that.
+And if you've ever heard Sebs, he's one of the co-founders of Celo.
+If you've ever heard any of his talks, you will have heard Mycelium and how everything
+is interconnected and how financial systems are all interconnected and how we need to
+generate this whole new world where we think differently from the existing structures.
+And so he came on and I was like, well, that's a really good way to think about financial
+systems and how we can reimagine financial systems.
+And the Celo team was also doing this Kernel cohort.
+And so I reached out to them once he came on and I was like, oh, I'd love to learn more.
+And they were like, oh, cool.
+Let's reach out.
+And they were like, oh, you have a bunch of developing country experience and we're looking
+for someone.
+Would you consider interviewing?
+And the rest, as I say, is history.
+It's a great fit.
+I know the regions that we target really well and work in those regions.
+So it's like a really great fit.
+Mycelium exposure is the extent of a Netflix documentary called Fantastic Fungi, but I'll
+have to get up to speed on the financial network side of it.
+He describes it similar to how financial networks could be like the Fungi network, how it's
+all APEC connected.
+Did I buy that?
+It's an interesting conversation.
+So what was Celo's mission when you joined and how has it evolved or stayed the same?
+So we're very mission focused chain and our mission is prosperity for all.
+And I don't think we've changed the mission.
+So when you think about prosperity for all, everybody has a different take on this and
+you could have prosperity for all.
+So the way I kind of understand it is prosperity for all translates into financial inclusion
+just because I'm a finance background.
+To me, I take it in from a financial perspective, but prosperity for all from a different perspective
+is also very refi.
+And so the Celo mission is essentially built and designed for real world adoption of Web3
+that unlocks this mission of prosperity for all.
+And when you think about real world adoption, because the chain we thought about emerging
+markets as a really big part of the world, the chain is built in a way that is focused
+on inclusivity.
+So we're very mobile first.
+So all applications with Celo are mobile focused.
+We have things such as fee abstraction.
+So gas in the ecosystem can be paid in stablecoins because we understand.
+My first crypto transaction didn't go through and I was sweating because I was like, oh,
+why is this not going through?
+And then I realized, oh, I need another token for gas.
+But if you're in this ecosystem or when you're onboarding to this ecosystem, let's suppose
+you have only one wallet and there's stablecoin on that wallet, you shouldn't be able to do
+the transaction with just the stablecoin.
+And that's the thought behind Celo.
+OK, you can have one wallet, but just a USDT or a USDC.
+And then the transaction will go through because you can pay for gas.
+So fee extraction is a really big thing.
+There's ultra green money, which is inbuilt into the chain, which is essentially like
+portion allocation of the gas fee goes towards carbon offsetting.
+Like I mentioned, phone number mapping is really important because we think most of
+the world interacts with technology through their mobile phone as opposed to like a browser
+or laptop.
+The chain is built for, like I said, everyday use, everyday user, but also the technology
+is really frontier.
+We were the first POS chain and we're at this really cool intersection of frontier tech
+and real world use case.
+And I think that's where Celo will always remain.
+I'm curious how you guys look at the balance given you're in the stablecoin space at a
+global level between trying to provide better native systems for people globally versus
+some would say there's value to offering dollars to people globally as an alternative to their
+local financial systems.
+So how do you strike the balance and which if one of the two is more mission aligned
+with what you guys are doing?
+That's a really good question.
+I don't think we are picking a side because I don't think there's a side to be picked.
+You need dollars in the world and access to dollars is really important for users in
+specific countries.
+Nigeria, for instance, is a really good example for that, where your currency kind of
+fluctuates on a weekly basis.
+It's a 20, 30 percent fluctuation on a weekly basis.
+All of us talk about Bitcoin to be the store of value, but actually, for some people in
+the world, dollars are the store of value.
+So having nominated stablecoins is really important in an ecosystem.
+And so, like I mentioned, we have native USDC and USDT and CUSD as dollar denominated
+stablecoins that are all gas currencies in the ecosystem.
+But it's interesting when you provide access to dollars, then a lot of really interesting
+cool applications get built on top of it and then users then want to go, OK, so if
+dollars are store of value, but we actually need to do everyday transactions.
+And so you need their local currencies for everyday transactions.
+So currently in the ecosystem, we have, I think, 22 plus native stablecoins.
+And then I think that's between 12 to 14 different currencies.
+And so a user can store value in dollar, but then can move that to their local currency
+and then use it for everyday transactions.
+And then the other thing that I think most of us don't think about is if you just have
+dollars in any ecosystem, then how does lending happen?
+Because if you're in markets where your local currency evaluates on a regular basis,
+then not only are you paying interest on that loan, you're also paying currency
+fluctuation, which becomes really expensive sometimes to definitely local currencies
+for some of these interesting use cases like lending.
+Have you historically faced any pushback from nations or local regulators when
+you're potentially offering dollars to people globally?
+Not yet. We're also committed to working with jurisdictions in every region that we
+operate and we've prioritized for compliance and benefits of users.
+But to be honest, we are not a stablecoin issuer per se, we're just an ecosystem
+where stablecoins that are issued by other entities live within our ecosystem.
+Yeah, that makes sense.
+We're also really committed to making sure that we do our due diligence when
+anything launches in our ecosystem to make sure that they're talking to regulators
+or in specific conversations with them.
+Why do you think non-USD stablecoins haven't emerged at broader scale yet?
+Depends on what you think is broader scale.
+So firstly, there were not so many non-USD stablecoins a year ago.
+I think a lot more issuers are issuing non-USD stablecoins within the last six to
+12 months. I've seen a lot more non-USD stablecoins.
+I also think that what is the product market fit for non-USD stablecoins is
+lending and the FX markets.
+And for some of this to be true, it becomes a world in which you have to make sure
+that there's a lot of depth of liquidity for this to make sense at all.
+And you have to explain to the world what the use cases for this are.
+So when you think about FX, when I used to live in, for instance, Africa, when I
+was working in Africa, if you needed to go from the shilling to the Guinean CD,
+you had to go shilling dollar and then you would spread there and then dollars
+Guinean CD. But now there's on-chain stablecoins where you can go directly.
+Mento Protocol is in protocol in the ecosystem, which is doing a lot of FX.
+They were on the podcast last week.
+That's perfect. I love that team.
+They're a really great team.
+And I'm sure they talked about how you can go from one currency to the other
+without going through the dollar and things like that.
+I think are revolutionary.
+I just don't think the world's caught on yet.
+I think with some of this patience is important.
+We're a little bit ahead of what people are thinking about long term.
+And again, depth of liquidity is really important.
+So for this to be relevant and true, you would need institutional capital
+providers to come in and deepen liquidity.
+And I don't think that's happened yet.
+And I think they're coming slowly, slowly.
+They're looking at all of this slowly.
+Yeah, I agree. I think it'll be lucrative.
+It's so great. It's all on chain.
+Host of transacting is what?
+Nothing. Gas is nothing.
+And spreads are incredible.
+And it's also twenty four seven.
+The effects markets on chain are twenty four seven.
+Imagine trading that can happen.
+Do you guys have an interest in also pursuing non fiat
+nominated stable coins or stable coin flat coin like products
+that might be tied to real estate or equities or other asset classes like that?
+I think those are really interesting.
+I remember the promise of RWAs early days of all of this tokenization of their assets.
+Again, for some of this, I really believe truly that liquidity is a key driver.
+Am I going to tokenize a random mining asset and I'm expecting retail to buy it?
+No, not really.
+I think retail will buy a small slice in that whole bar.
+So with the institutional capital providers looking at Web 3, more scrutiny here in Web 3,
+more liquidity coming to Web 3, I think would make all of these things interesting.
+Like I said, on chain markets are twenty four seven,
+which is not the case in any other markets.
+So I think it'll be good to have tokenized versions of these assets.
+But who's buying these assets is really important to look at.
+From what we're seeing,
+it feels like the remittance apps will be an early catalyst
+and that all of a sudden you'll have real inflections in volume of different stable coins.
+And once you have that, that starts to tease in the liquidity providers
+because they're like, OK, it's going to be lucrative
+if I can take the other side of this very hefty trade.
+And then maybe they'll stick around and start to stand up other markets.
+Because the point you made, you can literally stand up FX markets,
+which will be high volume relative to an amount of liquidity provided
+and should be a high return.
+Absolutely. Just speaking of remittance,
+I want to say remittance is a use case.
+In my mind is the perfect product market fit for Web 3 where we are right now
+and stable coins for where we are right now.
+To give you an example, we talked about Africa Focus for so much,
+and we haven't talked about one of our main products, which is Opera Mini Pay.
+It's a collaboration with Opera, which is a browser product.
+We integrated a stable coin wallet into the browser
+and we've onboarded seven million plus users on that browser product.
+It's a stable coin only wallet.
+So you could only have USDC, USDT and CUSD on that wallet.
+Seven million plus people have onboarded to it.
+And then recently we went and like made it into a standalone apps.
+It's currently available for all of you on Android or iOS and you can download it.
+And in my mind, that will be the biggest catalyst for cross border remittance.
+I mean, to be honest, the other day I sent my mom just on Mother's Day.
+I couldn't find flowers online and it was really late at night.
+But I'd forgotten Mother's Day.
+I'm not a great daughter.
+Just sent her some money saying, hey, can you please buy yourself flowers today?
+It's super simple. It settled in one second.
+It was great. And I'm talking about a really trivial use case.
+But remittance just in and out of Africa is double digit a million on an annual basis.
+And so if you can capture even a slice of this market, that's big money.
+We've done cross border remittance of the traditional sons in and out of Africa.
+It takes seven days sometimes through the banking network.
+And the spreads are ridiculous.
+And if you're doing this on stable coins, you have no spreads.
+It's cents on the dollar for gas and then you're done.
+So I'm really excited about the MiniPay standalone app.
+I would imagine a lot of the remittance piece gets captured in there.
+I was going to touch on opera.
+So you brought it up in timely fashion with your business background.
+Do you think adoption will be more so through an opera or a finance
+or yellow card product that to some degree are accounts that are a little bit more free form
+where they give you access and it's a little bit of do what you like with it
+or more of a transfer wise Felix type experience where it's a purpose
+built remittance product that links with existing accounts.
+So it's funny. You've mentioned opera, finance and yellow card as competitors.
+But it's interesting that opera actually uses yellow card and finance for on and off.
+I meant a group, though.
+I shouldn't say I don't think they're competitors.
+I think they have parallels.
+They're all like bundled into one product for some of your audience
+that may not be familiar in some of the markets that we're talking about.
+When you show somebody a dollar,
+when you show them a dollar fiat currency, they don't know what that is.
+For them, dollar is USDT.
+Really, in Nigeria, there's some areas where they think of dollar as USDT.
+In these areas, do I think the transfer wise will come on top?
+Maybe not.
+Do I think products like opera will come on top?
+Absolutely. So it depends market to market.
+But I also think that this market is so big, there is space for everybody to play.
+It's also just a world in which a lot of this money movement.
+It's a bunch of trust.
+So opera specifically, I think they're well positioned
+because they have trust with the users from their browser product already.
+It's not a brand new branding going into the market and saying,
+hey, users for cross border remittance, people trust them.
+So I think we have a really good finding chance.
+But I also think that there's space for everybody to play.
+This is a big market.
+I think if transfer wise comes up tomorrow, and I don't know if they're already doing it,
+I'm sure they're looking at this already.
+But if transfer wise comes up tomorrow and says, hey, we'll do cross border remittance
+through stable coins, I think there's a world in which everybody plays in this market.
+Different markets, I think, will have different people,
+different products being taken up in Kenya, Nigeria and some of these markets.
+Are you seeing a lot of business USDT accounts?
+Yeah, it's not us.
+That's just so much already.
+Sub-Saharan Africa, I will club.
+Sub-Saharan Africa does so much cross border settlement with Asia and a lot.
+I want to say 70% of that settlement happens in USDT.
+If I don't have my facts right.
+And again, it's not official numbers that I'm getting.
+But just based on what I know, 70% of that settlement happens in USDT.
+So it's funny you say this.
+We had launched MiniPay as a retail product.
+And what we learned was some of these people that were settling B2B
+settlements used to come and park some of their USDT on MiniPay
+when it was just a product in the browser in Africa only,
+because the yield on USDT on MiniPay was really high.
+What was the yield?
+It was a ridiculous amount, just on board.
+And we were, again, for context, the average balance on MiniPay wallet
+in Africa is between $10 plus minus.
+So these balances aren't very high.
+So when you give them like a yield of hypothetically 25% per annum or more,
+that yield is not too much for the retail user.
+But when you look at it from a commercial perspective,
+if you're getting 25% on a dollar denominated stablecoin, that's a lot.
+Nobody's giving you 25% yield on the dollar.
+And so we saw a bunch of people park their money,
+like the B2B settlers and cross-border payments guys,
+some of their money into MiniPay accounts.
+And then we were like, oh, we're going to have cap
+upper limits to balances for this yield activity.
+But it was great to see people found it very organically.
+And are you seeing financial products come on chain
+in those local economies?
+Yeah. So I'll give you an example.
+We have a protocol in the ecosystem called Heraka that does.
+So, again, I'm a really big proponent of meet users where they're at
+and not give them like, hey, this is a solution we've come up with.
+You don't have to fit your behavior to this solution.
+And so in these regions, for instance,
+sacos or savings and lending groups are very popular.
+And they're called different things in India.
+They're called kitties.
+And in Kenya, they're called sacos.
+And these groups are very prevalent across emerging markets.
+And so we have a protocol in the ecosystem called Heraka,
+which does micro loans and then now starting savings.
+So essentially, it's just like a savings and lending group
+where you save and lend within a specific user group.
+So you, me and three of our friends form a group and we save
+and lend within each other.
+And that's how it's done.
+It's behavioral that's happened across generations in these regions.
+And so when you bring that behavior on chain, it becomes really easy.
+Then you can do settlement.
+You can do accounting. Everything is on chain.
+So Heraka, I think, is a really good example of that.
+We're seeing people do employee payments.
+There's a protocol called Franklin that is doing stablecoin payments for payroll.
+One of my favorite examples that just came online
+in the ecosystem is this protocol called Bando.
+And you can buy gift cards to places like Target, Chipotle,
+Starbucks in the US, but very specific to even the regions that we service.
+So in Kenya and South Africa, you can get a gift card to ShopRite,
+which is the target of that region.
+And they have similar things in South America.
+So really interesting products are coming on chain.
+Some of them financial, some of them non-financial.
+I'm going to give a shout out of one specific product
+that is non-financial that I'm very fond of in the ecosystem.
+It's a music streaming app called a Bando.
+So think of it like Spotify.
+The reason it's on MiniPay right now is because you can pay on a daily basis.
+You can take a daily subscription.
+And again, for you and me, this seems ridiculous.
+Like, why would I want a daily subscription to a music streaming app?
+But for some of the regions that we're talking about,
+the monthly music streaming subscription is really expensive.
+So there's some days you can afford it and some days you can't afford it.
+And so the fact that you can break it down to such minute levels
+and do it on chain with a little bit of a stable coin is really interesting.
+And in Bando, if you guys are listening, has excellent music.
+It's Afrobeat. I love it.
+It's what's playing in the background when I'm doing deep focused work.
+But really great.
+We're constantly thinking about on chain financial.
+But like when some of these use cases come online where you're like,
+hey, there's a music streaming app that I could pay with stable coins.
+That's cool.
+I want to ask you one more question as we close out here,
+which was given all this framing you've offered,
+I'm a major believer that where we'll see value in this on chain economy
+is in these real use cases, real assets.
+Do you think blockchain platforms, applications need to have native tokens
+or tokens for themselves?
+Do you think that we need to have these,
+I would call them internet money tokens that the industry has been known for
+for a long time?
+Or do you think eventually that fades into the background?
+Funny you call them internet money.
+My mom calls it magic bean money.
+So I don't know whether we should have them or not.
+I know that in my ecosystem, the seller token is there for decentralized
+governance, and I think that's really, really critical.
+I think one of the things that we're trying to do in some form or the other,
+and whether you explicitly say it or not, is rebuild
+how any organization works or how financial systems work.
+That's why we're all in Web3.
+We're trying to reimagine some of this.
+I think decentralized governance is one of those areas.
+But I'm really like, this is a really cool thing.
+I believe in collective intelligence.
+And so decentralized governance is a really good example of collective intelligence.
+So the seller token, honestly, one of the big primary reasons
+to have seller token is decentralized governance, where the ecosystem
+and everybody in the community decides what is the future for the chain.
+So, for instance, to give you a really good example,
+we went from a layer one blockchain to a layer two blockchain.
+We successfully migrated to a layer two blockchain.
+But every single decision for the infrastructure was done in public
+through decentralized governance.
+And so every stack put out massive forum proposals
+on the seller forum to say, hey, this is why you should pick us.
+So we had proposals from OBStack, from Arbitrum, from Polygon ZK,
+from Matterlabs and things like that.
+And there was such an incredible healthy discussion in the community around
+which stack we should pick.
+So it wasn't centralized decision.
+It wasn't seller foundation or C-Lab taking the decisions.
+It's the community came together.
+And I think some of the things that came up in some of those community decisions,
+I was like, oh, wow, we weren't even thinking about this.
+And so I think collective intelligence is really, really interesting.
+Also, what it did was we've heard from different sources.
+If you're picking a layer two stack, seller forum is like Wikipedia.
+People actually go into the best seller forum to look at, oh,
+when they're doing a stacking decision, they go into seller forum and look at,
+oh, these are the things that were discussed.
+This is what the answers were.
+So I think decentralized governance is a really good example
+of why you need native tokens or magic bean money.
+Do I think we need as many as we have right now?
+I think there will be a world of consolidation,
+but I don't know when that world will be. But it's interesting.
+We were talking about collective intelligence.
+I think one of the reasons we specifically have been successful
+as an ecosystem is because we have regional DAOs also.
+So we have a DAO in Africa.
+We have a Latam DAO.
+We have a Thailand DAO.
+We have a Philippines DAO.
+And because we think that every region should have a say
+in how we represent in that region.
+And these DAO communities have been incredible
+and also very active in our governance process.
+And so as we're thinking about how do we do a go-to-market strategy
+for that specific DAO, it's been really helpful to have the communities
+in there have a massive say in some of those decision-makings.
+I'm a big proponent, again, of decentralized governance.
+I know it has some flaws.
+We've all experienced some flaws at decentralized governance.
+But I think overall, if you're able to manage it,
+I think incredible concept and excited to see where it by balls
+in the next five years.
+I guess if you're going to have a digital financial system
+or monetary system, you should have some form of
+democratic monetary decision-making.
+A hundred percent. We're a hundred percent aligned on that.
+Well, Isha, thank you for coming on.
+Hope you come back to chat with us again soon.
+Thank you all for having me.
+This was a lovely conversation.
+I'm excited to see where this podcast grows and scales.
+Thank you. Appreciate it.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes,
+please go to onthebrink-podcast.com
+or just click on the tab in our website.
+Thanks for listening.

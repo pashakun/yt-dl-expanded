@@ -1,0 +1,1452 @@
+1
+00:00:00,000 --> 00:00:06,640
+This is Wyatt and on today's episode I was joined by TN co-founder Pendle. We discussed Pendle's
+
+2
+00:00:06,640 --> 00:00:11,600
+fixed yield offerings and the migration towards earning yield and stable coins over other assets.
+
+3
+00:00:12,160 --> 00:00:15,840
+I hope you enjoy our conversation. Matt Walsh and Nick Carter are partners
+
+4
+00:00:15,840 --> 00:00:19,120
+at Castle Island Ventures. All of these expressed by them or the guests on this podcast are solely
+
+5
+00:00:19,120 --> 00:00:22,400
+their opinions and do not reflect the opinions of Castle Island Ventures. Guests and hosts may
+
+6
+00:00:22,400 --> 00:00:25,440
+maintain positions in the assets discussed in this podcast. You should not treat any opinion
+
+7
+00:00:25,440 --> 00:00:29,280
+expressed by anyone on this podcast as a specific inducement to make a particular investment or
+
+8
+00:00:29,280 --> 00:00:32,480
+follow a particular strategy, but only as an expression of their personal opinion.
+
+9
+00:00:32,480 --> 00:00:37,520
+This podcast is for informational purposes only. Brought down by bad mortgage investments,
+
+10
+00:00:37,520 --> 00:00:41,760
+Lehman, which has 25,000 employees, will be liquidated. The federal government loans
+
+11
+00:00:41,760 --> 00:00:47,280
+American International Group AIG $85 billion. This is a different kind of market and the Fed
+
+12
+00:00:47,280 --> 00:00:52,080
+is asleep. The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two
+
+13
+00:00:52,080 --> 00:00:56,080
+mortgage giants that have been threatened by the housing crisis. The Bank of England has pumped
+
+14
+00:00:56,080 --> 00:01:00,320
+75 billion pounds more into Britain's ailing economy with a new round of quantitative easing.
+
+15
+00:01:00,320 --> 00:01:04,240
+You print a couple trillion dollars and all of a sudden people start to worry. So out of this
+
+16
+00:01:04,240 --> 00:01:10,640
+worry, we have something called the Bitcoin. Tien from Pendle. Thanks for joining us on the
+
+17
+00:01:10,640 --> 00:01:15,520
+podcast. Excited to have you. Would love to hear a little bit more about your background to kick
+
+18
+00:01:15,520 --> 00:01:22,960
+off maybe. Yeah, thanks for having me. I'm Tien, the CEO, co-founder of Pendle. Pendle is a protocol
+
+19
+00:01:22,960 --> 00:01:31,520
+for the trading and the tokenization of yield. So we started out in 2020 and eventually found
+
+20
+00:01:32,080 --> 00:01:39,440
+pretty healthy traction product market fit in late 2023, early 2024 with the whole points tokenization
+
+21
+00:01:39,440 --> 00:01:46,320
+mania. And then right now we're also very focused on stable coin. But before Pendle, I was part of
+
+22
+00:01:46,320 --> 00:01:54,400
+the founding team member of Kyber. So I've had the privilege of watching DeFi growth from probably
+
+23
+00:01:54,400 --> 00:02:02,000
+front row perspective and knew about Compound ETH land, which is now known as Aave from pretty long
+
+24
+00:02:02,000 --> 00:02:07,200
+ago. So it's been a while, but it's really good to stick around and see how the landscape has
+
+25
+00:02:07,200 --> 00:02:12,480
+evolved. And I'm just feeling very, very privileged to be part of the movement. Why did you start
+
+26
+00:02:12,480 --> 00:02:20,240
+Pendle? I was farming shitcoins with my co-founders. True story. DeFi summer. I think we had the first
+
+27
+00:02:20,240 --> 00:02:26,880
+taste of farming with YAM finance and we were putting in not a lot of money, but maybe two,
+
+28
+00:02:26,880 --> 00:02:32,960
+$300, something like that. Did you get into crypto for shitcoins and meme coins? So I was
+
+29
+00:02:32,960 --> 00:02:39,600
+experimenting with different parts of crypto. Between 2019 and 2020, I actually spent some time
+
+30
+00:02:39,600 --> 00:02:47,200
+helping out with Rockminer, which is one of the larger miners. And then also did DevOps. So operated
+
+31
+00:02:47,200 --> 00:02:53,600
+an entity that is Google partner. And then we built solutions for the likes of EOS and Tezos,
+
+32
+00:02:54,240 --> 00:03:01,360
+some of these first generation, second generation at once. Then eventually we saw what happened
+
+33
+00:03:01,360 --> 00:03:07,920
+with Compound firstly in 2020. And then Yern really popularized that whole yield farming notion.
+
+34
+00:03:07,920 --> 00:03:14,720
+And then I think what was more interesting was with YAM, they took in synthetics, land token,
+
+35
+00:03:14,720 --> 00:03:20,720
+comm token, link, and they had all these different tribes pitted them against each other. There's
+
+36
+00:03:20,720 --> 00:03:25,840
+link marines and synthetics. Yeah, a couple of others. And these assets suddenly became
+
+37
+00:03:25,840 --> 00:03:31,760
+more valuable because of that interest from community. So overnight, our few hundred dollars
+
+38
+00:03:31,760 --> 00:03:37,120
+ballooned to thousands of dollars, but unfortunately there was a bug in the governance system. So
+
+39
+00:03:37,120 --> 00:03:41,600
+suddenly the value collapsed, but it was my first introduction to yield farming.
+
+40
+00:03:41,600 --> 00:03:48,720
+And then from there on, we were pretty diligently looking out for yield sources. But as much as we
+
+41
+00:03:48,720 --> 00:03:55,520
+liked the 20, 30,000% APY, there just wasn't a way for us to lock in the rates because we knew that
+
+42
+00:03:55,520 --> 00:04:01,600
+these APYs we're not going to sustain. We've been hopping around and we're not the only ones doing
+
+43
+00:04:01,600 --> 00:04:08,000
+so. That 20,000% APY, even if we could lock in at a hundred percent, that would be pretty sweet,
+
+44
+00:04:08,000 --> 00:04:14,000
+but no instrument there. So that was, I think the first time we started to think about building a
+
+45
+00:04:14,000 --> 00:04:19,200
+product. I think just for a bit more context, my co-founders and I, we used to work together.
+
+46
+00:04:19,920 --> 00:04:25,360
+One of them was with me at Kyber and then the other ones, I am token and Digix. So we've always
+
+47
+00:04:25,440 --> 00:04:31,520
+wanted to build a product, but 2019, 2020, the market wasn't really exactly the best.
+
+48
+00:04:32,080 --> 00:04:38,560
+Opportunities were relatively limited. So that's why we were doing services because we needed to
+
+49
+00:04:38,560 --> 00:04:44,080
+find an income source. And without any track record, it was just very difficult to build product.
+
+50
+00:04:44,720 --> 00:04:50,560
+So when we saw an opportunity to build a fixed rate product by enabling yield bearing assets
+
+51
+00:04:50,560 --> 00:04:57,280
+to be stripped into PTYT and traded independently of each other, we thought that would be a
+
+52
+00:04:57,280 --> 00:05:03,840
+meaningful addition to the DeFi landscape. So that was our core motivation. And many would say
+
+53
+00:05:03,840 --> 00:05:09,760
+DeFi's killer use case in a way is this yield generation and a natural market discovery of
+
+54
+00:05:09,760 --> 00:05:13,920
+rates that people will lend and borrow in response to what you can then go speculate on
+
+55
+00:05:14,560 --> 00:05:19,840
+and how speculative people in that economy are feeling. But to your point, it's not the best
+
+56
+00:05:19,840 --> 00:05:24,800
+user experience when your rates could fluctuate by hundreds of percent on a day-to-day basis.
+
+57
+00:05:25,440 --> 00:05:30,560
+So to circle back, you guys, to my knowledge, created Pendle with that problem in mind
+
+58
+00:05:30,560 --> 00:05:35,120
+and the point you're making that you want to offer fixed rate, more stable lending and
+
+59
+00:05:35,120 --> 00:05:40,240
+better yield offerings in general. That is correct. We also had the benefit of,
+
+60
+00:05:40,240 --> 00:05:48,080
+we were mostly cross-referencing the state of DeFi to what a mature financial ecosystem should
+
+61
+00:05:48,080 --> 00:05:54,160
+look like. And we noticed that in any financial market, fixed income products are typically
+
+62
+00:05:54,160 --> 00:05:59,280
+one of the most important verticals. And if we believe that more money is going to flow into
+
+63
+00:05:59,280 --> 00:06:05,040
+crypto space, then that vertical has to exist. But at that point in time, some five years ago,
+
+64
+00:06:05,040 --> 00:06:10,240
+it was largely absent. So that gave us fair amount of confidence to want to work on this
+
+65
+00:06:10,240 --> 00:06:16,960
+particular opportunity. You mentioned PTYT, can you speak briefly to how Pendle works at a high level?
+
+66
+00:06:17,040 --> 00:06:23,280
+Sure. So Pendle works primarily with yield bearing assets. So I want to give a little
+
+67
+00:06:23,280 --> 00:06:28,400
+bit of context to why we decided to work with yield bearing asset. Because in 2020,
+
+68
+00:06:28,400 --> 00:06:34,160
+Compound and Aave, if I recall correctly, they were already sitting on maybe collectively
+
+69
+00:06:34,160 --> 00:06:40,080
+$20 billion in TBL. So what we didn't want to do was to compete for liquidity against this big boys.
+
+70
+00:06:40,640 --> 00:06:46,000
+And what we thought was the right thing to do was to build on top of Compound and Aave. So basically
+
+71
+00:06:46,000 --> 00:06:52,800
+the AUSDC from Aave or A tokens or C tokens from Compound. So that was the way we were thinking
+
+72
+00:06:52,800 --> 00:06:58,160
+about it. So taking these assets from Aave and Compound and then strip them into PT and YT.
+
+73
+00:06:58,720 --> 00:07:07,120
+With respect to A tokens, when you deposit a base asset like USDC into Aave, you get AUSDC in return.
+
+74
+00:07:07,120 --> 00:07:13,840
+And this AUSDC is a proof of your deposit firstly, and it also operates as a receipt token. So that
+
+75
+00:07:13,840 --> 00:07:19,440
+whatever interest that your position accrues will be streamed to your wallet. So what we do
+
+76
+00:07:19,440 --> 00:07:27,440
+is effectively strip out these two functionalities and represent them in PT and YT. So YT is where the
+
+77
+00:07:27,440 --> 00:07:33,920
+yield accrues to and then PT is where the original deposit gets represented. Now by making these two
+
+78
+00:07:33,920 --> 00:07:39,840
+parts independent of each other, then we can enable them to be traded independently as well.
+
+79
+00:07:39,920 --> 00:07:46,400
+So with Pendle, there's a very, very important relationship between PT and YT. In every asset
+
+80
+00:07:46,400 --> 00:07:53,600
+that Pendle strips, PT plus YT has to equal to the value of one underlying. So PT and YT are
+
+81
+00:07:53,600 --> 00:08:00,240
+naturally inversely related to each other. That means if PT increases in price, then YT has to
+
+82
+00:08:00,240 --> 00:08:05,600
+come down in value. So when you add these two components together, they should always equal
+
+83
+00:08:05,600 --> 00:08:11,440
+to the value of one underlying. This is really one of the most important fundamentals of Pendle.
+
+84
+00:08:11,440 --> 00:08:18,560
+And with that understanding, you can figure out the pricing for these two components independently.
+
+85
+00:08:18,560 --> 00:08:23,760
+And how do those adjust in price? What causes them to move? How does that happen over time?
+
+86
+00:08:24,400 --> 00:08:31,920
+Yeah, so YT actually gravitates towards zero as time passes. And PT, on the other hand,
+
+87
+00:08:31,920 --> 00:08:39,280
+will increase in value to par. So at maturity, one PT is redeemable for one underlying,
+
+88
+00:08:39,840 --> 00:08:46,000
+whereas YT will, by then YT would become $0 in value. But the good thing about YT is that
+
+89
+00:08:46,000 --> 00:08:50,480
+it is typically the smaller component of a yield-bearing asset. And that means when it's
+
+90
+00:08:50,480 --> 00:08:57,360
+stripped out, it is a lot cheaper compared to the PT counterpart. As an example, using STEath,
+
+91
+00:08:57,360 --> 00:09:07,040
+let's say it generates for 5% in APY. So in a typical context of PTYT stripping with an
+
+92
+00:09:07,040 --> 00:09:14,720
+expected 5% APY, YT would probably be priced at around, let's just say 5%. And then the PT
+
+93
+00:09:14,720 --> 00:09:21,840
+would be the remaining 95%. So effectively, what that means is one PT would be equivalent to
+
+94
+00:09:22,320 --> 00:09:30,640
+0.95 ETH and then one YT would be 0.05 ETH in value. And the PT plus the YT tier point
+
+95
+00:09:30,640 --> 00:09:37,280
+equals the price of one STEath. Correct. So the use cases are, broadly speaking,
+
+96
+00:09:37,280 --> 00:09:42,800
+two types of use cases. With PT, users who are interested in locking in the fixed yield,
+
+97
+00:09:42,800 --> 00:09:51,520
+they can buy PT. So that means if today the PT of STEath is priced at 0.95 STEath, you acquire it,
+
+98
+00:09:51,520 --> 00:09:58,960
+hold it until maturity to redeem it for one STEath. So your input is 0.95, holding it until
+
+99
+00:09:58,960 --> 00:10:07,440
+maturity, the output is one STEath. On the other hand, all the yield that YT accrues will go into
+
+100
+00:10:07,440 --> 00:10:14,800
+the holder of YT. And then over time, the value of YT will diminish to zero. But the gains that is
+
+101
+00:10:14,800 --> 00:10:21,200
+paid out by the underlying protocol, in this case LIDL, will accrue to the YT holder. For users who
+
+102
+00:10:21,200 --> 00:10:28,640
+are more on the speculating of yield side, if they believe that the underlying APY could be 10%
+
+103
+00:10:28,640 --> 00:10:34,960
+in a year, but right now it's priced at 5%, then they should purchase YT. This regarding the
+
+104
+00:10:34,960 --> 00:10:42,000
+underlying principle and then just focus on the yield. So the payout is 0.05 and the year's time,
+
+105
+00:10:42,000 --> 00:10:45,760
+if it's worth 10% APY, then the gain is effectively doubled.
+
+106
+00:10:45,760 --> 00:10:49,440
+Yeah, makes sense because they're taking the other side of that trade. How do you guys select
+
+107
+00:10:49,440 --> 00:10:55,600
+for assets that will be listed on Pendle? Yeah, so we're typically very, very thematic
+
+108
+00:10:55,600 --> 00:11:03,120
+in our approach. So we've had multiple rounds of experiments with narratives. So I'd say with
+
+109
+00:11:03,120 --> 00:11:09,600
+the launch of Pendle V2 at the end of 2022, one of the first narratives we experimented with,
+
+110
+00:11:09,600 --> 00:11:16,880
+but wasn't very successful, was NFT. We actually listed Apoin and Luke's Rare, Luke's Token Market.
+
+111
+00:11:16,880 --> 00:11:21,280
+Were those yield bearing? Yeah, they were yield bearing. So you could stake Luke's to get,
+
+112
+00:11:21,280 --> 00:11:25,840
+I can't remember the ticker now, but yeah, stake Luke's for example. And then Apoin,
+
+113
+00:11:25,840 --> 00:11:30,800
+you would be generating more Apoin by staking Apoin. That's the yield bearing part that we
+
+114
+00:11:30,800 --> 00:11:38,160
+tokenize. They weren't too successful, but in the first half of 2023, we figured out a way to
+
+115
+00:11:38,160 --> 00:11:46,560
+affiliate the Pendle brand with some of the heavyweights. We position Pendle as the top layer
+
+116
+00:11:46,560 --> 00:11:53,760
+on Rocket, and then on Rocket ETH, our ETH, and then Balancer and Aura. So we basically tokenize
+
+117
+00:11:53,760 --> 00:12:00,320
+the Aura and users who will participate in the pool would be entitled to yield from Aura,
+
+118
+00:12:00,320 --> 00:12:08,400
+Balancer, and Rocket. So the effective APY there was fairly attractive. So I remember it going as
+
+119
+00:12:08,400 --> 00:12:15,600
+high as 17% at one point in time for ETH APY fixed rate. So that was, I think, the first
+
+120
+00:12:15,600 --> 00:12:21,280
+breakthrough for us. And then eventually we also pivoted a little bit and structured a narrative to
+
+121
+00:12:21,840 --> 00:12:30,400
+align with Arbitrum. We also did real world asset towards the Q3, Q4 of 2023. So that was with the
+
+122
+00:12:30,400 --> 00:12:39,280
+launch of FUSDC from Flux and Sparks SDI. Last year, we were primarily focused on
+
+123
+00:12:39,920 --> 00:12:47,360
+Eigen and its ecosystem, LRTs. Athena was a big contributor of our growth. And then end of the
+
+124
+00:12:47,360 --> 00:12:54,560
+year was Bitcoin narrative. So Babylon and its ecosystem. This year, we focused a lot of our
+
+125
+00:12:54,560 --> 00:13:00,800
+efforts in identifying high quality and promising stablecoin products and have the markets listed
+
+126
+00:13:00,800 --> 00:13:05,600
+on Pendle. And to your experience, and for anyone who's tried, typically if you want to
+
+127
+00:13:05,600 --> 00:13:11,120
+earn yield in DeFi, you're exploring 20, 30 different protocols and the rates are all over
+
+128
+00:13:11,120 --> 00:13:16,320
+the place and fluctuate with you. So to tie a bow on some things we've discussed, what you guys have
+
+129
+00:13:16,320 --> 00:13:20,800
+done is brought that all to one source. People can access those sources at multiple levels,
+
+130
+00:13:20,800 --> 00:13:26,640
+as you mentioned with the RE and Balancer. And you've also created this fixed rate structure,
+
+131
+00:13:26,640 --> 00:13:32,640
+which just makes user experience infinitely better. Yes, we do our best, but it's a lot of learning
+
+132
+00:13:32,720 --> 00:13:38,400
+and product iteration over time. It didn't start off this way. We also didn't imagine
+
+133
+00:13:38,400 --> 00:13:44,320
+points to blow up the way it did. We were basically using the same protocol mechanics on a
+
+134
+00:13:44,320 --> 00:13:50,240
+slightly different product, but the output was much bigger than we thought. So now my view is
+
+135
+00:13:50,240 --> 00:13:56,240
+that points have already become a very essential part of the go-to-market strategy for projects.
+
+136
+00:13:56,960 --> 00:14:02,720
+And we want to continue to serve this segment. So constantly improving the product and identifying
+
+137
+00:14:02,720 --> 00:14:08,560
+the best opportunities for users. Historically, we've had a lot of yield offerings to the point
+
+138
+00:14:08,560 --> 00:14:14,400
+that you made earlier, APE coin and you earn more APE coin and maybe you earn APE points on top of
+
+139
+00:14:14,400 --> 00:14:19,920
+that, which can go very well, especially when the market's doing very well. But I think my view is
+
+140
+00:14:19,920 --> 00:14:25,040
+eventually we will probably collectively gravitate towards something like US dollars and you're
+
+141
+00:14:25,040 --> 00:14:31,200
+earning yield in US dollars or at least assets, ETH being more comparable where there's more of
+
+142
+00:14:31,200 --> 00:14:35,440
+a definitive value behind it, or at least you sleep a little better at night earning what feels like
+
+143
+00:14:35,440 --> 00:14:41,680
+a true yield in that asset. Do you see a lot of the offerings you guys will have being stablecoin
+
+144
+00:14:41,680 --> 00:14:46,880
+based or blue chip token based as opposed to the longer tail of assets and points?
+
+145
+00:14:47,440 --> 00:14:53,440
+Yeah, I believe so. I think now more and more protocols generating revenue, they would prefer
+
+146
+00:14:53,440 --> 00:14:59,840
+to do the payouts in stablecoins or one of the major assets. You're seeing that increasingly?
+
+147
+00:15:00,560 --> 00:15:06,480
+Yes, we do. We do. There are still implementations like SINA, which has worked out quite well.
+
+148
+00:15:06,480 --> 00:15:11,520
+Generally, if a user is bullish on the prospect of Athena, which I believe that to be the case,
+
+149
+00:15:12,240 --> 00:15:19,200
+buying into SINA or PTSINA, YTSEINA, these are fairly good ways to express that view. But that
+
+150
+00:15:19,200 --> 00:15:28,240
+aside, most of the time we see users preferring payouts in USDC or USDT or even ETH. But
+
+151
+00:15:28,240 --> 00:15:34,160
+increasingly, I think the preference for ETH has declined. While the price has gone down?
+
+152
+00:15:34,160 --> 00:15:39,360
+Yes. But at one point in time, protocols that were giving real yield, they had their assets
+
+153
+00:15:39,360 --> 00:15:44,080
+payout denominated in ETH. So there was one point in time it was very relevant.
+
+154
+00:15:44,080 --> 00:15:48,240
+Does Pendle have a staking program? Do you distribute fees or revenues to
+
+155
+00:15:48,240 --> 00:15:54,640
+token holders? Yes, we do. So with Pendle, the fees are distributed to V-Pendle holders.
+
+156
+00:15:54,640 --> 00:16:00,400
+So in this case, Pendle on its own does not have too much of a utility. It needs to be locked up
+
+157
+00:16:00,400 --> 00:16:07,600
+between one week to two years. So the duration is fairly flexible. And with that, the user is
+
+158
+00:16:07,600 --> 00:16:14,560
+entitled to voting rights. And with the voting rights, V-Pendle holder can choose which pool on
+
+159
+00:16:14,560 --> 00:16:21,440
+Pendle to vote for. And when the pool generates fees, these fees will be prorated and distributed
+
+160
+00:16:21,440 --> 00:16:28,560
+back to the V-Pendle holder in the form of previously up until recently it was ETH. But
+
+161
+00:16:28,560 --> 00:16:34,320
+this month onward, it would be USDC. Great. The gravitation towards rewards in
+
+162
+00:16:34,320 --> 00:16:39,760
+real dollars. Yeah. I just want to ask, you live outside the US. I wanted to ask about your view on
+
+163
+00:16:39,760 --> 00:16:45,120
+non-USD stablecoins. Or if you think that USD stablecoins are the future.
+
+164
+00:16:45,120 --> 00:16:51,520
+Yeah. Well, I think in the near term, the demand for US dollar denominator stablecoins will continue
+
+165
+00:16:51,520 --> 00:16:58,960
+to dominate because it is still the most accepted currency anywhere. And it just makes accounting a
+
+166
+00:16:58,960 --> 00:17:05,520
+lot easier. I can very comfortably see how much I'm earning in US dollar terms versus ETH. And then
+
+167
+00:17:05,600 --> 00:17:10,720
+I have to make mental adjustments just to see how much I'm earning for tax purposes,
+
+168
+00:17:10,720 --> 00:17:17,040
+for personal tracking, various considerations. I think gradually we should be seeing more
+
+169
+00:17:17,040 --> 00:17:24,080
+forms of stablecoins that are not necessarily USD denominated to show up. In Asia, I believe
+
+170
+00:17:24,640 --> 00:17:31,360
+Singapore, Hong Kong, there are already attempts to get stablecoins denominated in SGD Hong Kong
+
+171
+00:17:32,160 --> 00:17:37,280
+I'm sure several other jurisdictions are also experimenting with this stablecoin
+
+172
+00:17:37,280 --> 00:17:42,160
+implementation. And then Euro, there are a couple of operators as well, to my knowledge,
+
+173
+00:17:42,160 --> 00:17:47,760
+and we are exploring having Euro market on Pendle. To that extent, I'm fairly certain that there will
+
+174
+00:17:47,760 --> 00:17:54,240
+be a broader diversity of stablecoins. And then the yield sources will also be pretty diverse as
+
+175
+00:17:54,240 --> 00:18:00,160
+well. Not just coming from T-bills, but yeah, other forms of real-world asset revenues or yield
+
+176
+00:18:00,160 --> 00:18:06,320
+generation. Do you think non-USD stablecoins are used in DeFi? Or do you think those are more
+
+177
+00:18:06,320 --> 00:18:12,640
+fintech products? I would think more fintech. I think they're good for transactions, but in
+
+178
+00:18:12,640 --> 00:18:19,440
+terms of yield generation, I still think the US denominated ones will be much more accepted.
+
+179
+00:18:19,440 --> 00:18:23,920
+And what assets are popular on Pendle that are the new ones you're launching currently?
+
+180
+00:18:24,640 --> 00:18:31,280
+Yeah, so I think the biggest for us is still Athena's USDE and SUSDE. Recently,
+
+181
+00:18:31,840 --> 00:18:38,480
+with the PT of EUSDE and SUSDE getting listed on Aaveco market, that has increased
+
+182
+00:18:39,120 --> 00:18:46,800
+the total circulation of SUSDE and EUSDE PT assets. That aside, the newer ones that are
+
+183
+00:18:46,800 --> 00:18:51,600
+gaining very, very healthy traction, as far as we're concerned, is I would say OpenAidin.
+
+184
+00:18:51,600 --> 00:18:58,240
+We're seeing over $100 million in TVL on Pendle already. This is after two to three weeks,
+
+185
+00:18:58,240 --> 00:19:02,560
+and I think there's a bit more potential for growth there. LevelUSD is another one.
+
+186
+00:19:02,560 --> 00:19:06,720
+Yeah, cool product. They were on the podcast a few weeks ago.
+
+187
+00:19:06,720 --> 00:19:13,280
+Nice, yeah. SuperUSD is also doing pretty well. I want to say very recently,
+
+188
+00:19:13,280 --> 00:19:19,360
+Falcon's USDF is also gaining traction on Pendle. So these are, I think top of mind,
+
+189
+00:19:20,000 --> 00:19:26,160
+resolve, usual. They've done well, quite consistently. We'll just have to figure
+
+190
+00:19:26,160 --> 00:19:29,760
+out ways to sustain the hype and interest in these opportunities.
+
+191
+00:19:29,760 --> 00:19:32,160
+Why do you think people like Athena so much?
+
+192
+00:19:32,160 --> 00:19:37,200
+I think they're not quite the first mover, but I want to say they're definitely one of the most
+
+193
+00:19:37,200 --> 00:19:42,640
+competent teams that we've worked with. Guy and his team, they have a very clear idea of where
+
+194
+00:19:42,640 --> 00:19:50,000
+they want to be, and their execution is actually very, very strong. And I think with stable coins,
+
+195
+00:19:50,000 --> 00:19:56,960
+the playbook is typically more bd-heavy than tech-heavy. So the partnership
+
+196
+00:19:56,960 --> 00:20:02,960
+lineups that they have is very impressive. And then to be able to have markets set up on
+
+197
+00:20:02,960 --> 00:20:08,000
+Bybit and a couple of other exchanges. So basically having USD pair, I think that helps
+
+198
+00:20:08,000 --> 00:20:12,640
+tremendously as well. So figuring out ways to get their asset distributed,
+
+199
+00:20:13,200 --> 00:20:19,760
+I think that has been a very, very strong proposition of Athena. And I can see them
+
+200
+00:20:19,760 --> 00:20:24,800
+growing even more from here. Yeah. I don't think you can underscore the value of those partnerships.
+
+201
+00:20:24,800 --> 00:20:29,040
+We're naturally very herd mentality. People who deposit in DeFi, no one wants to deposit
+
+202
+00:20:29,040 --> 00:20:33,840
+into the stable coin with $500,000 of supply because you just don't have the trust factor yet.
+
+203
+00:20:34,480 --> 00:20:42,800
+Yes. In your view, is it the same user who was earning Apecoin yield a couple of years ago that
+
+204
+00:20:42,800 --> 00:20:48,480
+is earning Athena or earning level USD yield now, or is it a different user profile?
+
+205
+00:20:48,480 --> 00:20:55,040
+I think the profile has not changed all that much. I think people who are speculating on YTs,
+
+206
+00:20:55,040 --> 00:21:01,440
+at least from our observation, they are largely retail users because it's very capital efficient.
+
+207
+00:21:01,440 --> 00:21:08,320
+If you want to speculate on the potential return of say, Athena points, there's a good amount of
+
+208
+00:21:08,320 --> 00:21:14,320
+multiplier to offer that margin of safety. PTs on the other hand, we see a lot more bigger funds,
+
+209
+00:21:14,320 --> 00:21:19,840
+bigger ticket size participating in that segment of the market. I think for us, even though the
+
+210
+00:21:19,840 --> 00:21:26,080
+product is fairly complicated, especially if you don't really understand derivative, I think
+
+211
+00:21:26,080 --> 00:21:31,440
+understanding Pendle can take a little bit of time. With that knowledge, we were still quite
+
+212
+00:21:31,440 --> 00:21:37,440
+insistent on targeting the sophisticated retail first, more so than targeting the institutional
+
+213
+00:21:37,440 --> 00:21:43,680
+users. This is something that we learned over time and it applies to how we go to market for
+
+214
+00:21:43,680 --> 00:21:49,680
+various stable coins or even something like Boros. With respect to product like ours,
+
+215
+00:21:50,400 --> 00:21:56,400
+especially because it involves some form of speculation, the target user group that we
+
+216
+00:21:56,400 --> 00:22:01,760
+should be focusing on in the beginning are likely the sophisticated retail. They are the ones that
+
+217
+00:22:01,760 --> 00:22:07,120
+typically have higher risk tolerance and then they would be more willing to try out new products and
+
+218
+00:22:07,120 --> 00:22:13,520
+they would be very interested in that outside's earning. We just have to focus on this core group
+
+219
+00:22:13,520 --> 00:22:20,640
+of users. Then we realized that over time, when the traction of this segment improved,
+
+220
+00:22:20,640 --> 00:22:26,080
+because these are probably users who are punting on YT's, it also creates a very good opportunity
+
+221
+00:22:26,080 --> 00:22:34,160
+on the PT side. When PT becomes cheaper, then the big funds have a reason to come in and scoop up
+
+222
+00:22:34,160 --> 00:22:39,440
+like the PT's. That's how we established that dynamic and the equilibrium between the YT and
+
+223
+00:22:39,440 --> 00:22:47,680
+PT side. Do you think that DeFi yields outpace or remain competitive to traditional yields,
+
+224
+00:22:47,680 --> 00:22:54,000
+especially as on-chain and traditional systems blend together? Yes, I do believe that to be the
+
+225
+00:22:54,000 --> 00:22:59,520
+case. Broadly speaking, how I think about the yield at DeFi is that it will very likely be
+
+226
+00:22:59,520 --> 00:23:06,560
+higher than whatever Trefi offers for two reasons. One is that the composability aspect of crypto
+
+227
+00:23:06,560 --> 00:23:12,560
+assets that makes it a lot more appealing from an APY standpoint. This was something that we
+
+228
+00:23:12,560 --> 00:23:18,080
+took advantage of when we launched ETH market back in 2023. We were basically stacking up the
+
+229
+00:23:18,080 --> 00:23:24,880
+yield of Rocket, Aura and Balancer. That would be a lot harder to achieve outside of DeFi context.
+
+230
+00:23:25,840 --> 00:23:32,240
+With that, very important offerings. I do think that the yield in crypto should be higher,
+
+231
+00:23:32,240 --> 00:23:40,000
+naturally. Secondly, crypto like DeFi is generally more efficient. I think protocols across the board
+
+232
+00:23:40,000 --> 00:23:46,480
+don't need to have a lot of headcount to monitor transactions. That should help with the margin.
+
+233
+00:23:47,840 --> 00:23:53,760
+Without incurring a lot of overhead, the cost to the protocol operator also lowers.
+
+234
+00:23:54,480 --> 00:23:59,120
+All things considered, assuming status quo on the yield between the DeFi and DeFi products,
+
+235
+00:23:59,120 --> 00:24:05,360
+I think DeFi, because of the lower overhead and the cost is lower, the effective return
+
+236
+00:24:05,360 --> 00:24:09,760
+would be more attractive for participants. Yeah, and you have natural capital efficiency
+
+237
+00:24:09,760 --> 00:24:14,320
+because if you have a staked ETH, you can then take that staked ETH where you're already earning
+
+238
+00:24:14,320 --> 00:24:19,360
+the yield for staking it and earn rewards for depositing it into a two-sided pool.
+
+239
+00:24:19,360 --> 00:24:22,080
+You're getting the trading and staking yield. Correct.
+
+240
+00:24:22,720 --> 00:24:27,120
+What other protocols are you interested in? What assets do you think we'll see emerge
+
+241
+00:24:27,120 --> 00:24:30,720
+in the near future that you guys would work with or see as being high potential?
+
+242
+00:24:31,520 --> 00:24:34,560
+I maintain the view that yield on Bitcoin is
+
+243
+00:24:35,360 --> 00:24:42,480
+quite inevitable, but right now we don't have a very good way to generate yield on Bitcoin.
+
+244
+00:24:42,480 --> 00:24:46,080
+Is that the number one desired thing for users in your view?
+
+245
+00:24:46,080 --> 00:24:50,400
+I'm not sure about the broader user base, but at least for me, that would be the case.
+
+246
+00:24:50,400 --> 00:24:54,960
+Earning yield on stables is attractive and I think it will continue to exist.
+
+247
+00:24:54,960 --> 00:25:00,560
+But just given the sheer size of Bitcoin right now, to be able to generate, I don't know,
+
+248
+00:25:00,560 --> 00:25:05,840
+like two or 3% of Bitcoin, that would be pretty sweet. I'm sure there are multiple sources of
+
+249
+00:25:05,840 --> 00:25:13,120
+yield on Bitcoin right now, but they might not be on-chain. So lending seems to me to be the one
+
+250
+00:25:13,120 --> 00:25:20,960
+that is most consistent and broad-based. And then we also have structured products. Some of the
+
+251
+00:25:20,960 --> 00:25:25,840
+OTC desk, they could be structuring products that offer yield on Bitcoin. But beyond that,
+
+252
+00:25:25,840 --> 00:25:29,440
+I'm not seeing too many opportunities. And then if you look at money markets,
+
+253
+00:25:29,440 --> 00:25:36,080
+red BTC on Aave, the APY is generally very low. I think that is definitely an avenue that
+
+254
+00:25:36,080 --> 00:25:40,560
+would be interesting. But in the near term, I'm not too sure what needs to take place
+
+255
+00:25:40,560 --> 00:25:44,080
+before we see greater adoption in that particular segment.
+
+256
+00:25:44,080 --> 00:25:48,400
+Yeah, we completely agree. It almost feels like an irony that we haven't created
+
+257
+00:25:48,400 --> 00:25:52,880
+good yield around Bitcoin when the things that crypto has produced are Bitcoin and yield.
+
+258
+00:25:52,880 --> 00:25:57,920
+Whereas if you want to go borrow Bitcoin outside of DeFi through CIFI off-chain,
+
+259
+00:25:57,920 --> 00:26:01,680
+it's typically double digit percent. So it shows you that the yield is there.
+
+260
+00:26:01,680 --> 00:26:06,160
+It just hasn't been created in DeFi yet. I'm curious, why do people borrow Bitcoin?
+
+261
+00:26:06,160 --> 00:26:10,960
+Is it too short? That's a good question. I don't know why people borrow Bitcoin. I think there are
+
+262
+00:26:10,960 --> 00:26:15,920
+a number of reasons. Potentially to have more exposure to Bitcoin, right? Yeah, I'm curious.
+
+263
+00:26:15,920 --> 00:26:18,560
+You use your Bitcoin collateral and borrow more Bitcoin?
+
+264
+00:26:18,560 --> 00:26:21,680
+No, I don't. I use it as a sort of value, personally.
+
+265
+00:26:21,680 --> 00:26:25,200
+Right. I'm saying some people could though. Yeah, some people do that, yes.
+
+266
+00:26:25,200 --> 00:26:29,200
+Yeah, I think it's just people who want to have as much exposure to Bitcoin as they possibly can.
+
+267
+00:26:30,400 --> 00:26:32,240
+Okay, okay. Fair enough.
+
+268
+00:26:32,240 --> 00:26:34,480
+But yeah, the rates are in the 10 plus percent.
+
+269
+00:26:34,480 --> 00:26:35,440
+I'm told, yes.
+
+270
+00:26:36,080 --> 00:26:40,000
+What are the wrapped BTC rates on Aave actually that now that you mentioned? I haven't checked.
+
+271
+00:26:40,000 --> 00:26:45,280
+It's definitely less than 1%. Yeah, I'm not too sure at this point. Big difference, yeah?
+
+272
+00:26:45,280 --> 00:26:49,520
+Yeah, no kidding. That's quite a spread. We clearly haven't gotten to efficiency quite yet.
+
+273
+00:26:50,240 --> 00:26:54,000
+On that point about Bitcoin, I also wanted to ask you, how do you view the different
+
+274
+00:26:54,000 --> 00:26:58,000
+blockchains in making business decisions? Because there's obviously a core difference
+
+275
+00:26:58,000 --> 00:27:01,600
+when we talk about native Bitcoin here versus Bitcoin existing on other chains.
+
+276
+00:27:01,600 --> 00:27:04,560
+And how do you guys select for chains and assets?
+
+277
+00:27:04,560 --> 00:27:09,120
+Yeah, so for us, it's fairly straightforward because we are a second order derivative.
+
+278
+00:27:09,120 --> 00:27:14,320
+So that means without the primitives and then without the TBL, it really wouldn't make sense
+
+279
+00:27:14,320 --> 00:27:19,200
+for Pendle to exist. We need deal bearing assets before Pendle would make sense.
+
+280
+00:27:19,840 --> 00:27:25,200
+So when we evaluate whether to go onto a new chain or a new ecosystem,
+
+281
+00:27:25,200 --> 00:27:30,320
+we would typically just observe whether there are good assets for Pendle to work with.
+
+282
+00:27:30,320 --> 00:27:33,680
+And then if they are, how's the TBL traction?
+
+283
+00:27:34,320 --> 00:27:39,120
+If the TBL traction is still very low, that means it might be premature.
+
+284
+00:27:39,120 --> 00:27:41,120
+And then we'll give it some time to observe.
+
+285
+00:27:41,200 --> 00:27:46,400
+And if it grows to, let's say, a couple of hundred million dollars in TBL size,
+
+286
+00:27:46,400 --> 00:27:49,120
+then it might make sense for Pendle to deploy there.
+
+287
+00:27:49,120 --> 00:27:55,600
+Because from our perspective, whether it's five mil in TBL or $500 million in TBL,
+
+288
+00:27:55,600 --> 00:27:59,840
+the effort to deploy is consistent. We still need to work with Oracle.
+
+289
+00:27:59,840 --> 00:28:03,280
+We still need to maintain an infrastructure to run the products.
+
+290
+00:28:03,920 --> 00:28:08,800
+So it would make sense for us to prioritize the one with higher TBL,
+
+291
+00:28:08,800 --> 00:28:11,520
+just because the return would be more meaningful.
+
+292
+00:28:11,520 --> 00:28:16,480
+Sure. Makes sense. So you guys wait until you tell that there's something meaningful
+
+293
+00:28:16,480 --> 00:28:20,880
+in an ecosystem and then you go versus trying to go to the new chain pre-launch
+
+294
+00:28:20,880 --> 00:28:22,160
+and know that it's going to work.
+
+295
+00:28:22,960 --> 00:28:26,000
+That's right. There's no first-world advantage for Pendle.
+
+296
+00:28:26,000 --> 00:28:28,880
+You guys have emerged and done incredible things in the space.
+
+297
+00:28:28,880 --> 00:28:33,120
+I think a lot of people in the DeFi sphere would say to the point that people in conversation
+
+298
+00:28:33,120 --> 00:28:36,800
+talk about Uniswap, talk about Athena, talk about Aerodrome, talk about Pendle.
+
+299
+00:28:37,440 --> 00:28:44,080
+Do you think DeFi activity will center around a number of these really meaningful applications
+
+300
+00:28:44,080 --> 00:28:46,080
+or do you think there will be a longer tail?
+
+301
+00:28:46,640 --> 00:28:48,560
+How do you think activity spreads out eventually?
+
+302
+00:28:49,200 --> 00:28:53,360
+I think activities will likely concentrate around a few core protocols.
+
+303
+00:28:54,160 --> 00:28:58,480
+I think people generally gravitate toward familiarity.
+
+304
+00:28:58,480 --> 00:29:01,920
+And especially in DeFi, with new products, there are always
+
+305
+00:29:02,560 --> 00:29:07,840
+risks that you might not be able to see, especially if it's very fresh in the market.
+
+306
+00:29:08,880 --> 00:29:14,000
+For example, like Athena, it's been around and Uniswap, it's been around for years now.
+
+307
+00:29:14,000 --> 00:29:16,720
+The trust level for these products is very high.
+
+308
+00:29:16,720 --> 00:29:21,600
+And the fact that these products have processed many, many billions of dollars
+
+309
+00:29:22,160 --> 00:29:23,680
+is definitely very valuable.
+
+310
+00:29:24,560 --> 00:29:30,160
+Relative to a product that has only been around for two days and processed maybe
+
+311
+00:29:30,160 --> 00:29:35,360
+$100 in trading volume, as a user, you would naturally feel more comfortable with a product
+
+312
+00:29:35,360 --> 00:29:37,040
+that is a lot more established.
+
+313
+00:29:37,040 --> 00:29:39,120
+And I think that wouldn't change with time.
+
+314
+00:29:39,120 --> 00:29:43,280
+And you guys are doing an assessment of how trusting your users will be of those partners,
+
+315
+00:29:43,280 --> 00:29:46,240
+right? Because when they use Pendle in an Athena offering,
+
+316
+00:29:46,240 --> 00:29:48,640
+it's two degrees of trust they're implementing.
+
+317
+00:29:48,640 --> 00:29:53,360
+Yes, which is why I think it's important for us to know who we're dealing with.
+
+318
+00:29:53,360 --> 00:29:56,240
+We are more open now from an infrastructure standpoint,
+
+319
+00:29:56,880 --> 00:30:04,080
+but even then, we still need to do our best to do a basic due diligence on the counterparts.
+
+320
+00:30:04,880 --> 00:30:08,800
+Do you expect you'll one day have tokenized equities on Pendle,
+
+321
+00:30:08,800 --> 00:30:10,400
+earning yield in DeFi somehow?
+
+322
+00:30:10,400 --> 00:30:13,200
+Potentially, yes. I would like that, yeah.
+
+323
+00:30:13,200 --> 00:30:16,320
+Is that in the near future? How long do you think it takes us to get there?
+
+324
+00:30:16,320 --> 00:30:21,600
+I think it ultimately depends on the protocol that issues equities.
+
+325
+00:30:21,600 --> 00:30:24,320
+Yeah, so if they tokenize equities on chain,
+
+326
+00:30:24,320 --> 00:30:26,320
+that is potentially something that we can work with.
+
+327
+00:30:26,880 --> 00:30:30,880
+And then the yield accrued, the YT would be maybe dividends.
+
+328
+00:30:31,440 --> 00:30:34,400
+That's interesting. I mean, I hope you can also,
+
+329
+00:30:34,400 --> 00:30:38,880
+when we have tokenized equities in DeFi, earn yield on them as you would with DeFi assets,
+
+330
+00:30:38,880 --> 00:30:42,000
+just by providing liquidity to a pool or something along those lines.
+
+331
+00:30:42,800 --> 00:30:44,080
+Yeah, we'll see, perhaps.
+
+332
+00:30:44,720 --> 00:30:48,560
+I wanted to ask you in closing, is there anything that keeps you up at night,
+
+333
+00:30:48,560 --> 00:30:52,960
+or anything that you worry about when it comes to the ecosystem currently or Pendle?
+
+334
+00:30:53,520 --> 00:30:58,000
+I want to say that as we grow and as we scale up,
+
+335
+00:30:58,000 --> 00:31:01,040
+because we have also increased the surface area that we're operating,
+
+336
+00:31:01,840 --> 00:31:04,800
+there are a lot more problems that we are encountering.
+
+337
+00:31:05,520 --> 00:31:10,960
+But in a way that I can really appreciate, because I think when we were smaller,
+
+338
+00:31:10,960 --> 00:31:14,800
+we had maybe problems, but they were a lot more miniscule.
+
+339
+00:31:14,800 --> 00:31:18,560
+Right now, we're operating a much bigger protocol.
+
+340
+00:31:18,560 --> 00:31:22,640
+And then we also have a lot more problems compared to before.
+
+341
+00:31:22,720 --> 00:31:26,640
+But I think this is a good sign that we have grown.
+
+342
+00:31:26,640 --> 00:31:32,800
+And fortunately for me, by now, we have a very, very capable team of operators.
+
+343
+00:31:33,520 --> 00:31:38,480
+So each and every one of us, we take care of our own vertical.
+
+344
+00:31:38,480 --> 00:31:42,640
+And that allows me to sleep more peacefully at night.
+
+345
+00:31:43,360 --> 00:31:46,560
+But that aside, there are definitely a lot of considerations.
+
+346
+00:31:46,560 --> 00:31:48,240
+How do we continue to scale up?
+
+347
+00:31:48,240 --> 00:31:53,520
+Because ultimately, I'd like for Pendle to not exist only for two years.
+
+348
+00:31:53,520 --> 00:31:56,720
+I'd like for Pendle to continue to be relevant for a long, long time,
+
+349
+00:31:57,280 --> 00:32:01,120
+and grow into new segments, take on new challenges,
+
+350
+00:32:01,120 --> 00:32:03,920
+and be world-class in our product offerings.
+
+351
+00:32:04,480 --> 00:32:08,400
+And then thinking about how the ecosystem could change,
+
+352
+00:32:08,400 --> 00:32:11,920
+what kind of things that we should be anticipating and prepare.
+
+353
+00:32:11,920 --> 00:32:15,120
+These are definitely something that I think about very much.
+
+354
+00:32:15,680 --> 00:32:17,840
+That makes sense. And I'll leave it there.
+
+355
+00:32:17,840 --> 00:32:19,440
+Thanks, Tim, for coming on the podcast.
+
+356
+00:32:19,440 --> 00:32:21,040
+We'd love to have you back at some point.
+
+357
+00:32:21,040 --> 00:32:22,480
+And it was a pleasure.
+
+358
+00:32:22,480 --> 00:32:23,440
+Yeah, thanks for having me.
+
+359
+00:32:24,720 --> 00:32:28,480
+Thanks for listening to another episode of On the Brink with Castle Island.
+
+360
+00:32:28,480 --> 00:32:32,560
+To find out more about Castle Island, visit castleisland.vc.
+
+361
+00:32:33,120 --> 00:32:35,600
+To listen to all of our podcast episodes,
+
+362
+00:32:35,600 --> 00:32:41,440
+please go to onthebrink-podcast.com or just click on the tab on our website.
+
+363
+00:32:41,440 --> 00:32:42,240
+Thanks for listening.
+

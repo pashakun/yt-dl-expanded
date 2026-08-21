@@ -1,0 +1,389 @@
+TITLE: How Crypto Users Get Rekt and How You Can Stay Safe
+URL: https://www.youtube.com/watch?v=S6qd8lnwOTA
+VIDEO_ID: S6qd8lnwOTA
+
+TRANSCRIPT:
+With a crypto startup, you can go from like just launching to suddenly being in charge of tens of millions of dollars of people's funds kind of overnight without kind of a gradual buildup of a internal security capability.
+ And so it's really hard to have somebody on stuff that's like just focusing on this stuff.
+ When you protect the company, when we do, for example, the audit, you have to find all the weak things, all the hurt. You have to find all of them.
+ And a third factor just needs to find one.
+ Hi, everyone. Welcome to Unchained. You know, hey, pre-stars for all things crypto. I'm your host, Laura Shin.
+ Thanks for joining this live stream, just FYI, that it was pre-recorded.
+ Before we get started, a quick reminder, nothing you hear on Unchained is investment advice, the show is for informational and entertainment purposes only, and my guests and I may hold assets discussed on the show.
+ For more disclosures, visit UnchainedCrypto.com.
+ Mantle is launching the global hack-up on 2025 to accelerate the future of real-world assets with a $150,000 prize pool, backing from a $4 billion treasury, and direct access to buy bits 7 million plus users.
+ This is the ultimate ecosystem for builders.
+ Are you a builder who needs to add on-chain trading to your product? The Uniswap Trading API from Uniswap Labs offers plug-and-play access to some of the deepest liquidity in crypto.
+ It's on-chain execution at an enterprise level. More liquidity, less complexity. Visit hub.uniswap.org to learn more.
+ Today's topic is how to keep your crypto safe, and how to keep all of crypto safe.
+ Here to discuss our papa setpatella, Member of Seal, the Security Alliance, and Founder of Oppsec, and Isaac Pakka, Certifications Initiative Lead at Seal, and Founder of Shield 3.
+ Welcome, papa and Isaac.
+ Thank you very much.
+ Thank you, Laura.
+ We're releasing this show shortly before the holidays, and I understand it doesn't seem like a cheery topic.
+ However, if you either receive crypto, or you buy crypto with holiday money, or if you are giving crypto to someone who, especially if they're a newbie, and you want them to keep it safe, then this episode is for you.
+ It's also for any crypto OGs and crypto companies, since, as we all know, even people years of experience in this industry can't get hacked, including companies.
+ I'm sure people remember that in 2025, this was very early in the year, we saw the bibid hack for $1.5 billion.
+ That was not only the biggest crypto hack ever, but it was also the biggest hack ever in all of history.
+ We saw also a ledger executive become a victim of a physical ransom attack, and the attackers actually cut off one of his fingers.
+ A few months ago, Balancer was attacked on very old trusted smart contracts that shocked everybody.
+ Recently anthropic showed that AI agents can easily hack a number of smart contracts as well.
+ For those of you who might have seen on the timeline recently, Jill Gunter, who's been in crypto for a decade, was hacked for $30K. Okay, it's obviously not a huge amount of money. However, the way that happened was it stemmed back to a transaction of $5 that she did ages ago.
+ So, you know, on top of all this news, channel is reported recently that North Korea had hacked $2 billion for the crypto this year, and that a total of $3.4 billion in crypto was stolen in 2025.
+ So you guys, you know, this industry is, yeah, it's more than a decade old, but clearly we don't have the security thing down.
+ So Pablo and Isaac, given all this, and numerous other incidents I did not even mention, how would you describe the state of crypto security today, and Pablo, why don't we start with you.
+ Okay, thank you Laura.
+ Well, I would say that a crypto security changed a lot the last years when crypto started, we had basically smart contract hacks, the industry, the security industry in blockchain got far better regarding a smart contract security.
+ And then third actors seeing this started to change their strategy. So they started to attack web three with web to hacking techniques, right, that's classical hacking.
+ So we're talking about private key leakage for engineering malware theory exploits fishing in swaps, accounting covers domain hijacks, basically, most of these attacks, like today 99% of fans stolen are due to operational security issues, not a smart contract hacks.
+ And from that 99%, I would say that also 99% of those attacks start with soldier engineering, right. What is soldier engineering.
+ It's the arc of making someone do something against their interest, and in the interest of the attacker, right.
+ And they would say that today, all of those cases could be avoided if we do something as simple as verifying who we are talking with, right, even if you're talking with someone we know, or someone new, we don't know.
+ Most of that cases can be stopped like this.
+ Nick, what would you add? Yeah, I totally agree with Pablo about kind of the root causes of most hacks that are happening these days.
+ One of the ones that I'm most nervous about and specifically was nervous about today is like fake podcast interviews and fake reporters reaching out.
+ Like right before this call, I was on my weekly call with a security alliance and I was like, "Hey guys, in case I reach out to you urgently, I have this interview that I think is with Laura Shin, but like, this is the URL, I'm pretty positive this is what's happening."
+ To me, that's one of the scariest ones because I've seen, I know so many people personally that have become victims of like, maybe they're trying to get investment for their company, they're trying to get grants.
+ People reach out and they say, "Hey, we want to highlight you, we want to give you this grant, we're so excited about what you're doing, and it can go on for weeks and weeks."
+ And then in a moment of heightened panic or heightened pressure, say, "Hey, oh, we can't hear the interview coming through on your device, just download this driver onto your computer."
+ So if you ask me to download any drivers, I will probably say no during this interview. And if anybody is on any interviews or any Zoom calls or things and see stuff like that happening, just take a step back.
+ Yeah, so like Pablo said, we've moved farther away from smart contract tax because the industry has gotten so much better at that, but moved much more towards the operational side of the industry.
+ And somewhat interestingly though, the last few months, we've seen some exploits on, like you said, old code.
+ And so I think that there's also a resurgence of people going out there and figuring out what they can scrape from like earlier days of smart contracts and seeing what exploits they can perform on perhaps the less the contracts that have less attention on them at the moment.
+ So that might cause a bit more of an increase in traditional smart contract tax, but yeah, as Pablo said, it's mostly operational these days.
+ Yeah, I mean, I think that the social engineering piece really is based around the hacker just gaining your trust. That's really what it's all about.
+ And, you know, for those who are familiar with the pig butchering hacks that pig butchering is basically a subset of this, you know, whole social social engineering bit and that's exactly like what Isaac was talking about if you're, because I also have received
+ requests in my DMS to be interviewed by, you know, like tech conch or Bloomberg or whatever and there's, because I'm a journalist or something about the message before I knew that this was like a hacking thing I was just like, it's like, it's like, what
+ is this a and I just somehow could sense like this is not a real journalist or something and I, and anyway I just got so many messages I just didn't respond.
+ And so that's another thing it's like it brings your defenses down, you know, it's almost like flattering your ego a little bit and so then that just makes you more willing to trust because there's like you think that there's going to be something beneficial to you.
+ So, yeah, basically that's how social engineering works it's a praying on the, the foul or the fallibilities of human psychology.
+ So you both do work for seal and I actually wasn't sure like, you know, what type of organization seal is in terms of like you know whether you're like literally employees or what that relationship is.
+ But going nextly what seal is the security Alliance, and like what are the different services it provides and then also talk about, you know, your work there.
+ I'm happy to take that yeah I've been with seal since like a very early days. So, I heard like back when seal was forming I just heard that there were these, these like this nascent initiative around trying to fix all of the things that are broken in security
+ in crypto, and at the time I had a Sam son and reached out to me through actually through a friend of a friend, or somebody else had put us in touch, because one of the main issues that that he was trying to solve was like war rooms and incidents
+ and then like crypto protocols get hacked we're just not going very well like teams were not very prepared people were panicking people were not like ready to contact the people they needed to contact and I didn't know what to say to the community on their Twitter when these hacks were inevitably
+ happening. So in the earliest of days I was I came in to help out with this initiative called the war games initiative, where we just were doing into response training for protocols we would do simulations to help them just prepare for the inevitable
+ as as a critical protocol in this space you will inevitably have some sort of incident, and so we were helping them prepare. So that was one of the earliest initiatives and then a lot of what a seal has evolved into is just trying to fill in all the various gaps and so
+ one of the most visible initiatives within seal I'd say is seal 911, and so 911 is this group of like super talented volunteer emergency responders that if you are under attack or you're a protocol that's under attack or if you've recently been hacked, you can reach out to this telegram bot and immediately get connected
+ to the right to the right team that can help you solve that issue. That solved a really big problem for a number of cases where before there were these big like crypto security telegram groups, where somebody would go in and be like hey does anybody know someone at X protocol and that set
+ up a lot of alerts for a lot of people because there were white hats in these chats and they were also black hats in these chat. And so one of the problems was like okay how can we like if we think there's a hack going on get the right people connected
+ to the right folks that coordinator response. And so 911 has become a huge resource for the community. As the 911 responders learn a lot about what is happening on the front lines of crypto hacks and security.
+ And so a lot of that also gets fed into another relatively newer initiative called seal Intel, which coordinates information sharing of hack data and an exploit and coordination between wallet companies centralized exchanges protocols
+ throughout the space. The best practices that we learn as seal from all of these different initiatives all get fed into something called seal frameworks, which is like open source free to use best practices on how not to mess up on all things security.
+ And now the latest initiative which I'm meeting around certifications is like taking everything that we've learned, try to come up with some standard for like benchmarking like this is what like proper security policies look look like in this space.
+ And so in summary like frontline responders incident response training.
+ I didn't even mention safe harbor which is legal protection for white hats, which would be an interesting. Yeah, once I stop this monologue we can perhaps come back to safe harbor because that's an interesting one as well.
+ So that's seal. I am employed by seal to lead certifications, but I also run my own company shield three which now does incident response training as a service.
+ Anybody who wrote my book, they might remember this moment after the doubt attack where the white hats had figured out how it had happened, but then there was this gigantic pool of money that was still sitting in the vulnerable smart contracts that
+ anybody could steal once other people figured out how the hack worked. And so they have this kind of like debate I guess you could call it about like should they just go in and steal the money, the way that the hacker had stolen the money.
+ And they were like, well, you know, we could just tell everybody we're doing it to be white hacks and rescue the money are white hats, but then other people were like, Oh, right, but since we're doing the same thing that the black hat did like what if we go to jail.
+ So they waited until it started to be hacked again. And then they realized that they could use this justification like like exigent circumstances like, you know, urgent circumstances require them to rescue this money so
+ anyway, so that safe harbor thing is meant to address situations like that, I wouldn't imagine. Exactly. And one of the other triggers for that was the Nomad bridge hack, because that was one where similarly money just started being drained and then people realized like, wait a minute.
+ This is not some sort of sophisticated attack I can just go to this contract and say please send me all of the Bitcoin inside of you. And it would do it. And so that was one where also white hats were like I'm not sure should I do this.
+ Even I have like one incident in which I white hat sort of like a hacked a contract online where some somebody had to put up this kind of canary deployment contract where it's like, okay, there's some funds in here if these get hacked, maybe it means our system isn't safe.
+ And so for me like there was no safe harbor at that time. And so I just kind of tweeted at the person I thought deployed the contract and said, Hey, I'm hacking you right now I'm happy to return these funds.
+ If you would like me to, but yeah white safe harbor provides an actual like on chain guarantee from the protocol in fact I think Lido just adopted yesterday as of recording this Lido adopted so late December 2025.
+ And now I think over 50 billion in TV L under this protection, it was used for the first time during the balancer hack so this was the first time that during the balancer hack there were some white hats that were able to actually rescue funds under the
+ safe harbor agreement, because balancer had adopted this on chain legal agreement.
+ Great. Okay, so let's now talk about something that's not only been a huge trend in crypto but pretty much all of tech as far as I can tell, which is that companies are accidentally hiring North Koreans.
+ So explain you know more about this trend, why is it that North Koreans are going after these these jobs, what are the ways in which you once they have them they are either stealing crypto or enabling crypto to be stolen by other North Koreans, you know, when they are employed.
+ So I can take this one. Basically, the PRK from what we know and what we see what the research has two goals when they when they when they make an IT worker, how we how we call North Koreans that get hired by these companies.
+ Right. One of the goals is to hack that organization, right, to steal some money from that organization or from their users or clients. And then they have an air goal that is to earn the salary, right.
+ Because many times they have one IT worker working for five different companies and getting five salaries, so they they also make use of that right so they have these two goals.
+ Then inside organization, let's say that they have two levels of people right IT workers.
+ Level one is people that go and get hired right by these companies, or people that go and do soldier engineer to infect our people right.
+ So the goal here is to put the first foot in their infra right so let's say some company is looking to hire a solid developer.
+ So they have applications received by well through organizations are from North Korea nearly half of the applications received and these applications look very good but one of their biggest red flags is that they know all of the languages and they are
+ at everything right. So they basically get hired right and they put their their first their first foot inside the infra right so they have some access right because now they are employees.
+ And then after having these initial access, they let's say pass the task to someone who is more advanced and these people know how know how to move laterally in an organization and to start doing privileged escalation right how to how to scale.
+ And then from there the goal is to steal as most money as they can right. You know that the number the biggest reasons why North Koreans are not detected.
+ So actually is that they are very good at what they do they they generate they generate very good code. They work a lot. And they never complain right that that's that's the number one, then the three biggest reasons what they are not detected.
+ So this also changed a bit in the past we used to see that most of the organizations were DPRK people were detected.
+ We were organizations that had hired someone that was anonymous right because it was something very, very common included to have an employees.
+ I think that that cannot be done anymore. I mean if you are a founder from a company.
+ You should know everyone may opinion in person if you don't know someone in person you should not hire them.
+ And I'm not higher anons right. So then this started changing a lot companies started carrying people that they could see in a in an interview like this or that they could do a background check.
+ So North Korea also changed their strategy. So first they started carrying laptop farms in the US, right. What is it that what what is a laptop farm is basically some US citizen or someone that lives in the US.
+ Who is sent a laptop from North Korea or from China. They have to turn under these laptops connect them to the internet from their homes. So you have an IT worker connecting remotely from North Korea and working from this device.
+ But then the company that has hired this North Korean things that this guy has an AP from the US right.
+ Next step was that I'm sorry. I don't know if I fully understood that like so they get hired somewhere but then North but oh sorry sorry so the North Korean person gets hired.
+ And then they get a computer, but that computer has an IP from it from the US or I didn't follow.
+ Yeah, so they get hired let's say by Apple right. So then after being a hard way Apple they send a laptop from themselves to the US right to some to to some guy that lives in the US.
+ This guy connects this laptop from North Korea in his home. Right. And now North Korea connects to this computer remotely. Right. But they work for for Apple from this device showing that they have an IP from the US.
+ Right. And how is North Korea finding that person in the US to take the employee to take the letter. Well, these people that first they used to do laptop farming. And now they are also selling identities.
+ They don't know that they are working for North Korea. They just think that they are working. They are helping someone from Singapore or from South Korea or from the Philippines at that they are helping them land a job in the US that they cannot land because they do not do not live in the US.
+ Do they connect like on a message border like where, where are they finding these random American. Usually they are like telegram groups read groups but most of the stuff happens in telegram groups.
+ I mean this is also something that is used by legit people right that live in some country but they get a job that says that they have to live in the US. Right. So they do this and they are not the workers.
+ They are not following all the laws from these companies but this is something usual right.
+ This was the first step. Then this changed right because companies started doing a bare background checks and also asking you to have your camera on all of the time right.
+ So you guys now pay us citizens to go and do the interviews they sell they send them the script. They do the background checks they do the KYC they connect to the daily calls to the weekly calls and they have a script of all of what they have to say.
+ So you have a company and you have hired someone from the US use you leave the background check you see them in calls and everything but the real person working behind that is an active worker.
+ That's super scary quite sophisticated and not so easy to detect.
+ Wow. Okay that that is crazy. Okay so I mean for crypto companies how can they avoid hiring this type of person who like you know or it's really a duo at that point.
+ Yeah yeah totally because I want one more thing and I let you I said to go this one more thing that it's very important to know is that once you detect like from sale.
+ We detected many people detected lots of active workers working in different companies.
+ It's you detect that some company or some protocols has an active worker working there. It's not so easy to remove them. It's not even easy to report that because maybe it's the it's the city or maybe it's someone that has access to everything so
+ if when you report that this person gets to see the report in some way and they know that they have been found they will get or do as most cameras they can right.
+ So whenever they are detected it's also very very difficult to remove them because most of the times they have lots of access.
+ Yeah and I actually wait before before you answer how to not hire them. Let's do so once they get in the systems how are they taking the crypto.
+ Well most of the times it's a private keys private leakage or sometimes it's introducing a Boolean code in contracts and then making use of this code that has not been detected but most of the times.
+ Private key leakage. Okay. Like meaning the companies assets not user asset. Okay. Yeah. Okay. Maybe the developer that you hired. Again, these are talented developers. They might have been a great job for a long time developing your smart contracts.
+ And then one day you wake up and all of the money is gone because you know they held the key to the contract. And there are ways of kind of protect like through a proper company operations around containing access control risks and stuff like that.
+ So I'm not even realizing that. But it really just is. Yeah, it's super challenging to deal with. There's a one thing that the security lines published recently is a website called Lazarus dot group, which is kind of funny.
+ It's like a parody consulting website of all of the profiles of known IT workers. And so highly recommend go to that site look at the team page. And if you recognize anybody on that page you might have a IT worker at your company.
+ It's just as published that they're getting more and more sophisticated so it's quite challenging to do. But at least like some companies I speak to have now policies where they have to meet somebody in person at an event somewhere in the world.
+ But these are, you know, increases recruiting budgets and that's even more challenging to do so information sharing between companies can help.
+ But it's far from a solved problem. Yeah, I mean I think like what the issue would be too is that there's so many new crypto companies that are popping up all the time.
+ And it could be people who maybe, you know, don't have as many connections in the industry or like they haven't been in the industry very long and so they're like not as aware of these issues so you could just.
+ Yeah, see, yeah see this happening more like on the fringes.
+ All right, so what, what would you recommend that crypto companies do to not hire either North Koreans or basically any bad actors whatsoever. Although, yeah, maybe let's start with North Koreans since it sounds like there are particular, you know, kind of traits of those workers.
+ Well, I would say, first of all, if you're hiring someone that person should be recommended by someone else. It's true that we have lots of new people coming into the ecosystem, but you should have always someone in common, some connection or someone who can
+ bounce for you. Right, that's in number one. Number two, as I was saying, obviously making calls with live video and checking that the person on the other side looks legit.
+ Fake video today looks very, very good. In fact, something that we recommended to our clients is that during every call, when they call a start, even if it's with people from your team or people you don't know, everyone should do this.
+ When you have a filter that changes your face, which are very, very good today, when you do this, that filter breaks, right. So that's one of the things to check that the person on the other side is legit.
+ When language and cultural consistency, right, many people say, okay, yeah, I live in Singapore or I live in Canada, and you make basic questions about the city where they live, or what they do, and you find that there are lots, lots of caps.
+ And then as we were saying, I think that every call, every daily weekly or anything, they should always have cameras on for everyone. It doesn't matter where you are. If your house is tidy or not cameras always on.
+ We know that they can fake this, but we make it more complicated for them, right, we never have 100% of securities securities about adding layers. So the more complicated you make it for them, the less return of investment that they have.
+ Then also something very important is cross berry fine identity, right, for example, doing, aside from doing an interview in the background check, doing all things right on this person, and finding maybe that you are interviewing someone who doesn't have a history and the Internet like this person did nothing on the Internet from 2000 to 2025.
+ There's nothing about this person.
+ Wait, and I'm sorry, to go back, you said to do, oh, sent on the person. What does that mean.
+ Also, it stands for open source intelligence, right, and it's a technique used by law enforcement agencies, military agencies, investigators, people working in security, and it's basically finding anything about a person, both in the deep web, dark web and surface web
+ leaked credentials, passwords, ky's information, passports, where you live, your work address, lots, lots of data. And if, for example, you don't find anything leaked about someone, that's a red flag.
+ It's full of leaked information about all of us, right. So that's something very, very useful.
+ And then something, two more things that I want to add that are pretty simple is that many times we have seen that after the IT workers have been detected, when the addresses where they are paid are checked, we find that then they consolidate
+ all the money in one sim address or that they send us to some exchange in China. So, for example, you are seeing that you're paying your employees in some addresses, have those addresses checked with some tool like check analysis, elliptic
+ or something like this. And also check where those funds are being sent. Because if you are hearing someone that supposedly is Canadian and lives in Canada, why are they sending the funds to an exchange?
+ An exchange in Russia or China, right. And then one last thing is post interview.
+ You did an interview to someone you really liked it, wait three days and check if the profiles still exist, if something changed, right, because usually these guys create lots of profiles when an attack is successful, they delete it, right.
+ And while they are doing an interview with your company, they are doing interviews with chat more companies too.
+ And many times to erase the traces, they delete these profiles or they change their name or something. So do an interview, wait three or four days and check if everything still looks the same.
+ Wow. Okay, that is, yeah, that's really interesting. All right, so in a moment, we're going to talk a little bit more about what it is that crypto companies can do in the hiring phase to prevent these situations.
+ But first, we're going to take a quick word from the sponsors to make this show possible.
+ Mantel has entered a new phase as the distribution layer connecting tradfi and on chain liquidity. To accelerate this vision, the Mantel Global Hackathon 2025 is inviting developers to build scalable RWA and DeFi products.
+ Why build on Mantel? It's an ecosystem built for builders. You get direct access to buy this 7 million plus users for potential listing exposure, support from the $4 billion Mantel Treasury,
+ and mentorship from top VCs like Spartan and Animoca Brands. With six tracks prioritizing RWA's and RealFi and a $150,000 prize pool plus grants,
+ this is your chance to deploy on a high performance modular L2. Register now. The link is in the show notes.
+ Hey, founders and developers. If you're looking to bring on chain trading to your product, wallet or platform, check out the new Uniswap Trading API from Uniswap Labs.
+ It's your plug and play gateway to global on chain liquidity. No deep crypto experience required and no need to manage complex integrations or ongoing maintenance.
+ With the Uniswap Trading API, you'll get enterprise grade on chain execution, combining both on chain and off chain sources for the most competitive prices.
+ Simply put, more liquidity, less complexity. And this isn't just any API. It connects directly to the Uniswap protocol, which has securely processed over $3.3 trillion in total volume with zero hacks.
+ So stop worrying about liquidity infrastructure and focus on building your product. Get access to the same liquidity that powers billions and swaps through one powerful API.
+ Visit hub.uniswap.org to learn more.
+ Back to my conversation with Pablo and Isaac. So as we mentioned, there's a high probability that at least some people that any, you know, crypto companies interviewing are North Koreans.
+ And so for that reason, I would imagine that, you know, you would advise them to almost like assume they have somebody like that on their team, you know, just to be super safe.
+ So like what other practices should they follow to make sure that even if they had someone like up like that on their team that no user funds or none of their funds would be lost.
+ Yeah, I think that part of the problem here is that in a with a crypto startup, you can go from like just launching to suddenly being in charge of tens of millions of dollars of people's funds kind of overnight without kind of a gradual build up of a internal security
+ capability. And so it's really hard to have somebody on stuff that's like just focusing on this stuff but there are a few principles to take when just setting things up, which part of it is just, you know, housekeeping but like really important housekeeping
+ of how you're configuring things. And to me, it's all about minimizing the blast radius of one of one specific thing going wrong.
+ And so if, for example, you have multisigs in your protocol that are holding all of the funds you raised from your investors and they're controlling all of your smart contracts that can upgrade all of them and has all these emergency functions to like pause things
+ and withdraw things. Pretty bad idea to have all of that concentrated in one place. It's much better to spread things out and make it just harder for everything to go wrong all at the same time.
+ So introducing slowness and friction as a feature in places where it makes sense. So if you are doing things that like if there's a inability to completely upgrade your protocol and steal all of the money, making it so that one developer can't just do that without
+ even seeing a transaction go on chain and being staged to do that so making it so that things that should take a long time are in force to be slow, so that you have opportunities to catch things and having proper controls around access control even on your
+ infrastructure. And so a lot of this stuff it's very easy as like a developer in a startup to get a little bit lazy and just think okay on board of this new developer, I'm just going to give them root admin access to everything on AWS just so that I don't have to deal with like
+ giving them access to this and this and this. And it's hard not to be lazy, but it's really important to actually minimize like even for because it's not just against like a malicious malicious actor. It's also maybe you make a mistake at some point and so always think about like, do I really need everything to be like
+ upgradable in one instant and have like one access point for in our entire infrastructure or are there places that I can introduce friction to make it so that if something goes wrong, it doesn't all go wrong all at the same time.
+ Yeah, I mean, and we can talk a little bit more about what happened on the no sis safe side but I just wanted to call out something about what happened with buy bit which is just like it always blew my mind that they didn't even do a test transaction like they just did it.
+ What going by billion all at once like I like because doing a test transaction does not take very much time it adds to maybe like a minute. It doesn't but I have a bit of a controversial take that I sometimes advise not doing test transactions.
+ Because just because of address poisoning. And so to me like the proper way of doing a secure transaction like when I talk to people that are receiving funds for investors or do your settings stuff they're like, how do I properly verify this address of this thing that I'm going to send money to
+ if your process is you the collective view if your process as people that hold crypto is send a test transaction for a dollar wait to be received and then send the full amount.
+ That's not sufficient, because where are you getting that address the second time it's really important not to copy that address from your wallet transaction history.
+ And so for me sometimes I feel that test transactions are a place to introduce the risk of an address poisoning attack.
+ And instead what I would do is like have different controls where like I have an address book that I verified a signature from the person that is receiving the funds.
+ And I've put that address into my address book and I only ever copy it front and I only ever do it from my address book from inside the wallet.
+ And I never so I personally rarely if ever do test transactions just because there's other parts of the process that I think are more robust.
+ Interesting. Yeah, I guess I would never copy from the transaction I would copy from like I would use the original copy. Yes, which is good. But like there's there's ways there's so many places I can go wrong. We see I mean somebody lost what $50 million last week because of this, because they did a test transaction copied it copied it
+ from the ether scan transaction history or their metamask transaction history and pasted it in, I don't know if it was metamask copied it from their wallet transaction history and pasted it in to send the rest of the amount.
+ And getting like worse and worse, like I had a friend who I being in security I often get a lot of DMS from friends being like I'm about to do this really high value transaction can you just watch me do it.
+ And I watched them do a test transaction and I saw immediately within second their wallet is populated with so many spam addresses. And they knew they were like okay I'm not going to copy from those I'm going to go back to the invoice and copy from the invoice again.
+ But it's just like it's yeah I wonder how much money has been lost because somebody did a test transaction instead of just like not doing it. Oh wow. Okay, interesting. Yeah, and we go into the root cause of buy bit a bit more because I think it's interesting.
+ Like Pablo and I some for a while we were just doing these like weekly calls or we just kind of hang out on a Friday morning have coffee and like look at safe and think like what can we do to like hack safer.
+ How can we make the same wait wait wait before the buy bit attack or after.
+ And because after the buy bit attack, Pablo and I started getting a lot of requests from people like hey come train us on our multi zig and so we thought let's just like have a fun like morning every week where we just like play around was safe and you what we can do to cause
+ it to go wrong.
+ And so we went in really deep on like root calls and what happened there which test was actually would not have saved them to summarize.
+ Yeah well go ahead and tell us what you learned because I'm so I'm going to reveal that they were supposed to come on the show to talk about it.
+ Yeah, so there's a there's a few different parts of the of the root cause of like and I'll just say there's multiple places that this could have been caught before before it eventually before it happened.
+ One thing to be cautious of on root cause investigations on Twitter especially your ex is that everybody wants to be the first one so like always be skeptical of the first root cause investigation you read after an incident.
+ Like I remember after balancer people were like oh they didn't have access control that was not the root cause. And so what I'll say is just like what I know about by bit is based on what I understood from what happened on chain, plus some stuff that I just kind of read in reports
+ and so take some of it with a grain of salt, but the from my understanding like they will buy it was particularly was specifically targeted. There was a compromise in a API infrastructure, but it was specifically by bit that was targeted.
+ The attackers could have targeted a lot more people, but there the code was specifically targeted to change the UI to change the interface of safe when the by bit people were going on to do their transaction.
+ And I think that the way that that happened or a valid way that that could have happened is basically somebody reached out to one of the developers at Dave was like hey, can you help me with this engineering problem.
+ Oh sure I can help you as this engineering problem like people want to be helpful. That's the problem with social engineering is like it exploits the fact that people generally want to help each other.
+ So if some developer reached out to me and said hey I'm having trouble compiling this code can you download this repository and see if you're getting this same error.
+ My instinct probably a while ago would have been yeah I'm happy to do that people on the internet help me when I was learning how to code so I want to help other people learn how to code, but that is a way where if you run this code on your device and unprotected way that can like then get a back door into whatever
+ you're looking for and that is one valid way of how this actually could have been introduced into safe API, which made it so that when the people working for by bit went on to do their transaction, they saw this this transaction.
+ The transaction that they thought they were signing is not the transaction that they were signing and the transaction itself is actually very sneaky.
+ I think that the the method. So when you're doing a transaction, the data that shows up on your wallet is it depends on a few things it depends on like the way that the method is named in the smart contract.
+ And so like what I mean is like if you're doing a transfer of tokens, a transfer will generally always show up as like similar encoded data on your on your wallet no matter what, whether you're sending us dc us dt or anything else.
+ All using the standard. So the attackers made a trend made a function called transfer inside of their exploit contract.
+ But what that transfer function actually did wasn't transfer tokens. It was to do some really sneaky upgrade of like a specific piece of storage inside of the smart contract of this faith that changed the implement to a malicious one that allowed the attacker to take all the money.
+ And so it wasn't a simple like oh we sent the money to the wrong place. It was that they called transfer on a contract that wasn't verified on ether scan.
+ And they called it using a delegate call instead of a call which is another like technical thing you would never delegate call a transfer. It's another like a weird tangent.
+ Like the Bible folks could have called it if they were doing transaction verification, but it was also very sophisticated and in how it was engineered to get around a lot of safeguards that if they even had the safeguards in place.
+ Like me if they had, you know, call data decoding, it would have decoded as a transfer, which is like a weird like edge case about this investigation as well.
+ Oh, wow. So, even then, wait, but I need to understand that so basically it's just that it either use the word transfer or it literally looked like a transfer, but actually what was happening on the back end was that the smart contract was being upgraded to a malicious contract.
+ Yeah, it looked like a transfer to like a certain depending on how the wallet worked. The data that was included in that transaction would have should could have shown up like oh this looks like a transfer.
+ Like it might have just kind of deep if you hovered over the data if like some of these things that are like hover to decode data that are there to help people because you can't just read hex.
+ But it might have tricked something like that to be like oh this looks like a transfer. There were other flags like there was a something that should have been a zero was a one but that's hard to detect, and other things like that.
+ But like, yeah, it was made to be very, very hard to catch.
+ Oh my god. Yeah, I guess the thing is like, any one person working in crypto is working on security like for part of their job or like are just for whatever is in their control.
+ Korea has, you know, some army of people that are working on it all the time and know how it's all interconnected so like even if you know you have your little fiefdom, you know locked down like any time you transact with another person's fiefdom or
+ companies fiefdom, then they, they can use that to hack you so yeah there's no hiding there's no there's no hiding at any scale right like the second that you've just played anything you're a target.
+ Oh, go ahead Papa. So something that I was going to say about that is that when you protect the company when we do, for example, the audits, you have to find all the weak things all the whole you have to find all of them.
+ You just need to find one. And that's that that's something very, very important. And then something key here is that you can have the best teams, the best systems, the best everything if you don't train your team in order to understand and to be able to recognize
+ the engineering, it doesn't matter what you have your company will eventually be hacked. It's not a matter of if you will be hacked, not it's when, right.
+ And then before you, you when we talked about what companies can do regarding native workers I wanted to add something interesting that is, there's something called least privilege policy, right.
+ So, the first policy is basically a concept where any user or any application should have the minimum permissions that they need, right, even founders, right, it's very common when we do these audits to see that the founders have access to everything
+ right. And we should know that anyone in an organization could be hacked. Anyone could be threatened or coerced physically to do something or anyone could become evil right or anyone could be an active worker.
+ If you sign your security framework, knowing that that anyone can be can be evil basically because should choose into that or being coerced, then you, you, you configure everything in a very different way.
+ For example, me or anyone that we advice working in crypto founders should not have direct access to funds, right. If I want to move funds, I cannot do that.
+ The tax that we have been seen lately is because of that, that people usually have direct access to move all of their funds, right. So when you are developing a good security policy, you should know that no, I must not be able to move
+ important funds because if you can, the day that you have a gun pointed to your head, you will do it. Obviously, you will do anything that you that you can. Yeah, and just a one further step is it's one thing to have these rules in place.
+ But someone once told me something that sticks to me is like the most the place to look for in the place that I always start when I'm doing an audit of a company is who has the power to change the rules.
+ And so it doesn't matter if you have the rules set up in the right way. If the access control to change those policies is still highly concentrated. You're just as like you're just as just as bad off as if the policies weren't there.
+ And so we see that a lot when when Pablo and I talked to companies that want us to look at their, like custody configurations for for their custody tools like fire blocks and fortify. We always ask like what what who, which account has the policy to change these policies and
+ like how many confirmations does it require to change these and sometimes they're like, Oh, like, yeah, we just kind of the account that can change the policies we make it as dead account that like nobody can even access and it would take 30 days to access this account.
+ Like that is it's really important to also think about like the where the power lives to change the rules that you've configured in your organization.
+ Yeah, and, and then I would add one more thing that is one thing is to have a plan and the playbook, but it's very, very important to train it to test it to do like a library. Okay, let's simulate that we were hacked.
+ And your Google account was empty and your metal so what do you do. Okay, we'll do this. Okay, go and do it, because if you don't practice it, then it doesn't work and I will give you a very simple example.
+ Three months ago, I got the pepper spray to have with me in my car when I drive right I have it there by me.
+ I was in a traffic light with my kids in the car, a crazy guy, he was crazy, came to my my window and I started punching the window. And I, I didn't, I didn't remember that they had a pepper spray in that moment, because I was never trained to do it.
+ So having rules, having play books, having policies, but also doing this real trainings and tabletop exercises, it's key.
+ Yeah, yeah.
+ Yeah, this reminds me of like, yeah, just basically any, any time you, you, yeah, know that you need to do something at a certain point like knowing it intellectually and knowing it like in your body.
+ It's all like it running. So, okay, so we, we're, we're actually like well into this episode, we have not gotten to everyday people, which we definitely should talk about.
+ So let's just talk. So, because all of that was, you know, companies. So let's talk about the most frequently is that people get their cryptos well and I know we kind of already talked about social engineering.
+ I don't know if there's like more that you want to add on that, but then, you know, obviously we should go into various tips.
+ Yeah, probably might have probably probably has a more comprehensive list to meet than I do, but like at least the ones that come to my mind are like trainers.
+ And so back when like air drops were happening more frequently in crypto, I mean, I guess there's still somewhat happening, but it was very common that like people would click on, you know, a malicious air drop link or like, or somebody posts like a company post something
+ on their Twitter and crypto and then somebody replies with like a, like if a company could be disclosing a hack and they'll say, and then some attacker comes in and says, hey, submit your claims here to get your money back from this attack.
+ And so like just clicking on these malicious links that trick you into signing malicious transactions is quite a common one, which kind of falls into social engineering, but it also falls into just like, you know, clicking on the wrong thing, whether it's a malicious
+ Google ad or a malicious air drop link, or something that somebody DM me one telegram pretending to be somebody else. But yeah, Pablo, what are you, what are your like top ways that like normal people get wrecked.
+ Yeah, what we're seeing is, first we have the classical soldier engineering cases that are founders are being approached by fake VCs, devs are being approached by fake recruiters recruiters are approached by fake candidates, VCs are approached by fake startups
+ and key opinion leaders are approached by media and podcasts right fake.
+ That was literally one level two is they don't create a fake law machine profile to contact people, but in some way they had your telegram account, your Twitter account, and from your real account from your real telegram they start contacting people.
+ That's happening a lot.
+ So you say, okay, I'm receiving a message for lorishing, it's her profile. Yes, her profile. She's been followed by anyone. Okay, this is legit. And she's suffering me an interview. It's legit.
+ So that's something that has been happening a lot. So even if you're contacted by someone that, and that contact comes from a verified account and account that we know or someone we talked, let's say that I met Isaac in FCC.
+ We took a photograph, we started talking in telegram and they he sends me to go into a call. That could not be him. In fact, something that they are doing today is this. I meet someone at it's easy.
+ We take a photograph. Then this person in some way is hacked through what through a fake job interview right when they are doing the job interview, they recorded this person right.
+ So then when this person has his teller and account hacked and they contact me, they invite me to a call. I get into a call and I see the video of the other person talking, but I do not listen.
+ But the video is real, because it was recorded from the original time they have this person. So it's only, hey, I cannot see your what I cannot listen you they put in the chat.
+ What do you say? Okay, I know this person in in person, we took a photograph. It's it's her or him in the video. This is totally legit. I will download the driver. That's it.
+ And so this is getting more sophisticated. And something that they want to adhere to to understand the sophistication is imagine this.
+ Someone says, okay, we want to hack this founder from this if I protocol, but we know that he's sophisticated. His cue will not be falling to the trap of the meeting or this and that.
+ So what do we do? Okay, lawyers and accountants. They have very bad security. So they hacked the lawyer. They get into the lawyer's inbox and they see that this founder is waiting to get an agreement from this lawyer about a say for something next week.
+ So next week, the day that this founder is waiting to receive this agreement draft. That exact day. And from the lawyers email, they send the document, but it's infected.
+ So you receive something from someone you trust. You receive something you're expecting from the real email. And everything is legit. Is there something to be suspicious? No.
+ And that's the reason we say that we should like everything is an scam until proven otherwise. And you should have second barriers of protection, right? And here is where I go to the recommendations for people.
+ Eventually, we're all gonna be so gendered. Me, I said, some soon, anyone, it doesn't matter how difficult you are. We are gonna be so gendered. We are gonna download some malware. So that's why we should, first of all, try to do interviews or calls in a separate device or something like that.
+ But also something as simple as have an antivirus or pay for an EDR antivirus are $30 per year. People think that because of having a MacBook, there are no viruses, no malware, nothing. That's a myth.
+ Pay $30 for antivirus. Nine out of 10 cases encrypted that we see nowadays could be avoided just because of having an antivirus, right? So that's first thing. And second thing is we keep on seeing people losing millions of dollars because of having money in hot wallets, metamas, gravity, wallet, exos, whatever.
+ That's not, that's not smart, right? If you have more than $2,000, please get the power wallets, transfer it there. And now the important thing, the seed phrase, where do you put the seed phrase? All in paper, all in paper, and that's it.
+ No, a complex single or nothing. We are seeing lots of cases. I personally estimate that 20% of people in crypto saved the seed phrase where in a password manager, right?
+ And we saw that three years ago, last pass was hacked. And from that last pass reach, as Taylor Monica from Metamask has been tracking and researching, more than $300 million have been stolen, right?
+ So, my two takes there, one, get an antivirus, and two, how are wallet and your seed phrase only in paper? And if you're not 100% sure, oh, yeah, I think I put it in a paper, but maybe to the photograph, I put it in.
+ And they are not sure creating new address and move everything. And I know that this may seem basic, right? And we are talking about the first thing that they tell you when you get in crypto, they have your seed phrase in paper.
+ But we keep on seeing millions of dollars being stolen because of this, right, daily.
+ And what about the new set of where a lot of it is biometric, like, what do you, so obviously, you know, there, there will still be a seed phrase associated with that but like, do you feel like that is safer or, or are there still a lot of pitfalls.
+ But personally like stuff like that for convenience, but it's all about, like, limiting blast radius again it's like, don't have your entire life savings in one, in like the biometric controlled thing in your, on your, like, on your hot wallet on your phone.
+ Move, have these things in, in, in multiple places. One, because you might make a mistake one day and accidentally send it like, I also heard I was at a security conference and somebody told me this kind of funny, not an anecdote.
+ But imagine if when you went to pay for a coffee with your debit card, if you could accidentally pay with the deed to your house.
+ Like, that's what happens if you have all of your money in one wallet in crypto and you go to do one thing and suddenly absolutely everything is gone.
+ Both to avoid the mistakes and to minimize the blast radius just spread things out use custodial tools if you want use, use like, use a safe for your own account with like multiple wallets if you have like long term savings.
+ Just, yeah, if you're on your phone all the time and you need to be constantly like betting and, like, degenerating into various things like, then you kind of have to accept that as your risk.
+ But if like you want to keep things a bit more long term then yes, spread things out and actually be careful.
+ And how do you guys manage having so many different addresses and wallets because, you know, if you're putting in a spreadsheet but then your Google account is hacked or whatever because that's another thing it's like, I don't know how many times
+ you've heard somebody say oh I randomly found an old wallet, you know, and oh I had, you know, X amount of money in there, and it's so clear that like, yeah, you can just end up with so many wallets and so I'm sure people are organizing them but when they do it, that could be another attack factor.
+ It could be I'm a little I'm unsure about that because I personally like I've had that issue and if I call it like shaking out the crypto couch cushions once in a while where it's like oh, like I should go through all of the random old accounts from six years ago and see
+ in these, there are like, you know, portfolio tracking tools that yes are kind of if I enter in all of my addresses now they're correlating all of those addresses back to me is that a risk I think so but also like yeah I mean that's just a normal kind of hygiene
+ and laziness is like I know that having all this stuff spread out is like potentially more annoying.
+ But yeah, there are, you know, portfolio tracking tools that make it easy enough.
+ Yeah, I also think that many times we try to to to over complex some stuff and the cases that we see are very basic how they are happening.
+ But anyways regarding tracking I agree with Isaac.
+ Um, you have apps where that I have to do this but what is very important is to know that then we have a leaks, right, for example, coin market cap, the database was leaked.
+ So in coin market cap you have the portfolio versus the portfolio section feature which is great but if you have your portfolio there and then it's leaked, you're done.
+ So with the ledger leak, the tracer leak, and we're all done. They don't have your money. Well, just like your target. Yeah, sorry, you're, you're, now you're a target.
+ So something that they highly recommend is everyone should at least have three email addresses, your personal or for your personal email address, your work email address, a private email address you don't share with anyone and doesn't have your name.
+ And what do you use this address for, for example, to have a spreadsheet with all your crypto assets but also to use this email in your password manager, in your apple ad in your 2FA application right.
+ You should not use your public email in a password manager or as your apple ad your apple ad should be private nobody should know which one it is.
+ You also have another email addresses, another address for just signing up in crypto events or buying stuff or this or that.
+ That can also be replaced by this apple relay service where they change your your email address, but having that that in a separate let's say identity, I think that it's very, very important.
+ And so all of this is around self custody, but then obviously there are a lot of people that choose to go with a hosted setup where they are trusting a company to secure their crypto.
+ So, you know, what would you advise users to kind of like check either when they're, you know, deciding which company to go with, but then also when they set up that account to make sure that, you know, that doesn't get hacked.
+ To start, I think that probably might have some good advice on things like, you know, past keys and stuff but for me it's like, this is a case where I would probably try to go as name brand as possible.
+ Like if they're if you need to go with a big custody provider for, you know, setting up some long term account for a future inheritance of your grandchildren like maybe go with a company that's been around at least five years, maybe, or like have a really good reason for going with a different one.
+ They should have, you know, potentially, you know, I, something that I would probably look at is looking at things like, you know, insurance do that these custody providers have insurance against like operational failures.
+ But yeah, on the account setup itself, probably you might have some advice on things like, you know, past keys and stuff like that.
+ Yeah, first of all, we should know that that it's not an Olin, or I have everything in my ledger or I have everything in multisig or I have everything in a custodian.
+ No, I think that first of all, it depends on your knowledge. If you're not technical, you don't want to handle a hardware wallet or a multisig or whatever, the best thing for you probably is a custodian, right.
+ But then it's also a very good idea to say, I will have 25% with a multisig with save, 25% in a ledger and 50% with a custodian. I think that that's very, very good diversification is always great.
+ And then about creating these accounts, yeah, as Isaac was saying, first of all, do it with a private email, right, not your normal email.
+ Second, try not to put your phone number anywhere. Do the exercise of waking up and your phone number is not your phone number anymore. It has been seem short. Now it's contrary to someone else.
+ So no phone number. And if your phone number is mandatory, your phone number should be private, right? You should not have a phone number that you're using important things like a custodian or your Apple ad under your name, right?
+ No. Third is unique password. This is very basic, but we are seeing a lot of people having a very complex password, but repeating it everywhere, right? So what happens?
+ You have the same password in some basic custodian or an exchange and also in some event that you sign up for some crypto event or in even right or this or that. So one database is leaked that password is leaked, then they are going to try it everywhere.
+ And then last thing. Well, one more thing is true, right? Two factor authentication. We do lots of research on this. So the summary or the take is, first of all, never do it with phone number, obviously no SMS.
+ People are very used to thinking that the proper way to do to a face is Google authenticator, Microsoft authenticator or healthy. That's not true anymore. Why?
+ If I send you a phishing website of Coinbase Prime, you enter the phishing website and you put your username and your password.
+ And in the next screen, I ask you for your 2FA code and you go to Google authenticator. You choose, you check the code and you enter it. You're giving the first and second factor to a third factor.
+ Your account is taken over, right? The only thing that that is anti-fishing resistant, right, regarding 2FA are hard workies, right? You with kids, for example, or the tight end kids from Google, those kids, they are like 60 bucks.
+ When they are properly configured with something called FIDO 2, that is basically storing a past key inside these devices. That cannot be finished. That's the most secure thing.
+ So in a summary, private email, no phone number, unique password, UVGIS. If you do that, you should be totally fine. And the most important thing, as Isaac was saying, insurance.
+ I would choose one of the three biggest providers and they would check that they have a good insurance policy.
+ Yeah. And this is a, I know that this all sounds very daunting and it makes, you might not even want to hold any crypto whatsoever.
+ And just to be clear that all of these rules to me are like, this is the stuff that you want to hold on to for a very long time and it's like relatively cold storage and you really care that you don't lose it.
+ It's also fun in crypto to have a hot de-gen wallet that you use for random stuff that if it gets hacked, you're not about, you know, it's not going to ruin your life.
+ And so like, use the right tool for the right thing. Use all of these like high security, put up all the walls around the stuff that you really care about.
+ But if you also want to just have a really low friction thing for when you're like messing around with new apps, that's not against the rules.
+ There are no rules. It's just accept the risks of like what you're using each wallet for.
+ Okay. Yeah. And also know that as we all know, we all have like a physician and we ask this person about our body.
+ We have a lawyer that advises us on low. We have an accountant.
+ The attack surface. And this is not only about crypto. It's about everything technology. The attack surface is growing. Our assets are now mostly digital.
+ We have banks, we have the syntax. We have crypto. We have stocks, everything.
+ So the attack surface keeps growing. Three factors are getting more sophisticated. So I think that if any person that has relevant money should have a security advisor, an operational security advisor or something.
+ And they should know that this is key, right? Because if not, eventually with time, we are going to lose our money either either with a bank or with a crypto or whatever.
+ And it's important to know that you can not know everything. We go to a doctor because we don't know about how the body works well in the same way.
+ You have lots of money. You're going to do a set up that you want to be the best set up out there and to keep this money for 50 years for your kids.
+ We go hire someone or ask someone or do your research, but spend resources, let's say, that can be time or money.
+ All right, so we're a little bit over time, but I do have two more questions for you guys if you have time. Okay, great.
+ So one other thing is that I'm sure you're very well aware that privacy is going to become a much bigger trend in crypto. We're already seeing that there is a resurgence of interest in privacy and Ethereum announced that prior, that, you know, privacy is now one of its priorities.
+ So I wondered, you know, if you thought that would affect our ability to go after bad actors, or whether it could also be used to help keep people's assets secure.
+ I think I can start. I think that, for me, yes, there is potentially a risk on the tracing side, but I think that that is, I think that we actually have the tools now where that's not really as much of a concern.
+ Like, as far as like mixing services to kind of break the link between source and destination wallets, tools like Railgun and privacy pools, and even actually original tornado had the ability to export kind of compliance compliance like notes to show like where my money
+ actually came from in case you got audited.
+ So I think that like, that's a question of making sure that whatever like kind of regulations and rules match what the technology can do.
+ I think the technology is there and it's sufficient to make it so that like we can have both privacy and accountability and have sufficient screening on these services at least the ones that function as mixers, but they shouldn't have issues like the previous
+ generation of services have as far as like the fully private chains. I'm not sure. I'm not. I personally am not a seal 911 fun tracing expert, but I'm, yeah, I, I'm excited to see that all of these privacy tools are coming in.
+ And I haven't seen a ton of pushback from the folks that actually do that tracing stay like no we can't have privacy because then we can't trace anymore. But that's more of a personal layman's opinion than somebody who's an expert in tracing.
+ I'm pretty sure that they know that if they were to say that then like the crypto community would turn on them more than set up them already have so
+ Well, I agree with Isaac. I think that the work from products like privacy pools is key here, because from one side, we want privacy for the users, for example, to stop $5 range attacks, right, so that it's easier for a day to day user to have funds and not everyone knowing how much funds they have.
+ So, but on the other side, you don't want North Korea to be able to use these systems to move solar money, right? So, pros like privacy pools that allow you to deposit assets and then take them out from their from to another address through a mixer and without being able to show
+ their ability. They have a very interesting feature that allows you to to have something called proof of innocence, right? So, proof of innocence means that let's say that we have a pool with 100 depositors, right?
+ And one of those depositors is North Korea. So, when I deposit money and then I withdraw it from the other side, I am able to demonstrate, right?
+ And I find that I am part of this set of 99 addresses and not this one. So, I can prove that I am part of this 99 addresses that are clean, right? So, in that way, you're able to give privacy to users and not privacy to third actors.
+ I think that that kind of solution. I think that it's great. I love that.
+ I think that we need, right? We need to solve issues with technology. That's why we are here, right?
+ All right. So, hopefully all the tips that we gave people will protect them from becoming victims. But if somebody's crypto gets stolen, what should they do at that point?
+ Well, first thing is contacting C911, C911 has a telegram bot where you can basically open a ticket there and explain what happened to you.
+ And there you will have people that will help you do whatever is needed, right? So, for example, they will help you try to understand what happened, they will help you save assets that were not stolen yet.
+ For example, they will help you secure all of your info and then maybe if you were stolen lots of assets, you will be contacted with a company that will then help you try to freeze those assets, right?
+ Most of the times, when we see money being stolen, it cannot be freeze or record or anything. But sometimes, right? 15%, 20% of those funds can be frozen sometimes. So, yeah, that.
+ So, first thing, contacting C911. And then if we were talking from the technical point of view, what I would say, if you were in an interview or something and something happened.
+ First of all, disconnect your computer from the internet. Second, get a different device and export your seeds into this new device. So let's say that you have metamask in your computer, you disconnect the internet from your computer.
+ You check the seed from the metamask from your compromised device, you enter it in a different device and you move your assets to a new address, right?
+ To have them safe because after your computer was compromised, they steal all your private keys, but they are encrypted. So they need to decrypt them. So they need some time.
+ These are detectors, but if you leave your computer connected to the internet and you enter your metamask password, you are making it easier for them.
+ And then you will have to change all your passwords and everything. And the most important thing, and they wanted to go this is reported to your company.
+ You may think that you were targeted individually because they just want some money from your from your hot wallets. But maybe when they did that, you work for some different protocol or some company.
+ And they also got some credentials or some access to this company. So if you don't report it, and then the company where you work was compromised or the first food in your infra was done because of something that they got from you.
+ And you don't report it. You're making things worse, because that will be known in the future. Right. So you're putting at least your reputation and the reputation from your company.
+ Okay. All right. So you guys, this has been an amazing conversation. But are there any other resources that you think people should check out online so they can learn more about how to stay safe before we wrap.
+ Yeah, I would just another plug for frameworks.securitylines.org re resource of all of the tips on how to stay safe as a user as a company.
+ During ETH, during dev connect, MATA from deal and from the Red Guild also published this guide called, I think it's like object while traveling, which I think you can also find online linked from seal frameworks, which is like how to stay safe when you're a crypto person who's traveling around.
+ Yeah, have seal 911 save so that you can contact them if you need to. And then just a brief plug for the fact that all of these responders are volunteers and seals and nonprofit.
+ If they help you save money, also feel free to consider donating to seal.
+ All right. Well, thank you both. This has been just yeah, just chock full of information and I hope it keeps people from having their crypto stolen and companies.
+ Yes. But if it does, don't feel bad. Everyone's being targeted all the time. It happens to everybody. So don't feel like you messed up if if it happens to you, it happens to everybody eventually.
+ Yeah, exactly. It's more common than we think.
+ Okay. All right. Well, thanks so much for joining us today, everyone. And happy holidays.

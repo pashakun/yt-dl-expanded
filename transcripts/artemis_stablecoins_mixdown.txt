@@ -1,0 +1,493 @@
+Welcome back to On The Brink, this is Nick Carter.
+I'm with Anthony Yim, the co-founder of Artemis.
+Thanks for coming.
+Thanks for having me.
+So this is a very auspicious day, this is our second report we've done together.
+That's pretty cool, man, what a great working relationship we have.
+Thank you, yeah.
+When I thought about the report, the first person I came to was you guys.
+I really enjoyed working with you guys last time and wanted to outdo our last report and
+come up with something even cooler.
+Yeah, I think this one blows last year's one out of the water.
+I think it was very interesting to do an actual survey of stablecoin users, but this is the
+holy grail.
+This is what people always ask me about, is it the same for you?
+Yeah, I do think that two reports are also pretty complimentary, one's like qualitative
+and quantitative.
+So I don't want to, I also don't want to like poo poo our work from last year.
+It's just, I think they go hand in hand and we just have a much clearer picture of what's
+going on and because there's just so much BS like metrics and stories and sensationalist
+articles out there that come up and I was just tired of it.
+Yeah, and you know, skeptics will ask me all the time, hey, well, like, okay, we see that
+there's 10 trillion or whatever dollars of stablecoin volume a year, but like, how much
+of that's real?
+Like how much is real payments?
+So I guess that's the premise of this report.
+So tell us about how we actually went about getting the answer, not the answer, but an
+answer.
+Yeah.
+Well, you know, I think I took a page from from the Nick Carter book of you can just
+do things.
+And so and so, you know, for the last really year, you know, as a data company, we've been
+getting asked questions by everyone in crypto and fintech of like, hey, how much steam coin
+payments volume is there really, how, you know, who's using it?
+Where are they?
+And so at some point, I just got tired of having no answer for for people.
+And I was like, wait, I can just go do things.
+And I just called up as many steam coin players in the space and be like, look, you know,
+we're trying to we're trying to like, lift up the space together.
+I think crypto has this bad rep where it's just used for speculation.
+We have all this like anecdotal evidence that it's not it's it's also used by real people
+for real use cases, but we don't have the data to back it.
+And so I yeah, I think with you, you know, I think I remember calling you up a couple
+of months ago and be like, hey, I want to try and do this report together.
+And and you were super enthusiastic.
+And so I think after that, I just started calling up all the major players like BBNK
+and conduit and getting them on this, getting them to share the data with us.
+Yeah. And I want to also shout out Dragonfly and Rob Hadek here because Dragonfly are
+our co-authors and partners on the report.
+But I mean, I think it's absolutely remarkable.
+We were able to get 20 different stable coin payment firms, whatever you want to call them,
+plus an additional 11 firms with estimates from from your team's wizardry based on on-chain
+data mainly for a total of 31 firms to participate.
+I mean, we know there's more, but we still bid off a huge share of the market.
+What's your guess of sort of like roughly how how much completeness we have in this estimate?
+My figure would answer is probably like 75 percent, 80 percent.
+What do you think?
+I mean, between Binance, BBNK, Conduit, Reap, those are probably the biggest ones.
+Bitso, Felix, Yellow Card.
+I mean, that is if you read the report, I think our exit estimate for stable coin payment
+run rate is 73 billion dollars as of February of this year, which is definitely more now,
+by the way, but that was just our cut off for the data.
+I guess the question is, like, how do you how do you think about that number?
+So let's say maybe close to 100 by now, 100 billion a year of stable coin payments,
+like real payments where we know who's sending, who's receiving.
+We know what kind of activity it is.
+How do you compare that against the trillions of stable coin settlement we see on-chain?
+Well, first off, I think we're very, very early and it's really exciting to be in
+stable coins because I did some rough math.
+I think for the B2B volume alone, it's been growing something like 400 percent year over year.
+And I was reading actually visas like earnings report from last quarter,
+and they had this slide on the TAM for B2B payments.
+I think they clocked it at 145 trillion.
+And so we're still less than one percent there with stable coins.
+And so I think we're exactly around like 0.03 percent or something.
+So three bit.
+Yeah. So our estimate for B2B is three billion monthly as of February,
+which is up from basically zero in 2023.
+Yeah, exactly. So 145 trillion, 100 billion.
+Yeah. So it's really okay.
+It's less than one bit.
+Less than one basis point of market penetration.
+That's funny.
+I was actually on a pitch call right before this explaining why I think stable coin
+investments are interesting.
+And I was like the TAM is all the money and all of the payments.
+And we have not penetrated.
+And even if you see these big chunky series A's for stable coin
+companies, we're apparently at one bit of penetration.
+Yes. My quick math is wrong.
+It's six bits.
+So yeah, but still, I mean, it's like minuscule, right?
+I can't even do the math in my head.
+It's just I had to use I had to pull up my calculator on my computer.
+So does this like discredit our estimate in some sense that we're only getting to
+around six billion, six, seven billion of monthly volume for stable coin payments?
+I mean, I guess we're literally still early.
+Yeah. I mean, I don't think so.
+I mean, and I know you, you know, we talked about this before too.
+I personally wanted a very conservative bottoms up like analysis.
+I think just because of, I think there's too many like top line numbers floating around
+that is not substantiated.
+And there's like no nuance.
+We know that state-of-the-art supplies are right at 240 something billion dollars
+in supply.
+But like that top line number is not, you know, it's like,
+it's kind of meaningless by itself.
+But by having bottoms up number, we know the minimum and it's growing a ton.
+And I think that that is a far more useful metric than something like random top line number.
+Yeah, I totally agree.
+And I think, I actually think maybe we can start to move away
+from those top down estimates a little bit,
+because there's been so much consternation over them
+between the Allium Visa estimate, the Coin Metrics estimate, the Artemis estimate.
+Those are just heuristics and you're taking like literally hundreds of trillions
+and you're trying to scrub out some types of transactions
+and determine what's a valid payment.
+What's in like some of its MEV, some of its exchange settlement.
+I mean, it's interesting because a stablecoin transaction
+for the purposes of trading or investment is not a non-economic,
+that's still an economic transaction.
+Yeah, but that's not a payment per se.
+So that's just to be so clear with this study,
+we're looking at payments in different modalities.
+Yeah, no, that's that's a good point.
+I think it's also in, you know, I think Citadel's like trading activity is not fake activity.
+Citadel is a real company backed by very real investors.
+And so I think that's a whole separate podcast about trading activity.
+But yeah, you're totally right.
+I know people are going to complain, so I want to anticipate this.
+We're sharing aggregates.
+Why are we doing that as opposed to going on a firm by firm basis?
+Yeah, I mean, first of all, I think this is a very novel study
+of highly sensitive data from each of these firms.
+And you know, frankly, these firms, the stablecoin space is very hot right now.
+There's a lot of competition and the firms just wouldn't
+be comfortable sharing their individual numbers publicly.
+And so the only way we can get any sense of like real bottoms up number is if I anonymize
+and aggregate the numbers into like an aggregate figure.
+But you know, we'll see.
+I think my goal is honestly to just show the world that stablecoin payments are real.
+And to the extent that these partners are comfortable sharing
+whatever they want to share, I'm happy to accommodate.
+Yeah.
+And I think it's remarkable that we got the likes of Binance and
+BVNK and REAP and Conduit to share data.
+I mean, people don't realize how big Binance pay is on its own.
+I mean, it's just an absolute behemoth.
+So I credit honestly to your team
+for persuading these PSPs to contribute their data.
+Oh, thank you.
+So another thing I want to add some color to is,
+you know, we go through and on a country by country basis,
+look at blockchain share and specific stablecoin share.
+Generally speaking across the study, I think it's fair to say
+Tether is about 90% of all the payments by volume.
+Is that right?
+Yeah.
+But there is a lot of variance on a per country basis.
+And partly that's because some countries just
+didn't have as many data providers active.
+And so, of course, you're going to see variance
+due to smaller sample sizes.
+Is that the right characterization?
+Yep.
+That's right.
+I think there definitely is some regional differences.
+And it's interesting to see, for example, that like
+USDC has a lot more penetration in India, for example.
+I actually don't even know.
+I tried to do some background homework on why that's the case,
+but I couldn't come to any specific reason.
+I'm curious if you had a hypothesis.
+No, that's a good question.
+I don't know the answer.
+There are some situations where the regional breakdown
+in blockchains employed does have an explanation.
+Like in Japan, XRP is actually used a fair amount.
+That's because I think the Japanese have an affinity for Ripple.
+Interesting.
+As far as I know.
+You don't know why that's the case.
+I don't have a context on this.
+I don't know either.
+I don't know why.
+I just know that it's a thing.
+And then in terms of the blockchains,
+we basically got similar results from our study last year,
+which was not identical, though,
+because Tron was the number one by volumes,
+whereas in our study last year,
+Ethereum was the number one by the survey.
+I think it was Tron, Ethereum, Binance, Smart Chain, Polygon.
+Is that right?
+Am I getting that order right?
+Yeah, I think those are the top.
+I remember the top three was Ethereum, Binance, and Polygon, I think.
+I was looking at this morning.
+On the subsectors, we have B2B.
+That's the biggest one.
+P2P is the most mature.
+It's actually flat.
+That's the only sector that's not growing.
+Then you have card link payments.
+And then pre-funding.
+Do you want to dig into a couple of those sectors
+and explain what they mean?
+Yeah, so for B2B, that's the most obvious one.
+So that's basically business-to-business payments
+that are likely, say, a retailer that is paying its supplier,
+likely across the border.
+Let's say you're like an Amazon store or like a retailer in Latin America,
+and you're buying goods from China to resell.
+That's an example of B2B.
+And then card would be stablecoin-backed cards.
+And so these are prepaid and debit cards
+that you can swipe at any sort of Visa POS system
+and basically pay the merchant in stablecoins.
+And B2C actually technically should probably be C2B
+because these are a lot of checkout volumes,
+as well as B2C.
+So these are like payout volumes.
+So if you're a business that's paying out for payroll
+or the other way around,
+you're a consumer purchasing something from a business
+and you're checking out with, say, like Binance Pay.
+That's volume that's included in this B2C bucket.
+Yeah, and then I guess P2P is what we're calling remittance
+or just Venmo-style transfers type thing.
+Yes.
+I think the one call-out is that the P2P volumes
+is just for the sampled firms
+and does not include any sort of data
+that's outside of the companies we surveyed.
+If you just look at on-chain data,
+the P2P volume estimates are much, much larger, right?
+Because any wallet paying any wallet
+is in some sense probably P2P.
+Yeah, that's a very important point.
+Our estimate is probably radically conservative
+on the P2P front because, of course,
+you can just pay someone with a stable coin.
+You don't have to tell anyone about it.
+Our methodology here is we're going
+through the intermediaries.
+So it'd only be if you made a P2P payment
+through one of these firms,
+through a Felix Pago, for instance,
+that it would be counted in the survey.
+So again, the data is very conservative,
+but we wanted to characterize the transactions
+where we know who's on the sending and receiving side,
+where we know there's a real payment being made, basically.
+Yep, do that.
+So in addition to the partners, hopefully they come back.
+I personally want to run this every quarter.
+I'd love to bolster this and keep doing it,
+keep growing it, add new data partners
+because it's probably another couple dozen.
+There's also a bunch of estimates.
+So we had 11 other additional estimates
+which we made including maybe controversially Bridge.
+I mean, that's a very salient one.
+I mean, how can you not include Bridge?
+So tell us a little bit about how we made those estimates.
+Yeah, I mean, for Bridge, I mean, luckily,
+during the Stripe sessions
+that was hosted a couple of weeks ago,
+Stripe shared a Stripe versus Bridge growth chart, I think.
+And so I think with that chart, plus some,
+I think with that chart, plus some sort of VC estimates
+on triangulating what folks have seen their volumes are
+against the timeline,
+we did a super rough estimate of likely volumes
+given that we sort of know what the shape of the graph looks like
+and backed into the Bridge volume data.
+Yeah, and the remainder of it was mainly official dashboards
+maintained by some of these projects
+that their transactions hit the blockchain.
+So we were able to get those numbers pretty easily.
+So forgive me if I'm wrong,
+this is basically the first study of its sort
+that's ever been done.
+Yeah, I think so.
+I think actually from talking to some of the data partners,
+many of them have tried to do something similar,
+but I think it's hard if you're like, right,
+it's like if you're not a neutral party,
+it's hard to pass your competitors
+to give you their volume data.
+And so I think we saw this unique opportunity
+as like this neutral data provider
+to kind of like be the Switzerland of the space
+and help kind of gather this sensitive data,
+put it together, anonymize it so that it's confidential,
+but we can still paint a really accurate
+and positive story about stablecoins,
+which again, there's a lot of fluff out there,
+but like first time that we have some real data
+that of transactions that are KYB getting KYC,
+I think that's just like unheard of.
+Yeah, and I mean, again, I'm kind of in awe of the fact
+that the three of us, Castle Island, Dragonfly,
+and Artemis are considered neutral,
+but I'm glad people are trusting us with it.
+So you guys are becoming a bit of a clearinghouse
+for stablecoin data.
+I mean, that is a core part of what Artemis does, right?
+Yeah, we very much believe in an open finance network
+and I was a early engineer at Venmo.
+I firsthand know how awful it is
+to work with legacy payment systems
+that are very locale specific.
+And so, I mean, stablecoins just to me is a no-brainer
+for like this borderless finance.
+That's the term, I think,
+one of the Colson Brothers used during Stripe sessions.
+And I think with this idea of borderless finance,
+there also can be this like sort of borderless
+mission control payments data kind of provider.
+And so that's kind of where we want to be.
+We want to be this like sort of
+mission control for the entire space.
+So we have this fancy new domain that we bought.
+What is it?
+Stablecoin.FYI, is that it?
+Yes, that's right.
+Stablecoin.FYI.
+So that is where this data is going to live, by the way.
+So you actually don't have to read a PDF anymore.
+It's on there.
+And you also have your market map,
+the now famous Artemis market map alongside.
+I mean, you guys also just have general
+like stablecoin data on the website too.
+Yeah, yeah, it's funny.
+I lost a lot of hair trying to get one of these fancy URLs.
+Had to go through some bidding wars and all that stuff.
+And so I ended up buying it from a nice gentleman in London
+who was squatting on this domain for a while.
+And so I just like LinkedIn messaged him
+and asked him if he would sell it to me.
+And we had a bunch of negotiations
+and got the deal done just in time.
+Well done.
+Yeah, I mean, good for him, I guess.
+A little prescient.
+And then the cover image.
+What's on the cover of this study?
+Tell us about that.
+I think you should do the honors.
+You're the, you're all about the tubes.
+All right, so in case you're not familiar
+and if you're born, you know, anytime after 1980
+you've probably never seen one of these.
+Have you ever used one of these pneumatic tubes?
+No, but one story is that I,
+so I also used to work at Google back in like 2010
+and their New York office
+is in a, the former like New York postal off,
+like, yeah, like post services headquarters.
+And so if you're in the Google office here in New York
+they just have these like pneumatic tubes everywhere
+or you can like shove in a letter
+and it just like flies to another floor.
+So does that still work?
+I don't think so.
+Well, so anyway, this used to be a thing in offices
+before email or Slack, I guess, in hospitals and banks
+and actually some like drive-throughs.
+Like if you do drive-through banking,
+which I've never done, you can sometimes use it.
+It's a pneumatic.
+So there's a canister goes in a pneumatic tube.
+I don't know how the technology works
+to route the tube to its destination.
+But anyway, that's our analogy.
+We're thinking of stable coins, the series of tubes
+that span the globes.
+The point is that people think stable coins
+are like people creating a new form of money.
+I think that's wrong.
+I think it's just like cash.
+Think of cash and you can send it anywhere
+on the planet instantaneously.
+That's how we should think about stable coins.
+We're not really engaging in money creation.
+For every unit of a stable coin
+that you're creating every liability,
+there's a corresponding asset,
+which is like a treasury held in reserve.
+So that's why we did the tube analogy to point out
+we're just moving bundles of cash in a digital form
+and the stable coins are a big tube network.
+So that's the point.
+Yeah, and I think I also like it
+because I always see, just like maybe broadening this a bit,
+I also see crypto as infrastructure for any asset.
+And so it's kind of like the equivalent of these tubes
+where you can tokenize anything.
+It could be cash.
+It could be equities at some point maybe.
+I think Kraken is trying to do something like that.
+I know that was something that you guys mentioned
+in your podcast like a week ago.
+And that in many cases doesn't make sense
+to reinvent what cash is.
+But crypto I think is very great
+for this borderless finance.
+Starlink, I mean, in your words,
+Starlink for finance use case.
+Yeah, I actually like that metaphor a lot better
+than the room temperature superconductor for finance,
+which is what the Stripe guys call stable coins.
+Because Starlink actually works and exists
+and room temp superconductors don't.
+They're theoretical, so.
+Yeah, that's true.
+I got confused the first time around
+because I had heard that because I'm like, wait,
+but I thought they debunked this whole room temperature
+superconductor thing.
+So is this saying that crypto is fake?
+Yeah, those ended up not being real.
+Whereas Starlink for finance, the whole point is Starlink
+brings billions of people online for the first time
+that were not online.
+Stable coins bring those online people into the economy
+in a way they weren't able to participate before.
+They didn't have access to dollar banking.
+They couldn't receive payroll directly
+from some offshore firm.
+They had to do expensive remittances
+or expensive cross-border payments on the B2B side.
+So it puts the whole global population
+on an equal stead for the first time.
+People don't understand, I think, how exclusionary
+and how expensive it gets if you're not near
+to one of the main nodes on the dollar network.
+So the further away you are from London
+or from Hong Kong or from New York,
+the more expensive it is to do business.
+And you can't go directly from Mexico to the Philippines.
+You have to go through the node.
+So stable coins radically change that.
+Now, in terms of your wishlist, like we've done two,
+I think pretty groundbreaking studies
+not to pat ourselves on the back too much,
+but we've created information that we wanted
+that didn't exist, right?
+So we went and found it.
+What is on your, what's next?
+What's next for Artemis?
+What do you want to know about stable coins?
+You know, I think we talked about this a little earlier
+where our estimate for coverage here
+is maybe this 75% kind of like range.
+And, you know, I would love to get more folks on board,
+you know, notably missing, obviously,
+it's like Coinbase from this study.
+And so, you know, and a couple of the larger exchanges
+in Asia too, I think like OKEx, Bybit and folks.
+And so my dream is to have
+as much like perfect coverage as possible.
+And then furthermore, like if possible,
+just like drill down into the use cases more kind of granularly.
+Because again, it's like we hear this across the board
+from whether it's, you know, Congressmen,
+you know, when I was talking to like various folks in Congress,
+like they are also asking like, hey, what are we,
+what are stable coins being used for?
+And like, we're not able to really answer
+that question beyond this high level.
+And I think that would go a long way, for example,
+to just like keep pushing this genius bill through.
+And so, again, just setting more data,
+more granularity, more specificity.
+And so if you're a stable coin player,
+orchestrator, PSP, and you listen to the podcast,
+you know, let us, let Nick or, you know,
+if you want to be joining in our next, yeah, stable coin report.
+Yeah, totally.
+Well, thanks for, you know,
+bringing this study to us and working with us.
+I think we're very, very happy with the result.
+And congrats for, you know, your success
+in the stable coin realm is the kind of data provider of choice there.
+So yeah, thanks for joining us today.
+Thanks, Nick.
+Yeah, thanks for having me and being down to collaborate on this report.
+I think it's, yeah, it's been a joy working with you
+and the team and Wyatt and Henry.
+And yeah, we'll love to do this again.
+Yeah, next quarter, we'll run it back.

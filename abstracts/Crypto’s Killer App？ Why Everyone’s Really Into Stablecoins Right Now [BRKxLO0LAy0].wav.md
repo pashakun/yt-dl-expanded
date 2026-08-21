@@ -1,0 +1,29 @@
+# Crypto’s Killer App? Why Everyone’s Really Into Stablecoins Right Now
+
+- URL: https://www.youtube.com/watch?v=BRKxLO0LAy0
+- VIDEO_ID: BRKxLO0LAy0
+
+## Abstract
+
+PART 1 — ABSTRACT
+
+This conversation centers on stablecoins as the leading candidate for crypto's "killer app," highlighting how they could fundamentally reshape payments by offering a faster, cheaper, and more interoperable alternative to today's fragmented and intermediary-heavy financial system. The discussion argues that the legacy payment rails impose a regressive “tax” on consumers and businesses while inhibiting innovation, and sees stablecoins—if paired with appropriate regulation—as a path toward a global, neutral protocol akin to the internet or email. The broader stakes involve transforming global finance, increasing inclusion, and enabling entirely new economic models, but tensions remain around regulatory clarity, institutional adoption, business models in a lower-fee environment, and ensuring true interoperability and stability. Key questions persist about who the main winners will be—whether new networks or incumbent banks and payment providers—and how quickly and securely the paradigm shift can happen.
+
+---
+
+PART 2 — KEY IDEAS
+
+- Stablecoins can dramatically lower transaction costs and speed up settlements, potentially disintermediating incumbent players (Visa, Mastercard, banks) and empowering users and smaller businesses.
+- The legacy payment system is fragmented, expensive, and regressive; stablecoins have the potential to turn global payments into a seamless protocol, analogous to how email and the web work today.
+- Financial network effects mean the more participants that can trust and use stablecoins, the more valuable and pervasive the system becomes; however, much of the world is currently locked out due to regulatory and institutional uncertainty.
+- True regulatory clarity is seen as essential—both to protect users (preventing disasters like FTX or Terra Luna) and to unlock broader institutional and mainstream participation.
+- Regulation remains ambiguous, with proposed U.S. bills aiming to clarify reserve requirements, consumer protections, and AML/KYC standards that would propagate trust through the system.
+- Stablecoins as a public good may reduce profit margins for intermediaries, creating tension between lowering fees and the incentives required for infrastructure providers and integrations (e.g., chargebacks, escrow, enterprise tooling).
+- Institutional adoption will likely be driven by fintechs and forward-looking payment processors rather than incumbent banks, as traditional players are incentivized to preserve the status quo.
+- Risks and unresolved frictions include the “singleness of money” (ensuring a dollar in one stablecoin always equals a dollar elsewhere), liquidity across different stablecoins or blockchains, and the challenge of creating global interoperability.
+- The movement to stablecoins could catalyze novel business models—such as streaming payments, programmable money, and AI agent-to-agent payments—that were previously impractical.
+- The ultimate trajectory could echo the history of communications and finance: initial fragmentation, followed by standardization and the emergence of open, credibly neutral protocols—though the path, winners, and speed of adoption remain contested.
+
+## Key ideas
+
+- (Key ideas not parsed; see JSON or raw text in abstract.)

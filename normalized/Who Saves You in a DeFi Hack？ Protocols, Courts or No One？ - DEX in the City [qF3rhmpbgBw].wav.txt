@@ -1,0 +1,397 @@
+TITLE: Who Saves You in a DeFi Hack? Protocols, Courts or No One? - DEX in the City
+URL: https://www.youtube.com/watch?v=qF3rhmpbgBw
+VIDEO_ID: qF3rhmpbgBw
+
+TRANSCRIPT:
+the balance or exploit that recently happened, right? This incident, just like others that have
+ come before it, right? Reveal this really interesting tension. I think it's this idea that like
+ decentralization is not binary. Because ultimately after a hack or an exploit like I and I know
+ institutions and users don't want to have to wait around and be like, well, is the project going to
+ do anything to work for me? Is the community going to do anything to work for me? Is the government
+ going to say that this is a crime even though it's unsure if this is a crime? For all those betting
+ on polymarket as to crypto market structure passage? This is not investment advice, but I am,
+ I agree with me. I am very bearish that this is going to happen soon. Despite the president making
+ this a mandate like get this done. Hi all. Welcome to decks in the city where the wallets are cold
+ and the tapes are hot. There are a lot of boss women in crypto and we want to make sure you hear
+ from some of them. We're going to get to intros in a second, but we first want to frame why we're
+ doing this. There are a lot of crypto podcasts out there and you could be listening to any of those,
+ so why should you be listening to us? Well, between the three of us, we've worked in senior roles in
+ DeFi, C5, crypto banking, venture capital, infrastructure and more. We have insights on
+ trade buying crypto. We're on the front lines of crypto policy and we're pros at regulatory
+ engagement. We are also very good at breaking down the more complicated concepts into English.
+ Before we dive in, this is our very first edition. Very exciting and we're thrilled to bring decks
+ in the city to you as part of Unchained on air. The new slate of shows expanding the incredible
+ Unchained network. Before we get going, remember, very important. We're lawyers, but we're not your
+ lawyers. So nothing you hear on decks in the city is legal or financial advice and it doesn't
+ create an attorney client relationship. For the fine print, as always check unchainedcrypto.com.
+ So let's dive in. First, we have Jesse, Web3 prosecutor, turned Web3 protector at Ribbit Capital.
+ Hi, everyone. I am so glad we are finally doing this. I want to do a quick shout out to Laura and
+ the entire Unchained team. As you can probably tell, the technical infrastructure that goes into
+ this is very, very complex and they have been working on it for a long time and we just get
+ to join for the ride. So thank you guys so much. So I'm excited to do this pod because the three
+ of us spend so much time talking about this space and really debating off mic and sometimes over drinks,
+ which we'll maybe do sometimes on this pod as well. And now I can force the two of y'all to
+ hang out with me every week. So KK said I'm Jesse Brooks. Hello. I've spent about a decade in crypto.
+ It started in the national security world at the Department of Justice where I was taking on North
+ Korea terrorist networks that were engaging with crypto and hackers like the Bitfinex hackers.
+ And everyone else that was trying to make the safe space less safe for all of us,
+ especially at the beginning when it was building. Now I'm at Ribbit Capital,
+ which is an investment firm committed to backing rebels that are reinventing finance
+ across crypto, AI, and FinTech. Awesome, Jesse. And everyone needs to listen because hopefully,
+ one day you'll get to hear the famous Jesse Brooks ring, which is my personal favorite
+ in terms of engagement. Let's next move on to V from the SEC to Web3 V. Hi, everyone.
+ I'm V Lee, the general counsel at Veda, where we're building infrastructure
+ DeFi scale safely. Something we'll be talking about today. So I've been in crypto for over four years,
+ first at a digital identity protocol, then at a crypto VC, and most recently was the GC of the
+ only federally regulated crypto bank, which is actually still the only federally regulated crypto
+ company in the US period, which I think tells you a lot about how we still have to go on the
+ policy front. One of the things that we'll be talking about before crypto, I was your classic
+ trad fi lawyer, practice securities, law to big law firm spent almost six years at the SEC.
+ So suits, memos, windowless office, whole thing. But the SEC is also where I first fell down the
+ crypto rabbit hole working on crypto investigations. So I have government for that. But I'm so excited
+ to be doing this with two of my favorite people in crypto, Jesse and KK. So if you've ever wondered
+ what it would be like to be a fly on the wall and three female crypto GCs get together,
+ you'll get a taste of some of that on this show, not everything just. So we all have drinks,
+ we should choose to that very often. This is camomile tea, but I like it. Fantastic
+ be. And very important disclaimer with the V was not with SEC enforcement during the Gary
+ Gensler administration. So I needed to, you know, provide that disclaimer. And I'm your host,
+ Katherine or KK or KKB, any of the above. And I'm fluent in trad fi and conversant in deep tech
+ over at stark wear. So I was a white shoe big law partner doing basically all trad fi investigations
+ defending big entities asset managers in us government investigations. And then I too fell
+ down the crypto rabbit hole, loved it, saw the inherent inefficiencies in trad fi market structure
+ and understand how crypto can solve those. So I completely went off the defend and went to be
+ GC of a DeFi protocol. Then I moved to be chief legal officer of a centralized exchange, both
+ spot and derivatives and derivatives clearinghouse. So lots to say about the CFTC these days.
+ And I will just say day to day, we're going to tackle a lot of the crypto happenings,
+ but with some new takes, we're going to dive a little bit deeper and get into perspectives
+ that you do not hear on crypto Twitter, we're also going to correct crypto Twitter.
+ And we're going to have fun while we're doing it, because we're also real friends, not just
+ crypto friends. So that's an important distinction. So let's get into the meat of today. So I have
+ to say in the theme of self promotion here, Jesse and I released an academic paper a couple weeks
+ ago on programmable risk management. We were very excited about this. But it did create a little
+ bit of spice amongst certain nerds in the population. And I think our take on it is that a lot of
+ people didn't read the 20 plus paper, which I completely understand. But the thesis that we
+ set forth in this paper was basically there are theoretically ways to improve upon DeFi. We love
+ DeFi. I mean, my heart is with DeFi was my first GC role. Now, one of the things that we were saying
+ in the paper is we outlined a whole laundry list of tech based solutions that theoretically would
+ not disrupt the UX that would not re intermediate DeFi. And we said these should be optional solutions
+ for discussion within DeFi and maybe certain protocols in, you know, conversing with their
+ community in achieving their goals might want to consider these. And many already exist and are
+ being considered to exactly many of them are already being used today. Exactly. I mean, blockchain
+ analytics is one extreme side of things because most DeFi protocols are using blockchain analytics
+ as the bare minimum. But there were a multitude of other solutions. To be very clear, we are not
+ and we're not arguing that DeFi should be regulated or re intermediated in any way.
+ So I want to kick us off here because I know the three of us have a lot of thoughts about
+ the safety of DeFi, what solutions exist. Why don't we go right into it? You know,
+ V, let's get us started. Kick us off. What are your thoughts on all things programmable risk
+ compliance, programmable risk management. I read it before it was published. I read a manuscript
+ of it. So it was so honored to be able to do that. So if you guys haven't read this paper,
+ it's groundbreaking. And I really think you should. We'll link it in the show notes.
+ I also wrote a paper last week or an article for law 360. For those of you who don't know,
+ law 360 is a legal publication that at least was my daily reading when I was a law firm
+ associate in clerking and in government. But in the paper, I talk specifically about chain capital
+ markets and how issuers and users aren't going to participate unless they feel like they can
+ trust these markets to be fair and gritty. And I look at some of the solutions that, you know,
+ like they can just see just said, some of the solutions that the industry is already, you know,
+ developing and using to build safeguards directly into things like tokens and smart contracts
+ with respect to order execution quality, maybe the mitigation tools, that sort of thing.
+ So along the same lines as KK and Jesse's paper of, you know, instead of regulatory mandates,
+ what are some ways that the industry can leverage the technology itself to keep users safe and
+ combat things like illicit finance? So I think, like you guys said, I think the feedback on both
+ of these pieces has been really interesting. First, I'll say, and I think you guys agree with this,
+ right? We welcome and encourage debate and disagreement. Like, these are really hard issues that we're
+ all trying to figure out together. And I think all of us are committed to crypto's core values of
+ decentralization and inclusion and transparency and censorship resistance, right? So, you know,
+ but I do think the debates raised some really like hard questions about DeFi that are worth
+ discussing in a nuanced way, which social media doesn't always lend itself to. So all kick things
+ off for us, right? So for me, I think a lot of the DeFi debate comes down to two fundamental
+ questions, right? One is what responsibility do we have to keep users safe? And relatedly,
+ what responsibility do we have to offer users recourse when things go wrong? So I think it's really
+ easy to say, yes, we're in favor of, you know, pure DeFi or true DeFi. But then how do you answer
+ those questions? And how do we see DeFi protocols actually answering those questions in real life,
+ right? So I think, you know, there are two recent events that me really illustrated
+ this tension. First was the Balancer exploit that recently happened, right? So Balancer is a DeFi
+ exchange. It recently suffered an exploit where the attacker drained $28 million from liquidity
+ pools, manipulating the pricing function, and the pool balances to basically trick the protocol
+ into miscalculating the value of the tokens. And then they repeatedly performed swaps to
+ deflate the price, and then either minted or bought the undervalued tokens,
+ immediately redeemed them in a way that allowed them to drain the pools. So how did Balancer
+ respond to this? I think most of their pools do not have an admin key or like a kill switch.
+ But there were some pools that were able to be paused, and they did that, they paused them.
+ They alerted users, and then they worked with White House to recover the funds. And what was
+ also really interesting about this incident is that the different chains that were affected
+ responded in really different ways, right? So Ethereum largely stuck to the code as law ethos,
+ so they didn't do any rollbacks, no forks, the losses remained on chain. But there were a bunch
+ of smaller side chains and L2s that it intervened, and validators or sequencers temporarily halted
+ block production, or they coordinated soft forks to freeze the hacker's distance, and others actually
+ did perform a hard work. Reverse or isolate the impact of the attack, right? So for me,
+ this incident, just like others that have come before it, right, revealed this really interesting
+ tension. I think it's this idea that like decentralization is not binary, meaning even chains that
+ claim to be or aspire to be immutable or permissionless, sometimes do feel the need to intervene
+ when users are or lose funds, right? So I think this really puts the idea of pure DeFi through
+ the test, right? So I think we need to ask ourselves, like, when a network can be forked to recover
+ used funds, does that create some sort of like de facto fiduciary duty or something like that,
+ among validators of that? 100, 100%. And before we move to Jesse, I just want to clarify one thing,
+ a white hat hacker, a lot of people I realized didn't understand what that was. If they're not
+ in crypto, a white hat hacker is kind of a good guy. And what you often see with exploits in crypto,
+ or not often, but occasionally is there's a hacker who facilitates an exploit, and whatever entity
+ is in charge or a community member will then go to them and say, we'll pay you if you turn into a
+ white hat, like if you give the money back. So this was not the case here, but white hats help the
+ ecosystem. But Jesse, please jump it. Yeah, let me just give you a little insider knowledge on
+ white hat hackers as well. These predated crypto for many people who have been in the cybersecurity
+ national security world for quite some time. And actually, the government relies on them
+ for a lot of sort of early cybersecurity, national security issues. So it's just sort of something
+ to think about how it's also been incorporated in crypto in a variety of ways. But I actually
+ think that these two questions sort of level setting are very, very thoughtful. And I'll just add a
+ third one, which is who should give the recourse? Should it be the protocol? Should be the community?
+ Should it be the government, the courts, which we're going to talk about some of the stuff that's
+ happening there, particularly with the MIT brothers case that we'll cover in a little bit.
+ But also, I just want to put forward like what kind of world do we want to live in where users
+ have to think about how do I get recourse for something bad happening, instead of having the
+ choice from the start of being much, much more comfortable of where they put their finances
+ before something bad happens. And I think that sort of the debate here is how much can we embed
+ in the native aspect of crypto and DeFi and all the projects that are built in it to make users less
+ worried about any sort of hack and who they'll need to go to for recourse later on. Because to me,
+ like decentralization is not about having no rules or standards, but it's rather about a bottom up
+ choice of how to embed rules and standards if you want or not. And a choice by the users, a choice
+ by the projects, a choice by the protocols, the choice to opt into more security and safety when
+ they want it or more risk and maybe more upside if they don't want it. Because isn't that like
+ really what we're building here in my mind? Like the crypto ecosystem is about giving people in my
+ mind at least more power over their finances, whether it be self custody, whether it be how
+ they want to engage with DeFi. And it should also be the opportunity to engage in a more risk forward
+ or risk conservative manner. Because ultimately after a hack or an exploit like I and I know
+ institutions and users don't want to have to wait around and be like, well, is the project going
+ to do anything to work for me? Is the community going to do anything to work for me? Is the government
+ going to say that this is a crime even though it's unsure if this is a crime? Instead, why don't we
+ allow users to say, okay, here are all the options out there and let's go from there. And on that
+ point, like, isn't it better that we work from the ground up than have sort of this regulatory
+ oversight coming afterwards or trying to figure out how to fit things within crimes in order to
+ give recourses to users? Power to the people, Jesse, I love it. And it's no, but it's true. Like,
+ you make a great point in that I think the fear in with respect to some of the radical pure DeFi
+ advocacy that we've seen lately is that there's a fear that if we even open up the discussion
+ as to so-called protections to put in place, that regulators or legislators are going to seize on
+ that as a way of regulating DeFi or mandating such checks. And I completely understand and
+ acknowledge that fear because there should be a scenario where pure DeFi exists without checks,
+ eyes wide open, you know, there's a beauty of transparency with DeFi that we all understand
+ and acknowledge. Like, I would always explain that to people that didn't understand crypto,
+ vis-a-vis maple, my first DeFi project, that it's midnight, the payment for the loan is due at
+ midnight, 1201, everyone can see it's not paid, which is, you know, beautiful thing about on-chain
+ activity, you know, DeFi lending doesn't exist in tradFi, right? But I think your point is really
+ important. Like, shouldn't we also empower builders that maybe they want to go more conservative,
+ maybe they want to serve a population, regulated entities, institutional participants, one-day
+ pension funds, and they want to, you know, ensure that they're taking a more conservative route without
+ being penalized in the DeFi community by not being pure DeFi? Because I don't view a lot of this as
+ reintermediating DeFi. A lot of it can be inserted without disrupting the peer-to-peer UX.
+ Can I ask you guys as like DeFi project GCs, don't you think about this kind of thing on day-to-day?
+ Like, what comes up when you sort of make the considerations of how you were going to build?
+ Is it all or nothing? Like, how do you guys think about pure DeFi and building in the space?
+ Oh my gosh, so many things I want to follow up on. So, Jesse, I wanted to follow up on one
+ point that you made that I think is really important, which is like, one of the benefits of DeFi and
+ these DeFi protocols is that you know ahead of time what's going to happen, right? Like,
+ everyone can see the code, everyone knows how the protocol is going to behave. But when these hacks
+ and these exploits and attacks happen, the response is always so at home. Like, you said, right? Like,
+ no one knows what is going to happen. Like, is anyone going to intervene to like help return
+ the funds? Like, what is going to happen? No one knows. So, I think for that reason alone,
+ we should probably, you know, at least be able to talk about it. Should there be some standards in
+ place? Like, are there tools that people can use? Like, what are best practices here?
+ And that is something that is missing, I think, right now. And obviously, these events are going
+ to keep happening, right? I think it's only fair to users to be able to know ahead of what they're
+ getting themselves into. And that's the very part to people, though, is those standards. You know,
+ I think that's the scary part because they don't want to, we don't want to mandate standards that
+ would basically harm DeFi holistically. However, it's really interesting. I think everyone occasionally
+ forgets that, you know, what DeFi protocol exists without a smart contract audit. Like,
+ that's a self-imposed industry standard for safety, right? Because it's common sense. You
+ want your smart, you know, you don't want to engage with a protocol that hasn't had,
+ you know, an audited smart contract. So, I would love to see the industry growing in a way where,
+ and again, I said this before, but blockchain analytics, a lot of general councils of Devco's,
+ etc. We always think through risk. Like, I like to sleep at night, you know, we don't want to
+ facilitate wrongdoing in any form, even inadvertently or, you know, not knowingly, of course. Now,
+ there's a criminal threshold, you need to have intent to be convicted of a crime. However,
+ that gets very sticky with things like civil liability for sanctions, which we'll get into
+ at another time because it's kind of complicated. But I think that's the role of the GC, and especially
+ in crypto. It's not to eliminate risk. Like, absolutely not. It's to educate the company about
+ the risk. It's the issue spot. So then they're armed with that information and can make informed
+ decisions. You know, to your question about, like, are we thinking about it, like,
+ perch of the GC working at a DeFi company or a DeFi protocol? I guarantee you, every single DeFi
+ project out there is constantly like on a daily basis to balance decentralization and the principles
+ of decentralization against user safety, like keeping their user safe. This is something we
+ think about instantly. And it's a struggle. I mean, it's something that I have to deal with
+ with respect to new features that the team wants to act or a new design mechanism. Every DeFi
+ project out there thinking about this. So I think the other reason I hope we can sort of
+ move beyond the pure DeFi or the all-or-nothing debate is that I just don't think that that
+ is the reality of what most DeFi projects and companies are dealing with. As DeFi goes
+ more mainstream, I think the other dynamic we're starting to see, and we certainly think about it
+ in these terms too, the other dynamic you're going to start seeing is, you know, if you're able to
+ create protocols or kits where users feel safe, that is going to be like a competitive business
+ advantage for you. So that's the other thing, right? I think this isn't just like it's not a
+ philosophical or academic debate anymore. Like DeFi is gaining adoption. It is going mainstream.
+ Now we have to think about what are the market opportunities, but that's the other way we think.
+ That's absolutely right. And I think that's something a lot of us like we've discussed before.
+ If the trad and crypto markets are converging pure DeFi without even discussion of this,
+ I mean, I am skeptical that it will ever scale. I'm also sympathetic, however, because there's also
+ the balance between kind of paternalistic measures. So this is not an easy conversation by any
+ stretch. So I want to move to Jesse to talk about the MIT Rose case. This is a fascinating case
+ because I feel like it got no attention from anyone. And, you know, it's so random to me what gets
+ a lot of attention and discussion and what does it. This was an important one. So Jesse,
+ please educate everyone. I think people must have just been exhausted of like tracking day-to-day
+ crypto trials that they needed to break. But I am similarly surprised that this didn't get a lot
+ of attention because it presents a really interesting aspect of the law that hasn't fully been touched
+ on point in prior criminal cases. But, you know, just back to level setting, like to me,
+ the big question of this pod today is like, who's going to enforce the rules when code alone isn't
+ enough? And this is a case when the courts tried to enforce it. And it didn't really go so great.
+ And we maybe have less clarity than we did before. But just to give like a two-sentence overview on
+ what this case was about, essentially, these very technically savvy brothers exploited a
+ vulnerability in Ethereum's MEV Boost relay code. And in so exploiting this, they extracted
+ $25 million from bots that were engaged in sandwich attacks. And the argument that they made is that
+ they simply found a bug in code and they targeted bots that were already manipulating the markets,
+ like not the most sympathetic victims, right? They say they didn't lie to anybody, so there's no fraud.
+ They didn't directly interact with the victims, no contractual relationship. And they didn't
+ violate any of the rules or standards, the two words we've been using a lot today, of the decentralized
+ Ethereum network. And I slowly say decentralized Ethereum network, because obviously it might work
+ differently on other networks and might have been charged differently. But the government said,
+ like, "Pishposh, no, we disagree. This is wire fraud and conspiracy and money laundering,
+ but focusing on the wire fraud, because that was the real issue at trial." And the question was,
+ what was the fraud? So the government argued that it was the bait transactions and the false
+ signatures. And the technical aspects of them were really interesting in the trial and the
+ specific details of this are really important. But I think what's even more interesting is that
+ after a few weeks of a very technical trial, and for anyone here that has been in trial or
+ had any sort of component of a trial, you know how hard it is to explain these complicated concepts
+ to people off the street. But after days of deliberation, the jury could not come to an agreement. So
+ they say that the jury was hung. Let me just take a quick sidebar to explain what that means. So
+ essentially in a criminal trial, the jury has to unanimously decide the defendant is guilty of this
+ charge or unanimously decide they are not guilty. Those are really the options and it happens for
+ each charge. And if they can't come to an agreement, they come and tell the judge, "Hey, we can't come
+ to an agreement." Usually the judge says, "Go back and keep arguing." The prosecutor says, "Go back
+ and keep arguing." The defense usually says they're not going to come to an agreement. And if it gets
+ to a point where it's pretty clear they won't, which happened in this case after some very emotional
+ jury notes, which are somewhat odd in these circumstances, the judge decided that they weren't ever going
+ to agree. And so they declare a mistrial. What happens with a mistrial is that the prosecution
+ gets to decide whether it wants to bring the case again. What happens behind the scenes is that the
+ prosecution decides do we want to drop the case? Do we want to offer a plea or do we just want to go
+ to trial again? So we don't know what's going to happen and they have a few weeks to come back and
+ decide. But I think the bigger question that sort of fits in here is we have an exploit. Maybe it
+ hurt not so sympathetic victims this time. But thinking about the bigger picture for users that
+ might have been hurt in some sort of vulnerability attack, why are we leaving it to 12 random people
+ off the street to decide after a few weeks of trying to learn about these technical issues
+ that this is or isn't a crime? Like is that the best way for us to move forward in this space?
+ And it rhymes a lot with what happened in the Mango markets case where a guy named Abi Eisenberg
+ didn't exploit a vulnerability or bug, but he rather manipulated the platform's own oracle
+ according to the government's allegation. And then a jury found him guilty and then an appellate judge
+ overturned the convictions. So in both of them, the court system tried, but I don't want to say
+ failed, but sort of seemingly failed to come to a decision that gives the space any clarity.
+ And this is why it comes back to my argument before of like, we should give choice in protocols
+ for users and institutions to build what they want, what kind of risk they want,
+ because in the world that we live in right now, you don't know where to go for recourse. So
+ that's sort of the framework we're living in right now.
+ And fun fact, I was once on a jury for a check fraud case, and it's highly unusual for a lawyer,
+ like, especially with what we've done historically. No, you never get picked because there's this
+ process called raw deer where they vet the jury members. And so there's peremptory challenges
+ where the lawyers can strike juries for cause like, oh, you're biased or so usually I would have
+ been struck through a peremptory challenge because I knew too much about criminal law because I was
+ a white collar defense attorney, but I somehow ended up on the jury. And afterward, the judge was
+ like, the defense blew through all their peremptory challenges. So he was stuck with you. And of course,
+ I do want to tell you, see, you have to keep lawyers on because there's so many lawyers. So
+ yeah, go by what kind of. And so statistically, you have no choice, but it was a fascinating
+ experience. So there we go. I'm just going to put that out there. So we're, we only have 12
+ minutes left. So I want to shift topics really quick to market structure, because it's important
+ to know like we were originally going to touch this, but hot news, the House Agriculture Committee
+ had advanced and then passed the clarity act back in July, this the crypto market structure bill
+ that we're all really excited about. And to explain to people, I'm constantly explaining to
+ people that aren't lawyers, why we're excited, there is a fear that all of the good work that
+ the regulators are doing right now in the United States vis-a-vis crypto, the SEC is a great example.
+ Their transparency, their engagement, et cetera, could be completely reversed if we have a different
+ administration with a different mandate in a few years. The only thing that will determinatively
+ prevent that is legislation. So that's why you see a lot of crypto people desperate for crypto
+ market structure legislation, even if it's not perfect. So a draft drop yesterday from the Senate
+ Agriculture Committee, because we need the House, we need the Senate, and then we need the President,
+ okay? So we got the House, the Senate's version is different, and this is why there's a big uphill
+ battle here, because there is basically efforts from the Senate Banking Committee, efforts from
+ the Senate Agriculture Committee, those need to be reconciled and cleared by both committees,
+ and then get passed in the Senate. So we have a lot of work to do, but this draft drop yesterday
+ from the Senate Ag Committee, and it was very different than the Banking Committee. And in keeping
+ with our theme today, like first, a lot of emphasis on the CFTC's mandate versus the SEC's,
+ a good protection of self custody, a direction for joint rulemaking with SEC and the CFTC.
+ AML anti-money laundering specifics are very vague, and the scope of CFTC exemption powers
+ are unclear. I call that out because it's really important that regulators have the power to grant
+ exemptions. But we've been talking about this a lot on this pod. There is a section on DeFi
+ with nothing in it. Like DeFi oversight is completely left completely open, which is a little scary
+ to people because we were all desperate and really hoping for explicit developer protections
+ in legislation. So, Jessie, it looks like you want to say something.
+ Yeah, before we jump it over to V, I want to play moderator for a second and just do one
+ extra level of explanation because, you know, unless you're on the hill all the time,
+ it's hard to understand all these different committees, what the heck's going on up there.
+ And so when Congress Committee jurisdiction drives everything, so CFTC is under ag and then
+ banking and financial banking takes over SEC and all financial regulation. So, the AG is
+ committee in the Senate. They have a bipartisan draft that came out yesterday. The Senate banking
+ committee, the Republicans have only really come out with an agreement. So, there's this
+ interesting strategic game playing right now where the Dems in the AG committee are trying to figure
+ out how do we put forward a bipartisan proposal that doesn't go against what all the Dems on the
+ banking committee are going saying. And that also competes with the fact that the AG committee
+ can't really regulate the kind of stuff that the banking committee should do, which sometimes
+ might be the ML stuff or the DeFi stuff. And you're going to see lots of brackets throughout
+ this new draft. So, it's Congress's version of like a sticky note saying, hey, we got to come back
+ to that because we haven't agreed yet. And so, that's sort of where like, who knows what DeFi,
+ who knows what the hell, who knows what the definition. So, I guess, like, I'll just turn it back to
+ you guys. You're like, what the heck should people get from this? And brackets are scary to people
+ because it's hard to make progress if you don't have the fundamentals agreed upon. So, I'm also
+ scared of the DeFi brackets. But the all the other thing I'll also explain to people is people are
+ often like, to me, especially non-US persons are like, why is the agriculture committee involved in
+ this? That's because you have to think of the definition of the OG commodity in the United States.
+ It's often things like cows and corn and wheat. So, like, that's why the AG committee is such a
+ big part of the crypto debate because crypto is a commodity. But the classic commodity,
+ like, as a Chicagoan, like, it was all of the farm animals. Like, there's a futures market for
+ a reason. Like, we'll get into that another time. So, V, jump in because I know you are also very
+ sophisticated on the policy. Yeah. So, I mean, I just wanted to touch on, like, you know,
+ I'm sure everyone's wondering, like, what is the process from here? Like, you know, you mentioned
+ that the two committees bills, like, eventually, hopefully, will be merged into some, like, senate
+ itch that will reconcile the CFTC jurisdiction. So, if both committees vote their versions out,
+ senate leadership has to agree to bring it to the floor, which is, like, always a hurdle, right?
+ Just given limited floor time and competing priorities, the fact that you need 60 votes to
+ overcome a filibuster, which means they're going to need some Democrats to support the Republicans.
+ And then if it passes, the senate bill would then be reconciled with the version that passed
+ of the House a while back, it seems like ages ago. But so, you know, negotiations or conference
+ committee, like, that would have to happen before being sent to the president. So, I mean, I think
+ in terms of timing, like, realistically, I don't think the process is going to wrap until 2026,
+ probably not until late 2026, maybe even early 2027. And then we also have, you know, the elections
+ next fall. So, that could also grow a wrench in things. Like, you know, I remain optimistic
+ that something will eventually pass. Like, both Republicans and Dems have an interest in this
+ passing. I think they're both sides are working really hard towards that. The momentum from the
+ industry is as strong as it's ever been. Stablecoin legislation, of course, passed earlier this year,
+ which I think, you know, only improves the market structures and since the passing,
+ even though it's a much more complicated undertaking. And then also the SEC, the CFTC
+ Treasury, I think they're also really pressuring Congress to act and are working closely with
+ them on the bills, right? So that really matters too. So yeah, my prediction is late 2026, early
+ 2027. You know, that sounds so far off. But like, I will say, in the meantime, DeFi will keep
+ shipping. And I would also remind people that neither the SEC nor the CFTC is waiting around
+ for Congress, right? There's plenty they can do and are doing under their existing authority
+ as we speak. So don't worry, that will give us plenty to talk about on this podcast, even if
+ things don't move along in Congress. 100%. Like, I have been so heartened by the SEC. I mean,
+ the transparency, I mean, I'm obsessed with Hester Peirce in an in a purely academic way.
+ She's been making so much great progress as head of the crypto asset task force to transparency
+ that we're seeing and the engagement. It's what we all dreamed up for so long. The scary part is
+ a lot of this work can be undone. And Chair Atkins of the SEC has said that they are working to
+ try to avoid a scenario where the progress they're making can be undone. But the thing that will
+ really let me sleep at night is crypto market structure legislation. And of course, once the
+ legislation is passed, it's going to take years to actually create rules. And you know, it's that's
+ really a basis for what's to come. But for all those betting on polymarket as to crypto market
+ structure passage, this is not investment advice. But I am I agree with V, I am very bearish that
+ this is going to happen soon. Despite the president making this a mandate, like get this done,
+ there are just significant headwinds. And let's get out of our crypto bubble for a second. We all
+ need to remember that for many legislators, there's still a real education gap. They don't feel
+ comfortable with this industry. And this is just not a priority for them, especially with the,
+ you know, nonsense that we've been dealing with lately, like the other parts of dysfunction of our
+ government on day, what is it? Like 32 of the shutdown, by the way, or are you baby? Oh, my God,
+ I just all a blur to me, all a sad blur. But Jesse, do you want to wrap us up with any final thoughts?
+ I think I should just say it was so lovely to do this our first time together. And I am really
+ excited to keep debating with you guys throughout the next few months. Any final thoughts from UV?
+ No, this was so fun. Thanks guys. And cheers. So I think what's to come from us. So the beauty
+ of this is you'll hear our insights on the CFTC and the SEC and legislation. Oh, this is sounding
+ so sexy. I think you'll get to hear our thoughts on the legal policy, a strategy oriented environment
+ for crypto. You know, hopefully we'll be able to give everyone insight on all of the good, bad,
+ and ugly within this ecosystem. And we'll be able to correct a lot of things that you read on
+ crypto Twitter. I'm just going to reiterate that because that is the theme of my life. Like that's
+ wrong. That's wrong. That's wrong. Yeah, I added to be that's it for this episode, the very first
+ episode of Ducks in the City. If you like the show, make sure to follow us on your favorite podcast
+ app and on X slash Twitter will always be Twitter in my heart, even though I understand and recognize
+ that it has a new name for live streams, updates, and clips. Thank you so much for listening and
+ we will see you next week.

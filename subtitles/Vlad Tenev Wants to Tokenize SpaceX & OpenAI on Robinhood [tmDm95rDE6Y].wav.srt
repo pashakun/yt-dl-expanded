@@ -1,0 +1,1992 @@
+1
+00:00:00,000 --> 00:00:05,540
+ We wrote an op-ed actually in the Washington Post a couple months ago that I published
+
+2
+00:00:05,540 --> 00:00:11,380
+ that makes the case for tokenizing private securities.
+
+3
+00:00:11,380 --> 00:00:17,960
+ So if you think about it, right now it's hard to invest in OpenAI or SpaceX as a private company.
+
+4
+00:00:17,960 --> 00:00:20,320
+ And I think crypto can help solve that.
+
+5
+00:00:20,320 --> 00:00:27,200
+ So if you tokenize private companies, it'll be good for the companies and also for investors.
+
+6
+00:00:27,200 --> 00:00:31,820
+ It's crazy to me that you can't invest in companies like SpaceX and OpenAI.
+
+7
+00:00:31,820 --> 00:00:36,920
+ But you know, we have clarity on meme coins and people can basically invest in those freely.
+
+8
+00:00:36,920 --> 00:00:44,440
+ Welcome to Bankless where we explore the frontier of internet money and internet finance.
+
+9
+00:00:44,440 --> 00:00:48,320
+ Today on the show I'm talking to Vlad Tenev, the CEO of Robinhood.
+
+10
+00:00:48,320 --> 00:00:51,880
+ Robinhood is increasingly becoming a power player in the world of crypto,
+
+11
+00:00:51,880 --> 00:00:56,200
+ mainly just due to their sheer size of their user base in AUM.
+
+12
+00:00:56,200 --> 00:01:00,800
+ Robinhood entered crypto markets long ago both with making crypto accessible in the Robinhood app,
+
+13
+00:01:00,800 --> 00:01:04,520
+ but also the Robinhood wallet, a non-cassodial crypto wallet.
+
+14
+00:01:04,520 --> 00:01:08,920
+ Robinhood's furthering of their own frontier in the crypto space has really been put on pause
+
+15
+00:01:08,920 --> 00:01:14,400
+ due to the regulation by enforcement stance of the previous SEC, but now that is behind us.
+
+16
+00:01:14,400 --> 00:01:18,800
+ So I'm looking to learn a little bit more about what's next for Robinhood when it comes to integrating crypto
+
+17
+00:01:18,800 --> 00:01:22,600
+ into their product offerings now that they have gotten the green light from the SEC.
+
+18
+00:01:22,600 --> 00:01:28,560
+ Then completely coincidentally, the week that I recorded with Vlad, Robinhood announced some pretty big new product lines.
+
+19
+00:01:28,560 --> 00:01:31,720
+ These are Robinhood banking, strategies and cortex.
+
+20
+00:01:31,720 --> 00:01:34,760
+ So I was also able to talk to Vlad about all of those things as well.
+
+21
+00:01:34,760 --> 00:01:39,080
+ And then also maybe the most interesting part of the interview, definitely my favorite part,
+
+22
+00:01:39,080 --> 00:01:45,440
+ was the dual discussion of the increasingly high hurdles it takes for companies to go public
+
+23
+00:01:45,440 --> 00:01:52,000
+ in today's traditional stock market and how that fact is interacting with the tokenization movement.
+
+24
+00:01:52,000 --> 00:01:57,880
+ Some of the biggest, most exciting companies of the modern age, SpaceX, OpenAI and Thoropic,
+
+25
+00:01:57,880 --> 00:02:03,760
+ these are all private companies with no formal market, even though equity does change hands in the private market.
+
+26
+00:02:03,760 --> 00:02:08,400
+ Vlad thinks tokenization can play a big role here to give liquidity to these private companies
+
+27
+00:02:08,400 --> 00:02:14,240
+ while also giving financial opportunities to end investors who want access to private equity
+
+28
+00:02:14,240 --> 00:02:16,600
+ that is working on the technological frontier.
+
+29
+00:02:16,600 --> 00:02:21,960
+ I think that is a match made in heaven and it would make sense if that marketplace was found on Robinhood.
+
+30
+00:02:21,960 --> 00:02:27,160
+ Anyways, I really enjoyed this conversation with Vlad, even though Robinhood is not entirely a bankless platform,
+
+31
+00:02:27,160 --> 00:02:33,280
+ I enjoy Robinhood putting pressure on old archaic traditional finance because that's just good for everyone.
+
+32
+00:02:33,280 --> 00:02:37,440
+ So let's go ahead and get right into the podcast, but first a moment to talk about some of these fantastic sponsors
+
+33
+00:02:37,440 --> 00:02:38,520
+ that make this show possible.
+
+34
+00:02:38,520 --> 00:02:43,880
+ In the Wild West of DeFi, stability and innovation are everything, which is why you should check out Frax Finance,
+
+35
+00:02:43,880 --> 00:02:47,000
+ the protocol revolutionizing stablecoins, DeFi and rollers.
+
+36
+00:02:47,000 --> 00:02:51,760
+ The core of Frax Finance is Frax USD, which is backed by BlackRock's institutional fiddle fund.
+
+37
+00:02:51,760 --> 00:02:58,080
+ Frax designed Frax USD for best-in-class yields across DeFi, T-bills and carry trade returns all in one.
+
+38
+00:02:58,080 --> 00:03:01,680
+ Just head to Frax.com, then stake it to earn some of the best yields in DeFi.
+
+39
+00:03:01,680 --> 00:03:02,560
+ Want even more?
+
+40
+00:03:02,560 --> 00:03:07,800
+ Bridge your Frax USD over to the Frax still layer two for the same yield plus Frax still points
+
+41
+00:03:07,800 --> 00:03:14,240
+ and explore Frax still's diverse layer two ecosystem with protocols like Curve, Convex and more, all rewarding early adopters.
+
+42
+00:03:14,240 --> 00:03:20,480
+ Frax isn't just a protocol, it's a digital nation powered by the FXS token and governed by its global community.
+
+43
+00:03:20,480 --> 00:03:26,040
+ Acquire FXS through Frax.com or your go-to decks, stake it and help shape Frax nation's future.
+
+44
+00:03:26,040 --> 00:03:27,840
+ Ready to join the forefront of DeFi?
+
+45
+00:03:27,840 --> 00:03:32,280
+ Visit Frax.com now to start earning with Frax USD and Staked Frax USD.
+
+46
+00:03:32,280 --> 00:03:40,320
+ And for Bankless listeners, you can use Frax.com/r/bankless when bridging to Fraxel for exclusive Fraxel perks and boosted rewards.
+
+47
+00:03:40,320 --> 00:03:41,720
+ Introducing UniChain.
+
+48
+00:03:41,720 --> 00:03:48,920
+ Built for DeFi, empowered by Uniswap, UniChain is the fast, decentralized layer two designed to tackle blockchain speed and cost challenges.
+
+49
+00:03:48,920 --> 00:03:54,440
+ With this mainnet now live, you can enjoy transactions at up to 95% cheaper than the E player one,
+
+50
+00:03:54,440 --> 00:03:59,120
+ all while benefiting from an impressive one second block time that will be getting even faster very soon.
+
+51
+00:03:59,120 --> 00:04:03,400
+ UniChain is the first layer two to launch as a stage one roll-up on day one.
+
+52
+00:04:03,400 --> 00:04:06,360
+ That means it comes with a fully functional, permissionless proof system.
+
+53
+00:04:06,360 --> 00:04:09,760
+ From the start, increasing transparency and further decentralizing the chain.
+
+54
+00:04:09,760 --> 00:04:15,200
+ More than 80 apps are joining the UniChain community, including Coinbase, Circle, Lido, Morpho and Uniswap.
+
+55
+00:04:15,200 --> 00:04:19,400
+ You'll be able to bridge, swap, borrow, lend and launch new assets and more from day one.
+
+56
+00:04:19,400 --> 00:04:25,800
+ Built by Uniswap Labs, the team behind the protocol that's processed over 2.75 trillion in all-time volume with zero hacks,
+
+57
+00:04:25,800 --> 00:04:31,440
+ UniChain truly enhances DeFi experiences with faster, cheaper and seamless transactions even across chains.
+
+58
+00:04:31,440 --> 00:04:37,000
+ And soon, the UniChain validation network will allow anyone to run a node and earn by securing the network.
+
+59
+00:04:37,000 --> 00:04:40,200
+ Visit Uniswap.org and swap on UniChain today.
+
+60
+00:04:40,200 --> 00:04:47,920
+ The Arbitrum Portal is your one-stop hub to entering the Ethereum ecosystem. With over 800 apps, Arbitrum offers something for everyone.
+
+61
+00:04:47,920 --> 00:04:54,760
+ Dive into the epicenter of DeFi, where advanced trading, lending and staking platforms are redefining how we interact with money.
+
+62
+00:04:54,760 --> 00:05:03,840
+ Explore Arbitrum's rapidly growing gaming hub from immersed role-playing games, fast-paced fantasy MMOs to casual, luck-battle mobile games.
+
+63
+00:05:03,840 --> 00:05:10,520
+ Move assets effortlessly between chains and access the ecosystem with ease via Arbitrum's expansive network of bridges and onrifts.
+
+64
+00:05:10,520 --> 00:05:18,200
+ Step into Arbitrum's flourishing NFT and creator space, where artists, collectors and social converge and support your favorite streamers all on chain.
+
+65
+00:05:18,200 --> 00:05:25,320
+ Find new and trending apps and learn how to earn rewards across the Arbitrum ecosystem with limited-time campaigns from your favorite projects.
+
+66
+00:05:25,320 --> 00:05:27,600
+ Empower your future with Arbitrum.
+
+67
+00:05:27,600 --> 00:05:32,320
+ Visit portal.arbitrum.io to find out what's next on your web-free journey.
+
+68
+00:05:34,840 --> 00:05:38,040
+ Bankless Nation, I'm here with Vlad, 10F, the CEO of Robinhood.
+
+69
+00:05:38,040 --> 00:05:43,120
+ This is Vlad's third time on the show. Each time, there are some exciting new things happening in the world of Robinhood.
+
+70
+00:05:43,120 --> 00:05:49,640
+ And also, each time that Vlad has come on, Robinhood has gotten a little bit deeper into the world of crypto as well.
+
+71
+00:05:49,640 --> 00:05:51,840
+ Vlad, excited to have you back on. Welcome to Bankless.
+
+72
+00:05:51,840 --> 00:05:54,160
+ Thanks for having me. Always a pleasure.
+
+73
+00:05:54,160 --> 00:05:58,480
+ So you guys just came out of some pretty big product announcements.
+
+74
+00:05:58,480 --> 00:06:05,440
+ Robinhood Strategies, Robinhood Banking, Robinhood Cortex. Pretty good timing for this podcast episode, but that was actually a coincidence.
+
+75
+00:06:05,440 --> 00:06:06,840
+ I want to, we're going to get there.
+
+76
+00:06:06,840 --> 00:06:16,320
+ I first want to talk about some more crypto-native subjects, mainly this new era of regulation in crypto, crypto inside of the United States.
+
+77
+00:06:16,320 --> 00:06:21,360
+ So this new administration has unlocked many doors for the crypto industry inside of the United States,
+
+78
+00:06:21,360 --> 00:06:25,800
+ especially for institutions who have always wanted to enter the crypto industry,
+
+79
+00:06:25,800 --> 00:06:30,920
+ but have really been too uncertain or risk averse due to just regulatory uncertainty.
+
+80
+00:06:30,920 --> 00:06:36,880
+ So now with this new administration, what doors have specifically been unlocked for Robinhood?
+
+81
+00:06:36,880 --> 00:06:42,440
+ What can you guys do now that you couldn't do before, and which doors are you going to go through first?
+
+82
+00:06:42,440 --> 00:06:50,440
+ Yeah, I think the immediate thing was the cessation of regulation by enforcement.
+
+83
+00:06:50,440 --> 00:06:59,680
+ So just a big improvement is to not be under all-out assault over all aspects of the crypto business.
+
+84
+00:06:59,680 --> 00:07:12,320
+ So there was the announcement that the SEC closed its investigation into crypto along with the crypto businesses of some other companies in the industry.
+
+85
+00:07:12,320 --> 00:07:26,320
+ And I think what you felt was immediate relief, the feeling that we can just move forward as a company and as an industry without having to deal with this relentless onslaught,
+
+86
+00:07:26,320 --> 00:07:35,640
+ where it was very, very clear that the previous administration had a view that crypto shouldn't exist in substantive form,
+
+87
+00:07:35,640 --> 00:07:43,040
+ and should certainly not be allowed to integrate with the traditional financial system.
+
+88
+00:07:43,040 --> 00:07:45,760
+ So I think that was a big boon.
+
+89
+00:07:45,760 --> 00:07:50,320
+ And now there's two big things that are underway legislatively.
+
+90
+00:07:50,320 --> 00:07:55,680
+ So I should be clear, I mean, cessation of enforcement is a big thing.
+
+91
+00:07:55,680 --> 00:08:03,840
+ There was also clarity on meme coins, which you probably saw the SEC issued a memo on meme coins,
+
+92
+00:08:03,840 --> 00:08:07,760
+ specifically saying that they were not securities.
+
+93
+00:08:07,760 --> 00:08:13,000
+ And this was basically something that was not very controversial.
+
+94
+00:08:13,000 --> 00:08:21,480
+ I mean, the whole thing with meme coins is it was a fairly easy legal analysis to determine that they don't qualify as securities,
+
+95
+00:08:21,480 --> 00:08:25,360
+ but everyone was kind of independently doing this analysis for every coin.
+
+96
+00:08:25,360 --> 00:08:34,840
+ The folks that were doing a good job at this, including Robinhood were doing rigorous analysis for every coin, including a security analysis.
+
+97
+00:08:34,840 --> 00:08:42,280
+ And that was expensive and burdensome, so having this sort of clarity was very useful.
+
+98
+00:08:42,280 --> 00:08:48,360
+ And similarly, there's more clarity about staking, whether staking is a security.
+
+99
+00:08:48,360 --> 00:09:00,560
+ And that's a great thing as well, because if you think about staking, people are contributing their own compute to supporting the blockchain.
+
+100
+00:09:00,560 --> 00:09:05,640
+ There's staking providers that aim to reduce the complexity of that.
+
+101
+00:09:05,640 --> 00:09:12,280
+ And generally, that results in more yield, more crypto in customers' pockets.
+
+102
+00:09:12,280 --> 00:09:22,120
+ So lack of clarity there was actually just hurting U.S. consumers because they couldn't generate as much yield from platforms that are more regulated.
+
+103
+00:09:22,120 --> 00:09:29,800
+ And so having clarity there is good, and there's two big legislative initiatives right now, stablecoin and market structure.
+
+104
+00:09:29,800 --> 00:09:37,480
+ Stablecoin is going to come first, and I think that'll be welcome and it's good.
+
+105
+00:09:37,480 --> 00:09:40,200
+ But market structure is what we're really excited about.
+
+106
+00:09:40,200 --> 00:09:57,560
+ And I think that's the mechanism by which we'll have clarity on how we can incorporate crypto technology into real world, trad-fi assets, like securities, also like yield-bearing stablecoins, as well as prediction markets.
+
+107
+00:09:57,560 --> 00:10:04,320
+ We'll have to outline what qualifies as a crypto asset security versus a crypto asset commodity.
+
+108
+00:10:04,320 --> 00:10:11,760
+ And also, what steps we would need to take as a platform to list crypto asset securities?
+
+109
+00:10:11,760 --> 00:10:20,080
+ And what would it take as a company or as an issuer to actually issue crypto asset securities to the American public?
+
+110
+00:10:20,080 --> 00:10:29,960
+ I think those are the big questions and getting legislation to help us answer the questions is what's going to unlock the true power of crypto technology.
+
+111
+00:10:29,960 --> 00:10:32,040
+ So that's what we're very excited about.
+
+112
+00:10:32,040 --> 00:10:41,120
+ And you had mentioned companies that are working on connecting stablecoin.
+
+113
+00:10:41,120 --> 00:10:51,520
+ So you can essentially do banking backed by stablecoin, where your stablecoin is staked or put into some kind of pool that generates yield.
+
+114
+00:10:51,520 --> 00:11:01,160
+ I think crypto market structure legislation would actually unlock those types of products, and you'd have more competition in the banking sector.
+
+115
+00:11:01,160 --> 00:11:08,040
+ I don't think stablecoin is quite there because it doesn't stipulate yield-bearing stablecoins.
+
+116
+00:11:08,040 --> 00:11:14,040
+ So more regulatory clarity is needed to actually put that on firmer footing.
+
+117
+00:11:14,040 --> 00:11:15,640
+ But we're optimistic it'll come.
+
+118
+00:11:15,640 --> 00:11:23,160
+ And we're engaged in Washington to help in this legislation, and I think it's heading in a positive direction.
+
+119
+00:11:23,160 --> 00:11:25,480
+ So we're feeling good.
+
+120
+00:11:25,480 --> 00:11:41,880
+ I think maybe if I'm hearing your answer, there are a bunch of product lines that theoretically exist that are out there, that we really need that market structure bill to get through Congress, so that we can stop being in this exploratory phase, this ideation phase, and actually stop being in this building phase.
+
+121
+00:11:41,880 --> 00:11:44,520
+ Is that correct?
+
+122
+00:11:44,520 --> 00:11:58,120
+ Yeah, 100%. So effectively, a stablecoin, for example, that bears yield, that pays interest directly to holders, resembles a money market fund, right?
+
+123
+00:11:58,120 --> 00:12:07,880
+ Which is a stablecoins themselves resemble money market funds because there literally are money market funds that hold treasuries.
+
+124
+00:12:07,880 --> 00:12:16,520
+ And so that's where stablecoins being treated a little bit differently and has been for a while.
+
+125
+00:12:16,520 --> 00:12:19,880
+ But I think that's where the regulatory clarity can come in.
+
+126
+00:12:19,880 --> 00:12:21,880
+ What about the vertical of tokenization?
+
+127
+00:12:21,880 --> 00:12:26,280
+ Because I think that is just a super hot topic with anything that is in the world of traffic.
+
+128
+00:12:26,280 --> 00:12:37,680
+ Because I think that's really kind of the conduit between the world of banking, traditional finance, and the world of crypto is like, let's tokenize some more assets and start to leverage and lean into the value of public permission.
+
+129
+00:12:37,680 --> 00:12:38,680
+ Unless blockchains.
+
+130
+00:12:38,680 --> 00:12:43,680
+ Where is Robin Hood's role in this tokenization movement?
+
+131
+00:12:43,680 --> 00:12:45,680
+ I'm assuming you guys are bullish on it.
+
+132
+00:12:45,680 --> 00:12:49,680
+ Do you guys see yourself as an issuer, a platform?
+
+133
+00:12:49,680 --> 00:12:51,680
+ Will Robin Hood create tokenized products?
+
+134
+00:12:51,680 --> 00:12:55,680
+ Are you just interested in being the marketplace for these things?
+
+135
+00:12:55,680 --> 00:12:59,680
+ Where do you guys stand in this tech stack of tokenization?
+
+136
+00:12:59,680 --> 00:13:13,680
+ Yeah, so tokenization by this definition is taking a non-crypto native asset and assigning it representation on a blockchain so that it's freely tradable.
+
+137
+00:13:13,680 --> 00:13:17,680
+ So we already have it with stablecoins.
+
+138
+00:13:17,680 --> 00:13:30,680
+ And also, you know, Paxos has a tokenized gold product.
+
+139
+00:13:30,680 --> 00:13:33,680
+ For example, that's a very interesting product.
+
+140
+00:13:33,680 --> 00:13:39,680
+ And we actually partnered with Paxos and a few other companies on USDG, the Dollar Global Network, which aims to build a stablecoin that's available globally that pays an attractive yield to holders.
+
+141
+00:13:39,680 --> 00:13:45,680
+ And the next step would obviously be tokenization of securities, which we're very excited about.
+
+142
+00:13:45,680 --> 00:13:49,680
+ So that allows you to have ownership in companies.
+
+143
+00:13:49,680 --> 00:14:04,680
+ In the same way that stablecoin legislation ensures USD dominance globally, which I think is why people are excited about and you're having so much excitement, particularly in Washington around it.
+
+144
+00:14:04,680 --> 00:14:20,680
+ And everyone wants USD in US treasuries to be accepted and purchased and for there to be high demand for those products globally, particularly as more countries are moving away from US treasuries.
+
+145
+00:14:20,680 --> 00:14:35,680
+ So stablecoin is viewed, I think, rightly as an area that could increase demand among individuals overseas as governments become prone to diversifying away from holding treasuries.
+
+146
+00:14:35,680 --> 00:14:48,680
+ So in the same way that stablecoin legislation can kind of push forward US dollar dominance, I think tokenized securities can really push forward US company dominance in the global market.
+
+147
+00:14:48,680 --> 00:14:52,680
+ So we increase the pool of shareholders for US companies.
+
+148
+00:14:52,680 --> 00:14:56,680
+ Right now it's very difficult to invest in a US company if you're overseas.
+
+149
+00:14:56,680 --> 00:15:06,680
+ And so in the same way that stablecoins made it easy to get dollars, tokenized securities will make it easily easy to access US companies.
+
+150
+00:15:06,680 --> 00:15:08,680
+ So we're excited about that.
+
+151
+00:15:08,680 --> 00:15:09,680
+ I think that's good for the companies.
+
+152
+00:15:09,680 --> 00:15:17,680
+ That's good for people outside the US because they'll have access to these effective wealth building tools, which is another way to diversify.
+
+153
+00:15:17,680 --> 00:15:24,680
+ If they have loss of purchasing power due to local currencies that are devaluing sharply.
+
+154
+00:15:24,680 --> 00:15:26,680
+ So I think that's exciting.
+
+155
+00:15:26,680 --> 00:15:29,680
+ And I think it's also good for entrepreneurs in capital formation.
+
+156
+00:15:29,680 --> 00:15:39,680
+ If you make it easier to raise capital in the US by tapping into a global crypto market, you get a lot more interesting companies.
+
+157
+00:15:39,680 --> 00:15:51,680
+ So we wrote an op-ed actually in the Washington Post a couple months ago that I published that makes the case for tokenizing private securities.
+
+158
+00:15:51,680 --> 00:15:57,680
+ So if you think about it, right now it's hard to invest in open AI or SpaceX as a private company.
+
+159
+00:15:57,680 --> 00:16:00,680
+ And I think crypto can help solve that.
+
+160
+00:16:00,680 --> 00:16:07,680
+ So if you tokenize private companies, it'll be good for the companies and also for investors.
+
+161
+00:16:07,680 --> 00:16:17,680
+ It's crazy to me that you can't invest in companies like SpaceX and open AI, but you know, we have clarity on meme coins and people can basically invest in those freely.
+
+162
+00:16:17,680 --> 00:16:23,680
+ If I'm putting some of the pieces together, there is like a market for SpaceX equity out there.
+
+163
+00:16:23,680 --> 00:16:30,680
+ I guess not crazy to have a friend who just managed to find a way to access SpaceX, SpaceX equity.
+
+164
+00:16:30,680 --> 00:16:36,680
+ And so I think what you're kind of saying is like, well, since there's already a market out there, it's in the private market sector,
+
+165
+00:16:36,680 --> 00:16:44,680
+ we could tokenize that equity and make that into a more formalized, more structured market using crypto rails to do that.
+
+166
+00:16:44,680 --> 00:16:51,680
+ And then I would imagine Robin Hood would love to be the marketplace to service tokenize equities.
+
+167
+00:16:51,680 --> 00:16:56,680
+ At least if I'm putting pieces two and two together, that seems like a very viable future.
+
+168
+00:16:56,680 --> 00:17:07,680
+ Is this kind of the roadmap that you see and how close are we?
+
+169
+00:17:07,680 --> 00:17:11,680
+ How close are we into tokenize SpaceX equity on Robin Hood?
+
+170
+00:17:11,680 --> 00:17:17,680
+ Yeah, I think Robin Hood sits at the intersection of tradfi and crypto.
+
+171
+00:17:17,680 --> 00:17:19,680
+ So we have all the crypto technology.
+
+172
+00:17:19,680 --> 00:17:23,680
+ We have all the traditional financial infrastructure.
+
+173
+00:17:23,680 --> 00:17:26,680
+ We have all the new data to the ecosystem.
+
+174
+00:17:26,680 --> 00:17:31,680
+ And I think in the future, this will look something like an ETF issuer.
+
+175
+00:17:31,680 --> 00:17:40,680
+ So ETF issuers, you know, there's ETFs that hold a basket of securities and then issue shares of the ETF.
+
+176
+00:17:40,680 --> 00:17:44,680
+ In a way, that's a precursor to tokenize securities, right?
+
+177
+00:17:44,680 --> 00:17:52,680
+ And there's a creation redemption process where if you have, if you come to the ETF issuer with a basket of those securities,
+
+178
+00:17:52,680 --> 00:17:57,680
+ they'll redeem it for a share of the ETF and vice versa.
+
+179
+00:17:57,680 --> 00:18:01,680
+ You can redeem the ETF for the underlying basket of securities.
+
+180
+00:18:01,680 --> 00:18:11,680
+ So I think that's an analogy of what already happens in tradfi that tokenization can kind of evolve using crypto technology.
+
+181
+00:18:11,680 --> 00:18:19,680
+ There's been not a substantial decline, but the trend of public market IPOing is towards a lower number.
+
+182
+00:18:19,680 --> 00:18:26,680
+ It's simply just because costs of IPOing are just so high, so prohibitive for companies.
+
+183
+00:18:26,680 --> 00:18:32,680
+ Like the bar just seems to be getting higher and higher for companies to get over in order to access public capital markets.
+
+184
+00:18:32,680 --> 00:18:39,680
+ Do you think that because of this trend, that that will also push tailwinds towards this kind of private market tokenization frontier?
+
+185
+00:18:39,680 --> 00:18:49,680
+ Or is that just too difficult in terms of just like nation state compliance and unwieldy in terms of just like what finance norms are?
+
+186
+00:18:49,680 --> 00:18:50,680
+ What do you think about that?
+
+187
+00:18:50,680 --> 00:18:59,680
+ Yeah, I think the way it's headed is tokenization of securities kind of paves the way towards an IPO alternative.
+
+188
+00:18:59,680 --> 00:19:01,680
+ I think that'll happen.
+
+189
+00:19:01,680 --> 00:19:08,680
+ And even if it doesn't happen in the US soon, it'll happen internationally, right?
+
+190
+00:19:08,680 --> 00:19:17,680
+ Because many countries are setting up their frameworks for issuing crypto asset securities and crypto by its nature is global.
+
+191
+00:19:17,680 --> 00:19:25,680
+ So if you can issue a token of a company on a blockchain regulated in one jurisdiction,
+
+192
+00:19:25,680 --> 00:19:34,680
+ you sort of immediately tap into this global market that's getting increasingly more liquid and has hundreds of millions of participants around the world.
+
+193
+00:19:34,680 --> 00:19:40,680
+ So I think that makes it an inevitability that it's embraced by the US as well.
+
+194
+00:19:40,680 --> 00:19:43,680
+ And I think there's two use cases.
+
+195
+00:19:43,680 --> 00:19:50,680
+ If you're a private company at the absolute early stages of company formation, this is primary capital, right?
+
+196
+00:19:50,680 --> 00:19:55,680
+ It's the equivalent of a traditional IPO where you're raising capital from shareholders.
+
+197
+00:19:55,680 --> 00:20:04,680
+ I think primary capital is very, very useful at the earliest stages because I remember being an entrepreneur running a seed stage company.
+
+198
+00:20:04,680 --> 00:20:09,680
+ When you're in fundraising mode, it takes up a ton of your mind share and resources.
+
+199
+00:20:09,680 --> 00:20:13,680
+ And those resources are really, really meaningful when you're a small company.
+
+200
+00:20:13,680 --> 00:20:22,680
+ So if I had an option to just tap into a global pool for raising capital and get my fund raised on very, very quickly,
+
+201
+00:20:22,680 --> 00:20:25,680
+ that's a compelling value proposition for an early stage founder.
+
+202
+00:20:25,680 --> 00:20:27,680
+ So I think it could help.
+
+203
+00:20:27,680 --> 00:20:29,680
+ It was get a lot more companies.
+
+204
+00:20:29,680 --> 00:20:41,680
+ You'll get a lot more companies, a lot more projects, and a lot more exposure at earliest stages where the risk is highest, but also the upside opportunity is greatest for investors.
+
+205
+00:20:41,680 --> 00:20:48,680
+ And for a late stage private company, something like an open AI or SpaceX, the value proposition shifts.
+
+206
+00:20:48,680 --> 00:20:56,680
+ So I think it's less interesting to the founders of those companies at that point because they've already raised a ton of money.
+
+207
+00:20:56,680 --> 00:21:02,680
+ Maybe they're planning an IPO or other things, but it becomes very interesting to employees.
+
+208
+00:21:02,680 --> 00:21:06,680
+ Some of these companies have thousands or tens of thousands of employees.
+
+209
+00:21:06,680 --> 00:21:13,680
+ They're looking for liquidity. They don't have visibility as to when there's going to be an IPO or liquidity event.
+
+210
+00:21:13,680 --> 00:21:17,680
+ And so the employees are interested in diversifying a little bit.
+
+211
+00:21:17,680 --> 00:21:20,680
+ And that becomes a strong value proposition.
+
+212
+00:21:20,680 --> 00:21:28,680
+ And you have secondary platforms, platforms like Equities and or Forge or some others that operate in the space.
+
+213
+00:21:28,680 --> 00:21:31,680
+ And they actually right now go to employees.
+
+214
+00:21:31,680 --> 00:21:40,680
+ They reach out to employees of these companies because that's the receptive audience for diversifying and selling secondary shares.
+
+215
+00:21:40,680 --> 00:21:46,680
+ Now the problem with those models is the liquidity is actually split.
+
+216
+00:21:46,680 --> 00:21:52,680
+ So the platform itself has to go out and figure out how to get supply and bring it on.
+
+217
+00:21:52,680 --> 00:22:00,680
+ Whereas crypto benefits from interoperability where you just have to get it on the blockchain is freely tradable
+
+218
+00:22:00,680 --> 00:22:08,680
+ and you immediately access that global liquidity, which is why I think that it's such a great technology solution.
+
+219
+00:22:08,680 --> 00:22:14,680
+ There seems to be just a handful of different trends that are just clearly pointing in this direction.
+
+220
+00:22:14,680 --> 00:22:25,680
+ And there's just a bunch of cool companies out there, SpaceX, OpenAI that are just private and not seemingly interested in going public.
+
+221
+00:22:25,680 --> 00:22:34,680
+ Just all of these AI labs for just a broad category, just don't have public equity or they're like Facebook or Google or just something way too large,
+
+222
+00:22:34,680 --> 00:22:38,680
+ where it's just like too dilutive of an investment vehicle to get closer to AI.
+
+223
+00:22:38,680 --> 00:22:43,680
+ If you want exposure to AI as a retail investor, your options are incredibly limited.
+
+224
+00:22:43,680 --> 00:22:53,680
+ I mean, you have like Nvidia, which is multi trillion, alphabets multi trillion and Tesla, of course.
+
+225
+00:22:53,680 --> 00:23:01,680
+ But there's a huge gap. You can't get exposure to open AI or anthropic or perplexity or any of these interesting AI companies.
+
+226
+00:23:01,680 --> 00:23:13,680
+ Yeah. And if you just look at the public markets, you just see the multi decade long trends of the opportunities are getting today in the modern age.
+
+227
+00:23:13,680 --> 00:23:16,680
+ Opportunities are no longer in the public markets. They are in the private markets.
+
+228
+00:23:16,680 --> 00:23:22,680
+ Partly what I said earlier is just the costs of the compliance costs of IPOing is just getting higher and higher and higher.
+
+229
+00:23:22,680 --> 00:23:26,680
+ And meanwhile, crypto is like offering the technology to be an answer to that.
+
+230
+00:23:26,680 --> 00:23:35,680
+ I just see like multiple different tailwinds pointing towards this inevitable conclusion of tokenizing private market equity.
+
+231
+00:23:35,680 --> 00:23:38,680
+ And that actually becoming more or less the pseudo public markets of sorts.
+
+232
+00:23:38,680 --> 00:23:46,680
+ Yeah. Okay. So I also kind of want to get into the world of prediction markets because this is something that Robinhood has also entered into.
+
+233
+00:23:46,680 --> 00:23:51,680
+ I think there's this like tagline of Robinhood of markets for everything.
+
+234
+00:23:51,680 --> 00:23:59,680
+ Am I hallucinating that? Or is there some sort of like actually official brand of just like, that's where your guys' goal is filling the gap of my understanding here?
+
+235
+00:23:59,680 --> 00:24:03,680
+ Yeah. I mean, we haven't used that tagline specifically as Robinhood.
+
+236
+00:24:03,680 --> 00:24:05,680
+ Okay. So I did imagine that.
+
+237
+00:24:05,680 --> 00:24:10,680
+ The name of the company is Robinhood markets, right? That's our parent company.
+
+238
+00:24:10,680 --> 00:24:17,680
+ And so the mission which you probably heard is democratized finance for all.
+
+239
+00:24:17,680 --> 00:24:32,680
+ And what that means is generally speaking, if there's a market, we believe in markets and we think that if there's a market that we should facilitate it and allow our traders to access it.
+
+240
+00:24:32,680 --> 00:24:45,680
+ And generally, if it's an institutional market and retail is interested in it, retail should be allowed to access it on a level playing field to institutions as well.
+
+241
+00:24:45,680 --> 00:24:53,680
+ So those are a few of the sort of like North Stars about offering markets.
+
+242
+00:24:53,680 --> 00:24:55,680
+ So that applies to prediction markets as well.
+
+243
+00:24:55,680 --> 00:25:12,680
+ But I think prediction markets have an additional value for me personally, which is there's a societal benefit for that market being robust outside of just trading, which is having a robust prediction market means you have better predictions
+
+244
+00:25:12,680 --> 00:25:14,680
+ across a wide variety of events.
+
+245
+00:25:14,680 --> 00:25:21,680
+ We saw this in the election where the prediction markets gave you that information hours or even days before the traditional media.
+
+246
+00:25:21,680 --> 00:25:26,680
+ And I think you're going to see it across multiple different categories.
+
+247
+00:25:26,680 --> 00:25:31,680
+ So I think prediction markets are truth machines and they're an evolution of the news.
+
+248
+00:25:31,680 --> 00:25:40,680
+ They're an evolution of the newspaper where in some cases you even get the news via prediction markets before it happens, which I think is super interesting.
+
+249
+00:25:40,680 --> 00:25:55,680
+ Yeah, I hosted an election party like many people do and of course we had mainstream media on the news, but I'm just primarily friends with crypto people. And so in addition to having mainstream media, we also had poly market on a screen and everyone was slipping back
+
+250
+00:25:55,680 --> 00:26:05,680
+ and forth between poly market and the mainstream media and poly market was actually the more interesting thing to look at because it was actually giving us the data that we felt was much more real time.
+
+251
+00:26:05,680 --> 00:26:13,680
+ So in a recent announcement out of the Robinhood, let me just read this and we'll kind of get into the prediction markets section more more definitively.
+
+252
+00:26:13,680 --> 00:26:22,680
+ Recently, Robinhood announced a prediction markets hub directly within the Robinhood app, giving customers the opportunity to trade the outcomes of some of the world's biggest events.
+
+253
+00:26:22,680 --> 00:26:34,680
+ At launch, the hub will allow customers to trade contracts for what the upper bound of the target feds fund rate will be in May, as well as the upcoming men's and women's college basketball tournaments to very different markets.
+
+254
+00:26:34,680 --> 00:26:40,680
+ So I think you kind of already answered my first question, which is what motivated the integration of a prediction market into Robinhood.
+
+255
+00:26:40,680 --> 00:26:46,680
+ But notably this prediction market product is also powered by Kalashi.
+
+256
+00:26:46,680 --> 00:26:53,680
+ Maybe you could go into that actual partnership between Kalashi was Kalashi's role and the prediction market that's found in Robinhood.
+
+257
+00:26:53,680 --> 00:27:07,680
+ Yeah, so Kalashi is designated contract market, a DCM, and you can think of DCM as akin to an exchange, a stock exchange.
+
+258
+00:27:07,680 --> 00:27:26,680
+ So in in equities land, there's exchanges like the NASDAQ and the New York Stock Exchange, brokers, including Robinhood connect to exchanges or market makers that trade on these exchanges where the buyers and sellers are actually crossed.
+
+259
+00:27:26,680 --> 00:27:37,680
+ And the exchange essentially creates a market. So in equities land, Robinhood's a broker, we have an introducing and clearing broker.
+
+260
+00:27:37,680 --> 00:27:45,680
+ We route to market makers. We also route directly to exchange and exchanges are where the individual buy and sell orders cross.
+
+261
+00:27:45,680 --> 00:28:01,680
+ In futures land, CFTC land, there's designated contract markets DCM's which are like the exchanges where the buyers and sellers meet, and then FCM's future commissions merchants, which is what Robinhood is in this case where an FCM.
+
+262
+00:28:01,680 --> 00:28:13,680
+ So we're responsible for the customer relationship, the interface, and then we route to DCM's and via market makers for the orders to be crossed.
+
+263
+00:28:13,680 --> 00:28:22,680
+ So, yeah, you can think of Kalashi as analogous to the NASDAQ or Nicie, and we're playing the role that we always play as a broker.
+
+264
+00:28:22,680 --> 00:28:35,680
+ And we also, for the presidential election, we connected to a different DCM called forecast tax, which is a subsidiary of interactive brokers.
+
+265
+00:28:35,680 --> 00:28:43,680
+ So we have the capability of connecting to multiple DCM's and offering different products offered by those exchanges.
+
+266
+00:28:43,680 --> 00:28:49,680
+ And actually, the DCM is who has the ultimate responsibility for listing the contract.
+
+267
+00:28:49,680 --> 00:28:57,680
+ So all the contracts that we list have to be listed on a DCM in order for us to offer them.
+
+268
+00:28:57,680 --> 00:29:05,680
+ Okay, so you can offer your own prediction markets, it has to be on a third party DCM.
+
+269
+00:29:05,680 --> 00:29:06,680
+ Correct, yeah.
+
+270
+00:29:06,680 --> 00:29:18,680
+ And actually, one of the reasons why a polymarket, which you mentioned, polymarket prediction markets are not available in the US is because they're not a DCM, right there.
+
+271
+00:29:18,680 --> 00:29:31,680
+ This crypto technology approach, and I think this is one of those things that's going to need to be clarified in that market structure legislation that we were talking about a little bit earlier.
+
+272
+00:29:31,680 --> 00:29:38,680
+ So, obviously, the CFTC regulates these things as commodities, they have licensure.
+
+273
+00:29:38,680 --> 00:29:48,680
+ So would polymarket style prediction markets be handled under that regime, or is there going to be some other regime because it's crypto?
+
+274
+00:29:48,680 --> 00:29:57,680
+ So those are kind of the big prediction markets questions that we need legislation before allowing something like polymarket to operate in the US.
+
+275
+00:29:57,680 --> 00:30:04,680
+ Yeah, I think everyone listening to this would definitely enjoy being able to access polymarket inside of the United States.
+
+276
+00:30:04,680 --> 00:30:11,680
+ One last question on the prediction markets side of this thing. So we are starting with the Fed funds rate and also men's and women's basketball.
+
+277
+00:30:11,680 --> 00:30:18,680
+ But what next? What are the future prediction market bets that people can make on Robinhood in the near term future?
+
+278
+00:30:18,680 --> 00:30:29,680
+ Yeah, so with this latest round of contracts of markets that we listed, we've gone from having the capabilities to list one at a time to listing hundreds.
+
+279
+00:30:29,680 --> 00:30:39,680
+ And of course, the operational complexity of clearing and paying out and setting up new contracts that are depending on previous contracts.
+
+280
+00:30:39,680 --> 00:30:45,680
+ That's really, you know, the men's and women's college basketball really has put that to the test.
+
+281
+00:30:45,680 --> 00:30:53,680
+ So we're soon going to have the capability to go from hundreds to thousands, which really opens up all types of prediction markets.
+
+282
+00:30:53,680 --> 00:31:00,680
+ So we're excited about economic. I'm excited about artificial intelligence progress.
+
+283
+00:31:00,680 --> 00:31:10,680
+ You know, there's some very cool prediction markets that give clarity on, you know, different AI developments, which I think our customers are very, very interested in.
+
+284
+00:31:10,680 --> 00:31:18,680
+ But really, I think it should be the newspaper, right? There's front page, which is what's trending right now in the world that people are curious about.
+
+285
+00:31:18,680 --> 00:31:24,680
+ There's your sports section, your business section, arts and leisure style.
+
+286
+00:31:24,680 --> 00:31:29,680
+ I think that's a good microcosm for what we need prediction markets on.
+
+287
+00:31:29,680 --> 00:31:31,680
+ Those are basically the categories.
+
+288
+00:31:31,680 --> 00:31:37,680
+ Yeah, prediction markets as a truth machine, I think is one of the reasons why crypto people are so peeled on prediction markets.
+
+289
+00:31:37,680 --> 00:31:47,680
+ And there's been examples in the past of pretty like big and also sensitive geopolitical events that have happened as Israel versus Iran when the missiles were going across the border.
+
+290
+00:31:47,680 --> 00:31:56,680
+ There was a prediction market or set of prediction markets on poly market that was actually truly informative about what people thought about the future events.
+
+291
+00:31:56,680 --> 00:32:00,680
+ And at the same time, highly consequential, kind of sensitive subjects.
+
+292
+00:32:00,680 --> 00:32:13,680
+ But also, you know, high stakes and very important because I think, you know, if we are entering a unstable geopolitical future, people would appreciate understanding what the market thinks about the likelihood of certain outcomes.
+
+293
+00:32:13,680 --> 00:32:22,680
+ How do you think about this as like the idea of integrating high stakes global macro geopolitical prediction markets inside of Robinhood?
+
+294
+00:32:22,680 --> 00:32:26,680
+ I think that it's important for society, right?
+
+295
+00:32:26,680 --> 00:32:35,680
+ I think that there's a current CFTC guideline for prediction markets and event contracts as they're called.
+
+296
+00:32:35,680 --> 00:32:46,680
+ And basically, it stipulates that, you know, prediction markets that are contrary to public interest shouldn't be listed.
+
+297
+00:32:46,680 --> 00:33:02,680
+ And I think that that's a somewhat vague general category of thing, but we should make sure that we cabin that as much as possible because I really think the vast majority of prediction markets are in the public interest.
+
+298
+00:33:02,680 --> 00:33:05,680
+ Imagine a world where your day-to-day banking runs on a blockchain.
+
+299
+00:33:05,680 --> 00:33:12,680
+ That's exactly what Mantle is building, powered by a $4 billion treasury and poised to become the largest sustainable on-chain financial hub.
+
+300
+00:33:12,680 --> 00:33:19,680
+ As part of their 2025 expansion, Mantle is introducing three new core innovation pillars that bridge traditional finance with decentralized technology.
+
+301
+00:33:19,680 --> 00:33:24,680
+ First is their enhanced index fund, aiming for $1 billion in AUM by Q1.
+
+302
+00:33:24,680 --> 00:33:30,680
+ It provides optimized exposure to Bitcoin, E, Solana, and USC, complete with built-in yield opportunities.
+
+303
+00:33:30,680 --> 00:33:38,680
+ Next, Mantle banking promises to revolutionize global value transfer through seamless blockchain-powered banking services, bridging crypto into your daily life.
+
+304
+00:33:38,680 --> 00:33:44,680
+ Finally, Mantle X blends the AI with DeFi to deliver an intelligent user-friendly experience for everyone.
+
+305
+00:33:44,680 --> 00:33:50,680
+ And the best part is that this is all in addition to their already launched products, like Mantle Network, ME, and FBTC.
+
+306
+00:33:50,680 --> 00:33:56,680
+ Ready to step into the future of finance? Follow Mantle on X at Mantle_official and join the on-chain revolution today.
+
+307
+00:33:56,680 --> 00:34:07,680
+ Sello is transitioning from a mobile-first, EVM-compatible layer 1 blockchain to a high-performance Ethereum layer 2, built on OP stack with EigenDA and one-block finality, all happening soon with a hard fork,
+
+308
+00:34:07,680 --> 00:34:13,680
+ with over 600 million total transactions, 12 million weekly transactions, and 750,000 daily active users.
+
+309
+00:34:13,680 --> 00:34:20,680
+ Sello's meteoric rise would place it among one of the top layer 2s, built for the real-world and optimized for fast, low-cost, global payments.
+
+310
+00:34:20,680 --> 00:34:29,680
+ At home of the Sablecoins, Sello hosts 13 native Sablecoins across seven different currencies, including native USDT on Opera MiniPay, and with over 4 million users in Africa alone.
+
+311
+00:34:29,680 --> 00:34:34,680
+ In November, Sablecoin volumes hit $6.8 billion, made for its seamless on-chain FX trading.
+
+312
+00:34:34,680 --> 00:34:40,680
+ Plus, users can pay gas with ERC-20 tokens like USDT and USDC and send crypto to phone numbers in seconds.
+
+313
+00:34:40,680 --> 00:34:43,680
+ But why should you care about Sello's transition to a layer 2?
+
+314
+00:34:43,680 --> 00:34:50,680
+ Layer 2's Unify Ethereum, L1's fragmented. By becoming a layer 2, Sello leads the way for other EVM-compatible layer 1s to follow.
+
+315
+00:34:50,680 --> 00:34:59,680
+ Follow Sello on X and witness the great Sello Havening, where Sello cuts its inflation in half as it enters its layer 2 era and continuing its environmental leadership.
+
+316
+00:34:59,680 --> 00:35:06,680
+ You may have already heard about Infinex. Infinex has, in my opinion, the nicest cross-chain swap and bridge feature that you will find anywhere.
+
+317
+00:35:06,680 --> 00:35:09,680
+ It is called Switch, swap and bridge, and we're going to show you what it looks like.
+
+318
+00:35:09,680 --> 00:35:15,680
+ First, we're going to log into my Infinex account with a PASKI. Now, there's no seed phrases in Infinex.
+
+319
+00:35:15,680 --> 00:35:22,680
+ This is just a one-click set up with biometric PASKIs. But in addition to that, my Infinex account is fully non-custorial.
+
+320
+00:35:22,680 --> 00:35:25,680
+ So, bam, I just logged in, it was two clicks, and I'm already into my Infinex account.
+
+321
+00:35:25,680 --> 00:35:33,680
+ So, let's go make a switch. I'm going to go switch my USDC that is on base, and I'm going to buy Barra Chain, which is a completely different chain.
+
+322
+00:35:33,680 --> 00:35:38,680
+ So, we're going to switch this. I'm going to press that button, and then Infinex is going to execute this order.
+
+323
+00:35:38,680 --> 00:35:41,680
+ This cross-chain order for me. And now it is done.
+
+324
+00:35:41,680 --> 00:35:45,680
+ But actually, I'm not really feeling Barra-ish anymore, so I'm going to go from Barra to Penguins.
+
+325
+00:35:45,680 --> 00:35:49,680
+ I'm going to buy Penguin on Solana, so I'm going from the Barra Chain to Solana.
+
+326
+00:35:49,680 --> 00:35:54,680
+ See, no transaction signing, no gas to worry about. You just switch across whatever chain that you want with Infinex.
+
+327
+00:35:54,680 --> 00:35:58,680
+ That was so easy. Go check out Infinex and try your first switch today.
+
+328
+00:35:58,680 --> 00:36:02,680
+ Okay, so let's get into some recent product announcements that just happened this week.
+
+329
+00:36:02,680 --> 00:36:09,680
+ We all had a pretty big event, a Robinhood Summit of sorts, and three different new verticals out of Robinhood.
+
+330
+00:36:09,680 --> 00:36:14,680
+ We announced Robinhood Strategies, Robinhood Banking, and then Robinhood Cortex.
+
+331
+00:36:14,680 --> 00:36:22,680
+ So, maybe we can kind of go one by one through these things, and maybe we can talk about the motivations for building each one of these verticals.
+
+332
+00:36:22,680 --> 00:36:27,680
+ I think, start with Robinhood Banking, because I think that's the product that I think is the most interesting to me.
+
+333
+00:36:27,680 --> 00:36:33,680
+ So, give me the details on that and what motivated that creation of that product line in the first place.
+
+334
+00:36:33,680 --> 00:36:52,680
+ Yeah, I mean, the overall inspiration for the gold event is we want to give all of our customers the same access opportunities and strategies that a high net worth individual would have their team of financial experts that help them with their financial life.
+
+335
+00:36:52,680 --> 00:37:03,680
+ So, high net worth individuals have private bankers. They have investment advisors. They have research assistants that help them scour the entire world, private and public for opportunities.
+
+336
+00:37:03,680 --> 00:37:10,680
+ And with technology, we can actually provide the value of a lot of these services to customers for a very, very low fee.
+
+337
+00:37:10,680 --> 00:37:24,680
+ So, that's kind of the north star. We want to put a sophisticated, high net worth family office like financial team into everyone's pocket and give it to our gold subscribers for as little as $5 a month.
+
+338
+00:37:24,680 --> 00:37:41,680
+ And I think that's sort of like the promise of something like the iPhone applied to financial services. How can you give someone a luxury product, a product that people are proud to use and be associated with because it's high end?
+
+339
+00:37:41,680 --> 00:37:49,680
+ But can you offer that at a price point that makes it truly accessible to everyone, where everyone just sees the extreme value?
+
+340
+00:37:49,680 --> 00:38:03,680
+ And so, that's the thread behind the three products we announced at the Gold Event. Strategies is your digital investment advisor. Cortex is your research assistant and Robin Hood banking serves as your private banker.
+
+341
+00:38:03,680 --> 00:38:09,680
+ And I think in the future, there's also the first AI product that we've rolled out within Robin Hood.
+
+342
+00:38:09,680 --> 00:38:27,680
+ So, I think in the future, you'll see the latest intelligence models and reasoning models actually imbued further and further into the product experience, further stitching these two together and really providing you a great experience where everything is aware of everything else.
+
+343
+00:38:27,680 --> 00:38:37,680
+ Yeah, when I was reading this announcement, I saw the Robin Hood Cortex, and I was like, "What? Robin Hood is releasing an AI agent?" But then, of course, reading into it makes a little bit more sense.
+
+344
+00:38:37,680 --> 00:38:52,680
+ Maybe you can kind of just give us an example of how someone might use Robin Hood Cortex. I'm assuming it's going to be in the Robin Hood app, the Canonical Robin Hood app, and then you just ask it questions about stuff that's going on in finance.
+
+345
+00:38:52,680 --> 00:38:59,680
+ Is it just kind of like an LLM that's financially themed? Like, pop up in the hood a little bit more and color that in for us.
+
+346
+00:38:59,680 --> 00:39:09,680
+ Yeah, so right now, there's basically two applications of it within the Robin Hood app. One is to answer the question of what's going on with a stock right now.
+
+347
+00:39:09,680 --> 00:39:21,680
+ So, if you use Robin Hood from time to time, we send notifications about market movements. If a stock's up or down 5%, then a very typical use case is to go to the stock and figure out what's going on.
+
+348
+00:39:21,680 --> 00:39:33,680
+ I don't know if you've had that experience. Certainly, yeah. But yeah, Cortex answers this. On the stock detail page, you go to the stock and it'll explain what's driving that movement to the best of its ability.
+
+349
+00:39:33,680 --> 00:39:41,680
+ So, those are stock digests. And we also wanted to tackle another use case, which is around options trading. So, options are very confusing.
+
+350
+00:39:41,680 --> 00:39:55,680
+ You have to really process a lot of information and you have to be quite experienced in order to construct an options trade, particularly one that has multiple legs, like a multi leg options trade.
+
+351
+00:39:55,680 --> 00:40:12,680
+ And what Cortex does via trade builder is it takes a prediction about what a stock's going to do at some point in the future and creates and constructs options trades that help you execute on that prediction.
+
+352
+00:40:12,680 --> 00:40:26,680
+ And it's a quite magical experience. We did a demo at the gold event where you go to a particular stock, make a prediction, and then it's sort of like outputs trades that you can execute on directly.
+
+353
+00:40:26,680 --> 00:40:38,680
+ Or it can put you into our new side by side options chain, which is rolling out starting next week, which is an amazing experience for entering multi leg options chains all from one screen.
+
+354
+00:40:38,680 --> 00:40:50,680
+ Is the idea here just translating human English expressed intent or preferences in a trade ingesting that into an AI, having the AI process that and then spit back out some potential options.
+
+355
+00:40:50,680 --> 00:40:54,680
+ Or like a package of like here's some potential trades that you might be interested in.
+
+356
+00:40:54,680 --> 00:41:07,680
+ So the idea is just coupling human language inputs into like potential like option option traits is that the idea? Yeah, well, a little bit more than that because we also take all of the information that's out there.
+
+357
+00:41:07,680 --> 00:41:29,680
+ So that includes market data, which is quantitative information, technicals, news updates from various sources. And we try to synthesize that and actually assist and provide a helpful tool for generating the prediction in the first place so that
+
+358
+00:41:29,680 --> 00:41:38,680
+ you have some insights, some data, some news right there that can help you as an individual in making your prediction.
+
+359
+00:41:38,680 --> 00:41:48,680
+ Can we talk about what is actually in the DNA of this LLM? I'm assuming this is not just a chat GPT rapper. There's a little bit more precision going on behind the scenes.
+
+360
+00:41:48,680 --> 00:42:00,680
+ So like what's unique about like the data that is trained upon or any sort of information about like the post training or anything that really makes this a Robinhood financed themed LLM?
+
+361
+00:42:00,680 --> 00:42:08,680
+ How is it unique? Yeah, so most typical LLMs don't have real time market data or financial data.
+
+362
+00:42:08,680 --> 00:42:20,680
+ They have stale data, so they can't really without integrating external tools, even tell you what the stock price is of a stock right now.
+
+363
+00:42:20,680 --> 00:42:32,680
+ And basically when they provide financial information, they hallucinate because they don't actually have access to the real time data.
+
+364
+00:42:32,680 --> 00:42:45,680
+ And so what we've built is a layer of technology on top that ensures that the data that you get is going to be interpretable and hallucination free.
+
+365
+00:42:45,680 --> 00:42:50,680
+ So that solves the two biggest problems that typical LLMs have.
+
+366
+00:42:50,680 --> 00:42:55,680
+ Yeah, I would imagine that hallucinating inside of a finance context could be catastrophic if we do not get that right.
+
+367
+00:42:55,680 --> 00:43:07,680
+ Yeah, 100%. But the benefit is we have a source of truth. So unlike writing a history essay where whether or not you're hallucinating is somewhat ambiguous.
+
+368
+00:43:07,680 --> 00:43:15,680
+ If it's financial data, we have the data so we can build guardrails and we know we can identify the hallucinations precisely.
+
+369
+00:43:15,680 --> 00:43:26,680
+ And this is maybe the competitive advantage that Robinhood has in the endeavor of creating a finance AI assistant, which is you guys also have real time market data.
+
+370
+00:43:26,680 --> 00:43:30,680
+ You guys have user data. You guys have a bunch of finance related data.
+
+371
+00:43:30,680 --> 00:43:35,680
+ And so I'm sure that's just being coupled right into the value of the LLM itself.
+
+372
+00:43:35,680 --> 00:43:40,680
+ Yeah, that's one advantage. The other is that you can actually transact within our app.
+
+373
+00:43:40,680 --> 00:43:49,680
+ So if we can make cortex contextual to where you want to perform an action, then it can be more useful.
+
+374
+00:43:49,680 --> 00:43:56,680
+ Yeah, what we didn't want to do is just put a chat box in the app. Yeah, because people don't know how to use that.
+
+375
+00:43:56,680 --> 00:44:03,680
+ It can provide output that's superfluous and wordy and has hallucination problems.
+
+376
+00:44:03,680 --> 00:44:08,680
+ So I think that would be the naive solution that we just wanted to avoid.
+
+377
+00:44:08,680 --> 00:44:12,680
+ Getting into the strategies side of this going back there for a quick second.
+
+378
+00:44:12,680 --> 00:44:17,680
+ Is there a potential future where this same strategies product is pointed towards crypto assets?
+
+379
+00:44:17,680 --> 00:44:24,680
+ Because anyone in the crypto industry, anyone listening to this podcast probably has all their friends asking them,
+
+380
+00:44:24,680 --> 00:44:28,680
+ "Hey, what do I buy?" or "How should I invest in crypto?" because they don't know.
+
+381
+00:44:28,680 --> 00:44:36,680
+ It would be really nice to have some pretty sophisticated, crypto-focused strategies that contain crypto assets.
+
+382
+00:44:36,680 --> 00:44:40,680
+ What's it take to point this strategy's product towards the crypto industry?
+
+383
+00:44:40,680 --> 00:44:46,680
+ Yeah, there's no technical reason why we hadn't done it.
+
+384
+00:44:46,680 --> 00:44:54,680
+ I mean, we have literally a list of probably dozens, maybe even hundreds of features that we could bring to strategies.
+
+385
+00:44:54,680 --> 00:44:58,680
+ And we want to see what customers want most.
+
+386
+00:44:58,680 --> 00:45:09,680
+ I think we've got a great foundation. We wanted to start with individual stocks because most other digital advice platforms offer ETFs only.
+
+387
+00:45:09,680 --> 00:45:15,680
+ So we built the capability to put individual assets and individual stocks in the portfolios.
+
+388
+00:45:15,680 --> 00:45:18,680
+ We, of course, support ETFs as well.
+
+389
+00:45:18,680 --> 00:45:26,680
+ And we built a really nice interface where we have a ring that clarifies your asset allocation.
+
+390
+00:45:26,680 --> 00:45:29,680
+ We can rebalance on customers' behalf.
+
+391
+00:45:29,680 --> 00:45:36,680
+ So it's as close as possible to just an invest hands-off button as you can get.
+
+392
+00:45:36,680 --> 00:45:41,680
+ And crypto is definitely something we considered for the launch.
+
+393
+00:45:41,680 --> 00:45:45,680
+ It's something that we can add along with other assets.
+
+394
+00:45:45,680 --> 00:45:49,680
+ So I think you'll see strategies continue to evolve.
+
+395
+00:45:49,680 --> 00:45:51,680
+ But yeah, we're excited.
+
+396
+00:45:51,680 --> 00:45:52,680
+ It's available right now.
+
+397
+00:45:52,680 --> 00:45:53,680
+ Customers can try it.
+
+398
+00:45:53,680 --> 00:45:56,680
+ We're already starting to get good, positive feedback.
+
+399
+00:45:56,680 --> 00:46:00,680
+ And people are moving their portfolios.
+
+400
+00:46:00,680 --> 00:46:13,680
+ Well, I should say the one huge differentiator for strategies is it inverts and breaks the traditional advice pricing model.
+
+401
+00:46:13,680 --> 00:46:20,680
+ So all other advisors out there, pretty much all, I wouldn't say, not absolutely.
+
+402
+00:46:20,680 --> 00:46:24,680
+ But your typical advisor charges an asset management fee.
+
+403
+00:46:24,680 --> 00:46:34,680
+ So, you know, it's somewhere between 1% for a traditional advisor, 0.25% for a robo advisor on the low end.
+
+404
+00:46:34,680 --> 00:46:41,680
+ And what that means is, as your portfolio grows, the amount your piece grows with that.
+
+405
+00:46:41,680 --> 00:46:47,680
+ But the amount of value that your digital advisor is offering doesn't scale linearly.
+
+406
+00:46:47,680 --> 00:46:59,680
+ I mean, having a robo manage a million dollar portfolio isn't 10 times as valuable or 10 times as hard or even significantly different than managing a $100,000 portfolio.
+
+407
+00:46:59,680 --> 00:47:01,680
+ But you're paying 10 times as much.
+
+408
+00:47:01,680 --> 00:47:13,680
+ So this had the nasty side effect of if you're a wealthy customer and you're putting more and more money into one of these services, you're sort of like getting less and less happy as that as time goes on.
+
+409
+00:47:13,680 --> 00:47:16,680
+ Which is not what you want as a customer, but it's not what you want as a business.
+
+410
+00:47:16,680 --> 00:47:20,680
+ You want customers to get happier as their wealth with you grows.
+
+411
+00:47:20,680 --> 00:47:30,680
+ And so Robinhood strategies introduced an innovative cap fee model where you're not going to be paying more than $250 in fees regardless of how big your portfolio is.
+
+412
+00:47:30,680 --> 00:47:39,680
+ So if you have a million dollars, the value proposition of switching into Robinhood strategies is actually quite high.
+
+413
+00:47:39,680 --> 00:47:47,680
+ How does that change the incentives of this product then? Because this has not become like an AUM incentivized business.
+
+414
+00:47:47,680 --> 00:47:52,680
+ This becomes more of a quantity of customers incentivized business.
+
+415
+00:47:52,680 --> 00:48:02,680
+ So how does Robinhood benefit from like big growth of strategies as a product if you guys are capping the fees that you charge to just $250 max per customer?
+
+416
+00:48:02,680 --> 00:48:14,680
+ Yeah, well, I mean, it incentivizes the, it's a huge incentive for customers that have significant assets outside of Robinhood to move them in.
+
+417
+00:48:14,680 --> 00:48:23,680
+ And we benefit from that with the asset management fee, we benefit from that from the Robinhood Gold subscription.
+
+418
+00:48:23,680 --> 00:48:37,680
+ And what we're seeing is once you become Robinhood Gold subscriber and you have a good chunk of your wealth with us, let's say you put $1,000 in there, you're starting to see the value at that point.
+
+419
+00:48:37,680 --> 00:48:53,680
+ And you will tend to use more and more of our services, including the credit card and the self directed trading capabilities.
+
+420
+00:48:53,680 --> 00:48:57,680
+ Yeah, it's really about getting as much of that financial relationship as possible and making it easy for you to put all of your dollars into Robinhood.
+
+421
+00:48:57,680 --> 00:49:08,680
+ And then, you know, we do see our revenue scaling with the number of dollars that we have in there.
+
+422
+00:49:08,680 --> 00:49:22,680
+ One thing I want to ask is this cash delivery service. Oh, yeah, I'll describe as like Uber eats, but for cash, I think is maybe pretty accurate. Can you talk about like why? Why did you guys need to build a Uber eats for cash?
+
+423
+00:49:22,680 --> 00:49:27,680
+ And then how does it all, how does it work? So like popping up in the hood? How does like money get transferred around?
+
+424
+00:49:27,680 --> 00:49:38,680
+ We're getting into the logistics business, which is also very exciting for me. Yeah, so this is a private banking high end service and two things.
+
+425
+00:49:38,680 --> 00:49:47,680
+ One is we don't have branch offices. So we asked ourselves, how can we bring, how can we give you digital banking where you're not actually making sacrifices?
+
+426
+00:49:47,680 --> 00:49:56,680
+ And without a branch office, one of the sacrifices is if you need cash, which by the way, 16% of all payments in the US are still cash payments.
+
+427
+00:49:56,680 --> 00:50:08,680
+ So, you know, it's decreasing, but certainly not obsolete. So cash is still important for a lot of people for various, for various needs.
+
+428
+00:50:08,680 --> 00:50:14,680
+ But if you need cash, you have to go to a 711 or a CVS or something like that.
+
+429
+00:50:14,680 --> 00:50:27,680
+ If you're a digital banking customer and another neo bank and nothing says private high net worth banking, then going to the 711 to pick up cash.
+
+430
+00:50:27,680 --> 00:50:34,680
+ Right. So obviously that didn't work. We need a new solution. So we asked ourselves, what would it take to have the bank come to you?
+
+431
+00:50:34,680 --> 00:50:44,680
+ And nowadays, you know, these on demand logistics platforms have gotten very, very robust. They can bring stuff to you in 10 or 15 minutes.
+
+432
+00:50:44,680 --> 00:50:53,680
+ You can buy an iPhone and get it delivered to your house, right? And that's a small big ticket, high dollar amount, valuable item.
+
+433
+00:50:53,680 --> 00:51:06,680
+ So this is a solved problem. So we're going to be announcing who we're partnering with. We're obviously not doing the entire end-to-end logistics chain ourselves, but we're working with partners.
+
+434
+00:51:06,680 --> 00:51:13,680
+ And it's a complex endeavor, but we think it's going to provide a lot of value.
+
+435
+00:51:13,680 --> 00:51:23,680
+ You know, as a matter of fact, I was a first republic customer before the merger. And one of the really valuable things that first republic had was cash delivery to your house.
+
+436
+00:51:23,680 --> 00:51:34,680
+ But of course, the cash was in much larger amounts and it came in an armored vehicle, right? And so it is a high net worth feature to get cash delivered to your house.
+
+437
+00:51:34,680 --> 00:51:38,680
+ And we kind of asked ourselves, how can we make it available to the mass market?
+
+438
+00:51:38,680 --> 00:51:43,680
+ Interesting. I would imagine that the minimum on this feature is going to be something higher than like $100.
+
+439
+00:51:43,680 --> 00:51:53,680
+ Well, in the demo, I demoed $200, but I think it's still, yeah, it's still kind of open to discussion.
+
+440
+00:51:53,680 --> 00:52:05,680
+ So as it rolls out, we'll learn a lot more about how this works and what the hard parts are and also what customers want and what the typical ticket sizes.
+
+441
+00:52:05,680 --> 00:52:09,680
+ I anticipate the average ticket size is going to be in the low hundreds of dollars.
+
+442
+00:52:09,680 --> 00:52:21,680
+ Getting back into the crypto topic, crypto sphere topics, win more crypto assets in Robinhood because there are not that many crypto assets available inside of the Robinhood app.
+
+443
+00:52:21,680 --> 00:52:26,680
+ What are the plans to just list a wider variety of crypto assets in the Robinhood marketplace?
+
+444
+00:52:26,680 --> 00:52:36,680
+ Yeah, I think we've been adding a lot of assets since the election and I think we offer most of the high volume ones that customers are interested in trading.
+
+445
+00:52:36,680 --> 00:52:44,680
+ Trump, coin, we listed the day of the inauguration, so that was very popular.
+
+446
+00:52:44,680 --> 00:52:52,680
+ We've been adding a lot of assets and I think now there's a ton of new assets created each week.
+
+447
+00:52:52,680 --> 00:52:56,680
+ You know, tens, I think I've heard hundreds of thousands.
+
+448
+00:52:56,680 --> 00:53:02,680
+ And so I think we recognize that we need to sort of like rethink the approach with assets.
+
+449
+00:53:02,680 --> 00:53:18,680
+ And I think what you should see, what you should expect to see is Robinhood Wallet, which actually is a DeFi on chain product, which thus far has been like very disjoint from the main Robinhood app.
+
+450
+00:53:18,680 --> 00:53:34,680
+ We'll get closer together over time since we're getting more and more clarity over time and you should see the custody app, the main Robinhood app, get some on chain features.
+
+451
+00:53:34,680 --> 00:53:41,680
+ And also the Wallet app will make it easier for you to bring fiat in and take fiat out.
+
+452
+00:53:41,680 --> 00:53:47,680
+ So I think these things at Robinhood and also industry wide will probably converge a little bit more.
+
+453
+00:53:47,680 --> 00:53:58,680
+ There will be less of an onus on listing and listing will almost be like an optimization that we do on the back end if we want to make things more efficient and streamlined if we're seeing a lot of volume.
+
+454
+00:53:58,680 --> 00:54:05,680
+ But I think the way it's going is customers will have more and more choice going forward.
+
+455
+00:54:05,680 --> 00:54:16,680
+ And Robinhood aims to facilitate that while also making sure that if you're in a world where there's hundreds of new tokens every week, customers could get confused.
+
+456
+00:54:16,680 --> 00:54:20,680
+ It's going to get hard to distinguish high quality from low quality.
+
+457
+00:54:20,680 --> 00:54:36,680
+ And we also have to have to figure that out and make sure that, you know, we're not just facilitating, you know, unreputable tokens and, you know, making it too easy for customers to do things that they don't want to do.
+
+458
+00:54:36,680 --> 00:54:46,680
+ So you have the Robinhood wallet, the core Robinhood app. There's also Robinhood credit card, which is, I think, also where Robinhood banking is going to be, if I'm understanding that correctly.
+
+459
+00:54:46,680 --> 00:54:49,680
+ Robinhood credit cards becoming Robinhood banking.
+
+460
+00:54:49,680 --> 00:54:55,680
+ Understood. Okay. So that's three applications. Is it division between these things? Is that all just like regulation and compliance?
+
+461
+00:54:55,680 --> 00:55:01,680
+ And is there a vision to just kind of consolidate everything into one gigantic financial super app?
+
+462
+00:55:01,680 --> 00:55:11,680
+ Yeah, we started out with the idea that everything should be in one app. The problem with everything in one app is the home screen becomes very, very important, right?
+
+463
+00:55:11,680 --> 00:55:23,680
+ And maybe the home screen experience that you need if you're an active trader is not the same one as if, you know, you're a banking customer that, you know, uses our credit card.
+
+464
+00:55:23,680 --> 00:55:34,680
+ So I do think most customers have a mental model where their default interface for trading differs from the one with banking.
+
+465
+00:55:34,680 --> 00:55:43,680
+ And I think it's possible to actually unify them and combine them, but it hasn't really been done with too much success before.
+
+466
+00:55:43,680 --> 00:55:53,680
+ So basically what my philosophy is is I'm open to experimentation, like the super app thing I'm intrigued by.
+
+467
+00:55:53,680 --> 00:56:00,680
+ We could probably get it to work, but I'm not dogmatic about necessarily having everything in one app.
+
+468
+00:56:00,680 --> 00:56:11,680
+ I think what's important is having unified KYC and easy money movement between accounts and otherwise, you know, let the best interface win.
+
+469
+00:56:11,680 --> 00:56:23,680
+ We probably will be, you know, adding more things to the main Robinhood app. We're also open to our teams creating their own apps and, you know, we might end up with more than three.
+
+470
+00:56:23,680 --> 00:56:31,680
+ And then, like Uber and Uber Eats, we might end up like recombining and splitting over time, depending on what we learn.
+
+471
+00:56:31,680 --> 00:56:44,680
+ As we wrap up this interview, I kind of just want to speak freely for a moment about Robinhood and its relationship with crypto and its relationship with FinTech because, as you know, this podcast is called Bankless.
+
+472
+00:56:44,680 --> 00:56:54,680
+ And we promote going Bankless, self custody of one's own finances, a self custody of one's own one's crypto assets.
+
+473
+00:56:54,680 --> 00:57:01,680
+ Parts of Robinhood are very banky. In fact, incredibly, like you guys are actually launching a banking product.
+
+474
+00:57:01,680 --> 00:57:17,680
+ And I think crypto, and especially DeFi, has had the kind of like free real estate of competing with traditional finance and their 0.25% APY savings accounts that you will get in Wells Fargo, just like, you know, terrible products and innovation coming from old tradFi.
+
+475
+00:57:17,680 --> 00:57:28,680
+ And yet, I appreciate Robinhood coming into the market and actually providing some real competition in the world of traditional finance.
+
+476
+00:57:28,680 --> 00:57:39,680
+ But also, at the same time, I'm like, well, they're not completely bankless. But nonetheless, I also see more and more crypto products and features coming online into the Robinhood product suite.
+
+477
+00:57:39,680 --> 00:57:47,680
+ So I guess I'm kind of loosely asking, like, how bankless am I? How bankless are you? How bankless will Robinhood be in the future?
+
+478
+00:57:47,680 --> 00:57:54,680
+ And like, kind of where do you guys fall on that? Where do you think the equilibrium lies in the bankless or non-bankless side of Robinhood?
+
+479
+00:57:54,680 --> 00:58:00,680
+ How could you be so bankless?
+
+480
+00:58:00,680 --> 00:58:12,680
+ Yeah, so we actually, I mean, literally, we are bankless. We don't have a banking charter. And, you know, sometimes I get this question of like, how are we going to get the charter?
+
+481
+00:58:12,680 --> 00:58:19,680
+ What does that look like? Because we also get compared against traditional financial companies that have bank charters.
+
+482
+00:58:19,680 --> 00:58:31,680
+ There are reasons to get charters, you know, plugging into Fedwire, the system, plugging into, you know, Zell and all these other things, being able to lend.
+
+483
+00:58:31,680 --> 00:58:42,680
+ But what we do now, we're neutral platform. We partner with banks whenever, you know, we need banking for different things.
+
+484
+00:58:42,680 --> 00:58:54,680
+ We have great partners that provide that coastal community bank on the credit side and banking, as well as a bunch of other partners that are part of our cash sweep program.
+
+485
+00:58:54,680 --> 00:59:11,680
+ A lot of the big crypto and DeFi protocols actually need banking relationships on the backside. If you want to actually take your fiat dollars and get them on chain, a bank is part of the process.
+
+486
+00:59:11,680 --> 00:59:30,680
+ And I think over time, if we have clarity, there will be crypto banks, which are basically banks that need that will get some sort of licensure that have restrictions that are hopefully less onerous than an OCC national banking charter, but still govern, you know, treasury management
+
+487
+00:59:30,680 --> 00:59:49,680
+ and reserves and all those sorts of things. Because, you know, if there's no rules, customers also get burned. You remember anchor protocol, probably with the Terra Luna and, you know, Celsius and all these things that, you know, actually
+
+488
+00:59:49,680 --> 01:00:03,680
+ seem bank-like in their presentation, but don't have some of the critical things. So I'm really, as we started, a fan of markets, level playing field competition.
+
+489
+01:00:03,680 --> 01:00:12,680
+ And I think these worlds are likely to converge more than diverge. And there's good things about the traditional banking system that need to make their way into crypto.
+
+490
+01:00:12,680 --> 01:00:20,680
+ And obviously the reverse. There's amazing things about crypto technology that makes sense to incorporate into the banking system.
+
+491
+01:00:20,680 --> 01:00:31,680
+ And I think we're now at the precipice of being able to bring these two together. And that's going to be an exciting time for the crypto industry and for the customer.
+
+492
+01:00:31,680 --> 01:00:41,680
+ There'll be more utility. So I think if we can make some small contribution as Robinhood to driving that convergence, I think that'll be really good.
+
+493
+01:00:41,680 --> 01:00:52,680
+ I think it's also worthwhile to note that it is useful to have Robinhood to provide some competition on the crypto exchange side of things as well, because there aren't that many crypto exchanges out there.
+
+494
+01:00:52,680 --> 01:01:00,680
+ And so entering into the market and being a competitive force in our side of the financial line, I think is also useful. Vlad, thank you for coming on Bankless today.
+
+495
+01:01:00,680 --> 01:01:04,680
+ I've really just learned a lot in this interview. I'm just kind of pretty honestly pretty excited about the future of Robinhood.
+
+496
+01:01:04,680 --> 01:01:13,680
+ Thanks. We've got a lot to build, but yeah, I appreciate the time. Bankless nation. You guys know the deal. Crypto is risky. You can lose what you put in, but nonetheless, we are headed west.
+
+497
+01:01:13,680 --> 01:01:18,680
+ This is Frontier. It's not for everyone, but we are black. Glad you are with us on the Bankless journey. Thanks a lot.
+
+498
+01:01:34,680 --> 01:01:39,680
+ [MUSIC PLAYING]
+

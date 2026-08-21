@@ -1,0 +1,992 @@
+1
+00:00:00,000 --> 00:00:03,600
+ I have a worldview in which I don't think DeFi protocols should change.
+
+2
+00:00:03,600 --> 00:00:09,920
+ I think DeFi protocols themselves should be as open and composable and permissionless as possible.
+
+3
+00:00:09,920 --> 00:00:13,920
+ I think certain assets, certain tokens, should be permissioned.
+
+4
+00:00:13,920 --> 00:00:17,680
+ And I think when you combine completely open, completely composable,
+
+5
+00:00:17,680 --> 00:00:23,440
+ DeFi protocols and assets, some of which might have to be KYC and some of which are completely
+
+6
+00:00:23,440 --> 00:00:35,600
+ permissionless, you get the best possible end state.
+
+7
+00:00:35,600 --> 00:00:39,920
+ Here we are with Robert Leschner, who needs no introduction to our audience,
+
+8
+00:00:39,920 --> 00:00:43,280
+ but still co-founder of Superstate and Compound.
+
+9
+00:00:43,280 --> 00:00:46,560
+ Robert, it's so great to finally have you on the Define podcast.
+
+10
+00:00:46,560 --> 00:00:47,840
+ Kami, thanks for having me on.
+
+11
+00:00:47,840 --> 00:00:54,000
+ So Robert was one of the, I think probably the first DeFi founder interview I ever did
+
+12
+00:00:54,000 --> 00:00:59,280
+ when I was at Bloomberg back in 2018 and had just like very little idea of what DeFi was.
+
+13
+00:00:59,280 --> 00:01:03,120
+ I think like anyone, I don't think anyone had an idea of what DeFi was at the time.
+
+14
+00:01:03,120 --> 00:01:05,440
+ I still don't know what DeFi is to be honest.
+
+15
+00:01:05,440 --> 00:01:07,600
+ Yes, good answer.
+
+16
+00:01:07,600 --> 00:01:14,240
+ Okay, so obviously from Compound, now you are at Superstate.
+
+17
+00:01:14,240 --> 00:01:18,880
+ You pioneered a decentralized ending with Compound and now you are doing something very
+
+18
+00:01:18,880 --> 00:01:22,960
+ good friend, tokenizing real world assets with Superstate.
+
+19
+00:01:22,960 --> 00:01:29,840
+ I love kind of your, what was the thought line between those two and wondering your view of
+
+20
+00:01:29,840 --> 00:01:34,640
+ on chain slash DeFi finance has changed.
+
+21
+00:01:34,640 --> 00:01:36,080
+ So here's the thought line.
+
+22
+00:01:36,080 --> 00:01:43,280
+ When I first founded Compound, starting in 2017, I predicted somewhat incorrectly that all assets
+
+23
+00:01:43,280 --> 00:01:45,040
+ would wind up being tokens and blockchains.
+
+24
+00:01:45,040 --> 00:01:51,120
+ And when we launched Compound in 2018, when it was during 2019, 2020, 2021, 22, 23,
+
+25
+00:01:51,120 --> 00:01:55,360
+ all of the assets that you could use in Compound and any DeFi protocol, for that matter,
+
+26
+00:01:55,360 --> 00:01:57,120
+ were really crypto native assets.
+
+27
+00:01:57,120 --> 00:02:01,680
+ Tokens, oftentimes of other crypto projects that were issued on a blockchain for the first time,
+
+28
+00:02:01,680 --> 00:02:04,320
+ they weren't coming from, you know, an off-chain system.
+
+29
+00:02:04,320 --> 00:02:06,640
+ They were basically being issued on chain.
+
+30
+00:02:06,640 --> 00:02:11,120
+ And this was amazing because this allowed people to prove out the functionality of DeFi
+
+31
+00:02:11,120 --> 00:02:16,400
+ protocols and autonomous pieces of software that could create new products and marketplaces.
+
+32
+00:02:16,400 --> 00:02:20,400
+ And I always thought that, you know, that would change, right?
+
+33
+00:02:20,400 --> 00:02:23,040
+ I knew that was going to be the case when we first launched Compound.
+
+34
+00:02:23,040 --> 00:02:27,440
+ You know, I just assumed, though, at a certain point, you know, the tokens that you use on chain
+
+35
+00:02:27,440 --> 00:02:32,240
+ and DeFi protocols would start to be stocks and bonds and real estate and commodities and
+
+36
+00:02:32,240 --> 00:02:35,840
+ all these other things as opposed to just the tokens of other crypto projects.
+
+37
+00:02:35,840 --> 00:02:40,960
+ And the whole thing, for me, felt very self-referential and that the ceiling for how
+
+38
+00:02:40,960 --> 00:02:46,800
+ big things could get was really limited until, as a society, we could start to bring in all
+
+39
+00:02:46,800 --> 00:02:50,160
+ of the assets and value that didn't live on a blockchain yet.
+
+40
+00:02:50,160 --> 00:02:54,480
+ And to have not trip their native tokens be the primary assets within DeFi protocols.
+
+41
+00:02:54,480 --> 00:02:57,360
+ And so for me, that was like something that I couldn't stop thinking about.
+
+42
+00:02:57,360 --> 00:03:02,080
+ And I said, okay, well, I want to figure out how to bring all of the stuff that's not yet
+
+43
+00:03:02,080 --> 00:03:06,080
+ composable with DeFi on chains so that it can be composable with DeFi.
+
+44
+00:03:06,080 --> 00:03:12,160
+ That means a lot of sense, for that to happen, probably the biggest roadblock has been a regulatory
+
+45
+00:03:12,160 --> 00:03:17,760
+ one. How to do this in a compliant way and others tried to do that before and it didn't
+
+46
+00:03:17,760 --> 00:03:24,800
+ turn out so well. So what's different now? And if you can kind of go through how you've solved
+
+47
+00:03:24,800 --> 00:03:30,880
+ these problems? Well, there's actually a lot that's different now than, you know, eight years ago
+
+48
+00:03:30,880 --> 00:03:35,680
+ or seven years ago, right? So people have been trying pretty much since as long as Ethereum has
+
+49
+00:03:35,680 --> 00:03:41,600
+ existed to be tokenizing securities and tokenizing off chain assets. It hasn't really picked up
+
+50
+00:03:41,600 --> 00:03:47,120
+ until the last year or so part of that's regulatory, but there's a lot of other factors going into
+
+51
+00:03:47,120 --> 00:03:51,680
+ this. So here are the sort of core building blocks that I think are necessary to tokenize
+
+52
+00:03:51,680 --> 00:03:57,600
+ off chain assets at scale, right? Yeah, obviously you can do one off experiments and over the years
+
+53
+00:03:57,600 --> 00:04:01,840
+ we've always seen one off experiments that haven't really gotten any traction or critical mass,
+
+54
+00:04:01,840 --> 00:04:07,600
+ but you know, I've been done, you know, to put a flag in red. So here's the core ingredients that
+
+55
+00:04:07,600 --> 00:04:13,440
+ are necessary that have to come together. So the first are issuers, right? Whose assets
+
+56
+00:04:13,440 --> 00:04:17,600
+ are coming on shape? In the past, there have been like a small number of people willing to like
+
+57
+00:04:17,600 --> 00:04:24,080
+ tokenize their assets or wanting to put the number of issuers of assets has been pretty low. And that's
+
+58
+00:04:24,080 --> 00:04:29,040
+ really started to change over the past two years, right? That's the first piece. The second piece
+
+59
+00:04:29,040 --> 00:04:35,520
+ are the use cases, right? When I started in 2017, there was nothing that you could possibly do
+
+60
+00:04:35,520 --> 00:04:40,400
+ with a tokenized asset once it was on chain, right? Besides hold it in your wallet, any asset
+
+61
+00:04:40,400 --> 00:04:44,960
+ that's owned off chain, metaphorically speaking, already sits in someone's wallet, bringing it on
+
+62
+00:04:44,960 --> 00:04:53,280
+ chain without DeFi protocols to use it in or new use cases doesn't really accomplish much. And so,
+
+63
+00:04:53,280 --> 00:04:58,080
+ you know, the use cases are here, right? We've been proving out amazing DeFi use cases for
+
+64
+00:04:59,040 --> 00:05:05,200
+ eight years now, okay? That's real. Then there's the demand. How many people want to hold a tokenized
+
+65
+00:05:05,200 --> 00:05:09,200
+ security and all of the one-off experiments that happened over the last, you know, many years,
+
+66
+00:05:09,200 --> 00:05:14,160
+ the number of people that wanted to own this stuff really small. We're just now getting to the point
+
+67
+00:05:14,160 --> 00:05:19,280
+ where a lot of people want to own this stuff. And lastly is regulatory. And you mentioned this,
+
+68
+00:05:19,280 --> 00:05:24,560
+ I also see this as like a hugely important, you know, ingredient, but it hasn't actually
+
+69
+00:05:24,560 --> 00:05:29,120
+ changed that much. So in some ways, it's changed less than people think. Most of the assets that
+
+70
+00:05:29,120 --> 00:05:34,080
+ people are tokenizing are securities. We've known their securities for a very long time, right?
+
+71
+00:05:34,080 --> 00:05:38,320
+ At Superstate, we are tokenizing securities. We're not tokenizing commodities yet. We're
+
+72
+00:05:38,320 --> 00:05:41,840
+ not tokenizing things that are not securities. We're tokenizing things that are very obviously
+
+73
+00:05:41,840 --> 00:05:48,880
+ securities. There's nothing that we can do right now that we couldn't have done from a legal and
+
+74
+00:05:48,880 --> 00:05:54,960
+ regulatory perspective a year ago, or even three years ago. What has changed dramatically is
+
+75
+00:05:54,960 --> 00:06:01,440
+ everyone else's willingness around us to interact with these assets. Now that we're starting to see
+
+76
+00:06:01,440 --> 00:06:07,200
+ incredible regulatory clarity. What I mean by this is like, you know, I could have launched a TVL fund
+
+77
+00:06:07,200 --> 00:06:14,560
+ and tokenized it under Gary against four years ago. Would people want to interact with it, touch it,
+
+78
+00:06:14,560 --> 00:06:21,600
+ add support for it, you know, would institutions want to use it? No, because even if it was legal,
+
+79
+00:06:21,600 --> 00:06:27,280
+ they would have faced, you know, a lot of compliance costs, investigation costs,
+
+80
+00:06:27,280 --> 00:06:32,560
+ they would have faced all sorts of additional costs and it would have been a burden. That's
+
+81
+00:06:32,560 --> 00:06:36,320
+ what's different is that it's not a burden. So if you talk to any institution of Wall Street,
+
+82
+00:06:36,320 --> 00:06:39,760
+ you're like, Hey, would you like to interact with tokenized securities? They're like,
+
+83
+00:06:39,760 --> 00:06:45,040
+ actually, yes, like, we're incredibly excited about this. And you know, we're incredibly excited
+
+84
+00:06:45,040 --> 00:06:51,520
+ by the tailwinds coming from the SEC and creating regulatory clarity. And so it's not that things
+
+85
+00:06:51,520 --> 00:06:57,440
+ went from being illegal to legal, right, but what really swissed from a regulatory perspective was,
+
+86
+00:06:57,440 --> 00:07:05,600
+ you know, an extremely cumbersome headwind to, you know, a tailwind of, call it even like,
+
+87
+00:07:05,600 --> 00:07:11,840
+ soft support, right? There are no real new policies that, you know, flip a bullion from a zero to a
+
+88
+00:07:11,840 --> 00:07:17,440
+ one here. You know, we just see a much more accommodative atmosphere. And this is a very
+
+89
+00:07:17,440 --> 00:07:22,160
+ institutional market for institutions, knowing that they're not at odds with their regulators
+
+90
+00:07:22,160 --> 00:07:28,480
+ everything. And so the regulatory stuff is an absolute game changer. And it has absolutely been
+
+91
+00:07:28,480 --> 00:07:32,560
+ one of the things that started to create this catalyst for tokenized assets. But it's not that
+
+92
+00:07:32,560 --> 00:07:37,280
+ this was like illegal a couple years ago, which just wasn't encouraged, was discouraged.
+
+93
+00:07:37,280 --> 00:07:43,280
+ No, that's a great point. And so speaking of institutional demand, I think what I've seen,
+
+94
+00:07:43,280 --> 00:07:48,880
+ at least, is from institutions, there's been a lot more appetite to issue assets on chain,
+
+95
+00:07:48,880 --> 00:07:54,080
+ right? Like BlackRock with mid-middle, Franklin Templeton and so on, they're issuing their tokenized
+
+96
+00:07:54,080 --> 00:07:59,440
+ money markets. But are you seeing demand from institutions to actually buy these tokens or
+
+97
+00:07:59,440 --> 00:08:04,960
+ is demand really coming still from more crypto native players?
+
+98
+00:08:04,960 --> 00:08:07,200
+ Yeah, it's a great question. Let me walk you through the products suite of what
+
+99
+00:08:07,200 --> 00:08:10,720
+ we're tokenizing, because I can just see differences. So the first product that we launched was a
+
+100
+00:08:10,720 --> 00:08:16,240
+ tokenized tea bill fund. The second product we launched was a tokenized basis yield fund.
+
+101
+00:08:16,240 --> 00:08:21,040
+ And the third product that we're launching are tokenized equity. So all of these have like a
+
+102
+00:08:21,040 --> 00:08:26,000
+ very different audience to them. In general, it's all crypto native. And why is it entirely
+
+103
+00:08:26,000 --> 00:08:30,400
+ crypto native? It's because right now the people that want to hold a tokenized asset on a blockchain
+
+104
+00:08:30,400 --> 00:08:34,960
+ are people that are using crypto wallets, crypto custodians, crypto realities in general.
+
+105
+00:08:34,960 --> 00:08:40,800
+ We're not yet to the point where tokenized securities are the thing that happens under the hood for
+
+106
+00:08:40,800 --> 00:08:46,160
+ traditional market participants. You know, eventually, trad five players will be using tokenized things
+
+107
+00:08:46,160 --> 00:08:50,400
+ under the hood. And they won't say, I'm using crypto, they're just going to know that things
+
+108
+00:08:50,400 --> 00:08:55,520
+ settle faster. They're more programmable. They're just more efficient and better. But right now,
+
+109
+00:08:55,520 --> 00:09:00,800
+ we still learn a moment where all of the users are crypto first. On the table side, you know,
+
+110
+00:09:00,800 --> 00:09:07,200
+ there's a lot of demand from, you know, stablecoin projects. There's a lot of demand from, you know,
+
+111
+00:09:07,200 --> 00:09:13,360
+ applications that are looking for a risk free rate that they can embed underneath their product in a
+
+112
+00:09:13,360 --> 00:09:19,280
+ composable and programmatic way, right? There are some crypto hedge funds, crypto venture funds
+
+113
+00:09:19,280 --> 00:09:23,680
+ people that are saying, Oh, like, let me take, you know, stablecoins and have a productive
+
+114
+00:09:23,680 --> 00:09:28,160
+ product of use for them and tokenized T bills that I can enter and exit quickly. You know,
+
+115
+00:09:28,160 --> 00:09:33,280
+ but it's for the most part, people that are just looking for a very basic risk free rate that they
+
+116
+00:09:33,280 --> 00:09:38,960
+ can enter and exit quickly. And that's honestly very composable. And so we see a lot of demand
+
+117
+00:09:38,960 --> 00:09:46,160
+ from an application developer more than anything else. Our basis product, it's risky, right? It
+
+118
+00:09:46,160 --> 00:09:50,160
+ goes up and it sometimes goes down a little bit, right? Because crypto markets are volatile.
+
+119
+00:09:50,880 --> 00:09:54,560
+ So it's a high yield product with a little bit of risk there. And so it's not really suitable
+
+120
+00:09:54,560 --> 00:10:01,200
+ as a building block in the same way for a stablecoin, let's say. And so the use case,
+
+121
+00:10:01,200 --> 00:10:05,280
+ they're actually, you know, instead of being very application focused is significantly more
+
+122
+00:10:05,280 --> 00:10:10,320
+ speculative focused. And so the users of it are oftentimes, you know, people that are
+
+123
+00:10:10,320 --> 00:10:16,800
+ comfortable with risk. It's a lot of crypto native hedge funds. It's players that are actually
+
+124
+00:10:16,800 --> 00:10:23,280
+ using this composable with d5. So it, you know, our, you know, basis fund is integrated into
+
+125
+00:10:23,280 --> 00:10:27,520
+ Aave Horizon, which is an RWA market. You see a lot of people leveraging it up and actually
+
+126
+00:10:27,520 --> 00:10:33,040
+ using it as a composable asset. It's a lot of sophisticated players. And so it skews much more
+
+127
+00:10:33,040 --> 00:10:38,560
+ hedge fund than it does applications. Although, you know, we've recently announced like a couple
+
+128
+00:10:38,560 --> 00:10:47,280
+ weeks ago that, you know, Spark, you know, the sky slash maker project was integrating USCC.
+
+129
+00:10:47,280 --> 00:10:52,240
+ And so we do see some protocol adoption there, but it tends to be much more
+
+130
+00:10:52,240 --> 00:10:57,360
+ crypto native speculative. And then lastly, our token is equities. And these are really
+
+131
+00:10:57,360 --> 00:11:03,440
+ a nascent immersion product. We haven't yet turned on a lot of the use cases for
+
+132
+00:11:03,440 --> 00:11:07,600
+ and users to be able to use them right now. We're really just in a testing phase.
+
+133
+00:11:08,160 --> 00:11:12,080
+ And what's that mean? And who's using it? Well, right now what we're doing is, you know, we're
+
+134
+00:11:12,080 --> 00:11:16,160
+ approaching tokenization of equities a little bit differently than other projects. You know,
+
+135
+00:11:16,160 --> 00:11:20,400
+ we're not, you know, a startup that goes on and buys 100 different stocks and puts them in 100
+
+136
+00:11:20,400 --> 00:11:25,840
+ different SPVs or holds them at a custodian or in a trust and issues tokens against them.
+
+137
+00:11:25,840 --> 00:11:30,640
+ Our model of tokenization is actually quite different. We offer what we call native tokenization
+
+138
+00:11:30,640 --> 00:11:36,320
+ or canonical tokenization. And so the way this works is we're basically the infrastructure for
+
+139
+00:11:36,320 --> 00:11:40,880
+ a public company, someone that's trading on the NASDAQ or your stock exchange to tokenize their
+
+140
+00:11:40,880 --> 00:11:47,280
+ own stock and where they're agent and issuance platform. And so when a company tokenizes their
+
+141
+00:11:47,280 --> 00:11:52,560
+ own stock, it's their official stock. The same shares the trade on the NASDAQ or your stock
+
+142
+00:11:52,560 --> 00:11:56,720
+ exchange is now a token on the blockchain. And what this means is that you can, you know,
+
+143
+00:11:56,720 --> 00:12:01,280
+ through a relatively for now, clunky process, you can actually migrate shares between a brokerage
+
+144
+00:12:01,280 --> 00:12:06,160
+ account and a token on the blockchain and back again. And so right now we're really testing.
+
+145
+00:12:06,160 --> 00:12:10,960
+ We're testing moving shares from brokerage accounts to tokens, tokens to brokerage accounts
+
+146
+00:12:10,960 --> 00:12:17,040
+ and making sure the sort of underlying infrastructure of equity tokenization works before activating
+
+147
+00:12:17,040 --> 00:12:21,840
+ a lot of the DeFi use cases and really seeing for the first time, who are the users of the stock?
+
+148
+00:12:21,840 --> 00:12:29,200
+ It's so interesting. I mean, all these use cases, but I'll ask you a follow up questions on specifically
+
+149
+00:12:29,200 --> 00:12:34,800
+ tokenized stocks. We're seeing so many players focus on this use case. And yeah, they all have
+
+150
+00:12:34,800 --> 00:12:40,080
+ kind of their different approaches. Yours is super interesting kind of to make the tokenized stocks
+
+151
+00:12:40,080 --> 00:12:49,440
+ the actual equity of the company. But if this is the path forward, how do you see just the broader
+
+152
+00:12:49,440 --> 00:12:56,560
+ tokenized equity market evolving? Do you see kind of a tokenized equities will be from just
+
+153
+00:12:56,560 --> 00:13:01,760
+ new company's issuing stocks or wouldn't super say do you have a path forward later for existing
+
+154
+00:13:01,760 --> 00:13:07,840
+ equities to also come on chain? Yeah, absolutely. So I want to preface by saying I think both overall
+
+155
+00:13:07,840 --> 00:13:13,040
+ models of tokenization work and will exist. I think there's the super state model where it's like
+
+156
+00:13:13,040 --> 00:13:19,040
+ the canonical stock. There's disadvantages of this model. It doesn't scale as effectively. We have to
+
+157
+00:13:19,040 --> 00:13:25,840
+ work with issuers one by one to bring new tokenized equities to market. The other model, you know,
+
+158
+00:13:25,840 --> 00:13:31,040
+ any startup like even to start at this like a day old can basically go and tokenize the top 100
+
+159
+00:13:31,040 --> 00:13:36,480
+ stocks. They're making an entirely new asset when they do that. There's like weird credit risk
+
+160
+00:13:36,480 --> 00:13:42,320
+ associated with the startup. There's differences in like what are the rights of the tokens,
+
+161
+00:13:42,320 --> 00:13:47,040
+ not that the top, but it's extremely scalable. Any startup listening to this podcast could
+
+162
+00:13:47,040 --> 00:13:53,360
+ probably go and make their own wrap stock relatively easily. Right. And so I think there's actually
+
+163
+00:13:53,360 --> 00:13:59,520
+ a really interesting opportunity for both. I think institutions and the existing financial
+
+164
+00:13:59,520 --> 00:14:04,000
+ market structure is going to strongly prefer the super state model, which is, hey, this is the
+
+165
+00:14:04,000 --> 00:14:09,200
+ same stock with the same rights, the same governance, the same risks. It's not a different security.
+
+166
+00:14:09,200 --> 00:14:14,160
+ And I think retail and I think international users are going to strongly prefer the second model.
+
+167
+00:14:14,160 --> 00:14:21,680
+ Yeah, we don't care if it's a new asset. As long as it tracks the price with like 99% correlation
+
+168
+00:14:21,680 --> 00:14:26,480
+ and has basically the same liquidity, what's it matter? Right. I think it's going to be much
+
+169
+00:14:26,480 --> 00:14:31,440
+ more retail focus. And I think that's where it's going to see success. And so I think both models
+
+170
+00:14:31,440 --> 00:14:36,240
+ are viable. I just think they have very different customers long term. And then, well, all of these
+
+171
+00:14:36,240 --> 00:14:43,040
+ use cases and arguably market as a whole right now is still really small, right? It's I think
+
+172
+00:14:43,040 --> 00:14:50,240
+ it's 300 million. Nothing. Yeah. It's like we haven't even started yet. Yeah. And you've mentioned
+
+173
+00:14:50,240 --> 00:14:56,240
+ like right now, it's mostly crypto native. So what's it going to take? Like, what's where does the next
+
+174
+00:14:56,240 --> 00:15:03,520
+ leap come from? How when do institutions actually start buying these talks? What use case you think
+
+175
+00:15:03,520 --> 00:15:08,800
+ is going to be the thing that makes this a larger market? Yeah, it's a great question. I think it's
+
+176
+00:15:08,800 --> 00:15:14,400
+ DeFi. I mean, frankly, most people, including most people around the world have the ability to buy
+
+177
+00:15:14,400 --> 00:15:20,000
+ stocks right now. That doesn't really change with organization, frankly, right? It's us. I think it's
+
+178
+00:15:20,000 --> 00:15:25,040
+ being able to do interesting things with these in DeFi protocols. That's going to be the tipping
+
+179
+00:15:25,040 --> 00:15:30,080
+ point. When stablecoins came around and I was there with stablecoins really picked up in 2018,
+
+180
+00:15:30,080 --> 00:15:35,760
+ very few people wanted stablecoins. It wasn't until it was like, wow, like you can use these in
+
+181
+00:15:35,760 --> 00:15:41,760
+ every single type of DeFi protocol that you know, you really started to see explosive growth. And
+
+182
+00:15:41,760 --> 00:15:47,360
+ yes, there's a lot of activity outside of DeFi protocols. But that was what like blew it up,
+
+183
+00:15:47,360 --> 00:15:52,480
+ frankly, was like, okay, like you can trade on chain, you can borrow on chain. There's lots of
+
+184
+00:15:52,480 --> 00:15:57,200
+ markets being created on centralized exchanges for these things. You know, oh, you can move it
+
+185
+00:15:57,200 --> 00:16:00,800
+ between a DeFi protocol and a centralized exchange. It just became incredibly useful
+
+186
+00:16:00,800 --> 00:16:06,240
+ with new reasons for them to exist. And so, you know, people have had dollars for hundreds of years,
+
+187
+00:16:06,240 --> 00:16:11,280
+ stablecoins, literally better. I had tokenized equities and tokenized securities more broadly,
+
+188
+00:16:11,280 --> 00:16:17,200
+ or got to go through the same thing until there was real use cases in DeFi and centralized exchanges,
+
+189
+00:16:17,200 --> 00:16:21,520
+ the ability to move between the two very seamlessly. I don't think people are going to prefer the
+
+190
+00:16:21,520 --> 00:16:27,360
+ crypto version of this. The Robinhoods of the world, as is the Vanguard, the Schwabs, whatever
+
+191
+00:16:27,360 --> 00:16:33,040
+ brokerage account people use, they're pretty good today. They're not perfect. They're pretty good.
+
+192
+00:16:33,040 --> 00:16:38,640
+ Right. And so, I think it takes like this step function of offering something new before people
+
+193
+00:16:38,640 --> 00:16:42,880
+ will say like, oh, actually, I strongly prefer the crypto version. Like, you know,
+
+194
+00:16:42,880 --> 00:16:48,080
+ there's reasons for this to migrate from my wallet into the crypto version.
+
+195
+00:16:48,080 --> 00:16:56,160
+ I love that insight. But, you know, in that world, DeFi becomes something different, right? Like,
+
+196
+00:16:56,160 --> 00:17:04,320
+ there's there would be a KYC aspect, it wouldn't be like truly permissionless. What do you think,
+
+197
+00:17:04,320 --> 00:17:12,000
+ you know, there could be some kind of counterargument to this model where DeFi grows with the tokenization
+
+198
+00:17:12,000 --> 00:17:19,280
+ of real world assets. And it just becomes gated and permissions. What do you say to that line of
+
+199
+00:17:19,280 --> 00:17:24,320
+ criticism? I have a worldview in which I don't think DeFi protocols should change. I think DeFi
+
+200
+00:17:24,320 --> 00:17:30,800
+ protocols themselves should be as open and composable and permissionless as possible. I think certain
+
+201
+00:17:30,800 --> 00:17:36,640
+ assets, certain tokens should be permissioned. And I think when you combine completely open,
+
+202
+00:17:36,640 --> 00:17:42,320
+ completely composable, you know, DeFi protocols and assets, some of which might have to be KYC
+
+203
+00:17:42,320 --> 00:17:47,120
+ and some of which are completely permissionless, you get the best possible end state, which is,
+
+204
+00:17:47,120 --> 00:17:51,120
+ yeah, some users won't be able to touch this token because of the geography they're in or
+
+205
+00:17:51,120 --> 00:17:56,080
+ because they're not accredited or because X, Y, and Z. But a DeFi protocol will be able to bring
+
+206
+00:17:56,080 --> 00:18:00,400
+ all of those under one breath and say, oh, we have permissionless assets. We have, you know,
+
+207
+00:18:01,120 --> 00:18:07,600
+ geo-blocked assets. We have accredited blocked assets. We have all of it, but the DeFi protocol
+
+208
+00:18:07,600 --> 00:18:13,840
+ can support it all, unified model. I think that's the future. And I think in that world, like,
+
+209
+00:18:13,840 --> 00:18:18,000
+ yes, an individual shouldn't necessarily have access to every single asset if it
+
+210
+00:18:18,000 --> 00:18:23,920
+ doesn't conform with the laws, you know, like, I don't believe in illegal assets. I believe in legal
+
+211
+00:18:23,920 --> 00:18:30,000
+ assets and radically open infrastructure for them to run on. And I think you'll have the compounds
+
+212
+00:18:30,000 --> 00:18:35,280
+ and obviously new swaps and curves and, you know, everything's of the world one day supporting
+
+213
+00:18:35,280 --> 00:18:42,000
+ a mix of stuff. And that's good. What's your view on how just broader finance looks like
+
+214
+00:18:42,000 --> 00:18:47,520
+ under this model? Like, do you think all assets come on chain and everyone is able to
+
+215
+00:18:47,520 --> 00:18:54,640
+ transact in in DeFi freely? Where do you see this kind of convergence of two worlds going?
+
+216
+00:18:54,640 --> 00:18:59,040
+ I mean, the people that are using DeFi protocols, the people that have their money on chain right now,
+
+217
+00:18:59,040 --> 00:19:06,400
+ are crypto power users, right? It's, you know, in some cases, and we're starting to see this the
+
+218
+00:19:06,400 --> 00:19:12,240
+ most with stablecoins, we're starting to see DeFi become like infrastructure for traditional
+
+219
+00:19:12,240 --> 00:19:17,840
+ applications, right? We're starting to see a lot more fintechs trying to use DeFi under the hood.
+
+220
+00:19:17,840 --> 00:19:21,120
+ And it's something that we've been predicting. I mean, like you and I and most of the people
+
+221
+00:19:21,120 --> 00:19:25,840
+ listening to this program for years now, it's like, Oh, DeFi will be infrastructure. We're not
+
+222
+00:19:25,840 --> 00:19:30,800
+ seeing this with most assets. We're not seeing this with most tokens. Most tokens are not being
+
+223
+00:19:30,800 --> 00:19:36,080
+ used outside of like the crypto native on chain, mostly speculative stuff. But we're starting to
+
+224
+00:19:36,080 --> 00:19:41,360
+ see like underlying infrastructure for mostly stablecoins. I think that's what happens next,
+
+225
+00:19:41,360 --> 00:19:48,240
+ as we see, you know, DeFi become underlying infrastructure for equities. And for things that
+
+226
+00:19:48,240 --> 00:19:53,360
+ there's a neat demand in traditional markets for it. And I think that's where it goes. And what
+
+227
+00:19:53,360 --> 00:20:01,840
+ happens next is like we see DeFi plus tokenized securities eventually start to power all sorts of
+
+228
+00:20:01,840 --> 00:20:07,680
+ stuff that the end users aren't even knowing that they're in right with Web. In this world,
+
+229
+00:20:07,680 --> 00:20:14,640
+ which DeFi primitives or protocols when to be really simple about this, there's only really
+
+230
+00:20:14,640 --> 00:20:20,000
+ three core primitives, okay, in general, like to this day, right? There's obviously a lot of
+
+231
+00:20:20,800 --> 00:20:28,160
+ edge cases and new stuff and but you have decks, you have Baro land and you have Perbs. Those are
+
+232
+00:20:28,160 --> 00:20:37,120
+ like the three crypto, most important primitives, right? Yes, there's a lot of other stuff. There's
+
+233
+00:20:37,120 --> 00:20:41,920
+ a lot of other DeFi applications, but like those are the big three, you know, I think you're gonna
+
+234
+00:20:41,920 --> 00:20:48,880
+ have tokenized assets playing a huge role in all three. And then finally, I'm very curious on your
+
+235
+00:20:49,440 --> 00:20:57,040
+ the lessons that you took from compound and how you're applying that to super safe.
+
+236
+00:20:57,040 --> 00:21:02,960
+ Yeah, I mean, there's a lot of lessons, I mean, like endless lessons. One of them is that, you know,
+
+237
+00:21:02,960 --> 00:21:09,520
+ decentralized governance and development really slows things down. You know, we've seen this,
+
+238
+00:21:09,520 --> 00:21:15,680
+ you know, sort of reality play out from so many different projects in crypto, you know, as they
+
+239
+00:21:15,680 --> 00:21:22,000
+ shift from like a very centralized team to a decentralized team. And, you know, I don't think that,
+
+240
+00:21:22,000 --> 00:21:26,000
+ you know, succeeded very well with a compound, frankly, you know, that shift from like, oh, one
+
+241
+00:21:26,000 --> 00:21:31,600
+ team does it all to, Hey, the community can do it. Like that was a really like rough transition
+
+242
+00:21:31,600 --> 00:21:35,680
+ that I think slowed things down tremendously. And so, you know, super state, you know, if we were
+
+243
+00:21:35,680 --> 00:21:40,000
+ to have a token to be very far into the future, it would not be early on. And you know, the sort of
+
+244
+00:21:40,000 --> 00:21:45,280
+ life cycle of things. Interesting. That hint at a token there. Oh, I'm not hinting at a tag. I'm
+
+245
+00:21:45,280 --> 00:21:51,280
+ just saying like, I've gone through the shift from, you know, centralized to decentralized and like,
+
+246
+00:21:51,280 --> 00:21:58,400
+ it's a headwit. Like it really is awesome. Robert, well, we'll have to do another one of these.
+
+247
+00:21:58,400 --> 00:22:04,320
+ But amazing to have you on the show. Thanks so much. And yeah, super exciting to see what you're
+
+248
+00:22:04,320 --> 00:22:12,240
+ doing with super state. Thank you.
+

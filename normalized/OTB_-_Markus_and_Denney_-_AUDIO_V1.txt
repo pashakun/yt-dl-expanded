@@ -1,0 +1,564 @@
+TITLE: Stablecoins and Currency Trading in DeFi (Marcus Frank & Denny Kwok) [On The Brink]
+URL: 
+VIDEO_ID: OTB_-_Markus_and_Denney_-_AUDIO_V1
+
+TRANSCRIPT:
+On today's episode of On The Brink, I sat down with Marcus Frank and Denny Kwok from
+Mento Labs for our latest conversation focused on stablecoins in DeFi.
+Mento is a platform for currency trading powered by stablecoins.
+I hope you enjoy our conversation.
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+All of these expressed by them or the guests on this podcast are solely their opinions
+and do not reflect the opinions of Castle Island Ventures.
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+to make a particular investment or follow a particular strategy, but only as an expression
+of their personal opinion.
+This podcast is for informational purposes only.
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+liquidated.
+The federal government loans American International Group AIG 85 billion dollars.
+This is a different kind of market and the Fed is asleep.
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+giants that have been threatened by the housing crisis.
+Bank of England has pumped £75 billion more into Britain's ailing economy with a new round
+of quantitative easing.
+You print a couple of trillion dollars and all of a sudden people start to worry.
+So out of this worry, we have something called the Bitcoin, Bitcoin.
+Marcus and Denny from Mento Labs, thank you for coming on the podcast.
+Thank you for having us.
+Really excited to be here.
+Looking forward to the conversation.
+Yeah, I'm very excited to be here.
+You guys are doing a lot of interesting work in the crypto and stablecoin space.
+If you don't mind, we'd love to get a quick background to kick things off.
+Absolutely.
+I can get started with that.
+My name is Marcus.
+I'm a founder and CEO of Mento Labs and I'm coming from an economics background, studied
+economics, worked on a PhD in economics, worked on portfolio theory during that PhD and also
+some monetary economics and then worked in Treadfy for a longer time for JP Morgan.
+Merrill Lynch was a portfolio manager in the Allianz Asset Management Group, was even managing
+a part of a pension fund from Bank for International Settlements.
+And then seven years ago came into the Web3 space, was part of the early Sellor team working
+on Sellor, now an L2 platform on Ethereum.
+And they are always, as an economist, focused on stablecoins and how a stablecoin platform
+should look like.
+And then around two years ago, we've spun off Mento as a separate company, as a standalone
+project.
+Amazing.
+I'm Denny.
+I also came from a Treadfy background to start my career and did some management consulting
+for asset managers.
+More recently, did product at Google for about four years and made my way into Web3, led
+product for the Circle USDC team, building out growth there, and then recently joined
+Mento about six months ago as a chief product officer.
+I'm excited to be here.
+So to be clear, Mento started as a project within Sellor?
+Yes.
+Mento was the initial stablecoin team inside Sealabs company that is working on Sellor.
+And we've built the early stablecoins that were live first on Sellor, the Sellor dollar,
+which launched just after Mainnet launched.
+We also built the Sellor Euro.
+And then at some point, we thought two things need to happen.
+One thing is we need to bring other stablecoins also onto Sellor.
+We need to have USDT there, USDC and others.
+And Mento as a project at some point should also be independent to be able to go live
+on other platforms as well.
+So in the beginning, we started off as the core stablecoin team.
+And after the spin-off, we focused on other things.
+Our first focus actually was to launch more currencies for different use cases and for
+different reasons.
+We always wanted to have a broad range of currencies.
+And Mento today actually offers 15 different currencies, all the G7 currencies, and then
+also more long-tail or emerging market currencies like, for example, a Philippine peso, a Kenyan
+shilling or a Colombian peso from different regions of the world.
+And initially, we always had this mission of having a stablecoin for every country in
+the world.
+I still think this is important that everyone in every country in the world has the choice
+what stablecoins they want to use.
+But currently, our focus also is much more on the FX side of things.
+Having so many different currencies actually enables all sorts of FX trades.
+And FX is a super important market.
+It's, in fact, the largest market in the world with $7.5 trillion in daily trading volume.
+I think we will talk a bit later a bit more about FX.
+But with Mento in the end, with having so many currencies live, we now have a proper
+FX platform that enables all sorts of currency swaps.
+And this is currently our big focus.
+And to that point, Mento today is a platform where users can swap among those currencies
+that you mentioned to confirm.
+Yes, exactly.
+So all of these 15 currencies, you can go, for example, on app.mento.org or other places
+where Mento is integrated and swap between different currencies.
+You can go from a euro to a pound, from a pound to a Kenyan shilling, all in a second
+or two until that trade settles compared to traditional FX settlement times that are typically
+T plus 2.
+We also already integrated other stablecoins in that.
+So we also integrated, for example, USDT and USDC.
+So you can easily also swap from USDT into a Kenyan shilling or into a Philippine peso.
+And what made you excited about building out this longer tail of currency stablecoins early
+on versus allowing stablecoins to proliferate just as US dollars?
+So having a US dollar on chain has many, many advantages.
+And especially for people in markets where there is high inflation or in markets where
+their local currency loses value against the dollar, having easy access on chain to dollar
+stablecoins is already a great use case by itself because this allows people to access
+a stable currency they can save in a stable currency.
+There are other use cases for stablecoins as well.
+We, for example, talked a lot in the past about credit use cases when people, for example,
+want to get a loan.
+If they, for example, have a small or medium business in Kenya, maybe they don't have access
+to a bank and they want to get a loan to expand the range of product they can sell, then they
+have a preference for a loan in local currency because otherwise, if they would only be able
+to get a loan or to get credit in a dollar stablecoin, they would bear the FX risk because
+their revenues are in local currencies.
+And when their revenues are in local currencies, this is the currency then they have to pay
+back that loan.
+And if the local currency would lose value against the dollar, paying back that loan
+in dollars could become expensive.
+So microlending is a great use case for local currencies.
+We've partnered with partners in Kenya, in Ghana, and many other countries around the
+world that now start to do microlending or credit business in general using local currency
+stablecoins.
+This is also how Mento is used today already a lot.
+Last year, we had more than 550 million transactions on the Mento platform.
+And we've seen that these use cases around microlending in Kenya or in Ghana grew significantly.
+We are also seeing remittances.
+And if you're, for example, in the Philippines and you want to send either money home or
+money from home to somewhere else, you could use a Philippine peso stablecoin or you could
+use a dollar stablecoin so you have that choice.
+And then again, the recipient of this remittances payment of that transfer again has the choice
+if they want to keep local currency, if they want to off ramp or if they want to swap into
+other currencies.
+Today in annualized numbers, we see around 20 billion in trading volume on Mento.
+And a part of this comes from these, I would say, traditional stablecoin use cases.
+But we now also see tremendous growth on chain effects in basically transactions where users
+want to go, for example, from a dollar to euro or from a euro to some other currency.
+And in the end, want to use stablecoins for that.
+And I think Marcus, to add to that, as we see more and more adoption from stablecoins
+by enterprises and businesses beyond just user remittances, we're seeing a lot of cross
+border payments use cases where these emerging markets or non-dollar stablecoins really provide
+added value and increased value in the flow for a lot of these platforms and enterprises
+and businesses.
+For example, today, a lot of the cross border payments used by stablecoins are done in dollar
+stablecoins.
+But we really believe that if you introduce non-dollar stablecoins, you can really, really
+optimize the flow, especially in these less efficient corridors where there's not as good
+fiat rails, there's not as good spreads.
+And when you go from fiat to dollar stablecoin back to fiat in two different currencies,
+you introduce a pretty wide spread and that creates a lot more efficiency.
+So we believe that's a real big killer use case in the coming year.
+And with regard to that volume that you guys were highlighting, is that through standard
+crypto wallets mostly?
+Is it your standard crypto user or what does the activity look like in terms of who the
+user is and how they're interacting with Mento?
+So I mentioned we have now 15 currencies live and we see that in all these G7 currencies,
+the use cases are more around trading.
+Some of these currencies also in the real world are more trading forward currencies.
+So for example, I think 40% of all the FX desks sit in the UK.
+The British pound is used in a lot of FX trading transactions.
+Also, for example, the Japanese yen is used as a counterpart for many Southeast Asian
+countries for trading use cases.
+And then we see a lot of transactions also across Africa where users, for example, want
+to have access to a dollar and to do transactions between a dollar and the euro or between local
+currency stablecoin and the dollar.
+So we actually see a bit of a divide here between more emerging markets, use cases that
+are around payments, micro lending, remittances, and then global use cases that are more around
+trading.
+And you would classify that trading behavior as speculative, to be clear?
+I would say, yes, a part of that is FX speculation.
+I mean, Web3, when you want to bootstrap for liquidity and volume for a product, it often
+starts with speculative trading.
+This is how many markets in Web3 emerged.
+And for us also, it's very important because in the end, this is how we can grow.
+In the end, a lot of the users that we have, initial users for new products and new platforms,
+are then traders in Web3 world that want to try out a product and they are very important
+for us.
+We think a bit into the game, we actually can have also for traditional traders a lot
+of advantages that we can show them why they should enter Web2.
+In the FX market today, there are no direct liquid pairs between certain currencies.
+You always have to go into transactions.
+If you, for example, want to go from a Kenyan shilling to a Ghanaian sedi, you often have
+to first go from a Kenyan shilling to a dollar and then from a dollar to a Ghanaian sedi.
+If every transaction in the real FX world or in the traditional FX world takes T plus
+to settlement, then it takes four to six days depending if there's a weekend in the middle
+until your final transaction settles and until you are in your target currency.
+Now we can offer these markets on chain.
+We know that Web3 traders will try it out first.
+We know that speculation, FX speculation will be the first use case for that.
+But we think we can actually offer these markets to many other audiences as well.
+And they are really, really interesting for many other audiences.
+I mentioned the size of the FX market in the beginning.
+It's like $7.5 trillion a day of trading volume.
+So this is a huge market and 30% of that trading volume is spot market, 50% are FX swaps, 15%
+are FX forwards.
+We can enable all of these use cases on chain as well in a much more efficient manner.
+Of course, large part of this market goes via the dollar.
+And the reason here is what I mentioned before is because there are no direct pairs in these
+more exotic currencies.
+But even without the dollar in the FX market, the, for example, euro to British pound market
+alone is 150 billion a day.
+So if you can just get a fraction of that on chain, this is tremendous.
+And I think it's also a market where Web3 can play out its strengths, that you have
+common infrastructure that works globally, you have instant settlements, you have a lot
+of transparency, and in the end, players globally can use that infrastructure.
+So I think this is a perfect use case for Web3.
+Yeah, Markus, I think you made a really good point, especially on the routes and corridors
+that aren't typically served directly on traditional FX markets.
+Web3 rails can really break down these barriers to existing institutions.
+And we may see behavior and routes and trades that we don't typically see.
+And it might actually unlock a new portion of volume or settlement or trading or whatever
+you call it.
+Do you have an example of that that you've seen or can think of?
+I think we're just seeing emerging parts of this behavior coming out.
+But a lot of the volume goes through these G7 currencies today.
+We may actually see more and more volume as this on-chain FX market picks up in more
+interesting corridors that we haven't seen in traditional FX markets.
+For example, maybe something like Brazil to India, the Brazilian Real to Indian Rupee,
+we might see tons of volume pick up there.
+We know a lot of trade happens through this corridor, but a lot of it goes through the
+dollar market, for instance.
+So we may see just shifting numbers, shifting dynamics.
+I think that could be really cool as more and more adoption comes on-chain.
+Markus, you highlighted liquidity, new corridors and settlement as being the two primary advantages.
+So we'd love for either one of you guys to weigh in.
+Do you see those as the two primary advantages here or are there any other improvements you
+think on-chain FX makes to traditional FX that are worth noting?
+So I would mention also, in addition to these scaling pairs, I think what we've seen in
+Web3 is that this industry is really, really good in offering new types of markets.
+You can use the same infrastructure for different types of markets.
+We could offer FX swaps on-chain.
+We could offer RFQ type of markets on-chain.
+We could offer more exotic pairs on-chain because in the end, it's always just a click
+of a button to add a new trading pair, basically.
+And therefore, I think we can expand the range of markets that users can use.
+I think also that this technology works 24-7 is a huge advantage.
+Traditional FX markets don't work 24-7, which is crazy for a market that size that users
+over the weekend just don't have any opportunity to hedge their FX exposure or to actually
+even see the value of their Ghanaan sedis in Euros or in any other currency over the weekend.
+I think that is something where this technology can offer a lot of advantages.
+And then it's also, I think, really, really interesting to see that there is not a lot
+of FX infrastructure actually already live in Web3.
+There are many different platforms, many different chains out there that have a few
+different currencies live as stablecoins.
+I think Mento now has probably the broadest range of stablecoins live,
+but proper FX infrastructure is actually missing in all of the networks out there.
+And I think this is where we as Mento also can make a difference.
+We can offer better markets across all of these currencies because the traditional way
+in Web3 or on blockchains, how markets are structured, are probably also not optimized
+for FX.
+There are AMMs as a very typical type of market on a blockchain and an AMM is using a certain
+pricing function.
+And this pricing function depends on basically two buckets of the two assets that are traded
+in this AMM.
+And therefore, this AMM is not optimized to mirror an off-chain price.
+I mentioned the amount of volume that daily flows through the, for example, Euro-dollar market.
+So currently, at least, this price between the Euro and the dollar is determined off-chain.
+So what we need on-chain is actually proper infrastructure that is able to, in very high
+frequencies, mimic that price of the off-chain world.
+And here, an AMM is not the proper infrastructure.
+What we have with Mento is what we call FPMMs, fixed price market makers.
+In the end, pools that allow users to swap at the exchange rate.
+And this is what we now have on Selo and want to bring to other networks as well.
+So we want to bring this, in the end, to all major networks out there or major blockchains
+out there that have an interest in being able to offer proper FX markets.
+It's a great point you make.
+And you have me thinking now about the strategies you can enable with on-chain currencies.
+I think about a lot of the vaults that we've seen in crypto and that you could have vault
+strategies where you own a mix of underlying currencies.
+And maybe through micro lending, they go and each earn their own yields.
+And you can have this joint exposure across currencies rather than being tied to one,
+which I'd say is somewhat attractive if you're in the US.
+Possibly even more attractive if you're elsewhere.
+How important is it being able to swap among USD stables?
+You mentioned that as a use case and that you look to add USDC, USDT
+alongside the USD stablecoin that you already had.
+I think that's also an important use case because all of these stablecoins,
+even the USD stablecoins, offer different features, even with the large ones out there.
+Maybe some stablecoins have better on and off ramping in certain areas of the world.
+Maybe some of them are more optimized for saving and some of them are more optimized for payments.
+Maybe some of them are more optimized for trading on-chain with other FX currencies.
+In the end, this is the beauty of these markets.
+You can offer a user's choice in both what currency they want to use in terms of,
+do I want to use a euro or a yen or a dollar?
+And what dollar stablecoins do they want to use for certain use cases?
+Making also swapping very easy between a dollar and a dollar stablecoin is,
+I think, also a part of the Mento platform.
+To make a very concrete example, if users today, for example, go to Minipay,
+a wallet that Opera launched, they can actually easily drag and drop
+one dollar pocket onto the other dollar pocket.
+And this swap in the background is powered also by Mento because this is,
+in the end, the core of our platform that we make these swaps available easily.
+And users can try that out, that swap between two dollar stablecoins.
+The reason for this, again, could be I have better on- and off-ramps in a certain region,
+or I can save with one stablecoin, but I can pay with the other,
+or my friend only uses the other stablecoin.
+So also here, swaps are actually extremely important.
+And one really key feature that we think will bring a lot of value as the stablecoin space
+develops and matures is that the Mento platform can also integrate
+other non-dollar stablecoins as well.
+As we see more and more issuers come online and build sufficient liquidity
+and have good enough PEG models, we can actually integrate those
+into the Mento platform so that they can tap into this FPMM model that Marcus described
+and not rely on the need to boot shop liquidity and permutate that across
+every single currency pair in traditional AMM liquidity pools.
+So for example, if there is a new British pound stablecoin or Australian dollar stablecoin
+or what have you, they can actually plug into this infrastructure and be tradable and usable
+across all the different currency pairs too.
+So we believe that's going to be a huge value to the industry and the space
+and other stablecoin issuers as well.
+Could, for example, also be a CBDC that is launched in a certain market
+which is maybe widely accepted.
+But the problem then is that the CBDC doesn't have all the integrations
+or all the on and off ramps that maybe USDT has in other markets.
+And then being able to swap from your Brazilian real CBDC to USDT
+is a very important feature that this swap works efficiently.
+And again, an AMM is probably not the most efficient market for that
+because then arbitrageurs actually have to balance the pools always at the price
+where currently the Brazilian real and the US dollar trades, which is an inefficient setup.
+Yeah, understood on the need to go back to a currency
+that might have the integrations that you need at that moment.
+In the context of this longer tale of currency stablecoins,
+if I hold a Nigerian Naira stablecoin, for example,
+how is the support for that with payment cards?
+For example, because I know with USDC, there are a lot of evolving ways
+that I can stream that to a credit card and make a payment using USDC somewhat seamlessly.
+Granted, that's still early in evolving.
+So how do you see that evolution with this longer tale of stablecoins that is still emerging?
+From a product perspective, I see it in an arc
+because USDC or some of these more established stablecoins have developed these rails.
+You can actually use the mental protocol as a stopgap in between
+and productize that entire flow and abstract that away from the end user.
+For example, in the Nigerian Naira case that you just described,
+if the issuer or the card payment provider only accepts USDC,
+you can actually use a mental protocol on the backend and integrate that
+and deliver USDC at the current exchange rate to the merchant or the payment provider
+and take away that entire flow.
+As the stablecoin market develops and there's wider and wider acceptance
+and regulatory clarity, we'll see those integrations from those issuers
+into their local rails and into their local ecosystems.
+So I see it as an arc and I think you can productize a lot of that out
+and build a good user experience from both the company's integrating
+and also the end user as well.
+And do you guys feel like you're competing with larger players,
+traditional institutions or software businesses for those kinds of use cases?
+Are they awake to that now?
+Yeah, I really don't think so.
+ICS is really complementary to the value stack and the value chain.
+We are building this platform where you actually can trade and swap
+at the current exchange rates.
+I think these financial institutions, when you're talking about stablecoins,
+that is, will use us in what they offer and the end product that they offer.
+Of course, we are looking to disrupt the actual traditional
+FX markets and bring more of that on-chain.
+But as more and more institutions come on-chain,
+we see us as a complementary base layer infrastructure
+to power all their services that they provide.
+And it's even compared to existing marketplaces.
+We offer an additional marketplace here.
+And therefore, I think this, I would say, creates a lot of arbitrage volume
+that again then helps both the existing marketplace and it helps the network.
+And it just makes then trading on-chain more efficient.
+Also, as we've mentioned before, we can integrate other stablecoins there.
+So everyone can integrate here and benefit from these new types of marketplaces.
+And then people, I think, that want to engage on-chain with FX trading in some way
+have then a broad range.
+We can, in countries where there's no currency live yet, we have by now 15.
+We are relatively fast in adding more currencies there.
+So we can help with these, but we also can add others here
+when there are already currencies live.
+So I think, as Danny mentioned, it's just adding more tools for users
+and enable actually then a part of the FX market to come on-chain.
+And then we really all benefit from this infrastructure
+that this infrastructure works globally on the same rails
+and takes away a lot of the frictions of today's FX markets.
+Yeah, that's exactly right.
+Super excited to see everything that's going to be built out.
+I think it's still really early days for this space
+and really, really exciting things on the horizon, I think.
+Yeah, to your point, I think it's interesting in the arc of crypto.
+A lot of times it's been the arbitrage and early opportunities
+to provide liquidity at a high return,
+which attracts the first more traditional players to interact.
+And then they stick around once they see a lot of opportunity.
+Early in crypto was the high-frequency trading firms,
+which were some of the early actors and continue to be very active.
+This is the way our industry always bootstraps.
+We have to find an optimum between basically giving these incentives
+and being a sustainable platform.
+I think this is then in the end finding that optimum,
+the task of the protocols and projects that are building in this space.
+But in the end, yeah, absolutely, you're right.
+Do you get any regulatory pushback for providing these products
+to potentially people globally?
+So I think one important point there is first,
+that is the beauty of building fully open source,
+of building smart contract based.
+In the end, we build infrastructure that users then can use.
+And in most of the markets out there, if then users use that infrastructure
+that is very transparent, most regulators are fine.
+The on and off ramps are in most countries and should be regulated
+when you basically go from fiat into digital currencies.
+And I think this is also good and important.
+And then in the end, we still, even though we build in the more decentralized way
+and we are focusing on building infrastructure and not regulated products,
+we still want to engage with the regulator and basically tell them,
+hey, this is what we're building, do you like it?
+And in most of the countries where we are now live,
+actually the regulator likes this because again,
+it's all smart contract based, it's all open source.
+This collateral for the stablecoin sits on chain,
+so everyone can directly verify it.
+All transactions can be verified.
+And therefore, I think there's a lot of openness for this.
+And we've seen also a shift globally from regulators
+and not only because there's a shift in the US,
+but also because every country around the world
+is now looking deeper into this technology.
+And therefore, we are very, I think, positive on regulation.
+I think it's needed and I think it's good for us as an infrastructure builder.
+Yeah, the Genius Act just passed Senate last night.
+Yeah, I was about to say, big day for us all.
+Yeah, we'll see as that moves up the chain.
+And I think a lot of countries in the world and regulatory bodies
+will use that as the baseline for their framework.
+So sending in the positive direction.
+I've heard a lot of stories like that already,
+how companies operating in other regions are seeing a positive way
+because of friendly or crypto regulation in the US.
+What products are you guys seeing demand for
+when it comes to the tail of currencies that you support
+and maybe even touching on some of the micro lending directions?
+What do you think people want in this market regime
+and how are you positioning?
+So I think maybe to get started, again, there's different directions
+how the mental platform can be used.
+You mentioned micro lending, for example,
+and here we've partnered with many micro lenders
+and I think for them it's good to have that choice
+to be able to offer loans to small businesses now on chain
+and can give access to capital on chain.
+And there's huge demand for it because there's a huge credit gap
+in many regions of the world.
+Many regions of the world actually don't operate on the ability
+and not because people are...
+You're saying small and medium businesses just don't even have access to credit.
+Yeah, exactly.
+And the reason that they don't have access
+is actually what holds many regions of the world back.
+The entrepreneurs in these regions are at least as creative
+as in any other region of the world.
+But lack of capital is the biggest problem.
+And now being able to offer access to capital
+both in local currency and in global currency
+already removes some of these frictions.
+So if you look into micro lending, I think this can unlock a lot.
+Pairing this with giving people the ability to hedge currency exposure
+and to speculate also on currencies
+makes these digital currencies even more liquid.
+And therefore, again, this also helps the micro lending case.
+So I think all these different use cases actually benefit from each other.
+There's a huge network effect there.
+If I have three traders that want to speculate on, I don't know,
+how the dollar evolves over the next two weeks,
+they actually make the dollar stablecoins more liquid.
+If they speculate against the euro or against the Japanese yen,
+they make these markets more liquid.
+And these markets then can enable micro lending use cases.
+So I think the network effects of this are huge.
+And this is also why we see these crazy trading volumes
+in the FX markets every day.
+Not all of it is speculation, a lot of it is hedging.
+There's all sorts of other operations.
+And this is what we can bring on chain now.
+I mentioned earlier in our conversation,
+but cross border payments, both from the end user admin standpoint
+and also from B2B standpoint,
+I think is really unlocked by non-US dollar stablecoins.
+Actually, there's some loose data around this,
+but there are a ton of businesses in jurisdictions
+that aren't served by traditional banking rails
+that actually use USDT today to move value across borders.
+And that is mainly due to the fact that there aren't many other options
+to do this on chain historically.
+As we see more and more of these come live,
+we can actually see local currency stablecoins
+powering these transactions in their currency of choice
+and being able to swap at real-world FX rates without that.
+I think longer term, to your point around regulatory clarity,
+we'll actually see some of the more tradfied type FX use cases come on chain.
+For example, a lot of firms, enterprises actually use deliverable
+FX forwards to hedge their receivables or some of their revenue.
+That can be unlocked with local stablecoins on chain.
+And actually, it provides added benefits
+because of the programmability of blockchain rails
+that you typically have to rely on a prime broker or an OTC desk for.
+And it's crazy, but you still pick up the phone
+and call your broker to do some of these trades today.
+And that removes a lot of that need and inefficiency
+as more of these things come online.
+Maybe one more example of a typical flow that actually both enables FX trading
+and enables use cases that benefit end users, for example, microlending.
+If you're a market maker that makes the Bitcoin to Kenyan shilling book in Kenya,
+then there are times where you actually have demand for Kenyan shilling
+and there are times where you have excess supply of Kenyan shilling
+always depending on how Bitcoin evolves and depending on the volatility of Bitcoin.
+So you as a market maker in that case have a need for going in between Kenyan shilling
+and other currencies to, in the end, satisfy your FX needs.
+What you also do then with that is actually you make a Kenyan shilling stablecoin
+much more liquid with that.
+That then again helps a microlender in that market to give more loans to users.
+And these users again find liquid markets, not only on Mento, for example,
+between a Kenyan shilling and a dollar.
+They also not on Mento maybe find very liquid markets between Kenyan shilling and Bitcoin.
+But then maybe with their loan, they also want to do other use cases of chain.
+But these two use cases, microlending and then actually trading in the end support each other.
+I imagine life becomes a lot easier for that market maker of the Kenyan shilling
+when all of a sudden firms all over the world and visuals all over the world
+have actual access to get shilling because it's a stablecoin
+and it's physically accessible versus, to my knowledge,
+it's not the easiest currency to actually get access to if you're a firm in New York, for example.
+Totally, totally.
+And I think offering these markets then we need to do it in a way that is efficient for these firms
+because of course they benefit them from small spreads between the assets they trade
+and therefore accessing this currency needs to happen in a very efficient way.
+And we think with our FPMMs, these fixed price market makers, we allow them users
+to actually get the currency they need at the price that is the right price for these assets.
+I want to close with a parting thought from you guys, which is,
+I think there's clear utility here for the evolution of on-chain FX and financial markets.
+Why do you think the wider audience should care about on-chain FX and about Mento's mission?
+And what is the impact on your typical user?
+So I think why people should care, A, because this is the largest market in the world
+and Web3 has a lot of advantages for that market.
+So we actually should bring a fraction of this market on-chain.
+Again, $7.5 trillion trading volume every day.
+If you only look at the FX stock market, it's still more than $2 trillion every day.
+So if you get a fraction of that spot market on-chain, then actually all the stablecoin
+projects out there, all the networks out there, all the blockchains out there,
+actually benefit from that a lot.
+And therefore I think people should care.
+And I think we offer a very open solution.
+We are now bringing this solution to the multi-chain and want to partner with other
+networks out there that have an interest in FX.
+So we are basically not tribal.
+We are very open to partner with anyone here to bring this solution to the world.
+And I think this has a lot of advantages.
+And these advantages are actually ranging from trading use cases to end-user focused use cases
+and therefore are relevant for both retail markets and NC markets as well.
+Yeah, I think Marcus wrapped it up really nicely.
+But FX, cross-border payments, all these use cases has been like a pipe dream for all of
+us building in this space for many years.
+And I think having this infrastructure, being able to swap at real world prices
+will really open up Pandora's box on what could be built on top of it.
+So just really, really excited there and what it enables in the rest of the industry.
+Well, I'll leave it there.
+Likewise, very excited.
+Thank you guys for coming on and hope to have you back soon.
+Amazing.
+Thanks, Wyatt.
+Really appreciate it.
+Thank you so much for having us.
+Thanks for listening to another episode of On the Brink with Castle Island.
+To find out more about Castle Island, visit castleisland.vc.
+To listen to all of our podcast episodes, please go to onthebrink-podcast.com
+or just click on the tab on our website.
+Thanks for listening.

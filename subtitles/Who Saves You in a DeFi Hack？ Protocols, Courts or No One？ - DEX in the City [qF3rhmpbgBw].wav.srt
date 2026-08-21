@@ -1,0 +1,1568 @@
+1
+00:00:00,000 --> 00:00:04,320
+ the balance or exploit that recently happened, right? This incident, just like others that have
+
+2
+00:00:04,320 --> 00:00:08,480
+ come before it, right? Reveal this really interesting tension. I think it's this idea that like
+
+3
+00:00:08,480 --> 00:00:16,000
+ decentralization is not binary. Because ultimately after a hack or an exploit like I and I know
+
+4
+00:00:16,000 --> 00:00:20,720
+ institutions and users don't want to have to wait around and be like, well, is the project going to
+
+5
+00:00:20,720 --> 00:00:24,880
+ do anything to work for me? Is the community going to do anything to work for me? Is the government
+
+6
+00:00:24,880 --> 00:00:29,040
+ going to say that this is a crime even though it's unsure if this is a crime? For all those betting
+
+7
+00:00:29,040 --> 00:00:33,920
+ on polymarket as to crypto market structure passage? This is not investment advice, but I am,
+
+8
+00:00:33,920 --> 00:00:40,560
+ I agree with me. I am very bearish that this is going to happen soon. Despite the president making
+
+9
+00:00:40,560 --> 00:00:47,840
+ this a mandate like get this done. Hi all. Welcome to decks in the city where the wallets are cold
+
+10
+00:00:47,840 --> 00:00:52,880
+ and the tapes are hot. There are a lot of boss women in crypto and we want to make sure you hear
+
+11
+00:00:52,880 --> 00:00:57,280
+ from some of them. We're going to get to intros in a second, but we first want to frame why we're
+
+12
+00:00:57,280 --> 00:01:02,480
+ doing this. There are a lot of crypto podcasts out there and you could be listening to any of those,
+
+13
+00:01:02,480 --> 00:01:08,160
+ so why should you be listening to us? Well, between the three of us, we've worked in senior roles in
+
+14
+00:01:08,160 --> 00:01:14,880
+ DeFi, C5, crypto banking, venture capital, infrastructure and more. We have insights on
+
+15
+00:01:14,880 --> 00:01:19,760
+ trade buying crypto. We're on the front lines of crypto policy and we're pros at regulatory
+
+16
+00:01:19,760 --> 00:01:25,120
+ engagement. We are also very good at breaking down the more complicated concepts into English.
+
+17
+00:01:26,000 --> 00:01:30,800
+ Before we dive in, this is our very first edition. Very exciting and we're thrilled to bring decks
+
+18
+00:01:30,800 --> 00:01:36,160
+ in the city to you as part of Unchained on air. The new slate of shows expanding the incredible
+
+19
+00:01:36,160 --> 00:01:42,320
+ Unchained network. Before we get going, remember, very important. We're lawyers, but we're not your
+
+20
+00:01:42,320 --> 00:01:47,520
+ lawyers. So nothing you hear on decks in the city is legal or financial advice and it doesn't
+
+21
+00:01:47,520 --> 00:01:53,280
+ create an attorney client relationship. For the fine print, as always check unchainedcrypto.com.
+
+22
+00:01:54,160 --> 00:02:00,800
+ So let's dive in. First, we have Jesse, Web3 prosecutor, turned Web3 protector at Ribbit Capital.
+
+23
+00:02:00,800 --> 00:02:07,280
+ Hi, everyone. I am so glad we are finally doing this. I want to do a quick shout out to Laura and
+
+24
+00:02:07,280 --> 00:02:13,280
+ the entire Unchained team. As you can probably tell, the technical infrastructure that goes into
+
+25
+00:02:13,280 --> 00:02:17,680
+ this is very, very complex and they have been working on it for a long time and we just get
+
+26
+00:02:17,680 --> 00:02:22,880
+ to join for the ride. So thank you guys so much. So I'm excited to do this pod because the three
+
+27
+00:02:22,880 --> 00:02:29,600
+ of us spend so much time talking about this space and really debating off mic and sometimes over drinks,
+
+28
+00:02:29,600 --> 00:02:34,320
+ which we'll maybe do sometimes on this pod as well. And now I can force the two of y'all to
+
+29
+00:02:34,320 --> 00:02:41,200
+ hang out with me every week. So KK said I'm Jesse Brooks. Hello. I've spent about a decade in crypto.
+
+30
+00:02:41,200 --> 00:02:46,320
+ It started in the national security world at the Department of Justice where I was taking on North
+
+31
+00:02:46,320 --> 00:02:52,400
+ Korea terrorist networks that were engaging with crypto and hackers like the Bitfinex hackers.
+
+32
+00:02:52,400 --> 00:02:56,480
+ And everyone else that was trying to make the safe space less safe for all of us,
+
+33
+00:02:56,480 --> 00:03:01,120
+ especially at the beginning when it was building. Now I'm at Ribbit Capital,
+
+34
+00:03:01,120 --> 00:03:05,600
+ which is an investment firm committed to backing rebels that are reinventing finance
+
+35
+00:03:05,600 --> 00:03:12,000
+ across crypto, AI, and FinTech. Awesome, Jesse. And everyone needs to listen because hopefully,
+
+36
+00:03:12,000 --> 00:03:18,080
+ one day you'll get to hear the famous Jesse Brooks ring, which is my personal favorite
+
+37
+00:03:18,720 --> 00:03:26,960
+ in terms of engagement. Let's next move on to V from the SEC to Web3 V. Hi, everyone.
+
+38
+00:03:26,960 --> 00:03:31,360
+ I'm V Lee, the general counsel at Veda, where we're building infrastructure
+
+39
+00:03:31,360 --> 00:03:37,680
+ DeFi scale safely. Something we'll be talking about today. So I've been in crypto for over four years,
+
+40
+00:03:37,680 --> 00:03:44,800
+ first at a digital identity protocol, then at a crypto VC, and most recently was the GC of the
+
+41
+00:03:44,800 --> 00:03:50,720
+ only federally regulated crypto bank, which is actually still the only federally regulated crypto
+
+42
+00:03:50,720 --> 00:03:57,200
+ company in the US period, which I think tells you a lot about how we still have to go on the
+
+43
+00:03:57,200 --> 00:04:03,280
+ policy front. One of the things that we'll be talking about before crypto, I was your classic
+
+44
+00:04:03,280 --> 00:04:09,280
+ trad fi lawyer, practice securities, law to big law firm spent almost six years at the SEC.
+
+45
+00:04:10,240 --> 00:04:17,120
+ So suits, memos, windowless office, whole thing. But the SEC is also where I first fell down the
+
+46
+00:04:17,120 --> 00:04:23,760
+ crypto rabbit hole working on crypto investigations. So I have government for that. But I'm so excited
+
+47
+00:04:23,760 --> 00:04:30,800
+ to be doing this with two of my favorite people in crypto, Jesse and KK. So if you've ever wondered
+
+48
+00:04:30,800 --> 00:04:36,160
+ what it would be like to be a fly on the wall and three female crypto GCs get together,
+
+49
+00:04:36,160 --> 00:04:43,440
+ you'll get a taste of some of that on this show, not everything just. So we all have drinks,
+
+50
+00:04:43,440 --> 00:04:53,040
+ we should choose to that very often. This is camomile tea, but I like it. Fantastic
+
+51
+00:04:53,040 --> 00:04:57,280
+ be. And very important disclaimer with the V was not with SEC enforcement during the Gary
+
+52
+00:04:57,280 --> 00:05:03,680
+ Gensler administration. So I needed to, you know, provide that disclaimer. And I'm your host,
+
+53
+00:05:04,560 --> 00:05:11,840
+ Katherine or KK or KKB, any of the above. And I'm fluent in trad fi and conversant in deep tech
+
+54
+00:05:11,840 --> 00:05:18,800
+ over at stark wear. So I was a white shoe big law partner doing basically all trad fi investigations
+
+55
+00:05:18,800 --> 00:05:25,120
+ defending big entities asset managers in us government investigations. And then I too fell
+
+56
+00:05:25,120 --> 00:05:31,280
+ down the crypto rabbit hole, loved it, saw the inherent inefficiencies in trad fi market structure
+
+57
+00:05:31,280 --> 00:05:36,800
+ and understand how crypto can solve those. So I completely went off the defend and went to be
+
+58
+00:05:36,800 --> 00:05:43,280
+ GC of a DeFi protocol. Then I moved to be chief legal officer of a centralized exchange, both
+
+59
+00:05:43,280 --> 00:05:49,360
+ spot and derivatives and derivatives clearinghouse. So lots to say about the CFTC these days.
+
+60
+00:05:49,360 --> 00:05:53,600
+ And I will just say day to day, we're going to tackle a lot of the crypto happenings,
+
+61
+00:05:53,600 --> 00:05:58,000
+ but with some new takes, we're going to dive a little bit deeper and get into perspectives
+
+62
+00:05:58,000 --> 00:06:02,240
+ that you do not hear on crypto Twitter, we're also going to correct crypto Twitter.
+
+63
+00:06:02,240 --> 00:06:06,560
+ And we're going to have fun while we're doing it, because we're also real friends, not just
+
+64
+00:06:06,560 --> 00:06:13,440
+ crypto friends. So that's an important distinction. So let's get into the meat of today. So I have
+
+65
+00:06:13,440 --> 00:06:20,000
+ to say in the theme of self promotion here, Jesse and I released an academic paper a couple weeks
+
+66
+00:06:20,000 --> 00:06:26,640
+ ago on programmable risk management. We were very excited about this. But it did create a little
+
+67
+00:06:26,640 --> 00:06:33,680
+ bit of spice amongst certain nerds in the population. And I think our take on it is that a lot of
+
+68
+00:06:33,680 --> 00:06:39,280
+ people didn't read the 20 plus paper, which I completely understand. But the thesis that we
+
+69
+00:06:39,280 --> 00:06:46,880
+ set forth in this paper was basically there are theoretically ways to improve upon DeFi. We love
+
+70
+00:06:46,880 --> 00:06:52,880
+ DeFi. I mean, my heart is with DeFi was my first GC role. Now, one of the things that we were saying
+
+71
+00:06:52,880 --> 00:06:58,320
+ in the paper is we outlined a whole laundry list of tech based solutions that theoretically would
+
+72
+00:06:58,320 --> 00:07:06,560
+ not disrupt the UX that would not re intermediate DeFi. And we said these should be optional solutions
+
+73
+00:07:06,560 --> 00:07:12,160
+ for discussion within DeFi and maybe certain protocols in, you know, conversing with their
+
+74
+00:07:12,160 --> 00:07:17,520
+ community in achieving their goals might want to consider these. And many already exist and are
+
+75
+00:07:17,520 --> 00:07:22,800
+ being considered to exactly many of them are already being used today. Exactly. I mean, blockchain
+
+76
+00:07:22,800 --> 00:07:28,240
+ analytics is one extreme side of things because most DeFi protocols are using blockchain analytics
+
+77
+00:07:28,240 --> 00:07:33,920
+ as the bare minimum. But there were a multitude of other solutions. To be very clear, we are not
+
+78
+00:07:33,920 --> 00:07:41,680
+ and we're not arguing that DeFi should be regulated or re intermediated in any way.
+
+79
+00:07:41,680 --> 00:07:46,640
+ So I want to kick us off here because I know the three of us have a lot of thoughts about
+
+80
+00:07:46,640 --> 00:07:54,080
+ the safety of DeFi, what solutions exist. Why don't we go right into it? You know,
+
+81
+00:07:54,080 --> 00:07:59,040
+ V, let's get us started. Kick us off. What are your thoughts on all things programmable risk
+
+82
+00:07:59,040 --> 00:08:06,640
+ compliance, programmable risk management. I read it before it was published. I read a manuscript
+
+83
+00:08:06,640 --> 00:08:12,720
+ of it. So it was so honored to be able to do that. So if you guys haven't read this paper,
+
+84
+00:08:12,720 --> 00:08:18,320
+ it's groundbreaking. And I really think you should. We'll link it in the show notes.
+
+85
+00:08:18,320 --> 00:08:23,760
+ I also wrote a paper last week or an article for law 360. For those of you who don't know,
+
+86
+00:08:23,760 --> 00:08:29,680
+ law 360 is a legal publication that at least was my daily reading when I was a law firm
+
+87
+00:08:29,680 --> 00:08:36,080
+ associate in clerking and in government. But in the paper, I talk specifically about chain capital
+
+88
+00:08:36,080 --> 00:08:42,640
+ markets and how issuers and users aren't going to participate unless they feel like they can
+
+89
+00:08:42,640 --> 00:08:47,600
+ trust these markets to be fair and gritty. And I look at some of the solutions that, you know,
+
+90
+00:08:47,600 --> 00:08:52,720
+ like they can just see just said, some of the solutions that the industry is already, you know,
+
+91
+00:08:52,720 --> 00:08:58,640
+ developing and using to build safeguards directly into things like tokens and smart contracts
+
+92
+00:08:58,640 --> 00:09:04,720
+ with respect to order execution quality, maybe the mitigation tools, that sort of thing.
+
+93
+00:09:04,720 --> 00:09:10,880
+ So along the same lines as KK and Jesse's paper of, you know, instead of regulatory mandates,
+
+94
+00:09:10,880 --> 00:09:16,960
+ what are some ways that the industry can leverage the technology itself to keep users safe and
+
+95
+00:09:16,960 --> 00:09:22,480
+ combat things like illicit finance? So I think, like you guys said, I think the feedback on both
+
+96
+00:09:22,480 --> 00:09:27,760
+ of these pieces has been really interesting. First, I'll say, and I think you guys agree with this,
+
+97
+00:09:27,760 --> 00:09:35,520
+ right? We welcome and encourage debate and disagreement. Like, these are really hard issues that we're
+
+98
+00:09:35,520 --> 00:09:42,640
+ all trying to figure out together. And I think all of us are committed to crypto's core values of
+
+99
+00:09:42,640 --> 00:09:48,720
+ decentralization and inclusion and transparency and censorship resistance, right? So, you know,
+
+100
+00:09:48,720 --> 00:09:53,600
+ but I do think the debates raised some really like hard questions about DeFi that are worth
+
+101
+00:09:53,600 --> 00:10:00,720
+ discussing in a nuanced way, which social media doesn't always lend itself to. So all kick things
+
+102
+00:10:00,720 --> 00:10:07,440
+ off for us, right? So for me, I think a lot of the DeFi debate comes down to two fundamental
+
+103
+00:10:07,440 --> 00:10:13,520
+ questions, right? One is what responsibility do we have to keep users safe? And relatedly,
+
+104
+00:10:13,520 --> 00:10:21,520
+ what responsibility do we have to offer users recourse when things go wrong? So I think it's really
+
+105
+00:10:21,520 --> 00:10:27,600
+ easy to say, yes, we're in favor of, you know, pure DeFi or true DeFi. But then how do you answer
+
+106
+00:10:27,600 --> 00:10:32,880
+ those questions? And how do we see DeFi protocols actually answering those questions in real life,
+
+107
+00:10:32,880 --> 00:10:38,080
+ right? So I think, you know, there are two recent events that me really illustrated
+
+108
+00:10:38,080 --> 00:10:44,240
+ this tension. First was the Balancer exploit that recently happened, right? So Balancer is a DeFi
+
+109
+00:10:44,240 --> 00:10:51,120
+ exchange. It recently suffered an exploit where the attacker drained $28 million from liquidity
+
+110
+00:10:51,120 --> 00:10:57,520
+ pools, manipulating the pricing function, and the pool balances to basically trick the protocol
+
+111
+00:10:57,520 --> 00:11:02,560
+ into miscalculating the value of the tokens. And then they repeatedly performed swaps to
+
+112
+00:11:02,560 --> 00:11:06,800
+ deflate the price, and then either minted or bought the undervalued tokens,
+
+113
+00:11:06,800 --> 00:11:11,520
+ immediately redeemed them in a way that allowed them to drain the pools. So how did Balancer
+
+114
+00:11:11,520 --> 00:11:18,400
+ respond to this? I think most of their pools do not have an admin key or like a kill switch.
+
+115
+00:11:19,200 --> 00:11:24,000
+ But there were some pools that were able to be paused, and they did that, they paused them.
+
+116
+00:11:24,000 --> 00:11:30,000
+ They alerted users, and then they worked with White House to recover the funds. And what was
+
+117
+00:11:30,000 --> 00:11:35,360
+ also really interesting about this incident is that the different chains that were affected
+
+118
+00:11:35,360 --> 00:11:42,640
+ responded in really different ways, right? So Ethereum largely stuck to the code as law ethos,
+
+119
+00:11:42,640 --> 00:11:48,480
+ so they didn't do any rollbacks, no forks, the losses remained on chain. But there were a bunch
+
+120
+00:11:48,480 --> 00:11:55,840
+ of smaller side chains and L2s that it intervened, and validators or sequencers temporarily halted
+
+121
+00:11:55,840 --> 00:12:02,000
+ block production, or they coordinated soft forks to freeze the hacker's distance, and others actually
+
+122
+00:12:02,000 --> 00:12:07,520
+ did perform a hard work. Reverse or isolate the impact of the attack, right? So for me,
+
+123
+00:12:07,520 --> 00:12:11,600
+ this incident, just like others that have come before it, right, revealed this really interesting
+
+124
+00:12:11,600 --> 00:12:18,320
+ tension. I think it's this idea that like decentralization is not binary, meaning even chains that
+
+125
+00:12:19,040 --> 00:12:26,160
+ claim to be or aspire to be immutable or permissionless, sometimes do feel the need to intervene
+
+126
+00:12:26,160 --> 00:12:33,600
+ when users are or lose funds, right? So I think this really puts the idea of pure DeFi through
+
+127
+00:12:33,600 --> 00:12:38,960
+ the test, right? So I think we need to ask ourselves, like, when a network can be forked to recover
+
+128
+00:12:38,960 --> 00:12:45,120
+ used funds, does that create some sort of like de facto fiduciary duty or something like that,
+
+129
+00:12:45,120 --> 00:12:53,040
+ among validators of that? 100, 100%. And before we move to Jesse, I just want to clarify one thing,
+
+130
+00:12:53,040 --> 00:12:58,560
+ a white hat hacker, a lot of people I realized didn't understand what that was. If they're not
+
+131
+00:12:58,560 --> 00:13:04,640
+ in crypto, a white hat hacker is kind of a good guy. And what you often see with exploits in crypto,
+
+132
+00:13:04,640 --> 00:13:12,720
+ or not often, but occasionally is there's a hacker who facilitates an exploit, and whatever entity
+
+133
+00:13:12,720 --> 00:13:17,760
+ is in charge or a community member will then go to them and say, we'll pay you if you turn into a
+
+134
+00:13:17,760 --> 00:13:22,960
+ white hat, like if you give the money back. So this was not the case here, but white hats help the
+
+135
+00:13:22,960 --> 00:13:27,680
+ ecosystem. But Jesse, please jump it. Yeah, let me just give you a little insider knowledge on
+
+136
+00:13:27,680 --> 00:13:33,520
+ white hat hackers as well. These predated crypto for many people who have been in the cybersecurity
+
+137
+00:13:33,520 --> 00:13:38,640
+ national security world for quite some time. And actually, the government relies on them
+
+138
+00:13:38,640 --> 00:13:44,640
+ for a lot of sort of early cybersecurity, national security issues. So it's just sort of something
+
+139
+00:13:44,640 --> 00:13:49,520
+ to think about how it's also been incorporated in crypto in a variety of ways. But I actually
+
+140
+00:13:49,520 --> 00:13:54,960
+ think that these two questions sort of level setting are very, very thoughtful. And I'll just add a
+
+141
+00:13:54,960 --> 00:14:00,960
+ third one, which is who should give the recourse? Should it be the protocol? Should be the community?
+
+142
+00:14:00,960 --> 00:14:04,480
+ Should it be the government, the courts, which we're going to talk about some of the stuff that's
+
+143
+00:14:04,480 --> 00:14:10,240
+ happening there, particularly with the MIT brothers case that we'll cover in a little bit.
+
+144
+00:14:10,240 --> 00:14:15,920
+ But also, I just want to put forward like what kind of world do we want to live in where users
+
+145
+00:14:15,920 --> 00:14:21,360
+ have to think about how do I get recourse for something bad happening, instead of having the
+
+146
+00:14:21,360 --> 00:14:27,520
+ choice from the start of being much, much more comfortable of where they put their finances
+
+147
+00:14:27,520 --> 00:14:34,000
+ before something bad happens. And I think that sort of the debate here is how much can we embed
+
+148
+00:14:34,000 --> 00:14:40,800
+ in the native aspect of crypto and DeFi and all the projects that are built in it to make users less
+
+149
+00:14:40,800 --> 00:14:47,680
+ worried about any sort of hack and who they'll need to go to for recourse later on. Because to me,
+
+150
+00:14:47,680 --> 00:14:54,640
+ like decentralization is not about having no rules or standards, but it's rather about a bottom up
+
+151
+00:14:54,640 --> 00:15:01,760
+ choice of how to embed rules and standards if you want or not. And a choice by the users, a choice
+
+152
+00:15:01,760 --> 00:15:07,120
+ by the projects, a choice by the protocols, the choice to opt into more security and safety when
+
+153
+00:15:07,120 --> 00:15:12,400
+ they want it or more risk and maybe more upside if they don't want it. Because isn't that like
+
+154
+00:15:12,400 --> 00:15:17,760
+ really what we're building here in my mind? Like the crypto ecosystem is about giving people in my
+
+155
+00:15:17,760 --> 00:15:23,760
+ mind at least more power over their finances, whether it be self custody, whether it be how
+
+156
+00:15:23,760 --> 00:15:30,400
+ they want to engage with DeFi. And it should also be the opportunity to engage in a more risk forward
+
+157
+00:15:30,400 --> 00:15:36,960
+ or risk conservative manner. Because ultimately after a hack or an exploit like I and I know
+
+158
+00:15:36,960 --> 00:15:42,640
+ institutions and users don't want to have to wait around and be like, well, is the project going
+
+159
+00:15:42,640 --> 00:15:46,960
+ to do anything to work for me? Is the community going to do anything to work for me? Is the government
+
+160
+00:15:46,960 --> 00:15:52,080
+ going to say that this is a crime even though it's unsure if this is a crime? Instead, why don't we
+
+161
+00:15:52,080 --> 00:15:57,280
+ allow users to say, okay, here are all the options out there and let's go from there. And on that
+
+162
+00:15:57,280 --> 00:16:02,400
+ point, like, isn't it better that we work from the ground up than have sort of this regulatory
+
+163
+00:16:02,400 --> 00:16:08,080
+ oversight coming afterwards or trying to figure out how to fit things within crimes in order to
+
+164
+00:16:08,080 --> 00:16:14,480
+ give recourses to users? Power to the people, Jesse, I love it. And it's no, but it's true. Like,
+
+165
+00:16:14,480 --> 00:16:21,520
+ you make a great point in that I think the fear in with respect to some of the radical pure DeFi
+
+166
+00:16:21,520 --> 00:16:27,520
+ advocacy that we've seen lately is that there's a fear that if we even open up the discussion
+
+167
+00:16:27,520 --> 00:16:33,760
+ as to so-called protections to put in place, that regulators or legislators are going to seize on
+
+168
+00:16:33,760 --> 00:16:41,600
+ that as a way of regulating DeFi or mandating such checks. And I completely understand and
+
+169
+00:16:41,600 --> 00:16:47,600
+ acknowledge that fear because there should be a scenario where pure DeFi exists without checks,
+
+170
+00:16:47,600 --> 00:16:52,080
+ eyes wide open, you know, there's a beauty of transparency with DeFi that we all understand
+
+171
+00:16:52,080 --> 00:16:56,960
+ and acknowledge. Like, I would always explain that to people that didn't understand crypto,
+
+172
+00:16:56,960 --> 00:17:02,640
+ vis-a-vis maple, my first DeFi project, that it's midnight, the payment for the loan is due at
+
+173
+00:17:02,640 --> 00:17:08,240
+ midnight, 1201, everyone can see it's not paid, which is, you know, beautiful thing about on-chain
+
+174
+00:17:08,240 --> 00:17:15,600
+ activity, you know, DeFi lending doesn't exist in tradFi, right? But I think your point is really
+
+175
+00:17:15,600 --> 00:17:21,440
+ important. Like, shouldn't we also empower builders that maybe they want to go more conservative,
+
+176
+00:17:21,440 --> 00:17:27,920
+ maybe they want to serve a population, regulated entities, institutional participants, one-day
+
+177
+00:17:27,920 --> 00:17:35,200
+ pension funds, and they want to, you know, ensure that they're taking a more conservative route without
+
+178
+00:17:35,200 --> 00:17:41,120
+ being penalized in the DeFi community by not being pure DeFi? Because I don't view a lot of this as
+
+179
+00:17:41,120 --> 00:17:48,800
+ reintermediating DeFi. A lot of it can be inserted without disrupting the peer-to-peer UX.
+
+180
+00:17:48,800 --> 00:17:56,480
+ Can I ask you guys as like DeFi project GCs, don't you think about this kind of thing on day-to-day?
+
+181
+00:17:56,480 --> 00:18:00,400
+ Like, what comes up when you sort of make the considerations of how you were going to build?
+
+182
+00:18:00,400 --> 00:18:05,280
+ Is it all or nothing? Like, how do you guys think about pure DeFi and building in the space?
+
+183
+00:18:05,280 --> 00:18:10,240
+ Oh my gosh, so many things I want to follow up on. So, Jesse, I wanted to follow up on one
+
+184
+00:18:10,240 --> 00:18:16,080
+ point that you made that I think is really important, which is like, one of the benefits of DeFi and
+
+185
+00:18:16,080 --> 00:18:22,320
+ these DeFi protocols is that you know ahead of time what's going to happen, right? Like,
+
+186
+00:18:22,320 --> 00:18:28,400
+ everyone can see the code, everyone knows how the protocol is going to behave. But when these hacks
+
+187
+00:18:28,400 --> 00:18:34,080
+ and these exploits and attacks happen, the response is always so at home. Like, you said, right? Like,
+
+188
+00:18:34,080 --> 00:18:38,400
+ no one knows what is going to happen. Like, is anyone going to intervene to like help return
+
+189
+00:18:38,400 --> 00:18:43,520
+ the funds? Like, what is going to happen? No one knows. So, I think for that reason alone,
+
+190
+00:18:43,520 --> 00:18:49,600
+ we should probably, you know, at least be able to talk about it. Should there be some standards in
+
+191
+00:18:49,600 --> 00:18:53,360
+ place? Like, are there tools that people can use? Like, what are best practices here?
+
+192
+00:18:53,360 --> 00:18:57,600
+ And that is something that is missing, I think, right now. And obviously, these events are going
+
+193
+00:18:57,600 --> 00:19:02,800
+ to keep happening, right? I think it's only fair to users to be able to know ahead of what they're
+
+194
+00:19:02,800 --> 00:19:08,400
+ getting themselves into. And that's the very part to people, though, is those standards. You know,
+
+195
+00:19:08,400 --> 00:19:12,720
+ I think that's the scary part because they don't want to, we don't want to mandate standards that
+
+196
+00:19:12,720 --> 00:19:19,440
+ would basically harm DeFi holistically. However, it's really interesting. I think everyone occasionally
+
+197
+00:19:19,440 --> 00:19:24,240
+ forgets that, you know, what DeFi protocol exists without a smart contract audit. Like,
+
+198
+00:19:24,240 --> 00:19:29,840
+ that's a self-imposed industry standard for safety, right? Because it's common sense. You
+
+199
+00:19:29,840 --> 00:19:33,440
+ want your smart, you know, you don't want to engage with a protocol that hasn't had,
+
+200
+00:19:33,440 --> 00:19:39,280
+ you know, an audited smart contract. So, I would love to see the industry growing in a way where,
+
+201
+00:19:39,280 --> 00:19:46,240
+ and again, I said this before, but blockchain analytics, a lot of general councils of Devco's,
+
+202
+00:19:46,240 --> 00:19:50,880
+ etc. We always think through risk. Like, I like to sleep at night, you know, we don't want to
+
+203
+00:19:50,880 --> 00:19:58,480
+ facilitate wrongdoing in any form, even inadvertently or, you know, not knowingly, of course. Now,
+
+204
+00:19:58,480 --> 00:20:04,160
+ there's a criminal threshold, you need to have intent to be convicted of a crime. However,
+
+205
+00:20:04,160 --> 00:20:08,800
+ that gets very sticky with things like civil liability for sanctions, which we'll get into
+
+206
+00:20:08,800 --> 00:20:14,080
+ at another time because it's kind of complicated. But I think that's the role of the GC, and especially
+
+207
+00:20:14,080 --> 00:20:21,600
+ in crypto. It's not to eliminate risk. Like, absolutely not. It's to educate the company about
+
+208
+00:20:21,600 --> 00:20:26,640
+ the risk. It's the issue spot. So then they're armed with that information and can make informed
+
+209
+00:20:26,640 --> 00:20:30,560
+ decisions. You know, to your question about, like, are we thinking about it, like,
+
+210
+00:20:30,560 --> 00:20:38,240
+ perch of the GC working at a DeFi company or a DeFi protocol? I guarantee you, every single DeFi
+
+211
+00:20:38,240 --> 00:20:46,720
+ project out there is constantly like on a daily basis to balance decentralization and the principles
+
+212
+00:20:46,720 --> 00:20:52,800
+ of decentralization against user safety, like keeping their user safe. This is something we
+
+213
+00:20:52,800 --> 00:21:00,160
+ think about instantly. And it's a struggle. I mean, it's something that I have to deal with
+
+214
+00:21:00,160 --> 00:21:06,960
+ with respect to new features that the team wants to act or a new design mechanism. Every DeFi
+
+215
+00:21:06,960 --> 00:21:12,240
+ project out there thinking about this. So I think the other reason I hope we can sort of
+
+216
+00:21:12,240 --> 00:21:19,680
+ move beyond the pure DeFi or the all-or-nothing debate is that I just don't think that that
+
+217
+00:21:19,680 --> 00:21:26,320
+ is the reality of what most DeFi projects and companies are dealing with. As DeFi goes
+
+218
+00:21:26,320 --> 00:21:32,240
+ more mainstream, I think the other dynamic we're starting to see, and we certainly think about it
+
+219
+00:21:32,240 --> 00:21:38,080
+ in these terms too, the other dynamic you're going to start seeing is, you know, if you're able to
+
+220
+00:21:38,080 --> 00:21:46,080
+ create protocols or kits where users feel safe, that is going to be like a competitive business
+
+221
+00:21:46,080 --> 00:21:51,680
+ advantage for you. So that's the other thing, right? I think this isn't just like it's not a
+
+222
+00:21:51,680 --> 00:21:58,800
+ philosophical or academic debate anymore. Like DeFi is gaining adoption. It is going mainstream.
+
+223
+00:21:58,800 --> 00:22:02,800
+ Now we have to think about what are the market opportunities, but that's the other way we think.
+
+224
+00:22:02,800 --> 00:22:07,520
+ That's absolutely right. And I think that's something a lot of us like we've discussed before.
+
+225
+00:22:07,520 --> 00:22:13,920
+ If the trad and crypto markets are converging pure DeFi without even discussion of this,
+
+226
+00:22:13,920 --> 00:22:19,120
+ I mean, I am skeptical that it will ever scale. I'm also sympathetic, however, because there's also
+
+227
+00:22:19,120 --> 00:22:24,880
+ the balance between kind of paternalistic measures. So this is not an easy conversation by any
+
+228
+00:22:24,880 --> 00:22:32,160
+ stretch. So I want to move to Jesse to talk about the MIT Rose case. This is a fascinating case
+
+229
+00:22:32,160 --> 00:22:38,080
+ because I feel like it got no attention from anyone. And, you know, it's so random to me what gets
+
+230
+00:22:38,080 --> 00:22:42,800
+ a lot of attention and discussion and what does it. This was an important one. So Jesse,
+
+231
+00:22:42,800 --> 00:22:47,840
+ please educate everyone. I think people must have just been exhausted of like tracking day-to-day
+
+232
+00:22:47,840 --> 00:22:52,800
+ crypto trials that they needed to break. But I am similarly surprised that this didn't get a lot
+
+233
+00:22:52,800 --> 00:23:00,080
+ of attention because it presents a really interesting aspect of the law that hasn't fully been touched
+
+234
+00:23:00,080 --> 00:23:05,360
+ on point in prior criminal cases. But, you know, just back to level setting, like to me,
+
+235
+00:23:05,360 --> 00:23:11,680
+ the big question of this pod today is like, who's going to enforce the rules when code alone isn't
+
+236
+00:23:11,680 --> 00:23:18,240
+ enough? And this is a case when the courts tried to enforce it. And it didn't really go so great.
+
+237
+00:23:18,240 --> 00:23:23,840
+ And we maybe have less clarity than we did before. But just to give like a two-sentence overview on
+
+238
+00:23:23,840 --> 00:23:29,120
+ what this case was about, essentially, these very technically savvy brothers exploited a
+
+239
+00:23:29,120 --> 00:23:36,560
+ vulnerability in Ethereum's MEV Boost relay code. And in so exploiting this, they extracted
+
+240
+00:23:36,560 --> 00:23:44,240
+ $25 million from bots that were engaged in sandwich attacks. And the argument that they made is that
+
+241
+00:23:44,240 --> 00:23:49,840
+ they simply found a bug in code and they targeted bots that were already manipulating the markets,
+
+242
+00:23:49,840 --> 00:23:55,280
+ like not the most sympathetic victims, right? They say they didn't lie to anybody, so there's no fraud.
+
+243
+00:23:55,280 --> 00:23:59,520
+ They didn't directly interact with the victims, no contractual relationship. And they didn't
+
+244
+00:23:59,520 --> 00:24:06,720
+ violate any of the rules or standards, the two words we've been using a lot today, of the decentralized
+
+245
+00:24:06,720 --> 00:24:11,840
+ Ethereum network. And I slowly say decentralized Ethereum network, because obviously it might work
+
+246
+00:24:11,840 --> 00:24:16,400
+ differently on other networks and might have been charged differently. But the government said,
+
+247
+00:24:16,400 --> 00:24:22,320
+ like, "Pishposh, no, we disagree. This is wire fraud and conspiracy and money laundering,
+
+248
+00:24:22,320 --> 00:24:27,520
+ but focusing on the wire fraud, because that was the real issue at trial." And the question was,
+
+249
+00:24:27,520 --> 00:24:32,800
+ what was the fraud? So the government argued that it was the bait transactions and the false
+
+250
+00:24:32,800 --> 00:24:39,200
+ signatures. And the technical aspects of them were really interesting in the trial and the
+
+251
+00:24:39,200 --> 00:24:44,240
+ specific details of this are really important. But I think what's even more interesting is that
+
+252
+00:24:44,240 --> 00:24:50,320
+ after a few weeks of a very technical trial, and for anyone here that has been in trial or
+
+253
+00:24:50,320 --> 00:24:57,040
+ had any sort of component of a trial, you know how hard it is to explain these complicated concepts
+
+254
+00:24:57,040 --> 00:25:03,280
+ to people off the street. But after days of deliberation, the jury could not come to an agreement. So
+
+255
+00:25:03,280 --> 00:25:08,720
+ they say that the jury was hung. Let me just take a quick sidebar to explain what that means. So
+
+256
+00:25:08,720 --> 00:25:16,160
+ essentially in a criminal trial, the jury has to unanimously decide the defendant is guilty of this
+
+257
+00:25:16,160 --> 00:25:21,360
+ charge or unanimously decide they are not guilty. Those are really the options and it happens for
+
+258
+00:25:21,360 --> 00:25:26,800
+ each charge. And if they can't come to an agreement, they come and tell the judge, "Hey, we can't come
+
+259
+00:25:26,800 --> 00:25:32,960
+ to an agreement." Usually the judge says, "Go back and keep arguing." The prosecutor says, "Go back
+
+260
+00:25:32,960 --> 00:25:37,520
+ and keep arguing." The defense usually says they're not going to come to an agreement. And if it gets
+
+261
+00:25:37,520 --> 00:25:42,400
+ to a point where it's pretty clear they won't, which happened in this case after some very emotional
+
+262
+00:25:42,400 --> 00:25:48,960
+ jury notes, which are somewhat odd in these circumstances, the judge decided that they weren't ever going
+
+263
+00:25:48,960 --> 00:25:55,280
+ to agree. And so they declare a mistrial. What happens with a mistrial is that the prosecution
+
+264
+00:25:55,280 --> 00:26:00,560
+ gets to decide whether it wants to bring the case again. What happens behind the scenes is that the
+
+265
+00:26:00,560 --> 00:26:07,120
+ prosecution decides do we want to drop the case? Do we want to offer a plea or do we just want to go
+
+266
+00:26:07,120 --> 00:26:10,880
+ to trial again? So we don't know what's going to happen and they have a few weeks to come back and
+
+267
+00:26:10,880 --> 00:26:20,880
+ decide. But I think the bigger question that sort of fits in here is we have an exploit. Maybe it
+
+268
+00:26:20,880 --> 00:26:26,800
+ hurt not so sympathetic victims this time. But thinking about the bigger picture for users that
+
+269
+00:26:26,800 --> 00:26:33,040
+ might have been hurt in some sort of vulnerability attack, why are we leaving it to 12 random people
+
+270
+00:26:33,040 --> 00:26:38,800
+ off the street to decide after a few weeks of trying to learn about these technical issues
+
+271
+00:26:38,800 --> 00:26:44,960
+ that this is or isn't a crime? Like is that the best way for us to move forward in this space?
+
+272
+00:26:45,520 --> 00:26:52,320
+ And it rhymes a lot with what happened in the Mango markets case where a guy named Abi Eisenberg
+
+273
+00:26:52,320 --> 00:26:57,120
+ didn't exploit a vulnerability or bug, but he rather manipulated the platform's own oracle
+
+274
+00:26:57,120 --> 00:27:02,240
+ according to the government's allegation. And then a jury found him guilty and then an appellate judge
+
+275
+00:27:02,240 --> 00:27:09,360
+ overturned the convictions. So in both of them, the court system tried, but I don't want to say
+
+276
+00:27:09,360 --> 00:27:15,200
+ failed, but sort of seemingly failed to come to a decision that gives the space any clarity.
+
+277
+00:27:15,200 --> 00:27:20,880
+ And this is why it comes back to my argument before of like, we should give choice in protocols
+
+278
+00:27:20,880 --> 00:27:26,000
+ for users and institutions to build what they want, what kind of risk they want,
+
+279
+00:27:26,000 --> 00:27:30,960
+ because in the world that we live in right now, you don't know where to go for recourse. So
+
+280
+00:27:30,960 --> 00:27:33,360
+ that's sort of the framework we're living in right now.
+
+281
+00:27:33,360 --> 00:27:40,080
+ And fun fact, I was once on a jury for a check fraud case, and it's highly unusual for a lawyer,
+
+282
+00:27:40,080 --> 00:27:45,200
+ like, especially with what we've done historically. No, you never get picked because there's this
+
+283
+00:27:45,200 --> 00:27:51,280
+ process called raw deer where they vet the jury members. And so there's peremptory challenges
+
+284
+00:27:51,280 --> 00:27:56,720
+ where the lawyers can strike juries for cause like, oh, you're biased or so usually I would have
+
+285
+00:27:56,720 --> 00:28:01,040
+ been struck through a peremptory challenge because I knew too much about criminal law because I was
+
+286
+00:28:01,040 --> 00:28:05,520
+ a white collar defense attorney, but I somehow ended up on the jury. And afterward, the judge was
+
+287
+00:28:05,520 --> 00:28:10,400
+ like, the defense blew through all their peremptory challenges. So he was stuck with you. And of course,
+
+288
+00:28:10,400 --> 00:28:17,120
+ I do want to tell you, see, you have to keep lawyers on because there's so many lawyers. So
+
+289
+00:28:17,120 --> 00:28:23,520
+ yeah, go by what kind of. And so statistically, you have no choice, but it was a fascinating
+
+290
+00:28:23,520 --> 00:28:28,720
+ experience. So there we go. I'm just going to put that out there. So we're, we only have 12
+
+291
+00:28:28,720 --> 00:28:34,720
+ minutes left. So I want to shift topics really quick to market structure, because it's important
+
+292
+00:28:34,720 --> 00:28:43,200
+ to know like we were originally going to touch this, but hot news, the House Agriculture Committee
+
+293
+00:28:43,200 --> 00:28:48,960
+ had advanced and then passed the clarity act back in July, this the crypto market structure bill
+
+294
+00:28:48,960 --> 00:28:53,920
+ that we're all really excited about. And to explain to people, I'm constantly explaining to
+
+295
+00:28:53,920 --> 00:28:59,600
+ people that aren't lawyers, why we're excited, there is a fear that all of the good work that
+
+296
+00:28:59,600 --> 00:29:04,560
+ the regulators are doing right now in the United States vis-a-vis crypto, the SEC is a great example.
+
+297
+00:29:04,720 --> 00:29:11,840
+ Their transparency, their engagement, et cetera, could be completely reversed if we have a different
+
+298
+00:29:11,840 --> 00:29:17,600
+ administration with a different mandate in a few years. The only thing that will determinatively
+
+299
+00:29:17,600 --> 00:29:23,680
+ prevent that is legislation. So that's why you see a lot of crypto people desperate for crypto
+
+300
+00:29:23,680 --> 00:29:30,480
+ market structure legislation, even if it's not perfect. So a draft drop yesterday from the Senate
+
+301
+00:29:30,480 --> 00:29:36,400
+ Agriculture Committee, because we need the House, we need the Senate, and then we need the President,
+
+302
+00:29:36,400 --> 00:29:41,600
+ okay? So we got the House, the Senate's version is different, and this is why there's a big uphill
+
+303
+00:29:41,600 --> 00:29:47,520
+ battle here, because there is basically efforts from the Senate Banking Committee, efforts from
+
+304
+00:29:47,520 --> 00:29:54,000
+ the Senate Agriculture Committee, those need to be reconciled and cleared by both committees,
+
+305
+00:29:54,000 --> 00:29:59,600
+ and then get passed in the Senate. So we have a lot of work to do, but this draft drop yesterday
+
+306
+00:29:59,600 --> 00:30:05,040
+ from the Senate Ag Committee, and it was very different than the Banking Committee. And in keeping
+
+307
+00:30:05,040 --> 00:30:11,440
+ with our theme today, like first, a lot of emphasis on the CFTC's mandate versus the SEC's,
+
+308
+00:30:11,440 --> 00:30:19,920
+ a good protection of self custody, a direction for joint rulemaking with SEC and the CFTC.
+
+309
+00:30:19,920 --> 00:30:27,120
+ AML anti-money laundering specifics are very vague, and the scope of CFTC exemption powers
+
+310
+00:30:27,120 --> 00:30:31,600
+ are unclear. I call that out because it's really important that regulators have the power to grant
+
+311
+00:30:31,600 --> 00:30:39,760
+ exemptions. But we've been talking about this a lot on this pod. There is a section on DeFi
+
+312
+00:30:39,760 --> 00:30:46,640
+ with nothing in it. Like DeFi oversight is completely left completely open, which is a little scary
+
+313
+00:30:46,640 --> 00:30:53,200
+ to people because we were all desperate and really hoping for explicit developer protections
+
+314
+00:30:53,200 --> 00:30:57,440
+ in legislation. So, Jessie, it looks like you want to say something.
+
+315
+00:30:57,440 --> 00:31:02,800
+ Yeah, before we jump it over to V, I want to play moderator for a second and just do one
+
+316
+00:31:02,800 --> 00:31:06,720
+ extra level of explanation because, you know, unless you're on the hill all the time,
+
+317
+00:31:06,720 --> 00:31:10,480
+ it's hard to understand all these different committees, what the heck's going on up there.
+
+318
+00:31:10,480 --> 00:31:17,200
+ And so when Congress Committee jurisdiction drives everything, so CFTC is under ag and then
+
+319
+00:31:17,200 --> 00:31:25,520
+ banking and financial banking takes over SEC and all financial regulation. So, the AG is
+
+320
+00:31:25,520 --> 00:31:31,920
+ committee in the Senate. They have a bipartisan draft that came out yesterday. The Senate banking
+
+321
+00:31:31,920 --> 00:31:37,040
+ committee, the Republicans have only really come out with an agreement. So, there's this
+
+322
+00:31:37,040 --> 00:31:44,080
+ interesting strategic game playing right now where the Dems in the AG committee are trying to figure
+
+323
+00:31:44,080 --> 00:31:49,280
+ out how do we put forward a bipartisan proposal that doesn't go against what all the Dems on the
+
+324
+00:31:49,280 --> 00:31:55,600
+ banking committee are going saying. And that also competes with the fact that the AG committee
+
+325
+00:31:55,600 --> 00:32:00,800
+ can't really regulate the kind of stuff that the banking committee should do, which sometimes
+
+326
+00:32:00,800 --> 00:32:05,360
+ might be the ML stuff or the DeFi stuff. And you're going to see lots of brackets throughout
+
+327
+00:32:05,360 --> 00:32:10,640
+ this new draft. So, it's Congress's version of like a sticky note saying, hey, we got to come back
+
+328
+00:32:10,640 --> 00:32:15,920
+ to that because we haven't agreed yet. And so, that's sort of where like, who knows what DeFi,
+
+329
+00:32:15,920 --> 00:32:20,160
+ who knows what the hell, who knows what the definition. So, I guess, like, I'll just turn it back to
+
+330
+00:32:20,160 --> 00:32:24,880
+ you guys. You're like, what the heck should people get from this? And brackets are scary to people
+
+331
+00:32:24,880 --> 00:32:30,160
+ because it's hard to make progress if you don't have the fundamentals agreed upon. So, I'm also
+
+332
+00:32:30,160 --> 00:32:36,080
+ scared of the DeFi brackets. But the all the other thing I'll also explain to people is people are
+
+333
+00:32:36,080 --> 00:32:42,560
+ often like, to me, especially non-US persons are like, why is the agriculture committee involved in
+
+334
+00:32:42,560 --> 00:32:48,400
+ this? That's because you have to think of the definition of the OG commodity in the United States.
+
+335
+00:32:48,400 --> 00:32:55,200
+ It's often things like cows and corn and wheat. So, like, that's why the AG committee is such a
+
+336
+00:32:55,200 --> 00:33:00,480
+ big part of the crypto debate because crypto is a commodity. But the classic commodity,
+
+337
+00:33:00,480 --> 00:33:06,160
+ like, as a Chicagoan, like, it was all of the farm animals. Like, there's a futures market for
+
+338
+00:33:06,160 --> 00:33:11,600
+ a reason. Like, we'll get into that another time. So, V, jump in because I know you are also very
+
+339
+00:33:11,600 --> 00:33:15,920
+ sophisticated on the policy. Yeah. So, I mean, I just wanted to touch on, like, you know,
+
+340
+00:33:15,920 --> 00:33:20,240
+ I'm sure everyone's wondering, like, what is the process from here? Like, you know, you mentioned
+
+341
+00:33:20,240 --> 00:33:28,800
+ that the two committees bills, like, eventually, hopefully, will be merged into some, like, senate
+
+342
+00:33:29,520 --> 00:33:38,000
+ itch that will reconcile the CFTC jurisdiction. So, if both committees vote their versions out,
+
+343
+00:33:38,000 --> 00:33:42,720
+ senate leadership has to agree to bring it to the floor, which is, like, always a hurdle, right?
+
+344
+00:33:42,720 --> 00:33:49,280
+ Just given limited floor time and competing priorities, the fact that you need 60 votes to
+
+345
+00:33:49,280 --> 00:33:54,000
+ overcome a filibuster, which means they're going to need some Democrats to support the Republicans.
+
+346
+00:33:54,000 --> 00:33:59,600
+ And then if it passes, the senate bill would then be reconciled with the version that passed
+
+347
+00:33:59,600 --> 00:34:07,920
+ of the House a while back, it seems like ages ago. But so, you know, negotiations or conference
+
+348
+00:34:07,920 --> 00:34:12,800
+ committee, like, that would have to happen before being sent to the president. So, I mean, I think
+
+349
+00:34:12,800 --> 00:34:21,280
+ in terms of timing, like, realistically, I don't think the process is going to wrap until 2026,
+
+350
+00:34:21,280 --> 00:34:30,240
+ probably not until late 2026, maybe even early 2027. And then we also have, you know, the elections
+
+351
+00:34:30,240 --> 00:34:36,560
+ next fall. So, that could also grow a wrench in things. Like, you know, I remain optimistic
+
+352
+00:34:36,560 --> 00:34:42,880
+ that something will eventually pass. Like, both Republicans and Dems have an interest in this
+
+353
+00:34:42,880 --> 00:34:49,040
+ passing. I think they're both sides are working really hard towards that. The momentum from the
+
+354
+00:34:49,040 --> 00:34:54,320
+ industry is as strong as it's ever been. Stablecoin legislation, of course, passed earlier this year,
+
+355
+00:34:54,320 --> 00:34:57,760
+ which I think, you know, only improves the market structures and since the passing,
+
+356
+00:34:57,760 --> 00:35:03,760
+ even though it's a much more complicated undertaking. And then also the SEC, the CFTC
+
+357
+00:35:03,760 --> 00:35:08,320
+ Treasury, I think they're also really pressuring Congress to act and are working closely with
+
+358
+00:35:08,320 --> 00:35:14,640
+ them on the bills, right? So that really matters too. So yeah, my prediction is late 2026, early
+
+359
+00:35:14,640 --> 00:35:25,280
+ 2027. You know, that sounds so far off. But like, I will say, in the meantime, DeFi will keep
+
+360
+00:35:25,280 --> 00:35:32,160
+ shipping. And I would also remind people that neither the SEC nor the CFTC is waiting around
+
+361
+00:35:32,160 --> 00:35:37,840
+ for Congress, right? There's plenty they can do and are doing under their existing authority
+
+362
+00:35:37,840 --> 00:35:43,920
+ as we speak. So don't worry, that will give us plenty to talk about on this podcast, even if
+
+363
+00:35:43,920 --> 00:35:51,840
+ things don't move along in Congress. 100%. Like, I have been so heartened by the SEC. I mean,
+
+364
+00:35:51,840 --> 00:35:57,200
+ the transparency, I mean, I'm obsessed with Hester Peirce in an in a purely academic way.
+
+365
+00:35:57,200 --> 00:36:02,000
+ She's been making so much great progress as head of the crypto asset task force to transparency
+
+366
+00:36:02,000 --> 00:36:07,760
+ that we're seeing and the engagement. It's what we all dreamed up for so long. The scary part is
+
+367
+00:36:07,760 --> 00:36:13,600
+ a lot of this work can be undone. And Chair Atkins of the SEC has said that they are working to
+
+368
+00:36:13,600 --> 00:36:19,680
+ try to avoid a scenario where the progress they're making can be undone. But the thing that will
+
+369
+00:36:19,680 --> 00:36:24,480
+ really let me sleep at night is crypto market structure legislation. And of course, once the
+
+370
+00:36:24,480 --> 00:36:30,880
+ legislation is passed, it's going to take years to actually create rules. And you know, it's that's
+
+371
+00:36:30,880 --> 00:36:36,800
+ really a basis for what's to come. But for all those betting on polymarket as to crypto market
+
+372
+00:36:36,800 --> 00:36:42,240
+ structure passage, this is not investment advice. But I am I agree with V, I am very bearish that
+
+373
+00:36:42,240 --> 00:36:48,240
+ this is going to happen soon. Despite the president making this a mandate, like get this done,
+
+374
+00:36:48,240 --> 00:36:53,680
+ there are just significant headwinds. And let's get out of our crypto bubble for a second. We all
+
+375
+00:36:53,680 --> 00:36:59,680
+ need to remember that for many legislators, there's still a real education gap. They don't feel
+
+376
+00:36:59,680 --> 00:37:04,880
+ comfortable with this industry. And this is just not a priority for them, especially with the,
+
+377
+00:37:04,880 --> 00:37:11,600
+ you know, nonsense that we've been dealing with lately, like the other parts of dysfunction of our
+
+378
+00:37:11,600 --> 00:37:18,800
+ government on day, what is it? Like 32 of the shutdown, by the way, or are you baby? Oh, my God,
+
+379
+00:37:18,800 --> 00:37:24,720
+ I just all a blur to me, all a sad blur. But Jesse, do you want to wrap us up with any final thoughts?
+
+380
+00:37:24,720 --> 00:37:30,640
+ I think I should just say it was so lovely to do this our first time together. And I am really
+
+381
+00:37:30,640 --> 00:37:37,200
+ excited to keep debating with you guys throughout the next few months. Any final thoughts from UV?
+
+382
+00:37:37,200 --> 00:37:44,960
+ No, this was so fun. Thanks guys. And cheers. So I think what's to come from us. So the beauty
+
+383
+00:37:44,960 --> 00:37:50,320
+ of this is you'll hear our insights on the CFTC and the SEC and legislation. Oh, this is sounding
+
+384
+00:37:50,320 --> 00:38:02,160
+ so sexy. I think you'll get to hear our thoughts on the legal policy, a strategy oriented environment
+
+385
+00:38:02,160 --> 00:38:08,560
+ for crypto. You know, hopefully we'll be able to give everyone insight on all of the good, bad,
+
+386
+00:38:08,560 --> 00:38:13,600
+ and ugly within this ecosystem. And we'll be able to correct a lot of things that you read on
+
+387
+00:38:13,600 --> 00:38:18,720
+ crypto Twitter. I'm just going to reiterate that because that is the theme of my life. Like that's
+
+388
+00:38:18,720 --> 00:38:26,240
+ wrong. That's wrong. That's wrong. Yeah, I added to be that's it for this episode, the very first
+
+389
+00:38:26,240 --> 00:38:31,120
+ episode of Ducks in the City. If you like the show, make sure to follow us on your favorite podcast
+
+390
+00:38:31,120 --> 00:38:37,520
+ app and on X slash Twitter will always be Twitter in my heart, even though I understand and recognize
+
+391
+00:38:37,520 --> 00:38:43,440
+ that it has a new name for live streams, updates, and clips. Thank you so much for listening and
+
+392
+00:38:43,440 --> 00:38:50,880
+ we will see you next week.
+

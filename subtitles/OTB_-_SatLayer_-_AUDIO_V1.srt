@@ -1,0 +1,1576 @@
+1
+00:00:00,000 --> 00:00:05,000
+Today on the podcast, I sat down with Luke Schia, the founder of SatLayer.
+
+2
+00:00:05,000 --> 00:00:10,080
+SatLayer is an economic layer for Bitcoin and DeFi, which allows holders to earn yield.
+
+3
+00:00:10,080 --> 00:00:15,680
+Users deposit their Bitcoin and SatLayer routes deposits to best-in-class DeFi yield offerings.
+
+4
+00:00:15,680 --> 00:00:21,440
+Luke and I discussed Bitcoin's rise as a financialized versus idle asset and what lies ahead for
+
+5
+00:00:21,440 --> 00:00:22,440
+Bitcoin.
+
+6
+00:00:22,440 --> 00:00:25,720
+Without further ado, here's my conversation with Luke.
+
+7
+00:00:25,720 --> 00:00:28,080
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+8
+00:00:28,080 --> 00:00:30,720
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+9
+00:00:30,720 --> 00:00:33,280
+and do not reflect the opinions of Castle Island Ventures.
+
+10
+00:00:33,280 --> 00:00:35,400
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+11
+00:00:35,400 --> 00:00:38,980
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+12
+00:00:38,980 --> 00:00:42,640
+to make a particular investment or follow a particular strategy, but only as an expression
+
+13
+00:00:42,640 --> 00:00:43,640
+of their personal opinion.
+
+14
+00:00:43,640 --> 00:00:46,640
+This podcast is for informational purposes only.
+
+15
+00:00:46,640 --> 00:00:51,160
+Brought down by bad mortgage investments, Lehman, which has 25,000 employees, will be
+
+16
+00:00:51,160 --> 00:00:52,160
+liquidated.
+
+17
+00:00:52,160 --> 00:00:56,160
+The federal government loans American International Group, AIG, $85 billion.
+
+18
+00:00:56,160 --> 00:00:59,400
+This is a different kind of market and the Fed is asleep.
+
+19
+00:00:59,400 --> 00:01:03,600
+The federal government is stepping in to stabilize Fannie Mae and Freddie Mac, the two mortgage
+
+20
+00:01:03,600 --> 00:01:06,080
+giants that have been threatened by the housing crisis.
+
+21
+00:01:06,080 --> 00:01:09,920
+The Bank of England has pumped 75 billion pounds more into Britain's ailing economy
+
+22
+00:01:09,920 --> 00:01:11,440
+with a new round of quantitative easing.
+
+23
+00:01:11,440 --> 00:01:14,720
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+24
+00:01:14,720 --> 00:01:17,920
+So out of this worry, we have something called the Bitcoin.
+
+25
+00:01:17,920 --> 00:01:18,920
+Bitcoin.
+
+26
+00:01:18,920 --> 00:01:21,320
+Luke, thanks for joining us today.
+
+27
+00:01:21,320 --> 00:01:23,280
+We're going to talk about Bitcoin, which will be fun.
+
+28
+00:01:23,280 --> 00:01:28,000
+I wanted to kick off to say that one meaningful trend is that you look at DeFi and the crypto
+
+29
+00:01:28,000 --> 00:01:33,960
+industry, the TVL of Bitcoin referring to the amount of BTC that's being used in DeFi
+
+30
+00:01:33,960 --> 00:01:37,840
+protocols outside of the Bitcoin main chain is markedly increasing.
+
+31
+00:01:37,840 --> 00:01:42,720
+The last I checked, DeFi Llama cites something along the lines of $6 billion.
+
+32
+00:01:42,720 --> 00:01:44,840
+Babylon has led the pack in that.
+
+33
+00:01:44,840 --> 00:01:49,400
+You guys and a host of other protocols or a smallish number of other protocols have followed,
+
+34
+00:01:49,400 --> 00:01:51,600
+but still a meaningful development on that front.
+
+35
+00:01:51,600 --> 00:01:57,640
+When it comes to bringing BTC into existing DeFi capital markets, it seems to me that
+
+36
+00:01:57,640 --> 00:02:02,980
+this will continue to progress, but I love your perspective on how you see this continuing
+
+37
+00:02:02,980 --> 00:02:04,520
+to move going forward.
+
+38
+00:02:04,520 --> 00:02:05,520
+Absolutely.
+
+39
+00:02:05,520 --> 00:02:11,760
+I think in many ways, analogy here is probably like DeFi summer for a broader OG slash e-face
+
+40
+00:02:11,760 --> 00:02:12,760
+DeFi.
+
+41
+00:02:12,760 --> 00:02:16,320
+And I think in many ways we're still in the first inning, just because I think in many
+
+42
+00:02:17,120 --> 00:02:23,920
+ways for Bitcoin DeFi, a lot of the teams came from the EVM and layer one side of the
+
+43
+00:02:23,920 --> 00:02:29,000
+ecosystem and took a lot of the learnings plus I think just the latest in terms of innovation
+
+44
+00:02:29,000 --> 00:02:33,960
+and to build that in various ways on and around Bitcoin.
+
+45
+00:02:33,960 --> 00:02:39,300
+And it goes without saying the strength of Bitcoin this cycle and the biggest factor
+
+46
+00:02:39,300 --> 00:02:41,180
+I think driving this bull market.
+
+47
+00:02:41,180 --> 00:02:45,440
+So in many ways it plays out similarly to if you zoom out and look at the chart for
+
+48
+00:02:45,440 --> 00:02:51,320
+DeFi summer where I think it ultimately topped out around 300 billion and that's on a much
+
+49
+00:02:51,320 --> 00:02:53,600
+smaller overall market cap.
+
+50
+00:02:53,600 --> 00:02:58,540
+And that's mostly on Ethereum, which is just at this point a fraction of Bitcoin's value
+
+51
+00:02:58,540 --> 00:03:00,600
+and overall market cap as well.
+
+52
+00:03:00,600 --> 00:03:04,760
+Because I think in many ways there's a lot of other tailwinds for this with the rise
+
+53
+00:03:04,760 --> 00:03:08,640
+of MicroStrategy and these Bitcoin treasury companies.
+
+54
+00:03:08,640 --> 00:03:15,080
+Now we're getting to the point of at least in certain markets near saturation of these
+
+55
+00:03:15,080 --> 00:03:19,400
+treasury companies and so they're going to have to start differentiating in other ways.
+
+56
+00:03:19,400 --> 00:03:25,140
+We certainly see on-chain yield as a big differentiator because at the end of the day, the reason
+
+57
+00:03:25,140 --> 00:03:28,440
+people invest in these companies is to accumulate more Bitcoin.
+
+58
+00:03:28,440 --> 00:03:33,400
+So part of it is how good are you in terms of trade execution on the community Bitcoin
+
+59
+00:03:33,400 --> 00:03:37,200
+that way from the capital you're able to raise in public equity markets.
+
+60
+00:03:37,200 --> 00:03:42,280
+But I think the other portion is, okay, now you have all these Bitcoin that you've accumulated,
+
+61
+00:03:42,280 --> 00:03:45,760
+how do you generate additional yield and growth from that?
+
+62
+00:03:45,760 --> 00:03:50,680
+And part of it is also, especially on the Western institution side, we see a lot of
+
+63
+00:03:50,680 --> 00:03:55,880
+wait and see of wanting for the protocol to be operating for at least six months, if not
+
+64
+00:03:55,880 --> 00:04:01,320
+longer with no major issues and then folks will start scaling into this at size.
+
+65
+00:04:01,320 --> 00:04:05,560
+Because I think certainly, as you mentioned, it's around six or seven billion just depending
+
+66
+00:04:05,560 --> 00:04:11,160
+on Bitcoin price in terms of Bitcoin that is active in Bitcoin DeFi and a lot of that
+
+67
+00:04:11,160 --> 00:04:14,240
+is staked into Babylon, restaked into sat layer.
+
+68
+00:04:14,240 --> 00:04:20,560
+But if you just look at the growth of the RAP Bitcoin assets, the BTC, BCB, BTC, FBTC
+
+69
+00:04:20,560 --> 00:04:27,520
+and WBTC, those are sitting around 30-ish billion and I forget the exact number, but
+
+70
+00:04:27,520 --> 00:04:30,720
+I think a year ago, it was one third to half of this.
+
+71
+00:04:30,720 --> 00:04:36,840
+So I think overall, Bitcoin on-chain and being active and productive has definitely grown,
+
+72
+00:04:36,840 --> 00:04:40,720
+I think, exponentially and I think there's a long way to go from here.
+
+73
+00:04:40,720 --> 00:04:45,840
+To your point, those numbers we talked about, whether it's six billion TVL, 30 billion across
+
+74
+00:04:45,840 --> 00:04:50,400
+different Bitcoin variants, that's a drop in the bucket when you think about whether
+
+75
+00:04:50,400 --> 00:04:57,000
+it's 300 billion and increasing in DeFi capital or the total market cap of Bitcoin.
+
+76
+00:04:57,000 --> 00:05:02,480
+I'm curious for your view, do you think the innovation here is to have a lot of the same
+
+77
+00:05:02,480 --> 00:05:09,360
+sorts of use cases you've had since early DeFi, which is on-chain lending markets, trading
+
+78
+00:05:09,520 --> 00:05:12,440
+with Bitcoin as a more center asset?
+
+79
+00:05:12,440 --> 00:05:16,600
+Or do you think it's more novel primitives for Bitcoin and DeFi?
+
+80
+00:05:16,600 --> 00:05:18,920
+I think it's a mix of both.
+
+81
+00:05:18,920 --> 00:05:23,960
+We're certainly taking this approach along with some of our closest partners, Solvang
+
+82
+00:05:23,960 --> 00:05:30,400
+Lombard of, I think, building the infrastructure and the rails, so to speak, for Bitcoin to
+
+83
+00:05:30,400 --> 00:05:35,920
+participate in existing, whether it's ETH DeFi, SWE DeFi and let's say you in terms
+
+84
+00:05:35,920 --> 00:05:40,600
+of BVM and Alt-layer-1 DeFi, because I think this was a hot take when I first started
+
+85
+00:05:40,600 --> 00:05:44,120
+talking about it, maybe it might have been like six months ago or so, but I feel like
+
+86
+00:05:44,120 --> 00:05:48,880
+now it's almost becoming more consensus is that ETH DeFi was really testnet for Bitcoin
+
+87
+00:05:48,880 --> 00:05:50,240
+DeFi.
+
+88
+00:05:50,240 --> 00:05:57,000
+And I just see a future where Bitcoin becomes the biggest asset in BVM DeFi and Alt-layer-1.
+
+89
+00:05:57,000 --> 00:06:00,440
+How do you look at the relationship between Bitcoin and ETH and DeFi?
+
+90
+00:06:00,440 --> 00:06:03,880
+Are they advantaging each other or at odds?
+
+91
+00:06:03,880 --> 00:06:05,040
+How do you look at it?
+
+92
+00:06:05,040 --> 00:06:07,160
+I think it depends on the time horizon.
+
+93
+00:06:07,160 --> 00:06:11,200
+Certainly this cycle, a lot of folks probably regret keeping their ETH and then deploying
+
+94
+00:06:11,200 --> 00:06:12,200
+that into DeFi.
+
+95
+00:06:12,200 --> 00:06:16,960
+Whereas if you had Bitcoin DeFi, you would just be very comfortable and very happy.
+
+96
+00:06:16,960 --> 00:06:21,560
+Where I think ironically, ETH holders, one of the few asset holders that came out ahead
+
+97
+00:06:21,560 --> 00:06:26,560
+for the FTX bankruptcy because they had locked in 22 prices, but ETH was actually a 4K and
+
+98
+00:06:26,560 --> 00:06:30,960
+higher versus for Bitcoin because they locked in 22 prices, you're like way down.
+
+99
+00:06:31,080 --> 00:06:35,160
+I think certainly at the same time want to give credit where credit is due in terms of
+
+100
+00:06:35,160 --> 00:06:39,640
+ETH and ETH DeFi builders that really laid the foundation for all of this.
+
+101
+00:06:39,640 --> 00:06:44,280
+But at the end of the day, at least certainly right now, there's only one asset within all
+
+102
+00:06:44,280 --> 00:06:49,560
+of crypto that nation states are accumulating, that institutions are almost become somewhat
+
+103
+00:06:49,560 --> 00:06:53,960
+consensus among institutions to accumulate, which is Bitcoin, not ETH, not Solana, certainly
+
+104
+00:06:53,960 --> 00:06:55,960
+not the long tail of crypto.
+
+105
+00:06:55,960 --> 00:06:57,700
+Yeah, makes sense.
+
+106
+00:06:57,700 --> 00:07:02,100
+And then I think the other piece to add is, I do think there's going to be some innovation
+
+107
+00:07:02,100 --> 00:07:08,520
+in terms of how Bitcoin is used in these DeFi slash financial use cases, and that's in part
+
+108
+00:07:08,520 --> 00:07:13,040
+because from what we've seen and the conversations we've had with our users, Bitcoin holders
+
+109
+00:07:13,040 --> 00:07:17,860
+are a bit different than ETH or Solana holders in that they're okay with much lower yield
+
+110
+00:07:17,860 --> 00:07:20,680
+as long as there's much less principal risk.
+
+111
+00:07:20,680 --> 00:07:25,660
+And so that's one of the reasons that I think one of the big use cases that we've been spent
+
+112
+00:07:25,660 --> 00:07:30,260
+a lot of resources and time developing with some of the price partners in this space like
+
+113
+00:07:30,260 --> 00:07:35,960
+Nexus Mutual and a few others that we'll announce soon is insurance that's backed by Bitcoin
+
+114
+00:07:35,960 --> 00:07:39,580
+and also for Bitcoin LPs.
+
+115
+00:07:39,580 --> 00:07:44,040
+So we can get into details later, but the idea here is really almost like structuring
+
+116
+00:07:44,040 --> 00:07:47,820
+a product so that you have principal protected Bitcoin yield.
+
+117
+00:07:47,820 --> 00:07:52,540
+And this again comes from our conversations with some of the largest Bitcoin holders and
+
+118
+00:07:52,540 --> 00:07:58,620
+miners in the space where generally they are okay with low single digit yield as long
+
+119
+00:07:58,620 --> 00:08:00,740
+as there is principal protection.
+
+120
+00:08:00,740 --> 00:08:02,100
+It's very interesting to me.
+
+121
+00:08:02,100 --> 00:08:07,380
+I like the point on yield because if you look at the US dollar and you try and peg something
+
+122
+00:08:07,380 --> 00:08:11,580
+of a risk-free rate, you're probably in the four to 5% range.
+
+123
+00:08:11,580 --> 00:08:16,540
+And every crypto asset, your yield expectation of a base yield would be higher, I think would
+
+124
+00:08:16,540 --> 00:08:20,180
+be probably something in the 7% plus range.
+
+125
+00:08:20,180 --> 00:08:22,980
+For Bitcoin, to my understanding, it seems lower.
+
+126
+00:08:22,980 --> 00:08:27,400
+Most people who own Bitcoin are looking for Bitcoin yield, I'd say their risk-free rate
+
+127
+00:08:27,400 --> 00:08:32,500
+is lower than that of 4% or 5% potentially, which I think speaks to how unique the asset
+
+128
+00:08:32,500 --> 00:08:35,500
+is and the potential affiliation with something like gold.
+
+129
+00:08:35,500 --> 00:08:40,140
+Totally, because I think relative to most other crypto assets and then I think arguably
+
+130
+00:08:40,140 --> 00:08:45,680
+even the dollar Bitcoin is lower risk and a better store of value without again going
+
+131
+00:08:45,680 --> 00:08:47,020
+into this rabbit hole.
+
+132
+00:08:47,220 --> 00:08:51,780
+I think we are seeing continued inflation of the dollar and this continued kicking down
+
+133
+00:08:51,780 --> 00:08:56,540
+the road of the US debt issue, which is I think also made a lot of other central banks
+
+134
+00:08:56,540 --> 00:09:02,100
+around the world and other countries start rethinking how much US debt they hold and
+
+135
+00:09:02,100 --> 00:09:05,260
+their alignment and reliance on the dollar.
+
+136
+00:09:05,260 --> 00:09:09,180
+And I think a lot of our team have viewed that Bitcoin is on the path to becoming a
+
+137
+00:09:09,180 --> 00:09:10,980
+global reserve asset.
+
+138
+00:09:10,980 --> 00:09:14,220
+Now we're not saying it's going to be the global reserve asset, but we are saying it
+
+139
+00:09:14,220 --> 00:09:18,740
+is going to be a global reserve asset, just given, as I mentioned, the US debt issues
+
+140
+00:09:18,740 --> 00:09:22,340
+and just overall global macro and geopolitics are going.
+
+141
+00:09:22,340 --> 00:09:27,420
+So overall, what we're trying to do at SatLayer is really to help usher in that future and
+
+142
+00:09:27,420 --> 00:09:34,220
+then also to effectively be the economic layer to unlock initially a more financial-focused
+
+143
+00:09:34,220 --> 00:09:40,860
+use cases for Bitcoin and both plugging into existing DeFi and then on the yield and liquidity
+
+144
+00:09:40,900 --> 00:09:46,700
+side, as well as on the security side with some of the use cases working with partners
+
+145
+00:09:46,700 --> 00:09:48,980
+like Plume and Layer Zero.
+
+146
+00:09:48,980 --> 00:09:49,980
+We had the same thought.
+
+147
+00:09:49,980 --> 00:09:53,540
+I was going to say that was a good segue to talk about SatLayer.
+
+148
+00:09:53,540 --> 00:09:59,980
+To put a bit more of a fine point on it, maybe you guys are aggregating Bitcoin capital when
+
+149
+00:09:59,980 --> 00:10:02,820
+you're finding yield opportunities for it in the market.
+
+150
+00:10:02,820 --> 00:10:07,900
+I'd love for you to speak to how you do that and where you see yield being generated by
+
+151
+00:10:07,940 --> 00:10:12,780
+Bitcoin, because early on, I think there's a lot of demand for people, for example, to
+
+152
+00:10:12,780 --> 00:10:15,500
+borrow US dollars against their Bitcoin.
+
+153
+00:10:15,500 --> 00:10:20,220
+But I'd love to hear your views on will there be appetite to borrow Bitcoin?
+
+154
+00:10:20,220 --> 00:10:23,260
+What will be the yield generation sources for Bitcoin?
+
+155
+00:10:23,260 --> 00:10:29,820
+I think for us, we certainly sit at a bit of a unique position in the entire ecosystem,
+
+156
+00:10:29,820 --> 00:10:35,740
+where from a user flow-wise, we are downstream from whether it's your wrapped Bitcoin or
+
+157
+00:10:35,740 --> 00:10:41,020
+your Bitcoin liquid-stake token, and then we are intentionally not a chain, so we're
+
+158
+00:10:41,020 --> 00:10:46,540
+able to actually deploy our contracts on a lot of the strongest L1s, essentially L2s
+
+159
+00:10:46,540 --> 00:10:50,780
+as well, in the ecosystem like SWE, like Bearachain, like BNB.
+
+160
+00:10:50,780 --> 00:10:55,100
+So in terms of where we sit, we basically enable users to almost create this at least
+
+161
+00:10:55,100 --> 00:10:56,780
+three, four stack of yield.
+
+162
+00:10:56,780 --> 00:11:02,700
+So you get your yield from your Bitcoin LST, for example, that stakes similar to Lido does.
+
+163
+00:11:02,700 --> 00:11:07,260
+These Bitcoin LSTs like Solver Lombard will stake your Bitcoin into Babylon for you,
+
+164
+00:11:07,260 --> 00:11:12,780
+but giving you a liquid-stake token that then you can then deposit into the sat layer.
+
+165
+00:11:12,780 --> 00:11:18,060
+And then right now, there's a lot of L1s that are incentivizing Bitcoin on their chain to
+
+166
+00:11:18,060 --> 00:11:23,340
+also drive, I think, their DeFi ecosystem like SWE, like Bearachain, and a lot of the
+
+167
+00:11:23,340 --> 00:11:24,700
+up-and-coming ones as well.
+
+168
+00:11:24,700 --> 00:11:26,220
+So that's your third set of yield.
+
+169
+00:11:26,220 --> 00:11:28,940
+And then we have our own SatSquared rewards program.
+
+170
+00:11:28,940 --> 00:11:30,540
+That's the fourth set of yield.
+
+171
+00:11:30,540 --> 00:11:33,020
+And then we intentionally also mint the receipt token.
+
+172
+00:11:33,020 --> 00:11:39,020
+So for the more DeFi natives or DeFi degens, you can then take it onto lending, borrowing,
+
+173
+00:11:39,020 --> 00:11:40,620
+or Dexel key if you want.
+
+174
+00:11:40,620 --> 00:11:46,060
+But that's totally optional for the user since there sometimes is risk associated with that.
+
+175
+00:11:46,060 --> 00:11:50,940
+And then I think in addition, for us, it's really on the user side and very much the
+
+176
+00:11:50,940 --> 00:11:55,420
+beginning where a lot of the big use cases that we're focused on, some of which we touched on
+
+177
+00:11:55,420 --> 00:12:01,420
+earlier, are insurance backed by Bitcoin, as well as stablecoins backed or secured by Bitcoin.
+
+178
+00:12:01,420 --> 00:12:07,740
+So CapLabs is one of our partners who's integrating with us as well as Iconium Symbiotic
+
+179
+00:12:07,740 --> 00:12:14,620
+in a very restating native way, where in their architecture, the operators are actually the
+
+180
+00:12:14,620 --> 00:12:17,420
+ones that are generating yield for the stablecoin.
+
+181
+00:12:17,420 --> 00:12:21,660
+So it's a lot of the market makers in the space as well as trap by players like the
+
+182
+00:12:21,660 --> 00:12:23,180
+IMC traders of the world.
+
+183
+00:12:23,180 --> 00:12:27,020
+And then we're also working closely with Plume on their Nest credit side of things.
+
+184
+00:12:27,020 --> 00:12:33,660
+We're providing Clidity Float as well as on the core RWA business where for their RWA
+
+185
+00:12:33,660 --> 00:12:39,100
+transfer layer called Skylink, that we will be providing Bitcoin security for that.
+
+186
+00:12:39,100 --> 00:12:41,980
+Just give it effectively the overly simplistic version to think about it.
+
+187
+00:12:41,980 --> 00:12:45,420
+Is it like an RWA focused bridge that's built as a layer zero DVN?
+
+188
+00:12:45,420 --> 00:12:47,740
+And that's where we'll provide Bitcoin based security.
+
+189
+00:12:47,740 --> 00:12:51,900
+Just given that in general for bridging, that is the most important thing is how secure
+
+190
+00:12:51,900 --> 00:12:52,620
+your bridge is.
+
+191
+00:12:53,260 --> 00:12:54,700
+Especially for Bitcoin.
+
+192
+00:12:54,700 --> 00:12:59,420
+For RWA as well, because I think it's a lot of times there's assets tied to token representations
+
+193
+00:12:59,420 --> 00:13:00,540
+of real world assets.
+
+194
+00:13:00,540 --> 00:13:05,740
+That also again, like security is very important versus like a gaming asset, for example,
+
+195
+00:13:05,740 --> 00:13:08,540
+where maybe more cost is much more important than speed.
+
+196
+00:13:08,540 --> 00:13:15,340
+And then I think the final use case is really around almost liquidity float repo or prime
+
+197
+00:13:15,340 --> 00:13:18,940
+brokerage that's on chain and backed by Bitcoin.
+
+198
+00:13:18,940 --> 00:13:21,740
+So here we actually just announced this yesterday.
+
+199
+00:13:21,740 --> 00:13:27,580
+We're working with Aether in terms of on the AI infrastructure side to help some of these AI
+
+200
+00:13:27,580 --> 00:13:32,380
+infrastructure providers access a lot more and deeper liquidity that's Bitcoin backed.
+
+201
+00:13:32,380 --> 00:13:34,860
+As right now we're seeing the boom in AI infrastructure.
+
+202
+00:13:35,420 --> 00:13:42,220
+I love that LSTs or for anyone listening, crypto tokens that naturally give you the
+
+203
+00:13:42,220 --> 00:13:45,580
+yield of the underlying chain as if you staked your Ethereum.
+
+204
+00:13:45,580 --> 00:13:48,460
+I love that that's a canonical part of crypto now.
+
+205
+00:13:49,020 --> 00:13:52,620
+And I think that you guys said an interesting point because essentially you're saying,
+
+206
+00:13:52,620 --> 00:13:57,740
+okay, now we need to rebuild market access in the way that capital flows for these LST
+
+207
+00:13:57,740 --> 00:14:01,020
+tokens, especially in the case of Bitcoin, where it's completely novel.
+
+208
+00:14:01,020 --> 00:14:05,260
+And I remember when Aetherfied did a similar thing in the Ethereum context.
+
+209
+00:14:05,260 --> 00:14:09,180
+And in my opinion, it makes for better markets if the default asset becomes the one where
+
+210
+00:14:09,180 --> 00:14:14,060
+you're automatically getting that risk-free rate as opposed to just the standard Bitcoin
+
+211
+00:14:14,060 --> 00:14:14,860
+or ETH.
+
+212
+00:14:14,860 --> 00:14:15,500
+100%.
+
+213
+00:14:15,580 --> 00:14:19,020
+Yeah, I think Aetherfied is a great example where they're almost becoming a bit of a
+
+214
+00:14:19,020 --> 00:14:23,100
+neo-bank and then just giving users easy access to yield.
+
+215
+00:14:23,100 --> 00:14:26,860
+In their case, primarily focused around ETH, but also being able to with their credit card
+
+216
+00:14:26,860 --> 00:14:27,740
+product like spend it.
+
+217
+00:14:27,740 --> 00:14:30,620
+Because I think in many ways, people by human nature are greedy.
+
+218
+00:14:30,620 --> 00:14:34,700
+And when you have such a great asset like Bitcoin, of course, you would want to love
+
+219
+00:14:34,700 --> 00:14:36,940
+to have yield on Bitcoin, get more of it.
+
+220
+00:14:36,940 --> 00:14:41,660
+So that's where I think it's also the benchmark rate for Bitcoin is going up historically,
+
+221
+00:14:41,660 --> 00:14:47,740
+especially before I think the emergence of Bitcoin DeFi was really around sub 1%,
+
+222
+00:14:48,380 --> 00:14:51,980
+half a percent range with these delta neutral strategies.
+
+223
+00:14:51,980 --> 00:14:56,460
+But I think as anyone in crypto knows, especially when folks that have played with options,
+
+224
+00:14:56,460 --> 00:15:01,180
+delta neutral, it's kind of in some ways like picking up pennies in front of a steamroller.
+
+225
+00:15:01,180 --> 00:15:05,580
+It's great until you're unable to roll your option, then you're stuck getting exercise,
+
+226
+00:15:05,580 --> 00:15:09,180
+and now you're down 10% on principal instead of up a couple percent on yield.
+
+227
+00:15:09,180 --> 00:15:14,140
+Whereas clearly, to be fair, on-chain yield, it's not zero risk either.
+
+228
+00:15:14,140 --> 00:15:17,820
+But I think there's contract risk or front-end attacks, etc.
+
+229
+00:15:17,820 --> 00:15:21,500
+But I think in general, a lot of the teams definitely have security top of mind,
+
+230
+00:15:21,500 --> 00:15:25,740
+including ours, and have gotten multiple audits from a lot of the leading firms,
+
+231
+00:15:25,740 --> 00:15:30,620
+plus just internal good practices and internal audits to just minimize that risk.
+
+232
+00:15:30,620 --> 00:15:35,500
+But that is another reason why we put a lot of resources on developing
+
+233
+00:15:35,500 --> 00:15:39,740
+these insurance slash covered products that's backed by Bitcoin for Bitcoin.
+
+234
+00:15:39,740 --> 00:15:45,260
+It's just giving users, I think, another layer of assurance and security on their Bitcoin assets.
+
+235
+00:15:45,820 --> 00:15:52,780
+I wanted to ask your perspective. We have dollars in DeFi, which makes for a perfect comp in that
+
+236
+00:15:52,780 --> 00:15:57,100
+there's a borrow rate on Aave and there's a borrow rate with JP Morgan.
+
+237
+00:15:57,100 --> 00:16:01,100
+And you can compare the two and you can go decide to do business with either one.
+
+238
+00:16:01,740 --> 00:16:08,300
+With Bitcoin today, obviously, yield and markets around Bitcoin and traditional finance are very
+
+239
+00:16:08,300 --> 00:16:13,820
+nascent. It's very much a treasury asset right now, to your point. And we have evolving ways
+
+240
+00:16:13,820 --> 00:16:19,820
+of earning yield on your Bitcoin in DeFi. Eventually, my hope would be that Bitcoin
+
+241
+00:16:19,820 --> 00:16:25,900
+is just used more often in finance. And with that, you'll be able to lend and borrow Bitcoin
+
+242
+00:16:25,900 --> 00:16:31,260
+more effectively because people will accept it when it comes to want to pay for things.
+
+243
+00:16:31,260 --> 00:16:33,980
+So it'll just be a holding asset. You can spend with it more effectively.
+
+244
+00:16:34,620 --> 00:16:40,380
+Does that become competitive with DeFi yield, in your opinion, for Bitcoin? And is that a
+
+245
+00:16:40,380 --> 00:16:46,380
+nexus of competition if traditional firms start to not just hold Bitcoin, but start to do financial
+
+246
+00:16:46,380 --> 00:16:51,580
+operations and enter financial markets with the asset? I don't think so. Because I think in many
+
+247
+00:16:51,580 --> 00:16:56,460
+ways what we're seeing, maybe stablecoins is probably the best example and the most top of
+
+248
+00:16:56,460 --> 00:17:02,620
+line for folks is that now you're seeing, whether it's Web2Fintechs or even the traditional banks,
+
+249
+00:17:02,620 --> 00:17:07,660
+embracing stablecoin or launching their own stablecoins. Because overall, the way I think
+
+250
+00:17:07,660 --> 00:17:14,940
+about it is just fundamentally crypto, whether it's stablecoins or Bitcoin or either whatever,
+
+251
+00:17:14,940 --> 00:17:20,140
+is just a better form from a product perspective of money.
+
+252
+00:17:20,140 --> 00:17:22,140
+It's a better form of money. I get what you mean.
+
+253
+00:17:22,700 --> 00:17:27,340
+Especially stablecoins is straight up a better form of money in almost every dimension versus
+
+254
+00:17:27,340 --> 00:17:33,500
+paper fiat money. You don't have the printing costs and then there's a maintenance cost to
+
+255
+00:17:33,500 --> 00:17:37,820
+having paper currency, which is not insignificant. For a lot of major countries, it's in the, I think,
+
+256
+00:17:37,820 --> 00:17:42,220
+tens or hundreds of millions a year. You have the fraud of, I can just print money that looks
+
+257
+00:17:42,220 --> 00:17:46,860
+almost as good as the actual thing and a lot of places can't tell. And then you have V1 digital
+
+258
+00:17:46,860 --> 00:17:52,700
+money of the demos, PayPal, WeChat and Alipay. But those are centralized. And certainly for a
+
+259
+00:17:52,700 --> 00:17:57,500
+good number of folks in crypto that have been suspended or debanked from some of these platforms,
+
+260
+00:17:57,500 --> 00:18:01,820
+there's centralization challenges and risks. And if you get blocked, it's horrible because
+
+261
+00:18:01,820 --> 00:18:06,300
+there is sometimes no recourse or it takes months to unlock your account. And in the meanwhile,
+
+262
+00:18:06,300 --> 00:18:11,100
+you have funds stuck there. Whereas I think for stablecoins, by nature, you can't really have
+
+263
+00:18:11,100 --> 00:18:16,940
+counterfeit fraud because you can see very clearly that this is the USTC or the USDT.
+
+264
+00:18:16,940 --> 00:18:22,700
+This is the contract. There's billions or even trillions of assets in this contract. And so this
+
+265
+00:18:22,700 --> 00:18:27,340
+is obviously the real one and not a fake one. And then you can't counterfeit and print more of it.
+
+266
+00:18:27,340 --> 00:18:33,020
+You also don't have the centralization risk of, oh yeah, I got blocked by Vemo or PayPal.
+
+267
+00:18:33,020 --> 00:18:38,540
+And then it's also by nature, all the transactions are on chain. And then you can't have the, oh,
+
+268
+00:18:38,540 --> 00:18:42,700
+I sent an international wire, but then somewhere along the way, I got stuck and nobody knows where
+
+269
+00:18:42,700 --> 00:18:47,100
+it is. You can see exactly where it is. You know right away if it's sent out or not.
+
+270
+00:18:47,740 --> 00:18:54,620
+So I think by nature, it's just a better product. And I think for TrapFi, they've come to understand
+
+271
+00:18:54,620 --> 00:18:59,100
+it now. And especially just given how long a lot of these things have been around, it is battle
+
+272
+00:18:59,100 --> 00:19:04,860
+tested. And so now they're ready to launch their own version of it or collaborate and enter at scale.
+
+273
+00:19:04,860 --> 00:19:09,980
+And so I think on the Bitcoin side of things, I would expect you would see something similar,
+
+274
+00:19:09,980 --> 00:19:16,860
+but I think there's a bit more of an edge on the more crypto native side because there is no
+
+275
+00:19:16,860 --> 00:19:22,620
+TrapFi direct analogy for a Bitcoin. And people aren't going to build Gold DeFi. So I think on
+
+276
+00:19:22,620 --> 00:19:27,900
+the Bitcoin side, the innovation comes more from the Bitcoin native and crypto native side. And
+
+277
+00:19:27,900 --> 00:19:33,500
+then it's the traditional players just onboarding. The thing I think is beautiful about Bitcoin,
+
+278
+00:19:33,500 --> 00:19:40,620
+to your point is it's one asset. Whereas with cash, we have physical cash, we have digital
+
+279
+00:19:40,620 --> 00:19:46,060
+money in a bank, we have stable coins, and we call them the same thing and functionally they
+
+280
+00:19:46,060 --> 00:19:51,260
+are in our economy. But those are three different iterations of an asset that you're calling a
+
+281
+00:19:51,260 --> 00:19:57,100
+dollar. Whereas with Bitcoin, you really only have the Bitcoin on the ledger that is traceable. You
+
+282
+00:19:57,100 --> 00:20:01,660
+know exactly where it is. There is no Bitcoin form of cash. Things like that have been tried,
+
+283
+00:20:01,660 --> 00:20:07,100
+but it's not the default asset. And I think with that in mind, it validates what's happening in
+
+284
+00:20:07,100 --> 00:20:12,540
+DeFi if people in traditional finance are using that same asset. Whereas with some of the cash
+
+285
+00:20:12,540 --> 00:20:17,580
+or stable coins, you still have hard cash and you have digital money and you have stable coins.
+
+286
+00:20:17,580 --> 00:20:21,660
+So it's a slightly different iteration, which creates friction. And my hope is that that will
+
+287
+00:20:21,660 --> 00:20:27,100
+be a strengthening factor for Bitcoin across all markets eventually. 100%. And also Bitcoin is such
+
+288
+00:20:27,100 --> 00:20:34,060
+a unique asset where it's fixed supply, countries can't print it at will. And I think it's become
+
+289
+00:20:34,060 --> 00:20:40,860
+globally recognized. So not only are you having the really small from a relative size perspective
+
+290
+00:20:40,860 --> 00:20:45,500
+countries like Bhutan or like El Salvador adopting Bitcoin, but you're seeing some of the Middle
+
+291
+00:20:45,500 --> 00:20:50,140
+East players like Muvadala accumulate Bitcoin and then be very public about the fact that they
+
+292
+00:20:50,140 --> 00:20:55,740
+have committed Bitcoin. And US of course, adopting a strategic Bitcoin reserve. But I think it's been
+
+293
+00:20:55,740 --> 00:20:59,900
+fascinating on the US side to see as of now, I think at least three states that have front
+
+294
+00:20:59,900 --> 00:21:05,420
+brand the US government in passing laws to adopt and set up their own strategic Bitcoin reserve,
+
+295
+00:21:05,420 --> 00:21:10,140
+as well as I think many countries in the world that are more discreetly accumulating Bitcoin.
+
+296
+00:21:10,140 --> 00:21:14,460
+Minimum as a hedge. Because I think the narrative has very much shifted on central banks of,
+
+297
+00:21:14,460 --> 00:21:18,860
+well, what if the US actually accumulates Bitcoin in size? Then it's too late for us.
+
+298
+00:21:18,860 --> 00:21:23,900
+So we should probably get a little bit just in case. And then I think even in traditional
+
+299
+00:21:23,900 --> 00:21:28,620
+finance circles of Ray Dalio, where it's like Fintech Frank put it really well on Twitter,
+
+300
+00:21:28,620 --> 00:21:33,580
+he traced the journey of Ray Dalio. First he was like Bitcoin is garbage, is a scam. And then
+
+301
+00:21:33,580 --> 00:21:37,820
+Bridgewater starts buying some Bitcoin and play around with it. And now he's recommending everyone
+
+302
+00:21:37,820 --> 00:21:43,820
+allocate 15% of their portfolio to Bitcoin. So in many ways, going through the typical journey
+
+303
+00:21:43,820 --> 00:21:49,660
+we've all had in crypto. I was listening to a podcast he was on recently with Chris Williamson,
+
+304
+00:21:49,660 --> 00:21:56,220
+who does Modern Wisdom. And he was talking about his view on global power politics and five powers.
+
+305
+00:21:56,220 --> 00:22:00,860
+And I was like, how does this guy not believe in Bitcoin? Or how could he if not? And he must
+
+306
+00:22:00,860 --> 00:22:05,580
+be on one side of the fence because it definitely fits into his overall narrative one way or another.
+
+307
+00:22:05,580 --> 00:22:06,380
+Yeah, 100%.
+
+308
+00:22:07,340 --> 00:22:13,020
+I did want to ask you, as we look at Bitcoin broadly, I think a lot of Bitcoin holders
+
+309
+00:22:13,020 --> 00:22:17,420
+come at it from an original angle of either something of a libertarian streak and maybe
+
+310
+00:22:17,420 --> 00:22:22,540
+extend that to even a diet form of libertarianism that's in a lot of people. Or alternatively,
+
+311
+00:22:23,180 --> 00:22:27,740
+crypto investing curious and they wouldn't buy other crypto assets, they wouldn't buy other stocks,
+
+312
+00:22:27,740 --> 00:22:33,180
+but they'll buy a little bit of Bitcoin. I imagine there might be a lower risk tolerance of folks
+
+313
+00:22:33,180 --> 00:22:38,780
+like that when it comes to even working with an application that wants to go and earn the meal on
+
+314
+00:22:38,780 --> 00:22:45,980
+their Bitcoin because of maybe the initial skepticism of financial markets and institutions
+
+315
+00:22:45,980 --> 00:22:51,180
+generally, or maybe a preference for simplistic investing. The point I mentioned, it's someone
+
+316
+00:22:51,180 --> 00:22:55,900
+who might not invest in other crypto assets or stocks. Do you find that to be something that
+
+317
+00:22:55,900 --> 00:23:00,380
+is a friction when it comes to encouraging people to earn yield on their Bitcoin?
+
+318
+00:23:00,380 --> 00:23:03,020
+Is that evolving? How do you look at it?
+
+319
+00:23:03,020 --> 00:23:07,100
+I think it's evolved a lot. And I think in many ways in Asia,
+
+320
+00:23:07,100 --> 00:23:13,820
+folks look at it a bit differently. Part of it is when the Asian institutions and the
+
+321
+00:23:13,820 --> 00:23:19,980
+Asian world and OGs in many ways are a lot more pragmatic and less idealistic about Bitcoin,
+
+322
+00:23:19,980 --> 00:23:24,780
+crypto, really anything. Because in some ways, the big difference maybe between Asia and the West is
+
+323
+00:23:24,780 --> 00:23:30,380
+religion in many countries is not really necessarily the majority and people take a lot more of the
+
+324
+00:23:30,380 --> 00:23:36,060
+practical view to things. And so certainly what we've seen even a year ago is that the biggest
+
+325
+00:23:36,060 --> 00:23:43,180
+miners, institutions, OGs in Asia have been actively deploying a portion of their Bitcoin
+
+326
+00:23:43,180 --> 00:23:48,780
+holdings into Bitcoin DeFi. And in many ways, they're really just almost embracing portfolio
+
+327
+00:23:48,780 --> 00:23:53,580
+theory. And for them, it's their on-chain DeFi allocation that they're deploying into Bitcoin
+
+328
+00:23:53,580 --> 00:23:57,980
+DeFi. Whereas in some ways, ironically, what we've seen with a lot of Western institutions is they'll
+
+329
+00:23:57,980 --> 00:24:02,220
+just take a wait and see approach and not even play around and experiment and wait six months
+
+330
+00:24:02,220 --> 00:24:07,580
+and 12 months and then start sizing in. Having said that, I think it has been over a year
+
+331
+00:24:07,580 --> 00:24:11,740
+since we started on this journey and then even longer for projects like Babylon that we work
+
+332
+00:24:11,740 --> 00:24:16,700
+very closely with. So I think now you are seeing some of the Western institutions coming in.
+
+333
+00:24:16,700 --> 00:24:21,420
+And it also, in many ways, I think a lot of the Asian institutions really paved the way and showed
+
+334
+00:24:21,420 --> 00:24:27,420
+them, hey, I've been deploying my Bitcoin on-chain for a year plus 18 months and really haven't had
+
+335
+00:24:27,420 --> 00:24:32,300
+issues. I like the behavioral point from my experience, at least. I still have family back
+
+336
+00:24:32,300 --> 00:24:37,340
+in Iran because that's where my dad grew up. And that's an extreme, but the economic stability
+
+337
+00:24:37,340 --> 00:24:41,500
+there is relatively low. So there's not what I would call an economic centering, which
+
+338
+00:24:41,500 --> 00:24:47,180
+we have in the US. You don't really have a proxy. So therefore, people are more exploratory and open
+
+339
+00:24:47,180 --> 00:24:52,220
+to new ideas. Whereas in the US, you're always saying, oh, I have treasury bills, I have the US
+
+340
+00:24:52,220 --> 00:24:56,620
+dollar, I have my local bank. And there's a comfort in that that discourages going elsewhere.
+
+341
+00:24:56,620 --> 00:25:01,500
+And I don't know if that's an impact on the Eastern culture, Asian culture, like you said as well,
+
+342
+00:25:01,500 --> 00:25:05,980
+but I imagine especially outside of China probably is to some degree just because the US is the very
+
+343
+00:25:05,980 --> 00:25:11,740
+obvious, we feel incredibly centered in our economic system because it's the predominant one.
+
+344
+00:25:12,380 --> 00:25:17,660
+Yeah, I think it's very much the case. And it's a mix of, I think, distrust in government,
+
+345
+00:25:17,660 --> 00:25:23,260
+in centralized institutions or less mature financial proxies. China is a great example
+
+346
+00:25:23,260 --> 00:25:27,660
+where credit cards are not a big thing in China. Credit card is the standard in the US. If you
+
+347
+00:25:27,660 --> 00:25:31,900
+don't have credit, what are you even doing? And you got a credit score. Whereas in China, in many
+
+348
+00:25:31,900 --> 00:25:35,500
+ways, it was almost like one of the leapfrogs is they just skip credit cards, they went straight
+
+349
+00:25:35,500 --> 00:25:41,020
+to WeChat Pay and Alipay. And now you can get some credit products from WeChat and Alipay.
+
+350
+00:25:41,020 --> 00:25:47,900
+Mentally, it's much more of a less, I think, debt-focused culture where folks are just used
+
+351
+00:25:47,900 --> 00:25:52,620
+like saving up and then paying primarily cash for a whole. You're paying cash for a card,
+
+352
+00:25:52,620 --> 00:25:57,020
+not really financing. And that's not even extreme. As you mentioned, like Iran or like Turkey is a
+
+353
+00:25:57,020 --> 00:26:01,980
+great example where Turkey is a massive Bitcoin market and crypto market because of their own
+
+354
+00:26:01,980 --> 00:26:06,780
+current instability, same story like El Salvador. And then you have, for example,
+
+355
+00:26:06,780 --> 00:26:13,740
+in Korea and Japan, where oftentimes the outgoing president or the outgoing ruling party officials
+
+356
+00:26:13,740 --> 00:26:18,700
+just get thrown in jail right afterwards. There is no trust in centralized institutions. And I
+
+357
+00:26:18,700 --> 00:26:23,740
+think that's why these markets are some of the biggest in crypto is that for them, it's like,
+
+358
+00:26:23,740 --> 00:26:28,780
+well, either use the existing infrastructure, which is really just not transparent in some
+
+359
+00:26:28,780 --> 00:26:34,140
+way stacked against me, or I use these crypto products where it's at least everything on chain,
+
+360
+00:26:34,140 --> 00:26:39,900
+traceable if I do want to. It is shocking. The US is behind when it comes to instant payments
+
+361
+00:26:39,900 --> 00:26:44,460
+compared to things like PICS and M-Pesa that you have in countries around the world that you would
+
+362
+00:26:44,460 --> 00:26:50,060
+argue we should be at least on parity with from an instant payments perspective. 100%. And like Fed
+
+363
+00:26:50,060 --> 00:26:55,660
+now, who knows when it'll finally launch. Yeah, agreed. Very interesting stuff. I'd love to hear
+
+364
+00:26:55,660 --> 00:27:00,060
+maybe in closing, what should people be excited about in the near term when it comes to how
+
+365
+00:27:00,060 --> 00:27:02,780
+Bitcoin financial markets will evolve? What will we see?
+
+366
+00:27:03,420 --> 00:27:09,660
+On the near term, one of the most interesting areas, as is the case with Stablecoin, is I think
+
+367
+00:27:09,660 --> 00:27:15,820
+the convergence of crypto native products and offerings, and then almost like TradFi and Fintech
+
+368
+00:27:15,820 --> 00:27:22,140
+offerings. I think, again, you're seeing this probably initially outside of the US. You have
+
+369
+00:27:22,140 --> 00:27:27,660
+some of the biggest players in Latin America, as well as Europe, and then I think certainly Asia
+
+370
+00:27:27,660 --> 00:27:32,140
+as well, launching some of these products. And at the same time, I think you have innovative players
+
+371
+00:27:32,140 --> 00:27:36,460
+in the US, like Meanwhile, which is doing life insurance. It's actually backed by Bitcoin. So
+
+372
+00:27:36,460 --> 00:27:41,740
+very much, I think, on the same wavelength that's our thesis here. And I think it'll be super
+
+373
+00:27:41,740 --> 00:27:47,820
+interesting, especially with, I think, the much more friendly regulations and also regulatory
+
+374
+00:27:47,820 --> 00:27:53,580
+clarity that you now have in the US. That's, I think, now going to pave the road for the rest
+
+375
+00:27:53,580 --> 00:27:58,060
+of the world. Because I think in many ways, a lot of regulators around the world still look to the
+
+376
+00:27:58,060 --> 00:28:05,260
+US SEC and TTC when setting their own regulations. So I think it's going to be really interesting to
+
+377
+00:28:05,260 --> 00:28:10,780
+see the Cambrian explosion of innovation that I think we've all been building the foundation for
+
+378
+00:28:10,780 --> 00:28:17,420
+and waiting for the floodgates to open. I think the other super interesting piece is on the Stablecoin
+
+379
+00:28:17,420 --> 00:28:24,380
+front. I'm particularly interested in the response of the other global currencies now that the US is
+
+380
+00:28:24,380 --> 00:28:29,820
+pushing USD-based Stablecoins, really bracing Stablecoins. Because I think for the other
+
+381
+00:28:29,820 --> 00:28:34,540
+major currencies, if you do nothing, then USD dominance grows and it eats your currency's
+
+382
+00:28:34,540 --> 00:28:40,220
+lunch. So you're seeing this certainly in Korea, which we've been following closely, Korean
+
+383
+00:28:40,220 --> 00:28:45,580
+regulators also embrace Stablecoins. And a lot of the major Korean conglomerates are launching
+
+384
+00:28:45,580 --> 00:28:49,820
+Stablecoin initiatives. Because I think in some ways, it's almost a topic of national security
+
+385
+00:28:49,820 --> 00:28:53,980
+for them in terms of ensuring the future of the Korean Wall. Because Stablecoins, by nature,
+
+386
+00:28:53,980 --> 00:28:58,380
+they are fractional. So it's almost like for any currency that's effectively piped into the US,
+
+387
+00:28:58,380 --> 00:29:03,820
+if there's global adoption of Stablecoins, why do you still need your currency? Do the math and
+
+388
+00:29:03,820 --> 00:29:09,340
+just use a USD-based Stablecoin instead. Yeah, I couldn't agree more. We'll have to circle back
+
+389
+00:29:09,340 --> 00:29:14,220
+in a year or two and see how things have landed. Yeah, I think it'll be fun to look at what played
+
+390
+00:29:14,220 --> 00:29:18,940
+out and what didn't. Thanks again, Luke. Really enjoyed it. Awesome. Thanks for having me. It was
+
+391
+00:29:18,940 --> 00:29:24,460
+a lot of fun. Thanks for listening to another episode of On the Brink with Castle Island.
+
+392
+00:29:24,460 --> 00:29:30,700
+To find out more about Castle Island, visit castleisland.vc. To listen to all of our podcast
+
+393
+00:29:30,700 --> 00:29:37,900
+episodes, please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for
+
+394
+00:29:37,900 --> 00:29:41,980
+listening.
+

@@ -1,0 +1,16 @@
+PART 1 — ABSTRACT
+
+This conversation centers on the evolution, utility, and infrastructure challenges of stablecoins in decentralized finance (DeFi), with a particular focus on enabling foreign exchange (FX) markets on-chain. The discussion explores how offering a broader array of local currency stablecoins—beyond the dominant US dollar—can unlock new real-world use cases such as micro-lending, cross-border payments, and hedge instruments for emerging markets. Bringing FX trading on-chain promises greater efficiency, faster settlement, and increased financial accessibility, yet the adoption and long-term sustainability of such systems are unproven, especially given questions around liquidity, regulatory alignment, and interoperability with existing payment networks. The future of global finance could be significantly influenced if blockchain-native FX markets achieve meaningful traction, but how risks, regulatory demands, and integration frictions are handled remains unresolved.
+
+PART 2 — KEY IDEAS
+
+- Expanding stablecoin offerings to cover both G7 and emerging market currencies can address use cases like micro-lending, remittances, and regional B2B payments that are poorly served by dollar-only stablecoins.
+- On-chain FX trading offers near-instant settlement and 24/7 availability, contrasting with the slow, limited hours of traditional FX markets; this could lead to new corridors and trading behavior previously impossible with legacy infrastructure.
+- Liquidity and initial adoption are largely driven by speculative FX trading, which also bootstraps the network until more end-user and institutional use cases take root.
+- Traditional automated market makers (AMMs) are considered suboptimal for FX markets because they don't effectively track off-chain reference prices; Mento introduces fixed price market makers (FPMMs) tailored for more accurate, efficient currency swaps.
+- Integrating a multiplicity of stablecoins (including non-dollar assets and potentially CBDCs) allows users and enterprises to choose instruments that best fit their needs for utility, on/off-ramps, and compliance.
+- The lack of FX infrastructure in DeFi is seen as a large unaddressed opportunity, potentially unlocking new forms of value transfer and hedging, and making illiquid or hard-to-access currencies (e.g., African or Asian currencies) more available globally.
+- Regulatory compliance remains a moving target; while open-source, transparent smart contracts are generally well received, ultimate acceptance depends on local laws and how on/off-ramps are regulated.
+- Real institutional disruption may come not from direct competition but from acting as complementary infrastructure, powering new FX and settlement layers for traditional and crypto-native financial services.
+- Network effects are crucial: deeper liquidity in on-chain stablecoin markets supports both speculative and utilitarian activities, reinforcing each other and increasing the usefulness of the underlying infrastructure.
+- Open questions persist around scaling, regulatory adaptation, sustainable liquidity incentives, and user experience, as well as the readiness of traditional institutions to adopt or integrate on-chain FX markets at scale.

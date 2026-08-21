@@ -1,0 +1,1580 @@
+1
+00:00:00,000 --> 00:00:06,640
+ Right now, crypto wallets are the most credible attempt to becoming the super app of the new
+
+2
+00:00:06,640 --> 00:00:10,640
+ internet because they've started with the most difficult thing to build into a super app,
+
+3
+00:00:10,640 --> 00:00:16,480
+ which is finance and money management. A lot of applications in social try to become super apps
+
+4
+00:00:16,480 --> 00:00:22,080
+ by adding on payments or finance as an afterthought. Crypto wallets have started there as a default.
+
+5
+00:00:22,080 --> 00:00:27,920
+ Crypto is basically the kind of black hole that's absorbing everything that's going on in finance.
+
+6
+00:00:27,920 --> 00:00:32,320
+ It's going to be very difficult to stop the momentum around all the network effects there.
+
+7
+00:00:32,320 --> 00:00:36,480
+ If you're trying to recreate everything from scratch, it's going to be difficult to compete.
+
+8
+00:00:36,480 --> 00:00:54,880
+ Crypto wallets are basically the way that people interact with crypto today. They're sort of the
+
+9
+00:00:54,880 --> 00:01:01,520
+ interface, the first touch point, your window to the world. Brandon, you're building Phantom.
+
+10
+00:01:01,520 --> 00:01:08,800
+ How do you think about crypto wallets? What they are and what they've evolved into?
+
+11
+00:01:08,800 --> 00:01:17,600
+ Yeah, crypto wallets today are this tool to help users discover and interact with this world
+
+12
+00:01:18,160 --> 00:01:25,200
+ that's been developing in the on-chain ecosystem. It wasn't actually always the wallet that people
+
+13
+00:01:25,200 --> 00:01:31,680
+ would reach to first when they're trying to use crypto. When the infrastructure was a lot less
+
+14
+00:01:31,680 --> 00:01:37,920
+ developed and it was a lot harder to use blockchain directly, we have centralized exchanges who help
+
+15
+00:01:37,920 --> 00:01:43,440
+ users actually get access to Bitcoin, Ether, other cryptocurrencies like that. But as it's
+
+16
+00:01:43,440 --> 00:01:49,440
+ become more developed, it becomes our role more and more to present everything that's going on
+
+17
+00:01:49,440 --> 00:01:57,040
+ to the user in a really nice package shop window, which looks more and more like the consumer finance
+
+18
+00:01:57,040 --> 00:02:02,480
+ app of the future. We've inherited this terminology of calling these things wallets
+
+19
+00:02:02,480 --> 00:02:07,920
+ since the early days of crypto. But I wonder, is that the best analogy that people should
+
+20
+00:02:07,920 --> 00:02:15,680
+ have in mind for using this piece of technology? Or is there a better way to think about what purpose
+
+21
+00:02:15,680 --> 00:02:23,920
+ these tools are serving? I think, yes, and no, the wallet still very much at its core is about
+
+22
+00:02:23,920 --> 00:02:33,440
+ the management and custody, safe keeping of assets and currency, much like what you would
+
+23
+00:02:33,440 --> 00:02:39,680
+ expect of a physical wallet. But because your wallet is in this digital form and the world of
+
+24
+00:02:39,680 --> 00:02:46,960
+ on-chain ecosystems have been more and more performant and capable, the wallet has become
+
+25
+00:02:46,960 --> 00:02:52,000
+ a lot more of a tool for doing things with your crypto more than just kind of keeping it in one
+
+26
+00:02:52,000 --> 00:02:58,160
+ place and holding it. I think the browser analogy is a little bit too broad in mind mind. I think
+
+27
+00:02:58,160 --> 00:03:04,240
+ wallet is still pretty good in that. I do think the biggest use cases for crypto are financial in
+
+28
+00:03:04,240 --> 00:03:09,200
+ nature. So I think browser is a little bit too broad. Wallet is still actually pretty decent,
+
+29
+00:03:09,200 --> 00:03:12,320
+ I think, but thinking about it a little bit more of the consumer finance platform.
+
+30
+00:03:12,320 --> 00:03:18,080
+ I think all the wallets started from the same place where wallet was a very apt term because the
+
+31
+00:03:18,080 --> 00:03:23,200
+ job was for the wallet to be a key manager, to store and to manage your private keys and for
+
+32
+00:03:23,200 --> 00:03:28,160
+ you to custody your assets. It allowed you to prove the assets that you owned and authorized
+
+33
+00:03:28,160 --> 00:03:35,520
+ transactions. And then that was like V0 of the wallet. And now we've had V1 of the wallet, which is
+
+34
+00:03:35,520 --> 00:03:42,640
+ more of an on-chain money manager and consumer finance platform. So now you can trade, you can
+
+35
+00:03:42,640 --> 00:03:48,160
+ stay, you can lend, you can borrow, you can make payments all within the wallet itself. And then
+
+36
+00:03:48,160 --> 00:03:53,360
+ where you start to see things bifurcate, Robert, like you mentioned, is some wallets are sticking
+
+37
+00:03:53,360 --> 00:03:59,200
+ out their territory in building out this consumer finance platform. Others are becoming developer
+
+38
+00:03:59,200 --> 00:04:05,280
+ platforms and super apps and are leading more into social or gaming or other features. And that's
+
+39
+00:04:05,280 --> 00:04:12,240
+ where you're seeing the space fragment or move away from the traditional sense of the word wallet.
+
+40
+00:04:12,240 --> 00:04:17,280
+ So, Jay, I'm glad you jumped in here. So you've been working on a post about how you believe crypto
+
+41
+00:04:17,280 --> 00:04:24,080
+ wallets are poised to be the super apps of this new decentralized internet. This has long been
+
+42
+00:04:24,080 --> 00:04:31,040
+ sort of a holy grail for the consumer internet economy, like who is going to be the next super app
+
+43
+00:04:31,040 --> 00:04:38,480
+ or be the super app. Canonically, in the East, it was WeChat in China, but nothing quite replicated
+
+44
+00:04:38,480 --> 00:04:46,400
+ that in the West. Tell me how you're thinking about that super app thesis that has sort of long been
+
+45
+00:04:46,400 --> 00:04:52,080
+ a part of people's investment ideas. Right now, crypto wallets are the most
+
+46
+00:04:52,080 --> 00:04:57,920
+ credible attempt to becoming the super app of the new internet, because they've started with,
+
+47
+00:04:57,920 --> 00:05:03,360
+ I think, what is typically the most difficult thing to build into a super app, which is finance
+
+48
+00:05:03,360 --> 00:05:08,720
+ and money management. I think we've seen a lot of applications and social try to become super apps
+
+49
+00:05:08,720 --> 00:05:14,160
+ by adding on payments or finance as an afterthought. And those things are really difficult because they
+
+50
+00:05:14,160 --> 00:05:18,720
+ require a lot of user trust. It's heavily regulated. There's a lot of infrastructure that you have to
+
+51
+00:05:18,720 --> 00:05:23,840
+ build. It has to be really, really performant for it to work for users and for it to be multiplayer.
+
+52
+00:05:23,840 --> 00:05:28,000
+ Crypto wallets have started there as a default. And I think it's much easier to build trust with
+
+53
+00:05:28,000 --> 00:05:34,400
+ the user having become their core money management and finance platform in this new internet and
+
+54
+00:05:34,400 --> 00:05:41,920
+ then expand outwards into social, into gaming. Like WeChat, their killer feature was messaging.
+
+55
+00:05:41,920 --> 00:05:47,440
+ I think for wallets right now, it's finance. It's trading. Nothing in crypto has really achieved
+
+56
+00:05:47,440 --> 00:05:52,240
+ better product market fit than trading and creating digital assets, whether it's NFTs,
+
+57
+00:05:52,240 --> 00:05:57,120
+ whether it's meme coins, whether it's the majors, whether it's on-spot exchanges or perps.
+
+58
+00:05:57,120 --> 00:06:05,200
+ There's like seemingly endless demand to trade and speculate and participate in DeFi. So I think
+
+59
+00:06:05,200 --> 00:06:10,720
+ having started from finance and then expanding into other verticals is a much easier thing to do
+
+60
+00:06:10,720 --> 00:06:17,920
+ than vice versa as evidenced by snap cash, as evidenced by meta's attempt to get into finance
+
+61
+00:06:17,920 --> 00:06:22,960
+ and payments and Instagram and so many, so many others that are failed attempts at super apps.
+
+62
+00:06:22,960 --> 00:06:28,400
+ So you're drawing this distinction between sort of two ways to go about achieving the super app
+
+63
+00:06:28,400 --> 00:06:34,240
+ vision. One is the sort of what had been regarded as the tried and true path or at least like the
+
+64
+00:06:34,240 --> 00:06:38,400
+ proven path that WeChat took. You start with messaging and then you add on all these other
+
+65
+00:06:38,400 --> 00:06:42,880
+ features like financial services and such. But what you're saying is that there's actually this
+
+66
+00:06:42,880 --> 00:06:49,120
+ other approach that people are now exploring because the messaging to finance and other services
+
+67
+00:06:49,120 --> 00:06:54,560
+ has not panned out the same way in the West that it had with WeChat in the East. And that maybe
+
+68
+00:06:54,560 --> 00:07:01,200
+ there's this other way you could go about exploring the idea maze where you start with the financial
+
+69
+00:07:01,200 --> 00:07:06,880
+ aspects, the money management and those services, and then back yourself into all the other things
+
+70
+00:07:06,880 --> 00:07:11,920
+ that a consumer might expect from a super app. Yeah, exactly. I mean, one of the beauties of
+
+71
+00:07:11,920 --> 00:07:17,600
+ crypto is permissionless innovation and there's two kind of paths that we've seen. One is you have
+
+72
+00:07:17,600 --> 00:07:22,880
+ wallets like the base app, maybe the world app, and even Farkaster as a native wallet, and they're
+
+73
+00:07:22,880 --> 00:07:28,560
+ effectively developer platforms where they are providing a mini app SDK and they are encouraging
+
+74
+00:07:28,560 --> 00:07:33,520
+ third party developers to build apps and features that users can interact with on top of the basic
+
+75
+00:07:33,520 --> 00:07:38,320
+ financial things that people are now accustomed to doing in crypto. And then I would argue that
+
+76
+00:07:38,320 --> 00:07:43,200
+ Phantom is maybe taking a bit more opinionated approach, building out features that they see
+
+77
+00:07:43,200 --> 00:07:47,760
+ doing really well in crypto, whether that's hyper liquid perbs, whether that's social feeds,
+
+78
+00:07:47,760 --> 00:07:52,480
+ and they build that into the core interface of Phantom itself. The beauty of crypto is like any
+
+79
+00:07:52,480 --> 00:07:58,560
+ time one of these things does really well. It's permissionless for these wallets to become a front
+
+80
+00:07:58,560 --> 00:08:06,240
+ end for that protocol and you can present whatever that use case or feature is in a really consumer
+
+81
+00:08:06,240 --> 00:08:13,920
+ friendly way. Maybe something I'll clarify is that although I do think that crypto and certainly
+
+82
+00:08:13,920 --> 00:08:21,920
+ Phantom's position as a wallet positions it very nicely to potentially become this sort of all
+
+83
+00:08:21,920 --> 00:08:28,640
+ encompassing super app platform. I will say that's not something that we are really have our aisle
+
+84
+00:08:28,640 --> 00:08:34,080
+ on the ball right now. For us it's all about focusing on actually achieving that consumer
+
+85
+00:08:34,080 --> 00:08:42,320
+ finance platform vision and decisively cutting things all around that so that we're actually
+
+86
+00:08:42,320 --> 00:08:48,480
+ really nailing that because crypto still has a long way to go in terms of being used as that
+
+87
+00:08:48,480 --> 00:08:57,600
+ finance platform. But to Jay's point I do think that our ability to really unlock the true powers
+
+88
+00:08:57,600 --> 00:09:05,280
+ of crypto being this internet first global permissionless ecosystem is going to give us
+
+89
+00:09:05,280 --> 00:09:10,160
+ basically the tools that we need to achieve this consumer finance platform vision and then
+
+90
+00:09:10,160 --> 00:09:15,840
+ potentially parlay that into something a bit broader. Let's talk more deeply about what you're
+
+91
+00:09:15,840 --> 00:09:20,880
+ doing at Phantom. For people who are unfamiliar with it what makes Phantom stand out? What differentiates
+
+92
+00:09:20,880 --> 00:09:27,360
+ it from all of the other wallet options that are at people's disposal? Yeah I think when you
+
+93
+00:09:27,360 --> 00:09:34,480
+ boil it down it comes down to placing a heavy emphasis on the user experience as a whole
+
+94
+00:09:34,480 --> 00:09:42,320
+ usability. I think a lot of people conflate UI with UX and just think about what an app looks like
+
+95
+00:09:42,320 --> 00:09:46,640
+ on the screen but I think what really separates us is our ability to actually think holistically
+
+96
+00:09:46,640 --> 00:09:53,120
+ about the user journey how they first hear about crypto how they get educated through that how they
+
+97
+00:09:53,120 --> 00:09:58,400
+ onboard things like customer support and all that. Another thing that separates us is our ability
+
+98
+00:09:58,400 --> 00:10:05,680
+ to navigate on chain trends be where people want to be at the right time. We obviously were very
+
+99
+00:10:05,680 --> 00:10:13,760
+ early to Solana and more recently took pretty big bat on hyper liquid as well. I think what Phantom
+
+100
+00:10:13,760 --> 00:10:19,440
+ does is they have done a great job at being impeninated about what people are doing on chain
+
+101
+00:10:19,440 --> 00:10:26,400
+ and then taking those experiences and making them available to users in as few clicks or taps as
+
+102
+00:10:26,400 --> 00:10:34,160
+ possible and with as much delight and fun and stickiness as possible building that experience
+
+103
+00:10:34,160 --> 00:10:41,600
+ and having first class security is what really I think enables them to build a ton of user trust.
+
+104
+00:10:41,600 --> 00:10:45,840
+ In other words what you both are saying here is that Brandon that you guys at Phantom you are trying
+
+105
+00:10:45,840 --> 00:10:52,480
+ to go where the people are and follow what they're doing rather than try to force them into some
+
+106
+00:10:52,480 --> 00:10:57,520
+ behavior that you're not seeing them already participate in you're kind of like you see the
+
+107
+00:10:57,520 --> 00:11:01,920
+ heat and you're seeking it. Yeah there's a lot of things that people already really like to do
+
+108
+00:11:01,920 --> 00:11:08,880
+ in crypto and I think being super opinionated about how to present those experiences in the most
+
+109
+00:11:08,880 --> 00:11:15,520
+ accessible way possible and also safest way possible is part of that secret sauce that helps us
+
+110
+00:11:15,520 --> 00:11:22,080
+ retain users and keep them coming back day after day. Tell us about the Phantom story you mentioned
+
+111
+00:11:22,080 --> 00:11:29,360
+ that you guys started launching with Solana early on that was a sort of contrarian bet at the time
+
+112
+00:11:29,360 --> 00:11:35,440
+ certainly in the wake of FTX's implosion there were a lot of questions about that entire ecosystem
+
+113
+00:11:35,440 --> 00:11:41,760
+ and how it would fare so give us the the short history of why you started there and how you got
+
+114
+00:11:41,760 --> 00:11:49,520
+ to where you are today. I got my start in crypto back in 2017 and joined at early stage crypto startup
+
+115
+00:11:49,520 --> 00:11:57,040
+ D5 startup called zero x that was sort of the sort of ICO white paper era of crypto. That was a really
+
+116
+00:11:57,040 --> 00:12:04,080
+ early decentralized exchange. Yeah that's where I cut my teeth in crypto for about four years from
+
+117
+00:12:04,080 --> 00:12:08,960
+ 2017-2021. And before that by the way just to not short thrift yourself before that you
+
+118
+00:12:08,960 --> 00:12:15,600
+ worked at Twitter. Yeah before before jumping into crypto yeah got my start as a software engineer
+
+119
+00:12:15,600 --> 00:12:25,120
+ and builder at Twitter 2013-2017 that's where I really learned how to build apps for like massive
+
+120
+00:12:25,120 --> 00:12:31,600
+ scale massive global scale and my co-founder Chris early Facebook employee very similar
+
+121
+00:12:31,600 --> 00:12:38,480
+ experience. Three co-founders me Chris Matyska we all found our way to zero x during that time
+
+122
+00:12:38,480 --> 00:12:45,840
+ you know pretty crazy saw the rise of Uniswap compound D5 summer all those types of things and
+
+123
+00:12:45,840 --> 00:12:53,280
+ yeah through that time basically realized a couple things so one the wallet is an extremely
+
+124
+00:12:53,280 --> 00:13:01,040
+ key part of infrastructure for the entire ecosystem. If the wallet's not really doing its job then
+
+125
+00:13:01,040 --> 00:13:08,240
+ it really has like a decelerating effect for everyone else because when you're an application
+
+126
+00:13:08,240 --> 00:13:15,040
+ builder which we were at zero x a lot of the onus of onboarding confirming a transaction or sort of
+
+127
+00:13:15,040 --> 00:13:21,920
+ like the checkout it relies on the wallet. Menomask at that time being the biggest wallet people would
+
+128
+00:13:21,920 --> 00:13:28,000
+ use on Ethereum it really depends on them doing their job so we thought that this wallet has this
+
+129
+00:13:28,000 --> 00:13:32,640
+ huge responsibility but no one was really stepping up to the plate and taking that responsibility
+
+130
+00:13:32,640 --> 00:13:37,040
+ seriously at least over the number of years that we had been working in the Ethereum ecosystem
+
+131
+00:13:37,040 --> 00:13:45,440
+ and so decided hey actually our expertise is in these consumer internet apps we think that this
+
+132
+00:13:45,440 --> 00:13:49,040
+ usability problem can actually be solved at this wallet layer and we can actually help
+
+133
+00:13:49,920 --> 00:13:54,000
+ that's the highest leverage place that we can apply ourselves to actually accelerate the adoption
+
+134
+00:13:54,000 --> 00:14:00,800
+ of crypto so that that was first insight and then the second one was the world is moving to this
+
+135
+00:14:00,800 --> 00:14:08,160
+ more multi chain format. My very first indication of that was actually Binance Smart Chain in 2020
+
+136
+00:14:08,160 --> 00:14:16,160
+ which was one of the first non ETH L1 chains. Seeing that actually gained serious traction
+
+137
+00:14:17,040 --> 00:14:23,360
+ really opened a lot of people's eyes myself included that hey there is a whole world out there
+
+138
+00:14:23,360 --> 00:14:27,840
+ of users who have not touched crypto yet and there is an appetite to use something that's
+
+139
+00:14:27,840 --> 00:14:33,840
+ faster and cheaper than ETH L1 so I think combining some of those insights together we decided hey
+
+140
+00:14:33,840 --> 00:14:39,440
+ we're going to create a multi chain metamask competitor but the way that we were going to do
+
+141
+00:14:39,440 --> 00:14:46,240
+ it was to basically try to leapfrog the technology and skate to where the puck is going and grab our
+
+142
+00:14:46,240 --> 00:14:53,360
+ own home turf on an up-and-coming ecosystem that we thought had what it took to really surpass
+
+143
+00:14:53,360 --> 00:14:58,880
+ Ethereum. So you were like Ethereum's taken they've got metamask Binance has come up they're doing
+
+144
+00:14:58,880 --> 00:15:03,520
+ their own thing where else can we play? We initially got attracted to Solano because we found that
+
+145
+00:15:03,520 --> 00:15:08,720
+ from a Valley's perspective we were much more aligned especially as builders coming out of Silicon
+
+146
+00:15:08,720 --> 00:15:14,560
+ Valley and more traditional tech companies so yeah you know we found that we really jived well
+
+147
+00:15:14,560 --> 00:15:20,640
+ with Raj and totally spent a lot of time with them and then decided hey yeah we're going to
+
+148
+00:15:20,640 --> 00:15:25,920
+ basically choose Solano as our horse we sort of know how it panned out but there were some moments
+
+149
+00:15:25,920 --> 00:15:33,760
+ where it was kind of you know it was kind of rough yeah well so the idea was choose Solano's
+
+150
+00:15:33,760 --> 00:15:41,520
+ our horse you know become the metamask Solano and then evolve the wallet into a multi chain wallet
+
+151
+00:15:41,520 --> 00:15:46,880
+ with the thesis that hey wallets are becoming the entry point into crypto but what we didn't
+
+152
+00:15:46,880 --> 00:15:53,440
+ anticipate was like how hard Solano would pop off basically over the last couple of years and how
+
+153
+00:15:53,440 --> 00:15:59,120
+ quickly people would respond to how the fast and cheap transactions actually enabled this very
+
+154
+00:15:59,120 --> 00:16:06,080
+ smooth user experience but yes obviously it's heads up and downs you mentioned FTX you know I have a
+
+155
+00:16:06,080 --> 00:16:11,760
+ little bit of a contrary intake on FTX maybe it's not true but you know that's maybe one of the best
+
+156
+00:16:11,760 --> 00:16:18,080
+ things that could have happened to Solano in the sense that it was sort of a canonical
+
+157
+00:16:18,080 --> 00:16:27,120
+ like mass purging event that left only the true believers essentially of the ecosystem
+
+158
+00:16:27,120 --> 00:16:34,560
+ and formed like a super genuine core that you know precipitated a very genuine culture and
+
+159
+00:16:34,560 --> 00:16:40,800
+ ecosystem of builders that's sort of all you know chewed glass together I think they gave you the
+
+160
+00:16:40,800 --> 00:16:45,760
+ jet fuel to like go for this next like which we just saw and it was continuing to experience in
+
+161
+00:16:45,760 --> 00:16:52,800
+ 2024 or 2025 you know obviously we do everything we can to make sure that people are having a
+
+162
+00:16:52,800 --> 00:16:57,600
+ good time when they're using Solano and it's been a great ecosystem to build in what doesn't kill
+
+163
+00:16:57,600 --> 00:17:02,640
+ you makes you stronger yeah definitely from an investor perspective I'll attest that like when
+
+164
+00:17:02,640 --> 00:17:06,720
+ crypto is booming and really hot there are a lot of tourists just across the stack like there's a
+
+165
+00:17:06,720 --> 00:17:13,520
+ lot of tourists investors a lot of tourists retail consumers builders and anyone that was building on
+
+166
+00:17:13,520 --> 00:17:20,080
+ Solano post FTX was very serious and very committed to Solano and building on Solano for a very
+
+167
+00:17:20,080 --> 00:17:25,680
+ particular set of reasons that if you were chewing glass in that time there was a load of credibility
+
+168
+00:17:25,680 --> 00:17:30,400
+ that you kind of gained for sticking around and a lot of those folks reap the benefits yeah and
+
+169
+00:17:30,400 --> 00:17:36,000
+ we're seeing that now it's definitely paid off and phantom you know although it has been closely
+
+170
+00:17:36,000 --> 00:17:41,200
+ associated with Solano you guys have branched out far beyond it and you are now multi-chain
+
+171
+00:17:41,200 --> 00:17:46,880
+ yeah I'm really happy that we were able to invest in doing that multi-chain transformation back in
+
+172
+00:17:46,880 --> 00:17:53,760
+ 2023 although it was actually very unfortunately timed actually where we had been developing it
+
+173
+00:17:53,760 --> 00:18:00,800
+ through the period of 2022 FTX happened and then we kind of had to say like oh hey we're going multi-chain
+
+174
+00:18:00,800 --> 00:18:07,440
+ but i'm glad we really did the hard thing and got over those hurdles because it has allowed us to
+
+175
+00:18:07,440 --> 00:18:14,400
+ actually branch off into our own standalone brand that people recognize as not just the front end
+
+176
+00:18:14,400 --> 00:18:19,840
+ just Solano and more recently they're one of the top front ends for trading purpose on hyperlooker
+
+177
+00:18:19,840 --> 00:18:25,520
+ so you mentioned perps a few times let's talk a little bit about perps or perpetual futures
+
+178
+00:18:25,520 --> 00:18:32,240
+ and what they are why you've decided to add them to your wallet and yeah what people can do with
+
+179
+00:18:32,240 --> 00:18:40,160
+ them you know simply put perps are a new type of financial derivative that people can trade so
+
+180
+00:18:40,160 --> 00:18:49,040
+ similar to options or classic futures they allow folks to bet on the price movement of an asset
+
+181
+00:18:49,040 --> 00:18:54,560
+ without actually buying the underlying asset so you can say i think bitcoin's going to go up i
+
+182
+00:18:54,560 --> 00:18:58,960
+ want to profit off of that i think big one's going down i want to place that trade and so it allows
+
+183
+00:18:58,960 --> 00:19:05,440
+ you to go longer short and it actually allows you also to place those trades with leverage 2x5x and
+
+184
+00:19:05,440 --> 00:19:13,360
+ in some cases larger and what's really interesting is that conceptually perps are actually a lot easier
+
+185
+00:19:13,360 --> 00:19:20,960
+ to understand and grasp than options trading but they've typically had this reputation for being
+
+186
+00:19:20,960 --> 00:19:26,160
+ very much an advanced instrument that doesn't really cater towards retail users and so
+
+187
+00:19:26,160 --> 00:19:32,880
+ we found a really interesting opportunity to basically apply our expertise in usability
+
+188
+00:19:32,880 --> 00:19:38,320
+ and sort of really creating dialed in user experiences specifically for a retail user base
+
+189
+00:19:38,320 --> 00:19:45,360
+ and apply that to perps we thought that hey actually the underlying concepts here are not that
+
+190
+00:19:45,360 --> 00:19:50,880
+ hard to understand in a lot of ways much easier than options let's actually try to do the hard work
+
+191
+00:19:50,880 --> 00:19:56,800
+ making that easier for a retail audience to access a specific example of that is in a lot of
+
+192
+00:19:56,800 --> 00:20:02,480
+ perp trading interfaces you see these words like take profit and stop loss i think phantom you guys
+
+193
+00:20:02,480 --> 00:20:08,720
+ say auto close versus opening position you can auto close which just makes it a lot more intuitive
+
+194
+00:20:08,720 --> 00:20:13,040
+ for retail versus thinking about these terms that are a bit more native to people who are
+
+195
+00:20:13,040 --> 00:20:17,920
+ financially and crypto savvy yeah there's tons of those little micro interactions that we've kind
+
+196
+00:20:17,920 --> 00:20:23,280
+ of just stopped and had a second think about and just kind of thought about from first principles
+
+197
+00:20:23,280 --> 00:20:28,800
+ you know another thing that we've added that's quite interesting is also this user onboarding
+
+198
+00:20:28,800 --> 00:20:34,400
+ education tutorial system that helps users understand what they're doing and then also
+
+199
+00:20:34,400 --> 00:20:41,280
+ specify their risk profile hey i'm generally low risk or actually i do want to go for high risk
+
+200
+00:20:41,280 --> 00:20:46,400
+ and then actually set some of the defaults around that choice that the user made i actually went
+
+201
+00:20:46,400 --> 00:20:52,320
+ through the flow earlier today and it was super slick and simple to kind of understand and also
+
+202
+00:20:52,320 --> 00:20:58,320
+ slot yourself into whichever risk tolerance you you want for yourself while it's have come so far
+
+203
+00:20:58,320 --> 00:21:05,600
+ in the last four to five years we've come from like 12 word seed phrases and a point where there was
+
+204
+00:21:05,600 --> 00:21:10,240
+ no way for the average consumer to know what was happening when they were interacting with a given
+
+205
+00:21:10,240 --> 00:21:14,480
+ smart contract and you know if you're a newbie you would effectively be signing a transaction
+
+206
+00:21:14,480 --> 00:21:19,200
+ sometimes and hoping you didn't wake up the next morning with your wallet drained now we have like
+
+207
+00:21:19,200 --> 00:21:24,560
+ the ux and onboarding improved to a point where we have social login because we have distributed
+
+208
+00:21:24,560 --> 00:21:30,080
+ key management protocols we have transaction simulation spam filters and like token safety
+
+209
+00:21:30,080 --> 00:21:36,240
+ ratings we've got past keys we've got biometrics we have smart wallets like you guys have usernames
+
+210
+00:21:36,240 --> 00:21:41,360
+ if you're creating a new profile where for the longest you as a user were just like a string of
+
+211
+00:21:41,360 --> 00:21:48,400
+ numbers and characters and you know if you are my mom you have no idea why you are zero x four
+
+212
+00:21:48,400 --> 00:21:56,000
+ five y three f and we have all these improvements on just like wallet ux that have made crypto so much
+
+213
+00:21:56,000 --> 00:22:01,600
+ more easy to interact with like i think we don't give enough credit to wallet teams for making it
+
+214
+00:22:01,600 --> 00:22:05,920
+ a million times easier to interact with everything that we can do on jane yeah it is funny i mean it
+
+215
+00:22:05,920 --> 00:22:11,920
+ kind of echoes some things that happened with the evolution of browsers you know and going from
+
+216
+00:22:11,920 --> 00:22:17,200
+ ip addresses to having sort of a domain name system where you can enter into your url bar you know
+
+217
+00:22:17,200 --> 00:22:22,640
+ these sort of like human readable names to go to your destination all sorts of cryptographic
+
+218
+00:22:22,640 --> 00:22:27,040
+ improvements so that like people can't steal your credit card information if you're buying something
+
+219
+00:22:27,040 --> 00:22:34,960
+ online like it's cool to see these sorts of upgrades and improvements happen in crypto and in the wallet
+
+220
+00:22:34,960 --> 00:22:40,640
+ context like sort of speedrunning things you know happening in a much more condensed time frame
+
+221
+00:22:40,640 --> 00:22:46,480
+ yeah i mean we've put a lot of effort into it and sent a lot of time investing and obviously these
+
+222
+00:22:46,480 --> 00:22:53,840
+ are experienced originally the app was a browser extension uh we quickly follow that up with a mobile
+
+223
+00:22:53,840 --> 00:23:02,240
+ app in beginning of 2022 and now it's a we consider ourselves very much of a mobile first product
+
+224
+00:23:02,240 --> 00:23:06,880
+ a perfect experience that we're just talking about it was mobile first as well and you know
+
+225
+00:23:06,880 --> 00:23:12,480
+ that's just where crypto is going generally let's linger on this perps thing for a minute you're
+
+226
+00:23:12,480 --> 00:23:21,280
+ obviously catering to a particular kind of user who is interested in participating in the financial
+
+227
+00:23:21,280 --> 00:23:26,080
+ aspects of crypto like a classic use of perps is like you said you're betting on whether the price
+
+228
+00:23:26,080 --> 00:23:30,160
+ of something is going to go up or down and you can use leverage to do it that is something that
+
+229
+00:23:30,160 --> 00:23:36,320
+ speculators love but if crypto is going to sort of include a whole big wide audience of people
+
+230
+00:23:36,960 --> 00:23:43,600
+ that particular thing might be not for all comers yeah totally you know if you think about
+
+231
+00:23:43,600 --> 00:23:52,800
+ the consumer finance platforms that people use today Robinhood square cash Venmo etc sort of take
+
+232
+00:23:52,800 --> 00:23:57,440
+ the union of all the different financial activities that people like to do you get
+
+233
+00:23:57,440 --> 00:24:06,560
+ investing speculating you get payments saving storing holding and so those are some of the
+
+234
+00:24:06,560 --> 00:24:11,760
+ areas that we're thinking about and working on but those are things that you should expect
+
+235
+00:24:11,760 --> 00:24:17,200
+ to be able to do in phantom you know all in one so you're basically saying there are other areas
+
+236
+00:24:17,200 --> 00:24:22,480
+ that you're exploring that you think a wider audience might potentially find valuable yeah well
+
+237
+00:24:22,480 --> 00:24:28,640
+ I think it's certainly going to help make phantom and crypto part of their everyday lives that's
+
+238
+00:24:28,640 --> 00:24:34,240
+ where I think payments can actually really turn a corner sort of in this wave so earlier on in
+
+239
+00:24:34,240 --> 00:24:40,160
+ the conversation we were talking about the landscape of wallets that are out there you know you've
+
+240
+00:24:40,160 --> 00:24:47,440
+ got sort of metamask in early ethereum wallet relative newcomers like coinbase wallet which
+
+241
+00:24:47,440 --> 00:24:56,400
+ has rebranded to base after their L2 and you have newer sorts of wallets for maybe power users like
+
+242
+00:24:56,400 --> 00:25:03,360
+ rabby what separates phantom from those others how are you sort of staking out a different kind of
+
+243
+00:25:03,360 --> 00:25:07,520
+ part of the universe than the other wallets that are out there we don't really think much about
+
+244
+00:25:07,520 --> 00:25:12,560
+ metamask when i'm thinking about like setting the north star competition for the company we're
+
+245
+00:25:12,560 --> 00:25:16,960
+ thinking a lot more like players like robin did actually not even thinking about the company
+
+246
+00:25:16,960 --> 00:25:23,360
+ as a wallet necessarily and more as this consumer finance platform but fueled by the on-chain
+
+247
+00:25:23,360 --> 00:25:28,000
+ economy the great thing about wallets is of all the ones you mentioned there's nothing stopping
+
+248
+00:25:28,000 --> 00:25:32,720
+ a user from using those simultaneously like you can enter your seed phrase and you'll see the
+
+249
+00:25:32,720 --> 00:25:37,360
+ exact same amount of money that you see on phantom that you would on coinbase wallet assuming they
+
+250
+00:25:37,360 --> 00:25:42,400
+ support the same chains as you would on metamask as you would on rabby as you would on trust or
+
+251
+00:25:42,400 --> 00:25:47,920
+ anything the wallets are really competing for like a user's trust and their belief in the security
+
+252
+00:25:47,920 --> 00:25:53,600
+ and the features that are built into the wallet and convenience like of the things that i want
+
+253
+00:25:53,600 --> 00:25:58,080
+ to do on chain which of these wallets gives me the best experience right because at the end of the
+
+254
+00:25:58,080 --> 00:26:02,000
+ day you can still use all of these wallets simultaneously yeah yeah that's a really great
+
+255
+00:26:02,000 --> 00:26:07,360
+ point when you're using wallets you can import all that very simply just by entering your seed
+
+256
+00:26:07,360 --> 00:26:13,600
+ phrase and you can bring all that information and data with you which is really kind of a cool
+
+257
+00:26:13,600 --> 00:26:18,960
+ difference between the web 2 world and the web 3 world yeah that's sort of the beauty of being
+
+258
+00:26:18,960 --> 00:26:25,040
+ built on top of these open protocols is that it gives the user a lot of freedom of choice
+
+259
+00:26:25,040 --> 00:26:32,480
+ and allows competition in the market to really benefit the end consumer but i will say that
+
+260
+00:26:32,480 --> 00:26:38,160
+ despite the fact that it is theoretically easy for users to move in between wallets it's actually
+
+261
+00:26:38,160 --> 00:26:46,880
+ not something that i've seen users do that often when it has to do with finances money people they're
+
+262
+00:26:46,880 --> 00:26:50,880
+ scared to do something they really gravitate towards brands that they trust and feel are safe
+
+263
+00:26:50,880 --> 00:26:56,800
+ usually the wallets that they start with they build that sort of trust relationship with and so
+
+264
+00:26:56,800 --> 00:27:01,760
+ my experience of actually interestingly anecdotally found wallets to be quite sticky in that sense
+
+265
+00:27:01,760 --> 00:27:08,880
+ i remember i think it was maybe late 21 or 22 one of the things that really built a bunch of like
+
+266
+00:27:08,880 --> 00:27:14,800
+ goodwill with phantom for me was seeing the transaction simulation for the first time
+
+267
+00:27:14,800 --> 00:27:20,640
+ and the the browser extension like i was interacting with some smart contract and it very clearly
+
+268
+00:27:20,640 --> 00:27:26,080
+ explained what was going on in green was what would i receive and the red was what was leaving my
+
+269
+00:27:26,080 --> 00:27:33,120
+ wallet it made it really clear and simple and easy to understand and i was like these guys get it
+
+270
+00:27:33,120 --> 00:27:39,200
+ and they presented it in a way that would make it so much more helpful for anyone who is first
+
+271
+00:27:39,200 --> 00:27:44,960
+ getting on chain to use these products and that goodwill compounds and then you have things
+
+272
+00:27:44,960 --> 00:27:49,120
+ later like the haptic feedback when you're executing a trade and you look at it and you see you've
+
+273
+00:27:49,120 --> 00:27:53,040
+ made some money and it's green and the font is really big and you're like this is really fun
+
+274
+00:27:53,040 --> 00:27:57,440
+ that this is a delightful experience and i want to come back and do this again tomorrow i'd love to
+
+275
+00:27:57,440 --> 00:28:03,840
+ know Brandon what your process is for engineering those moments and for having this emphasis on
+
+276
+00:28:03,840 --> 00:28:12,000
+ usability and UX especially in an area where people have long decried the UX and crypto and
+
+277
+00:28:12,000 --> 00:28:18,480
+ particularly in wallets yeah there's certainly a process aspect to it we do do things like user
+
+278
+00:28:18,480 --> 00:28:23,440
+ experience testing for example where we do actually put things in front of users and watch how they
+
+279
+00:28:23,440 --> 00:28:31,120
+ interact and things like that but a big part of it is creating this product centric product led
+
+280
+00:28:31,120 --> 00:28:37,200
+ culture where ideas can flow from the design team not just the engineering team or the sales
+
+281
+00:28:37,200 --> 00:28:43,200
+ team or something like that everything is very user centric and so it kind of flows quite naturally
+
+282
+00:28:43,200 --> 00:28:49,520
+ from that let me ask you this then what is the hardest challenge in creating a crypto wallet app
+
+283
+00:28:49,520 --> 00:28:58,320
+ i think the hardest challenge has been choosing what not to do in crypto especially there's so
+
+284
+00:28:58,320 --> 00:29:03,920
+ much going on that really our job is actually quite similar to an investor where it's like
+
+285
+00:29:03,920 --> 00:29:10,000
+ developing a very good bullshit detector and like intuition for how trends are going to develop to
+
+286
+00:29:10,000 --> 00:29:17,840
+ literally place bats of resources and capital towards yeah the biggest challenge is like
+
+287
+00:29:17,840 --> 00:29:23,680
+ how to navigate the trends such that we're not chasing what is just the flash in the pan and that
+
+288
+00:29:23,680 --> 00:29:29,040
+ has gotten increasingly more difficult and staying really truly long-term thinking especially when
+
+289
+00:29:29,040 --> 00:29:36,720
+ there is a lot of money to be made in trend chasing and you see folks doing it for sure and just
+
+290
+00:29:36,720 --> 00:29:42,080
+ recognizing that sometimes those short-term gains are not worth the damage long-term damage
+
+291
+00:29:42,080 --> 00:29:46,960
+ to the brand for example or like making those types of trade-offs what are you investing in
+
+292
+00:29:46,960 --> 00:29:53,040
+ where are you placing those resources for whatever trends may come in the future well definitely a
+
+293
+00:29:53,040 --> 00:29:58,960
+ couple different areas swapping and trading those are some of the bread and butter core interactions
+
+294
+00:29:58,960 --> 00:30:05,040
+ that people do on crypto so always investing there obviously perps hyper liquids also very
+
+295
+00:30:05,040 --> 00:30:11,440
+ interesting and dynamic ecosystem and environment social is something that we've also been experimenting
+
+296
+00:30:11,440 --> 00:30:18,000
+ with that we're going to be investing in more and more the way that we think about social is more
+
+297
+00:30:18,000 --> 00:30:24,800
+ in terms of taking things that people already like to do like trading for example and help
+
+298
+00:30:24,800 --> 00:30:30,960
+ supercharge it with network effects using social mechanics not necessarily bringing
+
+299
+00:30:30,960 --> 00:30:36,320
+ messaging to the app or bringing social media posts to the app but it's more about infusing
+
+300
+00:30:36,320 --> 00:30:41,360
+ what people already like to do in the app with social mechanics make that concrete for us what
+
+301
+00:30:41,360 --> 00:30:47,760
+ exactly do you mean yeah so there is literally a tab in the app where you click on it and it shows
+
+302
+00:30:47,760 --> 00:30:54,640
+ you all of your folks that you have followed their most recent actions on the app so for example
+
+303
+00:30:55,440 --> 00:31:05,360
+ my friend at Nick he bought Solana and you know he has an unrealized gain of x percent there's
+
+304
+00:31:05,360 --> 00:31:11,840
+ some light reactions that people can do like thumbs up part or whatever that helped the sort of
+
+305
+00:31:11,840 --> 00:31:16,880
+ discovery algorithm like surface things that people are engaging with you scroll down you might
+
+306
+00:31:16,880 --> 00:31:24,160
+ see some more generic network activity like six whales participated in this prediction market or
+
+307
+00:31:24,160 --> 00:31:32,080
+ something like that scroll down and then you see hey five my friends they just participated in this
+
+308
+00:31:32,080 --> 00:31:40,160
+ perps product and so that really helps supercharge the entire crypto ecosystem by helping folks
+
+309
+00:31:40,160 --> 00:31:45,440
+ discover the next thing to do that's the discovery problems been a huge issue in crypto generally
+
+310
+00:31:45,440 --> 00:31:51,680
+ where people get into one thing and there's no golden path to figure out what the next thing to do is
+
+311
+00:31:52,480 --> 00:31:57,520
+ it's usually some amalgamation of like find the right people to follow on twitter or get on
+
+312
+00:31:57,520 --> 00:32:02,640
+ discourse or something like that and usually that's to find some recommendation of what
+
+313
+00:32:02,640 --> 00:32:08,160
+ coin to trade next or what dap to use and so we can bring those recommendations directly in the app
+
+314
+00:32:08,160 --> 00:32:13,120
+ that's kind of concretely what i'm talking about yeah this sort of parallels some features that
+
+315
+00:32:13,120 --> 00:32:18,960
+ other consumer fintech apps have done in the past you know venmo got very popular with their
+
+316
+00:32:18,960 --> 00:32:23,680
+ sort of social activity feed you could see who was paying who you know who's going out to dinner
+
+317
+00:32:23,680 --> 00:32:29,440
+ and all sorts of things like that and then kind of etoro came in the mix i think early on with like
+
+318
+00:32:29,440 --> 00:32:33,680
+ a social feed like a robin hood style thing but you could see what people were betting on
+
+319
+00:32:33,680 --> 00:32:40,320
+ so you're incorporating these sorts of elements drawing from more from the consumer finance world
+
+320
+00:32:40,320 --> 00:32:46,320
+ and adding those features over rather than maybe from like the pure social networking social media
+
+321
+00:32:46,320 --> 00:32:52,640
+ world like a twitter or facebook or something like that yeah i think i think the venmo comparison is
+
+322
+00:32:52,640 --> 00:32:59,920
+ is pretty close in structure it feels like this alive network you can see what everyone's doing
+
+323
+00:32:59,920 --> 00:33:04,960
+ but because the payments angle is so one-dimensional it just didn't end up like crossing that
+
+324
+00:33:04,960 --> 00:33:10,480
+ humpboards like really became like entertainment but because the on-chain ecosystem is so diverse
+
+325
+00:33:10,480 --> 00:33:15,280
+ and there's so many different things going on obviously on top of payments there's the trading
+
+326
+00:33:15,280 --> 00:33:21,280
+ prediction markets anything that can be born on crypto can have a representation in this sort of
+
+327
+00:33:21,280 --> 00:33:29,040
+ like social discovery feed so that is the out division for it and how it's very much a feature
+
+328
+00:33:29,040 --> 00:33:35,120
+ that multiplies everything else that's going on i think increasingly trading and i guess investing
+
+329
+00:33:35,120 --> 00:33:40,160
+ are becoming like entertainment products and so i think that's why it's so important when you
+
+330
+00:33:40,160 --> 00:33:46,640
+ have a social feed because trading with your friends is more fun and might drive you to do
+
+331
+00:33:46,640 --> 00:33:50,640
+ more trading and then let's say you layer on the fact that all this is on-chain you have
+
+332
+00:33:50,640 --> 00:33:58,720
+ programmable money brand then just hundred x2 coin and maybe i go trade that and i make money on it
+
+333
+00:33:58,720 --> 00:34:04,320
+ and then i want to deposit my profits into a vault where i'm going to earn some yield
+
+334
+00:34:04,320 --> 00:34:09,520
+ like then i'm bundling this thing where i'm having fun and i'm managing my finances
+
+335
+00:34:09,520 --> 00:34:15,120
+ and that is a really really powerful and sticky product and i'm doing it with my friends like
+
+336
+00:34:15,120 --> 00:34:19,120
+ that's really cool and that's something that has never really been possible until the last few
+
+337
+00:34:19,120 --> 00:34:25,760
+ years yeah that's a great point and and Brandon you had mentioned like your comp is Robinhood
+
+338
+00:34:25,760 --> 00:34:30,640
+ which sort of started with stock trading and then they've entered into crypto you guys started with
+
+339
+00:34:30,640 --> 00:34:37,040
+ crypto and where do you go from there it's all about doubling down tripling down on crypto
+
+340
+00:34:37,040 --> 00:34:42,800
+ crypto is basically the kind of black hole that's absorbing everything that's going on in finance
+
+341
+00:34:42,800 --> 00:34:46,880
+ and that's the direction that Robinhood and most traffic companies are going right how do i get
+
+342
+00:34:46,880 --> 00:34:52,880
+ into crypto and how do i get exposure to like all the excitement our angle is always going to be like
+
+343
+00:34:52,880 --> 00:34:58,480
+ how do we harness the power of crypto and on-chain ecosystems to really supercharge
+
+344
+00:34:58,480 --> 00:35:05,120
+ the app and meet fraud competitors like one big thing is truly being able to access a global
+
+345
+00:35:05,120 --> 00:35:10,720
+ audience that's something that most of the companies Robinhood included has had difficulties
+
+346
+00:35:10,720 --> 00:35:17,280
+ doing but yeah i do genuinely believe that the open open and permissionless and global nature of
+
+347
+00:35:17,280 --> 00:35:21,840
+ it it's going to be very difficult to stop the momentum around all the network effects there
+
+348
+00:35:21,840 --> 00:35:26,080
+ if you're trying to recreate everything from scratch it's going to be difficult to compete
+
+349
+00:35:26,080 --> 00:35:32,000
+ obviously you know totally and in the slana world there's this big meme of internet capital markets
+
+350
+00:35:32,640 --> 00:35:37,360
+ how far along are we toward achieving that vision you know i think we're getting
+
+351
+00:35:37,360 --> 00:35:42,240
+ pretty close there's all different vectors think about how close we're getting there's the technology
+
+352
+00:35:42,240 --> 00:35:48,960
+ and the scale there's the mainstream acceptance mainstream institutional acceptance and the trends
+
+353
+00:35:48,960 --> 00:35:53,040
+ are definitely accelerating together i mean things are getting more and more digital and becoming
+
+354
+00:35:53,040 --> 00:35:58,240
+ more and more online and this is kind of getting to some apologies digital state stuff but like
+
+355
+00:35:58,240 --> 00:36:05,360
+ you actually are seeing factions of online communities who have true like geopolitical power
+
+356
+00:36:05,360 --> 00:36:11,600
+ this is a balaji serena vassen who yeah you know wrote a book the network state and formerly was
+
+357
+00:36:11,600 --> 00:36:17,040
+ a GP over here also i think people don't necessarily appreciate the accelerating nature of technology
+
+358
+00:36:17,040 --> 00:36:22,960
+ like compounding nature then once you once you throw an ai and all of that you can get there pretty
+
+359
+00:36:22,960 --> 00:36:31,120
+ quick i'm glad you mentioned ai we had elia polasukin the co-founder of near on our show you know one
+
+360
+00:36:31,120 --> 00:36:35,840
+ thing that he was saying that really stuck with me is this idea that he could imagine a world where
+
+361
+00:36:35,840 --> 00:36:43,360
+ apps and websites kind of go away and where everything is sort of mediated by ai agents
+
+362
+00:36:43,360 --> 00:36:52,480
+ i wonder what your take is on that thesis and whether you're planning for a world that could
+
+363
+00:36:52,480 --> 00:36:58,800
+ look like that yes it remains to be seen how ai is going to shape how consumers use internet products
+
+364
+00:36:58,800 --> 00:37:05,600
+ obviously there was the i found moment where things got shifted to this mobile form factor
+
+365
+00:37:05,600 --> 00:37:10,400
+ and that that had really huge implications for all industries yeah that was the leap from websites
+
+366
+00:37:10,400 --> 00:37:17,680
+ to apps app first mobile first for ai it's not exactly clear to me yeah how it's really going
+
+367
+00:37:17,680 --> 00:37:23,200
+ to change things whether you're going to have some ai agent for everything you do it's auto
+
+368
+00:37:23,200 --> 00:37:28,080
+ generating you a ui or something like every one time you want to do something that that seems a
+
+369
+00:37:28,080 --> 00:37:33,200
+ little bit too futuristic i think and then i think when you layer on also touching on what
+
+370
+00:37:33,200 --> 00:37:39,680
+ we were talking about earlier this whole trust aspect especially with finances i think you may
+
+371
+00:37:39,680 --> 00:37:45,840
+ see a little bit of a slower uptake potentially of folks trusting agents with their finances that
+
+372
+00:37:45,840 --> 00:37:54,400
+ being said i do think in a world where ai agents are performing financial transactions the obvious
+
+373
+00:37:54,400 --> 00:38:02,720
+ choice for them to interact on the internet with money is by using crypto it's just the most
+
+374
+00:38:02,720 --> 00:38:11,120
+ frictionless low cost and like internet native borderless medium of exchange so just by sheer law
+
+375
+00:38:11,120 --> 00:38:15,920
+ of physics i don't see a world where like agents are not using crypto as their primary transaction
+
+376
+00:38:15,920 --> 00:38:21,200
+ vehicle i like it will just take i feel like it's at least a couple or a few years out perhaps the
+
+377
+00:38:21,200 --> 00:38:29,920
+ most obvious opportunity for wallets in the context of ai is curating and kind of like editorializing
+
+378
+00:38:29,920 --> 00:38:35,920
+ the apps or protocols that are made available in the the wallet ui itself kind of like tiktok
+
+379
+00:38:35,920 --> 00:38:41,360
+ decides what we watch and spotify decides what we hear there is maybe an opportunity where users
+
+380
+00:38:41,360 --> 00:38:46,960
+ can opt into a wallet deciding like what lending protocol do you use maybe we move towards this
+
+381
+00:38:46,960 --> 00:38:52,880
+ abstraction of protocols that are all integrated into the wallet and maybe the best wallet is the
+
+382
+00:38:52,880 --> 00:38:57,840
+ one that does the best job and has the best trained models on being able to curate that for a given
+
+383
+00:38:57,840 --> 00:39:03,440
+ user given their you know their familiarity with crypto their on chain history their risk tolerance
+
+384
+00:39:03,440 --> 00:39:08,400
+ their preferences all these sets for conditions and that's probably somewhere in between where we
+
+385
+00:39:08,400 --> 00:39:13,920
+ are now and an ili is vision of like agents just fully transacting on our behalf i think
+
+386
+00:39:13,920 --> 00:39:19,760
+ some things that look so obvious are actually still very far away from most people even knowing
+
+387
+00:39:19,760 --> 00:39:24,560
+ what that is that's actually a little bit of a sometimes a drawback of being so deep it's like
+
+388
+00:39:24,560 --> 00:39:31,680
+ it's hard to really step out of that and get that perspective so wallets potentially becoming a
+
+389
+00:39:31,680 --> 00:39:39,680
+ more and more important interface as we move into this decentralized crypto first internet potentially
+
+390
+00:39:39,680 --> 00:39:46,960
+ a contender for the next sort of super app or everything app as jay has argued and i'd also
+
+391
+00:39:46,960 --> 00:39:51,520
+ like to underscore something that you said Brandon which is that crypto is kind of like the black hole
+
+392
+00:39:51,520 --> 00:39:56,960
+ that's that's eating everything else eating traditional finance and and all sorts of other
+
+393
+00:39:56,960 --> 00:40:01,200
+ things we're at a really interesting inflection point right now and it's going to be fascinating
+
+394
+00:40:01,200 --> 00:40:05,920
+ to watch how these trends play out absolutely awesome well thank you guys for coming on the show
+
+395
+00:40:05,920 --> 00:40:31,520
+ and sharing your thoughts yeah thanks so much thanks Brendan
+

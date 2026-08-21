@@ -1,0 +1,248 @@
+ I have a worldview in which I don't think DeFi protocols should change.
+ I think DeFi protocols themselves should be as open and composable and permissionless as possible.
+ I think certain assets, certain tokens, should be permissioned.
+ And I think when you combine completely open, completely composable,
+ DeFi protocols and assets, some of which might have to be KYC and some of which are completely
+ permissionless, you get the best possible end state.
+ Here we are with Robert Leschner, who needs no introduction to our audience,
+ but still co-founder of Superstate and Compound.
+ Robert, it's so great to finally have you on the Define podcast.
+ Kami, thanks for having me on.
+ So Robert was one of the, I think probably the first DeFi founder interview I ever did
+ when I was at Bloomberg back in 2018 and had just like very little idea of what DeFi was.
+ I think like anyone, I don't think anyone had an idea of what DeFi was at the time.
+ I still don't know what DeFi is to be honest.
+ Yes, good answer.
+ Okay, so obviously from Compound, now you are at Superstate.
+ You pioneered a decentralized ending with Compound and now you are doing something very
+ good friend, tokenizing real world assets with Superstate.
+ I love kind of your, what was the thought line between those two and wondering your view of
+ on chain slash DeFi finance has changed.
+ So here's the thought line.
+ When I first founded Compound, starting in 2017, I predicted somewhat incorrectly that all assets
+ would wind up being tokens and blockchains.
+ And when we launched Compound in 2018, when it was during 2019, 2020, 2021, 22, 23,
+ all of the assets that you could use in Compound and any DeFi protocol, for that matter,
+ were really crypto native assets.
+ Tokens, oftentimes of other crypto projects that were issued on a blockchain for the first time,
+ they weren't coming from, you know, an off-chain system.
+ They were basically being issued on chain.
+ And this was amazing because this allowed people to prove out the functionality of DeFi
+ protocols and autonomous pieces of software that could create new products and marketplaces.
+ And I always thought that, you know, that would change, right?
+ I knew that was going to be the case when we first launched Compound.
+ You know, I just assumed, though, at a certain point, you know, the tokens that you use on chain
+ and DeFi protocols would start to be stocks and bonds and real estate and commodities and
+ all these other things as opposed to just the tokens of other crypto projects.
+ And the whole thing, for me, felt very self-referential and that the ceiling for how
+ big things could get was really limited until, as a society, we could start to bring in all
+ of the assets and value that didn't live on a blockchain yet.
+ And to have not trip their native tokens be the primary assets within DeFi protocols.
+ And so for me, that was like something that I couldn't stop thinking about.
+ And I said, okay, well, I want to figure out how to bring all of the stuff that's not yet
+ composable with DeFi on chains so that it can be composable with DeFi.
+ That means a lot of sense, for that to happen, probably the biggest roadblock has been a regulatory
+ one. How to do this in a compliant way and others tried to do that before and it didn't
+ turn out so well. So what's different now? And if you can kind of go through how you've solved
+ these problems? Well, there's actually a lot that's different now than, you know, eight years ago
+ or seven years ago, right? So people have been trying pretty much since as long as Ethereum has
+ existed to be tokenizing securities and tokenizing off chain assets. It hasn't really picked up
+ until the last year or so part of that's regulatory, but there's a lot of other factors going into
+ this. So here are the sort of core building blocks that I think are necessary to tokenize
+ off chain assets at scale, right? Yeah, obviously you can do one off experiments and over the years
+ we've always seen one off experiments that haven't really gotten any traction or critical mass,
+ but you know, I've been done, you know, to put a flag in red. So here's the core ingredients that
+ are necessary that have to come together. So the first are issuers, right? Whose assets
+ are coming on shape? In the past, there have been like a small number of people willing to like
+ tokenize their assets or wanting to put the number of issuers of assets has been pretty low. And that's
+ really started to change over the past two years, right? That's the first piece. The second piece
+ are the use cases, right? When I started in 2017, there was nothing that you could possibly do
+ with a tokenized asset once it was on chain, right? Besides hold it in your wallet, any asset
+ that's owned off chain, metaphorically speaking, already sits in someone's wallet, bringing it on
+ chain without DeFi protocols to use it in or new use cases doesn't really accomplish much. And so,
+ you know, the use cases are here, right? We've been proving out amazing DeFi use cases for
+ eight years now, okay? That's real. Then there's the demand. How many people want to hold a tokenized
+ security and all of the one-off experiments that happened over the last, you know, many years,
+ the number of people that wanted to own this stuff really small. We're just now getting to the point
+ where a lot of people want to own this stuff. And lastly is regulatory. And you mentioned this,
+ I also see this as like a hugely important, you know, ingredient, but it hasn't actually
+ changed that much. So in some ways, it's changed less than people think. Most of the assets that
+ people are tokenizing are securities. We've known their securities for a very long time, right?
+ At Superstate, we are tokenizing securities. We're not tokenizing commodities yet. We're
+ not tokenizing things that are not securities. We're tokenizing things that are very obviously
+ securities. There's nothing that we can do right now that we couldn't have done from a legal and
+ regulatory perspective a year ago, or even three years ago. What has changed dramatically is
+ everyone else's willingness around us to interact with these assets. Now that we're starting to see
+ incredible regulatory clarity. What I mean by this is like, you know, I could have launched a TVL fund
+ and tokenized it under Gary against four years ago. Would people want to interact with it, touch it,
+ add support for it, you know, would institutions want to use it? No, because even if it was legal,
+ they would have faced, you know, a lot of compliance costs, investigation costs,
+ they would have faced all sorts of additional costs and it would have been a burden. That's
+ what's different is that it's not a burden. So if you talk to any institution of Wall Street,
+ you're like, Hey, would you like to interact with tokenized securities? They're like,
+ actually, yes, like, we're incredibly excited about this. And you know, we're incredibly excited
+ by the tailwinds coming from the SEC and creating regulatory clarity. And so it's not that things
+ went from being illegal to legal, right, but what really swissed from a regulatory perspective was,
+ you know, an extremely cumbersome headwind to, you know, a tailwind of, call it even like,
+ soft support, right? There are no real new policies that, you know, flip a bullion from a zero to a
+ one here. You know, we just see a much more accommodative atmosphere. And this is a very
+ institutional market for institutions, knowing that they're not at odds with their regulators
+ everything. And so the regulatory stuff is an absolute game changer. And it has absolutely been
+ one of the things that started to create this catalyst for tokenized assets. But it's not that
+ this was like illegal a couple years ago, which just wasn't encouraged, was discouraged.
+ No, that's a great point. And so speaking of institutional demand, I think what I've seen,
+ at least, is from institutions, there's been a lot more appetite to issue assets on chain,
+ right? Like BlackRock with mid-middle, Franklin Templeton and so on, they're issuing their tokenized
+ money markets. But are you seeing demand from institutions to actually buy these tokens or
+ is demand really coming still from more crypto native players?
+ Yeah, it's a great question. Let me walk you through the products suite of what
+ we're tokenizing, because I can just see differences. So the first product that we launched was a
+ tokenized tea bill fund. The second product we launched was a tokenized basis yield fund.
+ And the third product that we're launching are tokenized equity. So all of these have like a
+ very different audience to them. In general, it's all crypto native. And why is it entirely
+ crypto native? It's because right now the people that want to hold a tokenized asset on a blockchain
+ are people that are using crypto wallets, crypto custodians, crypto realities in general.
+ We're not yet to the point where tokenized securities are the thing that happens under the hood for
+ traditional market participants. You know, eventually, trad five players will be using tokenized things
+ under the hood. And they won't say, I'm using crypto, they're just going to know that things
+ settle faster. They're more programmable. They're just more efficient and better. But right now,
+ we still learn a moment where all of the users are crypto first. On the table side, you know,
+ there's a lot of demand from, you know, stablecoin projects. There's a lot of demand from, you know,
+ applications that are looking for a risk free rate that they can embed underneath their product in a
+ composable and programmatic way, right? There are some crypto hedge funds, crypto venture funds
+ people that are saying, Oh, like, let me take, you know, stablecoins and have a productive
+ product of use for them and tokenized T bills that I can enter and exit quickly. You know,
+ but it's for the most part, people that are just looking for a very basic risk free rate that they
+ can enter and exit quickly. And that's honestly very composable. And so we see a lot of demand
+ from an application developer more than anything else. Our basis product, it's risky, right? It
+ goes up and it sometimes goes down a little bit, right? Because crypto markets are volatile.
+ So it's a high yield product with a little bit of risk there. And so it's not really suitable
+ as a building block in the same way for a stablecoin, let's say. And so the use case,
+ they're actually, you know, instead of being very application focused is significantly more
+ speculative focused. And so the users of it are oftentimes, you know, people that are
+ comfortable with risk. It's a lot of crypto native hedge funds. It's players that are actually
+ using this composable with d5. So it, you know, our, you know, basis fund is integrated into
+ Aave Horizon, which is an RWA market. You see a lot of people leveraging it up and actually
+ using it as a composable asset. It's a lot of sophisticated players. And so it skews much more
+ hedge fund than it does applications. Although, you know, we've recently announced like a couple
+ weeks ago that, you know, Spark, you know, the sky slash maker project was integrating USCC.
+ And so we do see some protocol adoption there, but it tends to be much more
+ crypto native speculative. And then lastly, our token is equities. And these are really
+ a nascent immersion product. We haven't yet turned on a lot of the use cases for
+ and users to be able to use them right now. We're really just in a testing phase.
+ And what's that mean? And who's using it? Well, right now what we're doing is, you know, we're
+ approaching tokenization of equities a little bit differently than other projects. You know,
+ we're not, you know, a startup that goes on and buys 100 different stocks and puts them in 100
+ different SPVs or holds them at a custodian or in a trust and issues tokens against them.
+ Our model of tokenization is actually quite different. We offer what we call native tokenization
+ or canonical tokenization. And so the way this works is we're basically the infrastructure for
+ a public company, someone that's trading on the NASDAQ or your stock exchange to tokenize their
+ own stock and where they're agent and issuance platform. And so when a company tokenizes their
+ own stock, it's their official stock. The same shares the trade on the NASDAQ or your stock
+ exchange is now a token on the blockchain. And what this means is that you can, you know,
+ through a relatively for now, clunky process, you can actually migrate shares between a brokerage
+ account and a token on the blockchain and back again. And so right now we're really testing.
+ We're testing moving shares from brokerage accounts to tokens, tokens to brokerage accounts
+ and making sure the sort of underlying infrastructure of equity tokenization works before activating
+ a lot of the DeFi use cases and really seeing for the first time, who are the users of the stock?
+ It's so interesting. I mean, all these use cases, but I'll ask you a follow up questions on specifically
+ tokenized stocks. We're seeing so many players focus on this use case. And yeah, they all have
+ kind of their different approaches. Yours is super interesting kind of to make the tokenized stocks
+ the actual equity of the company. But if this is the path forward, how do you see just the broader
+ tokenized equity market evolving? Do you see kind of a tokenized equities will be from just
+ new company's issuing stocks or wouldn't super say do you have a path forward later for existing
+ equities to also come on chain? Yeah, absolutely. So I want to preface by saying I think both overall
+ models of tokenization work and will exist. I think there's the super state model where it's like
+ the canonical stock. There's disadvantages of this model. It doesn't scale as effectively. We have to
+ work with issuers one by one to bring new tokenized equities to market. The other model, you know,
+ any startup like even to start at this like a day old can basically go and tokenize the top 100
+ stocks. They're making an entirely new asset when they do that. There's like weird credit risk
+ associated with the startup. There's differences in like what are the rights of the tokens,
+ not that the top, but it's extremely scalable. Any startup listening to this podcast could
+ probably go and make their own wrap stock relatively easily. Right. And so I think there's actually
+ a really interesting opportunity for both. I think institutions and the existing financial
+ market structure is going to strongly prefer the super state model, which is, hey, this is the
+ same stock with the same rights, the same governance, the same risks. It's not a different security.
+ And I think retail and I think international users are going to strongly prefer the second model.
+ Yeah, we don't care if it's a new asset. As long as it tracks the price with like 99% correlation
+ and has basically the same liquidity, what's it matter? Right. I think it's going to be much
+ more retail focus. And I think that's where it's going to see success. And so I think both models
+ are viable. I just think they have very different customers long term. And then, well, all of these
+ use cases and arguably market as a whole right now is still really small, right? It's I think
+ it's 300 million. Nothing. Yeah. It's like we haven't even started yet. Yeah. And you've mentioned
+ like right now, it's mostly crypto native. So what's it going to take? Like, what's where does the next
+ leap come from? How when do institutions actually start buying these talks? What use case you think
+ is going to be the thing that makes this a larger market? Yeah, it's a great question. I think it's
+ DeFi. I mean, frankly, most people, including most people around the world have the ability to buy
+ stocks right now. That doesn't really change with organization, frankly, right? It's us. I think it's
+ being able to do interesting things with these in DeFi protocols. That's going to be the tipping
+ point. When stablecoins came around and I was there with stablecoins really picked up in 2018,
+ very few people wanted stablecoins. It wasn't until it was like, wow, like you can use these in
+ every single type of DeFi protocol that you know, you really started to see explosive growth. And
+ yes, there's a lot of activity outside of DeFi protocols. But that was what like blew it up,
+ frankly, was like, okay, like you can trade on chain, you can borrow on chain. There's lots of
+ markets being created on centralized exchanges for these things. You know, oh, you can move it
+ between a DeFi protocol and a centralized exchange. It just became incredibly useful
+ with new reasons for them to exist. And so, you know, people have had dollars for hundreds of years,
+ stablecoins, literally better. I had tokenized equities and tokenized securities more broadly,
+ or got to go through the same thing until there was real use cases in DeFi and centralized exchanges,
+ the ability to move between the two very seamlessly. I don't think people are going to prefer the
+ crypto version of this. The Robinhoods of the world, as is the Vanguard, the Schwabs, whatever
+ brokerage account people use, they're pretty good today. They're not perfect. They're pretty good.
+ Right. And so, I think it takes like this step function of offering something new before people
+ will say like, oh, actually, I strongly prefer the crypto version. Like, you know,
+ there's reasons for this to migrate from my wallet into the crypto version.
+ I love that insight. But, you know, in that world, DeFi becomes something different, right? Like,
+ there's there would be a KYC aspect, it wouldn't be like truly permissionless. What do you think,
+ you know, there could be some kind of counterargument to this model where DeFi grows with the tokenization
+ of real world assets. And it just becomes gated and permissions. What do you say to that line of
+ criticism? I have a worldview in which I don't think DeFi protocols should change. I think DeFi
+ protocols themselves should be as open and composable and permissionless as possible. I think certain
+ assets, certain tokens should be permissioned. And I think when you combine completely open,
+ completely composable, you know, DeFi protocols and assets, some of which might have to be KYC
+ and some of which are completely permissionless, you get the best possible end state, which is,
+ yeah, some users won't be able to touch this token because of the geography they're in or
+ because they're not accredited or because X, Y, and Z. But a DeFi protocol will be able to bring
+ all of those under one breath and say, oh, we have permissionless assets. We have, you know,
+ geo-blocked assets. We have accredited blocked assets. We have all of it, but the DeFi protocol
+ can support it all, unified model. I think that's the future. And I think in that world, like,
+ yes, an individual shouldn't necessarily have access to every single asset if it
+ doesn't conform with the laws, you know, like, I don't believe in illegal assets. I believe in legal
+ assets and radically open infrastructure for them to run on. And I think you'll have the compounds
+ and obviously new swaps and curves and, you know, everything's of the world one day supporting
+ a mix of stuff. And that's good. What's your view on how just broader finance looks like
+ under this model? Like, do you think all assets come on chain and everyone is able to
+ transact in in DeFi freely? Where do you see this kind of convergence of two worlds going?
+ I mean, the people that are using DeFi protocols, the people that have their money on chain right now,
+ are crypto power users, right? It's, you know, in some cases, and we're starting to see this the
+ most with stablecoins, we're starting to see DeFi become like infrastructure for traditional
+ applications, right? We're starting to see a lot more fintechs trying to use DeFi under the hood.
+ And it's something that we've been predicting. I mean, like you and I and most of the people
+ listening to this program for years now, it's like, Oh, DeFi will be infrastructure. We're not
+ seeing this with most assets. We're not seeing this with most tokens. Most tokens are not being
+ used outside of like the crypto native on chain, mostly speculative stuff. But we're starting to
+ see like underlying infrastructure for mostly stablecoins. I think that's what happens next,
+ as we see, you know, DeFi become underlying infrastructure for equities. And for things that
+ there's a neat demand in traditional markets for it. And I think that's where it goes. And what
+ happens next is like we see DeFi plus tokenized securities eventually start to power all sorts of
+ stuff that the end users aren't even knowing that they're in right with Web. In this world,
+ which DeFi primitives or protocols when to be really simple about this, there's only really
+ three core primitives, okay, in general, like to this day, right? There's obviously a lot of
+ edge cases and new stuff and but you have decks, you have Baro land and you have Perbs. Those are
+ like the three crypto, most important primitives, right? Yes, there's a lot of other stuff. There's
+ a lot of other DeFi applications, but like those are the big three, you know, I think you're gonna
+ have tokenized assets playing a huge role in all three. And then finally, I'm very curious on your
+ the lessons that you took from compound and how you're applying that to super safe.
+ Yeah, I mean, there's a lot of lessons, I mean, like endless lessons. One of them is that, you know,
+ decentralized governance and development really slows things down. You know, we've seen this,
+ you know, sort of reality play out from so many different projects in crypto, you know, as they
+ shift from like a very centralized team to a decentralized team. And, you know, I don't think that,
+ you know, succeeded very well with a compound, frankly, you know, that shift from like, oh, one
+ team does it all to, Hey, the community can do it. Like that was a really like rough transition
+ that I think slowed things down tremendously. And so, you know, super state, you know, if we were
+ to have a token to be very far into the future, it would not be early on. And you know, the sort of
+ life cycle of things. Interesting. That hint at a token there. Oh, I'm not hinting at a tag. I'm
+ just saying like, I've gone through the shift from, you know, centralized to decentralized and like,
+ it's a headwit. Like it really is awesome. Robert, well, we'll have to do another one of these.
+ But amazing to have you on the show. Thanks so much. And yeah, super exciting to see what you're
+ doing with super state. Thank you.

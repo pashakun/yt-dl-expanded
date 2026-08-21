@@ -1,0 +1,2428 @@
+1
+00:00:00,000 --> 00:00:05,920
+Today on the podcast, I sat down with Dave Balter, the co-founder and CEO of Flipside Crypto.
+
+2
+00:00:05,920 --> 00:00:09,960
+I go way back with Dave, and Flipside was actually the first investment we ever made
+
+3
+00:00:09,960 --> 00:00:14,760
+from Castle Island Ventures back in 2018, shortly after we left Fidelity.
+
+4
+00:00:14,760 --> 00:00:18,440
+Flipside has really leaned in aggressively at this intersection of public blockchains
+
+5
+00:00:18,440 --> 00:00:22,280
+and AI, and I want to have Dave on to talk about this convergence and talk about the
+
+6
+00:00:22,280 --> 00:00:25,800
+future of on-chain data and insights powered by AI.
+
+7
+00:00:25,800 --> 00:00:29,920
+I think you'll enjoy this one, so without further ado, here's my conversation with
+
+8
+00:00:29,960 --> 00:00:30,960
+Dave Balter.
+
+9
+00:00:30,960 --> 00:00:33,800
+Matt Walsh and Nick Carter are partners at Castle Island Ventures.
+
+10
+00:00:33,800 --> 00:00:36,440
+All of these expressed by them or the guests on this podcast are solely their opinions
+
+11
+00:00:36,440 --> 00:00:39,000
+and do not reflect the opinions of Castle Island Ventures.
+
+12
+00:00:39,000 --> 00:00:41,400
+Guests and hosts may maintain positions in the assets discussed in this podcast.
+
+13
+00:00:41,400 --> 00:00:44,680
+You should not treat any opinion expressed by anyone on this podcast as a specific inducement
+
+14
+00:00:44,680 --> 00:00:48,320
+to make a particular investment or follow a particular strategy, but only as an expression
+
+15
+00:00:48,320 --> 00:00:49,520
+of their personal opinion.
+
+16
+00:00:49,520 --> 00:00:52,400
+This podcast is for informational purposes only.
+
+17
+00:00:52,400 --> 00:00:56,840
+Brought down by Bad Mortgage Investments, Lehman, which has 25,000 employees, will be
+
+18
+00:00:56,840 --> 00:00:57,840
+liquidated.
+
+19
+00:00:57,840 --> 00:01:02,280
+The federal government loans American International Group, AIG, $85 billion.
+
+20
+00:01:02,280 --> 00:01:05,080
+This is a different kind of market, and the Fed is asleep.
+
+21
+00:01:05,080 --> 00:01:09,280
+The federal government is stepping it to stabilize Fannie Mae and Freddie Mac, the two mortgage
+
+22
+00:01:09,280 --> 00:01:11,760
+giants that have been threatened by the housing crisis.
+
+23
+00:01:11,760 --> 00:01:15,440
+The bank of England has pumped 75 billion pounds more to Britain's ailing economy,
+
+24
+00:01:15,440 --> 00:01:17,080
+with a new round of close to teasing.
+
+25
+00:01:17,080 --> 00:01:20,400
+You print a couple trillion dollars and all of a sudden people start to worry.
+
+26
+00:01:20,400 --> 00:01:23,440
+So out of this worry, we have something called the Bitcoin.
+
+27
+00:01:23,440 --> 00:01:24,440
+Bitcoin.
+
+28
+00:01:25,040 --> 00:01:26,840
+Dave, welcome back on the podcast.
+
+29
+00:01:26,840 --> 00:01:28,040
+You've been on a bunch of times.
+
+30
+00:01:28,040 --> 00:01:30,800
+You might be in our Mount Rushmore of guests here.
+
+31
+00:01:30,800 --> 00:01:31,800
+Do I get a trophy?
+
+32
+00:01:31,800 --> 00:01:32,800
+I don't know.
+
+33
+00:01:32,800 --> 00:01:34,160
+We're going to go deep on AI today.
+
+34
+00:01:34,160 --> 00:01:36,000
+We haven't done enough podcasts on AI.
+
+35
+00:01:36,000 --> 00:01:39,800
+I'd say out of anyone in the portfolio, you've probably spent the most time on it.
+
+36
+00:01:39,800 --> 00:01:43,880
+We'd love to maybe just start with your general views on what's happening in the market for
+
+37
+00:01:43,880 --> 00:01:45,480
+AI, even outside of crypto.
+
+38
+00:01:45,480 --> 00:01:50,360
+I know you've spent years as a venture person, you've spent years in startup trenches.
+
+39
+00:01:50,360 --> 00:01:52,000
+What's going on in the AI market?
+
+40
+00:01:52,160 --> 00:01:54,560
+AI is transforming everything.
+
+41
+00:01:54,560 --> 00:01:56,880
+I would say there's two big shifts happening.
+
+42
+00:01:56,880 --> 00:02:01,440
+There's the in-company shift where everybody's work is transformed at Flipside.
+
+43
+00:02:01,440 --> 00:02:04,880
+Engineers start at Cursor or other solutions.
+
+44
+00:02:04,880 --> 00:02:10,560
+They don't code by hand up front, they buy code and then transform that into human helping
+
+45
+00:02:10,560 --> 00:02:12,040
+that code be productive.
+
+46
+00:02:12,040 --> 00:02:18,040
+I think that transformation impacts the whole business, so product at Flipside's role has
+
+47
+00:02:18,080 --> 00:02:25,440
+had to change dramatically because engineers can actually move faster than a PRD or a prototype
+
+48
+00:02:25,440 --> 00:02:27,200
+that comes out of research and product.
+
+49
+00:02:27,200 --> 00:02:32,320
+They build it, test it, and are getting outputs before even a product person can create it.
+
+50
+00:02:32,320 --> 00:02:37,920
+Internally, AI has changed just how everything is working, and then externally, the ability
+
+51
+00:02:37,920 --> 00:02:42,560
+for businesses to operate with a different form of product, or we'll talk about it as
+
+52
+00:02:42,560 --> 00:02:47,640
+it relates to data within the crypto space, but you just are seeing everything is turned
+
+53
+00:02:47,640 --> 00:02:48,640
+on its head.
+
+54
+00:02:48,640 --> 00:02:51,520
+One company I sit on the board of is in Boston, it's called RayFit.
+
+55
+00:02:51,520 --> 00:02:56,840
+It's an AI app which exercises with you, so it's doing everything from like counting
+
+56
+00:02:56,840 --> 00:03:02,440
+your reps, but then it's building custom workout plans for you based on all the things
+
+57
+00:03:02,440 --> 00:03:06,760
+you would think about, my knee hurts, or now at a gym in a different city, and I don't
+
+58
+00:03:06,760 --> 00:03:11,480
+know what weights I have, and so all of your workout routine is being impacted by something
+
+59
+00:03:11,480 --> 00:03:13,600
+much more custom to you.
+
+60
+00:03:13,600 --> 00:03:14,600
+Everything's changed.
+
+61
+00:03:14,600 --> 00:03:15,600
+I don't think we're ever going back.
+
+62
+00:03:15,600 --> 00:03:18,480
+The internet, cloud, all that stuff, we're not going back.
+
+63
+00:03:18,480 --> 00:03:19,480
+Does it feel like the internet, too?
+
+64
+00:03:19,480 --> 00:03:22,760
+I mean, obviously, you were there when the internet really started to become adopted
+
+65
+00:03:22,760 --> 00:03:23,760
+in the enterprise.
+
+66
+00:03:23,760 --> 00:03:25,240
+Does it feel like a similar shift?
+
+67
+00:03:25,240 --> 00:03:30,040
+Yes, in the polarization of people's perspectives.
+
+68
+00:03:30,040 --> 00:03:31,600
+That's good alliteration right there.
+
+69
+00:03:31,600 --> 00:03:35,600
+I like polarization of people's perspectives, so I got to write that one down.
+
+70
+00:03:35,600 --> 00:03:38,120
+There are people who are like, oh, AI, I will never touch it.
+
+71
+00:03:38,120 --> 00:03:42,280
+My kids are like, oh, it's draining water or whatever it's doing.
+
+72
+00:03:42,280 --> 00:03:43,280
+Electric.
+
+73
+00:03:43,280 --> 00:03:44,280
+I'm like, you're on TikTok all day.
+
+74
+00:03:44,280 --> 00:03:45,280
+I don't know what you're talking about.
+
+75
+00:03:45,280 --> 00:03:46,280
+That's just as bad.
+
+76
+00:03:46,280 --> 00:03:50,200
+You know, it's polarizing because there's fear and change.
+
+77
+00:03:50,200 --> 00:03:51,800
+I don't have to relearn how to do this.
+
+78
+00:03:51,800 --> 00:03:53,000
+I don't want to have to do this.
+
+79
+00:03:53,000 --> 00:03:54,000
+It hallucinates.
+
+80
+00:03:54,000 --> 00:04:00,080
+It can't be good to once people are starting to use the tools and feeling what's changing
+
+81
+00:04:00,080 --> 00:04:06,120
+to like, my life will never be the same, and so it feels like the internet in that you've
+
+82
+00:04:06,120 --> 00:04:11,840
+got real transformation happening in people's footprints and how they're doing things.
+
+83
+00:04:11,880 --> 00:04:17,680
+It feels bigger than the internet in that AI systems have implications for our world
+
+84
+00:04:17,680 --> 00:04:22,000
+and for humankind and singularity and all that stuff.
+
+85
+00:04:22,000 --> 00:04:23,000
+That's pretty big.
+
+86
+00:04:23,000 --> 00:04:24,000
+It feels bigger than the internet.
+
+87
+00:04:24,000 --> 00:04:28,640
+It feels like the same type of change, but really implications are much further reaching.
+
+88
+00:04:28,640 --> 00:04:33,880
+I've had the experience of using ChatGPT and the other products, and I remember just thinking
+
+89
+00:04:33,880 --> 00:04:39,360
+when I first started using it that my entry-level job as a management consultant probably wouldn't
+
+90
+00:04:39,360 --> 00:04:40,360
+exist now.
+
+91
+00:04:40,400 --> 00:04:44,520
+At least in a couple of years, it probably won't, or maybe that there would be two people
+
+92
+00:04:44,520 --> 00:04:47,520
+in the analyst class as opposed to 12.
+
+93
+00:04:47,520 --> 00:04:51,240
+Really hit me that a lot of the things that I was doing in terms of secondary research
+
+94
+00:04:51,240 --> 00:04:55,880
+and building slides and synthesizing data could just be done a lot more easily now.
+
+95
+00:04:55,880 --> 00:04:59,720
+I'm wondering if you had a similar moment thinking about Flipside as a company once
+
+96
+00:04:59,720 --> 00:05:01,760
+you start to harness AI.
+
+97
+00:05:01,760 --> 00:05:04,320
+We have this board member, Shikhar Ghosh, who's brilliant.
+
+98
+00:05:04,320 --> 00:05:07,240
+He teaches blockchain and AI at Harvard Business School.
+
+99
+00:05:07,240 --> 00:05:11,840
+He was talking to us about consultants, and he said, in the Industrial Revolution, what
+
+100
+00:05:11,840 --> 00:05:18,520
+changed was machines took the weakest person and the strongest person and made them equal.
+
+101
+00:05:18,520 --> 00:05:22,360
+It used to be if you were the strongest, you would get paid more because you could do more
+
+102
+00:05:22,360 --> 00:05:24,280
+and the weakest were given the menial task.
+
+103
+00:05:24,280 --> 00:05:27,480
+Now a machine balances strength.
+
+104
+00:05:27,480 --> 00:05:31,360
+In the consulting world, you're seeing the same thing happen.
+
+105
+00:05:31,360 --> 00:05:35,680
+The partners used to be the most brilliant and knew how to answer things and be strategic,
+
+106
+00:05:35,680 --> 00:05:37,920
+and the analysts were like, go do a deck.
+
+107
+00:05:37,920 --> 00:05:40,840
+But now with AI, they're equal.
+
+108
+00:05:40,840 --> 00:05:46,040
+The analysts can come in and do as much senior level strategy as the partner, and that is
+
+109
+00:05:46,040 --> 00:05:51,440
+causing real shifts in how consulting happens because as an analyst, you probably wouldn't
+
+110
+00:05:51,440 --> 00:05:53,600
+come in and just do decks anymore.
+
+111
+00:05:53,600 --> 00:05:57,040
+You could be actually building just as much strategic value as a partner.
+
+112
+00:05:57,040 --> 00:05:58,160
+That's wild.
+
+113
+00:05:58,160 --> 00:06:00,640
+Just a lot of leverage in your day-to-day.
+
+114
+00:06:00,640 --> 00:06:02,400
+Totally different amount of leverage.
+
+115
+00:06:02,400 --> 00:06:06,320
+Think about that, what you'd need to learn to become an analyst.
+
+116
+00:06:06,320 --> 00:06:09,840
+Consulting for them is different because you have a lot of tools at your disposal that
+
+117
+00:06:09,840 --> 00:06:11,200
+makes you really smart.
+
+118
+00:06:11,200 --> 00:06:13,400
+In Flipside, I'll tell you the aha moment.
+
+119
+00:06:13,400 --> 00:06:18,200
+We, for seven years, eight years now, have been building data infrastructure for blockchain
+
+120
+00:06:18,200 --> 00:06:23,120
+ecosystems, and our team was building a tool that was called Rio.
+
+121
+00:06:23,120 --> 00:06:25,080
+Think of it like a super Twitter feed.
+
+122
+00:06:25,080 --> 00:06:28,240
+We had a client, a big client of ours, ask for something like it.
+
+123
+00:06:28,240 --> 00:06:31,720
+Give me something where I can see information in rapid real time, et cetera.
+
+124
+00:06:31,720 --> 00:06:34,360
+They were building this thing, and I was getting more and more frustrated.
+
+125
+00:06:34,360 --> 00:06:38,440
+It was, here's another product, and I'm like, oh, God, and the UI is not good, or whatever
+
+126
+00:06:38,440 --> 00:06:39,440
+it was.
+
+127
+00:06:39,440 --> 00:06:44,840
+On a Friday night at 10 p.m., Kyle, who's our COO, now sends me, he's like, oh, check
+
+128
+00:06:44,840 --> 00:06:45,840
+this out.
+
+129
+00:06:45,840 --> 00:06:49,800
+We just hooked up all of Flipside to MCP, and I'm like, what?
+
+130
+00:06:49,800 --> 00:06:50,800
+I didn't even know.
+
+131
+00:06:50,800 --> 00:06:55,000
+He's like, oh, it was a project, and I go, and it's the first time in the history of
+
+132
+00:06:55,000 --> 00:06:58,200
+Flipside where I've been able to use our data.
+
+133
+00:06:58,200 --> 00:06:59,200
+I'm not an analyst.
+
+134
+00:06:59,200 --> 00:07:00,480
+I'm not an engineer.
+
+135
+00:07:00,480 --> 00:07:02,320
+I've never even touched our data.
+
+136
+00:07:02,320 --> 00:07:03,320
+He's like, check this out.
+
+137
+00:07:03,320 --> 00:07:08,440
+I go in and write a simple query, like, oh, show me the change in DeFi protocol growth
+
+138
+00:07:08,440 --> 00:07:10,400
+on Solana, compare it to base.
+
+139
+00:07:10,400 --> 00:07:14,160
+It built the most amazing visualization and return of data.
+
+140
+00:07:14,160 --> 00:07:19,240
+I was like, holy, I am now an analyst, much like this industrial revolution thing.
+
+141
+00:07:19,240 --> 00:07:24,160
+And I literally went to the team and said, kill Rio.
+
+142
+00:07:24,160 --> 00:07:25,160
+They were like, what?
+
+143
+00:07:25,160 --> 00:07:26,160
+I'm like, kill Rio.
+
+144
+00:07:26,160 --> 00:07:32,760
+We are all in on this because once we've moved beyond just the analysts, and I love analysts,
+
+145
+00:07:32,760 --> 00:07:37,960
+analysts who use our system even better, once we move to the strategists or the marketers
+
+146
+00:07:37,960 --> 00:07:44,800
+or the CEOs or the exact directors or the investors who can't code, everything changes.
+
+147
+00:07:44,800 --> 00:07:45,800
+Everybody's equal.
+
+148
+00:07:45,800 --> 00:07:47,480
+And they were like, this is crazy.
+
+149
+00:07:47,480 --> 00:07:51,840
+You're going to sacrifice all this build, and I'm like, yes, this is what we're doing.
+
+150
+00:07:51,840 --> 00:07:53,920
+That was 90 days ago.
+
+151
+00:07:53,920 --> 00:07:54,920
+That's unbelievable.
+
+152
+00:07:54,920 --> 00:07:56,680
+You have a very strong business.
+
+153
+00:07:56,680 --> 00:08:00,760
+I mean, you guys have very healthy revenues, and you're doing a lot of interesting things.
+
+154
+00:08:00,760 --> 00:08:06,040
+Do you view this as kind of a one-way door bet the company on the future of this technology?
+
+155
+00:08:06,040 --> 00:08:08,280
+Well, here was the second crazy thing.
+
+156
+00:08:08,280 --> 00:08:13,040
+I've told the company, I am either the most brilliant or the most dangerous person possible
+
+157
+00:08:13,040 --> 00:08:14,200
+in this business right now.
+
+158
+00:08:14,200 --> 00:08:15,680
+I am not sure which.
+
+159
+00:08:15,680 --> 00:08:18,120
+I'm pretty sure it's a good decision.
+
+160
+00:08:18,120 --> 00:08:24,360
+I'm pretty sure it's an amazing decision, but there's things I'm doing which are transformative
+
+161
+00:08:24,360 --> 00:08:26,720
+to the business in ways you can't go back.
+
+162
+00:08:26,720 --> 00:08:31,120
+So that second thing I did after, let's kill Rio, we're going all in an MCP.
+
+163
+00:08:31,120 --> 00:08:34,680
+For 70 years, we built this our own SQL interface.
+
+164
+00:08:34,680 --> 00:08:35,680
+It's called Studio.
+
+165
+00:08:35,680 --> 00:08:38,040
+600,000 analysts were using it.
+
+166
+00:08:38,040 --> 00:08:39,040
+So I went to the team.
+
+167
+00:08:39,040 --> 00:08:40,160
+I said, we're going all in.
+
+168
+00:08:40,160 --> 00:08:41,160
+We're going solid.
+
+169
+00:08:41,160 --> 00:08:42,160
+And then we're killing Studio.
+
+170
+00:08:42,160 --> 00:08:44,120
+Like, well, we're killing Studio.
+
+171
+00:08:44,120 --> 00:08:45,120
+What are the analysts going to use?
+
+172
+00:08:45,120 --> 00:08:50,840
+Well, the analysts can still use our Snowflake instance, which has an amazing Studio editor.
+
+173
+00:08:50,840 --> 00:08:53,720
+We're not telling them to not code in SQL.
+
+174
+00:08:53,720 --> 00:08:59,920
+But as a business, we're going to be the best in the world at AI systems integrating with
+
+175
+00:08:59,920 --> 00:09:07,360
+big data workflows, in this case, with blockchain and holding on to our own SQL interface.
+
+176
+00:09:07,360 --> 00:09:08,360
+It's a different business.
+
+177
+00:09:08,360 --> 00:09:09,360
+It is OK.
+
+178
+00:09:09,360 --> 00:09:10,360
+We do not need to be there.
+
+179
+00:09:10,360 --> 00:09:15,480
+And by the way, within a year, every single one of the other data providers are going to
+
+180
+00:09:15,480 --> 00:09:21,480
+be touting their AI system and realizing that their SQL interface is going away.
+
+181
+00:09:21,480 --> 00:09:23,680
+Think of what Cursor has done to basic coding.
+
+182
+00:09:23,680 --> 00:09:25,880
+It's going to go, hey, we got to go.
+
+183
+00:09:25,880 --> 00:09:26,880
+We're going all in.
+
+184
+00:09:26,880 --> 00:09:27,880
+We are going to be best.
+
+185
+00:09:27,880 --> 00:09:29,920
+We've already solved so many of the challenges to make this work.
+
+186
+00:09:29,920 --> 00:09:30,920
+It's pretty amazing.
+
+187
+00:09:30,920 --> 00:09:31,920
+That is a one-way door.
+
+188
+00:09:31,920 --> 00:09:32,920
+I did that.
+
+189
+00:09:32,920 --> 00:09:33,920
+That's pretty awesome.
+
+190
+00:09:33,920 --> 00:09:37,760
+I mean, I want to get into what people are using the data for, but the way I'm thinking
+
+191
+00:09:37,760 --> 00:09:42,480
+about your category and maybe some broader aspects of the blockchain space is just think
+
+192
+00:09:42,480 --> 00:09:47,280
+about the traditional securities market and how slow reporting is.
+
+193
+00:09:47,280 --> 00:09:52,920
+For instance, I like to monitor the ATS trading venue data to just see which venues people
+
+194
+00:09:52,920 --> 00:09:54,920
+trade traditional securities on.
+
+195
+00:09:54,920 --> 00:09:59,320
+And it gets published one or two months after the end of the quarter and it's an Excel file.
+
+196
+00:09:59,320 --> 00:10:03,440
+And it's just crazy to me that that's how we appraise these secondary trading venues
+
+197
+00:10:03,440 --> 00:10:08,200
+in TradFi, whereas you can get tick by tick on Uniswap to just see who's using that versus
+
+198
+00:10:08,200 --> 00:10:09,720
+its competitors.
+
+199
+00:10:09,720 --> 00:10:13,320
+And right now, on-chain, you have bearer cryptocurrencies.
+
+200
+00:10:13,320 --> 00:10:14,320
+You have stable coins.
+
+201
+00:10:14,320 --> 00:10:15,320
+I looked at it this morning.
+
+202
+00:10:15,320 --> 00:10:19,240
+I think there's $7 billion of tokenized money market mutual funds.
+
+203
+00:10:19,240 --> 00:10:22,560
+But with this market structure bill, you're going to get a lot of other assets that are
+
+204
+00:10:22,560 --> 00:10:24,120
+put on these chains.
+
+205
+00:10:24,120 --> 00:10:27,760
+And it's incomprehensible to me that we're going to have government agencies with Excel
+
+206
+00:10:27,760 --> 00:10:31,320
+files three months late reporting just trading volumes.
+
+207
+00:10:31,320 --> 00:10:35,640
+So where is this going as it relates to data on blockchains and how are you guys thinking
+
+208
+00:10:35,640 --> 00:10:36,640
+about it?
+
+209
+00:10:36,640 --> 00:10:39,040
+There's a time equation to all of this.
+
+210
+00:10:39,040 --> 00:10:41,600
+You could go get that tick data over here.
+
+211
+00:10:41,600 --> 00:10:44,040
+You could go get, he said, reports on Excel.
+
+212
+00:10:44,040 --> 00:10:50,960
+One of the biggest changes in this entire AI evolution or revolution is the time to outcome.
+
+213
+00:10:50,960 --> 00:10:56,040
+If you had all that data at your fingertips that you were just talking about, and I said,
+
+214
+00:10:56,040 --> 00:10:58,320
+Mac, go figure out some analysis.
+
+215
+00:10:58,320 --> 00:11:01,960
+In yesterday's world, if it was a consulting side, you're going to go put them in spreadsheets
+
+216
+00:11:01,960 --> 00:11:02,960
+and do X, Y, and Z.
+
+217
+00:11:02,960 --> 00:11:07,400
+If it's the engineering side, you're going to go write queries and QA and do a bunch
+
+218
+00:11:07,400 --> 00:11:12,560
+of stuff, hours and hours of work, probably some pair coding, whatever, like the challenging.
+
+219
+00:11:12,560 --> 00:11:13,960
+You're now doing that in minutes.
+
+220
+00:11:13,960 --> 00:11:15,760
+And you don't need to know any of that other stuff.
+
+221
+00:11:15,760 --> 00:11:21,400
+You can start building off other people's artifacts or start on your own.
+
+222
+00:11:21,400 --> 00:11:26,280
+It's the level up of what's possible that you can't have done before.
+
+223
+00:11:26,280 --> 00:11:27,720
+I'll give you an example.
+
+224
+00:11:27,720 --> 00:11:34,240
+Some folks in our system figured out that not that you can understand trading potential
+
+225
+00:11:34,240 --> 00:11:40,160
+or where should I trade, about 50% of people that are using our AI systems use it for trading.
+
+226
+00:11:40,160 --> 00:11:42,680
+Hey, what's this wallet doing?
+
+227
+00:11:42,680 --> 00:11:44,440
+How would I trade like that?
+
+228
+00:11:44,440 --> 00:11:46,360
+What are the best trades that are happening here?
+
+229
+00:11:46,360 --> 00:11:47,360
+Here's some ideas.
+
+230
+00:11:47,360 --> 00:11:49,400
+But here's what somebody did in X level.
+
+231
+00:11:49,400 --> 00:11:54,680
+Hey, can you determine if my trading activity looks like I'm a human or a bot?
+
+232
+00:11:54,680 --> 00:11:56,640
+This was their prompt, their wallet.
+
+233
+00:11:56,640 --> 00:11:58,680
+Is this wallet likely a bot or user?
+
+234
+00:11:58,680 --> 00:12:02,000
+Check this wallet, what its position is on Monad.
+
+235
+00:12:02,000 --> 00:12:05,480
+Study the specific protocols this user engages with frequently.
+
+236
+00:12:05,480 --> 00:12:09,880
+And then it comes out with a report that says, here's the types of behaviors you're using
+
+237
+00:12:09,880 --> 00:12:11,760
+that make you look like a bot.
+
+238
+00:12:11,760 --> 00:12:13,520
+Here's the trades that don't.
+
+239
+00:12:13,560 --> 00:12:19,080
+All that's super important as you're getting to not, can I analyze this?
+
+240
+00:12:19,080 --> 00:12:24,720
+But can I actually get to a different level of understanding of what I do if I understand
+
+241
+00:12:24,720 --> 00:12:25,720
+trading patterns?
+
+242
+00:12:25,720 --> 00:12:27,120
+It's kind of wild.
+
+243
+00:12:27,120 --> 00:12:29,160
+You couldn't even think of that before.
+
+244
+00:12:29,160 --> 00:12:30,160
+That's really fascinating.
+
+245
+00:12:30,160 --> 00:12:33,320
+I mean, I remember in the early days when I first started looking at blockchains when
+
+246
+00:12:33,320 --> 00:12:37,320
+I worked at Fidelity, one of the reasons why I met Nick was because he was running this
+
+247
+00:12:37,320 --> 00:12:41,400
+open source data project that would actually just tell you how many addresses and what
+
+248
+00:12:41,400 --> 00:12:44,640
+the volume of transactions were happening on chain.
+
+249
+00:12:44,640 --> 00:12:47,120
+And I was just trying to figure out, is anyone using these things?
+
+250
+00:12:47,120 --> 00:12:49,880
+Is this just a technology with no use case?
+
+251
+00:12:49,880 --> 00:12:52,640
+These days, it just seems like it can go incredibly deep.
+
+252
+00:12:52,640 --> 00:12:57,760
+I'm curious how you and your customers are thinking about using the platform to understand
+
+253
+00:12:57,760 --> 00:13:00,400
+the economic activity happening on these chains.
+
+254
+00:13:00,400 --> 00:13:05,000
+I think I'd start at Ask an Analyst in the previous days, are there transactions?
+
+255
+00:13:05,000 --> 00:13:06,560
+Is there volume happening?
+
+256
+00:13:06,560 --> 00:13:10,120
+You're now getting into the intelligence level.
+
+257
+00:13:10,120 --> 00:13:14,520
+This is frankly why this data needs to shift into AI platforms.
+
+258
+00:13:14,520 --> 00:13:19,560
+You got to move before beyond sort of one-dimensional, here's a chart that shows growth to, hey,
+
+259
+00:13:19,560 --> 00:13:26,040
+what is the patterns of behaviors happening in stables that may actually be more about
+
+260
+00:13:26,040 --> 00:13:32,080
+what are likely scenarios to occur based on the evolution of things that have been happening
+
+261
+00:13:32,080 --> 00:13:33,720
+in the stable market?
+
+262
+00:13:33,720 --> 00:13:37,800
+People expect more answers than just chart go up.
+
+263
+00:13:37,800 --> 00:13:40,340
+And these systems give you that opportunity.
+
+264
+00:13:40,340 --> 00:13:44,280
+Have you ever thought about the amount of capital that is spent in financial services
+
+265
+00:13:44,280 --> 00:13:46,280
+to get delayed data?
+
+266
+00:13:46,280 --> 00:13:47,600
+It's just staggering.
+
+267
+00:13:47,600 --> 00:13:53,580
+Companies are paying for Suruli reports on AUM of their competitors and transaction volumes
+
+268
+00:13:53,580 --> 00:13:54,580
+and things.
+
+269
+00:13:54,580 --> 00:13:58,760
+It just seems like that whole paradigm is going to change as a result of these assets
+
+270
+00:13:58,760 --> 00:13:59,920
+being on chain.
+
+271
+00:13:59,920 --> 00:14:00,920
+Yes.
+
+272
+00:14:00,920 --> 00:14:05,560
+You and I kicked off this journey seven or eight years ago, and that thesis was the
+
+273
+00:14:05,560 --> 00:14:08,680
+very beginning of the journey where you'd say, this is coming.
+
+274
+00:14:08,680 --> 00:14:14,080
+I just think you're seeing the evolution go from, this is coming, it hasn't materialized
+
+275
+00:14:14,080 --> 00:14:15,080
+yet.
+
+276
+00:14:15,080 --> 00:14:18,920
+Let's use some data and analytics to help people start to sort of be able to see into
+
+277
+00:14:18,920 --> 00:14:20,880
+these patterns that are occurring.
+
+278
+00:14:20,880 --> 00:14:26,400
+But almost your thesis right at the very beginning, when you were coming over to 207 South Street
+
+279
+00:14:26,400 --> 00:14:30,880
+and whiteboarding with us, 2016, 2017, it's here.
+
+280
+00:14:30,880 --> 00:14:36,440
+There are people now really moving the traditional finance information flow on chain with stables
+
+281
+00:14:36,440 --> 00:14:38,120
+and everything else.
+
+282
+00:14:38,120 --> 00:14:40,480
+Your intelligence needs to be further along.
+
+283
+00:14:40,480 --> 00:14:44,400
+It doesn't end at just how much volume is happening on USDC.
+
+284
+00:14:44,400 --> 00:14:49,400
+You even asked some of the biggest institutions, and they're like, I don't understand the patterns
+
+285
+00:14:49,400 --> 00:14:50,640
+of that.
+
+286
+00:14:50,640 --> 00:14:52,040
+Who's using it?
+
+287
+00:14:52,040 --> 00:14:57,240
+But if I look at it against every other stable coin, what is it indicating the change to
+
+288
+00:14:57,240 --> 00:15:00,120
+traditional finance is happening, is in flight?
+
+289
+00:15:00,360 --> 00:15:04,120
+You need a much deeper intelligence system to get to.
+
+290
+00:15:04,120 --> 00:15:05,120
+It's been interesting.
+
+291
+00:15:05,120 --> 00:15:09,520
+If you had asked me back when we were having those initial whiteboarding sessions, the timing
+
+292
+00:15:09,520 --> 00:15:13,480
+of when you'd have dollars on chain and securities on chain, I would have said it would be sooner
+
+293
+00:15:13,480 --> 00:15:19,200
+and didn't foresee a world where you'd have the guy who talked crypto at MIT coming in
+
+294
+00:15:19,200 --> 00:15:22,120
+and just blocking banks and broker dealers from participating.
+
+295
+00:15:22,120 --> 00:15:27,120
+Obviously, that set it back, but I guess at the same time that all of the regulatory blockers
+
+296
+00:15:27,120 --> 00:15:32,280
+were happening, the blockchains themselves have just gotten so much better, faster, cheaper,
+
+297
+00:15:32,280 --> 00:15:33,280
+stronger.
+
+298
+00:15:33,280 --> 00:15:35,360
+What has it been like to just monitor that evolution?
+
+299
+00:15:35,360 --> 00:15:39,120
+Obviously, it has an impact on the types of customers that you bring into the flipside
+
+300
+00:15:39,120 --> 00:15:40,120
+fold.
+
+301
+00:15:40,120 --> 00:15:41,120
+It's pretty interesting.
+
+302
+00:15:41,120 --> 00:15:46,400
+I had a conversation this morning with a blockchain, and I'll tell you what they're actually faced
+
+303
+00:15:46,400 --> 00:15:50,680
+with as traditional finance really does take center stage here.
+
+304
+00:15:50,680 --> 00:15:52,160
+That evolution has happened.
+
+305
+00:15:52,160 --> 00:15:56,600
+I think many of those blockchains were fighting over, how's that going to happen and are we
+
+306
+00:15:56,600 --> 00:15:58,080
+going to be center when it does?
+
+307
+00:15:58,080 --> 00:16:01,000
+I don't think it's played out like everybody's thought.
+
+308
+00:16:01,000 --> 00:16:07,640
+The thing that's actually happening is many of those non-stablecoin-oriented or multi-value,
+
+309
+00:16:07,640 --> 00:16:12,360
+they're faster or whatever, but maybe don't have a stablecoin offering that is as deep
+
+310
+00:16:12,360 --> 00:16:15,000
+as a USDC or folks like that.
+
+311
+00:16:15,000 --> 00:16:18,000
+They're actually faced with a pretty untenable dilemma.
+
+312
+00:16:18,000 --> 00:16:25,320
+The market still perceives value where there's vanity metrics occurring.
+
+313
+00:16:25,320 --> 00:16:30,880
+Vity now realizes it's mostly bots, and that's only come up in the past two years or so.
+
+314
+00:16:30,880 --> 00:16:33,800
+The bots have really taken over most of these chains.
+
+315
+00:16:33,800 --> 00:16:39,480
+They're faced with this dilemma where we can make the charts look good by using growth
+
+316
+00:16:39,480 --> 00:16:44,320
+tactics that are to get bots to do things that just show movement or wash trades or
+
+317
+00:16:44,320 --> 00:16:50,040
+whatever the hell it is, or we can make sure we get real humans and quality users, and
+
+318
+00:16:50,040 --> 00:16:54,520
+that actually transacts better on the chain to real customers.
+
+319
+00:16:54,520 --> 00:17:00,240
+The market of basic intelligence, go look at dashboard, doesn't like that very much.
+
+320
+00:17:00,240 --> 00:17:02,400
+They're like, oh, chart doesn't go up.
+
+321
+00:17:02,400 --> 00:17:03,840
+It's not about the chart.
+
+322
+00:17:03,840 --> 00:17:05,520
+Is this a real business or not?
+
+323
+00:17:05,520 --> 00:17:08,280
+These blockchains are faced with one of the worst dilemmas ever.
+
+324
+00:17:08,280 --> 00:17:12,640
+Do I falsify the real growth to look good?
+
+325
+00:17:12,640 --> 00:17:17,640
+Because it's like looking at everything in 1D or black and white when everything is in
+
+326
+00:17:17,640 --> 00:17:21,360
+color and 3D, dashboard is 1D.
+
+327
+00:17:21,360 --> 00:17:26,280
+What do you think at the protocol level, it'll eventually converge around, are you competing
+
+328
+00:17:26,280 --> 00:17:31,160
+to be some form of internet money, in which case maybe there's some valuation framework
+
+329
+00:17:31,160 --> 00:17:36,160
+that you could apply as a store of value, or are you competing to have transactions happening
+
+330
+00:17:36,160 --> 00:17:39,120
+on your chain, in which case we could think about cash flows?
+
+331
+00:17:39,120 --> 00:17:43,600
+Ultimately, if you're in the latter camp, to your point, I think you have to have real
+
+332
+00:17:43,600 --> 00:17:46,600
+businesses building things on top of your infrastructure.
+
+333
+00:17:46,600 --> 00:17:50,360
+It's almost like what good is Swift or ACH if no one's using it.
+
+334
+00:17:50,360 --> 00:17:51,360
+A thousand percent.
+
+335
+00:17:51,360 --> 00:17:55,920
+I think you're seeing the store of money, the store of value, case play out.
+
+336
+00:17:55,920 --> 00:18:00,920
+That's where all the traditional finance dollars wants to go.
+
+337
+00:18:00,920 --> 00:18:01,920
+It's rational.
+
+338
+00:18:01,920 --> 00:18:04,760
+It's exactly our thesis back in the day.
+
+339
+00:18:04,760 --> 00:18:08,800
+When traditional finance changes their rails to this, everything opens up.
+
+340
+00:18:08,800 --> 00:18:09,800
+Time is shorter.
+
+341
+00:18:09,800 --> 00:18:11,760
+Trust is easier, all that stuff.
+
+342
+00:18:11,760 --> 00:18:15,680
+It's that second part where if you were building a blockchain for years that was considered
+
+343
+00:18:15,680 --> 00:18:22,880
+a premium L1 or L2, but we're just trying to attract new products or projects or cool
+
+344
+00:18:22,880 --> 00:18:28,280
+ideas, and it's not in the store of money, you're fighting to either make yourself look
+
+345
+00:18:28,280 --> 00:18:35,120
+pretty by enabling bots to do things, or you're going to maybe be thoughtful about a smaller
+
+346
+00:18:35,120 --> 00:18:40,400
+number of customers actually using the products you have, or probably you need to shift entirely
+
+347
+00:18:40,400 --> 00:18:43,040
+to a store of money or something of that nature.
+
+348
+00:18:43,080 --> 00:18:48,480
+That's why you need intelligence, not just a dashboard because it just doesn't mean much.
+
+349
+00:18:48,480 --> 00:18:50,560
+It doesn't do the industry any favors.
+
+350
+00:18:50,560 --> 00:18:56,280
+As an industry, we probably overhyped certain categories that just haven't come to fruition,
+
+351
+00:18:56,280 --> 00:18:59,960
+particularly around these decentralized internet architecture use cases.
+
+352
+00:18:59,960 --> 00:19:02,760
+File storage is a thing, but it's not at scale.
+
+353
+00:19:02,760 --> 00:19:04,000
+Decentralized compute.
+
+354
+00:19:04,000 --> 00:19:07,200
+Some of these categories I would say just weren't ready for prime time.
+
+355
+00:19:07,200 --> 00:19:11,880
+I actually heard Anatoly on the All In podcast a couple weeks ago talking about what are the
+
+356
+00:19:11,880 --> 00:19:16,400
+next breakout use cases, and I agreed with what he said around a lot of the things that
+
+357
+00:19:16,400 --> 00:19:21,320
+were attempted in 2017, 2018 didn't work, probably will break out.
+
+358
+00:19:21,320 --> 00:19:24,760
+I guess it kind of looks like the internet in that capacity where you have a bunch of
+
+359
+00:19:24,760 --> 00:19:26,640
+things didn't work until broadband.
+
+360
+00:19:26,640 --> 00:19:27,640
+Exactly.
+
+361
+00:19:27,640 --> 00:19:31,960
+And then Amazon and Netflix and all the other things that could be possible with that.
+
+362
+00:19:31,960 --> 00:19:37,720
+The previous world order was, I need to figure out if it looks like it's working.
+
+363
+00:19:37,720 --> 00:19:44,240
+So you might go to a SQL level analyst and say, help me track TVL and Momentum for DApps
+
+364
+00:19:44,240 --> 00:19:46,000
+on my platform and others.
+
+365
+00:19:46,000 --> 00:19:49,420
+You've got a first case issue here that has the SpaceMatures.
+
+366
+00:19:49,420 --> 00:19:50,920
+How long does that take?
+
+367
+00:19:50,920 --> 00:19:52,360
+What's the quality control process?
+
+368
+00:19:52,360 --> 00:19:54,840
+So that might take a couple of hours.
+
+369
+00:19:54,840 --> 00:19:58,640
+It might have an error in it, it takes a while to decode it, whatever.
+
+370
+00:19:58,640 --> 00:20:04,280
+The new world order is we want to track TVL and Momentum for DApps across all ecosystems,
+
+371
+00:20:04,280 --> 00:20:09,240
+but I also want to grow TVL across my EVM footprint.
+
+372
+00:20:09,240 --> 00:20:13,040
+You're moving into action stage, not look back, look forward stage.
+
+373
+00:20:13,040 --> 00:20:16,560
+Now, number one, to do this work, it takes 10 minutes.
+
+374
+00:20:16,560 --> 00:20:20,080
+You write it in human form and your AI systems are getting you not only the dashboard you
+
+375
+00:20:20,080 --> 00:20:24,960
+want, but the intelligence being thoughtful in how you prompt that much like any AI system
+
+376
+00:20:24,960 --> 00:20:28,400
+matters over the last 30 days on each of these five chains.
+
+377
+00:20:28,400 --> 00:20:30,760
+This is a real prompt someone put in there.
+
+378
+00:20:30,760 --> 00:20:36,760
+Give me token transfer volume into the contract by chain and by token, a very human language
+
+379
+00:20:36,760 --> 00:20:39,600
+way of deciding what you're going to build.
+
+380
+00:20:39,600 --> 00:20:46,440
+And then show me what actions have grown TVL for quality wallets in EVM footprints.
+
+381
+00:20:46,440 --> 00:20:48,600
+And now you're going to get a strategy.
+
+382
+00:20:48,600 --> 00:20:49,600
+It's amazing.
+
+383
+00:20:49,600 --> 00:20:51,160
+And then you optimize like anything else.
+
+384
+00:20:51,160 --> 00:20:52,600
+What would you use to do in that case?
+
+385
+00:20:52,600 --> 00:20:56,080
+You would call like a consultant and be like, help me with a strategy, but in 10 minutes
+
+386
+00:20:56,080 --> 00:20:57,880
+you're getting a real form strategy.
+
+387
+00:20:57,880 --> 00:21:00,800
+The token design agency via LLM.
+
+388
+00:21:00,800 --> 00:21:01,800
+Totally.
+
+389
+00:21:01,800 --> 00:21:05,360
+All the token design agency should be quaking in their boots at this point.
+
+390
+00:21:05,360 --> 00:21:09,960
+What are you seeing in terms of how fast the LLMs are evolving?
+
+391
+00:21:09,960 --> 00:21:13,760
+And I'm sure that has downstream impacts on just your product motion.
+
+392
+00:21:13,760 --> 00:21:18,000
+Here's the key for blockchain data or any large data system.
+
+393
+00:21:18,000 --> 00:21:22,360
+If you dump a bunch of data into the system, it does like any AI system.
+
+394
+00:21:22,360 --> 00:21:26,040
+It tries to rationalize what you're asking to an outcome.
+
+395
+00:21:26,040 --> 00:21:31,560
+And if you just pop a bunch of data in and say, go find TVL and maybe you don't properly
+
+396
+00:21:31,560 --> 00:21:38,480
+say in this chain or this year or this type of data science workflow, it actually will
+
+397
+00:21:38,480 --> 00:21:42,440
+go maybe pull the wrong table first and join it this way.
+
+398
+00:21:42,440 --> 00:21:47,080
+And naturally, like a user, you get frustrated much like in a typical AI system.
+
+399
+00:21:47,080 --> 00:21:48,880
+When you ask a question, you're like, why did say that?
+
+400
+00:21:48,880 --> 00:21:49,880
+Oh, it hallucinated.
+
+401
+00:21:49,880 --> 00:21:51,120
+It's not quite that.
+
+402
+00:21:51,120 --> 00:21:52,880
+It's actually about workflows.
+
+403
+00:21:52,880 --> 00:21:58,360
+The thing you need to do is you need to actually understand how a data scientist would consider
+
+404
+00:21:58,360 --> 00:22:03,960
+that problem and build certain types of workflows that teaches the AI system to look in certain
+
+405
+00:22:03,960 --> 00:22:05,400
+orders and do certain things.
+
+406
+00:22:05,400 --> 00:22:10,800
+A lot of people use our system for airdrop analysis or I'm trying to do this airdrop,
+
+407
+00:22:10,800 --> 00:22:14,880
+help me build a strategy that takes these types of addresses out or put these in.
+
+408
+00:22:14,880 --> 00:22:18,960
+You kind of need to teach it how to look at addresses in a certain way.
+
+409
+00:22:18,960 --> 00:22:24,240
+So the systems are getting smarter because we're starting to build workflows.
+
+410
+00:22:24,240 --> 00:22:25,240
+The data is all there.
+
+411
+00:22:25,240 --> 00:22:29,160
+You can put anyone's data in there, whoever doing Nance and doesn't matter.
+
+412
+00:22:29,160 --> 00:22:31,600
+They're all going to dump their data in these systems.
+
+413
+00:22:31,600 --> 00:22:34,080
+The workflows are the things that matter.
+
+414
+00:22:34,080 --> 00:22:35,080
+They're getting smarter.
+
+415
+00:22:35,080 --> 00:22:40,960
+I was given a use case years ago by one of our advisors who said you could build Google
+
+416
+00:22:40,960 --> 00:22:41,960
+right now.
+
+417
+00:22:41,960 --> 00:22:45,240
+The problem isn't that you aren't technically smart enough.
+
+418
+00:22:45,240 --> 00:22:49,280
+The problem is that you don't know the potholes they've stepped in already and you're going
+
+419
+00:22:49,280 --> 00:22:53,680
+to step in 10,000 of them on your journey to trying to build a better search engine
+
+420
+00:22:53,680 --> 00:22:54,680
+and you'll never get there.
+
+421
+00:22:54,680 --> 00:22:55,680
+They're so far ahead.
+
+422
+00:22:55,680 --> 00:22:57,760
+It's the same in LLMs.
+
+423
+00:22:57,760 --> 00:23:01,400
+All the folks who are building the right workflows and structures that when you ask a question,
+
+424
+00:23:01,400 --> 00:23:03,400
+it knows how to think about it.
+
+425
+00:23:03,400 --> 00:23:05,960
+That's what's going to make the LLMs smarter.
+
+426
+00:23:05,960 --> 00:23:11,240
+How has that insight informed just your hiring practices and how you're building the team?
+
+427
+00:23:11,240 --> 00:23:13,800
+How has that evolved over time?
+
+428
+00:23:13,800 --> 00:23:19,200
+One in our system that flips side codes direct in CURSFER or otherwise, that changes the
+
+429
+00:23:19,200 --> 00:23:22,480
+behavior profile of your engineers or data scientists.
+
+430
+00:23:22,480 --> 00:23:27,400
+We all saw Brian Armstrong throw out anybody that wasn't building with AI first, which
+
+431
+00:23:27,400 --> 00:23:28,400
+is totally right.
+
+432
+00:23:28,400 --> 00:23:30,640
+It was maybe heavy-handed, but totally right.
+
+433
+00:23:30,640 --> 00:23:38,400
+Now when we're hiring, we think a lot about the ability to educate or articulate the workflows
+
+434
+00:23:38,400 --> 00:23:39,760
+you're going into.
+
+435
+00:23:39,760 --> 00:23:43,400
+We are the best data scientists in the world, but if they can't say, wait, wait, this is
+
+436
+00:23:43,400 --> 00:23:46,080
+how I process that equation.
+
+437
+00:23:46,080 --> 00:23:48,600
+This is how I get to an answer.
+
+438
+00:23:48,600 --> 00:23:53,320
+We can't pull that out, extract it, and turn it into a workflow design until we care a
+
+439
+00:23:53,320 --> 00:23:59,400
+lot about maybe the articulation or the ability for someone to document what they're doing
+
+440
+00:23:59,400 --> 00:24:02,240
+as much as the ability to be able to code itself.
+
+441
+00:24:02,240 --> 00:24:07,080
+It almost brings the engineer up a level towards more of the product manager it sounds like.
+
+442
+00:24:07,080 --> 00:24:08,080
+A little bit.
+
+443
+00:24:08,080 --> 00:24:09,240
+The whole system is changing.
+
+444
+00:24:09,240 --> 00:24:12,800
+Product managers are no longer writing specs because engineers move faster.
+
+445
+00:24:12,800 --> 00:24:17,240
+The data scientists are doing the product manager spec-ing, which is actually not about
+
+446
+00:24:17,240 --> 00:24:20,240
+your front-end or your overall design, it's about workflows.
+
+447
+00:24:20,240 --> 00:24:21,560
+Everyone's role has changed.
+
+448
+00:24:21,560 --> 00:24:22,960
+It's fascinating.
+
+449
+00:24:22,960 --> 00:24:26,040
+How are you seeing just the industry writ large now?
+
+450
+00:24:26,040 --> 00:24:31,520
+Obviously, post-FTX saw just a lot of churn in the startups, a lot of wind-downs.
+
+451
+00:24:31,520 --> 00:24:35,200
+What's it like out there right now when you're talking to other entrepreneurs?
+
+452
+00:24:35,200 --> 00:24:38,960
+Fundraising is hard for everybody all the way up the stack.
+
+453
+00:24:38,960 --> 00:24:42,400
+Funds are having trouble with their LPs.
+
+454
+00:24:42,400 --> 00:24:48,800
+One investor said to me, fund-raising is hard except if you're open AI.
+
+455
+00:24:48,800 --> 00:24:53,280
+All the money is getting sucked into these systems that are changing the whole ecosystem.
+
+456
+00:24:53,280 --> 00:24:56,400
+Now, the problem is going to be, I mean, we've all been through this before.
+
+457
+00:24:56,400 --> 00:24:58,400
+There's bubble behavior that's happening.
+
+458
+00:24:58,400 --> 00:25:02,840
+All it takes is for open AI to stumble a little bit or they're like, it's going to deflate
+
+459
+00:25:02,840 --> 00:25:04,680
+a bunch of stuff around it.
+
+460
+00:25:04,680 --> 00:25:06,920
+It's going to be like a housing crisis.
+
+461
+00:25:06,920 --> 00:25:08,480
+It's not that it's changing everything.
+
+462
+00:25:08,520 --> 00:25:11,800
+It's just that it's getting so valued in a way where it's really hard to uphold that
+
+463
+00:25:11,800 --> 00:25:12,800
+value.
+
+464
+00:25:12,800 --> 00:25:15,240
+But entrepreneurs, you've got multi-factors.
+
+465
+00:25:15,240 --> 00:25:19,560
+One, it's hard to raise capital because everything's going to AI, so you better have a deeper
+
+466
+00:25:19,560 --> 00:25:21,640
+AI part of your business.
+
+467
+00:25:21,640 --> 00:25:24,360
+Two, your time to market.
+
+468
+00:25:24,360 --> 00:25:29,400
+If you can't prove it on your own, get to 5 million ARR without any outside capital,
+
+469
+00:25:29,400 --> 00:25:32,320
+you're not building correct anymore.
+
+470
+00:25:32,320 --> 00:25:33,520
+That's been a big change.
+
+471
+00:25:33,520 --> 00:25:38,040
+You've designed systems for how a company gets started has changed entirely.
+
+472
+00:25:38,080 --> 00:25:41,720
+I think we've gotten to the brass tax spot of entrepreneurship.
+
+473
+00:25:41,720 --> 00:25:46,960
+There was a lot of sort of promotion and fluff going on, touting your excellence and something,
+
+474
+00:25:46,960 --> 00:25:50,800
+and now it's like, I actually just got to prove it because everybody can see exactly
+
+475
+00:25:50,800 --> 00:25:54,960
+what's happening and systems let you prove it before you talk about it.
+
+476
+00:25:54,960 --> 00:25:55,960
+It is fascinating.
+
+477
+00:25:55,960 --> 00:26:00,880
+I mean, if you think about this in a historical context, some of the capex here reminds me
+
+478
+00:26:00,880 --> 00:26:05,760
+a little bit about fixed line communications, the amount of capital that went into that.
+
+479
+00:26:05,800 --> 00:26:08,600
+Obviously, we got the internet out of that, so that was great, but there were a lot of
+
+480
+00:26:08,600 --> 00:26:10,400
+corpses along the way.
+
+481
+00:26:10,400 --> 00:26:14,720
+It's interesting to see companies like Meta and Oracle fundamentally change their approach
+
+482
+00:26:14,720 --> 00:26:19,920
+to the capital markets and start burning a lot more cash here in order to keep up.
+
+483
+00:26:19,920 --> 00:26:23,760
+I think you're right that at some point, the amount of leverage in that part of the system
+
+484
+00:26:23,760 --> 00:26:27,680
+in the AI market, I don't know if it'll burst, but there will be some correction.
+
+485
+00:26:27,680 --> 00:26:30,440
+It'll be interesting to see what the downstream impacts are there.
+
+486
+00:26:30,440 --> 00:26:32,600
+It's going to hit all of us.
+
+487
+00:26:32,640 --> 00:26:36,760
+You always should focus on your own business, not what's happening outside your business
+
+488
+00:26:36,760 --> 00:26:39,480
+as you got to build something sustainable.
+
+489
+00:26:39,480 --> 00:26:43,840
+If that cracks over there, have enough capital, know that your customer is maybe going to
+
+490
+00:26:43,840 --> 00:26:48,160
+get into some pain, so have enough room to work a little differently if your customers
+
+491
+00:26:48,160 --> 00:26:49,680
+get challenged.
+
+492
+00:26:49,680 --> 00:26:50,680
+It's going to happen.
+
+493
+00:26:50,680 --> 00:26:53,840
+You don't know exactly how, so just don't run out of money.
+
+494
+00:26:53,840 --> 00:26:55,160
+That's the number one job, right?
+
+495
+00:26:55,160 --> 00:27:00,480
+The number one job, just don't run out of money, so whatever you got to do, cut your team faster,
+
+496
+00:27:00,480 --> 00:27:03,400
+do more with less or whatever it is, but survive.
+
+497
+00:27:03,400 --> 00:27:07,760
+It's been interesting to see just the growth pockets within digital assets with stable
+
+498
+00:27:07,760 --> 00:27:10,520
+coins really bursting on the scene over the past five years.
+
+499
+00:27:10,520 --> 00:27:13,240
+You'll have tokenized securities here in the near future.
+
+500
+00:27:13,240 --> 00:27:17,040
+The other one that I don't think we've talked about as much is these prediction markets and
+
+501
+00:27:17,040 --> 00:27:19,840
+just the amount of on-chain activity happening in that category.
+
+502
+00:27:19,840 --> 00:27:23,560
+I'm curious if you have a perspective on that and whether there's interesting insights
+
+503
+00:27:23,560 --> 00:27:26,080
+to glean from some of these platforms.
+
+504
+00:27:26,080 --> 00:27:29,960
+We just saw a tweet, which we're trying to hide from it a little bit, which is someone
+
+505
+00:27:29,960 --> 00:27:35,320
+who literally called out Kashi in the prediction markets, but what's happening at Flipside and
+
+506
+00:27:35,320 --> 00:27:39,440
+a couple other spots are where the real edge is starting to lie.
+
+507
+00:27:39,440 --> 00:27:43,960
+This might be the beginning of the next frontier of how people actually behave.
+
+508
+00:27:43,960 --> 00:27:47,320
+The prediction markets almost in some ways are still on dimensional.
+
+509
+00:27:47,320 --> 00:27:51,400
+Humans going back and forth and debating these things, but if you had an intelligent system
+
+510
+00:27:51,400 --> 00:27:57,000
+that's looking at multiple factors to make the types of predictive bets, everything changes.
+
+511
+00:27:57,000 --> 00:27:59,360
+I think those are really interesting platforms.
+
+512
+00:27:59,360 --> 00:28:06,760
+They tap into the social norms of competition and value creation, and everybody wants to
+
+513
+00:28:06,760 --> 00:28:12,280
+know the answers and that on the answers, they're tapping into all the psychological behaviors,
+
+514
+00:28:12,280 --> 00:28:16,600
+but you're going to have to have AI systems or intelligent systems that start to maybe
+
+515
+00:28:16,600 --> 00:28:23,280
+automate those or help those move faster than the human capacity to compete is occurring.
+
+516
+00:28:23,280 --> 00:28:28,760
+I'd imagine there's going to be AI systems that operate on their own as their own behaviors,
+
+517
+00:28:28,880 --> 00:28:31,080
+and they're sitting with each other in a predictive way.
+
+518
+00:28:31,080 --> 00:28:33,280
+I'm sure people are trying to do that already.
+
+519
+00:28:33,280 --> 00:28:37,240
+You remember in the early days when DraftKings came out, people were scraping screens and
+
+520
+00:28:37,240 --> 00:28:39,600
+trying to put in more bets over time programmatically.
+
+521
+00:28:39,600 --> 00:28:43,160
+I don't even know if they had an API initially.
+
+522
+00:28:43,160 --> 00:28:46,920
+I'd imagine you'll see similar type of dynamics there, and it just seems like the regulatory
+
+523
+00:28:46,920 --> 00:28:51,400
+environment now allowing these things to exist in the US will also change that.
+
+524
+00:28:51,400 --> 00:28:54,960
+We almost have this new financial market emerge.
+
+525
+00:28:55,000 --> 00:29:00,040
+If the stock market is some form of gambling, prediction markets just take it to a new level.
+
+526
+00:29:00,040 --> 00:29:05,160
+It's Reddit armies were bad until Reddit armies were just part of the process by which you're
+
+527
+00:29:05,160 --> 00:29:07,520
+able to capitalize on returns.
+
+528
+00:29:07,520 --> 00:29:11,040
+Well, I guess with a lot of things, if you can figure out a way to tax it, sometimes it
+
+529
+00:29:11,040 --> 00:29:12,040
+comes into the light.
+
+530
+00:29:12,040 --> 00:29:14,000
+It might be the same thing.
+
+531
+00:29:14,000 --> 00:29:18,600
+Maybe back to the product side, what are you seeing actually people put in as prompts?
+
+532
+00:29:18,600 --> 00:29:21,920
+What are the interesting behaviors that are notable since you launched the product?
+
+533
+00:29:21,920 --> 00:29:23,920
+I know it's only been a few weeks.
+
+534
+00:29:23,920 --> 00:29:28,320
+There's more basic prompting that people are starting to learn over time and talk about
+
+535
+00:29:28,320 --> 00:29:29,320
+one from yesterday.
+
+536
+00:29:29,320 --> 00:29:32,800
+Use the trade adjusted fair value workflow.
+
+537
+00:29:32,800 --> 00:29:36,680
+Make sure you call workflows, learn what workflows matter.
+
+538
+00:29:36,680 --> 00:29:43,520
+Use the trade adjusted fair value workflow to analyze a specific contract address to
+
+539
+00:29:43,520 --> 00:29:47,520
+find over and undervalued NFTs.
+
+540
+00:29:47,520 --> 00:29:48,520
+Call a workflow.
+
+541
+00:29:48,520 --> 00:29:49,760
+That's a prompt engineer.
+
+542
+00:29:49,760 --> 00:29:51,320
+Make sure you're thinking about that.
+
+543
+00:29:51,320 --> 00:29:53,280
+Call a table if you think about.
+
+544
+00:29:53,280 --> 00:29:58,440
+Call the monad table or call whatever table and use that to derive some intelligence.
+
+545
+00:29:58,440 --> 00:30:03,000
+I'll just do a rundown of some of the things people are using the system for.
+
+546
+00:30:03,000 --> 00:30:04,480
+This is yesterday.
+
+547
+00:30:04,480 --> 00:30:08,760
+We also use the intelligence platform just to say, tell us the types of things people
+
+548
+00:30:08,760 --> 00:30:11,800
+are asking about so that we can continue refining.
+
+549
+00:30:11,800 --> 00:30:16,240
+Advanced DeFi analysis, much like a pretty typical editor.
+
+550
+00:30:16,240 --> 00:30:22,120
+People debugging in complex analytics, multi-CT queries with error troubleshooting, happening
+
+551
+00:30:22,120 --> 00:30:23,480
+real time.
+
+552
+00:30:23,480 --> 00:30:25,240
+Security and research focused.
+
+553
+00:30:25,240 --> 00:30:30,600
+People are looking at smart contract exploits, copycat cases, bytecode deployment attacks.
+
+554
+00:30:30,600 --> 00:30:34,000
+They're referencing academic research next to some addresses.
+
+555
+00:30:34,000 --> 00:30:36,840
+A lot of strategic growth campaigns.
+
+556
+00:30:36,840 --> 00:30:43,080
+Flipside analyzes 700 million addresses daily, basically to know which ones will be performant,
+
+557
+00:30:43,080 --> 00:30:45,720
+which ones are bots, which ones aren't, all that stuff.
+
+558
+00:30:45,720 --> 00:30:51,200
+You can ask the platform, generate a strategic growth campaign for me, using scoring systems.
+
+559
+00:30:51,200 --> 00:30:56,000
+Again, you got to ask it where to go, lots of typical stuff, historical price analytics,
+
+560
+00:30:56,000 --> 00:30:57,000
+all that stuff.
+
+561
+00:30:57,000 --> 00:31:02,440
+One thing that's super interesting is the system is multi-language because AI can understand
+
+562
+00:31:02,440 --> 00:31:03,440
+everything.
+
+563
+00:31:03,440 --> 00:31:05,440
+Here's just a rundown yesterday of the languages you use.
+
+564
+00:31:05,440 --> 00:31:10,760
+Chinese, Vietnamese, Korean, Arabic, Turkish, Bengali, and French, and English.
+
+565
+00:31:10,760 --> 00:31:11,760
+Just in a day.
+
+566
+00:31:11,760 --> 00:31:12,760
+This thing's out there.
+
+567
+00:31:12,760 --> 00:31:13,760
+It'd be fascinating.
+
+568
+00:31:13,800 --> 00:31:17,120
+I need to start doing some more queries on it myself.
+
+569
+00:31:17,120 --> 00:31:20,240
+Just around the time of day, the certain things happen.
+
+570
+00:31:20,240 --> 00:31:24,240
+If you could pinpoint geographic regions that are more active than others just based on
+
+571
+00:31:24,240 --> 00:31:28,600
+the time zone, that seems to be an underexplored part of this market.
+
+572
+00:31:28,600 --> 00:31:32,640
+Try to write that in SQL and do it in a time that gets you somewhere at a cost that makes
+
+573
+00:31:32,640 --> 00:31:36,760
+sense versus asking the system to just do that for you.
+
+574
+00:31:36,760 --> 00:31:39,120
+All those things become possible.
+
+575
+00:31:39,120 --> 00:31:40,200
+This is great, Dave.
+
+576
+00:31:40,200 --> 00:31:45,240
+Who could have imagined that we'd be talking about LLMs back in 2016, talking about crypto
+
+577
+00:31:45,240 --> 00:31:47,360
+data and asset management back then?
+
+578
+00:31:47,360 --> 00:31:50,680
+I didn't have this one on the bingo card, but I love the direction.
+
+579
+00:31:50,680 --> 00:31:54,440
+Where can we send people that want to use the product, learn more about Flipside?
+
+580
+00:31:54,440 --> 00:31:58,320
+If we did have it on the bingo card, maybe we would have started Anthropic and then you
+
+581
+00:31:58,320 --> 00:32:01,480
+and I would be having this call from a private plane.
+
+582
+00:32:01,480 --> 00:32:02,480
+Different story.
+
+583
+00:32:02,480 --> 00:32:03,480
+Yeah, different story.
+
+584
+00:32:03,480 --> 00:32:04,800
+Anyway, everyone's done okay.
+
+585
+00:32:04,800 --> 00:32:05,800
+We're pretty good.
+
+586
+00:32:05,800 --> 00:32:10,240
+You should go to flipsidecrypto.xyz.com.
+
+587
+00:32:10,240 --> 00:32:13,880
+I think pretty soon actually our front page of our website will just be the chat products
+
+588
+00:32:13,880 --> 00:32:14,880
+are pretty easy.
+
+589
+00:32:14,880 --> 00:32:16,640
+By the way, you can use that in Claude.
+
+590
+00:32:16,640 --> 00:32:20,520
+If you have a Teams account, oftentimes that's really interesting because you've got your
+
+591
+00:32:20,520 --> 00:32:22,920
+own data put in there for other things.
+
+592
+00:32:22,920 --> 00:32:28,240
+You could either use our interface, which it does multi-AI systems, uses Claude or uses
+
+593
+00:32:28,240 --> 00:32:32,240
+Gemini or other places, or you could install it directly into Claude.
+
+594
+00:32:32,240 --> 00:32:35,280
+All that's on the front of the site, but pretty simple.
+
+595
+00:32:35,280 --> 00:32:37,640
+Get over there, give it a try.
+
+596
+00:32:37,640 --> 00:32:42,640
+Like anything, you got to learn how to use the system so you start easy, but as you get
+
+597
+00:32:42,640 --> 00:32:46,040
+more complex, if you have deeper questions, reach out to us.
+
+598
+00:32:46,040 --> 00:32:49,840
+We have a bunch of prompt engineers who will teach you some pretty nifty tricks.
+
+599
+00:32:49,840 --> 00:32:52,320
+Well, thanks again for coming on the podcast.
+
+600
+00:32:52,320 --> 00:32:53,720
+Congrats on the new product direction.
+
+601
+00:32:53,720 --> 00:32:54,720
+I think it's awesome.
+
+602
+00:32:54,720 --> 00:32:56,220
+Thanks, Matt.
+
+603
+00:32:56,220 --> 00:33:00,280
+Thanks for listening to another episode of On the Brink with Castle Island.
+
+604
+00:33:00,280 --> 00:33:04,880
+To learn more about Castle Island, visit castleisland.vc.
+
+605
+00:33:04,880 --> 00:33:11,000
+And to listen to all of our podcast episodes, please visit castleisland.vc.com or just
+
+606
+00:33:11,000 --> 00:33:12,920
+click on the tab on our website.
+
+607
+00:33:12,920 --> 00:33:13,520
+Thanks for listening.
+

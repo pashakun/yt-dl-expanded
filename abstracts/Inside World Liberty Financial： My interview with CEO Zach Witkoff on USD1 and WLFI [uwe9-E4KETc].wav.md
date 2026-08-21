@@ -1,0 +1,27 @@
+# Inside World Liberty Financial: My interview with CEO Zach Witkoff on USD1 and WLFI
+
+- URL: https://www.youtube.com/watch?v=uwe9-E4KETc
+- VIDEO_ID: uwe9-E4KETc
+
+## Abstract
+
+PART 1 — ABSTRACT
+
+This conversation centers on World Liberty Financial’s strategy to bridge traditional finance and crypto, focusing on the institutional adoption of stablecoins and real-world asset (RWA) tokenization. By assembling a team that spans deep roots in both traditional finance and crypto, and leaning on high-profile associates, the company positions its USD1 stablecoin and WLFI token as competitive, institutionally ready products aiming to challenge incumbents like Tether and Circle. The stakes are high as stablecoins and tokenized assets become increasingly important in global finance, with institutions seeking regulatory clarity, efficiency, and trusted partners. Remaining unresolved are questions around conflict of interest given the Trump family’s involvement, how compliance will be maintained across jurisdictions, whether World Liberty can truly differentiate from existing players, and whether institutions will ultimately trust and embrace USD1 at scale.
+
+PART 2 — KEY IDEAS
+
+- World Liberty Financial aims to compete directly with major stablecoins, targeting both retail and institutional segments rather than filling a niche market.
+- The firm's founding team intentionally combines traditional finance (trad-fi) and crypto-native expertise, leveraging prominent public figures to drive credibility and market access.
+- The ability to settle large-scale transactions (a $2 billion deal in under two seconds with no fees) is highlighted as a proof point of technical and operational capability.
+- Real-world asset tokenization, using stablecoins as base pairs, is seen as a next major growth wave, with the team emphasizing their background in commodities and real estate.
+- The Trump family’s hands-on involvement both raises the project’s profile and introduces potential concerns about conflicts of interest and institutional trust, which the company pledges to manage through strong compliance procedures.
+- Institutional adoption is anticipated to increase, especially as more prominent funds and trading firms invest in crypto platforms, signaling legitimization of the stablecoin sector.
+- Strong emphasis is placed on regulatory readiness and "going above and beyond" compliance to attract institutional partners wary of reputational and legal risks.
+- There is acknowledgment of competition, with respect for established players, but a belief that World Liberty’s different institutional and compliance approach will secure a unique position.
+- Unresolved tensions include whether visibility from high-profile backers outweighs the complexity and scrutiny they bring, and if actual product and compliance differentiation can drive significant institutional adoption.
+- Geographic diversification, especially toward crypto-forward jurisdictions like the UAE, is viewed as key for growth and regulatory strategy.
+
+## Key ideas
+
+- (Key ideas not parsed; see JSON or raw text in abstract.)

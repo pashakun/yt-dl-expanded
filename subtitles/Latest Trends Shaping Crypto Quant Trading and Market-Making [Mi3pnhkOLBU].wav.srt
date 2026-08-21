@@ -1,0 +1,3951 @@
+1
+The Future of Money: Latest Trends Shaping Crypto Quant Trading and Market-Making
+
+2
+00:00:02,580 --> 00:00:15,400
+ - Welcome, welcome, welcome.
+
+3
+00:00:15,400 --> 00:00:16,960
+ I'm your host, Henry R. Slingen,
+
+4
+00:00:16,960 --> 00:00:18,980
+ and welcome to the special episode
+
+5
+00:00:18,980 --> 00:00:20,800
+ of the Future Money Podcast,
+
+6
+00:00:20,800 --> 00:00:23,640
+ where we go deep in some of the biggest ideas, trends,
+
+7
+00:00:23,640 --> 00:00:25,960
+ and developments we are seeing in the field of crypto,
+
+8
+00:00:25,960 --> 00:00:28,280
+ and hopefully empower you with this information,
+
+9
+00:00:28,280 --> 00:00:30,280
+ and then let you make your own decision
+
+10
+00:00:30,280 --> 00:00:32,720
+ on what their impact can be on the future of money
+
+11
+00:00:32,720 --> 00:00:34,320
+ and the future of finance.
+
+12
+00:00:34,320 --> 00:00:35,960
+ Today, we have a very special episode
+
+13
+00:00:35,960 --> 00:00:38,000
+ where we're gonna talk about the latest trends
+
+14
+00:00:38,000 --> 00:00:40,320
+ we're seeing in the field of crypto,
+
+15
+00:00:40,320 --> 00:00:42,520
+ quant trading, and market making.
+
+16
+00:00:42,520 --> 00:00:44,440
+ We're also gonna cover a number of issues
+
+17
+00:00:44,440 --> 00:00:48,520
+ from market infrastructure and the latency arms race,
+
+18
+00:00:48,520 --> 00:00:51,400
+ to even the role of AI in quant models and risk management.
+
+19
+00:00:51,400 --> 00:00:53,960
+ So very interesting episode for all of you looking
+
+20
+00:00:53,960 --> 00:00:56,200
+ at kind of the future of crypto trading.
+
+21
+00:00:56,200 --> 00:00:58,400
+ This episode is powered in partnership
+
+22
+00:00:58,400 --> 00:00:59,560
+ with Alchemy Family,
+
+23
+00:00:59,560 --> 00:01:01,480
+ which we'll talk about during the episode as well.
+
+24
+00:01:01,480 --> 00:01:04,040
+ And I'm very honored to be joined today
+
+25
+00:01:04,040 --> 00:01:06,640
+ by fellow Dubai resident, Antonio Agosco,
+
+26
+00:01:06,640 --> 00:01:08,840
+ who's the co-founder of Marvel Capital.
+
+27
+00:01:08,840 --> 00:01:11,400
+ Anthony, great to have you on the show today.
+
+28
+00:01:11,400 --> 00:01:12,920
+ - Thanks for having me.
+
+29
+00:01:12,920 --> 00:01:14,280
+ - One fun fact about you,
+
+30
+00:01:14,280 --> 00:01:16,400
+ I think many people know you as the co-founder
+
+31
+00:01:16,400 --> 00:01:18,360
+ of Marvel Capital is that obviously,
+
+32
+00:01:18,360 --> 00:01:20,360
+ you're a very fit and healthy guy.
+
+33
+00:01:20,360 --> 00:01:24,520
+ You recently did 3,000 push-ups on your birthday.
+
+34
+00:01:24,520 --> 00:01:26,240
+ - On my birthday, you had to be a record.
+
+35
+00:01:26,240 --> 00:01:28,240
+ Yeah, I'm trying to kind of do records,
+
+36
+00:01:28,240 --> 00:01:29,480
+ generally in everything that I do,
+
+37
+00:01:29,480 --> 00:01:32,560
+ and I thought the birthday is a perfect day for that, you know?
+
+38
+00:01:32,560 --> 00:01:33,400
+ - That's great.
+
+39
+00:01:33,400 --> 00:01:36,160
+ How much time did it take by the way to 3,000 push-ups?
+
+40
+00:01:36,160 --> 00:01:38,120
+ - The session was like three and a half hours long.
+
+41
+00:01:38,120 --> 00:01:41,840
+ The whole thing, it's a run plus push-ups plus pull-ups.
+
+42
+00:01:41,840 --> 00:01:43,920
+ So it's a mixture.
+
+43
+00:01:43,920 --> 00:01:44,760
+ - And impressive.
+
+44
+00:01:44,760 --> 00:01:47,240
+ - But I was pretty tired by the end, to be honest.
+
+45
+00:01:47,240 --> 00:01:50,080
+ - Many people go just partying and drinking.
+
+46
+00:01:50,080 --> 00:01:51,080
+ You're there like working out.
+
+47
+00:01:51,080 --> 00:01:54,440
+ I mean, it puts my high intensity hit classes to shame
+
+48
+00:01:54,440 --> 00:01:56,120
+ with your 3,000 push-ups.
+
+49
+00:01:56,120 --> 00:01:57,720
+ But great to have you on board, Anthony.
+
+50
+00:01:57,720 --> 00:01:59,760
+ We have a lot of interesting topics to talk about.
+
+51
+00:01:59,760 --> 00:02:00,600
+ You know what's been interesting
+
+52
+00:02:00,600 --> 00:02:02,440
+ when I get a lot of feedback from my listeners
+
+53
+00:02:02,440 --> 00:02:03,280
+ and the audience.
+
+54
+00:02:03,280 --> 00:02:04,600
+ And many people were asking me, Henry,
+
+55
+00:02:04,600 --> 00:02:06,760
+ can you do an episode about really what's happening
+
+56
+00:02:06,760 --> 00:02:08,160
+ at the cutting edge?
+
+57
+00:02:08,160 --> 00:02:10,160
+ You know, for quantrating, the market making,
+
+58
+00:02:10,160 --> 00:02:11,600
+ with all these different players,
+
+59
+00:02:11,600 --> 00:02:13,440
+ there's a lot of regulatory changes around the world.
+
+60
+00:02:13,440 --> 00:02:15,880
+ So I think you're the perfect guy to talk about it.
+
+61
+00:02:15,880 --> 00:02:18,240
+ But before we really deep dive on it,
+
+62
+00:02:18,240 --> 00:02:19,880
+ maybe can you share with our listeners,
+
+63
+00:02:19,880 --> 00:02:21,640
+ for those of our listeners who don't know you,
+
+64
+00:02:21,640 --> 00:02:23,920
+ a bit more about you about Marvel Capital
+
+65
+00:02:23,920 --> 00:02:26,680
+ and how you got into this world of crypto-quantrating
+
+66
+00:02:26,680 --> 00:02:28,440
+ and what you're doing right now.
+
+67
+00:02:28,440 --> 00:02:32,760
+ - So my background stems from tradfi.
+
+68
+00:02:32,760 --> 00:02:35,880
+ I started my career in London in 2008,
+
+69
+00:02:35,880 --> 00:02:37,760
+ pretty much straight out of uni.
+
+70
+00:02:37,760 --> 00:02:39,760
+ I went to work for ICAP,
+
+71
+00:02:39,760 --> 00:02:42,080
+ which is the world's largest entity of a brokerage.
+
+72
+00:02:42,080 --> 00:02:45,400
+ I sat on various desks from fixed-income CDS
+
+73
+00:02:45,400 --> 00:02:50,400
+ to equity derivatives, to swaps, to FX and EBS desk.
+
+74
+00:02:50,400 --> 00:02:54,320
+ So, you know, I really had an opportunity to get exposure
+
+75
+00:02:54,320 --> 00:02:56,760
+ to a lot of, you know, like different desks
+
+76
+00:02:56,760 --> 00:02:58,840
+ and different markets.
+
+77
+00:02:58,840 --> 00:03:01,640
+ So I was broken that for a few years,
+
+78
+00:03:01,640 --> 00:03:04,640
+ then I was hired by a private bank in Russia
+
+79
+00:03:04,640 --> 00:03:07,080
+ to manage a fixed-income portfolio as a trader.
+
+80
+00:03:07,080 --> 00:03:13,160
+ Then there was another like quasi-sovereign institution
+
+81
+00:03:13,160 --> 00:03:15,880
+ that I worked for in Russia for a few years.
+
+82
+00:03:15,880 --> 00:03:18,160
+ In 2013, myself and a partner,
+
+83
+00:03:18,160 --> 00:03:20,000
+ we set up a licensed brokerage,
+
+84
+00:03:20,000 --> 00:03:23,480
+ which we sold to a large banking group in 2018.
+
+85
+00:03:23,480 --> 00:03:25,440
+ And that kind of coincided with the time
+
+86
+00:03:25,440 --> 00:03:27,920
+ when, if you remember, in 2017,
+
+87
+00:03:27,920 --> 00:03:29,320
+ there was this like ICO hype
+
+88
+00:03:29,320 --> 00:03:32,200
+ and everything was kind of, you know, crazy around the market.
+
+89
+00:03:32,200 --> 00:03:35,000
+ And that was actually the first time I heard about Bitcoin.
+
+90
+00:03:35,000 --> 00:03:37,360
+ And, you know, I started reading up on it
+
+91
+00:03:37,360 --> 00:03:38,960
+ and kind of learning more about it.
+
+92
+00:03:38,960 --> 00:03:41,080
+ I was super excited about this industry.
+
+93
+00:03:41,080 --> 00:03:42,800
+ So I thought, you know, given, you know,
+
+94
+00:03:42,800 --> 00:03:45,440
+ like my company is already kind of in the process
+
+95
+00:03:45,440 --> 00:03:47,400
+ of being sold, I thought that I would dedicate
+
+96
+00:03:47,400 --> 00:03:49,280
+ a lot of my time going forward.
+
+97
+00:03:49,280 --> 00:03:51,080
+ Next couple of decades, probably,
+
+98
+00:03:51,080 --> 00:03:53,640
+ in this new kind of exciting industry
+
+99
+00:03:53,640 --> 00:03:55,520
+ and this new exciting asset class.
+
+100
+00:03:55,520 --> 00:03:58,680
+ So what happened was initially,
+
+101
+00:03:58,680 --> 00:04:02,280
+ I started out with, you know, like with a venture project,
+
+102
+00:04:02,280 --> 00:04:04,720
+ which at the time used to be called Terminal Glover,
+
+103
+00:04:04,720 --> 00:04:08,240
+ which was like an attempt to build a Bloomberg of crypto.
+
+104
+00:04:08,240 --> 00:04:11,240
+ Because at the time, like nothing like that existed.
+
+105
+00:04:11,240 --> 00:04:13,160
+ Unfortunately, that didn't work very well.
+
+106
+00:04:13,160 --> 00:04:15,160
+ You know, we kind of entered like crypto winter
+
+107
+00:04:15,160 --> 00:04:18,200
+ after we released the MVP in Dubai in 2018.
+
+108
+00:04:18,200 --> 00:04:21,600
+ Didn't manage to like raise enough assets,
+
+109
+00:04:21,600 --> 00:04:23,560
+ like enough funds to kind of, you know, keep it going.
+
+110
+00:04:23,560 --> 00:04:26,800
+ So I decided to like not to focus on that anymore.
+
+111
+00:04:26,800 --> 00:04:31,280
+ But it gave us actually a lot of interesting insights
+
+112
+00:04:31,280 --> 00:04:32,920
+ into the market because, you know, at the time,
+
+113
+00:04:32,920 --> 00:04:35,000
+ we connected to a lot of different venues.
+
+114
+00:04:35,000 --> 00:04:35,840
+ It was more than 30.
+
+115
+00:04:35,840 --> 00:04:38,520
+ And we saw there was like so many arbitrage opportunities,
+
+116
+00:04:38,520 --> 00:04:40,600
+ like literally it was money on the floor.
+
+117
+00:04:40,600 --> 00:04:43,360
+ So we started doing the kimchi trade for some time
+
+118
+00:04:43,360 --> 00:04:45,640
+ when it was actually, you know, possible to do like legally
+
+119
+00:04:45,640 --> 00:04:48,360
+ and properly, we did a lot of other things,
+
+120
+00:04:48,360 --> 00:04:49,320
+ like basis trade.
+
+121
+00:04:49,320 --> 00:04:53,880
+ I mean, the spreads were huge, like inefficiencies all around.
+
+122
+00:04:53,880 --> 00:04:55,920
+ So, you know, we enjoyed those times.
+
+123
+00:04:55,920 --> 00:04:58,640
+ And then, you know, like on a professional,
+
+124
+00:04:58,640 --> 00:05:02,840
+ so this has grown into what's now called like Marvel Capital,
+
+125
+00:05:02,840 --> 00:05:05,680
+ which is effectively like a proprietary trading firm,
+
+126
+00:05:05,680 --> 00:05:08,920
+ where, you know, we do like HFT market making
+
+127
+00:05:08,920 --> 00:05:12,120
+ plus various types of statistical arbitrage,
+
+128
+00:05:12,120 --> 00:05:13,800
+ mostly on centralized exchanges.
+
+129
+00:05:13,800 --> 00:05:16,880
+ Even though like since recently, we've been adding some,
+
+130
+00:05:16,880 --> 00:05:18,160
+ some DEXs as well.
+
+131
+00:05:18,160 --> 00:05:21,640
+ So that's the crypto part.
+
+132
+00:05:21,640 --> 00:05:24,840
+ I still have a business that does fixed income
+
+133
+00:05:24,840 --> 00:05:27,200
+ and equity trading, which runs kind of separately
+
+134
+00:05:27,200 --> 00:05:29,440
+ from Marvel, it's called Annagal Group.
+
+135
+00:05:29,440 --> 00:05:30,480
+ It's also Dubai Base.
+
+136
+00:05:30,480 --> 00:05:34,880
+ It's a company set up in 2017, like Audited, et cetera.
+
+137
+00:05:34,880 --> 00:05:36,000
+ That has a separate team.
+
+138
+00:05:36,000 --> 00:05:38,320
+ I'm not too much operationally involved in that
+
+139
+00:05:38,320 --> 00:05:42,240
+ because most of my kind of efforts go towards Marvel.
+
+140
+00:05:42,240 --> 00:05:45,280
+ Yeah, it's like that when you fall into that crypto rabbit hole,
+
+141
+00:05:45,280 --> 00:05:47,720
+ it's very, very difficult to come out of it, right?
+
+142
+00:05:47,720 --> 00:05:49,920
+ So let's go over, do you want to focus on the trading side?
+
+143
+00:05:49,920 --> 00:05:51,320
+ So let's jump right in.
+
+144
+00:05:51,320 --> 00:05:53,520
+ I mean, you mentioned the good old days of the kimchi trade
+
+145
+00:05:53,520 --> 00:05:56,120
+ and those good eras, there was literally money on the floor.
+
+146
+00:05:56,120 --> 00:05:57,520
+ Maybe can you share with our audience,
+
+147
+00:05:57,520 --> 00:06:00,200
+ 'cause you've been in it from the early, early days,
+
+148
+00:06:00,200 --> 00:06:02,280
+ can you let me share with our audience,
+
+149
+00:06:02,280 --> 00:06:06,440
+ how is crypto all go trading, for example,
+
+150
+00:06:06,440 --> 00:06:08,040
+ evolving over the years, right?
+
+151
+00:06:08,040 --> 00:06:09,440
+ How has it evolved from the early days
+
+152
+00:06:09,440 --> 00:06:11,920
+ when you started 2017, where we are,
+
+153
+00:06:11,920 --> 00:06:14,680
+ and how do you see it evolving over the next couple of years
+
+154
+00:06:14,680 --> 00:06:16,800
+ as the industry is changing?
+
+155
+00:06:16,800 --> 00:06:22,720
+ I kind of think that we have seen a fascinating evolution
+
+156
+00:06:22,720 --> 00:06:27,080
+ into how these things have progressed, right?
+
+157
+00:06:27,080 --> 00:06:31,640
+ So Algood, like in the crypto industry is borrowing
+
+158
+00:06:31,640 --> 00:06:34,120
+ a lot of the techniques from the trade file.
+
+159
+00:06:34,120 --> 00:06:38,600
+ And it's adapting them to the unique aspects
+
+160
+00:06:38,600 --> 00:06:39,920
+ of the digital assets, right?
+
+161
+00:06:39,920 --> 00:06:41,200
+ Because they're completely different.
+
+162
+00:06:41,200 --> 00:06:42,480
+ I mean, there are blockchains involved,
+
+163
+00:06:42,480 --> 00:06:45,400
+ there's finality and all these things, right?
+
+164
+00:06:45,400 --> 00:06:47,200
+ And early crypto trading, I think,
+
+165
+00:06:47,200 --> 00:06:49,960
+ focused on simple momentum and art.
+
+166
+00:06:49,960 --> 00:06:53,320
+ But over time, now a lot of new players
+
+167
+00:06:53,320 --> 00:06:55,400
+ and more institutionalized players came in
+
+168
+00:06:55,400 --> 00:06:58,120
+ and liquidity deepened and exchanges have matured
+
+169
+00:06:58,120 --> 00:07:02,040
+ and institutional infrastructure has become much better.
+
+170
+00:07:02,040 --> 00:07:05,920
+ So with time, more complex strategies have emerged.
+
+171
+00:07:05,920 --> 00:07:08,560
+ And now I think there are a lot of teams
+
+172
+00:07:08,560 --> 00:07:11,880
+ that are doing some very sophisticated stuff around,
+
+173
+00:07:11,880 --> 00:07:13,440
+ using AI and machine learning.
+
+174
+00:07:13,440 --> 00:07:14,800
+ I mean, there are companies out there
+
+175
+00:07:14,800 --> 00:07:17,160
+ that build their own data centers
+
+176
+00:07:17,160 --> 00:07:19,200
+ just to process their stuff,
+
+177
+00:07:19,200 --> 00:07:23,160
+ just to do their own calculations on their like Algoods.
+
+178
+00:07:23,160 --> 00:07:26,560
+ I mean, it actually is pretty advanced at this moment.
+
+179
+00:07:26,560 --> 00:07:29,640
+ So the space is very competitive.
+
+180
+00:07:29,640 --> 00:07:33,120
+ And I think it's gonna get even more competitive,
+
+181
+00:07:33,120 --> 00:07:36,400
+ to be absolutely honest, which kind of means
+
+182
+00:07:36,400 --> 00:07:38,720
+ that it poses a lot of threat, I think,
+
+183
+00:07:38,720 --> 00:07:42,320
+ to the smaller players, especially when the new guys come in.
+
+184
+00:07:42,320 --> 00:07:44,920
+ And we start talking about, you know,
+
+185
+00:07:44,920 --> 00:07:47,240
+ the latency arms raise, you know,
+
+186
+00:07:47,240 --> 00:07:49,640
+ small guys are not gonna have any chances against
+
+187
+00:07:49,640 --> 00:07:52,640
+ the large guys who are just able to throw money at the wall
+
+188
+00:07:52,640 --> 00:07:56,200
+ and, you know, do stuff that other people just can't, right?
+
+189
+00:07:56,200 --> 00:08:00,240
+ But still, at this moment, we see a lot of opportunity
+
+190
+00:08:00,240 --> 00:08:02,800
+ out there even for, you know, smaller players.
+
+191
+00:08:02,800 --> 00:08:05,160
+ So the market, I think, in my opinion,
+
+192
+00:08:05,160 --> 00:08:07,560
+ hasn't properly institutionalized yet.
+
+193
+00:08:07,560 --> 00:08:11,320
+ There is still not a lot of institutional liquidity
+
+194
+00:08:11,320 --> 00:08:13,080
+ in crypto as of today,
+
+195
+00:08:13,080 --> 00:08:15,880
+ even though the infrastructure has, you know, matured
+
+196
+00:08:15,880 --> 00:08:19,560
+ a little bit, it's still far from what you would expect
+
+197
+00:08:19,560 --> 00:08:22,080
+ in a proper, mature, tried-by market.
+
+198
+00:08:22,080 --> 00:08:22,920
+ - So let's focus on that.
+
+199
+00:08:22,920 --> 00:08:25,920
+ Let's say on the low latency environment, right?
+
+200
+00:08:25,920 --> 00:08:27,320
+ And market infrastructure,
+
+201
+00:08:27,320 --> 00:08:31,560
+ who do you think will be the players in the space?
+
+202
+00:08:31,560 --> 00:08:34,640
+ Do you expect that the crypto native HFT firms
+
+203
+00:08:34,640 --> 00:08:36,320
+ will come and dominate this market?
+
+204
+00:08:36,320 --> 00:08:38,240
+ Or are we gonna see the big HFT players
+
+205
+00:08:38,240 --> 00:08:39,360
+ that we have in a trad-fi world
+
+206
+00:08:39,360 --> 00:08:41,920
+ to have the big wallets and the infrastructure?
+
+207
+00:08:41,920 --> 00:08:44,560
+ And arguably some of the experience and expertise as well,
+
+208
+00:08:44,560 --> 00:08:47,520
+ at least on trad-fi, to come and dominate this world?
+
+209
+00:08:47,520 --> 00:08:48,840
+ - That is actually a really good question,
+
+210
+00:08:48,840 --> 00:08:51,320
+ because, yeah, the other day we can have discussed
+
+211
+00:08:51,320 --> 00:08:52,280
+ that with my partner.
+
+212
+00:08:52,280 --> 00:08:55,560
+ And we actually think that the space is gonna be,
+
+213
+00:08:55,560 --> 00:08:59,040
+ like, long-term dominated by crypto native firms.
+
+214
+00:08:59,040 --> 00:09:01,040
+ The ones that have been around for a while,
+
+215
+00:09:01,040 --> 00:09:04,160
+ and it would be very difficult for trad-fi firms
+
+216
+00:09:04,160 --> 00:09:05,720
+ to kind of catch up with them.
+
+217
+00:09:05,720 --> 00:09:09,880
+ So I think the only way that the huge trad-fi guys
+
+218
+00:09:09,880 --> 00:09:11,640
+ would kind of enter the space would be through,
+
+219
+00:09:11,640 --> 00:09:14,400
+ like, acquisitions and things like that,
+
+220
+00:09:14,400 --> 00:09:16,040
+ through some form of conciliation.
+
+221
+00:09:16,040 --> 00:09:17,760
+ I mean, for example, I don't know,
+
+222
+00:09:17,760 --> 00:09:19,520
+ BlackRock or something coming in and saying,
+
+223
+00:09:19,520 --> 00:09:20,760
+ "Okay, we wanna enter the space,
+
+224
+00:09:20,760 --> 00:09:22,960
+ "like we wanna build a business out of it.
+
+225
+00:09:22,960 --> 00:09:24,880
+ "Let's see who is the best in the market, buy them,
+
+226
+00:09:24,880 --> 00:09:26,240
+ "and then just develop it."
+
+227
+00:09:26,240 --> 00:09:28,320
+ They can afford to do that.
+
+228
+00:09:28,320 --> 00:09:30,120
+ So I think that would be like a route
+
+229
+00:09:30,120 --> 00:09:33,480
+ that these large institutions might pursue.
+
+230
+00:09:33,480 --> 00:09:37,920
+ But at the moment, I think the crypto native guys are,
+
+231
+00:09:37,920 --> 00:09:40,400
+ I think they're doing much better than the guys
+
+232
+00:09:40,400 --> 00:09:43,240
+ who are from trad-fi and just entering the space.
+
+233
+00:09:43,240 --> 00:09:46,200
+ - Why do you think the crypto native firms
+
+234
+00:09:46,200 --> 00:09:48,120
+ are doing better than the trad-fi firms coming in?
+
+235
+00:09:48,120 --> 00:09:49,560
+ Is it knowledge of the space?
+
+236
+00:09:49,560 --> 00:09:52,120
+ Is it knowledge of the uniqueness of crypto?
+
+237
+00:09:52,120 --> 00:09:53,400
+ Is it regulatory arbitrage?
+
+238
+00:09:53,400 --> 00:09:55,320
+ What do you think is giving them the edge?
+
+239
+00:09:55,320 --> 00:09:59,280
+ - So there is a lot to do with technical variations, right?
+
+240
+00:09:59,280 --> 00:10:02,240
+ So there is a lot of technicalities that exist in crypto
+
+241
+00:10:02,240 --> 00:10:05,840
+ that are unique and different to what you would see
+
+242
+00:10:05,840 --> 00:10:08,640
+ in trad-fi market, so that's one, I guess.
+
+243
+00:10:08,640 --> 00:10:13,360
+ Then the regulation, yes, probably, if it's a small company,
+
+244
+00:10:13,360 --> 00:10:17,240
+ if it's nimble, it can get set up in a lot of places
+
+245
+00:10:17,240 --> 00:10:22,240
+ quickly, et cetera, and large corporations and companies
+
+246
+00:10:22,240 --> 00:10:24,840
+ just are not able to move at that kind of speed.
+
+247
+00:10:24,840 --> 00:10:27,000
+ So I think the smaller players are able
+
+248
+00:10:27,000 --> 00:10:29,560
+ to take advantage of that.
+
+249
+00:10:29,560 --> 00:10:32,760
+ Very interesting, and then when you look at the,
+
+250
+00:10:32,760 --> 00:10:37,320
+ we talked about a crypto, let's say, quant trading, right?
+
+251
+00:10:37,320 --> 00:10:38,960
+ Obviously, you mentioned before, you guys are doing a lot
+
+252
+00:10:38,960 --> 00:10:40,560
+ of stuff on the C-fi side.
+
+253
+00:10:40,560 --> 00:10:42,200
+ When you look at the D-fi side,
+
+254
+00:10:42,200 --> 00:10:44,920
+ like what are some of the opportunities you're seeing
+
+255
+00:10:44,920 --> 00:10:48,000
+ in the broader, let's say arbitrage opportunities
+
+256
+00:10:48,000 --> 00:10:50,600
+ that you're seeing in C-fi as we continue,
+
+257
+00:10:50,600 --> 00:10:53,880
+ but also in D-fi and between both as well?
+
+258
+00:10:53,880 --> 00:10:57,480
+ - Yeah, so I wouldn't call myself an expert on D-fi
+
+259
+00:10:57,480 --> 00:10:59,920
+ to be absolutely frank.
+
+260
+00:10:59,920 --> 00:11:03,360
+ However, we have recently built connectivity
+
+261
+00:11:03,360 --> 00:11:06,600
+ to some D-fi venues, and we see that there are actually
+
+262
+00:11:06,600 --> 00:11:10,680
+ a lot of opportunities are being just C-fi and D-fi.
+
+263
+00:11:10,680 --> 00:11:14,520
+ So we are kind of going that route as well,
+
+264
+00:11:14,520 --> 00:11:18,240
+ and we will be doing a little bit more in D-fi
+
+265
+00:11:18,240 --> 00:11:19,960
+ in the coming months.
+
+266
+00:11:19,960 --> 00:11:22,000
+ The opportunities are there.
+
+267
+00:11:22,000 --> 00:11:25,000
+ There are also a lot of technical difficulties
+
+268
+00:11:25,000 --> 00:11:29,440
+ to be faced and solved, but there's definitely
+
+269
+00:11:29,440 --> 00:11:31,560
+ a lot of opportunity out there, just generally.
+
+270
+00:11:31,560 --> 00:11:33,520
+ Because I mean, the market is still very nascent,
+
+271
+00:11:33,520 --> 00:11:34,960
+ it's still very fragmented.
+
+272
+00:11:34,960 --> 00:11:36,440
+ It's like all over the place, you know?
+
+273
+00:11:36,440 --> 00:11:39,120
+ It's like you can have a protocol, I don't know,
+
+274
+00:11:39,120 --> 00:11:41,400
+ set up yesterday and like in two weeks time,
+
+275
+00:11:41,400 --> 00:11:43,120
+ it's gonna have like a TVL over the billion,
+
+276
+00:11:43,120 --> 00:11:46,480
+ and there's gonna be a lot of things packaged inside of that
+
+277
+00:11:46,480 --> 00:11:49,160
+ which are not reflected anywhere else in the market,
+
+278
+00:11:49,160 --> 00:11:50,680
+ and you know, you can orbit.
+
+279
+00:11:50,680 --> 00:11:53,160
+ I mean, there's a lot of stuff that just goes
+
+280
+00:11:53,160 --> 00:11:54,920
+ through the fingers, yeah.
+
+281
+00:11:54,920 --> 00:11:56,440
+ This is why, you know, when I just reflect
+
+282
+00:11:56,440 --> 00:11:57,280
+ about what you said, right?
+
+283
+00:11:57,280 --> 00:11:59,520
+ Like, there's, I can see in a market
+
+284
+00:11:59,520 --> 00:12:02,400
+ that is very developed, liquid, deep,
+
+285
+00:12:02,400 --> 00:12:05,480
+ had the big HFT firms, or even the large crypto
+
+286
+00:12:05,480 --> 00:12:08,040
+ HFT firms can actually dominate, right?
+
+287
+00:12:08,040 --> 00:12:10,720
+ In a market like the one you mentioned,
+
+288
+00:12:10,720 --> 00:12:13,960
+ actually being smaller, Nimbo has advantages, right?
+
+289
+00:12:13,960 --> 00:12:14,800
+ Where they can move around.
+
+290
+00:12:14,800 --> 00:12:15,640
+ - Absolutely.
+
+291
+00:12:15,640 --> 00:12:18,080
+ - But the problem there becomes also capacity, right?
+
+292
+00:12:18,080 --> 00:12:20,360
+ I mean, if there's a capacity of, you know,
+
+293
+00:12:20,360 --> 00:12:23,240
+ you can make, you know, you can trade for 20, $30 million,
+
+294
+00:12:23,240 --> 00:12:25,840
+ that's not gonna be interesting for the big HFT firms, right?
+
+295
+00:12:25,840 --> 00:12:26,680
+ - Yeah.
+
+296
+00:12:26,680 --> 00:12:27,520
+ - It's not worth it.
+
+297
+00:12:27,520 --> 00:12:30,800
+ I mean, do you believe that, let's say for the short,
+
+298
+00:12:30,800 --> 00:12:34,760
+ medium term, agility, nimbleness,
+
+299
+00:12:34,760 --> 00:12:38,040
+ Trump's basically the whole technology investment
+
+300
+00:12:38,040 --> 00:12:40,640
+ and low latency environment, in a way?
+
+301
+00:12:40,640 --> 00:12:43,360
+ - I actually think that you have actually answered
+
+302
+00:12:43,360 --> 00:12:46,840
+ one of your questions, because if you think about it,
+
+303
+00:12:46,840 --> 00:12:48,680
+ for the really large institutions
+
+304
+00:12:48,680 --> 00:12:50,960
+ that have a lot of assets to allocate,
+
+305
+00:12:50,960 --> 00:12:53,360
+ the market is just not ready for their money,
+
+306
+00:12:53,360 --> 00:12:54,400
+ if you know what I mean, right?
+
+307
+00:12:54,400 --> 00:12:55,720
+ Just the size of it, you know,
+
+308
+00:12:55,720 --> 00:12:57,160
+ there's just not enough liquidity,
+
+309
+00:12:57,160 --> 00:12:59,520
+ there's not enough market participants,
+
+310
+00:12:59,520 --> 00:13:01,880
+ there's not enough depth to the market
+
+311
+00:13:01,880 --> 00:13:03,080
+ for them to actually participate.
+
+312
+00:13:03,080 --> 00:13:05,640
+ So it's actually one of the reasons it seems to me
+
+313
+00:13:05,640 --> 00:13:08,400
+ that they're kind of on the sidelines for the moment,
+
+314
+00:13:08,400 --> 00:13:10,520
+ and they're kind of holding out, you know,
+
+315
+00:13:10,520 --> 00:13:12,000
+ until better times.
+
+316
+00:13:12,000 --> 00:13:14,400
+ That's, I think that's what we're seeing.
+
+317
+00:13:14,400 --> 00:13:15,400
+ But still, you know,
+
+318
+00:13:15,400 --> 00:13:18,200
+ cryptocurrencies, they keep developing their products,
+
+319
+00:13:18,200 --> 00:13:21,480
+ and, you know, we've seen a lot of interesting developments
+
+320
+00:13:21,480 --> 00:13:26,200
+ around custody and self custody and of exchange solutions,
+
+321
+00:13:26,200 --> 00:13:28,600
+ which kind of make people more comfortable
+
+322
+00:13:28,600 --> 00:13:31,160
+ around, you know, holding assets in crypto
+
+323
+00:13:31,160 --> 00:13:34,000
+ and, you know, large institutions that are still,
+
+324
+00:13:34,000 --> 00:13:39,000
+ I think not fully knowledgeable on these things,
+
+325
+00:13:39,000 --> 00:13:41,600
+ just because they have their own thing to do,
+
+326
+00:13:41,600 --> 00:13:45,560
+ and, you know, they're not focusing on this specific industry.
+
+327
+00:13:45,560 --> 00:13:46,400
+ - Yeah.
+
+328
+00:13:46,400 --> 00:13:47,960
+ - I mean, there's the opportunity cost for them,
+
+329
+00:13:47,960 --> 00:13:49,600
+ and still there's so much to be done, ironically,
+
+330
+00:13:49,600 --> 00:13:50,440
+ and stratified.
+
+331
+00:13:50,440 --> 00:13:51,280
+ - Exactly.
+
+332
+00:13:51,280 --> 00:13:53,200
+ - It doesn't make sense.
+
+333
+00:13:53,200 --> 00:13:54,800
+ I mean, you raise a good point as well, Antony,
+
+334
+00:13:54,800 --> 00:13:56,160
+ when you talk about it, it's a custody, right?
+
+335
+00:13:56,160 --> 00:13:59,760
+ Because I can see large stratified firms coming in
+
+336
+00:13:59,760 --> 00:14:01,800
+ when the, let's say the custody solution is solved.
+
+337
+00:14:01,800 --> 00:14:03,760
+ And we could argue in certain extent,
+
+338
+00:14:03,760 --> 00:14:06,880
+ when it comes to CFI exchanges, it's solved, yes.
+
+339
+00:14:06,880 --> 00:14:09,880
+ Maybe not perfect, but it's by and large here.
+
+340
+00:14:09,880 --> 00:14:11,520
+ But I think you raise a very good point
+
+341
+00:14:11,520 --> 00:14:13,360
+ when it comes to, for example, DFI
+
+342
+00:14:13,360 --> 00:14:15,400
+ becomes significantly more difficult.
+
+343
+00:14:15,400 --> 00:14:17,600
+ I've trouble seeing a large Wall Street
+
+344
+00:14:17,600 --> 00:14:21,320
+ or Chicago or Miami firm start doing self-custody
+
+345
+00:14:21,320 --> 00:14:22,840
+ on their DFI trading.
+
+346
+00:14:22,840 --> 00:14:24,960
+ I mean, it sounds to me, probably, I mean,
+
+347
+00:14:24,960 --> 00:14:29,960
+ what do you think is the one infrastructure change
+
+348
+00:14:29,960 --> 00:14:32,240
+ that is needed?
+
+349
+00:14:32,240 --> 00:14:34,320
+ That would basically catalyze the entry
+
+350
+00:14:34,320 --> 00:14:38,600
+ of infrastructure players in particular HFT players,
+
+351
+00:14:38,600 --> 00:14:39,960
+ for example, or conch firms.
+
+352
+00:14:39,960 --> 00:14:41,440
+ - I don't think there is one, to be honest.
+
+353
+00:14:41,440 --> 00:14:44,440
+ I think it's kind of a mixture of regulation
+
+354
+00:14:44,440 --> 00:14:46,760
+ or quite frankly, absence of regulation,
+
+355
+00:14:46,760 --> 00:14:51,760
+ because the market is still, it hasn't found its ground
+
+356
+00:14:51,760 --> 00:14:54,560
+ in the sense that a lot of people are doing things
+
+357
+00:14:54,560 --> 00:14:58,720
+ that they think are okay, but actually, they're not.
+
+358
+00:14:58,720 --> 00:15:01,240
+ But it's not written anywhere that they're not, you know?
+
+359
+00:15:01,240 --> 00:15:04,280
+ So we've seen some developments in the market
+
+360
+00:15:04,280 --> 00:15:06,960
+ in the past couple of weeks, which kind of, you know,
+
+361
+00:15:06,960 --> 00:15:10,000
+ affected a lot of like market makers and, you know,
+
+362
+00:15:10,000 --> 00:15:13,080
+ firms who were doing like token market making, et cetera.
+
+363
+00:15:13,080 --> 00:15:15,720
+ So these rules, they're just not written anywhere.
+
+364
+00:15:15,720 --> 00:15:18,680
+ There must be clarity, right?
+
+365
+00:15:18,680 --> 00:15:21,000
+ There isn't enough clarity at the moment.
+
+366
+00:15:21,000 --> 00:15:23,000
+ So it's still kind of developing, you know,
+
+367
+00:15:23,000 --> 00:15:25,120
+ travel rule has been introduced fairly recently,
+
+368
+00:15:25,120 --> 00:15:27,400
+ Mika, like all these things, they're developing
+
+369
+00:15:27,400 --> 00:15:28,760
+ literally as we speak, right?
+
+370
+00:15:28,760 --> 00:15:29,960
+ It's not like it's matured
+
+371
+00:15:29,960 --> 00:15:32,040
+ and everybody knows the rules of the game.
+
+372
+00:15:32,040 --> 00:15:35,000
+ So I think regulation is very important, that's one.
+
+373
+00:15:35,000 --> 00:15:37,680
+ And that, I think, stops a lot of huge guys
+
+374
+00:15:37,680 --> 00:15:39,680
+ from kind of entering like this as well,
+
+375
+00:15:39,680 --> 00:15:42,400
+ because, you know, they have risks associated
+
+376
+00:15:42,400 --> 00:15:46,720
+ with their main business, which they don't want
+
+377
+00:15:46,720 --> 00:15:49,640
+ sort of crypto to affect, yeah?
+
+378
+00:15:49,640 --> 00:15:51,160
+ So that's one.
+
+379
+00:15:51,160 --> 00:15:56,160
+ Then in terms of technical infrastructure and solutions.
+
+380
+00:15:56,160 --> 00:16:00,520
+ So I think a lot of solutions are already there.
+
+381
+00:16:00,520 --> 00:16:05,480
+ Maybe they're not at the level where it kind of
+
+382
+00:16:05,480 --> 00:16:06,960
+ solves all the issues now.
+
+383
+00:16:06,960 --> 00:16:08,400
+ But I mean, there are custodians out there,
+
+384
+00:16:08,400 --> 00:16:09,760
+ which are doing a great job, you know,
+
+385
+00:16:09,760 --> 00:16:13,880
+ like Copper and Fireblocks and Camino and all of those,
+
+386
+00:16:13,880 --> 00:16:15,440
+ you know, they all have their differences
+
+387
+00:16:15,440 --> 00:16:17,920
+ and, you know, different setups, et cetera.
+
+388
+00:16:17,920 --> 00:16:19,840
+ But at the same time, I mean,
+
+389
+00:16:19,840 --> 00:16:21,520
+ it seems that their business is growing,
+
+390
+00:16:21,520 --> 00:16:23,240
+ which means, like, which means that, you know,
+
+391
+00:16:23,240 --> 00:16:26,120
+ these institutions are actually depositing funds.
+
+392
+00:16:26,120 --> 00:16:30,040
+ You know, so that's all good.
+
+393
+00:16:30,040 --> 00:16:33,720
+ To be absolutely honest, I think if there will be a way
+
+394
+00:16:33,720 --> 00:16:38,360
+ of trying to find, you know,
+
+395
+00:16:38,360 --> 00:16:43,160
+ this balance between self custody and doing it legally
+
+396
+00:16:43,160 --> 00:16:45,360
+ and making sure that institutions can tap
+
+397
+00:16:45,360 --> 00:16:48,640
+ into this infrastructure, that would really be the key.
+
+398
+00:16:48,640 --> 00:16:51,760
+ But at the moment, I think there is still
+
+399
+00:16:51,760 --> 00:16:55,920
+ not enough kind of infrastructure and solutions out there.
+
+400
+00:16:55,920 --> 00:16:56,760
+ - Yeah, I agree with you.
+
+401
+00:16:56,760 --> 00:16:57,960
+ I think there's, on that side,
+
+402
+00:16:57,960 --> 00:17:00,680
+ there's a lot of work to be done still on the front.
+
+403
+00:17:00,680 --> 00:17:02,160
+ You know, you mentioned market makers.
+
+404
+00:17:02,160 --> 00:17:04,520
+ I'll be very keen to get, what's your point of view
+
+405
+00:17:04,520 --> 00:17:08,880
+ on the crypto market making ecosystem right now?
+
+406
+00:17:08,880 --> 00:17:12,840
+ Do you believe the quality, the institutional setup
+
+407
+00:17:12,840 --> 00:17:16,800
+ and the clarity around their activities are there
+
+408
+00:17:16,800 --> 00:17:18,800
+ at the institutional level yet?
+
+409
+00:17:18,800 --> 00:17:21,680
+ Or there's a long way to go from that perspective?
+
+410
+00:17:21,680 --> 00:17:23,240
+ - Definitely a long way to go.
+
+411
+00:17:23,240 --> 00:17:26,120
+ I think this industry is, you know,
+
+412
+00:17:26,120 --> 00:17:29,040
+ underegulated in the sense that, you know,
+
+413
+00:17:29,040 --> 00:17:31,280
+ there's a lot of, like, wash trading,
+
+414
+00:17:31,280 --> 00:17:33,240
+ I mean, that we see as well in the books.
+
+415
+00:17:33,240 --> 00:17:35,840
+ There's a lot of, you know, turning up volumes
+
+416
+00:17:35,840 --> 00:17:38,680
+ just for the sake of doing volumes, et cetera.
+
+417
+00:17:38,680 --> 00:17:42,000
+ And, you know, there's probably a lot of malpractice
+
+418
+00:17:42,000 --> 00:17:46,400
+ and like manipulation as well,
+
+419
+00:17:46,400 --> 00:17:47,880
+ especially around like small talking.
+
+420
+00:17:47,880 --> 00:17:49,560
+ So like the ones that get just, you know,
+
+421
+00:17:49,560 --> 00:17:50,640
+ like newly issued, et cetera.
+
+422
+00:17:50,640 --> 00:17:54,640
+ So it's definitely underegulated,
+
+423
+00:17:54,640 --> 00:17:56,960
+ but because the market is fragmented,
+
+424
+00:17:56,960 --> 00:17:59,200
+ it means that people trade on exchanges
+
+425
+00:17:59,200 --> 00:18:02,000
+ on that, you know, they're licensed on some islands.
+
+426
+00:18:02,000 --> 00:18:05,400
+ So, and, you know, you can't really enforce things there
+
+427
+00:18:05,400 --> 00:18:06,760
+ in a way, right?
+
+428
+00:18:06,760 --> 00:18:10,040
+ So there's a lot of issues still.
+
+429
+00:18:10,040 --> 00:18:12,160
+ And I think they're not gonna be sold anytime soon.
+
+430
+00:18:12,160 --> 00:18:15,160
+ It's been the same since pretty much 2017
+
+431
+00:18:15,160 --> 00:18:17,040
+ that I entered this space in terms of
+
+432
+00:18:17,040 --> 00:18:18,880
+ how kind of wild west it is.
+
+433
+00:18:18,880 --> 00:18:21,080
+ I think it's still very much so.
+
+434
+00:18:21,080 --> 00:18:22,240
+ - Yeah, it's interesting.
+
+435
+00:18:22,240 --> 00:18:24,000
+ I was just reading, you know,
+
+436
+00:18:24,000 --> 00:18:26,760
+ there was a first accusations from the US government
+
+437
+00:18:26,760 --> 00:18:29,480
+ on the US authorities on wash trading
+
+438
+00:18:29,480 --> 00:18:32,200
+ and market manipulation against the number of,
+
+439
+00:18:32,200 --> 00:18:33,760
+ they call the market makers.
+
+440
+00:18:33,760 --> 00:18:34,680
+ I think the term is a bit,
+
+441
+00:18:34,680 --> 00:18:37,800
+ the use of it too broadly, too generously.
+
+442
+00:18:37,800 --> 00:18:39,240
+ But it was very, very interesting, actually.
+
+443
+00:18:39,240 --> 00:18:41,720
+ You're right, so it pump 'em up, pump 'em dumps.
+
+444
+00:18:41,720 --> 00:18:43,840
+ I mean, the market inflation, big time.
+
+445
+00:18:43,840 --> 00:18:45,240
+ But you think, you know,
+
+446
+00:18:45,240 --> 00:18:49,480
+ the, can't we argue that in the market like crypto, right?
+
+447
+00:18:49,480 --> 00:18:52,240
+ Where you have volatility, where, you know,
+
+448
+00:18:52,240 --> 00:18:53,440
+ liquidity's not always there.
+
+449
+00:18:53,440 --> 00:18:56,000
+ The market makers play a very crucial role
+
+450
+00:18:56,000 --> 00:18:58,560
+ in addressing the liquidity concerns
+
+451
+00:18:58,560 --> 00:19:01,080
+ that exist in this nascent industry.
+
+452
+00:19:01,080 --> 00:19:02,640
+ - Of course, I mean, market makers, you know,
+
+453
+00:19:02,640 --> 00:19:05,080
+ they're crucial in providing liquidity
+
+454
+00:19:05,080 --> 00:19:06,640
+ to what is still a relatively young
+
+455
+00:19:06,640 --> 00:19:08,760
+ and kind of volatile market.
+
+456
+00:19:08,760 --> 00:19:10,920
+ And, you know, unlike traditional financial markets,
+
+457
+00:19:10,920 --> 00:19:13,800
+ you know, crypto exchanges operate obviously 24/7
+
+458
+00:19:13,800 --> 00:19:15,680
+ and globally, which creates a, you know,
+
+459
+00:19:15,680 --> 00:19:17,360
+ significant liquidity challenges,
+
+460
+00:19:17,360 --> 00:19:20,440
+ especially for newer and kind of smaller coins.
+
+461
+00:19:20,440 --> 00:19:23,920
+ And, you know, all these automated market making algorithms,
+
+462
+00:19:23,920 --> 00:19:25,600
+ they kind of help maintain spreads
+
+463
+00:19:25,600 --> 00:19:29,160
+ and, you know, manage inventory risk.
+
+464
+00:19:29,160 --> 00:19:32,520
+ But the volatility is still kind of significant for many.
+
+465
+00:19:32,520 --> 00:19:34,680
+ But, you know, like market makers have to be
+
+466
+00:19:34,680 --> 00:19:38,400
+ very much adaptive and kind of constantly refine
+
+467
+00:19:38,400 --> 00:19:39,240
+ their models.
+
+468
+00:19:39,240 --> 00:19:40,440
+ Like, I've seen numerous times
+
+469
+00:19:40,440 --> 00:19:43,160
+ because I speak to a lot of teams generally
+
+470
+00:19:43,160 --> 00:19:44,480
+ and I've seen numerous times
+
+471
+00:19:44,480 --> 00:19:48,200
+ that something that worked yesterday stopped working today.
+
+472
+00:19:48,200 --> 00:19:50,920
+ And it's just, you know, like you have to,
+
+473
+00:19:50,920 --> 00:19:53,520
+ you have to kind of keep going
+
+474
+00:19:53,520 --> 00:19:56,120
+ and keep nourishing your kind of algos
+
+475
+00:19:56,120 --> 00:19:57,920
+ and making sure that, you know,
+
+476
+00:19:57,920 --> 00:20:00,200
+ you're up to speed with developments
+
+477
+00:20:00,200 --> 00:20:04,000
+ and changes that the market is dictating effectively.
+
+478
+00:20:04,000 --> 00:20:06,160
+ - Yeah, it's gonna be very interesting
+
+479
+00:20:06,160 --> 00:20:07,480
+ to see how this industry evolves.
+
+480
+00:20:07,480 --> 00:20:09,880
+ I think you're right, there's so much shady activity
+
+481
+00:20:09,880 --> 00:20:11,000
+ in some of these tokens as well.
+
+482
+00:20:11,000 --> 00:20:13,120
+ But let's see how it evolves.
+
+483
+00:20:13,120 --> 00:20:15,880
+ One more thing I wanna ask you related to this topic,
+
+484
+00:20:15,880 --> 00:20:18,800
+ a bit is on the broader quant side,
+
+485
+00:20:18,800 --> 00:20:21,080
+ the role that AI machine learning is playing
+
+486
+00:20:21,080 --> 00:20:22,120
+ on in this space, right?
+
+487
+00:20:22,120 --> 00:20:23,360
+ Let's say, not on the market making side,
+
+488
+00:20:23,360 --> 00:20:25,400
+ more on the algo trading side, right?
+
+489
+00:20:25,400 --> 00:20:27,920
+ How do you see the, in your,
+
+490
+00:20:27,920 --> 00:20:30,160
+ from your perspective,
+
+491
+00:20:30,160 --> 00:20:32,200
+ how did the advancements in technology
+
+492
+00:20:32,200 --> 00:20:34,160
+ like in the field of AI and machine learning
+
+493
+00:20:34,160 --> 00:20:35,320
+ in particular, right?
+
+494
+00:20:35,320 --> 00:20:39,040
+ Really have kind of shaped or impacted
+
+495
+00:20:39,040 --> 00:20:42,320
+ the algo trading space in the crypto algo trading space.
+
+496
+00:20:42,320 --> 00:20:46,320
+ - Actually, I can answer that in two parts.
+
+497
+00:20:46,320 --> 00:20:49,720
+ So I can answer that from the standpoint of business.
+
+498
+00:20:49,720 --> 00:20:51,840
+ And also I can answer that from the standpoint
+
+499
+00:20:51,840 --> 00:20:52,680
+ of algos.
+
+500
+00:20:52,680 --> 00:20:55,440
+ So for example, specifically in business,
+
+501
+00:20:55,440 --> 00:20:56,880
+ and I think it happened with us as well.
+
+502
+00:20:56,880 --> 00:21:00,160
+ So we've actually had to let some people go
+
+503
+00:21:00,160 --> 00:21:03,440
+ that are junior just because, you know,
+
+504
+00:21:03,440 --> 00:21:07,960
+ chat GPT does a pretty good job at writing code
+
+505
+00:21:07,960 --> 00:21:10,840
+ that you can then kind of tweak and, you know,
+
+506
+00:21:10,840 --> 00:21:14,920
+ so basically what it means is that you need less engineers
+
+507
+00:21:14,920 --> 00:21:15,920
+ to do the same thing.
+
+508
+00:21:15,920 --> 00:21:18,640
+ So that's one, I think that's actually very important, right?
+
+509
+00:21:18,640 --> 00:21:22,240
+ Because now the distinction between a really good engineer
+
+510
+00:21:22,240 --> 00:21:25,560
+ and a poor engineer is just that much bigger, right?
+
+511
+00:21:25,560 --> 00:21:30,040
+ So now if you don't use AI in, like in code,
+
+512
+00:21:30,040 --> 00:21:32,240
+ you kind of lose out, like literally.
+
+513
+00:21:32,240 --> 00:21:35,160
+ So AI actually enhances any developer out there.
+
+514
+00:21:35,160 --> 00:21:36,360
+ So that's one.
+
+515
+00:21:36,360 --> 00:21:39,320
+ And then in terms of the algos themselves.
+
+516
+00:21:39,320 --> 00:21:44,240
+ So yeah, I mean, we are not particularly advanced on AI,
+
+517
+00:21:44,240 --> 00:21:46,320
+ even though we're kind of strongly looking into it.
+
+518
+00:21:46,320 --> 00:21:49,840
+ And I'm generally very interested in AI
+
+519
+00:21:49,840 --> 00:21:54,720
+ to see how we can apply it to what we're doing at the moment.
+
+520
+00:21:54,720 --> 00:21:58,400
+ But I know that some teams out there are super advanced
+
+521
+00:21:58,400 --> 00:22:01,440
+ and they process like, you know,
+
+522
+00:22:01,440 --> 00:22:05,360
+ huge data amounts to that AI can then, you know,
+
+523
+00:22:05,360 --> 00:22:07,800
+ self-teach and learn and all of that.
+
+524
+00:22:07,800 --> 00:22:11,320
+ But, you know, we're not that one.
+
+525
+00:22:11,320 --> 00:22:16,320
+ So I'm, you know, it's very difficult to understand
+
+526
+00:22:16,320 --> 00:22:20,880
+ where all of this is going just because we know that,
+
+527
+00:22:20,880 --> 00:22:24,040
+ for example, AI will change some industries.
+
+528
+00:22:24,040 --> 00:22:26,240
+ Like for example, you know, it's like self-driving cars.
+
+529
+00:22:26,240 --> 00:22:28,840
+ It's just a matter of time, but you know,
+
+530
+00:22:28,840 --> 00:22:31,240
+ it will happen, right?
+
+531
+00:22:31,240 --> 00:22:33,680
+ Similarly, we could argue that, you know,
+
+532
+00:22:33,680 --> 00:22:37,680
+ if we get AI to trade, then there at some point
+
+533
+00:22:37,680 --> 00:22:39,040
+ there won't be any inefficiencies.
+
+534
+00:22:39,040 --> 00:22:42,480
+ But that doesn't sound particularly excited for me,
+
+535
+00:22:42,480 --> 00:22:45,000
+ first of all, but secondly,
+
+536
+00:22:45,000 --> 00:22:47,280
+ I don't think that's coming anytime soon,
+
+537
+00:22:47,280 --> 00:22:48,480
+ to be absolutely honest with you.
+
+538
+00:22:48,480 --> 00:22:50,920
+ So there's still a lot of fragmentation,
+
+539
+00:22:50,920 --> 00:22:54,120
+ there's still a lot of inefficiency out there.
+
+540
+00:22:54,120 --> 00:22:59,120
+ But yeah, I would definitely say that people who don't
+
+541
+00:22:59,120 --> 00:23:04,720
+ kind of jump on this bandwagon of trying to leverage,
+
+542
+00:23:04,720 --> 00:23:07,280
+ you know, AI and ML in what they're doing
+
+543
+00:23:07,280 --> 00:23:09,640
+ specifically apply to quantitative trading,
+
+544
+00:23:09,640 --> 00:23:11,680
+ they're gonna lose out like, and, you know,
+
+545
+00:23:11,680 --> 00:23:13,680
+ at the marathon level, definitely.
+
+546
+00:23:13,680 --> 00:23:15,840
+ - Yeah, for sure, I can definitely say that happening.
+
+547
+00:23:15,840 --> 00:23:18,600
+ Were you, when it comes to talent, for example,
+
+548
+00:23:18,600 --> 00:23:21,840
+ when you're looking for a good quant trader, for example,
+
+549
+00:23:21,840 --> 00:23:26,920
+ were you finding are good places to find higher people
+
+550
+00:23:26,920 --> 00:23:29,800
+ who are good quant traders or, you know, until they say,
+
+551
+00:23:29,800 --> 00:23:31,000
+ 'cause you know, there's crypto traders
+
+552
+00:23:31,000 --> 00:23:32,200
+ and the crypto quant traders, right?
+
+553
+00:23:32,200 --> 00:23:33,040
+ How are you finding them?
+
+554
+00:23:33,040 --> 00:23:34,880
+ What do you find is the one tip you have
+
+555
+00:23:34,880 --> 00:23:36,320
+ for people on that side?
+
+556
+00:23:36,320 --> 00:23:37,800
+ - It's super difficult, Henry.
+
+557
+00:23:37,800 --> 00:23:40,080
+ Like if I knew the definitive answer to that,
+
+558
+00:23:40,080 --> 00:23:42,640
+ I would be there all day long.
+
+559
+00:23:42,640 --> 00:23:45,240
+ So actually to find really good people in this place
+
+560
+00:23:45,240 --> 00:23:49,880
+ who have, you know, who have like exact competencies
+
+561
+00:23:49,880 --> 00:23:52,400
+ that we need and that can kind of generate cash flow.
+
+562
+00:23:52,400 --> 00:23:53,920
+ And it's super difficult.
+
+563
+00:23:53,920 --> 00:23:56,560
+ I mean, what we use is, I think like many,
+
+564
+00:23:56,560 --> 00:23:59,240
+ we employ, you know, external recruiters,
+
+565
+00:23:59,240 --> 00:24:01,760
+ we have our own sort of in-house recruiters
+
+566
+00:24:01,760 --> 00:24:04,600
+ and we see next year will be falling more
+
+567
+00:24:04,600 --> 00:24:07,400
+ kind of, we'll be following some tournaments
+
+568
+00:24:07,400 --> 00:24:08,920
+ around quantitative trading to see
+
+569
+00:24:08,920 --> 00:24:12,040
+ if we can kind of get like get some rising stars from there.
+
+570
+00:24:12,040 --> 00:24:15,080
+ But yeah, generally it's very difficult
+
+571
+00:24:15,080 --> 00:24:16,600
+ because obviously there's a lot of talk
+
+572
+00:24:16,600 --> 00:24:19,000
+ and, you know, we've had, for example,
+
+573
+00:24:19,000 --> 00:24:21,520
+ in the last maybe four months,
+
+574
+00:24:21,520 --> 00:24:23,680
+ we've had like two or three people coming in
+
+575
+00:24:23,680 --> 00:24:27,120
+ that on paper looked like Einstein's.
+
+576
+00:24:27,120 --> 00:24:29,840
+ I mean, actually Einstein's is dumb compared to them.
+
+577
+00:24:29,840 --> 00:24:32,560
+ You know, literally the people with like patterns
+
+578
+00:24:32,560 --> 00:24:36,600
+ in like quantitative mechanics, like whatever.
+
+579
+00:24:36,600 --> 00:24:38,840
+ And they're just not able to,
+
+580
+00:24:38,840 --> 00:24:41,640
+ they're just not able to perform for some reason.
+
+581
+00:24:41,640 --> 00:24:44,080
+ Maybe they're very good at like in theory, et cetera,
+
+582
+00:24:44,080 --> 00:24:47,960
+ but in like practical application to what we do,
+
+583
+00:24:47,960 --> 00:24:48,800
+ not good.
+
+584
+00:24:48,800 --> 00:24:49,640
+ So we let them go, yeah.
+
+585
+00:24:49,640 --> 00:24:51,320
+ But it's very difficult actually.
+
+586
+00:24:51,320 --> 00:24:54,520
+ I think in this industry, people is key obviously.
+
+587
+00:24:54,520 --> 00:24:56,440
+ I mean, in any industry, people is key, right?
+
+588
+00:24:56,440 --> 00:25:00,080
+ Because like organizations consist of people exactly.
+
+589
+00:25:00,080 --> 00:25:02,080
+ So there's nothing else.
+
+590
+00:25:02,080 --> 00:25:04,800
+ So, but specifically in quantitative trading,
+
+591
+00:25:04,800 --> 00:25:06,640
+ it's getting even harder now.
+
+592
+00:25:06,640 --> 00:25:07,960
+ Yeah.
+
+593
+00:25:07,960 --> 00:25:09,720
+ - And actually I want to bring the topic
+
+594
+00:25:09,720 --> 00:25:11,920
+ of alchemy family because obviously,
+
+595
+00:25:11,920 --> 00:25:14,160
+ providing people and the network is so critical
+
+596
+00:25:14,160 --> 00:25:15,360
+ in every business, right?
+
+597
+00:25:15,360 --> 00:25:16,840
+ Can you be sharing with us?
+
+598
+00:25:16,840 --> 00:25:19,840
+ Obviously, thank you for supporting education in crypto.
+
+599
+00:25:19,840 --> 00:25:21,840
+ The alchemy family is supportive for the show.
+
+600
+00:25:21,840 --> 00:25:23,040
+ We really appreciate it.
+
+601
+00:25:23,040 --> 00:25:24,040
+ Like, you know, can you share more?
+
+602
+00:25:24,040 --> 00:25:25,520
+ What is alchemy family?
+
+603
+00:25:25,520 --> 00:25:26,600
+ What are you trying to do?
+
+604
+00:25:26,600 --> 00:25:29,560
+ And what benefit it can provide to people
+
+605
+00:25:29,560 --> 00:25:32,360
+ in the crypto ecosystem and those are like,
+
+606
+00:25:32,360 --> 00:25:34,880
+ like all the crypto professionals, if you want,
+
+607
+00:25:34,880 --> 00:25:37,200
+ who are trying to connect with people that are like-minded
+
+608
+00:25:37,200 --> 00:25:39,840
+ and really focused and prioritizing,
+
+609
+00:25:39,840 --> 00:25:42,480
+ basically getting value of such interactions.
+
+610
+00:25:42,480 --> 00:25:43,840
+ - Yeah, absolutely.
+
+611
+00:25:43,840 --> 00:25:46,120
+ So alchemy family is a private members club,
+
+612
+00:25:46,120 --> 00:25:51,120
+ specifically targeting the audience of sea level
+
+613
+00:25:51,120 --> 00:25:53,240
+ and founder level reps from, you know,
+
+614
+00:25:53,240 --> 00:25:55,600
+ HFT firms, proprietary trading firms,
+
+615
+00:25:55,600 --> 00:25:57,720
+ family offices that allocating to crypto,
+
+616
+00:25:57,720 --> 00:26:01,040
+ professional, capital allocators, cryptos, managers, hedge funds,
+
+617
+00:26:01,040 --> 00:26:02,560
+ multi-managers, that kind of thing.
+
+618
+00:26:02,560 --> 00:26:05,440
+ So anything that basically touches crypto and algal
+
+619
+00:26:05,440 --> 00:26:06,920
+ from any angle.
+
+620
+00:26:06,920 --> 00:26:10,560
+ And, you know, there is a kind of deep philosophy
+
+621
+00:26:10,560 --> 00:26:12,160
+ around alchemy and, you know,
+
+622
+00:26:12,160 --> 00:26:14,480
+ the project is called alchemy for a reason
+
+623
+00:26:14,480 --> 00:26:16,800
+ and family also for a reason.
+
+624
+00:26:16,800 --> 00:26:20,800
+ So in alchemy, there exists 165 or chemical elements
+
+625
+00:26:20,800 --> 00:26:24,280
+ and basically the club membership is hard-capped
+
+626
+00:26:24,280 --> 00:26:25,760
+ at 165 people.
+
+627
+00:26:25,760 --> 00:26:27,880
+ And, you know, the underlying philosophy is that, you know,
+
+628
+00:26:27,880 --> 00:26:29,880
+ when the right people kind of get together,
+
+629
+00:26:29,880 --> 00:26:31,400
+ you have this kind of magic, right?
+
+630
+00:26:31,400 --> 00:26:33,600
+ Because in alchemy, there are four main elements,
+
+631
+00:26:33,600 --> 00:26:36,160
+ which is air, fire, water, and earth.
+
+632
+00:26:36,160 --> 00:26:39,040
+ And, you know, this fifth element, ether,
+
+633
+00:26:39,040 --> 00:26:41,440
+ is effectively amalgamation of these four
+
+634
+00:26:41,440 --> 00:26:42,920
+ into something of a higher form, right?
+
+635
+00:26:42,920 --> 00:26:44,760
+ So that's kind of the underlying philosophy.
+
+636
+00:26:44,760 --> 00:26:46,720
+ So in alchemy, similar to how it is in chemistry,
+
+637
+00:26:46,720 --> 00:26:48,120
+ like if you need, you know,
+
+638
+00:26:48,120 --> 00:26:50,280
+ five elements per chemical reaction and then you have four,
+
+639
+00:26:50,280 --> 00:26:51,920
+ you have six, it just doesn't work, you know,
+
+640
+00:26:51,920 --> 00:26:54,360
+ just falls apart, nothing happens, right?
+
+641
+00:26:54,360 --> 00:26:57,440
+ So the idea is that when the right people come together,
+
+642
+00:26:57,440 --> 00:26:59,720
+ it actually opens doors to, you know,
+
+643
+00:26:59,720 --> 00:27:04,200
+ a deeper form of collaboration, deeper conversations
+
+644
+00:27:04,200 --> 00:27:07,760
+ and not just a professional level, but also a personal.
+
+645
+00:27:07,760 --> 00:27:12,760
+ So actually alchemy is a lifestyle plus business club.
+
+646
+00:27:12,760 --> 00:27:15,440
+ So it's not just a business club, right?
+
+647
+00:27:15,440 --> 00:27:18,360
+ So I believe that business is personal.
+
+648
+00:27:18,360 --> 00:27:20,440
+ Unlike, you know, Americans who say, you know,
+
+649
+00:27:20,440 --> 00:27:21,640
+ nothing personal, just business,
+
+650
+00:27:21,640 --> 00:27:23,280
+ I hate that place completely.
+
+651
+00:27:23,280 --> 00:27:25,880
+ So, you know, business is personal to me,
+
+652
+00:27:25,880 --> 00:27:28,720
+ and you know, because business is done by people.
+
+653
+00:27:28,720 --> 00:27:32,800
+ And the idea is to have this highly curated sort of community
+
+654
+00:27:32,800 --> 00:27:36,680
+ of professionals that can help each other grow,
+
+655
+00:27:36,680 --> 00:27:38,000
+ not just at professional level,
+
+656
+00:27:38,000 --> 00:27:40,440
+ but also at personal level, right?
+
+657
+00:27:40,440 --> 00:27:44,680
+ So, you know, it's a platform for personal
+
+658
+00:27:44,680 --> 00:27:45,680
+ and professional growth.
+
+659
+00:27:45,680 --> 00:27:48,480
+ I would put it like this way, right, in one sentence.
+
+660
+00:27:48,480 --> 00:27:50,480
+ And there's a lot of sort of things
+
+661
+00:27:50,480 --> 00:27:53,600
+ that we're gonna be doing that are supporting that vision.
+
+662
+00:27:53,600 --> 00:27:55,400
+ And, you know, one of them is the event
+
+663
+00:27:55,400 --> 00:27:58,680
+ that we're preparing for now, which will be in November.
+
+664
+00:27:58,680 --> 00:27:59,520
+ So I'm super excited.
+
+665
+00:27:59,520 --> 00:28:03,680
+ And I think just generally this format is completely different
+
+666
+00:28:03,680 --> 00:28:05,320
+ to anything I've seen prior, right?
+
+667
+00:28:05,320 --> 00:28:07,280
+ I've been to a lot of events, obviously,
+
+668
+00:28:07,280 --> 00:28:08,840
+ in Trappify and in crypto,
+
+669
+00:28:08,840 --> 00:28:11,080
+ even the most exclusive ones, you know,
+
+670
+00:28:11,080 --> 00:28:14,000
+ where you have to pay like quite a lot of money to get in.
+
+671
+00:28:14,000 --> 00:28:17,640
+ But still, to me, it's still very much surface level,
+
+672
+00:28:17,640 --> 00:28:21,120
+ in the sense that, you know, it ends up like drinking
+
+673
+00:28:21,120 --> 00:28:24,800
+ and, you know, dining and all of that and nothing else, really.
+
+674
+00:28:24,800 --> 00:28:26,880
+ So we're kind of trying to change that, right?
+
+675
+00:28:26,880 --> 00:28:29,520
+ We are trying to create an experience,
+
+676
+00:28:29,520 --> 00:28:33,320
+ actually a healthy experience and a transformative experience.
+
+677
+00:28:33,320 --> 00:28:35,280
+ That's why we call it like an immersive retreat,
+
+678
+00:28:35,280 --> 00:28:37,640
+ because, you know, first of all, it's like no alcohol.
+
+679
+00:28:37,640 --> 00:28:40,360
+ Everybody has to be at the same level of consciousness.
+
+680
+00:28:40,360 --> 00:28:42,760
+ And then we're gonna be doing some incredible practices
+
+681
+00:28:42,760 --> 00:28:45,880
+ that actually facilitate growth, like personal growth.
+
+682
+00:28:45,880 --> 00:28:47,480
+ - So this is a retreat you mentioned, right?
+
+683
+00:28:47,480 --> 00:28:48,960
+ This is, I don't know how much you can share,
+
+684
+00:28:48,960 --> 00:28:49,800
+ but I love it.
+
+685
+00:28:49,800 --> 00:28:52,240
+ I think it's called a Magnum Opus, I think, right?
+
+686
+00:28:52,240 --> 00:28:53,720
+ - Magnum Opus, yeah, yeah.
+
+687
+00:28:53,720 --> 00:28:55,560
+ - Magnum Opus, what's the goal and what do you guys
+
+688
+00:28:55,560 --> 00:28:56,400
+ try to do with that?
+
+689
+00:28:56,400 --> 00:28:58,480
+ Because I think it's quite interesting as a concept.
+
+690
+00:28:58,480 --> 00:29:00,920
+ - Yeah, so Magnum Opus, from Latin,
+
+691
+00:29:00,920 --> 00:29:04,720
+ stands as the great deed or the great work, right?
+
+692
+00:29:04,720 --> 00:29:06,880
+ And the idea is that, you know,
+
+693
+00:29:06,880 --> 00:29:09,840
+ we wanna bring people together into this retreat,
+
+694
+00:29:09,840 --> 00:29:11,960
+ which is gonna be happening in the Seychelles.
+
+695
+00:29:11,960 --> 00:29:14,640
+ And it's only limited to like 50 people.
+
+696
+00:29:14,640 --> 00:29:16,840
+ And it's gonna be a super transformative
+
+697
+00:29:16,840 --> 00:29:20,440
+ and immersive experience for like four and a half days.
+
+698
+00:29:20,440 --> 00:29:23,120
+ And the idea is that by the end of the retreat,
+
+699
+00:29:23,120 --> 00:29:25,280
+ everybody will kind of know each other by, you know,
+
+700
+00:29:25,280 --> 00:29:27,840
+ by face, by name, by what they do,
+
+701
+00:29:27,840 --> 00:29:31,760
+ and how they can sort of add value to each other's lives,
+
+702
+00:29:31,760 --> 00:29:34,280
+ both on a professional and a personal level, right?
+
+703
+00:29:34,280 --> 00:29:37,760
+ Because my statistics basically shows that, you know,
+
+704
+00:29:37,760 --> 00:29:39,440
+ on many events that I've been to,
+
+705
+00:29:39,440 --> 00:29:41,240
+ like even the token that I've been to,
+
+706
+00:29:41,240 --> 00:29:43,080
+ like recently in Singapore, right?
+
+707
+00:29:43,080 --> 00:29:46,040
+ So you end up with like 200 new telegram chats.
+
+708
+00:29:46,040 --> 00:29:49,800
+ And then at some point, you know, in two weeks time,
+
+709
+00:29:49,800 --> 00:29:51,680
+ you don't remember 90% of those people,
+
+710
+00:29:51,680 --> 00:29:53,840
+ like how they look like what you spoke about.
+
+711
+00:29:53,840 --> 00:29:55,600
+ So it's very much surface-level relationship.
+
+712
+00:29:55,600 --> 00:30:00,240
+ So my philosophies, I'd rather have 20 real kind of quality
+
+713
+00:30:00,240 --> 00:30:02,520
+ human interactions and relationships with people
+
+714
+00:30:02,520 --> 00:30:05,960
+ that are of my level or like, you know, that I like.
+
+715
+00:30:05,960 --> 00:30:08,120
+ And they are also interested, by the way,
+
+716
+00:30:08,120 --> 00:30:12,560
+ in kind of personal growth and business,
+
+717
+00:30:12,560 --> 00:30:14,480
+ because some people aren't quite friendly.
+
+718
+00:30:14,480 --> 00:30:16,640
+ Some people don't care, to be absolutely honest.
+
+719
+00:30:16,640 --> 00:30:19,840
+ So, but I'm kind of trying to push the needle
+
+720
+00:30:19,840 --> 00:30:23,160
+ both at personal level and business.
+
+721
+00:30:23,160 --> 00:30:24,920
+ So that's really what the club is about.
+
+722
+00:30:24,920 --> 00:30:27,000
+ And there are a lot of things outside of the retreat
+
+723
+00:30:27,000 --> 00:30:30,480
+ that members get as part of the membership.
+
+724
+00:30:30,480 --> 00:30:31,600
+ So yeah.
+
+725
+00:30:31,600 --> 00:30:33,040
+ - That's interesting.
+
+726
+00:30:33,040 --> 00:30:34,040
+ I think you're right.
+
+727
+00:30:34,040 --> 00:30:36,440
+ The example of every time I go to a crypto conference,
+
+728
+00:30:36,440 --> 00:30:37,920
+ I get all these telegram chats,
+
+729
+00:30:37,920 --> 00:30:39,440
+ especially in crypto, people have their avatar.
+
+730
+00:30:39,440 --> 00:30:40,960
+ They don't do his real name.
+
+731
+00:30:40,960 --> 00:30:41,800
+ It's impossible.
+
+732
+00:30:41,800 --> 00:30:45,920
+ - All these cheese and all these like weird things.
+
+733
+00:30:45,920 --> 00:30:48,000
+ - It's always probably, ironically, you know,
+
+734
+00:30:48,000 --> 00:30:49,040
+ it's very counterintuitive.
+
+735
+00:30:49,040 --> 00:30:51,360
+ I now give more business cards and I write about it
+
+736
+00:30:51,360 --> 00:30:54,280
+ because it gives, it connects with people.
+
+737
+00:30:54,280 --> 00:30:57,560
+ Well, let's think about the Alchemy Family Magni Lopez.
+
+738
+00:30:57,560 --> 00:30:58,720
+ If anybody of our listeners,
+
+739
+00:30:58,720 --> 00:30:59,720
+ I know we have a lot of traders,
+
+740
+00:30:59,720 --> 00:31:00,560
+ we have a lot of hedge funds,
+
+741
+00:31:00,560 --> 00:31:02,520
+ a lot of family officers are listening to the show.
+
+742
+00:31:02,520 --> 00:31:04,800
+ If they're interested about the Alchemy Family
+
+743
+00:31:04,800 --> 00:31:08,120
+ or Magni Lopez, how can they find out more about it?
+
+744
+00:31:08,120 --> 00:31:08,960
+ - Sure.
+
+745
+00:31:08,960 --> 00:31:10,760
+ I mean, so, you know, we have a website, obviously,
+
+746
+00:31:10,760 --> 00:31:12,640
+ where people can submit an application,
+
+747
+00:31:12,640 --> 00:31:14,880
+ www.alchemy.family,
+
+748
+00:31:14,880 --> 00:31:17,920
+ and then we have a lot of things in social media,
+
+749
+00:31:17,920 --> 00:31:19,480
+ LinkedIn, telegram group,
+
+750
+00:31:19,480 --> 00:31:23,360
+ where we post all new announcements about the club
+
+751
+00:31:23,360 --> 00:31:26,240
+ and about the event and the participants, et cetera.
+
+752
+00:31:26,240 --> 00:31:28,840
+ So there's a lot of information on the net about us
+
+753
+00:31:28,840 --> 00:31:31,520
+ and like anybody can submit an application, yeah.
+
+754
+00:31:31,520 --> 00:31:32,840
+ - Awesome.
+
+755
+00:31:32,840 --> 00:31:34,480
+ Alchemy.family.
+
+756
+00:31:34,480 --> 00:31:36,840
+ One last question before I move to the far round
+
+757
+00:31:36,840 --> 00:31:38,400
+ on that perspective, Anthony, is,
+
+758
+00:31:38,400 --> 00:31:39,760
+ I know you're also based in Dubai.
+
+759
+00:31:39,760 --> 00:31:41,960
+ You know, in the show, we've had the Dubai regulators,
+
+760
+00:31:41,960 --> 00:31:43,920
+ we've had all the regulators from ADGM,
+
+761
+00:31:43,920 --> 00:31:46,800
+ the DiFC, to Avara multiple times on the show.
+
+762
+00:31:46,800 --> 00:31:48,840
+ And you've actually been now in Dubai for a couple of years,
+
+763
+00:31:48,840 --> 00:31:49,800
+ like, you know, you're talking before
+
+764
+00:31:49,800 --> 00:31:52,280
+ about regulatory arbitrage at the beginning of the episode.
+
+765
+00:31:52,280 --> 00:31:55,000
+ How, what's your perspective on what's happening in Dubai
+
+766
+00:31:55,000 --> 00:31:56,080
+ and the UAE and crypto?
+
+767
+00:31:56,080 --> 00:31:57,720
+ And how do you think this is going to evolve?
+
+768
+00:31:57,720 --> 00:32:00,120
+ And if you think it's becoming one of the big hubs
+
+769
+00:32:00,120 --> 00:32:01,240
+ in the space globally?
+
+770
+00:32:01,240 --> 00:32:03,160
+ - To be absolutely frank,
+
+771
+00:32:03,160 --> 00:32:06,640
+ I think it already became the biggest hub in the world
+
+772
+00:32:06,640 --> 00:32:08,720
+ in terms of, I mean, just think about this, right?
+
+773
+00:32:08,720 --> 00:32:12,000
+ So the top three exchanges in the world,
+
+774
+00:32:12,000 --> 00:32:14,200
+ they're headquartered in UAE,
+
+775
+00:32:14,200 --> 00:32:16,120
+ and they're all on the way to, you know,
+
+776
+00:32:16,120 --> 00:32:17,800
+ either they already have license
+
+777
+00:32:17,800 --> 00:32:20,960
+ or they're, you know, getting one soon, right?
+
+778
+00:32:20,960 --> 00:32:21,960
+ So that's one.
+
+779
+00:32:21,960 --> 00:32:24,920
+ And I think UAE is doing a great job in that respect
+
+780
+00:32:24,920 --> 00:32:29,360
+ because, you know, by kind of facilitating this platform
+
+781
+00:32:29,360 --> 00:32:33,000
+ for these, for these exchanges and for other participants,
+
+782
+00:32:33,000 --> 00:32:35,600
+ like, you know, HFTs and like props shops.
+
+783
+00:32:35,600 --> 00:32:38,000
+ I mean, a lot of companies are now setting up in Dubai,
+
+784
+00:32:38,000 --> 00:32:39,480
+ just for that reason, right?
+
+785
+00:32:39,480 --> 00:32:42,440
+ And also the tax regime and all of these other benefits.
+
+786
+00:32:42,440 --> 00:32:47,120
+ So I think it's a very good development
+
+787
+00:32:47,120 --> 00:32:49,360
+ and I think UAE is a good place to do that,
+
+788
+00:32:49,360 --> 00:32:50,600
+ to be absolutely honest.
+
+789
+00:32:50,600 --> 00:32:53,800
+ And in some way, I feel like other countries
+
+790
+00:32:53,800 --> 00:32:57,960
+ are underestimating what UAE is actually trying
+
+791
+00:32:57,960 --> 00:33:02,000
+ to achieve here because when all of these exchanges
+
+792
+00:33:02,000 --> 00:33:04,680
+ on all of this crypto business kind of migrates here,
+
+793
+00:33:04,680 --> 00:33:06,160
+ and it is migrating, you know,
+
+794
+00:33:06,160 --> 00:33:07,920
+ the hedge funds are opening here,
+
+795
+00:33:07,920 --> 00:33:11,040
+ the crypto as managers, like all of these activities
+
+796
+00:33:11,040 --> 00:33:13,320
+ that are kind of flooding to Dubai now,
+
+797
+00:33:13,320 --> 00:33:16,160
+ it's actually getting so bad that like,
+
+798
+00:33:16,160 --> 00:33:18,000
+ I haven't seen such traffic into buy
+
+799
+00:33:18,000 --> 00:33:20,240
+ for the last kind of couple of years, you know what I mean?
+
+800
+00:33:20,240 --> 00:33:22,080
+ It's like people are just flocking in,
+
+801
+00:33:22,080 --> 00:33:24,360
+ like from all over the world, right?
+
+802
+00:33:24,360 --> 00:33:26,200
+ And, you know, that's the result, right?
+
+803
+00:33:26,200 --> 00:33:28,800
+ So what they're doing is absolutely right.
+
+804
+00:33:28,800 --> 00:33:30,640
+ And, you know, definitely support that.
+
+805
+00:33:30,640 --> 00:33:34,880
+ And I think that will also bring a lot of clarity
+
+806
+00:33:34,880 --> 00:33:37,880
+ into the market because once these regulators
+
+807
+00:33:37,880 --> 00:33:39,200
+ are all like fully up and running
+
+808
+00:33:39,200 --> 00:33:41,040
+ and once all these licenses have been issued,
+
+809
+00:33:41,040 --> 00:33:43,320
+ they're definitely will be, you know,
+
+810
+00:33:43,320 --> 00:33:46,400
+ black and white, like rules of the game, et cetera.
+
+811
+00:33:46,400 --> 00:33:49,320
+ And I think UAE is a good platform for that.
+
+812
+00:33:49,320 --> 00:33:50,480
+ - Yeah, very interesting.
+
+813
+00:33:50,480 --> 00:33:51,760
+ I agree with you at traffic levels,
+
+814
+00:33:51,760 --> 00:33:53,280
+ I've become quite bad on that.
+
+815
+00:33:53,280 --> 00:33:55,280
+ But it's a, it is what it's, I guess,
+
+816
+00:33:55,280 --> 00:33:56,960
+ a sign of things working out.
+
+817
+00:33:56,960 --> 00:33:59,080
+ I mean, you were, you were one of the first ones here,
+
+818
+00:33:59,080 --> 00:34:01,080
+ I think, to your, your vision on that,
+
+819
+00:34:01,080 --> 00:34:02,520
+ I think it's been quite interesting.
+
+820
+00:34:02,520 --> 00:34:04,400
+ So Anthony, we're gonna move on to the far round question.
+
+821
+00:34:04,400 --> 00:34:05,440
+ I'm gonna ask you quick questions,
+
+822
+00:34:05,440 --> 00:34:07,120
+ I need a one or two word answers.
+
+823
+00:34:07,120 --> 00:34:10,600
+ And we're gonna go quick through them pretty quickly here.
+
+824
+00:34:10,600 --> 00:34:12,000
+ And we can have this ding here
+
+825
+00:34:12,000 --> 00:34:14,040
+ to keep us honest on the timing side.
+
+826
+00:34:14,040 --> 00:34:15,120
+ Hope you're ready.
+
+827
+00:34:15,120 --> 00:34:16,120
+ - Yep.
+
+828
+00:34:16,120 --> 00:34:18,000
+ - Let's rock and roll.
+
+829
+00:34:18,000 --> 00:34:19,880
+ Anthony, what is the one thing
+
+830
+00:34:19,880 --> 00:34:22,280
+ that amazes you the most about the crypto industry?
+
+831
+00:34:22,280 --> 00:34:25,680
+ - The amount of de-gens.
+
+832
+00:34:25,680 --> 00:34:27,760
+ (laughs)
+
+833
+00:34:27,760 --> 00:34:31,880
+ - Absolutely, it never is easy to tell you.
+
+834
+00:34:31,880 --> 00:34:33,280
+ You're based in Dubai.
+
+835
+00:34:33,280 --> 00:34:35,520
+ What's your favorite thing to do in Dubai?
+
+836
+00:34:35,520 --> 00:34:41,400
+ - Driving, actually.
+
+837
+00:34:41,400 --> 00:34:42,600
+ The roads are great.
+
+838
+00:34:42,600 --> 00:34:44,040
+ Driving, I like driving here.
+
+839
+00:34:44,040 --> 00:34:45,800
+ But not look like, not in Dubai,
+
+840
+00:34:45,800 --> 00:34:48,240
+ like going to rest of Haima to the serpentine, you know,
+
+841
+00:34:48,240 --> 00:34:49,920
+ like all of those areas, it's nice.
+
+842
+00:34:49,920 --> 00:34:51,680
+ - That's a good point on that side.
+
+843
+00:34:51,680 --> 00:34:54,000
+ What is the one thing you think people get wrong
+
+844
+00:34:54,000 --> 00:34:55,420
+ about Dubai at the UAE?
+
+845
+00:34:55,420 --> 00:34:57,840
+ - I don't know, most of the people I talk to,
+
+846
+00:34:57,840 --> 00:34:58,680
+ they love UAE.
+
+847
+00:34:58,680 --> 00:35:01,080
+ So I have no idea why anybody would complain.
+
+848
+00:35:01,080 --> 00:35:03,240
+ Except obviously the absence of, you know,
+
+849
+00:35:03,240 --> 00:35:08,240
+ fresh air and a bit hot like during the summer,
+
+850
+00:35:08,240 --> 00:35:12,000
+ but otherwise I think it's, yeah.
+
+851
+00:35:12,000 --> 00:35:14,440
+ - If, what is the one crypto CEO
+
+852
+00:35:14,440 --> 00:35:15,520
+ that impresses you the most,
+
+853
+00:35:15,520 --> 00:35:18,800
+ the one crypto CEO that you find the most impressive?
+
+854
+00:35:18,800 --> 00:35:20,480
+ - I think Star from OKX,
+
+855
+00:35:20,480 --> 00:35:23,480
+ I think he's doing an amazing job generally.
+
+856
+00:35:23,480 --> 00:35:24,920
+ I think he's at the forefront.
+
+857
+00:35:24,920 --> 00:35:27,040
+ He's really trying to, you know,
+
+858
+00:35:27,040 --> 00:35:29,720
+ to take on the leading exchanges,
+
+859
+00:35:29,720 --> 00:35:31,120
+ and he's doing a very good job at it,
+
+860
+00:35:31,120 --> 00:35:31,920
+ to be absolutely honest.
+
+861
+00:35:31,920 --> 00:35:34,640
+ So his business has grown, I think, very significantly.
+
+862
+00:35:34,640 --> 00:35:37,800
+ Yeah, I mean, there are a lot,
+
+863
+00:35:37,800 --> 00:35:39,480
+ like obviously a lot of CEOs out there
+
+864
+00:35:39,480 --> 00:35:40,560
+ that are doing an amazing job,
+
+865
+00:35:40,560 --> 00:35:44,120
+ but he just sprung to mind just randomly.
+
+866
+00:35:44,120 --> 00:35:46,520
+ - They just even got their license here in Dubai as well.
+
+867
+00:35:46,520 --> 00:35:49,840
+ If there's one, a young university graduate comes to you
+
+868
+00:35:49,840 --> 00:35:52,720
+ and says, what is the one piece of advice you have for them
+
+869
+00:35:52,720 --> 00:35:54,120
+ to be a good quant trader?
+
+870
+00:35:54,120 --> 00:35:58,400
+ - Work hard, move the needle,
+
+871
+00:35:58,400 --> 00:36:00,160
+ and if you don't make money in three years,
+
+872
+00:36:00,160 --> 00:36:02,640
+ choose and run a job. (laughs)
+
+873
+00:36:02,640 --> 00:36:09,400
+ If there's, what is the one quant manager or quant firms,
+
+874
+00:36:09,400 --> 00:36:11,080
+ you know, you would love to have as an intern.
+
+875
+00:36:11,080 --> 00:36:12,320
+ From all the, even on Tratify.
+
+876
+00:36:12,320 --> 00:36:14,520
+ If there's one person in the quant industry,
+
+877
+00:36:14,520 --> 00:36:17,600
+ would love to hire, who would have person B?
+
+878
+00:36:17,600 --> 00:36:19,880
+ - XTX, somebody from XTX.
+
+879
+00:36:19,880 --> 00:36:23,240
+ - Really interesting, what is that?
+
+880
+00:36:23,240 --> 00:36:26,720
+ - Well, they are doing pretty well, it seems.
+
+881
+00:36:26,720 --> 00:36:28,720
+ They've built a very good business.
+
+882
+00:36:28,720 --> 00:36:31,920
+ So it's actually one of the firms that we are aspiring to.
+
+883
+00:36:31,920 --> 00:36:34,680
+ I think they're very knowledgeable
+
+884
+00:36:34,680 --> 00:36:35,960
+ about what it is they're doing
+
+885
+00:36:35,960 --> 00:36:38,560
+ and they have an amazing team, so.
+
+886
+00:36:38,560 --> 00:36:39,400
+ - I love it.
+
+887
+00:36:39,400 --> 00:36:41,080
+ You're a big guy who works out.
+
+888
+00:36:41,080 --> 00:36:42,360
+ I mean, you just did earlier,
+
+889
+00:36:42,360 --> 00:36:46,760
+ you had 3,000 push-ups on your birthday, which is crazy.
+
+890
+00:36:46,760 --> 00:36:50,080
+ What is the one workout or that you would love to do?
+
+891
+00:36:50,080 --> 00:36:51,560
+ If you could do, what kind of workout
+
+892
+00:36:51,560 --> 00:36:54,080
+ you could do for the rest of your life, what would it be?
+
+893
+00:36:54,080 --> 00:36:56,760
+ - It would be the Provilo.
+
+894
+00:36:56,760 --> 00:36:58,160
+ I'm not sure if you know what that is though.
+
+895
+00:36:58,160 --> 00:36:59,160
+ - No, what is Provilo?
+
+896
+00:36:59,160 --> 00:37:00,000
+ - No, Provilo.
+
+897
+00:37:00,000 --> 00:37:03,800
+ So it's like, when I lived in London,
+
+898
+00:37:03,800 --> 00:37:05,000
+ they used to be like these studios,
+
+899
+00:37:05,000 --> 00:37:06,480
+ but they've opened now in Dubai as well.
+
+900
+00:37:06,480 --> 00:37:11,480
+ So actually, you're being hung by your arms and legs,
+
+901
+00:37:11,480 --> 00:37:15,040
+ and you do like stretch in like that kind of thing.
+
+902
+00:37:15,040 --> 00:37:16,560
+ It's actually really, really good.
+
+903
+00:37:16,560 --> 00:37:19,440
+ So to be absolutely honest, I think like three years ago,
+
+904
+00:37:19,440 --> 00:37:23,640
+ I had a massive protrusion in my back, like lower back.
+
+905
+00:37:23,640 --> 00:37:27,040
+ And that thing just fixed me completely.
+
+906
+00:37:27,040 --> 00:37:29,640
+ No other doctor was able to do anything
+
+907
+00:37:29,640 --> 00:37:31,000
+ and this thing just sold it.
+
+908
+00:37:31,000 --> 00:37:33,000
+ - I'm gonna give it one a try, actually.
+
+909
+00:37:33,000 --> 00:37:35,000
+ I heard about that actually.
+
+910
+00:37:35,000 --> 00:37:37,080
+ Quick one, if you could go back in history,
+
+911
+00:37:37,080 --> 00:37:40,120
+ what is the one period of history you would love to live in?
+
+912
+00:37:40,120 --> 00:37:42,240
+ - The 1800s.
+
+913
+00:37:42,240 --> 00:37:44,040
+ - Really, why is that?
+
+914
+00:37:44,040 --> 00:37:47,320
+ - The one reason I think was good is because there was
+
+915
+00:37:47,320 --> 00:37:50,040
+ something called that we don't find very often now,
+
+916
+00:37:50,040 --> 00:37:52,800
+ in men specifically called honor, right?
+
+917
+00:37:52,800 --> 00:37:56,440
+ So at that time, if you didn't have honor,
+
+918
+00:37:56,440 --> 00:38:00,480
+ you were challenged at a duel, right?
+
+919
+00:38:00,480 --> 00:38:02,200
+ These days, if somebody says something
+
+920
+00:38:02,200 --> 00:38:06,480
+ and does nothing about it, no duel sucks, right?
+
+921
+00:38:06,480 --> 00:38:08,080
+ So you have a lot of (beep)
+
+922
+00:38:08,080 --> 00:38:09,360
+ as a result.
+
+923
+00:38:09,360 --> 00:38:11,000
+ Previously, if you say something,
+
+924
+00:38:11,000 --> 00:38:12,080
+ you have to stand up for it.
+
+925
+00:38:12,080 --> 00:38:13,920
+ Otherwise, you go to a duel.
+
+926
+00:38:13,920 --> 00:38:15,280
+ - Yeah, yeah, yeah, yeah.
+
+927
+00:38:15,280 --> 00:38:17,000
+ - Very good point, actually.
+
+928
+00:38:17,000 --> 00:38:19,680
+ Like the being a man of your world, I love that.
+
+929
+00:38:19,680 --> 00:38:20,520
+ I love that.
+
+930
+00:38:20,520 --> 00:38:22,680
+ And to finish it off, Anton Agosco of the co-founder
+
+931
+00:38:22,680 --> 00:38:25,080
+ of Marvel Capital, this is a traditional question
+
+932
+00:38:25,080 --> 00:38:26,720
+ of whoever comes on my show.
+
+933
+00:38:26,720 --> 00:38:28,400
+ If you could have lunch or dinner
+
+934
+00:38:28,400 --> 00:38:30,160
+ with one person that are alive.
+
+935
+00:38:30,160 --> 00:38:32,400
+ Lunch or dinner with one person that are alive,
+
+936
+00:38:32,400 --> 00:38:34,800
+ who would you have lunch or dinner with?
+
+937
+00:38:34,800 --> 00:38:36,240
+ - Jim Simmons.
+
+938
+00:38:36,240 --> 00:38:37,080
+ - Oh, wow.
+
+939
+00:38:37,080 --> 00:38:38,480
+ - And why is that?
+
+940
+00:38:38,480 --> 00:38:40,360
+ - He's a great guy, and he said like,
+
+941
+00:38:40,360 --> 00:38:43,520
+ I've actually watched a lot of his interviews on YouTube,
+
+942
+00:38:43,520 --> 00:38:45,880
+ and I read about him, you know, he,
+
+943
+00:38:45,880 --> 00:38:49,360
+ I think he built like one of the most successful businesses
+
+944
+00:38:49,360 --> 00:38:50,960
+ like in this space in general.
+
+945
+00:38:50,960 --> 00:38:52,960
+ He actually found the secret source
+
+946
+00:38:52,960 --> 00:38:56,200
+ or like the secret formula, if you like.
+
+947
+00:38:56,200 --> 00:38:59,320
+ And just a lot of the stuff that he says
+
+948
+00:38:59,320 --> 00:39:00,640
+ really resonates with me.
+
+949
+00:39:00,640 --> 00:39:04,400
+ So yeah, that can be that perspective.
+
+950
+00:39:04,400 --> 00:39:06,360
+ - So Anthony, how can people find out more
+
+951
+00:39:06,360 --> 00:39:07,880
+ about you, Marvel Capital?
+
+952
+00:39:07,880 --> 00:39:09,160
+ And also the alchemy family,
+
+953
+00:39:09,160 --> 00:39:10,320
+ how can they get in touch with you
+
+954
+00:39:10,320 --> 00:39:12,080
+ or find out more about what you guys are doing?
+
+955
+00:39:12,080 --> 00:39:14,640
+ - So I think the best route is the website
+
+956
+00:39:14,640 --> 00:39:15,720
+ and the social media.
+
+957
+00:39:15,720 --> 00:39:18,560
+ And also we're gonna be sponsoring the AIM Summit,
+
+958
+00:39:18,560 --> 00:39:20,040
+ which is in Dubai.
+
+959
+00:39:20,040 --> 00:39:22,360
+ And following that, we're gonna have like
+
+960
+00:39:22,360 --> 00:39:25,240
+ a few private dinners prior to the Magnum Opus.
+
+961
+00:39:25,240 --> 00:39:27,920
+ So we're gonna be around, I think.
+
+962
+00:39:27,920 --> 00:39:28,840
+ - Awesome.
+
+963
+00:39:28,840 --> 00:39:30,560
+ Well, Anthony, thanks for being on the show today.
+
+964
+00:39:30,560 --> 00:39:31,440
+ It was really insightful.
+
+965
+00:39:31,440 --> 00:39:33,560
+ And I'm gonna try that new workout as well.
+
+966
+00:39:33,560 --> 00:39:35,480
+ I think it's gonna solve a lot of my back pains as well
+
+967
+00:39:35,480 --> 00:39:36,320
+ on that one.
+
+968
+00:39:36,320 --> 00:39:38,120
+ - Let's go make sure you're on the show.
+
+969
+00:39:38,120 --> 00:39:39,440
+ - Yeah.
+
+970
+00:39:39,440 --> 00:39:40,960
+ Thank you, Anthony.
+
+971
+00:39:40,960 --> 00:39:42,040
+ Thank you guys everybody for listening
+
+972
+00:39:42,040 --> 00:39:44,120
+ on this episode of the Future of Money podcast.
+
+973
+00:39:44,120 --> 00:39:46,080
+ Again, it thanks you guys for your support.
+
+974
+00:39:46,080 --> 00:39:46,920
+ Really what I love.
+
+975
+00:39:46,920 --> 00:39:49,000
+ And if you have any ideas of topics you want to discuss,
+
+976
+00:39:49,000 --> 00:39:51,800
+ you want me to talk about cover in future episodes.
+
+977
+00:39:51,800 --> 00:39:53,600
+ If you're pleased to let us know in the comments,
+
+978
+00:39:53,600 --> 00:39:54,600
+ we're always there.
+
+979
+00:39:54,600 --> 00:39:56,240
+ And again, also a big thank you for all of you
+
+980
+00:39:56,240 --> 00:39:58,560
+ for the support of my latest kids book.
+
+981
+00:39:58,560 --> 00:40:02,360
+ You know, the coding crypto does become really
+
+982
+00:40:02,360 --> 00:40:04,360
+ the number one you release in its category guys.
+
+983
+00:40:04,360 --> 00:40:05,440
+ Thank you very much for that.
+
+984
+00:40:05,440 --> 00:40:08,880
+ It means a lot of your support for all the educational content
+
+985
+00:40:08,880 --> 00:40:11,400
+ we've been doing now since 2016.
+
+986
+00:40:11,400 --> 00:40:12,240
+ Thank you very much everybody.
+
+987
+00:40:12,240 --> 00:40:14,080
+ And see you guys all soon for another episode
+
+988
+00:40:14,080 --> 00:40:15,680
+ of the Future of Money podcast.
+

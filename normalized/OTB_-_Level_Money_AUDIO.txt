@@ -1,0 +1,382 @@
+TITLE: DeFi-Native Stablecoin LevelUSD and the Future of StablecoinFi (Kedian Sun) [On the Brink]
+URL: 
+VIDEO_ID: OTB_-_Level_Money_AUDIO
+
+TRANSCRIPT:
+This is Wyatt from Castle Island, and today's episode of On the Brink was the first of a
+series on StablecoinFi where we'll talk to leading players building stablecoin-focused
+applications in DeFi. Today, I was joined by Kedian Sun, the founder of Level Money.
+Level is the issuer of LevelUSD, a DeFi-native stablecoin backed by other major stablecoins
+including USDT and USDC earning yield in low-risk DeFi lending strategies to offer a DeFi risk-free
+rate. LevelUSD has over $140 million dollars in supply after just over six months in market
+and continues to grow rapidly. Kedian and I discussed the adoption of incumbent stablecoins
+versus newcomers, the evolution of stablecoin-based finance, and what's ahead for Level among other
+topics. I hope you enjoy this episode. Matt Walsh and Nick Carter are partners at Castle
+Island Ventures. All views expressed by them or the guests on this podcast are solely their
+opinions and do not reflect the opinions of Castle Island Ventures. Guests and hosts may
+maintain positions in the assets discussed on this podcast. You should not treat any
+opinion expressed by anyone on this podcast as a specific inducement to make a particular
+investment or follow a particular strategy, but only as an expression of their personal opinion.
+This podcast is for informational purposes only. Brought down by bad mortgage investments,
+Lehman, which has 25,000 employees, will be liquidated. The federal government loans
+American International Group, AIG, $85 billion. This is a different kind of market and the Fed
+is asleep. The federal government is stepping in to stabilize Fannie Mae and Freddie Mac. The
+two mortgage giants that have been threatened by the housing crisis. The Bank of England has
+pumped 75 billion pounds more into Britain's ailing economy with a new round of quantitative
+easing. You print a couple trillion dollars and all of a sudden people start to worry. So out of
+this worry, we have something called the Bitcoin. Bitcoin. Well, Kadeen, thanks for joining. Excited
+to chat today. Would love to learn a little bit more about you to start, if you don't mind giving
+a personal background and telling us a little bit about Level. Yeah, of course. First of all,
+you're excited to be here. Thanks for having me. A little bit about myself. So I'm Kadeen.
+I'm originally from New Zealand and came to the US for college. My background is in finance. I
+studied finance at Wharton, did investment banking after graduation at an investment bank called
+Lazard here in New York for a few years. And then I worked in FinTech at a company called Brex for a
+few years. And so, yeah, I guess my entire career has been kind of seeing different ways of like
+money moving around essentially. I first got involved in crypto. I think it was my senior
+year of college. Basically, I think a very classic story a friend told me about ETH.
+I just went ahead and bought a bag, had no clue how the tech worked, what this meant for the
+world in the future. But I think that was sort of like my entry point into crypto and how I
+continued to stay sort of in the loop with crypto while I was working in more traditional industries
+and banking and FinTech. And then while I was at Brex NSF, that was when I linked up with my
+co-founder who was working as an engineer at Flexport there. That was kind of like how we just
+started jamming and got into crypto full-time from there. So, yeah, that's kind of just a
+little bit about myself. Do you want me to get started on talking about like how we got started
+with Level? Yeah, talk about Level and how you guys got started. Cool. Yeah, so I guess we weren't
+always Level. I mean, we started in the stablecoin space in March of 2023 and it was a different name
+back then. I guess like the story of how we actually got into stablecoins, like I said,
+it was March of 2023. If you remember, this was a big month for stablecoins and for crypto
+because that was when USDC de-pegged as a result of like the SVB collapse. And so I think that
+news got like our attention. Yeah, because previously we actually weren't, well, everyone's
+obviously heard of stablecoins, probably had used them on Coinbase or other exchanges, but it wasn't
+something that I actually really looked into. I just sort of like trusted that these stablecoins
+were pegged to a dollar. That they worked? You just trusted that they worked? Yeah, exactly. Which
+obviously March 2023 kind of destroyed that view, at least temporarily. And so I would say that
+despite that being probably the lowest sentiment ever in stablecoins, we sort of were able to build
+up a lot of conviction at that point. Thought this was sort of like the future of crypto and
+even like the future of finance and just started building in the space. I mean, even at that point,
+I think people were still, like other than that event, people were starting to pay a lot more
+attention to stablecoins. But I think it's especially being in the last year where it's
+just become consensus. And, you know, we're just seeing so much stablecoin activity, I think,
+since 2024. And then I think the other moment for me, this was a little bit more personally,
+is like, I think after looking into that, I also just happened to make my first actual cross border
+stablecoin transaction during around that time. And I know this sounds almost silly that there
+was this first time, but I think when we live in sort of developed countries at the US or in the
+West, the banking system is generally not too bad. So you don't actually need to use stablecoins
+that much, especially for domestic use cases. But in this case was me trying to send some money to
+a friend in Australia, we actually tried to do it through like the traditional banking system first.
+And, you know, it's just like a very classic story of like, and this is from the US to Australia,
+it's like nothing crazy, right? It took days before it got bounced, right? And then it's like,
+the next thing tried was like USDC. And it literally just arrived in seconds. It's like
+that kind of magic moment for me. I think that was also what gave me even more conviction than
+stablecoins. But going back to level, we've actually tried a few different stablecoin models.
+The first version was essentially a feedback stablecoin that shared the treasury yield with
+distribution partners. So this is actually quite similar to what Agora is trying to do now.
+We ran into a couple of challenges building this. The first was actually building a feedback stablecoin
+takes a lot of time, because especially at that point, you had to work with partner banks or
+custodians, treasury providers. And it's like, whenever you have to work with a centralized
+party, especially like a regulated one, it's just like a really slow process.
+And even incumbents, right? Even incumbents who've been around and have a degree of capture
+with those players. Yeah, exactly. So it probably took us like six months to even get set up. And
+to be honest, like the custody model wasn't even good. We sort of like strung together custodians
+and treasury providers. And actually, I think a lot of the feedback we got from the legitimate
+players in the space was like, we can't trust this thing. But yeah, I think we tried to go to
+market with this model by offering to pay people the treasury yield, and they sort of found increased
+adoption for us. I think we initially mostly focused on DeFi. And in crypto, people don't
+really care about 5% yields and DeFi, right? So that wasn't very successful. And then institutions,
+I think it was just like, obviously, also very hard to break into. And I think the custody model
+was a bit of a question. And so basically found that that didn't work. And then we started trying
+to build almost like an Athena competitor, actually had a similar issue of it took so much
+time to onboard with exchanges and custodians. And then I think ultimately, we actually just
+personally didn't feel like this was the stable coin or synthetic dollar model that we sort of
+resonated with and what we were in terms of what we were trying to build long term. But yeah,
+regardless, I think both those things taught us a lot about building stable coins, and at least
+trying to go to market with them. And then last August, we started building Level in its current
+form. And so this is a fully level, like level USD is fully built on chain. So actually, first
+thing that was nice is that we could build it really quickly. We didn't need to rely on any
+third parties to start building. We could just build on Ethereum, use USDC, USDT. We were building
+on our way like lending protocols more generally. And so we were able to get it together quite
+quickly. And yeah, what we ended up with was actually like a very simple stable point,
+like level USD is fully backed by USDC and USDT. Obviously, the two largest and most trusted stable
+feedback stable coins in the space right now. And then what we do is generate yield on like the
+USDC and USDT reserves. Specifically, we focus on really low risk sources of yield. And this for us
+was like lending protocols, you know, people talk about RBA as essentially like the crypto risk free
+rate. And so we just park all of our capital there right now, we will be expanding to other
+blue chip lending protocols. So specifically, more for prime vaults is coming up in the next few
+weeks. But yeah, the idea here is like, you know, a very low risk source of yield that's also very
+liquid to back like level USD. And then, you know, the protocol accumulates this yield and we pass it
+back to the users through like a pretty standard 4626 staking mechanism. So that's essentially
+like the journey of us building level and then kind of a quick summary of how it actually works.
+And to break that down and almost read it back so that everyone has a sense,
+you guys backing level USD, you have USDT and USDC that is deposited in these relatively safe
+strategies on Aave and soon to be Morpho as well. So on top of that level USD, that's then also an
+asset that can be used in longer tail pools within DeFi and for DeFi use cases.
+Yeah, exactly. I think a quick point is that technically after we deploy the assets,
+level USD is backed by the lending protocol receipt token. So it's like the A tokens,
+the Morpho Vault tokens, eventually, etc. And then yeah, correct. So level USD itself is like this
+commissionless asset. People can use it however they want really. What we have done is integrated
+into other leading DeFi protocols like Pendle, Morpho for collateral, etc. And so yeah, people
+can go ahead and use level as well as S level USD, which is the yield bearing counterpart,
+kind of like wherever they want or wherever it is integrated.
+Yep, very cool. I'm curious for your view because you guys clearly spent some time in
+the discovery space when it comes to building in stablecoins. In your view, why another stablecoin
+issuer and why another stablecoin when we have USDC, we have USDC. And on top of that,
+how did you land on issuing a stablecoin or building a stablecoin primitive as opposed to say
+building an application around an existing large stablecoin?
+I think that's a really good question. I think the first thing is actually, I know there's a
+lot of ways to sort of segment stablecoins, but at least in this context, I think there's like
+stablecoins that are used or that are, I think, more designed to be used for like reward payments.
+And then there are stablecoins that are actually more like yield assets. And I actually personally
+think it's a bit of a misnomer to call these stablecoins yield bearing stablecoins or like
+stablecoins generally. And just because I think there's not like any stablecoins folder sort of
+like as an industry, we've adopted these terms. But if you look at the yield bearing version of
+stablecoins, including our own, that's not a stablecoin because it's not pegged to a dollar.
+It's increasing in value as it accumulates yield or it's like rebasing, right? It's just actually
+not a stablecoin. And so I think I'll start with that category of like why we need more of these.
+And I think the answer is basically that it's like at the end of the day, these are yield
+assets that you can think compared to the fixed income market in traditional finance.
+Obviously, it's fixed income. By definition, the income is supposed to be fixed. In crypto,
+it's usually not fixed. But the idea is that the principle stays relatively pegged to the dollar
+and you can earn yield on top. And so in that case, there's a market for like thousands of these.
+If we look at Tradfied, like the fixed income market is actually bigger than the equities
+market. And there's literally thousands or tens of thousands of options out there. And so I think
+that's where like what we commonly call yield bearing stablecoins. So I think more accurately,
+like yield tokens kind of comes in. And then in terms of kind of these more like payment stablecoins,
+the root of your question is basically probably implying that we don't need that many of them
+because there's sort of network effects around stablecoins. And I think that probably is the
+future state. There might not be too many of them. But that being said, I think the reason that there
+are a lot of them popping up now and the reason that we actually need a lot of them is actually
+good for like the stablecoin industry. Because I have a pretty strong belief and we see this in
+most industries. The winners of like the early stages of a new industry or like the winners now
+are not necessarily the winners of the future. And you sort of need a lot of competition to
+essentially increase like the service area of innovation. And so I think this is why it's
+actually a good thing for a lot of new stablecoins to be built right now. Everyone's trying to be
+innovative in some way. And this actually pushes forward the industry. And sure, maybe Tether will
+continue to be the winner even for a very long time, especially if they can continue being
+innovative. But I think there's also a very good chance that one of these new stablecoins will
+become like the Tether of tomorrow. And I think that's my view on like the number of stablecoins
+that are popping up, even though I think people are starting to complain about them. To answer
+your question about like why we decided to build like pick up your stablecoin issuer, as opposed
+to building something on top of existing stablecoins. Especially when we first started,
+the stablecoin industry was much less sophisticated. It was essentially just like an industry of like
+issuers. And there was a lot of value to being an issuer, or at least like the perceived value was
+like very high. And so I think that's where we started. But I do agree with you. And this is sort
+of part of like our longer term goals is that it's actually very important to build applications
+around stablecoins. And so there's two options here. You can build on top of other stablecoins,
+or stablecoins can build applications or like facilitate the building of applications on top
+of themselves. And so I think we started by being an issuer. And I think we've at least
+have some good signs of early traction as an issuer. But yeah, the long term goal is actually
+to try to like answer the question about how do we actually increase the usage of our stablecoin
+or stablecoins more generally. I want to double click because I think you made one really
+interesting point there in particular, which is we might have sort of a narrow reality for
+traditional payments, USD stablecoins, maybe what people think of first when they think of
+stablecoins, which is the USDT and USDC. And then I would hope as I think you do that we have this
+longer tail, things that we call stablecoins functionally today, but maybe it's a real estate
+backed asset that has some sort of dollar denominated value, but appreciates in value,
+hopefully, maybe it's a defi risk free rate along the lines of what you guys are doing. But
+there's longer tail of things which should have stable issue value that hopefully appreciates.
+The point I wanted to ask is, do you think that we get to a point where the true stablecoins,
+so called the USDTs and USDCs are used for payments? Or do you think we get to a world where
+these hopefully continually value accretive assets that are similar to stablecoins, but
+pegged or denominated in something that should appreciate in value, do those become used as
+payments? And then we can get to a world where we're settling transactions and paying for things
+in something other than what is still a fiat rooted asset. Yeah, good question. Personally,
+I believe we don't see that. And the reason was, I think people have certain expectations of like
+what they use as money. And I think having an asset that's backed by longer tail stuff, I think
+in theory, it's that you can use that as a method of payment. And yeah, I think with crypto or
+blockchains, it does make that theoretically easier. But I don't think that's going to be widely
+accepted. So if you go to a merchant, they just want to know that it's a dollar. The merchant is
+going to understand the hundred different types of these dollar pegged assets that are backed by
+long tail assets. And so that's something that's very feasible. And then the other thing is just
+related to risk. Just because something is pegged to the dollar and has been historically, doesn't
+actually mean that it is very safe and doesn't mean that it won't depeg in the future. And I
+think we saw this with the stablecoin that was backed by real estate. And because real estate
+is a liquid, the stablecoin depegged by like 50%, I think it was called USR or something like that.
+This happened, I think, end of 2023 or sometime in 2024. And so yeah, that's sort of why I don't
+really believe that anything that's not truly a liquid stablecoin that's backed by safe assets
+can actually be used as a form of money or payment. To your point, even if vendors
+don't want to accept those longer tail stablecoin assets, that's why I'm personally very excited
+about some of the pay with crypto and credit card functionalities that are being built because
+it's much easier. Let's say I own tokenized Tesla stock and I want to use that as what is
+functionally my credit card payment asset. I can easily swipe a card and you can go from that Tesla
+asset to stable coins and the stable coins can either go to the vendor or it can convert to
+dollars and that can all happen very quickly. Whereas from what I know, the functionality of
+some of the traditional pay with stocks, the settlement just actually takes so long and it's
+so inefficient and equity markets run on market hours and crypto markets run 24 seven. So I could
+see maybe some sort of middle ground there where you can hold over asset and the stable coins,
+the USDC type stable coins are used as the instantaneous transaction method.
+Yeah, I think what we both said is actually true. So I agree with you that there can be
+these abstraction layers that make it very easy to convert from certain assets to stable coins
+that are used for payments. But I think what you describe as two separate processes, right? Like
+you're using these assets as a store of value. That's what you're holding them for as a user.
+But then it's like when you go to make the payment, ultimately you're selling off. And like you said,
+crypto facilitates the very easy conversion of these assets, but the actual payment is still
+made in like the payments. Yep, definitely. So looking at level USD in this stable coin landscape,
+last time I checked, I think this was last night, there's about 140 million in supply. I don't know
+if that's changed much over the last 12 hours, but where does this supply sit today? Like where
+does it exist? Is it in wallets? Is it in user wallets exchanges? And how is it being used? Who's
+using it? Yeah, good question. So I think since last time, we've actually grown to about 145.
+So sort of consistently growing in terms of where it's used. Right now it is used mostly
+for DeFi use cases as a way to generate yield. So we have part of the supply that's sitting in
+curve for liquidity. A lot of people have stake level USD for S level USD in order to earn the
+yield. So right now approximately one third of level USD is staked. And then with S level USD,
+you can then take it and use it elsewhere. So for example, on like Pindle, it's also accepted as
+collateral on some vaults and Morpho as well. And then, yeah, like I mentioned, Pindle is just
+generally a huge use case for both unstaked as well as staked level USD. And then yesterday,
+I don't know if you saw, but we basically did some big announcements and we're continuing to do
+announcements this week about level USD and related assets being able to be used as collateral on
+Morpho for borrowing. So these are like probably like the main use cases currently. And then,
+yeah, in terms of who are the users, it's sort of very split between like institutions and retail.
+I think, you know, with crypto being permissionless, sometimes it's hard to tell,
+but we do see wallets that are transacting like that are minting and then using like
+millions of dollars of level USD at a time. But then we also have people that are literally doing
+like a few dollars at a time. And so just depending on where you define the line between retail and
+institutions slash whales, we have like a really wide spectrum. And do you guys want level to be a
+fairly permissionless asset in the sense that anyone in DeFi who wants to build a pool or wants
+to integrate it in some capacity can do so? Or do you want to be selective with partners?
+My thinking here is if you have folks who are going really far out on the risk curve in terms
+of what their pools look like in terms of creating vaults that might be backing another asset or
+stable coin, do you guys have a selection threshold? Do you want to discourage folks
+you might not align with from a risk perspective or how do you vet people who would be working with
+level USD? Yeah, it's permissionless so anyone can use it. And we are starting to see protocols
+actually reach out to us. I think they want to like have our blessing, but we don't always
+give that but then they still go ahead and create it. They're free to do whatever they want with
+these assets, right? It's kind of like a very core principle of crypto and DeFi. In terms of protocols
+that we do put a more active effort into integrating for now, like we are quite selective here.
+And like, as you can probably tell, like we've literally just integrated with protocols that
+are already very established, very trusted. And so I think this includes the yield trading
+protocols like Pindle and Spectra, and then Morpho is like a big one and Morpho and other
+more like blue chip lending protocols that won't accept us as collateral. And so I think it's
+actually almost like pretty easy to know like who are like these kind of more leading protocols.
+And that's also changing, right? You have protocols that are growing, but yeah, there's probably only
+really a handful of those. And then we also, we don't actually discourage people from integrating
+level USD. But you know, we do see that with protocols that are not that they're not good,
+as I said, they're smaller currently and they could be like the blue chips of tomorrow.
+With that in mind, the growth of level USD, how do you look at growth on Ethereum main net
+versus other blockchains? It seems like you have a couple of different arenas there. There's main
+net, there's Solana and other VMs, there's Monad and Barrett chain and MegaEath and some of these
+newer EVM chains. And then you're also seeing a newer rise of folks who are trying to build
+stablecoin specific chains. So I'm curious how you look at
+where is the game to be played in your view and where are the major stablecoins going to exist
+and transact? Yeah, I think right now we're just very focused on Ethereum. I think despite a lot
+of complaints about Ethereum, like it is the place with the most liquidity with the most EFI activity.
+And I think until we saturate like Ethereum, we probably wouldn't actively go to other
+chains unless there's like a very good reason to do so from a distribution perspective.
+That being said, I think eventually, especially if we want to move towards more of these like
+payment or money use cases. And first of all, Ethereum's fees are also great recently, right?
+So that's actually not as big of a problem as it used to be. But obviously it still is, I think,
+higher than a lot of these L2s or alternative chains. And so I think in terms of like when we
+do get to that stage of trying to be used more for smaller transactions and for payments, then
+it probably does make sense to have level USD on those chains and kind of have those be the
+settlement layers. In terms of your question about stablecoins, like purposeful stablecoin
+chains, I think this is a very interesting topic. So I think at a level we actually do believe kind
+of in the value proposition of these chains. The reality is that existing blockchains aren't built
+for stablecoins specifically, right? They've sort of been built for like the more speculative cases
+of crypto. And I think as Codex, when they announced, I actually liked their quote where
+they said that right now, I think the way people are building on stablecoins is kind of like,
+I think they said it's like jerry-rigging together a bunch of plumbing that wasn't built
+for this purpose originally. And I actually do resonate with that. And I can go into details
+around exactly why that is the case. But yeah, that being said, obviously there are already
+like trillions of dollars worth of stablecoins being transacted on existing chains. So it's
+not that they don't work, but I think it's actually that stablecoin solves such a big problem that
+the existing chains are a good enough solution for now, even despite like where they do lack.
+I think if we want to really scale this thing, we really want to scale stablecoin use cases.
+I think we do think that these stablecoin chains do serve value. And specifically,
+there's probably a few categories off the top of my head. The first is actually related to compliance.
+And so I think the fact that public block like, you know, fully permissionless blockchains have
+permissionless validators is actually a problem for adoption for like certain institutions.
+Because when you make a transaction, you could be then directly paying like a validator in North
+Korea, for example. And that's kind of just no go for a lot of institutions. And so I'm pretty
+sure all of these chains are building permission validators, if there are no one. And then the
+other two are more like UI, UX related. One is just like, it actually doesn't really make sense
+to use arbitrary volatile tokens to be paying for transactions, right? That's clearly not built
+for stablecoin transactions. And we do have the things abstract that away, but it's sort of like,
+that's not really how it should be built from first principles. And I think the final one is
+just privacy. So publicly owned blockchains, you know, it's kind of a feature and a bug where
+it is fully public. But like, if you are getting your salary paid in stable coins, I'm sure you
+don't prefer that to be public, right? So yeah, that's kind of like our view on all of various
+chains and yes, specifically stablecoin chains. Yeah. Another argument I've heard, which I think
+makes sense is that to your point earlier, most of the chains we interact with today are built for
+permissionless finance and a permissionless building out of use cases. Presumably an enterprise
+grade chain that's meant to settle stable coins would actually be limited in scope and functionality
+in terms of certain financial use cases, in terms of asset issuance, in terms of some guardrails
+that would give comfort, just more so that the users of traditional institutions wouldn't
+potentially venture onto something that could be either dangerous from a security perspective or
+from a high risk perspective. So we believe, and it looks to be the case that that stable coins
+will continue to grow as a share of on-chain assets. And with that in mind will be a growing
+piece of DeFi. How do you think DeFi evolves around that stable coin growth and as stable
+coins constitute a wider share of on-chain assets and of DeFi? Yeah, I mean, I think DeFi is like
+built to support both stable as well as non-stable activity. And so we might have DeFi protocols that
+are specifically built to make stable coins or yield bearing stable coins more useful.
+But I think generally speaking, I do believe that's probably what we're going to evolve into.
+And this is basically just like, we're going to start seeing relatively less speculative activity
+in DeFi and then have more of these stable coin or dollar pegged type of assets.
+And this sort of goes back to what I was saying earlier, if we look at traditional finance,
+like the fixed income market is bigger than the equities market. And I think right now,
+if you compare the speculative side of crypto to equities and then the stable coin side to
+fixed income, well, if anything, actually, I think stable coins is already almost like on par now.
+And so I think we will see more of that. And I think that's going to be like the longer term
+trend because at the end of the day, pure speculation, it's always going to be around.
+That's why casinos exist too. But at the end of the day, casinos are a much smaller market than
+like actually a functional finance. Yep, makes sense. In your view, is there also a white space
+for stable coins pegged to other fiat currencies? That's been another topic people have been talking
+about recently. Or do you think this stays mostly dollarized? No, I think absolutely. I mean,
+I think in DeFi, I think US dollar stable coins will dominate just because it's become kind of
+like, I mean, even in Tradify, the US dollar is the global reserve currency. And then in DeFi,
+when it's even more borderless, it's even more so. Yeah, so DeFi use cases, I still do think US dollar
+stable coins will dominate. And then for like real world use cases, like the reality is most places
+outside the US, a lot of them don't accept US dollars, even though I guess people are starting
+to accept them more. And so for I think to increase adoption in those jurisdictions, it's like
+basically every currency, I think will need their own stable coin. And there's actually a lot of
+room to grow for them. And then that being said, it's kind of like if you do have stable coins
+other currencies, and they're on chain, then there is like this market for I think, games and like
+trading around different currencies, stable coins. So yeah, so I think it will grow a lot. We're not
+going to see a future where we only have US dollar stable coins being 99% of the market,
+especially as we develop more real world use cases. Got it. No, it's very helpful. And is the core
+product level USD? Is that going to be the primary focus for the time being? Are you guys going to
+look into these other sorts of stable coin primitives or, or what's on your mind going forward?
+Yeah, good question. We sort of think about growth in two phases for new stable coins is always the
+first part, which is scaling and building up like credibility and essentially a brand as a stable
+coin. So I think during this phase, we're going to essentially focus on what we're doing now,
+which is like this more defi native stable coin built on lending protocols,
+because like continue to consistently offer more attractive risk return profile. So this includes
+high yield, continue our low risk strategies, and then also just really increase like the utility
+and capital efficiency through just like integrating with a lot of defi protocols.
+Our view is actually that new stable coins actually have to expand beyond just being a
+stable coin issuer. I think there's a lot of different ways to do this, but I think I'm
+stealing a quote probably from an MZero interview. I think one of the founders or someone there was
+saying that the stable coins now are kind of like the Blackberries or like the Nokia's in the early
+days of phones. And then as we've seen, obviously like pure phone makers, they lost, right? And I
+think that's kind of like potentially how to think about stable coins. Now it's like, if you're just
+a stable coin issuer, that means you're the equivalent of just being like a phone manufacturer.
+And we've obviously seen like, you know, Apple's the most successful phone of all time. And the
+reason for that is because they were building value add like it's products on top of that,
+including like the App Store and a bunch of other things. And so I think especially for new stable
+coins, like the low hanging fruit of partnering with exchanges or like trying to basically get
+distribution, purely partnering up or paying for distribution is probably not going to be enough.
+And so we do believe that stable coins do need to build value add services themselves to increase
+their distribution. Like I said, there's a lot of different ways you can approach this. And this is
+something that we're thinking a lot about, not going to reveal I think too much here, but yeah,
+that's the idea is that we will be moving into building products that are going to increase
+like the utility as well as the use case and distribution of our core primitives, which is
+level USD. Very cool. And broadly speaking, I wanted to ask in closing here, what are you
+excited about and what keeps you up at night? In general, I'm actually just very excited about
+crypto, which is probably right now a little bit contrarian because you obviously see so much doom
+with crypto, but I guess that is more related to like the speculative side. And if anything,
+like when it's a bear market and I keep stealing people's calls, I think it was like Sam from
+Frax that said this, a bear market for crypto or like for the markets is actually a bull market
+for stable coins. And so yeah, kind of despite the rest of the market and you know, obviously
+want everyone to stay safe, not lose their money, but it's kind of like actually a really good time
+for stable coins to be building. And I think we're seeing so many stable coin issuers as
+well as stable coin use cases and just all of this like stuff that's being built around stable
+coins and just super excited about like the future of crypto being driven by stable coins.
+In terms of what keeps me up at night, it's kind of like the other side of the coin, which is just
+like, this is a massive, massive opportunity. Yeah. What I spend most of my time thinking
+about is like, how do we build products to actually be able to capture this opportunity?
+Because it's like, not everyone's going to be a winner. There is a lot of competition. And then
+it's like, I think we do have to be very strategic about what we build and how we go to market.
+Yeah. That's probably just like what I spend most of my days and nights thinking about.
+Awesome. Well, I'll leave it there. Keddy, and thanks for coming on and really enjoyed
+chatting. Hopefully we can do it again soon. Yeah, I appreciate it. This was fun.
+Thanks for listening to another episode of On the Brink with Castle Island. To find out
+more about Castle Island, visit castleisland.vc. To listen to all of our podcast episodes,
+please go to onthebrink-podcast.com or just click on the tab in our website. Thanks for listening.

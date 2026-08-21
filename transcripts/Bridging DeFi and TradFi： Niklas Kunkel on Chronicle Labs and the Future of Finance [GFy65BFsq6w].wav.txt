@@ -1,0 +1,274 @@
+ So, we've traditionally, you know, had all of our usage in DeFi coming from
+ crypto native assets, right? So I think currently we have just under 9 billion
+ in TVL, and I think that's really cool. But I think tokenized assets are going to
+ outscale crypto native by order of magnitude within the next 24 months.
+ And I think a personal goal for us right now is how quickly can we have that flip
+ happening chronicle, where, you know, we secure more in tokenized assets than we secure crypto
+ native assets.
+ All right, here we are with Nicholas Conkel, the founder of Chronicle Labs,
+ an Oracle provider for crypto and DeFi. Nick, it's agreed to have you on the defined podcast,
+ finally.
+ It's my pleasure. I'm so excited to be here.
+ And what a setting in Cannes for ETC. So really great to do this interview here.
+ Couldn't paint a prettier picture. Reality is a stranger to the fiction.
+ Yes, for sure. Okay, so I'd love to get started with the backstory of yourself and Chronicle
+ Labs. So your OG in crypto, you started out at Maker, built the first Oracle for the original
+ DeFi protocol. So can you, yeah, what kind of led you there and why start your own Oracle company?
+ Absolutely. I think, you know, MakerDAW was very early to having this vision of a DeFi ecosystem
+ that we thought might one day exist. And, you know, we thought a stablecoin would be very important
+ for that ecosystem. And that's what, you know, we set out to build. And in going through that
+ journey, it was like, Oh, well, we're missing Oracles. And we need some and they don't exist.
+ Right. So we had to build myself and Mariana Conti, we built the first Oracles on Ethereum.
+ But there were many other examples of this, like Texas did not exist. And so MakerDAW built the
+ first decentralized exchange on Ethereum. I realized that before Uniswap and Banker way before,
+ before Ether Delta, even. No, I did not know it was first called Simple Market.
+ Then it was called MKR market. And what later became renamed to Oasis. Oh, okay, I remember
+ Oasis for sure. Okay. Wow. I didn't know that. And why did you? So this is like a side track,
+ but like, why did you need the decks inside of MakerDAW? Well, because ICOs were not a thing
+ yet. And we needed funding. And so how were we going to sell our token if it wasn't listed on
+ a centralized exchange? So over a weekend, a gentleman by the name of Daniel Brockman,
+ he just whipped it together like in one weekend. He said, you know, that's, I don't think he
+ realized at the time, right, he created like a new primitive. So it was, it was a custom made
+ decks to sell Maker against ETH. It was, it could support any ERC 20 tokens.
+ And it was very primitive. So there was no order matching. So you could either create a buy order
+ or create a sell order. But someone else would have to click on that order to fill it. Oh, I see.
+ Okay. So if there was someone buying five MKR and another one buying four MKR,
+ if you were selling eight, you couldn't fill both of those at the same time. You had to fill five
+ of the first one. It was like kind of like a market place. It was very basic. But it was like,
+ it still appeared to be a completely decentralized marketplace. So at the time, like, yeah, this is
+ an example of how early Maker was and you guys were in DeFi. You had to like create your own
+ primitives to make things work. And so that's what happened when you were building an Oracle.
+ Can you go through the process of like, what was it, the pain point that you were
+ filling with that? So one of the problems that we saw was that Oracle's were incredibly
+ gas inefficient. And you might remember in the early years of Ethereum, gas price was a very big
+ problem. Yeah. Right. We had, you know, 500-way, 1000-way, I think during Black Thursday, we saw
+ 7000-way, right? And this meant that running Oracle's was incredibly expensive. I believe in 2021,
+ Maker now spent $6 million on gas alone for operating Oracle's. And so, fortunately,
+ Maker now was generating a lot of money and could afford this, right? But this helped me identify
+ this problem that Oracle's had. And that was kind of the impetus for spinning out
+ Chronicle and really redesigning an Oracle from the ground up for efficiency. And, you know,
+ that's kind of what we did. I think we can do an Oracle update now in 52,000 gas.
+ And, you know, just for context, right, like the default Ethereum transaction cost is 21,000.
+ Right? So, it really like cut it to the limit, right? And that was kind of the first iteration
+ and kind of why we thought that this would be interesting as a product, right, to the bigger
+ market and not just to Maker now and its ecosystem. And so, what are some of the differences between
+ Chronicle Labs and some of the, you know, other big Oracle providers, a tain link with also now,
+ kind of up and coming? Absolutely. So, I think, you know, there's
+ clearly some differences in technology, but also, I think, in terms of, like, strategic focus.
+ So, starting on the technology side, what we do is use a signature scheme called short signatures.
+ And the only thing that's kind of important about them is that you can have this many-to-one
+ relationship of signers to signatures. So, you can have many validators collaborate to generate
+ a single signature. And this is in contrast to what most Oracle's use, which is a ECDSA signature,
+ which is one-to-one, right, one signer, one signature. And what this really enables us to do
+ is have a near unlimited amount of validators that can kind of contribute to consensus.
+ And that's really a kind of factor of, right, how secure are you, right, how distributed and
+ broad is your validator set without kind of having this gas inefficiency penalty of having to verify,
+ you know, 100 signatures, 200 signatures. So, I think on the, that's on the technology side,
+ that's like the core scalability improvement we've made. And so, we have, you know, many more
+ validators than most, and so we have some really interesting kind of like DeFi kind of flagship
+ projects that, or not even DeFi, but crypto, that run our validators, like Gitcoin, Infura,
+ MakerDAO, of course, but even, you know, some institutional exposure, like Bitcoin, Swiss,
+ for instance, who joined relatively recently. And there's many others.
+ So, what's the benefit for end users to having multiple signatures?
+ It's essentially a stronger security guarantee, right, that the Oracle cannot be manipulated.
+ The more broader of a validator set you have, right, the harder and harder it is for those
+ validators to collude in an attempt to manipulate the Oracle.
+ And what is the trade-off in doing that? Like, does it slow things down, for example?
+ Interesting, you should say that, right? There are some trade-offs because
+ a Schnorr signature, right, we said it's signed by many different validators, they have to sign
+ in sequence, right? So, validator number one, two, three, four, right, one after the other,
+ versus with ECVSA signatures, this can be done in parallel, right, because every validator is
+ generating their own. So, from a latency point of view, it is slightly slower.
+ Fortunately, though, I think given the even given the fastest block times that we see right now,
+ which is mega-eth at around 100 milliseconds, we can still generate Oracle updates significantly
+ faster than that. So, it is a trade-off, you're right, but it's currently not a bottleneck.
+ And so, we'll see how, if anyone else comes along, you know, that claims to have even faster block
+ times than mega-eth at 100 milliseconds. Okay, that's interesting. Okay, and then you said one
+ aspect was technical and then the other was strategic. Sure, so, I think we made a bet
+ very early on tokenized assets. I think tokenized assets are
+ really the next stage of DeFi and kind of a critical stepping stone to this
+ merging of traditional finance and decentralized finance. And, you know, one day, we will just
+ call it finance, right? And we really started on this journey earlier than most, probably because
+ Maker was the earliest adopter of tokenized assets. Maker had a really big problem where,
+ in the bull market, everybody wants leverage. And that means that Maker was making a lot of money,
+ you know, 300, 400 million dollars revenue annually. But then in the bear market,
+ nobody wants leverage. And so, you know, you would be making 50, 60 million a year.
+ And that kind of volatility in your revenue is not really great for sustainably running a business
+ and a team and investing in new products. And so, there was a real impetus to start allocating
+ and getting exposure to the traditional financial system in order to smooth out that revenue.
+ And so, you know, some of the earliest RWA projects were like centrifuge, right, who,
+ you know, even though now are starting to become a really big player right in 2017,
+ there was very little demand for this stuff. But Maker and centrifuge had been working together
+ since that time. And so, I really had like a first hand exposure to, okay, like, what are the problems
+ that AD5 protocol was having, trying to integrate a tokenized asset when, you know, it didn't quite
+ fit the mold of the native crypto assets that we were onboarding. And what kind of infrastructure
+ was required and what kind of data was required and what were like these extra risks that we
+ somehow needed to come up with technical solutions for. And so, I think that gave us a better
+ understanding than most of how oracles would change, how their role would change from wherein
+ DeFi, it's traditionally a price, right, a price to make sure the loan to values are reasonable,
+ a price to trigger liquidations. And now really encapsulating more of a broader data spectrum
+ to allow those DeFi protocols to manage their risk exposure to these tokenized assets in a smarter
+ and more automated way that mimics the ability that they have with crypto native assets.
+ So, what other type of data do you have to specialize in to really enable RWAs?
+ Absolutely. So, I think one of the most popular tokenized assets over the past 12 months has been
+ these tokenized money market funds or tokenized treasury bills. This doesn't tell us a surprise,
+ right, because the yields are very attractive and the risk is very low. And the issuers, right,
+ like BlackRock, securitized Biddle, right, like super state, like centrifuge, right, are fairly
+ credible. So, I think there was like a magic, magical kind of soup there. But to your question,
+ right, what kind of data is interesting? Let's use the tokenized money market funds as an example.
+ Each of these is composed of a portfolio of different short dated treasuries, right? And so,
+ even though the performance of the whole might be okay, it's the total portfolios
+ worth this much and it's generating this much yield, you can have maturity, distribution,
+ mismatches. So, what I mean by this is a treasury bill, right? It has a term and after that term,
+ it matures, right? And so, then the fund will need to go and reinvest that money into
+ newer issued treasury bills. When you're investing at scale, like Maker at Sky is, you know, in the
+ billions, liquidity becomes a huge concern, right? If that position needs to be unwound,
+ can you unwind a billion or can you unwind a billion over two days or over three days?
+ And so, the protocol needs to have the context of, well, what is, how much is maturing this month?
+ How much is maturing the next month? How much is maturing the following month? What type of
+ liquidity is there to sell these treasuries before maturity without having a significant
+ market impact, right? Where, you know, you would start taking on a certain amount of, right,
+ like losses, right, so to speak. So, these questions become really important when you're
+ operating on the scale of billions here. Now, treasuries, I think, are an interesting example
+ because they're the most liquid market in the world. I think where the whole problem kind of the
+ levels up is private credit and private credit is really where I believe we will see the most
+ growth. Well, it's the biggest market right now within our WAs already. Absolutely.
+ And it's also one of the hardest to deal with. I imagine a lot more opaque with liquid, obviously.
+ If you, for T-bills, right, there are hundreds of millions of people out there who are a potential
+ buyer off your T-bills. For private credit, there's maybe half a dozen, right? And so,
+ it is more difficult to model this already in a trad-fi kind of context and then
+ tokenizing this and kind of adds an extra layer of complexity there, right? You may have on-chain
+ liquidity and off-chain liquidity. And how do you reconcile those two? And is anyone more important?
+ So, it's a very interesting problem, but it's one that is an Oracle provider. We are tackling
+ now and it's more fun than I've had in years because it's a really interesting problem that's
+ not the cookie cutter DeFi formula off. Okay, here's a token. Let's get some price sources.
+ Here's the price, right? Okay, send it to the customer, right? This is like-
+ A lot more sophisticated. A lot more sophisticated and creative. And there's new challenges and
+ problems and it's so fun. It's interesting. I hadn't thought of kind of RWA's in that way,
+ and the fact that RWA's have been such a big trend in DeFi. And yeah, everyone is all for
+ bringing all assets on-chain and yeah, you have tea bills and private credit and then people
+ want to bring in everything from real estate and art. But yeah, when people say those things,
+ I don't think anyone is. The first thing that comes to mind is saying, okay, but how do we get
+ the data that's needed for this to work on-chain? So yeah, it's an interesting challenge
+ with all of these new markets coming onward. How do you foresee that evolving? So, tea bills
+ on private credit are like the big RWA focus right now. Are you prepared for like other markets
+ who come on-chain or are you just like focusing on these two to start? So clearly, private credit
+ and treasuries are the biggest in market size right now. So of course, we are very active in those
+ domains. But just yesterday, we saw Robinhood announce that there are going to be tokenizing
+ equities and especially tokenizing non-public equities like SpaceX, for instance, which
+ is a unique value proposition. So I think that's very interesting. I think in the commodities
+ side of things, so far it's been mostly gold. We had Tether, I believe last year or earlier this
+ year, launched a gold-backed tokenized asset. So I think that's incredibly interesting as well.
+ But yes, I do see the primary drivers of growth continuing to be private credit.
+ With treasuries increasing in size, but at a slower rate than what we've seen
+ due to the expectation of monetary policy becoming a bit looser in the coming
+ months, six to 12 months. Okay, it makes sense. But the next kind of
+ lower-hanging fruits you think will be equities and commodities. Yeah, absolutely.
+ Can you maybe take us back and describe why oracles are a different challenge for
+ on-chain market versus off-chain. How do off-chain markets handle their data and how is that
+ different from how that's handled in DeFi and crypto? So I think they're starting to be a
+ convergence. I think we in DeFi, we have quite a few people who have no traditional financial
+ experience, and yet we've independently come up with some of the same solutions as we've
+ quote-unquote "speedrun traditional finance" in just a few short years.
+ Right, the corollary to oracles in the traditional financial world are the data brokers. It's the
+ Bloomberg's and Reuters off the world. And it is almost like a regulatory requirement,
+ right, that you are getting data, right, that from a risk management point of view that you're
+ not just getting data from one source or from one broker that you have fallback data that you
+ rely on as well. And I think DeFi is kind of going through the same maturity cycle at the moment
+ where it started off that oracles were just getting data from on-chain and from centralized
+ exchanges. And now, right, we are starting to tap into those traditional markets as data sources,
+ just as I imagine and expect Bloomberg and Reuters are looking to tap into the on-chain
+ data sources to start offering that to their clients. And I think what will end up happening
+ is this convergence, right, where Bloomberg and Reuters will eventually offer oracle services as
+ well. It's my guess. And the oracle providers, like ourselves, like Chainlink will be directly
+ competing with them. Interesting. Why do you think your your edge would be in that case?
+ Right. So I think we're burning the candle from both sides, right? We certainly have
+ the crypto native experience, you know, not just from Chronicle, but even from the maker day. So
+ really building DeFi from the ground up. But I think also we are much more involved on
+ the tokenized asset side than necessarily they are at this point. And so I think that's our kind
+ of competitive advantage in that we can see opportunities and see what is potentially just
+ fluff and what is going to actually be like really, really big and make sure that we are
+ getting those opportunities, right? And we are embedding ourselves in that kind of fabric as
+ finance as a whole is going through this transformation. On their end, right, what benefits do they
+ have? I mean, their network, right? They already are working with all of the data providers like
+ the custodians, like the asset managers, right? And so that's probably our weakness, right? Because
+ we have to go and create those relationships, create those technical integrations. But it's fun,
+ right? Each of us has a superpower and we're charging in each other's direction.
+ Yeah. No, we'll be fun to watch how, you know, those two converge.
+ So can you walk me through your business model and whether related to that, whether there will be
+ a token involved at some point? So I think Oracle's actually have one of the more obvious
+ business models in crypto in that Oracle service that are necessary and the users of those
+ services, right, are paying us. So it's quite monetizable in that respect.
+ In particular, tokenized assets, I think, are one of the easiest to monetize as well,
+ because the asset issuer is usually kind of collecting some or fund managers, usually collecting
+ some management fee, right? And so, you know, our business model is, you know, we can cut off a
+ sliver of that management fee, right, for our services that enable this tokenization to be successful.
+ Okay. How do you determine what that fee is?
+ I mean, at the moment, it's kind of on a case-by-case basis, right? You know, we work with very many
+ different parties under different circumstances. But I do expect that there is some convergence
+ and on the tokenized asset side, I just expect it to essentially scale with the
+ size of the issuance, right? Okay. And regarding a potential native token, is that something you're
+ planning? It's not something that we're ruling out, but it's not something that we have immediate
+ plans for either. What's important to me is that if we were to make a token, that it makes sense.
+ I think we have enough tokens that don't necessarily have a purpose or like a real
+ utility. And I would not want to have Chronicle be one of those.
+ For sure. How can you optimize Chronicle to be the best suited for RWAs?
+ I think we're kind of already doing it in the sense that through our kind of
+ partnership with the sky ecosystem, including sky and growth, who are currently some of the
+ largest capital allocators into tokenized assets, we work incredibly closely with them. And so
+ those teams are at the forefront of most of the major tokenized asset issuance
+ in the space right now. And we try to partner with all of those. So the idea is that we will
+ be able to build up a pretty significant market share on top of what we already have and kind of
+ snowball from there. I think this is not very novel. I think Jane Link is very effectively
+ utilized the same strategy of converting a moat in DeFi into credibility with traditional
+ financial institutions. And we're kind of doing the same, but going through the asset
+ issuers instead for tokenized assets. Makes sense. And your relationship with maker and
+ sorry, sky now, that definitely kind of cements your place in that area. Absolutely, right? I mean
+ Chronicle is not a part of sky, right? We are independent. But there are enormous synergies
+ in what we kind of call the greater sky ecosystem. And, you know, in essence, there's almost like
+ a maker mafia, right? That kind of has left maker or stayed in that orbit and created new entities,
+ right? And which is how you got sky, which is sorry, which is how you got spark,
+ stake house, growth, M0, both of the co-founders. You had some of the fixed rates for the calls
+ like sense. So there's actually a very diverse group of ex maker people out there still innovating.
+ And, you know, we've all worked together for many years. And, you know, we trust each other.
+ So there's a lot of, there's a lot of value there. For sure. Now getting to what's next
+ for you? Like what are the big milestones that you're working towards? So we've traditionally,
+ you know, had all of our usage in DeFi coming from crypto native assets, right? So I think
+ currently we have just under 9 billion in TVL. And I think that's really cool. But I think
+ tokenized assets are going to out scale crypto native by order of magnitude within the next 24
+ months. And I think a personal goal for us right now is how quickly can we have that flip
+ happening in Chronicle, where, you know, we secure more in tokenized assets than we secure
+ crypto native assets. And I think we are well on our way there. Like the road is fairly clear,
+ but now it's time to execute. And I think over the next six, maybe 12 conservatively,
+ but six optimistically, where we're going to be able to get there to have a tokenized real world
+ asset set. Sorry. So then it's real world assets flip it. Exactly. Right. So 10 billion DeFi,
+ more than 10 billion token assets. That'll be an interesting metric to watch.
+ Related to that, actually, curious about your thoughts on the kind of the big criticism for
+ RWAs in DeFi, which is just like censorship or lack thereof of having RWAs in DeFi.
+ Absolutely. I mean, I think that's valid criticism. There is something to be said for keeping DeFi
+ in a purely decentralized context. I myself am a bit more of a pragmatist. I think that
+ in TreadFi, you already have a bunch of parties that don't trust each other necessarily. And
+ they've come up with appropriate risk controls, right, to manage exposure to protect themselves.
+ And so I think you can have completely decentralized chains with completely decentralized financial
+ primitives running on top of them that incorporate tokenized assets but keep the exposure
+ limited or at least diversified to such an extent, right, that even a complete failure in a particular
+ tokenized asset doesn't create any solvency issues for the financial credit engine that's
+ underlying it. And I do understand the criticism, right, why even integrate it at all.
+ But it's a question of scale. If DeFi is limited by what is the total market cap of BTC, ETH,
+ and Solana sum together, we're never going to get to the scale that we need to be and have the
+ impact on the world that we know we can have. And so it's a bit of a deal with the devil, yes.
+ But I think if done the right way, where people aren't too greenby and blinded by
+ adding another zero or two more zeros, right, if we're cognizant of the risk and responsible,
+ this middle path can actually be like the optimal path.
+ That makes sense. Then to wrap up, I'd love your long-term big vision for Chronicle. What would you
+ want Chronicle laughs to look like in 10 years or name your timeline?
+ My vision is that decentralized finance and traditional finance merge together. And we don't
+ even differentiate them anymore. It will just be called finance. My vision for Chronicle is that
+ Chronicle is just embedded in that financial fabric of the world. So it's not necessarily
+ that when you do a bank payment that you see all the stuff that goes on underneath,
+ right, you couldn't imagine that you're actually still using a mainframe from the 1970s,
+ right, written in Cobol. But you are. And I believe that decentralized rails are going
+ to replace all of that. And I think Chronicle is going to be kind of critical and central
+ infrastructure powering those rails. Awesome. That's a big ambitious vision. So very,
+ very happy to have, you know, heard it from you here on our podcast. So thanks so much for joining.
+ Thank you so much for having me. This has been great.
